@@ -71,19 +71,19 @@ tags: [JavaScript, Questions]
 
 - Explain the difference between synchronous and asynchronous functions.解释同步函数和异步函数之间的区别。
 
+同步函数会被同步执行，异步函数会在micro task队列中异步执行。
+
 - What is event loop?什么是事件循环？
   
   - What is the difference between call stack and task queue?调用堆栈和任务队列有什么区别？
-  
-  
 
 - What are the differences between variables created using `let`, `var` or `const`?使用  `let` 、 `var`  或  `const`  创建的变量之间有什么区别？
 
 let/var 声明的变量的值是可变的，const 是不可变的。
 
-作用域不同。
+作用域不同：var会穿透if/switch/for等流程控制语句，let/const则不会。
 
-execution context 中的位置不同，let/const 在 lexical environment，var 在 variable environment。
+execution context 中的位置不同：let/const 在 lexical environment，var 在 variable environment。
 
 - What are the differences between ES6 class and ES5 function constructors?ES6 类和 ES5 函数构造函数有什么区别？
 
@@ -106,8 +106,6 @@ execution context 中的位置不同，let/const 在 lexical environment，var �
 - Why you might want to create static class members?为什么您可能想要创建静态类成员？
 
 - What is the difference between `while` and `do-while` loops in JavaScript?JavaScript 中的  `while`  和  `do-while`  循环有什么区别？
-
-
 
 - What is a promise? Where and how would you use promise?什么是承诺？你会在哪里以及如何使用 Promise？
 
