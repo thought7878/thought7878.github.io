@@ -2,7 +2,11 @@
 
 user?.username
 
-useRouter/router.back()/usePathname;pathname === "/profile/edit"
+### 两个 useRouter
+
+useRouter("next/navigation"): for client
+
+/router.back()/usePathname;pathname === "/profile/edit"
 
 next/navigation 与 next/router 区别
 
@@ -42,7 +46,7 @@ Thread.find({ parentId: { $in: [null, undefined] } });
 
 - User.findOne
 
-- id
+- id 与\_id 的区别
 
 ```
 _id
