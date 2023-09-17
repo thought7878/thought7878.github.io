@@ -7,11 +7,25 @@ tags: [JavaScript, Questions]
 # top: 2
 ---
 
+## [别人总结回答的](https://www.frontendinterviewhandbook.com/javascript-questions#:~:text=Can%20you%20give%20an%20example%20of%20one%20of%20the%20ways,caller%20from%20controlling%20context%20via%20.)
+
+## [前端面试系统的总结]([Practice UI and JavaScript/TypeScript Interview Questions with Solutions | GreatFrontEnd](https://www.greatfrontend.com/prepare))
+
 - Explain event delegation.解释事件委托
+
+**Event delegation** is a JavaScript design pattern that allows you to handle events for multiple child elements by attaching a single event listener to their parent element.  
+事件委托是一种 JavaScript 设计模式，允许您通过将单个事件侦听器附加到其父元素来处理多个子元素的事件。
+
+When an event occurs on a child element, it bubbles up through the DOM tree, triggering any event listeners attached to its ancestors. This allows you to handle the event at a higher level in the DOM, rather than having to attach event listeners to each individual child element.  
+当子元素上发生事件时，它会在 DOM 树中向上冒泡，触发附加到其祖先的任何事件侦听器。这允许您在 DOM 中更高级别处理事件，而不必将事件侦听器附加到每个单独的子元素。
+
+
 
 - Explain how `this` works in JavaScript.解释  `this`  在 JavaScript 中如何工作。
   
   - Can you give an example of one of the ways that working with `this` has changed in ES6?您能举例说明 ES6 中使用  `this`  的方式发生了变化吗？
+  
+  1.[bard答案]([Shared Conversation](https://webapp.chatgpt4google.com/s/MjY5MTUz))
 
 - Explain how prototypal inheritance works.解释原型继承如何工作。
 
