@@ -8,11 +8,11 @@
 
 ## Why?
 
-普通的布局方式实现二维排版：通过复杂的  `dom`  嵌套才能实现二维布局。
+普通方式实现二维布局，通过复杂的  `dom`  嵌套才能实现二维布局。
 
 使用  `Grid`  布局时，`dom`  的层级结构更少了，去掉了普通方式的多余标签。使用  `Grid`  的优点显而易见，同一份  `dom`  结构，便可实现不同的个性化布局。
 
-### 概念
+## 概念
 
 #### 什么是网格布局
 
@@ -54,6 +54,27 @@
 
 > 两个*不相邻*的行网格线和两个*不相邻*的列网格线所包围的空间为网格区域，网络区域有任意数量的**网格单元格组成**。如下图第一第三条行网格线和第二第四列网格线所包围的紫色区域。  
 > [![](https://github.com/ShaoWeibin/images/blob/master/grid-area.png?raw=true)](https://github.com/ShaoWeibin/images/blob/master/grid-area.png?raw=true)
+
+### CSS Grid 的常用属性如下：
+
+**容器属性**
+
+- **display:** grid：将元素设置为网格容器
+- **grid-template-columns:** 定义列的数量和宽度
+- **grid-template-rows:** 定义行的数量和高度
+- **grid-gap:** 定义网格线之间的间距
+
+**项目属性**
+
+- **grid-area:** 将项目分配给特定的网格区域
+- **grid-column:** 指定项目在列轴上的位置
+- **grid-row:** 指定项目在行轴上的位置
+- **grid-column-start:** 指定项目在列轴上的起始位置
+- **grid-column-end:** 指定项目在列轴上的结束位置
+- **grid-row-start:** 指定项目在行轴上的起始位置
+- **grid-row-end:** 指定项目在行轴上的结束位置
+
+
 
 ### 开始布局
 
