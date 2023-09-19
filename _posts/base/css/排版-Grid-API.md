@@ -114,7 +114,13 @@ Values: 
 
 ## grid-template-areas
 
-使用 [grid-area](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area)  属性指定的网格区域的名称来定义网格模板。重复网格区域的名称会导致内容跨越这些单元格。点表示空单元格。语法本身提供了网格结构的可视化。
+使用`grid-template-areas`同样也可以显式的创建一个网格布局，并且该语法使得网格结构更加的可视化，还不需要再命名网格线。
+
+使用这属性必须要遵循以下规则：
+
+1. 描述完整的网格结构
+2. 使用`.`来标记一个空的`grid cell`
+3. 使用`none`表示没有定义`grid areas`
 
 Values: 
 
@@ -191,11 +197,7 @@ Values: 价值观：
     [row2-start] "footer footer footer" 25px [row2-end]
     / auto 50px auto;
 }
-```
-
-这相当于：
-
-```css
+/*这相当于：*/
 .container {
   grid-template-rows: [row1-start] 25px [row1-end row2-start] 25px [row2-end];
   grid-template-columns: auto 50px auto;
@@ -205,6 +207,301 @@ Values: 价值观：
 }
 ```
 
+
+
 由于 `grid-template` 不会重置隐式网格属性（ [grid-auto-columns](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-auto-columns-rows) 、 [grid-auto-rows](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-auto-columns-rows) 和 [grid-auto-flow](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-auto-flow) ），这可能就是您想要的在大多数情况下，建议使用 [grid](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid) 属性而不是 `grid-template` 。
 
 
+
+## column-gap、row-gap、grid-column-gap、grid-row-gap
+
+用于定义**两个grid项目之间的间距**，可以用任意css长度单位
+
+```css
+.container {
+  /* standard */
+  column-gap: <line-size>;
+  row-gap: <line-size>;
+
+  /* old 已被弃用*/
+  grid-column-gap: <line-size>;
+  grid-row-gap: <line-size>;
+}
+```
+
+Example: 
+
+```css
+.container {
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-18-32-37-image.png)
+
+## gap、grid-gap
+
+row-gap 和 column-gap 的简写。如果只定义了一个value，那么`row-gap`和`column-gap`都会采用该值。
+
+```css
+.container {
+  /* standard */
+  gap: <grid-row-gap> <grid-column-gap>;
+
+  /* old 已被弃用*/
+  grid-gap: <grid-row-gap> <grid-column-gap>;
+}
+```
+
+Example: 
+
+```css
+.container {
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  gap: 15px 10px;
+}
+```
+
+## justify-items
+
+沿着水平方向的轴线对齐网格项目，这个值适用于容器内的所有网格项目。
+
+**如果不设置该值，默认会拉伸所有的`gird项目`至`grid cell`的大小**
+
+1. 让项目在网格的起始位置对齐
+
+```css
+.container {
+  justify-items: start;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-18-42-02-image.png)
+
+2. 让项目在网格的结束位置对齐
+
+```css
+.container {
+  justify-items: end;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-18-43-39-image.png)
+
+3. 让项目在网格的中间位置对齐
+
+```css
+.container {
+  justify-items: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-18-46-06-image.png)
+
+4. 拉伸项目至网格宽度
+
+```css
+.container {
+  justify-items: stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-18-46-38-image.png)
+
+## align-items
+
+这个属性沿着竖直方向的轴线对齐网格项目。
+
+1. 沿竖直方向在网格（网格域）的开始位置对齐
+
+```css
+.container {
+  align-items: start;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-06-13-image.png)
+
+2. 沿竖直方向在网格的结束位置对齐
+
+```css
+.container {
+  align-items: end;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-07-15-image.png)
+
+3. 沿竖直方向在网格的中间位置对齐
+
+```css
+.container {
+  align-items: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-07-45-image.png)
+
+4. 沿竖直方向拉伸项目至网格的高度
+
+```css
+.container {
+  align-items: stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-08-17-image.png)
+
+## justify-content
+
+和flex的一样，用于设置水平方向网格的对齐方式。即当网格总尺寸小于容器尺寸时使用
+
+1. 沿着容器的水平方向的开始位置，对齐网格
+
+```css
+.container {
+  justify-content: start;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-13-53-image.png)
+
+2. 沿容器的水平方向的结束位置，对齐网格
+
+```css
+.container {
+  justify-content: end;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-14-52-image.png)
+
+3. 沿容器的水平方向的中间位置，对齐网格
+
+```css
+.container {
+  justify-content: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-15-23-image.png)
+
+4. 沿容器的水平方向拉伸网格
+
+比如设置`grid-template-columns: 100px auto 100px`，第二列的网格没有设置一个固定尺寸，然后再设置以下的值（该值为默认值），则会拉伸。如果设置的是固定尺寸(px)，则无法拉伸
+
+```css
+.container {
+  justify-content: stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-16-01-image.png)
+
+5. 沿容器的水平方向均匀分配剩余空间，项目与项目间的间隔距离比项目与容器边框的距离大1倍
+
+```css
+.container {
+  justify-content: space-around;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-17-39-image.png)
+
+6. 沿容器水平方向两边排列项目
+
+```css
+.container {
+  justify-content: space-between;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-18-15-image.png)
+
+7. 和space-around类似，不过该值无论是项目与项目间的间隔距离还是项目与容器边框的距离都会均匀分配
+
+```css
+.container {
+  justify-content: space-evenly;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-19-22-image.png)
+
+## align-content
+
+与justify-content相反，用于设置竖直方向grid cell的对齐方式。即当grid cell总尺寸小于grid container时使用
+
+1. 沿着容器的竖直方向，对齐网格
+
+```css
+.container {
+  align-content: start;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-29-36-image.png)
+
+
+
+```css
+.container {
+  align-content: end;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-30-05-image.png)
+
+
+
+```css
+.container {
+  align-content: center;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-30-33-image.png)
+
+
+
+```css
+.container {
+  align-content: stretch;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-31-00-image.png)
+
+
+
+```css
+.container {
+  align-content: space-around;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-32-11-image.png)
+
+
+
+```css
+.container {
+  align-content: space-between;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-33-01-image.png)
+
+
+
+```css
+.container {
+  align-content: space-evenly;    
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-19-33-55-image.png)
