@@ -1,3 +1,5 @@
+# Grid 容器的属性
+
 ## display
 
 Defines the element as a grid container and establishes a new grid formatting context for its contents.  
@@ -268,7 +270,7 @@ Example: 
 
 ## justify-items
 
-沿着水平方向的轴线对齐网格项目，这个值适用于容器内的所有网格项目。
+item在水平方向相对cell的对齐，这个值适用于容器内的所有网格项目。
 
 **如果不设置该值，默认会拉伸所有的`gird项目`至`grid cell`的大小**
 
@@ -314,7 +316,7 @@ Example: 
 
 ## align-items
 
-这个属性沿着竖直方向的轴线对齐网格项目。
+item在垂直方向相对cell的对齐。
 
 1. 沿竖直方向在网格（网格域）的开始位置对齐
 
@@ -358,7 +360,7 @@ Example: 
 
 ## justify-content
 
-和flex的一样，用于设置水平方向网格的对齐方式。即当网格总尺寸小于容器尺寸时使用
+和flex的一样，用于设置水平方向，**相对于容器**的对齐方式。即当网格总尺寸小于容器尺寸时使用。
 
 1. 沿着容器的水平方向的开始位置，对齐网格
 
@@ -466,7 +468,9 @@ Example: 
 
 ![](assets/排版-Grid-API/2023-09-19-19-30-33-image.png)
 
+4. 沿容器的竖直方向拉伸网格
 
+比如设置`grid-template-rows: 100px auto 100px`，第行列的网格没有设置一个固定尺寸，然后再设置以下的值（该值为默认值），则会拉伸。如果设置的是固定尺寸(px)，则无法拉伸
 
 ```css
 .container {
@@ -505,3 +509,197 @@ Example: 
 ```
 
 ![](assets/排版-Grid-API/2023-09-19-19-33-55-image.png)
+
+
+
+# Grid item的属性
+
+## grid-column-start、grid-column-end、grid-row-start、grid-row-end
+
+以上这几个属性用于控制项目的位置以及项目所占网格大小，通过参考特定的网格线确定网格项在网格内的位置。 `grid-column-start` / `grid-row-start` 是项目开始的行， `grid-column-end` / `grid-row-end` 是项目结束的行。
+
+- `span <number>` – 该项目将跨越提供的网格轨道数
+
+- 如果没有声明 `grid-column-end` / `grid-row-end` ，则默认情况下该项目将跨越 1 个轨道。
+
+- 项目可以相互重叠。您可以使用 `z-index` 来控制它们的堆叠顺序。
+
+ 例子：
+
+```css
+.item-a {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-20-00-21-image.png)
+
+```css
+.item-b {
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-20-03-27-image.png)
+
+## grid-column、grid-row
+
+该属性是上面属性的简写方式。如果未声明结束线值，则默认情况下该项目将跨越 1 个轨道。语法如下：
+
+```css
+.item {
+  grid-column: <start-line> / <end-line> | <start-line> / span <value>;
+  grid-row: <start-line> / <end-line> | <start-line> / span <value>;
+}
+```
+
+例子：
+
+```css
+.item-c {
+  grid-column: 3 / span 2;
+  grid-row: third-line / 4;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-20-08-35-image.png)
+
+## grid-area（推荐写法）
+
+grid-template-areas定义可视化的网格布局，然后该属性来指定item网格域；为项目指定名称，以便使用 [grid-template-areas](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-template-areas) 属性创建的模板，即模版可以引用该项目。此属性可以用作 [grid-row-start](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-column-start](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-row-end](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-column-end](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) 的简写。
+
+- 为项目分配名称：
+
+```css
+.item-d {
+  grid-area: header;
+}
+```
+
+- 作为 [grid-row-start](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-column-start](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-row-end](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) + [grid-column-end](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end) 的简写：
+
+```css
+.item-d {
+  grid-area: 1 / col4-start / last-line / 6;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-02-49-image.png)
+
+## justify-self
+
+水平方向，相对cell，对齐单个的网格项。
+
+1. 开始对齐
+
+```css
+.item-a {
+  justify-self: start;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-09-19-image.png)
+
+2. 
+
+```css
+.item-a {
+  justify-self: end;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-09-56-image.png)
+
+3. 
+
+```css
+.item-a {
+  justify-self: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-10-34-image.png)
+
+4. 
+
+```css
+.item-a {
+  justify-self: stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-10-59-image.png)
+
+## align-self
+
+垂直方向，相对cell，对齐单个的网格项。
+
+1. 
+
+```css
+.item-a {
+   align-self: start;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-15-04-image.png)
+
+2. 
+
+```css
+.item-a {
+   align-self: end;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-16-10-image.png)
+
+3. 
+
+```css
+.item-a {
+   align-self: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-16-33-image.png)
+
+4. 
+
+```css
+.item-a {
+   align-self: stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-16-58-image.png)
+
+## place-self
+
+该属性为`justify-self`和`align-self`的简写模式。
+
+`<align-self>` / `<justify-self>` – 第一个值设置 `align-self` ，第二个值设置 `justify-self` 。如果省略第二个值，则将第一个值分配给这两个属性。
+
+```css
+.item-a {
+  place-self: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-18-35-image.png)
+
+```css
+.item-a {
+  place-self: center stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-20-55-image.png)
+
+
