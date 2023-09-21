@@ -52,7 +52,6 @@ console.log(mod.name)
 import('./module.js').then(function (module) {
   console.log(module)
 })
-
 ```
 
 ## 同时使用导入/导出
