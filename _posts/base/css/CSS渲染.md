@@ -127,7 +127,7 @@ radial-gradient(shape size at position, start-color, ..., last-color);
     color: white;
     border: solid 1px ;
 }
- 
+
 </style>
 <div class="button orange">123</div>
 ```
