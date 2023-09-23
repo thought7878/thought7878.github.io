@@ -18,6 +18,8 @@
 
 ![](https://camo.githubusercontent.com/c0b9718c6be699aa4ff27b12ab21f16864c28d3e1d185d4383657ac2f1b75c30/68747470733a2f2f696c6c75737472617465642d6769742e72656164746865646f63732e6f72672f656e2f6c61746573742f5f696d616765732f6769742d666c6f77732e737667)
 
+![File:Git operations.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Git_operations.svg/734px-Git_operations.svg.png)
+
 #### 配置信息
 
 ###### 查询配置信息
