@@ -1,5 +1,3 @@
-
-
 ## 基本概念
 
 `工作区(workspace)`: 本地电脑存放项目文件的地方，我们平时开发写的代码也是在这个区进行的；
@@ -11,8 +9,6 @@
 `远程仓库(Remote)`: 项目代码在远程git服务器上，通常使用`clone`命令将远程仓库拷贝到本地仓库中，开发后通过`push`推送到远程仓库中；
 
 ![image](https://raw.githubusercontent.com/goto456/markdown-pictures/master/wengeblog/git/1.png)
-
-
 
 ## 常用命令
 
@@ -233,7 +229,6 @@ file/**
 
 # 忽略a/file，a/c/file，a/c/d/file 目录下的所有文件
 a/**/file
-
 ```
 
 > 当 `.gitignore` 配置发生冲突时，后面的配置会覆盖前面的配置
@@ -246,7 +241,6 @@ git rm -r --cached .
 git add .
 
 git commit -m "update .gitignore"
-
 ```
 
 ## 参考资料
@@ -254,5 +248,3 @@ git commit -m "update .gitignore"
 - [Git 常用操作总结](https://juejin.cn/post/6844903586120335367 "https://juejin.cn/post/6844903586120335367")
 - [字节研发设施下的 Git 工作流](https://juejin.cn/post/6875874533228838925 "https://juejin.cn/post/6875874533228838925")
 - [进公司不会用 Git 拉项目！第二天被开除？天！那还在等什么，快点进来看看](https://juejin.cn/post/6951219502319140878#heading-15 "https://juejin.cn/post/6951219502319140878#heading-15")
-
-
