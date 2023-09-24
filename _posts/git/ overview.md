@@ -64,7 +64,7 @@
 
 <u>取消暂存区</u>已经暂存的文件: `git reset HEAD <file>...`；
 
-撤销工作区指定文件的操作: `git checkout -- <file>`；撤销工作区所有文件的操作: `git checkout -- .`；
+<u>撤销工作区</u>指定文件的操作: `git checkout -- <file>`；撤销工作区所有文件的操作: `git checkout -- .`；
 
 ###### 更新文件
 
