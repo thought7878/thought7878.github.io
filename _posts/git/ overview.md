@@ -62,7 +62,7 @@
 
 从暂存区删除文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
 
-取消暂存区已经暂存的文件: `git reset HEAD <file>...`；
+<u>取消暂存区</u>已经暂存的文件: `git reset HEAD <file>...`；
 
 撤销工作区指定文件的操作: `git checkout -- <file>`；撤销工作区所有文件的操作: `git checkout -- .`；
 
@@ -134,15 +134,15 @@
 
 #### 差异比较
 
-比较工作区中当前文件和暂存区之间的差异: `git diff <file-name>`；
+比较<u>工作区</u>中当前文件和<u>暂存区</u>之间的差异: `git diff <file-name>`；
 
-比较暂存区文件和本地仓库的差异: `git diff --cached`；
+比较<u>暂存区</u>文件和<u>本地仓库（HEAD）</u>的差异: `git diff --cached`；
 
-指定文件在暂存区和本地仓库的差异: `git diff <file-name> --cached`；
+指定文件在暂存区和本地仓库（HEAD）的差异: `git diff <file-name> --cached`；
 
-#### 其他常用的操作
+#### 常用的操作
 
-修改最新commit的message：git commit --amend；
+修改最新commit的message：`git commit --amend`；
 
 
 
@@ -153,6 +153,12 @@
 
 
 修改老旧commit的message：
+
+把连续的多个commit整理成一个：
+
+把间隔的几个commit整理成一个：
+
+
 
 #### git tag（标签）
 
