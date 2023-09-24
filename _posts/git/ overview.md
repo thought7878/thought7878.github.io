@@ -158,21 +158,15 @@ git switch -c <branch-name>
 
 修改最新commit的message：`git commit --amend`；
 
-
-
 查询当前工作区所有文件的状态: `git status`；
 
 查看最近的三条提交历史（单行显示）: `git log --oneline -3`；
-
-
 
 修改老旧commit的message：
 
 把连续的多个commit整理成一个：
 
 把间隔的几个commit整理成一个：
-
-
 
 #### git tag（标签）
 
