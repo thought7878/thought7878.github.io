@@ -108,9 +108,23 @@
 
 **创建**分支: `git branch <branch-name>`；
 
-从当前分支**切换**到其他分支: `git checkout <branch-name>`；
+从当前分支**切换**到其他分支: 
 
-**新建并切换**到新建分支: `git checkout -b <branch-name>`；
+```bash
+// 原来的
+git checkout <branch-name> | <commite id>
+// 新的
+git switch <branch-name>
+```
+
+**新建并切换**到新建分支: ；
+
+```bash
+// 原来的
+git checkout -b <branch-name>
+// 新的
+git switch -c <branch-name>
+```
 
 **删除**分支: `git branch -d <branch-name>`；
 
