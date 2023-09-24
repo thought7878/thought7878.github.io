@@ -106,21 +106,21 @@
 
 #### 分支操作
 
-创建分支: `git branch <branch-name>`；
+**创建**分支: `git branch <branch-name>`；
 
-从当前分支切换到其他分支: `git checkout <branch-name>`；
+从当前分支**切换**到其他分支: `git checkout <branch-name>`；
 
-新建并切换到新建分支: `git checkout -b <branch-name>`；
+**新建并切换**到新建分支: `git checkout -b <branch-name>`；
 
-删除分支: `git branch -d <branch-name>`；
+**删除**分支: `git branch -d <branch-name>`；
 
-强制删除分支: `git branch -D <branch-name>`；
+**强制删除**分支: `git branch -D <branch-name>`；
 
-将当前分支和指定分支进行合并: `git merge <branch-name>`；
+将当前分支和指定分支进行**合并**: `git merge <branch-name>`；
 
-显示本地仓库的所有分支: `git branch`；
+**显示**本地仓库的所有分支: `git branch`；
 
-显示远程仓库的所有分支: `git branch -r`；
+**显示远程**仓库的所有分支: `git branch -r`；
 
 显示本地仓库和远程仓库的所有分支: `git branch -a`；
 
@@ -130,7 +130,7 @@
 
 把远程分支合并到当前分支: `git merge <remote-name>/<branch-name>`；
 
-重新命名分支: `git branch -m <old-branch-name> <new-branch-name>`；
+**重新命名**分支: `git branch -m <old-branch-name> <new-branch-name>`；
 
 #### 差异比较
 
@@ -140,11 +140,19 @@
 
 指定文件在暂存区和本地仓库的差异: `git diff <file-name> --cached`；
 
-#### 其他操作
+#### 其他常用的操作
+
+修改最新commit的message：git commit --amend；
+
+
 
 查询当前工作区所有文件的状态: `git status`；
 
 查看最近的三条提交历史（单行显示）: `git log --oneline -3`；
+
+
+
+修改老旧commit的message：
 
 #### git tag（标签）
 
