@@ -20,6 +20,8 @@
 
 ![File:Git operations.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Git_operations.svg/734px-Git_operations.svg.png)
 
+![You Can Understand Git & Git Commands with These Diagrams ...](https://miro.medium.com/v2/resize:fit:1200/1*eGdNATA_BGQcA1xUvc9Irg.png)
+
 #### 配置信息
 
 ###### 查询配置信息
