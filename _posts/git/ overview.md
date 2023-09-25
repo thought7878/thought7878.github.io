@@ -6,7 +6,7 @@
 
 `本地仓库(Repository)`: `.git`文件夹里还包括`git`自动创建的`master`分支，并且将`HEAD`指针指向`master`分支。使用`commit`命令可以将暂存区中的文件添加到本地仓库中；
 
-`远程仓库(Remote)`: 项目代码在远程git服务器上，通常使用`clone`命令将远程仓库拷贝到本地仓库中，开发后通过`push`推送到远程仓库中；
+`远程仓库(Remote)`: 项目代码在远程 git 服务器上，通常使用`clone`命令将远程仓库拷贝到本地仓库中，开发后通过`push`推送到远程仓库中；
 
 ![image](https://raw.githubusercontent.com/goto456/markdown-pictures/master/wengeblog/git/1.png)
 
@@ -24,7 +24,7 @@
 
 列出当前配置: `git config --list`；
 
-列出repository配置: `git config --local --list`；
+列出 repository 配置: `git config --local --list`；
 
 列出全局配置: `git config --global --list`；
 
@@ -108,7 +108,7 @@
 
 **创建**分支: `git branch <branch-name>`；
 
-从当前分支**切换**到其他分支: 
+从当前分支**切换**到其他分支:
 
 ```bash
 // 原来的
@@ -156,17 +156,17 @@ git switch -c <branch-name>
 
 #### 常用的操作
 
-修改最新commit的message：`git commit --amend`；
+修改最新 commit 的 message：`git commit --amend`；
 
 查询当前工作区所有文件的状态: `git status`；
 
 查看最近的三条提交历史（单行显示）: `git log --oneline -3`；
 
-修改老旧commit的message：
+修改老旧 commit 的 message：
 
-把连续的多个commit整理成一个：
+把连续的多个 commit 整理成一个：
 
-把间隔的几个commit整理成一个：
+把间隔的几个 commit 整理成一个：
 
 #### git tag（标签）
 
