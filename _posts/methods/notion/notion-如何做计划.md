@@ -2,8 +2,6 @@
 
 [00:00](https://www.youtube.com/watch?v=9LWdSNga4_Y&t=0s) - 開頭 
 
-
-
 [00:21](https://www.youtube.com/watch?v=9LWdSNga4_Y&t=21s) - 每週計畫的好處 
 
 [01:28](https://www.youtube.com/watch?v=9LWdSNga4_Y&t=88s) - 在Notion裡進行每週計畫
@@ -15,8 +13,6 @@
 3:12-帮助找到工作和生活的平衡
 
 4:08-notion演示
-
-
 
 ## [我的2023年度計畫🚀 - YouTube](https://www.youtube.com/watch?v=HZEfrP7Vkzk)
 
