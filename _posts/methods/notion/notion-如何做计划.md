@@ -27,3 +27,10 @@
 [07:05](https://www.youtube.com/watch?v=HZEfrP7Vkzk&t=425s) Step 5. 寫下未來可能想做的事 
 
 [07:54](https://www.youtube.com/watch?v=HZEfrP7Vkzk&t=474s) Step 6. 列出不做清單
+
+
+
+
+
+notion中文版教程网站：https://notionchina.co/
+OKR+GTD模板链接：https://www.notion.so/a939de5d1446454085bc226d395dae87
