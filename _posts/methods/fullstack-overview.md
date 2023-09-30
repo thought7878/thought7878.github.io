@@ -278,9 +278,17 @@
 
 # 前端工程化
 
+## NPM
+
 ## 模块化
 
-## Webpack
+### why，为什么需要模块化
+
+### CommonJS/AMD/UMD/ES模块标准的区别
+
+### 
+
+## Webpack/Rollup/Vite/Gulp
 
 ## 代码编译和构建
 
@@ -293,6 +301,10 @@
 ![Drawing 5.png](https://s0.lgstatic.com/i/image6/M00/33/CD/CioPOWBv0LuAOD7EAAJj8UAnb4M677.png)
 
 ## 代码规范
+
+### 
+
+### ESLint/StyleLint/Prettier/Git Hook
 
 ## 开发流程
 
