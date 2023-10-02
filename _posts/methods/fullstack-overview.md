@@ -278,7 +278,9 @@
 
 # 前端工程化
 
-## NPM
+## 包管理工具：NPM/Pnpm/Yarn
+
+
 
 ## 模块化
 
@@ -286,9 +288,7 @@
 
 ### CommonJS/AMD/UMD/ES模块标准的区别
 
-### 
-
-## Webpack/Rollup/Vite/Gulp
+## Webpack/Rollup/Vite/Turbopack/Gulp
 
 ## 代码编译和构建
 
@@ -303,8 +303,6 @@
 ## 代码规范
 
 ### ESLint/StyleLint/Prettier/Git Hook
-
-
 
 ## 开发流程
 
