@@ -80,7 +80,7 @@
 
 #### 撤销
 
-<u>撤销</u>已经暂存的文件，恢复成和HEAD一样: `git reset HEAD <file>...`；
+<u>撤销</u>暂存区的文件到工作区，暂存区恢复成和 HEAD 一样: `git reset HEAD <file>...`
 
 <u>删除</u>暂存区文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
 
@@ -156,7 +156,7 @@ git switch -c <branch-name>
 
 比较<u>暂存区</u>的指定文件和<u>本地仓库</u>（HEAD）的差异: `git diff <file-name> --cached`；
 
-### 常用的操作：独自使用Git时的常见场景
+### 常用的操作：独自使用 Git 时的常见场景
 
 修改最新 commit 的 message：`git commit --amend`；
 
