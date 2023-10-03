@@ -18,9 +18,9 @@
 
 ![You Can Understand Git & Git Commands with These Diagrams ...](https://miro.medium.com/v2/resize:fit:1200/1*eGdNATA_BGQcA1xUvc9Irg.png)
 
-#### 配置信息
+### 配置信息
 
-###### 查询配置信息
+##### 查询配置信息
 
 列出当前配置: `git config --list`；
 
@@ -30,25 +30,25 @@
 
 列出系统配置: `git config --system --list`;
 
-###### 设置配置信息
+##### 设置配置信息
 
 配置用户名: `git config --global/local user.name "your name"`；
 
 配置用户邮箱: `git config --global/local user.email "youremail@github.com"`；
 
-###### 其他配置信息
+##### 其他配置信息
 
 配置 Git 命令输出为彩色: `git config --global color.ui auto`；
 
 配置 Git 使用的文本编辑器: `git config --global core.editor vi`；
 
-#### 工作区操作
+### 工作区操作
 
-###### 新建仓库
+#### 新建仓库
 
 创建一个新的本地仓库: `git init`；
 
-###### 提交
+#### 提交
 
 提交工作区所有文件到暂存区: `git add .`；
 
@@ -56,25 +56,21 @@
 
 提交工作区中某个文件夹中所有文件到暂存区: `git add [dir]`；
 
-###### 撤销
+#### 撤销
 
 删除工作区文件，并且从暂存区删除对应的文件记录: `git rm <file1> <file2> ...`；
 
-从暂存区删除文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
-
-<u>取消暂存区</u>已经暂存的文件: `git reset HEAD <file>...`；
-
 <u>撤销工作区</u>指定文件的操作: `git checkout -- <file>`；撤销工作区所有文件的操作: `git checkout -- .`；
 
-###### 更新文件
+#### 更新文件
 
 重命名文件，并将已改名文件提交到暂存区: `git mv [file-original] [file-renamed]`；
 
 > Git 的文件命名默认情况下是不区分大小写的
 
-#### 暂存区操作
+### 暂存区操作
 
-###### 提交到本地仓库
+#### 提交到本地仓库
 
 将暂存区的文件提交到本地仓库: `git commit -m "commit-info"`；
 
@@ -82,7 +78,13 @@
 
 覆盖上次的`commit`记录，并将暂存区的文件提交到本地仓库: `git commit --amend -m "commit-info"`；
 
-#### 本地仓库操作
+#### 撤销
+
+<u>撤销</u>已经暂存的文件，恢复成和HEAD一样: `git reset HEAD <file>...`；
+
+<u>删除</u>暂存区文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
+
+### 本地仓库操作
 
 从远程仓库拉取代码并合并到本地: `git pull <remote-name> <remote-branch>:<local-branch>`，使用`rebase`的模式进行合并: `git pull --rebase <remote-name> <remote-branch>:<local-branch>`；
 
@@ -92,7 +94,7 @@
 
 将本地仓库某个分支推送到远程仓库上: `git push [remote-name] [branch-name]`，如果想将本地分支推送到远程仓库的不同分支: `git push <remote-name> <local-branch>:<remote-branch>`；
 
-#### 远程仓库操作
+### 远程仓库操作
 
 从远程仓库克隆项目: `git clone <url>`；
 
@@ -104,7 +106,7 @@
 
 移除远程仓库: `git remote rm [remote-name]`；
 
-#### 分支操作
+### 分支操作
 
 **创建**分支: `git branch <branch-name>`；
 
@@ -146,15 +148,15 @@ git switch -c <branch-name>
 
 **重新命名**分支: `git branch -m <old-branch-name> <new-branch-name>`；
 
-#### 差异比较
+### 差异比较
 
-比较<u>工作区</u>中当前文件和<u>暂存区</u>之间的差异: `git diff <file-name>`；
+比较<u>工作区</u>的当前文件和<u>暂存区</u>之间的差异: `git diff <file-name>`；
 
-比较<u>暂存区</u>文件和<u>本地仓库（HEAD）</u>的差异: `git diff --cached`；
+比较<u>暂存区</u>的文件和<u>本地仓库（HEAD）</u>的差异: `git diff --cached`；
 
-指定文件在暂存区和本地仓库（HEAD）的差异: `git diff <file-name> --cached`；
+比较<u>暂存区</u>的指定文件和<u>本地仓库</u>（HEAD）的差异: `git diff <file-name> --cached`；
 
-#### 常用的操作
+### 常用的操作：独自使用Git时的常见场景
 
 修改最新 commit 的 message：`git commit --amend`；
 
@@ -168,7 +170,7 @@ git switch -c <branch-name>
 
 把间隔的几个 commit 整理成一个：
 
-#### git tag（标签）
+### git tag（标签）
 
 列出所有的标签: `git tag`；
 
@@ -184,7 +186,7 @@ git switch -c <branch-name>
 
 将本地所有标签全部推送到远程仓库中: `git push origin --tags`；
 
-#### git stash（暂存）
+### git stash（暂存）
 
 隐藏当前变更，以便能够切换分支: `git stash`；
 
@@ -196,7 +198,7 @@ git switch -c <branch-name>
 
 `.gitignore` 文件的作用是不再管理指定的文件修改。
 
-#### 语法规范
+### 语法规范
 
 空行不匹配任何文件，因此它可以作为可读性的分隔符；
 
@@ -217,7 +219,7 @@ git switch -c <branch-name>
 
 `!` 表示不忽略匹配到的文件或者目录；
 
-#### 配置文件示例
+### 配置文件示例
 
 ```shell
 # 忽略所有目录下文件名为a的任何文件
@@ -255,7 +257,7 @@ a/**/file
 
 > 当 `.gitignore` 配置发生冲突时，后面的配置会覆盖前面的配置
 
-#### .gitignore 不生效的解决方案
+### .gitignore 不生效的解决方案
 
 ```shell
 git rm -r --cached .
