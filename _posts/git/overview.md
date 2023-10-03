@@ -114,13 +114,48 @@ git reset --hard commitId
 
 #### 与remote的操作
 
-从远程仓库拉取代码并合并到本地: `git pull <remote-name> <remote-branch>:<local-branch>`，使用`rebase`的模式进行合并: `git pull --rebase <remote-name> <remote-branch>:<local-branch>`；
+##### pull
 
-从远程仓库中抓取本地仓库中没有的更新: `git fetch [remote-name]`；
+从远程仓库拉取代码并合并到本地: 
 
-从远程仓库抓取所有分支的更新: `git fetch --all`；
+```shell
+# pull=fetch+merge
+git pull <remote-name> <remote-branch>:<local-branch>
+```
 
-将本地仓库某个分支推送到远程仓库上: `git push [remote-name] [branch-name]`，如果想将本地分支推送到远程仓库的不同分支: `git push <remote-name> <local-branch>:<remote-branch>`；
+使用`rebase`的模式进行合并: 
+
+```shell
+git pull --rebase <remote-name> <remote-branch>:<local-branch>
+```
+
+##### fetch
+
+从远程仓库中抓取本地仓库中没有的更新: 
+
+```shell
+git fetch [remote-name]
+```
+
+从远程仓库抓取所有分支的更新:
+
+```shell
+git fetch --all
+```
+
+##### push
+
+将本地仓库某个分支推送到远程仓库上: 
+
+```shell
+git push [remote-name] [branch-name]
+```
+
+将本地分支推送到远程仓库的不同分支: 
+
+```shell
+git fetch --all
+```
 
 ### 远程仓库操作
 
@@ -135,6 +170,8 @@ git reset --hard commitId
 移除远程仓库: `git remote rm [remote-name]`；
 
 ### 分支操作
+
+#### 创建
 
 **创建**分支: `git branch <branch-name>`；
 
@@ -152,17 +189,19 @@ git checkout <branch-name> | <commite id>
 
 ```bash
 // 新的
-git switch -c <branch-name>
+git switch -c <branch-name> [<基于的本地或远程的分支>]
 
 // 原来的
-git checkout -b <branch-name>
+git checkout -b <branch-name> [<基于的本地或远程的分支>]
 ```
+
+#### 删除
 
 **删除**分支: `git branch -d <branch-name>`；
 
-**强制删除**分支: `git branch -D <branch-name>`；
+**强制删除**分支: `git branch -D <branch-name>`； 
 
-将当前分支和指定分支进行**合并**: `git merge <branch-name>`；
+#### 查询
 
 **显示**本地仓库的所有分支: `git branch`；
 
@@ -174,9 +213,15 @@ git checkout -b <branch-name>
 
 查看当前哪些分支还没有合并到当前分支: `git branch --no-merged`；
 
-把远程分支合并到当前分支: `git merge <remote-name>/<branch-name>`；
+#### 修改
 
 **重新命名**分支: `git branch -m <old-branch-name> <new-branch-name>`；
+
+#### 合并
+
+将当前分支和指定分支进行**合并**: `git merge <branch-name>|远程仓库的branch`；
+
+把远程分支合并到当前分支: `git merge <remote-name>/<branch-name>`；
 
 ### 差异比较
 
@@ -194,19 +239,7 @@ git diff commitId1 commitId2 <file name>
 git diff branch1 branch2 <file name>
 ```
 
-### 常用的操作：独自使用 Git 时的常见场景
-
-#### 开发中临时加塞了紧急任务怎么处理：
-
-```shell
-# 把工作区暂存起来
-git stash
-# 恢复暂存到工作区
-git stash pop|apply # pop：删除stash列表，apply：不删除
-git stash list
-```
-
-
+### 常用的操作
 
 查询当前工作区所有文件的状态: `git status`；
 
@@ -238,13 +271,41 @@ git stash list
 
 将本地所有标签全部推送到远程仓库中: `git push origin --tags`；
 
-### git stash（暂存）
+## 常见场景
+
+### 独自使用 Git 时的常见场景
+
+#### 开发中临时加塞了紧急任务怎么处理/git stash（暂存）：
+
+```shell
+# 把工作区暂存起来
+git stash
+# 恢复暂存到工作区
+git stash pop|apply # pop：删除stash列表，apply：不删除
+git stash lists 
+```
 
 隐藏当前变更，以便能够切换分支: `git stash`；
 
 查看当前所有的暂存列表: `git stash list`；
 
 应用最新的储藏: `git stash apply`，如果想应用其他的储藏: `git stash apply stash{0}`；如果使用`pop`命令不仅可以重新应用储藏，还可以立刻从堆栈中清除`stash`: `git stash pop`；
+
+### Git多人单分支集成协作时的常见场景
+
+不同人修改了不同文件如何处理：
+
+
+
+不同人修改了同文件的不同区域如何处理：
+
+
+
+
+
+
+
+
 
 ## .gitignore
 
