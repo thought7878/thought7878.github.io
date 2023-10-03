@@ -56,11 +56,27 @@
 
 提交工作区中某个文件夹中所有文件到暂存区: `git add [dir]`；
 
-#### 撤销
+#### 撤销/恢复/删除
 
 删除工作区文件，并且从暂存区删除对应的文件记录: `git rm <file1> <file2> ...`；
 
-<u>撤销工作区</u>指定文件的操作: `git checkout -- <file>`；撤销工作区所有文件的操作: `git checkout -- .`；
+<u>撤销</u>工作区指定文件的操作；**让工作区的文件恢复为和暂存区的一样，当暂存区为空时，相当于撤销/删除工作区的更改**: 
+
+```shell
+//新的
+git restore <file>...
+//旧的
+git checkout -- <file>
+```
+
+<u>撤销</u>工作区<u>所有文件</u>的操作: 
+
+```shell
+//新的
+git restore .
+//旧的
+git checkout -- .
+```
 
 #### 更新文件
 
@@ -78,13 +94,25 @@
 
 覆盖上次的`commit`记录，并将暂存区的文件提交到本地仓库: `git commit --amend -m "commit-info"`；
 
-#### 撤销
+#### 撤销/恢复/删除
 
 <u>撤销</u>暂存区的文件到工作区，暂存区恢复成和 HEAD 一样: `git reset HEAD <file>...`
 
-<u>删除</u>暂存区文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
+删除暂存区文件，但是工作区保留文件: `git rm --cached <file1> <file2>...`；
+
+<u>删除</u>文件，并且放入暂存区: `git rm <file1> <file2> ...`；
 
 ### 本地仓库操作
+
+#### 删除
+
+删除commit到指定的commitId：
+
+```shell
+git reset --hard commitId 
+```
+
+#### 与remote的操作
 
 从远程仓库拉取代码并合并到本地: `git pull <remote-name> <remote-branch>:<local-branch>`，使用`rebase`的模式进行合并: `git pull --rebase <remote-name> <remote-branch>:<local-branch>`；
 
@@ -113,19 +141,21 @@
 从当前分支**切换**到其他分支:
 
 ```bash
-// 原来的
-git checkout <branch-name> | <commite id>
 // 新的
 git switch <branch-name>
+
+// 原来的
+git checkout <branch-name> | <commite id>
 ```
 
 **新建并切换**到新建分支: ；
 
 ```bash
-// 原来的
-git checkout -b <branch-name>
 // 新的
 git switch -c <branch-name>
+
+// 原来的
+git checkout -b <branch-name>
 ```
 
 **删除**分支: `git branch -d <branch-name>`；
@@ -156,13 +186,35 @@ git switch -c <branch-name>
 
 比较<u>暂存区</u>的指定文件和<u>本地仓库</u>（HEAD）的差异: `git diff <file-name> --cached`；
 
+#### 不同commit之间比较
+
+```shell
+git diff commitId1 commitId2 <file name>
+
+git diff branch1 branch2 <file name>
+```
+
 ### 常用的操作：独自使用 Git 时的常见场景
 
-修改最新 commit 的 message：`git commit --amend`；
+#### 开发中临时加塞了紧急任务怎么处理：
+
+```shell
+# 把工作区暂存起来
+git stash
+# 恢复暂存到工作区
+git stash pop|apply # pop：删除stash列表，apply：不删除
+git stash list
+```
+
+
 
 查询当前工作区所有文件的状态: `git status`；
 
 查看最近的三条提交历史（单行显示）: `git log --oneline -3`；
+
+#### 修改历史的commit
+
+修改最新 commit 的 message：`git commit --amend`；
 
 修改老旧 commit 的 message：
 
