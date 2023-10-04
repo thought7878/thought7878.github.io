@@ -154,7 +154,7 @@ git push [remote-name] [branch-name]
 将本地分支推送到远程仓库的不同分支: 
 
 ```shell
-git fetch --all
+git push <remote-name> <local-branch>:<remote-branch>
 ```
 
 ### 远程仓库操作
@@ -295,11 +295,9 @@ git stash lists
 
 不同人修改了不同文件如何处理：
 
-
-
 不同人修改了同文件的不同区域如何处理：
 
-
+不同人修改了同文件的同一区域如何处理：
 
 
 
