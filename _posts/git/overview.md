@@ -299,12 +299,6 @@ git stash lists
 
 不同人修改了同文件的同一区域如何处理：
 
-
-
-
-
-
-
 ## .gitignore
 
 `.gitignore` 文件的作用是不再管理指定的文件修改。
@@ -382,4 +376,7 @@ git commit -m "update .gitignore"
 
 - [Git 常用操作总结](https://juejin.cn/post/6844903586120335367 "https://juejin.cn/post/6844903586120335367")
 - [字节研发设施下的 Git 工作流](https://juejin.cn/post/6875874533228838925 "https://juejin.cn/post/6875874533228838925")
+
+
+
 - [进公司不会用 Git 拉项目！第二天被开除？天！那还在等什么，快点进来看看](https://juejin.cn/post/6951219502319140878#heading-15 "https://juejin.cn/post/6951219502319140878#heading-15")
