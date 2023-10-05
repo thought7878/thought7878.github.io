@@ -280,15 +280,11 @@
 
 ## 包管理工具：NPM/Pnpm/Yarn
 
-
-
 ## 模块化
 
 ### why，为什么需要模块化
 
 ### CommonJS/AMD/UMD/ES模块标准的区别
-
-
 
 ## Webpack/Rollup/Vite/Turbopack/Gulp
 

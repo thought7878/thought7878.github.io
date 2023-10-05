@@ -1,4 +1,4 @@
-## 04 接口调试：Mock 工具如何快速进行接口调试？
+# 04 接口调试：Mock 工具如何快速进行接口调试？
 
 上一课时我们讲了 source map 在开发调试中的作用，以及不同的 source map 策略对于构建时间和调试效果的影响。在课后留的讨论题是观察你项目里在开发和生产环境下使用的是哪一种 source map 类型，因为很多时候当我们用了预设好的脚手架工具后，这些细节可能不太关注到，希望借着这个题目能让你对这个方面的细节有更深入的理解。
 
@@ -6,7 +6,7 @@
 
 ### 什么是 Mock？
 
-[Mock](https://en.wikipedia.org/wiki/Mock_object) 在程序设计中是指使用模拟（Mock）的对象来替代真实对象，以测试其他对象的行为。而在前端开发流程中，我们说的 Mock 通常是指模拟数据（俗称假数据）以及生成和使用模拟数据的工具与流程。那么为什么要使用 Mock 数据呢？是因为在实际中，我们经常遇到以下令人困扰的问题。
+[Mock](https://en.wikipedia.org/wiki/Mock_object)  在程序设计中是指使用模拟（Mock）的对象来替代真实对象，以测试其他对象的行为。而在前端开发流程中，我们说的 Mock 通常是指模拟数据（俗称假数据）以及生成和使用模拟数据的工具与流程。那么为什么要使用 Mock 数据呢？是因为在实际中，我们经常遇到以下令人困扰的问题。
 
 在一个前后端分离的项目开发流程中，项目的开发时间通常分为三块：前端开发时间 t1，后端开发时间 t2，前后端联调时间 t3。理想情况下，整体的项目开发时间是 <=max（t1，t2）+t3，即前后端同时开发，两端都开发完成后进入联调。甚至再进一步，为了提高效率，也可以将整个开发流程按功能点进行更细粒度地拆分，即在开发时间内，也可以在部分功能开发完成后立即进行这一部分的联调，以期望利用碎片化的时间来减少后期完整联调的时间。
 
@@ -39,36 +39,30 @@
 
 #### Mock.js
 
-[Mock.js](https://github.com/nuysoft/Mock) 是前端领域流行的 Mock 数据生成工具之一，后续许多功能更丰富的工具和系统在各自的 Mock 功能部分都将它作为基础设施。
+[Mock.js](https://github.com/nuysoft/Mock)  是前端领域流行的 Mock 数据生成工具之一，后续许多功能更丰富的工具和系统在各自的 Mock 功能部分都将它作为基础设施。
 
 Mock.js 的核心能力是定义了两类生成模拟数据的规范：**数据模板定义规范**（Data Template Definition, DTD）与**数据占位符定义规范**（Data Placeholder Definition, DPD），以及实现了应用相应规范生成模拟数据的方法。
 
 **数据模板定义规范（DTD）**
 
-**数据模板定义规范**约定了可以通过“属性名|生成规则：属性值”这样的格式来生成模拟数据，例如（完整示例代码参见 [04_mock](https://github.com/fe-efficiency/lessons_fe_efficiency/tree/master/04_mock)）：
+**数据模板定义规范**约定了可以通过“属性名|生成规则：属性值”这样的格式来生成模拟数据，例如（完整示例代码参见  [04_mock](https://github.com/fe-efficiency/lessons_fe_efficiency/tree/master/04_mock)）：
 
 ```js
 Mock.mock({
-
-  "number|1-100": 1
-
-})
+  "number|1-100": 1,
+});
 
 //Result: number为1-100内随机数，例如{number: 73}
 
 Mock.mock({
-
-  "boo|1-100": true
-
-})
+  "boo|1-100": true,
+});
 
 //Result: boo为true或false，其中true的概率为1%，例如{boo: false}
 
 Mock.mock({
-
-  "str|1-100": '1'
-
-})
+  "str|1-100": "1",
+});
 
 //Result: str为1-100个随机长度的字符串'1'。例如{str: '11111'}
 ```
@@ -80,19 +74,19 @@ Mock.mock({
 **数据占位符定义规范**则是对于随机数据的一系列常用类型预设，书写格式是’@占位符（参数 [, 参数] ）’。如以下例子：
 
 ```js
-Mock.mock('@email')
+Mock.mock("@email");
 
 //Result: 随机单词连接成的email数据，例如："n.clark@miller.io"
 
-Mock.mock('@city(true)')
+Mock.mock("@city(true)");
 
 //Result: 随机中国省份+省内城市数据，例如："吉林省 辽源市"
 
-Mock.mock({'aa|1-3':['@cname()']})
+Mock.mock({ "aa|1-3": ["@cname()"] });
 
 //Result: aa值为随机3个中文姓名的数组，例如{aa: ['张三','李四','王五']}
 
-Random.image('200x100', '#894FC4', '#FFF', 'png', '!')
+Random.image("200x100", "#894FC4", "#FFF", "png", "!");
 
 //Result: 利用dummyimage库生成的图片url, "http://dummyimage.com/200x100/894FC4/FFF.png"
 ```
@@ -109,7 +103,7 @@ Random.image('200x100', '#894FC4', '#FFF', 'png', '!')
 
 #### Faker.js
 
-[Faker.js](https://github.com/Marak/faker.js) 是另一个较热门的模拟数据生成工具。与 Mock.js 相比，Faker.js 主要提供的是指定类型的随机数据，对应 Mock.js 中的占位符类型数据。在 API 的使用方面较直观，使用示例如下：
+[Faker.js](https://github.com/Marak/faker.js)  是另一个较热门的模拟数据生成工具。与 Mock.js 相比，Faker.js 主要提供的是指定类型的随机数据，对应 Mock.js 中的占位符类型数据。在 API 的使用方面较直观，使用示例如下：
 
 ```csharp
 //单独使用api方法
@@ -141,7 +135,7 @@ faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}")
 
 #### YApi
 
-[YApi](https://github.com/YMFE/yapi) 定义是开发、产品、测试人员共同使用的接口管理服务，其功能特点主要包括：
+[YApi](https://github.com/YMFE/yapi)  定义是开发、产品、测试人员共同使用的接口管理服务，其功能特点主要包括：
 
 1. 支持接口的定义、修改、运行、集合测试等。
 2. 提供 Mock 服务，以定义的接口可以通过服务直接获取 Mock 数据。Mock 定义中支持 JSON Schema 和 Mock.js（不支持函数功能）。
@@ -152,7 +146,7 @@ faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}")
 
 #### Apifox
 
-[Apifox](https://www.apifox.cn/) 是一个桌面应用类的接口管理工具。与 YApi 相比，除了使用方式不同外，其主要特点还包括：
+[Apifox](https://www.apifox.cn/)  是一个桌面应用类的接口管理工具。与 YApi 相比，除了使用方式不同外，其主要特点还包括：
 
 1. 支持接口调试工具 Postman 的特色功能，例如环境变量、Cookie/Session 全局共享等。
 2. 对同一个接口支持多种用例管理（成功用例、错误用例等）。
