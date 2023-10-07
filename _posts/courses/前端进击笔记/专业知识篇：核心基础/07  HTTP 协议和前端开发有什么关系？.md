@@ -102,7 +102,7 @@ HTTP 协议从被创造以来，一直在不断演变着：从 HTTP/1.0、HTTP/1
 
 #### XHR Streaming
 
-相比 HTTP 长轮询，**XHR Streaming** <u>可以维护客户端和服务端之间的连接</u>。但使用 XHR Streaming 过程中，`XMLHttpRequest`对象的数量将不断增长，因此在使用过程中需要定期关闭连接，来清除缓冲区。
+相比 HTTP 长轮询，**XHR Streaming** <u>可以维护客户端和服务端之间的连接</u>。但使用 XHR Streaming 过程中，<u>`XMLHttpRequest`对象的数量将不断增长，因此在使用过程中需要定期关闭连接，来清除缓冲区</u>。
 
 #### Server-Sent Events
 
