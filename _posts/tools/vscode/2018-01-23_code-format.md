@@ -1,4 +1,11 @@
-# 前端代码规范和编码风格详解
+---
+layout: post
+title: 前端代码规范和代码风格
+categories: [code style, engineering,代码规范]
+tags: [editor, vscode]
+---
+
+# 前端代码规范和代码风格
 
 本文以 VS Code 编辑器为例展开，可以搭配 [vscode-linter-example](https://github.com/qiqihaobenben/vscode-linter-example) 这个例子对照着实践一下。
 
@@ -10,9 +17,9 @@ VS Code 的配置有三种形式：全局默认配置、用户配置、工作区
 - 用户配置：对应的是软件目录中跟当前用户相关联的特定文件夹中的 `settings.json` 配置文件（类似于 macOS 中 $HOME/Library/Application Support/Code/User/settings.json），用户配置在所有打开窗口都生效。通过 `ctrl/cmd + ,` 打开的设置就是用户配置 `settings.json` 的 UI 视图。
 - 工作区配置：也称项目配置，此时的 `settings.json` 存放于项目所在根目录的 `.vscode` 文件中，当项目在 VS Code 中打开时，仅针对当前项目打开的窗口生效。
 
-这三种形式的配置优先级：项目配置 > 用户配置 > 全局默认配置。
+这三种形式的**配置优先级**：项目配置 > 用户配置 > 全局默认配置。
 
-如果存在多种配置，那么优先级高的会覆盖优先级低的，这样的好处是可以为不同项目、不同用户做不同配置，而不会相互干扰，并且项目配置特定于项目，方便开发人员之间共享，达到统一开发环境和编码风格的目的。
+如果存在多种配置，那么优先级高的会覆盖优先级低的，<u>这样的好处是可以为不同项目、不同用户做不同配置</u>，而不会相互干扰，<u>并且项目配置特定于项目，方便开发人员之间共享，达到统一开发环境和编码风格的目的</u>。
 
 ### VS Code 的 `.vscode` 文件夹
 
@@ -102,13 +109,17 @@ VS Code 的配置有三种形式：全局默认配置、用户配置、工作区
 
 [EditorConfig](https://editorconfig.org/) 是用来帮助开发者定义和维护编码风格的（例如缩进样式，行尾字符等），EditorConfig 包含一个用于定义代码格式的自定义文件 `.editorconfig` 和一批编辑器插件，这些插件是让编辑器能够使用自定义配置文件并以此来格式化代码。
 
-使用了 EditorConfig 后，编辑器的行为会与 `.editorconfig` 文件中定义的一致，并且其优先级比编辑器自身的设置要高（比上一小节讲到的 VS Code 自身配置优先级高）。有些编辑器默认支持 EditorConfig，如 WebStorm；而有些编辑器则需要安装 EditorConfig 插件，如 Sublime、VS Code 等（所以说可以跨编辑器生效）。
+使用了 EditorConfig 后，编辑器的行为会与 `.editorconfig` 文件中定义的一致，并且**其优先级比编辑器自身的设置要高**（比上一小节讲到的 VS Code 自身配置优先级高）。有些编辑器默认支持 EditorConfig，如 WebStorm；而有些编辑器则需要安装 EditorConfig 插件，如 Sublime、VS Code 等（所以说可以跨编辑器生效）。
 
 VS Code 安装非常简单，直接在插件市场搜索 [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) 安装然后重启编辑器。
 
 当打开一个文件时，EditorConfig 插件会在打开文件的目录和其每一级父目录查找 `.editorconfig` 文件，直到有一个配置文件出现 `root=true`。
 
 EditorConfig 的配置文件是从上往下读取的，并且最近的 `.editorconfig` 会被最先读取，匹配 `.editorconfig` 中的配置项会按照读取顺序被应用，如果 `.editorconfig` 文件没有进行某些配置，则使用编辑器默认的设置。
+
+### Why
+
+**跨编辑器和 IDE 统一编码风格的兜底配置。**
 
 ### 配置 `.editorconfig`
 
@@ -178,7 +189,7 @@ ESLint 能够获得成功的几个原因：
 
 初始化 ESLint
 
-```
+```shell
 npm install eslint -D
 
 npx eslint --init
