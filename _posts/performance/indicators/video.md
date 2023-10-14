@@ -16,9 +16,9 @@
 
 ![Timing attributes](https://www.w3.org/TR/navigation-timing/timing-overview.png)
 
-![](https://lf6-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_6f529d3a0675dbeec1aa1fc6d16b25de)
+<img title="" src="https://lf6-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_6f529d3a0675dbeec1aa1fc6d16b25de" alt="" width="726">
 
-
+![image]()
 
 ##### 初始化阶段（没有真正发请求）
 
@@ -50,9 +50,13 @@
 
 - domLoading：浏览器即将开始解析第一批收到的 HTML 文档字节。
 
-- domInteractive：浏览器完成对所有 HTML 的解析并且 DOM 构建完成的时间点， 是DOM 准备就绪的时间点。
+- domInteractive：浏览器<u>完成对所有 HTML 的解析</u>并且 DOM 构建完成的时间点， 是DOM 准备就绪的时间点。
+
+- domContentLoadedEventStart：将用户代理在文档中触发 DOMContentLoaded 事件之前的时间记录为 [domContentLoadedEventStart]([Navigation Timing](https://www.w3.org/TR/navigation-timing/#process))
 
 - domContentLoaded：DOM 准备就绪并且没有样式表阻止 JavaScript 执行的时间点，可以开始构建渲染树，一般表示 [DOM 和 CSSOM 均准备就绪](http://calendar.perfplanet.com/2012/deciphering-the-critical-rendering-path/)的时间点。
+
+- domContentLoadedEventEnd：DOMContentLoaded 事件完成后立即将时间记录为 [domContentLoadedEventEnd]([Navigation Timing](https://www.w3.org/TR/navigation-timing/#process))
 
 - domComplete：顾名思义，所有处理完成，并且网页上的所有资源（图像等）都已下载完毕，也就是说，加载转环已停止旋转, 表示网页及其所有子资源都准备就绪的时间点。
 
@@ -60,6 +64,70 @@
 
 - loadEventEnd：`onload` 事件 执行完成。  
   许多 JavaScript 框架都会等待`onload`事件发生后，才开始执行它们自己的逻辑。因此，浏览器会捕获 `loadEventStart` 和 `loadEventEnd` 时间戳来追踪执行所花费的时间。
+
+#### 各阶段指标的计算方式和含义
+
+##### 实际运用中的常见指标
+
+- LOAD
+
+LOAD，反映页面及其依赖资源全部加载完成的时间。在服务端路由场景下，LOAD 指标对应页面 load 事件发生的时间。根据 Navigation Timing 2.0 定义的页面加载阶段模型，同步跳转场景下，LOAD 的计算方式为：LOAD = loadEventStart - fetchStart（疑问：loadEventEnd）。
+
+- Dom Ready：domContentLoadedEventEnd - fetchStart
+
+执行完所有同步脚本的耗时
+
+- Dom解析：domInteractive - responseEnd
+
+从请求响应结束至Dom可交互的耗时
+
+- TTFB：responseStart-navigationStart
+
+TTFB（Time To First Byte），即首字节网络请求耗时，发出页面请求到接收到应答数据第一个字节的时间。
+
+- ResourceLoad：loadEventStart - domContentLoadedEventEnd
+
+Dom解析完后，剩余资源加载的耗时
+
+##### 其他指标
+
+- Redirect：redirectEnd - redirectStart
+
+重定向没有发生，或者其中一个重定向非同源，则该值为 0
+
+- HTTP/App cache：domainLookupStart - fetchStart
+
+缓存
+
+- DNS：domainLookupEnd - domainLookupStart
+
+域名解析耗时（命中解析缓存时为0）
+
+- TCP：connectEnd - connectStart
+
+TCP连接耗时
+
+- SSL：connectEnd - secureConnectionStart
+
+SSL安全连接耗时
+
+- Request：responseStart - requestStart
+
+在SSL链接建立后，从客户端发送至服务端首次响应的耗时
+
+- Response：responseEnd - responseStart
+
+从服务端首次响应至数据完全响应完的耗时
+
+- Processing：domComplete - domLoading
+
+Dom解析开始至结束的耗时
+
+#### 如何获取指标数据
+
+navigation timing：window.performance.timing
+
+navigation timing 2：window.performance.getEntriesByType('navigation')
 
 ### 以用户为中心的性能指标（:）
 
