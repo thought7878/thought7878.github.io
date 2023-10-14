@@ -9,7 +9,7 @@
 我们从两方面来了解 Webpack 的基本工作流程：
 
 1. 通过 Webpack 的源码来了解具体函数执行的逻辑。
-2. 通过 Webpack 对外暴露的声明周期 Hooks，理解整体流程的阶段划分。
+2. 通过 Webpack 对外暴露的生命周期 Hooks，理解整体流程的阶段划分。
 
 其中会涉及对 Webpack 源代码的分析，源代码取自 Webpack 仓库的 [webpack-4 分支](https://github.com/webpack/webpack/blob/webpack-4)，而最新的 Webpack 5 中的优化我们会在后续课程中单独分析。
 
@@ -33,9 +33,7 @@ webpack(config, (err, stats) => {})
 
 #### webpack.js 中的基本流程
 
-无论用哪种方式运行 Webpack，本质上都是 [webpack.js](https://github.com/webpack/webpack/blob/webpack-4/lib/webpack.js) 中的 Webpack 函数。
-
-这一函数的核心逻辑是：根据配置生成编译器实例 compiler，然后处理参数，执行 WebpackOptionsApply().process，根据参数加载不同内部插件。在有回调函数的情况下，根据是否是 watch 模式来决定要执行 compiler.watch 还是 compiler.run。
+无论用哪种方式运行 Webpack，本质上都是 [webpack.js](https://github.com/webpack/webpack/blob/webpack-4/lib/webpack.js) 中的 Webpack 函数。**这一函数的核心逻辑**是：根据配置生成编译器实例 compiler，然后处理参数，执行 WebpackOptionsApply().process，根据参数加载不同内部插件。在有回调函数的情况下，根据是否是 watch 模式来决定要执行 compiler.watch 还是 compiler.run。
 
 为了讲解通用的流程，我们以没有 watch 模式的情况进行分析。简化流程后的代码示例如下：
 
