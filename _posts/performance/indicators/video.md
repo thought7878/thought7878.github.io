@@ -129,7 +129,15 @@ navigation timing：window.performance.timing
 
 navigation timing 2：window.performance.getEntriesByType('navigation')
 
-### 以用户为中心的性能指标（:）
+### 以用户为中心的性能指标（05:15）
+
+#### Why/传统性能指标的问题
+
+传统的性能指标专注于容易衡量的技术细节，但是他们**很难反映出用户真正关心的是什么**。**如果仅仅是把加载速度优化的更快，很快就会发现网站的用户体验依然很差**。
+
+**这就是创建用户为中心的性能指标的原因**，它们专注于用户视角下的浏览体验。
+
+
 
 ### 如何根据性能指标衡量站点满意度（:）
 
