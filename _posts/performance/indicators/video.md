@@ -137,6 +137,23 @@ navigation timing 2：window.performance.getEntriesByType('navigation')
 
 **这就是创建用户为中心的性能指标的原因**，它们专注于用户视角下的浏览体验。
 
+#### 指标分类
+
+| 用户体验   | 指标                                           |
+| ------ | -------------------------------------------- |
+| 发生了吗？  | FP(First Paint), FCP(First Contentful Paint) |
+| 内容有用吗？ | FMP(First Meaningful Paint), SI(Speed Index) |
+| 内容可用吗？ | TTI(Time To Interactive)                     |
+| 令人愉悦吗？ | FID(First Input Delay)                       |
+
+**以用户为中心的性能指标，衡量页面显示有用内容的速度，用户是否可以与之交互，这些交互是否流畅且无延迟。**
+
+#### FP & FCP
+
+[First Contentful Paint (FCP)-google](https://web.dev/articles/fcp?hl=zh-cn)
+
+https://www.volcengine.com/docs/6431/107441
+
 
 
 ### 如何根据性能指标衡量站点满意度（:）
