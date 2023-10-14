@@ -1,10 +1,6 @@
-
-
 ## [前端监控训练营Day2-前端性能指标详解](https://www.bilibili.com/video/BV18S4y1H7Vs/?spm_id_from=333.337.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
 
 ### Web性能指标的诞生（00:42）
-
-
 
 ### 传统的性能指标（01:50）
 
@@ -154,10 +150,6 @@ navigation timing 2：window.performance.getEntriesByType('navigation')
 
 https://www.volcengine.com/docs/6431/107441
 
-
-
 ### 如何根据性能指标衡量站点满意度（:）
 
 ### 如何获取站点的性能指标 （:）
-
-
