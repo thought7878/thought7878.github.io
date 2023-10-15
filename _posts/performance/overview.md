@@ -1,5 +1,3 @@
-
-
 ## 为什么要有前端监控？
 
 - 异常/稳定性问题  
@@ -35,8 +33,6 @@
 
 ### 数据采集
 
-
-
 ### 组装上报
 
 ### 清洗存储
@@ -55,16 +51,8 @@
 
 ### 主动观察用户的行为数据/关注点，优化业务
 
-   
-
-
-
-
-
 https://www.volcengine.com/docs/6431/104862
 
 [前端性能优化--归纳篇 | 被删的前端游乐场](https://godbasin.github.io/front-end-playground/front-end-basic/performance/front-end-performance-optimization.html)
 
 [2023 前端性能优化清单 - 掘金](https://juejin.cn/post/7214026775142760505#heading-1)
-
-
