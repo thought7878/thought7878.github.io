@@ -6,7 +6,7 @@
 
 ![](https://lf6-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_4236953005c4279feaafab5a2677479a)
 
-最大内容绘制 (LCP) 指标会根据页面[首次开始加载](https://w3c.github.io/hr-time/#timeorigin-attribute)的时间点来报告可视区域内可见的最大[图像或文本块](https://web.dev/lcp/#what-elements-are-considered)完成渲染的相对时间。
+**最大内容绘制 (LCP)** 指标会根据页面[首次开始加载](https://w3c.github.io/hr-time/#timeorigin-attribute)的时间点来报告可视区域内可见的最大[图像或文本块](https://web.dev/lcp/#what-elements-are-considered)完成渲染的相对时间。
 
 ### 哪些元素在考量范围内？
 
@@ -26,13 +26,29 @@
 
 ![](https://lf6-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_cd17b009a9bca2b61f36f82a166cd095)
 
-Web 页面通常是分阶段加载的，因此，页面上最大的元素可能会发生变化。例如，在一个带有文本和图像的页面上，浏览器最初可能只是呈现文本，而此时浏览器会分派一个 largest-contentful-paint entry。稍后，图像完成加载完成，会分派第二个 largest-contentful-paint entry。
+<u>Web 页面通常是分阶段加载的</u>，<u>因此，页面上最大的元素可能会发生变化</u>。例如，在一个带有文本和图像的页面上，浏览器最初可能只是呈现文本，而此时浏览器会分派一个 largest-contentful-paint entry。稍后，图像完成加载，会分派第二个 largest-contentful-paint entry。
+
+### 对比FCP/FMP/SI
+
+| 指标  | 定义                 | 存在的问题                                                                                                                               |
+| --- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| FCP | 首次内容绘制时间           | 通常与用户无关，对用户意义不大                                                                                                                     |
+| FMP | 首次绘制有意义内容的时间点      | [无法在所有 Web 浏览器中实现](https://developer.chrome.com/docs/lighthouse/performance/first-meaningful-paint/)。非标准化并且难以在浏览器之间统一实现，约20%的情况下不准确 |
+| SI  | 跟踪视口中的加载内容的视觉进程/进度 | 复杂的指标，难以解释。计算密集，不可用于线上监控。                                                                                                           |
+
+### LCP的优点
+
+- 对用户体验有意义，容易理解
+
+- 给出与FMP相似的结果。有API标准。
+
+- 容易计算和上报
 
 ## 指标获取实现细节
 
 创建一个 [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver) ，使用 [Largest Contentful Paint API](https://wicg.github.io/largest-contentful-paint/) 监听并上报。具体的结算时机可以参考下文的代码实现
 
-```
+```js
 new PerformanceObserver((entryList) => {
     for (const entry of entryList.getEntries()) {
         console.log('LCP candidate:', entry.startTime, entry);
