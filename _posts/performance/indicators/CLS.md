@@ -2,7 +2,7 @@
 
 ## CLS 指标介绍(Cumulative Layout Shift)
 
-CLS 测量整个页面生命周期内发生的所有[意外布局偏移量](https://web.dev/cls/#expected-vs.-unexpected-layout-shifts)中最大一连串的布局偏移分数。每当一个可见元素的位置从一个已渲染帧变更到下一个已渲染帧时，就发生了布局偏移 。更多信息，请参见[布局偏移分数](https://web.dev/cls/#layout-shift-score)。
+**CLS** 测量整个页面生命周期内发生的所有[意外布局偏移量](https://web.dev/cls/#expected-vs.-unexpected-layout-shifts)中最大一连串的布局偏移分数。每当一个可见元素的位置从一个已渲染帧变更到下一个已渲染帧时，就发生了布局偏移 。更多信息，请参见[布局偏移分数](https://web.dev/cls/#layout-shift-score)。
 
 ## CLS 分数如何计算？
 
@@ -104,5 +104,3 @@ new PerformanceObserver((entryList) => {
 3. 多用 transform animations，而不是触发布局变化的 animations properties。
 
 深入优化请参见[优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/)。
-
-
