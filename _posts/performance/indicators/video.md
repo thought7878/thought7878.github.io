@@ -54,7 +54,7 @@
 
 - domContentLoadedEventEnd：DOMContentLoaded 事件完成后立即将时间记录为 [domContentLoadedEventEnd]([Navigation Timing](https://www.w3.org/TR/navigation-timing/#process))
 
-- domComplete：顾名思义，所有处理完成，并且网页上的所有资源（图像等）都已下载完毕，也就是说，加载转环已停止旋转, 表示网页及其所有子资源都准备就绪的时间点。
+- domComplete：顾名思义，所有处理完成，<u>并且网页上的所有资源（图像等）都已下载完毕</u>，也就是说，加载转环已停止旋转, <u>表示网页及其所有子资源都准备就绪的时间点</u>。
 
 - loadEventStart：作为每个网页加载的最后一步，浏览器会触发 `onload` 事件，以便触发额外的应用逻辑。
 
@@ -67,7 +67,7 @@
 
 - LOAD
 
-LOAD，反映页面及其依赖资源全部加载完成的时间。在服务端路由场景下，LOAD 指标对应页面 load 事件发生的时间。根据 Navigation Timing 2.0 定义的页面加载阶段模型，同步跳转场景下，LOAD 的计算方式为：LOAD = loadEventStart - fetchStart（疑问：loadEventEnd）。
+LOAD，<u>反映页面及其依赖资源全部加载完成的时间</u>。在服务端路由场景下，LOAD 指标对应页面 load 事件发生的时间。根据 Navigation Timing 2.0 定义的页面加载阶段模型，同步跳转场景下，LOAD 的计算方式为：LOAD = loadEventStart - fetchStart（疑问：loadEventEnd）。
 
 - Dom Ready：domContentLoadedEventEnd - fetchStart
 

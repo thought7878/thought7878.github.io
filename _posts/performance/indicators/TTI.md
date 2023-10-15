@@ -1,20 +1,16 @@
-
-
 可交互时间 (TTI) 是测量[加载响应度](https://web.dev/user-centric-performance-metrics/#types-of-metrics)的重要[实验室指标](https://web.dev/user-centric-performance-metrics/#in-the-lab)。该指标有助于识别*看起来*具备交互性但实际上并非如此的页面情况。迅捷的 TTI 有助于确保页面的[有效性](https://web.dev/user-centric-performance-metrics/#questions)。
 
 ## 什么是 TTI 指标
 
 ![](https://lf3-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_bf1f73dc0b8a1771ebf0afb7bf6855db)
 
-TTI（Time To Interactive），即从页面加载开始到页面处于完全可交互状态所花费的时间。页面处于完全可交互状态时，满足以下 3 个条件：
+TTI（Time To Interactive），即**从页面加载开始到页面处于完全可交互状态所花费的时间**。<u>页面处于完全可交互状态时，满足以下 3 个条件：</u>
 
 1. 页面已经显示有用内容。
 2. 页面上的可见元素关联的事件响应函数已经完成注册。
 3. 事件响应函数可以在事件发生后的 50ms 内开始执行。
 
-很多情况下，开发者往往只关注页面渲染相关的指标，如 FP、FCP 等，而忽视了页面的可用性指标。TTI 即是反映页面可用性的重要指标。TTI 值越小，代表用户可以更早地操作页面，用户体验就更好。
-
-
+很多情况下，开发者往往只关注页面渲染相关的指标，如 FP、FCP 等，而<u>忽视了页面的可用性指标。TTI 即是反映页面可用性的重要指标</u>。**TTI 值越小，代表用户可以更早地操作页面**，用户体验就更好。
 
 ## 如何获取 TTI 指标
 
