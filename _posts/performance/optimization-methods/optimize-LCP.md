@@ -46,7 +46,7 @@
 
 ![与上文所示的 LCP 细分相同，资源加载时间子部分缩短了，但总体 LCP 时间保持不变。](https://web.dev/static/articles/optimize-lcp/image/the-same-breakdown-lcp-s-ac37446e062a6.png?hl=zh-cn)
 
-### 最佳子时段
+### 最佳的子部分的时段
 
 为了优化 LCP 的每个子部分，请务必了解在经过精心优化的网页上呈现这些子部分的理想细分是怎样的。四个子部分中，两个部分的名称中包含“delay”一词。这表示您希望这些时间尽可能接近零。其他两个部分涉及网络请求，就其本质而言，它们需要时间。
 
@@ -58,12 +58,12 @@
 | 元素渲染延迟             | < 10%      |
 | **总计**             | **100%**   |
 
-请注意，这些时间细分并非严格的规则，只是准则。如果网页上的 LCP 时间始终在 2.5 秒以内，那么相对比例并不重要。但是，如果您在任何一个“延迟”部分中花了很多不必要的时间，那么很难一直达到 [2.5 秒的目标](https://web.dev/articles/lcp?hl=zh-cn#what_is_a_good_lcp_score)。
+请注意，这些时间细分并非严格的规则，只是准则。如果网页上的 LCP 时间始终在 2.5 秒以内，那么相对比例并不重要。但是，**如果您在任何一个“延迟”部分中花了很多不必要的时间，那么很难一直达到 [2.5 秒的目标](https://web.dev/articles/lcp?hl=zh-cn#what_is_a_good_lcp_score)。**
 
-LCP 时间明细的一个有效方法是：
+<u>LCP 时间明细的一个有效方法是：</u>
 
-- **绝大部分** LCP 时间都应该用在加载 HTML 文档和 LCP 源代码上。
-- 在 LCP 之前，每当这两种资源中有一条未加载时，**都有机会改进**。
+- 绝大部分 LCP 时间都应该用在加载 HTML 文档和 LCP 源代码上。
+- 在 LCP 之前，每当这两种资源（document/LCP）中有一条未加载时，都有机会改进。
 
 **警告** ：鉴于 LCP 为 [2.5 秒的目标](https://web.dev/articles/lcp?hl=zh-cn#what_is_a_good_lcp_score)，您可能会想要尝试将这些百分比转换为绝对数字，但建议不要这样做。这些子部分之间仅有相对意义，所以最好始终以这种方式进行测量。
 
@@ -71,72 +71,74 @@ LCP 时间明细的一个有效方法是：
 
 至此，您已了解在经过精心优化的网页中，每个 LCP 子部分时间应如何细分，接下来就可以开始优化自己的网页了。
 
-接下来的四个部分将就如何优化各个部分提供建议和最佳做法。这些建议是按顺序呈现的，从有望产生最大影响的优化开始。
+接下来的四个部分将就如何优化各个部分提供建议和最佳做法。<u>这些建议是按顺序呈现的</u>，<u>从可能产生最大影响的优化开始</u>。
 
 ### 1. 消除*资源加载延迟*
 
-此步骤的目标是确保 LCP 资源尽早开始加载。虽然从理论上讲，资源可以开始加载的最早时间是在 TTFB 之后立即进行，但实际上，在浏览器实际开始加载资源之前，总是需要一段延迟。
+**此步骤的目标是确保 LCP 资源尽早开始加载**。虽然从理论上讲，资源可以开始加载的最早时间是在 TTFB 之后立即进行，但实际上，在浏览器实际开始加载资源之前，总是需要一段延迟（要解析HTML）。
 
-推荐做法是，您的 LCP 资源应与该网页加载的第一个资源同时开始加载。换句话说，如果 LCP 资源开始加载的时间晚于第一个资源，那么就有改进空间。
+**推荐做法**是，**您的 LCP 资源应与该网页加载的第一个资源同时开始加载。换句话说，如果 LCP 资源开始加载的时间晚于第一个资源，那么就有改进空间**。
 
 ![显示 LCP 资源在第一个资源之后启动的网络瀑布图，显示了改进机会](https://web.dev/static/articles/optimize-lcp/image/a-network-waterfall-diagr-1ee19fc20ee1f.png?hl=zh-cn)
 
 一般来说，有两个因素会影响 LCP 资源的加载速度：
 
-- 发现资源时。
-- 为资源指定的优先级。
+- 资源被发现的时间。
+- 资源被指定的优先级。
 
-#### 在发现资源时进行优化
+#### 优化资源被发现的时间
 
-为了确保您的 LCP 资源尽早开始加载，请务必确保浏览器的[预加载扫描程序](https://web.dev/articles/preload-scanner?hl=zh-cn)可在初始 HTML 文档响应中检测到相应资源。例如，在以下情况下，浏览器可以通过扫描 HTML 文档响应来发现 LCP 资源：
+为了确保您的 LCP 资源尽早开始加载，请务必确保浏览器的[预加载扫描程序](https://web.dev/articles/preload-scanner?hl=zh-cn)可在初始 HTML 文档响应中检测到相应资源。例如，**在以下情况下，浏览器可以通过扫描 HTML 文档响应来发现 LCP 资源：**
 
 - LCP 元素是一个 `<img>` 元素，其 `src` 或 `srcset` 属性存在于初始 HTML 标记中。
 - LCP 元素要求使用 CSS 背景图片，但该图片是通过 HTML 标记中的 `<link rel="preload">`（或通过 `Link` 标头）预加载的。
 - LCP 元素是一个文本节点，需要网页字体才能呈现，字体是通过 HTML 标记中的 `<link rel="preload">`（或通过 `Link` 标头）加载的。
 
-下面列举了一些示例来说明如何在扫描 HTML 文档响应中找不到 LCP 资源：
+下面列举了一些示例来说明如何**在扫描 HTML 文档中找不到 LCP 资源：**
 
 - LCP 元素是通过 JavaScript 动态添加到网页的 `<img>`。
-- LCP 元素使用会隐藏其 `src` 或 `srcset` 属性（通常为 `data-src` 或 `data-srcset`）的 JavaScript 库延迟加载。
+- LCP 元素使用会隐藏其 `src` 或 `srcset` 属性（通常为 `data-src` 或 `data-srcset`）的 JavaScript 库<u>延迟加载</u>。
 - LCP 元素需要 CSS 背景图片。
 
 在每种情况下，浏览器都需要先运行脚本或应用样式表（这通常需要等待网络请求完成），然后才能发现 LCP 资源并开始加载它。这从来都不是最佳选择。
 
 为消除不必要的资源加载延迟，您的 LCP 资源应始终可从 HTML 源代码中发现。如果资源仅从外部 CSS 或 JavaScript 文件引用，则应预加载 LCP 资源，并具有较高的提取优先级（[下一部分将详细介绍提取优先级](https://web.dev/articles/optimize-lcp?hl=zh-cn#optimize_the_priority_the_resource_is_given)）；例如：
 
-```
-<!-- Load the stylesheet that will reference the LCP image. --><link rel="stylesheet" href="/path/to/styles.css"><!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. --><link rel="preload" fetchpriority="high" as="image" href="/path/to/hero-image.webp" type="image/webp">
+```html
+<!-- Load the stylesheet that will reference the LCP image. -->
+<link rel="stylesheet" href="/path/to/styles.css">
+
+<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+<link rel="preload" fetchpriority="high" as="image" href="/path/to/hero-image.webp" type="image/webp">
 ```
 
 **警告** ：在大多数网页上，确保 LCP 资源与第一个资源同时开始加载就足够了，但请注意，这样构建的网页可能没有提前发现任何资源，并且所有资源开始加载的时间都比 TTFB 大得多。因此，虽然与第一个资源进行比较是发现改进机会的好方法，但在某些情况下，这可能是不够的，因此仍有必要衡量相对于 TTFB 的时间，并确保其较少。
 
 #### 优化为资源指定的优先级
 
-即使可从 HTML 标记中找到 LCP 资源，它也可能无法尽早开始加载第一个资源。如果浏览器预加载扫描程序的优先级启发式算法未意识到相应资源很重要，或者认为其他资源更重要，就可能会发生这种情况。
+即使可从 HTML 标记中找到 LCP 资源，它也可能无法尽早与第一个资源一样，开始加载。如果浏览器预加载扫描程序的优先级启发式算法**未意识到相应资源很重要，或者认为其他资源更重要，就可能会发生这种情况**。<u>例如</u>，如果您在 `<img>` 元素上设置了 [`loading="lazy"`](https://web.dev/articles/browser-level-image-lazy-loading?hl=zh-cn)，则可以通过 HTML 延迟 LCP 图片。使用延迟加载意味着：在布局确认图片位于视口内之前，资源不会加载，因此开始加载的时间可能会比实际时间要晚。**警告** ：切勿延迟加载 LCP 图片，因为这样做总是会导致不必要的资源加载延迟，并对 LCP 产生负面影响。
 
-例如，如果您在 `<img>` 元素上设置了 [`loading="lazy"`](https://web.dev/articles/browser-level-image-lazy-loading?hl=zh-cn)，则可以通过 HTML 延迟 LCP 图片。使用延迟加载意味着：在布局确认图片位于视口内之前，资源不会加载，因此开始加载的时间可能会比实际时间要晚。
+**fetchpriority属性**
 
-**警告** ：切勿延迟加载 LCP 图片，因为这样做总是会导致不必要的资源加载延迟，并对 LCP 产生负面影响。
+即使没有延迟加载，浏览器也不会最初以最高优先级加载图像，因为它们不是阻止渲染的资源。**您可以通过 [`fetchpriority`](https://web.dev/articles/fetch-priority?hl=zh-cn) 属性提示浏览器哪些资源最重要**，以表明资源能从较高的优先级中获益：
 
-即使没有延迟加载，浏览器也不会最初以最高优先级加载图像，因为它们不是阻止渲染的资源。您可以通过 [`fetchpriority`](https://web.dev/articles/fetch-priority?hl=zh-cn) 属性提示浏览器哪些资源最重要，以表明资源若能从较高的优先级中获益：
-
-```
+```html
 <img fetchpriority="high" src="/path/to/hero-image.webp">
 ```
 
-如果您认为某个 `<img>` 元素可能是网页的 LCP 元素，那么最好在该元素上设置 `fetchpriority="high"`，但最好仅将其设为一到两张图片（根据常见的桌面设备和移动设备视口尺寸），否则信号将变得毫无意义。您还可以降低那些可能在文档回复中早期但因样式设置而不可见的图片（例如轮播幻灯片中在启动时不可见的图片）：
+如果您认为某个 `<img>` 元素可能是网页的 LCP 元素，那么最好在该元素上设置 `fetchpriority="high"`，**但最好仅将其设为一到两张图片**，**否则将变得毫无意义**。**还可以降低文档中早期不可见的图片**（例如轮播幻灯片中在启动时不可见的图片）：
 
-```
+```html
 <img fetchpriority="low" src="/path/to/carousel-slide-3.webp">
 ```
 
-降低某些资源的优先级可以腾出更多带宽提供给需要更多资源的资源，但要小心。请始终在开发者工具中查看资源优先级，并使用实验室和现场工具测试更改。
+<u>降低某些资源的优先级可以腾出更多带宽提供给需要更多资源的资源</u>，但要小心。请始终在开发者工具中查看资源优先级，并使用实验室和现场工具测试更改。
 
 优化 LCP 资源优先级和发现时间后，您的网络瀑布流应如下所示（LCP 资源与第一个资源同时开始）：
 
 ![显示 LCP 资源现在与第一个资源同时启动的网络瀑布图](https://web.dev/static/articles/optimize-lcp/image/a-network-waterfall-diagr-b6906b9fce22.png?hl=zh-cn)
 
-**要点** ：另一个原因可能是您的 LCP 资源未尽早开始加载（即使可从 HTML 源代码中发现该资源），原因是其托管在其他来源上，因为这些请求要求浏览器先连接到相应来源，然后才能开始加载资源。如果可能，最好将关键资源与 HTML 文档资源托管在同一源上，因为这些资源可以通过重复使用现有连接来节省时间（稍后会详细介绍）。
+**要点** ：另一个原因可能是您的 LCP 资源未尽早开始加载（即使可从 HTML 源代码中发现该资源），**原因是其托管在其他来源上**，<u>因为这些请求要求浏览器先连接到相应来源，然后才能开始加载资源</u>。如果可能，**最好将关键资源与 HTML 文档资源托管在同一源上，因为这些资源可以通过重复使用现有连接来节省时间**（稍后会详细介绍）。
 
 ### 2. 消除*元素渲染延迟*
 
