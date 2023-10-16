@@ -1,10 +1,10 @@
-[Largest Contentful Paint (LCP)](https://web.dev/articles/lcp?hl=zh-cn) 是三个[核心网页指标](https://web.dev/articles/vitals?hl=zh-cn#core_web_vitals)指标之一，表示**网页主要内容的加载速度**。具体来说，**LCP 衡量的是从用户开始加载网页到在视口中呈现最大的图片或文本块之间的时间**。
+[Largest Contentful Paint (LCP)](https://web.dev/articles/lcp?hl=zh-cn) 是三个[核心网页指标](https://web.dev/articles/vitals?hl=zh-cn#core_web_vitals)指标之一，表示**网页主要内容的加载速度**。具体来说，**LCP 衡量的是从用户开始加载网页到在视口中渲染最大的图片或文本块之间的时间**。
 
 为了提供良好的用户体验，**网站应尽力将至少 75% 的网页访问的 LCP 控制在 2.5 秒以内。**
 
 ![]()
 
-有很多因素会影响浏览器加载和呈现网页的速度，而其中任何因素的阻塞或延迟都会对 LCP 产生重大影响。
+有很多因素会影响浏览器加载和渲染网页的速度，而其中任何因素的阻塞或延迟都会对 LCP 产生重大影响。
 
 对网页的单个部分进行快速修复能够显著改善 LCP 的情况很少见。**要改进 LCP，您必须了解整个加载过程，并确保整个过程中的每一步都得到优化**。
 
@@ -21,11 +21,11 @@
 
 虽然网页上的其他请求可能会影响 LCP，但这两个请求（尤其是 LCP 资源开始和结束的时间）会显示您的网页是否针对 LCP 进行了优化。
 
-<u>要确定 LCP 资源</u>，您可以使用开发者工具（例如 [Chrome 开发者工具](https://developer.chrome.com/docs/devtools/?hl=zh-cn)或 [WebPageTest](https://webpagetest.org/)）来确定 [LCP 元素](https://web.dev/articles/lcp?hl=zh-cn#what_elements_are_considered)。然后，您便可以在该元素中匹配由该网页加载的所有资源的[网络瀑布流](https://developer.chrome.com/docs/devtools/network/reference/?hl=zh-cn)中由该元素加载的网址（同样，如果适用）。例如，以下可视化图表所示为在典型网页加载的网络瀑布图上突出显示的资源，其中 LCP 元素需要图片请求才能呈现。
+<u>要确定 LCP 资源</u>，您可以使用开发者工具（例如 [Chrome 开发者工具](https://developer.chrome.com/docs/devtools/?hl=zh-cn)或 [WebPageTest](https://webpagetest.org/)）来确定 [LCP 元素](https://web.dev/articles/lcp?hl=zh-cn#what_elements_are_considered)。然后，您便可以在该元素中匹配由该网页加载的所有资源的[网络瀑布流](https://developer.chrome.com/docs/devtools/network/reference/?hl=zh-cn)中由该元素加载的网址（同样，如果适用）。例如，以下可视化图表所示为在典型网页加载的网络瀑布图上突出显示的资源，其中 LCP 元素需要图片请求才能渲染。
 
 ![一个网络瀑布流，其中突出显示了 HTML 和 LCP 资源](https://web.dev/static/articles/optimize-lcp/image/a-network-waterfall-the-919387402b1d3.png?hl=zh-cn)
 
-对于经过充分优化的网页，<u>您应尽早开始加载 LCP 资源请求，并希望 LCP 元素在 LCP 资源加载完成后尽快呈现</u>。为了直观地了解特定网页是否遵循了这一原则，您可以**将总 LCP 时间细分为以下几部分：**
+对于经过充分优化的网页，<u>您应尽早开始加载 LCP 资源请求，并希望 LCP 元素在 LCP 资源加载完成后尽快渲染</u>。为了直观地了解特定网页是否遵循了这一原则，您可以**将总 LCP 时间细分为以下几部分：**
 
 ![LCP 明细，显示了四个单独的子部分](https://web.dev/static/articles/optimize-lcp/image/a-breakdown-lcp-showing-23a709f16b362.png?hl=zh-cn)
 
@@ -36,7 +36,7 @@
 | 加载第一个字节所需时间 (Time to first byte,TTFB) | 从用户开始加载网页到浏览器收到 HTML 文档响应的第一个字节的时间。（如需了解详情，请参阅 [TTFB](https://web.dev/articles/ttfb?hl=zh-cn) 指标文档）。 |
 | 资源加载延迟                                | TTFB 与浏览器开始加载 LCP 资源之间的增量。***                                                                        |
 | 资源加载时间                                | 加载 LCP 资源本身所需的时间。***                                                                                 |
-| 元素渲染延迟                                | 从 LCP 资源完成加载到 LCP 元素完全呈现之间的增量。                                                                       |
+| 元素渲染延迟                                | 从 LCP 资源完成加载到 LCP 元素完全渲染之间的增量。                                                                       |
 
 每个网页的 LCP 值都可以细分为这四个子部分。它们之间没有重叠或缺口，它们加起来就是完整的 LCP 时间。
 
@@ -48,7 +48,7 @@
 
 ### 最佳的子部分的时段
 
-为了优化 LCP 的每个子部分，请务必了解在经过精心优化的网页上呈现这些子部分的理想细分是怎样的。四个子部分中，两个部分的名称中包含“delay”一词。这表示您希望这些时间尽可能接近零。其他两个部分涉及网络请求，就其本质而言，它们需要时间。
+为了优化 LCP 的每个子部分，请务必了解在经过精心优化的网页上渲染这些子部分的理想细分是怎样的。四个子部分中，两个部分的名称中包含“delay”一词。这表示您希望这些时间尽可能接近零。其他两个部分涉及网络请求，就其本质而言，它们需要时间。
 
 | LCP 子部分            | LCP 占比 (%) |
 | ------------------ | ---------- |
@@ -71,7 +71,7 @@
 
 至此，您已了解在经过精心优化的网页中，每个 LCP 子部分时间应如何细分，接下来就可以开始优化自己的网页了。
 
-接下来的四个部分将就如何优化各个部分提供建议和最佳做法。<u>这些建议是按顺序呈现的</u>，<u>从可能产生最大影响的优化开始</u>。
+接下来的四个部分将就如何优化各个部分提供建议和最佳做法。<u>这些建议是按顺序渲染的</u>，<u>从可能产生最大影响的优化开始</u>。
 
 ### 1. 消除*资源加载延迟*
 
@@ -92,7 +92,7 @@
 
 - LCP 元素是一个 `<img>` 元素，其 `src` 或 `srcset` 属性存在于初始 HTML 标记中。
 - LCP 元素要求使用 CSS 背景图片，但该图片是通过 HTML 标记中的 `<link rel="preload">`（或通过 `Link` 标头）预加载的。
-- LCP 元素是一个文本节点，需要网页字体才能呈现，字体是通过 HTML 标记中的 `<link rel="preload">`（或通过 `Link` 标头）加载的。
+- LCP 元素是一个文本节点，需要网页字体才能渲染，字体是通过 HTML 标记中的 `<link rel="preload">`（或通过 `Link` 标头）加载的。
 
 下面列举了一些示例来说明如何**在扫描 HTML 文档中找不到 LCP 资源：**
 
@@ -142,74 +142,81 @@
 
 ### 2. 消除*元素渲染延迟*
 
-此步骤的目标是确保 LCP 元素在其资源完成加载后可以立即渲染（无论何时）。
+**此步骤的目标**是确保 LCP 元素在其资源完成加载后可以立即渲染（无论何时）。
 
-LCP 元素无法在其资源完成加载后立即呈现的主要原因是，呈现因其他原因而[被屏蔽](https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources/?hl=zh-cn)：
+LCP 元素无法在其资源完成加载后立即渲染的主要原因是，**渲染因其他原因而[被阻塞](https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources/?hl=zh-cn)：**
 
-- 由于 `<head>` 中的样式表或同步脚本仍在加载，整个网页都被阻止呈现。
-- LCP 资源已加载完毕，但 LCP 元素尚未添加到 DOM 中（正在等待一些 JavaScript 代码加载完毕）。
-- 此元素被其他一些代码（例如仍在确定用户应参与的实验的 A/B 测试库）隐藏了。
-- 主线程因[耗时较长的任务](https://web.dev/articles/long-tasks-devtools?hl=zh-cn#what_are_long_tasks)而处于阻塞状态，并且渲染工作需要等待这些耗时较长的任务完成。
+- 由于 `<head>` 中的<u>样式表或同步脚本仍在加载</u>，整个网页的渲染都被阻塞。
+- LCP 资源已加载完毕，<u>但 LCP 元素尚未添加到 DOM 中</u>（正在等待一些 JavaScript 代码加载完毕）。
+- 此元素被其他一些代码（例如仍在确定用户应参与的实验的 A/B 测试库）<u>隐藏了</u>。
+- 主线程因[耗时较长的任务](https://web.dev/articles/long-tasks-devtools?hl=zh-cn#what_are_long_tasks)而处于阻塞状态，并且<u>渲染工作需要等待这些耗时较长的任务完成</u>。
 
 下面几部分将介绍如何解决导致不必要的元素渲染延迟的最常见原因。
 
 #### 减少或内嵌阻止渲染的样式表
 
-从 HTML 标记加载的样式表会阻止呈现其后面的所有内容，这是好事，因为您通常不想呈现没有样式的 HTML。不过，如果样式表过大，以致于加载所需的时间远远超过 LCP 资源，则会阻止 LCP 元素渲染，即使其资源加载完成后也是如此，如以下示例所示：
+<u>从 HTML 标记加载的样式表会阻止渲染其后面的所有内容，这是好事，因为您通常不想渲染没有样式的 HTML</u>。不过，**如果样式表过大，以致于加载所需的时间远远超过 LCP 资源，则会阻止 LCP 元素渲染**，即使其资源加载完成后也是如此，如以下示例所示：
 
 ![网络瀑布图，显示了大型 CSS 文件阻止渲染 LCP 元素（因为加载用时比 LCP 资源长）](https://web.dev/static/articles/optimize-lcp/image/a-network-waterfall-diagr-42b740846d30d.png?hl=zh-cn)
 
-要解决此问题，您可以选择以下两种方式之一：
+**要解决此问题，您可以选择以下两种方式之一：**
 
 - 将样式表内嵌到 HTML 中，以避免额外的网络请求；或者，
 - 减小样式表的大小。
 
-一般来说，只有当样式表很小时，才建议内嵌样式表，因为 HTML 中的内嵌内容无法从后续网页加载中获益。如果样式表过大，以致加载用时比 LCP 资源长，则不太可能适合进行内嵌。
+<u>一般来说，只有当样式表很小时，才建议内嵌样式表，因为 HTML 中的内嵌内容无法从后续网页加载的缓存中获益</u>。如果样式表过大，以致加载用时比 LCP 资源长，则不太可能适合进行内嵌。
 
-在大多数情况下，确保样式表不会阻止渲染 LCP 元素的最佳方法是缩减其大小，使其小于 LCP 资源。这样可以确保它不会成为大多数访问的瓶颈。
-
-下面是一些缩减样式表大小的建议：
+在大多数情况下，确保样式表不会阻止渲染 LCP 元素的**最佳方法是缩减其大小，使其小于 LCP 资源**。这样可以确保它不会成为大多数访问的瓶颈。<u>下面是一些缩减样式表大小的建议：</u>
 
 - [移除未使用的 CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/?hl=zh-cn)：使用 Chrome 开发者工具查找未在使用且可能会被移除（或延迟）的 CSS 规则。
 - [延迟非关键 CSS](https://web.dev/articles/defer-non-critical-css?hl=zh-cn)：将样式表拆分为初始网页加载所需的样式，然后拆分为可延迟加载的样式。
-- [缩减 CSS 大小](https://web.dev/articles/reduce-network-payloads-using-text-compression?hl=zh-cn)：对于关键样式，确保尽可能缩减其[传输大小](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize)。
+- [减小和压缩 CSS ](https://web.dev/articles/reduce-network-payloads-using-text-compression?hl=zh-cn)：对于关键样式，确保尽可能缩减其[传输大小](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize)。
 
 #### 延迟或内嵌阻止渲染的 JavaScript
 
-几乎从来没有必要将同步脚本（不含 `async` 或 `defer` 属性的脚本）添加到网页的 `<head>` 中，因为这样做几乎总是会对性能产生负面影响。
+**几乎从来没有必要将同步脚本（不含 `async` 或 `defer` 属性的脚本）添加到网页的 `<head>` 中，因为这样做几乎总是会对性能产生负面影响**。
 
-如果 JavaScript 代码需要在网页加载过程中尽早运行，最好内嵌该代码，这样呈现在等待其他网络请求时就不会出现延迟。不过，与样式表一样，您只应内嵌非常小的脚本。
+**如果 JavaScript 代码需要在网页加载过程中尽早运行，最好内嵌该代码**，这样渲染就不会出现延迟。不过，<u>与样式表一样，您只应内嵌非常小的脚本</u>。
 
-错误做法
+错误做法：
 
-<head>  <script src="/path/to/main.js"></script>  
+```html
+<head>
+  <script src="/path/to/main.js"></script>
 </head>
+```
 
-Do
+正确做法：
 
-<head>  <script>    // Inline script contents directly in the HTML.    // IMPORTANT: only do this for very small scripts.  </script>  
+```html
+<head>
+  <script>
+    // Inline script contents directly in the HTML.
+    // IMPORTANT: only do this for very small scripts.
+  </script>
 </head>
+```
 
-#### 使用服务器端呈现
+#### 使用服务器端渲染
 
-[服务器端呈现](https://web.dev/articles/rendering-on-the-web?hl=zh-cn#server-side_rendering) (SSR) 是在服务器上运行客户端应用逻辑，并使用完整的 HTML 标记响应 HTML 文档请求的过程。
+[服务器端渲染](https://web.dev/articles/rendering-on-the-web?hl=zh-cn#server-side_rendering) (SSR) 是在服务器上运行客户端应用逻辑，并使用完整的 HTML 标记响应 HTML 文档请求的过程。
 
-从优化 LCP 的角度来看，SSR 有两大主要优势：
+**从优化 LCP 的角度来看，SSR 有两大主要优势：**
 
 - 您的图片资源可显示在 HTML 源代码中（如前面的[第 1 步](https://web.dev/articles/optimize-lcp?hl=zh-cn#1_eliminate_resource_load_delay)中所述）。
-- 您的网页内容无需额外的 JavaScript 请求就能呈现。
+- 您的网页内容无需额外的 JavaScript 请求就能渲染。
 
-SSR 的主要缺点是需要额外的服务器处理时间，这可能会降低 TTFB 的速度。不过，这种取舍通常是值得的，因为服务器处理时间由您控制，而用户的网络和设备功能则不然。
+**SSR 的主要缺点**是需要额外的服务器处理时间，这可能会降低 TTFB 的速度。不过，这种取舍通常是值得的，因为服务器处理时间由您控制，而用户的网络和设备功能则不然。
 
-与 SSR 类似的选项称为静态网站生成 (SSG) 或[预呈现](https://web.dev/articles/rendering-on-the-web?hl=zh-cn#terminology)。这是在构建步骤中（而非按需）生成 HTML 页面的过程。如果您的架构可以进行预渲染，则它通常更适合用于提升性能。
+与 SSR 类似的选项称为 **静态网站生成 (static site generation-SSG) 或[预渲染](https://web.dev/articles/rendering-on-the-web?hl=zh-cn#terminology)。** 这是在构建步骤中（而非按需）生成 HTML 页面的过程。如果您的架构可以进行预渲染，则它通常更适合用于提升性能。
 
 #### 拆分长任务
 
-即使您遵循了上述建议，并且 JavaScript 代码既不会阻止呈现，也不负责呈现元素，它仍然会延迟 LCP。
+即使您遵循了上述建议，并且 JavaScript 代码既不会阻止渲染，也不负责渲染元素，它仍然会延迟 LCP。
 
-发生这种情况的最常见原因是，网页加载了大型 JavaScript 文件，这些文件需要在浏览器的主线程上解析和执行。这意味着，即使图片资源已完全下载，可能仍然需要等到不相关的脚本执行完毕后才能呈现。
+**发生这种情况的最常见原因**是，网页加载了大型 JavaScript 文件，这些文件需要在浏览器的主线程上解析和执行。<u>这意味着，即使图片资源已完全下载，可能仍然需要等到不相关的脚本执行完毕后才能渲染</u>。
 
-目前，所有浏览器都会在主线程上渲染图片，这意味着，任何阻塞主线程的内容也可能会导致不必要的*元素渲染延迟*。
+<u>目前，所有浏览器都会在主线程上渲染图片，这意味着，任何阻塞主线程的内容也可能会导致不必要的*元素渲染延迟*。</u>
 
 ### 3. 缩短*资源加载时间*
 
@@ -231,7 +238,7 @@ SSR 的主要缺点是需要额外的服务器处理时间，这可能会降低 
 
 #### 缩短资源需要的行程距离
 
-除了缩减资源的大小，您还可以使服务器在地理位置上尽可能靠近用户，从而缩短加载时间。要做到这一点，最好的方法是使用[内容分发网络](https://web.dev/articles/content-delivery-networks?hl=zh-cn) (CDN)。
+除了缩减资源的大小，您还可以使服务器在地理位置上尽可能靠近用户，从而缩短加载时间。要做到这一点，**最好的方法是使用[内容分发网络](https://web.dev/articles/content-delivery-networks?hl=zh-cn) (CDN)**。
 
 事实上，[图片 CDN](https://web.dev/articles/image-cdns?hl=zh-cn) 是非常不错的选择，因为它们不仅能缩短资源需要行进的距离，而且总体来说还会缩减资源的大小 - 自动为您实现前面提到的所有缩减大小建议。
 
@@ -249,7 +256,7 @@ SSR 的主要缺点是需要额外的服务器处理时间，这可能会降低 
 
 如果您的 LCP 资源是一种网页字体，那么除了[缩减网页字体大小](https://web.dev/articles/reduce-webfont-size?hl=zh-cn)之外，您还应考虑是否需要在加载网页字体资源时阻止渲染。如果您将 [`font-display`](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) 值设为 `auto` 或 `block` 以外的任何其他值，则文本在加载期间将始终可见，并且系统不会在收到额外的网络请求时屏蔽 LCP。[](https://developer.chrome.com/docs/lighthouse/performance/font-display/?hl=zh-cn)
 
-最后，如果 LCP 资源较小，可以将资源内嵌为[数据网址](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs)，这样也可以消除额外的网络请求。但是，使用数据网址[需要注意](https://calendar.perfplanet.com/2018/performance-anti-patterns-base64-encoding/)，因为如果资源无法缓存，则在某些情况下，由于会产生额外的[解码成本](https://www.catchpoint.com/blog/data-uri)，导致呈现延迟时间延长。
+最后，如果 LCP 资源较小，可以将资源内嵌为[数据网址](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs)，这样也可以消除额外的网络请求。但是，使用数据网址[需要注意](https://calendar.perfplanet.com/2018/performance-anti-patterns-base64-encoding/)，因为如果资源无法缓存，则在某些情况下，由于会产生额外的[解码成本](https://www.catchpoint.com/blog/data-uri)，导致渲染延迟时间延长。
 
 ### 4. 缩短*加载第一个字节所需时间*
 
@@ -273,7 +280,7 @@ SSR 的主要缺点是需要额外的服务器处理时间，这可能会降低 
 
 在与 Network 轨道和主线程轨道一起查看时，时间轨道中的可视化功能特别有用，因为您可以一目了然地查看在这些时间范围内网页上发生的其他事件。
 
-除了在时间轨道中直观呈现 LCP 子部分之外，您还可以使用 JavaScript 计算每个子部分占总 LCP 时间的百分比。根据这些信息，您可以确定网页是否满足上文所述的[建议的百分比细分](https://web.dev/articles/optimize-lcp?hl=zh-cn#optimal_sub-part_times)。
+除了在时间轨道中直观渲染 LCP 子部分之外，您还可以使用 JavaScript 计算每个子部分占总 LCP 时间的百分比。根据这些信息，您可以确定网页是否满足上文所述的[建议的百分比细分](https://web.dev/articles/optimize-lcp?hl=zh-cn#optimal_sub-part_times)。
 
 此屏幕截图显示的示例记录了每个 LCP 子部分的总时间，及其在总 LCP 时间中占到控制台时间的百分比。
 
