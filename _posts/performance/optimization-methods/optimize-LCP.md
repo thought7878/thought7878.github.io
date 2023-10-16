@@ -220,7 +220,7 @@ LCP 元素无法在其资源完成加载后立即渲染的主要原因是，**�
 
 ### 3. 缩短*资源加载时间*
 
-此步骤的目的是减少通过网络将资源的字节传输到用户设备所花费的时间。一般来说，您可以通过以下三种方法实现此目的：
+**此步骤的目的**是减少通过网络将资源的字节传输到用户设备所花费的时间。一般来说，您可以**通过以下三种方法实现此目的：**
 
 - 缩减资源的大小。
 - 缩短资源需要的行程距离。
@@ -229,38 +229,38 @@ LCP 元素无法在其资源完成加载后立即渲染的主要原因是，**�
 
 #### 缩减资源大小
 
-网页的 LCP 资源（如果有）将会是图片或网页字体。以下指南详细介绍了如何缩减这两者的大小：
+网页的 LCP 资源（如果有）将会是<u>图片或网页字体</u>。以下指南详细介绍了如何缩减这两者的大小：
 
 - [提供最佳大小的图片](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/?hl=zh-cn)
 - [使用新型图片格式](https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images/?hl=zh-cn)
 - [压缩图片](https://developer.chrome.com/docs/lighthouse/performance/uses-optimized-images/?hl=zh-cn)
 - [缩减网页字体大小](https://web.dev/articles/reduce-webfont-size?hl=zh-cn)
 
-#### 缩短资源需要的行程距离
+#### 缩短资源需要的距离
 
-除了缩减资源的大小，您还可以使服务器在地理位置上尽可能靠近用户，从而缩短加载时间。要做到这一点，**最好的方法是使用[内容分发网络](https://web.dev/articles/content-delivery-networks?hl=zh-cn) (CDN)**。
+除了缩减资源的大小，您还可以<u>使服务器在地理位置上尽可能靠近用户，从而缩短加载时间</u>。要做到这一点，**最好的方法是使用[内容分发网络](https://web.dev/articles/content-delivery-networks?hl=zh-cn) (CDN)**。
 
 事实上，[图片 CDN](https://web.dev/articles/image-cdns?hl=zh-cn) 是非常不错的选择，因为它们不仅能缩短资源需要行进的距离，而且总体来说还会缩减资源的大小 - 自动为您实现前面提到的所有缩减大小建议。
 
-**要点** ：虽然图片 CDN 是缩短资源加载时间的好方法，但使用第三方网域托管图片会产生额外的连接费用。虽然预先连接到来源可以减少这部分费用，但最好的选择是从与 HTML 文档相同的来源投放图片。许多 CDN 都允许您将来自您的源站的请求代理到他们的源站，这是一个很好的选择（如果有）。
+**要点** ：虽然图片 CDN 是缩短资源加载时间的好方法，但使用第三方网域托管图片会产生额外的连接费用。虽然预先连接到来源可以减少这部分费用，<u>但最好的选择是从与 HTML 文档相同的来源投放图片</u>。许多 CDN 都允许您将来自您的源站的请求代理到他们的源站，这是一个很好的选择（如果有）。
 
 #### 减少网络带宽争用
 
-如果您同时加载许多其他资源，那么即使您已经缩减了资源的大小并缩短了资源穿越的距离，也仍然需要很长时间才能加载资源。此问题称为*网络争用*。
+如果您<u>同时加载许多其他资源</u>，那么即使您已经缩减了资源的大小并缩短了资源穿越的距离，也仍然需要很长时间才能加载资源。此问题称为*网络争用*。
 
 如果您为 LCP 资源指定[高 `fetchpriority`](https://web.dev/articles/fetch-priority?hl=zh-cn) 并[开始尽快加载该资源](https://web.dev/articles/optimize-lcp?hl=zh-cn#1_eliminate_resource_load_delay)，则浏览器会尽最大努力阻止优先级较低的资源与其竞争。但是，如果您要加载许多资源并且 `fetchpriority` 较高，或者一般只需加载大量资源，则可能会影响 LCP 资源的加载速度。
 
 #### 完全消除网络时间
 
-缩短资源加载时间的最佳方法是从进程中完全消除网络。如果您通过[高效的缓存控制政策](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?hl=zh-cn)提供资源，那么第二次请求这些资源的访问者将从缓存中提供这些资源，这会使*资源加载时间*基本上为零！
+**缩短资源加载时间的最佳方法**是从进程中完全消除网络。如果您通过[高效的缓存控制政策](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?hl=zh-cn)提供资源，**那么第二次请求这些资源的访问者将从缓存中提供这些资源，这会使*资源加载时间*基本上为零！**
 
-如果您的 LCP 资源是一种网页字体，那么除了[缩减网页字体大小](https://web.dev/articles/reduce-webfont-size?hl=zh-cn)之外，您还应考虑是否需要在加载网页字体资源时阻止渲染。如果您将 [`font-display`](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) 值设为 `auto` 或 `block` 以外的任何其他值，则文本在加载期间将始终可见，并且系统不会在收到额外的网络请求时屏蔽 LCP。[](https://developer.chrome.com/docs/lighthouse/performance/font-display/?hl=zh-cn)
+如果您的<u> LCP 资源是一种网页字体</u>，那么除了[缩减网页字体大小](https://web.dev/articles/reduce-webfont-size?hl=zh-cn)之外，您还应考虑是否需要在加载网页字体资源时阻止渲染。如果您将 [`font-display`](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) 值设为 `auto` 或 `block` 以外的任何其他值，则文本在加载期间将始终可见，并且系统不会在收到额外的网络请求时屏蔽 LCP。[](https://developer.chrome.com/docs/lighthouse/performance/font-display/?hl=zh-cn)
 
-最后，如果 LCP 资源较小，可以将资源内嵌为[数据网址](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs)，这样也可以消除额外的网络请求。但是，使用数据网址[需要注意](https://calendar.perfplanet.com/2018/performance-anti-patterns-base64-encoding/)，因为如果资源无法缓存，则在某些情况下，由于会产生额外的[解码成本](https://www.catchpoint.com/blog/data-uri)，导致渲染延迟时间延长。
+**最后，如果 LCP 资源较小，可以将资源内嵌为[data url](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs)**，这样也可以消除额外的网络请求。但是，使用data url[需要注意](https://calendar.perfplanet.com/2018/performance-anti-patterns-base64-encoding/)，因为如果资源无法缓存，则在某些情况下，由于会产生额外的[解码成本](https://www.catchpoint.com/blog/data-uri)，导致渲染延迟时间延长。
 
 ### 4. 缩短*加载第一个字节所需时间*
 
-此步骤的目的是尽快提供初始 HTML。之所以将此步骤列在最后，是因为此步骤通常是开发者最无法控制的步骤。但是，这也是最重要的步骤之一，因为它会直接影响其之后的每一个步骤。在后端传送第一个字节内容之前，前端不会发生任何情况，因此，为加快 TTFB 速度而采取的任何措施也会改善所有其他加载指标。
+**此步骤的目的**是尽快提供初始 HTML。之所以将此步骤列在最后，是因为<u>此步骤通常是开发者最无法控制的步骤</u>。但是，这也是最重要的步骤之一，因为它会直接影响其之后的每一个步骤。在后端传送第一个字节内容之前，前端不会发生任何情况，因此，<u>为加快 TTFB 速度而采取的任何措施也会改善所有其他加载指标</u>。
 
 如需有关此主题的具体指导，请参阅[优化 TTFB](https://web.dev/articles/optimize-ttfb?hl=zh-cn)。
 
@@ -272,7 +272,7 @@ LCP 元素无法在其资源完成加载后立即渲染的主要原因是，**�
 - [Navigation Timing API](https://www.w3.org/TR/navigation-timing-2/)
 - [Resource Timing API](https://www.w3.org/TR/resource-timing-2/)
 
-使用 JavaScript 计算这些时间值的好处是，您可以将其发送给分析服务提供商，或将其记录到开发者工具中，以帮助进行调试和优化。
+**使用 JavaScript 计算这些时间值的好处**是，您可以将其发送给分析服务提供商，或将其记录到开发者工具中，以帮助进行调试和优化。
 
 例如，以下屏幕截图使用 [User Timing API](https://w3c.github.io/user-timing/) 中的 `performance.measure()` 方法向 Chrome 开发者工具中的“Performance”面板的“Timings”轨道添加栏。
 
