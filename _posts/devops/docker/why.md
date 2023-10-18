@@ -38,3 +38,9 @@
 | 硬盘使用  | 一般为 `MB`  | 一般为 `GB` |
 | 性能    | 接近原生      | 弱于       |
 | 系统支持量 | 单机支持上千个容器 | 一般几十个    |
+
+
+
+## 参考
+
+[为什么要用 Docker](https://yeasy.gitbook.io/docker_practice/introduction/why)
