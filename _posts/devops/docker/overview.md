@@ -35,6 +35,7 @@ CONTAINER ID        IMAGE                COMMAND                  CREATED       
 - `--name`: 为容器指定名称
 - `-p host-port:container-port`: 宿主机与容器端口映射，方便容器对外提供服务
 - `nginx:alpine`: 基于该镜像创建容器
+- --rm: 当容器停止运行时，自动删除容器
 
 ### 进入容器
 
@@ -81,15 +82,22 @@ CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT   
 在使用 `docker` 部署自己应用时，往往需要自己构建镜像。`docker` 使用 `Dockerfile` 作为配置文件构建镜像，简单看一个 `node` 应用构建的 `dockerfile`
 
 ```dockerfile
-FROM node:alpine
+# 选择一个体积小的镜像 (~5MB)
+FROM node:14-alpine
 
-ADD package.json package-lock.json /code/
+# 设置为工作目录，以下 RUN/CMD 命令都是在工作目录中进行执行
 WORKDIR /code
 
-RUN npm install --production
-
+# 把代码置于镜像
 ADD . /code
 
+# 装包
+RUN yarn
+
+# 暴露3000端口
+EXPOSE 3000
+
+# 启动 Node Server
 CMD npm start
 ```
 
@@ -99,15 +107,32 @@ CMD npm start
 
 使用 `docker build` 构建镜像，**`docker build` 会使用当前目录的 `dockerfile` 构建镜像**，至于 `dockerfile` 的配置，参考下节。
 
-`-t` 指定标签
-
 ```shell
+# -t 指定标签
 # -t node-base:10: 镜像以及版本号
 # .: 指当前路径
 $ docker build -t node-base:10 .
+
+# 构建一个名为 simple-app 的镜像
+# -t: "name:tag" 构建镜像名称，不加tag，默认是latest
+# . 代表当前路径
+$ docker build -t simple-app .
+
+# git rev-parse --short HEAD: 列出当前仓库的 CommitId
+# 也可将当前 Commit 作为镜像的 Tag
+# 如果该前端项目使用 git tag 以及 package.json 中的 version 进行版本维护，也可将 version 作为生产环境镜像的 Tag
+$ docker build -t simple-app:$(git rev-parse --short HEAD)
 ```
 
 当构建镜像成功后可以使用 `docker push` 推送到镜像仓库
+
+### WORKDIR
+
+设置工作目录为code， RUN/CMD 命令都是在工作目录中进行执行
+
+```dockerfile
+WORKDIR /code
+```
 
 ### FROM
 
@@ -122,7 +147,7 @@ FROM <image>[:<tag>] [AS <name>]
 
 ### ADD
 
-把目录，或者 url 地址文件加入到镜像的文件系统中
+把目录或者 url 地址文件，加入到镜像的文件系统中
 
 ```dockerfile
 ADD [--chown=<user>:<group>] <src>... <dest>
@@ -150,10 +175,8 @@ CMD ["executable","param1","param2"]
 CMD ["param1","param2"]
 
 # shell form
-CMD command param1 param2
+CMD command param1 param2 
 ```
-
-
 
 ## 仓库repository
 
