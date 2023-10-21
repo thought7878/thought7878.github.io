@@ -1,5 +1,3 @@
-
-
 ![](assets/overview/2023-10-18-13-58-26-image.png)
 
 ## 镜像image
@@ -12,7 +10,68 @@
 
 ## Dockerfile
 
-相当于配置文件，内容是“如何构建image”
+相当于配置文件，内容是“如何构建image”。
+
+在使用 `docker` 部署自己应用时，往往需要自己构建镜像。`docker` 使用 `Dockerfile` 作为配置文件构建镜像，简单看一个 `node` 应用构建的 `dockerfile`
+
+```
+FROM node:alpine
+
+ADD package.json package-lock.json /code/
+WORKDIR /code
+
+RUN npm install --production
+
+ADD . /code
+
+CMD npm start
+```
+
+### FROM
+
+基于一个旧有的镜像，格式如下
+
+```dockerfile
+FROM <image> [AS <name>]
+
+# 在多阶段构建时会用到
+FROM <image>[:<tag>] [AS <name>]
+```
+
+### ADD
+
+把目录，或者 url 地址文件加入到镜像的文件系统中
+
+```dockerfile
+ADD [--chown=<user>:<group>] <src>... <dest>
+```
+
+### RUN
+
+执行命令，由于 `ufs` 的文件系统，它会在当前镜像的顶层新增一层
+
+```dockerfile
+RUN <command>
+```
+
+### CMD
+
+指定容器如何启动
+
+**一个 `Dockerfile` 中只允许有一个 CMD**
+
+```dockerfile
+# exec form, this is the preferred form
+CMD ["executable","param1","param2"] 
+
+# as default parameters to ENTRYPOINT
+CMD ["param1","param2"]
+
+# shell form
+CMD command param1 param2
+```
+
+
 
 ## 仓库repository
 
@@ -25,5 +84,3 @@
 ## 参考
 
 [【docker入门】10分钟，快速学会docker](https://www.bilibili.com/video/BV1R4411F7t9/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
-
-
