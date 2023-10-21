@@ -8,13 +8,79 @@
 
 类比正在运行中的虚拟机。类似于一个轻量级的沙盒，可以将其看作一个极简的Linux系统环境。Docker引擎利用容器来运行、隔离各个应用。容器是镜像创建的应用实例，可以创建、启动、停止、删除容器，各个容器之间是是相互隔离的，互不影响。
 
+镜像与容器的关系，类似于代码与进程的关系。
+
+- `docker run` 创建容器
+- `docker stop` 停止容器
+- `docker rm` 删除容器
+
+### 创建容器
+
+基于 `nginx` 镜像创建一个最简单的容器：启动一个最简单的 http 服务
+
+使用 `docker run` 来启动容器，`docker ps` 查看容器启动状态
+
+```shell
+$ docker run -d --name nginx -p 8888:80 nginx:alpine
+
+$ docker ps -l
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
+404e88f0d90c        nginx:alpine         "nginx -g 'daemon of…"   4 minutes ago       Up 4 minutes        0.0.0.0:8888->80/tcp     nginx
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
+```
+
+其中:
+
+- `-d`: 启动一个 `daemon` 进程
+- `--name`: 为容器指定名称
+- `-p host-port:container-port`: 宿主机与容器端口映射，方便容器对外提供服务
+- `nginx:alpine`: 基于该镜像创建容器
+
+### 进入容器
+
+那如果要进入容器环境中呢？使用 `docker exec -it container-name` 命令
+
+```shell
+$ docker exec -it nginx sh
+/ #
+/ #
+/ #
+```
+
+### 查看容器
+
+`docker ps` 列出所有容器
+
+```shell
+$ docker ps
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
+404e88f0d90c        nginx:alpine         "nginx -g 'daemon of…"   4 minutes ago       Up 4 minutes        0.0.0.0:8888->80/tcp     nginx
+498e7d74fb4f        nginx:alpine         "nginx -g 'daemon of…"   7 minutes ago       Up 7 minutes        80/tcp                   lucid_mirzakhani
+2ce10556dc8f        redis:4.0.6-alpine   "docker-entrypoint.s…"   2 months ago        Up 2 months         0.0.0.0:6379->6379/tcp   apolloserverstarter_redis_1
+```
+
+`docker port` 查看容器端口映射
+
+```shell
+$ docker port nginx
+80/tcp -> 0.0.0.0:8888
+```
+
+`docker stats` 查看容器资源占用
+
+```shell
+$ docker stats nginx
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+404e88f0d90c        nginx               0.00%               1.395MiB / 1.796GiB   0.08%               632B / 1.27kB       0B / 0B             2
+```
+
 ## Dockerfile
 
 相当于配置文件，内容是“如何构建image”。
 
 在使用 `docker` 部署自己应用时，往往需要自己构建镜像。`docker` 使用 `Dockerfile` 作为配置文件构建镜像，简单看一个 `node` 应用构建的 `dockerfile`
 
-```
+```dockerfile
 FROM node:alpine
 
 ADD package.json package-lock.json /code/
@@ -26,6 +92,22 @@ ADD . /code
 
 CMD npm start
 ```
+
+### build：构建镜像
+
+并不是所有的镜像都可以在镜像仓库中找到，另外我们也需要为我们自己的业务应用去构建镜像。
+
+使用 `docker build` 构建镜像，**`docker build` 会使用当前目录的 `dockerfile` 构建镜像**，至于 `dockerfile` 的配置，参考下节。
+
+`-t` 指定标签
+
+```shell
+# -t node-base:10: 镜像以及版本号
+# .: 指当前路径
+$ docker build -t node-base:10 .
+```
+
+当构建镜像成功后可以使用 `docker push` 推送到镜像仓库
 
 ### FROM
 
