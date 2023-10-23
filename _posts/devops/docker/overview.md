@@ -2,7 +2,48 @@
 
 ## 镜像image
 
-类比虚拟机中的iso/img文件
+类比虚拟机中的iso/img文件。
+
+### 查看镜像
+
+查看所有本机上的镜像
+
+```shell
+docker images
+
+#可选项
+-a, --all    #列出所有镜像
+-q, --quiet    #只显示镜像的id
+```
+
+### 搜索镜像
+
+```shell
+docker search mysql
+
+# 可选项，搜索过滤  
+--filter=STARTS=3000	# 过滤星数不少于3000的
+
+docker search mysql --filter=STATRS=3000
+```
+
+### 下载镜像
+
+```shell
+# docker pull 镜像名[:tag]
+# 如果不写tag,默认就是latest(最新版)
+
+# 指定版本下载
+docker pull mysql:5.7	# 必须官网上有
+```
+
+### 删除镜像
+
+```shell
+docker rmi -f 容器id #删除指定的容器
+docker rmi -f 容器id容器id容器id容器id # 删除多个容器
+docker rmi -f $(docker images -aq) # 删除全部的容器
+```
 
 ## 容器
 
@@ -14,22 +55,13 @@
 - `docker stop` 停止容器
 - `docker rm` 删除容器
 
-### 创建容器
+### 新建容器并启动
 
-基于 `nginx` 镜像创建一个最简单的容器：启动一个最简单的 http 服务
-
-使用 `docker run` 来启动容器，`docker ps` 查看容器启动状态
+使用 `docker run` 来启动容器
 
 ```shell
-$ docker run -d --name nginx -p 8888:80 nginx:alpine
-
-$ docker ps -l
-CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
-404e88f0d90c        nginx:alpine         "nginx -g 'daemon of…"   4 minutes ago       Up 4 minutes        0.0.0.0:8888->80/tcp     nginx
-CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
+docker run -d --name nginx -p 8888:80 nginx:alpine
 ```
-
-其中:
 
 - `-d`: 启动一个 `daemon` 进程
 - `--name`: 为容器指定名称
@@ -37,43 +69,108 @@ CONTAINER ID        IMAGE                COMMAND                  CREATED       
 - `nginx:alpine`: 基于该镜像创建容器
 - --rm: 当容器停止运行时，自动删除容器
 
-### 进入容器
-
-那如果要进入容器环境中呢？使用 `docker exec -it container-name` 命令
+### 启动/重启/停止容器
 
 ```shell
-$ docker exec -it nginx sh
-/ #
-/ #
-/ #
+docker start 容器id # 启动容器
+docker restart 容器id # 重启容器
+docker stop 容器id # 停止容器
+docker kill 容器id # 强制停止当前容器
+```
+
+### 进入容器
+
+进入容器环境中,修改一些配置
+
+```shell
+#我们通常容器都是使用后台方式运行的,需要进入容器,修改一些配置
+# 方式一
+docker exec -it nginx sh
+docker exec -it 容器id /bin/bash
+# 方式二
+docker attach 容器id 
+
+# docker exec 进入容器后开启一个新的终端,可以在里面操作(常用)
+# docker attach 进入容器正在执行的终端,不会启动新的进程!
 ```
 
 ### 查看容器
 
-`docker ps` 列出所有容器
+`docker ps` 列出所有容器，列出当前正在运行的容器 -a #列出当前正在运行的容器+带出历史运行过的容器 -n=? #显示最近创建的容器 -q #只显示容器的编号
 
 ```shell
-$ docker ps
+docker ps -aq
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                    NAMES
 404e88f0d90c        nginx:alpine         "nginx -g 'daemon of…"   4 minutes ago       Up 4 minutes        0.0.0.0:8888->80/tcp     nginx
 498e7d74fb4f        nginx:alpine         "nginx -g 'daemon of…"   7 minutes ago       Up 7 minutes        80/tcp                   lucid_mirzakhani
 2ce10556dc8f        redis:4.0.6-alpine   "docker-entrypoint.s…"   2 months ago        Up 2 months         0.0.0.0:6379->6379/tcp   apolloserverstarter_redis_1
 ```
 
+- -a #列出当前正在运行的容器+带出历史运行过的容器 
+
+- -n=? #显示最近创建的容器 
+
+- -q #只显示容器的编号
+
 `docker port` 查看容器端口映射
 
 ```shell
-$ docker port nginx
+docker port nginx
 80/tcp -> 0.0.0.0:8888
 ```
 
 `docker stats` 查看容器资源占用
 
 ```shell
-$ docker stats nginx
+docker stats nginx
 CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
 404e88f0d90c        nginx               0.00%               1.395MiB / 1.796GiB   0.08%               632B / 1.27kB       0B / 0B             2
 ```
+
+### 查看日志
+
+```shell
+docker logs
+
+docker logs -f -t --tail 容器id，没有日志
+
+docker logs --help # 查看帮助
+
+# 显示日志
+-tf		# 显示日志
+--tail number # number要显示日志条鼓
+# docker logs -tf --tail 10 dce7b86171bf
+
+```
+
+### 查看容器中的进程信息
+
+```shell
+docker top 容器id
+```
+
+### 查看镜像的元数据
+
+```shell
+docker inspect 容器id
+```
+
+### 退出容器
+
+```shell
+exit # 直接容器停止并退出  
+Ctrl + P + Q # 容器不停止退出
+```
+
+### 删除容器
+
+```shell
+docker rm 容器id	# 删除指定的容器,不能删除正在运行的容器，如果要强制删除，需加 -f 参数
+docker rm -f $(docker ps -aq)	# 删除所有的容器
+docker ps -a -q|xargs docker rm # 删除所有的容器
+```
+
+### 
 
 ## Dockerfile
 
@@ -111,17 +208,17 @@ CMD npm start
 # -t 指定标签
 # -t node-base:10: 镜像以及版本号
 # .: 指当前路径
-$ docker build -t node-base:10 .
+docker build -t node-base:10 .
 
 # 构建一个名为 simple-app 的镜像
 # -t: "name:tag" 构建镜像名称，不加tag，默认是latest
 # . 代表当前路径
-$ docker build -t simple-app .
+docker build -t simple-app .
 
 # git rev-parse --short HEAD: 列出当前仓库的 CommitId
 # 也可将当前 Commit 作为镜像的 Tag
 # 如果该前端项目使用 git tag 以及 package.json 中的 version 进行版本维护，也可将 version 作为生产环境镜像的 Tag
-$ docker build -t simple-app:$(git rev-parse --short HEAD)
+docker build -t simple-app:$(git rev-parse --short HEAD)
 ```
 
 当构建镜像成功后可以使用 `docker push` 推送到镜像仓库
