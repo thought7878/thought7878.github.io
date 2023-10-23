@@ -22,7 +22,7 @@ docker images
 docker search mysql
 
 # 可选项，搜索过滤  
---filter=STARTS=3000	# 过滤星数不少于3000的
+--filter=STARTS=3000    # 过滤星数不少于3000的
 
 docker search mysql --filter=STATRS=3000
 ```
@@ -34,7 +34,7 @@ docker search mysql --filter=STATRS=3000
 # 如果不写tag,默认就是latest(最新版)
 
 # 指定版本下载
-docker pull mysql:5.7	# 必须官网上有
+docker pull mysql:5.7    # 必须官网上有
 ```
 
 ### 删除镜像
@@ -148,10 +148,9 @@ docker logs -f -t --tail 容器id，没有日志
 docker logs --help # 查看帮助
 
 # 显示日志
--tf		# 显示日志
+-tf        # 显示日志
 --tail number # number要显示日志条鼓
 # docker logs -tf --tail 10 dce7b86171bf
-
 ```
 
 ### 查看容器中的进程信息
@@ -176,8 +175,8 @@ Ctrl + P + Q # 容器不停止退出
 ### 删除容器
 
 ```shell
-docker rm 容器id	# 删除指定的容器,不能删除正在运行的容器，如果要强制删除，需加 -f 参数
-docker rm -f $(docker ps -aq)	# 删除所有的容器
+docker rm 容器id    # 删除指定的容器,不能删除正在运行的容器，如果要强制删除，需加 -f 参数
+docker rm -f $(docker ps -aq)    # 删除所有的容器
 docker ps -a -q|xargs docker rm # 删除所有的容器
 ```
 
@@ -221,8 +220,6 @@ top --> Lookup the running processes of a container #查看容器中运行的进
 unpause --> Unpause a paused container #取消暂停容器
 version --> Show the docker version information #查看docker版本号
 wait --> B1ock until a container stops, then print its exit code #截取容器停止时的退出状态值
-
-
 ```
 
 ## Dockerfile
@@ -313,7 +310,7 @@ RUN <command>
 
 ### CMD
 
-指定容器如何启动
+指定容器如何启动。指定这个容器启动的时候要运行的命令,只有最后一个会生效,可被替代。
 
 **一个 `Dockerfile` 中只允许有一个 CMD**
 
@@ -327,6 +324,21 @@ CMD ["param1","param2"]
 # shell form
 CMD command param1 param2 
 ```
+
+### 指令总结
+
+- FROM # 基础镜镜像,一切从这里开始构建
+- MAINTAINER # 镜像是谁写的,姓名+邮箱
+- RUN #镜像构建的时候需要运行的命令
+- ADD # 例如：步骤: tomcat镜像,这个tomcat压缩包!添加内容
+- WORKDIR # 镜像的工作目录
+- VOLUME # 挂载的目录
+- EXPOSE # 保留端口配置
+- CMD # 指定这个容器启动的时候要运行的命令,只有最后一个会生效,可被替代
+- ENTRYPOINT # 指定这个容器启动的时候要运行的命令,可以追加命令
+- ONBUILD # 当构建一个被继承DockerFile这个时候就会运行ONBUTLD 的指令,触发指令.
+- COPY # 类似ADD ,将我们文件持贝到镜像中
+- ENV # 构建的时候设置环境变量!
 
 ## 仓库repository
 
