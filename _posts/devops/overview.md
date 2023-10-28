@@ -10,8 +10,6 @@
 
 [静态网站部署，上线你的个人网站](https://www.bilibili.com/video/BV17S4y1P7qH/?spm_id_from=333.337.search-card.all.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
 
-
-
 ## B/S架构网站部署
 
 - 前端部分
@@ -42,13 +40,9 @@ K8S是docker等容器的管理软件，管理多个服务器的多个容器。
 
 ![](assets/overview/2023-10-27-11-01-10-image.png)
 
-
-
 ### 后端部分
 
 ![](assets/overview/2023-10-27-11-05-02-image.png)
-
-
 
 ### 云计算部分
 
