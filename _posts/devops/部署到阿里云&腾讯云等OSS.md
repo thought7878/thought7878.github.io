@@ -15,8 +15,52 @@
 
 dist包目录结构如下:
 
+```
 |-- arya-spring-vue-fe
-      |-- favicon.ico      |-- index.html      |-- manifest.json      |-- precache-manifest.dc33a1b9e99c64c524c43168e7777109.js      |-- robots.txt      |-- service-worker.js      |-- css      |   |-- app.8be73ceb.css      |   |-- chunk-vendors.8aa8b174.css      |   |-- login.8c104af7.css      |   |-- user.2cc930ce.css      |-- fonts      |   |-- ionicons.99ac3308.woff      |   |-- ionicons.d535a25a.ttf      |-- img      |   |-- arya-spring-vue-fe.8d6fbad1.png      |   |-- ionicons.a2c4a261.svg      |   |-- logo.82b9c7a5.png      |   |-- icons      |       |-- android-chrome-192x192.png      |       |-- android-chrome-512x512.png      |       |-- apple-touch-icon-120x120.png      |       |-- apple-touch-icon-152x152.png      |       |-- apple-touch-icon-180x180.png      |       |-- apple-touch-icon-60x60.png      |       |-- apple-touch-icon-76x76.png      |       |-- apple-touch-icon.png      |       |-- favicon-16x16.png      |       |-- favicon-32x32.png      |       |-- msapplication-icon-144x144.png      |       |-- mstile-150x150.png      |       |-- safari-pinned-tab.svg      |-- js          |-- about.b6757b1f.js          |-- about.b6757b1f.js.map          |-- app.15053451.js          |-- app.15053451.js.map          |-- chunk-vendors.acd76e03.js          |-- chunk-vendors.acd76e03.js.map          |-- login.e0db28e9.js          |-- login.e0db28e9.js.map          |-- user.4699a3d1.js          |-- user.4699a3d1.js.map
+      |-- favicon.ico
+      |-- index.html
+      |-- manifest.json
+      |-- precache-manifest.dc33a1b9e99c64c524c43168e7777109.js
+      |-- robots.txt
+      |-- service-worker.js
+      |-- css
+      |   |-- app.8be73ceb.css
+      |   |-- chunk-vendors.8aa8b174.css
+      |   |-- login.8c104af7.css
+      |   |-- user.2cc930ce.css
+      |-- fonts
+      |   |-- ionicons.99ac3308.woff
+      |   |-- ionicons.d535a25a.ttf
+      |-- img
+      |   |-- arya-spring-vue-fe.8d6fbad1.png
+      |   |-- ionicons.a2c4a261.svg
+      |   |-- logo.82b9c7a5.png
+      |   |-- icons
+      |       |-- android-chrome-192x192.png
+      |       |-- android-chrome-512x512.png
+      |       |-- apple-touch-icon-120x120.png
+      |       |-- apple-touch-icon-152x152.png
+      |       |-- apple-touch-icon-180x180.png
+      |       |-- apple-touch-icon-60x60.png
+      |       |-- apple-touch-icon-76x76.png
+      |       |-- apple-touch-icon.png
+      |       |-- favicon-16x16.png
+      |       |-- favicon-32x32.png
+      |       |-- msapplication-icon-144x144.png
+      |       |-- mstile-150x150.png
+      |       |-- safari-pinned-tab.svg
+      |-- js
+          |-- about.b6757b1f.js
+          |-- about.b6757b1f.js.map
+          |-- app.15053451.js
+          |-- app.15053451.js.map
+          |-- chunk-vendors.acd76e03.js
+          |-- chunk-vendors.acd76e03.js.map
+          |-- login.e0db28e9.js
+          |-- login.e0db28e9.js.map
+          |-- user.4699a3d1.js
+          |-- user.4699a3d1.js.map
+```
 
 ### 部署到七牛云
 
