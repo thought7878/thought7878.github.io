@@ -185,11 +185,10 @@ Ok，腾讯云OSS部署前端文件完毕。
 
 ---
 
+```nginx
 # For more information on configuration, see:
-
-# * Official English Documentation: http://nginx.org/en/docs/
-
-# * Official Russian Documentation: http://nginx.org/ru/docs/
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
 
 user nginx;
 worker_processes auto;
@@ -197,23 +196,73 @@ error_log /var/log/nginx/error.log;
 pid /run/nginx.pid;
 
 # Load dynamic modules. See /usr/share/nginx/README.dynamic.
-
 include /usr/share/nginx/modules/*.conf;
+
 events {
     worker_connections 1024;
 }
+
 http {
-    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '                      '$status $body_bytes_sent "$http_referer" '                      '"$http_user_agent" "$http_x_forwarded_for"';
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
     access_log  /var/log/nginx/access.log  main;
-    sendfile            on;    tcp_nopush          on;    tcp_nodelay         on;    keepalive_timeout   65;    types_hash_max_size 2048;
-    include             /etc/nginx/mime.types;    default_type        application/octet-stream;    gzip                on;    gzip_types          text/plain application/javascript text/css;    
-    # Load modular configuration files from the /etc/nginx/conf.d directory.    # See http://nginx.org/en/docs/ngx_core_module.html#include    # for more information.    include /etc/nginx/conf.d/*.conf;    # 配置nginx访问blog.kaigege.cn重定向到frankkai.github.io    server {        listen       80;        server_name  blog.kaigege.cn;        location / {            proxy_pass https://frankkai.github.io;        }    }   # 配置nginx访问foo.kaigege.cn加载前端静态文件。    server {        listen       80;        server_name  foo.kaigege.cn;        location / {            root     /usr/share/nginx/foo;            index    index.html;        }    }
-    server {        listen       80 default_server;        listen       [::]:80 default_server;        server_name  _;        root         /usr/share/nginx/html;
-        # Load configuration files for the default server block.        include /etc/nginx/default.d/*.conf;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 2048;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+    gzip                on;
+    gzip_types          text/plain application/javascript text/css;    
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    include /etc/nginx/conf.d/*.conf;
+    # 配置nginx访问blog.kaigege.cn重定向到frankkai.github.io
+    server {
+        listen       80;
+        server_name  blog.kaigege.cn;
+        location / {
+            proxy_pass https://frankkai.github.io; 
+        }
+    }
+   # 配置nginx访问foo.kaigege.cn加载前端静态文件。
+    server {
+        listen       80;
+        server_name  foo.kaigege.cn;
+        location / {
+            root     /usr/share/nginx/foo;
+            index    index.html;
+        }
+    }
+
+    server {
+        listen       80 default_server;
+        listen       [::]:80 default_server;
+        server_name  _; 
+        root         /usr/share/nginx/html;
+
+        # Load configuration files for the default server block.
+        include /etc/nginx/default.d/*.conf;
+
         location / {}
-        error_page 404 /404.html;            location = /40x.html {        }
-        error_page 500 502 503 504 /50x.html;            location = /50x.html {        }    }
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
 }
+```
 
 对nginx以及nginx 反向代理不熟的话，可以看[nginx入门](https://link.segmentfault.com/?enc=OT7PKMHN8zgx0EF9elyEQA%3D%3D.285O%2FraVPEsANvqIL17avflKxrhZTLz2QjdLJbBZjCOwMNSV5ZWcRmGlasC4w%2BnOrxNS85QXYq7hWAKUllbWUg%3D%3D)或[前端必会的 Nginx入门视频教程(共11集)](https://link.segmentfault.com/?enc=xySYEulvOHwz3hiDs3a2SA%3D%3D.3mVrDNxsyDxoX21Hu8nneHCXlQBJcsLzWru9MI4Z91UrTKPiN%2B5aZKhHufQewhDH)补充一下。这里就不再赘述了。
 
