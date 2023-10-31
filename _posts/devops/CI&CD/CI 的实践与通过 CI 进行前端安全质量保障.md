@@ -2,41 +2,54 @@
 
 在上一篇章，我们了解到什么是 CICD。
 
-本篇文章通过 `github actions` 介绍如何通过 CI 进行前端的质量检查。
+本篇文章通过 `github actions` 介绍如何通过 CI 进行前端的**质量检查**。
 
-话不多说，先以一个流程简单的 CI 配置开始，在 CI 中介入以下流程。
+话不多说，先<u>以一个流程简单的 CI 配置开始，在 CI 中加入以下流程</u>：
 
 1. Install。依赖安装。
 2. Lint。保障统一的代码风格。
 3. Test。单元测试。
-4. Preview。生成一个供测试人员进行检查的网址。
+4. Preview。生成一个供测试人员进行测试的网址。
 
 由于，Preview 是一个较为复杂的流程，留在以后篇章详解，今天先来说一下 Lint/Test。
 
-我们假设一个极其简单的 Git Workflow 场景。
+<u>我们假设一个极其简单的 Git Workflow 场景</u>。
 
 1. 每个人在功能分支进行新功能开发，分支名 `feature-*`。每一个功能分支将会有一个功能分支的测试环境地址，如 `<branch>.dev.shanyue.tech`。
 2. 当功能分支测试完毕没有问题后，合并至主分支 `master`。在主分支将会部署到生产环境。
-3. 当生产环境出现问题时，切除一条分支 `hotfix-*`，解决紧急 Bug。
+3. 当生产环境出现问题时，新建一条分支 `hotfix-*`，解决紧急 Bug。
 
 为了保障代码质量，线上的代码必须通过 CI 检测，但是应选择什么时机 (什么分支，什么事件)？
 
 1. 功能分支提交后（CI 阶段），进行 Build、Lint、Test、Preview 等，**如未通过 CICD，则无法 Preview，更无法合并到生产环境分支进行上线**
 2. 功能分支通过后（CI 阶段），合并到主分支，进行自动化部署。
 
-在 CI 操作保障代码质量的环节中，可确定以下时机:
+在 CI 保障代码质量的环节中，可确定以下时机：当功能分支代码 push 到远程仓库后，进行 CI
 
-```
-# 当功能分支代码 push 到远程仓库后，进行 CIon:  push:    branches:          - 'feature/**'
-```
-
-或者将 CI 阶段提后至 PR 阶段，毕竟能够保障合并到主分支的代码没有质量问题即可。(但同时建议通过 git hooks 在客户端进行代码质量检查)
-
-```
-# 当功能分支代码 push 到远程仓库以及是 Pull Request 后，进行 CIon:  pull_request:    types:      # 当新建了一个 PR 时      - opened      # 当提交 PR 的分支，未合并前并拥有新的 Commit 时      - synchronize    branches:          - 'feature/**'
+```yaml
+# 当功能分支代码 push 到远程仓库后，进行 CI
+on:
+  push:
+    branches:    
+      - 'feature/**'
 ```
 
-通过 CI，我们可以快速反馈，并促进敏捷迭代。这要求我们使用 Git 时尽早提交以发现问题，以功能小点为单位频繁提交发现问题，也避免合并分支时发现重大冲突。
+或者<u>将 CI 阶段提后至 PR 阶段</u>，毕竟能够保障合并到主分支的代码没有质量问题即可。(但同时<u>建议通过 git hooks 在客户端进行代码质量检查</u>)
+
+```yaml
+# 当功能分支代码 push 到远程仓库以及是 Pull Request 后，进行 CI
+on:
+  pull_request:
+    types:
+      # 当新建了一个 PR 时
+      - opened
+      # 当提交 PR 的分支，未合并前并拥有新的 Commit 时
+      - synchronize
+    branches:    
+      - 'feature/**'
+```
+
+<u>通过 CI，我们可以快速反馈，并促进敏捷迭代。这要求我们使用 Git 时，尽早提交以发现问题。以功能小点为单位，频繁提交发现问题，也避免合并分支时发现重大冲突</u>。
 
 ## 任务的并行与串行
 
@@ -88,14 +101,80 @@
 
 一个 Job 依赖另一个 Job，在 Github Actions 中可使用 [needs(opens in a new tab)](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds) 字段。
 
-```
-install:lint:  needs: installtest:  needs: install
+```yaml
+install:
+lint:
+  needs: install
+test:
+  needs: install
 ```
 
 完整配置文件如下，关于 Cache 将在下节篇章讲解。
 
-```
-name: CI Parallelon: [push]jobs:  install:    runs-on: ubuntu-latest    steps:      - uses: actions/checkout@v2      - name: Setup Node        uses: actions/setup-node@v1        with:          node-version: 14.x      - name: Cache Node Modules        id: cache-node-modules        uses: actions/cache@v2        with:          path: node_modules          key: node-modules-${{ hashFiles('yarn.lock') }}          restore-keys: node-modules-      - name: Install Dependencies        if: steps.cache-node-modules.outputs.cache-hit != 'true'        run: yarn  lint:    runs-on: ubuntu-latest    # 通过 needs 字段可设置前置依赖的 Job，比如 install    needs: install    steps:      - uses: actions/checkout@v2      - name: Setup Node        uses: actions/setup-node@v1        with:          node-version: 14.x      - name: Cache Node Modules        id: cache-node-modules        uses: actions/cache@v2        with:          path: node_modules          key: node-modules-${{ hashFiles('yarn.lock') }}          restore-keys: node-modules-      - name: ESLint        run: npm run build  test:    runs-on: ubuntu-latest    needs: install    steps:      - uses: actions/checkout@v2      - name: Setup Node        uses: actions/setup-node@v1        with:          node-version: 14.x      - name: Cache Node Modules        id: cache-node-modules        uses: actions/cache@v2        with:          path: node_modules          key: node-modules-${{ hashFiles('yarn.lock') }}          restore-keys: node-modules-      - name: Test        run: npm run test  preview:    runs-on: ubuntu-latest    needs: [lint, test]    steps:      - run: echo 'Preview OK'
+```yaml
+name: CI Parallel
+on: [push]
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: node-modules-
+      - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: yarn
+  lint:
+    runs-on: ubuntu-latest
+    # 通过 needs 字段可设置前置依赖的 Job，比如 install
+    needs: install
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: node-modules-
+      - name: ESLint
+        run: npm run build
+  test:
+    runs-on: ubuntu-latest
+    needs: install
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: node-modules-
+      - name: Test
+        run: npm run test
+  preview:
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - run: echo 'Preview OK'
 ```
 
 ![](https://static.shanyue.tech/images/22-07-05/clipboard-1412.d71c5c.webp)
