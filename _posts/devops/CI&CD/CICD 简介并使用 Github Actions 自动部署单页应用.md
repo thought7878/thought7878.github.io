@@ -72,20 +72,18 @@
 
 ## 基本功能介绍
 
-在文首提到 CICD 的主要意义：
+在文首提到 **CICD 的主要意义**：即每当我们将前端代码更新并 **PUSH** 到仓库后，CICD 将会拉取仓库代码并**自动部署到服务器**。
 
-即每当我们将前端代码更新并 **PUSH** 到仓库后，CICD 将会拉取仓库代码并**自动部署到服务器**。
-
-我们拆分成两个阶段，并在以下简单介绍如何对其进行配置
+我们拆分成两个阶段，并简单介绍如何对其进行配置
 
 1. 事件: push
 2. 命令: 前端部署
 
 ### 事件: on push
 
-该 CI/CD 触发时的事件。如果需要上传代码自动部署的功能，应该选择 `on: push`
+该 CI/CD 触发时的事件。如果上传代码需要自动部署的功能，应该选择 `on: push`
 
-```
+```yaml
 on: push
 ```
 
@@ -93,22 +91,70 @@ on: push
 
 以下是 Github Actions 的一些时机的示例：
 
-```
-# 仅仅当 master 代码发生变更时，用以自动化部署on:  push:    branches:          - master # 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)on:  push:    branches:          - 'feature/**' # 仅当提交 PR 及提交后 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)on:  pull_request:    types:      # 当新建了一个 PR 时      - opened      # 当提交 PR 的分支，未合并前并拥有新的 Commit 时      - synchronize    branches:          - 'feature/**' # 在每天凌晨 0:30 处理一些事情，比如清理多余的 OSS 资源，清理多余的功能分支 Preview (见 Preview 篇)on:  schedule:    - cron:  '30 8 * * *'
+```yaml
+# 仅仅当 master 代码发生变更时，才自动化部署
+on:
+  push:
+    branches:    
+      - master
+ 
+# 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
+on:
+  push:
+    branches:    
+      - 'feature/**'
+ 
+# 仅当提交 PR 及提交后 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
+on:
+  pull_request:
+    types:
+      # 当新建了一个 PR 时
+      - opened
+      # 当提交 PR 的分支，未合并前并拥有新的 Commit 时
+      - synchronize
+    branches:    
+      - 'feature/**'
+ 
+# 在每天凌晨 0:30 处理一些事情，比如清理多余的 OSS 资源，清理多余的功能分支 Preview (见 Preview 篇)
+on:
+  schedule:
+    - cron:  '30 8 * * *'
 ```
 
 在 Gitlab CI 中通过 [rules](https://docs.gitlab.com/ee/ci/yaml/#rules) 进行配置，以下是 Gitlab CI 一些时机的示例：
 
-```
-# 仅仅当 master 代码发生变更时，用以自动化部署rules:  - if: $CI_COMMIT_REF_NAME = "master" # 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)rules:  - if: $CI_COMMIT_REF_NAME =~ /feature/ rules:  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+```yaml
+# 仅仅当 master 代码发生变更时，才自动化部署
+rules:
+  - if: $CI_COMMIT_REF_NAME = "master"
+ 
+# 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
+rules:
+  - if: $CI_COMMIT_REF_NAME =~ /feature/
+ 
+rules:
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 ```
 
 ### 命令: Job 与脚本
 
 如，在 push 到最新代码时，使用 `docker-compose up` 进行部署。
 
-```
-name: push on: [push] jobs:  test:    # 将代码跑在 ubuntu 上    runs-on: ubuntu-latest    steps:      # 切出代码，使用该 Action 将可以拉取最新代码      - uses: actions/checkout@v2       # 运行部署的脚本命令      - run: docker-compose up -d
+```yaml
+name: push
+ 
+on: [push]
+ 
+jobs:
+  test:
+    # 将代码跑在 ubuntu 上
+    runs-on: ubuntu-latest
+    steps:
+      # 切出代码，使用该 Action 将可以拉取最新代码
+      - uses: actions/checkout@v2
+ 
+      # 运行部署的脚本命令
+      - run: docker-compose up -d
 ```
 
 ## 分支的合并策略 (主分支保护规则)
@@ -141,17 +187,31 @@ name: push on: [push] jobs:  test:    # 将代码跑在 ubuntu 上    runs-on: u
 
 通过以前的篇章，我们了解到部署前端，仅仅需要在部署服务器执行一条命令即可 (简单环境下)
 
-```
-$ docker-compose up --build
-```
-
-以下是对于简单部署在个人服务器的一个 Github Actions 的案例，由于构建服务器无部署服务器管理集群应用的能力与权限 (kubernetes 拥有这种能力)。如果部署到服务器，只能简单粗暴地通过 ssh 进入服务器并拉取代码执行命令。
-
-```
-deploy:  runs-on: ubuntu-latest  steps:    - |      ssh root@shanyue.tech "        # 假设该仓库位于 ~/Documents 目录        cd ~/Documents/cra-deploy         # 拉取最新代码        git fetch origin master        git reset --hard origin/master         # 部署        docker-compose up --build -d      "
+```shell
+docker-compose up --build
 ```
 
-## 自建 Runner
+以下是<u>简单部署在个人服务器的一个 Github Actions 的案例</u>。由于构建服务器没有管理部署服务器集群应用的能力与权限 (kubernetes 拥有这种能力)，因此部署到服务器，只能简单粗暴地通过 ssh 进入服务器并拉取代码执行命令。
+
+```yaml
+deploy:
+  runs-on: ubuntu-latest
+  steps:
+    - |
+      ssh root@shanyue.tech "
+        # 假设该仓库位于 ~/Documents 目录
+        cd ~/Documents/cra-deploy
+ 
+        # 拉取最新代码
+        git fetch origin master
+        git reset --hard origin/master
+ 
+        # 部署
+        docker-compose up --build -d
+      "
+```
+
+### 自建 Runner
 
 在本次实践中，将构建服务器与部署服务器置于一起，则可以解决这个问题。在 Github Actions，可以在自有服务器中自建 Runner，文档如下。
 
@@ -161,8 +221,14 @@ deploy:  runs-on: ubuntu-latest  steps:    - |      ssh root@shanyue.tech "     
 
 > 更详细关于自动部署的配置可见 [cra-deploy/production.yaml](https://github.com/shfshanyue/cra-deploy/blob/master/.github/workflows/production.yaml)
 
-```
-production:  # 该 JOB 在自建 Runner 中进行运行  runs-on: self-hosted  steps:    # 切出代码，使用该 Action 将可以拉取最新代码    - uses: actions/checkout@v2    - run: docker-compose up --build -d
+```yaml
+production:
+  # 该 JOB 在自建 Runner 中进行运行
+  runs-on: self-hosted
+  steps:
+    # 切出代码，使用该 Action 将可以拉取最新代码
+    - uses: actions/checkout@v2
+    - run: docker-compose up --build -d
 ```
 
 而在真实的工作环境中，部署更为复杂，往往通过一些封装的命令来完成，分为三步:
@@ -173,15 +239,30 @@ production:  # 该 JOB 在自建 Runner 中进行运行  runs-on: self-hosted  s
 
 *伪代码*如下:
 
-```
-production:  # 该 JOB 在自建 Runner 中进行运行  runs-on: self-hosted  steps:    # 构建镜像    - docker build -t cra-deploy-app .    # 推送镜像    - docker push cra-deploy-app    # 拉取镜像并部署，deploy 为一个伪代码命令，在实际项目中可使用 helm、kubectl    - deploy cra-deploy-app .     # 或者通过 kubectl 进行部署    # - kubectl apply -f app.yaml     # 或者通过 helm 进行部署    # - helm install cra-app cra-app-chart
+```yaml
+production:
+  # 该 JOB 在自建 Runner 中进行运行
+  runs-on: self-hosted
+  steps:
+    # 构建镜像
+    - docker build -t cra-deploy-app .
+    # 推送镜像
+    - docker push cra-deploy-app
+    # 拉取镜像并部署，deploy 为一个伪代码命令，在实际项目中可使用 helm、kubectl
+    - deploy cra-deploy-app .
+ 
+    # 或者通过 kubectl 进行部署
+    # - kubectl apply -f app.yaml
+ 
+    # 或者通过 helm 进行部署
+    # - helm install cra-app cra-app-chart
 ```
 
 ## 作业
 
 - 初阶：请讲述几条主分支保护策略
 - 中阶：自建 Github Actions Runner 并完成自动部署
-- 面试：什么是 CICD
+- 面试：什么是 CI/CD
 
 ## 小结
 
