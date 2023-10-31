@@ -22,7 +22,7 @@
 
 <u>但是为了更好的 CICD，构建服务器会被赋予部署服务集群的权限</u>，**在构建服务器中通过一条命令，即可将某个服务，在部署服务器集群中进行部署。**
 
-### 构建服务器的作用
+### 构建服务器的工作
 
 在 CICD 中，**构建服务器往往会做以下工作**，这也是接下来几篇篇章的内容:
 
@@ -97,13 +97,13 @@ on:
   push:
     branches:    
       - master
- 
+
 # 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
 on:
   push:
     branches:    
       - 'feature/**'
- 
+
 # 仅当提交 PR 及提交后 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
 on:
   pull_request:
@@ -114,7 +114,7 @@ on:
       - synchronize
     branches:    
       - 'feature/**'
- 
+
 # 在每天凌晨 0:30 处理一些事情，比如清理多余的 OSS 资源，清理多余的功能分支 Preview (见 Preview 篇)
 on:
   schedule:
@@ -127,11 +127,11 @@ on:
 # 仅仅当 master 代码发生变更时，才自动化部署
 rules:
   - if: $CI_COMMIT_REF_NAME = "master"
- 
+
 # 仅当 feature/** 分支发生变更时，进行 Preview 功能分支部署 (见 Preview 篇)
 rules:
   - if: $CI_COMMIT_REF_NAME =~ /feature/
- 
+
 rules:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 ```
@@ -142,9 +142,9 @@ rules:
 
 ```yaml
 name: push
- 
+
 on: [push]
- 
+
 jobs:
   test:
     # 将代码跑在 ubuntu 上
@@ -152,7 +152,7 @@ jobs:
     steps:
       # 切出代码，使用该 Action 将可以拉取最新代码
       - uses: actions/checkout@v2
- 
+
       # 运行部署的脚本命令
       - run: docker-compose up -d
 ```
@@ -201,11 +201,11 @@ deploy:
       ssh root@shanyue.tech "
         # 假设该仓库位于 ~/Documents 目录
         cd ~/Documents/cra-deploy
- 
+
         # 拉取最新代码
         git fetch origin master
         git reset --hard origin/master
- 
+
         # 部署
         docker-compose up --build -d
       "
@@ -250,10 +250,10 @@ production:
     - docker push cra-deploy-app
     # 拉取镜像并部署，deploy 为一个伪代码命令，在实际项目中可使用 helm、kubectl
     - deploy cra-deploy-app .
- 
+
     # 或者通过 kubectl 进行部署
     # - kubectl apply -f app.yaml
- 
+
     # 或者通过 helm 进行部署
     # - helm install cra-app cra-app-chart
 ```
