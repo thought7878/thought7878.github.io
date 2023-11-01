@@ -1,6 +1,4 @@
-假设你入职了一家小公司，既没有内部自研的 DevOps 平台，也没有专业的运维。需要你自己去搭建多环境 CI/CD 自动化部署，你会怎么做？
-
-你可能需要综合考虑成本、服务器选择、CI/CD易用度、可扩展等方面，对于不怎么熟悉 CI/CD 相关的小伙伴来说有点难以选择。
+假设你入职了一家小公司，<u>既没有内部自研的 DevOps 平台，也没有专业的运维</u>。<u>需要你自己去搭建多环境 CI/CD 自动化部署</u>，你会怎么做？你可能需要综合考虑成本、服务器选择、CI/CD易用度、可扩展等方面，对于不怎么熟悉 CI/CD 相关的小伙伴来说有点难以选择。
 
 这里先给大家介绍两个可以免费使用的 CICD 平台：**阿里云效** 和 **Github Actions**。通过给一个 vitepress 静态站点 和一个 koa.js + mongodb 接口服务搭建多环境、多版本自动化部署，来熟悉具体使用方法。（本文暂不介绍 gitlab、Jenkins、docker、k8s 等）
 
@@ -24,13 +22,13 @@
 
 ## 2. 阿里云效一键部署静态站点到OSS
 
-[阿里云-云效](https://link.juejin.cn?target=https%3A%2F%2Fwww.aliyun.com%2Fproduct%2Fyunxiao "https://www.aliyun.com/product/yunxiao")，阿里云企业级一站式 DevOps，可以免费使用（会限制人数、流水线数量等，个人项目够用了）。相关文章 [CI 持续集成 - 阿里云云效](https://link.juejin.cn?target=https%3A%2F%2Flearnku.com%2Farticles%2F13794%2Fci-continuous-integration-ali-cloud-effect "https://learnku.com/articles/13794/ci-continuous-integration-ali-cloud-effect")
+[阿里云-云效](https://link.juejin.cn?target=https%3A%2F%2Fwww.aliyun.com%2Fproduct%2Fyunxiao "https://www.aliyun.com/product/yunxiao")，阿里云企业级一站式 DevOps，可以免费使用（会限制人数、流水线数量等，个人项目够用了）。相关文章 [CI 持续集成 - 阿里云云效](https://link.juejin.cn?target=https%3A%2F%2Flearnku.com%2Farticles%2F13794%2Fci-continuous-integration-ali-cloud-effect "https://learnku.com/articles/13794/ci-continuous-integration-ali-cloud-effect")。
 
-OSS 是对象存储的意思，一般一个项目对应一个 Bucket (存储桶)，可以通过一个地址来访问里面的文件，配置成静态站点后，将自己的域名通过 CNAME 解析到该地址，项目就能访问了。我的站点 [f.zuo11.com](https://link.juejin.cn?target=http%3A%2F%2Ff.zuo11.com "http://f.zuo11.com") 就是部署在上面的。
+OSS 是对象存储的意思，**一般一个项目对应一个 Bucket (存储桶)，可以通过一个地址来访问里面的文件，配置成静态站点后，将自己的域名通过 CNAME 解析到该地址**，项目就能访问了。我的站点 [f.zuo11.com](https://link.juejin.cn?target=http%3A%2F%2Ff.zuo11.com "http://f.zuo11.com") 就是部署在上面的。
 
-我为什么要选择将静态站点部署到阿里云 OSS？
+<u>我为什么要选择将静态站点部署到阿里云 OSS？</u>
 
-1. **不需要你自己有服务器，且费用很低**。
+1. 不需要你自己有服务器，且费用很低。
 2. 我之前1核2G 1M 带宽的服务器，下载速度只有 128kb/s，静态资源稍微大点，加载时间就会变长，我之前的项目打开要 16s 就是这样来的（[Vue CLI 项目页面打开时间优化：从16秒到2秒内](https://link.juejin.cn?target=http%3A%2F%2Fwww.zuo11.com%2Fblog%2F2020%2F11%2Fvue_cli_slow.html "http://www.zuo11.com/blog/2020/11/vue_cli_slow.html")），**站点放到 OSS 访问速度很快**，感觉带宽不低。
 3. 前后端部署服务位置分离，防止服务器被 ddos 攻击后，静态站点、接口服务全挂掉。
 
@@ -46,11 +44,29 @@ CI/CD 一般需要找到流水线设置，常规前端项目自动化部署分�
 
 以自动化部署 github 仓库 vitepress 项目到阿里云 oss 为例，流水线运行逻辑
 
-bash
+```shell
+# 克隆代码
+# 使用工作路径 /root/workspace/dev-zuo-blog
+# [INFO] 清理文件夹 /root/workspace /root/workspace/dev-zuo-blog...
+git clone https://github.com/dev-zuo/blog.git  --branch main /root/workspace/dev-zuo-blog
+# 正克隆到 '/root/workspace/dev-zuo-blog'...
+# [INFO]  cd /root/workspace/dev-zuo-blog
+# [SUCCESS] 克隆成功
+# [INFO] 获取到上一次运行commit ID 2268a51489cae3588d4b091734ba6f9cd8612379
+# [18:55:16] ###commitId###:xx ###commitMsg###:chore: update git note
+# 获取最近几次提交commit让你知道部署的是最新代码
 
-复制代码
+# [18:55:26] [INFO] 执行用户命令
+cnpm install
+npm run build
+# build log
+# [18:55:46] build complete in 8.50s.
 
-`# 克隆代码 # 使用工作路径 /root/workspace/dev-zuo-blog # [INFO] 清理文件夹 /root/workspace /root/workspace/dev-zuo-blog... git clone https://github.com/dev-zuo/blog.git  --branch main /root/workspace/dev-zuo-blog # 正克隆到 '/root/workspace/dev-zuo-blog'... # [INFO]  cd /root/workspace/dev-zuo-blog # [SUCCESS] 克隆成功 # [INFO] 获取到上一次运行commit ID 2268a51489cae3588d4b091734ba6f9cd8612379 # [18:55:16] ###commitId###:xx ###commitMsg###:chore: update git note # 获取最近几次提交commit让你知道部署的是最新代码 # [18:55:26] [INFO] 执行用户命令 cnpm install npm run build # build log # [18:55:46] build complete in 8.50s. # [INFO] 使用工作路径/root/workspace/dev-zuo-blog ossutil cp -r /root/workspace/dev-zuo-blog/.vitepress/dist oss://f-zuo11-com/ --update # [18:55:52] [SUCCESS]上传成功`
+# [INFO] 使用工作路径/root/workspace/dev-zuo-blog
+ossutil cp -r /root/workspace/dev-zuo-blog/.vitepress/dist oss://f-zuo11-com/ --update
+# [18:55:52] [SUCCESS]上传成功
+
+```
 
 ### 2.2 vitepress + oss 自动化部署
 
@@ -76,7 +92,7 @@ bash
 
 1、创建两条流水线，一条测试环境使用、一条生产环境
 
-2、创建两个 OSS Bucket(f-zuo11-com、f-test-zuo11-com)，分别对象两个环境，主分支用于正式环境，版本分支(比如 v1.0.0)用于测试环境
+2、创建两个 OSS Bucket(f-zuo11-com、f-test-zuo11-com)，分别对应两个环境，主分支用于正式环境，版本分支(比如 v1.0.0)用于测试环境
 
 3、分别使用 [f.zuo11.com](https://link.juejin.cn?target=http%3A%2F%2Ff.zuo11.com "http://f.zuo11.com")、[f-test.zuo11.com](https://link.juejin.cn?target=http%3A%2F%2Ff-test.zuo11.com "http://f-test.zuo11.com") 解析到不同的 oss bucket。
 
@@ -134,11 +150,27 @@ Koa.js + MongoDB 接口服务，怎么做自动化部署？这种需要开启一
 
 对应部署脚本：1、进入目录 2、拉取更新代码 3、npm install 4、pm2 重启接口服务 5、部署完成
 
-bash
+```shell
+# 持续集成
+cd /root/zuo-config-server;
+# 防止部署 log 中文乱码
+git config --global core.quotepath false 
+rm -rf package-lock.json
+echo "git pull"
+git pull 
 
-复制代码
+# 查看最近一次提交 log，了解当前部署的是哪个版本
+echo "git log -1"
+git log -1 
 
-`# 持续集成 cd /root/zuo-config-server; # 防止部署 log 中文乱码 git config --global core.quotepath false  rm -rf package-lock.json echo "git pull" git pull  # 查看最近一次提交 log，了解当前部署的是哪个版本 echo "git log -1" git log -1  npm install echo '重新开启服务' pm2 delete config.zuo11.com pm2 start src/index.js -n 'config.zuo11.com' echo '部署完成'`
+npm install
+
+echo '重新开启服务'
+pm2 delete config.zuo11.com
+pm2 start src/index.js -n 'config.zuo11.com'
+echo '部署完成'
+
+```
 
 修改代码，新增一个接口 [feat: add test-deploy api](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fdev-zuo%2Fzuo-config-server%2Fcommit%2Ffd4421a69212613faa10c7d12f3c35d6566858cb "https://github.com/dev-zuo/zuo-config-server/commit/fd4421a69212613faa10c7d12f3c35d6566858cb")
 
@@ -154,11 +186,12 @@ bash
 
 首次部署
 
-bash
+```shell
+# 首次部署
+cd /root
+git clone git@github.com:zuoxiaobai/zuo-config-server.git --branch v1.0.0
 
-复制代码
-
-`# 首次部署 cd /root git clone git@github.com:zuoxiaobai/zuo-config-server.git --branch v1.0.0`
+```
 
 二次部署的脚本和 3.1 部署脚本一致，脚本运行日志如下图
 
@@ -170,11 +203,10 @@ bash
 
 1、至少要安装 git、node、nginx
 
-bash
+```shell
+yum install nodejs npm git nginx
 
-复制代码
-
-`yum install nodejs npm git nginx`
+```
 
 2、git clone 失败，需要先在 linux 服务器上配置 ssh，在将公钥添加到 github 设置中，参考 [git ssh 配置](https://link.juejin.cn?target=http%3A%2F%2Fwww.zuo11.com%2Fblog%2F2020%2F8%2Fgit_ssh.html "http://www.zuo11.com/blog/2020/8/git_ssh.html")
 
@@ -184,11 +216,19 @@ bash
 
 部署完成后，可以使用 `http://47.102.120.17:5000/share/test-deploy` 访问接口，但是想通过 `http://config-test.zuo11.com/share/test-deploy` 直接访问即可，就需要先配置域名解析，再修改 nginx 配置了。nginx 默认安装目录 /etc/nginx/，修改 nginx.conf，增加如下配置
 
-bash
+```nginx
+server {
+        listen   80;
+        server_name  config-test.zuo11.com;
+        charset  utf-8;
+        location / {
+            # root   html;
+            # index  index.html index.htm;
+            proxy_pass http://127.0.0.1:5000;
+        }
+}
 
-复制代码
-
-`server {         listen   80;         server_name  config-test.zuo11.com;         charset  utf-8;         location / {             # root   html;             # index  index.html index.htm;             proxy_pass http://127.0.0.1:5000;         } }`
+```
 
 以上就完成了接口服务的多环境多版本自动化部署，对应流水线
 
@@ -204,11 +244,64 @@ bash
 
 这里尝试将 `github.com/dev-zuo/blog` 中的 vitepress 项目部署到腾讯云服务器。首先在项目目录中添加 github ci 配置文件 `.github/workflows/main.yml`，内容如下，当 v1.0.0 分支有代码 push 时，就会自动触发 github actions 执行下面的 jobs 任务，触发部署流程：1、打包 2、构建 3、通过 ssh 登录到腾讯云服务器进行发布 4、微信通知（非必须）
 
-bash
+```yaml
+name: 更新博客到服务器
 
-复制代码
+on:
+  push:
+    # push 代码的时候 哪个分支会受到影响 这里是 v1.0.0 分支
+    branches:
+      - v1.0.0 # 也可以设置为 main 分支
 
-`name: 更新博客到服务器 on:   push:     # push 代码的时候 哪个分支会受到影响 这里是 v1.0.0 分支     branches:       - v1.0.0 # 也可以设置为 main 分支 # 推送之后执行一系列的任务 jobs:   build:     runs-on: ubuntu-latest     steps:       # 获取代码       - name: 迁出代码         # 使用action库 action/checkout获取代码         uses: actions/checkout@main       # 安装Node环境       - name: 安装node.js         # 使用action库  actions/setup-node安装node         uses: actions/setup-node@main         with:           node-version: lts/*       # 安装依赖       - name: 安装依赖         run: npm install       # 打包       - name: 打包         run: npm run build       # 上传到腾讯云       - name: 发布到腾讯云         uses: easingthemes/ssh-deploy@main         env:           # 私钥           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}           # SCP参数           ARGS: '-avzr --delete'           # 源目录           SOURCE: '.vitepress/dist/'           # 服务器ip           REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}           # 用户           REMOTE_USER: 'root'           # 目标地址           # TARGET: '/var/www/html'           TARGET: '/root/demo.zuo11.com'       # 推送信息到微信       # - name: 推送信息到微信       #   uses: easychen/github-action-server-chan@main       #   with:       #     sendkey: ${{ secrets.SERVER_J }}       #     title: '网站更新完毕'`
+# 推送之后执行一系列的任务
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 获取代码
+      - name: 迁出代码
+        # 使用action库 action/checkout获取代码
+        uses: actions/checkout@main
+      # 安装Node环境
+
+      - name: 安装node.js
+        # 使用action库  actions/setup-node安装node
+        uses: actions/setup-node@main
+        with:
+          node-version: lts/*
+
+      # 安装依赖
+      - name: 安装依赖
+        run: npm install
+
+      # 打包
+      - name: 打包
+        run: npm run build
+      # 上传到腾讯云
+      - name: 发布到腾讯云
+        uses: easingthemes/ssh-deploy@main
+        env:
+          # 私钥
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          # SCP参数
+          ARGS: '-avzr --delete'
+          # 源目录
+          SOURCE: '.vitepress/dist/'
+          # 服务器ip
+          REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}
+          # 用户
+          REMOTE_USER: 'root'
+          # 目标地址
+          # TARGET: '/var/www/html'
+          TARGET: '/root/demo.zuo11.com'
+      # 推送信息到微信
+      # - name: 推送信息到微信
+      #   uses: easychen/github-action-server-chan@main
+      #   with:
+      #     sendkey: ${{ secrets.SERVER_J }}
+      #     title: '网站更新完毕'
+
+```
 
 注意点：文件路径要检查是否正确，包括构建生成路径，服务器目标部署路径
 
@@ -235,11 +328,13 @@ bash
 
 ### 4.3 github secrets 变量配置
 
-bash
+```yaml
+ # 私钥
+ SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+ # 服务器ip
+ REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}
 
-复制代码
-
- `# 私钥  SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}  # 服务器ip  REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}`
+```
 
 在 actions 配置中 secrets 变量配置位置在：当前项目仓库的 Settings - Secrets and variables - Actions 中，如下图
 
@@ -251,11 +346,11 @@ bash
 
 2、查看私钥 `cat ~/.ssh/id_rsa` 内容，设置到 github secrets 变量 PRIVATE_KEY 中，**这里有个注意点，私钥拷贝后，-----END RSA PRIVATE KEY----- 下面一定要空一行**，不然会提示 ssh 权限校验失败。
 
-js
+```
+uh4+88TM83SIN3fIn1Kjx3yZWhJef9rCyQ+POPps7u7tM/fMbYpN
+-----END RSA PRIVATE KEY-----
 
-复制代码
-
-`uh4+88TM83SIN3fIn1Kjx3yZWhJef9rCyQ+POPps7u7tM/fMbYpN -----END RSA PRIVATE KEY-----`
+```
 
 3、查看公钥 `cat ~/.ssh/id_rsa.pub` 内容，将内容添加到云服务器的 `~/.ssh/authorized_keys` 文件中，可以使用 `vi ~/.ssh/authorized_keys` 编辑，然后将公钥粘贴进去。还有一种方式是使用前面阮一峰那篇 ssh 文章中的 `ssh-copy-id root@服务器ip` 来自动添加到云服务器的可信列表，但 windows 默认不支持 ssh-copy-id 命令，且对服务器设置有要求，建议还是使用第一种方式写入内容。
 
@@ -277,19 +372,22 @@ js
 
 .github\workflows\main-pre.yml
 
-bash
+```yaml
+name: 生产环境部署
+on: # 监听 main 分支上的 push 事件
+  push:
+    branches:
+      - main
+jobs:
+# 省略
 
-复制代码
-
-`name: 生产环境部署 on: # 监听 main 分支上的 push 事件   push:     branches:       - main jobs: # 省略`
+```
 
 .github\workflows\main.yml
 
-bash
+```yaml
 
-复制代码
-
-`name: 更新博客到服务器 on:   push:     # push 代码的时候 哪个分支会受到影响 这里是 main 主分支1     branches:       - v1.0.0`
+```
 
 ## 5.结束语
 
