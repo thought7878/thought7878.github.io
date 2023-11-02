@@ -169,10 +169,6 @@ module.exports = {
 
 > 本实例[提供项目完整代码](http://webpack.wuhaolin.cn/4-9CDN%E5%8A%A0%E9%80%9F.zip)
 
-
-
 ## 参考资料
 
 [4-9 CDN 加速 · 深入浅出 Webpack](https://webpack.wuhaolin.cn/4%E4%BC%98%E5%8C%96/4-9CDN%E5%8A%A0%E9%80%9F.html)
-
-

@@ -386,6 +386,13 @@ jobs:
 .github\workflows\main.yml
 
 ```yaml
+name: 更新博客到服务器
+
+on:
+  push:
+    # push 代码的时候 哪个分支会受到影响 这里是 main 主分支1
+    branches:
+      - v1.0.0
 
 ```
 
