@@ -1,19 +1,21 @@
 # Create A CI/CD Pipeline For Front End Projects 为前端项目创建 CI/CD 管道
 
 > In modern front-end development, automating the testing and deployment of your apps is mandatory to avoid wasting time or making mistakes. This article will show you how to go about achieving this goal.  
-> 在现代前端开发中，必须自动化应用程序的测试和部署，以避免浪费时间或犯错误。本文将向您展示如何实现这一目标。
+> 在现代前端开发中，<u>必须自动化应用程序的测试和部署</u>，**以避免浪费时间或犯错误**。本文将向您展示如何实现这一目标。
 
 Hey there, fellow developers! Today, we’re diving into the exciting world of “Creating a `CI/CD` Pipeline for Front-end Projects.” 🚀 Before you think, “Wait, what’s `CI/CD` again?”—don’t worry; I got you covered!  
 嘿，开发人员朋友们！今天，我们将深入探讨“为前端项目创建 `CI/CD` 管道”的激动人心的世界。 🚀 在您思考“等等， `CI/CD` 又是什么？”之前——别担心；我已经覆盖你了！
 
+
+
 Continuous Integration and Continuous Delivery (or Continuous Deployment, depending on your preferences) are referred to as `CI/CD`. It’s a way to automate the development, testing, and deployment of your front-end applications, to put it simply. Imagine it as a robot companion that takes care of all the monotonous tasks, allowing you more time to focus on developing fantastic features and repairing bugs.  
-持续集成和持续交付（或持续部署，取决于您的偏好）被称为 `CI/CD` 。简而言之，这是一种自动化前端应用程序的开发、测试和部署的方法。将其想象为一个机器人伴侣，负责处理所有单调的任务，让您有更多时间专注于开发出色的功能和修复错误。
+持续集成和持续交付（或持续部署，取决于您的偏好）被称为 `CI/CD` 。**简而言之，这是一种自动化前端应用程序的开发、测试和部署的方法**。**将其想象为一个机器人伴侣，负责处理所有单调的任务，让您有更多时间专注于开发出色的功能和修复错误**。
 
 You might be wondering why all this automation stuff is necessary now. Let me just say that it’s a game-changer! `CI/CD` is like having a magic wand that increases productivity, collaboration, and code quality in today’s fast-paced world of software development.  
-您可能想知道为什么现在需要所有这些自动化的东西。我只想说，这是一个游戏规则改变者！ `CI/CD` 就像拥有一根魔杖，可以在当今快节奏的软件开发世界中提高生产力、协作和代码质量。
+您可能想知道为什么现在需要所有这些自动化的东西。我只想说，这是一个游戏规则改变者！<u> `CI/CD` 就像拥有一根魔杖，可以在当今快节奏的软件开发世界</u>中**提高生产力、协作和代码质量**。
 
 Using continuous integration (`CI`), you and your team can automatically merge code changes frequently, find problems early, and prevent unpleasant integration surprises. A smooth and reliable delivery of your app to users is ensured by `CD`, which lets you easily push those changes to various environments.  
-使用持续集成 ( `CI` )，您和您的团队可以自动频繁合并代码更改、及早发现问题并防止出现令人不快的集成意外。 `CD` 确保您的应用顺利、可靠地交付给用户，这使您可以轻松地将这些更改推送到各种环境。
+使用持续集成 ( `CI` )，您和您的团队可以**自动频繁合并代码更改、及早发现问题并防止出现令人不快的集成意外**。 `CD` 确保您的应用**顺利、可靠地交付给用户，这使您可以轻松地将这些更改推送到各种环境**。
 
 In this article, we’ll walk through the crucial elements of a successful `CI/CD` pipeline for front-end projects. To ensure you comprehend the specifics of `CI` and `CD`, we’ll describe them thoroughly.  
 在本文中，我们将逐步介绍前端项目成功 `CI/CD` 管道的关键要素。为了确保您理解 `CI` 和 `CD` 的细节，我们将彻底描述它们。
@@ -24,7 +26,7 @@ Next, we’ll look at the essential components of your `CI/CD` pipeline:
 1. *`Source Code Version Control`:* We’ll talk about using `Git` for `version control`, and best practices for `branching` and `merging` in front-end projects.  
    `Source Code Version Control` ：我们将讨论将 `Git` 用于 `version control` ，以及 `branching` 和 `merging` 的最佳实践前端项目。
 
-```
+```shell
 # Create a new feature branch
 git checkout -b new-feature
 
@@ -40,9 +42,9 @@ git merge new-feature
 ```
 
 2. *Automated Build Process:* We’ll set up automated build tools like [Webpack](https://webpack.js.org/) or [Gulp](https://gulpjs.com/) to streamline the process of turning your `source code` into production-ready assets.  
-   自动化构建流程：我们将设置 Webpack 或 Gulp 等自动化构建工具，以简化将 `source code` 转变为生产就绪资产的过程。
+   自动化构建流程：我们将设置 Webpack 或 Gulp 等自动化构建工具，以简化**将 `source code` 转变为生产就绪资产**的过程。
 
-```
+```js
 // Example of a simple Webpack configuration
 const path = require("path");
 
@@ -68,15 +70,15 @@ module.exports = {
 So, buckle up! By the end of this article, you’ll be well-equipped to build your `CI/CD` pipeline, automate everything, and deliver top-notch front-end projects like a pro! Let’s get started! 💪  
 所以，系好安全带！读完本文后，您将具备良好的能力来构建 `CI/CD` 管道、自动化一切，并像专业人士一样交付一流的前端项目！让我们开始吧！ 💪
 
-## 了解前端项目的 CI/CD Understanding CI/CD for Front-end Projects
+## 理解前端的 CI/CD Understanding CI/CD for Front-end Projects
 
 Let’s demystify Continuous Integration (`CI`) and Continuous Delivery (`CD`) for front-end development. 🕵️‍♂️ These practices might sound fancy, but they’re not as complex as they seem. Let’s break it down!  
 让我们揭开前端开发的持续集成 ( `CI` ) 和持续交付 ( `CD` ) 的神秘面纱。 🕵️‍♂️ 这些做法可能听起来很花哨，但它们并不像看起来那么复杂。让我们来分解一下吧！
 
-### 前端开发持续集成（CI）讲解 Explanation of Continuous Integration (CI) for front-end development
+### 持续集成（CI）讲解 Explanation of Continuous Integration (CI) for front-end development
 
 1. **Definition and Purpose of `CI`:** `CI` is like having a collaborative robot buddy on your team. It’s all about integrating code changes frequently into a `shared repository`. Every time a developer adds new code, `CI` swoops in and automatically merges it with the existing `codebase`. This helps spot bugs and conflicts early on, preventing nasty surprises when integrating multiple changes later. The goal is to catch issues quickly and keep the `codebase` consistent and healthy.  
-   `CI` 的定义和目的： `CI` 就像您的团队中有一个协作机器人伙伴。这一切都是为了将​​频繁的代码更改集成到 `shared repository` 中。每次开发人员添加新代码时， `CI` 都会突然介入并自动将其与现有的 `codebase` 合并。这有助于及早发现错误和冲突，防止稍后集成多个更改时出现令人讨厌的意外情况。目标是快速发现问题并保持 `codebase` 一致和健康。
+   **`CI` 的定义和目的**： `CI` 就像您的团队中有一个协作机器人伙伴。这一切都是为了将​​频繁的代码更改集成到 `shared repository` 中。<u>每次开发人员添加新代码时， `CI` 都会突然介入并自动将其与现有的 `codebase` 合并</u>。<u>这有助于及早发现错误和冲突</u>，防止稍后集成多个更改时出现令人讨厌的意外情况。<u>目标是快速发现问题并保持 `codebase` 一致和健康</u>。
 
 2. **Benefits of `CI` in front-end projects:** `CI` isn’t just a trendy buzzword; it brings tangible benefits to front-end development:  
    `CI` 在前端项目中的好处： `CI` 不仅仅是一个流行词；给前端开发带来了实实在在的好处：
@@ -87,7 +89,7 @@ Let’s demystify Continuous Integration (`CI`) and Continuous Delivery (`CD`) f
 - *Reliable `Codebase`:* Frequent integration helps maintain a stable and reliable `codebase`, making it easier to manage and deploy.  
   可靠 `Codebase` ：频繁集成有助于保持 `codebase` 稳定可靠，更易于管理和部署。
 
-### 前端开发持续交付（CD）讲解 Explanation of Continuous Delivery (CD) for front-end development
+### 持续交付（CD）讲解 Explanation of Continuous Delivery (CD) for front-end development
 
 
 
@@ -119,7 +121,7 @@ On the other hand, `CD` involves setting up deployment pipelines that automati
 So, there you have it, `CI` and `CD` demystified!  
 所以， `CI` 和 `CD` 已经揭开神秘面纱了！
 
-## 前端项目的有效 CI/CD 管道的组成部分 Components of an Effective CI/CD Pipeline for Front-end Projects
+## CI/CD 管道的组成部分 Components of an Effective CI/CD Pipeline for Front-end Projects
 
 
 
@@ -136,7 +138,7 @@ For `CI/CD` understanding, the foundation has been established. Let’s get in
 2. **Best Practices for `Branching` and `Merging` in Front-end Projects:** `Branching` and `merging` can be a little tricky, but with some best practices, it becomes a piece of cake. Create feature branches for every new piece of work, and when it’s ready, merge it back into the main branch. This way, the main branch stays clean, and you avoid those hair-pulling integration issues.  
    前端项目中 `Branching` 和 `Merging` 的最佳实践： `Branching` 和 `merging` 可能有点棘手，但有一些最佳实践，它就变成小菜一碟了。为每个新工作创建功能分支，准备好后，将其合并回主分支。这样，主分支就可以保持干净，并且可以避免那些令人头疼的集成问题。
 
-```
+```sh
 # Create a new feature branch
 git checkout -b new-feature
 
