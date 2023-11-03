@@ -35,19 +35,15 @@ Rolling out a change to production is not a disruptive event. Deployment doesn�
 
 
 
-## What is a CI/CD pipeline?
-
-什么是 CI/CD 管道？
+## What is a CI/CD pipeline? 什么是 CI/CD 管道？
 
 A CI/CD pipeline automates the process of software delivery. It builds code, runs tests, and helps you to safely deploy a new version of the software. CI/CD pipeline reduces manual errors, provides feedback to developers, and allows fast product iterations.  
-CI/CD 管道使软件交付过程自动化。它构建代码、运行测试并帮助您安全地部署新版本的软件。 CI/CD 管道减少了手动错误，向开发人员提供反馈，并允许快速产品迭代。
+CI/CD 管道**使软件交付过程自动化**。它**构建**代码、运行**测试**并帮助您安全地**部署**新版本的软件。 CI/CD 管道减少了手动错误，向开发人员提供反馈，并允许快速产品迭代。
 
 CI/CD pipeline introduces automation and continuous monitoring throughout the lifecycle of a software product. It involves from the integration and testing phase to delivery and deployment. These connected practices are referred as CI/CD pipeline.  
-CI/CD 管道在软件产品的整个生命周期中引入了自动化和持续监控。它涉及从集成和测试阶段到交付和部署。这些相互关联的实践称为 CI/CD 管道。
+CI/CD 管道**在软件产品的整个生命周期中引入了自动化和持续监控。它涉及从集成和测试阶段到交付和部署**。<u>这些相互关联的实践称为 CI/CD 管道</u>。
 
-## What is Continuous Integration, Continuous Delivery, and Continuous Deployment?
-
-什么是持续集成、持续交付和持续部署？
+## What is Continuous Integration, Continuous Delivery, and Continuous Deployment? 什么是持续集成、持续交付和持续部署？
 
 - **Continuous integration** is a software development method where members of the team can integrate their work at least once a day. In this method, every integration is checked by an automated build to search the error.  
   持续集成是一种软件开发方法，团队成员每天至少可以集成一次他们的工作。在此方法中，每个集成都会通过自动构建进行检查以搜索错误。
@@ -66,15 +62,15 @@ Here are the important Stages of CI/CD pipeline:
 
 ![](assets/overview/2023-11-02-17-21-40-image.png)
 
-### Source Stage 源阶段
+### Source Stage 源码阶段
 
 In the source stage, CI/CD pipeline is triggered by a code repository. Any change in the program triggers a notification to the CI/CD tool that runs an equivalent pipeline. Other common triggers include user-initiated workflows, automated schedules, and the results of other pipelines.  
-在源阶段，CI/CD 管道由代码存储库触发。程序中的任何更改都会触发对运行等效管道的 CI/CD 工具的通知。其他常见触发器包括用户启动的工作流程、自动计划和其他管道的结果。
+在源码阶段，CI/CD 管道由代码存储库触发。程序中的任何更改都会触发对运行等效管道的 CI/CD 工具的通知。其他常见触发器包括用户启动的工作流程、自动计划和其他管道的结果。
 
 ### Build Stage 构建阶段
 
 This is the second stage of the CI/CD Pipeline in which you merge the source code and its dependencies. It is done mainly to build a runnable instance of software that you can potentially ship to the end-user.  
-这是 CI/CD 管道的第二阶段，在其中合并源代码及其依赖项。它主要是为了构建一个可运行的软件实例，您可以将其交付给最终用户。
+这是 CI/CD 管道的第二阶段，<u>在其中合并源代码及其依赖项。它主要是为了构建一个可运行的软件实例，您可以将其交付给最终用户</u>。
 
 Programs that are written in languages like [C++](https://www.guru99.com/cpp-tutorial.html), Java, C, or Go language should be compiled. On the other hand, [JavaScript](https://www.guru99.com/interactive-javascript-tutorials.html), Python, and Ruby programs can work without the build stage.  
 使用 C++、Java、C 或 Go 语言等语言编写的程序应该进行编译。另一方面，JavaScript、Python 和 Ruby 程序无需构建阶段即可运行。
