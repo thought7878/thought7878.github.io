@@ -1,3 +1,21 @@
+# Why
+
+
+
+提高效率：提高生产力、协作和代码质量。在现代前端开发中，<u>必须自动化应用程序的测试和部署</u>，**以避免浪费时间或犯错误。**
+
+
+
+# What
+
+**简而言之，CI/CD是一种前端应用程序的开发、测试和部署的自动化方法**。**将其想象为一个机器人伴侣，负责处理所有单调/乏味的任务，让您有更多时间专注于开发出色的功能和修复错误。**
+
+使用持续集成 ( `CI` )，您和您的团队可以**自动频繁合并代码更改、及早发现问题并防止出现令人不快的集成意外**。 `CD` 确保您的应用**顺利、可靠地交付给用户，这使您可以轻松地将这些更改推送到各种环境**。
+
+## 持续集成（CI）
+
+## 持续交付（CD）
+
 ## Continuous integration 持续集成
 
 Continuous integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run. CI most often refers to the build or integration stage of the software release process and requires both an automation component (for example a CI or build service) and a cultural component (for example learning to integrate frequently). The key goals of CI are to find and address bugs more quickly, improve software quality, and reduce the time it takes to validate and release new software updates.  
@@ -30,10 +48,6 @@ Using continuous delivery, the decision to go live becomes a business decision, 
 
 Rolling out a change to production is not a disruptive event. Deployment doesn’t require the technical team to stop working on the next set of changes, and it doesn’t need a project plan, handover documentation, or a maintenance window. Deployment becomes a repeatable process that has been carried out and proven multiple times in testing environments.  
 推出生产变更并不是一个破坏性事件。部署不需要技术团队停止进行下一组更改，也不需要项目计划、移交文档或维护窗口。部署成为一个可重复的过程，已在测试环境中多次执行和验证。
-
-
-
-
 
 ## What is a CI/CD pipeline? 什么是 CI/CD 管道？
 
@@ -93,5 +107,3 @@ This is the last stage where your product goes live. Once the build has successf
 [What is continuous integration and continuous delivery/deployment?](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/what-is-continuous-integration-and-continuous-deliverydeployment.html)
 
 [CI/CD Pipeline: Learn with Example](https://www.guru99.com/ci-cd-pipeline.html#2)
-
-

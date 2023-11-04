@@ -65,7 +65,6 @@ npm run build
 # [INFO] 使用工作路径/root/workspace/dev-zuo-blog
 ossutil cp -r /root/workspace/dev-zuo-blog/.vitepress/dist oss://f-zuo11-com/ --update
 # [18:55:52] [SUCCESS]上传成功
-
 ```
 
 ### 2.2 vitepress + oss 自动化部署
@@ -169,7 +168,6 @@ echo '重新开启服务'
 pm2 delete config.zuo11.com
 pm2 start src/index.js -n 'config.zuo11.com'
 echo '部署完成'
-
 ```
 
 修改代码，新增一个接口 [feat: add test-deploy api](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fdev-zuo%2Fzuo-config-server%2Fcommit%2Ffd4421a69212613faa10c7d12f3c35d6566858cb "https://github.com/dev-zuo/zuo-config-server/commit/fd4421a69212613faa10c7d12f3c35d6566858cb")
@@ -190,7 +188,6 @@ echo '部署完成'
 # 首次部署
 cd /root
 git clone git@github.com:zuoxiaobai/zuo-config-server.git --branch v1.0.0
-
 ```
 
 二次部署的脚本和 3.1 部署脚本一致，脚本运行日志如下图
@@ -205,7 +202,6 @@ git clone git@github.com:zuoxiaobai/zuo-config-server.git --branch v1.0.0
 
 ```shell
 yum install nodejs npm git nginx
-
 ```
 
 2、git clone 失败，需要先在 linux 服务器上配置 ssh，在将公钥添加到 github 设置中，参考 [git ssh 配置](https://link.juejin.cn?target=http%3A%2F%2Fwww.zuo11.com%2Fblog%2F2020%2F8%2Fgit_ssh.html "http://www.zuo11.com/blog/2020/8/git_ssh.html")
@@ -227,7 +223,6 @@ server {
             proxy_pass http://127.0.0.1:5000;
         }
 }
-
 ```
 
 以上就完成了接口服务的多环境多版本自动化部署，对应流水线
@@ -300,7 +295,6 @@ jobs:
       #   with:
       #     sendkey: ${{ secrets.SERVER_J }}
       #     title: '网站更新完毕'
-
 ```
 
 注意点：文件路径要检查是否正确，包括构建生成路径，服务器目标部署路径
@@ -333,7 +327,6 @@ jobs:
  SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
  # 服务器ip
  REMOTE_HOST: ${{ secrets.REMOTE_TXHOST }}
-
 ```
 
 在 actions 配置中 secrets 变量配置位置在：当前项目仓库的 Settings - Secrets and variables - Actions 中，如下图
@@ -349,7 +342,6 @@ jobs:
 ```
 uh4+88TM83SIN3fIn1Kjx3yZWhJef9rCyQ+POPps7u7tM/fMbYpN
 -----END RSA PRIVATE KEY-----
-
 ```
 
 3、查看公钥 `cat ~/.ssh/id_rsa.pub` 内容，将内容添加到云服务器的 `~/.ssh/authorized_keys` 文件中，可以使用 `vi ~/.ssh/authorized_keys` 编辑，然后将公钥粘贴进去。还有一种方式是使用前面阮一峰那篇 ssh 文章中的 `ssh-copy-id root@服务器ip` 来自动添加到云服务器的可信列表，但 windows 默认不支持 ssh-copy-id 命令，且对服务器设置有要求，建议还是使用第一种方式写入内容。
@@ -380,7 +372,6 @@ on: # 监听 main 分支上的 push 事件
       - main
 jobs:
 # 省略
-
 ```
 
 .github\workflows\main.yml
@@ -393,14 +384,11 @@ on:
     # push 代码的时候 哪个分支会受到影响 这里是 main 主分支1
     branches:
       - v1.0.0
-
 ```
 
 ## 5.结束语
 
 以上是自动化部署相关测试研究第一阶段的笔记内容，如果有不同看法、或者好的建议欢迎评论区留言、讨论，如果对 CI/CD 自动化部署感兴趣，欢迎私信、github、邮箱联系交流。
-
-
 
 ## 参考
 
