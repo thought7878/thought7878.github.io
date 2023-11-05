@@ -103,50 +103,50 @@ CI/CD 管道分四个阶段执行持续集成、交付和部署：源、构建�
 ### 源码 Source
 
 Creating source code is the first phase in a CI/CD pipeline. During this phase, developers translate requirements into functional algorithms, features, and behaviors. Tools often vary, depending on the project, the project’s language, and other variables. As a result, there is no uniform source creation pipeline.   
-创建源代码是 CI/CD 管道的第一阶段。在此阶段，开发人员将需求转化为功能算法、功能和行为。工具通常会有所不同，具体取决于项目、项目的语言和其他变量。因此，没有统一的源创建管道。
+创建源代码是 CI/CD 管道的第一阶段。<u>在此阶段，开发人员将需求转化为功能算法、功能和行为</u>。工具通常会有所不同，具体取决于项目、项目的语言和其他变量。因此，没有统一的源创建管道。
 
 A source code creation pipeline may incorporate any of the following:  
-源代码创建管道可以包含以下任何内容：
+<u>源代码创建管道可以包含以下任何内容：</u>
 
 - A programming framework, such as Java, .NET, C#, or PHP.  
-  编程框架，例如 Java、.NET、C# 或 PHP。
+  <u>编程框架</u>，例如 Java、.NET、C# 或 PHP。
 - An integrated development environment (IDE) that supports the programming language chosen for the project.   
-  支持为项目选择的编程语言的集成开发环境 (IDE)。
+  支持为项目选择的编程语言的<u>集成开发环境 (IDE)</u>。
 - Code-checking tools, such as vulnerability scanners, basic error detection, and tools verifying adherence to coding standards.   
-  代码检查工具，例如漏洞扫描器、基本错误检测以及验证是否遵守编码标准的工具。
+  <u>代码检查工具</u>，例如漏洞扫描器、基本错误检测以及验证是否遵守编码标准的工具。
 - Code repositories and version control systems, such as Git.  
-  代码存储库和版本控制系统，例如 Git。
+  <u>代码存储库和版本控制系统</u>，例如 Git。
 
 ### 构建 Build
 
 The build phase involves pulling source code from a repository, establishing links to libraries, dependencies, and modules, and building these components into an executable (.exe) file. It typically requires tools that can generate execution logs, denote errors to correct and investigate, and notify developers once a build is completed.  
-构建阶段包括从存储库中提取源代码，建立到库、依赖项和模块的链接，并将这些组件构建到可执行 (.exe) 文件中。它通常需要能够生成执行日志、指示错误以纠正和调查以及在构建完成后通知开发人员的工具。
+**构建阶段**包括<u>从存储库中提取源代码</u>，建立到库、依赖项和模块的链接，并将这些组件构建到可执行 (.exe) 文件中。它通常需要能够生成执行日志、指示错误以纠正和调查以及在构建完成后通知开发人员的工具。
 
 Build tools vary according to the programming language. Some scenarios may require a specific build tool, while others can employ the same IDE for both source and build phases. A build phase may use additional tools to translate an executable file into a deployable or packaged execution environment, such as a virtual machine (VM) or a Docker container.  
-构建工具根据编程语言的不同而有所不同。某些场景可能需要特定的构建工具，而其他场景则可以在源代码和构建阶段使用相同的 IDE。构建阶段可以使用附加工具将可执行文件转换为可部署或打包的执行环境，例如虚拟机 (VM) 或 Docker 容器。
+<u>构建工具根据编程语言的不同而有所不同</u>。某些场景可能需要特定的构建工具，而其他场景则可以在源代码和构建阶段使用相同的 IDE。构建阶段可以使用附加工具将可执行文件转换为可部署或打包的执行环境，例如虚拟机 (VM) 或 Docker 容器。
 
 ### 测试 Test
 
 During the source code creation phase, the code undergoes static testing. The completed build enters the next CI/CD phase to undergo dynamic testing, including:   
-在源代码创建阶段，代码经过静态测试。完成的构建进入下一个 CI/CD 阶段进行动态测试，包括：
+<u>在源代码创建阶段，代码经过静态测试</u>。完成的构建进入下一个 CI/CD 阶段**进行动态测试，包括：**
 
 - **Basic functional or unit testing**—helps validate new features work as intended.  
-  基本功能或单元测试——帮助验证新功能是否按预期工作。
+  **基本功能或单元测试**——帮助验证新功能是否按预期工作。
 - **Regression testing**—helps ensure changes do not break previously working features.  
-  回归测试 - 有助于确保更改不会破坏以前的工作功能。
+  **回归测试** - **有助于确保更改不会破坏以前的功能**。
 
 In addition to functional and regression tests, the build undergoes tests that verify integration, performance, and user acceptance. If errors occur during the testing phase, the process loops these results back to developers for analysis and remediation. Since builds undergo many tests, developers employ automated testing to minimize human error and improve productivity.  
-除了功能和回归测试之外，构建还经过验证集成、性能和用户接受度的测试。如果在测试阶段出现错误，该过程会将这些结果循环返回给开发人员进行分析和修复。由于构建需要经过许多测试，因此开发人员采用自动化测试来最大限度地减少人为错误并提高生产力。
+<u>除了功能和回归测试之外，构建还经过验证集成、性能和用户接受度的测试</u>。如果在测试阶段出现错误，该过程会将这些结果循环返回给开发人员进行分析和修复。由于构建需要经过许多测试，因此开发人员<u>采用自动化测试来最大限度地减少人为错误并提高生产力</u>。
 
 ### 部署 Deploy
 
 After a build passes the testing phase, it becomes a candidate for deployment. There are two main ways to deploy the build, including:  
-构建通过测试阶段后，它就成为部署的候选者。部署构建有两种主要方法，包括：
+<u>构建通过测试阶段后</u>，它就成为部署的候选者。部署构建有两种主要方法，包括：
 
 - **Continuous delivery**—the build is sent to human staff for approval and then deployed. For example, new versions are automatically deployed to a test environment, but promotion to production is gated by a manual approval or merge request.  
-  持续交付——构建被发送给工作人员批准，然后部署。例如，新版本会自动部署到测试环境，但升级到生产环境需要手动批准或合并请求。
+  **持续交付**——构建被发送给工作人员批准，然后部署。例如，<u>新版本会自动部署到测试环境，但升级到生产环境需要手动批准或合并请求</u>。
 - **Continuous deployment**—the pipeline automatically deploys the build to testing, staging, and production environments, assuming it passes all relevant tests, with no manual approvals.  
-  持续部署——管道会自动将构建部署到测试、暂存和生产环境，假设它通过了所有相关测试，无需手动批准。
+  **持续部署**——管道会<u>自动将构建部署到测试、暂存和生产环境，假设它通过了所有相关测试，无需手动批准</u>。
 
 A typical deployment phase creates a deployment environment and moves the build to a deployment target, like a server. You can automate these steps with scripts or workflows in automation tools. Most deployments also integrate with error reporting and ticketing tools to detect unexpected errors post-deployment and alert developers.  
 典型的部署阶段会创建部署环境并将构建移动到部署目标（例如服务器）。您可以使用自动化工具中的脚本或工作流程自动执行这些步骤。大多数部署还与错误报告和票务工具集成，以检测部署后的意外错误并向开发人员发出警报。
@@ -161,45 +161,45 @@ Benefits of Kubernetes for CI/CD Pipelines
 
 
 The secret to the success of a CI/CD pipeline is ensuring that application updates are performed quickly and in an automated manner. Teams typically face the following challenges when adopting CI/CD:  
-CI/CD 管道成功的秘诀是确保以自动化方式快速执行应用程序更新。采用 CI/CD 时，团队通常面临以下挑战：
+**CI/CD 管道成功的秘诀**是<u>确保以自动化方式快速执行应用程序更新</u>。采用 CI/CD 时，<u>团队通常面临以下挑战：</u>
 
 - **Manual steps in the release process**—Many CI/CD processes still use manual testing and deployment steps. This can cause delays and affect production schedules. Manual CI/CD processes can cause code merge conflicts and increase customer wait times for patches and updates.  
-  发布过程中的手动步骤 - 许多 CI/CD 流程仍然使用手动测试和部署步骤。这可能会导致延误并影响生产计划。手动 CI/CD 流程可能会导致代码合并冲突并增加客户等待补丁和更新的时间。
+  **发布过程中的手动步骤** - 许多 CI/CD 流程仍然使用手动测试和部署步骤。这可能会导致延误并影响生产计划。手动 CI/CD 流程可能会导致代码合并冲突并增加客户等待补丁和更新的时间。
 - **Downtime risk**—manual infrastructure management processes can be a headache for DevOps teams because they create the risk of downtime. For example, unexpected traffic spikes that exceed capacity can cause downtime and require manual steps to restore applications.  
-  停机风险——手动基础设施管理流程可能会让 DevOps 团队头疼，因为它们会带来停机风险。例如，超出容量的意外流量峰值可能会导致停机，并需要手动步骤来恢复应用程序。
+  **停机风险**——手动基础设施管理流程可能会让 DevOps 团队头疼，因为它们会带来停机风险。例如，超出容量的意外流量峰值可能会导致停机，并需要<u>手动步骤来恢复应用程序</u>。
 - **Inefficient resource utilization**—applications are often deployed on servers in an inefficient way. This means organizations have to pay more for capacity. As applications are added, scaled up and down, it can be difficult to efficiently use available hardware resources. This is true whether the application is running in the cloud or on-premises.  
-  资源利用效率低下——应用程序通常以低效的方式部署在服务器上。这意味着组织必须为容量支付更多费用。随着应用程序的添加、扩展和缩小，有效利用可用硬件资源可能会变得困难。无论应用程序是在云端还是在本地运行，都是如此。
+  **资源利用效率低下**——应用程序通常以低效的方式部署在服务器上。这意味着组织必须为容量支付更多费用。随着应用程序的添加、扩展和缩小，有效利用可用硬件资源可能会变得困难。无论应用程序是在云端还是在本地运行，都是如此。
 
 Kubernetes can solve all three of these problems. It reduces the time and effort required to develop and deploy applications in a CI/CD pipeline. Its efficient resource management model increases hardware utilization, automates management processes, and reduces disruptions that negatively impact customers. Specifically, Kubernetes can:  
-Kubernetes 可以解决所有这三个问题。它减少了在 CI/CD 管道中开发和部署应用程序所需的时间和精力。其高效的资源管理模型提高了硬件利用率，实现管理流程自动化，并减少对客户产生负面影响的中断。具体来说，Kubernetes 可以：
+**Kubernetes 可以解决所有这三个问题**。<u>它减少了在 CI/CD 管道中开发和部署应用程序所需的时间和精力。其高效的资源管理模型提高了硬件利用率，实现管理流程自动化，并减少对客户产生负面影响的中断</u>。具体来说，Kubernetes 可以：
 
 - **Cluster Management** – Kubernetes takes the best practices for all previous clustering solutions and packages them in a vendor agnostic way. It comes bundled with several critical components such as schedulers and resource managers and contains plugin mechanisms for storage, networking, secrets etc. Writing distributed applications with Kubernetes is much easier compared to legacy clustering solutions as the environment it offers is standardized and without any proprietary mechanisms to closed systems  
-  集群管理——Kubernetes 采用了所有以前集群解决方案的最佳实践，并以与供应商无关的方式打包它们。它捆绑了多个关键组件，例如调度程序和资源管理器，并包含用于存储、网络、机密等的插件机制。与传统集群解决方案相比，使用 Kubernetes 编写分布式应用程序要容易得多，因为它提供的环境是标准化的，并且没有任何专有机制至封闭系统
+  **集群管理**——Kubernetes 采用了所有以前集群解决方案的最佳实践，并以与供应商无关的方式打包它们。它捆绑了多个关键组件，例如调度程序和资源管理器，并包含用于存储、网络、机密等的插件机制。<u>与传统集群解决方案相比</u>，使用 Kubernetes 编写分布式应用程序要容易得多，因为它提供的环境是标准化的，并且没有任何专有机制至封闭系统
 - **Orchestrate deployment and provisioning**—coordinating provisioning activities and simplifying deployment. Kubernetes handles hardware and storage resource configuration, software deployment, scalability, and health monitoring, and is fully customizable for specific needs.  
-  协调部署和配置——协调配置活动并简化部署。 Kubernetes 处理硬件和存储资源配置、软件部署、可扩展性和运行状况监控，并且可以根据特定需求进行完全定制。
+  **协调部署和配置**——协调配置活动并简化部署。 Kubernetes 处理硬件和存储资源配置、软件部署、可扩展性和运行状况监控，并且可以根据特定需求进行完全定制。
 - **Declarative constructs**—codifying the final state of the desired environment or application in simple, human readable code. This makes it possible to recover faster from downtime and production issues, better control scaling, and streamline disaster recovery processes.  
-  声明性构造——将所需环境或应用程序的最终状态编码为简单的、人类可读的代码。这使得从停机和生产问题中更快地恢复、更好地控制扩展并简化灾难恢复流程成为可能。
+  **声明性构造**——将所需环境或应用程序的最终状态编码为简单的、人类可读的代码。这使得从停机和生产问题中更快地恢复、更好地控制扩展并简化灾难恢复流程成为可能。
 
 ## 云服务中的 CI/CD
 
 
 
 CI/CD in the cloud refers to the practice of using cloud-based services to perform Continuous Integration and Continuous Delivery/Deployment (CI/CD) of software. This enables developers to build, test, and deploy their software faster and more efficiently by leveraging the scalability, flexibility, and cost-effectiveness of the cloud.  
-云中的CI/CD是指使用基于云的服务来执行软件的持续集成和持续交付/部署（CI/CD）的实践。这使得开发人员能够利用云的可扩展性、灵活性和成本效益，更快、更高效地构建、测试和部署他们的软件。
+**云中的CI/CD**是指<u>使用基于云的服务来执行软件的持续集成和持续交付/部署（CI/CD）的实践</u>。<u>这使得开发人员能够利用云的可扩展性、灵活性和成本效益，更快、更高效地构建、测试和部署他们的软件</u>。
 
 Cloud providers, such as AWS, Azure, Google Cloud, and others, offer a wide range of services that can be used to implement CI/CD in the cloud. These services include:  
-AWS、Azure、Google Cloud 等云提供商提供了多种可用于在云中实施 CI/CD 的服务。这些服务包括：
+AWS、Azure、Google Cloud 等云提供商提供了多种可用于在云中实施 CI/CD 的服务。<u>这些服务包括：</u>
 
 - **Cloud-based source control:** Providers offer cloud-based source control services, such as GitHub, GitLab, and Bitbucket, which can be used to store and manage code.  
-  基于云的源代码控制：提供商提供基于云的源代码控制服务，例如 GitHub、GitLab 和 Bitbucket，可用于存储和管理代码。
+  **基于云的源代码控制：** 提供商提供基于云的源代码控制服务，例如 GitHub、GitLab 和 Bitbucket，可用于存储和管理代码。
 - **Build and test automation:** Services such as AWS CodeBuild, Azure DevOps, and Google Cloud Build can be used to automate the building and testing of code.  
-  构建和测试自动化：AWS CodeBuild、Azure DevOps 和 Google Cloud Build 等服务可用于自动化代码的构建和测试。
+  **构建和测试自动化：** AWS CodeBuild、Azure DevOps 和 Google Cloud Build 等服务可用于自动化代码的构建和测试。
 - **Containerization and orchestration:** Services such as AWS Elastic Container Service, Azure Container Instances, and Google Kubernetes Engine can be used to containerize, orchestrate, and migrate applications, which makes it easier to deploy and manage them in the cloud.  
-  容器化和编排：AWS弹性容器服务、Azure容器实例和Google Kubernetes Engine等服务可用于容器化、编排和迁移应用程序，从而更轻松地在云中部署和管理它们。
+  **容器化和编排：** AWS弹性容器服务、Azure容器实例和Google Kubernetes Engine等服务可用于容器化、编排和迁移应用程序，从而更轻松地在云中部署和管理它们。
 - **Deployment automation:** Services such as AWS CodeDeploy, Azure DevOps, and Google Cloud Deployment Manager can be used to automate the deployment of code to various environments, including development, staging, and production environments.  
-  部署自动化：AWS CodeDeploy、Azure DevOps 和 Google Cloud Deployment Manager 等服务可用于自动将代码部署到各种环境，包括开发、暂存和生产环境。
+  **部署自动化：** AWS CodeDeploy、Azure DevOps 和 Google Cloud Deployment Manager 等服务可用于<u>自动将代码部署到各种环境，包括开发、暂存和生产环境</u>。
 - **Monitoring and logging:** Cloud providers offer various services such as AWS CloudWatch, Azure Monitor, and Google Stackdriver that can be used to monitor and log the performance and status of cloud-based applications and infrastructure.  
-  监控和日志记录：云提供商提供各种服务，例如 AWS CloudWatch、Azure Monitor 和 Google Stackdriver，可用于监控和记录基于云的应用程序和基础设施的性能和状态。
+  **监控和日志记录：** 云提供商提供各种服务，例如 AWS CloudWatch、Azure Monitor 和 Google Stackdriver，可用于<u>监控和记录基于云的应用程序和基础设施的性能和状态</u>。
 
 By using these services, developers can easily set up, configure and manage a CI/CD pipeline in the cloud, which will increase the speed of delivery of new features and bug fixes to customers and also help to detect and fix problems early in the development cycle.  
 通过使用这些服务，开发人员可以轻松地在云中设置、配置和管理 CI/CD 管道，这将提高向客户交付新功能和错误修复的速度，并有助于在开发早期检测和修复问题循环。
@@ -239,7 +239,7 @@ Bitbucket Pipelines 是一种 CI 工具，可直接集成到基于云的源控�
 #### Jenkins
 
 Jenkins is an open source automation tool that provides plugins to help develop, deploy, and deliver software. It is a server that lets developers distribute tasks across various machines and perform distributed tests and deployments. The Jenkins Pipeline offers several plugins to facilitate the implementation of a continuous integration (CI) pipeline.  
-Jenkins 是一个开源自动化工具，提供插件来帮助开发、部署和交付软件。它是一个服务器，允许开发人员在各种机器上分配任务并执行分布式测试和部署。 Jenkins Pipeline 提供了多个插件来促进持续集成 (CI) 管道的实施。
+Jenkins 是一个**开源自动化工具**，提供插件来帮助开发、部署和交付软件。它是一个服务器，允许开发人员在各种机器上分配任务并执行分布式测试和部署。 Jenkins Pipeline 提供了多个插件来促进持续集成 (CI) 管道的实施。
 
 ***Learn more in the detailed guide to [Jenkins](https://codefresh.io/learn/jenkins/).  
 在 Jenkins 详细指南中了解更多信息。***
@@ -377,7 +377,7 @@ Also, secrets are not only used for tool-to-tool authentication. In many cases, 
 DevSecOps 是一种在 DevOps 流程中采用安全实践的理念和组织文化。它还用于表示持续交付、以安全为中心的软件开发生命周期 (SDLC)。
 
 Historically, security was seen as a secondary part of DevOps workflows. Information security practices were applied at the end of the software development lifecycle (SDLC). However, discovering security breaches at the end of SDLC can be very frustrating and issues discovered at that stage are difficult and expensive to resolve. DevSecOps drives security engagement as an active part of the software development lifecycle (SDLC) from its earliest stages.  
-从历史上看，安全性被视为 DevOps 工作流程的次要部分。信息安全实践在软件开发生命周期（SDLC）结束时应用。然而，在 SDLC 结束时发现安全漏洞可能会非常令人沮丧，而且在该阶段发现的问题解决起来既困难又昂贵。 DevSecOps 从最早阶段就将安全参与作为软件开发生命周期 (SDLC) 的一个积极组成部分来推动。
+<u>从历史上看，安全性被视为 DevOps 工作流程的次要部分</u>。信息安全实践在软件开发生命周期（SDLC）结束时应用。然而，在 SDLC 结束时发现安全漏洞可能会非常令人沮丧，而且在该阶段发现的问题解决起来既困难又昂贵。 DevSecOps 从最早阶段就将安全参与作为软件开发生命周期 (SDLC) 的一个积极组成部分来推动。
 
 A typical DevOps pipeline includes stages such as planning, coding, building, testing, release, and deployment. DevSecOps enforces specific security checks at each stage of the DevOps pipeline:  
 典型的 DevOps 管道包括规划、编码、构建、测试、发布和部署等阶段。 DevSecOps 在 DevOps 管道的每个阶段强制执行特定的安全检查：
