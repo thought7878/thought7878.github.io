@@ -1,25 +1,27 @@
 ## What Is CI/CD? 什么是 CI/CD？
 
 Continuous Integration (CI) and Continuous Delivery/Deployment (CD), collectively known as CI/CD, represent pivotal practices in modern software engineering. CI is the process where developers regularly integrate their code changes into a central repository. Each integration is then automatically tested and verified, promoting high-quality code and early bug detection. On the other hand, CD takes this a step further by automating the delivery of these tested code changes to predefined infrastructure environments, ensuring seamless and reliable software updates. With this automated build, testing, and deployment process, CI/CD practices enable teams to release software faster and more reliably, making it a cornerstone of DevOps culture.  
-持续集成 (CI) 和持续交付/部署 (CD) 统称为 CI/CD，代表了现代软件工程的关键实践。 CI 是开发人员定期将代码更改集成到中央存储库的过程。然后，每个集成都会自动测试和验证，从而促进高质量的代码和早期错误检测。另一方面，CD 更进一步，将这些经过测试的代码更改自动交付到预定义的基础设施环境，确保无缝且可靠的软件更新。通过这种自动化的构建、测试和部署流程，CI/CD 实践使团队能够更快、更可靠地发布软件，使其成为 DevOps 文化的基石。
+持续集成 (CI) 和持续交付/部署 (CD) 统称为 CI/CD，代表了<u>现代软件工程的关键实践</u>。 **CI** 是开发人员定期将代码更改集成到中央存储库的过程。然后，<u>每个集成都会自动测试和验证，从而促进高质量的代码和早期错误检测</u>。另一方面，**CD** 更进一步，<u>将这些经过测试的代码更改自动交付到预定义的基础设施环境</u>，确保无缝且可靠的软件更新。<u>通过这种自动化的构建、测试和部署流程，CI/CD 实践使团队能够更快、更可靠地发布软件，使其成为 DevOps 文化的基石</u>。
 
 A CI/CD pipeline compiles incremental code changes made by developers and packages them into software artifacts. Automated testing verifies the integrity and functionality of the software, and automated deployment services make it immediately available to end users. The goal is to enable early detection of defects, increase productivity, and shorten release cycles.  
-CI/CD 管道编译开发人员所做的增量代码更改并将其打包到软件工件中。自动化测试验证软件的完整性和功能，自动化部署服务使其立即可供最终用户使用。目标是尽早发现缺陷、提高生产率并缩短发布周期。
+CI/CD 管道<u>编译</u>开发人员所做的增量代码更改并将其<u>打包</u>到软件工件中。<u>自动化测试</u>验证软件的完整性和功能，<u>自动化部署</u>服务使其立即可供最终用户使用。**目标是尽早发现缺陷、提高生产率并缩短发布周期**。
 
 This process contrasts with the traditional approach to software development—consolidating multiple small software updates into one large release, thoroughly testing it, and only then deploying it. CI/CD pipelines support the agile concept of development in small iterations, enabling teams to deliver value to customers faster, and create a rapid feedback loop for developers.  
-这一过程与传统的软件开发方法形成鲜明对比——将多个小型软件更新整合到一个大型版本中，对其进行彻底测试，然后才进行部署。 CI/CD 管道支持小迭代中的敏捷开发概念，使团队能够更快地向客户交付价值，并为开发人员创建快速反馈循环。
+**这一过程与传统的软件开发方法形成鲜明对比**——**将多个小型软件更新整合到一个大型版本中，对其进行彻底测试，然后才进行部署**。 **CI/CD 管道支持小迭代中的敏捷开发概念，使团队能够更快地向客户交付价值，并为开发人员创建快速反馈循环**。
 
-## 持续集成、持续交付和持续部署之间有什么区别？ What Are the Differences Between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+## 持续集成、持续交付和持续部署之间有什么区别？
+
+What Are the Differences Between Continuous Integration, Continuous Delivery, and Continuous Deployment?
 
 
 
 ### 持续集成 Continuous Integration
 
 In the traditional software development process, multiple developers produce code, and only towards the end of a release do they consolidate their work. This caused many bugs and issues, which could only be identified and resolved after a long testing phase. Until all those issues were resolved, the software could not be released. This hurt software quality, and meant that teams could typically only release new versions once or twice a year.  
-在传统的软件开发过程中，多个开发人员编写代码，只有在发布结束时他们才会整合他们的工作。这导致了许多错误和问题，只有经过长时间的测试阶段才能识别和解决。在所有这些问题得到解决之前，该软件无法发布。这损害了软件质量，并且意味着团队通常每年只能发布一两次新版本。
+<u>在传统的软件开发过程中</u>，多个开发人员编写代码，只有在发布结束时他们才会整合他们的工作。<u>这导致了许多错误和问题，只有经过长时间的测试阶段才能识别和解决。在所有这些问题得到解决之前，该软件无法发布</u>。**这损害了软件质量，并且意味着团队通常每年只能发布一两次新版本**。
 
 Continuous Integration (CI) was designed to solve this problem and support agile development processes. CI means that any changes developers make to their code are immediately integrated into the master branch of the software project. The CI system automatically runs tests to catch quality issues, and developers get quick feedback and can fix issues immediately. Developers often commit to the master branch or work on a short-lived feature branch, and a feature is not considered complete until it is integrated with other code changes in the master branch.  
-持续集成（CI）旨在解决这个问题并支持敏捷开发流程。 CI 意味着开发人员对其代码所做的任何更改都会立即集成到软件项目的主分支中。 CI 系统自动运行测试来发现质量问题，开发人员可以快速获得反馈并立即修复问题。开发人员通常会提交到主分支或在短期功能分支上工作，并且在与主分支中的其他代码更改集成之前，功能不会被认为是完整的。
+**持续集成（CI）旨在解决这个问题并支持敏捷开发流程**。 CI 意味着开发人员对其代码所做的任何更改都会<u>立即集成到软件项目的主分支中</u>。 CI 系统<u>自动运行测试来发现质量问题</u>，开发人员可以<u>快速获得反馈并立即修复问题</u>。开发人员<u>通常会提交到主分支或在短期功能分支</u>上工作，并且在与主分支中的其他代码更改集成之前，功能不会被认为是完整的。
 
 In a CI process, a build server is responsible for taking new code changes, running automated tests using multiple tools, integrating the code into the master branch, and generating a build—a new version of software artifacts needed to deploy the software.  
 在 CI 流程中，构建服务器负责进行新的代码更改，使用多个工具运行自动化测试，将代码集成到主分支中，并生成构建 - 部署软件所需的新版本的软件工件。
