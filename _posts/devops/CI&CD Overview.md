@@ -21,30 +21,30 @@ In the traditional software development process, multiple developers produce cod
 <u>在传统的软件开发过程中</u>，多个开发人员编写代码，只有在发布结束时他们才会整合他们的工作。<u>这导致了许多错误和问题，只有经过长时间的测试阶段才能识别和解决。在所有这些问题得到解决之前，该软件无法发布</u>。**这损害了软件质量，并且意味着团队通常每年只能发布一两次新版本**。
 
 Continuous Integration (CI) was designed to solve this problem and support agile development processes. CI means that any changes developers make to their code are immediately integrated into the master branch of the software project. The CI system automatically runs tests to catch quality issues, and developers get quick feedback and can fix issues immediately. Developers often commit to the master branch or work on a short-lived feature branch, and a feature is not considered complete until it is integrated with other code changes in the master branch.  
-**持续集成（CI）旨在解决这个问题并支持敏捷开发流程**。 CI 意味着开发人员对其代码所做的任何更改都会<u>立即集成到软件项目的主分支中</u>。 CI 系统<u>自动运行测试来发现质量问题</u>，开发人员可以<u>快速获得反馈并立即修复问题</u>。开发人员<u>通常会提交到主分支或在短期功能分支</u>上工作，并且在与主分支中的其他代码更改集成之前，功能不会被认为是完整的。
+**持续集成（CI）旨在解决这个问题并支持敏捷开发流程**。 CI 意味着开发人员对其代码所做的任何更改都会<u>立即集成到软件项目的主分支中</u>。 CI 系统<u>自动运行测试来发现质量问题</u>，开发人员可以<u>快速获得反馈并立即修复问题</u>。开发人员<u>通常会提交到主分支或在短期功能分支</u>上工作，并且在与主分支中的其他更改的代码集成之前，功能不会被认为是完成/完整的。
 
 In a CI process, a build server is responsible for taking new code changes, running automated tests using multiple tools, integrating the code into the master branch, and generating a build—a new version of software artifacts needed to deploy the software.  
-在 CI 流程中，构建服务器负责进行新的代码更改，使用多个工具运行自动化测试，将代码集成到主分支中，并生成构建 - 部署软件所需的新版本的软件工件。
+在 CI 流程中，**构建服务器**负责进行新的代码更改，使用多个工具运行自动化测试，然后将代码集成到主分支中，然后生成构建，然后部署软件。
 
 CI greatly improves the quality and speed of software development. Teams can create more features that provide value to users, and many organizations now release software every week, every day, or multiple times a day.  
-CI极大地提高了软件开发的质量和速度。团队可以创建更多为用户提供价值的功能，许多组织现在每周、每天或每天多次发布软件。
+**CI极大地提高了软件开发的质量和速度**。团队可以创建更多为用户提供价值的功能，<u>许多组织现在每周、每天或每天多次发布软件</u>。
 
 ### 持续交付 Continuous Delivery
 
 Traditionally, deploying new software versions has been a large, complex and risky task. After the new version was tested, the operations team was tasked with deploying it into production. Depending on the size of the software it could take hours, days or weeks, requires detailed checklists and many manual steps, and special expertise. Deployments often failed and required developer workarounds or urgent assistance.  
-传统上，部署新的软件版本是一项庞大、复杂且危险的任务。新版本经过测试后，运营团队的任务是将其部署到生产中。根据软件的大小，这可能需要数小时、数天或数周的时间，需要详细的清单和许多手动步骤以及特殊的专业知识。部署经常失败，需要开发人员解决方法或紧急援助。
+<u>传统上，部署新的软件版本是一项庞大、复杂且危险的任务</u>。新版本经过测试后，<u>运维团队的任务是将其部署到生产中</u>。**根据软件的大小，这可能需要数小时、数天或数周的时间，需要详细的清单和许多手动步骤以及特殊的专业知识**。<u>部署经常失败，需要开发人员解决方法或紧急援助</u>。
 
 There are many problems with this traditional approach—it is stressful for the team, expensive and risky for the organization, and causes bugs and downtime in production environments.  
-这种传统方法存在很多问题——给团队带来压力，给组织带来昂贵的成本和风险，并导致生产环境中出现错误和停机。
+这种传统方法存在很多问题——<u>给团队带来压力，给组织带来昂贵的成本和风险，并导致生产环境中出现错误和停机</u>。
 
 Continuous Delivery (CD, also known as CDel) aims to solve these problems through automation. The CD approach allows teams to package software and deploy it to production environments with the push of a button. The basic principle of CD is that any change to a software project can be deployed to a production environment immediately, without any special effort.  
-持续交付（CD，也称为CDel）旨在通过自动化来解决这些问题。 CD 方法允许团队打包软件并将其部署到生产环境中，只需按一下按钮。 CD 的基本原则是对软件项目的任何更改都可以立即部署到生产环境，而不需要任何特殊的工作。
+**持续交付（CD，也称为CDel）旨在通过自动化来解决这些问题**。 CD 方法允许团队打包软件并将其部署到生产环境中，**只需按一下按钮**。 **CD 的基本原则**是对软件项目的任何更改都可以<u>立即部署到生产环境，而不需要任何特殊的工作</u>。
 
 After the CI system consolidates the new changes and creates a new build, the CD system packages the new version, deploys it to a test environment, automatically evaluates its behavior, and pushes it to the production environment. This last step can be manually approved, but no manual action is required to deploy the new version to production.  
-CI系统整合新的变更并创建新的构建后，CD系统打包新版本，将其部署到测试环境，自动评估其行为，并将其推送到生产环境。最后一步可以手动批准，但无需手动操作即可将新版本部署到生产环境。
+<u>CI系统</u>整合新的变更并创建新的构建后，<u>CD系统</u>打包新版本，将其部署到测试环境，自动评估其行为，并将其推送到生产环境。<u>最后一步可以手动批准</u>，但无需手动操作即可将新版本部署到生产环境。
 
 Implementing CD requires automating the entire software development lifecycle, including build, test, environment setup, and deployment. All artifacts must reside in a source code repository, and an automated mechanism is required to create and update the environment.  
-实施 CD 需要自动化整个软件开发生命周期，包括构建、测试、环境设置和部署。所有工件都必须驻留在源代码存储库中，并且需要自动化机制来创建和更新环境。
+**实施 CD 需要自动化整个软件开发生命周期**，包括构建、测试、环境设置和部署。所有工件都必须驻留在源代码存储库中，并且需要自动化机制来创建和更新环境。
 
 A true CD pipeline has great advantages. It allows development teams to deliver value to customers quickly and create truly agile development processes.  
 真正的CD管道有很大的优势。它使开发团队能够快速为客户提供价值并创建真正敏捷的开发流程。
@@ -71,23 +71,23 @@ Continuous deployment can be difficult to implement. It requires seamless automa
 
 
 DevOps promotes better collaboration and communication between development (Dev) and operations (Ops) teams. It often requires changing various aspects of the development lifecycle, including job roles, tools, best practices, and automating the lifecycle.   
-DevOps 促进开发 (Dev) 和运营 (Ops) 团队之间更好的协作和沟通。它通常需要改变开发生命周期的各个方面，包括工作角色、工具、最佳实践和生命周期自动化。
+<u>DevOps 促进开发 (Dev) 和运营 (Ops) 团队之间更好的协作和沟通</u>。它通常需要改变开发生命周期的各个方面，包括工作角色、工具、最佳实践和生命周期自动化。
 
 DevOps typically involves the following:   
 DevOps 通常涉及以下内容：
 
 - Adopting automation, programmable infrastructure deployment and maintenance, and iterative software development.   
-  采用自动化、可编程基础设施部署和维护以及迭代软件开发。
+  采用<u>自动化</u>、可编程基础设施部署和维护以及<u>迭代</u>软件开发。
 - Establishing cross-functional teams while facilitating a culture change to build trust between these previously disparate teams.   
   建立跨职能团队，同时促进文化变革，以在这些以前不同的团队之间建立信任。
 - Aligning technologies to business requirements.   
   使技术与业务需求保持一致。
 
 CI/CD supports the efforts of DevOps teams. It enables teams to implement automation across the development lifecycle and rapidly validate and deliver applications to end-users. Here is how it works:  
-CI/CD 支持 DevOps 团队的工作。它使团队能够在整个开发生命周期中实现自动化，并快速验证应用程序并将其交付给最终用户。下面是它的工作原理：
+<u>CI/CD 支持 DevOps 团队的工作</u>。<u>它使团队能够在整个开发生命周期中实现自动化</u>，并快速验证应用程序并将其交付给最终用户。下面是它的<u>工作原理：</u>
 
 - Continuous integration tools help initialize processes, ensuring developers can build, test, and validate code within a shared repository without manual work.   
-  持续集成工具有助于初始化流程，确保开发人员无需手动工作即可在共享存储库中构建、测试和验证代码。
+  持续集成工具有助于初始化流程，确保开发人员**无需手动工作**即可在共享存储库中构建、测试和验证代码。
 - Continuous delivery tools extend these automated steps to production testing and configuration for release management.   
   持续交付工具将这些自动化步骤扩展到生产测试和发布管理配置。
 - Continuous deployment tools automatically invoke tests, handling configurations, provisioning, monitoring, and rollbacks.  
