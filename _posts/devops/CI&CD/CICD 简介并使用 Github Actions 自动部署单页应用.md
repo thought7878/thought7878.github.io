@@ -30,7 +30,7 @@
 
 如下图，当所有 Checks 通过后，`Merge pull request` 才会变绿允许进行合并。
 
-![CI Checks](https://static.shanyue.tech/images/22-07-05/clipboard-7317.168538.webp)
+![](assets/CICD%20简介并使用%20Github%20Actions%20自动部署单页应用/2023-11-06-20-13-16-image.png)
 
 由于近些年来 CICD 的全面介入，**项目开发的工作流就是 CICD 的工作流**，请看一个比较完善的 CICD Workflow。
 
@@ -87,7 +87,7 @@ on: push
 
 更多 Github Actions Event 可以参考官方文档 [Events that trigger workflows](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#about-workflow-events)
 
-以下是 Github Actions 的一些时机的示例：
+以下是 Github Actions 的<u>一些时机的示例：</u>
 
 ```yaml
 # 仅仅当 master 代码发生变更时，才自动化部署
@@ -148,7 +148,7 @@ jobs:
     # 将代码跑在 ubuntu 上
     runs-on: ubuntu-latest
     steps:
-      # 切出代码，使用该 Action 将可以拉取最新代码
+      # 切出代码，使用该 Action 拉取最新代码
       - uses: actions/checkout@v2
 
       # 运行部署的脚本命令
@@ -167,7 +167,7 @@ jobs:
 4. 代码必须经过 Code Review (关于该 PR 下的所有 Review 必须解决)
 5. 代码必须两个人同意才能合并到主分支
 
-![至少需要一位成员同意才能合并](https://static.shanyue.tech/images/22-07-05/clipboard-4703.b64821.webp)
+![](assets/CICD%20简介并使用%20Github%20Actions%20自动部署单页应用/2023-11-06-20-14-45-image.png)
 
 在 Gitlab 与 Github 中均可进行设置:
 
@@ -177,7 +177,7 @@ jobs:
 
 如下示例，未通过 CI，不允许 Merge。可见示例 [PR #22](https://github.com/shfshanyue/cra-deploy/pull/22)。
 
-![](https://static.shanyue.tech/images/22-07-05/clipboard-2308.20bda7.webp)
+![](assets/CICD%20简介并使用%20Github%20Actions%20自动部署单页应用/2023-11-06-20-15-28-image.png)
 
 ## 使用 CICD 进行自动部署
 
