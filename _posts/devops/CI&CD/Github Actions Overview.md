@@ -606,11 +606,19 @@ jobs:
 
 为了先了解`workflow_dispatch`事件类型的效果，下面我截取**Rollback Workflow**的`on`部分的代码如下所示：
 
-yml
+```yaml
+on:
+  workflow_dispatch:
+    # inputs下面可以指定要手动输入的信息
+    inputs:
+      # 例如这里我指定了手动输入version信息
+      version:
+        # 这是对该信息的描述
+        description: "choose a version to deploy"
+        # 指定必须填写
+        required: true
 
-复制代码
-
-`on:   workflow_dispatch:     # inputs下面可以指定要手动输入的信息     inputs:       # 例如这里我指定了手动输入version信息       version:         # 这是对该信息的描述         description: "choose a version to deploy"         # 指定必须填写         required: true`
+```
 
 然后在`Github`对应的**Rollback Workflow**页面中，点击**Run workflow**按钮后填写`version`后点击**Run workflow**就可以触发该流水线的执行：
 
@@ -618,11 +626,52 @@ yml
 
 下面来看看整个**Rollback Workflow**的代码：
 
-yml
+```yaml
+name: Rollback
+on:
+  workflow_dispatch:
+    inputs:
+      # 这里的version指的是我们要部署的哪个发布版本的制品
+      # 这里输入的信息会作为github.event.inputs.version供此Workflow下的job读取
+      version:
+        description: "choose a version to deploy"
+        required: true
+jobs:
+  Rollback:
+    runs-on: ubuntu-latest
+    steps:
+      # 输出我们输入的version值
+      - name: Echo Version
+        env:
+          VERSION: ${{ github.event.inputs.version }}
+        run: |
+          echo "Version: $VERSION"
+      # 获取对应发布版本的制品
+      - name: Download Artifact
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          version: "tags/${{ github.event.inputs.version }}"
+          # 指定存放制品的压缩包
+          file: "assets.zip"
+          # 这里需要CD Workflow中准备工作里的Github Personal Access Token
+          token: ${{ secrets.GITHUB_TOKEN }}
+      # 下载压缩包后解压
+      - name: Unzip
+        run: |
+          unzip assets.zip
+          ls -a ./dist
+      # 把制品放到部署机器上
+      - name: Upload to Deploy Server
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_TOKEN }}
+          ARGS: "-avzr --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{secrets.REMOTE_USER}}
+          TARGET: "/data/www"
 
-复制代码
-
-`name: Rollback on:   workflow_dispatch:     inputs:       # 这里的version指的是我们要部署的哪个发布版本的制品       # 这里输入的信息会作为github.event.inputs.version供此Workflow下的job读取       version:         description: "choose a version to deploy"         required: true jobs:   Rollback:     runs-on: ubuntu-latest     steps:       # 输出我们输入的version值       - name: Echo Version         env:           VERSION: ${{ github.event.inputs.version }}         run: |           echo "Version: $VERSION"       # 获取对应发布版本的制品       - name: Download Artifact         uses: dsaltares/fetch-gh-release-asset@master         with:           version: "tags/${{ github.event.inputs.version }}"           # 指定存放制品的压缩包           file: "assets.zip"           # 这里需要CD Workflow中准备工作里的Github Personal Access Token           token: ${{ secrets.GITHUB_TOKEN }}       # 下载压缩包后解压       - name: Unzip         run: |           unzip assets.zip           ls -a ./dist       # 把制品放到部署机器上       - name: Upload to Deploy Server         uses: easingthemes/ssh-deploy@v2.0.7         env:           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_TOKEN }}           ARGS: "-avzr --delete"           SOURCE: "dist/"           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}           REMOTE_USER: ${{secrets.REMOTE_USER}}           TARGET: "/data/www"`
+```
 
 在触发**Rollback Workflow**后运行效果如下所示：
 
@@ -648,21 +697,53 @@ yml
 
 **jest.config.e2e.js**
 
-js
+```js
+module.exports = {
+  preset: "jest-puppeteer",
+  setupFilesAfterEnv: ["expect-puppeteer"],
+  testTimeout: 100000,
+  testMatch: ["<rootDir>/src/e2e/**/*.{spec,test}.{js,jsx,ts,tsx}"],
+  globals: {
+    "ts-jest": {
+      tsConfig: "<rootDir>/tsconfig.json",
+    },
+  },
+};
 
-复制代码
-
-`module.exports = {   preset: "jest-puppeteer",   setupFilesAfterEnv: ["expect-puppeteer"],   testTimeout: 100000,   testMatch: ["<rootDir>/src/e2e/**/*.{spec,test}.{js,jsx,ts,tsx}"],   globals: {     "ts-jest": {       tsConfig: "<rootDir>/tsconfig.json",     },   }, };`
+```
 
 然后开始编写针对`App.tsx`的端对端测试代码：
 
 **src/e2e/App.test.tsx**
 
-tsx
+```tsx
+const DEFAULT_URL = "http://localhost:3000/";
 
-复制代码
+describe("Check Page", () => {
+  // beforeAll函数会在所有测试用例运行前先运行
+  beforeAll(async () => {
+    // 此处会设计了一个根据命令行参数来指定测试网址的逻辑
+    // 可通过npm run test:e2e -- --URL=*** 或 yarn test:e2e --URL=*** 来指定测试网址
+    // 否则默认测试网址为 DEFAULT_URL
+    let dynamicUrl = "";
+    process.argv.forEach((item) => {
+      const matches = item.match(/^\-\-URL\=(.*)$/);
+      if (matches) {
+        dynamicUrl = matches[1];
+      }
+    });
+    await page.goto(dynamicUrl || DEFAULT_URL);
+  });
 
-`const DEFAULT_URL = "http://localhost:3000/"; describe("Check Page", () => {   // beforeAll函数会在所有测试用例运行前先运行   beforeAll(async () => {     // 此处会设计了一个根据命令行参数来指定测试网址的逻辑     // 可通过npm run test:e2e -- --URL=*** 或 yarn test:e2e --URL=*** 来指定测试网址     // 否则默认测试网址为 DEFAULT_URL     let dynamicUrl = "";     process.argv.forEach((item) => {       const matches = item.match(/^\-\-URL\=(.*)$/);       if (matches) {         dynamicUrl = matches[1];       }     });     await page.goto(dynamicUrl || DEFAULT_URL);   });   // 测试点击按钮是否有效，一般端对端测试是用快照来对比判断是否成功的，这里为了方便直接获取DOM元素的content值来判断   it("click button", async () => {     await page.click('[role="button"]');     const content = await page.$eval('[role="button"]', (el) => el.textContent);     await expect(content).toEqual("count is: 1");   }); });`
+  // 测试点击按钮是否有效，一般端对端测试是用快照来对比判断是否成功的，这里为了方便直接获取DOM元素的content值来判断
+  it("click button", async () => {
+    await page.click('[role="button"]');
+    const content = await page.$eval('[role="button"]', (el) => el.textContent);
+    await expect(content).toEqual("count is: 1");
+  });
+});
+
+```
 
 在`package.json`的`scripts`添加命令行：`"test:e2e": "jest --config=jest.config.e2e.js"`后运行，控制台输出如下所示：
 
@@ -691,11 +772,40 @@ tsx
 
 接下新建`e2e-test.yml`来编写**E2E Test Workflow**，代码如下所示：
 
-yml
+```yaml
+name: E2E-Test
+# on设计为数组的模式，指定workflow_call 和 workflow_dispatch两种触发机制
+on: [workflow_call, workflow_dispatch]
+jobs:
+  E2E-Test:
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      # 下载Node
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      # 添加缓存
+      - name: Cache
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            **/node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}
+      # 安装依赖
+      - name: Installing Dependencies
+        # 在 if 条件下使用表达式时，可以省略表达式语法 (${{ }})，因为 GitHub 会自动将 if 条件作为表达式求值。
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: yarn install
+      # 运行端对端测试，指定测试网址为部署机器的公网IP
+      - name: Running E2E Test
+        run: yarn test:e2e --URL=http://${{ secrets.REMOTE_HOST }}/
 
-复制代码
-
-`name: E2E-Test # on设计为数组的模式，指定workflow_call 和 workflow_dispatch两种触发机制 on: [workflow_call, workflow_dispatch] jobs:   E2E-Test:     runs-on: ubuntu-latest     steps:       # 拉取代码       - name: Checkout repository         uses: actions/checkout@v2       # 下载Node       - name: Use Node.js         uses: actions/setup-node@v3         with:           node-version: "16.x"       # 添加缓存       - name: Cache         id: cache-dependencies         uses: actions/cache@v3         with:           path: |             **/node_modules           key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}       # 安装依赖       - name: Installing Dependencies         # 在 if 条件下使用表达式时，可以省略表达式语法 (${{ }})，因为 GitHub 会自动将 if 条件作为表达式求值。         if: steps.cache-dependencies.outputs.cache-hit != 'true'         run: yarn install       # 运行端对端测试，指定测试网址为部署机器的公网IP       - name: Running E2E Test         run: yarn test:e2e --URL=http://${{ secrets.REMOTE_HOST }}/`
+```
 
 手动运行起来效果和`Rollback Workflow`的差不多，这里就不再重复展示了。
 
@@ -703,11 +813,21 @@ yml
 
 我们要在**CD Workflow**里调用**E2E Test Workflow**，因此需要在**CD Workflow**对应的配置文件`cd.yml`里添加代码，如下所示：
 
-yml
+```yaml
+name: CD
+on: #...代码没变，省略
+jobs:
+  CD: # ...代码没变，省略
+  # 添加名为E2E-Test的Job
+  E2E-Test:
+    # 指明要调用的流水线所在的路径
+    uses: ./.github/workflows/e2e-test.yml
+    # 指定该Job在Job CD 执行完后执行，不然Job会并行执行
+    needs: [CD]
+    # 指定调用的流水线集成当前流水线的secret
+    secrets: inherit
 
-复制代码
-
-`name: CD on: #...代码没变，省略 jobs:   CD: # ...代码没变，省略   # 添加名为E2E-Test的Job   E2E-Test:     # 指明要调用的流水线所在的路径     uses: ./.github/workflows/e2e-test.yml     # 指定该Job在Job CD 执行完后执行，不然Job会并行执行     needs: [CD]     # 指定调用的流水线集成当前流水线的secret     secrets: inherit`
+```
 
 在触发**CD Workflow**后运行如下效果所示：
 
@@ -721,11 +841,30 @@ yml
 
 **回滚**后可以根据需要选择是否进行**端对端测试**，因此我们在原有的手动输入基础上加一个勾选框决定是否运行**端对端测试**即可，其余的逻辑与**CD Workflow**的**E2E-Test Job**类似。我们对**Rollback Workflow**对应的配置文件`rollback.yml`如下所示：
 
-yml
+```yaml
+name: Rollback
+on:
+  workflow_dispatch:
+    inputs:
+      version: # ...代码没变，省略
+      # 新增勾选框决定是否执行端对端测试
+      E2ETest:
+        description: "enable torun e2e test"
+        # 类型为boolean时，控件会以勾选框的形式呈现
+        type: boolean
+        # 默认值设为true，代表默认勾选
+        default: true
+jobs:
+  Rollback: # ...代码没变，省略
+  E2E-Test:
+    uses: ./.github/workflows/e2e-test.yml
+    needs: [Rollback]
+    # 条件判断 E2ETest勾选框 是否被勾选，勾选则执行，没勾选则跳过
+    if: github.event.inputs.E2ETest == true
+    # 指定调用的流水线集成当前流水线的secret
+    secrets: inherit
 
-复制代码
-
-`name: Rollback on:   workflow_dispatch:     inputs:       version: # ...代码没变，省略       # 新增勾选框决定是否执行端对端测试       E2ETest:         description: "enable torun e2e test"         # 类型为boolean时，控件会以勾选框的形式呈现         type: boolean         # 默认值设为true，代表默认勾选         default: true jobs:   Rollback: # ...代码没变，省略   E2E-Test:     uses: ./.github/workflows/e2e-test.yml     needs: [Rollback]     # 条件判断 E2ETest勾选框 是否被勾选，勾选则执行，没勾选则跳过     if: github.event.inputs.E2ETest == true     # 指定调用的流水线集成当前流水线的secret     secrets: inherit`
+```
 
 手动执行时效果如下所示：
 
