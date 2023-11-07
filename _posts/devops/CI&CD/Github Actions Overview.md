@@ -65,7 +65,6 @@ jobs:
       - run: npm install -g bats
       # step-no.4: 运行命令行查看bats依赖的版本
       - run: bats -v
-
 ```
 
 整个`learn-github-actions`**工作流程**弄成流程图可如下所示：
@@ -137,7 +136,6 @@ jobs:
 module.exports = {
   extends: [require.resolve("@umijs/fabric/dist/eslint")],
 };
-
 ```
 
 **.prettierrc.js**
@@ -148,7 +146,6 @@ const fabric = require("@umijs/fabric");
 module.exports = {
   ...fabric.prettier,
 };
-
 ```
 
 **.stylelintrc.js**
@@ -159,7 +156,6 @@ const fabric = require("@umijs/fabric");
 module.exports = {
   ...fabric.stylelint,
 };
-
 ```
 
 然后在`package.json`的`script`上加上对应的执行命令即可：
@@ -174,7 +170,6 @@ module.exports = {
   "lint:prettier": "prettier --check \"src/**/*\" --end-of-line auto",
   "lint:style": "stylelint --fix 'src/**/*.{css,scss,less}' --cache"
 }
-
 ```
 
 这样子就完成了**代码扫描**部分了。通过`yarn run lint`执行后的效果如下所示：
@@ -227,7 +222,6 @@ const App: FC<Props> = ({ value }) => {
 };
 
 export default App;
-
 ```
 
 这里采用`ts-jest`+`@testing-library`来编写测试代码（当然对于`React`还有别的选择，例如`ts-jest`+`enzyme`），测试代码如下所示：
@@ -251,7 +245,6 @@ test("click of button is avaliable", () => {
   fireEvent.click(screen.getByRole("button"));
   expect(screen.getByRole("button")).toHaveTextContent(`count is: 1`);
 });
-
 ```
 
 `jest.config.js`的配置比较复杂，可以从[此处](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FHitotsubashi%2Fcicd-study%2Fblob%2Fmain%2Fjest.config.js "https://github.com/Hitotsubashi/cicd-study/blob/main/jest.config.js")查看。配置好后运行`yarn test`后控制台输出如下所示：
@@ -311,7 +304,6 @@ jobs:
       - name: Running Test
         # 通过前面章节定义的命令行执行自动化测试
         run: yarn test
-
 ```
 
 关于上面的`Cahe`步骤中，7 天内未被访问的任何缓存条目将会被删除。 可以存储的缓存数没有限制，但存储库中所有缓存的总大小限制为 10 GB。更多内容请看[缓存依赖项以加快工作流程](https://link.juejin.cn?target=https%3A%2F%2Fdocs.github.com%2Fcn%2Factions%2Fusing-workflows%2Fcaching-dependencies-to-speed-up-workflows "https://docs.github.com/cn/actions/using-workflows/caching-dependencies-to-speed-up-workflows")。
@@ -404,7 +396,6 @@ jobs:
          - /data/www:/usr/share/nginx/html
        ports:
          - 80:80
-   
    ```
 
 2. **创建服务器的密钥对：用于提供给流水线通过 ssh 免密登录到服务器进行部署**
@@ -517,7 +508,6 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           # REMOTE_USER为登录机器时用到账号名
           REMOTE_USER: ${{secrets.REMOTE_USER}}
-
 ```
 
 这样子就完成了**CD Workflow**的流程了，运行效果如下所示：
@@ -555,8 +545,8 @@ jobs:
    1. 上传的制品只能供同一个`Workflow`的不同`Job`中使用。换言之，不同`Workflow`是不能使用这个制品的，这样子我们就不利于我们在不同的流程去调用这个制品。例如**回滚（下面深入篇会写回滚机制的实现）**，在当前部署机器上的项目存在问题时，我们可以通过回滚迅速把前一个稳定的版本的制品覆盖到部署机器上。
    
    2. 上传的制品最多只存在 90 天，不能做到持久化。
-
-  因此这里没选择`actions/upload-artifact`。
+   
+   因此这里没选择`actions/upload-artifact`。
 
 ## 添加状态徽章
 
@@ -568,7 +558,6 @@ jobs:
 
 ```md
 ![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
-
 ```
 
 例如我的`CI`和`CD`徽章分别如下所示：
@@ -577,7 +566,6 @@ jobs:
 ![CI](https://github.com/Hitotsubashi/cicd-study/actions/workflows/ci.yml/badge.svg)
 
 ![CD](https://github.com/Hitotsubashi/cicd-study/actions/workflows/cd.yml/badge.svg)
-
 ```
 
 关于更多有关工作流程状态徽章的可看官方文档[添加工作流程状态徽章](https://link.juejin.cn?target=https%3A%2F%2Fdocs.github.com%2Fcn%2Factions%2Fmonitoring-and-troubleshooting-workflows%2Fadding-a-workflow-status-badge "https://docs.github.com/cn/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge")
@@ -617,7 +605,6 @@ on:
         description: "choose a version to deploy"
         # 指定必须填写
         required: true
-
 ```
 
 然后在`Github`对应的**Rollback Workflow**页面中，点击**Run workflow**按钮后填写`version`后点击**Run workflow**就可以触发该流水线的执行：
@@ -670,7 +657,6 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{secrets.REMOTE_USER}}
           TARGET: "/data/www"
-
 ```
 
 在触发**Rollback Workflow**后运行效果如下所示：
@@ -709,7 +695,6 @@ module.exports = {
     },
   },
 };
-
 ```
 
 然后开始编写针对`App.tsx`的端对端测试代码：
@@ -742,7 +727,6 @@ describe("Check Page", () => {
     await expect(content).toEqual("count is: 1");
   });
 });
-
 ```
 
 在`package.json`的`scripts`添加命令行：`"test:e2e": "jest --config=jest.config.e2e.js"`后运行，控制台输出如下所示：
@@ -804,7 +788,6 @@ jobs:
       # 运行端对端测试，指定测试网址为部署机器的公网IP
       - name: Running E2E Test
         run: yarn test:e2e --URL=http://${{ secrets.REMOTE_HOST }}/
-
 ```
 
 手动运行起来效果和`Rollback Workflow`的差不多，这里就不再重复展示了。
@@ -826,7 +809,6 @@ jobs:
     needs: [CD]
     # 指定调用的流水线集成当前流水线的secret
     secrets: inherit
-
 ```
 
 在触发**CD Workflow**后运行如下效果所示：
@@ -863,7 +845,6 @@ jobs:
     if: github.event.inputs.E2ETest == true
     # 指定调用的流水线集成当前流水线的secret
     secrets: inherit
-
 ```
 
 手动执行时效果如下所示：
@@ -878,10 +859,6 @@ jobs:
 
 前面的**CD 章节**中，考虑到入门以及大多数读者只有一台服务器，因此在设计步骤中跳过了测试环境的部署与测试，使其有点瑕疵。在之后我会继续更新这篇文章来补充这部分的章节。
 
-
-
 ## 参考
 
 [作为前端，要学会用Github Action给自己的项目加上CICD - 掘金](https://juejin.cn/post/7113562222852309023#heading-29)
-
-
