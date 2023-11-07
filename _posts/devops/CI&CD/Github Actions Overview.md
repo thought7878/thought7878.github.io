@@ -71,7 +71,7 @@ jobs:
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf3432f09abe493cbc5a96a94c34a441~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-# 基础篇：来给一个项目添加`CICD`流程
+# 基础篇：来给一个项目添加CICD流程
 
 ## 初始化项目
 
@@ -112,15 +112,15 @@ jobs:
 
 > **持续集成的目的**，就是<u>让产品可以快速迭代，同时还能保持高质量</u>。它的**核心措施**是，<u>代码集成到主干之前，必须通过自动化测试</u>。只要有一个测试用例失败，就不能集成。
 
-而`github flow`模型**保证高质量的核心措施**是：在**集成**前通过`pull request`，从而触发审核（审核可以是一系列的自动化校验测试以及代码审核**Code Review**），在审核通过后再合并到**主干**，从而保证**主干**的稳定性。
+而`github flow`模型**保证高质量的核心措施**是：在**集成**前通过`pull request`，从而触发审核（<u>审核可以是一系列的自动化校验测试以及代码审核**Code Review**</u>），在审核通过后再合并到**主干**，从而保证**主干**的稳定性。
 
 下面我们就按照`github flow`模型的机制，在开头创建的项目上添加`CI`流程。
 
 ### 在项目中实现`CI`
 
-根据上面所说的`github flow`模型**保证高质量的核心措施**可知，我们要定义的执行`CI`的**Workflow**（下称**CI Workflow**）的**Event**是`master`分支的`pull request`事件。而`Job`和`Step`的话没具体说明，而我们可以把目前最普遍的 **代码测试（Test）** 和 **代码扫描（Lint）** 加入其中。
+根据上面所说的`github flow`模型保证高质量的核心措施可知，我们要定义的执行`CI`的Workflow（下称CI Workflow）的Event是`master`分支的`pull request`事件。而`Job`和`Step`的话没具体说明，而我们可以把目前最普遍的 代码测试（Test） 和 代码扫描（Lint） 加入其中。
 
-其实现思路是，首先要借助一些第三方插件，在`package.json`中的`scripts`定义可以执行**代码测试（Test）**和**代码扫描（Lint）**的命令，然后在把这些命令行加到**CI Workflow**的**Step**里。
+其实现思路是，首先要借助一些第三方插件，在`package.json`中的`scripts`定义可以执行代码测试（Test）和代码扫描（Lint）的命令，然后在把这些命令行加到CI Workflow的Step里。
 
 具体流程图如下所示：
 
