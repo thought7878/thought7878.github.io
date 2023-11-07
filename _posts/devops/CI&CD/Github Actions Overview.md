@@ -24,7 +24,7 @@
 - **`Drone CI`**：执行任务时，国内机器从`Github`拉取仓库代码时会偶尔超时，从而导致任务失败
 - **`Jenkins CI`**：除了存在与`Drone CI`一样的缺点外，自身比较重量，占用宿主机较多资源
 
-# Github Action初学入门（熟悉的可跳过此章节）
+# Github Action初学入门
 
 当我们想往自己的项目里接入**Github Actions**时，要在根项目目录里新建`.github/workflows`目录。然后通过编写`yml`格式文件定义**Workflow(工作流程)**去实现`CI`。在阅读`yml`文件之前，我们要先搞懂在**Workflow**中一些比较重要的概念：
 
@@ -90,14 +90,14 @@ jobs:
 
 **CI**的全称是**Continuous Integration**，直译为**可持续集成**，而普遍对其的解释是**频繁地（一天多次）将代码集成到主干**。对于这个解释我们要搞懂其中的两个概念：
 
-1. **主干**：是指包含多个已上和即将上线的特性的分支。
+1. **主干**：是指包含多个已上线和即将上线的特性的分支。
 2. **集成**：是指把含新特性的分支合并(`merge`)到**主干**上的行为
 
 我们借`github flow`分支管理策略作为例子来更加深入了解`CI`及上面的两个概念：
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e231ae5101154085bcb13b18443c5e2d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-`github flow`在开发新特性的运行模式如下所示：
+<u>`github flow`在开发新特性的运行模式如下所示：</u>
 
 1. 基于`master`创建新的分支`feature`进行开发。注意这需要保证`master`的代码和特性永远是最稳定的。
 2. 开发期间，定期提交更改(`commit and push change`)到远程仓库的`feature`分支
@@ -111,7 +111,7 @@ jobs:
 
 阮一峰老师的[持续集成是什么？](https://link.juejin.cn?target=https%3A%2F%2Fwww.ruanyifeng.com%2Fblog%2F2015%2F09%2Fcontinuous-integration.html "https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html")里说到过：
 
-> 持续集成的目的，就是让产品可以快速迭代，同时还能保持高质量。它的核心措施是，代码集成到主干之前，必须通过自动化测试。只要有一个测试用例失败，就不能集成。
+> **持续集成的目的**，就是<u>让产品可以快速迭代，同时还能保持高质量</u>。它的**核心措施**是，<u>代码集成到主干之前，必须通过自动化测试</u>。只要有一个测试用例失败，就不能集成。
 
 而`github flow`模型**保证高质量的核心措施**是：在**集成**前通过`pull request`，从而触发审核（审核可以是一系列的自动化校验测试以及代码审核**Code Review**），在审核通过后再合并到**主干**，从而保证**主干**的稳定性。
 
@@ -133,35 +133,49 @@ jobs:
 
 **.eslintrc.js**
 
-js
+```js
+module.exports = {
+  extends: [require.resolve("@umijs/fabric/dist/eslint")],
+};
 
-复制代码
-
-`module.exports = {   extends: [require.resolve("@umijs/fabric/dist/eslint")], };`
+```
 
 **.prettierrc.js**
 
-js
+```js
+const fabric = require("@umijs/fabric");
 
-复制代码
+module.exports = {
+  ...fabric.prettier,
+};
 
-`const fabric = require("@umijs/fabric"); module.exports = {   ...fabric.prettier, };`
+```
 
 **.stylelintrc.js**
 
-js
+```js
+const fabric = require("@umijs/fabric");
 
-复制代码
+module.exports = {
+  ...fabric.stylelint,
+};
 
-`const fabric = require("@umijs/fabric"); module.exports = {   ...fabric.stylelint, };`
+```
 
 然后在`package.json`的`script`上加上对应的执行命令即可：
 
-json
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
+  "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx ./src",
+  "lint:prettier": "prettier --check \"src/**/*\" --end-of-line auto",
+  "lint:style": "stylelint --fix 'src/**/*.{css,scss,less}' --cache"
+}
 
-复制代码
-
-`"scripts": {   "dev": "vite",   "build": "tsc && vite build",   "preview": "vite preview",   "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",   "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx ./src",   "lint:prettier": "prettier --check \"src/**/*\" --end-of-line auto",   "lint:style": "stylelint --fix 'src/**/*.{css,scss,less}' --cache" }`
+```
 
 这样子就完成了**代码扫描**部分了。通过`yarn run lint`执行后的效果如下所示：
 
@@ -175,37 +189,130 @@ json
 
 **App.tsx**
 
-tsx
+```tsx
+import type { FC } from "react";
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-复制代码
+interface Props {
+  value: string;
+}
 
-`import type { FC } from "react"; import { useState } from "react"; import logo from "./logo.svg"; import "./App.css"; interface Props {   value: string; } const App: FC<Props> = ({ value }) => {   const [count, setCount] = useState(0);   return (     <div className="App">       <header className="App-header">         <img src={logo} className="App-logo" alt="logo" />         <p>Hello Vite + React!!!!!!!!</p>         <p>           {/*             测试代码中需要获取的DOM元素用role属性标记，这里的role属性只会在测试代码中用到，             这样子就可以避免代码因需求改动时，因DOM属性改变导致测试不通过。有利于TDD（测试驱动开发）开发的进行           */}           <button             role="button"             type="button"             onClick={() => setCount((v) => v + 1)}           >             count is: {count}           </button>         </p>         <p role="props">{value}</p>       </header>     </div>   ); }; export default App;`
+const App: FC<Props> = ({ value }) => {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Hello Vite + React!!!!!!!!</p>
+        <p>
+          {/*
+            测试代码中需要获取的DOM元素用role属性标记，这里的role属性只会在测试代码中用到，
+            这样子就可以避免代码因需求改动时，因DOM属性改变导致测试不通过。有利于TDD（测试驱动开发）开发的进行
+          */}
+          <button
+            role="button"
+            type="button"
+            onClick={() => setCount((v) => v + 1)}
+          >
+            count is: {count}
+          </button>
+        </p>
+        <p role="props">{value}</p>
+      </header>
+    </div>
+  );
+};
+
+export default App;
+
+```
 
 这里采用`ts-jest`+`@testing-library`来编写测试代码（当然对于`React`还有别的选择，例如`ts-jest`+`enzyme`），测试代码如下所示：
 
 **App.test.tsx**
 
-ts
+```tsx
+import React from "react";
+import { render, screen, fireEvent } from "@testing-library/react";
+import App from "./App";
 
-复制代码
+test("props is avaliable", () => {
+  const value = "123";
+  // 为了多写点测试用例，我给App组件加了个prop
+  render(<App value={value} />);
+  expect(screen.getByRole("props")).toHaveTextContent(value);
+});
 
-``import React from "react"; import { render, screen, fireEvent } from "@testing-library/react"; import App from "./App"; test("props is avaliable", () => {   const value = "123";   // 为了多写点测试用例，我给App组件加了个prop   render(<App value={value} />);   expect(screen.getByRole("props")).toHaveTextContent(value); }); test("click of button is avaliable", () => {   render(<App value="123" />);   fireEvent.click(screen.getByRole("button"));   expect(screen.getByRole("button")).toHaveTextContent(`count is: 1`); });``
+test("click of button is avaliable", () => {
+  render(<App value="123" />);
+  fireEvent.click(screen.getByRole("button"));
+  expect(screen.getByRole("button")).toHaveTextContent(`count is: 1`);
+});
+
+```
 
 `jest.config.js`的配置比较复杂，可以从[此处](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FHitotsubashi%2Fcicd-study%2Fblob%2Fmain%2Fjest.config.js "https://github.com/Hitotsubashi/cicd-study/blob/main/jest.config.js")查看。配置好后运行`yarn test`后控制台输出如下所示：
 
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/916b1e12446b45f796f1cc376d635af1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-#### 配置**CI Workflow**
+#### 配置 CI Workflow
 
 在项目根目录里的`.github/workflows`文件夹上新建`ci.yml`，代码如下所示：
 
 **ci.yml**
 
-yml
+```yaml
+name: CI
+# Event设置为main分支的pull request事件，
+# 这里的main分支相当于master分支，github项目新建是把main设置为默认分支，我懒得改了所以就保持这样吧
+on:
+  pull_request:
+    branches: main
+jobs:
+  # 只需要定义一个job并命名为CI
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取项目代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      # 给当前环境下载node
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      # 检查缓存
+      # 如果key命中缓存则直接将缓存的文件还原到 path 目录，从而减少流水线运行时间
+      # 若 key 没命中缓存时，在当前Job成功完成时将自动创建一个新缓存
+      - name: Cache
+        # 缓存命中结果会存储在steps.[id].outputs.cache-hit里，该变量在继后的step中可读
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          # 缓存文件目录的路径
+          path: |
+            **/node_modules
+          # key中定义缓存标志位的生成方式。runner.OS指当前环境的系统。外加对yarn.lock内容生成哈希码作为key值，如果yarn.lock改变则代表依赖有变化。
+          # 这里用yarn.lock而不是package.json是因为package.json中还有version和description之类的描述项目但和依赖无关的属性
+          key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}
+      # 安装依赖
+      - name: Installing Dependencies
+        # 如果缓存标志位没命中，则执行该step。否则就跳过该step
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: yarn install
+      # 运行代码扫描
+      - name: Running Lint
+        # 通过前面章节定义的命令行执行代码扫描
+        run: yarn lint
+      # 运行自动化测试
+      - name: Running Test
+        # 通过前面章节定义的命令行执行自动化测试
+        run: yarn test
 
-复制代码
-
-`name: CI # Event设置为main分支的pull request事件， # 这里的main分支相当于master分支，github项目新建是把main设置为默认分支，我懒得改了所以就保持这样吧 on:   pull_request:     branches: main jobs:   # 只需要定义一个job并命名为CI   CI:     runs-on: ubuntu-latest     steps:       # 拉取项目代码       - name: Checkout repository         uses: actions/checkout@v2       # 给当前环境下载node       - name: Use Node.js         uses: actions/setup-node@v3         with:           node-version: "16.x"       # 检查缓存       # 如果key命中缓存则直接将缓存的文件还原到 path 目录，从而减少流水线运行时间       # 若 key 没命中缓存时，在当前Job成功完成时将自动创建一个新缓存       - name: Cache         # 缓存命中结果会存储在steps.[id].outputs.cache-hit里，该变量在继后的step中可读         id: cache-dependencies         uses: actions/cache@v3         with:           # 缓存文件目录的路径           path: |             **/node_modules           # key中定义缓存标志位的生成方式。runner.OS指当前环境的系统。外加对yarn.lock内容生成哈希码作为key值，如果yarn.lock改变则代表依赖有变化。           # 这里用yarn.lock而不是package.json是因为package.json中还有version和description之类的描述项目但和依赖无关的属性           key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}       # 安装依赖       - name: Installing Dependencies         # 如果缓存标志位没命中，则执行该step。否则就跳过该step         if: steps.cache-dependencies.outputs.cache-hit != 'true'         run: yarn install       # 运行代码扫描       - name: Running Lint         # 通过前面章节定义的命令行执行代码扫描         run: yarn lint       # 运行自动化测试       - name: Running Test         # 通过前面章节定义的命令行执行自动化测试         run: yarn test`
+```
 
 关于上面的`Cahe`步骤中，7 天内未被访问的任何缓存条目将会被删除。 可以存储的缓存数没有限制，但存储库中所有缓存的总大小限制为 10 GB。更多内容请看[缓存依赖项以加快工作流程](https://link.juejin.cn?target=https%3A%2F%2Fdocs.github.com%2Fcn%2Factions%2Fusing-workflows%2Fcaching-dependencies-to-speed-up-workflows "https://docs.github.com/cn/actions/using-workflows/caching-dependencies-to-speed-up-workflows")。
 
@@ -261,7 +368,7 @@ yml
 > 
 > 归根结底，我们没必要纠结于这些语义，您只需记得 CI/CD 其实就是一个流程（通常形象地表述为管道），用于实现应用开发中的高度持续自动化和持续监控。因案例而异，该术语的具体含义取决于 CI/CD 管道的自动化程度。许多企业最开始先添加 CI，然后逐步实现交付和部署的自动化（例如作为云原生应用的一部分）。
 
-### 在项目中实现`CD`
+### 在项目中实现CD
 
 这是我们在本章节要实现的`CD`机制的流程图：
 
@@ -282,11 +389,23 @@ yml
    
    读者可以直接通过`apt`下载`nginx`到指定目录后启动。我个人习惯以`docker`启动容器以开启`nginx`服务。因此我直接通过下面的`docker-compose.yml`去创建启动`nginx`容器：
    
-   yml
+   ```yaml
+   # 指定docker-compose解析的版本
+   version: "3"
+   services:
+     pure-nginx:
+       image: nginx:latest
+       # 指定容器名
+       container_name: pure-nginx
+       restart: always
+       # 指定持久卷，格式为 宿主机目录路径:容器目录路径
+       # CD Workflow会通过密钥登录该服务器，然后把生成的制品放在/data/www里，在此之后直接访问宿主机的ip即可访问到项目页面
+       volumes:
+         - /data/www:/usr/share/nginx/html
+       ports:
+         - 80:80
    
-   复制代码
-   
-   `# 指定docker-compose解析的版本 version: "3" services:   pure-nginx:     image: nginx:latest     # 指定容器名     container_name: pure-nginx     restart: always     # 指定持久卷，格式为 宿主机目录路径:容器目录路径     # CD Workflow会通过密钥登录该服务器，然后把生成的制品放在/data/www里，在此之后直接访问宿主机的ip即可访问到项目页面     volumes:       - /data/www:/usr/share/nginx/html     ports:       - 80:80`
+   ```
 
 2. **创建服务器的密钥对：用于提供给流水线通过 ssh 免密登录到服务器进行部署**
    
@@ -308,17 +427,98 @@ yml
    
    ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc7dfad31cd2485490a1170dd9548701~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-#### 配置**CD Workflow**
+#### 配置CD Workflow
 
 这里我们把执行`CD`的**Workflow**（下称**CD Workflow**）的**Event**定义为`master`分支的`push`事件，因为**CD Workflow**的执行是在`Merge pull request`完成后的，而合并行为会触发**主干**的`push`事件。
 
 接下来在`.github/workflows`里新建`cd.yml`来定义**CD Workflow**，代码如下所示：
 
-yml
+```yaml
+name: CD
+on:
+  # 以主干的push事件作为触发条件
+  push:
+    branches: main
+jobs:
+  CD:
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      # 下载Node
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+      # 添加缓存，逻辑和CI Workflow里的一样
+      - name: Cache
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            **/node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}
+      # 安装依赖。命中缓存则跳过此步
+      - name: Installing Dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: yarn install
+      # 从package.json里获取version属性的值
+      # 在CD Workflow中会给每个生成的制品打上标签，而标签取值于version值
+      - name: Read Version
+        # 读取出来的值会放在steps.[id].outputs.value供其他步骤step读取
+        id: version
+        uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: ./package.json
+          property: version
+      # 打包生成制品，且把制品压缩到assets.zip压缩包里
+      - name: Building
+        run: |
+          yarn build
+          zip -r assets ./dist/**
+      # 基于当前commit进行版本发布(Create a release)，tag_name是v前缀加上package.json的version值
+      - name: Create GitHub Release
+        # 此步骤中，版本发布后会返回对应的url，以供下面上传制品的步骤中读取使用
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          # GITHUB_TOKEN是准备工作步骤三申请的Personal Access Token
+          GITHUB_TOKEN: ${{ secrets.PROJECT_ACCESS_TOKEN }}
+        with:
+          tag_name: v${{steps.version.outputs.value}}
+          release_name: v${{steps.version.outputs.value}}
+          draft: false
+          prerelease: false
+      # 把assets.zip上传到仓库对应的发布版本Release上
+      - name: Update Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROJECT_ACCESS_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./assets.zip
+          asset_name: assets.zip
+          asset_content_type: application/zip
+      # 把制品上传到部署机器
+      - name: Upload to Deploy Server
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          # SSH_PRIVATE_KEY为准备工作步骤三中生成密钥对里的私钥
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_TOKEN }}
+          # 指定当前目录中要上传的内容
+          SOURCE: "dist/"
+          # 指定上传到部署机器的哪个目录下
+          TARGET: "/data/www"
+          # 上传前指令，此处用于清空TARGET下的文件
+          ARGS: "-avzr --delete"
+          # REMOTE_HOST为机器的公网IP
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          # REMOTE_USER为登录机器时用到账号名
+          REMOTE_USER: ${{secrets.REMOTE_USER}}
 
-复制代码
-
-`name: CD on:   # 以主干的push事件作为触发条件   push:     branches: main jobs:   CD:     runs-on: ubuntu-latest     steps:       # 拉取代码       - name: Checkout repository         uses: actions/checkout@v2       # 下载Node       - name: Use Node.js         uses: actions/setup-node@v3         with:           node-version: "16.x"       # 添加缓存，逻辑和CI Workflow里的一样       - name: Cache         id: cache-dependencies         uses: actions/cache@v3         with:           path: |             **/node_modules           key: ${{runner.OS}}-${{hashFiles('**/yarn.lock')}}       # 安装依赖。命中缓存则跳过此步       - name: Installing Dependencies         if: steps.cache-dependencies.outputs.cache-hit != 'true'         run: yarn install       # 从package.json里获取version属性的值       # 在CD Workflow中会给每个生成的制品打上标签，而标签取值于version值       - name: Read Version         # 读取出来的值会放在steps.[id].outputs.value供其他步骤step读取         id: version         uses: ashley-taylor/read-json-property-action@v1.0         with:           path: ./package.json           property: version       # 打包生成制品，且把制品压缩到assets.zip压缩包里       - name: Building         run: |           yarn build           zip -r assets ./dist/**       # 基于当前commit进行版本发布(Create a release)，tag_name是v前缀加上package.json的version值       - name: Create GitHub Release         # 此步骤中，版本发布后会返回对应的url，以供下面上传制品的步骤中读取使用         id: create_release         uses: actions/create-release@v1         env:           # GITHUB_TOKEN是准备工作步骤三申请的Personal Access Token           GITHUB_TOKEN: ${{ secrets.PROJECT_ACCESS_TOKEN }}         with:           tag_name: v${{steps.version.outputs.value}}           release_name: v${{steps.version.outputs.value}}           draft: false           prerelease: false       # 把assets.zip上传到仓库对应的发布版本Release上       - name: Update Release Asset         id: upload-release-asset         uses: actions/upload-release-asset@v1         env:           GITHUB_TOKEN: ${{ secrets.PROJECT_ACCESS_TOKEN }}         with:           upload_url: ${{ steps.create_release.outputs.upload_url }}           asset_path: ./assets.zip           asset_name: assets.zip           asset_content_type: application/zip       # 把制品上传到部署机器       - name: Upload to Deploy Server         uses: easingthemes/ssh-deploy@v2.0.7         env:           # SSH_PRIVATE_KEY为准备工作步骤三中生成密钥对里的私钥           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_TOKEN }}           # 指定当前目录中要上传的内容           SOURCE: "dist/"           # 指定上传到部署机器的哪个目录下           TARGET: "/data/www"           # 上传前指令，此处用于清空TARGET下的文件           ARGS: "-avzr --delete"           # REMOTE_HOST为机器的公网IP           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}           # REMOTE_USER为登录机器时用到账号名           REMOTE_USER: ${{secrets.REMOTE_USER}}`
+```
 
 这样子就完成了**CD Workflow**的流程了，运行效果如下所示：
 
@@ -366,19 +566,19 @@ yml
 
 徽章可以直接以下面的格式来插入到自己的`README.md`上：
 
-md
+```md
+![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 
-复制代码
-
-`![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)`
+```
 
 例如我的`CI`和`CD`徽章分别如下所示：
 
-md
+```md
+![CI](https://github.com/Hitotsubashi/cicd-study/actions/workflows/ci.yml/badge.svg)
 
-复制代码
+![CD](https://github.com/Hitotsubashi/cicd-study/actions/workflows/cd.yml/badge.svg)
 
-`![CI](https://github.com/Hitotsubashi/cicd-study/actions/workflows/ci.yml/badge.svg) ![CD](https://github.com/Hitotsubashi/cicd-study/actions/workflows/cd.yml/badge.svg)`
+```
 
 关于更多有关工作流程状态徽章的可看官方文档[添加工作流程状态徽章](https://link.juejin.cn?target=https%3A%2F%2Fdocs.github.com%2Fcn%2Factions%2Fmonitoring-and-troubleshooting-workflows%2Fadding-a-workflow-status-badge "https://docs.github.com/cn/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge")
 
