@@ -13,18 +13,18 @@
 
 由于，Preview 是一个较为复杂的流程，留在以后篇章详解，今天先来说一下 Lint/Test。
 
-<u>我们假设一个极其简单的 Git Workflow 场景</u>。
+我们假设**一个极其简单的 Git Workflow 场景：**
 
-1. 每个人在功能分支进行新功能开发，分支名 `feature-*`。每一个功能分支将会有一个功能分支的测试环境地址，如 `<branch>.dev.shanyue.tech`。
+1. 每个人在功能分支进行新功能开发，分支名 `feature-*`。<u>每一个功能分支将会有一个功能分支的测试环境地址</u>，如 `<branch>.dev.shanyue.tech`。
 2. 当功能分支测试完毕没有问题后，合并至主分支 `master`。将主分支部署到生产环境。
 3. 当生产环境出现问题时，新建一条分支 `hotfix-*`，解决紧急 Bug。
 
 **为了保障代码质量**，线上的代码必须通过 CI 检测，但是应选择什么时机 (什么分支，什么事件)？
 
-1. 功能分支提交后（CI 阶段），进行 Build、Lint、Test、Preview 等，**如未通过 CICD，则无法 Preview，更无法合并到生产环境分支进行上线**
+1. 功能分支提交后（CI 阶段），进行 Lint、Test、Build、Preview 等，**如未通过，则无法 Preview，更无法合并到生产环境分支进行上线**
 2. 功能分支通过后（CI 阶段），合并到主分支，进行自动化部署。
 
-在 CI 保障代码质量的环节中，可确定以下时机：当功能分支代码 push 到远程仓库后，进行 CI
+在 CI 保障代码质量的环节中，可确定以下时机：**当功能分支代码 push 到远程仓库后，进行 CI**
 
 ```yaml
 # 当功能分支代码 push 到远程仓库后，进行 CI
@@ -34,7 +34,7 @@ on:
       - 'feature/**'
 ```
 
-或者<u>将 CI 阶段提后至 PR 阶段</u>，毕竟能够保障合并到主分支的代码没有质量问题即可。(但同时<u>建议通过 git hooks 在客户端进行代码质量检查</u>)
+或者**将 CI 阶段提后至 PR 阶段**，<u>毕竟能够保障合并到主分支的代码没有质量问题即可</u>。(但同时<u>建议通过 git hooks 在客户端进行代码质量检查</u>)
 
 ```yaml
 # 当功能分支代码 push 到远程仓库以及是 Pull Request 后，进行 CI
@@ -49,13 +49,13 @@ on:
       - 'feature/**'
 ```
 
-<u>通过 CI，我们可以快速反馈，并促进敏捷迭代。这要求我们使用 Git 时，尽早提交以发现问题。以功能小点为单位，频繁提交发现问题，也避免合并分支时发现重大冲突</u>。
+**通过 CI，我们可以快速反馈，并促进敏捷迭代。这要求我们使用 Git 时，尽早提交以发现问题。以功能小点为单位，频繁提交发现问题，也避免合并分支时发现重大冲突**。
 
 ## 任务的并行与串行
 
-在 CI 中，互不干扰的任务并行执行，可以节省很大时间。如 Lint 和 Test 无任何交集，就可以并行执行。
+在 CI 中，**互不干扰的任务并行执行，可以节省很大时间**。<u>如 Lint 和 Test 无任何交集，就可以并行执行</u>。
 
-但是 Lint 和 Test 都需要依赖安装 (Install)，在依赖安装结束后再执行，此时就是串行的。
+但是<u> Lint 和 Test 都需要依赖安装 </u>(Install)，在依赖安装结束后再执行，此时就是串行的。
 
 **而进行串行时，如果前一个任务失败，则下一个任务也无法继续。即如果测试无法通过，则无法进行 Preview，更无法上线。**
 
@@ -69,14 +69,52 @@ on:
 
 由于 `create-react-app` 使用 `ESLint Plugin` [源码](https://github.com/facebook/create-react-app/blob/v5.0.0/packages/react-scripts/config/webpack.config.js#L765) 进行代码检查，而非命令行式命令。
 
-当 ESLint 存在问题时，`create-react-app` 会**判断当前是否 CI 环境来决定报错还是警告**，而在 CI 中 `npm run build` 将会报错。
-
-因此，我这里使用 `npm run build` 来模拟 Lint 检查。
+当 ESLint 存在问题时，`create-react-app` 会**判断当前是否 CI 环境来决定报错还是警告**，而在 CI 中 `npm run build` 将会报错。因此，我这里使用 `npm run build` 来模拟 Lint 检查。
 
 > 脚本路径位于 [workflows/ci.yaml](https://github.com/shfshanyue/cra-deploy/blob/master/.github/workflows/ci.yaml)。
 
-```
-# 关于本次 workflow 的名字name: CI # 执行 CI 的时机: 当 git push 代码到 github 时on: [push] # 执行所有的 jobsjobs:  lint:    runs-on: ubuntu-latest    steps:      # 切出代码，使用该 Action 将可以拉取最新代码      - uses: actions/checkout@v2       # 配置 node.js 环境，此时使用的是 node14      # 注意此处 node.js 版本，与 Docker 中版本一致，与 package.json 中 engines.node 版本一致      # 如果需要测试不同 node.js 环境下的表现，可使用 matrix      - name: Setup Node        uses: actions/setup-node@v1        with:          node-version: 14.x       # 安装依赖      - name: Install Dependencies        run: yarn       # 在 cra 中，使用 npm run build 来模拟 ESLint      - name: ESLint        run: npm run build  test:    runs-on: ubuntu-latest    steps:      - uses: actions/checkout@v2      - name: Setup Node        uses: actions/setup-node@v1        with:          node-version: 14.x      - name: Install Dependencies        run: yarn      - name: Test        run: npm run test
+```yaml
+# 关于本次 workflow 的名字
+name: CI
+ 
+# 执行 CI 的时机: 当 git push 代码到 github 时
+on: [push]
+ 
+# 执行所有的 jobs
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      # 切出代码，使用该 Action 将可以拉取最新代码
+      - uses: actions/checkout@v2
+ 
+      # 配置 node.js 环境，此时使用的是 node14
+      # 注意此处 node.js 版本，与 Docker 中版本一致，与 package.json 中 engines.node 版本一致
+      # 如果需要测试不同 node.js 环境下的表现，可使用 matrix
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+ 
+      # 安装依赖
+      - name: Install Dependencies
+        run: yarn
+ 
+      # 在 cra 中，使用 npm run build 来模拟 ESLint
+      - name: ESLint
+        run: npm run build
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Install Dependencies
+        run: yarn
+      - name: Test
+        run: npm run test
 ```
 
 ![](https://static.shanyue.tech/images/22-07-05/clipboard-7295.e57442.webp)
