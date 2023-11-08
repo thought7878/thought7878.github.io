@@ -96,7 +96,7 @@ jobs:
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e231ae5101154085bcb13b18443c5e2d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-<u>`github flow`在开发新特性的运行模式如下所示：</u>
+**开发新功能的git workflow：**
 
 1. 基于`master`创建新的分支`feature`进行开发。注意这需要保证`master`的代码和特性永远是最稳定的。
 2. 开发期间，定期提交更改(`commit and push change`)到远程仓库的`feature`分支
@@ -112,17 +112,13 @@ jobs:
 
 > **持续集成的目的**，就是<u>让产品可以快速迭代，同时还能保持高质量</u>。它的**核心措施**是，<u>代码集成到主干之前，必须通过自动化测试</u>。只要有一个测试用例失败，就不能集成。
 
-而`github flow`模型**保证高质量的核心措施**是：在**集成**前通过`pull request`，从而触发审核（<u>审核可以是一系列的自动化校验测试以及代码审核**Code Review**</u>），在审核通过后再合并到**主干**，从而保证**主干**的稳定性。
+而`github flow`模型**保证高质量的核心措施**是：在集成前通过`pull request`，从而触发审核（<u>审核可以是一系列的自动化校验测试以及代码审核**Code Review**</u>），在审核通过后再合并到**主干**，从而保证**主干**的稳定性。
 
 下面我们就按照`github flow`模型的机制，在开头创建的项目上添加`CI`流程。
 
 ### 在项目中实现`CI`
 
-根据上面所说的`github flow`模型保证高质量的核心措施可知，我们要定义的执行`CI`的Workflow（下称CI Workflow）的Event是`master`分支的`pull request`事件。而`Job`和`Step`的话没具体说明，而我们可以把目前最普遍的 代码测试（Test） 和 代码扫描（Lint） 加入其中。
-
-其实现思路是，首先要借助一些第三方插件，在`package.json`中的`scripts`定义可以执行代码测试（Test）和代码扫描（Lint）的命令，然后在把这些命令行加到CI Workflow的Step里。
-
-具体流程图如下所示：
+根据上面所说的`github flow`模型保证高质量的核心措施可知，我们要定义的执行`CI`的Workflow（下称CI Workflow）的Event是`master`分支的<u>`pull request`事件</u>。而`Job`和`Step`的话没具体说明，而我们可以把目前最普遍的代码测试（Test） 和 代码扫描（Lint） 加入其中。其**实现思路**是，首先要借助一些第三方插件，在`package.json`中的`scripts`定义可以执行代码测试（Test）和代码扫描（Lint）的命令，然后再把这些命令行加到CI Workflow的Step里。<u>具体流程图如下所示：</u>
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cd2441838274ff39f63af4fccb134a4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
