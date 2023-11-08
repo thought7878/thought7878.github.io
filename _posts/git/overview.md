@@ -375,8 +375,7 @@ git commit -m "update .gitignore"
 ## 参考资料
 
 - [Git 常用操作总结](https://juejin.cn/post/6844903586120335367 "https://juejin.cn/post/6844903586120335367")
+
 - [字节研发设施下的 Git 工作流](https://juejin.cn/post/6875874533228838925 "https://juejin.cn/post/6875874533228838925")
-
-
 
 - [进公司不会用 Git 拉项目！第二天被开除？天！那还在等什么，快点进来看看](https://juejin.cn/post/6951219502319140878#heading-15 "https://juejin.cn/post/6951219502319140878#heading-15")

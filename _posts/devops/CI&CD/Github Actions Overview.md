@@ -124,7 +124,7 @@ jobs:
 
 #### 代码扫描命令实现
 
-一般公司里都会通过类似`Sonar`这类代码质量管理插件来保证代码质量。不过我们也可以通过前端样式三剑侠：`eslint`+`prettier`+`stylelint`来简单保证。这里我直接使用本人比较喜好和经常使用的`umi`的代码规范：[**@umijs/fabric**](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fumijs%2Ffabric "https://github.com/umijs/fabric")来规定三剑侠的规则了，使用方式如下所示：
+一般公司里都会通过类似`Sonar`这类代码质量管理插件来保证代码质量。不过我们也可以通过前端样式三剑侠：`eslint`+`prettier`+`stylelint`来<u>简单保证</u>。这里我直接使用本人比较喜好和经常使用的`umi`的代码规范：[**@umijs/fabric**](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fumijs%2Ffabric "https://github.com/umijs/fabric")来规定三剑侠的规则了，使用方式如下所示：
 
 **.eslintrc.js**
 
