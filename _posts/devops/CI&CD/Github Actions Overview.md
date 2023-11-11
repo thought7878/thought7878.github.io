@@ -318,7 +318,7 @@ jobs:
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0a907606f73e4894a13fc72d4f9bb731~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
-也可以点开每个`step`查看控制台输出信息：
+也可以点开每个`step`**查看控制台输出信息**：
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/69118f7b049d4ec0ba3746493be1a653~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
@@ -338,19 +338,19 @@ jobs:
 
 `CD`指的是 **持续交付（Continuous delivery）** 或者 **持续部署（continuous deployment）** 或者是两者的并集，我们借用[AWS 中对持续交付说明](https://link.juejin.cn?target=https%3A%2F%2Faws.amazon.com%2Fcn%2Fdevops%2Fcontinuous-delivery%2F "https://aws.amazon.com/cn/devops/continuous-delivery/")来说明下这两者的解释，如下：
 
-> ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/539a9328755340e69a1fa5d50abd3bb5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?) 采用持续交付时，系统会构建并测试每一个代码变更，然后将其推送到非生产测试环境或临时环境中。生产部署前可能存在多个并行测试阶段。**持续交付与持续部署之间的区别在于，需要手动批准才能更新到生产环境。对于持续部署，生产会在没有明确批准的情况下自动发生。**
+> ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/539a9328755340e69a1fa5d50abd3bb5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?) 采用持续交付时，**系统会构建并测试每一个代码变更，然后将其部署到非生产测试环境或临时环境中。生产部署前，可能存在多个并行测试阶段**。<u>持续交付与持续部署之间的区别在于</u>，需要手动批准才能更新到生产环境。对于持续部署，生产会在没有明确批准的情况下自动发生。
 
 从上面的解释中可知其有三个步骤：
 
-1. 生成制品
-2. 自动部署到测试环境以校验其稳定性
+1. 构建源码
+2. 自动部署到测试环境，以校验其稳定性
 3. 部署到生产环境（自动的是**持续部署**，手动的是**持续交付**）
 
-基于本文是以入门为主，且很多读者也就只有一个服务器来直接部署自己的小项目，因此本章节的`CD`实现中，我们以**持续部署（continuous deployment）** 且跳过上面第二步来实现，也就是生成制品后直接自动部署到生产环境。
+本文是以入门为主，且很多读者也就只有一个服务器来直接部署自己的小项目，因此本章节的`CD`实现中，我们以持续部署（continuous deployment） 且跳过上面第二步来实现，也就是构建后直接自动部署到生产环境。
 
 ---
 
-其实对于**持续交付（Continuous delivery）** 和 **持续部署（continuous deployment）** ，不同`DevOps`平台有不同的解释，而不同的企业和项目也有不同的实现方式。但本质上不会有太大区别，而我们也没必要去花时间咬文嚼字，借用**Red Hat**对 [**CICD**说明](https://link.juejin.cn?target=https%3A%2F%2Fwww.redhat.com%2Fzh%2Ftopics%2Fdevops%2Fwhat-is-ci-cd "https://www.redhat.com/zh/topics/devops/what-is-ci-cd") 里的一句话总结，如下：
+其实对于持续交付（Continuous delivery） 和 持续部署（continuous deployment） ，<u>不同`DevOps`平台有不同的解释，而不同的企业和项目也有不同的实现方式。但本质上不会有太大区别</u>，而我们也没必要去花时间咬文嚼字，借用**Red Hat**对 [**CICD**说明](https://link.juejin.cn?target=https%3A%2F%2Fwww.redhat.com%2Fzh%2Ftopics%2Fdevops%2Fwhat-is-ci-cd "https://www.redhat.com/zh/topics/devops/what-is-ci-cd") 里的一句话总结，如下：
 
 > CI/CD 既可能仅指持续集成和持续交付构成的关联环节，也可以指持续集成、持续交付和持续部署这三项构成的关联环节。更为复杂的是，有时"持续交付"也包含了持续部署流程。
 > 
