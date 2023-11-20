@@ -38,6 +38,8 @@ docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenk
 
 内存不够用的问题，[当进程因使用过多内存而终止时，会出现退出代码 137](https://www.airplane.dev/blog/exit-code-137)
 
+![](assets/overview/2023-11-17-13-06-00-image.png)
+
 ### 配置 Jenkins
 
 在容器创建完成后，打开浏览器，访问 http://localhost:8080，这是 Jenkins 的 Web 界面。
@@ -49,3 +51,13 @@ docker exec <容器ID> cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
 输入初始管理员密码后，按照引导完成 Jenkins 的配置。
+
+### 启动 Jenkins
+
+配置完成后，可以通过以下命令启动Jenkins容器：
+
+```shell
+docker start <容器ID>
+```
+
+至此，Jenkins安装和配置完成。
