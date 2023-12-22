@@ -56,3 +56,5 @@ https://www.volcengine.com/docs/6431/104862
 [前端性能优化--归纳篇 | 被删的前端游乐场](https://godbasin.github.io/front-end-playground/front-end-basic/performance/front-end-performance-optimization.html)
 
 [2023 前端性能优化清单 - 掘金](https://juejin.cn/post/7214026775142760505#heading-1)
+
+[Web性能优化——网络篇](https://www.hozen.site/archives/68/#%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93%E5%92%8C%E7%BC%93%E5%AD%98%E6%8E%A7%E5%88%B6)
