@@ -66,7 +66,6 @@ VS Code 进行前端调试非常简单，主要需要以下四个步骤：
     }
   ]
 }
-
 ```
 
 我们只需要关注 `configurations` 里面的每一项配置：
@@ -122,7 +121,6 @@ VS Code 进行前端调试非常简单，主要需要以下四个步骤：
 ```bash
 git clone https://github.com/vuejs/vue-next.git
 cd vue-next
-
 ```
 
 可以发现，Vue3 项目已经进行了一项调试配置：
@@ -153,7 +151,6 @@ cd vue-next
     }
   ]
 }
-
 ```
 
 这段配置的类型虽然为 `node`，但是 `runtimeExecutable` 为 `null`，因此不会用默认的 `node` 去执行文件，而是使用 `program` 中的可执行程序 `jest` 来执行文件。
@@ -209,7 +206,6 @@ cd vue-next
     ├── dev.ts
     ├── index.ts
     └── runtime.ts
-
 ```
 
 `examples` 中的 `*.html` 就是 Vue3 各个特性的示例代码，通过调试这些文件，我们就能了解 Vue3 整体的执行流程。
@@ -218,7 +214,6 @@ cd vue-next
 
 ```shell
 yarn dev --sourcemap
-
 ```
 
 然后，在 VS Code 中安装 `Debugger from Chrome` 扩展：
@@ -236,7 +231,6 @@ yarn dev --sourcemap
       "webRoot": "${workspaceFolder}",
       "file": "${workspaceFolder}/packages/vue/examples/composition/${fileBasename}"
 }
-
 ```
 
 这个配置使得我们可以调试 `packages/vue/examples/composition/` 下的所有 `*.html` 文件，调试其他目录的文件可以通过修改 `file` 的路径实现。
@@ -268,7 +262,6 @@ TypeScript 的流行程度不必多言了，这里简单介绍直接在 `*.ts` �
     },
   ]
 }
-
 ```
 
 ![QQ20210725-001011-HD.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/249fac833e764dee839b940e931339f9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
