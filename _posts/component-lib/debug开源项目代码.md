@@ -48,11 +48,26 @@ VS Code 进行前端调试非常简单，主要需要以下四个步骤：
 
 上图操作创建的 `launch.json` 如下所示：
 
-json
+```json
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "启动程序",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${file}"
+    }
+  ]
+}
 
-复制代码
-
-`{   // 使用 IntelliSense 了解相关属性。    // 悬停以查看现有属性的描述。   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387   "version": "0.2.0",   "configurations": [     {       "type": "node",       "request": "launch",       "name": "启动程序",       "skipFiles": [         "<node_internals>/**"       ],       "program": "${file}"     }   ] }`
+```
 
 我们只需要关注 `configurations` 里面的每一项配置：
 
@@ -104,19 +119,42 @@ json
 
 首先将 Vue3 代码拷贝下来并进入项目目录：
 
-bash
+```bash
+git clone https://github.com/vuejs/vue-next.git
+cd vue-next
 
-复制代码
-
-`git clone https://github.com/vuejs/vue-next.git cd vue-next`
+```
 
 可以发现，Vue3 项目已经进行了一项调试配置：
 
-json
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Jest",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "stopOnEntry": false,
+      "args": ["${fileBasename}", "--runInBand", "--detectOpenHandles"],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+      }
+    }
+  ]
+}
 
-复制代码
-
-`{   "version": "0.2.0",   "configurations": [     {       "name": "Jest",       "type": "node",       "request": "launch",       "program": "${workspaceFolder}/node_modules/.bin/jest",       "stopOnEntry": false,       "args": ["${fileBasename}", "--runInBand", "--detectOpenHandles"],       "cwd": "${workspaceFolder}",       "preLaunchTask": null,       "runtimeExecutable": null,       "runtimeArgs": ["--nolazy"],       "env": {         "NODE_ENV": "development"       },       "console": "integratedTerminal",       "sourceMaps": true,       "windows": {         "program": "${workspaceFolder}/node_modules/jest/bin/jest",       }     }   ] }`
+```
 
 这段配置的类型虽然为 `node`，但是 `runtimeExecutable` 为 `null`，因此不会用默认的 `node` 去执行文件，而是使用 `program` 中的可执行程序 `jest` 来执行文件。
 
@@ -128,21 +166,60 @@ json
 
 打开 `packages` 目录，映入眼帘的肯定是 `vue` 目录，其目录结构如下所示：
 
-css
+```css
+├── __tests__
+│   ├── Transition.spec.ts
+│   ├── TransitionGroup.spec.ts
+│   ├── e2eUtils.ts
+│   ├── index.spec.ts
+│   ├── runtimeCompilerOptions.spec.ts
+│   ├── svgNamespace.spec.ts
+│   └── transition.html
+├── api-extractor.json
+├── examples
+│   ├── __tests__
+│   │   ├── commits.mock.ts
+│   │   ├── commits.spec.ts
+│   │   ├── grid.spec.ts
+│   │   ├── markdown.spec.ts
+│   │   ├── svg.spec.ts
+│   │   ├── todomvc.spec.ts
+│   │   └── tree.spec.ts
+│   ├── classic
+│   │   ├── commits.html
+│   │   ├── grid.html
+│   │   ├── markdown.html
+│   │   ├── svg.html
+│   │   ├── todomvc.html
+│   │   └── tree.html
+│   ├── composition
+│   │   ├── commits.html
+│   │   ├── grid.html
+│   │   ├── markdown.html
+│   │   ├── svg.html
+│   │   ├── todomvc.html
+│   │   └── tree.html
+│   └── transition
+│       ├── list.html
+│       └── modal.html
+├── index.js
+├── node_modules
+├── package.json
+└── src
+    ├── dev.ts
+    ├── index.ts
+    └── runtime.ts
 
-复制代码
-
-`├── __tests__ │   ├── Transition.spec.ts │   ├── TransitionGroup.spec.ts │   ├── e2eUtils.ts │   ├── index.spec.ts │   ├── runtimeCompilerOptions.spec.ts │   ├── svgNamespace.spec.ts │   └── transition.html ├── api-extractor.json ├── examples │   ├── __tests__ │   │   ├── commits.mock.ts │   │   ├── commits.spec.ts │   │   ├── grid.spec.ts │   │   ├── markdown.spec.ts │   │   ├── svg.spec.ts │   │   ├── todomvc.spec.ts │   │   └── tree.spec.ts │   ├── classic │   │   ├── commits.html │   │   ├── grid.html │   │   ├── markdown.html │   │   ├── svg.html │   │   ├── todomvc.html │   │   └── tree.html │   ├── composition │   │   ├── commits.html │   │   ├── grid.html │   │   ├── markdown.html │   │   ├── svg.html │   │   ├── todomvc.html │   │   └── tree.html │   └── transition │       ├── list.html │       └── modal.html ├── index.js ├── node_modules ├── package.json └── src     ├── dev.ts     ├── index.ts     └── runtime.ts`
+```
 
 `examples` 中的 `*.html` 就是 Vue3 各个特性的示例代码，通过调试这些文件，我们就能了解 Vue3 整体的执行流程。
 
 这些 html 文件都引入了一个 `../../dist/vue.global.js` 文件，我们首先通过命令构建出来，回到项目根目录执行：
 
-css
+```shell
+yarn dev --sourcemap
 
-复制代码
-
-`yarn dev --sourcemap`
+```
 
 然后，在 VS Code 中安装 `Debugger from Chrome` 扩展：
 
@@ -150,11 +227,17 @@ css
 
 添加 `launch.json` 配置：
 
-json
+```json
+{
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "file": "${workspaceFolder}/packages/vue/examples/composition/${fileBasename}"
+}
 
-复制代码
-
-`{       "type": "chrome",       "request": "launch",       "name": "Launch Chrome",       "url": "http://localhost:8080",       "webRoot": "${workspaceFolder}",       "file": "${workspaceFolder}/packages/vue/examples/composition/${fileBasename}" }`
+```
 
 这个配置使得我们可以调试 `packages/vue/examples/composition/` 下的所有 `*.html` 文件，调试其他目录的文件可以通过修改 `file` 的路径实现。
 
@@ -166,17 +249,27 @@ json
 
 大功告成，愉快地阅读 `Vue3` 源码吧～
 
-![开心.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71c183034fa243cfaf6e47d31143bcba~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
++
 
 ### `ts-node`调试TypeScript
 
 TypeScript 的流行程度不必多言了，这里简单介绍直接在 `*.ts` 文件中进行调试的技巧：使用 `ts-node` 执行程序，配置如下所示：
 
-json
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch TS",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/test.ts"]
+    },
+  ]
+}
 
-复制代码
-
-`{   "version": "0.2.0",   "configurations": [     {       "type": "node",       "request": "launch",       "name": "Launch TS",       "runtimeArgs": ["-r", "ts-node/register"],       "args": ["${workspaceFolder}/test.ts"]     },   ] }`
+```
 
 ![QQ20210725-001011-HD.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/249fac833e764dee839b940e931339f9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -185,8 +278,6 @@ json
 调试不仅仅是我们排查问题的重要手段，也是我们高效查看项目源码的方法。
 
 本文介绍了调试在查看源码中的优势以及 VS Code 中调试的相关知识，由于篇幅及笔者自身知识面受限，还有很多的知识点需要读者自行去探索，有错漏的地方也希望大家能在评论区指出。原创不易，希望大家多多点赞～～～
-
-
 
 ## 参考
 
