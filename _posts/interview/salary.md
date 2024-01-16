@@ -1,3 +1,24 @@
+[The Front End Developer Profession Learning Resources - Front-End Developer Learning Roadmap](https://frontendmasters.com/guides/learning-roadmap/front-end-developer-profession/#6)
+
+
+
+The national average in the U.S for a mid-level front-end developer is somewhere between [$65k](https://www.payscale.com/research/US/Job=Front_End_Developer_%2f_Engineer/Salary) and [100k](https://www.indeed.com/salaries/Front-End-Developer-Salaries).  
+**美国中级前端开发人员的全国平均薪资在 65,000 美元到 100,000 美元之间。**
+
+Of course, when you first enter into the profession, expect to enter the field at around 40k a year depending upon location and experience.  
+当然，当你第一次进入这个行业时，预计每年的收入约为 40k，具体取决于地点和经验。
+
+A lead/senior/principal front-end developer/engineer can potentially live wherever they want (i.e., [work remotely](https://remoteintech.company/)) and make over $150k a year (visit [angel.co](https://angel.co/jobs), sign-up, review front-end jobs over $150k or examine the salary ranges on [Stack Overflow Jobs](https://stackoverflow.com/jobs?q=front-end&sort=y)).  
+首席/高级/首席前端开发人员/工程师可以住在任何他们想要的地方（即远程工作），年薪超过 15 万美元（访问angel.co，注册，审查超过 15 万美元的前端工作或检查Stack Overflow Jobs 上的薪资范围）。
+
+
+
+---
+
+
+
+
+
 根据法律要求，NTT DATA 为特定角色提供合理范围的薪酬。该远程职位的起薪范围为[最低：68,200 美元 - 最高：142,100 美元]。该范围反映了美国所有地点该职位的最低和最高目标薪酬。实际薪酬将取决于多种因素，包括候选人的实际工作地点、相关经验、技术技能和其他资格。该职位也可能有资格获得基于个人和/或公司绩效的激励薪酬。
 
 ---
