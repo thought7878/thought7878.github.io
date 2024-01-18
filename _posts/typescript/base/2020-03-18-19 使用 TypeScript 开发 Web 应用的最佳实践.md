@@ -389,5 +389,3 @@ Redux 类型化涉及 state、action、reducer 三要素类型化，具体示例
 以上就是 TypeScript 和 Dom 原生操作及结合 React 框架在 Web 侧开发的实践建议，其核心在于类型化 Dom API 和 React 组件、Redux 和 Service。
 
 插播一道思考题：类型化 React 组件的要义是什么？欢迎你在留言区进行互动、交流。
-
-
