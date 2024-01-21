@@ -3,6 +3,11 @@
 ## Bugs
 
 - https://github.com/shadcn-ui/ui/issues/2487
+- [[BUG] Context Menu position not updating · Issue #2507 · shadcn-ui/ui · GitHub](https://github.com/shadcn-ui/ui/issues/2507)
+
+这个是radix-ui的context menu问题，这个primitive没问题[Context Menu – Radix Primitives](https://www.radix-ui.com/primitives/docs/components/context-menu)
+
+- 
 
 ## 新需求
 
