@@ -28,7 +28,7 @@ https://chenyilong.notion.site/Behavioral-based-interviewing-Competency-Based-In
 
 建议提前准备一下，以免问到的时候手足无措 可以上 Youtube 搜每个问题，一般都会有人教你回答这个问题的技巧，什么该说什么不该说
 
-### [](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook?tab=readme-ov-file#%E2%84%B9%EF%B8%8F-%E7%9B%B8%E5%85%B3%E5%B8%96%E5%AD%90%E5%92%8C%E8%B5%84%E6%BA%90-1)ℹ️ 相关帖子和资源
+### [相关帖子和资源](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook?tab=readme-ov-file#%E2%84%B9%EF%B8%8F-%E7%9B%B8%E5%85%B3%E5%B8%96%E5%AD%90%E5%92%8C%E8%B5%84%E6%BA%90-1)
 
 https://twitter.com/iOSChenYilong/status/1542389148538920960
 
@@ -42,12 +42,6 @@ Youtuber :
 
 这类型的 Youtuber 还有很多，可以自己找找
 
-
-
-
-
 ## 参考资料
 
 [GitHub - eliaszon/Programmers-Overseas-Job-Interview-Handbook: 🏂🏻 程序员海外工作/英文面试手册](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook?tab=readme-ov-file)
-
-
