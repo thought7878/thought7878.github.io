@@ -55,3 +55,47 @@ function MyComponent() {
 [总之，`useReducer` 是一个强大且灵活的 Hook，适用于处理复杂的状态逻辑和结构化的状态管理。](https://react.dev/reference/react/useReducer)[1](https://react.dev/reference/react/useReducer)[2](https://qiita.com/seira/items/2fbad56e84bda885c84c)[3](https://www.react.express/hooks/usereducer)[4](https://www.w3schools.com/react/react_usereducer.asp)[5](https://www.freecodecamp.org/news/usereducer-hook-react/)
 
 
+
+# useTransition
+
+在 **React** 中，`useTransition` 是一个重要的 **Hook**。让我来解释一下：
+
+1. **什么是 `useTransition`？**
+   
+   - `useTransition` 是一个帮助你在不阻塞用户界面（UI）的情况下更新状态的 **React Hook**。
+   - 它允许你将状态更新标记为非阻塞的 **transition**。通过这种方式，你可以在不影响用户体验的情况下更新应用程序的状态。
+
+2. **为什么使用 `useTransition`？**
+   
+   - 使用 `useTransition` 的目的是使用户界面的更新在慢速设备上仍保持响应性。
+   - 通过 `transition`，UI 仍将在重新渲染过程中保持响应性。例如，用户点击一个选项卡，但改变了主意并点击另一个选项卡，他们可以在不等待第一个重新渲染完成的情况下完成操作。
+   - 使用 `useTransition` 与常规状态更新的区别在于，它允许你在 **transition** 中更新状态，而不会阻塞用户界面。
+
+3. **如何使用 `useTransition`？**
+   
+   - 首先，在组件的顶层调用 `useTransition` 以将状态更新标记为非阻塞的 **transition**。
+   
+   - 然后，你可以使用 `startTransition` 函数将状态更新标记为 **transition**。例如：
+     
+     ```jsx
+     import { useState, useTransition } from 'react';
+     
+     function TabContainer() {
+      const [isPending, startTransition] = useTransition();
+      const [tab, setTab] = useState('about');
+     
+      function selectTab(nextTab) {
+        startTransition(() => {
+          setTab(nextTab);
+        });
+      }
+     
+      // 其他组件渲染逻辑...
+     }
+     ```
+   
+   - 这样，你可以在 `selectTab` 函数中更新 `tab` 状态，而不会阻塞用户界面。
+
+总之，`useTransition` 是一个有助于提高应用程序性能和用户体验的强大工具。通过将状态更新标记为非阻塞的 **transition**，你可以在用户界面仍保持响应性的同时进行状态更新。🚀
+
+
