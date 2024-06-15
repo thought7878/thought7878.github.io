@@ -48,9 +48,29 @@
 
 ### 如何把元素放到网格的单元格中
 
-####
+#### 单元格中的元素尺寸
 
-####
+##### 默认自动填满单元格、也可小于/超出单元格；
+
+##### 单元格是参考线
+
+#### grid 中的 z-index：flex/grid 的 item 设置 z-index 为非 auto，就产生自己的 stacking context
+
+#### 网格线
+
+##### why/解决的问题：放置元素到指定的单元格
+
+##### grid-row（grid-row-start/grid-row-end）
+
+##### grid-colum（grid-colum-start/grid-colum-end）
+
+##### 自定义网格线名称
+
+#### 隐形网格
+
+##### 是什么：元素数量超出了定义的单元格数量，自动产生新的行（grid-auto-flow:row），自动产生新的列（grid-auto-flow:column）
+
+##### grid-auto-rows/grid-auto-columns：设置隐形网格的行列尺寸
 
 ####
 
@@ -58,4 +78,10 @@
 
 ### 单元格中的元素如何放置
 
+#### justify-items/align-items：设置 grid 元素相对于单元格的定位。容器属性。
+
+#### place-self = align-self/justify-self：设置 grid 元素相对于单元格的定位。项目属性。
+
 ### 整个网格在容器空间中如何放置
+
+#### justify-content/align-content：设置整个网格相对于容器的定位。容器属性。
