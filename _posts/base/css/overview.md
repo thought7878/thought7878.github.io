@@ -4,6 +4,46 @@
 
 ## Flex
 
+### 容器属性
+
+#### flex-direction：设置主轴方向
+
+##### row|column|row-reverse|column-reverse;
+
+#### flex-wrap：超出是否换行
+
+##### nowrap|wrap|wrap-reverse
+
+#### flex-flow：同时设置主轴线方向和超出是否换行
+
+##### \<flex-direction\> \<flex-wrap\>
+
+#### justify-content：子项目在主轴线上的对齐方式
+
+##### flex-start|flex-end|center|space-between|space-around
+
+#### align-items：子项目在交叉轴上的对齐方式
+
+##### stretch|flex-start|flex-end|center|baseline
+
+#### align-content：多行的对齐方式，只有多行才有效
+
+##### stretch | flex-start | flex-end | center | space-between | space-around
+
+### 项目属性
+
+#### flex-grow
+
+#### flex-shrink
+
+#### flex-basis：主轴方向的尺寸，优先级大于 width/height
+
+###
+
+###
+
+###
+
 ## Grid
 
 ### 如何画网格
@@ -118,4 +158,14 @@
 
 #### 为什么：解决浮动元素之后的元素会补位/环绕的问题
 
+## BFC/IFC/FFC/GFC
+
 ###
+
+## 定位 position
+
+# 响应式布局
+
+# 动画
+
+# 选择器
