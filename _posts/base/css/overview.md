@@ -32,17 +32,21 @@
 
 ### 项目属性
 
-#### flex-grow
+#### flex-grow：**主轴**剩余空间按所有各项目的放大比例分配；默认值 0，放大比例为 0，不占用剩余空间
 
-#### flex-shrink
+#### flex-shrink：**主轴**缺少空间按所有各项目的缩放比例分配；默认值 1，缩小比例为 1，空间不足缩小
 
-#### flex-basis：主轴方向的尺寸，优先级大于 width/height
+#### flex-basis：主轴方向的尺寸，优先级 width < flex-basis < max-width；在分配多余空间之前，项目占据的主轴空间；默认值 auto，即项目的本来大小
 
-###
+#### flex：\<flex-grow\> \<flex-shrink\> \<flex-basis\>简写属性；默认值 0 1 auto，不放大，缩小，尺寸本来大小
 
-###
+##### 两个快捷值：auto(1,1,auto)、none(0,0,auto)，优先使用 flex，浏览器会自动推算其他值
 
-###
+#### align-self：自身对齐方式；默认值 auto 继承父容器 align-items 的值，设置为其他值可覆盖继承值(父容器设置会超出换行时，覆盖无效)
+
+##### auto | flex-start | flex-end | center | baseline | stretch
+
+#### order：排列顺序
 
 ## Grid
 
