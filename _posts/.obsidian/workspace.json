@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "75444ca2b509dcf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e807a37737528cb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09056c6ffc10dbd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c43a57256fedce15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/ overviews/00.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6b008928cef3f86e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7024bd7a3b993d0",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1x24y1A7aJ/"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba4d48c9ce4bcc1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "daa9ad2a0bd307df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe3110c949a01ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a07fee87284b9d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#react",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41092afe460ae719",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 337.5
+  },
+  "right": {
+    "id": "b88e90de2e8830a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2756b37f2c6ccc86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cc1a78a4ac571d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2aa64f2fcc346c1c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d07efa91e32c9442",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "734ce879ef0b23fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "media-extended:Open media": false
+    }
+  },
+  "active": "b7024bd7a3b993d0",
+  "lastOpenFiles": [
+    "engineering/ overviews/01-说说前端构建工具的应用场景.md",
+    "engineering/ overviews/00.md",
+    "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine 05m29.md",
+    "Pasted image 20240624160758.png",
+    "Pasted image 20240624160300.png",
+    "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
+    "bilibili_3@bv19i4y1q7w7.930122069486885900.zh-CN.vtt",
+    "Media Note - 006 Javascript Engine.md",
+    "base/js/JavaScript---The Advanced Concepts/Overview.md",
+    "base/js/winter/2.什么是面向对象-JavaScript对象的特征.md",
+    "base/js/winter/未命名.md",
+    "git/overview.md"
+  ]
+}
