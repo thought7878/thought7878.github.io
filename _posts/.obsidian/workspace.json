@@ -6,9 +6,22 @@
       {
         "id": "e807a37737528cb0",
         "type": "tabs",
+        "dimension": 25.143266475644698,
         "children": [
           {
             "id": "09056c6ffc10dbd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fcdd41a49fa874d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,14 +44,16 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "6b008928cef3f86e",
+        "id": "d9581bd232fa3781",
         "type": "tabs",
+        "dimension": 74.8567335243553,
         "children": [
           {
-            "id": "b7024bd7a3b993d0",
+            "id": "687a292b575188a5",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
@@ -97,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -172,7 +188,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b7024bd7a3b993d0",
+  "active": "687a292b575188a5",
   "lastOpenFiles": [
     "engineering/ overviews/01-说说前端构建工具的应用场景.md",
     "engineering/ overviews/00.md",
