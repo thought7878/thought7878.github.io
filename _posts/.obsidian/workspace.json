@@ -6,6 +6,7 @@
       {
         "id": "e807a37737528cb0",
         "type": "tabs",
+        "dimension": 30.444126074498566,
         "children": [
           {
             "id": "09056c6ffc10dbd1",
@@ -43,11 +44,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b47da95a62405313",
         "type": "tabs",
+        "dimension": 69.55587392550143,
         "children": [
           {
             "id": "8c6bc1eee3e3ac9b",
@@ -126,7 +129,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +166,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -189,7 +188,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "09056c6ffc10dbd1",
+  "active": "8c6bc1eee3e3ac9b",
   "lastOpenFiles": [
     "engineering/ overviews/02-列举Webpack中常见的Loader.md",
     "engineering/ overviews/01-说说前端构建工具的应用场景.md",

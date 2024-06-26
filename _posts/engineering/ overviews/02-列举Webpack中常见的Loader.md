@@ -1,2 +1,32 @@
 https://www.bilibili.com/video/BV1Wz4y1B7fn/?spm_id_from=333.788&vd_source=22af953ea4c09540ad1966711a2d53f0
 
+ 
+- [00:17](https://www.bilibili.com/video/BV1Wz4y1B7fn/?t=17.825957#t=17.83) 问题：有哪些常见的Loader？他们是解决什么问题的？
+- 
+- [00:43](https://www.bilibili.com/video/BV1Wz4y1B7fn/?t=43.326077#t=43.33) Loader是什么？为什么使用Loader，解决什么问题？
+	- 问题：[webpack only understands JavaScript and JSON files. ](https://webpack.js.org/concepts/#loaders)
+	- **Loaders** allow webpack to process other types of files and convert them into valid modules that can be consumed by your application and added to the dependency graph.
+- 
+- [04:20](https://www.bilibili.com/video/BV1Wz4y1B7fn/?t=260.495631#t=04:20.50) [常见的Loader](https://webpack.js.org/loaders) [Link2](https://webpack.js.org/awesome-webpack/#loaders)
+	- 
+- [05:48](https://www.bilibili.com/video/BV1Wz4y1B7fn/?t=348.325321#t=05:48.33) 答案
+	- 回答提示：按照一定的维度进行描述，会更有系统性
+	- 他们是解决什么问题的？
+		- Webpack默认只能处理JS、JSON，不能处理其他类型的资源。Loader让Webpack能处理其他类型的资源，把他们转换成应用可以消费的有效模块
+	- 有哪些常见的Loader？
+		- JS
+			- babel-loader
+			- ts-loader
+			- eslint-loader
+		- CSS
+			- sass-loader，预处理器
+			- less-loader
+			- style-loader
+			- css-loader
+			- postcss-loader，后处理器
+		- image
+			- file-loader
+			- url-loader
+			- image-loader
+- 
+- [08:35](https://www.bilibili.com/video/BV1Wz4y1B7fn/?t=515.29527#t=08:35.30) 考察点
