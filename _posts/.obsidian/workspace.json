@@ -6,7 +6,6 @@
       {
         "id": "e807a37737528cb0",
         "type": "tabs",
-        "dimension": 25.143266475644698,
         "children": [
           {
             "id": "09056c6ffc10dbd1",
@@ -26,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
+                "file": "engineering/ overviews/02-列举Webpack中常见的Loader.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,21 +43,19 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "d9581bd232fa3781",
+        "id": "b47da95a62405313",
         "type": "tabs",
-        "dimension": 74.8567335243553,
         "children": [
           {
-            "id": "687a292b575188a5",
+            "id": "8c6bc1eee3e3ac9b",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1x24y1A7aJ/"
+                "source": "https://www.bilibili.com/video/BV1Wz4y1B7fn/"
               }
             }
           }
@@ -129,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md"
+              }
             }
           }
         ],
@@ -188,8 +189,9 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a292b575188a5",
+  "active": "09056c6ffc10dbd1",
   "lastOpenFiles": [
+    "engineering/ overviews/02-列举Webpack中常见的Loader.md",
     "engineering/ overviews/01-说说前端构建工具的应用场景.md",
     "engineering/ overviews/00.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine 05m29.md",
