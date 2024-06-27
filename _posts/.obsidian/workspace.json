@@ -6,71 +6,34 @@
       {
         "id": "e807a37737528cb0",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 23.853868194842406,
         "children": [
           {
-            "id": "09056c6ffc10dbd1",
+            "id": "3ec7e563a28c3c28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/01-说说前端构建工具的应用场景.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fcdd41a49fa874d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/ overviews/03-列举Webpack中常见的Plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6574e4ee76a5d560",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/ overviews/05- webpack中实现Treeshaking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c43a57256fedce15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/ overviews/00.md",
+                "file": "engineering/ overviews/07- 文件指纹.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "df533a8a128afc03",
+        "id": "a5d8a70410775f70",
         "type": "tabs",
-        "dimension": 75,
+        "dimension": 76.1461318051576,
         "children": [
           {
-            "id": "fee52936c1a20a83",
+            "id": "9f8ae03f86a0992c",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1BL411v77F/"
+                "source": "https://www.bilibili.com/video/BV1jP411Q7i1/"
               }
             }
           }
@@ -200,8 +163,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fee52936c1a20a83",
+  "active": "9f8ae03f86a0992c",
   "lastOpenFiles": [
+    "engineering/ overviews/07- 文件指纹.md",
+    "engineering/ overviews/06- Sourcemap.md",
     "engineering/ overviews/05- webpack中实现Treeshaking.md",
     "engineering/ overviews/04-说说Webpack的分包策略.md",
     "engineering/ overviews/03-列举Webpack中常见的Plugin.md",
