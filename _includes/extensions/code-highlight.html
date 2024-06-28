@@ -48,8 +48,7 @@
 
     function addBadge(block) {
       var enabled = ('{{ badge_enabled }}' || 'true').toLowerCase();
-      // if (enabled == 'true') {
-      if (false) {
+      if (enabled == 'true') {
         var pre = block.parentElement;
         pre.classList.add('badge');
       }
