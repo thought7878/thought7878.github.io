@@ -144,8 +144,8 @@ brand_color: "#1890ff"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
+code_badge:
+  enabled: "false"
 #   color: "#fff"
 #   background_color: "#ff4e00"
 #   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
