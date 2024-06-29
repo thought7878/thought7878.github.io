@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e807a37737528cb0",
+        "id": "a5d8a70410775f70",
         "type": "tabs",
-        "dimension": 23.853868194842406,
+        "dimension": 28.36676217765043,
         "children": [
           {
-            "id": "3ec7e563a28c3c28",
+            "id": "18b5467d1f76997b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/07- 文件指纹.md",
+                "file": "engineering/ overviews/09- Babel配置ES6转ES5.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "a5d8a70410775f70",
+        "id": "6b9c50939e03dc6a",
         "type": "tabs",
-        "dimension": 76.1461318051576,
+        "dimension": 71.63323782234957,
         "children": [
           {
-            "id": "9f8ae03f86a0992c",
+            "id": "7e1dbf86a86f92d8",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1jP411Q7i1/"
+                "source": "https://www.bilibili.com/video/BV15h4y137zd/"
               }
             }
           }
@@ -163,8 +163,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9f8ae03f86a0992c",
+  "active": "7e1dbf86a86f92d8",
   "lastOpenFiles": [
+    "engineering/ overviews/09- Babel配置ES6转ES5.md",
+    "engineering/ overviews/08- Webpack提高构建效率.md",
     "engineering/ overviews/07- 文件指纹.md",
     "engineering/ overviews/06- Sourcemap.md",
     "engineering/ overviews/05- webpack中实现Treeshaking.md",
