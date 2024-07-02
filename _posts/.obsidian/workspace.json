@@ -4,56 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a5d8a70410775f70",
+        "id": "c055c5a78a9d8ecf",
         "type": "tabs",
-        "dimension": 24.7134670487106,
         "children": [
           {
-            "id": "18b5467d1f76997b",
+            "id": "e0b0a802d08dfe74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/11- CSS预处理器(Sass、Less)的功能.md",
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "6b9c50939e03dc6a",
-        "type": "tabs",
-        "dimension": 75.2865329512894,
-        "children": [
-          {
-            "id": "cb5556b4966aa661",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1sX4y1q743/"
-              }
-            }
-          },
-          {
-            "id": "506890819d08f24f",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1nz4y1e7Jj/"
-              }
-            }
-          },
-          {
-            "id": "7e1dbf86a86f92d8",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV15h4y137zd/"
               }
             }
           }
@@ -86,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#react",
+                "query": "git branch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -124,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md"
+              }
             }
           }
         ],
@@ -183,8 +148,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "cb5556b4966aa661",
+  "active": "e0b0a802d08dfe74",
   "lastOpenFiles": [
+    "AI/智能辅助开发插件-copilot、codegeex.md",
+    "AI/微软的Bing.md",
+    "engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
+    "engineering/package-manager/NPM/2021-08-18-1.overview.md",
+    "engineering/package-manager/NPM/2021-08-19-2.install.md",
+    "engineering/package-manager/NPM/2021-08-19-3.config.md",
+    "engineering/package-manager/NPM/2021-08-20-4.usage.md",
+    "engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
+    "engineering/module/2019-08-15-ESModules.md",
+    "git/overview.md",
+    "devops/CI&CD/_Create A CI&CD Pipeline For Front End Projects.md",
     "engineering/ overviews/11- CSS预处理器(Sass、Less)的功能.md",
     "engineering/ overviews/10- Webpack配置CodeSplitting代码分割.md",
     "engineering/ overviews/09- Babel配置ES6转ES5.md",
@@ -203,9 +179,6 @@
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
     "bilibili_3@bv19i4y1q7w7.930122069486885900.zh-CN.vtt",
     "Media Note - 006 Javascript Engine.md",
-    "base/js/JavaScript---The Advanced Concepts/Overview.md",
-    "base/js/winter/2.什么是面向对象-JavaScript对象的特征.md",
-    "base/js/winter/未命名.md",
-    "git/overview.md"
+    "base/js/JavaScript---The Advanced Concepts/Overview.md"
   ]
 }
