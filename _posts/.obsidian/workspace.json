@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 23.42406876790831,
+        "dimension": 33.2378223495702,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/16- Webpack Loader原理.md",
+                "file": "interview/国外企业在招聘远程岗位时，最看重什么？.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +23,17 @@
         ]
       },
       {
-        "id": "74392475443bedab",
+        "id": "1629edde044e24b4",
         "type": "tabs",
-        "dimension": 76.57593123209169,
+        "dimension": 66.7621776504298,
         "children": [
           {
-            "id": "60f594782c4a880f",
+            "id": "19578cf47a99c74d",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1xh4y1z7m8/"
+                "source": "https://www.bilibili.com/video/BV1UM4m127yw/"
               }
             }
           }
@@ -104,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "interview/国外企业在招聘远程岗位时，最看重什么？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "interview/国外企业在招聘远程岗位时，最看重什么？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "interview/国外企业在招聘远程岗位时，最看重什么？.md"
+              }
             }
           }
         ],
@@ -163,9 +167,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "60f594782c4a880f",
+  "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
+    "interview/国外企业在招聘远程岗位时，最看重什么？.md",
+    "base/其他类型的基础知识/绝对路径和相对路径.md",
     "engineering/ overviews/16- Webpack Loader原理.md",
+    "base/其他类型的基础知识",
     "engineering/ overviews/15- Vite原理.md",
     "engineering/ overviews/14- Webpack原理.md",
     "engineering/ overviews/13- 构建工具优化前端性能.md",
@@ -189,8 +196,6 @@
     "engineering/ overviews/06- Sourcemap.md",
     "engineering/ overviews/05- webpack中实现Treeshaking.md",
     "engineering/ overviews/04-说说Webpack的分包策略.md",
-    "engineering/ overviews/03-列举Webpack中常见的Plugin.md",
-    "engineering/ overviews/02-列举Webpack中常见的Loader.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
