@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 28.510028653295127,
+        "dimension": 23.42406876790831,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/ overviews/15- Vite原理.md",
+                "file": "engineering/ overviews/16- Webpack Loader原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
       {
         "id": "74392475443bedab",
         "type": "tabs",
-        "dimension": 71.48997134670488,
+        "dimension": 76.57593123209169,
         "children": [
           {
-            "id": "0605116d42363de9",
+            "id": "60f594782c4a880f",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1FV411w7Xp/"
+                "source": "https://www.bilibili.com/video/BV1xh4y1z7m8/"
               }
             }
           }
@@ -163,8 +163,9 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0605116d42363de9",
+  "active": "60f594782c4a880f",
   "lastOpenFiles": [
+    "engineering/ overviews/16- Webpack Loader原理.md",
     "engineering/ overviews/15- Vite原理.md",
     "engineering/ overviews/14- Webpack原理.md",
     "engineering/ overviews/13- 构建工具优化前端性能.md",
@@ -190,7 +191,6 @@
     "engineering/ overviews/04-说说Webpack的分包策略.md",
     "engineering/ overviews/03-列举Webpack中常见的Plugin.md",
     "engineering/ overviews/02-列举Webpack中常见的Loader.md",
-    "engineering/ overviews/01-说说前端构建工具的应用场景.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
