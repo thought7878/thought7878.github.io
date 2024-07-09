@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 28.796561604584525,
+        "dimension": 35.100286532951294,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/js/JavaScript---The Advanced Concepts/P1 001 How To Succeed In This Course.md",
+                "file": "interview/远程工作FAQs.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "3f9318a8b2e48a96",
         "type": "tabs",
-        "dimension": 71.20343839541547,
+        "dimension": 64.89971346704871,
         "children": [
           {
             "id": "1bcc34722aadda16",
@@ -49,8 +49,19 @@
                 "source": "https://www.bilibili.com/video/BV19i4y1Q7w7"
               }
             }
+          },
+          {
+            "id": "8cc5cbe8d2aed737",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV16K4y1z7JE/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -117,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "interview/远程工作FAQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "interview/远程工作FAQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "interview/远程工作FAQs.md"
+              }
             }
           }
         ],
@@ -176,8 +190,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "845e4d046d242cca",
   "lastOpenFiles": [
+    "tools/obsidian/基础.md",
+    "interview/求职平台.md",
+    "tools/obsidian",
+    "browser/浏览器渲染原理.md",
+    "browser/页面渲染流程分析.md",
     "base/js/JavaScript---The Advanced Concepts/P1 001 How To Succeed In This Course.md",
     "base/js/JavaScript---The Advanced Concepts/Overview.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
@@ -202,10 +221,6 @@
     "engineering/package-manager/NPM/2021-08-20-4.usage.md",
     "engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
     "engineering/module/2019-08-15-ESModules.md",
-    "git/overview.md",
-    "devops/CI&CD/_Create A CI&CD Pipeline For Front End Projects.md",
-    "engineering/ overviews/11- CSS预处理器(Sass、Less)的功能.md",
-    "engineering/ overviews/10- Webpack配置CodeSplitting代码分割.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
