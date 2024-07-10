@@ -1,0 +1,28 @@
+https://www.bilibili.com/video/BV1a8411i77L/?spm_id_from=333.880.my_history.page.click&vd_source=22af953ea4c09540ad1966711a2d53f0
+
+- [00:00](https://www.bilibili.com/video/BV1a8411i77L/?t=0.376#t=0.38) eslint
+- Why：
+	- 按照规则，检查代码的质量和格式；没通过，警告和报错；通过了，才能提交
+	- eslint也可对代码进行一定的自动格式化，和prettier冲突的原因
+- [00:49](https://www.bilibili.com/video/BV1a8411i77L/?t=49.104565#t=49.10) prettier
+- Why：
+	- 自动格式化代码，通过配置统一代码风格
+- [01:02](https://www.bilibili.com/video/BV1a8411i77L/?t=62.006581#t=01:02.01) husky
+- Why：
+	- 在提交代码时，自动执行prettier/eslint，自动格式化代码，自动检查代码质量 
+- [01:29](https://www.bilibili.com/video/BV1a8411i77L/?t=89.682531#t=01:29.68) lint-staged
+- Why：
+	- 问题：对所有的文件执行prettier/eslint，性能低
+	- 提交代码时，只对代码变更的文件，执行prettier/eslint
+- [01:54](https://www.bilibili.com/video/BV1a8411i77L/?t=114.714306#t=01:54.71) commitlint
+- Why：
+	- 对commit message进行格式检查，让团队的commit message保持一致。
+	- 这有利于根据commit message自动生成changelog和release note
+- [02:20](https://www.bilibili.com/video/BV1a8411i77L/?t=140.656207#t=02:20.66) commitizen
+- Why：
+	- 协助生成符合规范的commit message
+- 
+- [02:37](https://www.bilibili.com/video/BV1a8411i77L/?t=157.618218#t=02:37.62) vscode配置和插件
+	- prettier/eslint插件
+- 
+- [08:57](https://www.bilibili.com/video/BV1a8411i77L/?t=537.165737#t=08:57.17) prettier/eslint的冲突问题

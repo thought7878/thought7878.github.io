@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 35.100286532951294,
+        "dimension": 26.575931232091694,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/远程工作FAQs.md",
+                "file": "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "3f9318a8b2e48a96",
         "type": "tabs",
-        "dimension": 64.89971346704871,
+        "dimension": 73.42406876790831,
         "children": [
           {
             "id": "1bcc34722aadda16",
@@ -59,9 +59,19 @@
                 "source": "https://www.bilibili.com/video/BV16K4y1z7JE/"
               }
             }
+          },
+          {
+            "id": "24884964aed82965",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1a8411i77L/"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -127,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/远程工作FAQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/远程工作FAQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "interview/远程工作FAQs.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -190,13 +197,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "845e4d046d242cca",
+  "active": "24884964aed82965",
   "lastOpenFiles": [
+    "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
+    "engineering/Prettier&Eslint.md",
+    "要整理的.md",
+    "browser/浏览器渲染原理.md",
+    "browser/页面渲染流程分析.md",
+    "engineering/overview/前端工程化有哪些知识点？.md",
+    "interview/远程工作FAQs.md",
+    "engineering/overview",
     "tools/obsidian/基础.md",
     "interview/求职平台.md",
     "tools/obsidian",
-    "browser/浏览器渲染原理.md",
-    "browser/页面渲染流程分析.md",
     "base/js/JavaScript---The Advanced Concepts/P1 001 How To Succeed In This Course.md",
     "base/js/JavaScript---The Advanced Concepts/Overview.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
@@ -206,21 +219,16 @@
     "AI/通义千问.md",
     "interview/国外企业在招聘远程岗位时，最看重什么？.md",
     "base/其他类型的基础知识/绝对路径和相对路径.md",
-    "engineering/ overviews/16- Webpack Loader原理.md",
+    "engineering/overview2/16- Webpack Loader原理.md",
     "base/其他类型的基础知识",
-    "engineering/ overviews/15- Vite原理.md",
-    "engineering/ overviews/14- Webpack原理.md",
-    "engineering/ overviews/13- 构建工具优化前端性能.md",
-    "engineering/ overviews/12- PostCSS的功能.md",
+    "engineering/overview2/15- Vite原理.md",
+    "engineering/overview2/14- Webpack原理.md",
+    "engineering/overview2/13- 构建工具优化前端性能.md",
+    "engineering/overview2/12- PostCSS的功能.md",
     "AI/智能辅助开发插件-copilot、codegeex.md",
     "AI/微软的Bing.md",
     "engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
     "engineering/package-manager/NPM/2021-08-18-1.overview.md",
-    "engineering/package-manager/NPM/2021-08-19-2.install.md",
-    "engineering/package-manager/NPM/2021-08-19-3.config.md",
-    "engineering/package-manager/NPM/2021-08-20-4.usage.md",
-    "engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
-    "engineering/module/2019-08-15-ESModules.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
