@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 31.876790830945556,
+        "dimension": 32.09169054441261,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/Pnpm & Monorepo.md",
+                "file": "methods/动力.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "3f9318a8b2e48a96",
         "type": "tabs",
-        "dimension": 68.12320916905445,
+        "dimension": 67.90830945558739,
         "children": [
           {
             "id": "1bcc34722aadda16",
@@ -66,9 +66,29 @@
                 "source": "https://www.bilibili.com/video/BV1qg4y157dv/"
               }
             }
+          },
+          {
+            "id": "6d20777c2396a785",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV18k4y1S77U/"
+              }
+            }
+          },
+          {
+            "id": "0c5e3ac83c51caf4",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.youtube.com/watch?v=J8w9ZirH5yo"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -194,8 +214,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "cc743c3f78f36bae",
+  "active": "0c5e3ac83c51caf4",
   "lastOpenFiles": [
+    "methods/动力.md",
+    "engineering/npm package发包 & github release发版.md",
     "engineering/Pnpm & Monorepo.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
     "engineering/面试题总结.md",
@@ -224,8 +246,6 @@
     "engineering/overview2/14- Webpack原理.md",
     "engineering/overview2/13- 构建工具优化前端性能.md",
     "engineering/overview2/12- PostCSS的功能.md",
-    "AI/智能辅助开发插件-copilot、codegeex.md",
-    "AI/微软的Bing.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
