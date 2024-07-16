@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "要整理的.md",
+                "file": "roadmap/Front-End.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "要整理的.md",
+                "file": "roadmap/Front-End.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "要整理的.md",
+                "file": "roadmap/Front-End.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "要整理的.md"
+                "file": "roadmap/Front-End.md"
               }
             }
           }
@@ -219,8 +219,10 @@
   },
   "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
-    "browser/浏览器渲染原理.md",
     "要整理的.md",
+    "roadmap/Front-End.md",
+    "roadmap",
+    "browser/浏览器渲染原理.md",
     "methods/动力.md",
     "engineering/npm package发包 & github release发版.md",
     "engineering/Pnpm & Monorepo.md",
@@ -248,7 +250,6 @@
     "engineering/overview2/15- Vite原理.md",
     "engineering/overview2/14- Webpack原理.md",
     "engineering/overview2/13- 构建工具优化前端性能.md",
-    "engineering/overview2/12- PostCSS的功能.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
