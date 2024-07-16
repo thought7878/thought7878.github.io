@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "methods/动力.md",
+                "file": "要整理的.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -155,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "要整理的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "要整理的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "要整理的.md"
+              }
             }
           }
         ],
@@ -214,8 +217,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0c5e3ac83c51caf4",
+  "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
+    "browser/浏览器渲染原理.md",
+    "要整理的.md",
     "methods/动力.md",
     "engineering/npm package发包 & github release发版.md",
     "engineering/Pnpm & Monorepo.md",
@@ -223,8 +228,6 @@
     "engineering/面试题总结.md",
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/Prettier&Eslint.md",
-    "要整理的.md",
-    "browser/浏览器渲染原理.md",
     "browser/页面渲染流程分析.md",
     "engineering/overview/前端工程化有哪些知识点？.md",
     "interview/远程工作FAQs.md",
