@@ -6,7 +6,7 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 32.09169054441261,
+        "dimension": 69.02738432483476,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roadmap/Front-End.md",
+                "file": "base/html/ARIA.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "3f9318a8b2e48a96",
         "type": "tabs",
-        "dimension": 67.90830945558739,
+        "dimension": 30.97261567516525,
         "children": [
           {
             "id": "1bcc34722aadda16",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roadmap/Front-End.md",
+                "file": "base/html/ARIA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roadmap/Front-End.md",
+                "file": "base/html/ARIA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roadmap/Front-End.md"
+                "file": "base/html/ARIA.md"
               }
             }
           }
@@ -219,8 +219,9 @@
   },
   "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
-    "要整理的.md",
     "roadmap/Front-End.md",
+    "base/html/ARIA.md",
+    "要整理的.md",
     "roadmap",
     "browser/浏览器渲染原理.md",
     "methods/动力.md",
@@ -249,7 +250,6 @@
     "base/其他类型的基础知识",
     "engineering/overview2/15- Vite原理.md",
     "engineering/overview2/14- Webpack原理.md",
-    "engineering/overview2/13- 构建工具优化前端性能.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
