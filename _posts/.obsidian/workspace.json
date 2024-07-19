@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/html/ARIA.md",
+                "file": "tools/vscode/2018-01-23_settings.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/html/ARIA.md",
+                "file": "tools/vscode/2018-01-23_settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/html/ARIA.md",
+                "file": "tools/vscode/2018-01-23_settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/html/ARIA.md"
+                "file": "tools/vscode/2018-01-23_settings.md"
               }
             }
           }
@@ -219,8 +219,9 @@
   },
   "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
-    "roadmap/Front-End.md",
+    "tools/vscode/2018-01-23_code-format.md",
     "base/html/ARIA.md",
+    "roadmap/Front-End.md",
     "要整理的.md",
     "roadmap",
     "browser/浏览器渲染原理.md",
@@ -249,7 +250,6 @@
     "engineering/overview2/16- Webpack Loader原理.md",
     "base/其他类型的基础知识",
     "engineering/overview2/15- Vite原理.md",
-    "engineering/overview2/14- Webpack原理.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
