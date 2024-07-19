@@ -6,7 +6,6 @@
       {
         "id": "a3139fe9bded2f75",
         "type": "tabs",
-        "dimension": 69.02738432483476,
         "children": [
           {
             "id": "0fba321d5187bbcf",
@@ -14,81 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "react/forwardRef().md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "3f9318a8b2e48a96",
-        "type": "tabs",
-        "dimension": 30.97261567516525,
-        "children": [
-          {
-            "id": "1bcc34722aadda16",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV19i4y1Q7w7"
-              }
-            }
-          },
-          {
-            "id": "8cc5cbe8d2aed737",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV16K4y1z7JE/"
-              }
-            }
-          },
-          {
-            "id": "24884964aed82965",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1a8411i77L/"
-              }
-            }
-          },
-          {
-            "id": "cc743c3f78f36bae",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1qg4y157dv/"
-              }
-            }
-          },
-          {
-            "id": "6d20777c2396a785",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV18k4y1S77U/"
-              }
-            }
-          },
-          {
-            "id": "0c5e3ac83c51caf4",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.youtube.com/watch?v=J8w9ZirH5yo"
-              }
-            }
-          }
-        ],
-        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git branch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "react/forwardRef().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "react/forwardRef().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md"
+                "file": "react/forwardRef().md"
               }
             }
           }
@@ -219,6 +150,13 @@
   },
   "active": "0fba321d5187bbcf",
   "lastOpenFiles": [
+    "react/overview.md",
+    "react/forwardRef().md",
+    "libraries/shadcn/知识点.md",
+    "react/未命名",
+    "libraries/shadcn/issues 记录.md",
+    "libraries/NextUI/overview.md",
+    "tools/vscode/2018-01-23_settings.md",
     "tools/vscode/2018-01-23_code-format.md",
     "base/html/ARIA.md",
     "roadmap/Front-End.md",
@@ -243,13 +181,7 @@
     "base/js/JavaScript---The Advanced Concepts/Overview.md",
     "English/自学英语零基础到中高级！超详细学习指南！.md",
     "English",
-    "AI/AI对比.md",
-    "AI/通义千问.md",
-    "interview/国外企业在招聘远程岗位时，最看重什么？.md",
-    "base/其他类型的基础知识/绝对路径和相对路径.md",
-    "engineering/overview2/16- Webpack Loader原理.md",
     "base/其他类型的基础知识",
-    "engineering/overview2/15- Vite原理.md",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
     "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
