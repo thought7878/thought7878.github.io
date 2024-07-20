@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a3139fe9bded2f75",
+        "id": "521b3604a672227a",
         "type": "tabs",
         "children": [
           {
-            "id": "0fba321d5187bbcf",
+            "id": "b28d6bc54d425da5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/shadcn/知识点.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/shadcn/知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/shadcn/知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "libraries/shadcn/知识点.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,11 +140,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "b28d6bc54d425da5",
   "lastOpenFiles": [
+    "base/js/知识点总结/spread operator、展开运算符.md",
+    "libraries/shadcn/知识点.md",
+    "base/js/知识点总结",
     "react/forwardRef().md",
     "react/overview.md",
-    "libraries/shadcn/知识点.md",
     "react/未命名",
     "libraries/shadcn/issues 记录.md",
     "libraries/NextUI/overview.md",
@@ -179,7 +173,6 @@
     "tools/obsidian",
     "base/js/JavaScript---The Advanced Concepts/P1 001 How To Succeed In This Course.md",
     "base/js/JavaScript---The Advanced Concepts/Overview.md",
-    "English/自学英语零基础到中高级！超详细学习指南！.md",
     "English",
     "base/其他类型的基础知识",
     "Pasted image 20240624160758.png",
