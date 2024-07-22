@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/overview.md",
+                "file": "读书笔记/社会 & 资本主义.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:git  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/overview.md",
+                "file": "读书笔记/社会 & 资本主义.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/overview.md",
+                "file": "读书笔记/社会 & 资本主义.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/overview.md"
+                "file": "读书笔记/社会 & 资本主义.md"
               }
             }
           }
@@ -150,6 +149,10 @@
   },
   "active": "b28d6bc54d425da5",
   "lastOpenFiles": [
+    "git/overview.md",
+    "读书笔记/社会 & 资本主义.md",
+    "读书笔记",
+    "未命名.md",
     "devops/CI&CD/CICD 简介并使用 Github Actions 自动部署单页应用.md",
     "engineering/npm package发包 & github release发版.md",
     "devops/CI&CD/Github Actions Overview.md",
@@ -177,16 +180,12 @@
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/Prettier&Eslint.md",
     "browser/页面渲染流程分析.md",
-    "engineering/overview/前端工程化有哪些知识点？.md",
-    "interview/远程工作FAQs.md",
     "engineering/overview",
-    "tools/obsidian/基础.md",
     "tools/obsidian",
     "English",
     "base/其他类型的基础知识",
     "Pasted image 20240624160758.png",
     "Pasted image 20240624160300.png",
-    "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt",
-    "bilibili_3@bv19i4y1q7w7.930122069486885900.zh-CN.vtt"
+    "bilibili_3@bv19i4y1q7w7.929844120225349100.en-US.vtt"
   ]
 }
