@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
+                "file": "git/overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:git  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
+                "file": "git/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
+                "file": "git/overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md"
+                "file": "git/overview.md"
               }
             }
           }
@@ -134,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,8 +148,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "b28d6bc54d425da5",
   "lastOpenFiles": [
+    "devops/CI&CD/CICD 简介并使用 Github Actions 自动部署单页应用.md",
+    "engineering/npm package发包 & github release发版.md",
+    "devops/CI&CD/Github Actions Overview.md",
+    "git/git-workflow.md",
+    "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
     "engineering/pnpm & monorepo",
     "libraries/shadcn/知识点.md",
     "base/js/知识点总结/spread operator、展开运算符.md",
@@ -167,8 +172,6 @@
     "roadmap",
     "browser/浏览器渲染原理.md",
     "methods/动力.md",
-    "engineering/npm package发包 & github release发版.md",
-    "engineering/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
     "engineering/面试题总结.md",
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
@@ -178,9 +181,7 @@
     "interview/远程工作FAQs.md",
     "engineering/overview",
     "tools/obsidian/基础.md",
-    "interview/求职平台.md",
     "tools/obsidian",
-    "base/js/JavaScript---The Advanced Concepts/P1 001 How To Succeed In This Course.md",
     "English",
     "base/其他类型的基础知识",
     "Pasted image 20240624160758.png",

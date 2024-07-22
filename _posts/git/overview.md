@@ -173,7 +173,11 @@ git push <remote-name> <local-branch>:<remote-branch>
 
 #### 创建
 
-**创建**分支: `git branch <branch-name>`；
+**创建**分支: 
+
+```shell
+git branch <branch-name>
+```
 
 从当前分支**切换**到其他分支:
 
