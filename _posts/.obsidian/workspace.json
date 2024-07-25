@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 38.32378223495702,
+        "dimension": 34.52722063037249,
         "children": [
           {
             "id": "b28d6bc54d425da5",
@@ -19,13 +19,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29c5529718a0a10b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "082559cdc5919190",
         "type": "tabs",
-        "dimension": 61.676217765042985,
+        "dimension": 65.4727793696275,
         "children": [
           {
             "id": "5bff3b8d3a7a1e2a",
@@ -38,12 +51,12 @@
             }
           },
           {
-            "id": "29c5529718a0a10b",
+            "id": "9522455b19f3120d",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1He4y1i7yC/"
+                "source": "https://www.bilibili.com/video/BV1HE421N7m1/"
               }
             }
           }
@@ -115,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/智能辅助开发插件-copilot、codegeex.md"
+              }
             }
           }
         ],
@@ -176,6 +193,8 @@
   },
   "active": "29c5529718a0a10b",
   "lastOpenFiles": [
+    "AI/通义千问.md",
+    "AI/智能辅助开发插件-copilot、codegeex.md",
     "libraries/源码学习方法&调试技巧.md",
     "courses/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "git/overview.md",
@@ -205,8 +224,6 @@
     "browser/浏览器渲染原理.md",
     "methods/动力.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
-    "engineering/面试题总结.md",
-    "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/overview",
     "tools/obsidian",
     "English",
