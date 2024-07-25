@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 38.32378223495702,
         "children": [
           {
             "id": "b28d6bc54d425da5",
@@ -13,13 +14,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记/社会 & 资本主义.md",
+                "file": "libraries/源码学习方法&调试技巧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "082559cdc5919190",
+        "type": "tabs",
+        "dimension": 61.676217765042985,
+        "children": [
+          {
+            "id": "5bff3b8d3a7a1e2a",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Lt4y1u7cK/"
+              }
+            }
+          },
+          {
+            "id": "29c5529718a0a10b",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1He4y1i7yC/"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "调试",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -85,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/社会 & 资本主义.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "读书笔记/社会 & 资本主义.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "读书笔记/社会 & 资本主义.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -134,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,9 +174,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b28d6bc54d425da5",
+  "active": "29c5529718a0a10b",
   "lastOpenFiles": [
+    "libraries/源码学习方法&调试技巧.md",
+    "courses/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "git/overview.md",
+    "要整理的.md",
     "读书笔记/社会 & 资本主义.md",
     "读书笔记",
     "未命名.md",
@@ -171,15 +201,12 @@
     "tools/vscode/2018-01-23_code-format.md",
     "base/html/ARIA.md",
     "roadmap/Front-End.md",
-    "要整理的.md",
     "roadmap",
     "browser/浏览器渲染原理.md",
     "methods/动力.md",
     "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
     "engineering/面试题总结.md",
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
-    "engineering/Prettier&Eslint.md",
-    "browser/页面渲染流程分析.md",
     "engineering/overview",
     "tools/obsidian",
     "English",
