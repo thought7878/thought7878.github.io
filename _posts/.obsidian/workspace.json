@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "29c5529718a0a10b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c4d4d9964edd36e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6198df4f98a8e8c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md"
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md"
               }
             }
           }
@@ -172,16 +172,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c4d4d9964edd36e8",
+  "active": "6198df4f98a8e8c6",
   "lastOpenFiles": [
+    "2019-05-28-.md",
     "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
     "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
+    "libraries/源码学习方法&调试技巧.md",
     "typescript/base/2020-03-07-01 why.md",
     "typescript/base/2020-03-07-03 basic_types_2.md",
     "git/overview.md",
     "AI/智能辅助开发插件-copilot、codegeex.md",
     "AI/通义千问.md",
-    "libraries/源码学习方法&调试技巧.md",
     "courses/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "要整理的.md",
     "读书笔记/社会 & 资本主义.md",
@@ -203,7 +204,6 @@
     "libraries/NextUI/overview.md",
     "tools/vscode/2018-01-23_settings.md",
     "tools/vscode/2018-01-23_code-format.md",
-    "base/html/ARIA.md",
     "roadmap",
     "engineering/overview",
     "tools/obsidian",

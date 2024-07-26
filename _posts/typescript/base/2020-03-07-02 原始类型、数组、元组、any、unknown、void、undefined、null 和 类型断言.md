@@ -314,7 +314,7 @@ userInfo.id!.toFixed(); // ok，但不建议
 userInfo.name!.toLowerCase() // ok，但不建议
 ```
 
-TODO: [总结 ？/ ？？/ ！](https://github.com/e2tox/blog/issues/9)
+TODO: 总结目录 [资料](https://github.com/e2tox/blog/issues/9)
 
 而比非空断言更安全、类型守卫更方便的做法是使用**单问号（Optional Chain）、双问号（空值合并）**，我们可以使用它们来保障代码的安全性，如下代码所示：
 
@@ -324,10 +324,15 @@ const myName = userInfo.name ?? `my name is ${info.name}`; // 空值合并
 ```
 
 ### never
+#### Why
 
-**never 表示永远不会发生值的类型**，这里我们举一个实际的场景进行说明。
+**never 表示永远不会发生值的类型**。
 
-首先，我们定义一个统一抛出错误的函数，代码示例如下：
+#### 发生never的情况
+
+- 抛出错误的函数
+
+这里我们举一个实际的场景进行说明。首先，我们定义一个统一*抛出错误的函数*，代码示例如下：
 
 ```js
 function ThrowError(msg: string): never {
@@ -337,7 +342,9 @@ function ThrowError(msg: string): never {
 
 **以上函数因为永远不会有返回值，所以它的返回值类型就是 never**。
 
-同样，如果函数代码中是一个死循环，那么这个函数的返回值类型也是 never，如下代码所示。
+- 死循环的函数
+
+同样，如果*函数代码中是一个死循环*，那么这个函数的返回值类型也是 never，如下代码所示。
 
 ```ts
 function InfiniteLoop(): never {
@@ -345,7 +352,9 @@ function InfiniteLoop(): never {
 }
 ```
 
-**never 是所有类型的子类型，它可以给所有类型赋值**，如下代码所示。
+#### 与其他类型的关系
+
+**never 是所有类型的子类型，它可以给所有类型赋值**。如下代码所示：
 
 ```ts
 let Unreachable: never = 1; // ts(2322)
@@ -356,7 +365,9 @@ let str: string = Unreachable; // ok
 let bool: boolean = Unreachable; // ok
 ```
 
-但是反过来，除了 never 自身以外，其他类型（包括 any 在内的类型）都不能为 never 类型赋值。
+但是反过来，**除了 never 自身以外，其他类型（包括 any 在内的类型）都不能为 never 类型赋值**。
+
+#### 类型缩小时的问题
 
 在恒为 false 的类型守卫条件判断下，变量的类型将缩小为 never（never 是所有其他类型的子类型，所以是类型缩小为 never，而不是变成 never）。因此，条件判断中的相关操作始终会报无法更正的错误（我们可以把这理解为一种基于静态类型检测的 Dead Code 检测机制），如下代码所示：
 
@@ -367,7 +378,9 @@ if (typeof str === 'number') {
 }
 ```
 
-**基于 never 的特性，我们还可以使用 never 实现一些有意思的功能**。比如我们可以把 never 作为接口类型下的属性类型，用来禁止写接口下特定的属性，示例代码如下：
+#### 特殊用例：设置只读属性
+
+基于 never 的特性，我们还可以使用 never 实现一些有意思的功能。比如我们可以把 never 作为接口类型下的属性类型，**用来禁止写接口下特定的属性**，示例代码如下：
 
 ```ts
 const props: {
@@ -385,7 +398,7 @@ props.name = 1; // ts(2322)
 
 ### object
 
-**object 类型表示非原始类型的类型**，即非  number、string、boolean、bigint、symbol、null、undefined 的类型。然而，它也是个没有什么用武之地的类型，如下所示的一个应用场景是用来表示 Object.create 的类型。
+**object 类型表示非原始类型的类型**，即非  number、string、boolean、bigint、symbol、null、undefined 的类型。然而，它也是个**没有什么用武之地**的类型。如下所示的一个应用场景是用来表示 Object.create 的类型。
 
 ```ts
 declare function create(o: object | null): any;
