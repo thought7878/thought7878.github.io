@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
+                "file": "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
+                "file": "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
+                "file": "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md"
+                "file": "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md"
               }
             }
           }
@@ -174,12 +174,13 @@
   },
   "active": "6198df4f98a8e8c6",
   "lastOpenFiles": [
-    "2019-05-28-.md",
     "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
+    "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md",
+    "typescript/base/2020-03-07-03 basic_types_2.md",
+    "2019-05-28-.md",
     "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
     "libraries/源码学习方法&调试技巧.md",
     "typescript/base/2020-03-07-01 why.md",
-    "typescript/base/2020-03-07-03 basic_types_2.md",
     "git/overview.md",
     "AI/智能辅助开发插件-copilot、codegeex.md",
     "AI/通义千问.md",
@@ -203,7 +204,6 @@
     "libraries/shadcn/issues 记录.md",
     "libraries/NextUI/overview.md",
     "tools/vscode/2018-01-23_settings.md",
-    "tools/vscode/2018-01-23_code-format.md",
     "roadmap",
     "engineering/overview",
     "tools/obsidian",
