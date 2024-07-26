@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 34.52722063037249,
         "children": [
           {
             "id": "b28d6bc54d425da5",
@@ -26,37 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "082559cdc5919190",
-        "type": "tabs",
-        "dimension": 65.4727793696275,
-        "children": [
-          {
-            "id": "5bff3b8d3a7a1e2a",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1Lt4y1u7cK/"
-              }
-            }
-          },
-          {
-            "id": "9522455b19f3120d",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1HE421N7m1/"
               }
             }
           }
@@ -90,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "调试",
+                "query": "path:git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -128,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/智能辅助开发插件-copilot、codegeex.md",
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/智能辅助开发插件-copilot、codegeex.md"
+                "file": "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md"
               }
             }
           }
@@ -177,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,11 +162,14 @@
   },
   "active": "29c5529718a0a10b",
   "lastOpenFiles": [
-    "AI/通义千问.md",
+    "typescript/base/2020-03-07-03 basic_types_2.md",
+    "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
+    "typescript/base/2020-03-07-01 why.md",
+    "git/overview.md",
     "AI/智能辅助开发插件-copilot、codegeex.md",
+    "AI/通义千问.md",
     "libraries/源码学习方法&调试技巧.md",
     "courses/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
-    "git/overview.md",
     "要整理的.md",
     "读书笔记/社会 & 资本主义.md",
     "读书笔记",
@@ -221,9 +193,6 @@
     "base/html/ARIA.md",
     "roadmap/Front-End.md",
     "roadmap",
-    "browser/浏览器渲染原理.md",
-    "methods/动力.md",
-    "base/js/JavaScript---The Advanced Concepts/P3 006 Javascript Engine.md",
     "engineering/overview",
     "tools/obsidian",
     "English",
