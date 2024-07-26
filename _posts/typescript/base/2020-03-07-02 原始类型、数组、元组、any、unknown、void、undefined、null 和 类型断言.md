@@ -203,7 +203,7 @@ z(); // 不会提示错误
 
 unknown 是 TypeScript 3.0 中添加的一个类型，它**主要用来描述类型并不确定的变量**。
 
-- unknown 的使用场景：动态类型
+#### unknown 的使用场景：动态类型
 
 比如在多个 if else 条件分支场景下，它可以用来接收不同条件下类型各异的返回值的临时变量，如下代码所示：
 
@@ -218,7 +218,7 @@ if (x) {
 
 在 3.0 以前的版本中，只有使用 any 才能满足这种动态类型场景。
 
-- 与 any 的对比
+#### 与 any 的对比
 
 **与 any 不同的是，unknown 在类型上更安全**。比如我们可以将任意类型的值赋值给 unknown，但 unknown 类型的值只能赋值给 unknown 或 any
 
@@ -228,7 +228,7 @@ let num: number = result; // 提示 ts(2322)
 let anything: any = result; // 不会提示错误
 ```
 
-- unknown 的使用场景：缩小类型（Type Narrowing）
+#### unknown 的使用场景：缩小类型（Type Narrowing）
 
 使用 unknown 后，TypeScript 会对它做类型检测。但是，如果不缩小类型（Type Narrowing），我们对 unknown 执行的任何操作都会出现如下所示错误：
 
@@ -248,26 +248,26 @@ if (typeof result === "number") {
 
 ### void、undefined、null
 
-依照官方的说法，**它们实际上并没有太大的用处**。尤其是强烈推荐的 strict 模式下，它们是名副其实的“废柴”。
+依照官方的说法，**它们实际上并没有太大的用处**。尤其是强烈推荐的 strict 模式下，它们是**名副其实的“废柴”**。
 
-- void 使用场景
+#### void 使用场景
 
 它**仅适用于表示没有返回值的函数**。即如果该函数没有返回值，那它的类型就是 void。
 
 在 strict 模式下，声明一个 void 类型的变量几乎没有任何实际用处，因为我们不能把 void 类型的变量值再赋值给除了 any 和 unkown 之外的任何类型变量。
 
-- undefined 类型 和 null 类型
+#### undefined 和 null 
 
-它们是 TypeScript 值与类型关键字同名的唯二例外。但这并不影响它们被称为“废柴”，因为单纯声明 undefined 或者 null 类型的变量也是无比鸡肋，示例如下所示：
+它们是 TypeScript **值与类型关键字同名**的唯二例外。但这并不影响它们被称为“废柴”，因为单纯声明 undefined 或者 null 类型的变量也是无比鸡肋，示例如下所示：
 
 ```javascript
 let undeclared: undefined = undefined; // 鸡肋
 let nullable: null = null; // 鸡肋
 ```
 
-- undefined 使用场景
+#### undefined 使用场景
 
-undefined 的最大价值**主要使用在接口类型上，它表示一个可缺省、未定义的属性**。
+undefined 的最大价值**主要使用在接口上，它表示一个可缺省、未定义(没有赋值)的属性**。
 
 这里分享一个稍微有点费解的设计：我们可以把 undefined 值或类型是 undefined 的变量赋值给 void 类型变量，反过来，类型是 void 但值是 undefined 的变量不能赋值给 undefined 类型。
 
@@ -281,9 +281,9 @@ unusable = undeclared; // ok
 undeclared = unusable; // ts(2322)
 ```
 
-- null 使用场景
+#### null 使用场景
 
-**主要使用在接口制定上，它表明对象或属性可能是空值**。**尤其是在前后端交互的接口**，比如 Java Restful、Graphql，任何涉及查询的属性、对象都可能是 null 空对象，如下代码所示：
+**主要使用在接口上，它表明对象或属性可能是空值**。**尤其是在前后端交互的接口**，比如 Java Restful、Graphql，任何涉及查询的属性、对象都可能是 null 空对象，如下代码所示：
 
 ```javascript
 const userInfo: {
@@ -291,11 +291,11 @@ const userInfo: {
 } = { name: null };
 ```
 
-- undefined 和 null 的使用场景：非空判断，保障 JavaScript 运行时的安全性
+#### undefined 和 null 的使用场景：非空判断，保障 JavaScript 运行时的安全性
 
-除此之外，undefined 和 null 类型还具备警示意义，它们可以提醒我们针对可能操作这两种（类型）值的情况做容错处理。
+除此之外，undefined 和 null 类型还具备警示意义，它们可以提醒我们针对可能操作这两种类型值的情况做容错处理。
 
-我们需要类型守卫在操作之前判断值的类型是否支持当前的操作。类型守卫既能通过类型缩小影响 TypeScript 的类型检测，也能保障 JavaScript 运行时的安全性，如下代码所示：
+我们需要类型守卫在操作之前判断值的类型是否支持当前的操作。**类型守卫**既能通过类型缩小影响 TypeScript 的类型检测，也能保障 JavaScript 运行时的安全性，如下代码所示：
 
 ```javascript
 const userInfo: {
