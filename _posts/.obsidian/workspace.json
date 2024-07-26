@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +172,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "6198df4f98a8e8c6",
+  "active": "3fe3110c949a01ca",
   "lastOpenFiles": [
     "typescript/base/2020-03-07-02 原始类型、数组、元组、any、unknown、void、undefined、null 和 类型断言.md",
     "typescript/base/2020-03-18-04  字面量类型、类型推断、类型拓宽和类型缩小.md",
