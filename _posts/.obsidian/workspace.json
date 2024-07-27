@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d521bbd1799c5a98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/base/2020-03-18-07 Interface & Type 类型别名.md",
+                "file": "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/base/2020-03-18-07 Interface & Type 类型别名.md",
+                "file": "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/base/2020-03-18-07 Interface & Type 类型别名.md"
+                "file": "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md"
               }
             }
           }
@@ -172,8 +184,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "6198df4f98a8e8c6",
+  "active": "d521bbd1799c5a98",
   "lastOpenFiles": [
+    "typescript/base/2020-03-18-07 Interface & Type 类型别名.md",
+    "typescript/base/2020-03-18-16 tconfig.jon 配置：如何定制 TypeScript 的行为？.md",
+    "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
     "typescript/base/2020-03-18-06 类的类型.md",
     "typescript/base/2020-03-18-05 函数类型的定义 & 参数类型 & 返回值类型 & 函数重载.md",
     "typescript/总结/2019-05-28-||_&&_??_?_!等运算符.md",
@@ -200,10 +215,7 @@
     "libraries/shadcn/知识点.md",
     "base/js/知识点总结/spread operator、展开运算符.md",
     "base/js/知识点总结",
-    "react/forwardRef().md",
-    "react/overview.md",
     "react/未命名",
-    "libraries/shadcn/issues 记录.md",
     "roadmap",
     "engineering/overview",
     "tools/obsidian",
