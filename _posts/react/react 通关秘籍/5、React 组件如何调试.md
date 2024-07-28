@@ -1,14 +1,6 @@
-大家都是怎么调试 React 组件的呢？
+大家都是怎么调试 React 组件的呢？很多同学都会说，console.log 啊。这样可以，但效率太低了，因为你只能看到你打印的一些零散值，*看不到代码的具体执行路线，比如走了哪些分支、调用某个函数的时候参数是什么*。
 
-很多同学都会说，console.log 啊。
-
-这样可以，但效率太低了，因为你只能看到你打印的一些零散值，看不到代码的具体执行路线，比如走了哪些分支、调用某个函数的时候参数是什么。
-
-而如果你使用 debugger 断点调试的方式，就可以看到代码执行的细节，可以在关心的地方断住，单步执行来观察是否符合预期，可以帮你更好的理清代码逻辑。
-
-所以说，学会断点调试 React 组件的代码，是提升你写代码和排查错误的水平的很重要的一步。
-
-这节我们就来学下 React 组件的调试。
+而如果你使用 **debugger 断点调试**的方式，就可以看到代码执行的细节，可以在关心的地方断住，单步执行来观察是否符合预期，*可以帮你更好的理清代码逻辑*。所以说，学会断点调试 React 组件的代码，是*提升你写代码和排查错误的水平*的很重要的一步。
 
 用 cra 创建个项目：
 
@@ -16,7 +8,7 @@
 npx create-react-app --template typescript debug-test
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3412a97b90f84445865205353750577a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1172&h=312&s=55423&e=png&b=010101)
+![[react/react 通关秘籍/media/1444dce7789d299015ea5264f3dc20d8_MD5.png]]
 
 改下 index.tsx
 
@@ -29,6 +21,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(<App />);
 ```
+
 然后在 App.tsx 写个组件：
 
 ```javascript
@@ -68,119 +61,114 @@ export default App;
 npm run start
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dead91b48d8c4bbdb7bb118d4bd64bb4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=734&h=332&s=61069&e=gif&f=40&b=fdfdfd)
+![[react/react 通关秘籍/media/26d82d7e0aff8634417b974ae31f0025_MD5.gif]]
 
-点击 debug 面板的 create a launch.json file
+点击 debug 面板的 `create a launch.json file`
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dda22e46d3514c3ca255b4df7e8b0970~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=574&h=514&s=60111&e=png&b=191919)
+![[react/react 通关秘籍/media/1c00a171881394bd9527b894e11f49fc_MD5.png]]
 
 选择 chrome 类型的调试配置：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dfbd5914af6b473cbb2dba179fe7f3f4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=656&h=292&s=44345&e=png&b=242424)
+![[react/react 通关秘籍/media/d931f57a05468357ffcc964345f7d2c7_MD5.png]]
 
 它会创建 .vscode/launch.json 文件：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a773f098837d47689b5c5b0aa9ea295e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1516&h=658&s=166485&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/383c2c9dac040f967a6918a6b083d2b1_MD5.png]]
 
 把端口改为 3000
 
 然后点击调试按钮，会跑一个浏览器：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1282274d541348de9208261b874a756c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2194&h=1500&s=354960&e=gif&f=46&b=1c1c1c)
+![[react/react 通关秘籍/media/956336b01e6ecc474926e351ca97660f_MD5.gif]]
 
-打几个断点，然后点击刷新：
+打几个断点，然后点击*刷新*：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9c21c647c704b949a768f3ec8b202c3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1174&h=1096&s=174480&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/455b26b5ed6bfda7cdbfb8eb6a76b0c6_MD5.png]]
 
 代码会在断点处断住，左边可以看到作用域、调用栈，鼠标 hover 到变量上可以看到变量值：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4249285353ee4473a82e8e1984b957be~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1742&h=1166&s=370604&e=png&b=1c1c1c)
+![[react/react 通关秘籍/media/e0918400cae180e6099afc1ebdb6a2ec_MD5.png]]
 
-这几个按钮分别是跳断点执行、单步执行、进入函数、跳出函数、刷新、停止：
+这几个按钮分别是*跳断点执行、单步执行、进入函数、跳出函数、刷新、停止*：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f749c951a1e1486992fdee09b8c6896d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=370&h=72&s=9501&e=png&b=191919)
+![[react/react 通关秘籍/media/fec4e6a36118d90d9330e29dba676d8a_MD5.png]]
 
 可以点点试试看。
 
 在页面点击 div，会触发 click 事件，在断点处断住，
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c146f775f6114e5894d6b7d60c9a0f1f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1896&h=1336&s=392492&e=png&b=1b1b1b)
+![[react/react 通关秘籍/media/609d9513cb4aaa4ea6fa0e7aa648f75c_MD5.png]]
 
-可以在下面的 debug console 输入变量或者表达式，会输出执行结果：
+可以在下面的 `debug console` 输入变量或者表达式，会输出执行结果：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f0e9f2c69987412f8a1c0d560bf5bb5c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=942&s=142048&e=png&b=1a1a1a)
+![[react/react 通关秘籍/media/1e359ad74ff3c48759d554b502335eb9_MD5.png]]
 
 这样调试不比 console.log 方便多了？
 
-而且还有其他几种断点类型：
+而且还有其他几种断点类型，右键可以选择添加一个条件断点:
 
-右键可以选择添加一个条件断点:
+![[react/react 通关秘籍/media/5c2f64cb84fb396f5e312e84aeba0f3b_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca5047b7bc0b42d0bfa876e18a463140~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=792&h=380&s=67773&e=png&b=1f1f1f)
+**输入表达式，代码会在满足条件的时候断住：**
 
-输入表达式，代码会在满足条件的时候断住：
+![[react/react 通关秘籍/media/188b3e9654c052b1d38bd10f1fc58f6d_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08248fe17d7b4d1faf1036649fa6ca7f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=754&h=360&s=46712&e=png&b=202020)
+![[react/react 通关秘籍/media/506b3eb78abcddac6ff73574a53fd859_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b8aaf9aef9db4103a3a5075a6dae36d3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=964&h=718&s=108197&e=png&b=1f1f1f)
+也可以选择 hit count，*代码会在触发对应的次数的时候断住：*
 
-也可以选择 hit count，代码会在触发对应的次数的时候断住：
+![[react/react 通关秘籍/media/68156d151a4f4b8d550625b95a92c3c0_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/60d040cc80854781b7a3b63f279d42b8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=782&h=322&s=41778&e=png&b=202020)
+ `logpoint`，*它不会断住，但会在代码执行到这里的时候打印表达式的值：*
 
-或者是 logpoint，它不会断住，但会在代码执行到这里的时候打印表达式的值：
+![[react/react 通关秘籍/media/eedf4fe3e4dd040f947797fce0f34365_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/13a7c41d2e0747ac830451249275611f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=714&h=282&s=58337&e=png&b=bbb6b4)
+![[react/react 通关秘籍/media/e09612259cb9856142f954e76b0e138a_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e022713ed3fc4d8486dafdf40f3b87fa~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=992&h=686&s=97744&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/9b32dfd6f6b5209d33d5e2123ab667cb_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8d4f0241ad2743e5959a4d51645089f8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=846&h=718&s=81430&e=png&b=1c1c1c)
+这些断点类型也都挺有用的。这样我们就可以在 VSCode 里边写 React 组件边断点调试了。
 
-这些断点类型也都挺有用的。
+## userDataDir
 
-这样我们就可以在 VSCode 里边写 React 组件边断点调试了。
+### 为什么新启动的浏览器没有 React DevTools等插件
 
-不过，有同学可能会问，这个浏览器好像没有 React DevTools 啊。
+不过，**这个浏览器没有 React DevTools**。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/00425306a95649168c77212b65275f7b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2262&h=1340&s=201160&e=png&b=ffffff)
+![[react/react 通关秘籍/media/2b498d69b04f485f6cfe23d04b6c124c_MD5.png]]
 
-确实，因为这跑的是一个新的浏览器实例，没有之前的那些用户数据。
+确实，*因为这跑的是一个新的浏览器实例，没有之前的那些用户数据*。*用户数据是保存在 userDataDir 里的，一个 userDataDir 对应一个浏览器实例*。不信我们试试看：
 
-用户数据是保存在 userDataDir 里的，一个 userDataDir 对应一个浏览器实例。
-
-不信我们试试看：
-
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/62bec04f06cd454e9a8675ce62424c73~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1326&h=840&s=159851&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/726de63e2dca4c6be25ad811730ab6bf_MD5.png]]
 
 我指定一个 userDataDir，然后点击调试启动。
 
 在启动的浏览器里把掘金收藏为书签：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c9ffea90489b4667aba6f2c792393138~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2042&h=826&s=262530&e=png&b=fefefe)
+![[react/react 通关秘籍/media/beb337176782fed9fd90a73907070851_MD5.png]]
 
 然后进入刚才那个 userDataDir，进入 defaults 目录，看一下 Bookmarks 文件的内容： 
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f870900285c8497cb5ae5566f783cece~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=918&h=1096&s=187442&e=png&b=010101)
+![[react/react 通关秘籍/media/a200e9cc7d7694ff2853765fe7fda9ce_MD5.png]]
 
 就有刚才保存的书签了。
 
-同理，各种 chrome 插件、浏览记录、cookies 等等，所有用户数据都是保存在 userDataDir 里。
+同理，各种 chrome 插件、浏览记录、cookies 等等，所有用户数据都是保存在 userDataDir 里。chrome 一个 userDataDir 只能跑一个实例。
 
-chrome 一个 userDataDir 只能跑一个实例。
+**我们调试的时候，如果没有指定 userDataDir，默认是临时创建一个新的 userDataDir。** 所以这时候自然就没有 React DevTools 等你之前安装的插件了。
 
-我们调试的时候，如果没有指定 userDataDir，默认是临时创建一个新的 userDataDir。
+### 设置userDataDir，使用React DevTools等插件
 
-所以这时候自然就没有 React DevTools 等你之前安装的插件了。
+**如果想调试的时候还用这些插件，把 userDataDir 设置为 false，就是用默认的 userDataDir** ：
 
-如果想调试的时候还用这些插件，那可以把 userDataDir 设置为 false，就是这样就是用默认的 userDatDir 来跑：
+![[react/react 通关秘籍/media/273badc0ef9c70c8b6ad2f46dae3ca59_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b697eab725e04e1f957f39475a5b0e16~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=874&h=650&s=109369&e=png&b=1f1f1f)
 
-这时候需要你把之前跑的 chrome 关掉才能跑，因为一个 userDataDir 只能跑一个实例。
+*这时候需要把之前跑的 chrome 关掉才能跑，因为一个 userDataDir 只能跑一个实例。*
 
 之后再点击调试，这次跑的浏览器就有你之前装的 React DevTools 了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1df222df59944f69b633891adecabf82~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2276&h=934&s=106150&e=png&b=ffffff)
+![[react/react 通关秘籍/media/84bc97c5de810b4fbd6d350360395378_MD5.png]]
 
 这样，我们就可以在 VSCode 里断点调试，并且跑的调试浏览器还有 React DevTools 可用了。
 
