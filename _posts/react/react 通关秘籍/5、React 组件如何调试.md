@@ -1,3 +1,5 @@
+## Why 断点调试
+
 大家都是怎么调试 React 组件的呢？很多同学都会说，console.log 啊。这样可以，但效率太低了，因为你只能看到你打印的一些零散值，*看不到代码的具体执行路线，比如走了哪些分支、调用某个函数的时候参数是什么*。
 
 而如果你使用 **debugger 断点调试**的方式，就可以看到代码执行的细节，可以在关心的地方断住，单步执行来观察是否符合预期，*可以帮你更好的理清代码逻辑*。所以说，学会断点调试 React 组件的代码，是*提升你写代码和排查错误的水平*的很重要的一步。
@@ -63,6 +65,8 @@ npm run start
 
 ![[react/react 通关秘籍/media/26d82d7e0aff8634417b974ae31f0025_MD5.gif]]
 
+## How 断点调试
+
 点击 debug 面板的 `create a launch.json file`
 
 ![[react/react 通关秘籍/media/1c00a171881394bd9527b894e11f49fc_MD5.png]]
@@ -89,6 +93,8 @@ npm run start
 
 ![[react/react 通关秘籍/media/e0918400cae180e6099afc1ebdb6a2ec_MD5.png]]
 
+### 几个按钮
+
 这几个按钮分别是*跳断点执行、单步执行、进入函数、跳出函数、刷新、停止*：
 
 ![[react/react 通关秘籍/media/fec4e6a36118d90d9330e29dba676d8a_MD5.png]]
@@ -105,9 +111,14 @@ npm run start
 
 这样调试不比 console.log 方便多了？
 
-而且还有其他几种断点类型，右键可以选择添加一个条件断点:
+### 3种断点类型
+#### 条件断点
+
+而且还有其他3种断点类型，右键可以选择添加一个条件断点:
 
 ![[react/react 通关秘籍/media/5c2f64cb84fb396f5e312e84aeba0f3b_MD5.png]]
+
+
 
 **输入表达式，代码会在满足条件的时候断住：**
 
@@ -119,6 +130,8 @@ npm run start
 
 ![[react/react 通关秘籍/media/68156d151a4f4b8d550625b95a92c3c0_MD5.png]]
 
+ #### Logpoint
+ 
  `logpoint`，*它不会断住，但会在代码执行到这里的时候打印表达式的值：*
 
 ![[react/react 通关秘籍/media/eedf4fe3e4dd040f947797fce0f34365_MD5.png]]
@@ -129,7 +142,7 @@ npm run start
 
 这些断点类型也都挺有用的。这样我们就可以在 VSCode 里边写 React 组件边断点调试了。
 
-## userDataDir
+### userDataDir
 
 ### 为什么新启动的浏览器没有 React DevTools等插件
 
