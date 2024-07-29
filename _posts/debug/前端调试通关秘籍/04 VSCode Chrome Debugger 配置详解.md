@@ -135,40 +135,34 @@ userDataDir 设置为 false 的时候，*安装过的插件都可以直接用：
 
 *但是除了调试用之外，平时也会用到 Chrome 呀，同一个 user data dir 只能跑一个 Chrome 实例的话，那不就冲突了？* 这个问题可以用下面的配置解决。
 
+### 方案
+
 调试网页的 JS，需要先把 Chrome 跑起来，默认跑的是 Google Chrome，其实它还有另外一个版本 Canary：
 
 ![[debug/前端调试通关秘籍/media/0b9ac0561e3a7740ebe9c483682b2aec_MD5.png]]
 
-这是给开发者用的每日构建版，能够快速体验新特性，但是不稳定。
+这是给开发者用的每日构建版，能够快速体验新特性，但是不稳定。而 Google Chrome 是给普通用户用的，比较稳定。**这俩是独立的，相互之间没影响，可以都用同一个 user data dir 来启动**。你可以在[官网](https://www.google.com/intl/zh-CN/chrome/canary/)把 canary 下载下来。
 
-而 Google Chrome 是给普通用户用的，比较稳定。
-
-这俩是独立的，相互之间没影响，可以都用同一个 user data dir 来启动。
-
-你可以在[官网](https://www.google.com/intl/zh-CN/chrome/canary/)把 canary 下载下来。
-
-然后指定 runtimeExecutable 为 canary，使用默认的用户数据目录启动：
+*指定 runtimeExecutable 为 canary，使用默认的用户数据目录启动：*
 
 ![[debug/前端调试通关秘籍/media/defb577c0ece8a9fa9df0fcfb2d39490_MD5.png]]
 
 
 ![[debug/前端调试通关秘籍/media/7a692eb6e1490963e396bb803003461f_MD5.gif]]
 
-这样你就可以调试用 canary，平时用 chrome 了，两者都有各自的默认数据目录。
+**这样你就可以调试用 canary，平时用 chrome 了，两者都有各自的默认数据目录**。
 
-（注意，一定要先安装了 canary，才能指定 canary 跑）
+注意，一定要先安装了 canary，才能指定 canary 跑。
 
-当然，runtimeExecutable 还可以指定用别的浏览器跑：
+当然，*runtimeExecutable 还可以指定用别的浏览器跑：*
 
 ![[debug/前端调试通关秘籍/media/979d2c46bcfd3d8434484fe3ce9dac89_MD5.png]]
 
-可以是 stable，也就是稳定的 Google Chrome，或者 canary，也就是每日构建版的 Google Chrome Canary，还可以是 custom，然后用 CHROME_PATH 环境变量指定浏览器的地址。
-
-不过常用的还是 Chrome 和 Canary。
+可以是 stable，也就是稳定的 Google Chrome；或者 canary，也就是每日构建版的 Google Chrome Canary；还可以是 custom，然后用 CHROME_PATH 环境变量指定浏览器的地址。不过常用的还是 Chrome 和 Canary。
 
 ### runtimeArgs
 
-启动 Chrome 的时候，可以指定启动参数，比如每次打开网页都默认调起 Chrome DevTools，就可以加一个 --auto-open-devtools-for-tabs 的启动参数：
+启动 Chrome 的时候，可以指定*启动参数*，比如*每次打开网页都默认调起 Chrome DevTools*，就可以加一个 --auto-open-devtools-for-tabs 的启动参数：
 
 ![[debug/前端调试通关秘籍/media/fe8b577eec3d2812afe1e95b9f1d68fe_MD5.png]]
 
@@ -176,7 +170,7 @@ userDataDir 设置为 false 的时候，*安装过的插件都可以直接用：
 
 ![[debug/前端调试通关秘籍/media/287c9953c4836cbc407ef60b9fef171a_MD5.gif]]
 
-想要无痕模式启动，也就是不加载插件，没有登录状态，就可以加一个 --incognito 的启动参数：
+*想要无痕模式启动，也就是不加载插件，没有登录状态*，就可以加一个 --incognito 的启动参数：
 
 ![[debug/前端调试通关秘籍/media/53e3d43eb3d80fe083777cc5adca26cb_MD5.png]]
 
@@ -198,9 +192,7 @@ userDataDir 设置为 false 的时候，*安装过的插件都可以直接用：
 
 ![[debug/前端调试通关秘籍/media/e10825279d8847645a5750ff8231c022_MD5.png]]
 
-当然也可以关掉:
-
-Chrome DevTools 里这么关（command + shift + p）：
+当然也可以关掉: Chrome DevTools 里这么关（command + shift + p）
 
 ![[debug/前端调试通关秘籍/media/5e2de7151a21240197d3e0b65eda833c_MD5.png]]
 
@@ -220,19 +212,22 @@ VSCode Debugger 这么关：
 
 ![[debug/前端调试通关秘籍/media/9a4a56ea21a17296107dc9fe381f967d_MD5.png]]
 
+### VSCode中的sourceMapPathOverrides
+#### 问题
+
 而在 VSCode 里，这个路径是有对应的文件的，所以就会打开对应文件的编辑器，这样就可以边调试边修改代码。
 
-但有的时候，sourcemap 到的文件路径在本地里找不到，这时候代码就只读了，因为没有地方保存：
+*但有的时候，sourcemap 到的文件路径在本地里找不到*，这时候代码就只读了，因为没有地方保存：
 
 ![[debug/前端调试通关秘籍/media/0d7de76667b634ce738c949d1f4bd22d_MD5.png]]
 
-这种情况就需要对 sourcemap 到的路径再做一次映射：
+#### 方案
+
+**这种情况就需要对 sourcemap 到的路径再做一次映射：**
 
 ![[debug/前端调试通关秘籍/media/ec9c8348b3052eb4705b14b9c3c78e6f_MD5.png]]
 
-通过 sourceMapPathOverrides 这个配置项。
-
-默认有这么三个配置：
+通过 sourceMapPathOverrides 这个配置项。默认有这么三个配置：
 
 ![[debug/前端调试通关秘籍/media/8cf4721904da0f787a01348d5fb05c30_MD5.png]]
 
@@ -248,7 +243,7 @@ VSCode Debugger 这么关：
 
 ## file
 
-除了启动开发服务器然后连上 url 调试之外，也可以直接指定某个文件，VSCode Debugger 会启动静态服务器提供服务：
+除了启动开发服务器然后连上 url 调试之外。*也可以直接指定某个文件，VSCode Debugger 会启动静态服务器提供服务：*
 
 ![[debug/前端调试通关秘籍/media/4053c2957fd671464e9bcfb1f7c70df3_MD5.png]]
 

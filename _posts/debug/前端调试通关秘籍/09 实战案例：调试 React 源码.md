@@ -1,28 +1,31 @@
-Vue、React 的项目怎么调试我们都知道了，这节我们来调试下 React 的源码。
+
 
 把 react 和 react-dom 包下载了下来，在项目里引入，开发服务跑起来后，打开 Chrome Devtools 打断点调试。
 
+##  问题
+
 你会发现调试的是 react-dom.development.js
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09efe920c2514c6cad70fe10f2935ffd~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/1100b0c59f90446bebaa6c34456cbf3e_MD5.png]]
 
-这是因为 react-dom 包下就是编译后的 react-dom.development.js 文件：
+**这是因为 react-dom 包下就是编译后**的 react-dom.development.js 文件：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/822e3524ba53404d893594cecf19db14~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/55903b51b84060eb4241c619c3593af5_MD5.png]]
 
-而源码里这些逻辑是分散在不同的包里的，所以就算搞懂了逻辑，也不知道这些逻辑在哪些包里，只能靠搜索来定位。
+*而源码里这些逻辑是分散在不同的包里的，所以就算搞懂了逻辑，也不知道这些逻辑在哪些包里，只能靠搜索来定位*。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2194483a5cb64e709dcd0544e7d79511~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/30f522d6d225add6641f09ff5c4c9a54_MD5.png]]
 
-那怎么能够调试 React 最初的源码呢？
 
+
+**那怎么能够调试 React 最初的源码呢？** **这就需要用到我们刚学的 sourcemap 的知识了**
 也就是这样的效果：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7418d16f7c874f9cb25912f40deef10a~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/970b66f98a92169d2f05f31b0c49d26f_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d41e2219fd3546cda7a30bbe231cac3e~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/8421d0012eeb2aece7b31e819272c9c3_MD5.gif]]
 
-这就需要用到我们刚学的 sourcemap 的知识了：
+
 
 ## 用 VSCode 调试 React 项目
 
@@ -30,42 +33,43 @@ Vue、React 的项目怎么调试我们都知道了，这节我们来调试下 R
 
 这时候浏览器访问就可以用 Chrome DevTools 调试了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ab07f72ab99c47f686d6c20d5f134fd5~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/c06ba750c41eeb4574a7150a6e85f9d3_MD5.png]]
 
 但我们的目标是在 VSCode 里调试，所以要添加一个 VSCode 的 debugger 配置：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9435be67eb764b4682034ce187c4466a~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/2fb446689ae136bd37377008f827d807_MD5.png]]
 
 然后点击 debug 启动：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c3b5ed86cd76417291424b8312e5f26c~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/3b95aea739a4a8b55420f93f2928cbaa_MD5.png]]
 
 这时候就可以在 VSCode 里直接打断点调试了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/22a890f4e5d246b2b8a96b161f338fdf~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/5dc31d140005d8015a11db734cce27f2_MD5.png]]
 
-用 VSCode 调试比 Chrome DevTools 方便一些，但现在调试的依然是 react-dom.development.js：
+用 VSCode 调试比 Chrome DevTools 方便一些，*但现在调试的依然是 react-dom.development.js：*
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bac7f31b42d4667bbd0793710b60ef5~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/48b00a4c0431e0f8bea8ffd349cf5a70_MD5.gif]]
 
-那怎么调试 react 最初的源码呢？
-
-这就涉及到 sourcemap 的作用了。但是现在下载的 react、react-dom 包里都不带 sourcemap，我们得把 React 源码下载下来自己 build：
+**那怎么调试 react 最初的源码呢？** 这就涉及到 sourcemap 的作用了。**但是现在下载的 react、react-dom 包里都不带 sourcemap，我们得把 React 源码下载下来自己 build：**
 
 ## build 出带有 sourcemap 的 react 包
 
 用 npm 下载的 react 包是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0930bf68605f4c269a721678ba511333~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/535deeb522303815e8cbf5c55241e1d4_MD5.png]]
 
 而我们需要的是带有 sourcemap 的代码，也就是这样的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0b7088ece3d24c279297e8aeebf675c1~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/c352ace244b2c4080cb3709d1654a918_MD5.png]]
+
+### 下载 react 源码
 
 这就要下载 react 源码自己 build 了：
 ```
 git clone https://github.com/facebook/react
 ```
+
 下载之后 reset 到这个 commit：
 ```
 git reset --hard 80f3d88190c07c2da11b5cac58a44c3b90fbc296
@@ -74,58 +78,60 @@ git reset --hard 80f3d88190c07c2da11b5cac58a44c3b90fbc296
 
 下载下来的代码执行 npm run build 就能看到 build 的产物（先不用跑这一步）：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/41d1883794b54d1f816c67019127d363~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/c4a0427f57501c1df42caab963cdb007_MD5.png]]
 
 这里的 build/node_modules 下的 react 和 react-dom 包就是我们需要的。
 
-但是现在 build 出的代码并没有带 sourcemap，需要改造下 build 流程。
+### 改造 build 流程
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27bc3fb2de0e4c3e820705e14add4453~tplv-k3u1fbpfcp-watermark.image?)
+但是*现在 build 出的代码并没有带 sourcemap*，需要改造下 build 流程。
+
+![[debug/前端调试通关秘籍/media/a7817fbfeb9cceef593571f84d92ab43_MD5.png]]
 
 build 命令执行的是 ./scripts/rollup/build.js，打开这个文件做一些修改。
 
-找到 rollup 的配置，添加一行 sourcemap: true，这个很容易理解，就是让 rollup 在构建时产生 sourcemap：
+**找到 rollup 的配置，添加一行 sourcemap: true，这个很容易理解，就是让 rollup 在构建时产生 sourcemap：**
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3b325bb4d64c484e95fa2a848955d7b8~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/240038f9253d33626ef081e616faffcc_MD5.png]]
 
-再跑 npm run build，会报这样的错误：
+#### build sourcemap 的问题
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2aab90372c548a7b798e170cf9057a5~tplv-k3u1fbpfcp-watermark.image?)
+*再跑 npm run build，会报这样的错误：*
 
-某个转换的插件没有生成 sourcemap。
+![[debug/前端调试通关秘籍/media/08a507c7a1676e7cbcf376470987c87b_MD5.png]]
 
-这个是因为构建的过程中会进行多次转换，会生成多次 sourcemap，然后把 sourcemap 串联起来就是最终的 sourcemap。如果中间有一步转换没有生成 sourcemap，那就断掉了，也就没法把 sourcemap 串联起来了。
+某个转换的插件没有生成 sourcemap。*这个是因为构建的过程中会进行多次转换，会生成多次 sourcemap，然后把 sourcemap 串联起来就是最终的 sourcemap*。*如果中间有一步转换没有生成 sourcemap，那就断掉了，也就没法把 sourcemap 串联起来了*。
 
-这个问题的解决只要找出没有生成 sourcemap 的那几个插件注释掉就可以了：
+##### 解决方法
 
-在 getPlugins 方法里，把这样 5 个插件给注释掉：
+这个问题的解决**只要找出没有生成 sourcemap 的那几个插件注释掉**就可以了。在 getPlugins 方法里，把这样 5 个插件给注释掉：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d3e7a66705147aeab5f172384155a2b~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/548a2e845a73857ccc1deb33b1e03753_MD5.png]]
 
-这个是删除 use strict 用的，可以去掉。
+这个是*删除 use strict 用的*，可以去掉。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e37f2cda23c84ee19a89dd6799927830~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/26ea4de06e5dcd62bb456d064966b175_MD5.png]]
 
-这个是生产环境压缩代码的，也可以去掉。
+这个是*生产环境压缩代码的*，也可以去掉。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/437749ca94a245e391e6e7415646bbeb~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/fa7dfbc0cf07230399125cf37fc4f81a_MD5.png]]
 
-这个是用 prettier 格式化代码的，也可以去掉。
+这个是*用 prettier 格式化代码的*，也可以去掉。
 
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd2bdadee106476696b8a1e0afacd699~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/cf0e2735ee92f0bbb315187c35508490_MD5.png]]
 
-这个是添加一些头部的代码的，比如 Lisence 等，也没啥用，可以去掉。
+这个是*添加一些头部的代码的*，比如 Lisence 等，也没啥用，可以去掉。
 
 还有这个：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a63e1a3e15494b02be66619cea1ed541~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/d6ac6cd41219b21f891349ddcaa96635_MD5.png]]
 
-去掉这 5 个插件之后，再运行 npm run build，这时候就能正常进行构建了，然后产生的代码就是带有 sourcemap 的：
+*去掉这 5 个插件之后，再运行 npm run build，这时候就能正常进行构建了，然后产生的代码就是带有 sourcemap 的：*
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b83161186ba7482bb0c51e7650f29d67~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/32490ec95afc5126fec6ee15d3fa410c_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/636c3ba1ec334eba8fe2c0245ffec58b~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/c3e682cba0a59da99bcc1186ba966e96_MD5.png]]
 
 这样我们就成功的 build 出了带有 sourcemap 的 react 包！
 
@@ -139,7 +145,7 @@ build 命令执行的是 ./scripts/rollup/build.js，打开这个文件做一些
 
 为什么呢？
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd6e6ae6e0454916b772d7f6402f2143~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/44ab16cbcba24a99ac87cdf01686106a_MD5.png]]
 
 因为我们虽然 build React 源码生成了 sourcemap，但是 webpack 打包的时候没有关联它啊，这样 webpack 的 sourcemap 就只能映射到 react-dom.development.js 不能进一步映射到源码了。
 
@@ -163,21 +169,21 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 修改 webpack 配置，在 externals 下添加 react 和 react-dom 包对应的全局变量：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e8674e738e145a6af6dcf5d43afe909~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/5b5454524d48313f54ceaed1982e405f_MD5.png]]
 
 然后把 react.development.js 和 react-dom.development.js  放到 public 下，并在 index.html 里面加载这俩文件：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e61ecf9060d49fabad9699b06b85a3e~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/3846414c82084c47ecfce76589f93e92_MD5.png]]
 
 这样再重新 debug，你就会发现 sourcemap 映射到 React 最初的源码了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e4328e0c24784289ae518d4164f89a88~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/8bc9d358268de45aabe3af4d39b39073_MD5.png]]
 
 不再是 react-dom.development.js 下的代码，而是具体 react-xxx 包下的。
 
 这就达到了最开始的目的，能直接调试 React 最初的源码！
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e163d261da134940bd68841d2e9fc08e~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/82137a0cf98145ba84f90a928b856fd6_MD5.gif]]
 
 还记得我们这样做的意义么？
 
@@ -189,7 +195,7 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 看我最初演示的效果，点击调用栈是能直接定位到 react 源码项目的文件的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d41e2219fd3546cda7a30bbe231cac3e~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/8421d0012eeb2aece7b31e819272c9c3_MD5.gif]]
 
 这是怎么做到的呢？
 
@@ -197,31 +203,31 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 现在 sourcemap 已经生效了，只不过 react 项目没有在 workspace 下。所以，如果想直接定位 react 源码项目的话，可以这样做：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4586e1e6847e49f7ad4d778070513f30~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/a5bc3ecdd135dfdc38273e1937e78985_MD5.png]]
 
 创建一个新的目录，把 react 源码项目和测试的项目放到一个 workspace 下，这样再调试的时候，map 到的文件就能在 workspace 找到了，也就会打开相应的文件。
 
 只不过现在 sourcemap 下都是这样的相对路径，会导致映射到的文件路径不对：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9ce66f6c7e547c890c5e15fe4bb2e71~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/837588bb234e175e71c0a2db3d1c3040_MD5.png]]
 
 所以再去修改下 react build 流程，在 ./script/rollup/build.js 下，添加一个 sourcemap 的路径映射，把 ../../../packages 映射到 react 项目的绝对路径/packages ：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f9d9b961d876407db6b81efd8653cc3a~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/d6644ef4995ad8bd7dc01c0c7ec019bc_MD5.png]]
 
 这时候再重新 build，生成的 sourcemap 就是绝对路径了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5853b6cbfec641f592519215ad9bd741~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/6b12b549a9c6933d6be1bedbe5e4b7a4_MD5.png]]
 
 把 build 出的带有 sourcemap 的代码复制到项目的 node_modules 下，覆盖一下。这四个文件 react.development.js、react.development.js.map、react-dom.development.js、react-dom.development.js.map
 
 在新的 workspace 里 debug，你就会发现，路径映射对了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bfbd1497d3744398869ca78d7c40ad43~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/0f6c45e0cb9afe6884e22173b92c72d7_MD5.png]]
 
 点击调用栈能直接打开 react 源码项目的对应文件了！
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f336e59289b646dbb0bf557f9f9d6c1b~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/a492363b2728e247e2b027875a8e89c3_MD5.gif]]
 
 因为只要 sourcemap 映射到的文件在 workspace 下能找到，VSCode 就会把它打开并定位到对应行列号。
 
@@ -237,13 +243,13 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 记得上节讲 webpack 配置的时候，讲到了 module 相关的配置么？
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/882f1fd0c1904a02b40cbe58df429dff~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/a95a067e5366d3b0cd9de40970f8c2e1_MD5.png]]
 
 module 配置的作用就是让 webpack 在生成模块的 sourcemap 的时候，读取下每个 loader 的 sourcemap，关联起来。
 
 但是只有这样还不够，我们现在是 react 和 react-dom 包的代码本身有了 sourcemap，而且这些代码也不用经过 babel 的编译，所以还需要一个 source-map-loader 来把这些 sourcemap 读取出来，传递给后续的 loader：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3bb94acd55b342749e0b081e85b1da8e~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/d6caeb7647573fae687b150cb687df0f_MD5.png]]
 
 这样，webpack 的 sourcemap 就是直接映射到 React 源码的了。
 
@@ -319,15 +325,15 @@ root.render(React.createElement(Aaa));
 
 然后添加一个调试配置：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6197a3e79e784122b89e8ed0f6f7fc47~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/de172298f102741e1bd70de4f92becba_MD5.png]]
 
 把生成的 react、react-dom 的产物复制到 node_modules 下：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/750a0ff014574b6ea3332acdf086e5c0~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/97730d1ed78152152356d837bd4e4e05_MD5.png]]
 
 点击 Debug 启动：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca2297dcead64cb9b70e414c38683626~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/7197126d9af8e6e1e236ebc15d3f3164_MD5.gif]]
 
 这时候调用栈中的就是 React 的源码。
 
@@ -335,7 +341,7 @@ root.render(React.createElement(Aaa));
 
 只不过因为现在 workspace 中没有对应的文件，可以用同样的方式把 react 源码项目和 demo 项目放到一个 workspace，然后再调试：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f336e59289b646dbb0bf557f9f9d6c1b~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/a492363b2728e247e2b027875a8e89c3_MD5.gif]]
 
 这样就能调试 React 源码，并且直接在编辑器里打开对应的文件了。
 
@@ -345,7 +351,7 @@ root.render(React.createElement(Aaa));
 
 执行 npx patch-package react-dom，就会生成这样的目录：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a03f8793737a4a4fb5df7d794b46c448~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/9a0d20f0af8f7cb366a960a2ac444759_MD5.png]]
 
 patches 目录下的就是每个包的 diff，在哪个文件添加了删除了什么代码。
 
