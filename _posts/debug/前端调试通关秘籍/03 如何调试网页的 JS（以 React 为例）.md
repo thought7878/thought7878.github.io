@@ -12,113 +12,108 @@ yarn create react-app test-react-debug
 
 它会启动一个开发服务，然后浏览器访问 localhost:3000：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f382cdf8229942f78d7fc6df8a177ac0~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/1e050b00da3a6e62ddee74d9624425bc_MD5.png]]
 
-打开 Chrome DevTools，在 Sources 面板找到 src/index.js，打上个断点：
+# Chrome DevTools
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/45646ebb9946450c89ab642cd1859b0f~tplv-k3u1fbpfcp-watermark.image?)
+在 Sources 面板找到 src/index.js，打上个断点：
+
+![[debug/前端调试通关秘籍/media/e021dacaffcb7e54e725ea720d9cd356_MD5.png]]
 
 然后刷新就可以开始调试了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/98282c6e246344d3b391df2b30bb8970~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/85ad1075a92e741dba98dd4efd80227f_MD5.png]]
 
 代码会在断点处断住，右边会显示当前 local 作用域的变量，global 作用域的变量，还有调用栈 call stack。
 
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c621e583a59f49d2b03676fafeff802f~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/b9542810cb0979c89b66f0bcb702bc55_MD5.png]]
 
 上面有几个控制执行的按钮，分别是：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6ab439b27b914d44bf76570a586f124a~tplv-k3u1fbpfcp-watermark.image?) 恢复执行
+![[debug/前端调试通关秘籍/media/176623375bd8f242b6c4ee18b378c62c_MD5.png]]恢复执行
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c1f19fb471b421bb5fa7fa4eef41f06~tplv-k3u1fbpfcp-watermark.image?) 单步执行
+![[debug/前端调试通关秘籍/media/b576e1ad27307a7e59f53562ce50edc7_MD5.png]]单步执行
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59d6e0c72f154e7da1573e3f7d2e8ddc~tplv-k3u1fbpfcp-watermark.image?) 进入函数调用
+![[debug/前端调试通关秘籍/media/942e6080da600dc4315d409af94b236f_MD5.png]]进入函数调用
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8a0b3f9e006f47ce9b718af53346eeb3~tplv-k3u1fbpfcp-watermark.image?) 跳出函数调用
+![[debug/前端调试通关秘籍/media/ee1b3b84ab3d50fa23135cb4d879c562_MD5.png]]跳出函数调用
 
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3347871bccf14e8c969497123d6c19a8~tplv-k3u1fbpfcp-watermark.image?) 让断点失效
+![[debug/前端调试通关秘籍/media/0031d5df15d05c70c081e6b89d6a9ab2_MD5.png]]让断点失效
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/25142f8e065648c6a69a723c554942f9~tplv-k3u1fbpfcp-watermark.image?) 在异常处断住
+![[debug/前端调试通关秘籍/media/d4bb3e5cac2fa8823e487acab559487a_MD5.png]]在异常处断住
 
 **可以控制代码的执行，可以看到每一步的调用栈和作用域的变量，那理清代码的逻辑，或者排查代码中的问题不就很容易了么？**
+
+# VSCode Debugger
 
 其实调试网页的 JS，除了 Chrome DevTools 外，还有一种更好用的调试方式： VSCode Debugger。
 
 用 VSCode 打开项目目录，创建 .vscode/launch.json 文件：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e15a51f283d4ab999877fe8a111e0ef~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/270999d269a88f2819e75833a3a50602_MD5.png]]
 
 点击右下角的 Add Configuration... 按钮，选择 Chrome: Launch
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e42aeb0f8d44e17964bc1ae03697bbc~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/2e65095bb4f550564bbc122654bbcdd4_MD5.png]]
 
-把访问的 url 改为开发服务器启动的地址：
+把访问的 url 改为**开发服务器启动的地址**：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d04afc87154d49a194f0d7e210c53ca4~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/48150e7d2d52770499d8ef767f39da21_MD5.png]]
 
 然后进入 Debug 窗口，点击启动：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be97e02241c44f03a6e585d3053c3515~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/1a99ae4e7e58a562b248a48c2fd85665_MD5.png]]
 
 你会发现它启动了浏览器，并打开了这个 url：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c9a18b192b447b99494918017c50e95~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/9b45d697ce3f9a2908d1883d7c3508b2_MD5.png]]
 
 VSCode 里还会有一排控制执行的按钮：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/17525adcff2640d4b646afe99ad0fb61~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/86d8b409d6f27217dac5efdddab7d485_MD5.png]]
 
-在代码打个断点，然后点击 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/437daa8d0a9d44fca3e3041ca0581725~tplv-k3u1fbpfcp-watermark.image?)
+在代码打个断点，然后点击 ![[debug/前端调试通关秘籍/media/ab45088fb3459c63d1a3fe859b3064f3_MD5.png]]
  刷新：
  
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/988fb24839fe41f48a85b504373594da~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/de2f412ae92b294686d541384230ee43_MD5.png]]
 
 代码会执行到断点处断住，本地和全局作用域的变量，调用栈等都会展示在左边：
 
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e4a1b14004614cd9915571bae0eeb17b~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/d14bbd5ef93362daf55a1a88b57fcc0e_MD5.gif]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6985b9d252af4aff97fc92cb9ba289de~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/3a5a41abe91fab0f07edefa5ac49be32_MD5.png]]
 
-上面的控制按钮分别对应恢复执行、单步执行、进入函数调用、跳出函数调用，这个和 Chrome DevTools 一样：
+上面的控制按钮分别对应**恢复执行、单步执行、进入函数调用、跳出函数调用**，这个和 Chrome DevTools 一样，还多了**刷新和停止**的按钮。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/95f8908e4f3c404c9b1ec8877db636f1~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/bb2bb1a0e14348effbe000dafb4313a9_MD5.png]]
 
-还多了刷新和停止的按钮。
 
-那异常断点的按钮呢？
 
-被移到了这里：
+那**异常断点**的按钮呢？被移到了这里。可以在被 catch 的异常处断住，也可以在没有被 catch 的异常处断住。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/967c7706bf144cefbf3e854d17aa6513~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/b256b93d7c9030afa59fbe1920aa81f3_MD5.png]]
 
-可以在被 catch 的异常处断住，也可以在没有被 catch 的异常处断住。
+
+## VSCode Debugger的好处
 
 看起来和 Chrome DevTools 里调试差不多呀，在 VSCode Debugger 里调试有啥好处么？
-
-好处是不用切换工具呀，之前是调试在 Chrome DevTools，写代码在 VSCode，而现在写代码和调试都可以在 VSCode 里，可以边调试边写代码。
-
+**好处**是不用切换工具呀，之前是调试在 Chrome DevTools，写代码在 VSCode，而现在写代码和调试都可以在 VSCode 里，可以边调试边写代码。
 比如我想访问 this 的某个属性，可以在 Debug Console 里输入 this 看下它的值，然后再来写代码：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/622cf32201f04a4e83d1f814812482f5~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/8ed73b2ab69b30a0f5261f5c5bc43455_MD5.gif]]
 
-如果你用了 TypeScript 可能会有属性名的提示、属性值类型的提示，但并不知道属性的值是啥。
+如果你用了 TypeScript 可能会有属性名的提示、属性值类型的提示，但并不知道属性的值是啥。而边调试边写代码，能直接知道属性值是什么，有哪些函数可以调用。**边调试边写代码是我推荐的写代码方式。**
 
-而边调试边写代码，能直接知道属性值是什么，有哪些函数可以调用。
+知道了怎么用，我们再来思考下：为什么 Chrome DevTools 和 VSCode Debugger 都可以调试网页呢？这是因为调试协议是一样的，都是 CDP。Chrome DevTools 可以对接 CDP 来调试网页，VSCode Debugger 也可以。只不过 VSCode Debugger 会多一层 Debug Adapter Protocol 的转换。
 
-**边调试边写代码是我推荐的写代码方式。**
-
-知道了怎么用，我们再来思考下：为什么 Chrome DevTools 和 VSCode Debugger 都可以调试网页呢？
-
-这是因为调试协议是一样的，都是 CDP。Chrome DevTools 可以对接 CDP 来调试网页，VSCode Debugger 也可以。只不过 VSCode Debugger 会多一层 Debug Adapter Protocol 的转换。
-
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dbbc48aafc4c48958a9bc952e6645329~tplv-k3u1fbpfcp-watermark.image?)
+![[debug/前端调试通关秘籍/media/afefdcfa308550b5f72c3b41c29e7293_MD5.png]]
 
 这也是为什么两个调试工具的功能大同小异。
 
-## 总结
+# 总结
 
 Chrome DevTools 和 VSCode Debugger 都能调试网页的 JS，可以打断点，单步执行，可以看到本地和全局作用域的变量，还有函数调用栈。
 
