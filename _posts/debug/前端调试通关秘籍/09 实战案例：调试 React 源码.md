@@ -139,34 +139,33 @@ build 命令执行的是 ./scripts/rollup/build.js，打开这个文件做一些
 
 ## 应用 sourcemap，调试 React 最初的源码
 
-我们已经 build 除了带有 sourcemap 的 react 和 react-dom 包，那把这俩包复制到测试项目的 node_modules 下，就可以直接调试最初的源码了么？
+### 问题
 
-还是不行。
+我们已经 build 除了带有 sourcemap 的 react 和 react-dom 包，*那把这俩包复制到测试项目的 node_modules 下，就可以直接调试最初的源码了么？还是不行*。
 
 为什么呢？
 
 ![[debug/前端调试通关秘籍/media/44ab16cbcba24a99ac87cdf01686106a_MD5.png]]
 
-因为我们虽然 build React 源码生成了 sourcemap，但是 webpack 打包的时候没有关联它啊，这样 webpack 的 sourcemap 就只能映射到 react-dom.development.js 不能进一步映射到源码了。
+因为我们虽然 build React 源码生成了 sourcemap，**但是我们的项目在 webpack 打包的时候没有关联它，这样 webpack 的 sourcemap 就只能映射到 react-dom.development.js 不能进一步映射到源码了**。
 
-那怎么办呢？
+### 解决方法
 
-这个问题有两种解决方式：
+那怎么办呢？这个问题有两种解决方法：
 
-很容易想到的就是改下 sourcemap 的配置，这个我们上节刚学过，加上 module 的配置就能读取和关联 loader 的 sourcemap，然后一层层关联到源码了。
+#### 方法一
+
+*很容易想到的就是改下 sourcemap 的配置，这个我们上节刚学过，加上 module 的配置就能读取和关联 loader 的 sourcemap，然后一层层关联到源码了。*
 
 但是用 create-react-app 创建的项目，webpack 配置改起来比较麻烦，这种方式放后面讲。
 
-还有一种方式就是不打包 react 和 react-dom 这俩包。用 script 标签单独引入，这样浏览器就会解析这俩文件各自的 sourcemap，进而映射到源码。
+#### 方法二
 
-那怎么不打包这俩模块呢？
+**不打包 react 和 react-dom 这俩包。用 script 标签单独引入，这样浏览器就会解析这俩文件各自的 sourcemap，进而映射到源码。**
 
-webpack 支持 externals 来配置一些模块使用全局变量而不进行打包，这样我们就可以单独加载 react、react-dom，然后把他们导出的全局变量配置到 externals 就行了。
+*那怎么不打包这俩模块呢？* webpack 支持 externals 来配置一些模块使用全局变量而不进行打包，这样我们就可以单独加载 react、react-dom，然后把他们导出的全局变量配置到 externals 就行了。
 
-要改动 webpack 配置的话，在 create-react-app 创建的项目下要执行 npm run eject。
-
-然后项目下会多出 config 目录和 public 目录，这俩分别放着 webpack 配置和一些公共文件。
-
+要改动 webpack 配置的话，在 create-react-app 创建的项目下要执行 npm run eject。然后项目下会多出 config 目录和 public 目录，这俩分别放着 webpack 配置和一些公共文件。
 修改 webpack 配置，在 externals 下添加 react 和 react-dom 包对应的全局变量：
 
 ![[debug/前端调试通关秘籍/media/5b5454524d48313f54ceaed1982e405f_MD5.png]]
@@ -175,39 +174,32 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 ![[debug/前端调试通关秘籍/media/3846414c82084c47ecfce76589f93e92_MD5.png]]
 
-这样再重新 debug，你就会发现 sourcemap 映射到 React 最初的源码了：
+*这样再重新 debug，你就会发现 sourcemap 映射到 React 最初的源码了：*
 
 ![[debug/前端调试通关秘籍/media/8bc9d358268de45aabe3af4d39b39073_MD5.png]]
 
-不再是 react-dom.development.js 下的代码，而是具体 react-xxx 包下的。
-
-这就达到了最开始的目的，能直接调试 React 最初的源码！
+不再是 react-dom.development.js 下的代码，而是具体 react-xxx 包下的。这就达到了最开始的目的，能直接调试 React 最初的源码！
 
 ![[debug/前端调试通关秘籍/media/82137a0cf98145ba84f90a928b856fd6_MD5.gif]]
 
-还记得我们这样做的意义么？
+**还记得我们这样做的意义么？** 能调试最初的源码才能知道哪段逻辑是在哪个包里的，不然要自己去搜索。
 
-能调试最初的源码才能知道哪段逻辑是在哪个包里的，不然要自己去搜索。
-
-这样已经能够达到我们的目的了，但是要想点击调用栈直接定位到 git clone 下来的 react 项目的文件，还需要再做一步。
 
 ## 关联 react 源码项目
 
-看我最初演示的效果，点击调用栈是能直接定位到 react 源码项目的文件的：
+这样已经能够达到我们的目的了，*但是要想点击调用栈直接定位到 git clone 下来的 react 项目的文件，还需要再做一步*。看我最初演示的效果，点击调用栈是能直接定位到 react 源码项目的文件的：
 
 ![[debug/前端调试通关秘籍/media/8421d0012eeb2aece7b31e819272c9c3_MD5.gif]]
 
-这是怎么做到的呢？
+**这是怎么做到的呢？** **其实只要 sourcemap 生效，并且 map 到的文件是在当前 workspace 下，VSCode 就会打开对应的文件**。
 
-其实只要 sourcemap 生效，并且 map 到的文件是在当前 workspace 下，VSCode 就会打开对应的文件。
-
-现在 sourcemap 已经生效了，只不过 react 项目没有在 workspace 下。所以，如果想直接定位 react 源码项目的话，可以这样做：
+现在 sourcemap 已经生效了，只不过 react 项目没有在 workspace 下。所以，**如果想直接定位 react 源码项目的话，可以这样做：** *创建一个新的目录，把 react 源码项目和测试的项目放到一个 workspace 下，这样再调试的时候，map 到的文件就能在 workspace 找到了，也就会打开相应的文件。*
 
 ![[debug/前端调试通关秘籍/media/a5bc3ecdd135dfdc38273e1937e78985_MD5.png]]
 
-创建一个新的目录，把 react 源码项目和测试的项目放到一个 workspace 下，这样再调试的时候，map 到的文件就能在 workspace 找到了，也就会打开相应的文件。
 
-只不过现在 sourcemap 下都是这样的相对路径，会导致映射到的文件路径不对：
+
+*只不过现在 sourcemap 下都是这样的相对路径，会导致映射到的文件路径不对：*
 
 ![[debug/前端调试通关秘籍/media/837588bb234e175e71c0a2db3d1c3040_MD5.png]]
 
@@ -219,7 +211,7 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 ![[debug/前端调试通关秘籍/media/6b12b549a9c6933d6be1bedbe5e4b7a4_MD5.png]]
 
-把 build 出的带有 sourcemap 的代码复制到项目的 node_modules 下，覆盖一下。这四个文件 react.development.js、react.development.js.map、react-dom.development.js、react-dom.development.js.map
+*把 build 出的带有 sourcemap 的代码复制到项目的 node_modules 下，覆盖一下*。这四个文件 react.development.js、react.development.js.map、react-dom.development.js、react-dom.development.js.map
 
 在新的 workspace 里 debug，你就会发现，路径映射对了：
 
@@ -239,7 +231,7 @@ webpack 支持 externals 来配置一些模块使用全局变量而不进行打�
 
 前面我们通过 external 的方式走通了调试 React 源码的流程，这样是可以的，就是不算很优雅。
 
-我们回过头来再来看一下，怎么能让 webpack 生成的 sourcemap 能一次性映射回 React 源码呢？
+我们回过头来再来看一下，怎么让 webpack 生成的 sourcemap 能一次性映射回 React 源码呢？
 
 记得上节讲 webpack 配置的时候，讲到了 module 相关的配置么？
 
@@ -345,9 +337,7 @@ root.render(React.createElement(Aaa));
 
 这样就能调试 React 源码，并且直接在编辑器里打开对应的文件了。
 
-有的同学可能会说，这样直接修改了 node_modules 下的文件感觉不太好，下次安装就没了。
-
-这个问题可以用 patch-package 解决：
+*有的同学可能会说，这样直接修改了 node_modules 下的文件感觉不太好，下次安装就没了*。这个问题可以用 patch-package 解决：
 
 执行 npx patch-package react-dom，就会生成这样的目录：
 
