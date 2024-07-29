@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
+                "file": "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
+                "file": "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
+                "file": "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md"
+                "file": "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md"
               }
             }
           }
@@ -199,18 +199,19 @@
   },
   "active": "d521bbd1799c5a98",
   "lastOpenFiles": [
-    "debug/前端调试通关秘籍/media/8ed73b2ab69b30a0f5261f5c5bc43455_MD5.gif",
-    "debug/前端调试通关秘籍/media/d14bbd5ef93362daf55a1a88b57fcc0e_MD5.gif",
-    "debug/前端调试通关秘籍/media/1e050b00da3a6e62ddee74d9624425bc_MD5.png",
-    "debug/前端调试通关秘籍/media/afefdcfa308550b5f72c3b41c29e7293_MD5.png",
-    "debug/前端调试通关秘籍/media/b256b93d7c9030afa59fbe1920aa81f3_MD5.png",
-    "debug/前端调试通关秘籍/media/bb2bb1a0e14348effbe000dafb4313a9_MD5.png",
-    "debug/前端调试通关秘籍/media/3a5a41abe91fab0f07edefa5ac49be32_MD5.png",
-    "debug/前端调试通关秘籍/media/de2f412ae92b294686d541384230ee43_MD5.png",
-    "debug/前端调试通关秘籍/media/ab45088fb3459c63d1a3fe859b3064f3_MD5.png",
-    "debug/前端调试通关秘籍/media/86d8b409d6f27217dac5efdddab7d485_MD5.png",
-    "debug/前端调试通关秘籍/media/9b45d697ce3f9a2908d1883d7c3508b2_MD5.png",
+    "debug/前端调试通关秘籍/media/4b719efc686ba9b58ff06b168bfca39c_MD5.gif",
+    "debug/前端调试通关秘籍/media/b93bce982f1eed0c0d60e532d0819077_MD5.gif",
+    "debug/前端调试通关秘籍/media/287c9953c4836cbc407ef60b9fef171a_MD5.gif",
+    "debug/前端调试通关秘籍/media/b738cc3381ab8815e8e840a073c406fa_MD5.gif",
+    "debug/前端调试通关秘籍/media/39f2d3531b229e5db3a4c90d5b9a6166_MD5.png",
+    "debug/前端调试通关秘籍/media/7a692eb6e1490963e396bb803003461f_MD5.gif",
+    "debug/前端调试通关秘籍/media/0b9ac0561e3a7740ebe9c483682b2aec_MD5.png",
+    "debug/前端调试通关秘籍/media/31258ad7f415ddc202a7f70b1503ab38_MD5.gif",
+    "debug/前端调试通关秘籍/media/9119cfc1658b5469210be6c2af575efa_MD5.png",
+    "debug/前端调试通关秘籍/media/abcb9a7ad47cffb81c9574e665e93b98_MD5.png",
+    "debug/前端调试通关秘籍/media/f0109d100fc9c98b98be6897e28944e8_MD5.png",
     "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
+    "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
     "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
     "debug/前端调试通关秘籍/02 初识调试.md",
     "debug/前端调试通关秘籍/media",
@@ -236,7 +237,6 @@
     "debug/前端调试通关秘籍/30 如何用 Layers 分析网页的图层.md",
     "debug/前端调试通关秘籍/29 console.log 会导致内存泄漏？用 Performance 和 Memory 分析下（下）.md",
     "debug/前端调试通关秘籍/28 console.log 会导致内存泄漏？用 Performance 和 Memory 分析下（上）.md",
-    "debug/前端调试通关秘籍/27 Web Vitals 如何计算？如何衡量网页性能？.md",
     "debug/前端调试通关秘籍",
     "debug",
     "react/react 通关秘籍/media",
