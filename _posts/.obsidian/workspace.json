@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
+                "file": "debug/前端调试通关秘籍/02 初识调试.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
+                "file": "debug/前端调试通关秘籍/02 初识调试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
+                "file": "debug/前端调试通关秘籍/02 初识调试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "debug/前端调试通关秘籍/01 如何阅读本小册？.md"
+                "file": "debug/前端调试通关秘籍/02 初识调试.md"
               }
             }
           }
@@ -187,6 +187,17 @@
   },
   "active": "d521bbd1799c5a98",
   "lastOpenFiles": [
+    "debug/前端调试通关秘籍/media/5467aaac9218f9aa8f668be9401b7e3d_MD5.png",
+    "debug/前端调试通关秘籍/media/cf2486187082f0fcb39138bf0e879ffd_MD5.png",
+    "debug/前端调试通关秘籍/media/c3303488963540f2a5be2bba430e21d0_MD5.png",
+    "debug/前端调试通关秘籍/media/d72c7d572ec416a64f4a6651a1481c9f_MD5.png",
+    "debug/前端调试通关秘籍/media/37697ca36a91d5e36e5ce98935f14146_MD5.png",
+    "debug/前端调试通关秘籍/media/17c3f79ff82baab62bd5eff19061b5b4_MD5.png",
+    "debug/前端调试通关秘籍/media/3f9235f359b07df8190e6b58518f9c51_MD5.png",
+    "debug/前端调试通关秘籍/media/f8be35a25ffb22047e75b5441b0b2110_MD5.png",
+    "debug/前端调试通关秘籍/media/55b222ccc8205e676a8b1c8deddcede2_MD5.png",
+    "debug/前端调试通关秘籍/media/d77981a48068bf6ee610cf888168122d_MD5.png",
+    "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
     "debug/前端调试通关秘籍/media/98e1f9b8dc5ba4c2ffcb64d2fc5b63dd_MD5.png",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/02 初识调试.md",
@@ -214,19 +225,8 @@
     "debug/前端调试通关秘籍/28 console.log 会导致内存泄漏？用 Performance 和 Memory 分析下（上）.md",
     "debug/前端调试通关秘籍/27 Web Vitals 如何计算？如何衡量网页性能？.md",
     "debug/前端调试通关秘籍/26 如何用 Performance 工具分析并优化性能.md",
-    "debug/前端调试通关秘籍/25 会用 Performance 工具，就能深入理解 Event Loop.md",
     "debug/前端调试通关秘籍",
     "debug",
-    "react/react 通关秘籍/media/84bc97c5de810b4fbd6d350360395378_MD5.png",
-    "react/react 通关秘籍/media/273badc0ef9c70c8b6ad2f46dae3ca59_MD5.png",
-    "react/react 通关秘籍/media/a200e9cc7d7694ff2853765fe7fda9ce_MD5.png",
-    "react/react 通关秘籍/media/beb337176782fed9fd90a73907070851_MD5.png",
-    "react/react 通关秘籍/media/956336b01e6ecc474926e351ca97660f_MD5.gif",
-    "react/react 通关秘籍/media/726de63e2dca4c6be25ad811730ab6bf_MD5.png",
-    "react/react 通关秘籍/media/2b498d69b04f485f6cfe23d04b6c124c_MD5.png",
-    "react/react 通关秘籍/media/9b32dfd6f6b5209d33d5e2123ab667cb_MD5.png",
-    "react/react 通关秘籍/media/e09612259cb9856142f954e76b0e138a_MD5.png",
-    "react/react 通关秘籍/media/eedf4fe3e4dd040f947797fce0f34365_MD5.png",
     "react/react 通关秘籍/media",
     "media",
     "react/react 通关秘籍",
