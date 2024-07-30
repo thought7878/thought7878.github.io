@@ -1,3 +1,9 @@
+## 视频
+https://www.bilibili.com/video/BV1QZ42187Vz/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0
+
+- [00:02](https://www.bilibili.com/video/BV1QZ42187Vz/?t=2.856837#t=2.86) 浏览这篇文章
+- [02:53](https://www.bilibili.com/video/BV1QZ42187Vz/?t=173.180077#t=02:53.18) 演示
+
 ## Why 断点调试
 
 大家都是怎么调试 React 组件的呢？很多同学都会说，console.log 啊。这样可以，但效率太低了，因为你只能看到你打印的一些零散值，*看不到代码的具体执行路线，比如走了哪些分支、调用某个函数的时候参数是什么*。
