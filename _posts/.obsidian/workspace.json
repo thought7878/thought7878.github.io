@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "7689f6130a3a7089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d521bbd1799c5a98",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,6 +211,10 @@
   },
   "active": "d521bbd1799c5a98",
   "lastOpenFiles": [
+    "AI/智能辅助开发插件.md",
+    "debug/前端调试通关秘籍/23 实战案例：调试 Ant Design 组件源码.md",
+    "要整理的.md",
+    "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
     "debug/前端调试通关秘籍/media/6d3d94125b4c347aba1f4e17b0852654_MD5.gif",
     "debug/前端调试通关秘籍/media/3c24027e01416b5c4e8d8823ae3ed66f_MD5.gif",
     "debug/前端调试通关秘籍/media/d07fcec06c8702788e7a688dc6c4a703_MD5.png",
@@ -209,7 +225,6 @@
     "debug/前端调试通关秘籍/media/4166d4d706e3c4fb50fe32c18613096d_MD5.png",
     "debug/前端调试通关秘籍/media/564e8e5a317385995b20192861434cea_MD5.png",
     "debug/前端调试通关秘籍/media/41061c99476e4b8786bfdf517a8c0465_MD5.png",
-    "debug/前端调试通关秘籍/media/685d0893f037c35ed36fb9e8400aaf57_MD5.png",
     "debug/前端调试通关秘籍/22 打断点的 7 种方式，你用过几种？.md",
     "debug/前端调试通关秘籍/12 如何调试 Node.js 代码.md",
     "debug/前端调试通关秘籍/11 用 VSCode Snippets 快速创建调试配置.md",
@@ -220,7 +235,6 @@
     "debug/前端调试通关秘籍/07 实战案例：调试 Vue 项目.md",
     "debug/前端调试通关秘籍/06 Webpack 的 sourcemap 配置.md",
     "debug/前端调试通关秘籍/05 sourcemap 的原理和作用.md",
-    "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
     "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
     "debug/前端调试通关秘籍/02 初识调试.md",
     "debug/前端调试通关秘籍/media",
@@ -235,8 +249,6 @@
     "debug/前端调试通关秘籍/41 实现 Chrome DevTools 的 Coverage 功能.md",
     "debug/前端调试通关秘籍/40 手动对接 CDP 来理解 Chrome DevTools 实现原理.md",
     "debug/前端调试通关秘籍/39 线上报错如何直接调试本地源码？.md",
-    "debug/前端调试通关秘籍/38 Charles 全功能速通（下）.md",
-    "debug/前端调试通关秘籍/37 Charles 全功能速通（上）.md",
     "debug/前端调试通关秘籍",
     "debug",
     "react/react 通关秘籍/media",

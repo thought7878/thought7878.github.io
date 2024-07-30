@@ -85,8 +85,8 @@ git clone --depth=1 --single-branch git@github.com:ant-design/ant-design.git
 下载的时候加个 `--single-branch` 是下载单个分支， `--depth=1` 是下载单个 commit， 这样速度会快几十倍，是个有用的加速小技巧。
 
 ## build
-
-antd 下载下来，安装完依赖之后，我们开始 build。但你会发现 package.json 中有 build 命令，有 dist 命令，该执行哪个呢？这个就需要了解下 antd 的几种入口了。去 react 项目的 node_modules 下，找到 antd 的 package.json 看一下，你会发现它有三种入口：
+### 3种模块
+antd 下载下来，安装完依赖之后，我们开始 build。但你会发现 package.json 中有 build 命令，有 dist 命令，该执行哪个呢？这个就需要了解下 antd 的几种入口了。去 react 项目的 node_modules 下，找到 antd 的 package.json 看一下，你会发现*它有三种入口：*
 
 ![[debug/前端调试通关秘籍/media/c988eca36a5cc1693b35c3cdb429aa1c_MD5.png]]
 
@@ -98,9 +98,11 @@ antd 下载下来，安装完依赖之后，我们开始 build。但你会发现
 
 分别对应了 lib、es、dist 的目录。
 
-所以 antd 项目里的 dist 命令就是单独生成 UMD 代码的，而 build 命令是生成这三种代码。
+所以 **antd 项目里的 dist 命令**就是单独生成 UMD 代码的，而 **build 命令**是生成这三种代码。
 
-这三种形式的代码都是可用的，这里我们选择构建 UMD 形式的代码，因为它会用 webpack 打包，而另外两种是通过 gulp 构建的。我对 webpack 更熟悉一些。
+### 构建 UMD 形式的代码
+
+这三种形式的代码都是可用的。**这里我们选择构建 UMD 形式的代码，因为它会用 webpack 打包**。*而另外两种是通过 gulp 构建的*。我对 webpack 更熟悉一些。
 
 执行 npm run dist，就会构建出 dist 目录，下面是 UMD 的代码：
 
