@@ -3,6 +3,8 @@ https://www.bilibili.com/video/BV1QZ42187Vz/?spm_id_from=333.788.top_right_bar_w
 
 - [00:02](https://www.bilibili.com/video/BV1QZ42187Vz/?t=2.856837#t=2.86) 浏览这篇文章
 - [02:53](https://www.bilibili.com/video/BV1QZ42187Vz/?t=173.180077#t=02:53.18) 演示
+- 
+- [07:55](https://www.bilibili.com/video/BV1QZ42187Vz/?t=475.672745#t=07:55.67) 调试第三方组件库
 
 ## Why 断点调试
 

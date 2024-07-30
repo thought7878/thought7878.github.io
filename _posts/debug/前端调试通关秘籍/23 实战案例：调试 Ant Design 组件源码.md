@@ -51,7 +51,7 @@ yarn create react-app antd-react-test
 
 ![[debug/前端调试通关秘籍/media/5b6d463297716298306be8142c7e45e9_MD5.png]]
 
-输入断住的条件：
+*输入断住的条件：*
 
 ![[debug/前端调试通关秘籍/media/e24e3c37e64387fb5001e869b01cd34b_MD5.png]]
 
@@ -110,7 +110,7 @@ antd 下载下来，安装完依赖之后，我们开始 build。但你会发现
 
 ![[debug/前端调试通关秘籍/media/d08b82c10cd1f69625e97b6f45e744f1_MD5.png]]
 
-你会发现默认的构建就是会生成 sourcemap 的，其实你去那个 react 测试项目里看下，从 npm 下载的 antd 包也带了 sourcemap：
+*你会发现默认的构建就是会生成 sourcemap 的，其实你去那个 react 测试项目里看下，从 npm 下载的 antd 包也带了 sourcemap：*
 
 ![[debug/前端调试通关秘籍/media/df4d4f9263e7303074d8295b974366f8_MD5.png]]
 
@@ -122,9 +122,7 @@ antd 下载下来，安装完依赖之后，我们开始 build。但你会发现
 
 把引入组件的地方换成 dist 目录下，也就是用 UMD 形式的入口。
 
-重新跑调试：
-
-你会发现代码确实比之前更像源码了。
+重新跑调试，你会发现代码确实比之前更像源码了。
 
 之前前面是这样的：
 
@@ -136,7 +134,7 @@ antd 下载下来，安装完依赖之后，我们开始 build。但你会发现
 
 也就是没了 babel runtime 的代码，这明显是源码了。
 
-但是你往后看：
+但是你往后看。
 
 之前是这样的：
 
@@ -145,17 +143,15 @@ antd 下载下来，安装完依赖之后，我们开始 build。但你会发现
 现在是这样：
 ![[debug/前端调试通关秘籍/media/9d3a11a70659dc26a4092b10c17e73e1_MD5.png]]
 
-依然还是 React.createElement，而不是 jsx，也没有 ts 的代码。说明它还不是最初的源码。
+*依然还是 React.createElement，而不是 jsx，也没有 ts 的代码。说明它还不是最初的源码。*
 
-为什么会出现这种既是源码又不是源码的情况呢？因为它的编译流程是这样的：
+**为什么会出现这种既是源码又不是源码的情况呢？** 因为它的编译流程是这样的：
 
 ![[debug/前端调试通关秘籍/media/cc3dc8369710eb19d92b021fded3dc77_MD5.png]]
 
-代码经过了 tsc 的编译，然后又经过了 babel 的编译，最后再通过 webpack 打包成 bundle.js。
+**代码经过了 tsc 的编译，然后又经过了 babel 的编译，最后再通过 webpack 打包成 bundle.js。** tsc 和 babel 的编译都会生成 sourcemap，而 webpack 也会生成一个 sourcemap。webpack 的 sourcemap 默认只会根据最后一个 loader 的 sourcemap 来生成。*所以说上面我们用了 sourcemap 之后只能关联到 babel 处理之前的代码，像 ts 语法、jsx 代码这些都没有了。因为没有关联更上一级的 ts-loader 的 sourcemap，自然是没法直接映射回源码的。*
 
-tsc 和 babel 的编译都会生成 sourcemap，而 webpack 也会生成一个 sourcemap。webpack 的 sourcemap 默认只会根据最后一个 loader 的 sourcemap 来生成。*所以说上面我们用了 sourcemap 之后只能关联到 babel 处理之前的代码，像 ts 语法、jsx 代码这些都没有了。因为没有关联更上一级的 ts-loader 的 sourcemap，自然是没法直接映射回源码的。*
-
-*所以想映射回最初的 tsx 源码，只要关联了每一级 loader 的 sourcemap 就可以了*。而这个是可以配置的，就是 devtool。devtool 可以设置 soruce-map，就是生成 sourcemap，*但是这个不会关联 loader 的 sourcemap*。还可以设置 cheap-module-source-map，这个 module 就是关联 loader 的 soruce-map 的意思。（那个 cheap 是只保留行的 sourcemap，生成速度会更快）
+**所以想映射回最初的 tsx 源码，只要关联了每一级 loader 的 sourcemap 就可以了**。而这个是可以配置的，就是 devtool。devtool 可以设置 soruce-map，就是生成 sourcemap，*但是这个不会关联 loader 的 sourcemap*。还可以设置 cheap-module-source-map，这个 module 就是关联 loader 的 soruce-map 的意思。（那个 cheap 是只保留行的 sourcemap，生成速度会更快）
 
 *思路理清楚了，我们去改下编译配置：* antd 的编译工具链在 @ant-design/tools 这个包里，从 antd/node_modules/@antd-design/tools/lib/getWebpackConfig.js 就可以找到 webpack 的配置
 
@@ -185,7 +181,9 @@ ts也同样要生成 sourcemap，不过那个是在根目录的 tsconfig.json里
 
 ![[debug/前端调试通关秘籍/media/4166d4d706e3c4fb50fe32c18613096d_MD5.png]]
 
-*把它复制到 react 项目的 node_modules/antd/dist 下，覆盖之前的。*
+## 复制构建产物到测试项目的 node_modules/antd/dist
+
+**把它复制到 react 项目的 node_modules/antd/dist 下，覆盖之前的。**
 
 清一下 babel-loader 的缓存，删除整个 .cache 目录：
 
@@ -206,6 +204,8 @@ ts 类型、jsx 的语法，熟悉的感觉又回来了，这不就是 antd 组�
 你可以断点调试 antd 的参数是怎么处理的，什么参数会走什么逻辑等。
 
 *这个完全不影响正常开发，也就是把 antd 换成了从 antd/dist/antd 引入而已，开发完了换回去就行。*
+
+### 保存 node_modules 下的改动
 
 *有的同学可能会担心 node_modules 下的改动保存不下来*。这个也不是问题，可以执行下 npx patch-package  antd，会生成这样一个 patch 文件。patch 文件里记录了你对 antd 包的改动，这个可以上传到 git 仓库，其他小伙伴拉下来再执行 npx patch-package 就会自动应用这些改动。
 
