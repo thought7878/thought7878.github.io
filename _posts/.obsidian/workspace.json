@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 41.40401146131805,
+        "dimension": 50,
         "children": [
           {
             "id": "b28d6bc54d425da5",
@@ -108,17 +108,17 @@
         "currentTab": 7
       },
       {
-        "id": "c7cb49fb654b9067",
+        "id": "d2f061f5b7f80c5d",
         "type": "tabs",
-        "dimension": 58.59598853868195,
+        "dimension": 50,
         "children": [
           {
-            "id": "93a2566ccbc50d74",
+            "id": "bb03162a5eb49d7a",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1CS421X7gc/"
+                "source": "https://www.bilibili.com/video/BV1H7421d7Xb/"
               }
             }
           }
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -248,13 +249,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "93a2566ccbc50d74",
+  "active": "bb03162a5eb49d7a",
   "lastOpenFiles": [
     "AI/智能辅助开发插件.md",
+    "要整理的.md",
     "debug/前端调试通关秘籍/23 实战案例：调试 Ant Design 组件源码.md",
     "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
     "react/react 通关秘籍/5、React 组件如何调试.md",
-    "要整理的.md",
     "debug/前端调试通关秘籍/media/6d3d94125b4c347aba1f4e17b0852654_MD5.gif",
     "debug/前端调试通关秘籍/media/3c24027e01416b5c4e8d8823ae3ed66f_MD5.gif",
     "debug/前端调试通关秘籍/media/d07fcec06c8702788e7a688dc6c4a703_MD5.png",
