@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "b28d6bc54d425da5",
@@ -103,26 +102,33 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 7
-      },
-      {
-        "id": "d2f061f5b7f80c5d",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
+          },
           {
-            "id": "bb03162a5eb49d7a",
+            "id": "b12a650d0cb94985",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1H7421d7Xb/"
+                "file": "libraries/shadcn/issues 记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98b6c694e66e4935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/react 通关秘籍/1、小册介绍.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -172,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 402.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -189,6 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "react/react 通关秘籍/1、小册介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,6 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "react/react 通关秘籍/1、小册介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +233,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "react/react 通关秘籍/1、小册介绍.md"
+              }
             }
           }
         ],
@@ -234,8 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,53 +257,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "bb03162a5eb49d7a",
+  "active": "98b6c694e66e4935",
   "lastOpenFiles": [
-    "AI/智能辅助开发插件.md",
-    "要整理的.md",
-    "debug/前端调试通关秘籍/23 实战案例：调试 Ant Design 组件源码.md",
-    "debug/前端调试通关秘籍/04 VSCode Chrome Debugger 配置详解.md",
-    "react/react 通关秘籍/5、React 组件如何调试.md",
-    "debug/前端调试通关秘籍/media/6d3d94125b4c347aba1f4e17b0852654_MD5.gif",
-    "debug/前端调试通关秘籍/media/3c24027e01416b5c4e8d8823ae3ed66f_MD5.gif",
-    "debug/前端调试通关秘籍/media/d07fcec06c8702788e7a688dc6c4a703_MD5.png",
-    "debug/前端调试通关秘籍/media/9983d05d40f70f46e3baecb5778a1638_MD5.png",
-    "debug/前端调试通关秘籍/media/d630b19575f7ad26d7fc1f87020d36af_MD5.gif",
-    "debug/前端调试通关秘籍/media/295e852c21ce33c5ad230f02fc4b4cdb_MD5.png",
-    "debug/前端调试通关秘籍/media/f9bcc11a0e8b4eac66e21dfeaf599df3_MD5.png",
-    "debug/前端调试通关秘籍/media/4166d4d706e3c4fb50fe32c18613096d_MD5.png",
-    "debug/前端调试通关秘籍/media/564e8e5a317385995b20192861434cea_MD5.png",
-    "debug/前端调试通关秘籍/media/41061c99476e4b8786bfdf517a8c0465_MD5.png",
-    "debug/前端调试通关秘籍/22 打断点的 7 种方式，你用过几种？.md",
-    "debug/前端调试通关秘籍/12 如何调试 Node.js 代码.md",
-    "debug/前端调试通关秘籍/11 用 VSCode Snippets 快速创建调试配置.md",
-    "debug/前端调试通关秘籍/10 实战案例：调试 Vue 源码.md",
-    "debug/前端调试通关秘籍/09 实战案例：调试 React 源码.md",
-    "debug/前端调试通关秘籍/01 如何阅读本小册？.md",
-    "debug/前端调试通关秘籍/08 VSCode Chrome Debugger 断点映射的原理.md",
-    "debug/前端调试通关秘籍/07 实战案例：调试 Vue 项目.md",
-    "debug/前端调试通关秘籍/06 Webpack 的 sourcemap 配置.md",
-    "debug/前端调试通关秘籍/05 sourcemap 的原理和作用.md",
-    "debug/前端调试通关秘籍/03 如何调试网页的 JS（以 React 为例）.md",
-    "debug/前端调试通关秘籍/02 初识调试.md",
+    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
+    "react/react 通关秘籍/9、快速掌握 Storybook.md",
+    "react/react 通关秘籍/10、React 组件如何写单测？.md",
+    "react/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
+    "react/react 通关秘籍/12、组件实战：ColorPicker（一）.md",
+    "react/react 通关秘籍/13、组件实战：ColorPicker（二）.md",
+    "react/react 通关秘籍/14、组件实战：ColorPicker（三）.md",
+    "react/react 通关秘籍/15、组件实战：ColorPicker（四）.md",
+    "react/react 通关秘籍/17、组件实战：Space.md",
+    "react/react 通关秘籍/18、React.Children 和它的两种替代方案.md",
+    "react/react 通关秘籍/19、用 react-spring 做弹簧动画.md",
+    "react/react 通关秘籍/20、react-spring 结合 use-gesture 手势库实现交互动画.md",
+    "react/react 通关秘籍/21、用 react-transition-group 和 react-spring 做过渡动画.md",
+    "react/react 通关秘籍/22、用 react-spring 实现视差动画.md",
+    "react/react 通关秘籍/23、用 Framer Motion 实现复杂动画.md",
+    "react/react 通关秘籍/24、动画库如何选型.md",
+    "react/react 通关秘籍/25、快速掌握 Tailwind：最流行的原子化 CSS 框架.md",
+    "react/react 通关秘籍/26、快速掌握 Unocss.md",
+    "react/react 通关秘籍/27、CSS Modules、CSS in JS.md",
+    "react/react 通关秘籍/28、组件实战：Message.md",
+    "react/react 通关秘籍/37、组件实战： VirtualList.md",
+    "react/react 通关秘籍/36、组件实战：onBoarding.md",
+    "react/react 通关秘籍/35、组件实战：Pagination.md",
+    "react/react 通关秘籍/34、组件实战：Notification.md",
+    "react/react 通关秘籍/33、组件实战：Skeleton.md",
+    "react/react 通关秘籍/media/43f58c3901fbfcd86d07bd72d526dfe6_MD5.gif",
+    "react/react 通关秘籍/media/602d4988a4f0f3dfe98d50c6a5d7426b_MD5.gif",
+    "react/react 通关秘籍/media/23358237429acfe6942b5e3321d98bf0_MD5.gif",
+    "react/react 通关秘籍/media/08d31fc30a34ece5c3e8fa6d8acec1be_MD5.gif",
+    "react/react 通关秘籍/media/992f2b5bfe441c2b2a9c3d72da3da17f_MD5.png",
+    "react/react 通关秘籍/media/86c56d950dc62eeb290b7787ef53a693_MD5.png",
+    "react/react 通关秘籍/media/6af7bc12377b3c733409261db6838824_MD5.png",
+    "react/react 通关秘籍/media/6eed21e635157f7a20f210845e82ae7c_MD5.png",
+    "react/react 通关秘籍/media/f8b8301b4fce70c3bf5a4880e54045f2_MD5.png",
+    "react/react 通关秘籍/media/a1aec819e24f91477b8ea0ff756b9601_MD5.png",
+    "typescript/未命名",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/目录.txt",
-    "debug/前端调试通关秘籍/47 （加更）面试必问的异步顺序问题，用 Performance 轻松理清.md",
-    "debug/前端调试通关秘籍/46 小册总结.md",
-    "debug/前端调试通关秘籍/45 把 Puppeteer 融入调试流程来做自动化.md",
-    "debug/前端调试通关秘籍/44 基于 CDP 实现 Puppeteer（下）.md",
-    "debug/前端调试通关秘籍/43 基于 CDP 实现 Puppeteer（上）.md",
-    "debug/前端调试通关秘籍/42 编译 chrome devtools frontend 源码，然后用它来调试.md",
-    "debug/前端调试通关秘籍/41 实现 Chrome DevTools 的 Coverage 功能.md",
-    "debug/前端调试通关秘籍/40 手动对接 CDP 来理解 Chrome DevTools 实现原理.md",
-    "debug/前端调试通关秘籍/39 线上报错如何直接调试本地源码？.md",
     "debug/前端调试通关秘籍",
     "debug",
     "react/react 通关秘籍/media",
     "media",
     "react/react 通关秘籍",
     "读书笔记",
-    "engineering/pnpm & monorepo",
-    "base/js/知识点总结"
+    "engineering/pnpm & monorepo"
   ]
 }

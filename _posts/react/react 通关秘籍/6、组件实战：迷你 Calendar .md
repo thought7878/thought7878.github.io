@@ -2,7 +2,7 @@
 
 比如 antd 的 Calendar 组件（或者 DatePicker 组件）：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09c6879de7524b86954c204db9e53506~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8c5134b153982bf8cc94f81d7836c230_MD5.png]]
 
 那这种日历组件是怎么实现的呢？
 
@@ -20,37 +20,37 @@ new Date(2023, 6, 30);
 
 可以调用 toLocaleString 来转成当地日期格式的字符串显示：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/78612afc9d824ca1bc0dd62ecc05f81d~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/353758a8246b0d0c930e6767b3e7d8f0_MD5.png]]
 
 有人说 7 月为啥第二个参数传 6 呢？
 
 因为 Date 的 month 是从 0 开始计数的，取值是 0 到 11：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be98fc0eda5c45d28eddca3189a2ef50~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b4e80dbee8f9eefe47015d776daa0a3c_MD5.png]]
 
 而日期 date 是从 1 到 31。
 
 而且有个小技巧，当你 date 传 0 的时候，取到的是上个月的最后一天：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de5bbe74b5c04341b60e2e2cca1a704e~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e9b39bbaa05c214b721f6afb847e2065_MD5.png]]
 
 -1 就是上个月的倒数第二天，-2 就是倒数第三天这样。
 
 这个小技巧有很大的用处，可以用这个来拿到每个月有多少天：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1421c06d6b5848c9bc41705d2a1716b4~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e845759135654b940274172919c586a5_MD5.png]]
 
 2023 年一月 31 天、二月 28 天、三月 31 天。。。
 
 除了日期外，也能通过 getFullYear、getMonth 拿到年份和月份：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/969daa4d5cd449b78547268dc23b95c5~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/27e4cf7d395410f83da4d13b15758fef_MD5.png]]
 
 还可以通过 getDay 拿到星期几。
 
 比如今天（2023-7-19）是星期三：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/256a8d8fe1a74b748b8abb99a09098d5~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/ae0a73ebb7d587648e34d801a8508a0b_MD5.png]]
 
 就这么几个 api 就已经可以实现日历组件了。
 
@@ -61,13 +61,13 @@ new Date(2023, 6, 30);
 ```
 npx create-react-app --template=typescript mini-calendar-test
 ```
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c09a568320a41179606104a45636e9d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1114&h=308&s=99692&e=png&b=000000)
+![[react/react 通关秘籍/media/269cd03c7daf7f9da01f5da337570e1a_MD5.png]]
 
 我们先来写下静态的布局：
 
 一个 header，然后是从星期日到星期六，再下面是从 1 到 31：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7fca913daf8d4afd99c6dfb8a087f373~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=948&h=960&s=118617&e=png&b=fdfdfd)
+![[react/react 通关秘籍/media/1f51892afb5a8d3bd9be902e86efd50c_MD5.png]]
 
 改下 App.tsx:
 
@@ -138,19 +138,19 @@ export default Calendar;
 npm run start
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e42728dcebf458b8dc8c327ba5a7d27~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/db7a0d0245055f884125e707920d1df5_MD5.png]]
 
 这种布局还是挺简单的：
 
 header 就是一个 space-between 的 flex 容器：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c6aac1529dc460da9cc044a029ec864~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/d6e21a6c2d4417fe9e9e9ae846b227a3_MD5.png]]
 
 下面是一个 flex-wrap 为 wrap，每个格子宽度为 100% / 7 的 flex 容器：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/94798a90d05b4cedb56ad218cda2c758~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e63268ba280e16ae8ea290a8e36e75ee_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8922dd22da2447a38b9a9fc3b934f071~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/6e62d124e66cc32b3bc460726546ef52_MD5.png]]
 
 全部样式如下：
 
@@ -187,7 +187,7 @@ header 就是一个 space-between 的 flex 容器：
 ```
 然后我们再来写逻辑：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03e58c7c4f9b47299f705ee8c13b363d~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/691f52c742b36492466168f7952249a0_MD5.png]]
 
 首先，我们肯定要有一个 state 来保存当前的日期，默认值是今天。
 
@@ -207,7 +207,7 @@ const handleNextMonth = () => {
 
 然后渲染的年月要改为当前 date 对应的年月：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/407a28f8c6644a43bdb35a3009fa41d6~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b40314e79c7c8f5b2d822aa16c3e449f_MD5.png]]
 
 ```javascript
 const monthNames = [
@@ -228,7 +228,7 @@ const monthNames = [
 
 我们试试看：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1280eb5c25c04948be584a147a94357a~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/08d31fc30a34ece5c3e8fa6d8acec1be_MD5.gif]]
 
 年月部分没问题了。
 
@@ -276,19 +276,15 @@ const renderDays = () => {
 
 这样就完成了日期渲染：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/67156d126e764dd3885a509177f986b2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1216&h=1304&s=270458&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/6af7bc12377b3c733409261db6838824_MD5.png]]
 
 我们来试试看：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4432dc0073d34f66b5dee492cbbf54b6~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/43f58c3901fbfcd86d07bd72d526dfe6_MD5.gif]]
 
-没啥问题。
+没啥问题。这样，我们就完成了一个 Calendar 组件！
 
-这样，我们就完成了一个 Calendar 组件！
-
-是不是还挺简单的？
-
-确实，Calendar 组件的原理比较简单。
+是不是还挺简单的？确实，Calendar 组件的原理比较简单。
 
 接下来，我们增加两个参数，value 和 onChange。
 
@@ -296,29 +292,29 @@ const renderDays = () => {
 
 value 参数设置为 date 的初始值：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2aa99b11b5324719b00e2ca6948c2aac~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/f8b8301b4fce70c3bf5a4880e54045f2_MD5.png]]
 
 我们试试看：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/95ca0fa280ea494a948a5346de5629b2~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/a1aec819e24f91477b8ea0ff756b9601_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2d6070cdeee040da8dd8bd21315ae1df~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/86c56d950dc62eeb290b7787ef53a693_MD5.png]]
 
 年月是对了，但是日期对不对我们也看不出来，所以还得加点选中样式：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e82366355e56421a9661d5f3484bac1c~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/fcdd770e642ed736974e7f8e38729602_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26ccd528c4834afa84f537895fe20285~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/cb9c27d9f3ea95b133842e57a1193456_MD5.png]]
 
 现在就可以看到选中的日期了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be5612d872e745f69dcd490d41ee39a9~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/38523fedd157c3ca9c10b8bdf701bb3d_MD5.png]]
 
 没啥问题。
 
 然后我们再加上 onChange 的回调函数：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d5afbea2e7a45f6b881a134a7df774e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1398&h=748&s=178581&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/992f2b5bfe441c2b2a9c3d72da3da17f_MD5.png]]
 
 ```javascript
 const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getMonth(), i));
@@ -328,41 +324,37 @@ const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getM
 
 我们试试看：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1478aa38c3aa466da365bbf63f92300f~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/6eed21e635157f7a20f210845e82ae7c_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/818e215df8b0432f9fac6051f8b0ea55~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/23358237429acfe6942b5e3321d98bf0_MD5.gif]]
 
-也没啥问题。
+也没啥问题。现在这个 Calendar 组件就是可用的了，可以通过 value 来传入初始的 date 值，修改 date 之后可以在 onChange 里拿到最新的值。
 
-现在这个 Calendar 组件就是可用的了，可以通过 value 来传入初始的 date 值，修改 date 之后可以在 onChange 里拿到最新的值。
-
-大多数人到了这一步就完成 Calendar 组件的封装了。
-
-这当然没啥问题。
+大多数人到了这一步就完成 Calendar 组件的封装了。这当然没啥问题。
 
 但其实你还可以再做一步，提供 ref 来暴露一些 Canlendar 组件的 api。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/49971ea0652d4d6395d97fa132b8ab1f~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e209a60fba71ae45477ca06259d0a3ea_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f361faa0c0ae458995e2202ae497532d~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/a3ff8386b8504df6333ee9b903f6c11d_MD5.png]]
 
 前面章节讲过，useImperativeHandle 可以自定义 ref 的内容。
 
 然后用的时候就可以通过 useRef 创建 ref 对象，设置到 Calendar 的 ref 属性上，拿到转发出的 ref 内容：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb99048d2c48439e9c0fee148e0276e3~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/58312661b5d0cba3ed171fcfafd7b593_MD5.png]]
 
 试试看：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ef34f23e0e64a5d8b8a6a57a959712e~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/602d4988a4f0f3dfe98d50c6a5d7426b_MD5.gif]]
 
 ref 的 api 也都生效了。
 
-这就是除了 props 之外，另一种暴露组件 api 的方式。
+*这就是除了 props 之外，另一种暴露组件 api 的方式。*
 
 现在的 Calender 除了本月的日期外，其余的地方是用空白填充的。很多日历用的是上个月、下个月的日期。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66d6435f71884aa5b10800ea8431c3b9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=950&h=970&s=122164&e=png&b=fdfdfd)
+![[react/react 通关秘籍/media/478f62e107f8a358830c82cce1e5d68f_MD5.png]]
 
 这个也很简单，new Date(year, month + 1, 0) 是拿到当前月的第一天，那 -1 就是上个月的最后一天，-2 就是倒数第二天。
 
@@ -545,6 +537,6 @@ new Date 的时候 date 传 0 就能拿到上个月最后一天的日期，然�
 
 我们用 react 实现了这个 Calendar 组件，支持传入 value 指定初始日期，传入 onChange 作为日期改变的回调。
 
-除了 props 之外，还额外提供 ref 的 api，通过 forwarRef + useImperativeHandle 的方式。
+除了 props 之外，还额外提供 ref 的 api，通过 forwardRef + useImperativeHandle 的方式。
 
 整天用 Calender 组件，不如自己手写一个吧！
