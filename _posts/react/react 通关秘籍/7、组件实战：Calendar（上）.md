@@ -1,10 +1,9 @@
-上节我们实现了 mini calendar，为啥要加个 mini 呢？
-
-因为它与真实用的 Calendar 组件相比，还是过于简单了。
-
+上节我们实现了 mini calendar，为啥要加个 mini 呢？因为它与真实用的 Calendar 组件相比，还是过于简单了。
 这节我们再来写一个复杂一些的，真实项目用的 Calendar 组件：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4dbbb19c32af43bca385ed8d51b34e08~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1162&h=1080&s=172565&e=gif&f=34&b=fefefe)
+![[react/react 通关秘籍/media/5e91f4083e50982505964b40ec93699a_MD5.gif]]
+
+# 创建项目
 
 用 cra 创建个项目：
 
@@ -12,31 +11,27 @@
 npx create-react-app --template typescript calendar-component
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe784e9083f742a29dc4bf02003f1616~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1072&h=214&s=41630&e=png&b=010101)
+![[react/react 通关秘籍/media/3c7d2bb503e99157a0b799d30d67c99c_MD5.png]]
 
-先不着急写，我们先理一下思路：
+# 思路
 
-日历组件的核心是什么？
+先不着急写，我们**先理一下思路：**
 
-是拿到每月的天数，每月的第一天是星期几。
+*日历组件的核心是什么？* 是拿到每月的天数，每月的第一天是星期几。
 
-比如这个月：
+我们知道这个月有 30 天，第一天是周三，那就知道如何显示这个月的日历了。比如这个月：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72dbb2aa686045e1be92662f7173ba1c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1348&h=1060&s=75638&e=png&b=ffffff)
+![[react/react 通关秘籍/media/887dd2f7e0e6b56515784d56642007c7_MD5.png]]
 
-我们知道这个月有 30 天，第一天是周三，那就知道如何显示这个月的日历了。
 
-那如何知道每月的天数呢？
-
-上节讲过，用 Date 的 api 就可以。
-
-当然，也可以用 dayjs，它封装了这些：
+*那如何知道每月的天数呢？* 上节讲过，用 Date 的 api 就可以。当然，也可以用 dayjs，它封装了这些。
 
 安装 dayjs：
 
 ```
 npm install --save dayjs
 ```
+
 在 test.js 写如下代码：
 
 ```javascript
@@ -54,15 +49,13 @@ console.log(dayjs('2023-11-1').endOf('month').format('YYYY-MM-DD'));
 
 跑一下：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d0d1cfa5fa048b98aad1bcfb0346423~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=988&h=546&s=90696&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/922a71e0bc448af342904f460ba48682_MD5.png]]
 
-这次 Calendar 组件我们用 dayjs 的 api 来实现。
+这次 Calendar 组件我们用 dayjs 的 api 来实现。很多组件库的 Calendar 组件都是基于 dayjs 设置和返回日期的。比如 antd 的：
 
-很多组件库的 Calendar 组件都是基于 dayjs 设置和返回日期的。
+![[react/react 通关秘籍/media/bc2ee3f4fba0e8e724fab237cef263b3_MD5.png]]
 
-比如 antd 的：
-
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8ad0a10e27143d89ec5a13e0ced7ee3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1174&h=642&s=103374&e=png&b=ffffff)
+# 结构和样式
 
 下面正式来写 Calendar 组件。
 
@@ -117,17 +110,17 @@ export default App;
 npm run start
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ed1e3ecdcc21437fa72677402a85a8b9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1448&h=560&s=40837&e=png&b=0000f5)
+![[react/react 通关秘籍/media/13c97e77fb74ee1a39c2e2d0c9d72fa5_MD5.png]]
 
 这样，sass 就引入成功了。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0b4e84d8b2664a22a9867ca15fadfb43~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1176&h=934&s=60960&e=png&b=ffffff)
+## 日期列表组件
+
+![[react/react 通关秘籍/media/f9d0b271b72f5115ec0bd28144594632_MD5.png]]
 
 这个组件可以分为 Header 和 MonthCalendar 两个组件。
 
-我们先写下面的 MonthCalender 组件：
-
-首先是周日到周六的部分：
+我们先写下面的 MonthCalender 组件。首先是周日到周六的部分：
 
 src/Calendar/MonthCalendar.tsx
 
@@ -149,6 +142,7 @@ function MonthCalendar() {
 
 export default MonthCalendar;
 ```
+
 先把周日到周一渲染出来，然后在 src/Calendar/index.scss 里写下样式：
 
 ```scss
@@ -174,7 +168,7 @@ export default MonthCalendar;
 }
 ```
 
-样式用 display:fex 加 flex:1，这样就是每个列表项平分剩余空间，然后加上 padding。
+样式用 *display:fex 加 flex:1*，这样就是每个列表项平分剩余空间，然后加上 padding。
 
 在 src/Calendar/index.tsx 里引入：
 
@@ -192,17 +186,19 @@ export default Calendar;
 ```
 这样，上面的 week list 就完成了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4d6bb8c17242494e878df8410a0034b3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1618&h=734&s=49768&e=png&b=ffffff)
+![[react/react 通关秘籍/media/17ff0fe08fd4922978d3d1bf465b8fcf_MD5.png]]
 
 然后是下面部分：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b77583980934b52886450775ad1b3bd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1390&h=1024&s=67184&e=png&b=ffffff)
+![[react/react 通关秘籍/media/3b7ce0a68a0b72c850df5115bf1aaf7f_MD5.png]]
 
 思路前面分析过了，就是拿到当前月份的天数和第一天是星期几，前后用上个月和下个月的日期填充。
 
-我们给 Calendar 组件加一个 value 的 props，也就是当前日期。
+## 加一个 value 的 props
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/696d646f6d4d4ddfaa86c200605087ec~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=776&h=604&s=99682&e=png&b=1f1f1f)
+我们给 Calendar 组件加一个 value 的 props，也就是*当前日期*。
+
+![[react/react 通关秘籍/media/9be4bfc9547c767384d779d4e4a5d9ca_MD5.png]]
 
 value 我们选择用 Dayjs 类型，当然，用 Date 也可以。
 
@@ -226,7 +222,7 @@ export default Calendar;
 ```
 在 MonthCalendar 也加上 props：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/675476c965a34a8595c178150d188dbd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1228&h=854&s=151798&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d418697370a4e872f6319fb3843baa69_MD5.png]]
 
 ```javascript
 interface MonthCalendarProps extends CalendarProps {
@@ -236,13 +232,13 @@ interface MonthCalendarProps extends CalendarProps {
 
 在 App.tsx 传入参数：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8281d41ec894fa1a571a318b48755e3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=974&h=498&s=74682&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/513ed9766754d935f5dbda3ff3a06de8_MD5.png]]
 
 这样，MonthCalendar 就可以根据传入的 value 拿到当前的月份信息了。
 
 我们加一个 getAllDays 方法，打个断点：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c58b94861ee84b53955d4807d189addd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1088&h=900&s=177882&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/48d78f074b75806e740bac155b11dc72_MD5.png]]
 
 ```javascript
 function getAllDays(date: Dayjs) {
@@ -258,13 +254,13 @@ const allDays = getAllDays(props.value);
 ```
 然后创建个调试配置：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/917e19e1c21247a1b70c95b15672be16~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=600&h=386&s=44720&e=png&b=191919)
+![[react/react 通关秘籍/media/17418e64d1031172f6d8aa92fab27158_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2527e79243214b90b0cdf16f0125b9cc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=986&h=566&s=99586&e=png&b=202020)
+![[react/react 通关秘籍/media/4de7ae678e4b8512c4758ea3f7ccface_MD5.png]]
 
 点击调试启动：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9abb4e07b2d447ccaa5429085b01c4e7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1478&h=880&s=269935&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/59d23c72ddf747a66939a6af7efce482_MD5.png]]
 
 可以看到，拿到了这个月的天数，是 30 天。
 
@@ -272,7 +268,7 @@ const allDays = getAllDays(props.value);
 
 不管这个月有多少天，我们日历都是固定 6 * 7 个日期：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c82af0df9fd4471991f87de3d141c024~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1394&h=1034&s=67311&e=png&b=ffffff)
+![[react/react 通关秘籍/media/c03167ae5d32b3d2ec4c45981609f027_MD5.png]]
 
 所以创建一个 6 * 7 个元素的数组，这个月第一天之前的用第一天的日期 -1、-2、-3 这样计算出来：
 
@@ -297,17 +293,17 @@ function getAllDays(date: Dayjs) {
 
 11 月 1 日是星期三：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c54afc485b564a49ac44845b2e5f958b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=976&h=586&s=106460&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/06d15f823bd121670f9310a076977a30_MD5.png]]
 
 那也就是要在之前填充星期日、星期一、星期二，这 3 天的日期：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71098bd5f3b54f16a48fc0914a2bca78~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1068&h=610&s=91467&e=png&b=202020)
+![[react/react 通关秘籍/media/076b0f7b173ff624dda88f73cffd0e47_MD5.png]]
 
 这里用 dayjs 的 subtract 方法就可以计算当前日期 -1、-2、-3 的日期。
 
 再写一段逻辑，点击刷新：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f248c12d36bd4fffb12b417ab56438e6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1270&h=888&s=168064&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/2a9a8e83a8466cc6e26f921df9479f13_MD5.png]]
 
 ```javascript
 function getAllDays(date: Dayjs) {
@@ -337,13 +333,13 @@ function getAllDays(date: Dayjs) {
 
 hover 上去可以看到，计算的结果是对的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72e57f9880ba4c4da65825088e801a03~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=816&h=798&s=134259&e=png&b=202020)
+![[react/react 通关秘籍/media/4d96cf8634c1168f5f47c18f09dfc45c_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d69335c71c5e4405b06f22ee2b78df5a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=754&h=684&s=124217&e=png&b=202020)
+![[react/react 通关秘籍/media/fa441c95a3c62344eca8d3163c7738da_MD5.png]]
 
 然后把 format 删掉，这里不需要格式化。再添加一个属性标识是否是当前月份的。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7e773a5e3ad5497ea7cd74735c4a9d52~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1034&h=920&s=159144&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/2fa8e9150eb832d1586072b819d43a55_MD5.png]]
 
 ```javascript
 function getAllDays(date: Dayjs) {
@@ -376,9 +372,9 @@ function getAllDays(date: Dayjs) {
 
 返回值处打个断点，刷新下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dfa24544c8fe47dbbdad5dc4a7b50952~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=980&h=960&s=208083&e=png&b=202020)
+![[react/react 通关秘籍/media/40fa7fcbb14f39d6160c812117bec883_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1f872dd94b04dd1aa5134667c071490~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=860&h=874&s=190514&e=png&b=202020)
+![[react/react 通关秘籍/media/9c9b9f6c66c5734901ad16d6b13fa285_MD5.png]]
 
 当前月份的日期、之前几天的日期、之后几天的日期都有了。
 
@@ -388,14 +384,14 @@ function getAllDays(date: Dayjs) {
 
 再声明下返回的数组的类型：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e91f6cb23ab4955ae5b97d8ee589f19~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1256&h=888&s=150464&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/0f763265d0d7b7d87628144010dca008_MD5.png]]
 
 ```javascript
 const daysInfo: Array<{date: Dayjs, currentMonth: boolean}> = new Array(6 * 7);
 ```
 数据准备好了，接下来就可以渲染了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/013a82250eba4960afbe736eefaab47f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1332&h=1200&s=260401&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/ebe78bf143dd187a7e1f0d1f7380747b_MD5.png]]
 
 ```javascript
 <div className="calendar-month-body">
@@ -422,7 +418,7 @@ function renderDays(days: Array<{ date: Dayjs, currentMonth: boolean}>) {
 
 scss 部分如下：
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/13ddc7e49bf94210aad7697d7645c858~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=840&h=1076&s=128184&e=png&b=202020)
+![[react/react 通关秘籍/media/ce0358b9facbdbfac9fa1b7b3b87d532_MD5.png]]
 
 ```scss
 &-body {
@@ -442,11 +438,11 @@ scss 部分如下：
 
 渲染出来是这样的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52521c1c4d034e65b40b1dbf16024343~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1666&h=1442&s=107998&e=png&b=fefefe)
+![[react/react 通关秘籍/media/908a4f9595df2f3c6b364f6fb46f7df9_MD5.png]]
 
 然后当前月和其他月份的日期加上个不同颜色区分：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af1e383bdaf04b87a53efd4f6c6c156b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1650&h=502&s=126736&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/6c5c76f23a9a3aaf26fe82d2026f68e8_MD5.png]]
 
 ```javascript
 function renderDays(days: Array<{ date: Dayjs, currentMonth: boolean}>) {
@@ -464,7 +460,7 @@ function renderDays(days: Array<{ date: Dayjs, currentMonth: boolean}>) {
     return rows.map(row => <div className="calendar-month-body-row">{row}</div>)
 }
 ```
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/280ecf24f1c8458588b4c1d93720ac02~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=600&h=582&s=51663&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/5a233a3a2f0d775c322a747a8356feb5_MD5.png]]
 
 ```scss
 color: #ccc;
@@ -475,11 +471,11 @@ color: #ccc;
 
 这样，我们的日历就基本完成了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/28b2d86b3eea440dbbf6d78d9a9f2f92~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1998&h=1454&s=114493&e=png&b=fefefe)
+![[react/react 通关秘籍/media/c4f29aff9a7ef1024464a2d2769f1f40_MD5.png]]
 
 切换日期是在 Header 部分做的，接下来写下这部分：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85467aea224a4b33a8d8da36909fb14f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1170&h=988&s=61605&e=png&b=ffffff)
+![[react/react 通关秘籍/media/5beea75b0fa9bcafdc96009211bcd9d2_MD5.png]]
 
 写下 src/Calendar/Header.tsx：
 
@@ -554,13 +550,13 @@ export default Header;
 
 渲染出来是这样的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e6963058499547e3a9f123b5761e40e1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=998&h=596&s=48136&e=png&b=fefefe)
+![[react/react 通关秘籍/media/04bd49d8ad05fba00f4ad6579246e5db_MD5.png]]
 
 这样我们就完成了布局部分。
 
 案例代码上传了[小册仓库](https://github.com/QuarkGluonPlasma/react-course-code/tree/main/calendar-component)。
 
-## 总结
+# 总结
 
 这节我们开始实现一个真实的 Calendar 组件。
 
