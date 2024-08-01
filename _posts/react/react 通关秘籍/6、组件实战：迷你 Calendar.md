@@ -1,17 +1,12 @@
-日历组件想必大家都用过，在各个组件库里都有。
-
-比如 antd 的 Calendar 组件（或者 DatePicker 组件）：
+日历组件想必大家都用过，在各个组件库里都有。比如 antd 的 Calendar 组件（或者 DatePicker 组件）：
 
 ![[react/react 通关秘籍/media/8c5134b153982bf8cc94f81d7836c230_MD5.png]]
 
-那这种日历组件是怎么实现的呢？
+那这种日历组件是怎么实现的呢？其实原理很简单，今天我们就来自己实现一个。
 
-其实原理很简单，今天我们就来自己实现一个。
+## Date 的 api
 
-首先，要过一下 Date 的 api：
-
-创建 Date 对象时可以传入年月日时分秒。
-
+首先，要过一下 Date 的 api，创建 Date 对象时可以传入年月日时分秒。
 比如 2023 年 7 月 30，就是这么创建：
 
 ```javascript
@@ -22,39 +17,33 @@ new Date(2023, 6, 30);
 
 ![[react/react 通关秘籍/media/353758a8246b0d0c930e6767b3e7d8f0_MD5.png]]
 
-有人说 7 月为啥第二个参数传 6 呢？
+### Date 的 month
 
-因为 Date 的 month 是从 0 开始计数的，取值是 0 到 11：
+*7 月为啥第二个参数传 6 呢？* 因为 Date 的 month 是从 0 开始计数的，取值是 0 到 11：
 
 ![[react/react 通关秘籍/media/b4e80dbee8f9eefe47015d776daa0a3c_MD5.png]]
 
-而日期 date 是从 1 到 31。
-
-而且有个小技巧，当你 date 传 0 的时候，取到的是上个月的最后一天：
+### Date 的 date
+而日期 date 是从 1 到 31。当 date 传 0 的时候，取到的是上个月的最后一天；-1 就是上个月的倒数第二天；-2 就是倒数第三天这样。
 
 ![[react/react 通关秘籍/media/e9b39bbaa05c214b721f6afb847e2065_MD5.png]]
 
--1 就是上个月的倒数第二天，-2 就是倒数第三天这样。
-
-这个小技巧有很大的用处，可以用这个来拿到每个月有多少天：
+这个小技巧有很大的用处，**可以用这个来拿到每个月有多少天：** 2023 年一月 31 天、二月 28 天、三月 31 天。。。
 
 ![[react/react 通关秘籍/media/e845759135654b940274172919c586a5_MD5.png]]
 
-2023 年一月 31 天、二月 28 天、三月 31 天。。。
-
+### getFullYear / getMonth / getDay
 除了日期外，也能通过 getFullYear、getMonth 拿到年份和月份：
 
 ![[react/react 通关秘籍/media/27e4cf7d395410f83da4d13b15758fef_MD5.png]]
 
-还可以通过 getDay 拿到星期几。
-
-比如今天（2023-7-19）是星期三：
+还可以通过 getDay 拿到星期几。比如今天（2023-7-19）是星期三：
 
 ![[react/react 通关秘籍/media/ae0a73ebb7d587648e34d801a8508a0b_MD5.png]]
 
 就这么几个 api 就已经可以实现日历组件了。
 
-不信？我们来试试看：
+## 创建 typescript 的 react 项目
 
 用 cra 创建 typescript 的 react 项目：
 
@@ -63,9 +52,9 @@ npx create-react-app --template=typescript mini-calendar-test
 ```
 ![[react/react 通关秘籍/media/269cd03c7daf7f9da01f5da337570e1a_MD5.png]]
 
-我们先来写下静态的布局：
+### 静态的布局
 
-一个 header，然后是从星期日到星期六，再下面是从 1 到 31：
+我们先来写下静态的布局。一个 header，然后是从星期日到星期六，再下面是从 1 到 31：
 
 ![[react/react 通关秘籍/media/1f51892afb5a8d3bd9be902e86efd50c_MD5.png]]
 
@@ -140,7 +129,9 @@ npm run start
 
 ![[react/react 通关秘籍/media/db7a0d0245055f884125e707920d1df5_MD5.png]]
 
-这种布局还是挺简单的：
+这种布局还是挺简单的。
+
+#### CSS
 
 header 就是一个 space-between 的 flex 容器：
 
@@ -185,11 +176,15 @@ header 就是一个 space-between 的 flex 容器：
   cursor: pointer;
 }
 ```
-然后我们再来写逻辑：
+
+### 逻辑
+
+然后我们再来写逻辑。
+#### 左右按钮
 
 ![[react/react 通关秘籍/media/691f52c742b36492466168f7952249a0_MD5.png]]
 
-首先，我们肯定要有一个 state 来保存当前的日期，默认值是今天。
+首先，我们肯定要有一个 state 来保存*当前的日期*，默认值是今天。
 
 然后点击左右按钮，会切换到上个月、下个月的第一天。
 
@@ -204,6 +199,8 @@ const handleNextMonth = () => {
     setDate(new Date(date.getFullYear(), date.getMonth() + 1, 1));
 };
 ```
+
+#### 渲染的年月
 
 然后渲染的年月要改为当前 date 对应的年月：
 
@@ -232,9 +229,9 @@ const monthNames = [
 
 年月部分没问题了。
 
-再来改下日期部分：
+#### 日期部分
 
-我们定义一个 renderDays 方法：
+再来改下日期部分。我们定义一个 renderDays 方法：
 
 ```javascript
 const daysOfMonth = (year: number, month: number) => {
@@ -262,19 +259,18 @@ const renderDays = () => {
     return days;
 };
 ```
-首先定义个数组，来存储渲染的内容。
 
-然后计算当前月有多少天，这里用到了前面那个 new Date 时传入 date 为 0 的技巧。
+- 首先定义个数组，来存储渲染的内容。
 
-再计算当前月的第一天是星期几，也就是 new Date(year, month, 1).getDay()
+- *然后计算当前月有多少天*。这里用到了前面那个 new Date 时传入 date 为 0 的技巧。
 
-这样就知道从哪里开始渲染，渲染多少天了。
+- *再计算当前月的第一天是星期几*。也就是 new Date(year, month, 1).getDay()，这样就知道从哪里开始渲染，渲染多少天了。
 
-然后先一个循环，渲染 day - 1 个 empty 的块。
+- 然后先一个循环，渲染 day - 1 个 empty 的块。
 
-再渲染 daysCount 个 day 的块。
+- 再渲染 daysCount 个 day 的块。
 
-这样就完成了日期渲染：
+这样就完成了日期渲染。
 
 ![[react/react 通关秘籍/media/6af7bc12377b3c733409261db6838824_MD5.png]]
 
@@ -282,15 +278,15 @@ const renderDays = () => {
 
 ![[react/react 通关秘籍/media/43f58c3901fbfcd86d07bd72d526dfe6_MD5.gif]]
 
-没啥问题。这样，我们就完成了一个 Calendar 组件！
+没啥问题。这样，我们就完成了一个 Calendar 组件！是不是还挺简单的？确实，Calendar 组件的原理比较简单。
 
-是不是还挺简单的？确实，Calendar 组件的原理比较简单。
+#### value 和 onChange
 
 接下来，我们增加两个参数，value 和 onChange。
 
 这俩参数和 antd 的 Calendar 组件一样。
 
-value 参数设置为 date 的初始值：
+*value 参数设置为 date 的初始值：*
 
 ![[react/react 通关秘籍/media/f8b8301b4fce70c3bf5a4880e54045f2_MD5.png]]
 
