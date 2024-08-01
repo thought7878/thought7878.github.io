@@ -286,6 +286,8 @@ const renderDays = () => {
 
 这俩参数和 antd 的 Calendar 组件一样。
 
+**value**
+
 *value 参数设置为 date 的初始值：*
 
 ![[react/react 通关秘籍/media/f8b8301b4fce70c3bf5a4880e54045f2_MD5.png]]
@@ -308,6 +310,8 @@ const renderDays = () => {
 
 没啥问题。
 
+**onChange 的回调函数**
+
 然后我们再加上 onChange 的回调函数：
 
 ![[react/react 通关秘籍/media/992f2b5bfe441c2b2a9c3d72da3da17f_MD5.png]]
@@ -325,10 +329,11 @@ const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getM
 ![[react/react 通关秘籍/media/23358237429acfe6942b5e3321d98bf0_MD5.gif]]
 
 也没啥问题。现在这个 Calendar 组件就是可用的了，可以通过 value 来传入初始的 date 值，修改 date 之后可以在 onChange 里拿到最新的值。
-
 大多数人到了这一步就完成 Calendar 组件的封装了。这当然没啥问题。
 
-但其实你还可以再做一步，提供 ref 来暴露一些 Canlendar 组件的 api。
+#### 提供 ref 属性
+
+但其实你还可以再做一步，**提供 ref 来暴露一些 Canlendar 组件的 api**。
 
 ![[react/react 通关秘籍/media/e209a60fba71ae45477ca06259d0a3ea_MD5.png]]
 

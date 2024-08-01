@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "018df4606962b8a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/js/知识点总结/bind、apply、call.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+                "file": "base/js/知识点总结/bind、apply、call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+                "file": "base/js/知识点总结/bind、apply、call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md"
+                "file": "base/js/知识点总结/bind、apply、call.md"
               }
             }
           }
@@ -197,8 +209,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "98b6c694e66e4935",
+  "active": "018df4606962b8a8",
   "lastOpenFiles": [
+    "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+    "base/js/知识点总结/bind、apply、call.md",
     "react/react 通关秘籍/1、小册介绍.md",
     "libraries/shadcn/issues 记录.md",
     "libraries/源码学习方法&调试技巧.md",
@@ -223,8 +237,6 @@
     "react/react 通关秘籍/26、快速掌握 Unocss.md",
     "react/react 通关秘籍/27、CSS Modules、CSS in JS.md",
     "react/react 通关秘籍/28、组件实战：Message.md",
-    "react/react 通关秘籍/37、组件实战： VirtualList.md",
-    "react/react 通关秘籍/36、组件实战：onBoarding.md",
     "react/react 通关秘籍/media/43f58c3901fbfcd86d07bd72d526dfe6_MD5.gif",
     "react/react 通关秘籍/media/602d4988a4f0f3dfe98d50c6a5d7426b_MD5.gif",
     "react/react 通关秘籍/media/23358237429acfe6942b5e3321d98bf0_MD5.gif",
