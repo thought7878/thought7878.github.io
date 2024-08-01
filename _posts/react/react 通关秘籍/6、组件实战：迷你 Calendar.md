@@ -339,7 +339,7 @@ const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getM
 
 ![[react/react 通关秘籍/media/a3ff8386b8504df6333ee9b903f6c11d_MD5.png]]
 
-前面章节讲过，useImperativeHandle 可以自定义 ref 的内容。
+前面章节讲过，**useImperativeHandle 可以自定义 ref 的内容**。
 
 然后用的时候就可以通过 useRef 创建 ref 对象，设置到 Calendar 的 ref 属性上，拿到转发出的 ref 内容：
 
@@ -353,11 +353,13 @@ ref 的 api 也都生效了。
 
 *这就是除了 props 之外，另一种暴露组件 api 的方式。*
 
+#### 渲染前后月份的日期
+
 现在的 Calender 除了本月的日期外，其余的地方是用空白填充的。很多日历用的是上个月、下个月的日期。
 
 ![[react/react 通关秘籍/media/478f62e107f8a358830c82cce1e5d68f_MD5.png]]
 
-这个也很简单，new Date(year, month + 1, 0) 是拿到当前月的第一天，那 -1 就是上个月的最后一天，-2 就是倒数第二天。
+这个也很简单，new Date(year, month + 1, 0) 是拿到当前月的*第一天*，那 -1 就是上个月的最后一天，-2 就是倒数第二天。
 
 下个月的也是同理，用当前月最后一天 +1、+2 即可。
 
@@ -530,11 +532,7 @@ export default Test;
 
 Calendar 或者 DatePicker 组件我们经常会用到，今天自己实现了一下。
 
-其实原理也很简单，就是 Date 的 api。
-
-new Date 的时候 date 传 0 就能拿到上个月最后一天的日期，然后 getDate 就可以知道那个月有多少天。
-
-然后再通过 getDay 取到这个月第一天是星期几，就知道怎么渲染这个月的日期了。
+其实原理也很简单，就是 Date 的 api。new Date 的时候 date 传 0 就能拿到上个月最后一天的日期，然后 getDate 就可以知道那个月有多少天。然后再通过 getDay 取到这个月第一天是星期几，就知道怎么渲染这个月的日期了。
 
 我们用 react 实现了这个 Calendar 组件，支持传入 value 指定初始日期，传入 onChange 作为日期改变的回调。
 
