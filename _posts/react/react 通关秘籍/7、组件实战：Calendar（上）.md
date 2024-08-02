@@ -265,12 +265,15 @@ const allDays = getAllDays(props.value);
 可以看到，拿到了这个月的天数，是 30 天。
 
 接下来我们边调试边写。
+##  当月和前后月的日期
+
+### 计算日期数据
 
 不管这个月有多少天，我们日历都是固定 6 * 7 个日期：
 
 ![[react/react 通关秘籍/media/c03167ae5d32b3d2ec4c45981609f027_MD5.png]]
 
-所以创建一个 6 * 7 个元素的数组，这个月第一天之前的用第一天的日期 -1、-2、-3 这样计算出来：
+所以创建一个 6 * 7 个元素的数组。*这个月第一天之前的日期，用第一天的日期 -1、-2、-3 这样计算出来：*
 
 ```javascript
 function getAllDays(date: Dayjs) {
@@ -291,17 +294,17 @@ function getAllDays(date: Dayjs) {
 }
 ```
 
-11 月 1 日是星期三：
+*11 月 1 日是星期三：*
 
 ![[react/react 通关秘籍/media/06d15f823bd121670f9310a076977a30_MD5.png]]
 
-那也就是要在之前填充星期日、星期一、星期二，这 3 天的日期：
+那也就是要在之前填充星期日、星期一、星期二，*这 3 天的日期：*
 
 ![[react/react 通关秘籍/media/076b0f7b173ff624dda88f73cffd0e47_MD5.png]]
 
-这里用 dayjs 的 subtract 方法就可以计算当前日期 -1、-2、-3 的日期。
+*这里用 dayjs 的 subtract 方法就可以计算当前日期 -1、-2、-3 的日期*。
 
-再写一段逻辑，点击刷新：
+*计算剩下的日期，当月的日期和下月的日期*，点击刷新。这个循环就是填充剩下的日期的，从 startDate 开始 +1、+2、+3 计算日期。
 
 ![[react/react 通关秘籍/media/2a9a8e83a8466cc6e26f921df9479f13_MD5.png]]
 
@@ -329,7 +332,7 @@ function getAllDays(date: Dayjs) {
 
 }
 ```
-这个循环就是填充剩下的日期的，从 startDate 开始 +1、+2、+3 计算日期。
+
 
 hover 上去可以看到，计算的结果是对的：
 
@@ -337,7 +340,7 @@ hover 上去可以看到，计算的结果是对的：
 
 ![[react/react 通关秘籍/media/fa441c95a3c62344eca8d3163c7738da_MD5.png]]
 
-然后把 format 删掉，这里不需要格式化。再添加一个属性标识是否是当前月份的。
+然后把 format 删掉，这里不需要格式化。再*添加一个属性标识是否是当前月份的*。
 
 ![[react/react 通关秘籍/media/2fa8e9150eb832d1586072b819d43a55_MD5.png]]
 
@@ -368,7 +371,7 @@ function getAllDays(date: Dayjs) {
 }
 ```
 
-就是先 -1、-2、-3 计算本月第一天之前的日期，然后从第一天开始 +1、+2、+3 计算之后日期。
+*就是先 -1、-2、-3 计算本月第一天之前的日期，然后从第一天开始 +1、+2、+3 计算之后日期*。
 
 返回值处打个断点，刷新下：
 
@@ -376,11 +379,7 @@ function getAllDays(date: Dayjs) {
 
 ![[react/react 通关秘籍/media/9c9b9f6c66c5734901ad16d6b13fa285_MD5.png]]
 
-当前月份的日期、之前几天的日期、之后几天的日期都有了。
-
-这样，日历的数据就准备好了。
-
-其实上一节我们也是这么做的，只不过用的是 Date 的 api，而这节换成 dayjs 的 api 了。
+当前月份的日期、之前几天的日期、之后几天的日期都有了。这样，日历的数据就准备好了。其实上一节我们也是这么做的，只不过用的是 Date 的 api，而这节换成 dayjs 的 api 了。
 
 再声明下返回的数组的类型：
 
@@ -389,6 +388,9 @@ function getAllDays(date: Dayjs) {
 ```javascript
 const daysInfo: Array<{date: Dayjs, currentMonth: boolean}> = new Array(6 * 7);
 ```
+
+### 渲染
+
 数据准备好了，接下来就可以渲染了：
 
 ![[react/react 通关秘籍/media/ebe78bf143dd187a7e1f0d1f7380747b_MD5.png]]
@@ -472,6 +474,8 @@ color: #ccc;
 这样，我们的日历就基本完成了：
 
 ![[react/react 通关秘籍/media/c4f29aff9a7ef1024464a2d2769f1f40_MD5.png]]
+
+## Header 部分
 
 切换日期是在 Header 部分做的，接下来写下这部分：
 
