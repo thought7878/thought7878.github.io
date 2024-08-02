@@ -1,3 +1,5 @@
+# 添加一些属性
+
 基本的布局完成了，我们来添加一些参数：
 
 ![[react/react 通关秘籍/media/8e629ab7cff504145d70df9d5f7e6ce0_MD5.png]]
@@ -17,27 +19,23 @@ export interface CalendarProps {
 }
 ```
 
-style 和 className 用于修改 Calendar 组件外层容器的样式。
+*style 和 className* 用于修改 Calendar 组件外层容器的样式。内部的布局我们都是用的 flex，所以只要外层容器的样式变了，内部的布局会自动适应。
 
-内部的布局我们都是用的 flex，所以只要外层容器的样式变了，内部的布局会自动适应。
-
-dateRender 是用来定制日期单元格显示的内容的。
-
-比如加一些日程安排，加一些农历或者节日信息：
+*dateRender* 是用来定制日期单元格显示的内容的。比如加一些日程安排，加一些农历或者节日信息：
 
 ![[react/react 通关秘籍/media/c8ebeadd0ead061a765c7b57aa330ff4_MD5.png]]
 
 ![[react/react 通关秘籍/media/19d30465a04918b127397ba0016a7323_MD5.png]]
 
-dateRender 是整个覆盖，连带日期的数字一起，而 dateInnerContent 只会在日期的数字下添加一些内容。
+*dateRender* 是整个覆盖，连带日期的数字一起，而 *dateInnerContent* 只会在日期的数字下添加一些内容。这两个 props 是不一样的。
 
-这两个 props 是不一样的。
+*locale* 是用于国际化的，比如切换到中文显示或者是英文显示。
 
-locale 是用于国际化的，比如切换到中文显示或者是英文显示。
-
-onChange 是当选择了日期之后会触发的回调。
+*onChange* 是当选择了日期之后会触发的回调。
 
 然后实现下这些参数对应的逻辑。
+
+## className 和 style
 
 首先是 className 和 style：
 
@@ -98,6 +96,8 @@ export default App;
 ![[react/react 通关秘籍/media/56215558212c3c467d27a4c5d6adf92c_MD5.png]]
 
 className 和 style 的处理没问题。
+
+## dateRender 和 dateInnerContent
 
 然后我们处理下一个 props： dateRender 和 dateInnerContent。
 
@@ -222,6 +222,8 @@ export default App;
 ![[react/react 通关秘籍/media/94599260170eda744066b902d0b8288f_MD5.png]]
 
 这样，dateRender 和 dateInnerContent 的逻辑就完成了。
+
+## locale
 
 接下来做国际化，也就是 locale 参数的处理。
 
@@ -396,6 +398,8 @@ function MonthCalendar(props: MonthCalendarProps) {
 
 这就是国际化。
 
+### context
+
 当然，现在我们是手动切换的资源包，其实应该是全局统一配置的。
 
 这个可以通过 context 来做：
@@ -459,8 +463,10 @@ const CalendarLocale = allLocales[localeContext.locale];
 
 ![[react/react 通关秘籍/media/ed74c776c3eec56a637f20b4e96039ee_MD5.png]]
 
-接下来，我们实现 value 和 onChange 参数的逻辑。
+## value 和 onChange
 
+接下来，我们实现 value 和 onChange 参数的逻辑。
+### value
 在 MonthCalendar 里取出 value 参数，传入 renderDays 方法：
 
 ![[react/react 通关秘籍/media/84f3d74be19d8fd4acb0c3ea4996e2d9_MD5.png]]
@@ -525,6 +531,8 @@ function renderDays(
 现在渲染出来是这样的：
 
 ![[react/react 通关秘籍/media/2bbf006ffd5262ee0851d9d2fd48eba4_MD5.png]]
+
+### onChange
 
 然后我们加上点击的处理：
 
@@ -641,6 +649,8 @@ export default App;
 
 ![[react/react 通关秘籍/media/e51c0f2c33c49ff762a444d3f2193355_MD5.gif]]
 
+# Header 组件里的日期切换 
+
 然后实现下 Header 组件里的日期切换：
 
 ![[react/react 通关秘籍/media/7fca29540402fa8619c356dd55e75d29_MD5.png]]
@@ -726,6 +736,8 @@ function Calendar(props: CalendarProps) {
 
 ![[react/react 通关秘籍/media/380e3196dd7bb239ea28912e52a3260a_MD5.gif]]
 
+# 切换日期表格
+
 但现在月份是变了，但下面的日历没有跟着变。
 
 因为我们之前是拿到 value 所在月份来计算的日历，现在要改成 curMonth 所在的月份。
@@ -737,6 +749,8 @@ function Calendar(props: CalendarProps) {
 这样，月份切换时，就会显示那个月的日历了：
 
 ![[react/react 通关秘籍/media/4545416d9c7c306b0f3538880de33894_MD5.gif]]
+
+# 今天按钮
 
 然后我们加上今天按钮的处理：
 
@@ -785,7 +799,7 @@ function todayHandler() {
     onChange?.(date);
 }
 ```
-同时修改日期和当前月份，并且还要调用 onChange 回调。
+*同时修改日期和当前月份，并且还要调用 onChange 回调*。
 
 测试下：
 
@@ -844,6 +858,8 @@ function Header(props: HeaderProps) {
 
 这样，我们的 Calendar 组件就完成了。
 
+# 优化代码
+
 最后我们再来优化下代码：
 
 ![[react/react 通关秘籍/media/19476eab9ecf4becf914ce3033d1d89e_MD5.png]]
@@ -869,7 +885,7 @@ function changeDate(date: Dayjs) {
 
 案例代码上传了[小册仓库](https://github.com/QuarkGluonPlasma/react-course-code/tree/main/calendar-component)。
 
-## 总结
+# 总结
 
 上节我们实现了布局，这节加上了参数并且实现了这些参数对应的逻辑。
 
