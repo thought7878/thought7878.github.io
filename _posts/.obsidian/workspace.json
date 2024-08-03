@@ -92,18 +92,6 @@
             }
           },
           {
-            "id": "5992aa599a539e2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typescript/docs/Generics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b36de1dd62f14fd",
             "type": "leaf",
             "state": {
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -247,9 +235,10 @@
   },
   "active": "2b36de1dd62f14fd",
   "lastOpenFiles": [
-    "typescript/docs/Generics.md",
+    "typescript/base/2020-03-18-14  类型的工具.md",
     "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
     "methods/如何规划好一天.md",
+    "typescript/docs/Generics.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "要整理的.md",
     "methods/自我管理.md",
@@ -283,7 +272,6 @@
     "react/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
     "react/react 通关秘籍/12、组件实战：ColorPicker（一）.md",
     "react/react 通关秘籍/13、组件实战：ColorPicker（二）.md",
-    "react/react 通关秘籍/14、组件实战：ColorPicker（三）.md",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/目录.txt",
