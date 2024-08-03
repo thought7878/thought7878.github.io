@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/base/2020-03-18-14  类型的工具.md",
+                "file": "typescript/base/2020-03-18-14  工具类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/base/2020-03-18-14  类型的工具.md",
+                "file": "typescript/base/2020-03-18-14  工具类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/base/2020-03-18-14  类型的工具.md",
+                "file": "typescript/base/2020-03-18-14  工具类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/base/2020-03-18-14  类型的工具.md"
+                "file": "typescript/base/2020-03-18-14  工具类型.md"
               }
             }
           }
@@ -248,7 +248,7 @@
   "active": "2b36de1dd62f14fd",
   "lastOpenFiles": [
     "typescript/总结/keyof.md",
-    "typescript/base/2020-03-18-14  类型的工具.md",
+    "typescript/base/2020-03-18-14  工具类型.md",
     "typescript/总结/实用工具类型-Partia、Readonly、Record、Pick、Omit等.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/base/2020-03-18-13 必备增强类型系统的方式大盘点，让你的开发如虎添翼.md",
