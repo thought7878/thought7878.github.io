@@ -69,7 +69,7 @@ npm install classnames
 
 ![[react/react 通关秘籍/media/d15d79377cecda7762c794deb52d4ebb_MD5.png]]
 
-当 className 的确定需要一段复杂计算逻辑的时候，就用 classname 这个包。
+当 className 确定需要一段复杂计算逻辑的时候，就用 classname 这个包。
 
 测试下：
 
