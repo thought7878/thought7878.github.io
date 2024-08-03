@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
+                "file": "typescript/总结/实用工具类型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "92745b75cf47ef2c",
+            "id": "0cc4954526f8a80b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
+                "file": "typescript/总结/实用工具类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
+                "file": "typescript/总结/实用工具类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md"
+                "file": "typescript/总结/实用工具类型.md"
               }
             }
           }
@@ -247,9 +247,15 @@
   },
   "active": "2b36de1dd62f14fd",
   "lastOpenFiles": [
-    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
-    "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
+    "typescript/总结/keyof.md",
+    "typescript/总结/实用工具类型.md",
     "typescript/base/2020-03-18-14  类型的工具.md",
+    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
+    "typescript/base/2020-03-18-13 必备增强类型系统的方式大盘点，让你的开发如虎添翼.md",
+    "typescript/base/2020-03-18-11 类型守卫：如何有效地保障类型的安全性？.md",
+    "typescript/base/2020-03-18-10 泛型.md",
+    "typescript/base/2020-03-18-09 枚举类型：详解常见枚举类型的 7 种用法.md",
+    "typescript/base/2020-03-18-12 类型兼容：如何判断一个类型是否可以赋值给其他类型？.md",
     "methods/如何规划好一天.md",
     "typescript/docs/Generics.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
@@ -277,13 +283,7 @@
     "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "react/react 通关秘籍/1、小册介绍.md",
     "react/总结/forwardRef().md",
-    "react/总结/useImperativeHandle.md",
     "react/总结",
-    "base/js/知识点总结/bind、apply、call.md",
-    "libraries/源码学习方法&调试技巧.md",
-    "react/react 通关秘籍/9、快速掌握 Storybook.md",
-    "react/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
-    "react/react 通关秘籍/12、组件实战：ColorPicker（一）.md",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/目录.txt",
