@@ -80,7 +80,7 @@
             }
           },
           {
-            "id": "9b2035acde6e6546",
+            "id": "2b54b484ae311053",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,25 +90,33 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 6
-      },
-      {
-        "id": "64616c142e12e166",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "a1357158b105d1bf",
+            "id": "5992aa599a539e2d",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://b23.tv/T4YH7ZI"
+                "file": "typescript/docs/Generics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b36de1dd62f14fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -174,6 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,6 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +221,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md"
+              }
             }
           }
         ],
@@ -219,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,13 +245,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a1357158b105d1bf",
+  "active": "2b36de1dd62f14fd",
   "lastOpenFiles": [
+    "typescript/docs/Generics.md",
+    "typescript/base/2020-03-18-10 泛型：如何正确使用泛型约束类型变量？.md",
     "methods/如何规划好一天.md",
-    "methods/自我管理.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
-    "libraries/shadcn/issues 记录.md",
     "要整理的.md",
+    "methods/自我管理.md",
+    "libraries/shadcn/issues 记录.md",
     "AI/AI对比.md",
     "AI/通义千问.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
@@ -271,8 +284,6 @@
     "react/react 通关秘籍/12、组件实战：ColorPicker（一）.md",
     "react/react 通关秘籍/13、组件实战：ColorPicker（二）.md",
     "react/react 通关秘籍/14、组件实战：ColorPicker（三）.md",
-    "react/react 通关秘籍/15、组件实战：ColorPicker（四）.md",
-    "react/react 通关秘籍/17、组件实战：Space.md",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/目录.txt",
