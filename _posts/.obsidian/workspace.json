@@ -247,8 +247,9 @@
   },
   "active": "2b36de1dd62f14fd",
   "lastOpenFiles": [
-    "typescript/总结/keyof.md",
+    "typescript/总结/typeof.md",
     "typescript/base/2020-03-18-14  工具类型.md",
+    "typescript/总结/keyof.md",
     "typescript/总结/实用工具类型-Partia、Readonly、Record、Pick、Omit等.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/base/2020-03-18-13 必备增强类型系统的方式大盘点，让你的开发如虎添翼.md",
@@ -282,7 +283,6 @@
     "base/css/overview.md",
     "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "react/react 通关秘籍/1、小册介绍.md",
-    "react/总结/forwardRef().md",
     "react/总结",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
