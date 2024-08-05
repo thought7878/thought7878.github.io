@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/base/2020-03-18-14  工具类型.md",
+                "file": "libraries/shadcn/issues 记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/base/2020-03-18-14  工具类型.md",
+                "file": "libraries/shadcn/issues 记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/base/2020-03-18-14  工具类型.md"
+                "file": "libraries/shadcn/issues 记录.md"
               }
             }
           }
@@ -245,13 +245,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2b36de1dd62f14fd",
+  "active": "b12a650d0cb94985",
   "lastOpenFiles": [
-    "typescript/总结/typeof.md",
+    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/base/2020-03-18-14  工具类型.md",
+    "typescript/总结/typeof.md",
     "typescript/总结/keyof.md",
     "typescript/总结/实用工具类型-Partia、Readonly、Record、Pick、Omit等.md",
-    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/base/2020-03-18-13 必备增强类型系统的方式大盘点，让你的开发如虎添翼.md",
     "typescript/base/2020-03-18-11 类型守卫：如何有效地保障类型的安全性？.md",
     "typescript/base/2020-03-18-10 泛型.md",

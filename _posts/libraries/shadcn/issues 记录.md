@@ -5,7 +5,15 @@
 4340:貌似是 baseline 对齐的问题
 4401:select 出错，没有获得焦点
 
+
+### 可以增加的组件
+CommandEmpty没有自定义class，可以增加
+
+[Rating](https://mui.com/material-ui/react-rating/) : [已经有过pr了](https://github.com/shadcn-ui/ui/pull/2951)
+
+
 ### 新 feat
+
 
 **4482**:Input number。参考[1818](https://github.com/shadcn-ui/ui/pull/1818)
 		[一个新的feat时间好长，如3374](https://github.com/shadcn-ui/ui/pull/3374)
@@ -13,9 +21,6 @@
 
 4398：底部导航
 4385:浏览器的 input[type=number] 在用户体验方面相当糟糕
-
-### 可以增加的组件
-[Rating](https://mui.com/material-ui/react-rating/) : [已经有过pr了](https://github.com/shadcn-ui/ui/pull/2951)
 
 
 *4447*:触控板支持轮播。这个功能已经实现了，可以使用plugin实现。
