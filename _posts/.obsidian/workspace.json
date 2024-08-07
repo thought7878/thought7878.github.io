@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "98b6c694e66e4935",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5e8311c18c600ba3",
             "type": "leaf",
             "state": {
@@ -128,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -174,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/overview.md",
+                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/overview.md",
+                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/overview.md"
+                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md"
               }
             }
           }
@@ -258,9 +245,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "8d1a227134059f5e",
+  "active": "5e8311c18c600ba3",
   "lastOpenFiles": [
     "libraries/shadcn/issues 记录.md",
+    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
+    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "git/overview.md",
     "git/git-workflow.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/base/2020-03-18-14  工具类型.md",
@@ -274,12 +264,10 @@
     "typescript/base/2020-03-18-12 类型兼容：如何判断一个类型是否可以赋值给其他类型？.md",
     "methods/如何规划好一天.md",
     "typescript/docs/Generics.md",
-    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "要整理的.md",
     "methods/自我管理.md",
     "AI/AI对比.md",
     "AI/通义千问.md",
-    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "react/react 通关秘籍/media/e51c0f2c33c49ff762a444d3f2193355_MD5.gif",
     "react/react 通关秘籍/media/27516b3b80e9fd3971ee65a6dc0c2933_MD5.png",
     "react/react 通关秘籍/media/e67860fc5831b422dd668570a1b0a818_MD5.png",
@@ -295,7 +283,6 @@
     "base/css/排版-Flex1.md",
     "base/css/响应式.md",
     "base/css/overview.md",
-    "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "react/总结",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
