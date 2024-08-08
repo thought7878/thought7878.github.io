@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/shadcn/issues 记录.md",
+                "file": "react/总结/utility types/ElementRef.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+                "file": "react/总结/utility types/ElementRef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+                "file": "react/总结/utility types/ElementRef.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md"
+                "file": "react/总结/utility types/ElementRef.md"
               }
             }
           }
@@ -245,15 +245,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5e8311c18c600ba3",
+  "active": "b12a650d0cb94985",
   "lastOpenFiles": [
     "libraries/shadcn/issues 记录.md",
-    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
+    "react/总结/utility types/ElementRef.md",
+    "react/总结/utility types",
+    "typescript/base/2020-03-18-14  工具类型.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "git/overview.md",
     "git/git-workflow.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
-    "typescript/base/2020-03-18-14  工具类型.md",
     "typescript/总结/typeof.md",
     "typescript/总结/keyof.md",
     "typescript/总结/实用工具类型-Partia、Readonly、Record、Pick、Omit等.md",
@@ -282,7 +284,6 @@
     "react/react 通关秘籍/10、React 组件如何写单测？.md",
     "base/css/排版-Flex1.md",
     "base/css/响应式.md",
-    "base/css/overview.md",
     "react/总结",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
@@ -291,7 +292,6 @@
     "debug",
     "react/react 通关秘籍/media",
     "media",
-    "react/react 通关秘籍",
-    "读书笔记"
+    "react/react 通关秘籍"
   ]
 }
