@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/总结/utility types/ElementRef.md",
+                "file": "react/总结/utility types/ElementType.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/utility types/ElementRef.md",
+                "file": "react/总结/utility types/ElementType.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/utility types/ElementRef.md",
+                "file": "react/总结/utility types/ElementType.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/utility types/ElementRef.md"
+                "file": "react/总结/utility types/ElementType.md"
               }
             }
           }
@@ -247,8 +247,11 @@
   },
   "active": "b12a650d0cb94985",
   "lastOpenFiles": [
-    "libraries/shadcn/issues 记录.md",
+    "react/总结/utility types/ForwardRefExoticComponent.md",
+    "react/总结/utility types/ElementType.md",
+    "react/总结/utility types/ComponentPropsWithoutRef.md",
     "react/总结/utility types/ElementRef.md",
+    "libraries/shadcn/issues 记录.md",
     "react/总结/utility types",
     "typescript/base/2020-03-18-14  工具类型.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
@@ -281,9 +284,6 @@
     "react/react 通关秘籍/media/4545416d9c7c306b0f3538880de33894_MD5.gif",
     "react/react 通关秘籍/media/380e3196dd7bb239ea28912e52a3260a_MD5.gif",
     "base/css/排版-Flex2.md",
-    "react/react 通关秘籍/10、React 组件如何写单测？.md",
-    "base/css/排版-Flex1.md",
-    "base/css/响应式.md",
     "react/总结",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
