@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/总结/utility types/satisfies.md",
+                "file": "react/总结/utility types/RefAttributes.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/utility types/satisfies.md",
+                "file": "react/总结/utility types/RefAttributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/utility types/satisfies.md",
+                "file": "react/总结/utility types/RefAttributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/utility types/satisfies.md"
+                "file": "react/总结/utility types/RefAttributes.md"
               }
             }
           }
@@ -247,9 +247,10 @@
   },
   "active": "b12a650d0cb94985",
   "lastOpenFiles": [
-    "react/总结/utility types/ElementType.md",
-    "react/总结/utility types/satisfies.md",
     "react/总结/utility types/ForwardRefExoticComponent.md",
+    "react/总结/utility types/RefAttributes.md",
+    "react/总结/utility types/satisfies.md",
+    "react/总结/utility types/ElementType.md",
     "react/总结/utility types/ComponentPropsWithoutRef.md",
     "react/总结/utility types/ElementRef.md",
     "libraries/shadcn/issues 记录.md",
@@ -273,7 +274,6 @@
     "要整理的.md",
     "methods/自我管理.md",
     "AI/AI对比.md",
-    "AI/通义千问.md",
     "react/react 通关秘籍/media/e51c0f2c33c49ff762a444d3f2193355_MD5.gif",
     "react/react 通关秘籍/media/27516b3b80e9fd3971ee65a6dc0c2933_MD5.png",
     "react/react 通关秘籍/media/e67860fc5831b422dd668570a1b0a818_MD5.png",
