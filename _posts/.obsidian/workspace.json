@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/css/总结/box-shadow.md",
+                "file": "base/css/总结/outline.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/总结/box-shadow.md",
+                "file": "base/css/总结/outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/总结/box-shadow.md",
+                "file": "base/css/总结/outline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/css/总结/box-shadow.md"
+                "file": "base/css/总结/outline.md"
               }
             }
           }
@@ -248,9 +248,10 @@
   "active": "b12a650d0cb94985",
   "lastOpenFiles": [
     "base/css/总结/is & not & where.md",
-    "base/css/总结/box-shadow.md",
-    "base/css/总结/before和after.md",
+    "base/css/总结/outline.md",
     "base/css/总结/伪类选择器.md",
+    "base/css/总结/before和after.md",
+    "base/css/总结/box-shadow.md",
     "react/总结/utility types/RefAttributes.md",
     "base/css/总结",
     "react/总结/utility types/ForwardRefExoticComponent.md",
@@ -274,7 +275,6 @@
     "typescript/base/2020-03-18-10 泛型.md",
     "typescript/base/2020-03-18-09 枚举类型：详解常见枚举类型的 7 种用法.md",
     "typescript/base/2020-03-18-12 类型兼容：如何判断一个类型是否可以赋值给其他类型？.md",
-    "methods/如何规划好一天.md",
     "react/react 通关秘籍/media/e51c0f2c33c49ff762a444d3f2193355_MD5.gif",
     "react/react 通关秘籍/media/27516b3b80e9fd3971ee65a6dc0c2933_MD5.png",
     "react/react 通关秘籍/media/e67860fc5831b422dd668570a1b0a818_MD5.png",
