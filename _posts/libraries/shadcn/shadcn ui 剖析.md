@@ -263,6 +263,8 @@ Now, the output of `clsx` will be passed through `tailwind-merge` . `taiwli
 This approach helps us make sure there won't be any style conflicts in our variant implementations. Since the `className` prop also passes through the `cn` util, it makes it really easy to override any styles if required. But this comes with a trade-off. Utilization of `cn` opens up the possibility for a component consumer to override the styles in an ad-hoc manner. Which would delegate some level of responsibility to he code review step to verify `cn` has not been abused. On the other hand, if you do not need to enable this behavior at all you can modify the component to use `clsx` only.  
 这种方法可以帮助我们确保我们的变体实现中不会出现任何样式冲突。由于`className`属性也通过`cn` util，因此如果需要的话，可以很容易地覆盖任何样式。但这需要权衡。 *`cn`的使用为组件使用者提供了以临时方式覆盖样式的可能性*。这会将一定程度的责任委托给代码审查步骤，以验证`cn`没有被滥用。另一方面，如果您根本不需要启用此行为，您可以修改组件以仅使用`clsx` 。
 
+#### 原则
+
 When we have analyze the implementation of the `Badge` component, we can notice some patterns, including some associated with SOLID:  
 当我们分析`Badge`组件的实现时，我们可以注意到一些模式，包括一些与 SOLID 相关的模式：
 
@@ -334,10 +336,10 @@ Here we have the `Switch` component which is commonly found in modern user int
 这里我们有现代用户界面中常见的`Switch`组件，用于在 2 个值之间切换某个字段。与纯粹展示性的`Badge`组件不同， `Switch`是一个交互式组件，可以响应用户输入并切换其状态。它还通过视觉风格向用户传达其当前状态。
 
 The primary method that a user could interact with a switch component by clicking/tapping the switch with a pointing device. Even though building a switch component that responds to pointer events is pretty straightforward, the implementation significantly increases in complexity when we need the switch to respond to keyboard interactions and screen readers as well. Some expected behaviors for the switch component can be identified as follows, 1. Responds to `Tab` key presses by focusing on the switch. 2. Once focused, pressing enter would toggle the state of the switch. 3. In the presence of a screen reader it should announce its current state to the user.  
-用户通过使用定点设备单击/轻击开关来与开关组件交互的主要方法。尽管构建一个响应指针事件的开关组件非常简单，但当我们需要开关响应键盘交互和屏幕阅读器时，实现的复杂性会显着增加。开关组件的一些预期行为可以如下确定： 1. 通过关注开关来响应`Tab`键按下。 2. 聚焦后，按 Enter 键将切换开关的状态。 3. 在存在屏幕阅读器的情况下，它应该向用户宣布其当前状态。
+用户通过使用定点设备单击/轻击开关来与开关组件交互的主要方法。尽管构建一个响应指针事件的开关组件非常简单，*但当我们需要开关响应键盘交互和屏幕阅读器时，实现的复杂性会显着增加*。开关组件的一些预期行为可以如下确定： 1. 通过关注开关来响应`Tab`键按下。 2. 聚焦后，按 Enter 键将切换开关的状态。 3. 在存在屏幕阅读器的情况下，它应该向用户宣布其当前状态。
 
 If we analyze the code carefully, we can notice that the actual structure of switch is built-up via the usage of the `<SwitchPrimitives.Root/>` and `<SwitchPrimitives.Thumb/>` compound components. These components are sourced from the RadixUI headless library and contains all the implementations for the expected behavior for a switch. We can also notice the utilization of the `React.forwardRef` to build this component. This makes it possible for this component to be bound to incoming `ref` s. Which is a useful feature when there's is a need to track the focus states and integration with certain external libraries. (Ex: In order to use the component as an input component with the React Hook Form library it should be focusable via a `ref`).  
-如果仔细分析代码，我们可以注意到 switch 的实际结构是通过使用`<SwitchPrimitives.Root/>`和`<SwitchPrimitives.Thumb/>`复合组件构建的。这些组件源自 RadixUI 无头库，包含交换机预期行为的所有实现。我们还可以注意到使用`React.forwardRef`来构建这个组件。这使得该组件可以绑定到传入的`ref` 。当需要跟踪焦点状态以及与某些外部库集成时，这是一个有用的功能。 （例如：为了将该组件用作 React Hook Form 库的输入组件，它应该可以通过`ref`获得焦点）。
+如果仔细分析代码，我们可以注意到 switch 的实际结构是通过使用`<SwitchPrimitives.Root/>`和`<SwitchPrimitives.Thumb/>`复合组件构建的。这些组件源自 RadixUI 无头库，包含switch预期行为的所有实现。我们还可以注意到使用`React.forwardRef`来构建这个组件。这使得该组件可以绑定到传入的`ref` 。当需要跟踪焦点状态以及与某些外部库集成时，这是一个有用的功能。 （例如：为了将该组件用作 React Hook Form 库的输入组件，它应该可以通过`ref`获得焦点）。
 
 As we discussed before, RadixUI components doesn't provide any styling. Therefore the styles have been applied to this component via the className prop directly after passing through the `cn` utility function. We can also create variants for the component if required by using `cva`.  
 正如我们之前讨论的，RadixUI 组件不提供任何样式。因此，在通过`cn`实用函数之后，样式已直接通过 className 属性应用到该组件。如果需要，我们还可以使用`cva`创建组件的变体。
@@ -368,4 +370,4 @@ The architecture and anatomy of shadcn/ui that we have discussed so far is imple
         `zod`用作表单的模式验证库。 `zod`返回的验证错误将传递到`<FormMessage/>`组件中，该组件在表单输入旁边显示错误。
 
 shadcn/ui introduced a new paradigm in thinking about front-end development. Instead of relying on third party packages that that abstracts the whole component, we could own the implementation of the components and only expose the required elements. Rather than being limited to the opinionated API surface of a pre-built component library when applying your design system, build your own design system with good enough defaults that you can customize later.  
-shadcn/ui 引入了前端开发思维的新范式。我们可以拥有组件的实现并只公开所需的元素，而不是依赖抽象整个组件的第三方包。在应用您的设计系统时，不要局限于预构建组件库的固执己见的 API 表面，而是构建您自己的设计系统，并使用足够好的默认值以便您以后可以自定义。
+**shadcn/ui 引入了前端开发思维的新范式**。我们可以拥有组件的实现并只公开所需的元素，而不是依赖抽象整个组件的第三方包。在应用您的设计系统时，不要局限于预构建组件库的固执己见的 API 表面，而是构建您自己的设计系统，并使用足够好的默认值以便您以后可以自定义。
