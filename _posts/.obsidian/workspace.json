@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b28d6bc54d425da5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/源码学习方法&调试技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8fe720a1d6955710",
             "type": "leaf",
             "state": {
@@ -56,12 +44,12 @@
             }
           },
           {
-            "id": "5e8311c18c600ba3",
+            "id": "4c1e942750f19649",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+                "file": "libraries/shadcn/issues 记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,36 +68,12 @@
             }
           },
           {
-            "id": "2b36de1dd62f14fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typescript/base/2020-03-18-14  工具类型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0cc4954526f8a80b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d1a227134059f5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git/overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/shadcn/目录和文件.md",
+                "file": "libraries/shadcn/issues 记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/shadcn/目录和文件.md",
+                "file": "libraries/shadcn/issues 记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/shadcn/目录和文件.md"
+                "file": "libraries/shadcn/issues 记录.md"
               }
             }
           }
@@ -245,16 +209,22 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "b12a650d0cb94985",
+  "active": "4c1e942750f19649",
   "lastOpenFiles": [
+    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
+    "git/overview.md",
+    "methods/如何规划好一天.md",
+    "typescript/base/2020-03-18-14  工具类型.md",
+    "libraries/shadcn/issues 记录.md",
+    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "libraries/shadcn/目录和文件.md",
+    "AI/智能辅助开发插件.md",
     "libraries/shadcn/media/377288bd74ae430dc0b007607dfdcea7_MD5.png",
     "libraries/shadcn/media/587c49c1e088d83acf91c3a5accc3a64_MD5.png",
     "libraries/shadcn/media/5bcac2d49844852d0daa57873b7a30c5_MD5.png",
-    "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/知识点.md",
     "libraries/shadcn/shadcn ui 剖析.md",
     "libraries/shadcn/media",
-    "libraries/shadcn/issues 记录.md",
     "react/总结/utility types/ElementRef.md",
     "react/总结/utility types/ComponentPropsWithoutRef.md",
     "react/总结/utility types/ForwardRefExoticComponent.md",
@@ -270,15 +240,10 @@
     "base/css/总结/伪类选择器",
     "base/css/总结",
     "react/总结/utility types",
-    "typescript/base/2020-03-18-14  工具类型.md",
-    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
-    "git/overview.md",
     "git/git-workflow.md",
-    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "typescript/总结/typeof.md",
     "typescript/总结/keyof.md",
-    "typescript/总结/实用工具类型-Partia、Readonly、Record、Pick、Omit等.md",
     "react/react 通关秘籍/media/e51c0f2c33c49ff762a444d3f2193355_MD5.gif",
     "react/react 通关秘籍/media/27516b3b80e9fd3971ee65a6dc0c2933_MD5.png",
     "react/react 通关秘籍/media/e67860fc5831b422dd668570a1b0a818_MD5.png",

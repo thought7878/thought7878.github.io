@@ -1,6 +1,12 @@
 ## feat
 [参考Rating](https://github.com/shadcn-ui/ui/pull/2951)
 
+### radix ui
+[checkbox card](https://www.radix-ui.com/themes/docs/components/checkbox-cards)
+[Spinner](https://www.radix-ui.com/themes/docs/components/spinner)
+
+### git issue
+
 [input number](https://github.com/shadcn-ui/ui/pull/1818)
 [add links to docs](https://github.com/shadcn-ui/ui/issues/4536)
 [Add Radio Cards support #4528](https://github.com/shadcn-ui/ui/issues/4528)
