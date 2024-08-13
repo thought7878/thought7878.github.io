@@ -4,6 +4,7 @@
 ### radix ui
 [checkbox card](https://www.radix-ui.com/themes/docs/components/checkbox-cards)
 [Spinner](https://www.radix-ui.com/themes/docs/components/spinner)
+https://www.radix-ui.com/primitives/docs/components/select
 
 ### git issue
 

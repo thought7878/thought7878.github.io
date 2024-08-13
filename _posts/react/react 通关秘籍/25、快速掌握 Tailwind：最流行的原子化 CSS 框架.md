@@ -2,11 +2,11 @@ Tailwind 是流行的原子化 css 框架。
 
 有多流行呢？
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b1d769592ac4fb58b3f1f89f1088552~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=836&h=254&s=48441&e=png&b=ffffff)
+![[react/react 通关秘籍/media/b65fb0930bf6b1c03bd10ea20994d074_MD5.png]]
 
 它现在有 76k star 了，npm 包的周下载量也很高：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7383f2cbf2b845f384e908525e808706~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=668&h=476&s=42921&e=png&b=fefefe)
+![[react/react 通关秘籍/media/1d6f59dcf90b0877e2139a1687b014b4_MD5.png]]
 
 那什么是原子化 css？
 
@@ -27,7 +27,7 @@ Tailwind 是流行的原子化 css 框架。
 
 也就是 class 里包含多个样式：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aecedc8ad6344918b19bedfb5505a54a~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b73533a071d00568af869e357847a096_MD5.png]]
 
 而原子化 css 是这样的写法：
 
@@ -53,7 +53,7 @@ Tailwind 是流行的原子化 css 框架。
 }
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/25e18f4e6eb3470986c8735964f486da~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/1bda23c86c570c35edf79ab8ce4e5b75_MD5.png]]
 
 定义一些细粒度的 class，叫做原子 class，然后在 html 里直接引入这些原子化的 class。
 
@@ -75,15 +75,15 @@ npx tailwindcss init
 ```
 安装 tailwindcss 依赖，创建 tailwindcss 配置文件。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f7930ae6846d438ebd7d83586fceaac4~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e8d664967b4ee1d4044157325b9c2d22_MD5.png]]
 
 tailwind 实际上是一个 postcss 插件，因为 cra 内部已经做了 postcss 集成 tailwind 插件的配置，这一步就不用做了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc7f7d94bf4e419dabb2cf60446f78c0~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/4b89f2c40abd80f863f01fb074f5af88_MD5.png]]
 
 然后在入口 css 里加上这三行代码：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd6778fe2dc74822b3735b6c83b55777~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b51b4a25732662005de82b3e2b60e547_MD5.png]]
 
 这三行分别是引入 tailwind 的基础样式、组件样式、工具样式的。
 
@@ -108,27 +108,27 @@ npm run start
 
 可以看到，它正确的加上了样式：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a8c82e20547b4b06a8c523f7e0edd04a~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/3c187adb920afb8a6a22faee313d29a6_MD5.png]]
 
 用到的这些原子 class 就是 tailwind 提供的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/05094ce1ae1d4adf9a57b5ab74e4bea0~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c939064511d0fd0bb660f9251329bf7d_MD5.png]]
 
 这里的 p-1 是 padding:0.25rem，你也可以在配置文件里修改它的值：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/966b4d4f72aa41bcbd111f752d82f1a3~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/a84de5424c93d6cf5be3a2304908cf1e_MD5.png]]
 
 在 tailwind.config.js 的 theme.extend 修改 p-1 的值，设置为 30px。
 
 刷新页面，就可以看到 p-1 的样式变了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb389cb5661a4f84a040e9cb87dbbbce~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8700d7c5bb52f62a4037cc6955e36ab6_MD5.png]]
 
 .text-base 是 font-size、line-height 两个样式，这种通过数组配置：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/055a97a29ade4afab612340ada86a4c6~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/0d3a3e62448b63a448cb1c661889919c_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0a7fa0353bb24d23a1c3d82c501d338e~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c4adf90c80332dde3da4933cd23ad0e5_MD5.png]]
 
 也就是说所有 tailwind 提供的所有内置原子 class 都可以配置。
 
@@ -136,45 +136,45 @@ npm run start
 
 比如 text-[14px]，它就会生成 font-size:14px 的样式：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82af77d4f8da48dc8a4a742a762e4398~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/211c717f95128f674aba4008c7464c52_MD5.png]]
 
 比如 aspect-[4/3]，就是这样的样式：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/259366d7084241789e49a9a428131f28~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/2dbc06d432233b76449a8219fe4346ea_MD5.png]]
 
 我们平时经常指定 hover 时的样式，在 tailwind 里怎么指定呢？
 
 很简单，这样写：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a77e52e52d7a4545b3587668f018dec0~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/2cd8781642bee546d40a0d5e283bc867_MD5.png]]
 
 生成的就是带状态的 class：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4f42c891999c44e3a4d2140fb440abca~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/78003ae7156f5929d33094f79cbb50a8_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3cfb7a2d5444cb39603b5f01e787012~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/914c1c3922c80603734803257ca738ae_MD5.gif]]
 
 此外，写响应式的页面的时候，我们要指定什么宽度的时候用什么样式，这个用 tailwind 怎么写呢？
 
 也是一样的写法：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a865f8e38a9e4c92b5abcbea3a2651e9~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b461a2b23ca894f01f875b42998d4056_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c9ce674e44414a3e85fcced80085f670~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/590ebf6e9a027d4523abf6c88cf50844_MD5.gif]]
 
 生成的是这样的代码：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a466932569514c0c840fe0035f99ff73~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/bcf917f658ae0cb9ac45a1b7e58470fa_MD5.png]]
 
 这个断点位置自然也是可以配置的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/805f82920d75400ba0a307dea0ace8cb~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/967d630406c61e95256af68bc27d145e_MD5.png]]
 
 可以看到 md 断点对应的宽度变了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eebd397537274b4693738c97383325d5~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b5b3d51a27d83fa539df86619aac7600_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ae904d37de049b880badfed8aacfcc9~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/37c34cfe6cbf0911dc0618be6bf6a13c_MD5.gif]]
 
 光这些就很方便了。
 
@@ -214,13 +214,13 @@ npm run start
 
 tailwind 文档提到了 3 个好处：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dbac4dde269c4b58bbcf52c7873447bf~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b11039b516fdba021fd6efb397b2bcb1_MD5.png]]
 
 不用起 class 名字，这点简直太爽了，我就经常被起 class 名字折磨。
 
 css 不会一直增长，因为如果你用之前的写法可能是这样的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a2304e0d40eb4889b92cd898fe78979c~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8be32a9b91425c718c8531fe924216ba_MD5.png]]
 
 多个 class 里都包含了类似的样式，但你需要写多次，而如果用了原子 class，就只需要定义一次就好了。
 
@@ -248,11 +248,11 @@ css 没有模块作用域，所以可能你在这里加了一个样式，结果�
 
 这个可以用 tailwind css 提供的 vscode 插件来解决：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6a69fce59034989800b424d2bfda9a7~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/506737f5f263bd20e7ff360081e4070e_MD5.png]]
 
 安装这个 Tailwind CSS IntelliSense 之后的体验是这样的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8adcfd3c52bc4a0bb9c06392a1434910~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c8693c90b60e7943c85cde8c1a48d4fd_MD5.gif]]
 
 有智能提示，可以查看它对应的样式。
 
@@ -262,27 +262,27 @@ css 没有模块作用域，所以可能你在这里加了一个样式，结果�
 
 在 chrome devtools 里可以直接看到有啥样式，而且样式之间基本没有交叉，很容易调试：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf37f8087da4406b9d13e29cf8670f96~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/835d0645f89868a0ad2fd757e6f3a71e_MD5.png]]
 
 相反，我倒是觉得之前那种写法容易多个 class 的样式相互覆盖，还要确定优先级和顺序，那个更难调试才对：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a57d24ddeda24c05b888dbe77b7e5bfe~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/20b396f6c734d0c6d0d25d11ff612907_MD5.png]]
 
 **类型太长了而且重复多次**
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/11687714e4044a67ad4e67c84d33acef~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/78cc5597e8a18436d58824f4dbbb7227_MD5.png]]
 
 这种问题可以用 @layer @apply 指令来扩展：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/010f4acf2c7e48f09d62260a67905965~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c123836476ba6ccc0c64d4a48cc0e204_MD5.png]]
 
 前面讲过 @tailwind 是引入不同的样式的，而 @layer 就是在某一层样式做修改和扩充，里面可以用 @apply 应用其他样式。
 
 效果是这样的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2956afd271aa4c49912fc3e8d1a85a2b~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/1a1c9528814a82d7b1d54ad3014da8f3_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/50654d7d033143afba709d6944ab0392~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/0342b133696f0b022ecad55b42a5fa1d_MD5.png]]
 
 **内置 class 不能满足我的需求**
 
@@ -308,13 +308,13 @@ module.exports = plugin(function({ addUtilities }) {
 
 在 tailwind.config.js 里引入：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e87fda951404486ca635d4dce5cdf20f~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/704d85f0a7965bbfb534be2497475ba4_MD5.png]]
 
 这样就可以用这个新加的原子 class 了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4bda8233be614380b21024c8b9481663~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e1b2aa0feb5388903f195abeda696f8b_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03ffad6493234519abc76b795db33a53~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/bee7be2382a781274a0e6fa2ec15d083_MD5.png]]
 
 插件的方式或者 @layer 的方式都可以扩展。
 
@@ -322,25 +322,25 @@ module.exports = plugin(function({ addUtilities }) {
 
 比如我本来有个 border 的 class：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8849532b5b8d46c399fb8ce31f7a750c~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/d5db6e412ecd3706cbc32ecda69599a2_MD5.png]]
 
 而 tailwind 也有，不就冲突了么？
 
 这个可以通过加 prefix 解决：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/391a3bb491324a31a3fad76abcc560e4~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/6402f444691323ba68fd159203f744b8_MD5.png]]
 
 不过这样所有的原子 class 都得加 prefix 了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/468ff84a39fd477980b1a46c1ae9ff0e~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8c93f9a7be0886e1054c1e56fa159ef3_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a0a1ce212ce4a169fd50056a3ac326a~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b85b7693db90eb538cfcd46f702fa569_MD5.png]]
 
 知道了什么是原子 css 以及 tailwind 的用法之后，我们再来看看它的实现原理。
 
 tailwind 可以单独跑，也可以作为 postcss 插件来跑。这是因为如果单独跑的话，它也会跑起 postcss，然后应用 tailwind 的插件：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5f5e082f60564af69b942d45e8ca605d~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b7ddf6e3c7938fc216c921b60aa75886_MD5.png]]
 
 所以说，**tailwind 本质上就是个 postcss 插件**。
 
@@ -348,7 +348,7 @@ postcss 是一个 css 编译器，它是 parse、transform、generate 的流程�
 
 在 [astexplorer.net](https://astexplorer.net/#/gist/6fe6d6027cbfdd64359fb203d9df378b/68583ac053782c87e3b85c1c56553985c410b02e) 可以看到 postcss 的 AST：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0984ec9ef913416daa9efe3781201fe8~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/2289e44d20afb89380b9714ae9294e7b_MD5.png]]
 
 而 postcss 就是通过 AST 来拿到 @tailwind、@layer、@apply 这些它扩展的指令，分别作相应的处理，也就是对 AST 的增删改查。
 
@@ -358,7 +358,7 @@ postcss 是一个 css 编译器，它是 parse、transform、generate 的流程�
 
 extractor 的功能看下测试用例就明白了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bfb065c57ed34f0e99899eb87275fafa~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/981892155c4e4a8d44dffa8c65d471a5_MD5.png]]
 
 所以说，**tailwind 就是基于 postcss 的 AST 实现的 css 代码生成工具，并且做了通过 extractor 提取 js、html 中 class 的功能。**
 
@@ -370,7 +370,7 @@ tailwind 还有种叫 JIT 的编译方式，这个原理也容易理解，本来
 
 就是这样的，一个风筝，一个冲浪板：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b17c133b1b1d48b59bc3029886dbe944~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/9e7531e1f67bbeb187fe0490e28f5366_MD5.png]]
 
 这种运动在顺风 tailwind 和逆风 headwind 下有不同的技巧。而 tailwind 的时候明显更加省力。
 
