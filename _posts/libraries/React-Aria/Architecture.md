@@ -1,5 +1,7 @@
 # Architecture 架构
 
+[原文](https://react-spectrum.adobe.com/architecture.html)
+
 This page discusses the architecture of React Spectrum, and how behavior and core logic for many common components can be shared between design systems and across platforms.  
 本页讨论React Spectrum的架构，以及如何在设计系统和跨平台之间共享许多常见组件的行为和核心逻辑。
 
@@ -30,13 +32,13 @@ This opens up to the possibility of sharing much of the behavior and component l
 
 - Component 
 	- In order to allow reusing component behavior between design systems, React Spectrum splits each component into three parts: state, behavior, and the rendered component.  
-     为了允许在设计系统之间重用组件行为，React Spectrum将每个组件分为三个部分：状态、行为和渲染组件。
+     **为了允许在设计系统之间重用组件行为，React Spectrum将每个组件分为三个部分：状态、行为和渲染组件**。
 - Behavior Hook 
 	- Some components don't have all of these pieces. For example, some simple components do not require any state, and others are only compositions of other components, so each component has the pieces of this architecture that make sense for their purpose.  
 	 有些组件没有所有这些部件。例如，一些简单的组件不需要任何状态，而其他组件只是其他组件的组合，因此每个组件都具有该架构中对其目的有意义的部分。
 - State Hook 
       This architecture is made possible by [React Hooks](https://react.dev/reference/react/hooks), which enable the ability to reuse behavior between multiple components. Hooks allow accessing React features like state and effects from functions which can be called from any component. If you're unfamiliar with hooks, we recommend reading the documentation linked above first.  
-      这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间重用行为。Hooks允许从任何组件调用的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
+      *这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间重用行为*。Hooks允许从任何组件调用的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
 
 ### State hook
 
