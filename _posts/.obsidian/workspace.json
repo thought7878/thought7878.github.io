@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "6a6bd72e88da7591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/React-Aria/Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2b54b484ae311053",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+                "file": "libraries/React-Aria/Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+                "file": "libraries/React-Aria/Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/react 通关秘籍/6、组件实战：迷你 Calendar.md"
+                "file": "libraries/React-Aria/Architecture.md"
               }
             }
           }
@@ -221,8 +233,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "81f881d208407346",
+  "active": "6a6bd72e88da7591",
   "lastOpenFiles": [
+    "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
+    "libraries/React-Aria/media",
+    "libraries/shadcn/shadcn ui 剖析.md",
+    "libraries/React-Aria/Architecture.md",
+    "libraries/React-Aria/overview.md",
+    "libraries/shadcn/issues 记录.md",
+    "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "react/react 通关秘籍/9、快速掌握 Storybook.md",
@@ -253,12 +272,6 @@
     "react/react 通关秘籍/25、快速掌握 Tailwind：最流行的原子化 CSS 框架.md",
     "react/react 通关秘籍/26、快速掌握 Unocss.md",
     "react/react 通关秘籍/27、CSS Modules、CSS in JS.md",
-    "react/react 通关秘籍/28、组件实战：Message.md",
-    "react/react 通关秘籍/29、组件实战：Popover.md",
-    "react/react 通关秘籍/30、组件实战：Select.md",
-    "react/react 通关秘籍/31、自定义 Hooks 练习.md",
-    "react/react 通关秘籍/32、组件实战：Modal.md",
-    "react/react 通关秘籍/33、组件实战：Skeleton.md",
     "libraries/shadcn/media",
     "base/css/总结/伪类选择器",
     "base/css/总结",
@@ -267,7 +280,6 @@
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
     "debug/前端调试通关秘籍/目录.txt",
-    "debug/前端调试通关秘籍",
-    "debug"
+    "debug/前端调试通关秘籍"
   ]
 }
