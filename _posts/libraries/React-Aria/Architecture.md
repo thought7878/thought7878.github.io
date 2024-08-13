@@ -8,7 +8,6 @@ This page discusses the architecture of React Spectrum, and how behavior and cor
 ## Introduction
 简介
 
----
 
 Today, many companies are implementing their own component libraries for their design systems from scratch. On the web, the primitives are very low level. There are very few built-in browser controls that are fully styleable, so each company needs to reimplement many of the same components from scratch. This has become easier to do with React and other modern view libraries, but implementing full support for accessibility, internationalization, keyboard, mouse, and touch interactions, and other features is still extraordinarily difficult.  
 如今，许多公司都在从头开始为自己的设计系统实现自己的组件库。在Web上，原语是非常低级的。很少有内置的浏览器控件是完全可样式化的，因此每个公司都需要从头开始重新实现许多相同的组件。使用React和其他现代视图库，这变得更容易，但实现对可访问性，国际化，键盘，鼠标和触摸交互以及其他功能的完全支持仍然非常困难。
@@ -24,40 +23,43 @@ This opens up to the possibility of sharing much of the behavior and component l
 
 ## Architecture
 
+In order to allow reusing component behavior between design systems, React Spectrum splits each component into three parts: state, behavior, and the rendered component.  
+**为了允许在设计系统之间重用组件行为，React Spectrum将每个组件分为三个部分：状态、行为和渲染组件**
 
----
+- Component 
+- Behavior Hook 
+- State Hook 
+
+Some components don't have all of these pieces. For example, some simple components do not require any state, and others are only compositions of other components, so each component has the pieces of this architecture that make sense for their purpose.  
+*有些组件没有所有这些部件*。例如，一些简单的组件不需要任何状态，而其他组件只是其他组件的组合，因此每个组件都具有该架构中对其目的有意义的部分。
+
+This architecture is made possible by [React Hooks](https://react.dev/reference/react/hooks), which enable the ability to reuse behavior between multiple components. Hooks allow accessing React features like state and effects from functions which can be called from any component. If you're unfamiliar with hooks, we recommend reading the documentation linked above first.  
+*这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间重用行为*。Hooks允许从任何组件调用的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
 
 ![[libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png]]
 
 
-- Component 
-	- In order to allow reusing component behavior between design systems, React Spectrum splits each component into three parts: state, behavior, and the rendered component.  
-     **为了允许在设计系统之间重用组件行为，React Spectrum将每个组件分为三个部分：状态、行为和渲染组件**。
-- Behavior Hook 
-	- Some components don't have all of these pieces. For example, some simple components do not require any state, and others are only compositions of other components, so each component has the pieces of this architecture that make sense for their purpose.  
-	 有些组件没有所有这些部件。例如，一些简单的组件不需要任何状态，而其他组件只是其他组件的组合，因此每个组件都具有该架构中对其目的有意义的部分。
-- State Hook 
-      This architecture is made possible by [React Hooks](https://react.dev/reference/react/hooks), which enable the ability to reuse behavior between multiple components. Hooks allow accessing React features like state and effects from functions which can be called from any component. If you're unfamiliar with hooks, we recommend reading the documentation linked above first.  
-      *这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间重用行为*。Hooks允许从任何组件调用的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
-
 ### State hook
-
 At the bottom is the state hook. This hook is shared across platforms — it could work on the web, react-native, or any other platform, and makes no assumptions about the view system it is running on. It also has no theme or design system specific logic.  
-底部是州钩。这个钩子是跨平台共享的-它可以在web、react-native或任何其他平台上工作，并且不假设它运行的视图系统。它也没有主题或设计系统特定的逻辑。
+*如上图所示的最底部是state钩子*。*这个钩子是跨平台共享的*-它可以在web、react-native或任何其他平台上工作，并且不假设它运行的视图系统。它也没有主题或设计系统特定的逻辑。
 
 The state hook accepts common props from the component and provides state management. It implements the core logic for the component and returns an interface for reading and updating the component state.  
-状态钩子接受来自组件的公共属性并提供状态管理。它实现组件的核心逻辑，并返回用于阅读和更新组件状态的接口。
+**状态钩子接受来自组件的公共属性并提供状态管理。它实现组件的核心逻辑，并返回用于阅读和更新组件状态的接口。**
+
+```ts
+let state = useNumberFieldState({ ...props, locale });
+```
 
 Not all components have a state hook. For example, many components are read-only — they display something to the user but don't allow them to change it. State hooks are found in interactive components that allow data entry, or have some kind of visual state that the user can update (e.g. expanding/collapsing).  
-并非所有组件都有状态挂钩。例如，许多组件都是只读的--它们向用户显示某些内容，但不允许用户更改它。状态钩子出现在允许数据输入的交互式组件中，或者具有某种用户可以更新的可视状态（例如展开/折叠）。
+*并非所有组件都有状态勾子*。例如，许多组件都是只读的--它们向用户显示某些内容，但不允许用户更改它。状态钩子出现在允许数据输入的交互式组件中，或者具有某种用户可以更新的可视状态（例如展开/折叠）。
 
 ### Behavior hook
 
 In the middle is the behavior hook. This hook is platform specific, and depends on the platform API (e.g. the DOM or react-native). It also has no theme or design system specific logic. It implements event handling, accessibility, internationalization, etc. — all the parts of a component that could be shared across multiple design systems.  
-中间是行为钩。这个钩子是特定于平台的，并且依赖于平台API（例如DOM或react-native）。它也没有主题或设计系统特定的逻辑。它实现了事件处理、可访问性、国际化等--一个组件的所有部分都可以在多个设计系统中共享。
+中间是行为钩子。**这个钩子是特定于平台的，并且依赖于平台API**（例如DOM或react-native）。**它也没有主题或设计系统特定的逻辑**。**它实现了事件处理、可访问性、国际化等**--一个组件的所有部分都可以在多个设计系统中共享。
 
 The behavior hook uses the state hook in order to implement component behavior. It returns one or more sets of platform specific props (e.g. DOM props) that can be spread onto the elements rendered by the component. These include semantic properties like [ARIA](https://www.w3.org/TR/wai-aria-1.2/), and event handlers. The event handlers in turn call methods on the state interface to implement the behavior for the component.  
-行为钩子使用状态钩子来实现组件行为。它返回一组或多组平台特定的prop（例如DOM prop），这些prop可以扩展到组件呈现的元素上。这些包括像[ARIA](https://www.w3.org/TR/wai-aria-1.2/)这样的语义属性和事件处理程序。事件处理程序依次调用状态接口上的方法来实现组件的行为。
+**行为钩子使用状态钩子来实现组件行为**。*它返回一组或多组平台特定的prop*（例如DOM prop），这些prop可以扩展到组件渲染的元素上。这些包括像[ARIA](https://www.w3.org/TR/wai-aria-1.2/)这样的语义属性和事件处理程序。事件处理程序依次调用状态接口上的方法来实现组件的行为。
 
 Some components may not have any user interactions, but still have a behavior hook. Most components have some kind of semantics that they need to expose for accessibility (a form of behavior). The only components that won't have a behavior hook of their own are those that only compose together other components.  
 有些组件可能没有任何用户交互，但仍然有一个行为挂钩。大多数组件都有某种语义，它们需要为可访问性（一种行为形式）而公开这些语义。唯一没有自己的行为钩子的组件是那些只将其他组件组合在一起的组件。
@@ -106,10 +108,10 @@ Read more about React Stately and [get started](https://react-spectrum.adobe.co
 ### React Aria
 
 [React Aria](https://react-spectrum.adobe.com/react-aria/index.html) implements behavior and [accessibility](https://react-spectrum.adobe.com/react-aria/accessibility.html) for the web according to the W3C's [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/). It includes full screen reader and keyboard navigation support, along with mouse and touch [interactions](https://react-spectrum.adobe.com/react-aria/interactions.html) that have been tested across a wide variety of devices and browsers. It also implements [internationalization](https://react-spectrum.adobe.com/react-aria/internationalization.html) for over 30 languages, including right-to-left specific behavior, localized date and number formatting, and more.  
-[React Aria](https://react-spectrum.adobe.com/react-aria/index.html)根据W3C的[ARIA创作实践指南](https://www.w3.org/WAI/ARIA/apg/)实现Web的行为和[可访问性](https://react-spectrum.adobe.com/react-aria/accessibility.html)。它包括全屏阅读器和键盘导航支持，沿着鼠标和触摸[交互](https://react-spectrum.adobe.com/react-aria/interactions.html)，这些交互已经在各种设备和浏览器上进行了测试。它还实现了30多种语言的[国际化](https://react-spectrum.adobe.com/react-aria/internationalization.html)，包括从右到左的特定行为，本地化的日期和数字格式等等。
+*[React Aria](https://react-spectrum.adobe.com/react-aria/index.html)根据W3C的[ARIA创作实践指南](https://www.w3.org/WAI/ARIA/apg/)实现Web的行为和[可访问性](https://react-spectrum.adobe.com/react-aria/accessibility.html)*。它包括*全屏阅读器和键盘导航支持，沿着鼠标和触摸[交互](https://react-spectrum.adobe.com/react-aria/interactions.html)*，这些交互已经在各种设备和浏览器上进行了测试。它还*实现了30多种语言的[国际化](https://react-spectrum.adobe.com/react-aria/internationalization.html)*，包括从右到左的特定行为，本地化的日期和数字格式等等。
 
 Most importantly, React Aria is **fully customizable**. It offers both high-level unstyled components and low-level hooks depending on the level of customization you need. The components provide a default DOM structure and styling API, and handle all of the glue code necessary to connect the hooks together on your behalf. If you need even more control, you can drop down to the lower-level hook-based API, which enables [advanced customization](https://react-spectrum.adobe.com/react-aria/advanced.html) use cases such as overriding DOM elements, intercepting events, customizing behavior, and more.  
-最重要的是，React Aria**完全可定制**。它根据您需要的定制级别提供高级未样式化组件和低级挂钩。这些组件提供默认的DOM结构和样式化API，并处理代表您将挂钩连接在一起所需的所有粘合代码。如果您需要更多的控制，您可以下拉到较低级别的基于钩子的API，它支持[高级定制](https://react-spectrum.adobe.com/react-aria/advanced.html)用例，例如覆盖DOM元素、拦截事件、定制行为等。
+最重要的是，React Aria**完全可定制**。**它根据您需要的定制级别提供高级未样式化组件和低级挂钩**。*这些组件提供默认的DOM结构和样式化API*，并处理代表您将挂钩连接在一起所需的所有粘合代码。*如果您需要更多的控制，您可以下拉到较低级别的基于钩子的API，它支持[高级定制](https://react-spectrum.adobe.com/react-aria/advanced.html)用例，例如覆盖DOM元素、拦截事件、定制行为等*。
 
 [Read more](https://react-spectrum.adobe.com/react-aria/why.html) about React Aria and the problems it solves, and check out the docs to [get started](https://react-spectrum.adobe.com/react-aria/getting-started.html) building your own design system.  
 [阅读更多](https://react-spectrum.adobe.com/react-aria/why.html)关于React Aria及其解决的问题，并查看文档以[开始](https://react-spectrum.adobe.com/react-aria/getting-started.html)构建自己的设计系统。
