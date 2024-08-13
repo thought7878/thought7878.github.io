@@ -36,21 +36,21 @@
 npx create-react-app --template=typescript react-unit-test
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2eb43795740b4e039c69de13cb8e9a6b~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8074c994eb6e7d85f73ede30ad106630_MD5.png]]
 
 测试 react 组件和 hooks 可以使用 @testing-library/react 这个包，然后测试用例使用 jest 来组织。
 
 这两个包 cra 都给引入了，我们直接跑下 npm run test 就可以看到单测结果。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da47091071444e8e890abef11314e2ad~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/03fb85eae4fff5e3bd2bd1f1dbe35d83_MD5.png]]
 
 App 组件是这样的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb6813410e654ceab54465d3716cbd6e~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/872a34b13a6066008b8883e3df0cdae2_MD5.png]]
 
 它的单测是这么写的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/952331492b0448af837e40c9c6db42b3~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/107b62e36f3d596104878ed696806b90_MD5.png]]
 
 通过 @testing-library/react 的 render 函数把组件渲染出来。
 
@@ -69,7 +69,7 @@ test('renders learn react link 2', () => {
 ```
 render 会返回组件挂载的容器 dom，它是一个 HTMLElement 的对象，有各种 dom 方法。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5a57e0d716340038ef04e6d886b433a~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/b2751caf98506a503d1424c955dce61b_MD5.png]]
 
 可以用 querySelector 查找到那个 a 标签，然后判断它的内容是否匹配正则。
 
@@ -81,7 +81,7 @@ render 会返回组件挂载的容器 dom，它是一个 HTMLElement 的对象�
 
 antd 组件的测试也是用的第二种来查找 dom 的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa18b88eae844ead8c722ffa9965bc59~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/7783d927610e0fac475e6dc6d85de639_MD5.png]]
 
 那如果有 onClick、onChange 等事件监听器的组件，怎么测试呢？
 
@@ -112,7 +112,7 @@ export default Toggle;
 
 渲染出来是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/178928819cbc46a0aa56dff13daf2da2~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/50bb635fac5b0148c49e31c1c4ff8da4_MD5.gif]]
 
 这个组件如何测试呢？
 
@@ -149,17 +149,17 @@ npm run test
 ```
 测试通过了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/01e5a9ebf26a4fcf92ce6e3297556a18~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/593cdf0aba6ddb4a73cf83af80c221a7_MD5.png]]
 
 fireEvent 可以触发任何元素的任何事件：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c2837b73349e4ee985222ed9fdf7d8a4~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/79a2e90ab86564ae164cc5d0e6343bf5_MD5.png]]
 
 那如何触发 change 事件呢？
 
 这样写：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66cd08d1de4d4db2b8858fa87c51b703~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/1c47d863f18f76492f00fdd344620461_MD5.png]]
 
 第二个参数传入 target 的 value 值。
 
@@ -167,7 +167,7 @@ fireEvent 可以触发任何元素的任何事件：
 
 比如 Toggle 组件里点击按钮之后，过了 2s 才改状态：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/40468d2629d54908a4decca116046022~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/563a0290a585a4c189d88ff72d69b236_MD5.png]]
 
 ```javascript
 setTimeout(() => {
@@ -177,11 +177,11 @@ setTimeout(() => {
 
 这时候测试用例就报错了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c24c0df407f401cbe9a04bf81229fc0~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c12f8b0f87bc44a767f6bbd160d78305_MD5.png]]
 
 这种用 waitFor 包裹下，设置 timeout 的时间就好了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd26fabdd0944863b6bc32e8f970b197~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/17eabaffd02e1cd48b5238e676a5d426_MD5.png]]
 
 ```javascript
 await waitFor(() => expect(container.querySelector('p')?.textContent).toBe('open'), {
@@ -191,19 +191,19 @@ await waitFor(() => expect(container.querySelector('p')?.textContent).toBe('open
 
 测试通过了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e0ac8438b9a64fd8a92705ffd5cc44d7~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/e45f9cbb3105d20ebe0efb2722f2d2aa_MD5.png]]
 
 除了这些之外，还有一个 api 比较常用，就是 act
 
 它是 react-dom 包里的，@testing-library/react 对它做了一层包装。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33379aba49774f5e98705ac2a651f004~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/870b0d539b890754c9180aef79698278_MD5.png]]
 
 就是可以把所有浏览器里跑的代码都包一层 act，这样行为会和在浏览器里一样。
 
 文档里的例子是这样的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/80961a1881e24e928615d16741c5bf61~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/2cff474e8a3b09f773e090ecff019185_MD5.png]]
 
 把单测里的 fireEvent 用 act 包一层：
 
@@ -228,7 +228,7 @@ test('toggle', async () => {
 
 结果一样：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/802c7db6ab9c457b94585a000c3de809~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/f5a5710400df0d28664eeb09b554f22f_MD5.png]]
 
 组件测试我们学会了，那如果我想单独测试 hooks 呢？
 
@@ -290,7 +290,7 @@ export default App;
 npm run start
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d6cef42756b4e499a9cf38df5cb5328~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=634&h=440&s=77213&e=gif&f=29&b=fdfdfd)
+![[react/react 通关秘籍/media/0137d2c9487a9c1bc5e5c6b5669a7895_MD5.gif]]
 
 没啥问题。
 
@@ -318,7 +318,7 @@ test('useCounter', async () => {
 
 renderHook 返回的 result.current 就是 hook 的返回值。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a49fa806a98d4b218ab6e8c23fe8c3cd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=618&h=276&s=39573&e=png&b=191919)
+![[react/react 通关秘籍/media/9037b599a56189d3be59fe6560971afe_MD5.png]]
 
 这就是 hook 的单测写法。
 

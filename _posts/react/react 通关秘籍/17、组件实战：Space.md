@@ -10,7 +10,7 @@
 
 在 antd 文档里有专门一个分类：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9049f7a68b9e4f68875f80afe23c40b6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=544&h=564&s=30341&e=png&b=ffffff)
+![[react/react 通关秘籍/media/6cdb8f6841030246a2f79fca1c998350_MD5.png]]
 
 今天我们来写下其中的 Space 组件。
 
@@ -20,7 +20,7 @@
 npx create-react-app --template=typescript space-component
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6066a3acf714cfbbf11bca5978a7169~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1178&h=332&s=113314&e=png&b=000000)
+![[react/react 通关秘籍/media/c7ea0c5500bf0be664b561209d257567_MD5.png]]
 
 安装 antd：
 
@@ -60,7 +60,7 @@ npm run start
 
 渲染出来是这样的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ff4e9bd0ad7d48a1a956031387eee1d3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=792&h=758&s=27825&e=png&b=ffffff)
+![[react/react 通关秘籍/media/6cb43ae6814671c20b7cf1c585805512_MD5.png]]
 
 然后我们用 antd 的 Space 组件包一下：
 
@@ -79,23 +79,23 @@ export default function App() {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/089bd20ca80a4a01b5d8fb399843d1bc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=700&h=338&s=19298&e=png&b=f5c3cb)
+![[react/react 通关秘籍/media/fd0fdc2ddc15978d541882beb5167ea5_MD5.png]]
 
 方向变为水平了，并且有个默认间距。
 
 改为竖直试一下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4d3450b54c704223abbee920cb18d385~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/724c650e7f9a4f67727b9eb421776eee_MD5.gif]]
 
 水平和竖直的间距都可以通过 size 来设置：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/efcb5dbd698846baa1dca5e59581e886~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/fb02ebe9af04444a43b917d17e47c59c_MD5.gif]]
 
 可以设置 large、middle、small 或者任意数值。
 
 多个子节点可以设置对齐方式，比如 start、end、center 或者 baseline：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a2b0d824b9484ead9887966034188e62~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/8ce8cfc9dd0ad78ab8f3f98af8c52d69_MD5.gif]]
 
 ```javascript
 import { Space } from 'antd';
@@ -118,11 +118,11 @@ export default function App() {
 
 此外子节点过多可以设置换行：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e72407c5333b4e27868e7ec4dcf57392~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/1be7449200f32d9bdb883dbac7b3073c_MD5.gif]]
 
 也可以用数组分别设置行、列的间距：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/743e8b19ae7b4c3799bd45ba14dc0352~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/a882c41b9414d6eeb0d7b1c704dbd169_MD5.png]]
 
 最后，它还可以设置 split 分割线部分：
 
@@ -146,7 +146,7 @@ export default function App() {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0a6cef714ca741f19115d714636d206c~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/c6fa6f249258f1be04c9211de5563555_MD5.png]]
 
 此外，你也可以不直接设置 size，而是通过 ConfigProvider 修改 context 中的默认值：
 
@@ -167,7 +167,7 @@ export default function App() {
 }
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eca55b252b8d4b7bac0ce7d125b55cdd~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/4d4bd138206faadbf48772d8c3b87398_MD5.png]]
 
 很明显，Space 内部会读取 context 中的 size 值。
 
@@ -197,7 +197,7 @@ export default function App() {
 
 可以看到，两个 Space 的间距设置都生效了。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/726130fdf7364cdcb6da052498bb4af8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1308&h=1148&s=45886&e=png&b=ffffff)
+![[react/react 通关秘籍/media/47e345d65970d0634dde5ef73ba1000d_MD5.png]]
 
 这就是 antd 的 Space 组件的全部用法，回顾下这几个参数和用法：
 
@@ -218,7 +218,7 @@ export default function App() {
 
 打开 devtools 看下它的 dom：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f76ca048f2e4272a17ff00444b7fb14~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/3b5e4ea26c00ab39d5b831a8a0e15e58_MD5.png]]
 
 就是对每个 child 包一层 div，然后加上不同的 className 就好了。
 
@@ -265,13 +265,13 @@ export default function App() {
   </div>
 }
 ```
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/35c68f6122604dbe96c0db4789659263~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=730&h=452&s=78621&e=png&b=202020)
+![[react/react 通关秘籍/media/c0fcf1fb1a2ffedd384cbd73f0e2435b_MD5.png]]
 
 这样，组件用起来就和 div 一模一样。
 
 我们只要把其他参数透传给 Space 组件里的 div 即可：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/17bf1f50ef6a47f383ccb2c3a5d000ac~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=944&h=774&s=101813&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/936e9af91161a2d3f46617b617a8e84d_MD5.png]]
 
 然后把其他 props 也声明了：
 
@@ -300,11 +300,11 @@ size 可以传单个值代表横竖间距，或者传一个数组，分别设置
 
 我们传入的是这样的 children：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3fa17a3d20147aab13f8c5a283cf222~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=518&h=248&s=43831&e=png&b=202020)
+![[react/react 通关秘籍/media/22ebb181b200adca230859d173ae0ade_MD5.png]]
 
 但是渲染出来的包了一层 div：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4719f5bdbc7641ad8af3104a63bfcc06~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=784&h=646&s=121191&e=png&b=fefefe)
+![[react/react 通关秘籍/media/376a701aace0d6c2999ca7ca6a1c3dcf_MD5.png]]
 
 这是怎么做到的呢？
 
@@ -312,7 +312,7 @@ size 可以传单个值代表横竖间距，或者传一个数组，分别设置
 
 [文档里](https://react.dev/reference/react/Children)可以看到这些 api：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/589a1cefb2d14176ab14b3871379fb47~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=922&h=420&s=57432&e=png&b=ffffff)
+![[react/react 通关秘籍/media/8c6fcece716a8c49f0343d71868ad025_MD5.png]]
 
 很明显，就是用于 children 的遍历、修改、计数等操作的。
 
@@ -351,7 +351,7 @@ export default function App() {
 ```
 分别打印 props.children 和  Children.toArray 处理之后的 children：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1eb7626779e4ee9b901be483db5500e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=842&h=806&s=137532&e=png&b=fefefe)
+![[react/react 通关秘籍/media/6f8b52c2d73894ee9621d5b92b658855_MD5.png]]
 
 可以看到，React.Children.toArray 对 children 做扁平化。
 
@@ -379,7 +379,7 @@ export default function App() {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8f84f126fc34a56a2ad7130bdb126a7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1876&h=762&s=270067&e=png&b=fbf2f2)
+![[react/react 通关秘籍/media/709990b50073e88df4fe84ac1c4e09a1_MD5.png]]
 
 toArray 之后就不会了：
 ```javascript
@@ -405,7 +405,7 @@ export default function App() {
   </Test>
 }
 ```
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2158d9d1d6564bd080ffcd1404c562eb~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=994&h=400&s=52055&e=png&b=fefefe)
+![[react/react 通关秘籍/media/3cdbbc537b0fcc643d22fbb183604e0a_MD5.png]]
 
 可以看到，可以排序了。
 
@@ -423,7 +423,7 @@ root.render(<App />);
 
 我们遍历下 Children：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32181af8946c4ed1a44e0286f0cc11ef~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1076&h=922&s=149857&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/12ab2c5bb211b55ed0d8157a27ff87a1_MD5.png]]
 
 ```javascript
 import React from 'react';
@@ -486,7 +486,7 @@ export default function App() {
 ```
 可以看到，children 修改成功了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/35c05ca798824b669d4479f450940b79~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=730&h=586&s=79187&e=png&b=fefefe)
+![[react/react 通关秘籍/media/a93f3ad8b7f1969fb556a24cee538065_MD5.png]]
 
 然后我们引入 classnames 包处理下其它 className：
 
@@ -494,7 +494,7 @@ export default function App() {
 npm install --save classnames
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d9f941f9a06d48798dc3e85253ea845b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1358&h=1168&s=180204&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/4b6145b6fecbaca9203e7c60a7ff39f8_MD5.png]]
 
 根据 direction、align 的 props 来生成 className：
 
@@ -577,7 +577,7 @@ export default function App() {
 ```
 也生效了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d9814f1e8fb4c6e8b2aaf175773a145~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1118&h=328&s=77169&e=png&b=ffffff)
+![[react/react 通关秘籍/media/25309ea268873074ec62da40ec987b26_MD5.png]]
 
 那接下来的事情不就很简单了么，只要实现这些 className 的样式就好了。
 
@@ -621,7 +621,7 @@ Space/index.scss：
 
 在 Space 组件引入：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0ff15412767a42ec9f7a97e0ec1ea5cc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=622&h=308&s=46467&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d81359b51df2232c3b80c715558a0618_MD5.png]]
 
 测试下：
 
@@ -638,16 +638,16 @@ export default function App() {
 }
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7f7a1a6a20244f8a87527d9b08fbbc58~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1674&h=638&s=185100&e=png&b=fefefe)
+![[react/react 通关秘籍/media/6abd356c0c33b7d77e2ba02f4e3166f7_MD5.png]]
 
 没啥问题。
 
 接下来是根据传入的 size 来计算间距。
 
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b6f73d0a40d841379d59daa1a1ba7aa7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1282&h=904&s=137708&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/592c27900856f86aa1d01a72f1663d3b_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e6bcb9afb51347ca888831226f92adea~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1024&h=368&s=51353&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/788fd07562aeecd0742eaf1923bf5293_MD5.png]]
 
 如果 size 不是数组，就要扩展成数组，然后再判断是不是 small、middle、large 这些，是的话就变成具体的值。
 
@@ -780,13 +780,13 @@ export default function App() {
   background: green;
 }
 ```
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4fed85842945408a8fbff0c9e253880b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1262&h=1228&s=173740&e=png&b=ffffff)
+![[react/react 通关秘籍/media/77957b79d9821e5b78aff4a41810a520_MD5.png]]
 
 可以看到，gap、flex-wrap 的设置都是对的。
 
 接下来，处理下 split 参数：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c5665a1e22045feb05b6eb30a88da69~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=986&h=566&s=89209&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/258f379fef21948908dc000b0c509f87_MD5.png]]
 
 ```javascript
 const nodes = childNodes.map((child: any, i) => {
@@ -808,7 +808,7 @@ const nodes = childNodes.map((child: any, i) => {
 
 此外，这个组件还会从 ConfigProvider 中取值：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/17f9f902843041ffa91d4bf15e639c56~tplv-k3u1fbpfcp-watermark.image?)
+![[react/react 通关秘籍/media/76ba69705cdeef96ae7593442c3bf3e4_MD5.png]]
 
 前面测试过，当有 ConfigProvider 包裹的时候，就不用单独设置 size 了，会直接用那里的配置。
 
@@ -830,7 +830,7 @@ export const ConfigContext = React.createContext<ConfigContextType>({});
 
 在 Space 组件里用 useContext 读取它：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52f7b568cf68415fb97c0088ccb0bc44~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=926&h=644&s=101475&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/bcd0524b7a94643f01f698084409e002_MD5.png]]
 
 这样，size 默认值会优先用 context 里的值。
 
@@ -877,7 +877,7 @@ export default function App() {
 }
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03954e32d37c4b808943325595ea5e1d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=998&h=840&s=32953&e=png&b=ffffff)
+![[react/react 通关秘籍/media/d1ec7d756d5504b6a8a8d7b0d2145649_MD5.png]]
 
 没啥问题。
 
@@ -885,15 +885,15 @@ export default function App() {
 
 antd 的是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/73e36463c56c40c7a1793bd264a25e01~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=676&h=398&s=70968&e=png&b=202020)
+![[react/react 通关秘籍/media/61364ae044d3e2d0f0c796d77c44e283_MD5.png]]
 
 我们的是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f6c91a3b4f54f9fa190a026e2407bac~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=862&h=538&s=111991&e=png&b=202020)
+![[react/react 通关秘籍/media/235e6d43835ace3e15ce38a6b769825e_MD5.png]]
 
 很明显需要再包一层：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23e24f4c12094e6db5a4a0f89652f09b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1340&h=556&s=120880&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/3c0ee256c33400606a299cdbf649a655_MD5.png]]
 
 ```javascript
 interface ConfigProviderProps extends PropsWithChildren<ConfigContextType>{

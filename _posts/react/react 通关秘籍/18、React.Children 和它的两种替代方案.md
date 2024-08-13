@@ -1,20 +1,20 @@
 JSX 的标签体部分会通过 children 的 props 传给组件：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1188b684ffe748808c99f97fc25e570f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=466&h=176&s=38205&e=png&b=202020)
+![[react/react 通关秘籍/media/eea1c62b158f5256eb7e7f125a27ed94_MD5.png]]
 
 在组件里取出 props.children 渲染：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b0eba2a061c4427cb20114ef8f9d6fde~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=596&h=494&s=52740&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/6cedb5512cf8f44f4cfcfca0982203a4_MD5.png]]
 
 但有的时候，我们要对 children 做一些修改。
 
 比如 Space 组件，传入的是 3 个 .box 的 div：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1188b684ffe748808c99f97fc25e570f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=466&h=176&s=38205&e=png&b=202020)
+![[react/react 通关秘籍/media/eea1c62b158f5256eb7e7f125a27ed94_MD5.png]]
 
 但渲染出来的 .box 外面包了一层：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c8b4f4c80e51424e988bf3304aa57466~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1066&h=582&s=117436&e=png&b=ffffff)
+![[react/react 通关秘籍/media/ae5a59441022d6598a7149a98938ee6c_MD5.png]]
 
 这种就需要用 React.Children 的 api 实现。
 
@@ -33,7 +33,7 @@ JSX 的标签体部分会通过 children 的 props 传给组件：
 ```shell
 npx create-react-app --template=typescript children-test
 ```
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/afca05e6473b4dbf8d4017c8d82d04c6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1158&h=232&s=46645&e=png&b=010101)
+![[react/react 通关秘籍/media/c3b7c643b54257e8da6609ae0b4974c3_MD5.png]]
 
 进入项目，改下 index.tsx
 
@@ -86,13 +86,13 @@ npm run start
 ```
 可以看到，渲染出的 children 是修改后的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe805ec09a8d406891b150c93c3063d4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=868&h=1060&s=122188&e=png&b=ffffff)
+![[react/react 通关秘籍/media/95a8993f516265b210aea3a801f5ed72_MD5.png]]
 
 有的同学说，直接用数组的 api 可以么？
 
 我们试试：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6a4c404ea8d14c21a6067f4a44747e45~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=870&h=708&s=106899&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/e814f02342ce0ed9add50679afd24e75_MD5.png]]
 
 ```javascript
 interface AaaProps {
@@ -115,7 +115,7 @@ const Aaa: FC<AaaProps> = (props) => {
 要用数组的 api 需要把 children 类型声明为 ReactNode[]，然后再用数组的 map 方法：
 
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4f33bef81c546b6b6ec7d2181ed67fa~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=860&h=1114&s=125239&e=png&b=ffffff)
+![[react/react 通关秘籍/media/bb324d8c1d1358b6fda6161153fa21d6_MD5.png]]
 
 看起来结果貌似一样？
 
@@ -123,11 +123,11 @@ const Aaa: FC<AaaProps> = (props) => {
 
 首先，因为要用数组方法，所以声明了 children 为 ReactNode[]，这就导致了如果 children 只有一个元素会报错：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/150733781703407c83b033e1b8b6312e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1624&h=312&s=71746&e=png&b=202020)
+![[react/react 通关秘籍/media/8280b3ae0fe9de8bacb10f7312be0f2c_MD5.png]]
 
 更重要的是当 children 传数组的时候：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e889f38bd77489aa660785c03442c42~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=878&h=754&s=99104&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/c426316ec2347f03694d07b3df78e8b7_MD5.png]]
 
 ```javascript
 function App() {
@@ -144,13 +144,13 @@ function App() {
 ```
 数组的 map 处理后是这样的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d0fe4111120442caf69b8de0a05686e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=846&h=1148&s=137452&e=png&b=ffffff)
+![[react/react 通关秘籍/media/272001ffbde37dd817c3feece8d13162_MD5.png]]
 
 换成 React.Children.map 是这样的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d834eda0350c47579d785f91144d9b47~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=932&h=758&s=106552&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/869d2502d86790ed45abdec598a4912f_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f6f2df06877146ea888b1e5d26a61ec3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=790&h=1206&s=141115&e=png&b=ffffff)
+![[react/react 通关秘籍/media/c44bc99763ff4aaa096537ff0e11dba3_MD5.png]]
 
 React.Children.map 会把 children 拍平，而数组的方法不会。
 
@@ -185,13 +185,13 @@ export default App;
 
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8adc84d911cb4331a13a311c9eafa906~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1848&h=1284&s=399640&e=png&b=f8edec)
+![[react/react 通关秘籍/media/25779c03eeb1ebeb91941bc0e5a1254f_MD5.png]]
 
 因为 props.children 的元素是只读的，不能重新赋值，所以也就不能排序。
 
 这时候只要用 React.Children.toArray 转成数组就好了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26f2e186608e44d29415c5ef97ebac68~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=818&h=616&s=94705&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d7b16d7a7eb14a18922f6f659741b783_MD5.png]]
 
 （这里不用 children 数组方法了，就直接声明为 ReactNode 类型了）
 
@@ -212,7 +212,7 @@ const Aaa: FC<AaaProps> = (props) => {
 }
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6714896482a466b9ce418b6c55eea70~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=936&h=908&s=86350&e=png&b=ffffff)
+![[react/react 通关秘籍/media/5afea3ec817c3299b784a35bba5b83d6_MD5.png]]
 
 综上，直接用数组方法操作 children 有 3 个问题：
 
@@ -263,7 +263,7 @@ function App() {
 export default App;
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d72a12fc204144ca9ca4edc038cd0af0~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1860&h=532&s=115608&e=png&b=fcf8f8)
+![[react/react 通关秘籍/media/9b21752fbdda461762756cfd0d940283_MD5.png]]
 
 React.Children.count 是计数，forEach 是遍历、only 是如果 children 不是一个元素就报错。
 
@@ -271,7 +271,7 @@ React.Children.count 是计数，forEach 是遍历、only 是如果 children 不
 
 有的同学可能会注意到，Children 的 api 也被放到了 Legacy 目录下，并提示用 Children 的 api 会导致代码脆弱，建议用别的方式替代：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77b07793b88d4c3e9137bd254e966528~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2170&h=522&s=85605&e=png&b=fef8f5)
+![[react/react 通关秘籍/media/8fd51574c3954a03d85fe58d55e99dc9_MD5.png]]
 
 我们先看看这些替代方式：
 
@@ -312,7 +312,7 @@ export default App;
 
 结果如下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d50897a260d048ba94fe40a639ab6941~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=892&h=1094&s=124737&e=png&b=ffffff)
+![[react/react 通关秘籍/media/ca15215e6129749802a44d9fc443edc1_MD5.png]]
 
 第一种替代方案是这样的：
 
@@ -362,13 +362,13 @@ export default App;
 
 跑一下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/269a904d413f40648510f884f444fb57~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=762&h=1080&s=116265&e=png&b=ffffff)
+![[react/react 通关秘籍/media/4db6d45e49546c7cf5b5ecd8158652ff_MD5.png]]
 
 这样是可以的。
 
 当然，这里的 RowListProps 和 RowProps 都是只有 children，我们直接用内置类型 PropsWithChildren 来简化下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a211618142dc4425b218c768df88a2ff~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=840&h=596&s=102579&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/ad67b8582d72af37d91193309efccd18_MD5.png]]
 
 ```javascript
 import React, { FC, PropsWithChildren } from 'react';
@@ -454,11 +454,11 @@ export default App;
 
 效果是一样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e1ce290aa634de686b588adb2aa41ac~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=778&h=1076&s=113871&e=png&b=ffffff)
+![[react/react 通关秘籍/media/249f5f01958e2d87c525918cb8b92739_MD5.png]]
 
 而且还可以通过 render props 来定制渲染逻辑：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d20df626a8d9439899b46c2df497c1ff~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=980&h=866&s=141513&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/67a5ab6aa9cac9d55a346de8f71ca49e_MD5.png]]
 
 ```javascript
 import { FC, PropsWithChildren, ReactNode } from 'react';
@@ -513,7 +513,7 @@ function App() {
 
 export default App;
 ```
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e8846512011407ab2adf18139b31cbb~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=876&h=1342&s=170903&e=png&b=ffffff)
+![[react/react 通关秘籍/media/a9ba80827eec0227b9ca28d02832f6fb_MD5.png]]
 
 综上，替代 props.children 有两种方案：
 
@@ -524,16 +524,16 @@ export default App;
 
 React.Children 使用起来是无感的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/84ec99656b09438799f92213aceed252~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=394&h=262&s=27148&e=png&b=202020)
+![[react/react 通关秘籍/media/c53ec4eced19c3dd01c2441e118c6f8f_MD5.png]]
 
 而这两种替代方案使用起来是这样的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/25e2d484eccc4b3e82243f39ffc7c351~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=452&h=470&s=44070&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b05fb537d64d6d547bba35e5171e6b61_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/51dd0658866f4c2caa749c17ae94d3b8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=562&h=610&s=51580&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/577b9112bc10b5928ccd292685c41f31_MD5.png]]
 
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a832922f3fb44913b34c67466cae26d9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=712&h=870&s=87642&e=png&b=202020)
+![[react/react 通关秘籍/media/f5f1f341dad181e66d6e2b378674b22e_MD5.png]]
 
 虽然能达到同样的效果，但是还是用 React.Children 内部修改 children 的方式更易用一些。
 
@@ -541,19 +541,19 @@ React.Children 使用起来是无感的：
 
 比如 semi design 的代码：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d6615f4f0d845a5acac90b3ea847c65~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=912&h=1058&s=210708&e=png&b=1c1c1c)
+![[react/react 通关秘籍/media/1eb1904d90d0ed35259983ea109cc3cc_MD5.png]]
 
 arco design 的代码：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f837c0259e2409db0fff149b7bb6c68~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=932&h=1148&s=237104&e=png&b=1c1c1c)
+![[react/react 通关秘籍/media/6aaa9750615850dbcf4c0322d0e8f534_MD5.png]]
 
 ant design 的代码：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/78a04f9ba3a5400388cce11357c27985~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=892&h=1016&s=190487&e=png&b=1c1c1c)
+![[react/react 通关秘籍/media/458160ca031277e74b5ae78aad1e42e3_MD5.png]]
 
 比如我们上节写过的 Space 组件：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce5133833ba841a68ddbb8ebe4a53eb0~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1602&h=1188&s=257222&e=png&b=ffffff)
+![[react/react 通关秘籍/media/59d4107a339cf0ffc754a894a1b682f4_MD5.png]]
 
 所以 React.Children 还是可以继续用的，因为这些替代方案和 React.Children 还是有差距。
 
@@ -566,11 +566,11 @@ ant design 的代码：
 
 原因有三个：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10224f0c551f40b8a866bd6a510a268a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1144&h=314&s=92726&e=png&b=ffffff)
+![[react/react 通关秘籍/media/022b4030676c3952a6109098c47d2396_MD5.png]]
 
 当然，Children 的 api 被放到了 legacy 目录，可以用这两种方案来替代：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/846e9e99373b4589a4b8beeb6c7fc8f1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1116&h=226&s=59289&e=png&b=ffffff)
+![[react/react 通关秘籍/media/ac0990da79669d97606c569ef3903c4a_MD5.png]]
 
 不过，这两种替代方案易用性都不如 React.Children，各大组件库也依然大量使用 React.Children 的 api。
 

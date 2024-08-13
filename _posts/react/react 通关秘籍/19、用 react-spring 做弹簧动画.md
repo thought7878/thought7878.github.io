@@ -4,7 +4,7 @@
 
 比如下面这个动画：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/87e8c27b94ee4e89b2d3c2da9943eb74~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=790&s=104459&e=gif&f=39&b=fefefe)
+![[react/react 通关秘籍/media/b27842c26c8c9ff00ee1f9458da5ba41_MD5.gif]]
 
 横线和竖线依次做动画，最后是笑脸的动画。
 
@@ -20,7 +20,7 @@
 npx create-react-app --template=typescript react-spring-test
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5dcbf21883af468d8ebbb1920cf90eaa~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1202&h=310&s=113842&e=png&b=010101)
+![[react/react 通关秘籍/media/76f25de6b1d6d0404ce710129cfbfb84_MD5.png]]
 
 安装 react-spring 的包：
 
@@ -64,11 +64,11 @@ npm run start
 ```
 可以看到，box 会在 2s 内完成 width 从 0 到 300 的动画：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b1a18049e5a248ef994efd90eb611a81~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=786&h=388&s=39215&e=gif&f=22&b=fefefe)
+![[react/react 通关秘籍/media/95d7488012815ff7ad0013cb526c8da5_MD5.gif]]
 
 此外，你还可以不定义 duration，而是定义摩擦力等参数：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e70d41fef0b34dfc9f80461298f3f5fb~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=892&h=744&s=118630&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b1f7d8e95c74dddca4a168c01e488727_MD5.png]]
 
 ```javascript
 const width = useSpringValue(0, {
@@ -82,7 +82,7 @@ const width = useSpringValue(0, {
 ```
 先看效果：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a9188e81d8f4302868be2e979a17dd2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=956&h=360&s=40401&e=gif&f=23&b=fdfdfd)
+![[react/react 通关秘籍/media/c553ba08382fc4933254d3e57a5d3e83_MD5.gif]]
 
 是不是像弹簧一样？
 
@@ -90,7 +90,7 @@ const width = useSpringValue(0, {
 
 以及为什么 logo 是这样的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26d96c0b1571403081bcae522066c709~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1086&h=882&s=114768&e=png&b=ffffff)
+![[react/react 通关秘籍/media/3c44cccecce07e989f5310c4131df924_MD5.png]]
 
 它主打的就是这种弹簧动画。
 
@@ -106,31 +106,31 @@ const width = useSpringValue(0, {
 
 tension: 400
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/469638f7c5ed42a6826226d669529790~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=956&h=360&s=33602&e=gif&f=22&b=fefefe)
+![[react/react 通关秘籍/media/f767638360149f38a0b444d03a89a0ea_MD5.gif]]
 
 tension: 100
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f77106856c264fecac4ea62fa37c8f2e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=956&h=360&s=31113&e=gif&f=22&b=fefefe)
+![[react/react 通关秘籍/media/ab7460f37e5db343e39fd326d57e87fd_MD5.gif]]
 
 可以看到，确实 tension（弹簧张力）越大，弹簧越紧，回弹速度越快。
 
 mass: 2
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb25e9e4c06f498a977451a7cd788a41~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=956&h=360&s=37004&e=gif&f=20&b=fefefe)
+![[react/react 通关秘籍/media/6d41969f82e400a7d38b9a3df28dbf10_MD5.gif]]
 
 mass: 20
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c633ef451a04e388c0d37f15b8f8ec8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1232&h=458&s=70091&e=gif&f=38&b=fefefe)
+![[react/react 通关秘籍/media/0307fbd7b21e6ebd546e06707f5edee7_MD5.gif]]
 
 可以看到，mass（质量越大），惯性越大，回弹距离和次数越大。
 
 friction: 10
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b4e872788df4c66bc38c72afefb24d7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1232&h=458&s=70078&e=gif&f=38&b=fefefe)
+![[react/react 通关秘籍/media/57aea2cd9854c1409dded911cb9d4756_MD5.gif]]
 
 friction: 80
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/56290d22c1b94eac97fb54cfd2c9eb42~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1232&h=458&s=41186&e=gif&f=31&b=fefefe)
+![[react/react 通关秘籍/media/e6563a650a260ba7ef2de3faaaa3e1e1_MD5.gif]]
 
 可以看到，firction（摩擦力）越大，tension 和 mass 的效果抵消的越多。
 
@@ -168,15 +168,15 @@ export default function App() {
 
 动画效果如下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0929b0a07ae64c64aa5913657ae4ac6c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1096&h=614&s=49609&e=gif&f=23&b=fefefe)
+![[react/react 通关秘籍/media/188316089f3863fc74989e55c3e1f0f2_MD5.gif]]
 
 当然，也可以不用 duration 的方式：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c74b46e96bf54beebf272e07ba1530dc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=806&h=814&s=106075&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/bdc912309b11911911225f3ec9881ef9_MD5.png]]
 
 而是用弹簧动画的效果：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2393d33f8ae449069b13738ae48b9eaa~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1096&h=614&s=62776&e=gif&f=22&b=fefefe)
+![[react/react 通关秘籍/media/5714e34b8746703c413b1d2c169e5e00_MD5.gif]]
 
 useSpring 还有另外一种传入函数的重载，这种重载会返回 [styles, api] 两个参数：
 
@@ -212,7 +212,7 @@ export default function App() {
 ```
 可以用返回的 api 来控制动画的开始。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/32204b56603240998d474202ea1de387~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1096&h=614&s=74125&e=gif&f=20&b=fefefe)
+![[react/react 通关秘籍/media/4ec3be2a900f64e3c20558b920e54278_MD5.gif]]
 
 那如果有多个元素都要同时做动画呢？
 
@@ -252,7 +252,7 @@ export default function App() {
 ```
 渲染出来是这样的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6860f4f3b36c454b8770c3fd706c1eb0~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=790&s=49245&e=gif&f=20&b=fefefe)
+![[react/react 通关秘籍/media/35ab3d6f5cc4495c5dd8d8ad568024ab_MD5.gif]]
 
 当你指定了 to，那会立刻执行动画，或者不指定 to，用 api.start 来开始动画：
 
@@ -317,13 +317,13 @@ export default function App() {
 
 用起来很简单，直接把 useSprings 换成 useTrail 就行：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30c4b1d52fd34b4192b6afc880fa4550~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=790&s=83603&e=gif&f=31&b=fefefe)
+![[react/react 通关秘籍/media/1d0a2cea3b0e4449c30d6b3d168073e5_MD5.gif]]
 
 可以看到，动画会依次执行，而不是同时。
 
 接下来我们实现下文章开头的这个动画效果：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/87e8c27b94ee4e89b2d3c2da9943eb74~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=790&s=104459&e=gif&f=39&b=fefefe)
+![[react/react 通关秘籍/media/b27842c26c8c9ff00ee1f9458da5ba41_MD5.gif]]
 
 横线和竖线的动画就是用 useTrail 实现的。
 
@@ -385,7 +385,7 @@ useChain 的第二个参数指定了 0 和 1，第三个参数指定了 500，�
 
 如果第三个参数指定了 3000，那就是第一个动画在 0s 开始，第二个动画在 3s 开始。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/939415608d594f268455aa87e4742496~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1142&h=650&s=86073&e=gif&f=32&b=fdfdfd)
+![[react/react 通关秘籍/media/28fa057215ebaf1a10c0e97b44349cf9_MD5.gif]]
 
 可以看到，确实第一个动画先执行，然后 0.5s 后第二个动画执行。
 
@@ -465,25 +465,25 @@ export default function App() {
 
 效果是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b63d848636194521a9a18e0728c58c8e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1990&h=1214&s=310549&e=gif&f=26&b=0000fb)
+![[react/react 通关秘籍/media/3bce3489e6cdffe87ca85fa905f294cb_MD5.gif]]
 
 当你注释掉横线或者竖线，会更明显一点：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3f7b84de0d94645b64d901f5155f341~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=958&h=1072&s=145535&e=png&b=202020)
+![[react/react 通关秘籍/media/c02d7548ff9b77929bf79b582e73c657_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b857e9fc3ca246d0a1ef122598df23ed~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1990&h=1214&s=105234&e=gif&f=25&b=0000fc)
+![[react/react 通关秘籍/media/64efa5ffb5258f3fae56dfd2d7a245ff_MD5.gif]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e49a1d2384a14c0a983343a2f98ce3d6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1990&h=1214&s=249918&e=gif&f=25&b=0101fd)
+![[react/react 通关秘籍/media/62de37c76a02a3a4581dd1a4700024f5_MD5.gif]]
 
 然后再做笑脸的动画，这个就是用 rect 在不同画几个方块，做一个 scale 从 0 到 1 的动画：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6bbe18af023c4f2da12484596879edc7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=352&h=348&s=27999&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/ed947459f95a5641e3f1679ff07a1d51_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1c80a65e910246899bf3f578839e648d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1106&h=460&s=78796&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b603a8c1e5d23fdaf7486e05dd1be6db_MD5.png]]
 
 动画用弹簧动画的方式，指定 mass（质量） 和 tension（张力），并且每个 box 都有不同的 delay：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85f1091b7a52431a8f7a94f4d86d9e23~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=726&h=694&s=72245&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/8b9808dc025b14bd5c6f8af50cfcace7_MD5.png]]
 
 并用 useChain 来把两个动画串联执行。
 
@@ -589,7 +589,7 @@ export default function App() {
 这样，整个动画就完成了：
 
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f527e8c9437446f19c3bc7bb28fd0d0f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1990&h=1214&s=295881&e=gif&f=42&b=0000fc)
+![[react/react 通关秘籍/media/edc99035458d0e48634443f5eafe307e_MD5.gif]]
 
 这个动画，我们综合运用了 useSprings、useTrail、useSpringRef、useChain 这些 api。
 

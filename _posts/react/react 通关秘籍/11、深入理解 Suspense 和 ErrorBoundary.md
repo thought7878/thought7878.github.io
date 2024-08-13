@@ -7,7 +7,7 @@ React 里有两种组件，看似没啥关系，但在实现原理上却是很�
 ```
 npx create-react-app --template=typescript suspense-error-boundary
 ```
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c3d66372175646b5bb95047bbc928814~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1162&h=268&s=44810&e=png&b=000000)
+![[react/react 通关秘籍/media/f546b4d3ae121d1a386166940137e624_MD5.png]]
 
 先来看下 Suspense 组件：
 
@@ -46,17 +46,17 @@ npm run start
 ```
 然后就可以在浏览器里看到异步加载组件的过程：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23d4ce96284147bc880c8009dabe30f1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=528&h=316&s=17360&e=gif&f=17&b=fdfdfd)
+![[react/react 通关秘籍/media/eddec427c034685f8e277f9c642800ea_MD5.gif]]
 
 当然，因为本地加载比较快，你可以用 chrome devtools 改成慢速网络再刷新看看：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/501b7ecbfbda44f485b3a49f846e4503~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1032&h=664&s=102667&e=png&b=fcfbfb)
+![[react/react 通关秘籍/media/b88962f64965b2793bf81478985d8b9d_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/975b0556cb0d4148af5f5c0030ff13ee~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=890&h=440&s=78435&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/7d15b30045c3af4944e658796313fc09_MD5.png]]
 
 这里的 import 是 webpack 提供的用来异步加载模块的 api，它会动态下载模块所在的 chunk，然后从中解析出该模块，拿到 export 的值：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77c43e62df8f40dfbcf11fc50338f1b9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1134&h=782&s=194991&e=png&b=fefefe)
+![[react/react 通关秘籍/media/a5e2afbe7fbc84dea40455414a1faf11_MD5.png]]
 
 后台管理系统用这个挺多的，因为不可能一下子把所有路由的组件都下载下来，所以会用 lazy + Suspense 的方式异步加载暂时用不到的路由对应的组件。
 
@@ -99,11 +99,11 @@ export default function App() {
 ```
 渲染下这个组件：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d429e5a061b4d11a13192d8b1f6883d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=828&h=388&s=81718&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/8aeaf1472363471542aa40a6d4982f76_MD5.png]]
 
 浏览器访问下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58846cdcf0044e77901d3b250941b37b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=634&h=302&s=20854&e=gif&f=23&b=fefefe)
+![[react/react 通关秘籍/media/500f5757e4e1e6a0e2897a8f7879a518_MD5.gif]]
 
 可以看到，Suspense 依然是生效的。
 
@@ -113,7 +113,7 @@ export default function App() {
 
 前面讲过，现在 react 官网都推荐用 function 组件而不是 class 组件了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/405effbb6de142ca8fcaddb01fa9ccc1~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1248&h=526&s=48543&e=png&b=fdf6f1)
+![[react/react 通关秘籍/media/a811e43000e68a5b0bc3db097db8ba76_MD5.png]]
 
 绝大多数情况我们用 function 组件就好了，没必要用 class 组件。
 
@@ -205,21 +205,21 @@ export default function App() {
 
 我们渲染下这个组件：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5cb90a2596584a8cad98831793e0a81d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=760&h=382&s=78539&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/5c74756236c3ba49e248202c974cf635_MD5.png]]
 
 现在有 ErrorBoundary 是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da5810e64ae14f188945d0a09ed02eb5~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1016&h=788&s=162583&e=png&b=ffffff)
+![[react/react 通关秘籍/media/cf093b4dbca99a5d4a0903a29873e3a2_MD5.png]]
 
 把 ErrorBoundary 去掉后，可以看到，页面直接白屏了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d8f37272a3a4f6cb371656ac155353c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1084&h=938&s=243260&e=png&b=fbf4f4)
+![[react/react 通关秘籍/media/1acc5d65a6ec1020f635071117f3a215_MD5.png]]
 
 这就是 ErrorBoundary 的作用，捕获子组件抛出的错误，显示对应的 UI。
 
 回过头来看下这两个方法：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/53dc10db644b4a7ea12ea358f398e5e4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=816&h=840&s=113353&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/cf1eff55b672131974d8136658cd3183_MD5.png]]
 
 getDerivedStateFromError 修改 state 触发重新渲染，渲染出错误对应的 UI。
 
@@ -229,7 +229,7 @@ componentDidCatch 拿到错误信息，打印日志。
 
 这个特性只有 class 组件有，function 组件没有：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8947315f212d47e28f45e8bbe77ad723~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1744&h=602&s=173364&e=png&b=f4faf8)
+![[react/react 通关秘籍/media/8418f028c15ea1fa1cedcd7f0210d0a3_MD5.png]]
 
 不过一般也不用自己写这种 ErrorBoundary 组件，直接用 react-error-boundary 这个包就行：
 
@@ -261,11 +261,11 @@ export default function App() {
 ```
 渲染下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2a7d76defbcb42248f3e99498906308f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=714&h=392&s=76375&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b047c4f0c89301fd2f2f43f4a7ff5d17_MD5.png]]
 
 可以看到，ErrorBoundary 生效了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb69150dc9a94edda9f880fa352e9d37~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=704&h=310&s=27307&e=png&b=ffffff)
+![[react/react 通关秘籍/media/125a7cb7fbee45f0211028132f5b3996_MD5.png]]
 
 而且并不一定是 ErrorBoundary 的 children，任意层级的子组件都可以：
 
@@ -297,7 +297,7 @@ export default function App() {
 
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/456882be47db46b8b4108db4433cfaae~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=622&h=296&s=18523&e=png&b=ffffff)
+![[react/react 通关秘籍/media/d54d01518038ab43a333c8fbacd381c7_MD5.png]]
 
 也就是说组件抛错的时候，会向上寻找最近的 ErrorBoundary 组件。
 
@@ -342,11 +342,11 @@ export default function App() {
 
 渲染下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4ac2f95b76f4584bef0c9bd479cea4b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=704&h=384&s=74317&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/7f10f872dfae4e05c2eb37fb6c082628_MD5.png]]
 
 可以看到，触发了 Suspense：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8d8bab9dd0345778684cc7f6f9d29a8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=692&h=310&s=20888&e=gif&f=21&b=fdfdfd)
+![[react/react 通关秘籍/media/03f38294a40fd2515018374f9762a4ff_MD5.gif]]
 
 也就是说，只要 throw 一个 promise，就会被最近的 Suspense 捕获。
 
@@ -357,7 +357,7 @@ promise 初始状态展示 fallback，promise 改变状态后展示子组件。
 
 看下源码，发现确实是这样：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d144a0a60874f429b8092074d6199ae~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=698&h=664&s=68794&e=png&b=222222)
+![[react/react 通关秘籍/media/14217c99a1bd8d7f21929a5005f68409_MD5.png]]
 
 React.lazy 包裹之后，也会 throw 一个 promise 来触发 Suspense。
 
@@ -367,13 +367,13 @@ React.lazy 包裹之后，也会 throw 一个 promise 来触发 Suspense。
 
 也是这样实现的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0704e8cc5b1a420dbd6e6bc6480a27ee~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=930&h=1130&s=187644&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/aea822a92eac00360da13c554acaaf89_MD5.png]]
 
 有的同学可能会问了：ErrorBoundary 是捕获组件 throw 的错误，而 Suspense 是捕获组件 throw 的 promise，这俩会冲突么？
 
 试一下就知道了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e0046d1074c4d69a77a419fe653492e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=934&h=1002&s=153169&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/c81d78984916046f43a4eec671de0b13_MD5.png]]
 
 ```javascript
 const fallbackRender = ({ error }) => {
@@ -396,25 +396,25 @@ export default function App() {
 
 包裹一层 ErrorBoundary，你会发现 throw promise 没有触发它：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8d8bab9dd0345778684cc7f6f9d29a8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=692&h=310&s=20888&e=gif&f=21&b=fdfdfd)
+![[react/react 通关秘籍/media/03f38294a40fd2515018374f9762a4ff_MD5.gif]]
 
 而 throw 一个 error 的时候：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3e98a75057944493bfd067353653cd17~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=974&h=1110&s=242002&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/e850bc0133f7d5b038c2064c548bf52d_MD5.png]]
 
 ErrorBoundary 就触发了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58f936e8988e404fa51fd099b995daa4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=592&h=290&s=18825&e=png&b=ffffff)
+![[react/react 通关秘籍/media/511d4c8cb3159db6503bd2ec7486fcfe_MD5.png]]
 
 也就是说，ErrorBoundary 和 Suspense 虽然都是捕获组件 throw 出的东西，但这俩互不相干，一个捕获 error，一个捕获 promise。
 
 大概看下源码的处理：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e4c5ef3eb36c4bc38ea12b6a49d97625~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=582&h=326&s=36118&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/e420a33f5beb060106dde589a1400e59_MD5.png]]
 
 首先会全部 catch，然后内部再区分两种情况：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/840cfaee2a2b4d35bcfcefc697996e45~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1324&h=738&s=161221&e=png&b=202020)
+![[react/react 通关秘籍/media/1a8fcbac37e184552359185ea03d1f15_MD5.png]]
 
 如果 throw 的是 error，就是 error boundary 的处理逻辑，找最近的一个 ErrorBoundary 组件来处理。
 
@@ -462,9 +462,9 @@ export default function App() {
 ```
 渲染下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/36b7732ba6dc467bbce9cac1c333ab36~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=746&h=398&s=79719&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/5ecd940ab8233ec577ba211d07da4955_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/759c2b3dffab4c179b0ed2564f65294d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=676&h=236&s=17908&e=gif&f=14&b=fefefe)
+![[react/react 通关秘籍/media/312692e71c7498230f519e86e086827f_MD5.gif]]
 
 就是加一个 state 来记录 loading 状态就行了。
 
@@ -506,7 +506,7 @@ react 团队也在想办法解决这个问题，所以出了一个  use 的 hook
 
 这样用：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3fdd2eb4aa6f4b00808699651890cef2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1016&h=902&s=168703&e=png&b=ffffff)
+![[react/react 通关秘籍/media/e76a37ec131cf94235aee86088757f36_MD5.png]]
 
 它的参数是 promise。
 
@@ -516,7 +516,7 @@ react 团队也在想办法解决这个问题，所以出了一个  use 的 hook
 
 当 promise 是 reject 的时候，展示 ErrorBoundary 的 fallback。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e25a77157cea4187b42eed1afcbe5073~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1848&h=584&s=254715&e=png&b=ffffff)
+![[react/react 通关秘籍/media/009bceec66ac66cd99a595a9eb464fd1_MD5.png]]
 
 这样就不用自己 throw promise 了，业务代码就可以用 Suspense 来 loading 了。
 
@@ -526,7 +526,7 @@ react 团队也在想办法解决这个问题，所以出了一个  use 的 hook
 
 我们刚才用的 jotai 就自己实现了一下 use：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8da7cc4bdf454d3fa72c4392b099f391~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=892&h=1090&s=155394&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/fc643f8ed28f069db5203df6401bf21b_MD5.png]]
 
 就是 pending 的时候 throw promise，reject 的时候 throw error，否则 return 数据。
 
@@ -534,7 +534,7 @@ react 团队也在想办法解决这个问题，所以出了一个  use 的 hook
 
 这就是文档里写的触发 Suspense 的 3 种方式：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/53fd6ace839f482083842b2cff779f65~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1546&h=378&s=84278&e=png&b=f4faf8)
+![[react/react 通关秘籍/media/49f7ea644a3009100739f78ff1bd8595_MD5.png]]
 
 一种是用支持 Suspense 的框架，比如 next.js 或者 jotai。
 

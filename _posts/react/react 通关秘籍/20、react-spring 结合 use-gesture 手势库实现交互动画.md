@@ -12,7 +12,7 @@
 
 可能很多同学都没用过手势库，其实手势库里就是对 drag、hover、scroll 这些事件的封装：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eebf98a01f3d4444a9661fbf3b056b65~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1028&h=594&s=94008&e=png&b=ffffff)
+![[react/react 通关秘籍/media/1de46fa3d9a5b5aba19b2a84c6fa6901_MD5.png]]
 
 直接给元素绑定事件不行么，为啥还要加一个手势库呢？
 
@@ -25,11 +25,11 @@
 ```shell
 npx create-react-app --template=typescript use-gesture-test
 ```
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/65d1b21b975c4f97b4418be95abf8735~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1170&h=284&s=51663&e=png&b=010101)
+![[react/react 通关秘籍/media/1cd53b081388ac4a4aaa16b0366bd3d0_MD5.png]]
 
 我们来实现这样一个案例：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8e7fe71eb4a74aa880f6378533632382~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1422&h=1138&s=19788456&e=gif&f=29&b=8a6341)
+![[react/react 通关秘籍/media/11077ea6e85063bdaee507a875bee2ee_MD5.gif]]
 
 拖拽的时候触发动画，通过 use-gesture 实现拖动，拿到方向、距离等信息，然后用 react-spring 做属性变化的动画。
 
@@ -119,23 +119,23 @@ html,body,#root {
 
 这里图片要充满屏幕，从 html、body、#root 到 .wrapper、.page 都要设置宽高 100%：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1417fbdd41a64cb680e3d38d31f9274e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1366&h=1134&s=694822&e=png&b=fefefe)
+![[react/react 通关秘籍/media/22b3550a290d4958c1593c6b1a353559_MD5.png]]
 
 touch-action 设置为 none 是禁止移动端的默认 touch 处理。
 
 不然默认会导致页面的缩放和滑动：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/711c6006e0f14816b41c98ef4b2d25f8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1510&h=382&s=56926&e=png&b=fefefe)
+![[react/react 通关秘籍/media/ee11365b61624c7909b9fd513d9cecf0_MD5.png]]
 
 可以看到，渲染的结果是对的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/889109aae5ad456eb88ce6f415a359f9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1584&h=1324&s=1032708&e=png&b=fdfcfc)
+![[react/react 通关秘籍/media/ab665d3aaa685aa26df49801b4de232d_MD5.png]]
 
 这里我们设置的 x，但是 react-spring 用 translate3d 来实现的，这是它内部做的性能优化。
 
 接下来用 use-gesture 来加上手势的处理：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b35261d74da43368e5b18fcd311b635~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1396&h=1156&s=236804&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b417d7047e5174863a9671113bd69b80_MD5.png]]
 
 ```javascript
 import { useRef } from 'react'
@@ -182,17 +182,17 @@ export default Viewpager;
 
 用 use-gesture 也很简单，绑定啥事件就用 useXxx，比如 useDrag、useHover、useScroll 等。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/01a8d76baf524342b4218a5c2e9f375c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1212&h=136&s=38015&e=png&b=061626)
+![[react/react 通关秘籍/media/5476544e57eae32a5b1e85ec069690fd_MD5.png]]
 
 或者用 useGesture 同时绑定多种事件：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2052e5f1650a44469b5fa8ba2db67d00~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1076&h=1110&s=302610&e=png&b=061626)
+![[react/react 通关秘籍/media/fb3944b5e119dce55c90b2b322b8bb8c_MD5.png]]
 
 手势库最大的好处是可以拿到移动的方向、速率、距离等信息。
 
 这里我们拿到的这几个参数：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e10b619bf434ac49a4afd5117ca76cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1218&h=182&s=28666&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d377f950aaf31ad420ced296c68a1ee9_MD5.png]]
 
 movement 是拖动距离 [x, y] 
 
@@ -243,30 +243,30 @@ x 根据和当前 index 的差值 * width 计算，然后加上拖动的距离�
 
 而 scale 则是用拖动的距离除以 width 算一个比值，然后用 1 减去它，因为刚开始拖动的时候 scale 大。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f4b3c64744724bd09131007c34fa433b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1023&h=545&s=2159542&e=gif&f=22&b=d5d7de)
+![[react/react 通关秘籍/media/97eec2bf969028116efcd19e448df978_MD5.gif]]
 
 但是现在 scale 的变化范围有点大。
 
 可以调整下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4bbea11abc6f4460ab643b07be4c6e79~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1168&h=762&s=130338&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/ab5793f7c75f218dc9bc0d97f302f31c_MD5.png]]
 
 计算出来的比值除以 2  或者除以 3 就好了
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9aae495742724cd6aa9becc090bebf34~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=617&h=329&s=2487605&e=gif&f=40&b=f9f8f8)
+![[react/react 通关秘籍/media/6d3b0e14c393bf662dbeb52decd35a99_MD5.gif]]
 
 这样我们就完成了 use-gesture 手势库和 react-spring 动画库的结合使用的案例。
 
 用 use-gesture 手势库处理拖拽等事件，拿到移动距离、方向、速率等信息，然后再根据这些信息用 react-spring 做动画。
 
 use-gesture 文档里还有个案例也很有意思：
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a8b527d1cef94e32b14102b16d923413~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1162&h=1028&s=10746624&e=gif&f=29&b=9ec6d7)
+![[react/react 通关秘籍/media/bbe74d7ae56261fa5bc75dd414874147_MD5.gif]]
 
 如果拖动速度慢了，牌会回到原位置，只有快速拖动，牌才会移到一边。
 
 它的实现就是用了 velocity 速率，也就是每 ms 移动的距离，如果大于 0.2 就算移到一边，设置对应的 x，否则就设置 0：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/40cfb86c5eb946b6a4ba04541997d1a3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1510&h=648&s=178543&e=png&b=1b1b1b)
+![[react/react 通关秘籍/media/3213d201d78289db853ad3c511ad22b8_MD5.png]]
 
 具体流程都差不多，也是 use-gesture 和 react-spring 的结合使用，感兴趣可以[看看](https://codesandbox.io/p/sandbox/cards-stack-to6uf?file=%2Fsrc%2FApp.tsx%3A36%2C83-36%2C91)。
 

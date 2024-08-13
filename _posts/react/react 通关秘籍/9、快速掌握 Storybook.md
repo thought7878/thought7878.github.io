@@ -6,7 +6,7 @@ Storybook 是非常流行的用来构建组件文档的工具。
 
 现在有 80k 的 star 了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/06ab9985e51b47d1aeb9036cea11107e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1052&h=298&s=66199&e=png&b=ffffff)
+![[react/react 通关秘籍/media/794f41e4011ceee5e5da7bd4c63bda1a_MD5.png]]
 
 那 Storybook 都提供了啥功能呢？
 
@@ -16,7 +16,7 @@ Storybook 是非常流行的用来构建组件文档的工具。
 npx create-react-app --template typescript sb-test
 ```
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f62a4d090a24e119c22bf5202dfdccf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1016&h=236&s=71617&e=png&b=010101)
+![[react/react 通关秘籍/media/5762b74be0cb1298c43f1506e7ff16aa_MD5.png]]
 
 用 cra 创建个 react 项目。
 
@@ -25,13 +25,13 @@ npx create-react-app --template typescript sb-test
 ```
 npx storybook@latest init
 ```
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e6098a95319644d28e159f6c19f8143f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1072&h=638&s=91236&e=png&b=181818)
+![[react/react 通关秘籍/media/5668655f89820707a1239d0f742d70b2_MD5.png]]
 
 打印的日志告诉你 storybook init 是在你的项目里添加 storybook 的最简单方式。
 
 它会在你的 package.json 添加一个 storybook 命令：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af2a91325b7e4275b5323f8379b078b8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=606&h=266&s=53027&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/18233d428344e9a9c7513cbbce13880a_MD5.png]]
 
 执行 npm run storybook，就可以看到这样文档：
 
@@ -39,7 +39,7 @@ npx storybook@latest init
 npm run storybook
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1edef20173b44deab8ab28933dfd53d0~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1856&h=1326&s=192240&e=png&b=ffffff)
+![[react/react 通关秘籍/media/a6151d3eb70d4501399e11cae680f2dd_MD5.png]]
 
 这就是 storybook 生成的组件文档。
 
@@ -47,7 +47,7 @@ npm run storybook
 
 我们可以用它来了解下 storybook 的功能。
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b4ccea6e07754816aee59871946aa9fd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=448&h=856&s=77191&e=png&b=191919)
+![[react/react 通关秘籍/media/68c54d21ceb736f52a311fe635dd7f49_MD5.png]]
 
 storybook init 在项目里加了 2 个目录： .storybook 和 src/stories
 
@@ -55,23 +55,23 @@ storybook init 在项目里加了 2 个目录： .storybook 和 src/stories
 
 Button.tsx 就是传入几个参数，渲染出一个 button：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/076d9d08fa6b4f25be5ddd38e8591d2f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1380&h=1314&s=224407&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/55b40e5699d70d9772c9821da5d830a8_MD5.png]]
 
 然后 Button.stories.tsx 里导出了几种 Button 的 props：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1b1d8d2483d64d9ebece55b10a5cb532~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1130&h=970&s=177490&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/2f5c8925d4b74545349bf032f4a4fe73_MD5.png]]
 
 导出的这几个 Story 类型的对象是啥呢？
 
 是用来渲染不同 story 的：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9bed9ff1280945c5b9e9dd9fc799b087~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1882&h=1236&s=252972&e=gif&f=21&b=fefefe)
+![[react/react 通关秘籍/media/23bcc43fdac40ba981802f58129c4067_MD5.gif]]
 
 也就是 Button 组件传入不同参数的时候渲染的结果。
 
 我们加一个 Story 试试：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1c65585123874843abf11a5b8dd9299a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=810&h=1178&s=141994&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/089c5881af94d3312fe264da97706c4f_MD5.png]]
 
 ```javascript
 export const Guang: Story = {
@@ -85,7 +85,7 @@ export const Guang: Story = {
 
 页面多了一个 Button 的类型：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c3ddfac936b40a2828c3956aff59d8d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1636&h=1004&s=111753&e=png&b=ffffff)
+![[react/react 通关秘籍/media/890dc9cfeff1a4a60755d176ca115362_MD5.png]]
 
 也就是说，Storybook 把同一个组件传入不同 props 的情况，叫做一个 Story。
 
@@ -97,33 +97,33 @@ export const Guang: Story = {
 
 除了 story 外，上面还有生成的组件文档：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca7d1282bc6b417a858a4ee2ad89a5a9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2168&h=1420&s=229825&e=png&b=ffffff)
+![[react/react 通关秘籍/media/96245ece9bf42be36b0653683c79cf2b_MD5.png]]
 
 可以看到，列出了每个 props 和描述。
 
 是从注释里拿到的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e7160a50961a4812a54643041c6e07da~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=780&h=1106&s=136655&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/7a3aaedf89eba1b4158affa82e350fed_MD5.png]]
 
 我们改了一下注释，刷新下，可以看到文档变了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/991028784622424888b56b28aee2ed39~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2086&h=1256&s=189776&e=png&b=ffffff)
+![[react/react 通关秘籍/media/0af8b6dae5c66520215cd57829e6b39b_MD5.png]]
 
 这样就可以方便的生成组件文档了。
 
 而且，这些参数都是可以调的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08a54390c10449aebcbad112725fd663~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1846&h=1266&s=352767&e=gif&f=37&b=fefefe)
+![[react/react 通关秘籍/media/150a180f372f4657646aa9c30f02e594_MD5.gif]]
 
 可以直接修改 props 看组件渲染结果，就很方便。
 
 而且你还可以直接复制它的 jsx 代码：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3a1cd354eeaf4b7b8bc9cc8c256b6174~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2156&h=1098&s=129390&e=png&b=ffffff)
+![[react/react 通关秘籍/media/519691c2dac04dafcc72fbe3166d93d7_MD5.png]]
 
 之前我们是 args 传入参数渲染，你还可以用 render 函数的方式自己渲染：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0755d2c1f24e4c6ba420eb7b03e96efd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=622&h=538&s=72605&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/83c03001b6057e48319f3010e3bd01e1_MD5.png]]
 
 ```javascript
 export const Guang: Story = {
@@ -146,13 +146,13 @@ render 函数的参数就是 args，你可以自己返回 jsx（这时要把文�
 
 这样，渲染内容就是自己控制的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cb6babdd973f484588ba6c6b1ce9b14b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1970&h=820&s=105759&e=png&b=ffffff)
+![[react/react 通关秘籍/media/5fbef788b639e14b75b813950f59db40_MD5.png]]
 
 而且有的组件不只是传入 props 就可以了，还需要一些点击、输入等事件。
 
 storybook 支持写这类脚本：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43a45caf62da4293a28c4f7bb5eddd84~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1044&h=956&s=158398&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/1f771640f6f915b0e4d53eb88d220660_MD5.png]]
 ```javascript
 export const Guang: Story = {
   args: {
@@ -183,15 +183,15 @@ export const Guang: Story = {
 
 组件渲染完就会自动执行 play 函数：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/baa2cb424b4f4f4f93df1c89f601050f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2118&h=1124&s=371545&e=gif&f=25&b=fefefe)
+![[react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif]]
 
 当然，这个案例不大好，用表单来测试 play 功能会更好点：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/83554b55732749849d741ca0252b20c2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1282&h=918&s=358839&e=gif&f=22&b=fdfdfd)
+![[react/react 通关秘籍/media/0a9cd10aefced218ac4c2cf3a23fcfec_MD5.gif]]
 
 此外，你还可以在渲染组件之前请求数据，然后把数据传入 render 函数再渲染：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3df784c1627645b6af384024b90ee7a8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=734&h=948&s=114335&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/5893a1b1c19552ab8ac339370358a0b4_MD5.png]]
 
 ```javascript
 
@@ -226,7 +226,7 @@ export const Guang: Story = {
 
 渲染出来是这样的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d086821cc0d846369e206b138364de3c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1810&h=858&s=122949&e=png&b=ffffff)
+![[react/react 通关秘籍/media/4eeeea07c2c01ab30a617ad94e80592b_MD5.png]]
 
 感受到 Storybook 的强大了么？
 
@@ -244,9 +244,9 @@ npm install @storybook/jest
 
 使用 expect 来断言：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/98d01f9c93ca4943aa8a5a44a30bfc5e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=774&h=216&s=57082&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/46a2ee557950cc2e663a94911b1124db_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e57fb5a9e4454dae934d5488e46d3130~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1016&h=508&s=106145&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/939368d82d02f748734104b5f63ef0e9_MD5.png]]
 
 ```javascript
 await expect(btn.textContent).toEqual('光光光');
@@ -256,13 +256,13 @@ await expect(btn.style.backgroundColor).toEqual('green');
 
 这样一打开组件会自动跑 play 函数，也就会自动执行断言：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8766d0ee20e34a6e8f8c12a4e4e91bb4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1970&h=1106&s=180445&e=png&b=ffffff)
+![[react/react 通关秘籍/media/a53dea2980064a514224376832a2b977_MD5.png]]
 
 改下 expect，断言失败就是这样：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2f4fa32957ee4356a929b4f0b3033fbc~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1042&h=522&s=108195&e=png&b=202020)
+![[react/react 通关秘籍/media/618db2b995a6f3d645593f9936be19a7_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fc59a59b141a4e8ea60d3d384b4b3e26~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1506&h=1062&s=127088&e=png&b=fef5f3)
+![[react/react 通关秘籍/media/f08007553d9168e8b88e09965b13bcf0_MD5.png]]
 
 这样，组件有没有通过测试用例，打开一看就知道了。
 
@@ -279,48 +279,48 @@ npm install @storybook/testing-library
 ```
 npx test-storybook
 ```
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d4163340d794f279b59cbf10e5996d5~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=870&h=304&s=62930&e=png&b=1a1a1a)
+![[react/react 通关秘籍/media/d441b22652d93a15dea85592190d2e80_MD5.png]]
 
 xx.stories.tsx 文件里除了 Story 外，还会导出 meta 信息：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/45b0f117f4f94438a4bcd58318cdb7aa~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=840&h=1046&s=171277&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/1fe126c921446ae352d3e599f3155a55_MD5.png]]
 
 这些都很简单，改一下就知道了：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5818c8d6b11c4b4caa18f5a59eddda4a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=686&h=444&s=58337&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/5c08b909906bf1add92ffdd74d32e072_MD5.png]]
 
 title 是这个：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/69c97cc176d24dbcbae2ca6f0e5de871~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=532&h=744&s=49224&e=png&b=f5f7fb)
+![[react/react 通关秘籍/media/fbfa598e0960ca24b89f361e95a205d3_MD5.png]]
 
 paremeters 的 layout 是这个：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/596720cb55cd4a0cbd226f002e0ae832~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=680&h=548&s=78545&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b1f9e1c2f51bb8fb6ecf2c3fde00d9c2_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb11973736e746f48e275206148b6f3a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1640&h=1082&s=64795&e=png&b=ffffff)
+![[react/react 通关秘籍/media/dce0722b440c9350467573afaa7d7686_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e703ab71fc348a59556bf9145b66715~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1030&h=864&s=38111&e=png&b=ffffff)
+![[react/react 通关秘籍/media/c4ffac69ec4970af3030f3a2ea2f5722_MD5.png]]
 
 这里还可以配置背景色：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/18ce9e82cb9a44a194ba9289204d8ea8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=690&h=664&s=81349&e=png&b=202020)
+![[react/react 通关秘籍/media/25d848240e018e8f75505265a4f84e1b_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/625692a01e194763b185c080a6672d52~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2304&h=1218&s=328243&e=gif&f=26&b=fefefe)
+![[react/react 通关秘籍/media/602be9922b4f2019faaf827b3c98d464_MD5.gif]]
 
 然后 argTypes 是这个：
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/964bf7cec5f540f88039e39565a5142f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=700&h=504&s=64874&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/49fa89885f2f00456441b3a9ddfaba3a_MD5.png]]
 
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/18a42a4fe06d439bba53088130740d52~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1444&h=1078&s=93692&e=png&b=ffffff)
+![[react/react 通关秘籍/media/7b3ecf05d5a0614b213b1b1e74480cc0_MD5.png]]
 
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/883e41493cfe4e20aac001167230aaea~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=738&h=520&s=72467&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/30ee74be94387981c503b6443f555c7b_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/836a379b3f8149988bc9b85b5b029f1a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1176&h=744&s=71535&e=png&b=ffffff)
+![[react/react 通关秘籍/media/1b46cfa74edb95716e3027ffce78346a_MD5.png]]
 
 具体什么类型的参数用什么控件，可以用到的时候查一下[文档](https://storybook.js.org/docs/essentials/controls#annotation)。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a08f253de944627b1449f44245bcd24~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1152&h=1138&s=152486&e=png&b=ffffff)
+![[react/react 通关秘籍/media/4a0285eb544b8e94ab746bc68b75fb55_MD5.png]]
 
 这些都是与 Story 无关的一些东西，所以放在 Meta 里。
 
@@ -330,17 +330,17 @@ mdx 是 markdown + jsx 的混合语法，用来写文档很不错。
 
 在这个目录下的文档：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d44f1722884f4f969ce5e31d0eb61d5e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1422&h=1190&s=326436&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/0963b4e5acf93a2dbe00f8b0cb24847a_MD5.png]]
 
 都会被放到这里：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/108bc5bdccb24f1ba6c8b7e85fc3052f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1370&h=1026&s=175807&e=png&b=ffffff)
+![[react/react 通关秘籍/media/d354d08ed327e45160546cab7bb3ca91_MD5.png]]
 
 我们加一个试试：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/37e4abb3557c45bda09c064da9057658~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1612&h=924&s=257301&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/541385f23aad4c14bc19ef470eb6413e_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/834f32d42ba04e0db1905fc60b072a5a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1680&h=950&s=120565&e=png&b=ffffff)
+![[react/react 通关秘籍/media/55d6061c4735c6bb484ae5bd71c7afc5_MD5.png]]
 
 这样，当你想在组件文档里加一些别的说明文档，就可以这样加。
 
@@ -348,19 +348,19 @@ mdx 是 markdown + jsx 的混合语法，用来写文档很不错。
 
 可以在 .storybook 下的 preview.tsx 里配置这个：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c90fa993e16b4c4db139f39592155049~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1696&h=1194&s=298029&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/b6dd9bac1f29c66835abd5d0bdf523a4_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a28273d320749289793d8f29afd500f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1604&h=1236&s=146283&e=png&b=ffffff)
+![[react/react 通关秘籍/media/7d16d6c0c6a517ec770039b1cee125cd_MD5.png]]
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/05c92411d87446eb902068fa642b99b0~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1304&h=990&s=227974&e=png&b=1d1d1d)
+![[react/react 通关秘籍/media/3a9486f1c77e4ebb1eb50ad26fd7b84e_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a07da9717084f19b783ee85405bc960~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2140&h=1338&s=207244&e=png&b=ffffff)
+![[react/react 通关秘籍/media/fd651ed14c272d70cf35c6cae7551b5f_MD5.png]]
 
 大概过了一遍 Storybook 的功能之后，我们把上节的 Calendar 组件拿过来试一下。
 
 把那个项目的 Calendar 目录复制过来：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6cc32b2fde854a2080da1a4d37332258~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=456&h=658&s=57000&e=png&b=1a1a1a)
+![[react/react 通关秘籍/media/9efa13d3d07941f46de2247b2bd5dbfb_MD5.png]]
 
 然后在 stories 目录下添加一个 Calendar.stories.tsx
 
@@ -434,29 +434,29 @@ npm install --save-dev node-sass
 ```
 npm run storybook
 ```
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d7a48537021a4eae8876da2e9dab240b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2170&h=1402&s=185281&e=png&b=ffffff)
+![[react/react 通关秘籍/media/c9c96f39ed4019da9b7624ab6dd0ff2f_MD5.png]]
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/86c9436a6b4246bc9d754bc83c194def~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2086&h=1322&s=187492&e=png&b=fefefe)
+![[react/react 通关秘籍/media/1efa7a825691ed566e8221c1d462fde3_MD5.png]]
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/559a457f5fdc48a3b7882d5696900afb~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2172&h=1366&s=248974&e=png&b=fefefe)
+![[react/react 通关秘籍/media/5d29454393398ac4dbf197ad7f68c758_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b63bca47248f4891a284957eae175210~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2192&h=1318&s=195589&e=png&b=ffffff)
+![[react/react 通关秘籍/media/08f214a5961657fe9c341f492f1ee410_MD5.png]]
 
 都没啥问题。
 
 不过 value 的控件类型不对：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e03b3963b26948459be0e1d050a125cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1738&h=1026&s=140687&e=png&b=fefefe)
+![[react/react 通关秘籍/media/214af7441eba075531bdaf736f775d14_MD5.png]]
 
 但是现在我们要传入的是 dayjs 对象，就算是用了 date 的控件也不行。
 
 先改成 date 类型试试：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/251ca2c18abf41828cd0f893025237cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=658&h=522&s=72893&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/38f88e5954f3ead12df624f015921c77_MD5.png]]
 
 控件确实对了，但是修改日期点击刷新后，会报错：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/55f93770f1ee4063b2188574f596e780~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1776&h=1180&s=436621&e=gif&f=34&b=fdfdfd)
+![[react/react 通关秘籍/media/ea49f34a5a18e4e44a15e733b2228757_MD5.gif]]
 
 因为控件传入的是一个 date 的毫秒值。
 
@@ -464,7 +464,7 @@ npm run storybook
 
 这时候就要把 story 改成 render 的方式了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f4dafd6798840a7a69f0775d4b26fda~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1286&h=982&s=176073&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/cec32991107f943514a9eeb95fa27af5_MD5.png]]
 
 ```javascript
 
@@ -487,7 +487,7 @@ export const Value: Story = {
 
 再试试：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8bed02108ac47c18b881c42ec6995ca~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1776&h=1180&s=379705&e=gif&f=38&b=fdfdfd)
+![[react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif]]
 
 现在就可以了。
 

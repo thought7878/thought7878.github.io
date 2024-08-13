@@ -2,11 +2,11 @@
 
 看下 antd 的 [ColorPicker 组件](https://ant-design.antgroup.com/components/color-picker-cn#%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA)：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/20ac81477a5748e4bc2b7b043e4b5625~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=584&h=646&s=154448&e=png&b=fbfbfb)
+![[react/react 通关秘籍/media/c6b1df9f077e93ddf1eadb1e61bf62a4_MD5.png]]
 
 可以分成这三部分：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5fd47b8fa9a4434892056ef89abf8520~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=576&h=714&s=162403&e=png&b=fbfafa)
+![[react/react 通关秘籍/media/b5b2121809f2c83c12858545006a986f_MD5.png]]
 
 上面是一个 ColorPickerPanel，可以通过滑块选择颜色，调整色相、饱和度。
 
@@ -14,11 +14,11 @@
 
 外面是一个 Popover 气泡卡片。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cc78a8d703e74f63a1c1cb0d594f1170~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=482&h=322&s=23856&e=png&b=fcfcfc)
+![[react/react 通关秘籍/media/6c71cdbfcb8bcf266c1b3ff1fcba637a_MD5.png]]
 
 我们先写 ColorPickerPanel 的部分：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eb837001ffa746deb8fe6658f262ee05~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=502&h=428&s=133488&e=png&b=ffffff)
+![[react/react 通关秘籍/media/2239d445650cc3513275331f5c402da1_MD5.png]]
 
 这部分分为上面的调色板 Palette，下面的 Slider 滑动条。
 
@@ -31,7 +31,7 @@
 ```
 npx create-react-app --template=typescript color-picker-component
 ```
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5f2c218d40348b096d6bf9eddb3f10a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1228&h=304&s=105078&e=png&b=000000)
+![[react/react 通关秘籍/media/a39b0b7ae4288ca16ead8b533855b78e_MD5.png]]
 
 新建 ColorPicker 目录，然后创建 ColorPickerPanel 组件：
 
@@ -71,7 +71,7 @@ style 和 className 这俩 props 就不用解释了。
 
 然后添加 value 和 onChange 的参数：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e885cb0aeeb64f24a0d33a9f8b12410d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=904&h=656&s=109240&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/b8d3fd448ac8268b9e724951ddbfb0c0_MD5.png]]
 
 ```javascript
 interface ColorPickerProps {
@@ -118,7 +118,7 @@ console.log();
 ```
 跑一下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c0a44da912e84bd88c80d14a8c1d838b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=866&h=386&s=45311&e=png&b=181818)
+![[react/react 通关秘籍/media/6618f7ebf12179449d970698b7b97920_MD5.png]]
 
 可以看到，TinyColor 能识别出颜色的格式，并且在 hex、hsl、rgb 之间进行转换。
 
@@ -133,7 +133,7 @@ export class Color extends TinyColor {
 ```
 那 value 直接写 Color 类型么？
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7d476b91b6294754925562e01276b396~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=890&h=596&s=106189&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/3f9048e3e9aebbfed63a094b7d5470eb_MD5.png]]
 
 也不好，这样用起来得 new 一个 Color 对象才行，不方便。
 
@@ -178,7 +178,7 @@ export type ColorType =
 
 在组件里判断下 value 类型，如果不是 Color，那就创建一个 Color 对象，传入 Palette：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/327ea5a869474239bbcfbffcd59b9e3e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1086&h=1094&s=194752&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/02fdc08192ba85cc2108372c10e4a385_MD5.png]]
 ```javascript
 import { CSSProperties, useState } from "react";
 import cs from 'classnames';
@@ -278,13 +278,13 @@ npm install --save-dev sass
 npm run start
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/49a69a43bea74667bb9d4bafefb3f778~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=684&h=476&s=160209&e=png&b=f7efef)
+![[react/react 通关秘籍/media/87d6ffe4e03c6695ecca424180802de9_MD5.png]]
 
 调色板出来了。
 
 还要实现上面的滑块，这个封装个组件，因为 Slider 也会用到：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aecac5993af040a3af4b9b077e98e93c~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=490&h=426&s=134523&e=png&b=ffffff)
+![[react/react 通关秘籍/media/6815b20deaae3315b5d69af6661bd4fa_MD5.png]]
 
 创建 ColorPicker/Handler.tsx：
 
@@ -318,11 +318,11 @@ export default Handler;
 
 size 是 default 和 small 两个取值，因为这俩滑块是不一样大的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a97291e195545f6973d543c6008f972~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=490&h=426&s=117340&e=png&b=fefefe)
+![[react/react 通关秘籍/media/2ddb44cf614d8a9deb116c87a102d629_MD5.png]]
 
 加一下两种滑块的样式：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe2de7116f0e4b2189822660e616c0c9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1084&h=850&s=127608&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/186d29c854a68777862a0939bc97eaac_MD5.png]]
 
 ```scss
 &-handler {
@@ -340,22 +340,22 @@ size 是 default 和 small 两个取值，因为这俩滑块是不一样大的�
 ```
 在 Palette 引入下：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4f3e4bdc7dee4d9f8a4c7bdd26b96100~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1490&h=810&s=158167&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/0d9a8abcf656450378183ba9a43bc17a_MD5.png]]
 
 ```javascript
 <Handler color={color.toRgbString()}/>
 ```
 刷新下页面，确实是有的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/651f7b70364e49439b1e2f9db1207251~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=714&h=408&s=130104&e=png&b=fbf7f7)
+![[react/react 通关秘籍/media/b1ff04c1e818d467ad1122d67b671c60_MD5.png]]
 
 只是现在看不到。
 
 加一下 zindex 就好了：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fc2ded19864b4306a6cf577696954510~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=770&h=426&s=58195&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/022727048cf6660e84d51915386ff8d5_MD5.png]]
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b6fd17c37b944b2fab498980178c77f2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=646&h=442&s=158488&e=png&b=f3e9e9)
+![[react/react 通关秘籍/media/6d8df5a30bd41b885a39ac4fb8686bc8_MD5.png]]
 
 但是不建议写在这里。
 
@@ -401,7 +401,7 @@ const Transform = forwardRef<HTMLDivElement, TransformProps>((props, ref) => {
 export default Transform;
 ```
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d128620480a04a59b1d7bd6a71f146df~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1174&h=806&s=186688&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d02c6b1c38cd492ad5cb063f23128e37_MD5.png]]
 
 ```javascript
 import { useRef, type FC } from 'react';
@@ -435,13 +435,13 @@ export default Palette;
 ```
 看下效果：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/207c659842504884a8bd4e84bbe09ee8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=688&h=408&s=158521&e=png&b=f3e9e9)
+![[react/react 通关秘籍/media/74df8106ebc9467b5134f89fc66765e4_MD5.png]]
 
 如果不单独分 Transform 这个组件呢？
 
 那就是把这段样式写在 Hanlder 组件里，然后加上俩参数：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/900c131c4e5a43369e005e1e5902cc9b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1524&h=786&s=163062&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/a50c7f29c1e7c03081a6b8122763657f_MD5.png]]
 
 功能是一样的，但是不如拆分出来复用性好。
 
@@ -529,27 +529,27 @@ MouseEvent 是 ts 内置的鼠标事件类型，而 React.MouseEvent 是 react �
 
 直接给 document 绑定事件，这时候 event 是 MouseEvent 类型：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b185601d35b4e47ac4e4a84e592edfd~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1614&h=396&s=120826&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/81a19aeab60a40ca08ca30ef2e06d068_MD5.png]]
 
 而在 jsx 里绑定事件，这时候 event 是 React.MouseEvent 类型：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c7c9e4c7649a4e0584360220ab55877d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1118&h=188&s=45066&e=png&b=212121)
+![[react/react 通关秘籍/media/6696f756e99bdefe42bb60fff44f4e98_MD5.png]]
 
 我们都要支持：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6649fd6c826545c58eb173d74c4e8e0b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=700&h=224&s=30392&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/ef2bedc389a9ac557bc3df0a16ce8a56_MD5.png]]
 
 这两个 state 一个是保存 offset 的，一个是保存是否在拖动中的标记的：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/25376dbb38fd4c9597754effb0fd27d3~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1140&h=196&s=34977&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/3b9f582b7fc1d0ed2358f8a1a9e41f07_MD5.png]]
 
 然后先把之前的事件监听器去掉：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59c094d66bf54bb788b92f000f1ff28a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=890&h=180&s=38040&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/c2a538f20bb0ed058cf27095e97a7575_MD5.png]]
 
 在 mousedown 的时候绑定 mousemove 和 mouseup 事件：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7818321c925640b88d19c0f3de6006ec~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=944&h=718&s=128090&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/d229d0f0cf17a03fe13fd7ce546be525_MD5.png]]
 
 mousemove 的时候根据 event 修改 offset。
 
@@ -606,11 +606,11 @@ const updateOffset: EventHandle = e => {
 
 这里如果传入的 direction 参数是 x，那么就只能横向拖动，是为了下面的 Slider 准备的：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee21bfe6bee94473ba37a1971619e030~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=510&h=426&s=134918&e=png&b=fefefe)
+![[react/react 通关秘籍/media/bbebf88c5443876208153b9223fdcb7b_MD5.png]]
 
 我们来试下效果：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c849274db39a47048c0816ee27ea9016~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1300&h=936&s=201316&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/40039d2f28e71d2fec210f3cc2cf57b6_MD5.png]]
 
 ```javascript
 import { useRef, type FC } from 'react';
@@ -657,7 +657,7 @@ const Palette: FC<{
 export default Palette;
 ```
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eba2365e16c54899a00d6d3bb024e33d~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1348&h=1056&s=318078&e=gif&f=38&b=fdfcfc)
+![[react/react 通关秘籍/media/c8a50bc969965fcec25778556b5809fd_MD5.gif]]
 
 可以看到，滑块可以拖动了，并且只能在容器范围内拖动。
 
@@ -706,11 +706,11 @@ export const calculateColor = (props: {
 
 然后在 onDragChange 里根据 offset 计算当前的颜色，并且通过 onChange 回调返回新颜色。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8549ab71e45a443e9789871db2b31301~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=964&h=904&s=195057&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/3025ccc09d5ca4e69ad1841767e18408_MD5.png]]
 
 在 ColorPickerPanel 组件里处理下 onChange：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce94e29a1e4b49cd9913c20f65f4c62a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1276&h=728&s=141687&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/fcecd2e0de8c5c9abfee8f182ab5d6ac_MD5.png]]
 
 ```javascript
 function onPaletteColorChange(color: Color) {
@@ -722,17 +722,17 @@ function onPaletteColorChange(color: Color) {
 
 测试下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0487916e286743349a3573c19ecda683~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=708&h=474&s=129484&e=gif&f=37&b=f7f0f0)
+![[react/react 通关秘籍/media/45d41dffea3485bded4206b9248055f4_MD5.gif]]
 
 没啥问题。
 
 只是现在初始的颜色不对：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6096f0fa4f274e78a21b88e7fcd7fac2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=682&h=420&s=160831&e=png&b=f4eae9)
+![[react/react 通关秘籍/media/ad4b757017f6ece44f87f890686ef98f_MD5.png]]
 
 最开始也要计算一次滑块位置：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7f4f5e9e46184451a5e3f089a3de86f8~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1088&h=1322&s=215050&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/78b59619847810e68b18927ab88e6a82_MD5.png]]
 
 我们给 useColorDrag 添加 color 和 calculate 两个参数。
 
@@ -854,7 +854,7 @@ export default useColorDrag;
 
 然后在调用的时候传入这两个参数：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1e46391865c247a98170d8350a7c4230~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1152&h=978&s=204356&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/4f08cfb3539ec69be4fcbac65ed00092_MD5.png]]
 
 ```javascript
 const [offset, dragStartHandle] = useColorDrag({
@@ -904,27 +904,27 @@ export const calculateOffset = (
 
 可以看到，现在初始位置就对了：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/617f6daf1c1b44438fb9422e7c3376ab~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=674&h=402&s=158207&e=png&b=f0e4e4)
+![[react/react 通关秘籍/media/ca7ae1ddbfebb772b014b87c493ed33c_MD5.png]]
 
 我在 App.tsx 里设置个不同的颜色：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cecf19296ac48c8beadc1f0c262dd85~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1110&h=534&s=90483&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/94f5e9e4d1add9c58f8c0f5a9de0c01c_MD5.png]]
 
 ```html
 <ColorPickerPanel value="rgb(166 57 57)"></ColorPickerPanel>
 ```
 
 初始位置也是对的：
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c2220c3793f4e2a832a4c7767b3809e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=644&h=418&s=158737&e=png&b=f1e4e4)
+![[react/react 通关秘籍/media/fd69c183a6d97b32ebc7b56d35b7eab7_MD5.png]]
 
 我们在下面加一个颜色块：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3feeda541d542409b14da94ecdbcdbf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1428&h=478&s=116027&e=png&b=1f1f1f)
+![[react/react 通关秘籍/media/33a326661fea42a7021c5de599bfb0fe_MD5.png]]
 
 ```html
 <div style={{width: 20, height: 20, background: colorValue.toRgbString()}}></div>
 ```
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5d0a0460f34549d2a3c09096c749811a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=706&h=468&s=268666&e=gif&f=43&b=f9f2f2)
+![[react/react 通关秘籍/media/5359b0a0ae4a5ee79225d39c2020ffce_MD5.gif]]
 
 可以看到，随着滑块的移动，返回的颜色是对的。
 
