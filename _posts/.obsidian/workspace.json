@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/React-Aria/Architecture.md",
+                "file": "typescript/总结/satisfies.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:git",
+                "query": "file: satisfies",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/Architecture.md",
+                "file": "typescript/总结/satisfies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/Architecture.md",
+                "file": "typescript/总结/satisfies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/React-Aria/Architecture.md"
+                "file": "typescript/总结/satisfies.md"
               }
             }
           }
@@ -245,11 +245,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a141d095a7b9fb91",
+  "active": "3fe3110c949a01ca",
   "lastOpenFiles": [
+    "libraries/React-Aria/Architecture.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
-    "libraries/React-Aria/Architecture.md",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "libraries/React-Aria/media",
     "libraries/shadcn/shadcn ui 剖析.md",
