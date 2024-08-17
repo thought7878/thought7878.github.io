@@ -153,10 +153,57 @@ function MyNumberField() {
 
 `useNumberField` 是 `@react-aria/numberfield` 库中的一个 Hook，它与 `react-stately` 库配合使用，用来帮助构建符合可访问性标准的数字输入字段（Number Field）。`useNumberField` **主要负责生成所需的 ARIA 属性和其他行为逻辑**，以确保数字输入字段在不同的辅助技术中表现一致。
 
-### `useNumberField` 的主要功能包括：
-1. **生成 ARIA 属性**：为数字输入字段生成正确的 ARIA 属性，以确保屏幕阅读器和其他辅助技术能够正确识别和操作该组件。
+## `useNumberField` 的主要功能包括：
+1. **生成 ARIA 属性**：为数字输入字段生成正确的 ARIA 属性，*以确保屏幕阅读器和其他辅助技术能够正确识别和操作该组件*。
 2. **处理用户交互**：处理键盘事件（如箭头键、Enter 键等）以及其他用户输入。
 3. **格式化和解析**：格式化数字以便展示给用户，并解析用户输入的字符串以转换成数值。
+
+## API
+
+```ts
+useNumberField( 
+	props: AriaNumberFieldProps, 
+	state: NumberFieldState, 
+	inputRef: RefObject<HTMLInputElement | null>
+): NumberFieldAria
+```
+
+### 参数
+#### props: AriaNumberFieldProps
+```ts
+export interface AriaNumberFieldProps extends NumberFieldProps, DOMProps, AriaLabelingProps, TextInputDOMEvents {
+
+	/** A custom aria-label for the decrement button. If not provided, the localized string "Decrement" is used. */
+	
+	decrementAriaLabel?: string,
+	
+	/** A custom aria-label for the increment button. If not provided, the localized string "Increment" is used. */
+	
+	incrementAriaLabel?: string,
+	
+	/**
+	
+	* Enables or disables changing the value with scroll.
+	
+	*/
+	
+	isWheelDisabled?: boolean
+
+}
+```
+
+##### AriaNumberFieldProps与NumberFieldStateOptions
+
+#### state: NumberFieldState
+
+
+#### inputRef: RefObject
+
+### 返回的对象通常包含以下属性：
+1. **`inputProps`**: (`Object`) 包含了所有必要的 ARIA 属性和其他属性，可以直接应用于 `<input>` 或其他可编辑元素。
+2. **`buttonProps`**: (`Object`) 如果你的数字输入字段包含增加或减少按钮，这些属性可以用于这些按钮，确保它们也能正确地处理用户交互和可访问性。
+
+请注意，`useNumberField` 和 `useNumberFieldState` 需要结合使用，前者负责生成 ARIA 属性和处理交互，后者则负责管理数字输入字段的状态。这些 Hook 使得开发者可以轻松地构建符合 WAI-ARIA 标准的可访问性组件。
 
 ### 使用示例：
 ```jsx
@@ -187,9 +234,3 @@ function MyNumberField() {
 ```
 
 在这个示例中，我们首先使用 `useNumberFieldState` 来初始化数字输入字段的状态。接着，我们创建一个引用（ref）来连接到 DOM 节点，并使用 `useNumberField` Hook 来生成包含所有必要 ARIA 属性的 `inputProps` 对象。最后，我们将这些属性应用到 `<input>` 元素上，创建一个可交互的数字输入字段。
-
-### `useNumberField` 返回的对象通常包含以下属性：
-1. **`inputProps`**: (`Object`) 包含了所有必要的 ARIA 属性和其他属性，可以直接应用于 `<input>` 或其他可编辑元素。
-2. **`buttonProps`**: (`Object`) 如果你的数字输入字段包含增加或减少按钮，这些属性可以用于这些按钮，确保它们也能正确地处理用户交互和可访问性。
-
-请注意，`useNumberField` 和 `useNumberFieldState` 需要结合使用，前者负责生成 ARIA 属性和处理交互，后者则负责管理数字输入字段的状态。这些 Hook 使得开发者可以轻松地构建符合 WAI-ARIA 标准的可访问性组件。
