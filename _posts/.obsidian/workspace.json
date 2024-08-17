@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md"
+                "file": "libraries/React-Aria/Number Field & Number Input.md"
               }
             }
           }
@@ -209,10 +209,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9c6d7b22b6a44f3b",
+  "active": "6a6bd72e88da7591",
   "lastOpenFiles": [
-    "libraries/React-Aria/Number Field & Number Input.md",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
     "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/add 命令.md",
     "libraries/React-Aria/Architecture.md",
