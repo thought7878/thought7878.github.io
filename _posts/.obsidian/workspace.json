@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "3a14ac7cd18b849a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/shadcn/目录和文件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6a6bd72e88da7591",
             "type": "leaf",
             "state": {
@@ -56,31 +68,19 @@
             }
           },
           {
-            "id": "a141d095a7b9fb91",
+            "id": "9c6d7b22b6a44f3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/shadcn/add 命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a14ac7cd18b849a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/shadcn/目录和文件.md",
+                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md"
+                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md"
               }
             }
           }
@@ -209,13 +209,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6a6bd72e88da7591",
+  "active": "9c6d7b22b6a44f3b",
   "lastOpenFiles": [
-    "libraries/React-Aria/Architecture.md",
     "libraries/React-Aria/Number Field & Number Input.md",
-    "libraries/React-Aria/overview.md",
+    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/add 命令.md",
+    "libraries/React-Aria/Architecture.md",
+    "libraries/React-Aria/overview.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "要整理的.md",
@@ -247,7 +248,6 @@
     "react/react 通关秘籍/18、React.Children 和它的两种替代方案.md",
     "react/react 通关秘籍/19、用 react-spring 做弹簧动画.md",
     "react/react 通关秘籍/20、react-spring 结合 use-gesture 手势库实现交互动画.md",
-    "react/react 通关秘籍/21、用 react-transition-group 和 react-spring 做过渡动画.md",
     "libraries/shadcn/media",
     "base/css/总结/伪类选择器",
     "base/css/总结",
