@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 34.59885386819484,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -61,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "base/css/视频/z-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,6 +82,23 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "1fdf3dd58a66f174",
+        "type": "tabs",
+        "dimension": 65.40114613180515,
+        "children": [
+          {
+            "id": "f6881acae797f712",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Bx4y1C7oL/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -146,7 +165,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +181,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +202,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -195,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +225,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6a6bd72e88da7591",
+  "active": "f6881acae797f712",
   "lastOpenFiles": [
-    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+    "base/css/视频/z-index.md",
     "libraries/React-Aria/Number Field & Number Input.md",
+    "base/css/视频",
+    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/add 命令.md",
     "libraries/React-Aria/Architecture.md",
@@ -247,7 +265,6 @@
     "react/react 通关秘籍/17、组件实战：Space.md",
     "react/react 通关秘籍/18、React.Children 和它的两种替代方案.md",
     "react/react 通关秘籍/19、用 react-spring 做弹簧动画.md",
-    "react/react 通关秘籍/20、react-spring 结合 use-gesture 手势库实现交互动画.md",
     "libraries/shadcn/media",
     "base/css/总结/伪类选择器",
     "base/css/总结",
@@ -255,7 +272,6 @@
     "react/总结",
     "typescript/未命名",
     "debug/前端调试通关秘籍/media",
-    "debug/前端调试通关秘籍/目录.txt",
-    "debug/前端调试通关秘籍"
+    "debug/前端调试通关秘籍/目录.txt"
   ]
 }
