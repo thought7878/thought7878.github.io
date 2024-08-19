@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 31.51862464183381,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -62,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/css/视频/z-index.md",
+                "file": "base/css/总结/pointer-events.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,23 +81,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "947275de03a94369",
-        "type": "tabs",
-        "dimension": 68.48137535816619,
-        "children": [
-          {
-            "id": "a96348822699d299",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1Pt421871L/"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -148,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -165,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "base/css/总结/pointer-events.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "base/css/总结/pointer-events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "base/css/总结/pointer-events.md"
+              }
             }
           }
         ],
@@ -210,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,12 +209,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a96348822699d299",
+  "active": "6a6bd72e88da7591",
   "lastOpenFiles": [
-    "base/css/视频/z-index.md",
     "libraries/React-Aria/Number Field & Number Input.md",
-    "base/css/视频",
+    "base/css/总结/pointer-events.md",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+    "base/css/视频/z-index.md",
+    "base/css/视频",
     "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/add 命令.md",
     "libraries/React-Aria/Architecture.md",
@@ -264,7 +249,6 @@
     "react/react 通关秘籍/15、组件实战：ColorPicker（四）.md",
     "react/react 通关秘籍/17、组件实战：Space.md",
     "react/react 通关秘籍/18、React.Children 和它的两种替代方案.md",
-    "react/react 通关秘籍/19、用 react-spring 做弹簧动画.md",
     "libraries/shadcn/media",
     "base/css/总结/伪类选择器",
     "base/css/总结",
