@@ -63,7 +63,7 @@ function ExampleForm() {
 
 ### 解释：
 1. **`useForm`**: 初始化表单实例，返回一个对象，其中包含 `register`, `handleSubmit`, `reset`, `setError`, `clearErrors`, `watch`, `formState`, 等方法。
-2. **`register`**: 用于注册表单中的输入字段。它可以接受一个对象参数，用于定义验证规则。
+2. **`register`**: 用于注册表单中的输入字段。它可以接受一个对象参数，用于*定义验证规则*。
 3. **`handleSubmit`**: 用于处理表单提交，当表单被提交时，它会调用提供的回调函数，并将表单数据作为参数传递。
 4. **`formState`**: 包含表单的状态信息，如 `errors`（验证错误），`isSubmitting`（提交中），`isSubmitted`（已提交）等。
 
