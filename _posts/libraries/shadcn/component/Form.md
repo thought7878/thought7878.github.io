@@ -39,21 +39,21 @@ function NestedInput() {
 }
 ```
 
-# <FormField>
+# FormField
+
+## [Controller](https://react-hook-form.com/docs/usecontroller/controller)
+
+React Hook Form包含不受控制的组件和原生input，但很难避免使用外部组件，如React-Select，AntD 和 MUI。*这个组件将使您更容易使用它们*。
+
+# FormItem
 
 
+# FormLabel
 
 
-
-# <FormItem>
-
-
-# <FormLabel>
+# FormControl
 
 
-# <FormControl>
+# FormDescription
 
-
-# <FormDescription>
-
-# <FormMessage />
+# FormMessage
