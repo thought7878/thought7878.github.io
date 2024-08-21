@@ -10,6 +10,8 @@ https://www.radix-ui.com/primitives/docs/components/select
 ### git issue
 
 [input number](https://github.com/shadcn-ui/ui/pull/1818)
+[phone number input](https://github.com/shadcn-ui/ui/issues/4596)
+
 [add links to docs](https://github.com/shadcn-ui/ui/issues/4536)
 [Add Radio Cards support #4528](https://github.com/shadcn-ui/ui/issues/4528)
 
