@@ -101,11 +101,12 @@ git checkout -- .
 
 覆盖上次的`commit`记录，并将暂存区的文件提交到本地仓库: `git commit --amend -m "commit-info"`；
 
-#### 撤销/恢复/删除
+#### 撤销/恢复
 
 - <u>撤销</u>暂存区的文件到工作区，暂存区恢复成和 HEAD 一样: 
 `git reset HEAD <file>...`
 
+#### 删除
 - 删除暂存区文件，但是工作区保留文件: 
 `git rm --cached <file1> <file2>...`；
 
