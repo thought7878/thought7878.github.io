@@ -68,24 +68,36 @@
             }
           },
           {
-            "id": "6a6bd72e88da7591",
+            "id": "619f40fbf023dce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/shadcn/component/Form.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "44676506b75416b2",
+            "id": "dc7b95edf6876162",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/overview.md",
+                "file": "libraries/number-input/Doc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a6bd72e88da7591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/shadcn/component/Form.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/react-hook-form/react-hook-form.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/react-hook-form/react-hook-form.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/react-hook-form/react-hook-form.md"
+                "file": "libraries/React-Aria/Number Field & Number Input.md"
               }
             }
           }
@@ -233,20 +245,23 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9072f31025e28570",
+  "active": "619f40fbf023dce2",
   "lastOpenFiles": [
-    "git/overview.md",
-    "libraries/shadcn/component/Form.md",
-    "libraries/react-hook-form/react-hook-form.md",
-    "libraries/shadcn/issues 记录.md",
+    "libraries/number-input/Doc.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
+    "libraries/number-input/media",
+    "libraries/number-input",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+    "libraries/react-hook-form/react-hook-form.md",
+    "libraries/shadcn/component/Form.md",
+    "git/overview.md",
+    "libraries/shadcn/issues 记录.md",
     "libraries/shadcn/component",
     "nextJS/未命名",
     "libraries/zod/zod overview.md",
     "libraries/react-hook-form",
     "base/css/总结/pointer-events.md",
     "libraries/zod",
-    "libraries/React-Aria/Number Field & Number Input.md",
     "base/css/视频/z-index.md",
     "base/css/视频",
     "libraries/shadcn/目录和文件.md",
@@ -275,11 +290,7 @@
     "react/react 通关秘籍/media/ea49f34a5a18e4e44a15e733b2228757_MD5.gif",
     "react/react 通关秘籍/10、React 组件如何写单测？.md",
     "react/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
-    "react/react 通关秘籍/12、组件实战：ColorPicker（一）.md",
-    "react/react 通关秘籍/13、组件实战：ColorPicker（二）.md",
     "libraries/shadcn/media",
-    "base/css/总结/伪类选择器",
-    "base/css/总结",
-    "react/总结/utility types"
+    "base/css/总结/伪类选择器"
   ]
 }

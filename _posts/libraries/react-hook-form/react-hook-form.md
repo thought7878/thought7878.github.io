@@ -102,16 +102,17 @@ export type UseFormProps<
 3. **`reValidateMode`**: (`'onChange'` | `'onBlur'`) 指定何时重新验证字段。默认值为 `'onChange'`。
 4. **`shouldUnregister`**: (`boolean`) 是否在卸载组件时自动取消注册表单字段。默认值为 `false`。
 5. **`shouldFocusError`**: (`boolean`) 是否在验证失败时自动聚焦到第一个错误字段。默认值为 `false`。
-6. **`context`**: (`any`) 可以用于传递额外的数据到 `resolver` 函数。
-7. **`criteriaMode`**: (`'firstError'` | `'all'`) 指定如何处理验证规则。默认值为 `'firstError'`。
+6. **`criteriaMode`**: (`'firstError'` | `'all'`) 指定如何处理验证规则。默认值为 `'firstError'`。
    - `'firstError'`: 验证停止在第一个失败的规则。
    - `'all'`: 所有规则都会被验证，即使有一些失败。
-8. **`resolver`**: (`Resolver<TFormValues, any>`) 一个可选的自定义验证函数，用于处理表单验证逻辑。
-9. **`values`**: (`TFormValues`) 表单字段的初始值。与 `defaultValues` 类似，但优先级更高。
-10. **`delayError`**: (`boolean`) 是否延迟显示验证错误直到用户完成输入。默认值为 `false`。
-11. **`debug`**: (`boolean`) 是否开启调试模式。默认值为 `false`。
 
-#### 示例：
+7. **`values`**: (`TFormValues`) 表单字段的初始值。与 `defaultValues` 类似，但优先级更高。
+8. **`delayError`**: (`boolean`) 是否延迟显示验证错误直到用户完成输入。默认值为 `false`。
+
+9. **`context`**: (`any`) 可以用于传递额外的数据到 `resolver` 函数。
+10. **`resolver`**: (`Resolver<TFormValues, any>`) 一个可选的自定义验证函数，用于处理表单验证逻辑。
+
+#### 示例
 
 ```jsx
 import React from 'react';
@@ -155,21 +156,150 @@ function ExampleForm() {
 
 在这个示例中，我们使用了 `defaultValues` 来设置表单字段的初始值，并且配置了 `mode` 为 `'onSubmit'`，这意味着只有在表单提交时才会触发验证。我们还启用了 `shouldUnregister` 和 `shouldFocusError` 选项，以在卸载组件时自动取消注册表单字段，并在验证失败时自动聚焦到第一个错误字段。
 
-通过使用这些配置选项，你可以根据自己的需求定制表单的行为。`react-hook-form` 提供了许多强大的功能，可以帮助你轻松地管理表单的状态和验证。
-
 
 ### Output
 
 `useForm` 返回*一个对象*，该对象包含了一系列的方法和状态，用于处理表单的各种方面。一些关键属性和方法：
 
-1. **`register`**: 用于注册表单中的输入字段，并应用验证规则。
-2. **`handleSubmit`**: 用于处理表单提交，当表单被提交时，它会调用提供的回调函数，并将表单数据作为参数传递。
-3. **`formState`**: 包含表单的状态信息，如 `errors`（验证错误），`isSubmitting`（提交中），`isSubmitted`（已提交）等。
-4. **`reset`**: 重置表单状态。
-5. **`watch`**: 监听表单字段的值。
-6. **`setError`**: 设置验证错误。
-7. **`clearErrors`**: 清除验证错误。
-8. **`getValues`**: 获取表单字段的当前值。
-9. **`setValue`**: 设置表单字段的值。
-10. **`trigger`**: 触发表单验证。
-11. **`control`**: 控制表单的状态，通常与 `Controller` 组件一起使用。
+1. **`register`**: (`Register<TFormValues>`) 用于注册表单中的输入字段，并应用验证规则。
+2. **`unregister`**: (`Unregister<TFormValues>`) 用于注销表单中的输入字段。
+3. **`handleSubmit`**: (`SubmitHandler<TFormValues>`) 用于处理表单提交，当表单被提交时，它会调用提供的回调函数，并将表单数据作为参数传递。
+4. **`formState`**: (`FormState<TFormValues>`) 包含表单的状态信息，如 `errors`（验证错误），`isSubmitting`（提交中），`isSubmitted`（已提交）等。
+5. **`reset`**: (`Reset<TFormValues>`) 重置表单状态。
+6. **`resetField`**: (`ResetField<TFormValues>`) 重置特定字段的状态。
+7. **`watch`**: (`Watch<TFormValues>`) 监听表单字段的值。
+8. **`setValue`**: (`SetValue<TFormValues>`) 设置表单字段的值。
+9. **`getValues`**: (`GetValues<TFormValues>`) 获取表单字段的当前值。
+10. **`setError`**: (`SetError<TFormValues>`) 设置验证错误。
+11. **`clearErrors`**: (`ClearErrors<TFormValues>`) 清除验证错误。
+12. **`trigger`**: (`Trigger<TFormValues>`) 触发表单验证。
+13. **`control`**: (`Control<TFormValues, any>`) 控制表单的状态，通常与 `Controller` 组件一起使用。
+
+#### 示例：
+
+```jsx
+import React from 'react';
+import { useForm } from 'react-hook-form';
+
+function ExampleForm() {
+  const { register, handleSubmit, formState: { errors }, control } = useForm();
+
+  const onSubmit = (data) => console.log(data);
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <input {...register('username', { required: true })} />
+      {errors.username && <span>This field is required</span>}
+
+      <input {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
+      {errors.email && <span>This field is required</span>}
+
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+在这个示例中，我们使用了 `useForm` Hook 初始化了一个表单实例，并获取了 `register`, `handleSubmit`, `formState`, 和 `control`。这些方法和状态可以用来控制表单的各个方面，例如注册表单字段、处理表单提交、获取表单状态和控制表单字段的状态。
+
+## Controller
+
+### Why
+
+React Hook Form包含不受控制的组件和原生input，但很难避免使用外部组件，如React-Select，AntD 和 MUI。*这个组件将使您更容易使用外部组件*。通过使用 `Controller`，**你可以更轻松地创建受控组件，并将表单的状态和验证逻辑委托给 `react-hook-form`**。这种方法可以使你的表单逻辑更加清晰和可维护。
+
+在 `react-hook-form` 中，`Controller` 是一个高阶组件（Higher Order Component, HOC），**用于处理受控组件的状态**。它通常与 `useForm` Hook 返回的 `control` 对象一起使用，以便更好地管理表单的状态和行为。
+
+### `Controller` 的作用
+
+- **状态管理**：`Controller` 用于管理受控组件的状态，包括值、验证状态等。
+- **同步状态**：它负责将表单的状态同步到对应的表单字段。
+- **验证逻辑**：`Controller` 可以应用验证逻辑，并将结果反馈给 `react-hook-form`。
+
+### 使用 `Controller` 的步骤
+
+1. **导入 `Controller`**:
+   ```jsx
+   import { Controller } from 'react-hook-form';
+   ```
+
+2. **获取 `control` 对象**:
+   ```jsx
+   const { control } = useForm();
+   ```
+
+3. **使用 `Controller`**:
+   ```jsx
+   <Controller
+     name="fieldName"
+     control={control}
+     rules={{ required: true }}
+     render={({ field }) => (
+       <input {...field} placeholder="Enter your value" />
+     )}
+   />
+   ```
+
+### `Controller` 的属性
+
+- **`name`**: (`string`) 字段名称，用于标识表单中的字段。
+- **`control`**: (`Control<TFormValues, any>`) 由 `useForm` Hook 返回的 `control` 对象，用于控制表单的状态。
+- **`rules`**: (`object`) 验证规则，可以是 `required`, `maxLength`, `minLength`, `pattern`, `validate`, 等。
+- **`defaultValue`**: (`any`) 字段的默认值，如果没有通过 `useForm` 的 `defaultValues` 提供。
+- **`render`**: (`function`) 一个函数，返回 JSX，通常包含一个受控组件。这个函数接收一个 `field` 对象，包含 `onChange`, `onBlur`, `value`, `ref`, 等方法，*用于控制输入字段的行为*。
+
+### 示例
+
+```jsx
+import React from 'react';
+import { useForm, Controller } from 'react-hook-form';
+
+function ExampleForm() {
+  const { control, handleSubmit, formState: { errors } } = useForm();
+
+  const onSubmit = (data) => console.log(data);
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <Controller
+        name="username"
+        control={control}
+        rules={{ required: true }}
+        render={({ field }) => (
+          <>
+            <label htmlFor="username">Username</label>
+            <input
+              id="username"
+              type="text"
+              {...field} // 将 field 对象的属性应用到输入元素
+            />
+            {errors.username && <span>This field is required</span>}
+          </>
+        )}
+      />
+
+      <Controller
+        name="email"
+        control={control}
+        rules={{ required: true, pattern: /^\S+@\S+$/i }}
+        render={({ field }) => (
+          <>
+            <label htmlFor="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              {...field} // 将 field 对象的属性应用到输入元素
+            />
+            {errors.email && <span>This field is required</span>}
+          </>
+        )}
+      />
+
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+在这个示例中，我们使用了 `Controller` 组件来处理表单字段的状态。每个 `Controller` 组件都有一个 `name` 属性，用于标识字段，并且接收一个 `control` 对象，该对象来自于 `useForm` Hook。`render` 函数接收一个 `field` 对象，其中包含了用于控制输入字段的方法。
+
