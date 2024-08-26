@@ -1,4 +1,10 @@
+[参考资料](https://dev.to/itswillt/demystifying-reacts-types-ref-types-28fj)
+
 在 React 中，`ForwardedRef`, `MutableRefObject`, 和 `RefObject` 都是与 React 的 `ref` 相关的概念。它们在不同的场景下有不同的用途。下面是对这些概念的详细介绍：
+
+### ForwardedRef
+
+### LegacyRef
 
 ### 1. `MutableRefObject`
 `MutableRefObject` 是一个来自 `React` 的类型，用于创建一个可变的引用对象。这个对象的 `.current` 属性可以存储任何值。它常用于在函数组件中保存对 DOM 元素或值的引用。
