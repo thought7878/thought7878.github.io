@@ -87,7 +87,7 @@
               "state": {
                 "file": "libraries/number-input/Doc.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -257,10 +257,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "5082363037210ea0",
   "lastOpenFiles": [
-    "libraries/React-Aria/Number Field & Number Input.md",
     "libraries/number-input/Doc.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
+    "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
     "libraries/number-input/media",
     "libraries/number-input",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
@@ -283,7 +284,6 @@
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
     "要整理的.md",
-    "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
     "typescript/总结/satisfies.md",
     "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
