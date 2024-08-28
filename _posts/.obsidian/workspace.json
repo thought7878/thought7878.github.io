@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
+                "file": "libraries/number-input/改进记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
+                "file": "libraries/number-input/改进记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
+                "file": "libraries/number-input/改进记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/ForwardedRef、MutableRefObject、RefObject.md"
+                "file": "libraries/number-input/改进记录.md"
               }
             }
           }
@@ -257,14 +257,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5082363037210ea0",
+  "active": "9c6d7b22b6a44f3b",
   "lastOpenFiles": [
     "libraries/number-input/Doc.md",
+    "libraries/number-input/改进记录.md",
+    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "libraries/React-Aria/Number Field & Number Input.md",
+    "libraries/number-input/AI.md",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
     "libraries/number-input/media",
     "libraries/number-input",
-    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "libraries/react-hook-form/react-hook-form.md",
     "libraries/shadcn/component/Form.md",
     "git/overview.md",
@@ -301,7 +303,6 @@
     "react/react 通关秘籍/media/cec32991107f943514a9eeb95fa27af5_MD5.png",
     "react/react 通关秘籍/media/ea49f34a5a18e4e44a15e733b2228757_MD5.gif",
     "react/react 通关秘籍/10、React 组件如何写单测？.md",
-    "react/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
     "libraries/shadcn/media",
     "base/css/总结/伪类选择器"
   ]
