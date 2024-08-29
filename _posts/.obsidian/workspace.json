@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "9c6d7b22b6a44f3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/number-input/改进记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "619f40fbf023dce2",
             "type": "leaf",
             "state": {
@@ -92,6 +80,30 @@
             }
           },
           {
+            "id": "e56bf49ed34ccb0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/number-input/AI Doc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c6d7b22b6a44f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/number-input/改进记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6a6bd72e88da7591",
             "type": "leaf",
             "state": {
@@ -102,33 +114,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9072f31025e28570",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/react-hook-form/react-hook-form.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5082363037210ea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -194,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/number-input/改进记录.md",
+                "file": "libraries/number-input/Doc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/number-input/改进记录.md",
+                "file": "libraries/number-input/Doc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/number-input/改进记录.md"
+                "file": "libraries/number-input/Doc.md"
               }
             }
           }
@@ -257,18 +245,19 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9c6d7b22b6a44f3b",
+  "active": "dc7b95edf6876162",
   "lastOpenFiles": [
-    "libraries/number-input/Doc.md",
-    "libraries/number-input/改进记录.md",
-    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "libraries/React-Aria/Number Field & Number Input.md",
-    "libraries/number-input/AI.md",
+    "libraries/number-input/Doc.md",
+    "libraries/number-input/AI Doc.md",
+    "libraries/number-input/改进记录.md",
+    "libraries/shadcn/component/Form.md",
+    "libraries/shadcn/目录和文件.md",
+    "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
     "libraries/number-input/media",
     "libraries/number-input",
     "libraries/react-hook-form/react-hook-form.md",
-    "libraries/shadcn/component/Form.md",
     "git/overview.md",
     "libraries/shadcn/issues 记录.md",
     "libraries/shadcn/component",
@@ -279,7 +268,6 @@
     "libraries/zod",
     "base/css/视频/z-index.md",
     "base/css/视频",
-    "libraries/shadcn/目录和文件.md",
     "libraries/shadcn/add 命令.md",
     "libraries/React-Aria/Architecture.md",
     "libraries/React-Aria/overview.md",
