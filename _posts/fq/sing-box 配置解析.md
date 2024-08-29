@@ -38,11 +38,11 @@
 
 除了命令行客户端以外，还提供了图形界面客户端，图形界面支持 Android、iOS、macOS 以及 Apple tvOS，Windows 暂时不支持，还在施工中 🚧
 
-![图片描述: 2023-12-30-17-31-gSoqhd.jpg](https://images.icloudnative.io/uPic/2023-12-30-17-31-gSoqhd.jpg)
+![[fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg]]
 
 这简直就是魔法上网界的瑞士军刀啊！而且**所有的客户端都是免费的**，iOS 端也不用再买 Shadowrocket 小火箭等付费 App 了。再看看隔壁 Surge 的价格：
 
-![图片描述: 2023-12-30-17-37-yTvKLW.jpg](https://images.icloudnative.io/uPic/2023-12-30-17-37-yTvKLW.jpg)
+![[fq/media/daa00e20aaab7645e8e8f57c2e1e56f3_MD5.jpg]]
 
 你玩我呢？？
 
@@ -58,7 +58,7 @@
 
 Android 客户端可以到 [Play Store](https://icloudnative.io/go/?target=aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWlvLm5la29oYXNla2FpLnNmYQ%3d%3d) 中去下载：
 
-![图片描述: 2023-12-30-17-54-a8vZ24.webp](https://images.icloudnative.io/uPic/2023-12-30-17-54-a8vZ24.webp)
+![[fq/media/63b11313d929602de0db3f64fca3b2ba_MD5.webp]]
 
 也可以直接到 [GitHub Releases](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL1NhZ2VyTmV0L3NpbmctYm94L3JlbGVhc2Vz) 页面下载。
 
@@ -88,7 +88,7 @@ $ choco install sing-box
 
 你也可以选择第三方开发者开发的图形界面客户端： [GUI.for.SingBox](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL0dVSS1mb3ItQ29yZXMvR1VJLmZvci5TaW5nQm94)
 
-![图片描述: 2024-01-19-17-28-IrwTam.png](https://images.icloudnative.io/uPic/2024-01-19-17-28-IrwTam.png)
+![[fq/media/a446875def915d997d2cb2c4259ddcc7_MD5.png]]
 
 还有一个更加成熟的第三方客户端： [Hiddify-Next](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL2hpZGRpZnkvaGlkZGlmeS1uZXh0)
 
@@ -109,8 +109,6 @@ sing-box 的核心就是它的配置，所有的配置都在一个 JSON 文件�
 如果你嫌下面的解析太长不看，那就直接使用我的示例模板配置好了。
 
 ### DNS 配置
-
-[#](https://icloudnative.io/posts/sing-box-tutorial/#dns-%E9%85%8D%E7%BD%AE)
 
 sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，结构如下：
 
@@ -349,8 +347,6 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### 出站配置
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E5%87%BA%E7%AB%99%E9%85%8D%E7%BD%AE)
-
 出站（Outbound）是指从本地网络或设备发出，向外部网络、服务或互联网发送的数据流量。示例出站配置如下：
 
 ```json
@@ -424,8 +420,6 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### 路由配置
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE)
-
 路由部分才是 sing-box 的核心配置，这个部分定义了一系列规则和参数，用于决定如何处理不同的网络请求。通过这些规则和参数，sing-box 可以非常灵活地处理复杂的路由需求，包括基于地理位置、IP 地址、端口号、域名等多种条件的流量分流。配置结构如下：
 
 ```json
@@ -445,8 +439,6 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 2. **规则集 (`rule_set`)**: 从 sing-box 1.8.0 版本开始，规则可以组合成规则集，这使得配置更加灵活和模块化。
 
 #### 路由规则
-
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E8%B7%AF%E7%94%B1%E8%A7%84%E5%88%99)
 
 以下是我给出的路由规则示例：
 
@@ -602,8 +594,6 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 #### 规则集
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E8%A7%84%E5%88%99%E9%9B%86)
-
 以下是我给出的规则集示例：
 
 ```json
@@ -719,8 +709,6 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### Clash API
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#clash-api)
-
 最后的实验性配置用来开启 Clash API。没错，sing-box 是兼容 Clash API 滴！那么我们就可以使用 Clash 的 dashboard 来管理 sing-box 了，直接用这个项目好了： [metacubexd](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL01ldGFDdWJlWC9tZXRhY3ViZXhk)
 
 示例配置如下：
@@ -744,13 +732,11 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 最终启动 sing-box 之后就可以通过 Clash dashboard 来查看和管理流量啦：
 
-![图片描述: 2024-01-14-17-16-2yLPXT.webp](https://images.icloudnative.io/uPic/2024-01-14-17-16-2yLPXT.webp)
+![[fq/media/a96d153d170c207a3d1cd56eb2687819_MD5.webp]]
 
 **注意：** 图形界面客户端会自动把外部控制器相关的配置给屏蔽掉，如果你想使用 Dashboard，只能使用命令行来启动 sing-box。
 
 ## 订阅转换
-
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2)
 
 我想大部分小伙伴使用的还是订阅链接，不可能傻乎乎的自己写配置和规则。但是目前大部分ji场都不提供 sing-box 的配置格式，仅有少量ji场提供支持，其他ji场可使用下面这个项目将常见订阅转换为 sing-box 订阅格式： [sing-box-subscribe](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL1RvcGVybG9jay9zaW5nLWJveC1zdWJzY3JpYmU%3d)
 
@@ -774,15 +760,11 @@ https://sing-box-subscribe.vercel.app/config/url=https://xxxxxx?clash=1/&file=ht
 
 ## 更多配置示例
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E6%9B%B4%E5%A4%9A%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B)
-
 更多的配置示例可以参考这个项目： [sing-box-examples](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL2NoaWthMDgwMS9zaW5nLWJveC1leGFtcGxlcw%3d%3d)
 
 这个项目针对每一个代理协议都提供了详细的配置示例，还有很多的骚操作，比如 [将 Cloudflare 的 Warp 节点信息直接提取出来加到 sing-box 出站配置中去](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL2NoaWthMDgwMS9zaW5nLWJveC1leGFtcGxlcy9ibG9iL21haW4vd2lyZWd1YXJkLm1k)，妙啊！
 
 ## 透明网关
-
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E9%80%8F%E6%98%8E%E7%BD%91%E5%85%B3)
 
 如果你想让局域网中的所有机器都能够根据规则智能分流，那就在局域网中找一台机器作为透明网关，在这台机器上运行一个 sing-box 就行了，不需要像 Clash 一样写什么乱七八糟的 iptables 规则，直接一个配置文件就行了，非常简单。通常我们使用软路由来完成这个任务，如果你不想使用软路由，那随便找一台机器就行了，当然最好还是使用 Linux 比较靠谱。
 
