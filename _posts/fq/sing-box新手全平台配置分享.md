@@ -6,7 +6,7 @@
 
 之前分享过两个配置，不过评论区还是有人觉得难以上手，所以昨晚花了些时间写了一份全平台的配置文件，基本稍作修改即可使用。不过还是需要强调的是，任何配置不可能适用于所有情况，也不可能完全小白，最起码要有点搭建的基础经验。
 
-## [](https://linux.do/t/topic/165799#p-1259143-h-1)该配置的优势和支持的协议
+## 该配置的优势和支持的协议
 
 > 本系列配置介绍：  
 > 1、该配置完全适配了 vps 用户。如果是机场用户，你需要手动添加机场节点，或者采用订阅转换的方式，再把机场节点信息拷贝到本系列配置中，之前分享的两篇教程中有讲解。  
@@ -16,7 +16,7 @@
 > 5、解决喜闻乐见的DNS泄露问题；  
 > 6、傻瓜式部署，新手可以直接使用，不需要再折腾，老手也可以借鉴其中配置的模块；
 
-sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它也会立马跟进，本配置只采用了比较常用的协议类型。这里申明一下：不同地区，不同运营商，以及不同的 IDC 运营方式都有区别，配置中的协议在你场景不合适时候，你只需要选择更换其中一款即可。
+sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它也会立马跟进，本配置只采用了比较常用的协议类型。这里申明一下：不同地区，不同运营商，以及不同的 IDC 运营方式都有区别，*配置中的协议在你场景不合适时候，你只需要选择更换其中一款即可*。
 
 > 1、Shadowsocks 2022  
 > 2、VLESS+Vision+REALITY  
@@ -29,15 +29,15 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 > 9、VMess+WebSocket+Brutal  
 > 10、VMess+WebSocket+TLS+Brutal
 
-这里给大家讲解一下 Brutal 是什么，完整的应该是 TCP Brutal， TCP Brutal 是 Hysteria 中的同名拥塞控制算法移植到 TCP 的版本，作为一个 Linux 内核模块。因为是 TCP 类型，不会被运营商 QOS，更加适合垃圾线路的vps，不过可惜支持的客户端比较少，只有在 sing-box 中最通用。
+这里给大家讲解一下 *Brutal 是什么*，完整的应该是 TCP Brutal， TCP Brutal 是 Hysteria 中的同名拥塞控制算法移植到 TCP 的版本，作为一个 Linux 内核模块。因为是 TCP 类型，不会被运营商 QOS，更加适合垃圾线路的vps，不过可惜支持的客户端比较少，只有在 sing-box 中最通用。
 
 还有 sing-box 还支持多用户配置，ECH 配置等等，配置中就不写了，新手用不到，老手可以采用。
 
-## [](https://linux.do/t/topic/165799#p-1259143-h-2)服务端安装教程和配置
+## 服务端安装教程和配置
 
 下面脚本基于 ubuntu/debian 最新版本，其他版本大家自己适配；
 
-### [](https://linux.do/t/topic/165799#p-1259143-tcp-brutal-3)TCP Brutal安装
+### TCP Brutal安装
 
 > ubuntu/debian  
 > 官方脚本安装
@@ -54,9 +54,9 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 
 输出 reno cubic bbr brutal
 
-### [](https://linux.do/t/topic/165799#p-1259143-sing-box-4)sing-box 安装
+### sing-box 安装
 
-版本号自行修改，因为时整理的，就不重新修改为通过临时环境搭建最新版本的教程，需要的大家仔细搜索！
+版本号自行修改，因为是整理的，就不重新修改为通过临时环境搭建最新版本的教程，需要的大家仔细搜索！
 
 下载安装包
 
@@ -98,7 +98,7 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 
 `/etc/sing-box/config.json`
 
-## [](https://linux.do/t/topic/165799#p-1259143-h-5)各个平台配置文件分享
+## 各个平台配置文件分享
 
 > 注意点：  
 > 1、教程主要还是给新手写的，大佬可以手搓；  
@@ -109,13 +109,350 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 证书下载地址：[https://share.gugu.ee/s/IzNTkzM 32](https://share.gugu.ee/s/IzNTkzM) 密码：IzNTkzM  
 不知道能撑多久，随缘！
 
-### [](https://linux.do/t/topic/165799#p-1259143-h-6)服务端配置文件
+### 服务端配置文件
 
 > config_server_sing-box.json
 
-`{   "log": {     "disabled": false,     "level": "info",     "timestamp": true   },   "inbounds": [     {       "type": "shadowsocks",       "tag": "eu3pkop2-in",       "listen": "::",       "listen_port": 37065,       "sniff": true,       "sniff_override_destination": true,       "method": "2022-blake3-aes-256-gcm",       "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",       "multiplex": {         "enabled": true,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vless",       "tag": "gthagvb4-in",       "listen": "::",       "listen_port": 60316,       "sniff": true,       "sniff_override_destination": true,       "users": [         {           "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710",           "flow": ""         }       ],       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",         "reality": {           "enabled": true,           "handshake": {             "server": "icloud.cdn-apple.com",             "server_port": 443           },           "private_key": "ILlA7oqf6yPoxQb1PB31nlx09ZB9cHGxOwyVcuVEhkU",           "short_id": [             "429e7bbfcca430c4"           ]         }       },       "multiplex": {         "enabled": true,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "5izubguu-in",       "listen": "::",       "listen_port": 61703,       "sniff": true,       "sniff_override_destination": true,       "transport": {         "type": "ws",         "path": "/u4yE78Ky",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },       "users": [         {           "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",           "alterId": 0         }       ],       "tls": {         "enabled": true,         "server_name": "bing.com",         "certificate_path": "/etc/sing-box/bing.com.crt",         "key_path": "/etc/sing-box/bing.com.key"       },       "multiplex": {         "enabled": true,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "c4yndhs8-in",       "listen": "::",       "listen_port": 39720,       "sniff": true,       "sniff_override_destination": true,       "transport": {         "type": "ws",         "path": "/FQgD78nq",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },       "users": [         {           "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",           "alterId": 0         }       ],       "multiplex": {         "enabled": true,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "hysteria2",       "tag": "d5tlrad8-in",       "listen": "::",       "listen_port": 61970,       "sniff": true,       "sniff_override_destination": true,       "up_mbps": 500,       "down_mbps": 500,       "obfs": {         "type": "salamander",         "password": "41nPRX39cSt6"       },       "users": [         {           "name": "EQUR9AK+",           "password": "WqzGKnmZ9UaB"         }       ],       "ignore_client_bandwidth": false,       "masquerade": "https://www.bing.com",       "tls": {         "enabled": true,         "server_name": "bing.com",         "alpn": [           "h3"         ],         "certificate_path": "/etc/sing-box/bing.com.crt",         "key_path": "/etc/sing-box/bing.com.key"       }     },     {       "type": "tuic",       "tag": "t4ue2qpp-in",       "listen": "::",       "listen_port": 34927,       "sniff": true,       "sniff_override_destination": true,       "users": [         {           "name": "haFh/5Qu",           "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2",           "password": "NYWqN/95TIpT"         }       ],       "congestion_control": "bbr",       "auth_timeout": "3s",       "zero_rtt_handshake": false,       "heartbeat": "10s",       "tls": {         "enabled": true,         "server_name": "bing.com",         "alpn": [           "h3"         ],         "certificate_path": "/etc/sing-box/bing.com.crt",         "key_path": "/etc/sing-box/bing.com.key"       }     },     {       "type": "shadowsocks",       "tag": "w4cjbm8c-in",       "listen": "::",       "listen_port": 46728,       "sniff": true,       "sniff_override_destination": true,       "method": "2022-blake3-aes-256-gcm",       "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",       "multiplex": {         "enabled": true,         "padding": true       }     },     {       "type": "vless",       "tag": "u6hkt31b-in",       "listen": "::",       "listen_port": 61728,       "sniff": true,       "sniff_override_destination": true,       "users": [         {           "uuid": "30864c64-c409-492e-9879-4027145103ad",           "flow": "xtls-rprx-vision"         }       ],       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",         "reality": {           "enabled": true,           "handshake": {             "server": "icloud.cdn-apple.com",             "server_port": 443           },           "private_key": "QL3XrF--rM2ZszeWGt6k-vJhLngSKCGwPwTg5Nd0Rm4",           "short_id": [             "4cae74ba0ee703cc"           ]         }       }     },     {       "type": "vmess",       "tag": "pr6p7aht-in",       "listen": "::",       "listen_port": 21878,       "sniff": true,       "sniff_override_destination": true,       "transport": {         "type": "ws",         "path": "/fCf5EnoN",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },       "users": [         {           "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",           "alterId": 0         }       ],       "tls": {         "enabled": true,         "server_name": "bing.com",         "certificate_path": "/etc/sing-box/bing.com.crt",         "key_path": "/etc/sing-box/bing.com.key"       },       "multiplex": {         "enabled": true,         "padding": false       }     },     {       "type": "vmess",       "tag": "fmcaegoh-in",       "listen": "::",       "listen_port": 2514,       "sniff": true,       "sniff_override_destination": true,       "transport": {         "type": "ws",         "path": "/PPiEXZH7",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },       "users": [         {           "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",           "alterId": 0         }       ],       "multiplex": {         "enabled": true,         "padding": false       }     }   ],   "outbounds": [     {       "type": "direct",       "tag": "direct"     }   ],   "route": {     "rules": [       {         "inbound": ["eu3pkop2-in"],         "outbound": "direct"       },       {         "inbound": ["gthagvb4-in"],         "outbound": "direct"       },       {         "inbound": ["5izubguu-in"],         "outbound": "direct"       },       {         "inbound": ["c4yndhs8-in"],         "outbound": "direct"       },       {         "inbound": ["d5tlrad8-in"],         "outbound": "direct"       },       {         "inbound": ["t4ue2qpp-in"],         "outbound": "direct"       },       {         "inbound": ["w4cjbm8c-in"],         "outbound": "direct"       },       {         "inbound": ["u6hkt31b-in"],         "outbound": "direct"       },       {         "inbound": ["pr6p7aht-in"],         "outbound": "direct"       },       {         "inbound": ["fmcaegoh-in"],         "outbound": "direct"       }     ]   } }`
+```json
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "eu3pkop2-in",
+      "listen": "::",
+      "listen_port": 37065,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",
+      "multiplex": {
+        "enabled": true,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "gthagvb4-in",
+      "listen": "::",
+      "listen_port": 60316,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "users": [
+        {
+          "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710",
+          "flow": ""
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com",
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "icloud.cdn-apple.com",
+            "server_port": 443
+          },
+          "private_key": "ILlA7oqf6yPoxQb1PB31nlx09ZB9cHGxOwyVcuVEhkU",
+          "short_id": [
+            "429e7bbfcca430c4"
+          ]
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "5izubguu-in",
+      "listen": "::",
+      "listen_port": 61703,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "transport": {
+        "type": "ws",
+        "path": "/u4yE78Ky",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "users": [
+        {
+          "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",
+          "alterId": 0
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "certificate_path": "/etc/sing-box/bing.com.crt",
+        "key_path": "/etc/sing-box/bing.com.key"
+      },
+      "multiplex": {
+        "enabled": true,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "c4yndhs8-in",
+      "listen": "::",
+      "listen_port": 39720,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "transport": {
+        "type": "ws",
+        "path": "/FQgD78nq",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "users": [
+        {
+          "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",
+          "alterId": 0
+        }
+      ],
+      "multiplex": {
+        "enabled": true,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "d5tlrad8-in",
+      "listen": "::",
+      "listen_port": 61970,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "up_mbps": 500,
+      "down_mbps": 500,
+      "obfs": {
+        "type": "salamander",
+        "password": "41nPRX39cSt6"
+      },
+      "users": [
+        {
+          "name": "EQUR9AK+",
+          "password": "WqzGKnmZ9UaB"
+        }
+      ],
+      "ignore_client_bandwidth": false,
+      "masquerade": "https://www.bing.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "alpn": [
+          "h3"
+        ],
+        "certificate_path": "/etc/sing-box/bing.com.crt",
+        "key_path": "/etc/sing-box/bing.com.key"
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "t4ue2qpp-in",
+      "listen": "::",
+      "listen_port": 34927,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "users": [
+        {
+          "name": "haFh/5Qu",
+          "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2",
+          "password": "NYWqN/95TIpT"
+        }
+      ],
+      "congestion_control": "bbr",
+      "auth_timeout": "3s",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "alpn": [
+          "h3"
+        ],
+        "certificate_path": "/etc/sing-box/bing.com.crt",
+        "key_path": "/etc/sing-box/bing.com.key"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "w4cjbm8c-in",
+      "listen": "::",
+      "listen_port": 46728,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",
+      "multiplex": {
+        "enabled": true,
+        "padding": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "u6hkt31b-in",
+      "listen": "::",
+      "listen_port": 61728,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "users": [
+        {
+          "uuid": "30864c64-c409-492e-9879-4027145103ad",
+          "flow": "xtls-rprx-vision"
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com",
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "icloud.cdn-apple.com",
+            "server_port": 443
+          },
+          "private_key": "QL3XrF--rM2ZszeWGt6k-vJhLngSKCGwPwTg5Nd0Rm4",
+          "short_id": [
+            "4cae74ba0ee703cc"
+          ]
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "pr6p7aht-in",
+      "listen": "::",
+      "listen_port": 21878,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "transport": {
+        "type": "ws",
+        "path": "/fCf5EnoN",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "users": [
+        {
+          "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",
+          "alterId": 0
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "certificate_path": "/etc/sing-box/bing.com.crt",
+        "key_path": "/etc/sing-box/bing.com.key"
+      },
+      "multiplex": {
+        "enabled": true,
+        "padding": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "fmcaegoh-in",
+      "listen": "::",
+      "listen_port": 2514,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "transport": {
+        "type": "ws",
+        "path": "/PPiEXZH7",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "users": [
+        {
+          "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",
+          "alterId": 0
+        }
+      ],
+      "multiplex": {
+        "enabled": true,
+        "padding": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "inbound": ["eu3pkop2-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["gthagvb4-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["5izubguu-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["c4yndhs8-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["d5tlrad8-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["t4ue2qpp-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["w4cjbm8c-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["u6hkt31b-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["pr6p7aht-in"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["fmcaegoh-in"],
+        "outbound": "direct"
+      }
+    ]
+  }
+}
+```
 
-### [](https://linux.do/t/topic/165799#p-1259143-windows-7)Windows 端使用
+### Windows 端使用
 
 两种使用方式，直接使用sing-box内核运行，搭配clash api 管理节点；或者在V2ranN中自定义内核使用；
 
@@ -138,13 +475,467 @@ CMD命令窗口，配置文件目录运行
 > 2、第一次启动可能会多次失败，原因在于下载分流文件时，节点选择 “auto” ，中间会有问题；如果你节点比较好，一般没问题，但是延迟比较高的话，可以选择分流文件下载的节点，要确保该节点可用性；  
 > 3、参数： “download_detour”: “auto”，auto 修改为确保可用节点的 tag
 
-### [](https://linux.do/t/topic/165799#p-1259143-windows-8)Windows 端配置文件
+### Windows 端配置文件
 
 > config_win.json
 
-`{   "log": {     "disabled": false,     "level": "warn",     "timestamp": true   },   "dns": {     "servers": [       {         "tag": "default-dns",         "address": "223.5.5.5",         "detour": "direct-out"       },       {         "tag": "system-dns",         "address": "local",         "detour": "direct-out"       },       {         "tag": "block-dns",         "address": "rcode://name_error"       },       {         "tag": "google",         "address": "https://dns.google/dns-query",         "address_resolver": "default-dns",         "address_strategy": "ipv4_only",         "strategy": "ipv4_only",         "client_subnet": "1.0.1.0"       }     ],     "rules": [       {         "outbound": "any",         "server": "default-dns"       },       {         "query_type": "HTTPS",         "server": "block-dns"       },       {         "clash_mode": "direct",         "server": "default-dns"       },       {         "clash_mode": "global",         "server": "google"       },       {         "rule_set": "cnsite",         "server": "default-dns"       },        {         "rule_set": "cnsite-!cn",          "server": "google"       }     ],     "strategy": "ipv4_only",     "disable_cache": false,     "disable_expire": false,     "independent_cache": false,     "final": "google"   },   "inbounds": [     {       "type": "tun",        "inet4_address": "172.19.0.1/30",        "inet6_address": "fd00::1/126",        "auto_route": true,        "strict_route": true,        "sniff": true,        "sniff_override_destination": true,        "domain_strategy": "prefer_ipv4"     }   ],   "outbounds": [     {       "type": "shadowsocks",       "tag": "ss-6336",       "server": "000.000.000.000",        "server_port": 37065,       "method": "2022-blake3-aes-256-gcm",        "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vless",       "tag": "vless-8620",       "server": "000.000.000.000",        "server_port": 60316,       "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710",        "flow": "",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",           "short_id": "429e7bbfcca430c4"         }       },       "multiplex": {         "enabled": true,         "protocol": "smux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-2995",       "server": "000.000.000.000",        "server_port": 61703,       "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",       "transport": {         "type": "ws",         "path": "/u4yE78Ky",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-6046",       "server": "000.000.000.000",        "server_port": 39720,       "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",       "transport": {         "type": "ws",         "path": "/FQgD78nq",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "hysteria2",       "tag": "Hysteria2-1060",       "server": "000.000.000.000",        "server_port": 61970,       "up_mbps": 500,        "down_mbps": 500,       "obfs": {         "type": "salamander",         "password": "41nPRX39cSt6"       },       "password": "WqzGKnmZ9UaB",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "tuic",       "tag": "tuic-5564",       "server": "000.000.000.000",        "server_port": 34927,       "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2",        "password": "NYWqN/95TIpT",        "congestion_control": "bbr",       "udp_relay_mode": "native",       "zero_rtt_handshake": false,       "heartbeat": "10s",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "shadowsocks",       "tag": "ss-5455",       "server": "000.000.000.000",        "server_port": 46728,       "method": "2022-blake3-aes-256-gcm",        "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true       }     },     {       "type": "vless",       "tag": "vless-9777",       "server": "000.000.000.000",        "server_port": 61728,       "uuid": "30864c64-c409-492e-9879-4027145103ad",        "flow": "xtls-rprx-vision",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",           "short_id": "4cae74ba0ee703cc"         }       }     },     {       "type": "vmess",       "tag": "vmess-1219",       "server": "000.000.000.000",        "server_port": 21878,       "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",       "transport": {         "type": "ws",         "path": "/fCf5EnoN",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "vmess",       "tag": "vmess-7569",       "server": "000.000.000.000",        "server_port": 2514,       "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",       "transport": {         "type": "ws",         "path": "/PPiEXZH7",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "urltest",       "tag": "auto",       "outbounds": [         "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569"       ],       "url": "https://www.gstatic.com/generate_204",       "interval": "1m",       "tolerance": 50,       "interrupt_exist_connections": false     },     {       "type": "selector",       "tag": "select",       "outbounds": [         "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569",          "auto"       ],       "default": "auto",       "interrupt_exist_connections": false     },     {       "type": "direct",       "tag": "direct-out",       "routing_mark": 100     },     {       "type": "block",       "tag": "block-out"     },     {       "type": "dns",       "tag": "dns-out"     }   ],   "route": {     "rules": [       {         "protocol": "dns",         "outbound": "dns-out"       },       {         "protocol": "quic",         "outbound": "block-out"       },       {         "clash_mode": "block",         "outbound": "block-out"       },       {         "clash_mode": "direct",         "outbound": "direct-out"       },       {         "clash_mode": "global",         "outbound": "select"       },       {         "rule_set": [           "cnip",           "cnsite"         ],         "outbound": "direct-out"       },        {         "rule_set": "cnsite-!cn",          "outbound": "select"       }     ],     "rule_set": [       {         "type": "remote",          "tag": "cnsite-!cn",          "format": "binary",          "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs",          "download_detour": "auto"       },        {         "type": "remote",         "tag": "cnip",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",         "download_detour": "auto"       },       {         "type": "remote",         "tag": "cnsite",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",         "download_detour": "auto"       }     ],     "auto_detect_interface": true,     "final": "select"   },   "experimental": {     "cache_file": {       "enabled": true,        "path": "cache.db",        "store_fakeip": true     },     "clash_api": {       "external_controller": "127.0.0.1:9090",       "external_ui": "ui",        "external_ui_download_url": "",        "external_ui_download_detour": "auto",       "default_mode": "rule"     }   },   "ntp": {     "enabled": true,     "server": "time.apple.com",     "server_port": 123,     "interval": "30m",     "detour": "direct-out"   } }`
+```json
+{
+  "log": {
+    "disabled": false,
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "default-dns",
+        "address": "223.5.5.5",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "system-dns",
+        "address": "local",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "block-dns",
+        "address": "rcode://name_error"
+      },
+      {
+        "tag": "google",
+        "address": "https://dns.google/dns-query",
+        "address_resolver": "default-dns",
+        "address_strategy": "ipv4_only",
+        "strategy": "ipv4_only",
+        "client_subnet": "1.0.1.0"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "default-dns"
+      },
+      {
+        "query_type": "HTTPS",
+        "server": "block-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "default-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "google"
+      },
+      {
+        "rule_set": "cnsite",
+        "server": "default-dns"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "server": "google"
+      }
+    ],
+    "strategy": "ipv4_only",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "final": "google"
+  },
+  "inbounds": [
+    {
+      "type": "tun", 
+      "inet4_address": "172.19.0.1/30", 
+      "inet6_address": "fd00::1/126", 
+      "auto_route": true, 
+      "strict_route": true, 
+      "sniff": true, 
+      "sniff_override_destination": true, 
+      "domain_strategy": "prefer_ipv4"
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "ss-6336",
+      "server": "000.000.000.000", 
+      "server_port": 37065,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-8620",
+      "server": "000.000.000.000", 
+      "server_port": 60316,
+      "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710", 
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",
+          "short_id": "429e7bbfcca430c4"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-2995",
+      "server": "000.000.000.000", 
+      "server_port": 61703,
+      "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",
+      "transport": {
+        "type": "ws",
+        "path": "/u4yE78Ky",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-6046",
+      "server": "000.000.000.000", 
+      "server_port": 39720,
+      "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",
+      "transport": {
+        "type": "ws",
+        "path": "/FQgD78nq",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Hysteria2-1060",
+      "server": "000.000.000.000", 
+      "server_port": 61970,
+      "up_mbps": 500, 
+      "down_mbps": 500,
+      "obfs": {
+        "type": "salamander",
+        "password": "41nPRX39cSt6"
+      },
+      "password": "WqzGKnmZ9UaB",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "tuic-5564",
+      "server": "000.000.000.000", 
+      "server_port": 34927,
+      "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2", 
+      "password": "NYWqN/95TIpT", 
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-5455",
+      "server": "000.000.000.000", 
+      "server_port": 46728,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-9777",
+      "server": "000.000.000.000", 
+      "server_port": 61728,
+      "uuid": "30864c64-c409-492e-9879-4027145103ad", 
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",
+          "short_id": "4cae74ba0ee703cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-1219",
+      "server": "000.000.000.000", 
+      "server_port": 21878,
+      "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",
+      "transport": {
+        "type": "ws",
+        "path": "/fCf5EnoN",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-7569",
+      "server": "000.000.000.000", 
+      "server_port": 2514,
+      "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",
+      "transport": {
+        "type": "ws",
+        "path": "/PPiEXZH7",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569", 
+        "auto"
+      ],
+      "default": "auto",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "direct",
+      "tag": "direct-out",
+      "routing_mark": 100
+    },
+    {
+      "type": "block",
+      "tag": "block-out"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "protocol": "quic",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "block",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct-out"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "rule_set": [
+          "cnip",
+          "cnsite"
+        ],
+        "outbound": "direct-out"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote", 
+        "tag": "cnsite-!cn", 
+        "format": "binary", 
+        "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs", 
+        "download_detour": "auto"
+      }, 
+      {
+        "type": "remote",
+        "tag": "cnip",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "type": "remote",
+        "tag": "cnsite",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
+        "download_detour": "auto"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true, 
+      "path": "cache.db", 
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui", 
+      "external_ui_download_url": "", 
+      "external_ui_download_detour": "auto",
+      "default_mode": "rule"
+    }
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct-out"
+  }
+}
+```
 
-### [](https://linux.do/t/topic/165799#p-1259143-ios-9)iOS 端使用
+### iOS 端使用
 
 iOS 端的配置文件和 Windows 客户端其实基本相同，只有一个入站方式，ios 必须时 tun 模式；
 
@@ -160,13 +951,470 @@ ios sing-box app 客户端可以保持默认设置；
 2. includeAllNetworks 这个设置，与入站中 “stack” 值为 “system” 和 “mixed” 冲突，可以选择 gvisor 这个参数，或者直接注释。
     
 
-### [](https://linux.do/t/topic/165799#p-1259143-ios-10)iOS 端配置文件
+### iOS 端配置文件
 
 > config_phone.json
 
-`{   "log": {     "disabled": false,     "level": "warn",     "timestamp": true   },   "dns": {     "servers": [       {         "tag": "default-dns",         "address": "223.5.5.5",         "detour": "direct-out"       },       {         "tag": "system-dns",         "address": "local",         "detour": "direct-out"       },       {         "tag": "block-dns",         "address": "rcode://name_error"       },       {         "tag": "google",         "address": "https://dns.google/dns-query",         "address_resolver": "default-dns",         "address_strategy": "ipv4_only",         "strategy": "ipv4_only",         "client_subnet": "1.0.1.0"       }     ],     "rules": [       {         "outbound": "any",         "server": "default-dns"       },       {         "query_type": "HTTPS",         "server": "block-dns"       },       {         "clash_mode": "direct",         "server": "default-dns"       },       {         "clash_mode": "global",         "server": "google"       },       {         "rule_set": "cnsite",         "server": "default-dns"       },        {         "rule_set": "cnsite-!cn",          "server": "google"       }     ],     "strategy": "ipv4_only",     "disable_cache": false,     "disable_expire": false,     "independent_cache": false,     "final": "google"   },   "inbounds": [     {       "type": "tun",       "tag": "tun-in",       "inet4_address": "172.19.0.1/30",       "inet6_address": "fd00::1/126",       "mtu": 9000,       "gso": true,       "auto_route": true,       "strict_route": true,       "stack": "gvisor",       "sniff": true,       "sniff_override_destination": true     }   ],   "outbounds": [     {       "type": "shadowsocks",       "tag": "ss-6336",       "server": "000.000.000.000",        "server_port": 37065,       "method": "2022-blake3-aes-256-gcm",        "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vless",       "tag": "vless-8620",       "server": "000.000.000.000",        "server_port": 60316,       "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710",        "flow": "",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",           "short_id": "429e7bbfcca430c4"         }       },       "multiplex": {         "enabled": true,         "protocol": "smux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-2995",       "server": "000.000.000.000",        "server_port": 61703,       "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",       "transport": {         "type": "ws",         "path": "/u4yE78Ky",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-6046",       "server": "000.000.000.000",        "server_port": 39720,       "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",       "transport": {         "type": "ws",         "path": "/FQgD78nq",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "hysteria2",       "tag": "Hysteria2-1060",       "server": "000.000.000.000",        "server_port": 61970,       "up_mbps": 500,        "down_mbps": 500,       "obfs": {         "type": "salamander",         "password": "41nPRX39cSt6"       },       "password": "WqzGKnmZ9UaB",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "tuic",       "tag": "tuic-5564",       "server": "000.000.000.000",        "server_port": 34927,       "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2",        "password": "NYWqN/95TIpT",        "congestion_control": "bbr",       "udp_relay_mode": "native",       "zero_rtt_handshake": false,       "heartbeat": "10s",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "shadowsocks",       "tag": "ss-5455",       "server": "000.000.000.000",        "server_port": 46728,       "method": "2022-blake3-aes-256-gcm",        "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true       }     },     {       "type": "vless",       "tag": "vless-9777",       "server": "000.000.000.000",        "server_port": 61728,       "uuid": "30864c64-c409-492e-9879-4027145103ad",        "flow": "xtls-rprx-vision",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",           "short_id": "4cae74ba0ee703cc"         }       }     },     {       "type": "vmess",       "tag": "vmess-1219",       "server": "000.000.000.000",        "server_port": 21878,       "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",       "transport": {         "type": "ws",         "path": "/fCf5EnoN",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "vmess",       "tag": "vmess-7569",       "server": "000.000.000.000",        "server_port": 2514,       "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",       "transport": {         "type": "ws",         "path": "/PPiEXZH7",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "urltest",       "tag": "auto",       "outbounds": [         "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569"       ],       "url": "https://www.gstatic.com/generate_204",       "interval": "1m",       "tolerance": 50,       "interrupt_exist_connections": false     },     {       "type": "selector",       "tag": "select",       "outbounds": [         "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569",          "auto"       ],       "default": "auto",       "interrupt_exist_connections": false     },     {       "type": "direct",       "tag": "direct-out",       "routing_mark": 100     },     {       "type": "block",       "tag": "block-out"     },     {       "type": "dns",       "tag": "dns-out"     }   ],   "route": {     "rules": [       {         "protocol": "dns",         "outbound": "dns-out"       },       {         "protocol": "quic",         "outbound": "block-out"       },       {         "clash_mode": "block",         "outbound": "block-out"       },       {         "clash_mode": "direct",         "outbound": "direct-out"       },       {         "clash_mode": "global",         "outbound": "select"       },       {         "rule_set": [           "cnip",           "cnsite"         ],         "outbound": "direct-out"       },        {         "rule_set": "cnsite-!cn",          "outbound": "select"       }     ],     "rule_set": [       {         "type": "remote",          "tag": "cnsite-!cn",          "format": "binary",          "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs",          "download_detour": "auto"       },        {         "type": "remote",         "tag": "cnip",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",         "download_detour": "auto"       },       {         "type": "remote",         "tag": "cnsite",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",         "download_detour": "auto"       }     ],     "auto_detect_interface": true,     "final": "select"   },   "experimental": {     "cache_file": {       "enabled": true,        "path": "cache.db",        "store_fakeip": true     },     "clash_api": {       "external_controller": "127.0.0.1:9090",       "external_ui": "ui",        "external_ui_download_url": "",        "external_ui_download_detour": "auto",       "default_mode": "rule"     }   },   "ntp": {     "enabled": true,     "server": "time.apple.com",     "server_port": 123,     "interval": "30m",     "detour": "direct-out"   } }`
+```json
+{
+  "log": {
+    "disabled": false,
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "default-dns",
+        "address": "223.5.5.5",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "system-dns",
+        "address": "local",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "block-dns",
+        "address": "rcode://name_error"
+      },
+      {
+        "tag": "google",
+        "address": "https://dns.google/dns-query",
+        "address_resolver": "default-dns",
+        "address_strategy": "ipv4_only",
+        "strategy": "ipv4_only",
+        "client_subnet": "1.0.1.0"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "default-dns"
+      },
+      {
+        "query_type": "HTTPS",
+        "server": "block-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "default-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "google"
+      },
+      {
+        "rule_set": "cnsite",
+        "server": "default-dns"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "server": "google"
+      }
+    ],
+    "strategy": "ipv4_only",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "final": "google"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fd00::1/126",
+      "mtu": 9000,
+      "gso": true,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "gvisor",
+      "sniff": true,
+      "sniff_override_destination": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "ss-6336",
+      "server": "000.000.000.000", 
+      "server_port": 37065,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-8620",
+      "server": "000.000.000.000", 
+      "server_port": 60316,
+      "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710", 
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",
+          "short_id": "429e7bbfcca430c4"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-2995",
+      "server": "000.000.000.000", 
+      "server_port": 61703,
+      "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",
+      "transport": {
+        "type": "ws",
+        "path": "/u4yE78Ky",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-6046",
+      "server": "000.000.000.000", 
+      "server_port": 39720,
+      "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",
+      "transport": {
+        "type": "ws",
+        "path": "/FQgD78nq",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Hysteria2-1060",
+      "server": "000.000.000.000", 
+      "server_port": 61970,
+      "up_mbps": 500, 
+      "down_mbps": 500,
+      "obfs": {
+        "type": "salamander",
+        "password": "41nPRX39cSt6"
+      },
+      "password": "WqzGKnmZ9UaB",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "tuic-5564",
+      "server": "000.000.000.000", 
+      "server_port": 34927,
+      "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2", 
+      "password": "NYWqN/95TIpT", 
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-5455",
+      "server": "000.000.000.000", 
+      "server_port": 46728,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-9777",
+      "server": "000.000.000.000", 
+      "server_port": 61728,
+      "uuid": "30864c64-c409-492e-9879-4027145103ad", 
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",
+          "short_id": "4cae74ba0ee703cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-1219",
+      "server": "000.000.000.000", 
+      "server_port": 21878,
+      "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",
+      "transport": {
+        "type": "ws",
+        "path": "/fCf5EnoN",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-7569",
+      "server": "000.000.000.000", 
+      "server_port": 2514,
+      "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",
+      "transport": {
+        "type": "ws",
+        "path": "/PPiEXZH7",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569", 
+        "auto"
+      ],
+      "default": "auto",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "direct",
+      "tag": "direct-out",
+      "routing_mark": 100
+    },
+    {
+      "type": "block",
+      "tag": "block-out"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "protocol": "quic",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "block",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct-out"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "rule_set": [
+          "cnip",
+          "cnsite"
+        ],
+        "outbound": "direct-out"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote", 
+        "tag": "cnsite-!cn", 
+        "format": "binary", 
+        "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs", 
+        "download_detour": "auto"
+      }, 
+      {
+        "type": "remote",
+        "tag": "cnip",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "type": "remote",
+        "tag": "cnsite",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
+        "download_detour": "auto"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true, 
+      "path": "cache.db", 
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui", 
+      "external_ui_download_url": "", 
+      "external_ui_download_detour": "auto",
+      "default_mode": "rule"
+    }
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct-out"
+  }
+}
+```
 
-## [](https://linux.do/t/topic/165799#p-1259143-ai-11)应用分流，包含ai解锁、流媒体解锁配置
+## 应用分流，包含ai解锁、流媒体解锁配置
 
 上面的所有配置算是比较简单的，这里再给大家贴一个分流的配置；可以根据自己实际情况修改，作为一个参考配置，基于 Windows 端配置修改，ios 也通用。
 
@@ -174,8 +1422,570 @@ ios sing-box app 客户端可以保持默认设置；
 
 > config_win_应用分流.json
 
-`{   "log": {     "disabled": false,     "level": "warn",     "timestamp": true   },   "dns": {     "servers": [       {         "tag": "default-dns",         "address": "223.5.5.5",         "detour": "direct-out"       },       {         "tag": "system-dns",         "address": "local",         "detour": "direct-out"       },       {         "tag": "block-dns",         "address": "rcode://name_error"       },       {         "tag": "google",         "address": "https://dns.google/dns-query",         "address_resolver": "default-dns",         "address_strategy": "ipv4_only",         "strategy": "ipv4_only",         "client_subnet": "1.0.1.0"       }     ],     "rules": [       {         "outbound": "any",         "server": "default-dns"       },       {         "query_type": "HTTPS",         "server": "block-dns"       },       {         "clash_mode": "direct",         "server": "default-dns"       },       {         "clash_mode": "global",         "server": "google"       },       {         "rule_set": "cnsite",         "server": "default-dns"       },        {         "rule_set": "cnsite-!cn",          "server": "google"       }     ],     "strategy": "ipv4_only",     "disable_cache": false,     "disable_expire": false,     "independent_cache": false,     "final": "google"   },   "inbounds": [     {       "type": "tun",        "inet4_address": "172.19.0.1/30",        "inet6_address": "fd00::1/126",        "auto_route": true,        "strict_route": true,        "sniff": true,        "sniff_override_destination": true,        "domain_strategy": "prefer_ipv4"     }   ],   "outbounds": [     {       "type": "shadowsocks",       "tag": "ss-解锁节点",				//解锁节点，可以选择解锁流媒体，或者AI类的。       "server": "000.000.000.000",        "server_port": 37065,       "method": "2022-blake3-aes-256-gcm",        "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "shadowsocks",       "tag": "ss-6336",       "server": "000.000.000.000",        "server_port": 37065,       "method": "2022-blake3-aes-256-gcm",        "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vless",       "tag": "vless-8620",       "server": "000.000.000.000",        "server_port": 60316,       "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710",        "flow": "",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",           "short_id": "429e7bbfcca430c4"         }       },       "multiplex": {         "enabled": true,         "protocol": "smux",         "max_connections": 1,         "min_streams": 4,         "padding": true,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-2995",       "server": "000.000.000.000",        "server_port": 61703,       "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",       "transport": {         "type": "ws",         "path": "/u4yE78Ky",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "vmess",       "tag": "vmess-6046",       "server": "000.000.000.000",        "server_port": 39720,       "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",       "transport": {         "type": "ws",         "path": "/FQgD78nq",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false,         "brutal": {           "enabled": true,           "up_mbps": 500,           "down_mbps": 500         }       }     },     {       "type": "hysteria2",       "tag": "Hysteria2-1060",       "server": "000.000.000.000",        "server_port": 61970,       "up_mbps": 500,        "down_mbps": 500,       "obfs": {         "type": "salamander",         "password": "41nPRX39cSt6"       },       "password": "WqzGKnmZ9UaB",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "tuic",       "tag": "tuic-5564",       "server": "000.000.000.000",        "server_port": 34927,       "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2",        "password": "NYWqN/95TIpT",        "congestion_control": "bbr",       "udp_relay_mode": "native",       "zero_rtt_handshake": false,       "heartbeat": "10s",       "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com",          "alpn": [           "h3"         ]       }     },     {       "type": "shadowsocks",       "tag": "ss-5455",       "server": "000.000.000.000",        "server_port": 46728,       "method": "2022-blake3-aes-256-gcm",        "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": true       }     },     {       "type": "vless",       "tag": "vless-9777",       "server": "000.000.000.000",        "server_port": 61728,       "uuid": "30864c64-c409-492e-9879-4027145103ad",        "flow": "xtls-rprx-vision",       "tls": {         "enabled": true,         "server_name": "icloud.cdn-apple.com",          "utls": {           "enabled": true,           "fingerprint": "chrome"         },         "reality": {           "enabled": true,           "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",           "short_id": "4cae74ba0ee703cc"         }       }     },     {       "type": "vmess",       "tag": "vmess-1219",       "server": "000.000.000.000",        "server_port": 21878,       "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",       "transport": {         "type": "ws",         "path": "/fCf5EnoN",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "tls": {         "enabled": true,         "insecure": true,         "server_name": "bing.com"       },       "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "vmess",       "tag": "vmess-7569",       "server": "000.000.000.000",        "server_port": 2514,       "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",       "transport": {         "type": "ws",         "path": "/PPiEXZH7",         "max_early_data": 2048,         "early_data_header_name": "Sec-WebSocket-Protocol"       },        "security": "auto",       "alter_id": 0,       "packet_encoding": "xudp",       "multiplex": {         "enabled": true,         "protocol": "h2mux",         "max_connections": 1,         "min_streams": 4,         "padding": false       }     },     {       "type": "urltest",       "tag": "auto",       "outbounds": [         "ss-解锁节点",          "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569"       ],       "url": "https://www.gstatic.com/generate_204",       "interval": "1m",       "tolerance": 50,       "interrupt_exist_connections": false     },     {       "type": "selector",       "tag": "select",       "outbounds": [         "ss-解锁节点",          "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569",          "auto"       ],       "default": "auto",       "interrupt_exist_connections": false     },     {       "type": "selector",       "tag": "解锁节点",       "outbounds": [         "ss-解锁节点",          "ss-6336",          "vless-8620",          "vmess-2995",          "vmess-6046",          "Hysteria2-1060",          "tuic-5564",          "ss-5455",          "vless-9777",          "vmess-1219",          "vmess-7569",          "auto"       ],       "default": "ss-解锁节点",       "interrupt_exist_connections": false     },     {       "type": "direct",       "tag": "direct-out",       "routing_mark": 100     },     {       "type": "block",       "tag": "block-out"     },     {       "type": "dns",       "tag": "dns-out"     }   ],   "route": {     "rules": [       {         "protocol": "dns",         "outbound": "dns-out"       },       {         "protocol": "quic",         "outbound": "block-out"       },       {         "clash_mode": "block",         "outbound": "block-out"       },       {         "clash_mode": "direct",         "outbound": "direct-out"       },       {         "clash_mode": "global",         "outbound": "select"       },       {         "rule_set": [           "geosite-netflix",           "geosite-disney",           "geosite-youtube",           "geosite-google",           "geosite-spotify",           "geosite-reddit"         ],         "outbound": "select"       },        {         "rule_set": [           "geosite-openai"         ],         "outbound": "解锁节点"       },       {         "rule_set": [           "cnip",           "cnsite"         ],         "outbound": "direct-out"       },        {         "rule_set": "cnsite-!cn",          "outbound": "select"       }     ],     "rule_set": [       {         "type": "remote",          "tag": "cnsite-!cn",          "format": "binary",          "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs",          "download_detour": "auto"       },        {         "type": "remote",         "tag": "cnip",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",         "download_detour": "auto"       },       {         "type": "remote",         "tag": "cnsite",         "format": "binary",         "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",         "download_detour": "auto"       },       {         "tag": "geosite-openai",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs",         "download_detour": "auto"       },       {         "tag": "geosite-netflix",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-netflix.srs",         "download_detour": "auto"       },       {         "tag": "geosite-disney",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-disney.srs",         "download_detour": "auto"       },       {         "tag": "geosite-youtube",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs",         "download_detour": "auto"       },       {         "tag": "geosite-google",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs",         "download_detour": "auto"       },       {         "tag": "geosite-spotify",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-spotify.srs",         "download_detour": "auto"       },       {         "tag": "geosite-reddit",         "type": "remote",         "format": "binary",         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-reddit.srs",         "download_detour": "auto"       }     ],     "auto_detect_interface": true,     "final": "select"   },   "experimental": {     "cache_file": {       "enabled": true,        "path": "cache.db",        "store_fakeip": true     },     "clash_api": {       "external_controller": "127.0.0.1:9090",       "external_ui": "ui",        "external_ui_download_url": "",        "external_ui_download_detour": "auto",       "default_mode": "rule"     }   },   "ntp": {     "enabled": true,     "server": "time.apple.com",     "server_port": 123,     "interval": "30m",     "detour": "direct-out"   } }`
+```json
+{
+  "log": {
+    "disabled": false,
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "default-dns",
+        "address": "223.5.5.5",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "system-dns",
+        "address": "local",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "block-dns",
+        "address": "rcode://name_error"
+      },
+      {
+        "tag": "google",
+        "address": "https://dns.google/dns-query",
+        "address_resolver": "default-dns",
+        "address_strategy": "ipv4_only",
+        "strategy": "ipv4_only",
+        "client_subnet": "1.0.1.0"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "default-dns"
+      },
+      {
+        "query_type": "HTTPS",
+        "server": "block-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "default-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "google"
+      },
+      {
+        "rule_set": "cnsite",
+        "server": "default-dns"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "server": "google"
+      }
+    ],
+    "strategy": "ipv4_only",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "final": "google"
+  },
+  "inbounds": [
+    {
+      "type": "tun", 
+      "inet4_address": "172.19.0.1/30", 
+      "inet6_address": "fd00::1/126", 
+      "auto_route": true, 
+      "strict_route": true, 
+      "sniff": true, 
+      "sniff_override_destination": true, 
+      "domain_strategy": "prefer_ipv4"
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "ss-解锁节点",				//解锁节点，可以选择解锁流媒体，或者AI类的。
+      "server": "000.000.000.000", 
+      "server_port": 37065,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-6336",
+      "server": "000.000.000.000", 
+      "server_port": 37065,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "ZBdsPBMPLM4vkK7yoS7jQjZmIoqmet3PWhrzxwLharY=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-8620",
+      "server": "000.000.000.000", 
+      "server_port": 60316,
+      "uuid": "695dcbdb-1499-482d-9741-70c1cbac4710", 
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "K_wz6EbgSbq_Qr5udscvxJF9DtdSrkcWe8gXs7ynUQg",
+          "short_id": "429e7bbfcca430c4"
+        }
+      },
+      "multiplex": {
+        "enabled": true,
+        "protocol": "smux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-2995",
+      "server": "000.000.000.000", 
+      "server_port": 61703,
+      "uuid": "4074d046-1726-49cc-ad45-272b2c664f29",
+      "transport": {
+        "type": "ws",
+        "path": "/u4yE78Ky",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-6046",
+      "server": "000.000.000.000", 
+      "server_port": 39720,
+      "uuid": "7e26c9f6-f993-4865-8488-6b02e634a6d7",
+      "transport": {
+        "type": "ws",
+        "path": "/FQgD78nq",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 500,
+          "down_mbps": 500
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Hysteria2-1060",
+      "server": "000.000.000.000", 
+      "server_port": 61970,
+      "up_mbps": 500, 
+      "down_mbps": 500,
+      "obfs": {
+        "type": "salamander",
+        "password": "41nPRX39cSt6"
+      },
+      "password": "WqzGKnmZ9UaB",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "tuic-5564",
+      "server": "000.000.000.000", 
+      "server_port": 34927,
+      "uuid": "1f1f2aeb-5ed4-4a0f-ae4a-374da3b569f2", 
+      "password": "NYWqN/95TIpT", 
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-5455",
+      "server": "000.000.000.000", 
+      "server_port": 46728,
+      "method": "2022-blake3-aes-256-gcm", 
+      "password": "yEjWgksYvlvzqQY0etf6BUikYk4nfO0M8rqFERDKpgM=",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-9777",
+      "server": "000.000.000.000", 
+      "server_port": 61728,
+      "uuid": "30864c64-c409-492e-9879-4027145103ad", 
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "icloud.cdn-apple.com", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-cPRCULJ4T6yZUR-Cmyuwon_HyMKQY6_6KWVCV4wbDc",
+          "short_id": "4cae74ba0ee703cc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-1219",
+      "server": "000.000.000.000", 
+      "server_port": 21878,
+      "uuid": "ff2360f1-aa10-48a5-b95a-8a26d2de2d8a",
+      "transport": {
+        "type": "ws",
+        "path": "/fCf5EnoN",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bing.com"
+      },
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-7569",
+      "server": "000.000.000.000", 
+      "server_port": 2514,
+      "uuid": "b2f63134-1dbc-4ce5-b37b-5587b01e4f7d",
+      "transport": {
+        "type": "ws",
+        "path": "/PPiEXZH7",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }, 
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "ss-解锁节点", 
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "ss-解锁节点", 
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569", 
+        "auto"
+      ],
+      "default": "auto",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "解锁节点",
+      "outbounds": [
+        "ss-解锁节点", 
+        "ss-6336", 
+        "vless-8620", 
+        "vmess-2995", 
+        "vmess-6046", 
+        "Hysteria2-1060", 
+        "tuic-5564", 
+        "ss-5455", 
+        "vless-9777", 
+        "vmess-1219", 
+        "vmess-7569", 
+        "auto"
+      ],
+      "default": "ss-解锁节点",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "direct",
+      "tag": "direct-out",
+      "routing_mark": 100
+    },
+    {
+      "type": "block",
+      "tag": "block-out"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "protocol": "quic",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "block",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct-out"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "rule_set": [
+          "geosite-netflix",
+          "geosite-disney",
+          "geosite-youtube",
+          "geosite-google",
+          "geosite-spotify",
+          "geosite-reddit"
+        ],
+        "outbound": "select"
+      }, 
+      {
+        "rule_set": [
+          "geosite-openai"
+        ],
+        "outbound": "解锁节点"
+      },
+      {
+        "rule_set": [
+          "cnip",
+          "cnsite"
+        ],
+        "outbound": "direct-out"
+      }, 
+      {
+        "rule_set": "cnsite-!cn", 
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote", 
+        "tag": "cnsite-!cn", 
+        "format": "binary", 
+        "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-geolocation-!cn.srs", 
+        "download_detour": "auto"
+      }, 
+      {
+        "type": "remote",
+        "tag": "cnip",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "type": "remote",
+        "tag": "cnsite",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-netflix.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-disney",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-disney.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-youtube",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-spotify",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-spotify.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-reddit",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-reddit.srs",
+        "download_detour": "auto"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true, 
+      "path": "cache.db", 
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui", 
+      "external_ui_download_url": "", 
+      "external_ui_download_detour": "auto",
+      "default_mode": "rule"
+    }
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct-out"
+  }
+}
+```
 
-## [](https://linux.do/t/topic/165799#p-1259143-h-12)安卓端、旁路由、软路由等等
+## 安卓端、旁路由、软路由等等
 
 因为没有相关设备，就没有测试了。以上配置主要分为服务端和客户端，所以配置文件都是通用的。比如旁路由作为网关的话，配置文件就采用客户端类型格式，修改一下入站的写法就行，大家可以自行修改到其他平台。

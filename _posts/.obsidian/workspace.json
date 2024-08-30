@@ -139,8 +139,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "fq/sing-box新手全平台配置分享.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "fq/sing-box新手全平台配置分享.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md"
+                "file": "fq/sing-box新手全平台配置分享.md"
               }
             }
           }
@@ -269,12 +268,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "619f40fbf023dce2",
+  "active": "8fe720a1d6955710",
   "lastOpenFiles": [
-    "libraries/number-input/Doc_en.md",
-    "fq/sing-box新手全平台配置分享.md",
     "要整理的.md",
+    "fq/sing-box新手全平台配置分享.md",
     "libraries/React-Aria/Number Field & Number Input.md",
+    "libraries/number-input/Doc_en.md",
     "engineering/overview/前端工程化有哪些知识点？.md",
     "libraries/number-input/AI Doc.md",
     "libraries/shadcn/component/Form.md",
