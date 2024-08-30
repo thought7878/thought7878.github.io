@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "要整理的.md",
+                "file": "fq/sing-box新手全平台配置分享.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "11b77f77130ea9dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/number-input/Doc_en.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dc7b95edf6876162",
             "type": "leaf",
             "state": {
@@ -114,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a0bd6ae9d194373a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/overview/前端工程化有哪些知识点？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fq/sing-box 配置解析.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fq/sing-box 配置解析.md",
+                "file": "libraries/React-Aria/Number Field & Number Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fq/sing-box 配置解析.md"
+                "file": "libraries/React-Aria/Number Field & Number Input.md"
               }
             }
           }
@@ -245,23 +269,28 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "dc7b95edf6876162",
+  "active": "619f40fbf023dce2",
   "lastOpenFiles": [
+    "libraries/number-input/Doc_en.md",
+    "fq/sing-box新手全平台配置分享.md",
+    "要整理的.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
+    "engineering/overview/前端工程化有哪些知识点？.md",
+    "libraries/number-input/AI Doc.md",
+    "libraries/shadcn/component/Form.md",
+    "fq/sing-box 配置解析.md",
+    "engineering/overview2/00.md",
+    "engineering/overview2/01-说说前端构建工具的应用场景.md",
+    "engineering/总结.md",
     "fq/media/a446875def915d997d2cb2c4259ddcc7_MD5.png",
     "fq/media/a96d153d170c207a3d1cd56eb2687819_MD5.webp",
     "fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg",
     "fq/media/daa00e20aaab7645e8e8f57c2e1e56f3_MD5.jpg",
     "fq/media/63b11313d929602de0db3f64fca3b2ba_MD5.webp",
     "fq/media",
-    "fq/sing-box新手全平台配置分享.md",
-    "libraries/number-input/Doc_en.md",
-    "fq/sing-box 配置解析.md",
     "fq",
     "libraries/number-input/Doc.md",
-    "libraries/React-Aria/Number Field & Number Input.md",
-    "libraries/number-input/AI Doc.md",
     "libraries/number-input/改进记录.md",
-    "libraries/shadcn/component/Form.md",
     "libraries/shadcn/目录和文件.md",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
@@ -282,16 +311,11 @@
     "libraries/React-Aria/Architecture.md",
     "libraries/React-Aria/overview.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
-    "typescript/base/2020-03-18-15 类型编程：如何打造属于自己的工具类型？.md",
-    "要整理的.md",
-    "typescript/总结/satisfies.md",
-    "react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "libraries/React-Aria/media",
     "react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif",
     "react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif",
     "react/react 通关秘籍/media/602be9922b4f2019faaf827b3c98d464_MD5.gif",
-    "react/react 通关秘籍/media/c4ffac69ec4970af3030f3a2ea2f5722_MD5.png",
-    "react/react 通关秘籍/media/0963b4e5acf93a2dbe00f8b0cb24847a_MD5.png"
+    "react/react 通关秘籍/media/c4ffac69ec4970af3030f3a2ea2f5722_MD5.png"
   ]
 }
