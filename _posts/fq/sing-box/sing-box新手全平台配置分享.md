@@ -1,3 +1,4 @@
+[sing-box 新手全套观看指南](https://linux.do/t/topic/172323)
 [原文](https://linux.do/t/topic/165799?filter=summary)
 
 > **sing-box 全套观看指南已经完全，如果想从全局了解知识体系的，请先到观看指南中浏览各文章的知识点**
