@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "fq/sing-box/sing-box 配置解析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9a6c35c225f4709",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "fq/sing-box/sing-box新手全平台配置分享.md",
                 "mode": "source",
                 "source": false
@@ -151,7 +163,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "要整理的.md",
+                "file": "fq/sing-box/sing-box 配置解析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "要整理的.md",
+                "file": "fq/sing-box/sing-box 配置解析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "要整理的.md"
+                "file": "fq/sing-box/sing-box 配置解析.md"
               }
             }
           }
@@ -280,14 +293,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "8fe720a1d6955710",
+  "active": "15779064a2416d30",
   "lastOpenFiles": [
-    "fq/sing-box/sing-box 配置解析.md",
+    "libraries/number-input/Doc_en.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
     "要整理的.md",
     "fq/sing-box/sing-box新手全平台配置分享.md",
+    "fq/sing-box/sing-box 配置解析.md",
+    "libraries/number-input/改进记录.md",
+    "fq/sing-box/安装和配置.md",
     "fq/sing-box",
-    "libraries/React-Aria/Number Field & Number Input.md",
-    "libraries/number-input/Doc_en.md",
     "engineering/overview/前端工程化有哪些知识点？.md",
     "libraries/number-input/AI Doc.md",
     "libraries/shadcn/component/Form.md",
@@ -302,7 +317,6 @@
     "fq/media",
     "fq",
     "libraries/number-input/Doc.md",
-    "libraries/number-input/改进记录.md",
     "libraries/shadcn/目录和文件.md",
     "libraries/React-Aria/NumberFieldStateOptions英文文档.md",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",

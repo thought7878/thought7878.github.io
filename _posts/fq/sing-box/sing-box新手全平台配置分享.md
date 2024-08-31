@@ -30,7 +30,7 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 > 9、VMess+WebSocket+Brutal  
 > 10、VMess+WebSocket+TLS+Brutal
 
-这里给大家讲解一下 *Brutal 是什么*，完整的应该是 TCP Brutal， TCP Brutal 是 Hysteria 中的同名拥塞控制算法移植到 TCP 的版本，作为一个 Linux 内核模块。因为是 TCP 类型，不会被运营商 QOS，更加适合垃圾线路的vps，不过可惜支持的客户端比较少，只有在 sing-box 中最通用。
+这里给大家讲解一下 *Brutal 是什么*，完整的应该是 TCP Brutal， TCP Brutal 是 Hysteria 中的同名拥塞控制算法移植到 TCP 的版本，作为一个 Linux 内核模块。*因为是 TCP 类型，不会被运营商 QOS，更加适合垃圾线路的vps*，不过可惜支持的客户端比较少，只有在 sing-box 中最通用。
 
 还有 sing-box 还支持多用户配置，ECH 配置等等，配置中就不写了，新手用不到，老手可以采用。
 

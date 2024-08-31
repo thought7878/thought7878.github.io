@@ -102,33 +102,7 @@ sing-box 的核心就是它的配置，所有的配置都在一个 JSON 文件�
 
 但是为了能够快速使用起来，我们需要一个示例模板。没问题，我这就给你一个比较完美的透明代理模板：
 
-**sing-box 透明代理示例模板**
-
-下面我来给大家解析一下里面的配置，首先来看 DNS 部分。
-
-如果你嫌下面的解析太长不看，那就直接使用我的示例模板配置好了。
-
-### DNS 配置
-
-sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，结构如下：
-
-```json
-{
-  "dns": {
-    "servers": [],
-    "rules": [],
-    "final": "",
-    "strategy": "",
-    "disable_cache": false,
-    "disable_expire": false,
-    "independent_cache": false,
-    "reverse_mapping": false,
-    "fakeip": {}
-  }
-}
-```
-
-其中 `servers` 定义了 DNS 服务器，具体参数含义我就不解释了，自己看官方文档。我给出的 DNS 服务器配置是：
+### sing-box 透明代理示例模板：
 
 ```json
 {
@@ -158,14 +132,566 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
         "strategy": "ipv4_only",
         "detour": "direct"
       }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "dns_resolver"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "dns_direct"
+      },
+      {
+        "clash_mode": "global",
+        "server": "dns_proxy"
+      },
+      {
+        "process_name": [
+          "TencentMeeting",
+          "NemoDesktop",
+          "ToDesk",
+          "ToDesk_Service",
+          "WeChat",
+          "Tailscale",
+          "wireguard-go",
+          "Tunnelblick",
+          "softwareupdated",
+          "kubectl"
+        ],
+        "server": "dns_direct"
+      },
+      {
+        "domain_suffix": [
+          "icloudnative.io",
+          "fuckcloudnative.io",
+          "sealos.io",
+          "cdn.jsdelivr.net"
+        ],
+        "server": "dns_direct"
+      },
+      {
+        "process_name": [
+          "DropboxMacUpdate",
+          "Dropbox"
+        ],
+        "server": "dns_proxy"
+      },
+      {
+        "package_name": [
+          "com.google.android.youtube",
+          "com.android.vending",
+          "org.telegram.messenger",
+          "org.telegram.plus"
+        ],
+        "server": "dns_proxy"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "server": "dns_proxy"
+      },
+      {
+        "rule_set": "Global",
+        "server": "dns_proxy"
+      },
+      {
+        "rule_set": [
+          "YouTube",
+          "Telegram",
+          "Netflix",
+          "geoip-google",
+          "geoip-telegram",
+          "geoip-twitter",
+          "geoip-netflix"
+        ],
+        "server": "dns_proxy"
+      }
+    ],
+    "final": "dns_direct"
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m0s",
+    "detour": "direct"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "inet4_address": "198.18.0.1/16",
+      "auto_route": true,
+      "exclude_package": [
+        "cmb.pb",
+        "cn.gov.pbc.dcep",
+        "com.MobileTicket",
+        "com.adguard.android",
+        "com.ainemo.dragoon",
+        "com.alibaba.android.rimet",
+        "com.alicloud.databox",
+        "com.amazing.cloudisk.tv",
+        "com.autonavi.minimap",
+        "com.bilibili.app.in",
+        "com.bishua666.luxxx1",
+        "com.cainiao.wireless",
+        "com.chebada",
+        "com.chinamworld.main",
+        "com.cmbchina.ccd.pluto.cmbActivity",
+        "com.coolapk.market",
+        "com.ctrip.ct",
+        "com.dianping.v1",
+        "com.douban.frodo",
+        "com.eg.android.AlipayGphone",
+        "com.farplace.qingzhuo",
+        "com.hanweb.android.zhejiang.activity",
+        "com.leoao.fitness",
+        "com.lucinhu.bili_you",
+        "com.mikrotik.android.tikapp",
+        "com.moji.mjweather",
+        "com.motorola.cn.calendar",
+        "com.motorola.cn.lrhealth",
+        "com.netease.cloudmusic",
+        "com.sankuai.meituan",
+        "com.sina.weibo",
+        "com.smartisan.notes",
+        "com.sohu.inputmethod.sogou.moto",
+        "com.sonelli.juicessh",
+        "com.ss.android.article.news",
+        "com.ss.android.lark",
+        "com.ss.android.ugc.aweme",
+        "com.tailscale.ipn",
+        "com.taobao.idlefish",
+        "com.taobao.taobao",
+        "com.tencent.mm",
+        "com.tencent.mp",
+        "com.tencent.soter.soterserver",
+        "com.tencent.wemeet.app",
+        "com.tencent.weread",
+        "com.tencent.wework",
+        "com.ttxapps.wifiadb",
+        "com.unionpay",
+        "com.unnoo.quan",
+        "com.wireguard.android",
+        "com.xingin.xhs",
+        "com.xunmeng.pinduoduo",
+        "com.zui.zhealthy",
+        "ctrip.android.view",
+        "io.kubenav.kubenav",
+        "org.geekbang.geekTime",
+        "tv.danmaku.bili"
+      ],
+      "stack": "mixed",
+      "sniff": true
+    },
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "::",
+      "listen_port": 5353
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "trojan-out"
+      ],
+      "default": "trojan-out"
+    },
+    {
+      "type": "selector",
+      "tag": "openai",
+      "outbounds": [
+        "trojan-out"
+      ],
+      "default": "trojan-out"
+    },
+    {
+      "type": "selector",
+      "tag": "tiktok",
+      "outbounds": [
+        "trojan-out"
+      ],
+      "default": "trojan-out"
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-out",
+      "server": "199.180.115.155",
+      "server_port": 9443,
+      "password": "5iFHKMrn9Ez//VKh6zChTA==",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.example.com",
+        "insecure": true,
+        "utls": {
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_connections": 4,
+        "min_streams": 4
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "domain_suffix": [
+          "icloudnative.io",
+          "fuckcloudnative.io",
+          "sealos.io",
+          "cdn.jsdelivr.net"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "process_name": [
+          "TencentMeeting",
+          "NemoDesktop",
+          "ToDesk",
+          "ToDesk_Service",
+          "WeChat",
+          "OpenLens",
+          "Tailscale",
+          "wireguard-go",
+          "Tunnelblick",
+          "softwareupdated",
+          "kubectl"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "protocol": "quic",
+        "outbound": "block"
+      },
+      {
+        "inbound": "socks-in",
+        "outbound": "select"
+      },
+      {
+        "rule_set": [
+          "WeChat",
+          "Bilibili"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "OpenAI",
+        "outbound": "openai"
+      },
+      {
+        "domain_suffix": [
+          "openai.com",
+          "oaistatic.com",
+          "oaiusercontent.com"
+        ],
+        "outbound": "openai"
+      },
+      {
+        "package_name": "com.openai.chatgpt",
+        "outbound": "openai"
+      },
+      {
+        "rule_set": "TikTok",
+        "outbound": "tiktok"
+      },
+      {
+        "package_name": "com.zhiliaoapp.musically",
+        "outbound": "tiktok"
+      },
+      {
+        "domain_suffix": [
+          "depay.one",
+          "orbstack.dev"
+        ],
+        "outbound": "select"
+      },
+      {
+        "process_name": [
+          "DropboxMacUpdate",
+          "Dropbox"
+        ],
+        "outbound": "select"
+      },
+      {
+        "package_name": [
+          "com.google.android.youtube",
+          "com.android.vending",
+          "org.telegram.messenger",
+          "org.telegram.plus",
+          "com.google.android.googlequicksearchbox",
+          "app.rvx.android.youtube",
+          "com.mudvod.video",
+          "com.fox2code.mmm",
+          "com.twitter.android"
+        ],
+        "outbound": "select"
+      },
+      {
+        "domain": "accounts.google.com",
+        "domain_suffix": [
+          "sourceforge.net",
+          "fhjasokiwq.com"
+        ],
+        "outbound": "select"
+      },
+      {
+        "domain_suffix": "cloud.sealos.io",
+        "outbound": "direct"
+      },
+      {
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "rule_set": "geosite-geolocation-!cn"
+          },
+          {
+            "rule_set": "geoip-cn",
+            "invert": true
+          }
+        ],
+        "outbound": "select"
+      },
+      {
+        "rule_set": "Global",
+        "outbound": "select"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "YouTube",
+          "Telegram",
+          "Netflix",
+          "geoip-google",
+          "geoip-telegram",
+          "geoip-twitter",
+          "geoip-netflix"
+        ],
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-geolocation-!cn",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-google",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-telegram",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-twitter",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-netflix",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/CHIZI-0618/v2ray-rules-dat/release/singbox_ip_rule_set/geoip-netflix.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "Global",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Global.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "YouTube",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/YouTube.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "OpenAI",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/OpenAI.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "TikTok",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/TikTok.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "Telegram",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Telegram.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "Netflix",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Netflix.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "WeChat",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/WeChat.json",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "Bilibili",
+        "format": "source",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/yangchuansheng/sing-box-geosite/main/rule/Bilibili.json",
+        "download_detour": "direct"
+      }
+    ],
+    "final": "direct",
+    "find_process": true,
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true
+    },
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "metacubexd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "select",
+      "default_mode": "rule"
+    }
+  }
+}
+
+```
+
+下面我来给大家解析一下里面的配置，首先来看 DNS 部分。如果你嫌下面的解析太长不看，那就直接使用我的示例模板配置好了。
+
+### DNS 配置
+
+sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，结构如下：
+
+```json
+{
+  "dns": {
+    "servers": [],
+    "rules": [],
+    "final": "",
+    "strategy": "",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "reverse_mapping": false,
+    "fakeip": {}
+  }
+}
+```
+#### servers
+
+其中 `servers` 定义了 DNS 服务器，具体参数含义我就不解释了，自己看官方文档。我给出的 DNS 服务器配置是：
+
+```json
+{
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns_proxy",
+        "address": "https://1.1.1.1/dns-query",//Cloudflare 运营的公共DNS 解析器
+        "address_resolver": "dns_resolver",
+        "strategy": "ipv4_only",
+        "detour": "select"
+      },
+      {
+        "tag": "dns_direct",
+        "address": "h3://dns.alidns.com/dns-query",
+        "address_resolver": "dns_resolver",
+        "strategy": "ipv4_only",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns_block",
+        "address": "rcode://refused"
+      },
+      {
+        "tag": "dns_resolver",
+        "address": "223.5.5.5",//阿里的公共DNS服务
+        "strategy": "ipv4_only",
+        "detour": "direct"
+      }
     ]
   }
 }
 ```
 
-这里定义了 3 个 DNS 服务器，当你发起一个域名解析请求时，这些服务器会被用来查找对应的 IP 地址。同时还定义了一个 RCode 协议用来屏蔽请求。
+这里定义了 3 个 DNS 服务器，*当你发起一个域名解析请求时，这些服务器会被用来查找对应的 IP 地址。同时还定义了一个 RCode 协议用来屏蔽请求*。
 
-`rules` 定义了 DNS 规则，这些规则用于定义哪些域名应该使用哪个 DNS 服务器解析。它可以让你根据域名的特定模式选择不同的 DNS 服务器。DNS 规则如下：
+#### rules
+
+`rules` 定义了 DNS 规则，这些规则用于*定义哪些域名应该使用哪个 DNS 服务器解析*。它可以让你根据域名的特定模式选择不同的 DNS 服务器。DNS 规则如下：
 
 ```json
 {
@@ -242,9 +768,7 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### 入站配置
 
-[#](https://icloudnative.io/posts/sing-box-tutorial/#%E5%85%A5%E7%AB%99%E9%85%8D%E7%BD%AE)
-
-接下来比较重要的就是入站规则了，入站（Inbound）在网络领域，特别是在代理和网络路由配置中，通常指的是进入某个系统或网络的数据流。在 sing-box 中，**入站配置定义了如何处理进入代理服务器的数据**。入站配置示例如下：
+接下来比较重要的就是入站规则了，**入站（Inbound）** 在网络领域，特别是在代理和网络路由配置中，通常指的是*进入某个系统或网络的数据流*。在 sing-box 中，**入站配置定义了如何处理进入代理服务器的数据**。入站配置示例如下：
 
 ```json
 {
@@ -347,7 +871,7 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### 出站配置
 
-出站（Outbound）是指从本地网络或设备发出，向外部网络、服务或互联网发送的数据流量。示例出站配置如下：
+**出站（Outbound）** 是指从本地网络或设备发出，向外部网络、服务或互联网发送的数据流量。示例出站配置如下：
 
 ```json
 {
@@ -709,7 +1233,7 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
 
 ### Clash API
 
-最后的实验性配置用来开启 Clash API。没错，sing-box 是兼容 Clash API 滴！那么我们就可以使用 Clash 的 dashboard 来管理 sing-box 了，直接用这个项目好了： [metacubexd](https://icloudnative.io/go/?target=aHR0cHM6Ly9naXRodWIuY29tL01ldGFDdWJlWC9tZXRhY3ViZXhk)
+最后的实验性配置用来开启 Clash API。没错，sing-box 是兼容 Clash API 滴！那么我们就可以使用 Clash 的 dashboard 来管理 sing-box 了，直接用这个项目好了： [metacubexd](https://github.com/MetaCubeX/metacubexd)
 
 示例配置如下：
 
