@@ -775,9 +775,9 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
   "inbounds": [
     {
       "type": "tun",
-      "inet4_address": "198.18.0.1/16",
+      "inet4_address": "198.18.0.1/16",// `inet4_address` 已合并到 `address` 且将在 sing-box 1.11.0 移除。https://sing-box.sagernet.org/zh/configuration/inbound/tun/#inet4_address
       "auto_route": true,
-      "exclude_package": [
+      "exclude_package": [//排除路由的 Android 应用包名。
         "cmb.pb",
         "cn.gov.pbc.dcep",
         "com.MobileTicket",
@@ -836,7 +836,7 @@ sing-box 对 DNS 的处理比 Clash 强太多了，支持各种分流规则，�
         "org.geekbang.geekTime",
         "tv.danmaku.bili"
       ],
-      "stack": "mixed",
+      "stack": "mixed",//默认使用 `mixed` 栈如果 gVisor 构建标记已启用，否则默认使用 `system` 栈。
       "sniff": true
     },
     {

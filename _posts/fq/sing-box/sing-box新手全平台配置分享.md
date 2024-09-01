@@ -246,32 +246,32 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
     {
       "type": "hysteria2",
       "tag": "d5tlrad8-in",
-      "listen": "::",
-      "listen_port": 61970,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "up_mbps": 500,
-      "down_mbps": 500,
+      "listen": "::",// 表示监听所有可用的 IPv6 地址。如果需要监听所有 IPv4 地址，可以使用 "0.0.0.0"
+      "listen_port": 61970,//监听端口。
+      "sniff": true,//启用协议探测。
+      "sniff_override_destination": true,//用探测出的域名覆盖连接目标地址。
+      "up_mbps": 50,//支持的速率，默认不限制。与 `ignore_client_bandwidth` 冲突。
+      "down_mbps": 100,
       "obfs": {
-        "type": "salamander",
-        "password": "41nPRX39cSt6"
+        "type": "salamander",//QUIC 流量混淆器类型，仅可设为 `salamander`。
+        "password": "41nPRX39cSt6"//QUIC 流量混淆器密码.
       },
       "users": [
         {
-          "name": "EQUR9AK+",
-          "password": "WqzGKnmZ9UaB"
+          "name": "EQUR9AK+",//Hysteria 用户
+          "password": "WqzGKnmZ9UaB"//认证密码。
         }
       ],
-      "ignore_client_bandwidth": false,
-      "masquerade": "https://www.bing.com",
+      "ignore_client_bandwidth": false,//命令客户端使用 BBR 拥塞控制算法而不是 Hysteria CC。
+      "masquerade": "https://www.bing.com",//HTTP3 服务器认证失败时的行为。
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "alpn": [
+        "server_name": "bing.com",//用于验证返回证书上的主机名，除非设置不安全。它还包含在 ClientHello 中以支持虚拟主机，除非它是 IP 地址。
+        "alpn": [//支持的应用层协议协商列表，按优先顺序排列。
           "h3"
         ],
-        "certificate_path": "/etc/sing-box/bing.com.crt",
-        "key_path": "/etc/sing-box/bing.com.key"
+        "certificate_path": "/etc/sing-box/bing.com.crt",//服务器 PEM 证书路径。
+        "key_path": "/etc/sing-box/bing.com.key"//服务器 PEM 私钥路径。
       }
     },
     {
