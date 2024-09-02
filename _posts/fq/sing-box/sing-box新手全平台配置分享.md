@@ -61,39 +61,57 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 
 下载安装包
 
-`wget https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.28/sing-box_1.10.0-alpha.28_linux_amd64.deb`
+```bash
+wget https://github.com/SagerNet/sing-box/releases/download/v1.9.4/sing-box_1.9.4_linux_amd64.deb
+```
 
 安装sing-box
 
-`dpkg -i sing-box_1.10.0-alpha.28_linux_amd64.deb`
+```bash
+dpkg -i sing-box_1.9.4_linux_amd64.deb
+```
 
 查看安装包内容
+```bash
+dpkg -c sing-box_1.9.4_linux_amd64.deb
+```
 
-`dpkg -c sing-box_1.10.0-alpha.28_linux_amd64.deb`
 
 修改配置文件，如果不习惯使用vim的，直接把配置文件上传覆盖也行；
+```bash
+sudo vim /etc/sing-box/config.json
+```
 
-`vim /etc/sing-box/config.json`
 
 启动+自启
 
-`sudo systemctl enable sing-box.service --now`
+```bash
+sudo systemctl enable sing-box.service --now
+```
 
 查看sing-box状态
 
-`systemctl status sing-box.service`
+```bash
+systemctl status sing-box.service
+```
 
 重启sing-box状态
 
-`systemctl restart sing-box.service`
+```bash
+sudo systemctl restart sing-box.service
+```
 
 启动sing-box
 
-`systemctl start sing-box.service`
+```bash
+systemctl start sing-box.service
+```
 
 停止sing-box
 
-`systemctl stop sing-box.service`
+```bash
+systemctl stop sing-box.service
+```
 
 配置文件地址，注意该目录不能存在其他 json 文件
 
