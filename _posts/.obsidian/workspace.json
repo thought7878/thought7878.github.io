@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fq/sing-box/未命名.md",
+                "file": "fq/sing-box/生成 pem 私钥和 csr 证书.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fq/sing-box/安装和配置.md",
+                "file": "fq/sing-box/sing-box新手全平台配置分享.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fq/sing-box/未命名.md",
+                "file": "fq/sing-box/sing-box新手全平台配置分享.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fq/sing-box/未命名.md",
+                "file": "fq/sing-box/sing-box新手全平台配置分享.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fq/sing-box/未命名.md"
+                "file": "fq/sing-box/sing-box新手全平台配置分享.md"
               }
             }
           }
@@ -293,13 +293,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "15779064a2416d30",
+  "active": "e9a6c35c225f4709",
   "lastOpenFiles": [
-    "fq/sing-box/media",
+    "fq/域名/域名的注册.md",
     "fq/sing-box/sing-box新手全平台配置分享.md",
-    "fq/sing-box/未命名.md",
-    "fq/sing-box/sing-box 配置解析.md",
+    "fq/域名",
     "fq/sing-box/安装和配置.md",
+    "fq/sing-box/生成 pem 私钥和 csr 证书.md",
+    "fq/sing-box/media",
+    "fq/sing-box/sing-box 配置解析.md",
     "fq/基础知识/overview.md",
     "fq/基础知识",
     "methods/如何规划好一天.md",
@@ -333,9 +335,7 @@
     "libraries/shadcn/component",
     "nextJS/未命名",
     "libraries/zod/zod overview.md",
-    "libraries/react-hook-form",
     "base/css/总结/pointer-events.md",
-    "libraries/zod",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif",
     "react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif",
