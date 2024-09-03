@@ -55,9 +55,24 @@ sing-box 目前支持绝大多数的协议，当然一些刚出的协议，它�
 
 输出 reno cubic bbr brutal
 
+### 自签证书 安装
+用自签证书的好处就是不需要有自己的域名，需要 **开启允许不安全连接**，为 bing.com 生成一个 100 年的自签证书
+
+```bash
+mkdir -p /home/ubuntu/hysteria && openssl ecparam -genkey -name prime256v1 -out /home/ubuntu/hysteria/private.key && openssl req -new -x509 -days 36500 -key /home/ubuntu/hysteria/private.key -out /home/ubuntu/hysteria/cert.pem -subj "/CN=bing.com"
+```
+
 ### sing-box 安装
 
 版本号自行修改，因为是整理的，就不重新修改为通过临时环境搭建最新版本的教程，需要的大家仔细搜索！
+
+切换root用户。**为 root 用户设置密码:**
+```bash
+# 为 root 用户设置密码:
+sudo passwd root
+# 切换到 root 用户:
+su root
+```
 
 下载安装包
 
@@ -68,7 +83,7 @@ wget https://github.com/SagerNet/sing-box/releases/download/v1.9.4/sing-box_1.9.
 安装sing-box
 
 ```bash
-dpkg -i sing-box_1.9.4_linux_amd64.deb
+sudo dpkg -i sing-box_1.9.4_linux_amd64.deb
 ```
 
 查看安装包内容
@@ -83,10 +98,10 @@ sudo vim /etc/sing-box/config.json
 ```
 
 
-启动+自启
+自启
 
 ```bash
-sudo systemctl enable sing-box.service --now
+sudo systemctl enable sing-box.service
 ```
 
 查看sing-box状态
@@ -104,7 +119,7 @@ sudo systemctl restart sing-box.service
 启动sing-box
 
 ```bash
-systemctl start sing-box.service
+sudo systemctl start sing-box.service
 ```
 
 停止sing-box
