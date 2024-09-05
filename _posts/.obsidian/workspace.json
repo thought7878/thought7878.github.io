@@ -62,8 +62,8 @@
               "type": "markdown",
               "state": {
                 "file": "libraries/React-Aria/Number Field & Number Input.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "libraries/number-input/Doc_en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
+                "file": "libraries/number-input/Doc_en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md"
+                "file": "libraries/number-input/Doc_en.md"
               }
             }
           }
@@ -269,10 +269,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "619f40fbf023dce2",
+  "active": "11b77f77130ea9dd",
   "lastOpenFiles": [
-    "libraries/number-input/Doc_en.md",
     "libraries/React-Aria/Number Field & Number Input.md",
+    "libraries/number-input/Doc_en.md",
     "react/总结/useImperativeHandle.md",
     "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
     "typescript/base/2020-03-18-14  工具类型.md",
