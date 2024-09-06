@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 32.664756446991404,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -133,7 +134,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/css/视频/z-index.md",
+                "file": "base/css/视频/布局与定位.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,6 +142,34 @@
           }
         ],
         "currentTab": 10
+      },
+      {
+        "id": "717526b32dd392db",
+        "type": "tabs",
+        "dimension": 67.3352435530086,
+        "children": [
+          {
+            "id": "e6b53b8ee7a16570",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1or421H7Bh/"
+              }
+            }
+          },
+          {
+            "id": "6a8422f7b284b9bb",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV14D421E7Vn/"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -206,7 +236,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/视频/z-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +252,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/视频/z-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,9 +273,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "base/css/视频/z-index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -255,7 +281,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,7 +296,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "74c5132c56557dd0",
+  "active": "6a8422f7b284b9bb",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
     "base/css/视频/z-index.md",
