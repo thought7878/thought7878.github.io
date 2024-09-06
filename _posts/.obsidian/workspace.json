@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 38.39541547277937,
+        "dimension": 38.61031518624642,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -146,7 +146,7 @@
       {
         "id": "717526b32dd392db",
         "type": "tabs",
-        "dimension": 61.60458452722063,
+        "dimension": 61.38968481375359,
         "children": [
           {
             "id": "2d49487456653e67",
@@ -177,9 +177,19 @@
                 "source": "https://www.bilibili.com/video/BV1di421d7x8/"
               }
             }
+          },
+          {
+            "id": "ef1428cdd01ce34f",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1SD42177Hs/"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -306,7 +316,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c0719e650208d528",
+  "active": "ef1428cdd01ce34f",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
     "base/css/视频/z-index.md",
