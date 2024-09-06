@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 38.61031518624642,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -142,54 +141,6 @@
           }
         ],
         "currentTab": 10
-      },
-      {
-        "id": "717526b32dd392db",
-        "type": "tabs",
-        "dimension": 61.38968481375359,
-        "children": [
-          {
-            "id": "2d49487456653e67",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1i6421c7Ue/"
-              }
-            }
-          },
-          {
-            "id": "c0719e650208d528",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1SS421w7dK/"
-              }
-            }
-          },
-          {
-            "id": "45e9edf858a96f77",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1di421d7x8/"
-              }
-            }
-          },
-          {
-            "id": "ef1428cdd01ce34f",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1SD42177Hs/"
-              }
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,6 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "base/css/视频/布局与定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,6 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "base/css/视频/布局与定位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +246,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "base/css/视频/布局与定位.md"
+              }
             }
           }
         ],
@@ -316,7 +271,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ef1428cdd01ce34f",
+  "active": "74c5132c56557dd0",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
     "base/css/视频/z-index.md",
