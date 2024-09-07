@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 33.882521489971346,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -141,6 +142,23 @@
           }
         ],
         "currentTab": 10
+      },
+      {
+        "id": "cefdd8e210de4efc",
+        "type": "tabs",
+        "dimension": 66.11747851002865,
+        "children": [
+          {
+            "id": "c98aa2c494637342",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1sm411o7tK/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +225,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/视频/布局与定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +241,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/视频/布局与定位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,9 +262,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "base/css/视频/布局与定位.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -271,15 +285,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "74c5132c56557dd0",
+  "active": "c98aa2c494637342",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
+    "libraries/number-input/Doc_en.md",
     "base/css/视频/z-index.md",
     "base/css/2019-12-18-排版-Grid.md",
     "libraries/shadcn/component/Form.md",
     "engineering/overview/前端工程化有哪些知识点？.md",
     "react/总结/useImperativeHandle.md",
-    "libraries/number-input/Doc_en.md",
     "libraries/React-Aria/Number Field & Number Input.md",
     "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
     "typescript/base/2020-03-18-14  工具类型.md",
