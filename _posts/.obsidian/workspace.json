@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 33.882521489971346,
+        "dimension": 34.81375358166189,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -146,7 +146,7 @@
       {
         "id": "cefdd8e210de4efc",
         "type": "tabs",
-        "dimension": 66.11747851002865,
+        "dimension": 65.18624641833811,
         "children": [
           {
             "id": "c98aa2c494637342",
@@ -157,8 +157,29 @@
                 "source": "https://www.bilibili.com/video/BV1sm411o7tK/"
               }
             }
+          },
+          {
+            "id": "07342684dea81249",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Kx4y1D7jr/"
+              }
+            }
+          },
+          {
+            "id": "e47d8831a1736758",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1RD421E7P2/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,7 +306,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c98aa2c494637342",
+  "active": "e47d8831a1736758",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
     "libraries/number-input/Doc_en.md",
