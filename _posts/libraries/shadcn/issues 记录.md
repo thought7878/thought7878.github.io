@@ -1,3 +1,5 @@
+npx shadcn@latest add "https://v0.dev/chat/b/XAeo42E?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..TI7wg8VWSBkumRsK.6ZU5AeZGJEqE7t6FHBfwjBHyAOkUv2DfXcL6NTe-1GpuM2FcHRM.UhzuwGYeVGseBHI8s2_fNA"
+
 ## feat
 [说明等参考Rating](https://github.com/shadcn-ui/ui/pull/2951)
 

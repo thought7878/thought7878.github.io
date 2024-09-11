@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 29.512893982808023,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -139,67 +138,21 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 10
-      },
-      {
-        "id": "cefdd8e210de4efc",
-        "type": "tabs",
-        "dimension": 70.48710601719198,
-        "children": [
-          {
-            "id": "c98aa2c494637342",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1sm411o7tK/"
-              }
-            }
           },
           {
-            "id": "07342684dea81249",
+            "id": "d7d2ceead7a0be75",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1Kx4y1D7jr/"
-              }
-            }
-          },
-          {
-            "id": "e47d8831a1736758",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1RD421E7P2/"
-              }
-            }
-          },
-          {
-            "id": "d44da553cdc59ec1",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV17p421U7Wb/?p=119"
-              }
-            }
-          },
-          {
-            "id": "f714b1e26053540a",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1sJ4m187YT/"
+                "file": "base/css/总结/box-shadow.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -249,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -266,6 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "base/css/总结/box-shadow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,6 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "base/css/总结/box-shadow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +257,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "base/css/总结/box-shadow.md"
+              }
             }
           }
         ],
@@ -311,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,22 +281,23 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f714b1e26053540a",
+  "active": "d7d2ceead7a0be75",
   "lastOpenFiles": [
     "base/css/视频/布局与定位.md",
+    "base/css/总结/box-shadow.md",
+    "libraries/shadcn/issues 记录.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
     "libraries/number-input/Doc_en.md",
     "base/css/视频/z-index.md",
     "base/css/2019-12-18-排版-Grid.md",
     "libraries/shadcn/component/Form.md",
     "engineering/overview/前端工程化有哪些知识点？.md",
     "react/总结/useImperativeHandle.md",
-    "libraries/React-Aria/Number Field & Number Input.md",
     "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
     "typescript/base/2020-03-18-14  工具类型.md",
     "fq/sing-box/sing-box 配置解析.md",
     "libraries/number-input/改进记录.md",
     "libraries/shadcn/目录和文件.md",
-    "libraries/shadcn/issues 记录.md",
     "要整理的.md",
     "fq/sing-box/安装和配置.md",
     "fq/sing-box/sing-box新手全平台配置分享.md",
@@ -357,7 +313,6 @@
     "libraries/number-input/AI Doc.md",
     "engineering/overview2/00.md",
     "engineering/overview2/01-说说前端构建工具的应用场景.md",
-    "engineering/总结.md",
     "fq/media/a446875def915d997d2cb2c4259ddcc7_MD5.png",
     "fq/media/a96d153d170c207a3d1cd56eb2687819_MD5.webp",
     "fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg",

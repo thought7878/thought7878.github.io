@@ -8,8 +8,8 @@ box-shadow: [offset-x] [offset-y] [blur-radius] [spread-radius] [color] [inset];
 ### 参数解释
 - **`offset-x`**：水平偏移量，正值表示阴影向右移动，负值表示阴影向左移动。
 - **`offset-y`**：垂直偏移量，正值表示阴影向下移动，负值表示阴影向上移动。
-- **`blur-radius`**：模糊半径，控制阴影边缘的模糊程度。默认值为 0，表示没有模糊。
-- **`spread-radius`**：扩展半径，控制阴影的大小。正值会使阴影变大，负值会使阴影变小。
+- **`blur-radius`**：阴影模糊半径。值越大，阴影越模糊。默认值为 0，表示没有模糊。
+- **`spread-radius`**：阴影扩展半径。正值会使阴影变大，负值会使阴影变小。
 - **`color`**：阴影的颜色。
 - **`inset`**：可选关键字，如果存在，则表示内阴影（阴影位于元素内部）；如果不存在，则表示外阴影（阴影位于元素外部）。
 
@@ -52,6 +52,16 @@ box-shadow: [offset-x] [offset-y] [blur-radius] [spread-radius] [color] [inset];
   box-shadow: 
     2px 2px 4px rgba(0, 0, 0, 0.5),
     -2px -2px 4px rgba(255, 255, 255, 0.3);
+}
+```
+
+### 内阴影
+
+如果希望阴影在元素内部，可以使用 `inset` 关键字。
+
+```css
+.box {
+  box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 ```
 
