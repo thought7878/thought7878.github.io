@@ -28,16 +28,17 @@ box-shadow: [offset-x] [offset-y] [blur-radius] [spread-radius] [color] [inset];
   background-color: #4CAF50;
   color: white;
   border: none;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 ```
 
 ### 示例解释
 在这个例子中，我们给按钮添加了一个向外的阴影：
-- `2px` 表示水平偏移量。
-- `2px` 表示垂直偏移量。
-- `4px` 表示模糊半径。
-- `rgba(0, 0, 0, 0.5)` 表示阴影颜色为半透明黑色。
+- `10px` 表示水平阴影的位置（阴影在元素右侧 10px 处）。
+- `10px` 表示垂直阴影的位置（阴影在元素下方 10px 处）。
+- `5px` 表示阴影的模糊半径（阴影模糊程度）。
+- `0px` 表示阴影的扩展半径（阴影大小不变）。
+- `rgba(0,0,0,0.75)` 表示阴影的颜色（黑色，透明度为 75%）。
 
 ### 多重阴影
 你还可以为一个元素添加多重阴影效果，只需要将多个 `box-shadow` 值用逗号分隔即可。
