@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md",
+                "file": "base/css/总结/变量.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md",
+                "file": "base/css/总结/变量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md",
+                "file": "base/css/总结/变量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md"
+                "file": "base/css/总结/变量.md"
               }
             }
           }
@@ -283,8 +283,9 @@
   },
   "active": "d7d2ceead7a0be75",
   "lastOpenFiles": [
-    "base/css/总结/box-shadow.md",
     "base/css/Tailwind CSS/ring.md",
+    "base/css/总结/变量.md",
+    "base/css/总结/box-shadow.md",
     "base/css/视频/布局与定位.md",
     "libraries/shadcn/issues 记录.md",
     "libraries/React-Aria/Number Field & Number Input.md",
@@ -312,7 +313,6 @@
     "methods/如何规划好一天.md",
     "fq/sing-box",
     "libraries/number-input/AI Doc.md",
-    "engineering/overview2/00.md",
     "fq/media/a446875def915d997d2cb2c4259ddcc7_MD5.png",
     "fq/media/a96d153d170c207a3d1cd56eb2687819_MD5.webp",
     "fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg",
