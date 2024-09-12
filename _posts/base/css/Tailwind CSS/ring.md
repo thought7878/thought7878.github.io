@@ -37,7 +37,7 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 <div class="ring-2 ring-green-500">Green ring</div>
 ```
 
-#### 3. 设置环形阴影的模糊半径
+#### 3. 设置环形阴影的模糊半径（AI错误）
 
 你还可以使用 `ring-offset` 类名来设置环形阴影的模糊半径。模糊半径可以使阴影看起来更加柔和。
 
@@ -47,7 +47,7 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 
 #### 4. 设置环形阴影的偏移量
 
-`ring-offset` 类名用于设置环形阴影相对于元素本身的偏移量，即阴影距离元素边缘的距离。
+`ring-offset` 类名用于设置环形阴影*相对于元素本身的偏移量*，**即阴影距离元素边缘的距离**。
 
 ```html
 <div class="ring-2 ring-red-500 ring-offset-2">Ring with offset</div>

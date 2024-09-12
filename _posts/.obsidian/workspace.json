@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/css/总结/变量.md",
+                "file": "base/css/Tailwind CSS/ring.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/总结/变量.md",
+                "file": "base/css/Tailwind CSS/ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/总结/变量.md",
+                "file": "base/css/Tailwind CSS/ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/css/总结/变量.md"
+                "file": "base/css/Tailwind CSS/ring.md"
               }
             }
           }
@@ -283,9 +283,9 @@
   },
   "active": "d7d2ceead7a0be75",
   "lastOpenFiles": [
-    "base/css/Tailwind CSS/ring.md",
-    "base/css/总结/变量.md",
     "base/css/总结/box-shadow.md",
+    "base/css/总结/变量.md",
+    "base/css/Tailwind CSS/ring.md",
     "base/css/视频/布局与定位.md",
     "libraries/shadcn/issues 记录.md",
     "libraries/React-Aria/Number Field & Number Input.md",
