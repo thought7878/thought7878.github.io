@@ -1,4 +1,4 @@
-`ring` 相关的类名用于为元素**添加环形阴影效果，基于box-shadow**，这是一种*在元素周围绘制圆角矩形阴影*的方式，类似于一个“光环”或“环”。
+`ring` 相关的类名用于为元素**添加环形阴影效果，基于box-shadow**，这是一种*在元素周围绘制圆角矩形阴影*的方式，类似于一个 **“光环”或“环”**。
 
 ### Ring 类名的基本用法
 
@@ -37,7 +37,7 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 <div class="ring-2 ring-green-500">Green ring</div>
 ```
 
-#### 3. 设置环形阴影的模糊半径（AI错误）
+#### 3. 设置环形阴影的模糊半径（AI错误，没有这个属性）
 
 你还可以使用 `ring-offset` 类名来设置环形阴影的模糊半径。模糊半径可以使阴影看起来更加柔和。
 
@@ -55,7 +55,7 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 
 #### 5. 设置环形阴影的背景颜色
 
-`ring-offset-color` 类名用于设置环形阴影背景的颜色。
+`ring-offset-color` 类名用于**设置遮罩层的颜色**。
 
 ```html
 <div class="ring-2 ring-red-500 ring-offset-2 ring-offset-blue-500">Ring with offset color</div>
@@ -64,6 +64,10 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 #### 6. 设置环形阴影的内阴影
 
 如果你想让环形阴影出现在元素的内部，可以使用 `ring-inset` 类名。
+
+```css
+ring-inset	--tw-ring-inset: inset;
+```
 
 ```html
 <div class="ring-2 ring-red-500 ring-inset">Inset ring</div>
@@ -99,5 +103,3 @@ Tailwind CSS 提供了一系列预定义的类名来设置环形阴影的宽度�
 ### 总结
 
 Tailwind CSS 的 `ring` 类名提供了一种简单而有效的方式来为元素添加环形阴影效果。通过组合不同的类名，你可以轻松地调整阴影的宽度、颜色、模糊半径、偏移量以及是否为内阴影。这些类名的设计旨在让你能够快速地创建一致且美观的界面元素。
-
-如果你有任何具体的问题或需要进一步的帮助，请随时提问。

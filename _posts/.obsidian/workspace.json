@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md",
+                "file": "libraries/number-input/改进记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md",
+                "file": "libraries/number-input/改进记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/css/Tailwind CSS/ring.md"
+                "file": "libraries/number-input/改进记录.md"
               }
             }
           }
@@ -281,15 +281,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d7d2ceead7a0be75",
+  "active": "9c6d7b22b6a44f3b",
   "lastOpenFiles": [
+    "libraries/number-input/Doc_en.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
+    "libraries/number-input/AI Doc.md",
+    "base/css/Tailwind CSS/ring.md",
     "base/css/总结/box-shadow.md",
     "base/css/总结/变量.md",
-    "base/css/Tailwind CSS/ring.md",
     "base/css/视频/布局与定位.md",
     "libraries/shadcn/issues 记录.md",
-    "libraries/React-Aria/Number Field & Number Input.md",
-    "libraries/number-input/Doc_en.md",
     "base/css/视频/z-index.md",
     "base/css/2019-12-18-排版-Grid.md",
     "libraries/shadcn/component/Form.md",
@@ -312,7 +313,6 @@
     "fq/基础知识",
     "methods/如何规划好一天.md",
     "fq/sing-box",
-    "libraries/number-input/AI Doc.md",
     "fq/media/a446875def915d997d2cb2c4259ddcc7_MD5.png",
     "fq/media/a96d153d170c207a3d1cd56eb2687819_MD5.webp",
     "fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg",
