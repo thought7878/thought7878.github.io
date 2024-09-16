@@ -68,19 +68,31 @@
             }
           },
           {
-            "id": "2e7b0d17db5c1e19",
+            "id": "7f98e96dd1a57cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security/Understanding XSS Attacks.md",
+                "file": "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "282a714cacf4e5fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "security/Understanding XSS Attacks.md",
+                "file": "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "security/Understanding XSS Attacks.md",
+                "file": "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "security/Understanding XSS Attacks.md"
+                "file": "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md"
               }
             }
           }
@@ -209,39 +221,40 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2e7b0d17db5c1e19",
+  "active": "282a714cacf4e5fd",
   "lastOpenFiles": [
+    "engineering/从0到1/22.持续集成：是时候将工作流程的手动操作改为自动操作了！.md",
+    "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md",
+    "engineering/从0到1/21.文档站点：一个优秀的开源项目，肯定要有美观的文档点缀！.md",
+    "engineering/从0到1/20.私有仓库：不想将模块发布到公有仓库，有私有仓库托管吗？.md",
+    "engineering/从0到1/19.开源输出： 一份优秀的自述文档，需加点什么料？.md",
+    "engineering/从0到1/18.多包仓库：多个仓库管理相同业务代码，真让人头大啊！.md",
+    "engineering/从0到1/17.范围模块：包名在发布时被占用，有更好方式解决吗？.md",
+    "engineering/从0到1/16.单元测试：类库模块编码完毕，如何保障运行质量？.md",
+    "engineering/从0到1/15.类库打包：使用Webpack打包的类库模块不纯，有发现吗？.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
+    "engineering/从0到1/13.进程管理：Node服务运行起来无缘无故中断，如何常驻后台？.md",
+    "engineering/从0到1/12.数据管理：前端也能愉快地操作数据库，MongoDB安排上！.md",
+    "engineering/从0到1/11.镜像管理：依赖安装老出问题，聊聊Npm镜像那些险象环生的坑！.md",
+    "engineering/从0到1/10.环境管理：不同项目使用不同Node版本，如何优雅切换？.md",
+    "engineering/从0到1/9.资源加速：静态资源加载过慢，如何走线路优化？.md",
+    "engineering/从0到1/8.访问加密：还用HTTP访问URL，不怕被劫持吗？.md",
+    "engineering/从0到1/7.站服务器：服务器中运行的应用或服务，如何通过URL访问？.md",
+    "engineering/从0到1/6.域名系统：如何选购一个属于自己的域名？.md",
+    "engineering/从0到1/5.云服务器：如何选购一个适合自己的服务器？.md",
+    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
+    "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
+    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+    "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+    "engineering/overview2/00.md",
+    "engineering/从0到1",
     "security/XSS.md",
     "security/Understanding XSS Attacks.md",
-    "security/同源策略.md",
-    "interview/0_工作机会.md",
     "security/未命名.canvas",
-    "security/overview.md",
-    "roadmap/Front-End.md",
-    "libraries/shadcn/目录和文件.md",
-    "libraries/React-Aria/Number Field & Number Input.md",
-    "健康/红花-心脑血管.md",
-    "().md",
     "健康",
-    "tools/vscode/2018-01-23_settings.md",
-    "libraries/shadcn/issues 记录.md",
-    "libraries/number-input/pull request.md",
-    "libraries/number-input/改进记录.md",
-    "libraries/clsx/clsx.md",
     "libraries/clsx",
-    "libraries/tailwind-merge/twMerge.md",
     "libraries/tailwind-merge/media",
     "libraries/tailwind-merge",
-    "base/css/视频/布局与定位.md",
-    "engineering/overview/前端工程化有哪些知识点？.md",
-    "libraries/shadcn/component/Form.md",
-    "libraries/number-input/Doc_en.md",
-    "libraries/number-input/AI Doc.md",
-    "base/css/Tailwind CSS/ring.md",
-    "base/css/总结/box-shadow.md",
-    "base/css/总结/变量.md",
-    "base/css/视频/z-index.md",
-    "base/css/2019-12-18-排版-Grid.md",
     "fq/域名",
     "fq/sing-box/media",
     "fq/基础知识",
@@ -252,7 +265,6 @@
     "fq/media/daa00e20aaab7645e8e8f57c2e1e56f3_MD5.jpg",
     "fq/media/63b11313d929602de0db3f64fca3b2ba_MD5.webp",
     "fq/media",
-    "fq",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif",
     "react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif",
