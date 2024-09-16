@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "security/XSS.md",
+                "file": "security/Understanding XSS Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "security/XSS.md",
+                "file": "security/Understanding XSS Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "security/XSS.md"
+                "file": "security/Understanding XSS Attacks.md"
               }
             }
           }
@@ -209,10 +209,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c0ec13def69fbb1b",
+  "active": "2e7b0d17db5c1e19",
   "lastOpenFiles": [
-    "security/Understanding XSS Attacks.md",
     "security/XSS.md",
+    "security/Understanding XSS Attacks.md",
     "security/同源策略.md",
     "interview/0_工作机会.md",
     "security/未命名.canvas",

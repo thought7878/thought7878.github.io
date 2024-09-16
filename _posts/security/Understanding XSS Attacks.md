@@ -32,24 +32,28 @@ XSS 攻击分几个阶段发生：
 
 ---
 
-## [Types of XSS Attacks XSS 攻击的类型](https://vercel.com/guides/understanding-xss-attacks#types-of-xss-attacks)
+## [Types of XSS Attacks](https://vercel.com/guides/understanding-xss-attacks#types-of-xss-attacks)
 
 There are three types of XSS attacks: DOM-based, reflected, and persistent.  
 XSS 攻击分为三种类型：基于 DOM 的攻击、反射攻击和持久攻击。
 
-### [1. DOM-based XSS  1.基于DOM的XSS](https://vercel.com/guides/understanding-xss-attacks#1.-dom-based-xss-)
+### [1. DOM-based XSS ](https://vercel.com/guides/understanding-xss-attacks#1.-dom-based-xss-)
 
 This type of XSS attack occurs when the malicious payload is executed due to modifying the DOM “on the fly” with client-side JavaScript.  
-当由于使用客户端 JavaScript“动态”修改 DOM 而执行恶意负载时，就会发生这种类型的 XSS 攻击。
+*当由于使用客户端 JavaScript“动态”修改 DOM 而执行恶意负载时*，就会发生这种类型的 XSS 攻击。
 
 DOM-based XSS is distinct in that it operates entirely client-side, without sending an HTTP request to a server. The attack unfolds within the victim's browser by manipulating the DOM. The client-side execution makes these attacks harder to detect, as traditional security measures often focus on server traffic. For attackers, this requires a nuanced understanding of JavaScript and the web application's structure to exploit successfully, making it a subtler, yet challenging attack vector.  
-基于 DOM 的 XSS 的独特之处在于它完全在客户端运行，而不向服务器发送 HTTP 请求。攻击通过操纵 DOM 在受害者的浏览器中展开。客户端执行使这些攻击更难以检测，因为传统的安全措施通常关注服务器流量。对于攻击者来说，这需要对 JavaScript 和 Web 应用程序的结构有细致的了解才能成功利用，从而使其成为更微妙但更具挑战性的攻击媒介。
+*基于 DOM 的 XSS 的独特之处*在于它完全在客户端运行，而不向服务器发送 HTTP 请求。攻击通过操纵 DOM 在受害者的浏览器中展开。客户端执行使这些攻击更难以检测，因为传统的安全措施通常关注服务器流量。对于攻击者来说，这需要对 JavaScript 和 Web 应用程序的结构有细致的了解才能成功利用，从而使其成为更微妙但更具挑战性的攻击媒介。
 
 Imagine a simple web page that reads a URL parameter and updates the content of a page using JavaScript:  
 想象一个简单的网页，它读取 URL 参数并使用 JavaScript 更新页面内容：
 
-```
-<div id="content">Default content</div>    <script>           const params = new URLSearchParams(window.location.search);   document.getElementById('content').innerHTML = params.get('message');</script>
+```html
+<div id="content">Default content</div>    
+<script>        
+   const params = new URLSearchParams(window.location.search);
+   document.getElementById('content').innerHTML = params.get('message');
+</script>
 ```
 
 If a user visits a link like **`http://example.com/index.html?message=<script>alert('Hacked!')</script>`**, the malicious script would run.  
