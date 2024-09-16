@@ -56,91 +56,31 @@
             }
           },
           {
-            "id": "3a14ac7cd18b849a",
+            "id": "c0ec13def69fbb1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/shadcn/目录和文件.md",
+                "file": "security/XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "619f40fbf023dce2",
+            "id": "2e7b0d17db5c1e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/React-Aria/Number Field & Number Input.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11b77f77130ea9dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/number-input/Doc_en.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e56bf49ed34ccb0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/number-input/AI Doc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c6d7b22b6a44f3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/number-input/pull request.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac1c6ba23419d191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/shadcn/目录和文件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f9ee789769b532e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "libraries/clsx/clsx.md",
+                "file": "security/Understanding XSS Attacks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/0_工作机会.md",
+                "file": "security/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/0_工作机会.md",
+                "file": "security/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/0_工作机会.md"
+                "file": "security/XSS.md"
               }
             }
           }
@@ -269,11 +209,19 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c6a0d5f6ffd7d86b",
+  "active": "c0ec13def69fbb1b",
   "lastOpenFiles": [
+    "security/Understanding XSS Attacks.md",
+    "security/XSS.md",
+    "security/同源策略.md",
+    "interview/0_工作机会.md",
+    "security/未命名.canvas",
+    "security/overview.md",
+    "roadmap/Front-End.md",
+    "libraries/shadcn/目录和文件.md",
+    "libraries/React-Aria/Number Field & Number Input.md",
     "健康/红花-心脑血管.md",
     "().md",
-    "interview/0_工作机会.md",
     "健康",
     "tools/vscode/2018-01-23_settings.md",
     "libraries/shadcn/issues 记录.md",
@@ -281,7 +229,6 @@
     "libraries/number-input/改进记录.md",
     "libraries/clsx/clsx.md",
     "libraries/clsx",
-    "libraries/shadcn/目录和文件.md",
     "libraries/tailwind-merge/twMerge.md",
     "libraries/tailwind-merge/media",
     "libraries/tailwind-merge",
@@ -289,18 +236,12 @@
     "engineering/overview/前端工程化有哪些知识点？.md",
     "libraries/shadcn/component/Form.md",
     "libraries/number-input/Doc_en.md",
-    "libraries/React-Aria/Number Field & Number Input.md",
     "libraries/number-input/AI Doc.md",
     "base/css/Tailwind CSS/ring.md",
     "base/css/总结/box-shadow.md",
     "base/css/总结/变量.md",
     "base/css/视频/z-index.md",
     "base/css/2019-12-18-排版-Grid.md",
-    "react/总结/useImperativeHandle.md",
-    "typescript/base/2020-03-18-08 联合类型 & 交叉类型.md",
-    "typescript/base/2020-03-18-14  工具类型.md",
-    "fq/sing-box/sing-box 配置解析.md",
-    "要整理的.md",
     "fq/域名",
     "fq/sing-box/media",
     "fq/基础知识",
