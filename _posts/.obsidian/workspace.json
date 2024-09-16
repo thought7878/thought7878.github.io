@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "interview/0_工作机会.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "interview/0_工作机会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md",
+                "file": "interview/0_工作机会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vscode/2018-01-23_settings.md"
+                "file": "interview/0_工作机会.md"
               }
             }
           }
@@ -271,6 +271,11 @@
   },
   "active": "c6a0d5f6ffd7d86b",
   "lastOpenFiles": [
+    "健康/红花-心脑血管.md",
+    "().md",
+    "interview/0_工作机会.md",
+    "健康",
+    "tools/vscode/2018-01-23_settings.md",
     "libraries/shadcn/issues 记录.md",
     "libraries/number-input/pull request.md",
     "libraries/number-input/改进记录.md",
@@ -296,10 +301,6 @@
     "typescript/base/2020-03-18-14  工具类型.md",
     "fq/sing-box/sing-box 配置解析.md",
     "要整理的.md",
-    "fq/sing-box/安装和配置.md",
-    "fq/sing-box/sing-box新手全平台配置分享.md",
-    "fq/sing-box/未命名.md",
-    "fq/sing-box/生成 pem 私钥和 csr 证书.md",
     "fq/域名",
     "fq/sing-box/media",
     "fq/基础知识",
@@ -311,7 +312,6 @@
     "fq/media/63b11313d929602de0db3f64fca3b2ba_MD5.webp",
     "fq/media",
     "fq",
-    "libraries/number-input/media",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif",
     "react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif",
