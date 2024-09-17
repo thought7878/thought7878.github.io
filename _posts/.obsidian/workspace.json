@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "7f98e96dd1a57cd9",
+            "id": "777ccf690fe26063",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,24 +80,12 @@
             }
           },
           {
-            "id": "ee3f24694691109e",
+            "id": "7f98e96dd1a57cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/从0到1/20.私有仓库：不想将模块发布到公有仓库，有私有仓库托管吗？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "282a714cacf4e5fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/从0到1/23.结篇：打开前端到全栈的世界大门！.md",
+                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
                 "mode": "source",
                 "source": false
               }
@@ -233,11 +221,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "7f98e96dd1a57cd9",
+  "active": "777ccf690fe26063",
   "lastOpenFiles": [
+    "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+    "engineering/Prettier&Eslint.md",
+    "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/从0到1/20.私有仓库：不想将模块发布到公有仓库，有私有仓库托管吗？.md",
     "engineering/从0到1/19.开源输出： 一份优秀的自述文档，需加点什么料？.md",
-    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
     "engineering/从0到1/17.范围模块：包名在发布时被占用，有更好方式解决吗？.md",
     "engineering/从0到1/18.多包仓库：多个仓库管理相同业务代码，真让人头大啊！.md",
     "engineering/从0到1/16.单元测试：类库模块编码完毕，如何保障运行质量？.md",
@@ -257,11 +248,8 @@
     "engineering/从0到1/5.云服务器：如何选购一个适合自己的服务器？.md",
     "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
     "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
-    "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
     "engineering/overview2/00.md",
     "engineering/从0到1",
-    "security/XSS.md",
-    "security/Understanding XSS Attacks.md",
     "security/未命名.canvas",
     "健康",
     "libraries/clsx",
