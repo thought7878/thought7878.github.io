@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+                "file": "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+                "file": "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+                "file": "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md"
+                "file": "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md"
               }
             }
           }
@@ -223,8 +223,12 @@
   },
   "active": "7f98e96dd1a57cd9",
   "lastOpenFiles": [
-    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
     "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
+    "engineering/module/2019-08-15-cjs与esm的区别.md",
+    "engineering/module/2019-08-15-ESModules.md",
+    "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
+    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+    "engineering/从0到1/media",
     "engineering/Prettier&Eslint.md",
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/从0到1/20.私有仓库：不想将模块发布到公有仓库，有私有仓库托管吗？.md",
@@ -246,9 +250,6 @@
     "engineering/从0到1/7.站服务器：服务器中运行的应用或服务，如何通过URL访问？.md",
     "engineering/从0到1/6.域名系统：如何选购一个属于自己的域名？.md",
     "engineering/从0到1/5.云服务器：如何选购一个适合自己的服务器？.md",
-    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
-    "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
-    "engineering/overview2/00.md",
     "engineering/从0到1",
     "security/未命名.canvas",
     "健康",
@@ -264,7 +265,6 @@
     "fq/media/b3c86413b012f6c7b1bb62f6de2cfd9e_MD5.jpg",
     "fq/media/daa00e20aaab7645e8e8f57c2e1e56f3_MD5.jpg",
     "fq/media/63b11313d929602de0db3f64fca3b2ba_MD5.webp",
-    "fq/media",
     "libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png",
     "react/react 通关秘籍/media/9386f8890f1529a95dc23a1b1865b3d9_MD5.gif",
     "react/react 通关秘籍/media/6fad8b4d2c5b99217be83e6afeb7065d_MD5.gif",
