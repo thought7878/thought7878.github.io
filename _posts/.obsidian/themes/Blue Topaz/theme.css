@@ -7980,6 +7980,8 @@ body.color-scheme-options-honey-milk-topaz.theme-dark {
   --background-blockquote: #9191911c;/*引用框背景颜色*/
   --background-code: #1111118c;/*代码框背景颜色*/
   --background-code-2: #4c4c4cb0;
+  // TODO 代码框文字颜色，有两处
+  /* --text-color-code: #d4d4d4; */
   --text-color-code: #d58000;/*代码框文字颜色*/
 
   --list-ul-block-color: var(--deep-color);
@@ -8294,7 +8296,8 @@ body.color-scheme-options-chocolate-topaz.theme-dark {
   --background-blockquote: #9191911c;/*引用框背景颜色*/
   --background-code: #1111118c;/*代码框背景颜色*/
   --background-code-2: #4c4c4cb0;
-  --text-color-code: #d58000;/*代码框文字颜色*/
+  /* --text-color-code: #d4d4d4;代码框文字颜色 */
+   --text-color-code: #d58000;/* 代码框文字颜色 */
 
   --list-ul-block-color: var(--color6);
   --list-ul-disc-color: var(--main-color);

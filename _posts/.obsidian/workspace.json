@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md"
+                "file": "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md"
               }
             }
           }
@@ -221,10 +221,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "777ccf690fe26063",
+  "active": "7f98e96dd1a57cd9",
   "lastOpenFiles": [
-    "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
     "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+    "engineering/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
     "engineering/Prettier&Eslint.md",
     "engineering/项目的基础的工程化配置---eslint prettier husky lint-staged commitlint commitizen.md",
     "engineering/从0到1/20.私有仓库：不想将模块发布到公有仓库，有私有仓库托管吗？.md",
