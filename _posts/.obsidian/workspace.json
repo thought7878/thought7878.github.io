@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md"
               }
             }
           }
@@ -247,23 +247,32 @@
   },
   "active": "edd8ff994944bff1",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/docs/media/ecc616b145a9512ebac6ea3501c53b2c_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/ed70144c1690a46639af2068da4d97b9_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/aa708f0593b425f1617dec925dbb012b_MD5.gif",
-    "engineering/视频教程/Webpack原理与实践/docs/media/af2d6d18f474ee2de98591b0ffd22b87_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/41288d4bde695fb975abb4c6aa281b73_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/013c0bb28832686b8da4284ee113d71d_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/b7cf5392e2c6afb5ff62f1d286808a55_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/e97c147c88136799b3fc0cac12cf9afb_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/0d9bcd5395dc37a90b15341483699683_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/3523dad653de19e4d95521246484069e_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/33f1538b74e4ed67f4a8e913ec233a7e_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/f40d766e487768ed5096016b841da606_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/83d744868ad62b57f87b969ad7fb8f37_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/9e96dc8371379713a60e7e8cf6af62e2_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/49a7e6dde4b3d6a677e7659326ba9aee_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/dafd0427a92ada3e16da7e5ba850ce08_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/bfd3741bceca7451ccbc308cf370ba8d_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/media/b114786173ffad6a402a99aabb242736_MD5.png",
+    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
     "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs",
@@ -277,16 +286,6 @@
     "engineering/overview_interview/13- 构建工具优化前端性能.md",
     "engineering/overview_interview/14- Webpack原理.md",
     "engineering/overview_interview/15- Vite原理.md",
-    "engineering/overview_interview/16- Webpack Loader原理.md",
-    "engineering/从0到1/15.类库打包：使用Webpack打包的类库模块不纯，有发现吗？.md",
-    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
-    "engineering/从0到1/13.进程管理：Node服务运行起来无缘无故中断，如何常驻后台？.md",
-    "engineering/从0到1/9.资源加速：静态资源加载过慢，如何走线路优化？.md",
-    "engineering/从0到1/8.访问加密：还用HTTP访问URL，不怕被劫持吗？.md",
-    "engineering/从0到1/7.站服务器：服务器中运行的应用或服务，如何通过URL访问？.md",
-    "engineering/从0到1/6.域名系统：如何选购一个属于自己的域名？.md",
-    "engineering/从0到1/5.云服务器：如何选购一个适合自己的服务器？.md",
-    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
     "engineering/从0到1/media",
     "engineering/从0到1",
     "security/未命名.canvas",
