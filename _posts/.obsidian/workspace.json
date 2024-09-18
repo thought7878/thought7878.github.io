@@ -116,31 +116,43 @@
             }
           },
           {
-            "id": "2efe47062733793f",
+            "id": "f87bab9a5d310cbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3478a6c7afd147e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/视频列表.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
-        "id": "12bd5588262ff4ce",
+        "id": "fff4b926e610a20b",
         "type": "tabs",
         "children": [
           {
-            "id": "0ece375ef1ca6613",
+            "id": "82c4d123889b641a",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8/"
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=2"
               }
             }
           }
@@ -194,7 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
+    "width": 322.5,
     "collapsed": true
   },
   "right": {
@@ -211,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md"
               }
             }
           }
@@ -275,10 +287,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "edd8ff994944bff1",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+    "未命名.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
-    "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
@@ -303,8 +318,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
     "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
     "engineering/视频教程/Webpack原理与实践/docs",
     "engineering/视频教程/Webpack原理与实践",
