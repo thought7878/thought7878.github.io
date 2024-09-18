@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,16 +143,16 @@
         "currentTab": 9
       },
       {
-        "id": "fff4b926e610a20b",
+        "id": "90ebe31b85f6c090",
         "type": "tabs",
         "children": [
           {
-            "id": "82c4d123889b641a",
+            "id": "58fa2338fdfc0881",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=2"
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=3"
               }
             }
           }
@@ -223,7 +223,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +239,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,9 +260,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -287,13 +283,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f87bab9a5d310cbf",
+  "active": "58fa2338fdfc0881",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "未命名.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
-    "engineering/视频教程/Webpack原理与实践/视频列表.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
