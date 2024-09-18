@@ -114,9 +114,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2efe47062733793f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 8
+      },
+      {
+        "id": "12bd5588262ff4ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ece375ef1ca6613",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -231,7 +260,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,9 +277,11 @@
   },
   "active": "edd8ff994944bff1",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
@@ -274,10 +306,8 @@
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
-    "engineering/视频教程/Webpack原理与实践/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs",
     "engineering/视频教程/Webpack原理与实践",
-    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/视频教程",
     "engineering/overview_interview/08- Webpack提高构建效率.md",
     "engineering/overview_interview/10- Webpack配置CodeSplitting代码分割.md",
