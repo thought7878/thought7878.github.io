@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 50.64469914040115,
+        "dimension": 41.977077363896846,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -122,7 +122,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
       {
         "id": "861f7f8b448f8a89",
         "type": "tabs",
-        "dimension": 49.355300859598856,
+        "dimension": 58.02292263610315,
         "children": [
           {
             "id": "02358d65db8f22e0",
@@ -157,8 +157,19 @@
                 "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=3"
               }
             }
+          },
+          {
+            "id": "c11c4e4e1c5c6213",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=4"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,6 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,6 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +275,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md"
+              }
             }
           }
         ],
@@ -270,8 +285,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,8 +299,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "02358d65db8f22e0",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
@@ -294,7 +309,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
     "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "interview/0_工作机会.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "未命名.md",

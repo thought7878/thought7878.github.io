@@ -1,16 +1,16 @@
 今天我要跟你分享的内容是如何通过 Loader 机制实现特殊资源加载，通过开发一个 Loader 深入理解 Webpack Loader 机制的原理。
 
-正如开篇词中所讲，Webpack 想要实现的是整个前端项目的模块化，项目中的各种资源（包括 CSS 文件、图片等）都应该属于需要被管理的模块。换句话说， Webpack 不仅是 JavaScript 模块打包工具，还是整个前端项目（前端工程）的模块打包工具。也就是说，我们可以通过 Webpack 去管理前端项目中任意类型的资源文件。
+正如开篇词中所讲，Webpack 想要实现的是整个前端项目的模块化，项目中的各种资源（包括 CSS 文件、图片等）都应该属于需要被管理的模块。换句话说， *Webpack 不仅是 JavaScript 模块打包工具，还是整个前端项目（前端工程）的模块打包工具*。也就是说，我们可以通过Webpack 去管理前端项目中任意类型的资源文件。
 
-因为 Webpack 实现不同种类资源模块加载的核心就是 Loader，所以今天我来和你聊聊 Webpack 的 Loader 机制。
+因为 **Webpack 实现不同种类*资源模块加载*的核心就是 Loader**，所以今天我来和你聊聊 Webpack 的 Loader 机制。
 
 ### 如何加载资源模块
 
-首先，我们尝试通过 Webpack 打包项目中的一个 CSS 文件，由此开始探索 Webpack 是如何加载资源模块的？
+首先，我们尝试通过 Webpack *打包项目中的一个 CSS 文件，由此开始探索 Webpack 是如何加载资源模块的*？
 
 在下面这个案例中，我们在项目的 src 目录下添加一个普通的样式文件 main.css，具体结构和样式代码如下所示：
 
-```javascript
+```text
  └─ 03-webpack-loader ························ sample root dir
     ├── src ·································· source dir
 +   │   └── main.css ························· main styles
@@ -18,7 +18,7 @@
     └── webpack.config.js ···················· webpack config file
 ```
 
-```javascript
+```css
 /* ./src/main.css */
 body {
   margin: 0 auto;
@@ -40,9 +40,7 @@ module.exports = {
 }
 ```
 
-你可能会好奇：Webpack 的打包入口不是应该是一个 JS 文件吗？为什么这里配置成了一个 CSS 文件呢？
-
-其实 Webpack 并没有强制要求我们必须以 JS 文件作为打包入口，只是在绝大多数情况下，我们会用 JS 文件作为打包入口，因为 JS 文件才是程序的逻辑入口，以 JS 文件作为入口相对更合理。
+你可能会好奇：Webpack 的打包入口不是应该是一个 JS 文件吗？为什么这里配置成了一个 CSS 文件呢？*其实 Webpack 并没有强制要求我们必须以 JS 文件作为打包入口，只是在绝大多数情况下，我们会用 JS 文件作为打包入口，因为 JS 文件才是程序的逻辑入口，以 JS 文件作为入口相对更合理*。
 
 那么，我们这里为什么要使用 CSS 文件作为入口呢？其实就是单纯地为了尝试使用 Webpack 直接去打包 CSS 文件，关于同时打包 JS 和 CSS 的操作，待会儿会详细介绍。
 
@@ -50,9 +48,9 @@ module.exports = {
 
 ![[engineering/视频教程/Webpack原理与实践/docs/media/9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
 
-错误信息大体的意思是说，在解析模块过程中遇到了非法字符，而且错误出现的位置就是在我们的 CSS 文件中。
+*错误信息大体的意思*是说，在解析模块过程中遇到了非法字符，而且错误出现的位置就是在我们的 CSS 文件中。
 
-出现这个错误的原因是因为 Webpack 内部默认只能够处理 JS 模块代码，也就是说在打包过程中，它默认把所有遇到的文件都当作 JavaScript 代码进行解析，但是此处我们让 Webpack 处理的是 CSS 代码，而 CSS 代码是不符合 JavaScript 语法的，所以自然会报出模块解析错误。
+**出现这个错误的原因**是因为 Webpack 内部默认只能够处理 JS 模块代码，也就是说在打包过程中，它默认把所有遇到的文件都当作 JavaScript 代码进行解析，但是此处我们让 Webpack 处理的是 CSS 代码，而 CSS 代码是不符合 JavaScript 语法的，所以自然会报出模块解析错误。
 
 为了佐证 Webpack 默认只能够按照 JavaScript 语法解析模块，你可以尝试将 main.css 文件中的代码修改为一段 JavaScript 代码，然后重新运行 Webpack 打包来看一下结果。具体操作如下：
 
@@ -70,9 +68,9 @@ console.log('This is a style sheet.')
 
 ![[engineering/视频教程/Webpack原理与实践/docs/media/9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
 
-这里有一个非常重要的提示：_You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. （我们需要用适当的加载器来处理这种文件类型，而当前并没有配置一个可以用来处理此文件的加载器）。_
+这里有一个非常重要的提示：You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. （我们需要用适当的加载器来处理这种文件类型，而当前并没有配置一个可以用来处理此文件的加载器）。
 
-根据这个错误说明，我们发现 Webpack 是用 Loader（加载器）来处理每个模块的，而内部默认的 Loader 只能处理 JS 模块，如果需要加载其他类型的模块就需要配置不同的 Loader。这也就引出了我们今天的主角：Loader。
+根据这个错误说明，我们发现 **Webpack 是用 Loader（加载器）来处理每个模块的，而内部默认的 Loader 只能处理 JS 模块，如果需要加载其他类型的模块就需要配置不同的 Loader**。这也就引出了我们今天的主角：Loader。
 
 ![[engineering/视频教程/Webpack原理与实践/docs/media/de3b39cd8e6c8218b8858607ebb5818f_MD5.png]]
 
@@ -103,11 +101,11 @@ module.exports = {
 }
 ```
 
-在配置对象的 module 属性中添加一个 rules 数组。这个数组就是我们针对资源模块的加载规则配置，其中的每个规则对象都需要设置两个属性：
+在配置对象的 module 属性中添加一个 rules 数组。*这个数组就是我们针对资源模块的加载规则配置*，其中的每个规则对象都需要设置两个属性：
 
-- 首先是 test 属性，它是一个正则表达式，用来匹配打包过程中所遇到文件路径，这里我们是以 .css 结尾；
+- 首先是 `test` 属性，它是一个正则表达式，用来匹配打包过程中所遇到文件路径，这里我们是以 .css 结尾；
     
-- 然后是 use 属性，它用来指定匹配到的文件需要使用的 loader，这里用到的是 css-loader。
+- 然后是 `use` 属性，它用来指定匹配到的文件需要使用的 loader，这里用到的是 css-loader。
     
 
 配置完成过后，我们回到命令行终端重新运行打包命令，打包过程就不会再出现错误了，因为这时 CSS 文件会交给 css-loader 处理过后再由 Webpack 打包。
@@ -116,23 +114,19 @@ module.exports = {
 
 #### 样式模块加载的问题
 
-此时，如果你尝试在页面中使用这里输出的 bundle.js 文件，你会发现刚刚的这个 main.css 模块并没有工作。
+此时，如果你尝试在页面中使用这里输出的 bundle.js 文件，你会发现刚刚的这个 main.css 模块并没有工作。如果你之前有些经验，可能知道这个问题的解法，其实很简单，只需要再额外添加一个 `style-loader`，样式就可以正常工作了。
 
-如果你之前有些经验，可能知道这个问题的解法，其实很简单，只需要再额外添加一个 style-loader，样式就可以正常工作了。
-
-不过只有解法没有原因不是我们的风格。下面我们来分析产生这个问题的真正原因，首先，我们找到刚刚生成的 bundle.js 文件，因为这个文件是 Webpack 打包后的结果，所有的模块都应该在这个文件中出现。
-
-由于默认打包入口在 Webpack 输出的结果中就是第一个模块，所以我们只需要看第一个模块目前是什么样的，如下图所示：
+不过只有解法没有原因不是我们的风格。下面我们来分析产生这个问题的真正原因，首先，我们找到刚刚生成的 bundle.js 文件，因为这个文件是 Webpack 打包后的结果，所有的模块都应该在这个文件中出现。由于默认打包入口在 Webpack 输出的结果中就是第一个模块，所以我们只需要看第一个模块目前是什么样的，如下图所示：
 
 ![[engineering/视频教程/Webpack原理与实践/docs/media/0b46f633a9867383a656226f27b3624c_MD5.png]]
 
-仔细阅读这个文件，你会发现 css-loader 的作用是将 CSS 模块转换为一个 JS 模块，具体的实现方法是将我们的 CSS 代码 push 到一个数组中，这个数组是由 css-loader 内部的一个模块提供的，但是整个过程并没有任何地方使用到了这个数组。
+仔细阅读这个文件，你会发现 **css-loader 的作用**是*将 CSS 模块转换为一个 JS 模块*，具体的实现方法是将我们的 CSS 代码 push 到一个数组中，这个数组是由 css-loader 内部的一个模块提供的，但是整个过程并没有任何地方使用到了这个数组。
 
-因此这里样式没有生效的原因是： **css-loader 只会把 CSS 模块加载到 JS 代码中，而并不会使用这个模块。**
+因此这里**样式没有生效的原因**是： **css-loader 只会把 CSS 模块加载到 JS 代码中，而并不会使用这个模块。**
 
-所以这里我们还需要在 css-loader 的基础上再使用一个 style-loader，把 css-loader 转换后的结果通过 style 标签追加到页面上。
+所以这里我们还需要在 css-loader 的基础上再使用一个 `style-loader`，*把 css-loader 转换后的结果通过 style 标签追加到页面上*。
 
-安装完 style-loader 之后，我们将配置文件中的 use 属性修改为一个数组，将 style-loader 也放进去。这里需要注意的是，一旦配置多个 Loader，执行顺序是从后往前执行的，所以这里一定要将 css-loader 放在最后，因为必须要 css-loader 先把 CSS 代码转换为 JS 模块，才可以正常打包，具体配置如下：
+安装完 style-loader 之后，我们将配置文件中的 use 属性修改为一个数组，将 style-loader 也放进去。这里需要注意的是，**一旦配置多个 Loader，执行顺序是从后往前执行的，所以这里一定要将 css-loader 放在最后**，因为必须要 css-loader 先把 CSS 代码转换为 JS 模块，才可以正常打包，具体配置如下：
 
 ```javascript
 // ./webpack.config.js
@@ -164,7 +158,7 @@ module.exports = {
 
 正如刚刚所提到的，一般 Webpack 打包的入口还是 JavaScript。因为从某种程度上来说，打包入口就是应用的运行入口，而目前前端应用中的业务是由 JS 驱动的，所以更合理的做法还是把 JS 文件作为打包的入口，然后在 JS 代码中通过 import 语句去加载 CSS 文件。
 
-```javascript
+```text
  └─ 03-webpack-loader ······················· sample root dir
     ├── src ································· source dir
     │   ├── style.css ······················· style module
