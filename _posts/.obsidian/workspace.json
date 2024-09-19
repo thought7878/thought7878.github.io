@@ -143,11 +143,11 @@
         "currentTab": 9
       },
       {
-        "id": "90ebe31b85f6c090",
+        "id": "861f7f8b448f8a89",
         "type": "tabs",
         "children": [
           {
-            "id": "58fa2338fdfc0881",
+            "id": "02358d65db8f22e0",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
@@ -223,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +262,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md"
+              }
             }
           }
         ],
@@ -268,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,16 +286,22 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "58fa2338fdfc0881",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
+    "interview/0_工作机会.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "未命名.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
@@ -309,11 +318,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
     "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
     "engineering/视频教程/Webpack原理与实践/docs",
     "engineering/视频教程/Webpack原理与实践",
@@ -324,7 +328,6 @@
     "engineering/overview_interview/12- PostCSS的功能.md",
     "engineering/overview_interview/13- 构建工具优化前端性能.md",
     "engineering/overview_interview/14- Webpack原理.md",
-    "engineering/overview_interview/15- Vite原理.md",
     "engineering/从0到1/media",
     "engineering/从0到1",
     "security/未命名.canvas",

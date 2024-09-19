@@ -92,7 +92,7 @@ $ npx webpack --version
 v4.42.1
 ```
 
-> P.S. npx 是 npm 5.2 以后新增的一个命令，可以用来更方便的执行远程模块或者项目 node_modules 中的 CLI 程序。
+> P.S. npx 是 npm 5.2 以后新增的一个命令，*可以用来更方便的执行远程模块或者项目 node_modules 中的 CLI 程序*。
 
 这里我们使用的 Webpack 版本是 v4.42.1，有了 Webpack 后，就可以直接运行 webpack 命令来打包 JS 模块代码，具体操作如下：
 
@@ -121,7 +121,7 @@ $ npx webpack
 </html>
 ```
 
-我们也可以将 Webpack 命令定义到 npm scripts 中，这样每次使用起来会更加方便，具体如下：
+我们也可以*将 Webpack 命令定义到 npm scripts 中*，这样每次使用起来会更加方便，具体如下：
 
 ```javascript
 {
