@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 41.977077363896846,
+        "dimension": 41.4756446991404,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -146,7 +146,7 @@
       {
         "id": "861f7f8b448f8a89",
         "type": "tabs",
-        "dimension": 58.02292263610315,
+        "dimension": 58.5243553008596,
         "children": [
           {
             "id": "02358d65db8f22e0",
@@ -236,7 +236,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +252,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,9 +273,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -285,7 +281,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,7 +296,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f87bab9a5d310cbf",
+  "active": "c11c4e4e1c5c6213",
   "lastOpenFiles": [
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
