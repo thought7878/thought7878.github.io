@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,16 +143,16 @@
         "currentTab": 9
       },
       {
-        "id": "3783e913ac22eadb",
+        "id": "f00b59e3bce3917b",
         "type": "tabs",
         "children": [
           {
-            "id": "4835415b27718d26",
+            "id": "bfb0e4f328a9bca7",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=9"
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=10"
               }
             }
           }
@@ -223,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +262,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md"
+              }
             }
           }
         ],
@@ -268,7 +272,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,10 +287,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4835415b27718d26",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
@@ -313,7 +319,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
     "engineering/视频教程/Webpack原理与实践/docs",
     "engineering/视频教程/Webpack原理与实践",
