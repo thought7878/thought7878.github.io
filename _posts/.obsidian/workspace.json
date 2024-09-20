@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,16 +143,16 @@
         "currentTab": 9
       },
       {
-        "id": "60037787da331b7e",
+        "id": "fe5f46d24f1eac1b",
         "type": "tabs",
         "children": [
           {
-            "id": "c95301f02be1a608",
+            "id": "ff3633e3c8f1af42",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=7"
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=8"
               }
             }
           }
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md"
               }
             }
           }
@@ -289,14 +289,14 @@
   },
   "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
+    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
-    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
     "interview/0_工作机会.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "未命名.md",
