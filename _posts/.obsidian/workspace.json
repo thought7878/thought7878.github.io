@@ -223,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +262,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md"
+              }
             }
           }
         ],
@@ -283,7 +287,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3a7a0c620befb379",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
