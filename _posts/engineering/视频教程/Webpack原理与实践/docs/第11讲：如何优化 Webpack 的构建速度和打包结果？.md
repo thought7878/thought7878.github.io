@@ -1,77 +1,76 @@
 你好，我是汪磊，今天我们要一起探索的是 Webpack 在生产模式打包过程中的常用配置以及一些优化插件。
 
-在前面的课时中，我们了解到的一些用法和特性都是为了在开发阶段能够拥有更好的开发体验。而随着这些体验的提升，一个新的问题出现在我们面前：我们的打包结果会变得越来越臃肿。
+在前面的课时中，我们了解到的一些用法和特性都是为了在开发阶段能够拥有更好的开发体验。而随着这些体验的提升，**一个新的问题出现在我们面前：我们的打包结果会变得越来越臃肿**。_这是因为在这个过程中 Webpack 为了实现这些特性，会自动往打包结果中添加一些内容_。例如我们之前用到的 Source Map 和 HMR，它们都会在输出结果中添加额外代码来实现各自的功能。
 
-这是因为在这个过程中 Webpack 为了实现这些特性，会自动往打包结果中添加一些内容。例如我们之前用到的 Source Map 和 HMR，它们都会在输出结果中添加额外代码来实现各自的功能。
-
-但是这些额外的代码对生产环境来说是冗余的。因为生产环境和开发环境有很大的差异，在生产环境中我们强调的是以更少量、更高效的代码完成业务功能，也就是注重运行效率。而开发环境中我们注重的只是开发效率。
-
-那针对这个问题，Webpack 4 推出了 mode 的用法，为我们提供了不同模式下的一些预设配置，其中生产模式下就已经包括了很多优化配置。
-
+但是这些额外的代码对生产环境来说是冗余的。因为生产环境和开发环境有很大的差异，_在生产环境中我们强调的是以更少量、更高效的代码完成业务功能_，也就是注重运行效率。而开发环境中我们注重的只是开发效率。
+_那针对这个问题，Webpack 4 推出了 mode 的用法_，为我们提供了不同模式下的一些预设配置，其中*生产模式下就已经包括了很多优化配置*。
 同时 Webpack 也建议我们为不同的工作环境创建不同的配置，以便于让我们的打包结果可以适用于不同的环境。
 
 接下来我们一起来探索一下生产环境中的一些优化方式和注意事项。
 
 ### 不同环境下的配置
 
-我们先为不同的工作环境创建不同的 Webpack 配置。创建不同环境配置的方式主要有两种：
+我们先为不同的工作环境创建不同的 Webpack 配置。_创建不同环境配置的方式主要有两种：_
 
 - 在配置文件中添加相应的判断条件，根据环境不同导出不同配置；
-    
 - 为不同环境单独添加一个配置文件，一个环境对应一个配置文件。
-    
 
 我们分别尝试一下通过这两种方式，为开发环境和生产环境创建不同配置。
-
-首先我们来看在配置文件中添加判断的方式。我们回到配置文件中，Webpack 配置文件还支持导出一个函数，然后在函数中返回所需要的配置对象。这个函数可以接收两个参数，第一个是 env，是我们通过 CLI 传递的环境名参数，第二个是 argv，是运行 CLI 过程中的所有参数。具体代码如下：
+#### 在配置文件中添加判断
+首先我们来看在配置文件中添加判断的方式。我们回到配置文件中，*Webpack 配置文件还支持导出一个函数*，然后在函数中返回所需要的配置对象。这个*函数可以接收两个参数*，第一个是 `env`，是我们通过 CLI 传递的环境名参数，第二个是 `argv`，是运行 CLI 过程中的所有参数。具体代码如下：
 
 ```javascript
 // ./webpack.config.js
 module.exports = (env, argv) => {
   return {
     // ... webpack 配置
-  }
-}
+  };
+};
 ```
 
-那我们就可以借助这个特点，为开发环境和生产环境创建不同配置。我先将不同模式下公共的配置定义为一个 config 对象，具体代码如下：
+那我们就*可以借助这个特点，为开发环境和生产环境创建不同配置*。我先将不同模式下公共的配置定义为一个 config 对象，具体代码如下：
 
 ```javascript
 // ./webpack.config.js
 module.exports = (env, argv) => {
   const config = {
     // ... 不同模式下的公共配置
-  }
-  return config
-}
+  };
+  return config;
+};
 ```
 
 然后通过判断，再为 config 对象添加不同环境下的特殊配置。具体如下：
 
 ```javascript
 // ./webpack.config.js
+
 module.exports = (env, argv) => {
   const config = {
     // ... 不同模式下的公共配置
+  };
+
+  if (env === "development") {
+    // 为 config 添加开发模式下的特殊配置
+    config.mode = "development";
+    config.devtool = "cheap-eval-module-source-map";
+  } else if (env === "production") {
+    // 为 config 添加生产模式下的特殊配置
+    config.mode = "production";
+    config.devtool = "nosources-source-map";
   }
-if (env === 'development') {
-// 为 config 添加开发模式下的特殊配置
-config.mode = 'development'
-config.devtool = 'cheap-eval-module-source-map'
-} else if (env === 'production') {
-// 为 config 添加生产模式下的特殊配置
-config.mode = 'production'
-config.devtool = 'nosources-source-map'
-}
+
+  return config;
+};
 ```
 
-例如这里，我们判断 env 等于 development（开发模式）的时候，我们将 mode 设置为 development，将 devtool 设置为 cheap-eval-module-source-map；而当 env 等于 production（生产模式）时，我们又将 mode 和 devtool 设置为生产模式下需要的值。
+我们判断 env 等于 development（开发模式）的时候，我们将 mode 设置为 development，将 devtool 设置为 cheap-eval-module-source-map；而当 env 等于 production（生产模式）时，我们又将 mode 和 devtool 设置为生产模式下需要的值。
 
 当然，你还可以分别为不同模式设置其他不同的属性、插件，这也都是类似的。
 
-通过这种方式完成配置过后，我们打开命令行终端，这里我们再去执行 webpack 命令时就可以通过 --env 参数去指定具体的环境名称，从而实现在不同环境中使用不同的配置。
+通过这种方式完成配置过后，我们打开命令行终端，这里我们再去*执行 webpack 命令时就可以通过 `--env 参数`去指定具体的环境名称*，从而实现在不同环境中使用不同的配置。
 
-那这就是通过在 Webpack 配置文件导出的函数中对环境进行判断，从而实现不同环境对应不同配置。这种方式是 Webpack 建议的方式。
+那这就是通过在 Webpack 配置文件导出的函数中对环境进行判断，从而实现不同环境对应不同配置。*这种方式是 Webpack 建议的方式*。
 
 你也可以直接定义环境变量，然后在全局判断环境变量，根据环境变量的不同导出不同配置。这种方式也是类似的，这里我们就不做过多介绍了。
 
@@ -81,7 +80,7 @@ config.devtool = 'nosources-source-map'
 
 一般在这种方式下，项目中最少会有三个 webpack 的配置文件。其中两个用来分别适配开发环境和生产环境，另外一个则是公共配置。因为开发环境和生产环境的配置并不是完全不同的，所以需要一个公共文件来抽象两者相同的配置。具体配置文件结构如下：
 
-```java
+```text
 .
 ├── webpack.common.js ···························· 公共配置
 ├── webpack.dev.js ······························· 开发模式配置
@@ -96,27 +95,27 @@ config.devtool = 'nosources-source-map'
 // ./webpack.common.js
 module.exports = {
   // ... 公共配置
-}
+};
 // ./webpack.prod.js
-const common = require('./webpack.common')
+const common = require("./webpack.common");
 module.exports = Object.assign(common, {
   // 生产模式配置
-})
+});
 // ./webpack.dev.js
-const common = require('./webpack.common')
+const common = require("./webpack.common");
 module.exports = Object.assign(common, {
   // 开发模式配置
-})
+});
 ```
 
 如果你熟悉 Object.assign 方法，就应该知道，这个方法会完全覆盖掉前一个对象中的同名属性。这个特点对于普通值类型属性的覆盖都没有什么问题。但是像配置中的 plugins 这种数组，我们只是希望在原有公共配置的插件基础上添加一些插件，那 Object.assign 就做不到了。
 
-所以我们需要更合适的方法来合并这里的配置与公共的配置。你可以使用 [Lodash](http://lodash.com/) 提供的 merge 函数来实现，不过社区中提供了更为专业的模块 [webpack-merge](https://github.com/survivejs/webpack-merge)，它专门用来满足我们这里合并 Webpack 配置的需求。
+所以我们需要更合适的方法来合并这里的配置与公共的配置。你可以使用  [Lodash](http://lodash.com/)  提供的 merge 函数来实现，不过社区中提供了更为专业的模块  [webpack-merge](https://github.com/survivejs/webpack-merge)，它专门用来满足我们这里合并 Webpack 配置的需求。
 
 我们可以先通过 npm 安装一下 webpack-merge 模块。具体命令如下：
 
 ```shell
-$ npm i webpack-merge --save-dev 
+$ npm i webpack-merge --save-dev
 # or yarn add webpack-merge --dev
 ```
 
@@ -126,19 +125,19 @@ $ npm i webpack-merge --save-dev
 // ./webpack.common.js
 module.exports = {
   // ... 公共配置
-}
+};
 // ./webpack.prod.js
-const merge = require('webpack-merge')
-const common = require('./webpack.common')
+const merge = require("webpack-merge");
+const common = require("./webpack.common");
 module.exports = merge(common, {
   // 生产模式配置
-})
+});
 // ./webpack.dev.jss
-const merge = require('webpack-merge')
-const common = require('./webpack.common')
+const merge = require("webpack-merge");
+const common = require("./webpack.common");
 module.exports = merge(common, {
   // 开发模式配置
-})
+});
 ```
 
 使用 webpack-merge 过后，我们这里的配置对象就可以跟普通的 webpack 配置一样，需要什么就配置什么，merge 函数内部会自动处理合并的逻辑。
@@ -155,7 +154,6 @@ $ webpack --config webpack.prod.js
 
 在 Webpack 4 中新增的 production 模式下，内部就自动开启了很多通用的优化功能。对于使用者而言，开箱即用是非常方便的，但是对于学习者而言，这种开箱即用会导致我们忽略掉很多需要了解的东西。以至于出现问题无从下手。
 
-  
 如果你想要深入了解 Webpack 的使用，我建议你去单独研究每一个配置背后的作用。这里我们先一起学习 production 模式下几个主要的优化功能，顺便了解一下 Webpack 如何优化打包结果。
 
 #### Define Plugin
@@ -166,15 +164,15 @@ $ webpack --config webpack.prod.js
 
 ```javascript
 // ./webpack.config.js
-const webpack = require('webpack')
+const webpack = require("webpack");
 module.exports = {
-/  // ... 其他配置
+  // ... 其他配置
   plugins: [
     new webpack.DefinePlugin({
-      API_BASE_URL: 'https://api.example.com'
-    })
-  ]
-}
+      API_BASE_URL: "https://api.example.com",
+    }),
+  ],
+};
 ```
 
 例如我们这里通过 DefinePlugin 定义一个 API_BASE_URL，用来为我们的代码注入 API 服务地址，它的值是一个字符串。
@@ -183,7 +181,7 @@ module.exports = {
 
 ```javascript
 // ./src/main.js
-console.log(API_BASE_URL)
+console.log(API_BASE_URL);
 ```
 
 完成以后我们打开控制台，然后运行 webpack 打包。打包完成过后我们找到打包的结果，然后找到 main.js 对应的模块。具体结果如下：
@@ -196,16 +194,16 @@ console.log(API_BASE_URL)
 
 ```javascript
 // ./webpack.config.js
-const webpack = require('webpack')
+const webpack = require("webpack");
 module.exports = {
   // ... 其他配置
   plugins: [
     new webpack.DefinePlugin({
       // 值要求的是一个代码片段
-      API_BASE_URL: '"https://api.example.com"'
-    })
-  ]
-}
+      API_BASE_URL: '"https://api.example.com"',
+    }),
+  ],
+};
 ```
 
 这样代码内的 API_BASE_URL 就会被替换为 "https://api.example.com"。具体结果如下：
@@ -216,16 +214,16 @@ module.exports = {
 
 ```javascript
 // ./webpack.config.js
-const webpack = require('webpack')
+const webpack = require("webpack");
 module.exports = {
   // ... 其他配置
   plugins: [
     new webpack.DefinePlugin({
       // 值要求的是一个代码片段
-      API_BASE_URL: JSON.stringify('https://api.example.com')
-    })
-  ]
-}
+      API_BASE_URL: JSON.stringify("https://api.example.com"),
+    }),
+  ],
+};
 ```
 
 DefinePlugin 的作用虽然简单，但是却非常有用，我们可以用它在代码中注入一些可能变化的值。
@@ -244,14 +242,14 @@ $ npm i mini-css-extract-plugin --save-dev
 
 ```javascript
 // ./webpack.config.js
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
-  mode: 'none',
+  mode: "none",
   entry: {
-    main: './src/index.js'
+    main: "./src/index.js",
   },
   output: {
-    filename: '[name].bundle.js'
+    filename: "[name].bundle.js",
   },
   module: {
     rules: [
@@ -260,15 +258,13 @@ module.exports = {
         use: [
           // 'style-loader', // 将样式通过 style 标签注入
           MiniCssExtractPlugin.loader,
-          'css-loader'
-        ]
-      }
-    ]
+          "css-loader",
+        ],
+      },
+    ],
   },
-  plugins: [
-    new MiniCssExtractPlugin()
-  ]
-}
+  plugins: [new MiniCssExtractPlugin()],
+};
 ```
 
 我们这里先导入这个插件模块，导入过后我们就可以将这个插件添加到配置对象的 plugins 数组中了。这样 Mini CSS Extract Plugin 在工作时就会自动提取代码中的 CSS 了。
@@ -295,7 +291,7 @@ module.exports = {
 
 这是因为，Webpack 内置的压缩插件仅仅是针对 JS 文件的压缩，其他资源文件的压缩都需要额外的插件。
 
-Webpack 官方推荐了一个 [Optimize CSS Assets Webpack Plugin](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin) 插件。我们可以使用这个插件来压缩我们的样式文件。
+Webpack 官方推荐了一个  [Optimize CSS Assets Webpack Plugin](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)  插件。我们可以使用这个插件来压缩我们的样式文件。
 
 我们回到命令行，先来安装这个插件，具体命令如下：
 
@@ -307,32 +303,26 @@ $ npm i optimize-css-assets-webpack-plugin --save-dev
 
 ```javascript
 // ./webpack.config.js
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCssAssetsWebpackPlugin = require("optimize-css-assets-webpack-plugin");
 module.exports = {
-  mode: 'none',
+  mode: "none",
   entry: {
-    main: './src/index.js'
+    main: "./src/index.js",
   },
   output: {
-    filename: '[name].bundle.js'
+    filename: "[name].bundle.js",
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader'
-        ]
-      }
-    ]
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+    ],
   },
-  plugins: [
-    new MiniCssExtractPlugin(),
-    new OptimizeCssAssetsWebpackPlugin()
-  ]
-}
+  plugins: [new MiniCssExtractPlugin(), new OptimizeCssAssetsWebpackPlugin()],
+};
 ```
 
 这里同样先导入这个插件，导入完成以后我们把这个插件添加到 plugins 数组中。
@@ -347,36 +337,29 @@ module.exports = {
 
 ```javascript
 // ./webpack.config.js
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCssAssetsWebpackPlugin = require("optimize-css-assets-webpack-plugin");
 module.exports = {
-  mode: 'none',
+  mode: "none",
   entry: {
-    main: './src/index.js'
+    main: "./src/index.js",
   },
   output: {
-    filename: '[name].bundle.js'
+    filename: "[name].bundle.js",
   },
   optimization: {
-    minimizer: [
-      new OptimizeCssAssetsWebpackPlugin()
-    ]
+    minimizer: [new OptimizeCssAssetsWebpackPlugin()],
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader'
-        ]
-      }
-    ]
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+    ],
   },
-  plugins: [
-    new MiniCssExtractPlugin()
-  ]
-}
+  plugins: [new MiniCssExtractPlugin()],
+};
 ```
 
 那这是为什么呢？
@@ -401,38 +384,33 @@ $ npm i terser-webpack-plugin --save-dev
 
 ```javascript
 // ./webpack.config.js
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
-const TerserWebpackPlugin = require('terser-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCssAssetsWebpackPlugin = require("optimize-css-assets-webpack-plugin");
+const TerserWebpackPlugin = require("terser-webpack-plugin");
 module.exports = {
-  mode: 'none',
+  mode: "none",
   entry: {
-    main: './src/index.js'
+    main: "./src/index.js",
   },
   output: {
-    filename: '[name].bundle.js'
+    filename: "[name].bundle.js",
   },
   optimization: {
     minimizer: [
       new TerserWebpackPlugin(),
-      new OptimizeCssAssetsWebpackPlugin()
-    ]
+      new OptimizeCssAssetsWebpackPlugin(),
+    ],
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader'
-        ]
-      }
-    ]
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+    ],
   },
-  plugins: [
-    new MiniCssExtractPlugin()
-  ]
-}
+  plugins: [new MiniCssExtractPlugin()],
+};
 ```
 
 那这样的话，我们再次以生产模式运行打包，JS 文件和 CSS 文件就都可以正常压缩了。
