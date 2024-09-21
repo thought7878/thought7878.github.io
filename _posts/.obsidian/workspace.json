@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,22 +141,6 @@
           }
         ],
         "currentTab": 9
-      },
-      {
-        "id": "5139083957c3b0c2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a7a0c620befb379",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=12"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -206,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -223,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md"
               }
             }
           }
@@ -272,8 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,7 +271,7 @@
   },
   "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
     "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
