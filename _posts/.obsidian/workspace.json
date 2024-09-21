@@ -185,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:RefObject",
+                "query": "###",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,7 +202,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
