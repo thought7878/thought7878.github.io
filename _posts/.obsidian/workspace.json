@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       },
       {
         "id": "5f2a515c8af338eb",
@@ -223,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +262,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md"
+              }
             }
           }
         ],
@@ -283,15 +287,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2eef1878a2de9419",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
     "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
+    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
     "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
