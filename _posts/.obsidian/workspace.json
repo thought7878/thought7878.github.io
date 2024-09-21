@@ -140,19 +140,19 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
-        "id": "45a376e835d3157a",
+        "id": "5f2a515c8af338eb",
         "type": "tabs",
         "children": [
           {
-            "id": "4da7bbd64e40c023",
+            "id": "2eef1878a2de9419",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=10"
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=11"
               }
             }
           }
@@ -223,7 +223,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +239,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,9 +260,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -287,10 +283,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f87bab9a5d310cbf",
+  "active": "2eef1878a2de9419",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
     "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
     "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
