@@ -1,3 +1,5 @@
+玩转 Webpack 高级特性应对项目优化需求（上）
+
 今天我将和你分享 Webpack 的两个高级特性，分别是 Tree Shaking 和 sideEffects。
 
 它们都属于 Webpack 打包结果优化的必备特性，而且现在应用的也十分广泛。
@@ -309,7 +311,7 @@ _另外，我们刚刚探索的过程也值得你仔细再去琢磨一下，通�
 
 #### Why & What
 Webpack 4 中新增了一个 `sideEffects 特性`，它允许我们**通过配置标识我们的代码是否有副作用，从而提供更大的压缩空间**。
-*模块的副作用*指的就是模块执行的时候除了导出成员，是否还做了其他的事情。
+*模块的副作用*指的就是在顶级作用域，模块执行的时候除了导出成员，是否还做了其他的事情。
 
 **这个特性一般只有我们去开发一个 npm 模块时才会用到**。因为官网把对 sideEffects 特性的介绍跟 Tree-shaking 混到了一起，所以很多人误认为它们之间是因果关系，其实它们没有什么太大的关系。
 我们先把 sideEffects 特性本身的作用弄明白，你就更容易理解为什么说它跟 Tree-shaking 没什么关系了。
@@ -342,7 +344,7 @@ export { default as Heading } from "./heading";
 
 ```javascript
 // ./src/components/button.js
-console.log("Button component~"); // 副作用代码
+console.log("Button component~"); // 副作用代码，在顶级作用域
 export default () => {
   return document.createElement("button");
 };
@@ -365,15 +367,15 @@ document.body.appendChild(Button());
 
 ![[engineering/视频教程/Webpack原理与实践/docs/media/6ce3403e87f7fda8c5e10d3ac06deec1_MD5.png]]
 
-*但是由于这些成员所属的模块中有副作用代码，所以就导致最终 Tree-shaking 过后，这些模块并不会被完全移除*。
+**但是由于这些成员所属的模块中有副作用代码，所以就导致最终 Tree-shaking 过后，这些模块并不会被完全移除**。
 
-可能你会认为这些代码应该保留下来，而实际情况是，这些模块内的副作用代码一般都是为这个模块服务的，例如这里我添加的 console.log，就是希望表示一下当前这个模块被加载了。*但是最终整个模块都没用到，也就没必要留下这些副作用代码了*。
+可能你会认为这些代码应该保留下来，而实际情况是，*这些模块内的副作用代码一般都是为这个模块服务的*，例如这里我添加的 console.log，就是希望表示一下当前这个模块被加载了。*但是最终整个模块都没用到，也就没必要留下这些副作用代码了*。
 
 所以说，**Tree-shaking 只能移除没有用到的代码成员，而想要完整移除没有用到的模块，那就需要开启 sideEffects 特性了**。
 
 #### sideEffects 作用
 
-我们打开 Webpack 的配置文件，在 optimization 中开启 sideEffects 特性，具体配置如下：
+*这个特性在 production 模式下同样会自动开启*。我们打开 Webpack 的配置文件，在 optimization 中开启 sideEffects 特性，具体配置如下：
 
 ```javascript
 // ./webpack.config.js
@@ -389,11 +391,8 @@ module.exports = {
 };
 ```
 
-> TIPS：注意这个特性在 production 模式下同样会自动开启。
-
-那此时 Webpack 在打包某个模块之前，会先检查这个模块所属的 package.json 中的 sideEffects 标识，以此来判断这个模块是否有副作用，如果没有副作用的话，这些没用到的模块就不再被打包。换句话说，即便这些没有用到的模块中存在一些副作用代码，我们也可以通过 package.json 中的 sideEffects 去强制声明没有副作用。
-
-那我们打开项目 package.json 添加一个 sideEffects 字段，把它设置为 false，具体代码如下：
+*此时 Webpack 在打包某个模块之前，会先检查这个模块所属的 package.json 中的 sideEffects 标识，以此来判断这个模块是否有副作用*，如果没有副作用的话，这些没用到的模块就不再被打包。换句话说，*即便这些没有用到的模块中存在一些副作用代码，我们也可以通过 package.json 中的 sideEffects 去强制声明没有副作用*。
+那我们打开项目 `package.json` 添加一个 sideEffects 字段，把它设置为 false，具体代码如下：
 
 ```json
 {
@@ -420,10 +419,10 @@ module.exports = {
 
 此时那些没有用到的模块就彻底不会被打包进来了。那这就是 sideEffects 的作用。
 
-这里设置了两个地方：
+**这里设置了两个地方：**
 
-- webpack.config.js 中的 sideEffects 用来开启这个功能；
-- package.json 中的 sideEffects 用来标识我们的代码没有副作用。
+- `webpack.config.js` 中的 sideEffects 用来开启这个功能；
+- `package.json` 中的 sideEffects 用来标识我们的代码没有副作用。
 
 目前很多第三方的库或者框架都已经使用了 sideEffects 标识，所以我们再也不用担心为了一个小功能引入一个很大体积的库了。例如，某个 UI 组件库中只有一两个组件会用到，那只要它支持 sideEffects，你就可以放心大胆的直接用了。
 

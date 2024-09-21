@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,28 +138,16 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5c1f641656c7b698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       },
       {
-        "id": "f00b59e3bce3917b",
+        "id": "45a376e835d3157a",
         "type": "tabs",
         "children": [
           {
-            "id": "bfb0e4f328a9bca7",
+            "id": "4da7bbd64e40c023",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
@@ -235,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md"
               }
             }
           }
@@ -299,10 +287,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5c1f641656c7b698",
+  "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
-    "engineering/视频教程/Webpack原理与实践/docs/第09讲：玩转 Webpack 高级特性应对项目优化需求（上）.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
@@ -326,11 +319,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/media/dafd0427a92ada3e16da7e5ba850ce08_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/bfd3741bceca7451ccbc308cf370ba8d_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/b114786173ffad6a402a99aabb242736_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第11讲：如何优化 Webpack 的构建速度和打包结果？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第10讲：玩转 Webpack 高级特性应对项目优化需求（下）.md",
     "engineering/视频教程/Webpack原理与实践/docs/media",
     "engineering/视频教程/Webpack原理与实践/docs",
     "engineering/视频教程/Webpack原理与实践",
