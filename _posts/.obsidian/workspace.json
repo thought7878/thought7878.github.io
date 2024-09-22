@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,6 +141,22 @@
           }
         ],
         "currentTab": 9
+      },
+      {
+        "id": "c35643504def63da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16ebf72e25647b3a",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV18S4y1u7w8?p=13"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -206,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md"
               }
             }
           }
@@ -255,7 +272,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,13 +289,14 @@
   },
   "active": "f87bab9a5d310cbf",
   "lastOpenFiles": [
+    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
+    "engineering/视频教程/Webpack原理与实践/视频列表.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
     "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
-    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
@@ -310,7 +329,6 @@
     "engineering/overview_interview/11- CSS预处理器(Sass、Less)的功能.md",
     "engineering/overview_interview/12- PostCSS的功能.md",
     "engineering/overview_interview/13- 构建工具优化前端性能.md",
-    "engineering/overview_interview/14- Webpack原理.md",
     "engineering/从0到1/media",
     "engineering/从0到1",
     "security/未命名.canvas",
