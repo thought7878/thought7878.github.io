@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 73.20916905444126,
+        "dimension": 69.05444126074498,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -134,7 +134,7 @@
             "state": {
               "type": "mx-file-video",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4"
+                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4"
               }
             }
           }
@@ -144,7 +144,7 @@
       {
         "id": "f2e74e2b73cfb746",
         "type": "tabs",
-        "dimension": 26.790830945558742,
+        "dimension": 30.945558739255013,
         "children": [
           {
             "id": "7133c161229032ac",
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/07.简历制作-教育经历.md",
+                "file": "interview/简历指导 & 面试辅导/11.简历制作-自我评价.md",
                 "mode": "source",
                 "source": false
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4",
+                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4",
+                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4"
+                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4"
               }
             }
           }
@@ -290,6 +290,14 @@
   },
   "active": "d3478a6c7afd147e",
   "lastOpenFiles": [
+    "interview/简历指导 & 面试辅导/11.简历制作-自我评价.mp4",
+    "interview/简历指导 & 面试辅导/11.简历制作-自我评价.md",
+    "interview/简历指导 & 面试辅导/10.简历制作-项目经验.md",
+    "interview/简历指导 & 面试辅导/10.简历制作-项目经验.mp4",
+    "interview/简历指导 & 面试辅导/09.简历制作-工作经历.md",
+    "interview/简历指导 & 面试辅导/09.简历制作-工作经历.mp4",
+    "interview/简历指导 & 面试辅导/08.简历制作-专业技术.md",
+    "interview/简历指导 & 面试辅导/08.简历制作-专业技术.mp4",
     "interview/简历指导 & 面试辅导/07.简历制作-教育经历.md",
     "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4",
     "interview/简历指导 & 面试辅导/06.简历制作-基本信息.md",
@@ -303,11 +311,7 @@
     "interview/简历指导 & 面试辅导/02.就业方向.md",
     "interview/简历指导 & 面试辅导/02.就业方向.mp4",
     "interview/简历指导 & 面试辅导/01.概述.md",
-    "interview/简历指导 & 面试辅导/01.概述.mp4",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
-    "interview/视频/01.概述.mp4",
-    "interview/简历指导 & 面试辅导/19.面试技巧-薪资问题.mp4",
-    "interview/简历指导 & 面试辅导/18.面试技巧-了解面试官.mp4",
     "interview/视频/01.md",
     "tools/obsidian/用Obsidian做本地视频笔记.md",
     "tools/obsidian/基础.md",
@@ -321,10 +325,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
     "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
     "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第07讲：如何配置 Webpack SourceMap 的最佳实践？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第06讲：如何使用 Dev Server 提高你的本地开发效率？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第05讲：探索 Webpack 运行机制与核心工作原理.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第04讲：如何利用插件机制横向扩展 Webpack 的构建能力？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
