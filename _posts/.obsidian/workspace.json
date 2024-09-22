@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 69.05444126074498,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -122,43 +121,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
+                "file": "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d3478a6c7afd147e",
-            "type": "leaf",
-            "state": {
-              "type": "mx-file-video",
-              "state": {
-                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4"
-              }
-            }
-          }
-        ],
-        "currentTab": 10
-      },
-      {
-        "id": "f2e74e2b73cfb746",
-        "type": "tabs",
-        "dimension": 30.945558739255013,
-        "children": [
-          {
-            "id": "7133c161229032ac",
+            "id": "77414e678bca7298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.md",
+                "file": "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25a8c639c87e4d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "security/同源策略.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -208,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 298.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -224,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
+                "file": "security/同源策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
+                "file": "security/同源策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4"
+                "file": "security/同源策略.md"
               }
             }
           }
@@ -273,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,8 +281,21 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d3478a6c7afd147e",
+  "active": "25a8c639c87e4d3f",
   "lastOpenFiles": [
+    "要整理的.md",
+    "base/js/知识点总结/Polyfill.md",
+    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
+    "engineering/overview_interview/12- PostCSS的功能.md",
+    "engineering/overview_interview/10- Webpack配置CodeSplitting代码分割.md",
+    "engineering/overview_interview/08- Webpack提高构建效率.md",
+    "engineering/从0到1/13.进程管理：Node服务运行起来无缘无故中断，如何常驻后台？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
+    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "interview/简历指导 & 面试辅导/14.在线简历制作.mp4",
+    "interview/简历指导 & 面试辅导/14.在线简历制作.md",
     "interview/简历指导 & 面试辅导/13.面试刷题方式.md",
     "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
     "interview/简历指导 & 面试辅导/12.复习方案.md",
@@ -309,22 +315,10 @@
     "interview/简历指导 & 面试辅导/05.面试流程.md",
     "interview/简历指导 & 面试辅导/05.面试流程.mp4",
     "interview/简历指导 & 面试辅导/04.职业发展方向.md",
-    "interview/简历指导 & 面试辅导/04.职业发展方向.mp4",
     "interview/简历指导 & 面试辅导/03.公司组织架构.md",
     "interview/简历指导 & 面试辅导/02.就业方向.md",
     "interview/简历指导 & 面试辅导/01.概述.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
-    "interview/视频/01.md",
-    "tools/obsidian/用Obsidian做本地视频笔记.md",
-    "tools/obsidian/基础.md",
-    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
-    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第13讲：如何使用 Parcel 零配置完成打包任务？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第12讲：如何选择打包工具：Rollup 和 Webpack ？.md",
-    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
-    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
