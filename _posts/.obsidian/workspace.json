@@ -134,7 +134,7 @@
             "state": {
               "type": "mx-file-video",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4"
+                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/11.简历制作-自我评价.md",
+                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.md",
                 "mode": "source",
                 "source": false
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4",
+                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4",
+                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历指导 & 面试辅导/12.复习方案.mp4"
+                "file": "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4"
               }
             }
           }
@@ -290,8 +290,12 @@
   },
   "active": "d3478a6c7afd147e",
   "lastOpenFiles": [
-    "interview/简历指导 & 面试辅导/11.简历制作-自我评价.mp4",
+    "interview/简历指导 & 面试辅导/13.面试刷题方式.md",
+    "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
+    "interview/简历指导 & 面试辅导/12.复习方案.md",
+    "interview/简历指导 & 面试辅导/12.复习方案.mp4",
     "interview/简历指导 & 面试辅导/11.简历制作-自我评价.md",
+    "interview/简历指导 & 面试辅导/11.简历制作-自我评价.mp4",
     "interview/简历指导 & 面试辅导/10.简历制作-项目经验.md",
     "interview/简历指导 & 面试辅导/10.简历制作-项目经验.mp4",
     "interview/简历指导 & 面试辅导/09.简历制作-工作经历.md",
@@ -307,9 +311,7 @@
     "interview/简历指导 & 面试辅导/04.职业发展方向.md",
     "interview/简历指导 & 面试辅导/04.职业发展方向.mp4",
     "interview/简历指导 & 面试辅导/03.公司组织架构.md",
-    "interview/简历指导 & 面试辅导/03.公司组织架构.mp4",
     "interview/简历指导 & 面试辅导/02.就业方向.md",
-    "interview/简历指导 & 面试辅导/02.就业方向.mp4",
     "interview/简历指导 & 面试辅导/01.概述.md",
     "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "interview/视频/01.md",
@@ -323,8 +325,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/第11讲：不同环境下的配置和生产模式下的优化插件.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "engineering/视频教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第09讲：Tree Shaking 和 sideEffects.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第08讲：如何让你的模块支持热替换（HMR）机制？.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
