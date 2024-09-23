@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 36.03151862464183,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -154,23 +153,6 @@
           }
         ],
         "currentTab": 11
-      },
-      {
-        "id": "59aba8105a2279e3",
-        "type": "tabs",
-        "dimension": 63.96848137535817,
-        "children": [
-          {
-            "id": "33e0f85406d1b26a",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1rzvbeaEFC/"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -220,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -237,6 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "interview/简历/参考案例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,6 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "interview/简历/参考案例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +257,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "interview/简历/参考案例.md"
+              }
             }
           }
         ],
@@ -297,7 +282,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "33e0f85406d1b26a",
+  "active": "47980c27e2b7d4c2",
   "lastOpenFiles": [
     "interview/简历/参考案例.md",
     "interview/简历",
