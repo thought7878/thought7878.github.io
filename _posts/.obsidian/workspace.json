@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 36.03151862464183,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -133,19 +134,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+                "file": "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "25a8c639c87e4d3f",
+            "id": "47980c27e2b7d4c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "security/同源策略.md",
+                "file": "interview/简历/参考案例.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,6 +154,23 @@
           }
         ],
         "currentTab": 11
+      },
+      {
+        "id": "59aba8105a2279e3",
+        "type": "tabs",
+        "dimension": 63.96848137535817,
+        "children": [
+          {
+            "id": "33e0f85406d1b26a",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1rzvbeaEFC/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -218,7 +237,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "security/同源策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +253,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "security/同源策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,9 +274,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "security/同源策略.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -267,7 +282,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,12 +297,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "25a8c639c87e4d3f",
+  "active": "33e0f85406d1b26a",
   "lastOpenFiles": [
+    "interview/简历/参考案例.md",
+    "interview/简历",
+    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
+    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+    "security/同源策略.md",
     "要整理的.md",
     "base/js/知识点总结/Polyfill.md",
-    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
-    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
     "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
     "engineering/overview_interview/12- PostCSS的功能.md",
     "engineering/overview_interview/10- Webpack配置CodeSplitting代码分割.md",
@@ -313,12 +332,8 @@
     "interview/简历指导 & 面试辅导/06.简历制作-基本信息.md",
     "interview/简历指导 & 面试辅导/06.简历制作-基本信息.mp4",
     "interview/简历指导 & 面试辅导/05.面试流程.md",
-    "interview/简历指导 & 面试辅导/05.面试流程.mp4",
     "interview/简历指导 & 面试辅导/04.职业发展方向.md",
     "interview/简历指导 & 面试辅导/03.公司组织架构.md",
-    "interview/简历指导 & 面试辅导/02.就业方向.md",
-    "interview/简历指导 & 面试辅导/01.概述.md",
-    "engineering/视频教程/Webpack原理与实践/视频列表.md",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
