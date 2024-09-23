@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/参考案例.md",
+                "file": "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/参考案例.md",
+                "file": "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历/参考案例.md"
+                "file": "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md"
               }
             }
           }
@@ -267,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,7 +281,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "47980c27e2b7d4c2",
+  "active": "77414e678bca7298",
   "lastOpenFiles": [
     "interview/简历/参考案例.md",
     "interview/简历",
