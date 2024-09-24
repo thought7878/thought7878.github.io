@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,18 +164,6 @@
             }
           },
           {
-            "id": "26579bb67ff997f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "methods/如何学习和记忆：字幕.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ee0ef9fd1eddc5e4",
             "type": "leaf",
             "state": {
@@ -188,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -254,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md"
+                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md"
               }
             }
           }
@@ -317,15 +305,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ee0ef9fd1eddc5e4",
+  "active": "edd8ff994944bff1",
   "lastOpenFiles": [
-    "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
+    "engineering/视频教程/Webpack原理与实践/docs/加餐：Vue.j 3.0 到底带来了哪些变化？.md",
+    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
+    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
+    "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance",
     "performance/indicators/CLS.md",
     "performance/视频资料/Web Performance Fundamentals",
     "performance/视频资料",
-    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
     "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
     "methods/如何学习和记忆：字幕.md",
     "methods/自我管理.md",
@@ -333,7 +324,6 @@
     "methods/如何规划好一天.md",
     "读书笔记/社会 & 资本主义.md",
     "interview/简历/参考案例.md",
-    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
@@ -347,8 +337,6 @@
     "engineering/overview_interview/10- Webpack配置CodeSplitting代码分割.md",
     "engineering/overview_interview/08- Webpack提高构建效率.md",
     "engineering/从0到1/13.进程管理：Node服务运行起来无缘无故中断，如何常驻后台？.md",
-    "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
-    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "interview/简历指导 & 面试辅导/14.在线简历制作.mp4",
     "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
     "interview/简历指导 & 面试辅导/12.复习方案.mp4",

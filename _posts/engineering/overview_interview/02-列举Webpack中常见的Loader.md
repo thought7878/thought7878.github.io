@@ -39,13 +39,13 @@ https://www.bilibili.com/video/BV1Wz4y1B7fn/?spm_id_from=333.788&vd_source=22af9
 
 ## Loader 的作用
 
-- **转换文件类型：** 将非 JavaScript 文件（如 CSS、Less、Sass、TypeScript 等）转换成 JavaScript 模块，以便 Webpack 打包处理。
+- **转换文件类型：** *将非 JavaScript 文件（如 CSS、Less、Sass、TypeScript 等）转换成在 JavaScript 模块可使用的模块，以便 Webpack 打包处理*。
 - **提取样式、图片等资源：** 将样式、图片等资源从 JavaScript 代码中提取出来，生成独立的文件，从而优化页面加载速度。
 - **处理其他任务：** Loader 可以执行一些其他的任务，比如编译、压缩、转换等。
 
 ## Loader 的工作原理
 
-1. **Webpack 从入口文件开始，根据模块的依赖关系，找到需要处理的文件。**
+1. **Webpack 从入口文件开始，根据模块的依赖关系，递归找到需要处理的文件。**
 2. **Webpack 找到对应的 Loader，将文件交给 Loader 处理。**
 3. **Loader 对文件进行转换，生成 JavaScript 模块。**
 4. **生成的 JavaScript 模块被添加到依赖图中，Webpack 继续处理下一个模块。**
