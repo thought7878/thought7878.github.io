@@ -76,6 +76,10 @@ module.exports = {
 - **作用：** 将 ES6+ 语法转换为 ES5，以便在老旧浏览器上运行；使用最新的 JavaScript 语法特性。
 - **使用场景：** 现代 JavaScript 项目中，为了使用最新的 JavaScript 语法特性。除了转换 JavaScript，babel-loader 还可以与其他 loader 配合，比如 `babel-loader` + `jsx-loader` 处理 JSX 语法。
 
+#### **ts-loader**
+- **作用：** 将 `.ts` 和 `.tsx` 文件编译为 JavaScript 文件。
+- 
+
 ### CSS
 #### **css-loader**
 - **作用：** 将 CSS 模块加载到 JavaScript 中，作为模块的依赖。

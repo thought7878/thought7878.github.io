@@ -174,9 +174,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ee0ef9fd1eddc5e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -226,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -243,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md"
+                "file": "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md"
               }
             }
           }
@@ -292,8 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,11 +317,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9fe9582c9539c0d5",
+  "active": "ee0ef9fd1eddc5e4",
   "lastOpenFiles": [
-    "methods/如何学习和记忆：字幕.md",
+    "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
+    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
+    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance",
+    "performance/indicators/CLS.md",
+    "performance/视频资料/Web Performance Fundamentals",
+    "performance/视频资料",
     "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
     "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
+    "methods/如何学习和记忆：字幕.md",
     "methods/自我管理.md",
     "methods/动力.md",
     "methods/如何规划好一天.md",
@@ -334,17 +350,11 @@
     "engineering/视频教程/Webpack原理与实践/docs/结束彩蛋：资深前端工程师培养计划.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "interview/简历指导 & 面试辅导/14.在线简历制作.mp4",
-    "interview/简历指导 & 面试辅导/14.在线简历制作.md",
-    "interview/简历指导 & 面试辅导/13.面试刷题方式.md",
     "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
-    "interview/简历指导 & 面试辅导/12.复习方案.md",
     "interview/简历指导 & 面试辅导/12.复习方案.mp4",
     "interview/简历指导 & 面试辅导/11.简历制作-自我评价.mp4",
     "interview/简历指导 & 面试辅导/10.简历制作-项目经验.mp4",
     "interview/简历指导 & 面试辅导/09.简历制作-工作经历.mp4",
-    "interview/简历指导 & 面试辅导/08.简历制作-专业技术.mp4",
-    "interview/简历指导 & 面试辅导/07.简历制作-教育经历.mp4",
-    "interview/简历指导 & 面试辅导/06.简历制作-基本信息.mp4",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
