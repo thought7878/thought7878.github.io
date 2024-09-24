@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 30.15759312320917,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -178,23 +177,6 @@
           }
         ],
         "currentTab": 12
-      },
-      {
-        "id": "035d990f052937a6",
-        "type": "tabs",
-        "dimension": 69.84240687679083,
-        "children": [
-          {
-            "id": "6c2cce66bdd9e2ca",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1BopsenEaW/"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -261,6 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,6 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +282,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md"
+              }
             }
           }
         ],
@@ -321,15 +307,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c2cce66bdd9e2ca",
+  "active": "9fe9582c9539c0d5",
   "lastOpenFiles": [
-    "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
     "methods/如何学习和记忆：字幕.md",
+    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+    "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
     "methods/自我管理.md",
     "methods/动力.md",
     "methods/如何规划好一天.md",
     "读书笔记/社会 & 资本主义.md",
-    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
     "interview/简历/参考案例.md",
     "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",

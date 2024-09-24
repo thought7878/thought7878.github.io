@@ -1,4 +1,4 @@
-[youtube 原始视频](https://www.youtube.com/watch?v=ddq8JIMhz7c&ab_channel=AndrewHuberman)
+[youtube 原始视频](https://www.youtube.com/watch?v=ddq8JIMhz7c&ab_channel=AndrewHuberman)、[笔记](https://www.hubermanlab.com/episode/optimal-protocols-for-studying-learning)
 
 [b站](https://www.bilibili.com/video/BV1BopsenEaW/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
 
