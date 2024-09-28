@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -239,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -320,8 +320,8 @@
   },
   "active": "d30897dd9c51569c",
   "lastOpenFiles": [
-    "interview/0_工作机会.md",
     "interview/前端知识体系及难点.md",
+    "interview/0_工作机会.md",
     "interview/salary.md",
     "interview/字节跳动资深前端面试官的经验.md",
     "interview/media/f993114db4c8d991426ec8e1955cec37_MD5.png",
