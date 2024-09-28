@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 32.09169054441261,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/字节跳动资深前端面试官的经验.md",
+                "file": "interview/前端知识体系及难点.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,23 +190,6 @@
           }
         ],
         "currentTab": 14
-      },
-      {
-        "id": "0166945804e65632",
-        "type": "tabs",
-        "dimension": 67.90830945558739,
-        "children": [
-          {
-            "id": "8782bc0c55c1043a",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1nntDezE38/"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -256,8 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -273,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/字节跳动资深前端面试官的经验.md",
+                "file": "interview/前端知识体系及难点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/字节跳动资深前端面试官的经验.md",
+                "file": "interview/前端知识体系及难点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/字节跳动资深前端面试官的经验.md"
+                "file": "interview/前端知识体系及难点.md"
               }
             }
           }
@@ -322,8 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -339,8 +320,11 @@
   },
   "active": "d30897dd9c51569c",
   "lastOpenFiles": [
-    "interview/media/f993114db4c8d991426ec8e1955cec37_MD5.png",
+    "interview/0_工作机会.md",
+    "interview/前端知识体系及难点.md",
+    "interview/salary.md",
     "interview/字节跳动资深前端面试官的经验.md",
+    "interview/media/f993114db4c8d991426ec8e1955cec37_MD5.png",
     "interview/media/af3d4f077fd782fa9a6bebe5b7444faa_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
     "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
@@ -373,9 +357,7 @@
     "interview/简历/参考案例.md",
     "engineering/视频教程/Webpack原理与实践/docs/第03讲：如何通过 Loader 实现特殊资源加载？.md",
     "engineering/视频教程/Webpack原理与实践/docs/第02讲：如何使用 Webpack 实现模块化打包？.md",
-    "engineering/overview_interview/06- Sourcemap.md",
     "interview/简历",
-    "security/同源策略.md",
     "interview/简历指导 & 面试辅导/14.在线简历制作.mp4",
     "interview/简历指导 & 面试辅导/13.面试刷题方式.mp4",
     "interview/简历指导 & 面试辅导/12.复习方案.mp4",
@@ -384,7 +366,6 @@
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/f40d766e487768ed5096016b841da606_MD5.png",
-    "engineering/视频教程/Webpack原理与实践/docs/media/83d744868ad62b57f87b969ad7fb8f37_MD5.png",
     "security/未命名.canvas"
   ]
 }
