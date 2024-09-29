@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 27.148997134670488,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -170,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,23 +189,6 @@
           }
         ],
         "currentTab": 13
-      },
-      {
-        "id": "e4c487a7031c5652",
-        "type": "tabs",
-        "dimension": 72.85100286532952,
-        "children": [
-          {
-            "id": "a23d769a02a31e2e",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1s34y1r7hB?p=18"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -256,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -273,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md"
+                "file": "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md"
               }
             }
           }
@@ -339,6 +320,7 @@
   },
   "active": "ee0ef9fd1eddc5e4",
   "lastOpenFiles": [
+    "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/1.Web Business Objectives.md",
@@ -366,7 +348,6 @@
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/7.Improving CLS Practice.md",
     "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
     "performance/视频资料/Web Performance Fundamentals/7.Wrapping Up.md",
-    "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance",
