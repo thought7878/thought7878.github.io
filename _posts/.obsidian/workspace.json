@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
+                "file": "performance/浏览器/浏览器如何工作.md",
                 "mode": "source",
                 "source": false
               }
@@ -250,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -267,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
+                "file": "performance/浏览器/浏览器如何工作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
+                "file": "performance/浏览器/浏览器如何工作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md"
+                "file": "performance/浏览器/浏览器如何工作.md"
               }
             }
           }
@@ -316,8 +315,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -333,9 +331,12 @@
   },
   "active": "ee0ef9fd1eddc5e4",
   "lastOpenFiles": [
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
+    "performance/浏览器/浏览器如何工作.md",
+    "performance/浏览器",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
     "interview/前端知识体系及难点.md",
     "AI/AI工具集合.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/c70d23a7424df54ffd96c87c7ba1cf38_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
@@ -358,10 +359,8 @@
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/8590d57627d6fbbd71ff3811f5c30914_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/6.Loading Images Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance",
@@ -376,7 +375,6 @@
     "interview/media",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance",
     "performance/视频资料/Web Performance Fundamentals",
-    "performance/视频资料",
     "engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png",
     "engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png",
     "security/未命名.canvas"
