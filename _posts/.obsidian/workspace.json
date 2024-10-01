@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,6 +213,22 @@
           }
         ],
         "currentTab": 15
+      },
+      {
+        "id": "8ee6c6041948b15f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5da46dbb6183501e",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1s34y1r7hB?p=29"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 321.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +294,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +310,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,9 +331,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -342,14 +354,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ee0ef9fd1eddc5e4",
+  "active": "5da46dbb6183501e",
   "lastOpenFiles": [
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/8.Improving First Input Delay.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/7.Improving CLS Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
+    "performance/总结.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/6.Loading Images Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/9c393a919f6d46b2657d87d3ae93a5b1_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/078d6b459ae85a33113d00c3f1a8dc9c_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/0ae38279bebfc52c58d9c13944847288_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
-    "performance/总结.md",
     "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
     "performance/实践指南-前端性能提升.md",
     "performance/overview-需要整理.md",
@@ -371,9 +387,6 @@
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/4.Interpreting Field Data.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/3.Chrome User Experience Solution.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/2.Chrome User Experience Exercise.md",
-    "performance/视频资料/Web Performance Fundamentals/3.Metrics/1.Where to Measure Performance.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/8.Lighthouse Solution.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/7.Lighthouse Exercise.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/8590d57627d6fbbd71ff3811f5c30914_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
