@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,23 +212,7 @@
             }
           }
         ],
-        "currentTab": 15
-      },
-      {
-        "id": "8ee6c6041948b15f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5da46dbb6183501e",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1s34y1r7hB?p=29"
-              }
-            }
-          }
-        ]
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -294,6 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "performance/浏览器/浏览器如何工作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,6 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "performance/浏览器/浏览器如何工作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +317,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "performance/浏览器/浏览器如何工作.md"
+              }
             }
           }
         ],
@@ -339,8 +327,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,39 +341,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5da46dbb6183501e",
+  "active": "7008927a46d6059d",
   "lastOpenFiles": [
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
+    "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
+    "performance/视频资料/Web Performance Fundamentals/6.Planning/2.Performance Culture.md",
+    "performance/视频资料/Web Performance Fundamentals/6.Planning/4.Performance Scenarios.md",
+    "performance/视频资料/Web Performance Fundamentals/6.Planning/3.Goals & Performance Budget.md",
+    "performance/总结.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/8.Improving First Input Delay.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/7.Improving CLS Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
-    "performance/总结.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/6.Loading Images Q&A.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/9c393a919f6d46b2657d87d3ae93a5b1_MD5.png",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/078d6b459ae85a33113d00c3f1a8dc9c_MD5.png",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/0ae38279bebfc52c58d9c13944847288_MD5.png",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
-    "performance/实践指南-前端性能提升.md",
-    "performance/overview-需要整理.md",
-    "performance/未命名.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
-    "performance/浏览器/浏览器如何工作.md",
-    "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
-    "interview/前端知识体系及难点.md",
-    "AI/AI工具集合.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/c70d23a7424df54ffd96c87c7ba1cf38_MD5.png",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/1.Web Business Objectives.md",
+    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/5.Web Vitals.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/5.Performance Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/4.Interpreting Field Data.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/3.Chrome User Experience Solution.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/2.Chrome User Experience Exercise.md",
+    "performance/视频资料/Web Performance Fundamentals/3.Metrics/1.Where to Measure Performance.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
+    "performance/浏览器/浏览器如何工作.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/9c393a919f6d46b2657d87d3ae93a5b1_MD5.png",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/078d6b459ae85a33113d00c3f1a8dc9c_MD5.png",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/0ae38279bebfc52c58d9c13944847288_MD5.png",
+    "performance/浏览器",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/c70d23a7424df54ffd96c87c7ba1cf38_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/8590d57627d6fbbd71ff3811f5c30914_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
