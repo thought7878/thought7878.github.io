@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 28.653295128939828,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -193,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,6 +214,23 @@
           }
         ],
         "currentTab": 15
+      },
+      {
+        "id": "ac6a418c11d08bf8",
+        "type": "tabs",
+        "dimension": 71.34670487106017,
+        "children": [
+          {
+            "id": "5288e5bef86d71d2",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1s34y1r7hB?p=24"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 413.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +297,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +313,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,9 +334,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -327,7 +342,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -341,16 +357,22 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ee0ef9fd1eddc5e4",
+  "active": "5288e5bef86d71d2",
   "lastOpenFiles": [
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
+    "performance/总结.md",
+    "performance/视频资料/Web Performance Fundamentals/1.Introduction.md",
+    "performance/实践指南-前端性能提升.md",
+    "performance/overview-需要整理.md",
+    "performance/未命名.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
     "performance/浏览器/浏览器如何工作.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
     "interview/前端知识体系及难点.md",
     "AI/AI工具集合.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/c70d23a7424df54ffd96c87c7ba1cf38_MD5.png",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
@@ -365,14 +387,8 @@
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/7.Lighthouse Exercise.md",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/6.Lighthouse.md",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/5.Web Vitals.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/4.等待心理学.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/3.感知性能解决方案.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/2.感知性能练习.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/1.为什么关心 Web 性能.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/8590d57627d6fbbd71ff3811f5c30914_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance",
