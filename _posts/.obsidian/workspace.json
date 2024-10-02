@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/AI工具集合.md",
+                "file": "performance/实践指南-前端性能提升.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/浏览器/浏览器如何工作.md",
+                "file": "performance/实践指南-前端性能提升.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/浏览器/浏览器如何工作.md",
+                "file": "performance/实践指南-前端性能提升.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "performance/浏览器/浏览器如何工作.md"
+                "file": "performance/实践指南-前端性能提升.md"
               }
             }
           }
@@ -341,13 +341,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "7008927a46d6059d",
+  "active": "d3bdbfe4b4ff7687",
   "lastOpenFiles": [
+    "performance/总结.md",
+    "interview/前端知识体系及难点.md",
+    "performance/浏览器/浏览器如何工作.md",
+    "AI/AI工具集合.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/2.Performance Culture.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/4.Performance Scenarios.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/3.Goals & Performance Budget.md",
-    "performance/总结.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/8.Improving First Input Delay.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/7.Improving CLS Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/6.Loading Images Q&A.md",
@@ -366,9 +369,6 @@
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/4.Interpreting Field Data.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/3.Chrome User Experience Solution.md",
     "performance/视频资料/Web Performance Fundamentals/3.Metrics/2.Chrome User Experience Exercise.md",
-    "performance/视频资料/Web Performance Fundamentals/3.Metrics/1.Where to Measure Performance.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/9.Data Beyond Spreadsheets.md",
-    "performance/浏览器/浏览器如何工作.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/9c393a919f6d46b2657d87d3ae93a5b1_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/078d6b459ae85a33113d00c3f1a8dc9c_MD5.png",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media/0ae38279bebfc52c58d9c13944847288_MD5.png",
