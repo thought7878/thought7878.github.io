@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 32.09169054441261,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -164,24 +165,12 @@
             }
           },
           {
-            "id": "d30897dd9c51569c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/前端知识体系及难点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d3bdbfe4b4ff7687",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/实践指南-前端性能提升.md",
+                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
+                "file": "performance/总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,9 +199,62 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b7e61100eb11841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d30897dd9c51569c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/前端知识体系及难点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ea110bce15ec28d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "base/js/知识点总结/promise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 18
+      },
+      {
+        "id": "f1777f6d0d87fc53",
+        "type": "tabs",
+        "dimension": 67.90830945558739,
+        "children": [
+          {
+            "id": "54e2853b52832eed",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1bD421V756/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,7 +304,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +321,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performance/实践指南-前端性能提升.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +337,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "performance/实践指南-前端性能提升.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -317,9 +358,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "performance/实践指南-前端性能提升.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -327,7 +366,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -341,8 +381,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d3bdbfe4b4ff7687",
+  "active": "54e2853b52832eed",
   "lastOpenFiles": [
+    "base/js/知识点总结/promise.md",
+    "interview/前端知识体系及难点.md",
+    "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+    "performance/总结.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+    "performance/浏览器/浏览器如何工作.md",
+    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
+    "performance/实践指南-前端性能提升.md",
+    "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
     "performance/media/8f27b78cdfefdd873f9e056ff6df190f_MD5.gif",
     "performance/media/6fb668207139bd68da5a7c78a64a0d22_MD5.gif",
     "performance/media/3bc7de4adb33d580f85344e092f7d2ab_MD5.webp",
@@ -353,13 +402,8 @@
     "performance/media/9ace4f1f1f3271a9c262b2ff027ffac6_MD5.webp",
     "performance/media/df330e7b0f55f7700c787b3c8b58bb5f_MD5.webp",
     "performance/media/e002159b06aaf492f679422fbc0e21be_MD5.webp",
-    "performance/media/9224f7103ced195afafbd7631b5313c8_MD5.webp",
     "performance/media",
-    "performance/总结.md",
-    "interview/前端知识体系及难点.md",
-    "performance/浏览器/浏览器如何工作.md",
     "AI/AI工具集合.md",
-    "performance/视频资料/Web Performance Fundamentals/6.Planning/1.Performance Panel Q&A.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/2.Performance Culture.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/4.Performance Scenarios.md",
     "performance/视频资料/Web Performance Fundamentals/6.Planning/3.Goals & Performance Budget.md",
@@ -370,16 +414,12 @@
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/1.Web Business Objectives.md",
     "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/5.Web Vitals.md",
-    "performance/视频资料/Web Performance Fundamentals/3.Metrics/5.Performance Q&A.md",
-    "performance/视频资料/Web Performance Fundamentals/3.Metrics/4.Interpreting Field Data.md",
-    "performance/视频资料/Web Performance Fundamentals/3.Metrics/3.Chrome User Experience Solution.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
