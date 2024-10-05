@@ -4,11 +4,7 @@
 
 
 - [00:00](https://www.bilibili.com/video/BV1bD421V756/?t=0.621977#t=0.62) 视频简介
-- [00:17](https://www.bilibili.com/video/BV1bD421V756/?t=17.850659#t=17.85) Promise对象、对象属性（Promise State、Promise Result）、resolve/reject函数、执行过程，Promise Constructor 
-- [04:39](https://www.bilibili.com/video/BV1bD421V756/?t=279.852953#t=04:39.85) Chaining thens 
-
-[0:00](https://www.youtube.com/watch?v=Xs1EMmBLpn4&t=0s) - Intro 
-[0:19](https://www.youtube.com/watch?v=Xs1EMmBLpn4&t=19s) - Promise Constructor 
-[4:42](https://www.youtube.com/watch?v=Xs1EMmBLpn4&t=282s) - Chaining thens 
-[6:26](https://www.youtube.com/watch?v=Xs1EMmBLpn4&t=386s) - Challenge 
-[8:05](https://www.youtube.com/watch?v=Xs1EMmBLpn4&t=485s) - Outro
+- [00:17](https://www.bilibili.com/video/BV1bD421V756/?t=17.850659#t=17.85) Promise对象、对象属性（Promise State、Promise Result、Promise reaction record）、resolve/reject函数、执行过程，Promise Constructor 
+- [04:39](https://www.bilibili.com/video/BV1bD421V756/?t=279.852953#t=04:39.85) 链式调用，Chaining thens 
+- [06:21](https://www.bilibili.com/video/BV1bD421V756/?t=381.752097#t=06:21.75) Challenge
+- [08:03](https://www.bilibili.com/video/BV1bD421V756/?t=483.39819#t=08:03.40) 
