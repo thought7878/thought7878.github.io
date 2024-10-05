@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 32.09169054441261,
+        "dimension": 27.29226361031519,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/js/知识点总结/promise.md",
+                "file": "base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,17 +240,17 @@
         "currentTab": 18
       },
       {
-        "id": "f1777f6d0d87fc53",
+        "id": "0259cb2ebcc47ba8",
         "type": "tabs",
-        "dimension": 67.90830945558739,
+        "dimension": 72.70773638968481,
         "children": [
           {
-            "id": "54e2853b52832eed",
+            "id": "e62c230654bccbe4",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1bD421V756/"
+                "source": "https://www.bilibili.com/video/BV1iJ4m157Ya/"
               }
             }
           }
@@ -381,10 +381,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "54e2853b52832eed",
+  "active": "e62c230654bccbe4",
   "lastOpenFiles": [
-    "base/js/知识点总结/promise.md",
+    "base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "interview/前端知识体系及难点.md",
+    "base/js/知识点总结/promise.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "performance/总结.md",
     "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
@@ -419,7 +420,6 @@
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/1.Web Business Objectives.md",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/5.Web Vitals.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
