@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 27.865329512893982,
+        "dimension": 36.53295128939828,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -242,7 +242,7 @@
       {
         "id": "3d016bce072ebc7e",
         "type": "tabs",
-        "dimension": 72.134670487106,
+        "dimension": 63.467048710601716,
         "children": [
           {
             "id": "1215546fa2f3fec0",
@@ -384,6 +384,7 @@
   "active": "1215546fa2f3fec0",
   "lastOpenFiles": [
     "base/js/知识点总结/Execution Context，Environment Record.md",
+    "base/js/知识点总结/media",
     "base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "interview/前端知识体系及难点.md",
     "base/js/知识点总结/promise.md",
@@ -419,7 +420,6 @@
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
-    "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
@@ -428,7 +428,6 @@
     "performance/视频资料/Web Performance Fundamentals/3.Metrics",
     "engineering/总结",
     "interview/media",
-    "performance/视频资料/Web Performance Fundamentals/2.Elements of Performance",
     "security/未命名.canvas"
   ]
 }
