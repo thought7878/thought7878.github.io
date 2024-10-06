@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 27.29226361031519,
+        "dimension": 27.865329512893982,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "base/js/知识点总结/Execution Context，Environment Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,17 +240,17 @@
         "currentTab": 18
       },
       {
-        "id": "0259cb2ebcc47ba8",
+        "id": "3d016bce072ebc7e",
         "type": "tabs",
-        "dimension": 72.70773638968481,
+        "dimension": 72.134670487106,
         "children": [
           {
-            "id": "e62c230654bccbe4",
+            "id": "1215546fa2f3fec0",
             "type": "leaf",
             "state": {
               "type": "mx-webpage",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1iJ4m157Ya/"
+                "source": "https://www.bilibili.com/video/BV16w4m197PV/"
               }
             }
           }
@@ -381,8 +381,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e62c230654bccbe4",
+  "active": "1215546fa2f3fec0",
   "lastOpenFiles": [
+    "base/js/知识点总结/Execution Context，Environment Record.md",
     "base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "interview/前端知识体系及难点.md",
     "base/js/知识点总结/promise.md",
@@ -419,7 +420,6 @@
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/3.Performance API.md",
     "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/2.Course Example Website.md",
-    "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/1.Web Business Objectives.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
