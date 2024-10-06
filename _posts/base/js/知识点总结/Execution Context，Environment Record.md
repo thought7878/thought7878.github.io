@@ -6,7 +6,10 @@
 - 
 - [00:11](https://www.bilibili.com/video/BV16w4m197PV/?t=11.645425#t=11.65) Execution Context Overview
 	- 执行上下文是什么？执行上下文本质上定义了代码执行的环境。包含很多内部组件，JS引擎使用这些组件来跟踪代码段的执行流程，执行上下文使用environment record来跟踪和维护为变量、函数声明创建的标识符（绑定）的值
-	- 
+	- Global Execution Context 由3部分组成：
+		- Realm
+		- LexicalEnvironment
+		- VariableEnvitonment
 - [01:24](https://www.bilibili.com/video/BV16w4m197PV/?t=84.613012#t=01:24.61) Realm
 	- realm本质上是一个隔离的环境，代码在其中运行
 	- 由三部分组成：
@@ -21,4 +24,9 @@
 			- `GlobalThisValue`：全局的this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73) 
 			- `OuterEnv`：
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
-- [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子
+- [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
+	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**；函数的两个属性：Environment/Call。Environment指向声明该函数的environment record；Call方法，每当调用该函数时都会调用该方法
+	- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **函数的execute阶段**：
+		- [09:00](https://www.bilibili.com/video/BV16w4m197PV/?t=540.666144#t=09:00.67) 变量提升 Hoisting
+		- [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain
+		- [10:27](https://www.bilibili.com/video/BV16w4m197PV/?t=627.557933#t=10:27.56) **闭包** Closures
