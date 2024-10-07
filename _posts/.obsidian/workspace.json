@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 80.73065902578797,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -242,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
                 "mode": "source",
                 "source": false
               }
@@ -250,23 +249,6 @@
           }
         ],
         "currentTab": 19
-      },
-      {
-        "id": "3d016bce072ebc7e",
-        "type": "tabs",
-        "dimension": 19.269340974212035,
-        "children": [
-          {
-            "id": "1215546fa2f3fec0",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV16w4m197PV/"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 309.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -332,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md"
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md"
               }
             }
           }
@@ -395,13 +377,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4130820da17c6c48",
+  "active": "3fe3110c949a01ca",
   "lastOpenFiles": [
-    "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐二｜任务调度：有了setTimeOut，为什么还要使用rAF？.md",
+    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
+    "base/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
+    "base/js/知识点总结/Execution Context，Environment Record.md",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md",
+    "base/浏览器工作原理与实践/09-结束语 (1讲)",
+    "base/浏览器工作原理与实践/01-开篇词 (1讲)",
+    "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐二｜任务调度：有了setTimeOut，为什么还要使用rAF？.md",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐一｜浏览上下文组：如何计算Chrome中渲染进程的个数？.md",
-    "base/浏览器工作原理与实践/09.结束语  大道至简.md",
-    "base/浏览器工作原理与实践/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
+    "base/浏览器工作原理与实践/09-结束语 (1讲)/09.结束语  大道至简.md",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
@@ -423,18 +410,13 @@
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
-    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)",
-    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/19.Promise：使用Promise，告别回调函数.md",
-    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/18.宏任务和微任务：不是所有任务都是一个待遇.md",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)",
-    "base/浏览器工作原理与实践",
     "base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "base/js/知识点总结/media/2de3b063e2bf6703a3db7b169632b9f9_MD5.png",
-    "base/js/知识点总结/media",
     "performance/media/8f27b78cdfefdd873f9e056ff6df190f_MD5.gif",
     "performance/media/6fb668207139bd68da5a7c78a64a0d22_MD5.gif",
     "performance/media/3bc7de4adb33d580f85344e092f7d2ab_MD5.webp",
