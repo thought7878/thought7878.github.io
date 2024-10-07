@@ -242,7 +242,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md",
+                "file": "base/js/winter/8.JavaScript执行（四）：语句的分类和Completion Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -332,7 +332,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md",
+                "file": "base/js/winter/8.JavaScript执行（四）：语句的分类和Completion Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md",
+                "file": "base/js/winter/8.JavaScript执行（四）：语句的分类和Completion Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -372,7 +372,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md"
+                "file": "base/js/winter/8.JavaScript执行（四）：语句的分类和Completion Record.md"
               }
             }
           }
@@ -397,6 +397,9 @@
   },
   "active": "4130820da17c6c48",
   "lastOpenFiles": [
+    "base/js/winter/7.JavaScript执行（三）：8种函数和this.md",
+    "base/js/winter/1.类型.md",
+    "base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md",
     "base/js/winter/5.JavaScript执行（一）：宏观任务-微观任务-Promise-async-await.md",
     "base/js/知识点总结/Execution Context，Environment Record.md",
     "base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
@@ -432,9 +435,6 @@
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/5.HTTP2, Caching, and Pre-Loading Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/4.Responsive Images Practice.md",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/3.Defer & Lazy Load Practice.md",
-    "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/2.Improving LCP.md",
-    "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/5.Performance Analytics.md",
-    "performance/视频资料/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
     "performance/浏览器",
     "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/media",
     "performance/视频资料/Web Performance Fundamentals/6.Planning",
