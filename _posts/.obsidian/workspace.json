@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md"
+                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md"
               }
             }
           }
@@ -377,8 +377,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "4130820da17c6c48",
   "lastOpenFiles": [
+    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
     "base/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
@@ -409,7 +410,6 @@
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)",
