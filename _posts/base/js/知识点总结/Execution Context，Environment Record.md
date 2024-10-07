@@ -10,6 +10,7 @@
 		- Realm
 		- LexicalEnvironment
 		- VariableEnvitonment
+![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 - [01:24](https://www.bilibili.com/video/BV16w4m197PV/?t=84.613012#t=01:24.61) Realm
 	- realm本质上是一个隔离的环境，代码在其中运行
 	- 由三部分组成：
@@ -22,7 +23,7 @@
 			- `ObjectRecord`：对Global Object的直接引用
 			- `DeclarativeRecord`：保存let/const变量，不是var和函数声明的变量
 			- `GlobalThisValue`：全局的this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73) 
-			- `OuterEnv`：
+			- `OuterEnv`：保存/指向外部的声明该函数的environment record，函数的Environment属性
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**；函数的两个属性：Environment/Call。Environment指向声明该函数的environment record；Call方法，每当调用该函数时都会调用该方法
