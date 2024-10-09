@@ -236,12 +236,12 @@
             }
           },
           {
-            "id": "4130820da17c6c48",
+            "id": "104d71e21343b8bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md"
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md"
               }
             }
           }
@@ -377,12 +377,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4130820da17c6c48",
+  "active": "104d71e21343b8bd",
   "lastOpenFiles": [
-    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
-    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
+    "base/js/知识点总结/Execution Context，Environment Record.md",
+    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
@@ -405,7 +406,6 @@
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
     "base/浏览器工作原理与实践/09-结束语 (1讲)",
     "base/浏览器工作原理与实践/01-开篇词 (1讲)",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)",
