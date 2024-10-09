@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md"
+                "file": "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md"
               }
             }
           }
@@ -380,9 +380,9 @@
   "active": "4130820da17c6c48",
   "lastOpenFiles": [
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+    "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
