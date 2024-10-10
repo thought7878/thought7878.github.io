@@ -246,9 +246,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f7a82d61babb961",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "browser/跨域资源共享.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -314,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+                "file": "browser/跨域资源共享.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+                "file": "browser/跨域资源共享.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md"
+                "file": "browser/跨域资源共享.md"
               }
             }
           }
@@ -377,8 +389,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "104d71e21343b8bd",
+  "active": "4f7a82d61babb961",
   "lastOpenFiles": [
+    "browser/跨域资源共享.md",
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)/14.编译器和解释器：V8是如何执行一段JavaScript代码的？.md",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
@@ -393,11 +411,6 @@
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/15.消息队列和事件循环：页面是怎么“活”起来的？.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/19.Promise：使用Promise，告别回调函数.md",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/18.宏任务和微任务：不是所有任务都是一个待遇.md",
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/16.WebAPI：setTimeout是如何实现的？.md",
@@ -405,7 +418,6 @@
     "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络.md",
     "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
     "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
     "base/浏览器工作原理与实践/09-结束语 (1讲)",
     "base/浏览器工作原理与实践/01-开篇词 (1讲)",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)",
