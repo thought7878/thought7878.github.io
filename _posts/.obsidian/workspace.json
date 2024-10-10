@@ -248,12 +248,12 @@
             }
           },
           {
-            "id": "4f7a82d61babb961",
+            "id": "edf80eaec0325e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "browser/跨域资源共享.md",
+                "file": "browser/同源策略和跨域问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -326,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "browser/跨域资源共享.md",
+                "file": "browser/同源策略和跨域问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "browser/跨域资源共享.md",
+                "file": "browser/同源策略和跨域问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "browser/跨域资源共享.md"
+                "file": "browser/同源策略和跨域问题.md"
               }
             }
           }
@@ -389,10 +389,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4f7a82d61babb961",
+  "active": "edf80eaec0325e4d",
   "lastOpenFiles": [
-    "browser/跨域资源共享.md",
+    "browser/浏览器渲染原理.md",
+    "browser/同源策略和跨域问题.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+    "browser/跨域资源共享.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
@@ -416,8 +418,6 @@
     "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/16.WebAPI：setTimeout是如何实现的？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络.md",
-    "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
-    "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
     "base/浏览器工作原理与实践/09-结束语 (1讲)",
     "base/浏览器工作原理与实践/01-开篇词 (1讲)",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)",
