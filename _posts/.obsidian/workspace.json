@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
+                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
+                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
+                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md"
+                "file": "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md"
               }
             }
           }
@@ -379,6 +379,7 @@
   },
   "active": "104d71e21343b8bd",
   "lastOpenFiles": [
+    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
@@ -386,7 +387,6 @@
     "browser/跨域资源共享.md",
     "browser/浏览器渲染原理.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)/14.编译器和解释器：V8是如何执行一段JavaScript代码的？.md",
     "base/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
     "base/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
