@@ -3,9 +3,13 @@
 
 
 - [00:00](https://www.bilibili.com/video/BV16w4m197PV/?t=0.108247#t=0.11) 视频简介
-- 
+	- 
 - [00:11](https://www.bilibili.com/video/BV16w4m197PV/?t=11.645425#t=11.65) Execution Context Overview
-	- 执行上下文是什么？执行上下文本质上定义了代码执行的环境。包含很多内部组件，JS引擎使用这些组件来跟踪代码段的执行流程，执行上下文使用environment record来跟踪和维护为变量、函数声明创建的标识符（绑定）的值
+	- 调用函数，就会创建一个Execution Context，并将其推送到call stack（其实是execution context stack）
+	- 执行上下文是什么？执行上下文本质上*定义了代码执行的环境*。包含很多内部组件，JS引擎使用这些组件来跟踪代码的执行流程。*执行上下文使用environment record来保存变量、函数*
+	- 执行上下文的两个阶段：创建阶段和执行阶段 [00:45](https://www.bilibili.com/video/BV16w4m197PV/?t=45.180927#t=45.18) 
+		- 创建阶段：为上下文中的变量、函数等设置内存空间
+		- 执行阶段：将其推送到call stack，执行代码
 	- Global Execution Context 由3部分组成：
 		- Realm
 		- LexicalEnvironment
@@ -26,8 +30,11 @@
 			- `OuterEnv`：保存/指向外部的声明该函数的environment record，函数的Environment属性
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
-	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**；函数的两个属性：Environment/Call。Environment指向声明该函数的environment record；Call方法，每当调用该函数时都会调用该方法
+	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**；函数的两个属性：`Environment`/`Call`。Environment指向声明该函数的environment record；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
 	- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **函数的execute阶段**：
+		- [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的Function Execution Context  
+		- [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、函数、 parameters 参数
+			- `OuterEnv`：指向Function Object的Environment属性，即外部的声明该函数的environment record
 		- [09:00](https://www.bilibili.com/video/BV16w4m197PV/?t=540.666144#t=09:00.67) 变量提升 Hoisting
 		- [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain
 		- [10:27](https://www.bilibili.com/video/BV16w4m197PV/?t=627.557933#t=10:27.56) **闭包** Closures
