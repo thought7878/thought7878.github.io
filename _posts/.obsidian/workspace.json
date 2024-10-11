@@ -6,7 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 23.065902578796564,
+        "dimension": 60.53008595988538,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -242,7 +242,7 @@
       {
         "id": "e2aa86bd77252ab1",
         "type": "tabs",
-        "dimension": 76.93409742120345,
+        "dimension": 39.46991404011461,
         "children": [
           {
             "id": "e60aec3cae164a72",
@@ -321,6 +321,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "interview/简历/商智.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,6 +338,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "interview/简历/商智.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +360,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "interview/简历/商智.md"
+              }
             }
           }
         ],
@@ -381,7 +385,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e60aec3cae164a72",
+  "active": "149c57d15886538b",
   "lastOpenFiles": [
     "interview/简历/商智.md",
     "interview/简历/media/609c7453a966765b15588e00c932a600_MD5.png",
