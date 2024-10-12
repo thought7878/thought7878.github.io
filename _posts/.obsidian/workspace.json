@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -254,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md"
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md"
               }
             }
           }
