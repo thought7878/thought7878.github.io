@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 60.53008595988538,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -45,72 +44,12 @@
             }
           },
           {
-            "id": "777ccf690fe26063",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7f98e96dd1a57cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "engineering/总结/1.构建工具.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "610ee943fc7455db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edd8ff994944bff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f87bab9a5d310cbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77414e678bca7298",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
                 "mode": "source",
                 "source": false
               }
@@ -235,26 +174,21 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 18
-      },
-      {
-        "id": "e2aa86bd77252ab1",
-        "type": "tabs",
-        "dimension": 39.46991404011461,
-        "children": [
+          },
           {
-            "id": "e60aec3cae164a72",
+            "id": "3da0315da6544b83",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1xB4y1W7Mp/"
+                "file": "interview/字节跳动资深前端面试官的经验.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -304,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
-    "collapsed": true
+    "width": 383.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -321,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -338,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历/商智.md"
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md"
               }
             }
           }
@@ -370,8 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -385,36 +317,37 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "149c57d15886538b",
+  "active": "104d71e21343b8bd",
   "lastOpenFiles": [
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+    "interview/字节跳动资深前端面试官的经验.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
+    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+    "engineering/总结/1.构建工具.md",
+    "interview/0_工作机会.md",
+    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
+    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
+    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
+    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
+    "interview/简历/参考案例.md",
+    "performance/总结.md",
+    "interview/前端知识体系及难点.md",
+    "base/js/知识点总结/Execution Context，Environment Record.md",
     "interview/简历/商智.md",
     "interview/简历/media/609c7453a966765b15588e00c932a600_MD5.png",
     "interview/简历/media",
     "interview/项目经验.md",
-    "engineering/总结/1.构建工具.md",
-    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
-    "interview/0_工作机会.md",
     "security/XSS.md",
-    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "base/js/知识点总结/Execution Context，Environment Record.md",
-    "interview/前端知识体系及难点.md",
     "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
     "performance/浏览器/浏览器如何工作.md",
-    "performance/总结.md",
     "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐二｜任务调度：有了setTimeOut，为什么还要使用rAF？.md",
     "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐三｜加载阶段性能：使用Audits来优化Web性能.md",
-    "base/浏览器工作原理与实践/10-课外加餐 (1讲)/加餐一｜浏览上下文组：如何计算Chrome中渲染进程的个数？.md",
-    "base/浏览器工作原理与实践/09-结束语 (1讲)/09.结束语  大道至简.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
-    "browser/同源策略和跨域问题.md",
-    "browser/跨域资源共享.md",
-    "browser/浏览器渲染原理.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "base/浏览器工作原理与实践/09-结束语 (1讲)",
     "base/浏览器工作原理与实践/01-开篇词 (1讲)",
