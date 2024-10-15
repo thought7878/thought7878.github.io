@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md"
+                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md"
               }
             }
           }
@@ -303,7 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,14 +319,15 @@
   },
   "active": "104d71e21343b8bd",
   "lastOpenFiles": [
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
+    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
+    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/28.WebComponent：像搭积木一样构建Web应用.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
     "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
     "interview/字节跳动资深前端面试官的经验.md",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
@@ -346,7 +347,6 @@
     "interview/简历/media/609c7453a966765b15588e00c932a600_MD5.png",
     "interview/简历/media",
     "interview/项目经验.md",
-    "security/XSS.md",
     "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
     "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "base/浏览器工作原理与实践/09-结束语 (1讲)",
