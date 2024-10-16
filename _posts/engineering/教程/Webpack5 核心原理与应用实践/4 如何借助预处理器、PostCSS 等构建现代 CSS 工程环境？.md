@@ -1,4 +1,4 @@
-在开发 Web 应用时，我们通常需要编写大量 JavaScript 代码 —— 用于控制页面逻辑；编写大量 CSS 代码 —— 用于调整页面呈现形式。问题在于，CSS 语言在过去若干年中一直在追求样式表现力方面的提升，工程化能力薄弱，例如缺乏成熟的模块化机制、依赖处理能力、逻辑判断能力等。为此，在开发现代大型 Web 应用时，通常会使用 Webpack 配合其它预处理器编写样式代码。
+在开发 Web 应用时，我们通常需要编写大量 JavaScript 代码 —— 用于控制页面逻辑；编写大量 CSS 代码 —— 用于调整页面呈现形式。**问题在于**，CSS 语言在过去若干年中一直在追求样式表现力方面的提升，工程化能力薄弱，例如缺乏成熟的模块化机制、依赖处理能力、逻辑判断能力等。为此，在开发现代大型 Web 应用时，通常会使用 Webpack 配合其它预处理器编写样式代码。
 
 本章主要介绍 Webpack 中如何使用 CSS 代码处理工具，包括：
 
@@ -8,23 +8,23 @@
 
 ## Webpack 如何处理 CSS 资源？
 
-原生 Webpack 并不能识别 CSS 语法，假如不做额外配置直接导入 `.css` 文件，会导致编译失败：
+**原生 Webpack 并不能识别 CSS 语法**，假如不做额外配置直接导入 `.css` 文件，会导致编译失败：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/0e9faf69e79ecdc97f8332e49137ecb5_MD5.webp]]
 
-为此，在 Webpack 中处理 CSS 文件，通常需要用到：
+*为此，在 Webpack 中处理 CSS 文件，通常需要用到：*
 
-- [`css-loader`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fcss-loader%2F)：该 Loader 会将 CSS 等价翻译为形如 `module.exports = "${css}"` 的JavaScript 代码，使得 Webpack 能够如同处理 JS 代码一样解析 CSS 内容与资源依赖；
+- [`css-loader`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fcss-loader%2F)：该 Loader 会将 CSS 等价翻译为形如 `module.exports = "${css}"` 的JavaScript 代码，*使得 Webpack 能够如同处理 JS 代码一样解析 CSS 内容与资源依赖*；
 - [`style-loader`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fstyle-loader%2F)：该 Loader 将在产物中注入一系列 runtime 代码，这些代码会将 CSS 内容注入到页面的 `<style>` 标签，使得样式生效；
-- [`mini-css-extract-plugin`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fmini-css-extract-plugin)：该插件会将 CSS 代码抽离到单独的 `.css` 文件，并将文件通过 `<link>` 标签方式插入到页面中。
+- [`mini-css-extract-plugin`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fmini-css-extract-plugin)：该插件会*将 CSS 代码抽离到单独的 `.css` 文件，并将文件通过 `<link>` 标签方式插入到页面中*。
 
 > PS：当 Webpack 版本低于 5.0 时，请使用 [`extract-text-webpack-plugin`](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fextract-text-webpack-plugin) 代替 `mini-css-extract-plugin`。
 
-三种组件各司其职：`css-loader` 让 Webpack 能够正确理解 CSS 代码、分析资源依赖；`style-loader`、`mini-css-extract-plugin` 则通过适当方式将 CSS 插入到页面，对页面样式产生影响：
+*三种组件各司其职：*`css-loader` 让 Webpack 能够正确理解 CSS 代码、分析资源依赖；`style-loader`、`mini-css-extract-plugin` 则通过适当方式将 CSS 插入到页面，对页面样式产生影响：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/0e7067ea339e14b40a84ffc7c479fd5e_MD5.webp]]
 
-下面我们先从 `css-loader` 聊起，`css-loader` 提供了很多处理 CSS 代码的基础能力，包括 CSS 到 JS 转译、依赖解析、Sourcemap、css-in-module 等，基于这些能力，Webpack 才能像处理 JS 模块一样处理 CSS 模块代码。接入时首先需要安装依赖：
+下面我们先从 `css-loader` 聊起，`css-loader` 提供了很多处理 CSS 代码的基础能力，包括 *CSS 到 JS 转译、依赖解析、Sourcemap、css-in-module 等，基于这些能力，Webpack 才能像处理 JS 模块一样处理 CSS 模块代码*。接入时首先需要安装依赖：
 
 ```bash
 yarn add -D css-loader
@@ -47,13 +47,12 @@ module.exports = {
 
 此后，执行 `npx webpack` 或其它构建命令即可。经过 `css-loader` 处理后，样式代码最终会被转译成一段 JS 字符串：
 
-| 源码                                 | 转译后                                                       |
-| ------------------------------------ | ------------------------------------------------------------ |
+| 源码                                   | 转译后                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `.main-hd {     font-size: 10px; } ` | `//... var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default())); // Module ___CSS_LOADER_EXPORT___.push([   module.id,    ".main-hd {\n    font-size: 10px;\n}", "" ]); // Exports /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___); //... ` |
 
 
-
-但这段字符串只是被当作普通 JS 模块处理，并不会实际影响到页面样式，后续还需要：
+*但这段字符串只是被当作普通 JS 模块处理，并不会实际影响到页面样式，后续还需要：*
 
 1. **开发环境**：使用 `style-loader` 将样式代码注入到页面 `<style>` 标签；
 2. **生产环境**：使用 `mini-css-extract-plugin` 将样式代码抽离到单独产物文件，并以 `<link>` 标签方式引入到页面中。

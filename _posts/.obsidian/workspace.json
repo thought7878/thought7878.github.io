@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
                 "mode": "source",
                 "source": false
               }
@@ -262,8 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -279,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md"
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md"
               }
             }
           }
@@ -344,6 +343,9 @@
   },
   "active": "6971bd1ca69df19d",
   "lastOpenFiles": [
+    "engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+    "visualization/1.md",
     "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
     "engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/8 使用 Webpack 构建微前端应用.md",
@@ -377,9 +379,6 @@
     "engineering/教程/Webpack5 核心原理与应用实践/12 构建性能：分享 7 款常用的性能分析工具.md",
     "engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
     "engineering/教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/9 如何借助 Webpack 开发 PWA、Node、Electron 应用？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/7 使用 Webpack 构建 NPM Library 的正确方式.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/6 如何搭建 React 全栈开发环境？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践",
     "performance/前端性能优化原理与实践",

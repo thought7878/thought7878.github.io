@@ -1,12 +1,12 @@
 上一节我们聊到如何用结构化思维理解 Webpack 核心配置项，按惯例很多教程接下来会开始罗列各个配置项的作用，但这种方式记忆成本比较高，学习效率偏低。为此，接下来几章我会换一种思维模式，场景化介绍 Webpack 处理各种代码资源的工具与方法。
 
-本章我们先来聊聊 Webpack 场景下处理 JavaScript 的三种常用工具：Babel、TypeScript、ESLint 的历史背景、功能以及接入 Webpack 的步骤，借助这些工具，我们能构建出更健壮、优雅的 JavaScript 应用。
+本章我们先来聊聊 *Webpack 场景下处理 JavaScript 的三种常用工具：* Babel、TypeScript、ESLint 的历史背景、功能以及接入 Webpack 的步骤，借助这些工具，我们能构建出更健壮、优雅的 JavaScript 应用。
 
 ## 使用 Babel
 
-ECMAScript 6.0(简称 ES6) 版本补充了大量提升 JavaScript 开发效率的新特性，包括 `class` 关键字、块级作用域、ES Module 方案、代理与反射等，使得 JavaScript 可以真正被用于编写复杂的大型应用程序，但知道现在浏览器、Node 等 JavaScript 引擎都或多或少存在兼容性问题。为此，现代 Web 开发流程中通常会引入 Babel 等转译工具。
+ECMAScript 6.0(简称 ES6) 版本补充了大量提升 JavaScript 开发效率的新特性，包括 `class` 关键字、块级作用域、ES Module 方案、代理与反射等，使得 JavaScript 可以真正被用于编写复杂的大型应用程序，但知道现在**浏览器、Node 等 JavaScript 引擎都或多或少存在兼容性问题**。为此，现代 Web 开发流程中通常会引入 Babel 等转译工具。
 
-Babel 是一个开源 JavaScript 转编译器，它能将高版本 —— 如 ES6 代码等价转译为向后兼容，能直接在旧版 JavaScript 引擎运行的低版本代码，例如：
+Babel 是一个开源 **JavaScript 转编译器**，它能将高版本 —— 如 ES6 代码等价转译为向后兼容，能直接在旧版 JavaScript 引擎运行的低版本代码，例如：
 
 ```js
 // 使用 Babel 转译前
@@ -18,7 +18,7 @@ arr.map(function (item){
 })
 ```
 
-示例中高版本的箭头函数语法经过 Babel 处理后被转译为低版本 `function` 语法，从而能在不支持箭头函数的 JavaScript 引擎中正确执行。借助 Babel 我们既可以始终使用最新版本 ECMAScript 语法编写 Web 应用，又能确保产物在各种环境下正常运行。
+示例中高版本的箭头函数语法经过 Babel 处理后被转译为低版本 `function` 语法，*从而能在不支持箭头函数的 JavaScript 引擎中正确执行*。*借助 Babel 我们既可以始终使用最新版本 ECMAScript 语法编写 Web 应用，又能确保产物在各种环境下正常运行。*
 
 > 提示：Babel 还提供了一个在线版的 REPL 页面，读者可在 [babeljs.io/repl](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Frepl) 实时体验功能效果。
 
@@ -82,8 +82,7 @@ module.exports = {
 };
 ```
 
-特别提一下，示例中的 `@babel/preset-env` 是一种 Babel 预设规则集 —— Preset，这种设计能按需将一系列复杂、数量庞大的配置、插件、Polyfill 等打包成一个单一的资源包，从而简化 Babel 的应用、学习成本。Preset 是 Babel 的主要应用方式之一，社区已经针对不同应用场景打包了各种 Preset 资源，例如：
-
+特别提一下，示例中的 `@babel/preset-env` 是**一种 Babel 预设规则集** —— Preset，这种设计能*按需将一系列复杂、数量庞大的配置、插件、Polyfill 等打包成一个单一的资源包*，从而**简化 Babel 的应用、学习成本**。Preset 是 Babel 的主要应用方式之一，*社区已经针对不同应用场景打包了各种 Preset 资源，例如：*
 - [`babel-preset-react`](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fbabel-preset-react)：包含 React 常用插件的规则集，支持 `preset-flow`、`syntax-jsx`、`transform-react-jsx` 等；
 - [`@babel/preset-typescript`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-typescript)：用于转译 TypeScript 代码的规则集
 - [`@babel/preset-flow`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-flow%2F)：用于转译 [Flow](https://link.juejin.cn/?target=https%3A%2F%2Fflow.org%2Fen%2Fdocs%2Fgetting-started%2F) 代码的规则集
@@ -92,13 +91,13 @@ module.exports = {
 
 ## 使用 TypeScript
 
-从 1999年 ECMAScript 发布第二个版本到 2015年发布 ES6 之间十余年时间内，JavaScript 语言本身并没有发生太大变化，语言本身许多老旧特性、不合理设计、功能缺失已经很难满足日益复杂的 Web 应用场景。为了解决这一问题，社区陆续推出了一些 JavaScript 超集方言，例如 TypeScript、CoffeeScript、Flow。
+从 1999年 ECMAScript 发布第二个版本到 2015年发布 ES6 之间十余年时间内，JavaScript 语言本身并没有发生太大变化，语言本身许多老旧特性、不合理设计、功能缺失已经很难满足日益复杂的 Web 应用场景。*为了解决这一问题*，社区陆续推出了一些 JavaScript 超集方言，例如 TypeScript、CoffeeScript、Flow。
 
 其中，TypeScript 借鉴 C# 语言，在 JavaScript 基础上提供了一系列类型约束特性，例如：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/6de6f9f07024e5ef5c8d048719227285_MD5.webp]]
 
-示例中，用一个数字类型的变量 `num` 减去字符串类型的变量 `str`，这在 TypeScript 的代码编译过程就能提前发现问题，而 JavaScript 环境下则需要到启动运行后才报错。这种类型检查特性虽然一定程度上损失了语言本身的灵活性，但能够让问题在编译阶段提前暴露，确保运行阶段的类型安全性，**特别适合用于构建多人协作的大型 JavaScript 项目**，也因此，时至今日 TypeScript 依然是一项应用广泛的 JavaScript 超集语言。
+示例中，用一个数字类型的变量 `num` 减去字符串类型的变量 `str`，这在 TypeScript 的代码编译过程就能提前发现问题，而 JavaScript 环境下则需要到启动运行后才报错。这种类型检查特性虽然一定程度上损失了语言本身的灵活性，*但能够让问题在编译阶段提前暴露*，确保运行阶段的类型安全性，**特别适合用于构建多人协作的大型 JavaScript 项目**，也因此，时至今日 TypeScript 依然是一项应用广泛的 JavaScript 超集语言。
 
 Webpack 有很多种接入 TypeScript 的方法，包括 `ts-loader`、`awesome-ts-loader`、 `babel-loader`。通常可使用 `ts-loader` 构建 TypeScript 代码：
 
@@ -150,7 +149,7 @@ module.exports = {
 npx webpack
 ```
 
-注意，如果项目中已经使用 `babel-loader`，你也可以选择使用 [`@babel/preset-typescript`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-typescript) 规则集，借助 `babel-loader` 完成 JavaScript 与 TypeScript 的转码工作：
+注意，如果项目中已经使用 `babel-loader`，你也可以选择使用 [`@babel/preset-typescript`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-typescript) 规则集，*借助 `babel-loader` 完成 JavaScript 与 TypeScript 的转码工作：*
 
 1. 安装依赖
 
@@ -187,9 +186,9 @@ module.exports = {
 
 ## 使用 ESLint
 
-JavaScript 被设计成一种高度灵活的动态、弱类型脚本语言，这使得语言本身的上手成本极低，开发者只需要经过短暂学习就可以开始构建简单应用。但与其它编译语言相比，JavaScript 很难在编译过程发现语法、类型，或其它可能影响稳定性的错误，特别在多人协作的复杂项目下，语言本身的弱约束可能会开发效率与质量产生不小的影响，ESLint 的出现正是为了解决这一问题。
+JavaScript 被设计成一种高度灵活的动态、弱类型脚本语言，这使得语言本身的上手成本极低，开发者只需要经过短暂学习就可以开始构建简单应用。但与其它编译语言相比，*JavaScript 很难在编译过程发现语法、类型，或其它可能影响稳定性的错误*，*特别在多人协作的复杂项目下，语言本身的弱约束可能会开发效率与质量产生不小的影响*，**ESLint 的出现正是为了解决这一问题**。
 
-ESLint 是一种扩展性极佳的 JavaScript 代码风格检查工具，它能够自动识别违反风格规则的代码并予以修复，例如对于下面的示例：
+ESLint 是一种扩展性极佳的 *JavaScript 代码风格检查工具*，它能够自动识别违反风格规则的代码并予以修复，例如对于下面的示例：
 
 | 源码                                                                                               | ESLint 修复后                                                    |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |

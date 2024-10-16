@@ -59,11 +59,11 @@ Webpack 的打包过程非常复杂，但大致上可简化为：
 
 逻辑上，每一个工具类配置都在主流程之外提供额外的工程化能力，例如 `devtool` 用于配置产物 Sourcemap 生成规则，与 Sourcemap 强相关；`devServer` 用于配置与 HMR 相关的开发服务器功能；`watch` 用于实现持续监听、构建。
 
-工具类配置内聚性较强，通常一个配置项专注于解决一类工程问题，学习时建议先对配置项按其功能做个简单分类，例如上述开发效率类、性能优化类等，之后再展开研究其可选值与效果。
+工具类配置内聚性较强，*通常一个配置项专注于解决一类工程问题，学习时建议先对配置项按其功能做个简单分类*，例如上述开发效率类、性能优化类等，之后再展开研究其可选值与效果。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/3501f1bdfec38f72d894c6d1a77cb0cb_MD5.webp]]
 
-综上，虽然 Webpack 提供了上百项复杂配置，但大体上都可以归类为流程类配置或工具类配置，对于流程类配置应该多关注它们对编译主流程的影响；而工具类则更加内聚，基本上一种配置项解决一种工程化问题。
+综上，虽然 Webpack 提供了上百项复杂配置，但大体上都可以归类为流程类配置或工具类配置，*对于流程类配置应该多关注它们对编译主流程的影响*；而工具类则更加内聚，基本上一种配置项解决一种工程化问题。
 
 除了上面提到的属性外，Webpack 还提供了诸如 `amd`、`bail`、`dependencies` 等配置项，但使用频率较低，此处先不展开讨论。
 
@@ -78,7 +78,7 @@ Webpack 的打包过程非常复杂，但大致上可简化为：
 └── webpack.config.js
 ```
 
-其中，`src/index.js` 为项目入口文件，`webpack.config.js` 为 Webpack 配置文件。在配置文件中，首先我们需要声明项目入口：
+其中，`src/index.js` 为项目入口文件，`webpack.config.js` 为 Webpack 配置文件。在配置文件中，首先我们需要声明*项目入口：*
 
 ```js
 // webpack.config.js
@@ -102,7 +102,7 @@ module.exports = {
 };
 ```
 
-至此，已经足够驱动一个最简单项目的编译工作。但是，在前端项目中经常需要处理 JS 之外的其它资源，包括 css、ts、图片等，此时需要为这些资源配置适当的加载器：
+至此，已经足够驱动一个最简单项目的编译工作。但是，在前端项目中经常需要处理 JS 之外的其它资源，包括 css、ts、图片等，此时需要为这些资源配置适当的*加载器：*
 
 ```js
 // webpack.config.js
@@ -137,7 +137,7 @@ module.exports = {
 
 ## 脚手架工具
 
-上述概览只是对从流程角度对 Webpack 配置项做了一个简单的分类总结，实际应用中往往需要牵涉更多 Loader、Plugin，加之性能、效率方面的考虑，配置复杂度往往会随项目推进而极速膨胀，届时配置管理会变得比较困难。为此，社区提供了许多用于快捷管理配置的工具，包括：
+上述概览只是对从流程角度对 Webpack 配置项做了一个简单的分类总结，实际应用中往往需要牵涉更多 Loader、Plugin，加之性能、效率方面的考虑，配置复杂度往往会随项目推进而极速膨胀，届时配置管理会变得比较困难。*为此，社区提供了许多用于快捷管理配置的工具，包括：*
 
 - [Vue CLI](https://link.juejin.cn/?target=https%3A%2F%2Fcli.vuejs.org%2Fguide%2F)：用于帮助用户快速创建、运行 Vue.js 项目脚手架的命令行工具；
 - [create-react-app](https://link.juejin.cn/?target=https%3A%2F%2Freactjs.org%2Fdocs%2Fcreate-a-new-react-app.html)：用于创建 React 项目脚手架的命令行工具；
@@ -146,7 +146,7 @@ module.exports = {
 - [Neutrino](https://link.juejin.cn/?target=https%3A%2F%2Fneutrinojs.org%2Finstallation%2Fcreate-new-project%2F)：用于快速创建、运行现代 JavaScript 应用的工具，同时支持 React、Preact、Vue、Web、Node.js、Library 等场景；
 - [react-starter-kit](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fkriasoft%2Freact-starter-kit)：用于创建 [React](https://link.juejin.cn/?target=https%3A%2F%2Freactjs.org%2F) + [Relay](https://link.juejin.cn/?target=https%3A%2F%2Frelay.dev%2F) + [GraphQL](https://link.juejin.cn/?target=https%3A%2F%2Fgraphql.org%2F) 应用的脚手架工具，内置 SSR 支持。
 
-这些工具都内置了许多开箱即用的工程化能力，开发者无需从 0 开始学习 Webpack 与各种工程化组件，就可以直接使用工具一键生成足够应对中小型项目需求的工程化环境。下面我们逐一展开介绍 [Vue CLI](https://link.juejin.cn/?target=https%3A%2F%2Fcli.vuejs.org%2Fguide%2F)、[create-react-app](https://link.juejin.cn/?target=https%3A%2F%2Freactjs.org%2Fdocs%2Fcreate-a-new-react-app.html)，你可根据技术栈需要侧重学习。
+这些工具都内置了许多开箱即用的工程化能力，开发者无需从 0 开始学习 Webpack 与各种工程化组件，就*可以直接使用工具一键生成足够应对中小型项目需求的工程化环境*。下面我们逐一展开介绍 [Vue CLI](https://link.juejin.cn/?target=https%3A%2F%2Fcli.vuejs.org%2Fguide%2F)、[create-react-app](https://link.juejin.cn/?target=https%3A%2F%2Freactjs.org%2Fdocs%2Fcreate-a-new-react-app.html)，你可根据技术栈需要侧重学习。
 
 ## 使用 [Vue CLI](https://link.juejin.cn/?target=https%3A%2F%2Fcli.vuejs.org%2Fguide%2F) 搭建项目脚手架
 
@@ -294,7 +294,7 @@ my-app
 
 > 提示：更多用法，请参考 [CRA 官网](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Ffacebook%2Fcreate-react-app)： [github.com/facebook/cr…](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Ffacebook%2Fcreate-react-app%E3%80%82)
 
-默认规则创建的脚手架包含如下工程能力：
+默认规则创建的脚手架*包含如下工程能力：*
 
 - JSX、ES6、TypeScript、Flow 语法支持
 - CSS 自动添加 `--webkit--` 前缀
