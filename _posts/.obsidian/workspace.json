@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
                 "mode": "source",
                 "source": false
               }
@@ -262,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +319,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md"
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md"
               }
             }
           }
@@ -343,8 +344,8 @@
   },
   "active": "6971bd1ca69df19d",
   "lastOpenFiles": [
-    "engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/8 使用 Webpack 构建微前端应用.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/b588dba99656c4330910d0a763d33f20_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media/bea87d044108eed35ff3917a0a8f9b00_MD5.webp",
