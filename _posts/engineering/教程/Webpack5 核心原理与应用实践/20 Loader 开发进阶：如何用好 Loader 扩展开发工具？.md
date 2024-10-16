@@ -59,11 +59,11 @@ export default function loader(source) {
 
 之后，若用户传入不符合 Schema 描述的参数对象，会报类似下面这种错误提示：
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/077c1aab02994c9a912f3614de6f60c0~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![[engineering/教程/Webpack5 核心原理与应用实践/media/1b68f55f96223ec11fef3675d47edb08_MD5.webp]]
 
 `schema-utils` 的校验能力很强，能够完美支撑起 Webpack 生态下非常复杂的参数校验需求，但官方文档非常语焉不详，翻阅源码后发现，它底层主要依赖于 [ajv](https://link.juejin.cn/?target=https%3A%2F%2Fajv.js.org%2Fguide%2Fgetting-started.html) ，这是一个应用广泛、功能强大且性能优异的校验工具：
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/461958492c45459bb25cff296651d89e~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![[engineering/教程/Webpack5 核心原理与应用实践/media/7e56fa0dff2c669b75dd9ea70a38e06c_MD5.webp]]
 
 > 提示：`ajv` 在对象校验、JSON 序列化/反序列化方面的性能表现非常突出，许多知名[开源框架](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fbrowse%2Fdepended%2Fajv) 如：ESLint、fast-json-stringify、middy、swagger、tailwind 等底层都依赖于 `ajv`，值得我们学习、复用到业务项目中。
 
@@ -610,7 +610,7 @@ import script from "./index.vue?vue&type=script&lang=js&"
 
 过程大致为：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2ba22f6bdf754a00997c607117e6c881~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![[engineering/教程/Webpack5 核心原理与应用实践/media/df4ad611ec3b075892f10b006fe88449_MD5.webp]]
 
 举个转换过程的例子：
 
