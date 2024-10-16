@@ -31,7 +31,7 @@
 
 如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/afb7aaf0070c5b638b48c546f90c2cb6_MD5.png]]
+![[afb7aaf0070c5b638b48c546f90c2cb6_MD5.png]]
 
 Vue.js 3.0 核⼼优势：
 
@@ -47,15 +47,15 @@ Vue.js 3.0 核⼼优势：
 
 **案例一、常用功能性状态复用：**
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/81a5b6fd1bcf82d8fe1595afa1823afe_MD5.png]]
+![[81a5b6fd1bcf82d8fe1595afa1823afe_MD5.png]]
 
 **案例二、获取数据逻辑复用：**
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/b114786173ffad6a402a99aabb242736_MD5.png]]
+![[b114786173ffad6a402a99aabb242736_MD5.png]]
 
 **案例三、BOM API 封装：**
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/bfd3741bceca7451ccbc308cf370ba8d_MD5.png]]
+![[bfd3741bceca7451ccbc308cf370ba8d_MD5.png]]
 
 ### 基于 Webpack 构建
 
@@ -63,7 +63,7 @@ Vue.js 3.0 核⼼优势：
 
 以下是具体命令行操作：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/dafd0427a92ada3e16da7e5ba850ce08_MD5.png]]
+![[dafd0427a92ada3e16da7e5ba850ce08_MD5.png]]
 
 项目结构设计如下：
 
@@ -80,7 +80,7 @@ Vue.js 3.0 核⼼优势：
 
 其中 Webpack 的核心配置如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/49a7e6dde4b3d6a677e7659326ba9aee_MD5.png]]
+![[49a7e6dde4b3d6a677e7659326ba9aee_MD5.png]]
 
 ### 基于 Vue CLI experimental
 
@@ -88,7 +88,7 @@ Vue CLI 对 Vue.js 3.0 的支持目前是以一个[插件（vue-cli-plugin-vue-n
 
 具体使用方法如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/9e96dc8371379713a60e7e8cf6af62e2_MD5.png]]
+![[9e96dc8371379713a60e7e8cf6af62e2_MD5.png]]
 
 这里你需要注意，千万不要在成熟项⽬中使⽤这个插件直接升级项目，这会导致很多问题，后面 Vue 官方会给出 2.x 项目升级到 3.0 的迁移工具，到时候再视情况决定是否使用。
 
@@ -102,11 +102,11 @@ Vue CLI 对 Vue.js 3.0 的支持目前是以一个[插件（vue-cli-plugin-vue-n
 
 注册（定义）路由的用法：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/83d744868ad62b57f87b969ad7fb8f37_MD5.png]]
+![[83d744868ad62b57f87b969ad7fb8f37_MD5.png]]
 
 组件中获取当前路由信息的方法：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/f40d766e487768ed5096016b841da606_MD5.png]]
+![[f40d766e487768ed5096016b841da606_MD5.png]]
 
 #### Vuex
 
@@ -114,15 +114,15 @@ Vue CLI 对 Vue.js 3.0 的支持目前是以一个[插件（vue-cli-plugin-vue-n
 
 创建 Store 的方法：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/01c1b343db3a67f7f290b88dd9be065e_MD5.png]]
+![[01c1b343db3a67f7f290b88dd9be065e_MD5.png]]
 
 组件中使用 Store 的方式一（跟 2.x 一样）：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png]]
+![[841e5faaa6fab841b6c4efb2f0b6a42a_MD5.png]]
 
 方式二，使用 useStore API（推荐）：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/6fee55c10f966bacda6ecd19eea31fab_MD5.png]]
+![[6fee55c10f966bacda6ecd19eea31fab_MD5.png]]
 
 除此之外，Vue.js 官方还给出了目前官方的一些周边库的状态，下表为：Official Libraries Vue 3.0 Support Status
 

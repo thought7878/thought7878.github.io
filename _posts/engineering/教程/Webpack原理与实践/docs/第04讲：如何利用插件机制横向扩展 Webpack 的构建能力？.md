@@ -107,7 +107,7 @@ module.exports = {
 
 最后我们回到命令行终端，再次运行打包命令，此时打包过程中就会*自动生成一个 index.html 文件到 dist 目录*。我们找到这个文件，_可以看到文件中的内容就是一段使用了 bundle.js 的空白 HTML_，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/f09c3f4de98e1c4e3c90024d3eb604cc_MD5.png]]  
+![[f09c3f4de98e1c4e3c90024d3eb604cc_MD5.png]]  
 至此，Webpack 就可以动态生成应用所需的 HTML 文件了，但是这里仍然存在*一些需要改进的地方：*
 
 - 对于生成的 HTML 文件，页面 title 必须要修改；
@@ -146,7 +146,7 @@ module.exports = {
 
 完成以后回到命令行终端，再次打包，然后我们再来看一下生成的 HTML 文件，此时这里的 title 和 meta 标签就会根据配置生成，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/3b19b3dae5bcc3a507d0a01180906f9b_MD5.png]]
+![[3b19b3dae5bcc3a507d0a01180906f9b_MD5.png]]
 
 _如果需要对 HTML 进行大量的自定义_，**更好的做法**是在源代码中添加一个用于生成 HTML 的模板，然后让 html-webpack-plugin 插件根据这个模板去生成页面文件。
 我们这里*在 src 目录下新建一个 index.html 文件作为 HTML 文件的模板，然后根据我们的需要在这个文件中添加相应的元素*。对于模板中动态的内容，可以使用 Lodash 模板语法输出，模板中可以通过 `htmlWebpackPlugin.options` 访问这个插件的配置数据，例如我们这里输出配置中的 title 属性，具体代码如下：
@@ -200,7 +200,7 @@ module.exports = {
 
 完成以后我们回到命令行终端，运行打包命令，然后再来看一下生成的 HTML 文件，此时 HTML 中就都是根据模板生成的内容了，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/be280b69e1af3138375deb2864f430b4_MD5.png]]
+![[be280b69e1af3138375deb2864f430b4_MD5.png]]
 
 至此，你应该了解了如何通过 html-webpack-plugin 自定义输出 HTML 文件内容。
 
@@ -292,7 +292,7 @@ module.exports = {
 
 那么，这种插件机制是如何实现的呢？其实说起来也非常简单，**Webpack 的插件机制**就是我们在软件开发中最常见的**钩子机制**。钩子机制也特别容易理解，它有点类似于 Web 中的事件。在 Webpack 整个工作过程会有很多环节，为了便于插件的扩展，Webpack 几乎在每一个环节都埋下了一个钩子。*这样我们在开发插件的时候，通过往这些不同节点上挂载不同的任务，就可以轻松扩展 Webpack 的能力*。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/24ea0f246ae614cbe36c2a4935f87b22_MD5.gif]]
+![[24ea0f246ae614cbe36c2a4935f87b22_MD5.gif]]
 
 具体有哪些*预先定义好的钩子*，我们可以参考官方文档的 API：
 
@@ -304,7 +304,7 @@ module.exports = {
 
 这里我的需求是，希望我们开发的这个插件能够*自动清除 Webpack 打包结果中的注释*，这样一来，我们的 bundle.js 将更容易阅读，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/206ac04964255d66a977ac9a97ca11a3_MD5.png]]
+![[206ac04964255d66a977ac9a97ca11a3_MD5.png]]
 
 那这里我们同样在项目根目录下添加一个单独的 JS 文件。
 
@@ -335,7 +335,7 @@ class RemoveCommentsPlugin {
 知道这些过后，还需要*明确我们这个任务的执行时机*，也就是到底应该把这个任务挂载到哪个钩子上。
 我们的需求是删除 bundle.js 中的注释，也就是说只有当 Webpack 需要生成的 bundle.js 文件内容明确过后才可能实施。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/dc5bf6479c84dec5d71ab19b7d52e2ec_MD5.png]]
+![[dc5bf6479c84dec5d71ab19b7d52e2ec_MD5.png]]
 
 那根据 API 文档中的介绍，我们找到一个叫作 `emit` 的钩子，*这个钩子会在 Webpack 即将向输出目录输出文件时执行*，非常符合我们的需求。
 我们回到代码中，*通过 compiler 对象的 hooks 属性访问到 emit 钩子，再通过 tap 方法注册一个钩子函数*，这个方法接收两个参数：
@@ -362,7 +362,7 @@ class RemoveCommentsPlugin {
 
 完成以后，我们将这个插件应用到 Webpack 的配置中，然后回到命令行重新打包，此时打包过程就会打印我们输出的文件名称，代码如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ad85faadb4e8561f7dc471dc09955688_MD5.png]]
+![[ad85faadb4e8561f7dc471dc09955688_MD5.png]]
 
 我们再回到代码中，来打印一下每个资源文件的内容，文件内容需要通过遍历的值对象中的 source 方法获取，具体代码如下：
 
@@ -409,7 +409,7 @@ class RemoveCommentsPlugin {
 
 完成以后回到命令行终端，再次打包，打包完成过后，我们再来看一下 bundle.js，此时 bundle.js 中每行开头的注释就都被移除了。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a2f0606b337e14f914acb8ee78f2017d_MD5.png]]
+![[a2f0606b337e14f914acb8ee78f2017d_MD5.png]]
 
 以上就是我们实现一个移除注释插件的过程，通过这个过程我们了解了：**插件都是通过往 Webpack 生命周期的钩子中挂载任务函数实现的**。
 

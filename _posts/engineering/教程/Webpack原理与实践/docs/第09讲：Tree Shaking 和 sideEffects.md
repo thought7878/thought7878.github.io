@@ -83,7 +83,7 @@ $ npx webpack --mode=production
 
 Webpack 的 Tree-shaking 特性在生产模式下会自动开启。打包完成以后我们打开输出的 bundle.js，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/75e2d92ee15a631acc2e529d1e244fda_MD5.png]]
+![[75e2d92ee15a631acc2e529d1e244fda_MD5.png]]
 
 _通过搜索你会发现，components 模块中冗余的代码根本没有输出_。这就是经过 Tree-shaking 处理过后的效果。
 
@@ -103,13 +103,13 @@ $ npx webpack --mode=none
 
 打包完成过后，我们再次找到输出的 bundle.js 文件，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/9e136a181437b9d073be4c04e9ce6990_MD5.png]]
+![[9e136a181437b9d073be4c04e9ce6990_MD5.png]]
 
 这里的打包结果跟我们在第二讲中分析的是一样的，源代码中的一个模块对应这里的一个函数。
 
 我们这里注意一下 _components 对应的这个模块，虽然外部没有使用这里的 Link 函数和 Heading 函数，但是仍然导出了它们_，具体如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/3662d7a13c6c92dbb1b8ccb56f18d167_MD5.png]]
+![[3662d7a13c6c92dbb1b8ccb56f18d167_MD5.png]]
 
 显然这种导出是没有任何意义的。
 
@@ -129,7 +129,7 @@ module.exports = {
 
 配置完成后，重新打包，然后我们再来看一下输出的 bundle.js，具体结果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/459f210ed9bad8d20f7a19c4ae2ad05b_MD5.png]]
+![[459f210ed9bad8d20f7a19c4ae2ad05b_MD5.png]]
 
 此时你会发现 components 模块所对应的函数，就不再导出 Link 和 Heading 这两个函数了，那它们对应的代码就变成了未引用代码。而且如果你使用的是 VS Code，会发现 VS Code 将这两个函数名的颜色变淡了，这是为了表示它们未被引用。_对于这种未引用代码，如果我们开启压缩代码功能，就可以自动压缩掉这些没有用到的代码_。
 
@@ -150,7 +150,7 @@ module.exports = {
 
 然后再次回到命令行重新运行打包，具体结果如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/c8c3725dcfb32c11943bffb32c9131d2_MD5.png]]
+![[c8c3725dcfb32c11943bffb32c9131d2_MD5.png]]
 
 仔细查看打包结果，你会发现，_Link 和 Heading 这些未引用代码都被自动移除了_。
 
@@ -195,7 +195,7 @@ module.exports = {
 
 然后回到命令行终端再次运行打包。_此时 bundle.js 中就不再是一个模块对应一个函数了，而是把所有的模块都放到了一个函数中_，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/b862ed7abc4ba173b326c8a4e4fad0b8_MD5.png]]
+![[b862ed7abc4ba173b326c8a4e4fad0b8_MD5.png]]
 
 这个特性又被称为 `Scope Hoisting`，也就是`作用域提升`，它是 Webpack 3.0 中添加的一个特性。
 
@@ -212,7 +212,7 @@ module.exports = {
 我们都知道 Webpack 在打包所有的模块代码之前，先是将模块根据配置交给不同的 Loader 处理，最后再将 Loader 处理的结果打包到一起。
 很多时候，我们为了更好的兼容性，会选择使用  [babel-loader](https://github.com/babel/babel-loader)  去转换我们源代码中的一些 ECMAScript 的新特性。_而 Babel 在转换 JS 代码时，很有可能处理掉我们代码中的 ES Modules 部分，把它们转换成 CommonJS 的方式_，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ee07dd8326cf4388270d25b6a483648f_MD5.png]]
+![[ee07dd8326cf4388270d25b6a483648f_MD5.png]]
 
 当然了，_Babel 具体会不会处理 ES Modules 代码，取决于我们有没有为它配置使用转换 ES Modules 的插件_。
 很多时候，我们为 Babel 配置的都是一个 preset（预设插件集合），而不是某些具体的插件。例如，目前市面上使用最多的  [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env)，_这个预设里面就有[转换 ES Modules 的插件](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs)。_ 所以当我们*使用这个预设时，代码中的 ES Modules 部分就会被转换成 CommonJS 方式*。**那 Webpack 再去打包时，拿到的就是以 CommonJS 方式组织的代码了，所以 Tree-shaking 不能生效**。
@@ -248,19 +248,19 @@ module.exports = {
 
 配置完成过后，我们打开命令行终端，运行 Webpack 打包命令，然后再找到 bundle.js，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/65be7caf70a56024b3e146b8c3f6ff49_MD5.png]]
+![[65be7caf70a56024b3e146b8c3f6ff49_MD5.png]]
 
 仔细查看你会发现，结果并不是像刚刚说的那样，这里 usedExports 功能仍然正常工作了，此时，如果我们压缩代码，这些未引用的代码依然会被移除。_这也就说明 Tree-shaking 并没有失效_。
 
 那到底是怎么回事呢？为什么很多资料都说 babel-loader 会导致 Tree-shaking 失效，但*当我们实际尝试后又发现并没有失效？*
 其实，这是因为在最新版本（8.x）的 babel-loader 中，_已经自动帮我们关闭了对 ES Modules 转换的插件_，你可以参考对应版本 babel-loader 的[源码](https://github.com/babel/babel-loader/blob/v8.1.0/src/injectCaller.js)，核心代码如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ce95cc754b1dfef8af6db40f0b0c5151_MD5.png]]
+![[ce95cc754b1dfef8af6db40f0b0c5151_MD5.png]]
 
 通过查阅 babel-loader 模块的源码，我们发现它已经在 injectCaller 函数中标识了当前环境支持 ES Modules。
 然后再找到我们所使用的 @babal/preset-env 模块源码，部分核心代码如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e8a5acddfb94a876bcad9ff025096e94_MD5.png]]
+![[e8a5acddfb94a876bcad9ff025096e94_MD5.png]]
 
 在这个模块中，根据环境标识自动禁用了对 ES Modules 的转换插件，所以**经过 babel-loader 处理后的代码默认仍然是 ES Modules，那 Webpack 最终打包得到的还是 ES Modules 代码，Tree-shaking 自然也就可以正常工作了**。
 
@@ -299,7 +299,7 @@ _给 Babel preset 添加配置的方式比较特别_，这里很多人都会配�
 
 完成以后，我们再次打开命令行终端，运行 Webpack 打包。然后找到 bundle.js，结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/10e100cb21ea804c40266170f4a37c0e_MD5.png]]
+![[10e100cb21ea804c40266170f4a37c0e_MD5.png]]
 
 此时，你就会发现 usedExports 没法生效了。即便我们开启压缩代码，Tree-shaking 也会失效。
 
@@ -359,13 +359,13 @@ document.body.appendChild(Button());
 
 我们打开命令行终端，尝试运行打包，打包完成过后找到打包结果，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/c7502784ce78848443f4cddbacf36a66_MD5.png]]
+![[c7502784ce78848443f4cddbacf36a66_MD5.png]]
 
 **根据打包结果发现，所有的组件模块都被打包进了 bundle.js**。
 
 *此时如果我们开启 Tree-shaking 特性*（只设置 useExports），*这里没有用到的导出成员其实最终也可以被移除*，打包效果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/6ce3403e87f7fda8c5e10d3ac06deec1_MD5.png]]
+![[6ce3403e87f7fda8c5e10d3ac06deec1_MD5.png]]
 
 **但是由于这些成员所属的模块中有副作用代码，所以就导致最终 Tree-shaking 过后，这些模块并不会被完全移除**。
 
@@ -415,7 +415,7 @@ module.exports = {
 
 完成以后我们再次运行打包，然后同样找到打包输出的 bundle.js 文件，结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/41f0a03b43b603d1f850aab63c8ecd92_MD5.png]]
+![[41f0a03b43b603d1f850aab63c8ecd92_MD5.png]]
 
 此时那些没有用到的模块就彻底不会被打包进来了。那这就是 sideEffects 的作用。
 
@@ -455,7 +455,7 @@ console.log((8).pad(3)); // => '0008'
 *这里为 Number 类型做扩展的操作就是 extend 模块对全局产生的副作用*。
 *此时如果我们还是通过 package.json 标识我们代码没有副作用，那么再次打包过后，就会出现问题*。我们可以找到打包结果，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/02608f905683c6a9d15f378ed7488112_MD5.png]]
+![[02608f905683c6a9d15f378ed7488112_MD5.png]]
 
 我们看到，*对 Number 的扩展模块并不会打包进来*。缺少了对 Number 的扩展操作，我们的代码再去运行的时候，就会出现错误。这种扩展的操作属于对全局产生的副作用。
 

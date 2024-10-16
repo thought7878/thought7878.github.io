@@ -98,11 +98,11 @@ module.exports = {
 
 完成配置之后，我们就可以打开命令行终端，运行 Webpack 打包，那此次打包会有两个入口。打包完成后，我们找到输出目录，这里就能看到两个入口文件各自的打包结果了，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/7acae5d760e02395f4df420f1eadef98_MD5.png]]
+![[7acae5d760e02395f4df420f1eadef98_MD5.png]]
 
 但是这里还有*一个小问题*，我们打开任意一个输出的 HTML 文件，具体结果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/2a0b729b4b25daef30bc55790cc3d3c4_MD5.png]]
+![[2a0b729b4b25daef30bc55790cc3d3c4_MD5.png]]
 
 你就会发现 *index 和 album 两个打包结果都被页面载入了，而我们希望的是每个页面只使用它对应的那个输出结果*。
 所以这里还需要修改配置文件，我们回到配置文件中，找到输出 HTML 的插件，*默认这个插件会自动注入所有的打包结果*，**如果需要指定所使用的 bundle，通过 HtmlWebpackPlugin 的 `chunks 属性`来设置**。我们分别为两个页面配置使用不同的 chunk，具体配置如下：
@@ -140,7 +140,7 @@ module.exports = {
 
 完成以后我们再次回到命令行终端，然后运行打包，打包结果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/b5a27ff4abb981725f617176c352bad0_MD5.png]]
+![[b5a27ff4abb981725f617176c352bad0_MD5.png]]
 
 这一次打包的结果就完全正常了。
 
@@ -177,7 +177,7 @@ module.exports = {
 
 完成以后我们打开命令行终端，再次运行 Webpack 打包，打包结果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/22f1f49c6da6aa685ea9eec50f36387c_MD5.png]]
+![[22f1f49c6da6aa685ea9eec50f36387c_MD5.png]]
 
 此时在我们的 dist 下就会额外生成一个 JS 文件，*在这个文件中就是 index 和 album 中公共的模块部分了*。
 
@@ -196,7 +196,7 @@ Webpack 中支持***使用 ES Modules 的动态导入的特性*实现模块的�
 ##### 案例
 接下来，我们具体来看如何使用动态导入特性，这里我已经设计了*一个可以发挥按需加载作用的场景*，具体效果如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/d7cc92b489cc721d0e6981fe4ee43b51_MD5.gif]]
+![[d7cc92b489cc721d0e6981fe4ee43b51_MD5.gif]]
 
 在这个应用的主体区域，如果我们访问的是首页，它显示的是一个文章列表，如果我们访问的是相册页，它显示的就是相册列表。
 
@@ -277,7 +277,7 @@ update()
 完成以后，Webpack Dev Server 自动重新打包，我们再次回到浏览器，此时应用仍然是可以正常工作的。
 那我们再回到命令行终端，重新运行打包，然后看看此时的打包结果具体是怎样的。打包完成以后我们打开 dist 目录，具体结果如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/05caaad7fe1d87807e56b6b609f42403_MD5.png]]
+![[05caaad7fe1d87807e56b6b609f42403_MD5.png]]
 
 此时 dist 目录下就会额外多出三个 JS 文件，*其中有两个文件是动态导入的模块，另外一个文件是动态导入模块中公共的模块*，*这三个文件就是由动态导入自动分包产生的*。
 
@@ -302,11 +302,11 @@ import(/* webpackChunkName: 'posts' */'./posts/posts')
 
 完成过后，我们再次打开命令行终端，运行 Webpack 打包，那此时我们生成 bundle 的 name 就会使用刚刚注释中提供的名称了，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/27ae5b6da391c8a5b438102f047b21ee_MD5.png]]
+![[27ae5b6da391c8a5b438102f047b21ee_MD5.png]]
 
 **魔法注释还有个特殊用途：** *如果你的 chunkName 相同的话，那相同的 chunkName 最终就会被打包到一起*。例如，我们这里可以把这两个 chunkName 都设置为 components，然后再次运行打包，那此时这两个模块都会被打包到一个文件中，具体操作如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/2d797d460a83140c6a3581376bf093c8_MD5.png]]
+![[2d797d460a83140c6a3581376bf093c8_MD5.png]]
 
 *借助这个特点，就可以根据自己的实际情况，灵活组织动态加载的模块了。*
 

@@ -4,7 +4,7 @@
 - 能够编译代码中的新特性；
 - 能够支持不同种类的前端资源模块。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ba6512522d1209c35d4da8d66805c52b_MD5.png]]
+![[ba6512522d1209c35d4da8d66805c52b_MD5.png]]
 
 目前，前端领域有一些工具能够很好的满足以上这 3 个需求，其中最为主流的就是 Webpack、Parcel 和 Rollup。
 
@@ -98,7 +98,7 @@ _这个命令在执行的过程中_，Webpack 会自动从 src/index.js 文件�
 
 _完成之后，控制台会提示_：顺着 index.js 有两个 JS 文件被打包到了一起。与之对应的就是项目的根目录下多出了一个 dist 目录，我们的打包结果就存放在这个目录下的 main.js 文件中，具体操作如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/624889757b610927e7581548c4c28674_MD5.png]]
+![[624889757b610927e7581548c4c28674_MD5.png]]
 
 这里我们回到 index.html 中修改引入文件的路径，由于打包后的代码就不会再有 import 和 export 了，所以我们可以删除 type="module"。再次回到浏览器中，查看这个页面，这时我们的代码仍然可以正常工作，index.html 的代码如下所示：
 
@@ -237,10 +237,10 @@ module.exports = config;
 ```
 
 没有智能提示的效果，如下所示：  
-![[engineering/视频教程/Webpack原理与实践/docs/media/844272e4a73db47d2cb95e4ae5ec95ca_MD5.gif]]
+![[844272e4a73db47d2cb95e4ae5ec95ca_MD5.gif]]
 
 加上类型标注实现智能提示的效果，如下所示：  
-![[engineering/视频教程/Webpack原理与实践/docs/media/11646bfe05aeb1a4706e5dcb5393cea1_MD5.gif]]
+![[11646bfe05aeb1a4706e5dcb5393cea1_MD5.gif]]
 
 ##### 使用  import  动态导入类型
 
@@ -288,27 +288,27 @@ Webpack 4 新增了一个工作模式的用法，**这种用法大大简化了 W
 
 为了更好的理解打包后的代码，我们先将 Webpack 工作模式设置为 none，这样 Webpack 就会按照最原始的状态进行打包，所得到的结果更容易理解和阅读。按照 none 模式打包完成后，我们打开最终生成的 bundle.js 文件，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/25a59104fa5e4e4c95c956152360371e_MD5.png]]
+![[25a59104fa5e4e4c95c956152360371e_MD5.png]]
 
 我们可以先把代码全部折叠起来，以便于了解整体的结构，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/afa1f5f2aa3a822aae13519c6688da17_MD5.png]]
+![[afa1f5f2aa3a822aae13519c6688da17_MD5.png]]
 
 **整体生成的代码**其实就是一个立即执行函数，这个函数是 Webpack 工作入口（webpackBootstrap），它接收一个 modules 参数，调用时传入了一个数组。
 
 展开这个数组，里面的元素均是参数列表相同的函数。**这里的函数对应的就是我们源代码中的模块，也就是说每个模块最终被包裹到了这样一个函数中，从而实现模块私有作用域**，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/16dcef4f5484ed45ba37131fe8255781_MD5.png]]
+![[16dcef4f5484ed45ba37131fe8255781_MD5.png]]
 
 我们再来展开 **Webpack 工作入口函数**，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/fc365c72d42dd0b0b26a88eadb79fc7b_MD5.png]]
+![[fc365c72d42dd0b0b26a88eadb79fc7b_MD5.png]]
 
 这个函数内部并不复杂，而且注释也很清晰，最开始定义了一个 `installedModules 对象`用于存放或者缓存加载过的模块。紧接着定义了一个 `require 函数`，顾名思义，这个函数是用来加载模块的。再往后就是在 require 函数上挂载了一些其他的数据和工具函数，这些暂时不用关心。
 
 _这个函数执行到最后调用了 require 函数，传入的模块 id 为 0，开始加载模块_。_模块 id 实际上就是模块数组的元素下标，也就是说这里开始加载源代码中所谓的入口模块_，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/fc365c72d42dd0b0b26a88eadb79fc7b_MD5.png]]
+![[fc365c72d42dd0b0b26a88eadb79fc7b_MD5.png]]
 
 为了更好的理解 bundle.js 的执行过程，你可以把它运行到浏览器中，然后通过 Chrome 的 Devtools 单步调试一下。调试过程我单独录制了一个视频，详情见视频（19 分 11 秒）。
 

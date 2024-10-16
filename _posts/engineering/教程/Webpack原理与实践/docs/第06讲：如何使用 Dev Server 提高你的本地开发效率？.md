@@ -12,7 +12,7 @@
 
 对于以上的这些需求 Webpack 都已经提供了相对应的功能，其中部分功能需要用到一些周边的工具，具体效果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e423bf46de556b1af2e43be783f519ec_MD5.gif]]
+![[e423bf46de556b1af2e43be783f519ec_MD5.gif]]
 
 所以，今天我们的主题就是：学习如何增强使用 Webpack 的开发体验。
 
@@ -30,7 +30,7 @@ _针对上述这个问题，我们可以使用 Webpack CLI 提供的另外一种
 
 我们可以将浏览器移至屏幕的左侧，然后将编辑器移至右侧，此时我们尝试修改源代码，保存过后，以 watch 模式工作的 Webpack 就会自动重新打包，然后我们就可以在浏览器中刷新页面查看最新的结果，具体效果如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a3fe59ea44d3541fb4ef2d645cbf1e72_MD5.png]]
+![[a3fe59ea44d3541fb4ef2d645cbf1e72_MD5.png]]
 
 _此时我们的开发体验就是：_ 修改代码 → Webpack 自动打包 → 手动刷新浏览器 → 预览运行结果。
 
@@ -79,11 +79,11 @@ $ npx webpack-dev-server
 
 运行 webpack-dev-server 这个命令时，它内部会*启动一个 HTTP Server*，为打包的结果提供静态文件服务，并且自动使用 Webpack 打包我们的应用，然后监听源代码的变化，一旦文件发生变化，它会立即重新打包，大致流程如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/bbd26a55d7d3e138ccfa76610780d71d_MD5.png]]
+![[bbd26a55d7d3e138ccfa76610780d71d_MD5.png]]
 
 不过这里需要注意的是，_webpack-dev-server 为了提高工作速率，它并没有将打包结果写入到磁盘中，而是暂时存放在内存中，内部的 HTTP Server 也是从内存中读取这些文件的_。这样一来，就会减少很多不必要的磁盘读写操作，大大提高了整体的构建效率。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/dc53b77c78e5551349d0f619f730c0f5_MD5.png]]
+![[dc53b77c78e5551349d0f619f730c0f5_MD5.png]]
 
 我们还可以为 webpack-dev-server 命令传入一个 `--open 的参数`，_用于自动唤起浏览器打开我们的应用_。打开浏览器过后，此时如果你有两块屏幕，就可以把浏览器放到另外一块屏幕上，然后体验一边编码，一边即时预览的开发环境了。
 
@@ -137,7 +137,7 @@ module.exports = {
 
 启动过后，我们打开浏览器，这里我们访问的页面文件和 bundle.js 文件均来自于打包结果。我们再尝试访问 favicon.ico，因为这个文件已经没有参与打包了，所以这个文件必然来源于 contentBase 中配置的目录了。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/67bef44879ff0c75bf3e66f0df11bc7c_MD5.png]]
+![[67bef44879ff0c75bf3e66f0df11bc7c_MD5.png]]
 
 #### Proxy 代理
 
@@ -152,7 +152,7 @@ webpack-dev-server 就支持直接通过配置的方式，添加代理服务。�
 这里我们假定 GitHub 的 API 就是我们应用的后端服务，那我们的目标就是将 GitHub API 代理到本地开发服务器中。
 我们可以先在浏览器中尝试访问其中的一个接口，具体结果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a569e77d734a4e5268101edafe19a0f8_MD5.png]]
+![[a569e77d734a4e5268101edafe19a0f8_MD5.png]]
 
 GitHub API 的 Endpoint 都是在根目录下，也就是说不同的 Endpoint 只是 URL 中的路径部分不同，例如 https://api.github.com/users 和 https://api.github.com/events。
 
@@ -175,7 +175,7 @@ module.exports = {
 
 那此时我们请求 http://localhost:8080/api/users ，就相当于请求了 https://api.github.com/api/users。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/4627cca15203d55c7d28f82f1dbd29b5_MD5.png]]
+![[4627cca15203d55c7d28f82f1dbd29b5_MD5.png]]
 
 而我们真正希望请求的地址是 https://api.github.com/users ，*所以对于代理路径开头的 /api 我们要重写掉*。我们可以添加一个 `pathRewrite` 属性来实现代理路径重写，重写规则就是把路径中开头的 /api 替换为空，pathRewrite 最终会以正则的方式来替换请求路径。
 
@@ -198,7 +198,7 @@ module.exports = {
 
 这样我们代理的地址就正常了。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/13c473a290039d8880f4c29192f6997c_MD5.png]]
+![[13c473a290039d8880f4c29192f6997c_MD5.png]]
 
 除此之外，我们还需设置一个 `changeOrigin` 属性为 true。这是因为默认代理服务器会以我们实际在浏览器中请求的主机名，也就是 localhost:8080 作为代理请求中的主机名。而一般服务器需要根据请求的主机名判断是哪个网站的请求，*那 localhost:8080 这个主机名，对于 GitHub 的服务器来说，肯定无法正常请求，所以需要修改*。
 *将代理规则配置的 changeOrigin 属性设置为 true，就会以实际代理请求地址中的主机名去请求*，也就是我们正常请求这个地址的主机名是什么，实际请求 GitHub 时就会设置成什么。
@@ -223,7 +223,7 @@ module.exports = {
 
 完成以后，打开命令行终端，运行 webpack-dev-server。然后打开浏览器，这里我们直接尝试请求 http://localhost:8080/api/users，得到的就是 GitHub 的用户数据。 因为这个地址已经被代理到了 GitHub 的用户数据接口。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/cb8b8114e7ebcb92d9a1f0adf1a12ee1_MD5.png]]
+![[cb8b8114e7ebcb92d9a1f0adf1a12ee1_MD5.png]]
 
 此时，我们就可以回到代码中使用代理后的本地同源地址去请求后端接口，而不必担心出现跨域问题了。
 

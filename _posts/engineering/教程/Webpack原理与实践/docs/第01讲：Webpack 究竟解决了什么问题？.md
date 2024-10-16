@@ -210,17 +210,17 @@ method1: method1,
 
 在 AMD 规范中约定每个模块通过 *define() 函数*定义，这个函数默认可以接收两个参数，*第一个参数*是一个数组，用于声明此模块的依赖项；*第二个参数*是一个函数，参数与前面的依赖项一一对应，每一项分别对应依赖项模块的导出成员，这个函数的作用就是为当前模块提供一个私有空间。如果在当前模块中需要向外部导出成员，可以通过 return 的方式实现。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/d690337512958fa22c5714b6ab087ae6_MD5.png]]
+![[d690337512958fa22c5714b6ab087ae6_MD5.png]]
 
 除此之外，Require.js 还提供了一个 require() 函数用于自动加载模块，用法与 define() 函数类似，区别在于 require() 只能用来载入模块，而  define() 还可以定义模块。*当 Require.js 需要加载一个模块时，内部就会自动创建 script 标签去请求并执行相应模块的代码*。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/2a7f9e7463e65c31b2936f406e7fecdc_MD5.png]]
+![[2a7f9e7463e65c31b2936f406e7fecdc_MD5.png]]
 
 目前绝大多数第三方库都支持 AMD 规范，*但是它使用起来相对复杂，而且当项目中模块划分过于细致时，就会出现同一个页面对 js 文件的请求次数过多的情况，从而导致效率降低*。在当时的环境背景下，AMD 规范为前端模块化提供了一个标准，但这只是一种妥协的实现方式，并不能成为最终的解决方案。
 
 同期出现的规范还有淘宝的 Sea.js，只不过它实现的是另外一个标准，叫作 *CMD*，这个标准类似于 CommonJS，在使用上基本和 Require.js 相同，可以算上是重复的轮子。但随着前端技术的发展，Sea.js 后来也被 Require.js 兼容了。如果你感兴趣可以课后了解一下 [Seajs官网](https://seajs.github.io/seajs/docs/)。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a7367d7e717f693ee2a7edc9b167e462_MD5.png]]
+![[a7367d7e717f693ee2a7edc9b167e462_MD5.png]]
 
 #### 模块化的标准规范
 
@@ -231,7 +231,7 @@ method1: method1,
 - 在 Node.js 环境中，我们遵循 CommonJS 规范来组织模块。
 - 在浏览器环境中，我们遵循 ES Modules 规范。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a1c54888798d7e12c4321af791933dae_MD5.png]]
+![[a1c54888798d7e12c4321af791933dae_MD5.png]]
 
 而且在最新的 Node.js 提案中表示，Node 环境也会逐渐趋向于 ES Modules 规范，也就是说作为现阶段的前端开发者，应该重点掌握 ES Modules 规范。
 
@@ -252,7 +252,7 @@ method1: method1,
 - [MDN 官方的详细资料](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules)
 - [ECMAScript 官方详细资料](http://www.ecma-international.org/ecma-262/6.0/#sec-modules)
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/74049e2fcda2e716d39b52d5d31efd01_MD5.png]]
+![[74049e2fcda2e716d39b52d5d31efd01_MD5.png]]
 
 ### 模块打包工具的出现 & 打包工具解决的问题
 
@@ -270,15 +270,15 @@ method1: method1,
 
 - **第一，它需要具备编译代码的能力**。也就是将我们开发阶段编写的那些包含新特性的代码转换为能够兼容大多数环境的代码，解决我们所面临的环境兼容问题。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/89b630ff76993f327eb0c27c2452761c_MD5.png]]
+![[89b630ff76993f327eb0c27c2452761c_MD5.png]]
 
 - **第二，能够将散落的模块再打包到一起**。这样就解决了浏览器频繁请求模块文件的问题。这里需要注意，只是在开发阶段才需要模块化的文件划分，因为它能够帮我们更好地组织代码，到了实际运行阶段，这种划分就没有必要了。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/bb1d89a373c158bfcfad9200b90af09e_MD5.png]]
+![[bb1d89a373c158bfcfad9200b90af09e_MD5.png]]
 
 - **第三，它需要支持不同种类的前端模块类型**。也就是说可以将开发过程中涉及的样式、图片、字体等所有资源文件都作为模块使用，这样我们就拥有了一个统一的模块化方案，所有资源文件的加载都可以通过代码控制，与业务代码统一维护，更为合理。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e98991cc2a3ee4b40bb2457e2a591e1b_MD5.png]]
+![[e98991cc2a3ee4b40bb2457e2a591e1b_MD5.png]]
 
 针对上面第一、第二个设想，我们可以借助 Gulp 之类的构建系统配合一些编译工具和插件去实现，但是对于第三个可以对不同种类资源进行模块化的设想，就很难通过这种方式去解决了，所以就有了我们接下来要介绍的主题：前端模块打包工具。
 

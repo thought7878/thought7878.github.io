@@ -4,11 +4,11 @@
 
 其实 Webpack 官网首屏的英雄区就已经很清楚地描述了它的*工作原理*，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/2052f60f71f9cd84e6a7dd3071280cf9_MD5.png]]
+![[2052f60f71f9cd84e6a7dd3071280cf9_MD5.png]]
 
 那这里我们先来快速理解一下 Webpack 打包的**核心工作过程**。我们以一个普通的前端项目为例，项目中一般都会散落着各种各样的代码及资源文件，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/31650bd93bc680ae7c0025e51bf68362_MD5.png]]
+![[31650bd93bc680ae7c0025e51bf68362_MD5.png]]
 
 比如 JS、CSS、图片、字体等，这些文件在 Webpack 的思想中都属于当前项目中的一个模块。Webpack 可以通过打包，将它们最终聚集到一起。**Webpack 在整个打包的过程中：**
 
@@ -19,13 +19,13 @@
 
 具体来看**打包的过程**，Webpack 启动后，会根据我们的配置，找到项目中的某个指定文件（一般这个文件都会是一个 JS 文件）作为*入口*。然后顺着入口文件中的代码，根据代码中出现的 import（ES Modules）或者是 require（CommonJS）之类的语句，*解析*推断出来这个文件所依赖的资源模块，然后再分别去解析每个资源模块的依赖，周而复始，*最后形成整个项目中所有用到的文件之间的依赖关系树*，下面这个动画生动的演示了这个过程：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/90c35b178c2a3416d48ebf9c3d26c4d2_MD5.gif]]
+![[90c35b178c2a3416d48ebf9c3d26c4d2_MD5.gif]]
 
 #### Loader 加载模块并打包
 
 有了这个依赖关系树过后， Webpack 会遍历（递归）这个依赖树，找到每个节点对应的资源文件，然后*根据配置选项中的 Loader 配置，交给对应的 Loader 去加载这个模块，最后将加载的结果放入 bundle.js（打包结果）中*，从而实现整个项目的打包，具体操作可以参考下面的动画：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/aa708f0593b425f1617dec925dbb012b_MD5.gif]]
+![[aa708f0593b425f1617dec925dbb012b_MD5.gif]]
 
 ##### 打包过程中的图片或字体文件的加载和打包
 对于依赖模块中无法通过 JavaScript 代码表示的资源模块，例如图片或字体文件，*一般的 Loader 会将它们单独作为资源文件拷贝到输出目录中，然后将这个资源文件所对应的访问路径作为这个模块的导出成员暴露给外部*。
@@ -69,21 +69,21 @@
 
 *首先，Webpack CLI 会通过 yargs 模块解析 CLI 参数*，所谓 CLI 参数指的就是我们在运行 webpack 命令时通过命令行传入的参数，例如 --mode=production，具体位置如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/582986c5765cc30eba953b3c7b3541ac_MD5.png]]
+![[582986c5765cc30eba953b3c7b3541ac_MD5.png]]
 
 紧接着后面，调用了 bin/utils/convert-argv.js 模块，*将得到的命令行参数转换为 Webpack 的配置选项对象*，具体操作如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/c7bd5fc83a296f190203e0e46d15aaa9_MD5.png]]
+![[c7bd5fc83a296f190203e0e46d15aaa9_MD5.png]]
 
 *在 convert-argv.js 工作过程中*，首先为传递过来的命令行参数设置了默认值，然后判断了命令行参数中是否指定了一个具体的配置文件路径，如果指定了就加载指定配置文件，反之则需要根据默认配置文件加载规则*找到配置文件*，具体代码如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/8f17ee869022b256300d928bc6b67259_MD5.png]]
+![[8f17ee869022b256300d928bc6b67259_MD5.png]]
 
 找到配置文件过后，*将配置文件中的配置和 CLI 参数中的配置合并*，如果出现重复的情况，会优先使用 CLI 参数，最终得到一个完整的配置选项。
 
 有了配置选项过后，*开始载入 Webpack 核心模块，传入配置选项，创建 Compiler 对象*，这个 `Compiler` 对象就是整个 Webpack 工作过程中最核心的对象了，*负责完成整个项目的构建工作。*
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/514b019009d92d2bf87cb2f240c68e41_MD5.png]]
+![[514b019009d92d2bf87cb2f240c68e41_MD5.png]]
 
 #### 二、创建 Compiler 对象
 
@@ -91,38 +91,38 @@
 
 同样，这里我们需要找到这个模块的入口文件，也就是 `lib/webpack.js` 文件。*这个文件导出的是一个用于创建 Compiler 的函数*，具体如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e2b6ad20387cf64013859e5c317d8212_MD5.png]]
+![[e2b6ad20387cf64013859e5c317d8212_MD5.png]]
 
 在这个函数中，*首先校验了外部传递过来的 options 参数是否符合要求*，紧接着判断了 options 的类型。
 
 根据这个函数中的代码，我们发现 options 不仅仅可以是一个对象，还可以是一个数组。如果我们传入的是一个数组，那么 Webpack 内部创建的就是一个 `MultiCompiler`，*也就是说 Webpack 应该支持同时开启多路打包*，配置数组中的每一个成员就是一个独立的配置选项。而如果我们传入的是普通的对象，就会按照我们最熟悉的方式创建一个 Compiler 对象，进行单线打包。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/4f446c21149766b484110c2309b7832f_MD5.png]]
+![[4f446c21149766b484110c2309b7832f_MD5.png]]
 
 我们顺着主线接着往下看，如下图所示：在创建了 Compiler 对象过后，Webpack 就开始*注册我们配置中的每一个插件*了，因为再往后 Webpack 工作过程的生命周期就要开始了，所以必须先注册，这样才能确保插件中的每一个钩子都能被命中。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/33f1538b74e4ed67f4a8e913ec233a7e_MD5.png]]
+![[33f1538b74e4ed67f4a8e913ec233a7e_MD5.png]]
 
 #### 三、开始构建
 
 完成 Compiler 对象的创建过后，紧接着这里的代码开始*判断配置选项中是否启用了监视模式*，具体操作如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/3523dad653de19e4d95521246484069e_MD5.png]]
+![[3523dad653de19e4d95521246484069e_MD5.png]]
 
 - 如果是监视模式就调用 Compiler 对象的 watch 方法，以监视模式启动构建，但这不是我们主要关心的主线。
 - 如果不是监视模式就调用 Compiler 对象的 run 方法，开始构建整个应用。
 
 这个 `run 方法`定义在 Compiler 类型中，具体文件在 webpack 模块下的 lib/Compiler.js 中，代码位置如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/0d9bcd5395dc37a90b15341483699683_MD5.png]]
+![[0d9bcd5395dc37a90b15341483699683_MD5.png]]
 
 *这个方法内部*就是先触发了beforeRun 和 run 两个钩子，然后最关键的是调用了当前对象的 compile 方法，真正开始编译整个项目，具体代码位置如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e97c147c88136799b3fc0cac12cf9afb_MD5.png]]
+![[e97c147c88136799b3fc0cac12cf9afb_MD5.png]]
 
 *compile 方法内部*主要就是创建了一个 `Compilation 对象`，这个对象我们在 04 课时中有提到，Compilation 字面意思是“合集”，实际上，你就可以理解为一次构建过程中的上下文对象，里面包含了这次构建中全部的资源和信息。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/013c0bb28832686b8da4284ee113d71d_MD5.png]]
+![[013c0bb28832686b8da4284ee113d71d_MD5.png]]
 
 创建完 Compilation 对象过后，紧接着触发了一个叫作 make 的钩子，进入整个构建过程最核心的 make 阶段。
 
@@ -130,26 +130,26 @@
 
 **make 阶段主体的目标**就是：根据 entry 配置找到入口模块，开始依次递归出所有依赖，形成依赖关系树，然后将递归到的每个模块交给不同的 Loader 处理。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/b7cf5392e2c6afb5ff62f1d286808a55_MD5.png]]
+![[b7cf5392e2c6afb5ff62f1d286808a55_MD5.png]]
 
 由于这个阶段的调用过程并不像之前一样，直接调用某个对象的某个方法，而是采用事件触发机制，让外部监听这个 make 事件的地方开始执行，*所以从这里往后的代码可能找起来会费点劲儿*。
 
 这里我简单提示一下：想要知道这个事件触发后，哪些地方会开始执行，前提是得知道哪里注册了这个叫作 make 的事件。
 Webpack 的插件系统是基于官方自己的 Tapable 库实现的，我们想要知道在哪里注册了某个事件，必须要知道如何注册的事件。Tapable 的注册方式具体如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/41288d4bde695fb975abb4c6aa281b73_MD5.png]]
+![[41288d4bde695fb975abb4c6aa281b73_MD5.png]]
 
 所以，我们只需要通过开发工具搜索源代码中的 make.tap，就应该能够找到事件注册的位置，具体操作如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/af2d6d18f474ee2de98591b0ffd22b87_MD5.png]]
+![[af2d6d18f474ee2de98591b0ffd22b87_MD5.png]]
 
 这里搜索到了六个插件中都注册了 make 事件，这些插件实际上是前面创建 Compiler 对象的时候创建的，刚刚因为没有影响，所以我们就忽略了：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ed70144c1690a46639af2068da4d97b9_MD5.png]]
+![[ed70144c1690a46639af2068da4d97b9_MD5.png]]
 
 因为我们默认使用的就是单一入口打包的方式，所以这里最终会执行其中的 `SingleEntryPlugin`。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ecc616b145a9512ebac6ea3501c53b2c_MD5.png]]
+![[ecc616b145a9512ebac6ea3501c53b2c_MD5.png]]
 
 这个插件中调用了 Compilation 对象的 addEntry 方法，开始解析我们源代码中的入口文件，以此开始“顺藤摸瓜”式的寻找。
 

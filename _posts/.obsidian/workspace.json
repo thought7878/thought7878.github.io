@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "47980c27e2b7d4c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/简历/参考案例.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9fe9582c9539c0d5",
             "type": "leaf",
             "state": {
@@ -121,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/视频教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
+                "file": "engineering/教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
+                "file": "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,6 +158,18 @@
               "type": "markdown",
               "state": {
                 "file": "interview/简历/商智.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47980c27e2b7d4c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/简历/参考案例.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,14 +193,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "要整理的.md",
+                "file": "visualization/1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6971bd1ca69df19d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "performance/前端性能优化原理与实践/0开篇：知识体系与小册格局.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -266,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "要整理的.md",
+                "file": "performance/前端性能优化原理与实践/0开篇：知识体系与小册格局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "要整理的.md",
+                "file": "performance/前端性能优化原理与实践/0开篇：知识体系与小册格局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "要整理的.md"
+                "file": "performance/前端性能优化原理与实践/0开篇：知识体系与小册格局.md"
               }
             }
           }
@@ -315,8 +327,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -330,45 +341,45 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "020e0812adab7144",
+  "active": "3fe3110c949a01ca",
   "lastOpenFiles": [
-    "methods/动力.md",
+    "performance/前端性能优化原理与实践/2网络篇 2：图片优化——质量与性能的博弈.md",
+    "performance/前端性能优化原理与实践/1网络篇 1：webpack 性能调优与 Gzip 原理.md",
+    "performance/前端性能优化原理与实践/0开篇：知识体系与小册格局.md",
+    "performance/浏览器/浏览器如何工作.md",
+    "performance/前端性能优化原理与实践",
+    "visualization/1.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
+    "复习.md",
+    "interview/项目经验.md",
+    "interview/简历/参考案例.md",
+    "interview/前端知识体系及难点.md",
     "要整理的.md",
+    "methods/动力.md",
     "browser/浏览器渲染原理.md",
     "interview/简历/商智.md",
     "interview/字节跳动资深前端面试官的经验.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/28.WebComponent：像搭积木一样构建Web应用.md",
-    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
-    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
-    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "engineering/总结/1.构建工具.md",
-    "interview/0_工作机会.md",
-    "engineering/从0到1/1.开篇：落地前端工程化，告别纸上谈兵！.md",
-    "engineering/overview_interview/01-常见的前端构建工具有哪些？请讲一下他们的应用场景.md",
-    "engineering/视频教程/Webpack原理与实践/docs/第01讲：Webpack 究竟解决了什么问题？.md",
-    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
-    "engineering/overview_interview/02-列举Webpack中常见的Loader.md",
-    "interview/简历/参考案例.md",
-    "performance/总结.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/28.WebComponent：像搭积木一样构建Web应用.md",
+    "performance/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
+    "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
+    "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+    "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "interview/简历/media/609c7453a966765b15588e00c932a600_MD5.png",
     "interview/简历/media",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
-    "base/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
-    "base/浏览器工作原理与实践/09-结束语 (1讲)",
-    "base/浏览器工作原理与实践/01-开篇词 (1讲)",
-    "base/浏览器工作原理与实践/10-课外加餐 (1讲)",
-    "base/浏览器工作原理与实践/08-浏览器安全 (5讲)",
-    "base/浏览器工作原理与实践/07-浏览器中的网络 (3讲)",
-    "base/浏览器工作原理与实践/06-浏览器中的页面 (8讲)",
-    "base/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)",
+    "performance/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
+    "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
+    "performance/浏览器工作原理与实践/09-结束语 (1讲)",
+    "performance/浏览器工作原理与实践/01-开篇词 (1讲)",
+    "performance/浏览器工作原理与实践/10-课外加餐 (1讲)",
+    "performance/浏览器工作原理与实践/08-浏览器安全 (5讲)",
+    "performance/浏览器工作原理与实践/07-浏览器中的网络 (3讲)",
+    "performance/浏览器工作原理与实践/06-浏览器中的页面 (8讲)",
     "base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "base/js/知识点总结/media/2de3b063e2bf6703a3db7b169632b9f9_MD5.png",
     "performance/media/8f27b78cdfefdd873f9e056ff6df190f_MD5.gif",

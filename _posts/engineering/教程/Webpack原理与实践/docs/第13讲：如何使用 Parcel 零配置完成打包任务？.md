@@ -80,7 +80,7 @@ parcel 命令需要我们传入打包入口文件路径，那我们这里就应�
 
 我们打开这个地址，启动浏览器，然后打开开发人员工具。Parcel 同样支持自动刷新这样的功能。具体效果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/a01b75a56e7b2f826305a8f4b73ecf66_MD5.png]]
+![[a01b75a56e7b2f826305a8f4b73ecf66_MD5.png]]
 
 以上就是 Parcel 的基本使用，相比于 Webpack，Parcel 在使用上的确简化了很多。
 
@@ -114,7 +114,7 @@ if (module.hot) {
 
 我们回到 main.js 文件中，假设我们这里想要使用一下 jquery。虽然我们并没有安装这个模块，但是因为有了自动安装依赖功能，我们这里只管正常导入，正常使用就好了。具体效果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/fbbba588e35b72f9f20fd25699d1a82b_MD5.gif]]
+![[fbbba588e35b72f9f20fd25699d1a82b_MD5.gif]]
 
 在文件保存过后，Parcel 会自动去安装刚刚导入的模块包，极大程度地避免手动操作。
 
@@ -145,7 +145,7 @@ log('hello parcel')
 
 保存过后，样式文件可以立即生效。效果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/bd34861172b3544f5a3f0c29fe6c5d86_MD5.png]]
+![[bd34861172b3544f5a3f0c29fe6c5d86_MD5.png]]
 
 你会发现，导入样式的操作，整个过程我们并没有停下来做额外的事情。
 
@@ -171,7 +171,7 @@ import 函数返回的就是一个 Promise 对象，在这个 Promise 对象 the
 
 保存过后，回到浏览器，找到开发人员工具的 Network 面板，这里就能够看到拆分出来的 jquery 所对应的 bundle 文件请求了。具体效果如下图：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/8bb1d03e385ad6106ebe221cb549431a_MD5.png]]
+![[8bb1d03e385ad6106ebe221cb549431a_MD5.png]]
 
 那以上基本上就是 Parcel 最常用的一些特性了，使用上根本没有任何难度，从头到尾我们都只是执行了一个 Parcel 命令。
 
@@ -191,7 +191,7 @@ $ npx parcel build src/index.html
 
 那我们这里再来看一下输出的打包结果，具体结果如下：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/6a8dc7668ac73af6b1777dd29a61044c_MD5.png]]
+![[6a8dc7668ac73af6b1777dd29a61044c_MD5.png]]
 
 此时，dist 目录下就都是本次打包的结果了。这里的输出文件也都会被压缩，而且样式代码也会被单独提取到单个文件中。
 

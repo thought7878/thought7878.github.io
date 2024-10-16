@@ -46,7 +46,7 @@ module.exports = {
 
 配置完成过后回到命令行终端再次运行 Webpack 打包命令，此时你会发现命令行报出了一个模块解析错误，如下所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
+![[9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
 
 *错误信息大体的意思*是说，在解析模块过程中遇到了非法字符，而且错误出现的位置就是在我们的 CSS 文件中。
 
@@ -60,19 +60,19 @@ console.log("This is a style sheet.");
 /* 只是为了证明 Webpack 默认按照 JS 语法解析模块 */
 ```
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/ddba1b0876fbdaa58621217a0d103b5f_MD5.png]]
+![[ddba1b0876fbdaa58621217a0d103b5f_MD5.png]]
 
 > 注意：这里在 CSS 中编写 JS 代码只是为了证实我们的观点，并不是真的要这样使用。
 
 我们再次回到前面提到的错误描述中，如下所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
+![[9e47ac2ef592e80a94b0a66244c2ee5c_MD5.png]]
 
 这里有一个非常重要的提示：You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. （我们需要用适当的加载器来处理这种文件类型，而当前并没有配置一个可以用来处理此文件的加载器）。
 
 根据这个错误说明，我们发现 **Webpack 是用 Loader（加载器）来处理每个模块的，而内部默认的 Loader 只能处理 JS 模块，如果需要加载其他类型的模块就需要配置不同的 Loader**。这也就引出了我们今天的主角：Loader。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/de3b39cd8e6c8218b8858607ebb5818f_MD5.png]]
+![[de3b39cd8e6c8218b8858607ebb5818f_MD5.png]]
 
 #### 加载器的使用方式
 
@@ -108,7 +108,7 @@ module.exports = {
 
 配置完成过后，我们回到命令行终端重新运行打包命令，打包过程就不会再出现错误了，因为这时 CSS 文件会交给 css-loader 处理过后再由 Webpack 打包。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/1d09665f25a3e59a3b38d3145cb4f37b_MD5.png]]
+![[1d09665f25a3e59a3b38d3145cb4f37b_MD5.png]]
 
 #### 样式模块加载的问题
 
@@ -116,7 +116,7 @@ module.exports = {
 
 不过只有解法没有原因不是我们的风格。下面我们来分析产生这个问题的真正原因，首先，我们找到刚刚生成的 bundle.js 文件，因为这个文件是 Webpack 打包后的结果，所有的模块都应该在这个文件中出现。由于默认打包入口在 Webpack 输出的结果中就是第一个模块，所以我们只需要看第一个模块目前是什么样的，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/0b46f633a9867383a656226f27b3624c_MD5.png]]
+![[0b46f633a9867383a656226f27b3624c_MD5.png]]
 
 仔细阅读这个文件，你会发现 **css-loader 的作用**是*将 CSS 模块转换为一个 JS 模块*，具体的实现方法是将我们的 CSS 代码 push 到一个数组中，这个数组是由 css-loader 内部的一个模块提供的，但是整个过程并没有任何地方使用到了这个数组。
 
@@ -171,7 +171,7 @@ import "./style.css";
 console.log("App starts running~");
 ```
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/f6cd18994d373de45ba8bacb96769c91_MD5.png]]
+![[f6cd18994d373de45ba8bacb96769c91_MD5.png]]
 
 即便是通过 JS 代码去加载的 CSS 模块，css-loader 和 style-loader 仍然可以正常工作。_因为 Webpack 在打包过程中会循环遍历每个模块，然后根据配置将每个遇到的模块交给对应的 Loader 去处理，最后再将处理完的结果打包到一起_。
 
@@ -212,7 +212,7 @@ Loader 作为 Webpack 的核心机制，内部的工作原理却非常简单。�
 
 这里我的需求是*开发一个可以加载 markdown 文件的加载器*，以便可以在代码中直接导入 md 文件。我们都应该知道 markdown 一般是需要转换为 html 之后再呈现到页面上的，所以我希望导入 md 文件后，直接得到 markdown 转换后的 html 字符串，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/c4b6d9d501c2eaaa326b619a47daac5c_MD5.png]]
+![[c4b6d9d501c2eaaa326b619a47daac5c_MD5.png]]
 
 由于这里需要直观地演示，我就不再单独创建一个 npm 模块，而是就直接在项目根目录下创建一个 `markdown-loader.js` 文件，完成后你可以把这个模块发布到 npm 上作为一个独立的模块使用。
 
@@ -281,7 +281,7 @@ module.exports = {
 
 配置完成后，我们再次打开命令行终端运行打包命令，如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e04d9e9d83bfd84639c4c9c3cf6877e4_MD5.png]]
+![[e04d9e9d83bfd84639c4c9c3cf6877e4_MD5.png]]
 
 打包过程中命令行确实打印出来了我们所导入的 Markdown 文件内容，这就意味着 Loader 函数的参数确实是文件的内容。
 
@@ -289,7 +289,7 @@ module.exports = {
 
 那这究竟是为什么呢？_其实 Webpack 加载资源文件的过程类似于一个工作管道，你可以在这个过程中依次使用多个 Loader，但是最终这个管道结束过后的结果必须是一段标准的 JS 代码字符串_。
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/e947b71e326fcc03d8489ef8266a99ca_MD5.png]]
+![[e947b71e326fcc03d8489ef8266a99ca_MD5.png]]
 
 所以我们这里才会出现上面提到的错误提示，那*解决的办法*也就很明显了：
 
@@ -311,7 +311,7 @@ module.exports = (source) => {
 
 那此时*打包的结果*是怎样的呢？我们打开输出的 bundle.js，找到最后一个模块（因为这个 md 文件是后引入的），如下图所示：
 
-![[engineering/视频教程/Webpack原理与实践/docs/media/de4d12712c05d0132f10389869bf364f_MD5.png]]
+![[de4d12712c05d0132f10389869bf364f_MD5.png]]
 
 这个模块里面非常简单，就是把我们刚刚返回的字符串直接拼接到了该模块中。_这也解释了刚刚 Loader 管道最后必须返回 JS 代码的原因_，因为如果随便返回一个内容，放到这里语法就不通过了。
 
