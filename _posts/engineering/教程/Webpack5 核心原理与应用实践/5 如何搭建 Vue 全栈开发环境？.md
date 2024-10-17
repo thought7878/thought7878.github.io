@@ -370,20 +370,19 @@ module.exports = {
 
 ## 使用 Server Side Render
 
-通常，Vue.js 程序会被构建为一套纯客户端运行的 SPA(Single Page Application) 应用，相比于传统的 JSP、ASP.Net 等技术栈，SPA 已经能解决许多前后端协作的开发效率、性能、分工、工程化问题，但却很自然地引入一些新的问题：
+通常，Vue.js 程序会被构建为一套纯客户端运行的 SPA(Single Page Application) 应用，相比于传统的 JSP、ASP.Net 等技术栈，SPA 已经能解决许多前后端协作的开发效率、性能、分工、工程化问题，但却很自然地引入*一些 SPA 新的问题：*
 
-- **SEO 不友好**：大多数搜索引擎对网页内容的解读都依赖于同步 HTML 内容 —— 假设你的应用最开始只是展示了一个加载动画，然后通过 Ajax 获取异步数据进行渲染，爬虫并不会等待异步操作完成后才解析页面的内容，所以 SPA 应用通常无法向爬虫提供任何有用信息；
+- **SEO 不友好**：大多数搜索引擎对网页内容的解读都依赖于同步 HTML 内容 —— 假设你的应用最开始只是展示了一个加载动画，然后通过 Ajax 获取异步数据进行渲染，*爬虫并不会等待异步操作完成后才解析页面的内容，所以 SPA 应用通常无法向爬虫提供任何有用信息*；
 - **Time-To-Content 更长**：由于客户端需要等待所有 JavaScript 资源都加载完毕后，才会开始渲染页面真正有意义的内容，所以 TTC 时间相对更长。
 
-[SSR](https://link.juejin.cn/?target=https%3A%2F%2Fweb.dev%2Frendering-on-the-web%2F%23server-rendering)(Server Side Render) 正是为了解决这些问题而出现的技术。本质上，SSR 是一种在服务端将组件渲染 HTML 字符串并发送到浏览器，最后在浏览器上将这些 HTML 片段“激活”为客户端上可交互的应用技术。
+*[SSR](https://link.juejin.cn/?target=https%3A%2F%2Fweb.dev%2Frendering-on-the-web%2F%23server-rendering)(Server Side Render) 正是为了解决这些问题而出现的技术*。**本质上，SSR 是一种在服务端将组件渲染为 HTML 字符串并发送到浏览器，最后在浏览器上将这些 HTML 片段“激活”为客户端上可交互的应用技术。**
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/b6e4a3da4275582d517da3de2bbdc923_MD5.webp]]
 
-在 Vue 场景下，通常可以选择 [Nuxt.js](https://link.juejin.cn/?target=https%3A%2F%2Fnuxtjs.org%2F)、[Quasar](https://link.juejin.cn/?target=https%3A%2F%2Fquasar.dev%2F)、[`@vue/server-renderer`](https://link.juejin.cn/?target=https%3A%2F%2Fvuejs.org%2Fguide%2Fscaling-up%2Fssr.html) 等方案实现 SSR，这些技术的底层逻辑都包含三个大的步骤：
-
+在 Vue 场景下，通常可以选择 [Nuxt.js](https://link.juejin.cn/?target=https%3A%2F%2Fnuxtjs.org%2F)、[Quasar](https://link.juejin.cn/?target=https%3A%2F%2Fquasar.dev%2F)、[`@vue/server-renderer`](https://link.juejin.cn/?target=https%3A%2F%2Fvuejs.org%2Fguide%2Fscaling-up%2Fssr.html) 等方案实现 SSR，**这些技术的底层逻辑都包含三个大的步骤：**
 - 编译时，将同一组件构建为适合在客户端、服务器运行的两份副本；
-- 服务端接收到请求时，调用 Render 工具将组件渲染为 HTML 字符串，并返回给客户端；
-- 客户端运行 HTML，并再次执行组件代码，“激活(Hydrate)” 组件。
+- 服务端接收到请求时，调用 Render 工具*将组件渲染为 HTML 字符串，并返回给客户端*；
+- 客户端运行 HTML，并*再次执行组件代码，“激活(Hydrate)” 组件*。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/df2063f6362b1a4aa52d6ae423724927_MD5.webp]]
 

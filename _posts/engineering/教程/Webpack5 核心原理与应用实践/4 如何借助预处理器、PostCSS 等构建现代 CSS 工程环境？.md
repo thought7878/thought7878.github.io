@@ -356,6 +356,8 @@ module.exports = {
 
 *基于这一特性，我们既能复用预处理语法特性，又能应用 PostCSS 丰富的插件能力处理诸如雪碧图、浏览器前缀等问题*。
 
+### 常用插件
+
 **PostCSS 最大的优势**在于其简单、易用、丰富的插件生态，基本上已经能够覆盖样式开发的方方面面。实践中，*经常使用的插件有：*
 - [autoprefixer](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fpostcss%2Fautoprefixer)：基于 [Can I Use](https://link.juejin.cn/?target=https%3A%2F%2Fcaniuse.com%2F) 网站上的数据，自动添加浏览器前缀
 - [postcss-preset-env](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjonathantneal%2Fpostcss-preset-env)：一款*将最新 CSS 语言特性转译为兼容性更佳的低版本代码的插件*
@@ -370,7 +372,7 @@ module.exports = {
 - Webpack 不能理解 CSS 代码，所以需要使用 `css-loader`、`style-loader`、`mini-css-extract-plugin` 三种组件处理样式资源；
 - Less/Sass/Stylus/PostCSS 等工具**可弥补原生 CSS 语言层面的诸多功能缺失**，例如数值运算、嵌套、代码复用等。
 
-这些工具几乎已经成为现代 Web 应用开发的标配，能够帮助我们写出更清晰简洁、可复用的样式代码，帮助我们解决诸多与样式有关的工程化问题。
+*这些工具几乎已经成为现代 Web 应用开发的标配，能够帮助我们写出更清晰简洁、可复用的样式代码，帮助我们解决诸多与样式有关的工程化问题。*
 
 ## 思考题
 

@@ -3,10 +3,10 @@
 本章我们先来聊聊 *Webpack 场景下处理 JavaScript 的三种常用工具：* Babel、TypeScript、ESLint 的历史背景、功能以及接入 Webpack 的步骤，借助这些工具，我们能构建出更健壮、优雅的 JavaScript 应用。
 
 ## 使用 Babel
+### Why/What
+ECMAScript 6.0(简称 ES6) 版本补充了大量提升 JavaScript 开发效率的新特性，包括 `class` 关键字、块级作用域、ES Module 方案、代理与反射等，使得 JavaScript 可以真正被用于编写复杂的大型应用程序，但知道现在**浏览器、Node 等 JavaScript 引擎都或多或少存在兼容性问题**。*为此，现代 Web 开发流程中通常会引入 Babel 等转译工具。*
 
-ECMAScript 6.0(简称 ES6) 版本补充了大量提升 JavaScript 开发效率的新特性，包括 `class` 关键字、块级作用域、ES Module 方案、代理与反射等，使得 JavaScript 可以真正被用于编写复杂的大型应用程序，但知道现在**浏览器、Node 等 JavaScript 引擎都或多或少存在兼容性问题**。为此，现代 Web 开发流程中通常会引入 Babel 等转译工具。
-
-Babel 是一个开源 **JavaScript 转编译器**，它能将高版本 —— 如 ES6 代码等价转译为向后兼容，能直接在旧版 JavaScript 引擎运行的低版本代码，例如：
+Babel 是一个开源 **JavaScript 转编译器**，*它能将高版本 —— 如 ES6 代码等价转译为向后兼容，能直接在旧版 JavaScript 引擎运行的低版本代码*，例如：
 
 ```js
 // 使用 Babel 转译前
@@ -22,6 +22,7 @@ arr.map(function (item){
 
 > 提示：Babel 还提供了一个在线版的 REPL 页面，读者可在 [babeljs.io/repl](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Frepl) 实时体验功能效果。
 
+### How
 Webpack 场景下，只需使用 `babel-loader` 即可接入 Babel 转译功能：
 
 1. 安装依赖
@@ -47,7 +48,6 @@ module.exports = {
 ```
 
 示例中，`module` 属性用于声明模块处理规则，`module.rules` 子属性则用于定义针对什么类型的文件使用哪些 Loader 处理器，上例可解读为：
-
 - `test: /\.js$/`：用于声明该规则的过滤条件，只有路径名命中该正则的文件才会应用这条规则，示例中的 `/\.js$/` 表示对所有 `.js` 后缀的文件生效
 - `use`：用于声明这条规则的 Loader 处理器序列，所有命中该规则的文件都会被传入 Loader 序列做转译处理
 
@@ -82,6 +82,7 @@ module.exports = {
 };
 ```
 
+### @babel/preset-env
 特别提一下，示例中的 `@babel/preset-env` 是**一种 Babel 预设规则集** —— Preset，这种设计能*按需将一系列复杂、数量庞大的配置、插件、Polyfill 等打包成一个单一的资源包*，从而**简化 Babel 的应用、学习成本**。Preset 是 Babel 的主要应用方式之一，*社区已经针对不同应用场景打包了各种 Preset 资源，例如：*
 - [`babel-preset-react`](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fbabel-preset-react)：包含 React 常用插件的规则集，支持 `preset-flow`、`syntax-jsx`、`transform-react-jsx` 等；
 - [`@babel/preset-typescript`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-typescript)：用于转译 TypeScript 代码的规则集
@@ -90,16 +91,18 @@ module.exports = {
 > 提示：关于 Babel 的功能、用法、原理还有非常大的学习空间，感兴趣的同学可以前往阅读官方文档：[babeljs.io/docs/en/](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2F) ，这里点到为止，把注意力放回 Webpack + Babel 协作上。
 
 ## 使用 TypeScript
-
+### Why/What
 从 1999年 ECMAScript 发布第二个版本到 2015年发布 ES6 之间十余年时间内，JavaScript 语言本身并没有发生太大变化，语言本身许多老旧特性、不合理设计、功能缺失已经很难满足日益复杂的 Web 应用场景。*为了解决这一问题*，社区陆续推出了一些 JavaScript 超集方言，例如 TypeScript、CoffeeScript、Flow。
 
 其中，TypeScript 借鉴 C# 语言，在 JavaScript 基础上提供了一系列类型约束特性，例如：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/6de6f9f07024e5ef5c8d048719227285_MD5.webp]]
 
-示例中，用一个数字类型的变量 `num` 减去字符串类型的变量 `str`，这在 TypeScript 的代码编译过程就能提前发现问题，而 JavaScript 环境下则需要到启动运行后才报错。这种类型检查特性虽然一定程度上损失了语言本身的灵活性，*但能够让问题在编译阶段提前暴露*，确保运行阶段的类型安全性，**特别适合用于构建多人协作的大型 JavaScript 项目**，也因此，时至今日 TypeScript 依然是一项应用广泛的 JavaScript 超集语言。
+示例中，用一个数字类型的变量 `num` 减去字符串类型的变量 `str`，这在 TypeScript 的代码编译过程就能提前发现问题，而 JavaScript 环境下则需要到启动运行后才报错。这种类型检查特性虽然一定程度上损失了语言本身的灵活性，**但能够让问题在编译阶段提前暴露**，确保运行阶段的类型安全性，**特别适合用于构建多人协作的大型 JavaScript 项目**，也因此，时至今日 TypeScript 依然是一项应用广泛的 JavaScript 超集语言。
 
-Webpack 有很多种接入 TypeScript 的方法，包括 `ts-loader`、`awesome-ts-loader`、 `babel-loader`。通常可使用 `ts-loader` 构建 TypeScript 代码：
+### How
+#### ts-loader
+Webpack 有很多种接入 TypeScript 的方法，包括 `ts-loader`、`awesome-ts-loader`、 `babel-loader`。*通常可使用 `ts-loader` 构建 TypeScript 代码：*
 
 1. 安装依赖
 
@@ -149,6 +152,7 @@ module.exports = {
 npx webpack
 ```
 
+#### @babel/preset-typescript
 注意，如果项目中已经使用 `babel-loader`，你也可以选择使用 [`@babel/preset-typescript`](https://link.juejin.cn/?target=https%3A%2F%2Fbabeljs.io%2Fdocs%2Fen%2Fbabel-preset-typescript) 规则集，*借助 `babel-loader` 完成 JavaScript 与 TypeScript 的转码工作：*
 
 1. 安装依赖
@@ -182,13 +186,13 @@ module.exports = {
 };
 ```
 
-不过，`@babel/preset-typescript` 只是简单完成代码转换，并未做类似 `ts-loader` 的类型检查工作，大家需要根据实际场景选择适当工具。
+不过，*`@babel/preset-typescript` 只是简单完成代码转换，并未做类似 `ts-loader` 的类型检查工作*，大家需要根据实际场景选择适当工具。
 
 ## 使用 ESLint
-
+### Why/What
 JavaScript 被设计成一种高度灵活的动态、弱类型脚本语言，这使得语言本身的上手成本极低，开发者只需要经过短暂学习就可以开始构建简单应用。但与其它编译语言相比，*JavaScript 很难在编译过程发现语法、类型，或其它可能影响稳定性的错误*，*特别在多人协作的复杂项目下，语言本身的弱约束可能会开发效率与质量产生不小的影响*，**ESLint 的出现正是为了解决这一问题**。
 
-ESLint 是一种扩展性极佳的 *JavaScript 代码风格检查工具*，它能够自动识别违反风格规则的代码并予以修复，例如对于下面的示例：
+ESLint 是一种扩展性极佳的 *JavaScript 代码风格检查工具*，它能够*自动识别违反风格规则的代码并予以修复*，例如对于下面的示例：
 
 | 源码                                                                                               | ESLint 修复后                                                    |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
@@ -200,6 +204,7 @@ ESLint 是一种扩展性极佳的 *JavaScript 代码风格检查工具*，它�
 
 这里先忽略 ESLint 配置的具体规则，样例源码存在诸多风格不统一的地方，例如 1、2 行以 `;` 结尾，而第 3 行没有 `;`；第一行变量以 `const` 声明，第二行变量以 `let` 声明，等等。ESLint 会找出这些风格不一致的地方，并予以告警，甚至自动修复，生成如上表右上角的代码。
 
+### How
 Webpack 下，可以使用 `eslint-webpack-plugin` 接入 ESLint 工具，步骤：
 
 1. 安装依赖
@@ -256,7 +261,8 @@ npx webpack
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/cd12d7f8baac1fc83a4a01d51720b828_MD5.webp]]
 
-除常规 JavaScript 代码风格检查外，我们还可以使用适当的 ESLint 插件、配置集实现更丰富的检查、格式化功能，这里推荐几种使用率较高第三方扩展，建议读者跟进学习：
+### 插件
+除常规 JavaScript 代码风格检查外，我们还可以使用适当的 ESLint 插件、配置集实现更丰富的检查、格式化功能，这里推荐*几种使用率较高第三方扩展*，建议读者跟进学习：
 
 - [`eslint-config-airbnb`](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fairbnb%2Fjavascript%2Ftree%2Fmaster%2Fpackages%2Feslint-config-airbnb)：Airbnb 提供的代码风格规则集，算得上 ESLint 生态第一个成名的规则集合
 - [`eslint-config-standard`](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fstandard%2Feslint-config-standard)：[Standard.js](https://link.juejin.cn/?target=https%3A%2F%2Fstandardjs.com%2F) 代码风格规则集，史上最便捷的统一代码风格的方式
@@ -336,11 +342,10 @@ module.exports = {
 
 ## 总结
 
-本文介绍了 ESLint、TypeScript、Babel 三类工程化工具的历史背景、功能，以及在 Webpack 中接入这些工具的具体步骤。这三种工具各自补齐了 JavaScript 语言某些薄弱环节：
-
-- Babel 提供的语言转译能力，能在确保产物兼容性的同时，让我们大胆使用各种新的 ECMAScript 语言特性；
-- TypeScript 提供的类型检查能力，能有效提升应用代码的健壮性；
-- ESLint 提供的风格检查能力，能确保多人协作时的代码一致性。
+本文介绍了 ESLint、TypeScript、Babel 三类工程化工具的历史背景、功能，以及在 Webpack 中接入这些工具的具体步骤。**这三种工具各自补齐了 JavaScript 语言某些薄弱环节：**
+- Babel 提供的语言转译能力，能在*确保产物兼容性*的同时，让我们大胆*使用各种新的 ECMAScript 语言特性*；
+- TypeScript 提供的*类型检查能力*，能有效*提升代码的健壮性*；
+- ESLint 提供的风格检查能力，能*确保多人协作时的代码一致性*。
 
 它们已成为构建现代 JavaScript 应用的基础设施，建议读者遵循文章提及的学习建议，扩展学习各个工具的功能细节。
 
