@@ -155,15 +155,13 @@ module.exports = {
 
 至此，运行 Webpack 后将同时生成 JS、CSS、HTML 三种产物文件，如：
 
-| `index.css`                                                                                                                                                                                                                                                                                      | `index.js`                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| body {<br>    background: yellow;<br>    font-weight: bold;<br>}                                                                                                                                                                                                                                 | import './index.css';<br><br>const node = document.createElement('span');<br>node.textContent = 'Hello world';<br>document.body.appendChild(node); |
-| 产物 `main.css`：![[engineering/教程/Webpack5 核心原理与应用实践/media/53ceb804ecf2df2bff0b9aa23bd82851_MD5.webp]]                                                                                                                                                                                             | 产物 `main.js`：![[engineering/教程/Webpack5 核心原理与应用实践/media/a5ecadf08b422d4c2497d55f6f1d61d8_MD5.webp]]                                                |
-| 产物 `index.html`：`<!DOCTYPE html> <html> <head>   <meta charset="utf-8">   <title>Webpack App</title>   <meta name="viewport" content="width=device-width, initial-scale=1">   <script defer src="main.js"></script>   <link href="main.css" rel="stylesheet"> </head>  <body> </body>  </html> ` |                                                                                                                                                    |
+| `index.css`                                                                                                                                                                                                                                                                                      | `index.js`                                  |                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| xtContent = 'Hello world';<br>document.body.appendChild(node);                                                                                                                                                                                                                                   |                                             | import './index.css';<br><br>const node = document.createElement('span');<br>node.textContent = 'Hello world';<br>document.body.appendChild(node); |
+|                                                                                                                                                                                                                                                                                                  | import './index.css';<br><br>const node = d | 产物 `main.js`：![[engineering/教程/Webpack5 核心原理与应用实践/media/a5ecadf08b422d4c2497d55f6f1d61d8_MD5.webp]]                                                |
+| 产物 `index.html`：`<!DOCTYPE html> <html> <head>   <meta charset="utf-8">   <title>Webpack App</title>   <meta name="viewport" content="width=device-width, initial-scale=1">   <script defer src="main.js"></script>   <link href="main.css" rel="stylesheet"> </head>  <body> </body>  </html> ` |                                             |                                                                                                                                                    |
 
-
-
-可以看到，样式代码会被抽离到单独的 CSS 文件，并且在最终生成的 html 中包含了指向 JS、CSS 两种资源的标签：
+可以看到，*样式代码会被抽离到单独的 CSS 文件，并且在最终生成的 html 中包含了指向 JS、CSS 两种资源的标签：*
 
 ```html
 <script defer src="main.js"></script>
@@ -174,9 +172,9 @@ module.exports = {
 
 ## 使用预处理器
 
-CSS —— Cascading Style Sheet-级联样式表，最初设计用于描述 Web 界面样式的描述性语言，经过这么多年的发展其样式表现力已经突飞猛进，但核心功能、基本语法没有发生太大变化，至今依然没有提供诸如循环、分支判断、扩展复用、函数、嵌套之类的特性，以至于原生 CSS 已经难以应对当代复杂 Web 应用的开发需求。
+CSS —— Cascading Style Sheet-级联样式表，最初设计用于描述 Web 界面样式的描述性语言，经过这么多年的发展其样式表现力已经突飞猛进，但核心功能、基本语法没有发生太大变化，至今依然*没有提供诸如循环、分支判断、扩展复用、函数、嵌套之类的特性，以至于原生 CSS 已经难以应对当代复杂 Web 应用的开发需求*。
 
-为此，社区在 CSS 原生语法基础上扩展出一些更易用，功能更强大的 CSS 预处理器(Preprocessor)，比较知名的有 [Less](https://link.juejin.cn/?target=https%3A%2F%2Flesscss.org%2F)、[Sass](https://link.juejin.cn/?target=https%3A%2F%2Fsass-lang.com%2F)、[Stylus](https://link.juejin.cn/?target=https%3A%2F%2Fstylus-lang.com%2F) 。这些工具各有侧重，但都在 CSS 之上补充了扩展了一些逻辑判断、数学运算、嵌套封装等特性，基于这些特性，我们能写出复用性、可读性、可维护性更强，条理与结构更清晰的样式代码，以 Less 为例：
+**为此**，社区在 CSS 原生语法基础上扩展出一些更易用，功能更强大的 CSS 预处理器(Preprocessor)，比较知名的有 [Less](https://link.juejin.cn/?target=https%3A%2F%2Flesscss.org%2F)、[Sass](https://link.juejin.cn/?target=https%3A%2F%2Fsass-lang.com%2F)、[Stylus](https://link.juejin.cn/?target=https%3A%2F%2Fstylus-lang.com%2F) 。这些工具各有侧重，但*都在 CSS 之上补充了扩展了一些逻辑判断、数学运算、嵌套封装等特性*，基于这些特性，我们*能写出复用性、可读性、可维护性更强，条理与结构更清晰的样式代码*，以 Less 为例：
 
 ```less
 // 变量
@@ -228,13 +226,11 @@ module.exports = {
 }
 ```
 
-可以看到这里需要同时使用三种 Loader，其中 `less-loader` 用于将 Less 代码转换为 CSS 代码，上述示例转换结果：
+可以看到这里需要同时使用三种 Loader，*其中 `less-loader` 用于将 Less 代码转换为 CSS 代码*，上述示例转换结果：
 
 | `.less` 源码                                                                                                                                                                                                                                                                                                                                                                | `less-loader` 处理结果：                                                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `// 变量 @size: 12px; @color: #006633;  // 混合 .mx-bordered() {     border: 1px solid #000; }  // 嵌套 body {     // 函数计算     background: spin(lighten(@color, 25%), 8);     font-weight: bold;     padding: @size;      .main {         // 运算         font-size: @size * 2;         .mx-bordered;         color: darken(@color, 10%);         padding: @size * 0.6;     } } ` | `body {   background: #00e691;   font-weight: bold;   padding: 12px; } body .main {   font-size: 24px;   border: 1px solid #000;   color: #00331a;   padding: 7.2px; } ` |
-
-
 
 这段 CSS 随后会被 `css-loader` 与 `style-loader` 处理，最终在页面生效。
 
@@ -250,10 +246,12 @@ module.exports = {
 大家可根据项目背景选择接入适当的预处理器框架。
 
 ## 使用 post-css
-
-与上面介绍的 Less/Sass/Stylus 这一类预处理器类似，PostCSS 也能在原生 CSS 基础上增加更多表达力、可维护性、可读性更强的语言特性。两者主要区别在于预处理器通常定义了一套 CSS 之上的超集语言；PostCSS 并没有定义一门新的语言，而是与 `@babel/core` 类似，只是实现了一套将 CSS 源码解析为 AST 结构，并传入 PostCSS 插件做处理的流程框架，具体功能都由插件实现。
+### What/Why
+与上面介绍的 Less/Sass/Stylus 这一类预处理器类似，*PostCSS 也能在原生 CSS 基础上增加更多表达力、可维护性、可读性更强的语言特性*。**两者主要区别**在于预处理器通常定义了一套 CSS 之上的超集语言；*PostCSS 并没有定义一门新的语言，而是与 `@babel/core` 类似*，**只是实现了一套将 CSS 源码解析为 AST 结构，并传入 PostCSS 插件做处理的流程框架，具体功能都由插件实现**。
 
 > 预处理器之于 CSS，就像 TypeScript 与 JavaScript 的关系；而 PostCSS 之于 CSS，则更像 Babel 与 JavaScript。
+
+### How
 
 PostCSS 的接入步骤也很简单，首先安装依赖：
 
@@ -280,7 +278,7 @@ module.exports = {
 };
 ```
 
-不过，这个时候的 PostCSS 还只是个空壳，下一步还需要使用适当的 PostCSS 插件进行具体的功能处理，例如我们可以使用 [`autoprefixer`](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fpostcss%2Fautoprefixer) 插件自动添加浏览器前缀，首先安装依赖：
+*不过，这个时候的 PostCSS 还只是个空壳，下一步还需要使用适当的 PostCSS 插件进行具体的功能处理*，例如我们可以使用 [`autoprefixer`](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fpostcss%2Fautoprefixer) 插件自动添加浏览器前缀，首先安装依赖：
 
 ```csharp
 yarn add -D autoprefixer
@@ -320,21 +318,18 @@ module.exports = {
 
 之后，再次运行 Webpack 即可为 CSS 代码自动添加浏览器前缀，例如：
 
-| CSS 源码                              | PostCSS 处理结果                                             |
-| ------------------------------------- | ------------------------------------------------------------ |
+| CSS 源码                                | PostCSS 处理结果                                                                                                                |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | `::placeholder {     color: gray; } ` | `::-moz-placeholder {     color: gray; }  :-ms-input-placeholder {     color: gray; }  ::placeholder {     color: gray; } ` |
 
-
-
-此外，还可以选择将 PostCSS 相关配置抽离保存到 `postcss.config.js` 文件：
+此外，还可以选择*将 PostCSS 相关配置抽离保存到 `postcss.config.js` 文件：*
 
 | `postcss.config.js`                                          | `webpack.config.js`                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `module.exports = {   plugins: [     require("autoprefixer")   ], }; ` | `module.exports = {   module: {     rules: [       {         test: /\.css$/,         use: [           "style-loader",            {             loader: "css-loader",                         options: {               importLoaders: 1             }           },            "postcss-loader"         ],       },     ],   } }; ` |
+### 与预处理器的关系
 
-
-
-值得一提的是，PostCSS 与预处理器并非互斥关系，我们完全可以在同一个项目中同时使用两者，例如：
+值得一提的是，*PostCSS 与预处理器并非互斥关系，我们完全可以在同一个项目中同时使用两者*，例如：
 
 ```js
 module.exports = {
@@ -359,23 +354,21 @@ module.exports = {
 };
 ```
 
-基于这一特性，我们既能复用预处理语法特性，又能应用 PostCSS 丰富的插件能力处理诸如雪碧图、浏览器前缀等问题。
+*基于这一特性，我们既能复用预处理语法特性，又能应用 PostCSS 丰富的插件能力处理诸如雪碧图、浏览器前缀等问题*。
 
-PostCSS 最大的优势在于其简单、易用、丰富的插件生态，基本上已经能够覆盖样式开发的方方面面。实践中，经常使用的插件有：
-
+**PostCSS 最大的优势**在于其简单、易用、丰富的插件生态，基本上已经能够覆盖样式开发的方方面面。实践中，*经常使用的插件有：*
 - [autoprefixer](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fpostcss%2Fautoprefixer)：基于 [Can I Use](https://link.juejin.cn/?target=https%3A%2F%2Fcaniuse.com%2F) 网站上的数据，自动添加浏览器前缀
-- [postcss-preset-env](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjonathantneal%2Fpostcss-preset-env)：一款将最新 CSS 语言特性转译为兼容性更佳的低版本代码的插件
+- [postcss-preset-env](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjonathantneal%2Fpostcss-preset-env)：一款*将最新 CSS 语言特性转译为兼容性更佳的低版本代码的插件*
 - [postcss-less](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fshellscape%2Fpostcss-less)：兼容 Less 语法的 PostCSS 插件，类似的还有：[postcss-sass](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FAleshaOleg%2Fpostcss-sass)、[poststylus](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fmadeleineostoja%2Fpoststylus)
-- [stylelint](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fstylelint%2Fstylelint)：一个现代 CSS 代码风格检查器，能够帮助识别样式代码中的异常或风格问题
+- [stylelint](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fstylelint%2Fstylelint)：一个现代 *CSS 代码风格检查器*，能够帮助识别样式代码中的异常或风格问题
 
 大家可按需扩展学习。
 
 ## 总结
 
-本文介绍 `css-loader`、`style-loader`、`mini-css-extract-plugin`、`less-loader`、`postcss-loader` 等组件的功能特点与接入方法，内容有点多，重点在于：
-
+本文介绍 `css-loader`、`style-loader`、`mini-css-extract-plugin`、`less-loader`、`postcss-loader` 等组件的功能特点与接入方法，*内容有点多，重点在于：*
 - Webpack 不能理解 CSS 代码，所以需要使用 `css-loader`、`style-loader`、`mini-css-extract-plugin` 三种组件处理样式资源；
-- Less/Sass/Stylus/PostCSS 等工具可弥补原生 CSS 语言层面的诸多功能缺失，例如数值运算、嵌套、代码复用等。
+- Less/Sass/Stylus/PostCSS 等工具**可弥补原生 CSS 语言层面的诸多功能缺失**，例如数值运算、嵌套、代码复用等。
 
 这些工具几乎已经成为现代 Web 应用开发的标配，能够帮助我们写出更清晰简洁、可复用的样式代码，帮助我们解决诸多与样式有关的工程化问题。
 
