@@ -8,7 +8,7 @@
 
 ## Webpack 如何处理 CSS 资源？
 
-**原生 Webpack 并不能识别 CSS 语法**，假如不做额外配置直接导入 `.css` 文件，会导致编译失败：
+**原生 Webpack 并不能识别 CSS 语法**，*假如不做额外配置直接导入 `.css` 文件，会导致编译失败：*
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/0e9faf69e79ecdc97f8332e49137ecb5_MD5.webp]]
 
@@ -23,6 +23,8 @@
 *三种组件各司其职：*`css-loader` 让 Webpack 能够正确理解 CSS 代码、分析资源依赖；`style-loader`、`mini-css-extract-plugin` 则通过适当方式将 CSS 插入到页面，对页面样式产生影响：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/0e7067ea339e14b40a84ffc7c479fd5e_MD5.webp]]
+
+### css-loader
 
 下面我们先从 `css-loader` 聊起，`css-loader` 提供了很多处理 CSS 代码的基础能力，包括 *CSS 到 JS 转译、依赖解析、Sourcemap、css-in-module 等，基于这些能力，Webpack 才能像处理 JS 模块一样处理 CSS 模块代码*。接入时首先需要安装依赖：
 
@@ -47,19 +49,18 @@ module.exports = {
 
 此后，执行 `npx webpack` 或其它构建命令即可。经过 `css-loader` 处理后，样式代码最终会被转译成一段 JS 字符串：
 
-| 源码                                   | 转译后                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `.main-hd {     font-size: 10px; } ` | `//... var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default())); // Module ___CSS_LOADER_EXPORT___.push([   module.id,    ".main-hd {\n    font-size: 10px;\n}", "" ]); // Exports /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___); //... ` |
-
-
-*但这段字符串只是被当作普通 JS 模块处理，并不会实际影响到页面样式，后续还需要：*
-
+| 源码                                      | 转译后                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| .main-hd {<br>    font-size: 10px;<br>} | ```<br>//...<br>var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));<br>// Module<br>___CSS_LOADER_EXPORT___.push([<br>  module.id, <br>  ".main-hd {\n    font-size: 10px;\n}", ""<br>]);<br>// Exports<br>/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);<br>//...``` |
+**但这段字符串只是被当作普通 JS 模块处理，并不会实际影响到页面样式，后续还需要：**
 1. **开发环境**：使用 `style-loader` 将样式代码注入到页面 `<style>` 标签；
 2. **生产环境**：使用 `mini-css-extract-plugin` 将样式代码抽离到单独产物文件，并以 `<link>` 标签方式引入到页面中。
 
-经过 `css-loader` 处理后，CSS 代码会被转译为等价 JS 字符串，但这些字符串还不会对页面样式产生影响，需要继续接入 `style-loader` 加载器。
+经过 `css-loader` 处理后，CSS 代码会*被转译为等价 JS 字符串*，但这些字符串还不会对页面样式产生影响，需要继续接入 `style-loader` 加载器。
 
-与其它 Loader 不同，`style-loader` 并不会对代码内容做任何修改，而是简单注入一系列运行时代码，用于将 `css-loader` 转译出的 JS 字符串插入到页面的 `style` 标签。接入时同样需要安装依赖：
+### style-loader
+
+与其它 Loader 不同，`style-loader` 并*不会对代码内容做任何修改，而是简单注入一系列运行时代码，用于将 `css-loader` 转译出的 JS 字符串插入到页面的 `style` 标签*。接入时同样需要安装依赖：
 
 ```csharp
 yarn add -D style-loader css-loader
@@ -82,7 +83,7 @@ module.exports = {
 
 > PS：注意保持 `style-loader` 在前，`css-loader` 在后
 
-上述配置语义上相当于 `style-loader(css-loader(css))` 链式调用，执行后样式代码会被转译为类似下面这样的代码：
+*上述配置语义上相当于 `style-loader(css-loader(css))` 链式调用*，执行后样式代码会被转译为类似下面这样的代码：
 
 ```js
 // Part1: css-loader 处理结果，对标到原始 CSS 代码
@@ -97,22 +98,25 @@ injectStylesIntoStyleTag(
 
 至此，运行页面触发 `injectStylesIntoStyleTag` 函数将 CSS 代码注入到 `<style>` 标签，样式才真正开始生效。例如：
 
-| `index.css`                                                | `index.js`                                                   |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| `body {     background: yellow;     font-weight: bold; } ` | `import './index.css';  const node = document.createElement('span'); node.textContent = 'Hello world'; document.body.appendChild(node); ` |
-
-
+| `index.css`                                                      | `index.js`                                                                                                                                         |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| body {<br>    background: yellow;<br>    font-weight: bold;<br>} | import './index.css';<br><br>const node = document.createElement('span');<br>node.textContent = 'Hello world';<br>document.body.appendChild(node); |
 
 页面运行效果：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/6777fd8a78050eb3265e862d4fb55afe_MD5.webp]]
 
-经过 `style-loader` + `css-loader` 处理后，样式代码最终会被写入 Bundle 文件，并在运行时通过 `style` 标签注入到页面。这种将 JS、CSS 代码合并进同一个产物文件的方式有几个问题：
+*经过 `style-loader` + `css-loader` 处理后，样式代码最终会被写入 Bundle 文件，并在运行时通过 `style` 标签注入到页面*。
 
+### mini-css-extract-plugin
+
+**这种将 JS、CSS 代码合并进同一个产物文件的方式有几个问题：**
 - JS、CSS 资源无法并行加载，从而降低页面性能；
 - 资源缓存粒度变大，JS、CSS 任意一种变更都会致使缓存失效。
 
-因此，生产环境中通常会用 [`mini-css-extract-plugin`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fmini-css-extract-plugin) 插件替代 `style-loader`，将样式代码抽离成单独的 CSS 文件。使用时，首先需要安装依赖：
+*因此，生产环境中通常会用 [`mini-css-extract-plugin`](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fmini-css-extract-plugin) 插件替代 `style-loader`，将样式代码抽离成单独的 CSS 文件*。
+
+使用时，首先需要安装依赖：
 
 ```csharp
 yarn add -D mini-css-extract-plugin
@@ -144,19 +148,18 @@ module.exports = {
 }
 ```
 
-这里需要注意几个点：
-
+*这里需要注意几个点：*
 - `mini-css-extract-plugin` 库同时提供 Loader、Plugin 组件，需要同时使用
 - `mini-css-extract-plugin` 不能与 `style-loader` 混用，否则报错，所以上述示例中第 9 行需要判断 `process.env.NODE_ENV` 环境变量决定使用那个 Loader
 - `mini-css-extract-plugin` 需要与 `html-webpack-plugin` 同时使用，才能将产物路径以 `link` 标签方式插入到 html 中
 
 至此，运行 Webpack 后将同时生成 JS、CSS、HTML 三种产物文件，如：
 
-| `index.css`                                                                                                                                                                                                                                                                                      | `index.js`                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `body {     background: yellow;     font-weight: bold; } `                                                                                                                                                                                                                                       | `import './index.css';  const node = document.createElement('span'); node.textContent = 'Hello world'; document.body.appendChild(node); ` |
-| 产物 `main.css`：![[engineering/教程/Webpack5 核心原理与应用实践/media/53ceb804ecf2df2bff0b9aa23bd82851_MD5.webp]]                                                                                                                                                                                             | 产物 `main.js`：![[engineering/教程/Webpack5 核心原理与应用实践/media/a5ecadf08b422d4c2497d55f6f1d61d8_MD5.webp]]                                       |
-| 产物 `index.html`：`<!DOCTYPE html> <html> <head>   <meta charset="utf-8">   <title>Webpack App</title>   <meta name="viewport" content="width=device-width, initial-scale=1">   <script defer src="main.js"></script>   <link href="main.css" rel="stylesheet"> </head>  <body> </body>  </html> ` |                                                                                                                                           |
+| `index.css`                                                                                                                                                                                                                                                                                      | `index.js`                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| body {<br>    background: yellow;<br>    font-weight: bold;<br>}                                                                                                                                                                                                                                 | import './index.css';<br><br>const node = document.createElement('span');<br>node.textContent = 'Hello world';<br>document.body.appendChild(node); |
+| 产物 `main.css`：![[engineering/教程/Webpack5 核心原理与应用实践/media/53ceb804ecf2df2bff0b9aa23bd82851_MD5.webp]]                                                                                                                                                                                             | 产物 `main.js`：![[engineering/教程/Webpack5 核心原理与应用实践/media/a5ecadf08b422d4c2497d55f6f1d61d8_MD5.webp]]                                                |
+| 产物 `index.html`：`<!DOCTYPE html> <html> <head>   <meta charset="utf-8">   <title>Webpack App</title>   <meta name="viewport" content="width=device-width, initial-scale=1">   <script defer src="main.js"></script>   <link href="main.css" rel="stylesheet"> </head>  <body> </body>  </html> ` |                                                                                                                                                    |
 
 
 

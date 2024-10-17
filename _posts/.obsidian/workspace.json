@@ -262,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 533.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -343,6 +344,12 @@
   },
   "active": "6971bd1ca69df19d",
   "lastOpenFiles": [
+    "engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/6 如何搭建 React 全栈开发环境？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
     "visualization/1.md",
@@ -370,15 +377,9 @@
     "engineering/教程/Webpack5 核心原理与应用实践/21 插件开发基础：实例剖析插件基本形态与架构逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/20 Loader 开发进阶：如何用好 Loader 扩展开发工具？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/12 构建性能：分享 7 款常用的性能分析工具.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践",
     "performance/前端性能优化原理与实践",
