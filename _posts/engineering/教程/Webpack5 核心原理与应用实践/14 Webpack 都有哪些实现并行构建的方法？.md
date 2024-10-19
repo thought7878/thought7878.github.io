@@ -1,6 +1,6 @@
 ## 为什么要并行构建
 
-受限于 Node.js 的单线程架构，原生 Webpack 对所有资源文件做的所有解析、转译、合并操作*本质上都是在同一个线程内串行执行，CPU 利用率极低*。因此，理所当然地，*社区出现了一些以多进程方式运行 Webpack或 Webpack 构建过程某部分工作的方案*(从而提升单位时间利用率)，例如：
+**受限于 Node.js 的单线程架构**，原生 Webpack 对所有资源文件做的所有解析、转译、合并操作*本质上都是在同一个线程内串行执行，CPU 利用率极低*。因此，理所当然地，*社区出现了一些以多进程方式运行 Webpack或 Webpack 构建过程某部分工作的方案*(从而提升单位时间利用率)，例如：
 - [Thread-loader](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fthread-loader%2F)：Webpack 官方出品，同样以多进程方式加载资源；
 - [HappyPack](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Famireh%2Fhappypack)：多进程方式运行资源加载(Loader)逻辑；
 
@@ -110,7 +110,7 @@ threadLoader.warmup(
 这会导致一些 Loader 无法与 Thread-loader 共同使用，大家需要仔细加以甄别、测试。
 
 
-## 使用 HappyPack
+## 使用 HappyPack(不维护了)
 
 [HappyPack](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Famireh%2Fhappypack) *能够将耗时的文件加载（Loader）操作拆散到多个子进程中并发执行，子进程执行完毕后再将结果合并回传到 Webpack 进程，从而提升构建性能*。不过，HappyPack 的用法稍微有点难以理解，需要同时：
 - 使用 `happypack/loader` 代替原本的 Loader 序列；
@@ -401,7 +401,7 @@ module.exports = createVariants(baseOptions, variants, createConfig)
 ### 优点
 这种技术实现，对单 entry 的项目没有任何收益，只会徒增进程创建成本；但*特别适合 MPA 等多 entry 场景，或者需要同时编译出 esm、umd、amd 等多种产物形态的类库场景*。
 
-## 并行压缩
+## 并行压缩 / terser-webpack-plugin
 
 Webpack4 默认使用 [Uglify-js](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fuglifyjs-webpack-plugin) 实现代码压缩，Webpack5 之后则升级为 *[Terser](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fterser-webpack-plugin%2F) —— 一种[性能](https://link.juejin.cn/?target=https%3A%2F%2Fblog.logrocket.com%2Fterser-vs-uglify-vs-babel-minify-comparing-javascript-minifiers%2F)与兼容性更好的 JavaScript 代码压缩混淆工具，两种组件都原生实现了多进程并行压缩能力*。
 
@@ -433,7 +433,7 @@ module.exports = {
 - 多实例并行构建场景建议使用 Parallel-Webpack 实现并行；
 - 生产环境下还可配合 `terser-webpack-plugin` 的并行压缩功能，提升整体效率。
 
-理论上，并行确实能够提升系统运行效率，但 Node 单线程架构下，所谓的并行计算都只能依托与派生子进程执行，而创建进程这个动作本身就有不小的消耗 —— 大约 600ms，对于小型项目，构建成本可能可能很低，引入多进程技术反而导致整体成本增加，因此建议大家按实际需求斟酌使用上述多进程方案。
+理论上，并行确实能够提升系统运行效率，但 Node 单线程架构下，所谓的并行计算都只能依托与派生子进程执行，而创建进程这个动作本身就有不小的消耗 —— 大约 600ms，对于小型项目，构建成本可能很低，引入多进程技术反而导致整体成本增加，因此建议大家按实际需求斟酌使用上述多进程方案。
 
 ## 思考题
 
