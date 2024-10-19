@@ -1,45 +1,44 @@
-Webpack 默认会将尽可能多的模块代码打包在一起，优点是能减少最终页面的 HTTP 请求数，但缺点也很明显：
-
+*Webpack 默认会将尽可能多的模块代码打包在一起，优点是能减少最终页面的 HTTP 请求数，但缺点也很明显：*
 1. 页面初始代码包过大，影响首屏渲染性能；
-2. 无法有效应用浏览器缓存，特别对于 NPM 包这类变动较少的代码，业务代码哪怕改了一行都会导致 NPM 包缓存失效。
+2. *无法有效应用浏览器缓存*，特别对于 NPM 包这类变动较少的代码，业务代码哪怕改了一行都会导致 NPM 包缓存失效。
 
-为此，Webpack 提供了 `SplitChunksPlugin` 插件，专门用于根据产物包的体积、引用次数等做分包优化，规避上述问题，特别适合生产环境使用。
+为此，Webpack 提供了 `SplitChunksPlugin` 插件，专门用于根据产物包的体积、引用次数等做分包优化，*规避上述问题，特别适合生产环境使用*。
 
 不过，`SplitChunksPlugin` 的使用方法比较复杂，我们得从 Chunk 这个概念开始说起。
 
 ## 深入理解 Chunk
 
-Chunk 是 Webpack 内部一个非常重要的底层设计，用于组织、管理、优化最终产物，在构建流程进入生成(Seal)阶段后：
-
+**`Chunk` 是 Webpack 内部一个非常重要的底层设计（写入文件之前的对象/数据结构），用于组织、管理、优化最终产物，在构建流程进入生成(Seal)阶段后：**
 1. Webpack 首先根据 `entry` 配置创建若干 Chunk 对象；
-2. 遍历构建(Make)阶段找到的所有 Module 对象，同一 Entry 下的模块分配到 Entry 对应的 Chunk 中；
-3. 遇到异步模块则创建新的 Chunk 对象，并将异步模块放入该 Chunk；
+2. 遍历构建(Make)阶段的所有 Module 对象，同一 Entry 下的模块分配到 Entry 对应的 Chunk 中；
+3. *遇到异步模块则创建新的 Chunk 对象*，并将异步模块放入该 Chunk；
 4. 分配完毕后，根据 SplitChunksPlugin 的启发式算法进一步对这些 Chunk 执行**裁剪、拆分、合并、代码调优**，最终调整成运行性能(可能)更优的形态；
-5. 最后，将这些 Chunk 一个个输出成最终的产物(Asset)文件，编译工作到此结束。
+5. 最后，*将这些 Chunk 一个个输出成最终的产物(Asset)文件，编译打包工作到此结束*。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/8d485f1783389893fd3da684ade36476_MD5.webp]]
 
-可以看出，Chunk 在构建流程中起着承上启下的关键作用 —— 一方面作为 Module 容器，根据一系列默认 **分包策略** 决定哪些模块应该合并在一起打包；另一方面根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
+可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列默认 **分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
 
-**Chunk 分包结果的好坏直接影响了最终应用性能**，Webpack 默认会将以下三种模块做分包处理：
+### 默认的代码分割策略和缺点
 
+**Chunk 分包结果的好坏直接影响了最终应用性能**。Webpack **默认会将以下三种模块做分包处理：**
 - Initial Chunk：`entry` 模块及相应子模块打包成 Initial Chunk；
 - Async Chunk：通过 `import('./xx')` 等语句导入的异步模块及相应子模块组成的 Async Chunk；
 - Runtime Chunk：运行时代码抽离成 Runtime Chunk，可通过 [entry.runtime](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconfiguration%2Fentry-context%2F%23dependencies) 配置项实现。
 
-Runtime Chunk 规则比较简单，本文先不关注，但 Initial Chunk 与 Async Chunk 这种略显粗暴的规则会带来两个明显问题：
+Runtime Chunk 规则比较简单，本文先不关注，*但 Initial Chunk 与 Async Chunk 这种略显粗暴的规则会带来两个明显问题：*
 
 1. **模块重复打包：**
 
-假如多个 Chunk 同时依赖同一个 Module，那么这个 Module 会被不受限制地重复打包进这些 Chunk，例如对于下面的模块关系：
+*假如多个 Chunk 同时依赖同一个 Module，那么这个 Module 会被不受限制地重复打包进这些 Chunk*，例如对于下面的模块关系：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/b0d1bcc67733a02cfdad2c07cbd312f5_MD5.webp]]
 
-示例中 `main/index` 入口(`entry`)同时依赖于 `c` 模块，默认情况下 Webpack 不会对此做任何优化处理，只是单纯地将 `c` 模块同时打包进 `main/index` 两个 Chunk：
+示例中 `main/index` 入口(`entry`)同时依赖于 `c` 模块，*默认情况下 Webpack 不会对此做任何优化处理，只是单纯地将 `c` 模块同时打包进 `main/index` 两个 Chunk：*
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/1f2752f124f08dcc9dfce7e652218b6c_MD5.webp]]
 
-1. **资源冗余 & 低效缓存：**
+2. **资源冗余 & 低效缓存：**
 
 Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独的包，这在小型项目通常不会有明显的性能问题，但伴随着项目的推进，包体积逐步增长可能会导致应用的响应耗时越来越长。归根结底这种将所有资源打包成一个文件的方式存在两个弊端：
 
