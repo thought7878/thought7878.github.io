@@ -21,10 +21,12 @@
 
 ### 默认的代码分割策略和问题
 
-**Chunk 分包结果的好坏直接影响了最终应用性能**。Webpack **默认会将以下三种模块做分包处理：**
-- Initial Chunk：`entry` 模块及相应子模块打包成 Initial Chunk；
-- Async Chunk：通过 `import('./xx')` 等语句导入的异步模块及相应子模块组成的 Async Chunk；
-- Runtime Chunk：运行时代码抽离成 Runtime Chunk，可通过 [entry.runtime](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconfiguration%2Fentry-context%2F%23dependencies) 配置项实现。
+**Chunk 分包结果的好坏直接影响了最终应用性能**。
+
+Webpack **默认会将以下三种模块做分包处理：**
+- `Initial Chunk`：`entry` 模块及相应子模块打包成 Initial Chunk；
+- `Async Chunk`：通过 `import('./xx')` 等语句导入的异步模块及相应子模块组成的 Async Chunk；
+- `Runtime Chunk`：运行时代码抽离成 Runtime Chunk，可通过 [entry.runtime](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconfiguration%2Fentry-context%2F%23dependencies) 配置项实现。
 
 Runtime Chunk 规则比较简单，本文先不关注，*但 Initial Chunk 与 Async Chunk 这种略显粗暴的规则会带来两个明显问题：*
 
@@ -59,14 +61,14 @@ Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独�
 - `SplitChunksPlugin` 支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否对 Chunk 做进一步拆解。*这些策略都可以通过 `optimization.splitChunks` 配置，可以实现：*
     - **单独打包某些特定路径的内容**，例如 `node_modules` 打包为 `vendors`；
     - **单独打包使用频率较高的文件**；
-- `SplitChunksPlugin` 还提供了 `optimization.splitChunks.cacheGroup` 概念，用于对不同特点的资源做分组处理，并为这些分组设置更有针对性的分包规则；
+- `SplitChunksPlugin` 还提供了 `optimization.splitChunks.cacheGroup` 概念，*用于对不同特点的资源做分组处理，并为这些分组设置更有针对性的分包规则*；
 - `SplitChunksPlugin` 还内置了 `default` 与 `defaultVendors` 两个 `cacheGroup`，提供一些开箱即用的分包特性：
     - `node_modules` 资源会命中 `defaultVendors` 规则，并被单独打包；
     - 只有包体超过 20kb 的 Chunk 才会被单独打包；
     - 加载 Async Chunk 所需请求数不得超过 30；
     - 加载 Initial Chunk 所需请求数不得超过 30。
 
-> 提示：这里所说的请求数不能等价对标到 http 资源请求数，下面会细讲。
+> 提示：*这里所说的请求数不能等价对标到 http 资源请求数*，下面会细讲。
 
 由于 Webpack4 开始已经内置支持 `SplitChunksPlugin` ，我们不需要额外安装依赖，直接修改 [optimization.splitChunks](https://webpack.js.org/configuration/optimization/#optimizationsplitchunks) 配置项即可实现自定义的分包策略：
 
@@ -89,11 +91,10 @@ module.exports = {
 
 ## 设置分包范围
 
-首先，`SplitChunksPlugin` 默认情况下只对 Async Chunk 生效，我们可以通过 `splitChunks.chunks` 调整作用范围，该配置项支持如下值：
-
+首先，`SplitChunksPlugin` 默认情况下只对 Async Chunk 生效，我们可以*通过 `splitChunks.chunks` 调整作用范围，选择哪些块/chunks进行代码分割。该配置项支持如下值：*
 - 字符串 `'all'` ：对 Initial Chunk 与 Async Chunk 都生效，建议优先使用该值；
-- 字符串 `'initial'` ：只对 Initial Chunk 生效；
-- 字符串 `'async'` ：只对 Async Chunk 生效；
+- 字符串 `'initial'` ：只选择 Initial Chunk 进行代码分割；
+- 字符串 `'async'` ：只选择 Async Chunk 进行代码分割；
 - 函数 `(chunk) => boolean` ：该函数返回 `true` 时生效；
 
 例如：
@@ -113,9 +114,9 @@ module.exports = {
 
 ## 根据 Module 使用频率分包
 
-`SplitChunksPlugin` 支持按 Module 被 Chunk 引用的次数决定是否分包，借助这种能力我们可以轻易将那些被频繁使用的模块打包成独立文件，减少代码重复。
+`SplitChunksPlugin` 支持*按 Module 被 Chunk 引用的次数决定是否分包*，借助这种能力我们可以**轻易将那些被频繁使用的模块打包成独立文件，减少代码重复**。
 
-用法很简单，只需用 `splitChunks.minChunks` 配置项设定最小引用次数，例如：
+用法很简单，只需用 `splitChunks.minChunks` 配置项，**设置最小引用次数，例如：**
 
 ```js
 module.exports = {
@@ -150,7 +151,7 @@ import common from './common'
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/c1685034fbdca0a74adaac60b7fe4304_MD5.webp]]
 
-其中，`entry-a`、`entry-b` 分别被视作 Initial Chunk 处理；`async-module` 被 `entry-a` 以异步方式引入，因此被视作 Async Chunk 处理。那么对于 `common` 模块来说，分别被三个不同的 Chunk 引入，此时引用次数为 3，配合下面的配置：
+*其中，`entry-a`、`entry-b` 分别被视作 Initial Chunk 处理；`async-module` 被 `entry-a` 以异步方式引入，因此被视作 Async Chunk 处理*。那么对于 `common` 模块来说，分别被三个不同的 Chunk 引入，此时引用次数为 3，配合下面的配置：
 
 ```js
 // webpack.config.js
@@ -171,25 +172,21 @@ module.exports = {
 
 > 提示：示例已上传到 [小册仓库](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2FTecvan-fe%2Fwebpack-book-samples%2Ftree%2Fmain%2Fsplitchunks-basic)。
 
-`common` 模块命中 `optimization.splitChunks.minChunks = 2` 规则，因此该模块**可能**会被单独分包，最终产物：
-
+*`common` 模块命中 `optimization.splitChunks.minChunks = 2` 规则，因此该模块**可能**会被单独分包，最终产物：*
 - `entry1.js`
-- `entry1.js`
+- `entry2.js`
 - `async-module.js`
 - `common.js`
-
+![[engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png]]
 强调一下，上面说的是“**可能**”，`minChunks` 并不是唯一条件，此外还需要满足诸如 `minSize`、`chunks` 等限制条件才会真正执行分包，接着往下看。
 
 ## 限制分包数量
 
-在 `minChunks` 基础上，为防止最终产物文件数量过多导致 HTTP 网络请求数剧增，反而降低应用性能，Webpack 还提供了 `maxInitialRequest/maxAsyncRequest` 配置项，用于限制分包数量：
-
+在 `minChunks` 基础上，**为防止最终产物文件数量过多导致 HTTP 网络请求数剧增，反而降低应用性能**。Webpack 还提供了 `maxInitialRequest/maxAsyncRequest` 配置项，*用于限制分包数量：*
 - `maxInitialRequest`：用于设置 Initial Chunk 最大并行请求数；
 - `maxAsyncRequests`：用于设置 Async Chunk 最大并行请求数。
 
-> 敲重点，"请求数" 这个概念有点复杂：
-
-这里所说的“请求数”，是指加载一个 Chunk 时所需要加载的所有分包数。例如对于一个 Chunk A，如果根据分包规则(如模块引用次数、第三方包)分离出了若干子 Chunk A[¡]，那么加载 A 时，浏览器需要同时加载所有的 A[¡]，此时并行请求数等于 ¡ 个分包加 A 主包，即 ¡+1。
+敲重点，"请求数" 这个概念有点复杂。这里所说的“**请求数**”，是指**加载一个 Chunk 时所需要加载的所有分包数**。*例如，对于一个 Chunk A，如果根据分包规则(如模块引用次数、第三方包)分离出了若干子 Chunk A[¡]，那么加载 A 时，浏览器需要同时加载所有的 A[¡]，此时并行请求数等于 ¡ 个分包加 A 主包，即 ¡+1。*
 
 > 提示：通过 [emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fapi%2Fcompilation-object%2F%23emitasset) 等方式直接输出产物文件不在此范畴。
 
@@ -197,7 +194,7 @@ module.exports = {
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/255b5d338578bb5b07f788b03fd57557_MD5.webp]]
 
-若 `minChunks = 2` ，则 `common` 模块命中 `minChunks` 规则被独立分包，浏览器请求 `entry-a` 时，则需要同时请求 `common` 包，并行请求数为 1 + 1=2。
+若 `minChunks = 2` ，则 `common` 模块命中 `minChunks` 规则被独立分包，*浏览器请求 `entry-a` 时，则需要同时请求 `common` 包，并行请求数为 1 + 1=2*。
 
 而对于下述模块关系：
 
@@ -205,8 +202,7 @@ module.exports = {
 
 若 `minChunks = 2` ，则 `common-1` 、`common-2` 同时命中 `minChunks` 规则被分别打包，浏览器请求 `entry-b` 时需要同时请求 `common-1` 、`common-2` 两个分包，并行数为 2 + 1 = 3，此时若 `maxInitialRequest = 2`，则分包数超过阈值，`SplitChunksPlugin` 会 **放弃 `common-1`、`common-2` 中体积较小的分包**。`maxAsyncRequest` 逻辑与此类似，不在赘述。
 
-并行请求数关键逻辑总结如下：
-
+并行*请求数关键逻辑总结如下：*
 - Initial Chunk 本身算一个请求；
 - Async Chunk 不算并行请求；
 - 通过 `runtimeChunk` 拆分出的 runtime 不算并行请求；
