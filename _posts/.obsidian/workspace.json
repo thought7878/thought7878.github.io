@@ -262,8 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5,
-    "collapsed": true
+    "width": 533.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -344,13 +343,14 @@
   },
   "active": "2d2f55ddb0d04789",
   "lastOpenFiles": [
-    "visualization/1.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "engineering/教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
+    "visualization/1.md",
     "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
     "engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
@@ -379,7 +379,6 @@
     "engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/26 Chunk：三种产物的打包逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/24 Init、Make、Seal：真正读懂 Webpack 核心流程.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践",
     "performance/前端性能优化原理与实践",

@@ -19,7 +19,7 @@
 
 可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列默认 **分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
 
-### 默认的代码分割策略和缺点
+### 默认的代码分割策略和问题
 
 **Chunk 分包结果的好坏直接影响了最终应用性能**。Webpack **默认会将以下三种模块做分包处理：**
 - Initial Chunk：`entry` 模块及相应子模块打包成 Initial Chunk；
@@ -40,13 +40,12 @@ Runtime Chunk 规则比较简单，本文先不关注，*但 Initial Chunk 与 A
 
 2. **资源冗余 & 低效缓存：**
 
-Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独的包，这在小型项目通常不会有明显的性能问题，但伴随着项目的推进，包体积逐步增长可能会导致应用的响应耗时越来越长。归根结底这种将所有资源打包成一个文件的方式存在两个弊端：
+Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独的包，这在小型项目通常不会有明显的性能问题，但伴随着项目的推进，包体积逐步增长可能会导致应用的响应耗时越来越长。归根结底这种**将所有资源打包成一个文件的方式存在两个弊端：**
+- **资源冗余**：客户端必须等待整个应用的代码包都加载完毕才能启动运行，但可能*用户当下访问的内容只需要使用其中一部分代码*
+- **缓存失效**：将所有资源打成一个包后，所有改动 —— *即使只是修改了一个字符，客户端都需要重新下载整个代码包*，缓存命中率极低
 
-- **资源冗余**：客户端必须等待整个应用的代码包都加载完毕才能启动运行，但可能用户当下访问的内容只需要使用其中一部分代码
-- **缓存失效**：将所有资源达成一个包后，所有改动 —— 即使只是修改了一个字符，客户端都需要重新下载整个代码包，缓存命中率极低
-
-这两个问题都可以通过更科学的分包策略解决，例如：
-
+### 解决问题的思路
+**这两个问题都可以通过更科学的分包策略解决，例如：**
 - 将被多个 Chunk 依赖的包分离成独立 Chunk，防止资源重复；
 - `node_modules` 中的资源通常变动较少，可以抽成一个独立的包，业务代码的频繁变动不会导致这部分第三方库资源缓存失效，被无意义地重复加载。
 
@@ -54,77 +53,22 @@ Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独�
 
 ## SplitChunksPlugin 简介
 
-[SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fplugins%2Fsplit-chunks-plugin%2F) 是 Webpack 4 之后内置实现的最新分包方案，与 Webpack3 时代的 `CommonsChunkPlugin` 相比，它能够基于一些更灵活、合理的启发式规则将 Module 编排进不同的 Chunk，最终构建出性能更佳，缓存更友好的应用产物。
+[SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fplugins%2Fsplit-chunks-plugin%2F) 是 *Webpack 4 之后内置实现的最新分包方案*，与 Webpack3 时代的 `CommonsChunkPlugin` 相比，它能够基于一些更灵活、合理的启发式规则将 Module 编排进不同的 Chunk，最终构建出性能更佳，缓存更友好的应用产物。
 
-`SplitChunksPlugin` 的用法比较抽象，算得上 Webpack 的一个难点，主要能力有：
-
-- ```
-  SplitChunksPlugin
-  ```
-
-   
-
-  支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否对 Chunk 做进一步拆解，这些决策都可以通过
-
-   
-
-  ```
-  optimization.splitChunks
-  ```
-
-   
-
-  相应配置项调整定制，基于这些能力我们可以实现：
-
-  - 单独打包某些特定路径的内容，例如 `node_modules` 打包为 `vendors`；
-  - 单独打包使用频率较高的文件；
-
-- `SplitChunksPlugin` 还提供了 `optimization.splitChunks.cacheGroup` 概念，用于对不同特点的资源做分组处理，并为这些分组设置更有针对性的分包规则；
-
-- ```
-  SplitChunksPlugin
-  ```
-
-   
-
-  还内置了
-
-   
-
-  ```
-  default
-  ```
-
-   
-
-  与
-
-   
-
-  ```
-  defaultVendors
-  ```
-
-   
-
-  两个
-
-   
-
-  ```
-  cacheGroup
-  ```
-
-  ，提供一些开箱即用的分包特性：
-
-  - `node_modules` 资源会命中 `defaultVendors` 规则，并被单独打包；
-  - 只有包体超过 20kb 的 Chunk 才会被单独打包；
-  - 加载 Async Chunk 所需请求数不得超过 30；
-  - 加载 Initial Chunk 所需请求数不得超过 30。
+**`SplitChunksPlugin` 的用法比较抽象，算得上 Webpack 的一个难点，主要能力有：**
+- `SplitChunksPlugin` 支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否对 Chunk 做进一步拆解。*这些策略都可以通过 `optimization.splitChunks` 配置，可以实现：*
+    - **单独打包某些特定路径的内容**，例如 `node_modules` 打包为 `vendors`；
+    - **单独打包使用频率较高的文件**；
+- `SplitChunksPlugin` 还提供了 `optimization.splitChunks.cacheGroup` 概念，用于对不同特点的资源做分组处理，并为这些分组设置更有针对性的分包规则；
+- `SplitChunksPlugin` 还内置了 `default` 与 `defaultVendors` 两个 `cacheGroup`，提供一些开箱即用的分包特性：
+    - `node_modules` 资源会命中 `defaultVendors` 规则，并被单独打包；
+    - 只有包体超过 20kb 的 Chunk 才会被单独打包；
+    - 加载 Async Chunk 所需请求数不得超过 30；
+    - 加载 Initial Chunk 所需请求数不得超过 30。
 
 > 提示：这里所说的请求数不能等价对标到 http 资源请求数，下面会细讲。
 
-由于 Webpack4 开始已经内置支持 `SplitChunksPlugin` ，我们不需要额外安装依赖，直接修改 [optimization.splitChunks](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconfiguration%2Foptimization%2F%23optimizationsplitchunks) 配置项即可实现自定义的分包策略：
+由于 Webpack4 开始已经内置支持 `SplitChunksPlugin` ，我们不需要额外安装依赖，直接修改 [optimization.splitChunks](https://webpack.js.org/configuration/optimization/#optimizationsplitchunks) 配置项即可实现自定义的分包策略：
 
 ```js
 module.exports = {
@@ -137,10 +81,9 @@ module.exports = {
 }
 ```
 
-`splitChunks` 主要有两种类型的配置：
-
-- `minChunks/minSize/maxInitialRequest` 等分包条件，满足这些条件的模块都会被执行分包；
-- `cacheGroup` ：用于为特定资源声明特定分包条件，例如可以为 `node_modules` 包设定更宽松的分包条件。
+*`splitChunks` 主要有两种类型的配置：*
+- `minChunks/minSize/maxInitialRequest` 等分包条件，满足这些条件的模块都会被执行分包；
+- `cacheGroup` ：用于为特定资源声明特定分包条件，例如可以为 `node_modules` 包设定更宽松的分包条件。
 
 下面展开细讲。
 
