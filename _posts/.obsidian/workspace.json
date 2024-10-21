@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
                 "mode": "source",
                 "source": false
               }
@@ -262,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 533.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +319,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md"
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md"
               }
             }
           }
@@ -343,15 +344,15 @@
   },
   "active": "2d2f55ddb0d04789",
   "lastOpenFiles": [
+    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
     "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/28 Tree-shaking：如何删除无用模块导出？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/26 Chunk：三种产物的打包逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/24 Init、Make、Seal：真正读懂 Webpack 核心流程.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png",
     "engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
     "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
