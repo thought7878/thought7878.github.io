@@ -17,7 +17,7 @@
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/8d485f1783389893fd3da684ade36476_MD5.webp]]
 
-可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列默认 **分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
+可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列 **默认分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
 
 ### 默认的代码分割策略和问题
 
@@ -311,12 +311,12 @@ module.exports = {
 };
 ```
 
-## 配置项与最佳实践
+## 最佳实践
 
-最后，我们再回顾一下 `SplitChunksPlugin` 支持的配置项：
+最后，我们再*回顾一下 `SplitChunksPlugin` 支持的配置项：*
 
 - `minChunks`：用于设置引用阈值，被引用次数超过该阈值的 Module 才会进行分包处理；
-- `maxInitialRequest/maxAsyncRequests`：用于限制 Initial Chunk(或 Async Chunk) 最大并行请求数，本质上是在*限制最终产生的分包数量*；
+- `maxInitialRequests/maxAsyncRequests`：用于限制 Initial Chunk(或 Async Chunk) 最大并行请求数，本质上是在*限制最终产生的分包数量*；
 - `minSize`： 超过这个尺寸的 Chunk 才会正式被分包；
 - `maxSize`： 超过这个尺寸的 Chunk 会尝试继续做分包；
 - `maxAsyncSize`： 与 `maxSize` 功能类似，但只对异步引入的模块生效；
@@ -325,26 +325,25 @@ module.exports = {
 - `cacheGroups`：用于设置缓存组规则，为不同类型的资源设置更有针对性的分包策略。
 
 **结合这些特性，业界已经总结了许多惯用的最佳分包策略，包括：**
-- *针对`node_modules`资源：*
-  - 可以将 `node_modules` 模块打包成单独文件(通过 `cacheGroups` 实现)，防止业务代码的变更影响 NPM 包缓存，同时建议通过 `maxSize` 设定阈值，防止 vendor 包体过大；
+- **针对`node_modules`资源：**
+  - 可以将 `node_modules` 模块打包成单独文件(通过 `cacheGroups` 实现)，防止业务代码的变更影响 NPM 包的缓存，同时建议通过 `maxSize` 设定阈值，防止 vendor 包体过大；
   - 更激进的，如果生产环境已经部署 HTTP2/3 一类高性能网络协议，甚至可以考虑将每一个 NPM 包都打包成单独文件，具体实现可查看小册[示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2FTecvan-fe%2Fwebpack-book-samples%2Fblob%2F50c9a47ce3%2Fsplitchunks-seperate-npm%2Fwebpack.config.js%23L19-L20)；
-- *针对业务代码：*
-  - 设置 `common` 分组，通过 `minChunks` 配置项将使用率较高的资源合并为 Common 资源；
-  - 首屏用不上的代码，尽量以异步方式引入；
-  - 设置 `optimization.runtimeChunk` 为 `true`，将运行时代码拆分为独立资源。
+- **针对业务代码：**
+  - 设置 `common` 分组，通过 `minChunks` 配置项*将被其他模块使用率较高的模块合并为 Common 资源*；
+  - *首屏用不上的代码，尽量以异步方式引入*；
+  - 设置 `optimization.runtimeChunk` 为 `true`，*将运行时代码拆分为独立资源*。
 
 不过，现实世界很复杂，同样的方法放在不同场景可能会有完全相反的效果，建议你根据自己项目的实际情况(代码量、基础设施环境)，择优选用上述实践。
 
 ## 总结
 
-Chunk 是 Webpack 实现模块打包的关键设计，Webpack 会首先为 Entry 模块、异步模块、Runtime 模块(取决于配置) 创建 Chunk 容器，之后按照 `splitChunks` 配置进一步优化、裁剪分包内容。
+Chunk 是 Webpack 实现模块打包的关键设计，**Webpack 会首先为 Entry 模块、异步模块、Runtime 模块(取决于配置) 创建 Chunk 容器，之后按照 `splitChunks` 配置进一步优化、裁剪分包内容**。
 
-`splitChunks` 规则比较复杂，大致上可以分类为：
-
+*`splitChunks` 规则比较复杂，大致上可以分类为：*
 - 规则类：如 `minSize/minChunks` 等，匹配这些条件的 Module 都会被单独分包；
 - `cacheGroup`：可以理解为针对特定资源的次级规则集合。
 
-实践中，分包策略的好坏直接影响应用的运行性能，常用策略一是单独打包 `node_modules` 代码(习惯称为 `vendor`)，二是单独打包被频繁使用的模块(习惯称为 `common`)。
+**实践中，分包策略的好坏直接影响应用的运行性能**，常用策略一是单独打包 `node_modules` 代码(习惯称为 `vendor`)，二是单独打包被频繁使用的模块(习惯称为 `common`)。
 
 ## 思考题
 
