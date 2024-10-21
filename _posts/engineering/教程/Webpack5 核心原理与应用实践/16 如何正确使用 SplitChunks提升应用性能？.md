@@ -57,6 +57,7 @@ Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独�
 
 [SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fplugins%2Fsplit-chunks-plugin%2F) 是 *Webpack 4 之后内置实现的最新分包方案*，与 Webpack3 时代的 `CommonsChunkPlugin` 相比，它能够基于一些更灵活、合理的启发式规则将 Module 编排进不同的 Chunk，最终构建出性能更佳，缓存更友好的应用产物。
 
+### SplitChunksPlugin 的主要能力
 **`SplitChunksPlugin` 的用法比较抽象，算得上 Webpack 的一个难点，主要能力有：**
 - `SplitChunksPlugin` 支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否对 Chunk 做进一步拆解。*这些策略都可以通过 `optimization.splitChunks` 配置，可以实现：*
     - **单独打包某些特定路径的内容**，例如 `node_modules` 打包为 `vendors`；
@@ -84,14 +85,14 @@ module.exports = {
 ```
 
 *`splitChunks` 主要有两种类型的配置：*
-- `minChunks/minSize/maxInitialRequest` 等分包条件，满足这些条件的模块都会被执行分包；
+- `minChunks/maxInitialRequest/minSize` 等分包条件，满足这些条件的模块都会被执行分包；
 - `cacheGroup` ：用于为特定资源声明特定分包条件，例如可以为 `node_modules` 包设定更宽松的分包条件。
 
 下面展开细讲。
 
 ## 设置分包范围
 
-首先，`SplitChunksPlugin` 默认情况下只对 Async Chunk 生效，我们可以*通过 `splitChunks.chunks` 调整作用范围，选择哪些块/chunks进行代码分割。该配置项支持如下值：*
+首先，**`SplitChunksPlugin` 默认情况下只对 Async Chunk 生效**，我们可以*通过 `splitChunks.chunks` 调整作用范围，选择哪些块/chunks进行代码分割。该配置项支持如下值：*
 - 字符串 `'all'` ：对 Initial Chunk 与 Async Chunk 都生效，建议优先使用该值；
 - 字符串 `'initial'` ：只选择 Initial Chunk 进行代码分割；
 - 字符串 `'async'` ：只选择 Async Chunk 进行代码分割；
@@ -151,7 +152,7 @@ import common from './common'
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/c1685034fbdca0a74adaac60b7fe4304_MD5.webp]]
 
-*其中，`entry-a`、`entry-b` 分别被视作 Initial Chunk 处理；`async-module` 被 `entry-a` 以异步方式引入，因此被视作 Async Chunk 处理*。那么对于 `common` 模块来说，分别被三个不同的 Chunk 引入，此时引用次数为 3，配合下面的配置：
+*其中，`entry-a`、`entry-b` 分别被视作 Initial Chunk 处理；`async-module` 被 `entry-a` 以异步方式引入，因此被视作 Async Chunk 处理*。**那么对于 `common` 模块来说，分别被三个不同的 Chunk 引入，此时引用次数为 3，配合下面的配置：**
 
 ```js
 // webpack.config.js
@@ -182,7 +183,7 @@ module.exports = {
 
 ## 限制分包数量
 
-在 `minChunks` 基础上，**为防止最终产物文件数量过多导致 HTTP 网络请求数剧增，反而降低应用性能**。Webpack 还提供了 `maxInitialRequests/maxAsyncRequests` 配置项，*用于限制分包数量：*
+在 `minChunks` 基础上，**为防止最终产物文件数量过多导致 HTTP 网络请求数剧增，反而降低应用性能**。Webpack 还提供了 `maxInitialRequests/maxAsyncRequests` 配置项，**用于限制分包数量：**
 - `maxInitialRequests`：用于设置 Initial Chunk 最大并行请求数；
 - `maxAsyncRequests`：用于设置 Async Chunk 最大并行请求数。
 
@@ -202,7 +203,7 @@ module.exports = {
 
 若 `minChunks = 2` ，则 `common-1` 、`common-2` 同时命中 `minChunks` 规则被分别打包，浏览器请求 `entry-b` 时需要同时请求 `common-1` 、`common-2` 两个分包，并行数为 2 + 1 = 3，**此时若 `maxInitialRequests = 2`，则分包数超过阈值**，`SplitChunksPlugin` 会 **放弃 `common-1`、`common-2` 中体积较小的分包**。`maxAsyncRequests` 逻辑与此类似，不在赘述。
 
-并行*请求数关键逻辑总结如下：*
+并行**请求数关键逻辑总结如下：**
 - Initial Chunk 本身算一个请求；
 - Async Chunk 不算并行请求；
 - 通过 `runtimeChunk` 拆分出的 runtime 不算并行请求；
@@ -222,10 +223,10 @@ module.exports = {
 那么，**结合前面介绍的两种规则，`SplitChunksPlugin` 的主体流程如下：**
 1. `SplitChunksPlugin` 尝试将命中 `minChunks` 规则的 Module 统一抽到一个额外的 Chunk 对象；
 2. 判断该 Chunk 是否满足 `maxInitialRequests` 阈值，若满足则进行下一步；
-3. 判断该 Chunk 资源的体积是否大于上述配置项`minSize`声明的下限阈值；
-   - 如果体积**小于** `minSize` 则取消这次分包，对应的 Module 依然会被合并入原来的 Chunk
-   - 如果 Chunk 体积**大于** `minSize` 则判断是否超过 `maxSize`、`maxAsyncSize`、`maxInitialSize` 声明的上限阈值，如果超过则尝试将该 Chunk 继续分割成更小的部分
-注意，**这些条件的优先级顺序为：** `minChunks < maxInitialRequests/maxAsyncRequests < maxSize < minSize < enforceSizeThreshold`。而命中 `enforceSizeThreshold` 阈值的 Chunk 会直接跳过这些条件判断，强制进行分包。
+3. 判断该 Chunk 资源的体积是否大于`minSize`声明的下限阈值；
+   - 如果体积小于 `minSize` 则取消这次分包，*对应的 Module 依然会被合并入原来的 Chunk*
+   - 如果 Chunk 体积大于 `minSize` 则判断是否超过 `maxSize`、`maxAsyncSize`、`maxInitialSize` 声明的上限阈值，如果超过则尝试将该 Chunk 继续分割成更小的部分
+**注意，这些条件的优先级顺序为：** `minChunks < maxInitialRequests/maxAsyncRequests < maxSize < minSize < enforceSizeThreshold`。而命中 `enforceSizeThreshold` 阈值的 Chunk 会直接跳过这些条件判断，强制进行分包。
 
 > 提示：虽然 `maxSize` 等阈值规则会产生更多的包体，但缓存粒度会更小，命中率相对也会更高，配合持久缓存与 HTTP2 的多路复用能力，网络性能反而会有正向收益。
 
@@ -233,7 +234,7 @@ module.exports = {
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/0f3e27da0cbdce97dd2adcaae73f164b_MD5.webp]]
 
-若此时 Webpack 配置的 `minChunks` 大于 2，且 `maxInitialRequests` 也同样大于 2，如果 `common` 模块的体积大于上述说明的 `minxSize` 配置项则分包，`commont` 会被分离为单独的 Chunk，否则会被合并入原来的 3 个 Chunk。
+若此时 Webpack 配置的 `minChunks` 大于 2，且 `maxInitialRequests` 也同样大于 2，如果 `common` 模块的体积大于上述说明的 `minSize` 配置项则分包，`commont` 会被分离为单独的 Chunk，否则会被合并入原来的 3 个 Chunk。
 
 ## 缓存组 `cacheGroups` 简介
 
