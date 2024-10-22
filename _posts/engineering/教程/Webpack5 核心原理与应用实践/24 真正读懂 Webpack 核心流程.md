@@ -140,7 +140,7 @@ class EntryPlugin {
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/fbe944d34bd258bbcb45e3557a7191bd_MD5.webp]]
 
-其中 `index.js` 为 entry 文件，依赖于 a/b 文件；a 依赖于 c/d 文件。初始化编译环境之后，`EntryPlugin` 根据 `entry` 配置找到 `index.js` 文件，并调用 `compilation.addEntry` 函数将之添加为 Module 对象，触发构建流程，构建完毕后内部会生成这样的数据结构：
+其中 `index.js` 为 entry 文件，依赖于 a/b 文件；a 依赖于 c/d 文件。初始化编译环境之后，`EntryPlugin` 根据 `entry` 配置找到 `index.js` 文件，并调用 `compilation.addEntry` 函数将之添加为 Module 对象，触发构建流程，*构建完毕后内部会生成这样的数据结构：*
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/1ca4b2496f2d41bbe6796ccf06d022c7_MD5.webp]]
 
@@ -160,7 +160,7 @@ class EntryPlugin {
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/859b39308c2c8a1a26be99ed41f7d48c_MD5.webp]]
 
-> 提示：Dependency、Module、Entry 等都是 Webpack 内部非常重要的基本类型，在后续章节中我们会单独展开这几个类型的基本涵义与相互之间的关系。
+> 提示：*Dependency、Module、Entry 等都是 Webpack 内部非常重要的基本类型*，在后续章节中我们会单独展开这几个类型的基本涵义与相互之间的关系。
 
 到这里解析完所有模块，没有新的依赖后就可以继续推进，进入「生成阶段」。
 
