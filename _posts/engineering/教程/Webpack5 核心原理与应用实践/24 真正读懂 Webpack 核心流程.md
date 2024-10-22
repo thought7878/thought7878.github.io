@@ -1,64 +1,53 @@
 前面章节中，我们详细讲解了 Webpack 的基本应用、性能优化、Loader 与 Plugin 组件开发方方面面的知识，相信学习过这些内容之后，你已经对 Webpack 有相当深入的理解了，可以开始从更底层的视角，自底向上重新审视 Webpack 实现原理。
 
-Webpack 的功能集非常庞大：模块打包、代码分割、按需加载、Hot Module Replacement、文件监听、Tree-shaking、Sourcemap、Module Federation、Dev Server、DLL、多进程打包、Persistent Cache 等等，但抛开这些花里胡哨的能力，最最核心的功能依然是：**At its core, webpack is a static module bundler for modern** **JavaScript** **applications**，也就是所谓的**静态模块打包能力**。
+*Webpack 的功能集非常庞大：* 模块打包、代码分割、按需加载、Hot Module Replacement、文件监听、Tree-shaking、Sourcemap、Module Federation、Dev Server、DLL、多进程打包、Persistent Cache 等等，但抛开这些花里胡哨的能力，**最最核心的功能**依然是：**At its core, webpack is a static module bundler for modern** **JavaScript** **applications**，也就是所谓的**静态模块打包能力**。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/ee343d14d65f84968c0d577db933f1b5_MD5.webp]]
 
-Webpack 能够将各种类型的资源 —— 包括图片、音视频、CSS、JavaScript 代码等，通通转译、组合、拼接、生成标准的、能够在不同版本浏览器兼容执行的 JavaScript 代码文件，这一特性能够轻易抹平开发 Web 应用时处理不同资源的逻辑差异，使得开发者以一致的心智模型开发、消费这些不同的资源文件。
+*Webpack 能够将各种类型的资源 —— 包括图片、音视频、CSS、JavaScript 代码等，通通转译、组合、拼接、生成标准的、能够在不同版本浏览器兼容执行的 JavaScript 代码文件*，这一特性能够轻易抹平开发 Web 应用时处理不同资源的逻辑差异，使得开发者以一致的心智模型开发、消费这些不同的资源文件。
 
-打包功能的底层实现逻辑很复杂，抛去大多数分支逻辑后，大致包含如下步骤：
+## 打包的步骤
+打包功能的底层实现逻辑很复杂，抛去大多数分支逻辑后，*大致包含如下步骤：*
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/ce17016c8e389f3e2b4985636399217f_MD5.webp]]
 
-为了方便理解，我把上述过程划分为三个阶段：
+### 三个阶段
+**为了方便理解，把上述过程划分为三个阶段：**
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/cd61b17e64eb1f7cadcbe80a06835911_MD5.webp]]
 
 1. **初始化阶段**：修整配置参数，创建 Compiler、Compilation 等基础对象，并初始化插件及若干内置工厂、工具类，并最终根据 `entry` 配置，找到所有入口模块；
-2. **构建阶段**：从 `entry` 文件开始，调用 `loader` 将模块转译为 JavaScript 代码，调用 [Acorn](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Facornjs%2Facorn) 将代码转换为 AST 结构，遍历 AST 从中找出该模块依赖的模块；之后 **递归** 遍历所有依赖模块，找出依赖的依赖，直至遍历所有项目资源后，构建出完整的 **[模块依赖关系图](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2Fdependency-graph%2F)**；
+2. **构建阶段**：从 `entry` 文件开始，调用 `loader` 将模块转译为 JavaScript 代码，调用 [Acorn](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Facornjs%2Facorn) 将代码转换为 AST 结构，从 AST 中找出该模块依赖的模块；之后 **递归** 遍历所有依赖模块，找出依赖的依赖，直至遍历所有项目资源后，构建出完整的 **[模块依赖关系图](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2Fdependency-graph%2F)**；
 3. **生成阶段**：根据 `entry` 配置，将模块组装为一个个 Chunk 对象，之后调用一系列 Template 工厂类翻译 Chunk 代码并封装为 Asset，最后写出到文件系统。
 
 > 提示：单次构建过程自上而下按顺序执行，如果启动了 `watch` ，则构建完成后不会退出 Webpack 进程，而是持续监听文件内容，发生变化时回到「**构建**」阶段重新执行构建。
 
-三个阶段环环相扣，「**初始化**」的重点是根据用户配置设置好构建环境；「**构建阶段**」则重在解读文件输入与文件依赖关系；最后在「**生成阶段**」按规则组织、包装模块，并翻译为适合能够直接运行的产物包。三者结合，实现 Webpack 最核心的打包能力，其它功能特性也几乎都是在此基础上，通过 Hook 介入、修改不同阶段的对象状态、流程逻辑等方式实现。
+三个阶段环环相扣，「**初始化**」的重点是根据用户配置设置好构建环境；「**构建阶段**」则重在解读文件输入与文件依赖关系；最后在「**生成阶段**」按规则组织、组装模块，并翻译为适合能够直接运行的产物包。三者结合，实现 Webpack 最核心的打包能力，其它功能特性也几乎都是在此基础上，通过 Hook 介入、修改不同阶段的对象状态、流程逻辑等方式实现。
 
 可以说，深度理解这三个阶段，才算是真正掌握了 Webpack 核心原理，所以接下来，让我们一起深入底层源码，剖析各阶段的具体实现。
 
 ## 初始化阶段
 
-初始化阶段主要完成三个功能：修整 & 校验配置对象、运行插件、调用 `compiler.compile` 方法开始执行构建操作，代码比较简单，如下图：
+**初始化阶段主要完成三个功能：** 修整 & 校验配置对象、运行插件、调用 `compiler.compile` 方法开始执行构建操作，代码比较简单，如下图：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/7e7d0be7c370a8e7561ea309e2fd65e9_MD5.webp]]
 
-首先，校验用户参数，并合并默认配置对象：
-
-1. 启动时，首先将 `process.args` 参数与 `webpack.config.js` 文件合并成用户配置；
+### 读取参数，合并成配置对象
+1. 启动时，首先将 `process.args` 参数与 `webpack.config.js` 文件合并成配置对象；
 2. 调用 [validateSchema](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FvalidateSchema.js%23L77-L78) 校验配置对象（`validateSchema` 底层依赖于 [schema-utils](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fschema-utils) 库）；
 3. 调用 [getNormalizedWebpackOptions](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fconfig%2Fnormalization.js%23L116-L117) + [applyWebpackOptionsBaseDefaults](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fconfig%2Fdefaults.js%23L120-L121) 合并出最终配置。
 
-之后，创建 Compiler 对象并开始启动插件：
+### 创建 Compiler 对象并初始化插件
+1. 调用 [createCompiler](https://github1s.com/webpack/webpack/blob/HEAD/lib/webpack.js#L61-L62) 函数创建 `compiler` 对象。
+2. [遍历](https://github1s.com/webpack/webpack/blob/HEAD/lib/webpack.js#L68-L69) 配置中的 `plugins` 集合，执行插件的 `apply` 方法。
+3. [调用](https://github1s.com/webpack/webpack/blob/HEAD/lib/webpack.js#L80-L81) `new WebpackOptionsApply().process` 方法，根据配置内容动态注入相应插件，包括：
+    - 调用 [EntryOptionPlugin](https://github1s.com/webpack/webpack/blob/HEAD/lib/EntryOptionPlugin.js) 插件，该插件根据 `entry` 值注入 `DynamicEntryPlugin` 或 `EntryPlugin` 插件；
+    - 根据 `devtool` 值注入 Sourcemap 插件，包括：`SourceMapDevToolPlugin`、`EvalSourceMapDevToolPlugin` 、`EvalDevToolModulePlugin`；
+    - 注入 `RuntimePlugin` ，用于根据代码内容动态注入 webpack 运行时。
 
-1. 调用 [createCompiler](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fwebpack.js%23L61-L62) 函数创建 `compiler` 对象。
+### 调用 `compiler.compile` 方法开始执行构建
 
-2. [遍历](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fwebpack.js%23L68-L69) 配置中的 `plugins` 集合，执行插件的 `apply` 方法。
-
-3. 调用
-
-    
-
-   ```
-   new WebpackOptionsApply().process
-   ```
-
-    
-
-   方法，根据配置内容动态注入相应插件，包括：
-
-   - 调用 [EntryOptionPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FEntryOptionPlugin.js) 插件，该插件根据 `entry` 值注入 `DynamicEntryPlugin` 或 `EntryPlugin` 插件；
-   - 根据 `devtool` 值注入 Sourcemap 插件，包括：`SourceMapDevToolPlugin`、`EvalSourceMapDevToolPlugin` 、`EvalDevToolModulePlugin`；
-   - 注入 `RuntimePlugin` ，用于根据代码内容动态注入 webpack 运行时。
-
-**最后，调用 `compiler.compile` 方法开始执行构建**，这一步非常重要，源码：
+这一步非常重要，源码：
 
 ```js
 // webpack/lib/compiler.js 
@@ -103,7 +92,7 @@ compile(callback) {
 
 ## 构建阶段
 
-「**构建阶段**」从 `entry` 模块开始递归解析模块内容、找出模块依赖，按图索骥逐步构建出项目整体 `module` 集合以及 `module` 之间的 [依赖关系图](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2Fdependency-graph%2F)，这个阶段的主要作用就是读入并理解所有原始代码。
+「**构建阶段**」从 `entry` 模块开始递归解析模块内容、找出模块依赖，按图索骥逐步构建出项目整体 `module` 集合以及 `module` 之间的 [依赖关系图](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fconcepts%2Fdependency-graph%2F)。**这个阶段的主要作用**就是读入并理解所有原始代码。
 
 实现上，在上述「**初始化阶段**」的最后，`compiler.compile` 函数会触发 `compiler.hook.make` 钩子，`EntryPlugin` 监听该钩子并开始调用 `compilation.addEntry` 添加入口：
 
@@ -123,40 +112,30 @@ class EntryPlugin {
 }
 ```
 
+### 流程
 `addEntry` 之后的执行逻辑：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/5ec6cb68d82d2f114af9c311f0f78371_MD5.webp]]
 
 1. 调用 [handleModuleCreation](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L1476-L1477)，根据文件类型构建 `module` 子类 —— 一般是 [NormalModule](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FNormalModule.js)；
-
-2. 调用 [loader-runner](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Floader-runner) 转译 `module` 内容，将各类资源类型转译为 Webpack 能够理解的标准 JavaScript 文本；
-
-3. 调用 [acorn](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Facorn) 将 JavaScript 代码解析为 AST 结构；
-
-4. 在
-
-    
-
-   JavaScriptParser
-
-    
-
-   类中遍历 AST，触发各种钩子，其中最关键的：
-
+2. 调用 [loader-runner](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Floader-runner) 转译 `module` 内容，*将各类型资源转译为 Webpack 能够理解的标准 JavaScript 文本*；
+3. *调用 [acorn](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Facorn) 将 JavaScript 代码解析为 AST 结构*；
+4. 在 `JavaScriptParser` 类中遍历 AST，触发各种钩子，其中最关键的：
    1. 遇到 `import` 语句时，触发 [exportImportSpecifier](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fjavascript%2FJavascriptParser.js%23L1983-L1984) 钩子；
    2. [HarmonyExportDependencyParserPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2Fdependencies%2FHarmonyExportDependencyParserPlugin.js%23L153-L154) 监听该钩子，将依赖资源添加为 Dependency 对象；
    3. 调用 `module` 对象的 `addDependency`， 将 Dependency 对象转换为 Module 对象并添加到依赖数组中。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/04c8a5263a884a21a922049f788fa97d_MD5.webp]]
 
-1. AST 遍历完毕后，调用 `module.handleParseResult` 处理模块依赖数组；
-2. 对于 `module` 新增的依赖，调用 `handleModuleCreate`，控制流回到第一步；
-3. 所有依赖都解析完毕后，构建阶段结束。
+5. AST 遍历完毕后，调用 `module.handleParseResult` 处理模块依赖数组；
+6. 对于 `module` 新增的依赖，调用 `handleModuleCreate`，控制流回到第一步；
+7. 所有依赖都解析完毕后，构建阶段结束。
 
 过程中模块源码经历了 `module => ast => dependences => module` 的流转，先将源码解析为 AST 结构，再在 AST 中遍历 `import` 等模块导入语句，收集模块依赖数组 —— `dependences`，最后遍历 `dependences` 数组将 Dependency 转换为 Module 对象，之后递归处理这些新的 Module，直到所有项目文件处理完毕。
 
 > 提示：这个过程会调用 acorn 将模块内容 —— 包括 JS、CSS，甚至多媒体文件，解析为 AST 结构，所以需要使用 `loaders` 将不同类型的资源转译为标准 JavaScript 代码。
 
+### 例子
 这个递归处理流程是「**构建阶段**」的精髓，我们来看个例子，假设对于下图这种简单模块依赖关系：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/fbe944d34bd258bbcb45e3557a7191bd_MD5.webp]]
