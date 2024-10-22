@@ -116,18 +116,6 @@
             }
           },
           {
-            "id": "5ed8e21cc6046355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/前端知识体系及难点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2ea110bce15ec28d",
             "type": "leaf",
             "state": {
@@ -210,9 +198,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ed8e21cc6046355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/前端知识体系及难点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0e50713fd2227b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/dive-in/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
+                "file": "react/dive-in/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
+                "file": "react/dive-in/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md"
+                "file": "react/dive-in/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md"
               }
             }
           }
@@ -341,13 +353,26 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2d2f55ddb0d04789",
+  "active": "c0e50713fd2227b2",
   "lastOpenFiles": [
+    "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+    "react/react 通关秘籍/2、一网打尽组件常用 Hook.md",
+    "react/react 通关秘籍/1、小册介绍.md",
+    "react/react 通关秘籍/5、React 组件如何调试.md",
+    "react/react 通关秘籍/4、React 组件如何写 TypeScript 类型.md",
+    "react/react 通关秘籍/3、Hook 的闭包陷阱的成因和解决方案.md",
+    "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
+    "engineering/webpack&vite/webpack VS vite.md",
+    "interview/前端知识体系及难点.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
+    "interview/简历/商智.md",
+    "interview/简历/参考案例.md",
+    "interview/字节跳动资深前端面试官的经验.md",
+    "visualization/1.md",
     "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
     "engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/26 Chunk：三种产物的打包逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
@@ -356,20 +381,7 @@
     "engineering/教程/Webpack5 核心原理与应用实践/21 插件开发基础：实例剖析插件基本形态与架构逻辑.md",
     "engineering/教程/Webpack5 核心原理与应用实践/20 Loader 开发进阶：如何用好 Loader 扩展开发工具？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/28 Tree-shaking：如何删除无用模块导出？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png",
-    "engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
-    "engineering/教程/Webpack原理与实践/docs/第10讲：Code Splitting.md",
-    "visualization/1.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/9 如何借助 Webpack 开发 PWA、Node、Electron 应用？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/8 使用 Webpack 构建微前端应用.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/b588dba99656c4330910d0a763d33f20_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media/bea87d044108eed35ff3917a0a8f9b00_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media/3334487cc5253ea51a7bbbe41af0a6a8_MD5.webp",
