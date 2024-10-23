@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
+                "file": "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
+                "file": "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
+                "file": "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md"
+                "file": "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md"
               }
             }
           }
@@ -355,19 +355,23 @@
   },
   "active": "c0e50713fd2227b2",
   "lastOpenFiles": [
+    "react/hook/实践/2021-08-12-10.函数组件设计模式：如何应对复杂条件渲染场景？.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
+    "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
+    "react/hook/基础/2021-08-11-6.hooks-customize.md",
+    "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
+    "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
+    "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
     "react/react 通关秘籍/2、一网打尽组件常用 Hook.md",
     "react/react 通关秘籍/1、小册介绍.md",
     "react/react 通关秘籍/3、Hook 的闭包陷阱的成因和解决方案.md",
     "react/react 通关秘籍/4、React 组件如何写 TypeScript 类型.md",
     "react/react 通关秘籍/5、React 组件如何调试.md",
-    "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
     "react/hook/基础/2021-08-08-2.why-hooks.md",
     "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
     "interview/前端知识体系及难点.md",
     "react/hook/基础/2021-08-08-1.overview.md",
-    "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
     "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
     "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
     "react/dive-in/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
@@ -377,10 +381,6 @@
     "interview/简历/商智.md",
     "interview/简历/参考案例.md",
     "interview/字节跳动资深前端面试官的经验.md",
-    "visualization/1.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png",
     "engineering/教程/Webpack5 核心原理与应用实践/media/b588dba99656c4330910d0a763d33f20_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media/bea87d044108eed35ff3917a0a8f9b00_MD5.webp",
