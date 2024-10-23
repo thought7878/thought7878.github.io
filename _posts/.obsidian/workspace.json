@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
+                "file": "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
+                "file": "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
+                "file": "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/基础/2021-08-10-5.函数组件的生命周期.md"
+                "file": "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md"
               }
             }
           }
@@ -355,10 +355,10 @@
   },
   "active": "c0e50713fd2227b2",
   "lastOpenFiles": [
-    "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
-    "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
     "react/hook/基础/2021-08-11-6.hooks-customize.md",
     "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
+    "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
+    "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
     "react/hook/实践/2021-08-12-10.函数组件设计模式：如何应对复杂条件渲染场景？.md",
     "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
