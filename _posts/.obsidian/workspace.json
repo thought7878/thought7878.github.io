@@ -224,6 +224,18 @@
             }
           },
           {
+            "id": "013235d56336797f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b93eb4f1fc01d4ce",
             "type": "leaf",
             "state": {
@@ -236,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -286,7 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 318.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -302,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
+                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md"
               }
             }
           }
@@ -365,9 +377,21 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c0e50713fd2227b2",
+  "active": "013235d56336797f",
   "lastOpenFiles": [
+    "algorithm/前端算法与数据结构/media/beb26530181b736f13fa95e125f3878d_MD5.png",
+    "algorithm/前端算法与数据结构/media/a32bfe81507fe6405ab91af8c5942774_MD5.png",
+    "algorithm/前端算法与数据结构/media/f897b51a9720b233560d2ebe7a96bc00_MD5.png",
+    "algorithm/前端算法与数据结构/media/6a984256a3dc1a3c5a50f3257c2c531c_MD5.png",
+    "algorithm/前端算法与数据结构/media/272e0d2a5473b4ec79eff6cc304f1378_MD5.png",
+    "algorithm/前端算法与数据结构/media/e696e78b63fea155ece9bb8d6db70264_MD5.png",
+    "algorithm/前端算法与数据结构/media/34481b19e519d659649840176dae2b64_MD5.png",
+    "algorithm/前端算法与数据结构/media/49bd788b775870b8dd293658f9efb83b_MD5.png",
+    "algorithm/前端算法与数据结构/media/0e1b86ca1867cd33bbe3f3ffcd8d349c_MD5.png",
+    "algorithm/前端算法与数据结构/media/26d0a402b57f89eaa61defc62ac061c2_MD5.png",
+    "algorithm/前端算法与数据结构/media/7d4890f8c30387c96c58b111bc202c5f_MD5.png",
     "algorithm/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
+    "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
     "algorithm/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
@@ -375,6 +399,9 @@
     "algorithm/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
     "algorithm/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
     "algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "algorithm/前端算法与数据结构/media",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "algorithm/前端算法与数据结构/28、思维课：算法面试的评价逻辑.md",
     "algorithm/前端算法与数据结构/27、大厂真题训练与解读——头条真题.md",
     "algorithm/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
@@ -384,35 +411,20 @@
     "algorithm/前端算法与数据结构/22、普通人也能吃透的动态规划思想专题（上）.md",
     "algorithm/前端算法与数据结构/21、排序算法专题（下）.md",
     "algorithm/前端算法与数据结构/20、排序算法专题（上）.md",
-    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
     "algorithm/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
     "algorithm/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
     "algorithm/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
     "algorithm/前端算法与数据结构/16、二叉树真题归纳与解读.md",
     "algorithm/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
-    "algorithm/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
-    "algorithm/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
-    "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
     "algorithm/前端算法与数据结构",
     "algorithm",
     "react/hook/实践/media",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/b588dba99656c4330910d0a763d33f20_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/bea87d044108eed35ff3917a0a8f9b00_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/3334487cc5253ea51a7bbbe41af0a6a8_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/36c75a74a82288519a2d6076f5f78305_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/8d856ae241718c6dba2f597eb672f547_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/ebaed943dac97b115cb0a8636a04830d_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/b9f296dc2613ede3dddfe8aa4fcbc539_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/859f683e8daa43346944986be83d050d_MD5.webp",
-    "engineering/教程/Webpack5 核心原理与应用实践/media/8eaf8b7004b54c0ed90077ddb1526430_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践",
     "performance/前端性能优化原理与实践",
     "interview/简历/media",
     "performance/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
     "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
-    "performance/浏览器工作原理与实践/09-结束语 (1讲)",
     "security/未命名.canvas"
   ]
 }
