@@ -255,7 +255,7 @@
 
 这样，我们就可以在任何地方使用 AnyToFix 替代 any ，比如下图中的 func 函数参数 arg 的类型就是 AnyToFix。并且在条件成熟时，我们可以很方便地筛选出需要类型重构的 func 函数，然后将其参数类型修改为更明确的类型。
 
-![Drawing 0.png](https://s0.lgstatic.com/i/image6/M01/4A/53/CioPOWDe5jaAcn06AAE09h1BBNU745.png)
+![[typescript/base/media/55c571f224afe68012316de496da4235_MD5.png]]
 
 #### 动态类型
 

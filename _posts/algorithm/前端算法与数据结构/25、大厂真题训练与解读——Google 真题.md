@@ -341,7 +341,7 @@ robot.turnRight()
 
 在这个前提下，机器人在 `(x,y)` 这个格子工作完之后，它的朝向一定是和刚进入 `(x,y)`时的朝向是一样的，区别在于在原来的基础上多走了一个格子：   
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/6/30/1730464d215429eb~tplv-t2oaga2asx-image.image)   
+![[algorithm/前端算法与数据结构/media/84565270049af97966fbfc547b5ca73b_MD5.png]]  
   
 此时后一个网格的机器人要想退回“事前”的状态，它必须先旋转 180 度，然后前进一步，再旋转 180 度。而“旋转 180 度”这个动作，可以通过连续两次 `turnLeft`或者`turnRight`来完成。这里我为了写代码好看，各用了一次（羞）。     
   

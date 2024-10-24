@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md"
+                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md"
               }
             }
           }
@@ -379,19 +379,22 @@
   },
   "active": "013235d56336797f",
   "lastOpenFiles": [
-    "algorithm/前端算法与数据结构/media/beb26530181b736f13fa95e125f3878d_MD5.png",
-    "algorithm/前端算法与数据结构/media/a32bfe81507fe6405ab91af8c5942774_MD5.png",
-    "algorithm/前端算法与数据结构/media/f897b51a9720b233560d2ebe7a96bc00_MD5.png",
-    "algorithm/前端算法与数据结构/media/6a984256a3dc1a3c5a50f3257c2c531c_MD5.png",
-    "algorithm/前端算法与数据结构/media/272e0d2a5473b4ec79eff6cc304f1378_MD5.png",
-    "algorithm/前端算法与数据结构/media/e696e78b63fea155ece9bb8d6db70264_MD5.png",
-    "algorithm/前端算法与数据结构/media/34481b19e519d659649840176dae2b64_MD5.png",
-    "algorithm/前端算法与数据结构/media/49bd788b775870b8dd293658f9efb83b_MD5.png",
-    "algorithm/前端算法与数据结构/media/0e1b86ca1867cd33bbe3f3ffcd8d349c_MD5.png",
-    "algorithm/前端算法与数据结构/media/26d0a402b57f89eaa61defc62ac061c2_MD5.png",
-    "algorithm/前端算法与数据结构/media/7d4890f8c30387c96c58b111bc202c5f_MD5.png",
-    "algorithm/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
+    "algorithm/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
+    "tools/vim/media",
+    "typescript/base/media/22ae3e835f0a8113028ab1caf01fba90_MD5.png",
+    "typescript/base/media/a528a048dbeb3764395138313e8dd332_MD5.png",
+    "typescript/base/media/2ead3f1723ac5dd4b6ee6dc44cc0a5fa_MD5.png",
+    "typescript/base/media/378f0c08a9d21c137176959454ef0c6e_MD5.png",
+    "typescript/base/media/55c571f224afe68012316de496da4235_MD5.png",
+    "typescript/base/media",
+    "visualization/media/3fda5eb06f29d53024af497465a5b780_MD5.png",
+    "visualization/media/24d6543bdaf207e92e300311417c46b8_MD5.png",
+    "visualization/media/c2d4a3b13496b971cf6a417eebdb5bd9_MD5.png",
+    "visualization/media/a0c3d3eed6146ee1e158796ca3d4b788_MD5.jpg",
+    "visualization/media/d588100e8dde2c8150471321ba4725eb_MD5.jpg",
+    "visualization/media",
     "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+    "algorithm/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
@@ -415,16 +418,12 @@
     "algorithm/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
     "algorithm/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
     "algorithm/前端算法与数据结构/16、二叉树真题归纳与解读.md",
-    "algorithm/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
     "algorithm/前端算法与数据结构",
     "algorithm",
     "react/hook/实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践/media",
     "engineering/教程/Webpack5 核心原理与应用实践",
     "performance/前端性能优化原理与实践",
-    "interview/简历/media",
-    "performance/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
-    "performance/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "security/未命名.canvas"
   ]
 }

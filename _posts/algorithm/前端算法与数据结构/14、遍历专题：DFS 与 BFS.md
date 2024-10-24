@@ -21,7 +21,7 @@
 那么如何使用编码来实现深度优先搜索呢？我们继续讨论迷宫问题，这里我给大家一个抽象过后的简单迷宫结构：  
 
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/18/1718dd0887578d3d~tplv-t2oaga2asx-image.image)
+![[algorithm/前端算法与数据结构/media/979084dc86f7bc8ef9e4d1679659ca33_MD5.png]]
 
 图中蓝色的是入口，灰色的是岔路口，黑色的是死胡同，绿色的是出口。
 
@@ -53,7 +53,7 @@
 
 ## DFS 与二叉树的遍历  
 现在我们站在深度优先搜索的角度，重新理解一下二叉树的先序遍历过程：
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/6/1714ec42acc57e04~tplv-t2oaga2asx-image.image)      
+![[algorithm/前端算法与数据结构/media/544460ad761bd5400e2bf48968d65756_MD5.gif]]     
   
 从 `A` 结点出发，访问左侧的子结点；如果左子树同样存在左侧子结点，就**头也不回地继续访问下去**。一直到左侧子结点为空时，才**退回**到距离最近的父结点、再尝试去访问父结点的右侧子结点——这个过程，和走迷宫是何其相似！事实上，在二叉树中，结点就好比是迷宫里的坐标，图中的每个结点在作为父结点时无疑是岔路口，而空结点就是死胡同。我们回顾一下二叉树先序遍历的编码实现：   
 
@@ -91,24 +91,24 @@ function preorder(root) {
 ## 广度优先搜索思想——找到迷宫出口的另一种思路    
 我们回头再来看看这个迷宫结构：  
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/18/1718dd0887578d3d~tplv-t2oaga2asx-image.image)  
+![[algorithm/前端算法与数据结构/media/979084dc86f7bc8ef9e4d1679659ca33_MD5.png]]  
   
 当我们使用深度优先搜索来寻找迷宫出口时，会走出图示这样一条一条的完整路径：  
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/17190aa8a73ba344~tplv-t2oaga2asx-image.image)   
+![[algorithm/前端算法与数据结构/media/4314185e43d4e44c9b4f00757e98669c_MD5.png]]  
   
 其中红色的圆点意味着路径的起点，红色箭头意味着路径的终点。我们看到从起点开始，一共探索出了 5 条完整的路径。  
   
 与深度优先搜索不同的是，广度优先搜索（BFS）并不执着于“一往无前”这件事情。它关心的是**眼下自己能够直接到达的所有坐标，其动作有点类似于“扫描”**——比如说站在 `B` 这个岔路口，它会只关注 `C`、`D`、`E` 三个坐标，至于 `F`、`G`、`H`、`I`这些遥远的坐标，现在不在它的关心范围内：   
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/17190ddba3cdc06c~tplv-t2oaga2asx-image.image)
+![[algorithm/前端算法与数据结构/media/7bef7ae607c2511dd34f2a067043a6c8_MD5.png]]
  
 只有在走到了 `E`处时，它发现此时可以触达的坐标变成了 `F`、`G`，此时才会去扫描`F`、`G`：  
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/17190e18e27e1e27~tplv-t2oaga2asx-image.image)  
+![[algorithm/前端算法与数据结构/media/be9f2e7202cb60d227e986a6483c080a_MD5.png]] 
   
 按照这个思路，广度优先搜索每次**以“广度”为第一要务、雨露均沾，一层一层地扫描**，最后也能够将所有的坐标扫描完全：  
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/17190e64f8853081~tplv-t2oaga2asx-image.image)   
+![[algorithm/前端算法与数据结构/media/61665b198ca7a763c02126f937c7e1dc_MD5.png]]  
   
 当扫描到 `I` 的时候，发现 `I` 是出口，照样能够找到答案。     
   
@@ -169,7 +169,7 @@ const top = queue.shift()
 ## BFS实战：二叉树的层序遍历 
 
 大家现在回顾一下我们在第 5 节展示过的这个二叉树实例：   
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/6/1714ec60340dc2db~tplv-t2oaga2asx-image.image)
+![[algorithm/前端算法与数据结构/media/12b7ccb017770d8c904785a5ed68c7ad_MD5.png]]
   
 这棵二叉树的编码实现如下：    
 
@@ -197,7 +197,7 @@ const root = {
 
 
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/1719130c81086dbb~tplv-t2oaga2asx-image.image) 
+![[algorithm/前端算法与数据结构/media/acd9cc4971c38be5a69ed0068ab57de0_MD5.png]]
  
 正确的遍历序列为：  
 ```
@@ -240,7 +240,7 @@ BFS(root)
 ```   
 输出结果符合预期：   
 
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/19/171913194faccc17~tplv-t2oaga2asx-image.image)  
+![[algorithm/前端算法与数据结构/media/6d2e5354fe3a16072e4a68534e410ad2_MD5.png]] 
   
 ## 结语 
 经过本节的学习，相信大家对 DFS、BFS 的核心思想及实现方法都有了比较扎实的掌握。这两种算法在我们今后的做题过程中会反复出现，彼时大家会对它们的应用场景有更加深刻的认知。
