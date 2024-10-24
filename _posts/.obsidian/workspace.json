@@ -217,7 +217,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b93eb4f1fc01d4ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/0_工作机会.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,8 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5,
-    "collapsed": true
+    "width": 533.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -291,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md"
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
               }
             }
           }
@@ -356,15 +367,17 @@
   },
   "active": "c0e50713fd2227b2",
   "lastOpenFiles": [
+    "interview/0_工作机会.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/hook/实践/2021-08-12-10.函数组件设计模式：如何应对复杂条件渲染场景？.md",
+    "react/hook/实践/2021-08-12-11.事件处理：如何创建自定义事件？.md",
+    "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
     "react/hook/实践/media",
     "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "react/hook/基础/2021-08-11-6.hooks-customize.md",
     "react/hook/基础/2021-08-10-4.Built-in-hooks-2.md",
     "react/hook/基础/2021-08-10-5.函数组件的生命周期.md",
     "react/hook/基础/2021-08-09-3.Built-in-hooks-1.md",
-    "react/hook/实践/2021-08-12-10.函数组件设计模式：如何应对复杂条件渲染场景？.md",
-    "react/hook/实践/2021-08-11-8.复杂状态处理：如何保证状态一致性.md",
     "react/react 通关秘籍/2、一网打尽组件常用 Hook.md",
     "react/react 通关秘籍/1、小册介绍.md",
     "react/react 通关秘籍/3、Hook 的闭包陷阱的成因和解决方案.md",
@@ -381,7 +394,6 @@
     "engineering/从0到1/14.应用打包：应用打包体积过大，聊聊Webpack那些构建策略！.md",
     "engineering/webpack&vite/webpack VS vite.md",
     "interview/简历/商智.md",
-    "interview/简历/参考案例.md",
     "engineering/教程/Webpack5 核心原理与应用实践/media/eb1a6b02f9727dddeb62ecb92fe767d7_MD5.png",
     "engineering/教程/Webpack5 核心原理与应用实践/media/b588dba99656c4330910d0a763d33f20_MD5.webp",
     "engineering/教程/Webpack5 核心原理与应用实践/media/bea87d044108eed35ff3917a0a8f9b00_MD5.webp",
@@ -401,7 +413,6 @@
     "performance/浏览器工作原理与实践/09-结束语 (1讲)",
     "performance/浏览器工作原理与实践/01-开篇词 (1讲)",
     "performance/浏览器工作原理与实践/10-课外加餐 (1讲)",
-    "performance/浏览器工作原理与实践/08-浏览器安全 (5讲)",
     "security/未命名.canvas"
   ]
 }
