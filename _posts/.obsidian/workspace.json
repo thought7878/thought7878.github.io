@@ -224,12 +224,12 @@
             }
           },
           {
-            "id": "013235d56336797f",
+            "id": "daac18d9d76fb3cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
+                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
                 "mode": "source",
                 "source": false
               }
@@ -246,9 +246,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ace10b03185a91c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/你真的知道怎么写简历吗.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0c2b06f98077e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/你真的知道怎么写简历吗.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -298,7 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 439.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -314,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
+                "file": "interview/0_工作机会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +355,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
+                "file": "interview/0_工作机会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +378,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md"
+                "file": "interview/0_工作机会.md"
               }
             }
           }
@@ -363,7 +387,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -377,22 +402,42 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "013235d56336797f",
+  "active": "b93eb4f1fc01d4ce",
   "lastOpenFiles": [
+    "interview/你真的知道怎么写简历吗.md",
+    "interview/简历/商智.md",
+    "interview/前端知识体系及难点.md",
+    "interview/简历/Andy-6年-前端.md",
+    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "interview/简历/参考案例.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "algorithm/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
+    "architect/架构师的 36 项修炼/media/b29af234d2e848b7bbd9b0e479974a01_MD5.png",
+    "architect/架构师的 36 项修炼/media/68b3514a18920bc51e36dd8afa850e16_MD5.png",
+    "architect/架构师的 36 项修炼/media/896f95f2633e2cf3197ce95911ab3549_MD5.png",
+    "architect/架构师的 36 项修炼/media/a1f8f9b5951d520df91abd8f5a7b26b7_MD5.png",
+    "architect/架构师的 36 项修炼/media/c3c8a73c59c671e7ad210d62e02f831a_MD5.png",
+    "architect/架构师的 36 项修炼/media/ec9adae3ae604b5fb3160b06429c5cd6_MD5.png",
+    "architect/架构师的 36 项修炼/media/065d8c90cb3575ec96bf9cba5ede7984_MD5.png",
+    "architect/架构师的 36 项修炼/media/4d5fb462661cf4439373fab0f2d94a85_MD5.png",
+    "architect/架构师的 36 项修炼/media/20801abf82aeb5193454006d569faa22_MD5.png",
+    "architect/架构师的 36 项修炼/media/8e2573dc798a2d364bf43f827049d1d4_MD5.png",
+    "architect/架构师的 36 项修炼/media",
+    "base/css/media",
+    "base/js/winter/media",
+    "courses/前端工程化精讲/1.开发效率/media",
+    "courses/前端工程化精讲/2.构建效率/media",
+    "courses/前端工程化精讲/3.部署效率/media",
+    "courses/前端性能优化方法与实战/media",
+    "courses/前端性能优化方法与实战/1.性能优化方法论/media",
+    "courses/前端性能优化方法与实战/2.性能优化指标采集及上报/media",
+    "courses/前端性能优化方法与实战/3.性能诊断及优化手段/media",
+    "algorithm/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
+    "algorithm/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
+    "algorithm/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
+    "algorithm/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
+    "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
     "algorithm/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
-    "tools/vim/media",
-    "typescript/base/media/22ae3e835f0a8113028ab1caf01fba90_MD5.png",
-    "typescript/base/media/a528a048dbeb3764395138313e8dd332_MD5.png",
-    "typescript/base/media/2ead3f1723ac5dd4b6ee6dc44cc0a5fa_MD5.png",
-    "typescript/base/media/378f0c08a9d21c137176959454ef0c6e_MD5.png",
-    "typescript/base/media/55c571f224afe68012316de496da4235_MD5.png",
-    "typescript/base/media",
-    "visualization/media/3fda5eb06f29d53024af497465a5b780_MD5.png",
-    "visualization/media/24d6543bdaf207e92e300311417c46b8_MD5.png",
-    "visualization/media/c2d4a3b13496b971cf6a417eebdb5bd9_MD5.png",
-    "visualization/media/a0c3d3eed6146ee1e158796ca3d4b788_MD5.jpg",
-    "visualization/media/d588100e8dde2c8150471321ba4725eb_MD5.jpg",
-    "visualization/media",
     "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
     "algorithm/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
     "algorithm/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
@@ -402,28 +447,9 @@
     "algorithm/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
     "algorithm/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
     "algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
-    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
-    "algorithm/前端算法与数据结构/media",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "algorithm/前端算法与数据结构/28、思维课：算法面试的评价逻辑.md",
     "algorithm/前端算法与数据结构/27、大厂真题训练与解读——头条真题.md",
-    "algorithm/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
     "algorithm/前端算法与数据结构/25、大厂真题训练与解读——Google 真题.md",
-    "algorithm/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
-    "algorithm/前端算法与数据结构/23、普通人也能吃透的动态规划思想专题（下）.md",
-    "algorithm/前端算法与数据结构/22、普通人也能吃透的动态规划思想专题（上）.md",
-    "algorithm/前端算法与数据结构/21、排序算法专题（下）.md",
-    "algorithm/前端算法与数据结构/20、排序算法专题（上）.md",
-    "algorithm/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
-    "algorithm/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
-    "algorithm/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
-    "algorithm/前端算法与数据结构/16、二叉树真题归纳与解读.md",
-    "algorithm/前端算法与数据结构",
-    "algorithm",
-    "react/hook/实践/media",
-    "engineering/教程/Webpack5 核心原理与应用实践/media",
-    "engineering/教程/Webpack5 核心原理与应用实践",
-    "performance/前端性能优化原理与实践",
     "security/未命名.canvas"
   ]
 }
