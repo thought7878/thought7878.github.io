@@ -325,7 +325,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "前端工程化的概览",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -342,7 +342,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -427,8 +428,9 @@
   },
   "active": "71aaed85cb0262ba",
   "lastOpenFiles": [
-    "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
+    "engineering/2020-02-08-overview.md",
     "base/其他类型的基础知识/2019-05-18.JWT.md",
+    "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
     "base/其他类型的基础知识/media/76a0a68a807818bee7dc07ea8ea01a37_MD5.png",
     "base/其他类型的基础知识/media/eae914ed413b0d3c4e1b1dc7be70ea2e_MD5.png",
     "base/其他类型的基础知识/media",
@@ -472,7 +474,6 @@
     "algorithm/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
     "algorithm/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
     "algorithm/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
-    "algorithm/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
     "security/未命名.canvas"
   ]
 }
