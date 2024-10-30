@@ -277,7 +277,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "base/其他类型的基础知识/JWT.md",
+                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e81896e3d58079dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
                 "mode": "source",
                 "source": false
               }
@@ -350,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/其他类型的基础知识/JWT.md",
+                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -367,7 +379,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/其他类型的基础知识/JWT.md",
+                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -390,7 +402,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/其他类型的基础知识/JWT.md"
+                "file": "base/其他类型的基础知识/2019-05-18.JWT.md"
               }
             }
           }
@@ -413,13 +425,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3fe3110c949a01ca",
+  "active": "71aaed85cb0262ba",
   "lastOpenFiles": [
+    "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
+    "base/其他类型的基础知识/2019-05-18.JWT.md",
     "base/其他类型的基础知识/media/76a0a68a807818bee7dc07ea8ea01a37_MD5.png",
     "base/其他类型的基础知识/media/eae914ed413b0d3c4e1b1dc7be70ea2e_MD5.png",
     "base/其他类型的基础知识/media",
     "interview/前端知识体系及难点.md",
-    "base/其他类型的基础知识/JWT.md",
     "base/questions/Coding.md",
     "interview/0_工作机会.md",
     "interview/你真的知道怎么写简历吗.md",
@@ -437,7 +450,6 @@
     "architect/架构师的 36 项修炼/media/ec9adae3ae604b5fb3160b06429c5cd6_MD5.png",
     "architect/架构师的 36 项修炼/media/065d8c90cb3575ec96bf9cba5ede7984_MD5.png",
     "architect/架构师的 36 项修炼/media/4d5fb462661cf4439373fab0f2d94a85_MD5.png",
-    "architect/架构师的 36 项修炼/media/20801abf82aeb5193454006d569faa22_MD5.png",
     "architect/架构师的 36 项修炼/media",
     "base/css/media",
     "base/js/winter/media",
