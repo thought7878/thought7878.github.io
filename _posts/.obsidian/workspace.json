@@ -294,9 +294,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0df83568101a8ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -346,7 +358,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5
+    "width": 439.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -362,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +392,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -402,7 +415,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md"
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md"
               }
             }
           }
@@ -425,8 +438,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "daac18d9d76fb3cd",
+  "active": "d0df83568101a8ab",
   "lastOpenFiles": [
+    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/3895aee6cef18b5d5945b52c120ef6c1_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
@@ -444,7 +461,6 @@
     "设计模式/JavaScript 设计模式核心原理与应用实践/12.结构型：代理模式——应用实践范例解析.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/11.结构型：代理模式——一家小型婚介所的发家致富之路.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
     "设计模式",
     "interview/0_工作机会.md",
@@ -456,8 +472,6 @@
     "base/其他类型的基础知识/media/eae914ed413b0d3c4e1b1dc7be70ea2e_MD5.png",
     "base/其他类型的基础知识/media",
     "interview/前端知识体系及难点.md",
-    "base/questions/Coding.md",
-    "interview/简历/商智.md",
     "architect/架构师的 36 项修炼/media/b29af234d2e848b7bbd9b0e479974a01_MD5.png",
     "architect/架构师的 36 项修炼/media/68b3514a18920bc51e36dd8afa850e16_MD5.png",
     "architect/架构师的 36 项修炼/media/896f95f2633e2cf3197ce95911ab3549_MD5.png",
@@ -465,14 +479,12 @@
     "architect/架构师的 36 项修炼/media/c3c8a73c59c671e7ad210d62e02f831a_MD5.png",
     "architect/架构师的 36 项修炼/media/ec9adae3ae604b5fb3160b06429c5cd6_MD5.png",
     "architect/架构师的 36 项修炼/media/065d8c90cb3575ec96bf9cba5ede7984_MD5.png",
-    "architect/架构师的 36 项修炼/media/4d5fb462661cf4439373fab0f2d94a85_MD5.png",
     "architect/架构师的 36 项修炼/media",
     "base/css/media",
     "base/js/winter/media",
     "courses/前端工程化精讲/1.开发效率/media",
     "courses/前端工程化精讲/2.构建效率/media",
     "courses/前端工程化精讲/3.部署效率/media",
-    "courses/前端性能优化方法与实战/media",
     "security/未命名.canvas"
   ]
 }
