@@ -289,14 +289,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
+                "file": "engineering/2020-02-08-overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -342,8 +342,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -363,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
+                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -380,7 +379,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
+                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -403,7 +402,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "base/其他类型的基础知识/2019-05-18.JWT.md"
+                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md"
               }
             }
           }
@@ -426,24 +425,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "71aaed85cb0262ba",
+  "active": "daac18d9d76fb3cd",
   "lastOpenFiles": [
-    "engineering/2020-02-08-overview.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/6.创建型：单例模式——面试真题手把手教学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/5.创建型：单例模式——Vuex的数据管理哲学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/2.设计模式的“道”与“术”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/18.前方的路.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/17.行为型：迭代器模式——真·遍历专家.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/14.行为型：状态模式——自助咖啡机背后的力量.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/13.行为型：策略模式——重构小能手，拆分“胖逻辑”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/12.结构型：代理模式——应用实践范例解析.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/11.结构型：代理模式——一家小型婚介所的发家致富之路.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践",
+    "设计模式",
+    "interview/0_工作机会.md",
+    "interview/你真的知道怎么写简历吗.md",
     "base/其他类型的基础知识/2019-05-18.JWT.md",
+    "engineering/2020-02-08-overview.md",
     "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
     "base/其他类型的基础知识/media/76a0a68a807818bee7dc07ea8ea01a37_MD5.png",
     "base/其他类型的基础知识/media/eae914ed413b0d3c4e1b1dc7be70ea2e_MD5.png",
     "base/其他类型的基础知识/media",
     "interview/前端知识体系及难点.md",
     "base/questions/Coding.md",
-    "interview/0_工作机会.md",
-    "interview/你真的知道怎么写简历吗.md",
     "interview/简历/商智.md",
-    "interview/简历/Andy-6年-前端.md",
-    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
-    "interview/简历/参考案例.md",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "algorithm/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
     "architect/架构师的 36 项修炼/media/b29af234d2e848b7bbd9b0e479974a01_MD5.png",
     "architect/架构师的 36 项修炼/media/68b3514a18920bc51e36dd8afa850e16_MD5.png",
     "architect/架构师的 36 项修炼/media/896f95f2633e2cf3197ce95911ab3549_MD5.png",
@@ -459,21 +473,6 @@
     "courses/前端工程化精讲/2.构建效率/media",
     "courses/前端工程化精讲/3.部署效率/media",
     "courses/前端性能优化方法与实战/media",
-    "courses/前端性能优化方法与实战/1.性能优化方法论/media",
-    "courses/前端性能优化方法与实战/2.性能优化指标采集及上报/media",
-    "algorithm/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
-    "algorithm/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
-    "algorithm/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
-    "algorithm/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
-    "algorithm/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
-    "algorithm/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
-    "algorithm/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
-    "algorithm/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
-    "algorithm/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
-    "algorithm/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
-    "algorithm/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
-    "algorithm/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
-    "algorithm/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
     "security/未命名.canvas"
   ]
 }
