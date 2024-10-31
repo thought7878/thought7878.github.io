@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
                 "mode": "source",
                 "source": false
               }
@@ -374,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md"
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md"
               }
             }
           }
@@ -439,6 +439,9 @@
   },
   "active": "d0df83568101a8ab",
   "lastOpenFiles": [
+    "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/6.创建型：单例模式——面试真题手把手教学.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/5.创建型：单例模式——Vuex的数据管理哲学.md",
@@ -451,8 +454,6 @@
     "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/3895aee6cef18b5d5945b52c120ef6c1_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/18.前方的路.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/17.行为型：迭代器模式——真·遍历专家.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
@@ -461,7 +462,6 @@
     "设计模式/JavaScript 设计模式核心原理与应用实践/13.行为型：策略模式——重构小能手，拆分“胖逻辑”.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/12.结构型：代理模式——应用实践范例解析.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/11.结构型：代理模式——一家小型婚介所的发家致富之路.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
     "设计模式",
     "interview/0_工作机会.md",
