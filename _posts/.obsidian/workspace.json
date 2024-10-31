@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
                 "mode": "source",
                 "source": false
               }
@@ -374,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md"
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md"
               }
             }
           }
@@ -439,29 +439,37 @@
   },
   "active": "d0df83568101a8ab",
   "lastOpenFiles": [
-    "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/9.结构型：装饰器模式——深入装饰器原理与优秀案例.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/6.创建型：单例模式——面试真题手把手教学.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/5.创建型：单例模式——Vuex的数据管理哲学.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/2.设计模式的“道”与“术”.md",
-    "interview/前端知识体系及难点.md",
-    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/558c7124628395f9f3c3a01aba96d045_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/3895aee6cef18b5d5945b52c120ef6c1_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践/18.前方的路.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/d5a9603cf9dd688e2d52f688d9d7cfcc_MD5.jpg",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/075d85b5d6e12bdf179343ea96861379_MD5.jpg",
     "设计模式/JavaScript 设计模式核心原理与应用实践/17.行为型：迭代器模式——真·遍历专家.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/a88e51c482cea5da3f22e8acfbb13959_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/fadc2b2f931b87765f693aa02ff94b03_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/786abd348ecfd085c2fe1eb7edaab005_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/2a4aa30a3160dbb20aeaf90e5e276473_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/9b9ef68139d5eeed0ab67cd5cdff904d_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/8627bda33f95e112f426dc21b514336d_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/6a59b20e253f6ec6917ce3f1c1663bd8_MD5.png",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media/a54adc68d74db74c55acad2b3b1b0944_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/14.行为型：状态模式——自助咖啡机背后的力量.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/13.行为型：策略模式——重构小能手，拆分“胖逻辑”.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/12.结构型：代理模式——应用实践范例解析.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/11.结构型：代理模式——一家小型婚介所的发家致富之路.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/10.结构型：适配器模式——兼容代码就是一把梭.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/5.创建型：单例模式——Vuex的数据管理哲学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/6.创建型：单例模式——面试真题手把手教学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/8.结构型：装饰器模式——对象装上它，就像开了挂.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/2.设计模式的“道”与“术”.md",
+    "interview/前端知识体系及难点.md",
+    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
     "设计模式",
     "interview/0_工作机会.md",
@@ -469,15 +477,7 @@
     "base/其他类型的基础知识/2019-05-18.JWT.md",
     "engineering/2020-02-08-overview.md",
     "react/hook/2021-08-12-17.打包部署：你的应用是如何上线的.md",
-    "base/其他类型的基础知识/media/76a0a68a807818bee7dc07ea8ea01a37_MD5.png",
-    "base/其他类型的基础知识/media/eae914ed413b0d3c4e1b1dc7be70ea2e_MD5.png",
     "base/其他类型的基础知识/media",
-    "architect/架构师的 36 项修炼/media/b29af234d2e848b7bbd9b0e479974a01_MD5.png",
-    "architect/架构师的 36 项修炼/media/68b3514a18920bc51e36dd8afa850e16_MD5.png",
-    "architect/架构师的 36 项修炼/media/896f95f2633e2cf3197ce95911ab3549_MD5.png",
-    "architect/架构师的 36 项修炼/media/a1f8f9b5951d520df91abd8f5a7b26b7_MD5.png",
-    "architect/架构师的 36 项修炼/media/c3c8a73c59c671e7ad210d62e02f831a_MD5.png",
-    "architect/架构师的 36 项修炼/media/ec9adae3ae604b5fb3160b06429c5cd6_MD5.png",
     "architect/架构师的 36 项修炼/media",
     "base/css/media",
     "base/js/winter/media",
