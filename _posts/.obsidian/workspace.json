@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
                 "mode": "source",
                 "source": false
               }
@@ -374,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md"
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md"
               }
             }
           }
@@ -439,14 +439,14 @@
   },
   "active": "d0df83568101a8ab",
   "lastOpenFiles": [
+    "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/2.设计模式的“道”与“术”.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
     "interview/前端知识体系及难点.md",
     "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/7.创建型：原型模式——谈Prototype无小事.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/6.创建型：单例模式——面试真题手把手教学.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/5.创建型：单例模式——Vuex的数据管理哲学.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/4.创建型：工厂模式·抽象工厂——理解“开放封闭”.md",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/3.创建型：工厂模式·简单工厂——区分“变与不变”.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/558c7124628395f9f3c3a01aba96d045_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/1.开篇：前端工程师的成长论.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/3895aee6cef18b5d5945b52c120ef6c1_MD5.png",
