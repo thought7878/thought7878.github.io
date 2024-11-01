@@ -318,9 +318,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6cc7af598750bb21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -349,7 +361,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "前端工程化的概览",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -370,7 +382,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 597.5
+    "width": 338.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -386,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -426,7 +438,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md"
+                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md"
               }
             }
           }
@@ -449,17 +461,33 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "202210a885e36903",
+  "active": "6cc7af598750bb21",
   "lastOpenFiles": [
+    "react/React 进阶实践指南/media/3097e1ca9b81cbe22a5f7ca6b8a8332d_MD5.gif",
+    "react/React 进阶实践指南/media/6a5d37659770a58ec297dd82ab6635a5_MD5.gif",
+    "react/React 进阶实践指南/media/7b47037f49008d893d60dd8c760c0d01_MD5.jpg",
+    "react/React 进阶实践指南/media/f21f56b667ef6cede27399d0c39f2a3b_MD5.jpg",
+    "react/React 进阶实践指南/media/0878d6e263c99665a5fd9ab40f14f79c_MD5.png",
+    "react/React 进阶实践指南/media/191312dc4cfa0b8e02c9e34d9a2c9f98_MD5.jpg",
+    "react/React 进阶实践指南/media/88ba2df14dfd1bc51317c037f857bea4_MD5.jpg",
+    "react/React 进阶实践指南/media/3f641b6bcf6b53223008fc37f3a853db_MD5.jpg",
+    "react/React 进阶实践指南/5.基础篇-深入 props.md",
+    "react/React 进阶实践指南/4.基础篇-玄学 state.md",
+    "react/React 进阶实践指南/3.基础篇-起源 Component.md",
+    "react/React 进阶实践指南/media/154160e3f2f8ce15f9184b2f1946f24d_MD5.gif",
+    "react/React 进阶实践指南/media/3b06692aeeedb5c77b08ac731c13e77f_MD5.jpg",
+    "react/React 进阶实践指南/media/487262a6f0319ff6acc676af56e22334_MD5.jpg",
+    "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
+    "react/React 进阶实践指南/1.写给想要进阶的你.md",
+    "react/React 进阶实践指南/media",
+    "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
     "react/React 进阶实践指南/9.基础篇-模块化 css.md",
     "react/React 进阶实践指南/8.基础篇-提供者 context.md",
     "react/React 进阶实践指南/7.基础篇-多功能 Ref.md",
     "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
-    "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
     "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
     "react/React 进阶实践指南/40.实践篇-设计并实现 keepalive 功能.md",
-    "react/React 进阶实践指南/4.基础篇-玄学 state.md",
     "react/React 进阶实践指南/39.v18特性篇-Offscreen.md",
     "react/React 进阶实践指南/39.[WIP]v18特性篇-Offscreen.md",
     "react/React 进阶实践指南/38.原理篇-v18commit全流程.md",
@@ -472,22 +500,7 @@
     "react/React 进阶实践指南/31.原理篇-Context原理.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-    "react/React 进阶实践指南/3.基础篇-起源 Component.md",
-    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
-    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
-    "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
-    "react/React 进阶实践指南/27.实践篇-表单验证下.md",
     "react/React 进阶实践指南",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/d5a9603cf9dd688e2d52f688d9d7cfcc_MD5.jpg",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/075d85b5d6e12bdf179343ea96861379_MD5.jpg",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/a88e51c482cea5da3f22e8acfbb13959_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/fadc2b2f931b87765f693aa02ff94b03_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/786abd348ecfd085c2fe1eb7edaab005_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/2a4aa30a3160dbb20aeaf90e5e276473_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/9b9ef68139d5eeed0ab67cd5cdff904d_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/8627bda33f95e112f426dc21b514336d_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/6a59b20e253f6ec6917ce3f1c1663bd8_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media/a54adc68d74db74c55acad2b3b1b0944_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
     "设计模式",
@@ -496,7 +509,6 @@
     "base/css/media",
     "base/js/winter/media",
     "courses/前端工程化精讲/1.开发效率/media",
-    "courses/前端工程化精讲/2.构建效率/media",
     "security/未命名.canvas"
   ]
 }
