@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
                 "mode": "source",
                 "source": false
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -438,7 +438,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md"
+                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md"
               }
             }
           }
@@ -463,32 +463,20 @@
   },
   "active": "6cc7af598750bb21",
   "lastOpenFiles": [
-    "react/React 进阶实践指南/media/3097e1ca9b81cbe22a5f7ca6b8a8332d_MD5.gif",
-    "react/React 进阶实践指南/media/6a5d37659770a58ec297dd82ab6635a5_MD5.gif",
-    "react/React 进阶实践指南/media/7b47037f49008d893d60dd8c760c0d01_MD5.jpg",
-    "react/React 进阶实践指南/media/f21f56b667ef6cede27399d0c39f2a3b_MD5.jpg",
-    "react/React 进阶实践指南/media/0878d6e263c99665a5fd9ab40f14f79c_MD5.png",
-    "react/React 进阶实践指南/media/191312dc4cfa0b8e02c9e34d9a2c9f98_MD5.jpg",
-    "react/React 进阶实践指南/media/88ba2df14dfd1bc51317c037f857bea4_MD5.jpg",
-    "react/React 进阶实践指南/media/3f641b6bcf6b53223008fc37f3a853db_MD5.jpg",
-    "react/React 进阶实践指南/5.基础篇-深入 props.md",
-    "react/React 进阶实践指南/4.基础篇-玄学 state.md",
-    "react/React 进阶实践指南/3.基础篇-起源 Component.md",
-    "react/React 进阶实践指南/media/154160e3f2f8ce15f9184b2f1946f24d_MD5.gif",
-    "react/React 进阶实践指南/media/3b06692aeeedb5c77b08ac731c13e77f_MD5.jpg",
-    "react/React 进阶实践指南/media/487262a6f0319ff6acc676af56e22334_MD5.jpg",
-    "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
-    "react/React 进阶实践指南/1.写给想要进阶的你.md",
-    "react/React 进阶实践指南/media",
-    "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
-    "react/React 进阶实践指南/9.基础篇-模块化 css.md",
-    "react/React 进阶实践指南/8.基础篇-提供者 context.md",
-    "react/React 进阶实践指南/7.基础篇-多功能 Ref.md",
-    "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
-    "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
+    "react/React 进阶实践指南/media/aef2597e79c572f4b462275b0999cb39_MD5.jpg",
     "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
+    "react/React 进阶实践指南/media/d2d1ed4c999bd2ed0ff8f8d8458c6c23_MD5.png",
+    "react/React 进阶实践指南/media/97a3a7faab72ed7fb1eab596c8dcdbae_MD5.png",
+    "react/React 进阶实践指南/media/c7a4f5eaf5cb45244f176d7a37356547_MD5.jpg",
+    "react/React 进阶实践指南/media/e087fbfbb1eb152b7dfa2f3b75d78a92_MD5.jpg",
     "react/React 进阶实践指南/40.实践篇-设计并实现 keepalive 功能.md",
     "react/React 进阶实践指南/39.v18特性篇-Offscreen.md",
+    "react/React 进阶实践指南/media/652446923610697ed6c078fdeece7681_MD5.png",
+    "react/React 进阶实践指南/media/5ee3030f4311e4d45eb7c981935e14d1_MD5.png",
+    "react/React 进阶实践指南/media/596137ec86134fed2602a7397828f183_MD5.jpg",
+    "react/React 进阶实践指南/media/83a2f605f2b473438cec3748f68dc66c_MD5.jpg",
+    "react/React 进阶实践指南/media/ef96d35ad9cc4e03bd0bf2e38a47ec21_MD5.jpg",
+    "react/React 进阶实践指南/media/e069c910a3f4cd902a790f665aaa86a5_MD5.jpg",
     "react/React 进阶实践指南/39.[WIP]v18特性篇-Offscreen.md",
     "react/React 进阶实践指南/38.原理篇-v18commit全流程.md",
     "react/React 进阶实践指南/37.v18特性篇-订阅外部数据源.md",
@@ -500,6 +488,18 @@
     "react/React 进阶实践指南/31.原理篇-Context原理.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
+    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
+    "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
+    "react/React 进阶实践指南/27.实践篇-表单验证下.md",
+    "react/React 进阶实践指南/26.实践篇-表单验证上.md",
+    "react/React 进阶实践指南/25.实践篇-实现mini-Router.md",
+    "react/React 进阶实践指南/24.生态篇-React-mobx.md",
+    "react/React 进阶实践指南/23.生态篇-React-redux.md",
+    "react/React 进阶实践指南/22.生态篇-React-router.md",
+    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+    "react/React 进阶实践指南/20.🔥架构篇-数据更新流程设计.md",
+    "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
