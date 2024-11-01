@@ -308,7 +308,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -374,7 +374,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+                "file": "interview/0_工作机会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -391,7 +391,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+                "file": "interview/0_工作机会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -414,7 +414,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md"
+                "file": "interview/0_工作机会.md"
               }
             }
           }
@@ -437,10 +437,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0df83568101a8ab",
+  "active": "b93eb4f1fc01d4ce",
   "lastOpenFiles": [
-    "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/17.行为型：迭代器模式——真·遍历专家.md",
+    "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/14.行为型：状态模式——自助咖啡机背后的力量.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/13.行为型：策略模式——重构小能手，拆分“胖逻辑”.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/12.结构型：代理模式——应用实践范例解析.md",
@@ -451,7 +452,6 @@
     "设计模式/JavaScript 设计模式核心原理与应用实践/18.前方的路.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/d5a9603cf9dd688e2d52f688d9d7cfcc_MD5.jpg",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/075d85b5d6e12bdf179343ea96861379_MD5.jpg",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/17.行为型：迭代器模式——真·遍历专家.md",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/a88e51c482cea5da3f22e8acfbb13959_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/fadc2b2f931b87765f693aa02ff94b03_MD5.png",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media/786abd348ecfd085c2fe1eb7edaab005_MD5.png",
