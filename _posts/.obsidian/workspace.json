@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/3.基础篇-起源 Component.md",
+                "file": "react/React 进阶实践指南/5.基础篇-深入 props.md",
                 "mode": "source",
                 "source": false
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/3.基础篇-起源 Component.md",
+                "file": "react/React 进阶实践指南/5.基础篇-深入 props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/3.基础篇-起源 Component.md",
+                "file": "react/React 进阶实践指南/5.基础篇-深入 props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -438,7 +438,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/3.基础篇-起源 Component.md"
+                "file": "react/React 进阶实践指南/5.基础篇-深入 props.md"
               }
             }
           }
@@ -463,8 +463,10 @@
   },
   "active": "6cc7af598750bb21",
   "lastOpenFiles": [
-    "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
+    "react/React 进阶实践指南/4.基础篇-玄学 state.md",
     "react/React 进阶实践指南/3.基础篇-起源 Component.md",
+    "react/React 进阶实践指南/11.优化篇-渲染控制.md",
+    "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
     "react/React 进阶实践指南/1.写给想要进阶的你.md",
     "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
     "react/React 进阶实践指南/media/aef2597e79c572f4b462275b0999cb39_MD5.jpg",
@@ -497,8 +499,6 @@
     "react/React 进阶实践指南/27.实践篇-表单验证下.md",
     "react/React 进阶实践指南/26.实践篇-表单验证上.md",
     "react/React 进阶实践指南/25.实践篇-实现mini-Router.md",
-    "react/React 进阶实践指南/24.生态篇-React-mobx.md",
-    "react/React 进阶实践指南/23.生态篇-React-redux.md",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
