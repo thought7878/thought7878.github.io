@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
+                "file": "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
                 "mode": "source",
                 "source": false
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
+                "file": "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
+                "file": "react/React 进阶实践指南/2.基础篇-认识 jsx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -438,7 +438,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md"
+                "file": "react/React 进阶实践指南/2.基础篇-认识 jsx.md"
               }
             }
           }
@@ -463,6 +463,8 @@
   },
   "active": "6cc7af598750bb21",
   "lastOpenFiles": [
+    "react/React 进阶实践指南/1.写给想要进阶的你.md",
+    "react/React 进阶实践指南/42.总结篇-如何有效阅读源码.md",
     "react/React 进阶实践指南/media/aef2597e79c572f4b462275b0999cb39_MD5.jpg",
     "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
     "react/React 进阶实践指南/media/d2d1ed4c999bd2ed0ff8f8d8458c6c23_MD5.png",
@@ -476,7 +478,6 @@
     "react/React 进阶实践指南/media/596137ec86134fed2602a7397828f183_MD5.jpg",
     "react/React 进阶实践指南/media/83a2f605f2b473438cec3748f68dc66c_MD5.jpg",
     "react/React 进阶实践指南/media/ef96d35ad9cc4e03bd0bf2e38a47ec21_MD5.jpg",
-    "react/React 进阶实践指南/media/e069c910a3f4cd902a790f665aaa86a5_MD5.jpg",
     "react/React 进阶实践指南/39.[WIP]v18特性篇-Offscreen.md",
     "react/React 进阶实践指南/38.原理篇-v18commit全流程.md",
     "react/React 进阶实践指南/37.v18特性篇-订阅外部数据源.md",
@@ -498,7 +499,6 @@
     "react/React 进阶实践指南/23.生态篇-React-redux.md",
     "react/React 进阶实践指南/22.生态篇-React-router.md",
     "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
-    "react/React 进阶实践指南/20.🔥架构篇-数据更新流程设计.md",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
