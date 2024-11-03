@@ -32,84 +32,12 @@
             }
           },
           {
-            "id": "c6a0d5f6ffd7d86b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/0_工作机会.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f98e96dd1a57cd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/总结/1.构建工具.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9fe9582c9539c0d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3bdbfe4b4ff7687",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "performance/视频资料/Web Performance Fundamentals/5.Optimizing Metrics/1.Improving FCP Practice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee0ef9fd1eddc5e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "performance/总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7008927a46d6059d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "performance/浏览器/浏览器如何工作.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b7e61100eb11841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/教程/Webpack原理与实践/docs/P1开篇词：Webpack 现代化前端应用的基石.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,60 +68,12 @@
             }
           },
           {
-            "id": "149c57d15886538b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/简历/商智.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "47980c27e2b7d4c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "interview/简历/参考案例.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3da0315da6544b83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/字节跳动资深前端面试官的经验.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "020e0812adab7144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "visualization/1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d2f55ddb0d04789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,78 +98,6 @@
               "type": "markdown",
               "state": {
                 "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "daac18d9d76fb3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b93eb4f1fc01d4ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/0_工作机会.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ace10b03185a91c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/你真的知道怎么写简历吗.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0c2b06f98077e18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/你真的知道怎么写简历吗.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71aaed85cb0262ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "base/其他类型的基础知识/2019-05-18.JWT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e81896e3d58079dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/2020-02-08-overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -337,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
+                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
                 "mode": "source",
                 "source": false
               }
@@ -354,21 +162,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8286eed55b24c961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/正确介绍自己的项目经验，再也不为面试发愁了.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 29
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -418,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 496.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -434,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/正确介绍自己的项目经验，再也不为面试发愁了.md",
+                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/正确介绍自己的项目经验，再也不为面试发愁了.md",
+                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -474,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/正确介绍自己的项目经验，再也不为面试发愁了.md"
+                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md"
               }
             }
           }
@@ -497,25 +293,25 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "8286eed55b24c961",
+  "active": "23db8748d0511905",
   "lastOpenFiles": [
+    "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
+    "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
+    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
+    "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
+    "react/overview_面试.md",
+    "interview/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
     "performance/总结.md",
-    "interview/正确介绍自己的项目经验，再也不为面试发愁了.md",
     "interview/media/dd58512aa679507094cadc42256fe5c3_MD5.webp",
     "interview/media/1e857dbe5f6cb7a2915a7d192d856e03_MD5.webp",
     "interview/面试过程.md",
-    "react/overview_面试.md",
-    "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
     "react/overview.md",
-    "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
-    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
     "react/玩转 React Hooks/19.实践篇｜CheckCard：多选卡片.md",
     "react/玩转 React Hooks/17.实践篇｜表单组件设计（上）：整体设计与流程.md",
     "react/玩转 React Hooks/16.实践篇｜实现简易版的 react-redux.md",
     "react/玩转 React Hooks/15.源码篇｜深入探究 useTransition 和 useDeferredValue.md",
     "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
     "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
-    "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
     "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/react 通关秘籍/58、React Fiber 的 render 阶段.md",
     "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
