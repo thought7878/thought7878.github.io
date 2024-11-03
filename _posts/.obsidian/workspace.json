@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md"
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md"
               }
             }
           }
@@ -295,6 +295,9 @@
   },
   "active": "23db8748d0511905",
   "lastOpenFiles": [
+    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
+    "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
+    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
     "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
     "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
     "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
@@ -311,13 +314,10 @@
     "react/玩转 React Hooks/16.实践篇｜实现简易版的 react-redux.md",
     "react/玩转 React Hooks/15.源码篇｜深入探究 useTransition 和 useDeferredValue.md",
     "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
-    "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
     "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/react 通关秘籍/58、React Fiber 的 render 阶段.md",
-    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
     "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
     "react/玩转 React Hooks/6.基础篇｜自定义 Hooks 之 Jest（二）：DOM 类 Hooks.md",
-    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
     "react/玩转 React Hooks/20.结语：是结束，也是开始.md",
     "react/玩转 React Hooks/18.实践篇｜表单组件设计（下）：表单的规则与验证.md",
     "react/玩转 React Hooks/14.源码篇｜探索 useSyncExternalStore 的神秘面纱.md",
