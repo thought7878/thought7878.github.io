@@ -186,6 +186,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab68a1da42d047d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/总结/虚拟DOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 14
@@ -238,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 496.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -319,6 +332,14 @@
   },
   "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "react/总结/虚拟DOM.md",
+    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+    "react/总结/media/7adfa16a872f73241e91e02dae65c251_MD5.png",
+    "react/总结/media",
+    "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
+    "react/总结/forwardRef().md",
+    "react/总结/Hooks API.md",
+    "react/总结/useImperativeHandle.md",
     "react/深入浅出搞定 React/media/500564b66e65cf847eacffebea65f579_MD5.png",
     "react/深入浅出搞定 React/media/95ee58eff671aa0bd2d3f29e770ad395_MD5.png",
     "react/深入浅出搞定 React/media/87c72321b806cb6e36ca946408567642_MD5.png",
@@ -327,14 +348,10 @@
     "react/深入浅出搞定 React/media/2d075fce679c1c5c72c1c15266a12055_MD5.png",
     "react/深入浅出搞定 React/media/4400f9a30605a9756dd81e24994d5c80_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
     "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "react/深入浅出搞定 React/media/f0baf43073f64e441098fbfb1f88f5fb_MD5.png",
     "react/深入浅出搞定 React/media/b1fb40a12575a760cdc5ac42c726bc40_MD5.png",
-    "react/深入浅出搞定 React/media/51a8bd2a8c8517603846a7d9a67a80b7_MD5.png",
-    "react/深入浅出搞定 React/media/b0460d27ec30886b05c641ac1649eb35_MD5.png",
     "react/深入浅出搞定 React/media",
-    "react/总结/Hooks API.md",
     "react/overview_面试.md",
     "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
     "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
@@ -352,10 +369,6 @@
     "react/overview.md",
     "react/玩转 React Hooks/19.实践篇｜CheckCard：多选卡片.md",
     "react/玩转 React Hooks/17.实践篇｜表单组件设计（上）：整体设计与流程.md",
-    "react/玩转 React Hooks/16.实践篇｜实现简易版的 react-redux.md",
-    "react/玩转 React Hooks/15.源码篇｜深入探究 useTransition 和 useDeferredValue.md",
-    "react/React 进阶实践指南/5.基础篇-深入 props.md",
-    "react/react 通关秘籍/58、React Fiber 的 render 阶段.md",
     "react/玩转 React Hooks",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
@@ -364,7 +377,6 @@
     "设计模式",
     "base/其他类型的基础知识/media",
     "architect/架构师的 36 项修炼/media",
-    "base/css/media",
     "security/未命名.canvas"
   ]
 }
