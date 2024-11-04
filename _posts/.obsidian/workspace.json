@@ -250,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
-    "collapsed": true
+    "width": 496.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -334,6 +333,7 @@
   "lastOpenFiles": [
     "react/总结/虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/总结/media/7adfa16a872f73241e91e02dae65c251_MD5.png",
     "react/总结/media",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
@@ -347,7 +347,6 @@
     "react/深入浅出搞定 React/media/a6fd7e2655f8dd1f7860d5f62cd2555e_MD5.png",
     "react/深入浅出搞定 React/media/2d075fce679c1c5c72c1c15266a12055_MD5.png",
     "react/深入浅出搞定 React/media/4400f9a30605a9756dd81e24994d5c80_MD5.png",
-    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "react/深入浅出搞定 React/media/f0baf43073f64e441098fbfb1f88f5fb_MD5.png",
     "react/深入浅出搞定 React/media/b1fb40a12575a760cdc5ac42c726bc40_MD5.png",
