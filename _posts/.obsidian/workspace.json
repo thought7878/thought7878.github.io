@@ -6,6 +6,7 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
+        "dimension": 55.44412607449857,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -181,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/总结/虚拟DOM.md",
+                "file": "react/总结/React 中的“栈调和”（Stack Reconciler）过程.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,6 +202,23 @@
           }
         ],
         "currentTab": 14
+      },
+      {
+        "id": "a8931984bfc2c106",
+        "type": "tabs",
+        "dimension": 44.55587392550143,
+        "children": [
+          {
+            "id": "fddb3a4da3de57b2",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Pg4y1C7cE?p=11"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,7 +268,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 496.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -266,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md"
               }
             }
           }
@@ -331,25 +350,27 @@
   },
   "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "react/深入浅出搞定 React/media/81cb1b9e352353996f8679caa37149b5_MD5.png",
+    "react/深入浅出搞定 React/media/47e8d38108bd4ee5e0188af6c44c7ba5_MD5.png",
+    "react/深入浅出搞定 React/media/cf7cc76910605e543f29576f2f758cea_MD5.png",
+    "react/深入浅出搞定 React/media/3289f8ab80730d65a0d0eeb4c4d1039e_MD5.png",
+    "react/深入浅出搞定 React/media/685b5db47ef57207b0999470b29a2f1b_MD5.png",
+    "react/总结/React 中的“栈调和”（Stack Reconciler）过程.md",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "react/总结/Hooks API.md",
     "react/总结/虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/总结/media/7adfa16a872f73241e91e02dae65c251_MD5.png",
     "react/总结/media",
     "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
     "react/总结/forwardRef().md",
-    "react/总结/Hooks API.md",
     "react/总结/useImperativeHandle.md",
     "react/深入浅出搞定 React/media/500564b66e65cf847eacffebea65f579_MD5.png",
     "react/深入浅出搞定 React/media/95ee58eff671aa0bd2d3f29e770ad395_MD5.png",
     "react/深入浅出搞定 React/media/87c72321b806cb6e36ca946408567642_MD5.png",
     "react/深入浅出搞定 React/media/3a8eb7f46c586659175dd73ea0fa5882_MD5.png",
     "react/深入浅出搞定 React/media/a6fd7e2655f8dd1f7860d5f62cd2555e_MD5.png",
-    "react/深入浅出搞定 React/media/2d075fce679c1c5c72c1c15266a12055_MD5.png",
-    "react/深入浅出搞定 React/media/4400f9a30605a9756dd81e24994d5c80_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
-    "react/深入浅出搞定 React/media/f0baf43073f64e441098fbfb1f88f5fb_MD5.png",
-    "react/深入浅出搞定 React/media/b1fb40a12575a760cdc5ac42c726bc40_MD5.png",
     "react/深入浅出搞定 React/media",
     "react/overview_面试.md",
     "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
@@ -367,7 +388,6 @@
     "interview/面试过程.md",
     "react/overview.md",
     "react/玩转 React Hooks/19.实践篇｜CheckCard：多选卡片.md",
-    "react/玩转 React Hooks/17.实践篇｜表单组件设计（上）：整体设计与流程.md",
     "react/玩转 React Hooks",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
