@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/dive-in/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
                 "mode": "source",
                 "source": false
               }
@@ -174,9 +174,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e80684035e5267f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -242,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/Hooks API.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/Hooks API.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/Hooks API.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md"
               }
             }
           }
@@ -305,8 +317,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "792b29fccd4028f1",
+  "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "react/深入浅出搞定 React/media/500564b66e65cf847eacffebea65f579_MD5.png",
+    "react/深入浅出搞定 React/media/95ee58eff671aa0bd2d3f29e770ad395_MD5.png",
+    "react/深入浅出搞定 React/media/87c72321b806cb6e36ca946408567642_MD5.png",
+    "react/深入浅出搞定 React/media/3a8eb7f46c586659175dd73ea0fa5882_MD5.png",
+    "react/深入浅出搞定 React/media/a6fd7e2655f8dd1f7860d5f62cd2555e_MD5.png",
+    "react/深入浅出搞定 React/media/2d075fce679c1c5c72c1c15266a12055_MD5.png",
+    "react/深入浅出搞定 React/media/4400f9a30605a9756dd81e24994d5c80_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
+    "react/深入浅出搞定 React/media/f0baf43073f64e441098fbfb1f88f5fb_MD5.png",
+    "react/深入浅出搞定 React/media/b1fb40a12575a760cdc5ac42c726bc40_MD5.png",
+    "react/深入浅出搞定 React/media/51a8bd2a8c8517603846a7d9a67a80b7_MD5.png",
+    "react/深入浅出搞定 React/media/b0460d27ec30886b05c641ac1649eb35_MD5.png",
+    "react/深入浅出搞定 React/media",
+    "react/总结/Hooks API.md",
     "react/overview_面试.md",
     "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
     "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
@@ -315,14 +343,11 @@
     "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
     "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
     "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
-    "react/总结/Hooks API.md",
     "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
     "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
     "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
     "interview/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
     "performance/总结.md",
-    "interview/media/dd58512aa679507094cadc42256fe5c3_MD5.webp",
-    "interview/media/1e857dbe5f6cb7a2915a7d192d856e03_MD5.webp",
     "interview/面试过程.md",
     "react/overview.md",
     "react/玩转 React Hooks/19.实践篇｜CheckCard：多选卡片.md",
@@ -331,19 +356,7 @@
     "react/玩转 React Hooks/15.源码篇｜深入探究 useTransition 和 useDeferredValue.md",
     "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/react 通关秘籍/58、React Fiber 的 render 阶段.md",
-    "react/玩转 React Hooks/20.结语：是结束，也是开始.md",
-    "react/玩转 React Hooks/18.实践篇｜表单组件设计（下）：表单的规则与验证.md",
-    "react/玩转 React Hooks/14.源码篇｜探索 useSyncExternalStore 的神秘面纱.md",
-    "react/玩转 React Hooks/13.源码篇｜全方面剖析 Ref.md",
     "react/玩转 React Hooks",
-    "react/React 进阶实践指南/media/aef2597e79c572f4b462275b0999cb39_MD5.jpg",
-    "react/React 进阶实践指南/media/d2d1ed4c999bd2ed0ff8f8d8458c6c23_MD5.png",
-    "react/React 进阶实践指南/media/97a3a7faab72ed7fb1eab596c8dcdbae_MD5.png",
-    "react/React 进阶实践指南/media/c7a4f5eaf5cb45244f176d7a37356547_MD5.jpg",
-    "react/React 进阶实践指南/media/e087fbfbb1eb152b7dfa2f3b75d78a92_MD5.jpg",
-    "react/React 进阶实践指南/media/652446923610697ed6c078fdeece7681_MD5.png",
-    "react/React 进阶实践指南/media/5ee3030f4311e4d45eb7c981935e14d1_MD5.png",
-    "react/React 进阶实践指南/media/596137ec86134fed2602a7397828f183_MD5.jpg",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
@@ -352,7 +365,6 @@
     "base/其他类型的基础知识/media",
     "architect/架构师的 36 项修炼/media",
     "base/css/media",
-    "base/js/winter/media",
     "security/未命名.canvas"
   ]
 }
