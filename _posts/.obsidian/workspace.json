@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/总结/React 中的“栈调和”（Stack Reconciler）过程.md",
+                "file": "react/总结/React15 中的“栈调和”（Stack Reconciler）过程.md",
                 "mode": "source",
                 "source": false
               }
@@ -285,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md"
               }
             }
           }
@@ -350,13 +350,13 @@
   },
   "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "react/总结/React15 中的“栈调和”（Stack Reconciler）过程.md",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/深入浅出搞定 React/media/81cb1b9e352353996f8679caa37149b5_MD5.png",
     "react/深入浅出搞定 React/media/47e8d38108bd4ee5e0188af6c44c7ba5_MD5.png",
     "react/深入浅出搞定 React/media/cf7cc76910605e543f29576f2f758cea_MD5.png",
     "react/深入浅出搞定 React/media/3289f8ab80730d65a0d0eeb4c4d1039e_MD5.png",
     "react/深入浅出搞定 React/media/685b5db47ef57207b0999470b29a2f1b_MD5.png",
-    "react/总结/React 中的“栈调和”（Stack Reconciler）过程.md",
-    "react/深入浅出搞定 React/2020-03-01-05_10_React 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/总结/Hooks API.md",
     "react/总结/虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
@@ -369,7 +369,6 @@
     "react/深入浅出搞定 React/media/95ee58eff671aa0bd2d3f29e770ad395_MD5.png",
     "react/深入浅出搞定 React/media/87c72321b806cb6e36ca946408567642_MD5.png",
     "react/深入浅出搞定 React/media/3a8eb7f46c586659175dd73ea0fa5882_MD5.png",
-    "react/深入浅出搞定 React/media/a6fd7e2655f8dd1f7860d5f62cd2555e_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "react/深入浅出搞定 React/media",
     "react/overview_面试.md",
