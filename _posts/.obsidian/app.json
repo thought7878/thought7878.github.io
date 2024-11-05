@@ -2,5 +2,6 @@
   "attachmentFolderPath": "./media",
   "vimMode": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false
 }

@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md"
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md"
               }
             }
           }
@@ -330,25 +330,27 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e80684035e5267f3",
+  "active": "2f2b96316607396e",
   "lastOpenFiles": [
-    "react/总结/11.setState的同步与异步.md",
-    "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
-    "react/总结/media/44ecaf2bf6fe856c1138e177deb3a28c_MD5.png",
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
-    "react/总结/media/246edb130ccaf253b8b9424d6d158ffc_MD5.png",
-    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
-    "react/深入浅出搞定 React/media/0e6dbd3e927df2101cfffb5ab67e4882_MD5.png",
-    "react/深入浅出搞定 React/media/6cc94f30bab3afb4b235f4bf56a91b6f_MD5.png",
-    "react/深入浅出搞定 React/media/c1fdae19e3417cea4631e8377b8f6d52_MD5.png",
-    "react/深入浅出搞定 React/media/4bac13b1b5e4c84b2f9bb19b5d8cb16f_MD5.png",
-    "react/深入浅出搞定 React/media/3bd7e6cda25a15d6f680e3bda6cc98df_MD5.png",
-    "react/深入浅出搞定 React/media/5dd9df07b2eb724e4a0335c1aea21e56_MD5.png",
-    "react/深入浅出搞定 React/media/131ab99346284a7d67d71919d6b97dbc_MD5.png",
-    "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
-    "react/深入浅出搞定 React/media/81cb1b9e352353996f8679caa37149b5_MD5.png",
     "react/总结/Hooks API.md",
+    "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
+    "react/总结/11.setState的同步与异步.md",
+    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
+    "react/深入浅出搞定 React/media/7860df4b310dc1b708d88078e234f9da_MD5.png",
+    "react/深入浅出搞定 React/media/40219e5660ae896b06543f19563011f5_MD5.png",
+    "react/深入浅出搞定 React/media/4eeaf2396015bbbd0cfa8fa482f54e5f_MD5.png",
+    "react/深入浅出搞定 React/media/64a4e4a2324a523a0863af1f24819a0f_MD5.png",
+    "react/深入浅出搞定 React/media/aa7742538fe27b7c4a6da760185adc8d_MD5.png",
+    "react/深入浅出搞定 React/media/8e1ec9258adbb78b380cf620f0cc692e_MD5.png",
+    "react/深入浅出搞定 React/media/f59b0fc6acf7d1bc8b5e133142d65e82_MD5.png",
+    "react/深入浅出搞定 React/media/afe61ae3552fff26db618c7213fb245c_MD5.png",
+    "react/深入浅出搞定 React/media/5aeacee52e4c5dc5970a57c2125fa515_MD5.png",
+    "react/深入浅出搞定 React/media/a591c3e851a7116a5508e22c11cecc04_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
+    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
+    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
     "react/总结/虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
     "react/总结/media",
@@ -367,9 +369,6 @@
     "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
     "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
     "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
-    "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
-    "interview/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
-    "performance/总结.md",
     "react/玩转 React Hooks",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
