@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/16.行为型：观察者模式——面试真题手把手教学.md",
+                "file": "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
+                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +188,7 @@
             }
           },
           {
-            "id": "ab68a1da42d047d7",
+            "id": "2225819ab3a0c102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -250,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
-    "collapsed": true
+    "width": 496.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -267,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md"
               }
             }
           }
@@ -330,11 +329,30 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2f2b96316607396e",
+  "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
+    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "interview/前端知识体系及难点.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/总结/11.setState的同步与异步.md",
     "react/总结/Hooks API.md",
     "react/深入浅出搞定 React/2020-03-01-05_11_setState 到底是同步的，还是异步的？.md",
-    "react/总结/11.setState的同步与异步.md",
+    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+    "react/玩转 React Hooks/10.源码篇｜以 useState 的视角来看 Hooks 的运行机制.md",
+    "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
+    "react/React 进阶实践指南/19.🔥架构篇-React 中的位运算及其应用.md",
+    "react/React 进阶实践指南/20.🔥架构篇-数据更新流程设计.md",
+    "react/React 进阶实践指南/23.生态篇-React-redux.md",
+    "react/React 进阶实践指南/13.优化篇-处理海量数据.md",
+    "react/React 进阶实践指南/14.[WIP]优化篇-细节处理.md",
+    "react/React 进阶实践指南/16.🔥原理篇—事件原理（v18新版本）.md",
+    "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
+    "react/React 进阶实践指南/12.优化篇-渲染调优.md",
+    "react/React 进阶实践指南/11.优化篇-渲染控制.md",
+    "react/React 进阶实践指南/4.基础篇-玄学 state.md",
+    "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
+    "react/overview_面试.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/media/7860df4b310dc1b708d88078e234f9da_MD5.png",
@@ -349,26 +367,8 @@
     "react/深入浅出搞定 React/media/a591c3e851a7116a5508e22c11cecc04_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-05_10_React15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
-    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
-    "react/总结/虚拟DOM.md",
-    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
     "react/总结/media",
-    "react/总结/ForwardedRef、MutableRefObject、RefObject.md",
-    "react/总结/forwardRef().md",
-    "react/总结/useImperativeHandle.md",
-    "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "react/深入浅出搞定 React/media",
-    "react/overview_面试.md",
-    "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
-    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
-    "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
-    "react/玩转 React Hooks/6.基础篇｜自定义 Hooks 之 Jest（二）：DOM 类 Hooks.md",
-    "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
-    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
-    "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
-    "react/玩转 React Hooks/2.基础篇｜10 种 React Hooks API 的介绍和使用（v16 篇）.md",
-    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
     "react/玩转 React Hooks",
     "react/React 进阶实践指南/media",
     "react/React 进阶实践指南",
