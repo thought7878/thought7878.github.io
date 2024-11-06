@@ -19,7 +19,7 @@
 我来划一下这段话里的重点：*通过如 ReactDOM 等类库使虚拟 DOM 与“真实的” DOM 同步，这一过程叫作协调（调和）*。
 说人话：调和指的是*将虚拟 DOM映射到真实 DOM 的过程*。因此严格来说，调和过程并不能和 Diff 画等号。**调和是“使一致”的过程。而 Diff 是“找不同”的过程，它只是“使一致”过程中的一个环节**。
 
-**React 的源码结构佐证了这一点**：React 从大的板块上将源码划分为了 Core、Renderer 和 Reconciler 三部分。其中 Reconciler（调和器）的源码位于[src/renderers/shared/stack/reconciler](https://github.com/facebook/react/tree/15-stable/src/renderers/shared/stack/reconciler)这个路径，调和器所做的工作是一系列的，包括组件的挂载、卸载、更新等过程，其中*更新过程涉及对 Diff 算法的调用*。
+**React 的源码结构佐证了这一点**：React 从大的板块上将源码划分为了 Core、Renderer 和 Reconciler 三部分。其中 Reconciler（调和器）的源码位于[src/renderers/shared/stack/reconciler](https://github.com/facebook/react/tree/15-stable/src/renderers/shared/stack/reconciler)这个路径，调和器所做的工作是一系列的，包括组件的挂载、更新、卸载等过程，其中*更新过程涉及对 Diff 算法的调用*。
 
 所以说`调和 !== Diff`这个结论，是站得住脚的，如果你持有这个观点，说明你很专业，为你点赞！
 **但是**！**在如今大众的认知里，当我们讨论调和的时候，其实就是在讨论 Diff**。
