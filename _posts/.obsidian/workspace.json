@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
                 "mode": "source",
                 "source": false
               }
@@ -250,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 496.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -266,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md"
               }
             }
           }
@@ -331,12 +332,12 @@
   },
   "active": "e80684035e5267f3",
   "lastOpenFiles": [
-    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
     "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
     "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
+    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
+    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
     "react/深入浅出搞定 React/2020-03-01-05_17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
     "react/深入浅出搞定 React/2020-03-01-05_18_揭秘 Redux 设计思想与工作原理（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_19_揭秘 Redux 设计思想与工作原理（下）.md",
