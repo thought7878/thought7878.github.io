@@ -181,7 +181,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b958e44194d7f0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/简历/商智.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -250,8 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
-    "collapsed": true
+    "width": 496.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -267,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
+                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
+                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/12.Fiber 架构的迭代动机与设计思想.md"
+                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md"
               }
             }
           }
@@ -316,7 +327,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -330,12 +342,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2225819ab3a0c102",
+  "active": "e80684035e5267f3",
   "lastOpenFiles": [
+    "interview/简历/商智.md",
+    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+    "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
+    "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
+    "react/React 进阶实践指南/11.优化篇-渲染控制.md",
+    "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
     "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
-    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
     "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
@@ -349,15 +367,11 @@
     "react/总结/09.虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
     "react/overview_面试.md",
-    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
     "react/总结/Hooks API.md",
     "react/总结/08.React-Hooks 的工作原理.md",
     "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "react/总结/media/8708f72e6e73d92a8a0569d76282baac_MD5.png",
     "react/总结/media/1b633cd0f1aecf1f993869ab81ef1349_MD5.png",
-    "react/总结/11.setState的同步与异步.md",
-    "react/深入浅出搞定 React/2020-03-01-05_07_React-Hook 设计动机与工作模式（下）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
     "react/深入浅出搞定 React/media/c8bc3e80fc39ced2efe2f4a8d0709982_MD5.png",
     "react/深入浅出搞定 React/media/be3767730d91a119d350e42487a03fb2_MD5.png",
     "react/深入浅出搞定 React/media/8cceb1f0cc6be071221505e4c07be397_MD5.png",
@@ -366,8 +380,6 @@
     "react/深入浅出搞定 React/media/5adff3b3f2236337cc1f5965b2fb2638_MD5.png",
     "react/深入浅出搞定 React/media/f7655dc2a7ed6823791786d3865d0318_MD5.png",
     "react/深入浅出搞定 React/media/55d1faef95b75d206ef907645aadca61_MD5.png",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/15.行为型：观察者模式——鬼故事：产品经理拉了一个钉钉群.md",
-    "algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
     "react/总结/media",
     "react/深入浅出搞定 React/media",
     "react/玩转 React Hooks",
