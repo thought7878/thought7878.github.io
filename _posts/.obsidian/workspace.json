@@ -210,9 +210,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e2a8b06f489569c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/简历/项目经验.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -262,7 +274,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 285.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+                "file": "interview/简历/项目经验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+                "file": "interview/简历/项目经验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md"
+                "file": "interview/简历/项目经验.md"
               }
             }
           }
@@ -342,9 +354,23 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e80684035e5267f3",
+  "active": "3fe3110c949a01ca",
   "lastOpenFiles": [
+    "interview/简历/参考案例.md",
     "interview/简历/商智.md",
+    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
+    "react/overview_面试.md",
+    "interview/0_工作机会.md",
+    "interview/简历/media/3b2164fa6dffa5ebf380a005a71c8f50_MD5.png",
+    "interview/简历/media/56d89ccc00ff6a3e48f6debed15a7478_MD5.png",
+    "interview/简历/media/fab0f76d90caea413bb9819446da5d6a_MD5.png",
+    "interview/简历/media/Pasted image 20241108181226.png",
+    "interview/简历/media/3928c8fc9b82db18c8b21dfcc44c6a46_MD5.png",
+    "interview/简历/media/835e050a799fc1567074af33a7dabe51_MD5.png",
+    "interview/简历/media/323e9995ef3e8a621e307839be3398a4_MD5.png",
+    "interview/简历/media/284f4c496f6c1823467b71c5b0c8b768_MD5.png",
+    "interview/简历/media/69d5425cba8f297ee37fc19dc54c19b4_MD5.png",
+    "interview/简历/media/cad6eaed714b27dbe25f92b02a1b4164_MD5.png",
     "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
     "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
     "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
@@ -352,7 +378,6 @@
     "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
     "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
     "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
     "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
@@ -366,20 +391,7 @@
     "react/深入浅出搞定 React/2020-03-01-05_10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/总结/09.虚拟DOM.md",
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
-    "react/overview_面试.md",
     "react/总结/Hooks API.md",
-    "react/总结/08.React-Hooks 的工作原理.md",
-    "react/深入浅出搞定 React/2020-03-01-05_08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
-    "react/总结/media/8708f72e6e73d92a8a0569d76282baac_MD5.png",
-    "react/总结/media/1b633cd0f1aecf1f993869ab81ef1349_MD5.png",
-    "react/深入浅出搞定 React/media/c8bc3e80fc39ced2efe2f4a8d0709982_MD5.png",
-    "react/深入浅出搞定 React/media/be3767730d91a119d350e42487a03fb2_MD5.png",
-    "react/深入浅出搞定 React/media/8cceb1f0cc6be071221505e4c07be397_MD5.png",
-    "react/深入浅出搞定 React/media/884186443c28c125bec8ab9a369b59fc_MD5.png",
-    "react/深入浅出搞定 React/media/d3c635bee9d0e96bb02c1e55e037102c_MD5.png",
-    "react/深入浅出搞定 React/media/5adff3b3f2236337cc1f5965b2fb2638_MD5.png",
-    "react/深入浅出搞定 React/media/f7655dc2a7ed6823791786d3865d0318_MD5.png",
-    "react/深入浅出搞定 React/media/55d1faef95b75d206ef907645aadca61_MD5.png",
     "react/总结/media",
     "react/深入浅出搞定 React/media",
     "react/玩转 React Hooks",
