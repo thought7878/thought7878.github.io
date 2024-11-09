@@ -6,7 +6,6 @@
       {
         "id": "521b3604a672227a",
         "type": "tabs",
-        "dimension": 38.825214899713465,
         "children": [
           {
             "id": "8fe720a1d6955710",
@@ -218,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历/面试相关.md",
+                "file": "interview/简历/如何高薪入职心仪的公司.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,23 +237,6 @@
           }
         ],
         "currentTab": 17
-      },
-      {
-        "id": "6410464ff6f532d7",
-        "type": "tabs",
-        "dimension": 61.174785100286535,
-        "children": [
-          {
-            "id": "0b47770fe287d619",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1kM411e7zi"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -321,6 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "interview/简历/如何高薪入职心仪的公司.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,6 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "interview/简历/如何高薪入职心仪的公司.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +342,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "interview/简历/如何高薪入职心仪的公司.md"
+              }
             }
           }
         ],
@@ -366,8 +352,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -381,8 +366,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "0b47770fe287d619",
+  "active": "3e2a8b06f489569c",
   "lastOpenFiles": [
+    "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
+    "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
+    "interview/简历/media/7c7f175e461cde840b60ea2cbc114002_MD5.png",
+    "interview/简历/media/03d577833d05f1c29ad26417cefe3659_MD5.png",
+    "interview/简历/media/eaa1907bd22917e20a44d5d73f222dff_MD5.png",
     "interview/简历/面试相关.md",
     "interview/简历/如何高薪入职心仪的公司.md",
     "interview/简历/media/3559e5765889918a587354219ac965d0_MD5.png",
@@ -398,10 +388,6 @@
     "interview/简历/media/3b2164fa6dffa5ebf380a005a71c8f50_MD5.png",
     "interview/简历/media/56d89ccc00ff6a3e48f6debed15a7478_MD5.png",
     "interview/简历/media/fab0f76d90caea413bb9819446da5d6a_MD5.png",
-    "interview/简历/media/Pasted image 20241108181226.png",
-    "interview/简历/media/3928c8fc9b82db18c8b21dfcc44c6a46_MD5.png",
-    "interview/简历/media/835e050a799fc1567074af33a7dabe51_MD5.png",
-    "interview/简历/media/323e9995ef3e8a621e307839be3398a4_MD5.png",
     "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
     "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
     "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
@@ -418,7 +404,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_19_揭秘 Redux 设计思想与工作原理（下）.md",
     "react/深入浅出搞定 React/2020-03-01-05_20_从 Redux 中间件实现原理切入，理解“面向切面编程”.md",
     "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
-    "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
     "react/总结/media",
     "react/深入浅出搞定 React/media",
     "react/玩转 React Hooks",
