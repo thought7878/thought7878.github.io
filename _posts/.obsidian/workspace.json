@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/5.基础篇-深入 props.md",
+                "file": "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,42 +146,6 @@
               "type": "markdown",
               "state": {
                 "file": "react/overview_面试.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f2b96316607396e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "792b29fccd4028f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/总结/Hooks API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e80684035e5267f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +176,7 @@
             }
           },
           {
-            "id": "3e2a8b06f489569c",
+            "id": "9504e3b9a07605d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -224,19 +188,55 @@
             }
           },
           {
-            "id": "9504e3b9a07605d3",
+            "id": "1d12671a14ad7150",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历/如何高薪入职心仪的公司.md",
+                "file": "interview/问题/项目经验.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4adeaf3736f969b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd082d4c7662bb93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "580ee410a9cd5c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -286,8 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -303,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/如何高薪入职心仪的公司.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/如何高薪入职心仪的公司.md",
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历/如何高薪入职心仪的公司.md"
+                "file": "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md"
               }
             }
           }
@@ -366,44 +365,46 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3e2a8b06f489569c",
+  "active": "202210a885e36903",
   "lastOpenFiles": [
+    "react/玩转 React Hooks/media/c9522581a70a5db9f646c530e637f9d7_MD5.png",
+    "react/玩转 React Hooks/media/b8ece65edb39a6cc3d3be7d1cd58e63e_MD5.png",
+    "react/玩转 React Hooks/media/52225f314eb3afcfdbf63c7e2fea9aed_MD5.png",
+    "react/玩转 React Hooks/media/f6bca30400e24bbef8ac5655d04e1ea6_MD5.png",
+    "react/玩转 React Hooks/media/4818c7aa08e13caeade986e89ed73a40_MD5.png",
+    "react/玩转 React Hooks/media/341943c4e6921bd2c0f80321891174c1_MD5.png",
+    "react/玩转 React Hooks/media",
+    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
+    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
+    "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
+    "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
+    "react/React 进阶实践指南/5.基础篇-深入 props.md",
+    "react/overview_面试.md",
+    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
+    "interview/问题/项目经验.md",
+    "engineering/从0到1/3.代码规范：为了校验代码，有必要为每个项目部署Lint吗？.md",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
+    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
+    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
+    "interview/问题/商智.md",
+    "interview/问题/Webpack.md",
+    "interview/问题/性能优化.md",
+    "interview/简历/商智.md",
+    "interview/问题",
+    "interview/简历/如何高薪入职心仪的公司.md",
     "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
     "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
     "interview/简历/media/7c7f175e461cde840b60ea2cbc114002_MD5.png",
     "interview/简历/media/03d577833d05f1c29ad26417cefe3659_MD5.png",
     "interview/简历/media/eaa1907bd22917e20a44d5d73f222dff_MD5.png",
     "interview/简历/面试相关.md",
-    "interview/简历/如何高薪入职心仪的公司.md",
-    "interview/简历/media/3559e5765889918a587354219ac965d0_MD5.png",
-    "interview/简历/media/e9c44d6dc4115851f8cba7563d998c3f_MD5.png",
     "interview/简历/项目经验.md",
-    "interview/简历/media/eb6fd91008bc1f8752b2e572e8828118_MD5.png",
-    "interview/简历/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
-    "interview/简历/参考案例.md",
-    "interview/简历/商智.md",
-    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
-    "react/overview_面试.md",
-    "interview/0_工作机会.md",
-    "interview/简历/media/3b2164fa6dffa5ebf380a005a71c8f50_MD5.png",
-    "interview/简历/media/56d89ccc00ff6a3e48f6debed15a7478_MD5.png",
-    "interview/简历/media/fab0f76d90caea413bb9819446da5d6a_MD5.png",
-    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
-    "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
-    "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
-    "react/React 进阶实践指南/11.优化篇-渲染控制.md",
-    "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
-    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "react/总结/10.React15 中的“栈调和”（Stack Reconciler）过程.md",
-    "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
-    "react/深入浅出搞定 React/2020-03-01-05_17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_18_揭秘 Redux 设计思想与工作原理（上）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_19_揭秘 Redux 设计思想与工作原理（下）.md",
-    "react/深入浅出搞定 React/2020-03-01-05_20_从 Redux 中间件实现原理切入，理解“面向切面编程”.md",
-    "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
     "react/总结/media",
     "react/深入浅出搞定 React/media",
     "react/玩转 React Hooks",
@@ -412,8 +413,6 @@
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
     "设计模式",
-    "base/其他类型的基础知识/media",
-    "architect/架构师的 36 项修炼/media",
     "security/未命名.canvas"
   ]
 }
