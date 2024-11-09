@@ -321,7 +321,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/面试相关.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -338,7 +337,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/面试相关.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -360,9 +358,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "interview/简历/面试相关.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -385,10 +381,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3e2a8b06f489569c",
+  "active": "0b47770fe287d619",
   "lastOpenFiles": [
-    "interview/简历/如何高薪入职心仪的公司.md",
     "interview/简历/面试相关.md",
+    "interview/简历/如何高薪入职心仪的公司.md",
     "interview/简历/media/3559e5765889918a587354219ac965d0_MD5.png",
     "interview/简历/media/e9c44d6dc4115851f8cba7563d998c3f_MD5.png",
     "interview/简历/项目经验.md",
