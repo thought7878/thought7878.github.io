@@ -145,9 +145,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -210,8 +210,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -231,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md"
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md"
               }
             }
           }
@@ -296,6 +295,7 @@
   },
   "active": "cd082d4c7662bb93",
   "lastOpenFiles": [
+    "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
     "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "0-blog",
@@ -329,7 +329,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
     "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/overview_面试.md",
-    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
     "interview/问题",
     "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
     "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
