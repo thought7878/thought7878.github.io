@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "interview/问题/项目经验.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
+                "file": "engineering/教程/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,14 +169,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
+                "file": "前端基建/非大厂的我们，要如何去搞前端基建？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aad312e18a615f8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -242,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
+                "file": "interview/问题/项目经验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
+                "file": "interview/问题/项目经验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md"
+                "file": "interview/问题/项目经验.md"
               }
             }
           }
@@ -305,13 +317,37 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ad0be7696ca7b349",
+  "active": "6b958e44194d7f0b",
   "lastOpenFiles": [
+    "interview/简历/商智.md",
+    "interview/简历/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
+    "interview/简历/参考案例.md",
+    "interview/简历/项目经验.md",
+    "interview/简历/面试相关.md",
+    "前端基建/非大厂的我们，要如何去搞前端基建？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "engineering/教程/Webpack原理与实践/视频列表.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
+    "前端基建/media/96f810c3d6e1cccf94f453b7afa42254_MD5.webp",
+    "前端基建/media/a10f59e49186b79f30d2dda5113e7527_MD5.webp",
+    "前端基建/media/981c10fd57aa18aef5d93f8426138f54_MD5.webp",
+    "前端基建/media/7bbb97f4d80f0fd8f00a0b4cc3bd0973_MD5.webp",
+    "前端基建/media/fd8ecbc3c061c794dbd981bfc81ca3f4_MD5.webp",
+    "前端基建/media/85c426956a26ae8411cbc94b1abed91e_MD5.webp",
+    "前端基建/media/8338247cdb3a885194719445bc2d444b_MD5.webp",
+    "前端基建/media/b97c6155fa61c95c53acf394d3960c64_MD5.webp",
+    "前端基建/media/62c8ff11c85dccc342882c05c6eb5d3d_MD5.webp",
+    "前端基建/media/b61253b19be834096b11546767ca39a5_MD5.webp",
+    "前端基建/media",
+    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
+    "前端基建",
+    "engineering/总结.md",
     "react/hook/基础/2021-08-11-6.hooks-customize.md",
-    "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
     "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "ablog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
-    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
+    "engineering/教程/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
     "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
@@ -323,36 +359,12 @@
     "react/hook/基础/2021-08-08-1.overview.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
-    "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
-    "react/React 进阶实践指南/22.生态篇-React-router.md",
-    "react/React 进阶实践指南/16.🔥原理篇—事件原理（v18新版本）.md",
-    "react/React 进阶实践指南/15.原理篇-事件原理（老版本）.md",
-    "react/React 进阶实践指南/32.原理篇-beginWork和render全流程.md",
-    "react/React 进阶实践指南/34.V18特性篇-transition.md",
-    "react/React 进阶实践指南/33.V18特性篇-useMutableSource（已被取缔）.md",
-    "react/React 进阶实践指南/35.原理篇-更新流程：进入调度任务.md",
-    "react/React 进阶实践指南/36.v18特性篇-concurrent 下的 state更新流程.md",
-    "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
-    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
-    "react/玩转 React Hooks/media/c9522581a70a5db9f646c530e637f9d7_MD5.png",
-    "react/玩转 React Hooks/media/b8ece65edb39a6cc3d3be7d1cd58e63e_MD5.png",
-    "react/玩转 React Hooks/media/52225f314eb3afcfdbf63c7e2fea9aed_MD5.png",
-    "react/玩转 React Hooks/media/f6bca30400e24bbef8ac5655d04e1ea6_MD5.png",
-    "react/玩转 React Hooks/media/4818c7aa08e13caeade986e89ed73a40_MD5.png",
-    "react/玩转 React Hooks/media/341943c4e6921bd2c0f80321891174c1_MD5.png",
     "react/玩转 React Hooks/media",
     "interview/问题",
-    "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
-    "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
-    "interview/简历/media/7c7f175e461cde840b60ea2cbc114002_MD5.png",
-    "interview/简历/media/03d577833d05f1c29ad26417cefe3659_MD5.png",
     "react/总结/media",
     "react/深入浅出搞定 React/media",
     "react/玩转 React Hooks",
     "react/React 进阶实践指南/media",
-    "react/React 进阶实践指南",
-    "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "security/未命名.canvas"
   ]
 }
