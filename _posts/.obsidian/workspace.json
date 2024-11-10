@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
+                "file": "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md"
               }
             }
           }
@@ -295,6 +295,10 @@
   },
   "active": "cd082d4c7662bb93",
   "lastOpenFiles": [
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
+    "0-blog",
+    "react/hook/基础/2021-08-08-1.overview.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "react/React 进阶实践指南/17.原理篇-调度与时间片.md",
     "react/React 进阶实践指南/18.原理篇- 调和与 fiber.md",
@@ -325,9 +329,6 @@
     "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "react/overview_面试.md",
     "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
     "interview/问题",
     "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
     "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
@@ -340,7 +341,6 @@
     "react/React 进阶实践指南",
     "设计模式/JavaScript 设计模式核心原理与应用实践/media",
     "设计模式/JavaScript 设计模式核心原理与应用实践",
-    "设计模式",
     "security/未命名.canvas"
   ]
 }
