@@ -140,6 +140,18 @@
             }
           },
           {
+            "id": "25ed2109ddebf4b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/2020-02-08-overview.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "580ee410a9cd5c21",
             "type": "leaf",
             "state": {
@@ -150,9 +162,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad0be7696ca7b349",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -181,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "按需加载：如何提升应用打开速度？",
+                "query": "前端工程化的概览",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +222,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md"
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
               }
             }
           }
@@ -281,12 +306,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "b4adeaf3736f969b",
+  "active": "ad0be7696ca7b349",
   "lastOpenFiles": [
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "react/hook/实践/2024-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "ablog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
+    "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
+    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
+    "engineering/2020-02-08-overview.md",
+    "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "ablog",
     "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
     "0-blog",
@@ -306,8 +336,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
     "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
     "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
-    "react/玩转 React Hooks/9.源码前置篇｜搞懂 Fiber 和并发.md",
-    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
     "react/玩转 React Hooks/media/c9522581a70a5db9f646c530e637f9d7_MD5.png",
     "react/玩转 React Hooks/media/b8ece65edb39a6cc3d3be7d1cd58e63e_MD5.png",
     "react/玩转 React Hooks/media/52225f314eb3afcfdbf63c7e2fea9aed_MD5.png",
@@ -315,9 +343,6 @@
     "react/玩转 React Hooks/media/4818c7aa08e13caeade986e89ed73a40_MD5.png",
     "react/玩转 React Hooks/media/341943c4e6921bd2c0f80321891174c1_MD5.png",
     "react/玩转 React Hooks/media",
-    "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
-    "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
     "interview/问题",
     "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
     "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
