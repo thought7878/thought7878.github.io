@@ -140,18 +140,6 @@
             }
           },
           {
-            "id": "cd082d4c7662bb93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "580ee410a9cd5c21",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -230,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
+                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md"
               }
             }
           }
@@ -293,12 +281,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "cd082d4c7662bb93",
+  "active": "b4adeaf3736f969b",
   "lastOpenFiles": [
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/hook/实践/2024-08-11-9.异步处理：如何向服务器端发送请求.md",
     "0-blog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "ablog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "ablog",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "react/hook/实践/2021-08-12-16.按需加载：如何提升应用打开速度？.md",
     "0-blog",
     "react/hook/基础/2021-08-08-1.overview.md",
@@ -329,7 +318,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
     "react/深入浅出搞定 React/2020-03-01-05_10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/深入浅出搞定 React/2020-03-01-05_11_React 15 中的setState 到底是同步的，还是异步的？.md",
-    "react/React 进阶实践指南/5.基础篇-深入 props.md",
     "interview/问题",
     "interview/简历/media/6da88c1e960feb600a8395fb7d9e8545_MD5.png",
     "interview/简历/media/846d5306182a72f0e90ad96f85e0d33f_MD5.png",
