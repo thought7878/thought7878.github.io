@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
                 "mode": "source",
                 "source": false
               }
@@ -222,8 +222,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md"
+                "file": "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md"
               }
             }
           }
@@ -308,9 +307,10 @@
   },
   "active": "ad0be7696ca7b349",
   "lastOpenFiles": [
-    "ablog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
+    "react/hook/基础/2021-08-11-6.hooks-customize.md",
     "ablog/2024-08-11-Hooks的异步处理：向服务器端发送请求.md",
     "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "ablog/2024-08-11.Hooks的异步处理：向服务器端发送请求.md",
     "engineering/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
@@ -335,7 +335,6 @@
     "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
     "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
     "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
-    "react/React 进阶实践指南/6.基础篇-理解 lifeCycle.md",
     "react/玩转 React Hooks/media/c9522581a70a5db9f646c530e637f9d7_MD5.png",
     "react/玩转 React Hooks/media/b8ece65edb39a6cc3d3be7d1cd58e63e_MD5.png",
     "react/玩转 React Hooks/media/52225f314eb3afcfdbf63c7e2fea9aed_MD5.png",
