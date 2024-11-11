@@ -150,14 +150,14 @@ export default App;
 
 ![[react/react 通关秘籍/media/6e720b52d9378b03773926edb161d195_MD5.png]]
 
-加个 overflow: hidden 就好了：
+*加个 overflow: hidden 就好了：*
 
 ![[react/react 通关秘籍/media/9e97c73ba8831f187f1912d87a073ae9_MD5.png]]
 
 ![[react/react 通关秘籍/media/c5521dd975236a3c15d90606306d5adb_MD5.png]]
 而且之前加 padding 的位置也不对。
 
-改一下渲染日期的逻辑，如果传了 dateRender 那就整个覆盖日期单元格，否则就是只在下面渲染 dateInnerContent 的内容：
+改一下渲染日期的逻辑，*如果传了 dateRender 那就整个覆盖日期单元格，否则就是只在下面渲染 dateInnerContent 的内容：*
 
 ![[react/react 通关秘籍/media/93e6c34d229b1602c1bb3c4e952b0a70_MD5.png]]
 
@@ -227,7 +227,7 @@ export default App;
 
 接下来做国际化，也就是 locale 参数的处理。
 
-国际化就是可以让日历支持中文、英文、日文等，其实也很简单，就是把写死的文案换成按照 key 从配置中取的文案就行了。
+国际化就是可以让日历支持中文、英文、日文等，其实也很简单，就是**把写死的文案换成按照 key 从配置中取的文案就行了**。
 
 定义下用到的 ts 类型 src/Calendar/locale/interface.ts
 
@@ -423,7 +423,7 @@ export default LocaleContext;
 
 ![[react/react 通关秘籍/media/63692d439afa26ced92a146d4d568aab_MD5.png]]
 
-如果传入了参数，就用指定的 locale，否则，就从浏览器取当前语言：
+*如果传入了参数，就用指定的 locale，否则，就从浏览器取当前语言：*
 
 ![[react/react 通关秘籍/media/cc562a969402cefd20c880c8556086fe_MD5.png]]
 
@@ -739,8 +739,7 @@ function Calendar(props: CalendarProps) {
 # 切换日期表格
 
 但现在月份是变了，但下面的日历没有跟着变。
-
-因为我们之前是拿到 value 所在月份来计算的日历，现在要改成 curMonth 所在的月份。
+*因为我们之前是拿到 value 所在月份来计算的日历，现在要改成 curMonth 所在的月份。*
 
 ![[react/react 通关秘籍/media/f4efb03fb55566fa503a73a1bb349caf_MD5.png]]
 
@@ -805,7 +804,7 @@ function todayHandler() {
 
 ![[react/react 通关秘籍/media/83c0c926be81e7a89f30372c28c112b1_MD5.gif]]
 
-此外，我们希望点击上下月份的日期的时候，能够跳转到那个月的日历：
+此外，*我们希望点击上下月份的日期的时候，能够跳转到那个月的日历：*
 
 ![[react/react 通关秘籍/media/7935df84045cd5215d995077726cfe79_MD5.gif]]
 
