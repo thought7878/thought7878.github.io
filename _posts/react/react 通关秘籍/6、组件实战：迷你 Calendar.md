@@ -19,12 +19,13 @@ new Date(2023, 6, 30);
 
 ### Date 的 month
 
-*7 月为啥第二个参数传 6 呢？* 因为 Date 的 month 是从 0 开始计数的，取值是 0 到 11：
+_7 月为啥第二个参数传 6 呢？_ 因为 Date 的 month 是从 0 开始计数的，取值是 0 到 11：
 
 ![[react/react 通关秘籍/media/b4e80dbee8f9eefe47015d776daa0a3c_MD5.png]]
 
 ### Date 的 date
-而日期 date 是从 1 到 31。当 date 传 0 的时候，取到的是上个月的最后一天；-1 就是上个月的倒数第二天；-2 就是倒数第三天这样。
+
+而日期 date 是从 1 到 31。*当 date 传 0 的时候，取到的是上个月的最后一天*；-1 就是上个月的倒数第二天；-2 就是倒数第三天这样。
 
 ![[react/react 通关秘籍/media/e9b39bbaa05c214b721f6afb847e2065_MD5.png]]
 
@@ -32,12 +33,13 @@ new Date(2023, 6, 30);
 
 ![[react/react 通关秘籍/media/e845759135654b940274172919c586a5_MD5.png]]
 
-### getFullYear / getMonth / getDay
-除了日期外，也能通过 getFullYear、getMonth 拿到年份和月份：
+### getFullYear / getMonth / getDate / getDay
+
+除了日期外，也能通过 *getFullYear、getMonth、getDate 拿到年份、月份、日期*：
 
 ![[react/react 通关秘籍/media/27e4cf7d395410f83da4d13b15758fef_MD5.png]]
 
-还可以通过 getDay 拿到星期几。比如今天（2023-7-19）是星期三：
+还可以通过 _getDay 拿到星期几_。比如今天（2023-7-19）是星期三：
 
 ![[react/react 通关秘籍/media/ae0a73ebb7d587648e34d801a8508a0b_MD5.png]]
 
@@ -50,6 +52,7 @@ new Date(2023, 6, 30);
 ```
 npx create-react-app --template=typescript mini-calendar-test
 ```
+
 ![[react/react 通关秘籍/media/269cd03c7daf7f9da01f5da337570e1a_MD5.png]]
 
 ### 静态的布局
@@ -61,8 +64,8 @@ npx create-react-app --template=typescript mini-calendar-test
 改下 App.tsx:
 
 ```javascript
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 function Calendar() {
   return (
@@ -165,7 +168,8 @@ header 就是一个 space-between 的 flex 容器：
   flex-wrap: wrap;
 }
 
-.empty, .day {
+.empty,
+.day {
   width: calc(100% / 7);
   text-align: center;
   line-height: 30px;
@@ -180,6 +184,7 @@ header 就是一个 space-between 的 flex 容器：
 ### 逻辑
 
 然后我们再来写逻辑。
+
 #### 左右按钮
 
 ![[react/react 通关秘籍/media/691f52c742b36492466168f7952249a0_MD5.png]]
@@ -192,11 +197,11 @@ header 就是一个 space-between 的 flex 容器：
 const [date, setDate] = useState(new Date());
 
 const handlePrevMonth = () => {
-    setDate(new Date(date.getFullYear(), date.getMonth() - 1, 1));
+  setDate(new Date(date.getFullYear(), date.getMonth() - 1, 1));
 };
 
 const handleNextMonth = () => {
-    setDate(new Date(date.getFullYear(), date.getMonth() + 1, 1));
+  setDate(new Date(date.getFullYear(), date.getMonth() + 1, 1));
 };
 ```
 
@@ -208,18 +213,18 @@ const handleNextMonth = () => {
 
 ```javascript
 const monthNames = [
-    '一月',
-    '二月',
-    '三月',
-    '四月',
-    '五月',
-    '六月',
-    '七月',
-    '八月',
-    '九月',
-    '十月',
-    '十一月',
-    '十二月',
+  "一月",
+  "二月",
+  "三月",
+  "四月",
+  "五月",
+  "六月",
+  "七月",
+  "八月",
+  "九月",
+  "十月",
+  "十一月",
+  "十二月",
 ];
 ```
 
@@ -233,38 +238,46 @@ const monthNames = [
 
 再来改下日期部分。我们定义一个 renderDays 方法：
 
-```javascript
+```tsx
+//计算当前月有多少天
 const daysOfMonth = (year: number, month: number) => {
-    return new Date(year, month + 1, 0).getDate();
+  return new Date(year, month + 1, 0).getDate();
 };
-
+//再计算当前月的第一天是星期几
 const firstDayOfMonth = (year: number, month: number) => {
-    return new Date(year, month, 1).getDay();
+  return new Date(year, month, 1).getDay();
 };
 
 const renderDays = () => {
-    const days = [];
+  //存储渲染的内容
+  const days = [];
+	//计算当前月有多少天
+  const daysCount = daysOfMonth(date.getFullYear(), date.getMonth());
+  //再计算当前月的第一天是星期几，这样就知道从哪里开始渲染，渲染多少天了
+  const firstDay = firstDayOfMonth(date.getFullYear(), date.getMonth());
 
-    const daysCount = daysOfMonth(date.getFullYear(), date.getMonth());
-    const firstDay = firstDayOfMonth(date.getFullYear(), date.getMonth());
+//然后先一个循环，渲染 day - 1 个 empty 的块
+  for (let i = 0; i < firstDay; i++) {
+    days.push(<div key={`empty-${i}`} className="empty"></div>);
+  }
+//再渲染 daysCount 个 day 的块
+  for (let i = 1; i <= daysCount; i++) {
+    days.push(
+      <div key={i} className="day">
+        {i}
+      </div>
+    );
+  }
 
-    for (let i = 0; i < firstDay; i++) {
-      days.push(<div key={`empty-${i}`} className="empty"></div>);
-    }
-
-    for (let i = 1; i <= daysCount; i++) {
-      days.push(<div key={i} className="day">{i}</div>);
-    }
-
-    return days;
+  return days;
 };
 ```
 
 - 首先定义个数组，来存储渲染的内容。
 
-- *然后计算当前月有多少天*。这里用到了前面那个 new Date 时传入 date 为 0 的技巧。
+- _然后计算当前月有多少天_。这里用到了前面那个 new Date 时传入 date 为 0 的技巧。
 
-- *再计算当前月的第一天是星期几*。也就是 new Date(year, month, 1).getDay()，这样就知道从哪里开始渲染，渲染多少天了。
+- _再计算当前月的第一天是星期几_。也就是 new Date(year, month, 1).getDay()，*这样就知道从哪里开始渲染，渲染多少天了*。
 
 - 然后先一个循环，渲染 day - 1 个 empty 的块。
 
@@ -288,7 +301,7 @@ const renderDays = () => {
 
 **value**
 
-*value 参数设置为 date 的初始值：*
+_value 参数设置为 date 的初始值：_
 
 ![[react/react 通关秘籍/media/f8b8301b4fce70c3bf5a4880e54045f2_MD5.png]]
 
@@ -317,7 +330,10 @@ const renderDays = () => {
 ![[react/react 通关秘籍/media/992f2b5bfe441c2b2a9c3d72da3da17f_MD5.png]]
 
 ```javascript
-const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getMonth(), i));
+const clickHandler = onChange?.bind(
+  null,
+  new Date(date.getFullYear(), date.getMonth(), i)
+);
 ```
 
 就是在点击 day 的时候，调用 bind 了对应日期的 onChange 函数。
@@ -351,7 +367,7 @@ const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getM
 
 ref 的 api 也都生效了。
 
-*这就是除了 props 之外，另一种暴露组件 api 的方式。*
+_这就是除了 props 之外，另一种暴露组件 api 的方式。_
 
 #### 渲染前后月份的日期
 
@@ -366,24 +382,24 @@ ref 的 api 也都生效了。
 全部代码如下：
 
 ```javascript
-import React, { useEffect, useImperativeHandle, useRef, useState } from 'react';
-import './index.css';
+import React, { useEffect, useImperativeHandle, useRef, useState } from "react";
+import "./index.css";
 
 interface CalendarProps {
-  value?: Date,
-  onChange?: (date: Date) => void
+  value?: Date;
+  onChange?: (date: Date) => void;
 }
 
 interface CalendarRef {
-  getDate: () => Date,
-  setDate: (date: Date) => void,
+  getDate: () => Date;
+  setDate: (date: Date) => void;
 }
 
-const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProps> = (props, ref) => {
-  const {
-    value = new Date(),
-    onChange,
-  } = props;
+const InternalCalendar: React.ForwardRefRenderFunction<
+  CalendarRef,
+  CalendarProps
+> = (props, ref) => {
+  const { value = new Date(), onChange } = props;
 
   const [date, setDate] = useState(value);
 
@@ -393,9 +409,9 @@ const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProp
         return date;
       },
       setDate(date: Date) {
-        setDate(date)
-      }
-    }
+        setDate(date);
+      },
+    };
   });
 
   const handlePrevMonth = () => {
@@ -407,18 +423,18 @@ const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProp
   };
 
   const monthNames = [
-    '一月',
-    '二月',
-    '三月',
-    '四月',
-    '五月',
-    '六月',
-    '七月',
-    '八月',
-    '九月',
-    '十月',
-    '十一月',
-    '十二月',
+    "一月",
+    "二月",
+    "三月",
+    "四月",
+    "五月",
+    "六月",
+    "七月",
+    "八月",
+    "九月",
+    "十月",
+    "十一月",
+    "十二月",
   ];
 
   const daysOfMonth = (year: number, month: number) => {
@@ -440,11 +456,22 @@ const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProp
     }
 
     for (let i = 1; i <= daysCount; i++) {
-      const clickHandler = onChange?.bind(null, new Date(date.getFullYear(), date.getMonth(), i));
-      if(i === date.getDate()) {
-        days.push(<div key={i} className="day selected" onClick={clickHandler}>{i}</div>);  
+      const clickHandler = onChange?.bind(
+        null,
+        new Date(date.getFullYear(), date.getMonth(), i)
+      );
+      if (i === date.getDate()) {
+        days.push(
+          <div key={i} className="day selected" onClick={clickHandler}>
+            {i}
+          </div>
+        );
       } else {
-        days.push(<div key={i} className="day" onClick={clickHandler}>{i}</div>);
+        days.push(
+          <div key={i} className="day" onClick={clickHandler}>
+            {i}
+          </div>
+        );
       }
     }
 
@@ -455,7 +482,9 @@ const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProp
     <div className="calendar">
       <div className="header">
         <button onClick={handlePrevMonth}>&lt;</button>
-        <div>{date.getFullYear()}年{monthNames[date.getMonth()]}</div>
+        <div>
+          {date.getFullYear()}年{monthNames[date.getMonth()]}
+        </div>
         <button onClick={handleNextMonth}>&gt;</button>
       </div>
       <div className="days">
@@ -470,12 +499,12 @@ const InternalCalendar: React.ForwardRefRenderFunction<CalendarRef, CalendarProp
       </div>
     </div>
   );
-}
+};
 
 const Calendar = React.forwardRef(InternalCalendar);
 
 function Test() {
-  const calendarRef = useRef<CalendarRef>(null);
+  const calendarRef = useRef < CalendarRef > null;
 
   useEffect(() => {
     console.log(calendarRef.current?.getDate().toLocaleDateString());
@@ -485,15 +514,18 @@ function Test() {
     }, 3000);
   }, []);
 
-  return <div>
-    {/* <Calendar value={new Date('2023-3-1')} onChange={(date: Date) => {
+  return (
+    <div>
+      {/* <Calendar value={new Date('2023-3-1')} onChange={(date: Date) => {
         alert(date.toLocaleDateString());
     }}></Calendar> */}
-    <Calendar ref={calendarRef} value={new Date('2024-8-15')}></Calendar>
-  </div>
+      <Calendar ref={calendarRef} value={new Date("2024-8-15")}></Calendar>
+    </div>
+  );
 }
 export default Test;
 ```
+
 ```css
 .calendar {
   border: 1px solid #aaa;
@@ -514,13 +546,15 @@ export default Test;
   flex-wrap: wrap;
 }
 
-.empty, .day {
+.empty,
+.day {
   width: calc(100% / 7);
   text-align: center;
   line-height: 30px;
 }
 
-.day:hover, .selected {
+.day:hover,
+.selected {
   background-color: #ccc;
   cursor: pointer;
 }
