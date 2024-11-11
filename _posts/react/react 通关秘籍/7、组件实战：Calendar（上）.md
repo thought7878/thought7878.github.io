@@ -17,9 +17,9 @@ npx create-react-app --template typescript calendar-component
 
 先不着急写，我们**先理一下思路：**
 
-*日历组件的核心是什么？* 是拿到每月的天数，每月的第一天是星期几。
+**日历组件的核心是什么？** 是拿到每月的天数，每月的第一天是星期几。
 
-我们知道这个月有 30 天，第一天是周三，那就知道如何显示这个月的日历了。比如这个月：
+*我们知道这个月有 30 天，第一天是周三，那就知道如何显示这个月的日历了*。比如这个月：
 
 ![[react/react 通关秘籍/media/887dd2f7e0e6b56515784d56642007c7_MD5.png]]
 
@@ -45,7 +45,7 @@ console.log(dayjs('2023-11-1').endOf('month').format('YYYY-MM-DD'));
 
 ```
 
-创建一个 dayjs 的对象，然后用 daysInMonth 方法可以拿到这个月的天数，用 startOf、endOf 可以拿到这个月的第一天和最后一天的日期。
+创建一个 dayjs 的对象，然后用 `daysInMonth` 方法可以*拿到这个月的天数*，用 `startOf`、`endOf` 可以*拿到这个月的第一天和最后一天的日期*。
 
 跑一下：
 
@@ -77,7 +77,6 @@ export default Calendar;
 ```scss
 .calendar {
     width: 100%;
-
     height: 200px;
     background: blue;
 }
@@ -118,7 +117,7 @@ npm run start
 
 ![[react/react 通关秘籍/media/f9d0b271b72f5115ec0bd28144594632_MD5.png]]
 
-这个组件可以分为 Header 和 MonthCalendar 两个组件。
+这个组件可以*分为 Header 和 MonthCalendar 两个组件*。
 
 我们先写下面的 MonthCalender 组件。首先是周日到周六的部分：
 
@@ -192,7 +191,7 @@ export default Calendar;
 
 ![[react/react 通关秘籍/media/3b7ce0a68a0b72c850df5115bf1aaf7f_MD5.png]]
 
-思路前面分析过了，就是拿到当前月份的天数和第一天是星期几，前后用上个月和下个月的日期填充。
+*思路前面分析过了，就是拿到当前月份的天数和第一天是星期几，前后用上个月和下个月的日期填充*。
 
 ## 加一个 value 的 props
 
@@ -236,7 +235,7 @@ interface MonthCalendarProps extends CalendarProps {
 
 这样，MonthCalendar 就可以根据传入的 value 拿到当前的月份信息了。
 
-我们加一个 getAllDays 方法，打个断点：
+我们加一个 `getAllDays` 方法，打个断点：
 
 ![[react/react 通关秘籍/media/48d78f074b75806e740bac155b11dc72_MD5.png]]
 
@@ -275,7 +274,7 @@ const allDays = getAllDays(props.value);
 
 所以创建一个 6 * 7 个元素的数组。*这个月第一天之前的日期，用第一天的日期 -1、-2、-3 这样计算出来：*
 
-```javascript
+```tsx
 function getAllDays(date: Dayjs) {
     const daysInMonth = date.daysInMonth();
     const startDate = date.startOf('month');
@@ -298,7 +297,7 @@ function getAllDays(date: Dayjs) {
 
 ![[react/react 通关秘籍/media/06d15f823bd121670f9310a076977a30_MD5.png]]
 
-那也就是要在之前填充星期日、星期一、星期二，*这 3 天的日期：*
+那也就是*要在之前填充星期日、星期一、星期二*，这 3 天的日期：
 
 ![[react/react 通关秘籍/media/076b0f7b173ff624dda88f73cffd0e47_MD5.png]]
 
