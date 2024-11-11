@@ -25,7 +25,7 @@ _7 月为啥第二个参数传 6 呢？_ 因为 Date 的 month 是从 0 开始�
 
 ### Date 的 date
 
-而日期 date 是从 1 到 31。*当 date 传 0 的时候，取到的是上个月的最后一天*；-1 就是上个月的倒数第二天；-2 就是倒数第三天这样。
+而日期 date 是从 1 到 31。_当 date 传 0 的时候，取到的是上个月的最后一天_；-1 就是上个月的倒数第二天；-2 就是倒数第三天这样。
 
 ![[react/react 通关秘籍/media/e9b39bbaa05c214b721f6afb847e2065_MD5.png]]
 
@@ -35,7 +35,7 @@ _7 月为啥第二个参数传 6 呢？_ 因为 Date 的 month 是从 0 开始�
 
 ### getFullYear / getMonth / getDate / getDay
 
-除了日期外，也能通过 *getFullYear、getMonth、getDate 拿到年份、月份、日期*：
+除了日期外，也能通过 _getFullYear、getMonth、getDate 拿到年份、月份、日期_：
 
 ![[react/react 通关秘籍/media/27e4cf7d395410f83da4d13b15758fef_MD5.png]]
 
@@ -251,16 +251,16 @@ const firstDayOfMonth = (year: number, month: number) => {
 const renderDays = () => {
   //存储渲染的内容
   const days = [];
-	//计算当前月有多少天
+  //计算当前月有多少天
   const daysCount = daysOfMonth(date.getFullYear(), date.getMonth());
   //再计算当前月的第一天是星期几，这样就知道从哪里开始渲染，渲染多少天了
   const firstDay = firstDayOfMonth(date.getFullYear(), date.getMonth());
 
-//然后先一个循环，渲染 day - 1 个 empty 的块
+  //然后先一个循环，渲染 day - 1 个 empty 的块
   for (let i = 0; i < firstDay; i++) {
     days.push(<div key={`empty-${i}`} className="empty"></div>);
   }
-//再渲染 daysCount 个 day 的块
+  //再渲染 daysCount 个 day 的块
   for (let i = 1; i <= daysCount; i++) {
     days.push(
       <div key={i} className="day">
@@ -277,7 +277,7 @@ const renderDays = () => {
 
 - _然后计算当前月有多少天_。这里用到了前面那个 new Date 时传入 date 为 0 的技巧。
 
-- _再计算当前月的第一天是星期几_。也就是 new Date(year, month, 1).getDay()，*这样就知道从哪里开始渲染，渲染多少天了*。
+- _再计算当前月的第一天是星期几_。也就是 new Date(year, month, 1).getDay()，_这样就知道从哪里开始渲染，渲染多少天了_。
 
 - 然后先一个循环，渲染 day - 1 个 empty 的块。
 
@@ -375,7 +375,7 @@ ref 的 api 也都生效了。
 
 ![[react/react 通关秘籍/media/478f62e107f8a358830c82cce1e5d68f_MD5.png]]
 
-这个也很简单，new Date(year, month + 1, 0) 是拿到当前月的*第一天*，那 -1 就是上个月的最后一天，-2 就是倒数第二天。
+这个也很简单，new Date(year, month + 1???, 0) 是拿到当前月的*最后一天~~第一天~~*，那 -1 就是上个月的最后一天，-2 就是倒数第二天。
 
 下个月的也是同理，用当前月最后一天 +1、+2 即可。
 
@@ -566,7 +566,7 @@ export default Test;
 
 Calendar 或者 DatePicker 组件我们经常会用到，今天自己实现了一下。
 
-其实原理也很简单，就是 Date 的 api。new Date 的时候 date 传 0 就能拿到*上个月最后一天*的日期，然后 getDate 就可以*知道那个月有多少天*。然后再通过 getDay 取到这个月第一天是*星期几*，*就知道怎么渲染这个月的日期了*。
+其实原理也很简单，就是 Date 的 api。new Date 的时候 date 传 0 就能拿到*上个月最后一天*的日期，然后 getDate 就可以*知道那个月有多少天*。然后再通过 getDay 取到这个月第一天是*星期几*，_就知道怎么渲染这个月的日期了_。
 
 我们用 react 实现了这个 Calendar 组件，支持传入 value 指定初始日期，传入 onChange 作为日期改变的回调。
 
