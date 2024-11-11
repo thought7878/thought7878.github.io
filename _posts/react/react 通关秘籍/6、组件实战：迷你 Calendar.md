@@ -311,7 +311,7 @@ _value 参数设置为 date 的初始值：_
 
 ![[react/react 通关秘籍/media/86c56d950dc62eeb290b7787ef53a693_MD5.png]]
 
-年月是对了，但是日期对不对我们也看不出来，所以还得加点选中样式：
+年月是对了，但是日期对不对我们也看不出来，所以还得*加点选中样式：*
 
 ![[react/react 通关秘籍/media/fcdd770e642ed736974e7f8e38729602_MD5.png]]
 
@@ -325,7 +325,7 @@ _value 参数设置为 date 的初始值：_
 
 **onChange 的回调函数**
 
-然后我们再加上 onChange 的回调函数：
+然后我们再*加上 onChange 的回调函数：*
 
 ![[react/react 通关秘籍/media/992f2b5bfe441c2b2a9c3d72da3da17f_MD5.png]]
 
@@ -336,7 +336,7 @@ const clickHandler = onChange?.bind(
 );
 ```
 
-就是在点击 day 的时候，调用 bind 了对应日期的 onChange 函数。
+就是在*点击 day 的时候，调用 bind 了对应日期的 onChange 函数*。
 
 我们试试看：
 
@@ -357,7 +357,7 @@ const clickHandler = onChange?.bind(
 
 前面章节讲过，**useImperativeHandle 可以自定义 ref 的内容**。
 
-然后用的时候就可以通过 useRef 创建 ref 对象，设置到 Calendar 的 ref 属性上，拿到转发出的 ref 内容：
+然后用的时候就可以*通过 useRef 创建 ref 对象，设置到 Calendar 的 ref 属性上，拿到转发出的 ref 内容：*
 
 ![[react/react 通关秘籍/media/58312661b5d0cba3ed171fcfafd7b593_MD5.png]]
 
@@ -367,7 +367,7 @@ const clickHandler = onChange?.bind(
 
 ref 的 api 也都生效了。
 
-_这就是除了 props 之外，另一种暴露组件 api 的方式。_
+**这就是除了 props 之外，另一种暴露组件 api 的方式。**
 
 #### 渲染前后月份的日期
 
@@ -381,7 +381,7 @@ _这就是除了 props 之外，另一种暴露组件 api 的方式。_
 
 全部代码如下：
 
-```javascript
+```tsx
 import React, { useEffect, useImperativeHandle, useRef, useState } from "react";
 import "./index.css";
 
@@ -566,7 +566,7 @@ export default Test;
 
 Calendar 或者 DatePicker 组件我们经常会用到，今天自己实现了一下。
 
-其实原理也很简单，就是 Date 的 api。new Date 的时候 date 传 0 就能拿到上个月最后一天的日期，然后 getDate 就可以知道那个月有多少天。然后再通过 getDay 取到这个月第一天是星期几，就知道怎么渲染这个月的日期了。
+其实原理也很简单，就是 Date 的 api。new Date 的时候 date 传 0 就能拿到*上个月最后一天*的日期，然后 getDate 就可以*知道那个月有多少天*。然后再通过 getDay 取到这个月第一天是*星期几*，*就知道怎么渲染这个月的日期了*。
 
 我们用 react 实现了这个 Calendar 组件，支持传入 value 指定初始日期，传入 onChange 作为日期改变的回调。
 
