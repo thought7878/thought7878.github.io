@@ -128,31 +128,31 @@
             }
           },
           {
-            "id": "c3f8070c5691ec4e",
+            "id": "36d7d75b97ef7fc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "35a9121575a3f094",
+            "id": "bdda1d47bfdc9740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
+                "file": "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+                "file": "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+                "file": "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md"
+                "file": "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md"
               }
             }
           }
@@ -281,10 +281,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c3f8070c5691ec4e",
+  "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
-    "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
+    "ablog/media/a8808f4045f04398e292485f0b443b7c_MD5.png",
+    "ablog/media/7d25a4ae55335e2bd897084887edeff2_MD5.png",
+    "ablog/media/e9041b0ea3fb31d408dc5a655420e26c_MD5.png",
+    "ablog/media/7d2e7107f5c39eb3f587c336a17ff983_MD5.png",
     "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+    "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
+    "ablog/media/8ca24b2f5d36729b40fccaeedece59d9_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+    "interview/简历/商智.md",
+    "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
     "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
     "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
@@ -294,7 +302,6 @@
     "ablog/media/236f7777daedebc1255d7eca33570b2c_MD5.png",
     "ablog/media/3fae74973bf3201a6116e02f1136bd1b_MD5.png",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-    "interview/简历/商智.md",
     "libraries/_my-libraries/calendar/代码实现.md",
     "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
     "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
@@ -311,14 +318,7 @@
     "libraries/_my-libraries/弹窗.md",
     "libraries/_my-libraries/calendar/需求记录.md",
     "ablog/2021-04-28-React-Router 的实现机制.md",
-    "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
     "ablog/media/b18333cf015460219e4c7a7af6e6fca2_MD5.png",
-    "ablog/media/a22d7fbc73280fe7782a1a267c2f45b3_MD5.png",
-    "ablog/media/f5be9051aa479750c8bfd14f40bb5e1a_MD5.png",
-    "ablog/media/3e9fb00e65d4d8bab087be328787e3d9_MD5.png",
-    "ablog/media/9f5b6fbb0220a34218b4841d980defae_MD5.png",
-    "react/深入浅出搞定 React/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
-    "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
