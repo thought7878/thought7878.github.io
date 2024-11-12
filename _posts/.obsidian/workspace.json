@@ -138,6 +138,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "35a9121575a3f094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 10
@@ -271,8 +283,10 @@
   },
   "active": "c3f8070c5691ec4e",
   "lastOpenFiles": [
-    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
+    "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
     "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+    "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
+    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
     "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "ablog/media/09bbf6be0166e0935c9e049614b4d70f_MD5.png",
     "ablog/media/266d3af50a71f935343affd8b92a7059_MD5.png",
@@ -308,7 +322,6 @@
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
-    "react/overview_面试.md",
     "interview/问题/media",
     "前端基建/media",
     "前端基建",
