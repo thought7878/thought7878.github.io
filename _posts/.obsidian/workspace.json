@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程 1.md",
+                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程 1.md",
+                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程 1.md",
+                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程 1.md"
+                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md"
               }
             }
           }
@@ -283,27 +283,28 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
+    "ablog/media/9f2102a85526517b6e44d1f855b1bdd3_MD5.png",
+    "ablog/media/7d5c3b10efd41ff872da98105a0e3909_MD5.png",
+    "ablog/media/6b32d8da55659c71ae05a3cc994c5d5a_MD5.png",
+    "ablog/media/b38bcc1e608cc921db231661baf7b8cd_MD5.png",
+    "ablog/media/fc4e30e975dd07789a1167ddff25d7ba_MD5.png",
+    "ablog/media/dcdf7a5dcb362287f6326e2d181b29b6_MD5.png",
+    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+    "ablog/media/ef2a06f3d08d700538d84d047a757cb8_MD5.png",
+    "ablog/media/5441022418782ac242f53391d6ccd9cd_MD5.png",
+    "ablog/media/59db324810d1e12fb90f0202f6dccb46_MD5.png",
     "interview/问题/项目经验.md",
-    "ablog/2021-07-18-ReactDOM.render 的渲染流程 1.md",
     "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "ablog/2021-07-08-Fiber 架构的迭代动机、设计思想、架构分层.md",
     "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
     "ablog/media/a8808f4045f04398e292485f0b443b7c_MD5.png",
     "ablog/media/7d25a4ae55335e2bd897084887edeff2_MD5.png",
-    "ablog/media/e9041b0ea3fb31d408dc5a655420e26c_MD5.png",
-    "ablog/media/7d2e7107f5c39eb3f587c336a17ff983_MD5.png",
-    "ablog/media/8ca24b2f5d36729b40fccaeedece59d9_MD5.png",
     "interview/简历/商智.md",
     "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
     "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
     "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
-    "ablog/media/09bbf6be0166e0935c9e049614b4d70f_MD5.png",
-    "ablog/media/266d3af50a71f935343affd8b92a7059_MD5.png",
-    "ablog/media/1d63b2672d90081ae08a062609d51c42_MD5.png",
-    "ablog/media/236f7777daedebc1255d7eca33570b2c_MD5.png",
-    "ablog/media/3fae74973bf3201a6116e02f1136bd1b_MD5.png",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "libraries/_my-libraries/calendar/代码实现.md",
     "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
@@ -318,7 +319,6 @@
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "react/react 通关秘籍/28、组件实战：Message.md",
     "libraries/_my-libraries/弹窗.md",
-    "libraries/_my-libraries/calendar/需求记录.md",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
