@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -283,12 +284,12 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
+    "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+    "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
     "ablog/media/a8808f4045f04398e292485f0b443b7c_MD5.png",
     "ablog/media/7d25a4ae55335e2bd897084887edeff2_MD5.png",
     "ablog/media/e9041b0ea3fb31d408dc5a655420e26c_MD5.png",
     "ablog/media/7d2e7107f5c39eb3f587c336a17ff983_MD5.png",
-    "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
-    "ablog/2021-07-08-Fiber 架构的迭代动机与设计思想.md",
     "ablog/media/8ca24b2f5d36729b40fccaeedece59d9_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "interview/简历/商智.md",
@@ -318,7 +319,6 @@
     "libraries/_my-libraries/弹窗.md",
     "libraries/_my-libraries/calendar/需求记录.md",
     "ablog/2021-04-28-React-Router 的实现机制.md",
-    "ablog/media/b18333cf015460219e4c7a7af6e6fca2_MD5.png",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
