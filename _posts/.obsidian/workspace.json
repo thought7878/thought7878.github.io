@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "97db20fa325d09fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/简历/商智.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ad0be7696ca7b349",
             "type": "leaf",
             "state": {
@@ -121,14 +109,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
+                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97db20fa325d09fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/简历/商智.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3f8070c5691ec4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
+                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
+                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/28.实践篇-自定义弹窗.md"
+                "file": "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md"
               }
             }
           }
@@ -257,47 +269,46 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9d0c33bf3aa365c1",
+  "active": "c3f8070c5691ec4e",
   "lastOpenFiles": [
-    "libraries/_my-libraries/Message.md",
+    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
+    "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
+    "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "ablog/media/09bbf6be0166e0935c9e049614b4d70f_MD5.png",
+    "ablog/media/266d3af50a71f935343affd8b92a7059_MD5.png",
+    "ablog/media/1d63b2672d90081ae08a062609d51c42_MD5.png",
+    "ablog/media/236f7777daedebc1255d7eca33570b2c_MD5.png",
+    "ablog/media/3fae74973bf3201a6116e02f1136bd1b_MD5.png",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+    "interview/简历/商智.md",
+    "libraries/_my-libraries/calendar/代码实现.md",
+    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
+    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
     "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
+    "libraries/_my-libraries/Message.md",
     "react/React 进阶实践指南/26.实践篇-表单验证上.md",
     "interview/问题/项目经验.md",
     "react/react 通关秘籍/63、手写简易 React.md",
     "前端基建/非大厂的我们，要如何去搞前端基建？.md",
-    "interview/简历/商智.md",
     "react/react 通关秘籍/64、小册总结.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
     "react/react 通关秘籍/28、组件实战：Message.md",
-    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
-    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "libraries/_my-libraries/弹窗.md",
     "libraries/_my-libraries/calendar/需求记录.md",
     "ablog/2021-04-28-React-Router 的实现机制.md",
     "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
-    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
     "ablog/media/b18333cf015460219e4c7a7af6e6fca2_MD5.png",
     "ablog/media/a22d7fbc73280fe7782a1a267c2f45b3_MD5.png",
     "ablog/media/f5be9051aa479750c8bfd14f40bb5e1a_MD5.png",
     "ablog/media/3e9fb00e65d4d8bab087be328787e3d9_MD5.png",
     "ablog/media/9f5b6fbb0220a34218b4841d980defae_MD5.png",
-    "ablog/media/87fe179fa3b8f825f3e729891ee2c9bd_MD5.png",
     "react/深入浅出搞定 React/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
     "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
-    "ablog/media/6995d86315b18f276a65ece32c3f26e6_MD5.png",
     "ablog/media",
-    "react/深入浅出搞定 React/media/820181dfa5c3272a3d0f6956ee3b1c88_MD5.png",
-    "react/深入浅出搞定 React/media/e7ac93aa26c1e4542b03ff7e2f9399ab_MD5.png",
-    "react/深入浅出搞定 React/media/2d1c23b64c7eac86f0f86d63053df0a0_MD5.png",
-    "libraries/_my-libraries/calendar/代码实现.md",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
     "react/overview_面试.md",
-    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
-    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
-    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
-    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
     "interview/问题/media",
     "前端基建/media",
     "前端基建",
