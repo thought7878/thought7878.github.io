@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "3ad736f4d3a96d74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/_my-libraries/calendar/需求记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ad0be7696ca7b349",
             "type": "leaf",
             "state": {
@@ -114,9 +126,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb6a76b83fb86fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ablog/2021-04-28-React-Router 的实现机制.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "497e0a19a84c86e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -166,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -183,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "ablog/2021-04-28-React-Router 的实现机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "ablog/2021-04-28-React-Router 的实现机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历/商智.md"
+                "file": "ablog/2021-04-28-React-Router 的实现机制.md"
               }
             }
           }
@@ -232,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,21 +281,38 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "97db20fa325d09fd",
+  "active": "fb6a76b83fb86fe1",
   "lastOpenFiles": [
+    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
+    "ablog/2021-04-28-React-Router 的实现机制.md",
+    "ablog/media/b18333cf015460219e4c7a7af6e6fca2_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-05_21_从 React-Router 切入，系统学习前端路由解决方案.md",
+    "ablog/media/a22d7fbc73280fe7782a1a267c2f45b3_MD5.png",
+    "ablog/media/f5be9051aa479750c8bfd14f40bb5e1a_MD5.png",
+    "ablog/media/3e9fb00e65d4d8bab087be328787e3d9_MD5.png",
+    "ablog/media/9f5b6fbb0220a34218b4841d980defae_MD5.png",
+    "ablog/media/87fe179fa3b8f825f3e729891ee2c9bd_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
+    "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
+    "ablog/media/6995d86315b18f276a65ece32c3f26e6_MD5.png",
+    "ablog/media",
+    "react/深入浅出搞定 React/media/820181dfa5c3272a3d0f6956ee3b1c88_MD5.png",
+    "react/深入浅出搞定 React/media/e7ac93aa26c1e4542b03ff7e2f9399ab_MD5.png",
+    "react/深入浅出搞定 React/media/2d1c23b64c7eac86f0f86d63053df0a0_MD5.png",
     "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "libraries/_my-libraries/calendar/需求记录.md",
     "interview/简历/商智.md",
-    "interview/简历/media/14eac11f06632f47879360a64f7f1adb_MD5.png",
-    "interview/简历/media/4baeb320fad8708ea831f78dd101e41d_MD5.png",
-    "interview/简历/media/82f585a4ec8802b2ec1d56c21d6a9fd3_MD5.png",
-    "interview/简历/media/d9ac9367b2f7743729e1d45128d0474e_MD5.png",
+    "libraries/_my-libraries/calendar/代码实现.md",
+    "libraries/_my-libraries/calendar",
+    "libraries/_my-libraries",
+    "interview/问题/项目经验.md",
     "react/overview_面试.md",
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
     "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
     "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践（持续）.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
-    "interview/问题/项目经验.md",
     "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
     "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
     "react/玩转 React Hooks/6.基础篇｜自定义 Hooks 之 Jest（二）：DOM 类 Hooks.md",
@@ -270,30 +321,13 @@
     "engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
     "interview/前端知识体系及难点.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "react/总结/12.Fiber 架构的迭代动机与设计思想.md",
-    "interview/简历/如何高薪入职心仪的公司.md",
-    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
-    "engineering/2020-02-08-overview.md",
-    "engineering/教程/从0到1/4.提交规范：团队成员提交代码不规范，如何统一习惯？.md",
-    "react/react 通关秘籍/64、小册总结.md",
-    "react/react 通关秘籍/63、手写简易 React.md",
-    "react/react 通关秘籍/62、手写简易 React.md",
     "interview/问题/media",
-    "前端基建/media/96f810c3d6e1cccf94f453b7afa42254_MD5.webp",
-    "前端基建/media/a10f59e49186b79f30d2dda5113e7527_MD5.webp",
-    "前端基建/media/981c10fd57aa18aef5d93f8426138f54_MD5.webp",
-    "前端基建/media/7bbb97f4d80f0fd8f00a0b4cc3bd0973_MD5.webp",
-    "前端基建/media/fd8ecbc3c061c794dbd981bfc81ca3f4_MD5.webp",
-    "前端基建/media/85c426956a26ae8411cbc94b1abed91e_MD5.webp",
     "前端基建/media",
     "前端基建",
     "ablog",
     "0-blog",
     "react/玩转 React Hooks/media",
     "interview/问题",
-    "react/总结/media",
-    "react/深入浅出搞定 React/media",
-    "react/玩转 React Hooks",
     "security/未命名.canvas"
   ]
 }
