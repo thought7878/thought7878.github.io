@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5ed8e21cc6046355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/前端知识体系及难点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2b54b484ae311053",
             "type": "leaf",
             "state": {
@@ -38,18 +50,6 @@
               "type": "markdown",
               "state": {
                 "file": "methods/如何学习和记忆：斯坦福神经学家教你掌握超级学习者的技巧 -hubermanlab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ed8e21cc6046355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview/前端知识体系及难点.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -219,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md"
+                "file": "react/总结/React Virtual DOM Explained in Simple English.md"
               }
             }
           }
@@ -284,42 +283,43 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
+    "react/总结/media/76283c4c20fe227e6a5ad36939a61819_MD5.png",
+    "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+    "react/总结/React Virtual DOM Explained in Simple English.md",
+    "react/未命名",
+    "react/总结/09.虚拟DOM.md",
+    "ablog/Function.prototype.bind.md",
+    "interview/问题/项目经验.md",
+    "ablog/media/a998933c121fd96e14fdbf1c36eea0fc_MD5.png",
+    "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+    "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
+    "interview/前端知识体系及难点.md",
+    "ablog/事件循环中宏任务的优先级.md",
+    "ablog/media/b95b2d39378bcbb714863992d6a6b281_MD5.png",
+    "ablog/手写一个Promise.md",
+    "ablog/JavaScript数据类型及判断.md",
+    "ablog/JavaScript原型及原型链.md",
+    "ablog/media/4e1e099729a3579494904af9565ae362_MD5.png",
+    "ablog/media/d8af92a682e1dbab11238dfd0ca0b684_MD5.png",
+    "ablog/JavaScript防抖与节流.md",
+    "ablog/BFC到底是什么？.md",
+    "visualization/1.md",
+    "interview/字节跳动资深前端面试官的经验.md",
+    "要整理的.md",
+    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
     "ablog/media/bebbe43dfee82a1a377f6419479c303c_MD5.png",
     "ablog/media/dd508a743348c585ef1bf597e337d0ce_MD5.png",
-    "ablog/2021-07-08-Fiber 架构的迭代动机、设计思想、架构分层.md",
     "ablog/media/9f2102a85526517b6e44d1f855b1bdd3_MD5.png",
     "ablog/media/7d5c3b10efd41ff872da98105a0e3909_MD5.png",
     "ablog/media/6b32d8da55659c71ae05a3cc994c5d5a_MD5.png",
     "ablog/media/b38bcc1e608cc921db231661baf7b8cd_MD5.png",
-    "ablog/media/fc4e30e975dd07789a1167ddff25d7ba_MD5.png",
-    "ablog/media/dcdf7a5dcb362287f6326e2d181b29b6_MD5.png",
-    "ablog/media/ef2a06f3d08d700538d84d047a757cb8_MD5.png",
-    "ablog/media/5441022418782ac242f53391d6ccd9cd_MD5.png",
-    "interview/问题/项目经验.md",
-    "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
     "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
     "interview/简历/商智.md",
     "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
-    "ablog/2021-05-30-Hooks的异步处理：向服务器端发送请求.md",
-    "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
-    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-    "libraries/_my-libraries/calendar/代码实现.md",
-    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
-    "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
-    "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
-    "libraries/_my-libraries/Message.md",
-    "react/React 进阶实践指南/26.实践篇-表单验证上.md",
-    "react/react 通关秘籍/63、手写简易 React.md",
-    "前端基建/非大厂的我们，要如何去搞前端基建？.md",
-    "react/react 通关秘籍/64、小册总结.md",
-    "react/react 通关秘籍/7、组件实战：Calendar（上）.md",
-    "react/react 通关秘籍/8、组件实战：Calendar（下）.md",
-    "react/react 通关秘籍/28、组件实战：Message.md",
-    "libraries/_my-libraries/弹窗.md",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
@@ -329,7 +329,6 @@
     "ablog",
     "0-blog",
     "react/玩转 React Hooks/media",
-    "interview/问题",
     "security/未命名.canvas"
   ]
 }
