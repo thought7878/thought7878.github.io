@@ -145,7 +145,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
+                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48c701b3ea292335",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview/问题/工程化.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -218,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
+                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/总结/React Virtual DOM Explained in Simple English.md",
+                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/总结/React Virtual DOM Explained in Simple English.md"
+                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md"
               }
             }
           }
@@ -283,9 +296,18 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
-    "react/总结/media/76283c4c20fe227e6a5ad36939a61819_MD5.png",
+    "ablog/media/fc63f94b1636be9a3a97e094e18845f1_MD5.png",
+    "ablog/media/8f2962fd951ef6a9c7011abef296911d_MD5.png",
+    "ablog/media/ec1b846e4c1bba7debb7324f1d875a81_MD5.png",
+    "ablog/media/323b4c298b1e3766708528232e3f9325_MD5.png",
+    "interview/问题/工程化.md",
+    "interview/问题/CSS.md",
+    "interview/问题/JS.md",
+    "interview/问题/性能优化.md",
+    "interview/问题/场景面试题的思路.md",
     "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
     "react/总结/React Virtual DOM Explained in Simple English.md",
+    "react/总结/media/76283c4c20fe227e6a5ad36939a61819_MD5.png",
     "react/未命名",
     "react/总结/09.虚拟DOM.md",
     "ablog/Function.prototype.bind.md",
@@ -311,15 +333,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
     "ablog/media/bebbe43dfee82a1a377f6419479c303c_MD5.png",
     "ablog/media/dd508a743348c585ef1bf597e337d0ce_MD5.png",
-    "ablog/media/9f2102a85526517b6e44d1f855b1bdd3_MD5.png",
-    "ablog/media/7d5c3b10efd41ff872da98105a0e3909_MD5.png",
-    "ablog/media/6b32d8da55659c71ae05a3cc994c5d5a_MD5.png",
-    "ablog/media/b38bcc1e608cc921db231661baf7b8cd_MD5.png",
-    "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
-    "interview/简历/商智.md",
-    "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
-    "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
