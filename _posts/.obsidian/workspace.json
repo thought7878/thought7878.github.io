@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -283,23 +284,23 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
+    "ablog/media/dd508a743348c585ef1bf597e337d0ce_MD5.png",
+    "ablog/2021-07-08-Fiber 架构的迭代动机、设计思想、架构分层.md",
+    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
     "ablog/media/9f2102a85526517b6e44d1f855b1bdd3_MD5.png",
     "ablog/media/7d5c3b10efd41ff872da98105a0e3909_MD5.png",
     "ablog/media/6b32d8da55659c71ae05a3cc994c5d5a_MD5.png",
     "ablog/media/b38bcc1e608cc921db231661baf7b8cd_MD5.png",
     "ablog/media/fc4e30e975dd07789a1167ddff25d7ba_MD5.png",
     "ablog/media/dcdf7a5dcb362287f6326e2d181b29b6_MD5.png",
-    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
     "ablog/media/ef2a06f3d08d700538d84d047a757cb8_MD5.png",
     "ablog/media/5441022418782ac242f53391d6ccd9cd_MD5.png",
     "ablog/media/59db324810d1e12fb90f0202f6dccb46_MD5.png",
     "interview/问题/项目经验.md",
     "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
-    "ablog/2021-07-08-Fiber 架构的迭代动机、设计思想、架构分层.md",
     "ablog/2021-06-18-Reconciliation 和 React 15 的 Diff 算法.md",
     "ablog/media/a8808f4045f04398e292485f0b443b7c_MD5.png",
-    "ablog/media/7d25a4ae55335e2bd897084887edeff2_MD5.png",
     "interview/简历/商智.md",
     "react/深入浅出搞定 React/2020-03-01-05_05_数据是如何在 React 组件之间流动的？（下）.md",
     "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
