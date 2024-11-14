@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+                "file": "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -231,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+                "file": "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+                "file": "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -271,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md"
+                "file": "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md"
               }
             }
           }
@@ -296,19 +295,22 @@
   },
   "active": "bdda1d47bfdc9740",
   "lastOpenFiles": [
+    "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+    "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
+    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
+    "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
+    "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
     "ablog/media/1e5c625b1f2b36ab0f90c2120fa144bb_MD5.png",
     "ablog/media/a9af359c2117461f12c30c7a76a4446c_MD5.png",
     "ablog/media/8ad7514ee570a9ed61f79974e66e19ae_MD5.png",
     "ablog/media/4265d50855ade63cbd8e9fabedc48e6e_MD5.png",
     "ablog/media/cfa227b1346dd22554ca2635c4256053_MD5.png",
     "ablog/media/bd98b47e92a4282317eb3f0e551d3835_MD5.png",
-    "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
     "ablog/media/969dbdf34339952499d7323e31fc8943_MD5.png",
     "ablog/media/Pasted image 20241114101416.png",
     "ablog/media/4b596ad2140623fdb6ac2f1d7b8637a9_MD5.png",
     "ablog/media/531f78236e47f253000aba9b4554ba27_MD5.png",
     "interview/问题/工程化.md",
-    "ablog/media/f99e5aa3f547c432394a9197fcfbd54d_MD5.png",
     "interview/问题/CSS.md",
     "interview/问题/JS.md",
     "interview/问题/性能优化.md",
@@ -320,8 +322,6 @@
     "interview/问题/项目经验.md",
     "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
     "react/深入浅出搞定 React/2020-03-01-05_13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
-    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
-    "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
     "interview/前端知识体系及难点.md",
     "ablog/事件循环中宏任务的优先级.md",
     "ablog/手写一个Promise.md",
@@ -332,7 +332,6 @@
     "visualization/1.md",
     "interview/字节跳动资深前端面试官的经验.md",
     "要整理的.md",
-    "react/深入浅出搞定 React/2020-03-01-05_16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
