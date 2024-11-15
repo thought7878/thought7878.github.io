@@ -104,48 +104,12 @@
             }
           },
           {
-            "id": "9d0c33bf3aa365c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "97db20fa325d09fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "interview/简历/商智.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36d7d75b97ef7fc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdda1d47bfdc9740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,9 +150,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de95e6fa593c799b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc66539be6cfb190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0be09527765cafb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "libraries/_my-libraries/useSelections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "常用自定义 Hooks 开发",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "browser/浏览器的渲染和事件循环.md",
+                "file": "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "browser/浏览器的渲染和事件循环.md",
+                "file": "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "browser/浏览器的渲染和事件循环.md"
+                "file": "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md"
               }
             }
           }
@@ -317,10 +317,27 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c913e86789d9cbfc",
+  "active": "de95e6fa593c799b",
   "lastOpenFiles": [
-    "browser/浏览器渲染原理.md",
+    "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
+    "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
+    "libraries/_my-libraries/useSelections.md",
+    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
+    "任务记录/待办.md",
+    "libraries/_my-libraries/Modal.md",
+    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
+    "react/玩转 React Hooks/6.基础篇｜自定义 Hooks 之 Jest（二）：DOM 类 Hooks.md",
+    "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
+    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
+    "react/玩转 React Hooks/19.实践篇｜CheckCard：多选卡片.md",
+    "interview/问题/项目经验.md",
+    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+    "interview/简历/商智.md",
+    "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
+    "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+    "interview/问题/工程化.md",
     "browser/浏览器的渲染和事件循环.md",
+    "browser/浏览器渲染原理.md",
     "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
     "browser/media/578b290b76d5ccce01b4e622b5431364_MD5.png",
     "browser/media/f8d8cece5cf9df7f304a4cdd3b22495e_MD5.png",
@@ -329,8 +346,6 @@
     "browser/media",
     "ablog/2021-03-22-浏览器的渲染和事件循环.md",
     "ablog/2021-04-28-React-Router 的实现机制.md",
-    "任务记录/待办.md",
-    "interview/问题/工程化.md",
     "ablog/事件循环中宏任务的优先级.md",
     "ablog/media/b1bf49445813d9fff7411f947c52e8a4_MD5.gif",
     "ablog/media/2f0e91352bdaf8032d776f07bac3ba0a_MD5.png",
@@ -338,27 +353,12 @@
     "ablog/media/46a275f7527310546016519c00a7b453_MD5.png",
     "ablog/media/0d596c8f1e6f906284f42716eeb675b5_MD5.png",
     "react/react 通关秘籍/28、组件实战：Message.md",
-    "libraries/_my-libraries/Modal.md",
     "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
     "libraries/_my-libraries/Message.md",
     "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
-    "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
-    "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
-    "任务记录/2024/11月/11-14.md",
-    "libraries/_my-libraries/calendar/需求记录.md",
-    "ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
     "任务记录/2024/11月",
     "任务记录/2024",
-    "interview/前端知识体系及难点.md",
     "任务记录",
-    "interview/简历/商智.md",
-    "react/深入浅出搞定 React/2020-03-01-05_14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
-    "ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
-    "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
-    "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
-    "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
-    "interview/问题/CSS.md",
-    "interview/问题/JS.md",
     "react/未命名",
     "ablog/media",
     "libraries/_my-libraries/calendar",
