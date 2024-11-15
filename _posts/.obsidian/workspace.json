@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ablog/浏览器渲染和事件循环.md",
+                "file": "browser/浏览器的渲染和事件循环.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -255,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ablog/浏览器渲染和事件循环.md",
+                "file": "browser/浏览器的渲染和事件循环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ablog/浏览器渲染和事件循环.md",
+                "file": "browser/浏览器的渲染和事件循环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ablog/浏览器渲染和事件循环.md"
+                "file": "browser/浏览器的渲染和事件循环.md"
               }
             }
           }
@@ -320,23 +319,28 @@
   },
   "active": "c913e86789d9cbfc",
   "lastOpenFiles": [
-    "ablog/浏览器渲染和事件循环.md",
+    "browser/浏览器渲染原理.md",
+    "browser/浏览器的渲染和事件循环.md",
+    "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
+    "browser/media/578b290b76d5ccce01b4e622b5431364_MD5.png",
+    "browser/media/f8d8cece5cf9df7f304a4cdd3b22495e_MD5.png",
+    "browser/media/66a8e4c66d7d9fd75cfa9802fee3fd00_MD5.png",
+    "browser/media/3c37bfbafe0ce559de5416a3648274ef_MD5.png",
+    "browser/media",
+    "ablog/2021-03-22-浏览器的渲染和事件循环.md",
+    "ablog/2021-04-28-React-Router 的实现机制.md",
+    "任务记录/待办.md",
+    "interview/问题/工程化.md",
     "ablog/事件循环中宏任务的优先级.md",
     "ablog/media/b1bf49445813d9fff7411f947c52e8a4_MD5.gif",
     "ablog/media/2f0e91352bdaf8032d776f07bac3ba0a_MD5.png",
     "ablog/media/d7c078dbff22084c81757535e0042fad_MD5.png",
     "ablog/media/46a275f7527310546016519c00a7b453_MD5.png",
     "ablog/media/0d596c8f1e6f906284f42716eeb675b5_MD5.png",
-    "ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",
-    "ablog/media/e1834eb494195aaf62e56eaa46e12b13_MD5.png",
-    "ablog/media/fae9ef4cbe65dd4aedf6d880448aa977_MD5.png",
-    "ablog/media/2b20c76f5a57a8e002c328ddd6a64818_MD5.png",
     "react/react 通关秘籍/28、组件实战：Message.md",
-    "任务记录/待办.md",
     "libraries/_my-libraries/Modal.md",
     "react/React 进阶实践指南/28.实践篇-自定义弹窗.md",
     "libraries/_my-libraries/Message.md",
-    "interview/问题/工程化.md",
     "react/React 进阶实践指南/29.[WIP]实践篇-自定义 Hooks 设计.md",
     "react/React 进阶实践指南/29.实践篇-自定义 Hooks 设计（持续）.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
@@ -353,19 +357,14 @@
     "ablog/2021-07-18-ReactDOM.render 的渲染流程1.md",
     "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
     "react/深入浅出搞定 React/2020-03-01-05_15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
-    "ablog/media/1e5c625b1f2b36ab0f90c2120fa144bb_MD5.png",
     "interview/问题/CSS.md",
     "interview/问题/JS.md",
-    "interview/问题/性能优化.md",
-    "interview/问题/场景面试题的思路.md",
-    "react/总结/React Virtual DOM Explained in Simple English.md",
     "react/未命名",
     "ablog/media",
     "libraries/_my-libraries/calendar",
     "libraries/_my-libraries",
     "interview/问题/media",
     "前端基建/media",
-    "前端基建",
     "security/未命名.canvas"
   ]
 }
