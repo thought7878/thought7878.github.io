@@ -188,7 +188,31 @@
             }
           },
           {
-            "id": "fb32ddbfc22013a2",
+            "id": "68fce09974d9aa56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/webpack/Loader和Plugin的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6f0e278837aec7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76b7bcc3d65be387",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -198,21 +222,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3cd8f7e3d29cd1f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/package-manager/browserslist.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/package-manager/browserslist.md",
+                "file": "engineering/webpack/Loader和Plugin的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/package-manager/browserslist.md",
+                "file": "engineering/webpack/Loader和Plugin的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/package-manager/browserslist.md"
+                "file": "engineering/webpack/Loader和Plugin的区别.md"
               }
             }
           }
@@ -341,9 +353,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3cd8f7e3d29cd1f0",
+  "active": "68fce09974d9aa56",
   "lastOpenFiles": [
     "interview/问题/工程化.md",
+    "engineering/webpack/Loader和Plugin的区别.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
+    "要整理的.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+    "engineering/教程/Webpack5 核心原理与应用实践/8 使用 Webpack 构建微前端应用.md",
+    "engineering/webpack/原理总结1.md",
     "engineering/package-manager/browserslist.md",
     "engineering/package-manager/npx 命令.md",
     "engineering/package-manager/package-lock.json.md",
@@ -356,21 +375,14 @@
     "libraries/_my-libraries/useSelections.md",
     "engineering/面试题的回答方法.md",
     "engineering/面试题-来源网络.md",
-    "要整理的.md",
     "engineering/需整理的/总结.md",
     "engineering/需整理的/Prettier&Eslint.md",
     "methods/如何规划好一天.md",
     "interview/前端知识体系及难点.md",
     "engineering/需整理的/2020-02-08-overview.md",
     "engineering/需整理的/npm package发包 & github release发版.md",
-    "engineering/需整理的/overview- knowledge-architecture.md",
     "engineering/需整理的",
-    "ablog/模块化.md",
-    "browser/浏览器的渲染和事件循环.md",
-    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
-    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
     "react/hook/基础/media",
-    "react/hook/基础/2021-08-08-1.overview.md",
     "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
     "browser/media/578b290b76d5ccce01b4e622b5431364_MD5.png",
     "browser/media/f8d8cece5cf9df7f304a4cdd3b22495e_MD5.png",
