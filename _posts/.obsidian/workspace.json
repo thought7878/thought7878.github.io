@@ -198,21 +198,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ece5084db27e61f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "engineering/package-manager/peerDependencies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -262,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/package-manager/peerDependencies.md",
+                "file": "interview/问题/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/package-manager/peerDependencies.md",
+                "file": "interview/问题/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/package-manager/peerDependencies.md"
+                "file": "interview/问题/工程化.md"
               }
             }
           }
@@ -341,14 +330,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ece5084db27e61f7",
+  "active": "fb32ddbfc22013a2",
   "lastOpenFiles": [
-    "engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
+    "engineering/package-manager/Pnpm.md",
+    "interview/问题/工程化.md",
     "engineering/package-manager/peerDependencies.md",
+    "engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
     "engineering/package-manager/NPM/2021-08-18-1.overview.md",
     "engineering/package-manager/NPM/2021-08-19-2.install.md",
     "engineering/package-manager/NPM/2021-08-19-3.config.md",
-    "interview/问题/工程化.md",
     "libraries/_my-libraries/useSelections.md",
     "engineering/面试题的回答方法.md",
     "engineering/面试题-来源网络.md",
@@ -370,7 +360,6 @@
     "react/玩转 React Hooks/3.基础篇｜5 种 React Hooks API 的介绍和使用（v18 篇）.md",
     "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
     "任务记录/待办.md",
-    "libraries/_my-libraries/Modal.md",
     "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
     "browser/media/578b290b76d5ccce01b4e622b5431364_MD5.png",
     "browser/media/f8d8cece5cf9df7f304a4cdd3b22495e_MD5.png",
