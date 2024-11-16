@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/webpack/Loader和Plugin的区别.md",
+                "file": "engineering/webpack/常见的Loader.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "engineering/webpack/Loader和Plugin的区别.md",
+                "file": "engineering/webpack/常见的Loader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "engineering/webpack/Loader和Plugin的区别.md",
+                "file": "engineering/webpack/常见的Loader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "engineering/webpack/Loader和Plugin的区别.md"
+                "file": "engineering/webpack/常见的Loader.md"
               }
             }
           }
@@ -355,6 +355,8 @@
   },
   "active": "68fce09974d9aa56",
   "lastOpenFiles": [
+    "engineering/webpack/常见的Plugin.md",
+    "engineering/webpack/常见的Loader.md",
     "interview/问题/工程化.md",
     "engineering/webpack/Loader和Plugin的区别.md",
     "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
@@ -379,8 +381,6 @@
     "engineering/需整理的/Prettier&Eslint.md",
     "methods/如何规划好一天.md",
     "interview/前端知识体系及难点.md",
-    "engineering/需整理的/2020-02-08-overview.md",
-    "engineering/需整理的/npm package发包 & github release发版.md",
     "engineering/需整理的",
     "react/hook/基础/media",
     "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
