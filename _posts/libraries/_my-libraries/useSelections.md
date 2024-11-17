@@ -62,101 +62,10 @@ useSelections 维护了选中的列表项按钮的状态。通过 *new Set* 更�
 直接就上代码：
 
 ```ts
-import { useSafeState, useCreation } from "..";
-const useSelections = <T,>(lists: T[], initValues: T[] = []) => {
-  const [selected, setSelected] = useSafeState<T[]>(initValues);
 
-  // 通过new Set去处理选中的数据,转化为数组需要使用Array.from
-  const selectedSet = useCreation(() => new Set(selected), [selected]);
-
-  const isSelected = (data: T) => selectedSet.has(data);
-
-  // 增加
-  const selectAdd = (data: T | T[]) => {
-    if (Array.isArray(data)) {
-      data.map((item) => selectedSet.add(item));
-    } else {
-      selectedSet.add(data);
-    }
-    return setSelected(Array.from(selectedSet));
-  };
-
-  // 删除
-  const selectDel = (data: T | T[]) => {
-    if (Array.isArray(data)) {
-      data.map((item) => selectedSet.delete(item));
-    } else {
-      selectedSet.delete(data);
-    }
-    return setSelected(Array.from(selectedSet));
-  };
-
-  // 设置
-  const setSelect = (data: T | T[]) => {
-    selectedSet.clear();
-    if (Array.isArray(data)) {
-      data.map((item) => selectedSet.add(item));
-    } else {
-      selectedSet.add(data);
-    }
-    return setSelected(Array.from(selectedSet));
-  };
-
-  // 状态切换
-  const toggle = (data: T) =>
-    isSelected(data) ? selectDel(data) : selectAdd(data);
-
-  // 全部未选中
-  const noneSelected = useCreation(
-    () => lists.every((ele) => !selectedSet.has(ele)),
-    [lists, selectedSet]
-  );
-
-  // 全部选中
-  const allSelected = useCreation(() => {
-    return lists.every((ele) => selectedSet.has(ele));
-  }, [lists, selectedSet]);
-
-  // 是否半选
-  const partiallySelected = useCreation(
-    () => !noneSelected && !allSelected,
-    [noneSelected, allSelected]
-  );
-
-  // 全选
-  const selectAll = () => {
-    lists.map((item) => selectedSet.add(item));
-    setSelected(Array.from(selectedSet));
-  };
-
-  const unSelectAll = () => {
-    lists.map((item) => selectedSet.delete(item));
-    setSelected(Array.from(selectedSet));
-  };
-
-  const toggleAll = () => (allSelected ? unSelectAll() : selectAll());
-
-  return {
-    selected, // 以选择的元素组
-    isSelected, // 是否被选中
-    selectAdd,
-    selectDel,
-    toggle,
-    setSelect,
-    noneSelected,
-    allSelected,
-    partiallySelected,
-    selectAll,
-    unSelectAll,
-    toggleAll,
-  } as const;
-};
-
-export default useSelections;
 ```
 
 **效果：**
-
 
 <p align=center><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/65f884125a414824add5ac3574929d4e~tplv-k3u1fbpfcp-watermark.image?" alt="img.gif"  /></p>
 
@@ -167,7 +76,7 @@ export default useSelections;
 
 <p align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1d1dba21fb9459585a0fa20fb8ff999~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"  /></p>
 
-> 实际上，useSelection 的实现并不难，只是它跟之前的 Hooks 略有不同，它是以实际场景为条件所创建的，依赖度相对较高。但这里有一个提醒：**Hooks 是基于逻辑的，而非 View 层面**。
+> 实际上，useSelection 的实现并不难，它是以实际场景为条件所创建的，依赖度相对较高。但这里有一个提醒：**Hooks 是基于逻辑的，而非 View 层面**。
 
 
 ## 参考
