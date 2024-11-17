@@ -116,6 +116,18 @@
             }
           },
           {
+            "id": "df54d7d238d58d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ablog/2020-12-11-JavaScript防抖与节流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "48c701b3ea292335",
             "type": "leaf",
             "state": {
@@ -133,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libraries/_my-libraries/calendar/需求记录.md",
+                "file": "任务记录/待办.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "ablog/2020-12-11-JavaScript防抖与节流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/简历/商智.md",
+                "file": "ablog/2020-12-11-JavaScript防抖与节流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/简历/商智.md"
+                "file": "ablog/2020-12-11-JavaScript防抖与节流.md"
               }
             }
           }
@@ -341,14 +353,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "97db20fa325d09fd",
+  "active": "df54d7d238d58d76",
   "lastOpenFiles": [
+    "ablog/2021-07-08-Fiber 架构的目的、设计思想、架构分层.md",
+    "ablog/2020-12-11-JavaScript防抖与节流.md",
+    "interview/简历/商智.md",
     "libraries/_my-libraries/SortableTable.md",
-    "libraries/_my-libraries/calendar/需求记录.md",
+    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
     "任务记录/待办.md",
+    "libraries/_my-libraries/calendar/需求记录.md",
     "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
     "engineering/webpack/常见的Plugin.md",
-    "react/玩转 React Hooks/8.基础篇｜常用自定义 Hooks 开发.md",
     "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
     "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
     "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
@@ -356,7 +371,6 @@
     "react/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
     "react/玩转 React Hooks/6.基础篇｜自定义 Hooks 之 Jest（二）：DOM 类 Hooks.md",
     "libraries/_my-libraries/useSelections.md",
-    "interview/简历/商智.md",
     "interview/简历/media/61db31c2376f6ddbbcada5a95e50a836_MD5.png",
     "base/js/知识点总结/Object常用的方法.md",
     "base/js/知识点总结/常用的数组方法.md",
@@ -368,8 +382,6 @@
     "engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
     "engineering/教程/Webpack5 核心原理与应用实践/1 重新认识 Webpack：旧时代的破局者.md",
     "interview/问题/工程化.md",
-    "engineering/webpack/Webpack的构建流程.md",
-    "engineering/webpack/Loader和Plugin的区别.md",
     "engineering/需整理的",
     "react/hook/基础/media",
     "browser/media/6f297f7a8a42d48bc37e513152e971cb_MD5.png",
