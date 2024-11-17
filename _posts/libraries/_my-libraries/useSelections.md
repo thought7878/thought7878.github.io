@@ -6,23 +6,40 @@
 
 <p align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e5fcc97f1d884624a96e5f2c35e2b81c~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"  /></p>
 
-*简要分析下场景：*
+## 需求
+
 1. 两类按钮：全选按钮和单项按钮
 2. 所有的按钮可单独点击，第一次点击为选中状态，再次点击为未选中状态；
-3. 1 ～ 9，有一个选中，全选按钮为半选状态，全部选中为全选状态；
-4. 点击全选按钮，控制所有 1～9 按钮为全选状态，再次点击，全部为未选中状态。
+3. 单项按钮：有一个选中，全选按钮为半选状态，全部选中为全选状态；
+4. 全选按钮：点击后控制所有单项按钮为全选状态，再次点击，全部为未选中状态。
 
-首先核心点是全选按钮与 1～9 按钮的关联，1 ～ 9 的状态要在 useSelections 中，所以 useSelections 的第一个参数是 1～9 的数据。
 
+
+## 实现
+
+### 入参
+首先核心点是全选按钮与单项按钮的关联，单项按钮的状态要在 useSelections 中，所以 useSelections 的第一个参数是单项按钮的数组数据。
 其次，分析下 Checkbox（Antd组件） 这个全选组件，选中通过 `checked` 属性、半选通过`indeterminate`、点击通过 `onClick` 属性。
 
-那么对应的 useSelections 的反参为：
-- **selected**：选中的数据列表；
+useSelections 的内部状态和数据：
+- **selected**：选中值数组，initValues: 初始化选定值的数组
+- **selectedSet**：通过new Set 去掉重复的选中的数据,转化为数组需要使用Array.from。使用useCreation钩子初始化一个Set对象，该对象用于存储选中的元素，此方法确保仅在selected依赖项变化时才重新创建Set对象，以优化性能
+
+### 出参
+
+useSelections 的反参为：
+- **selected**：选中值数组，initValues: 初始化选定值的数组；
+- **isSelected**：检查给定数据是否被选中，通过判断数据是否在 selected 中；
+- **selectAdd**：向选定集合selectedSet中，添加元素或数组
+- **selectDel**：从selectedSet中，删除选中的元素
+- **setSelect**：此函数用于更新选中项的集合，接受单个项或项的数组作为参数。它首先清除当前的选中项集合，然后根据传入的数据重新填充集合，最后更新选中的状态
 - **toggle**：1 ～ 9 单个切换的方法，如果 selected 中存在对应的数据，则剔除，如果不存在，则增加；
-- **isSelected**：判断数据是否在 selected 中，可以判断 Checkbox 是否选中状态；
-- **allSelected**：全选的状态；
-- **toggleAll**：切换全选的方法；
+- **noneSelected**：是否全部未选中
+- **allSelected**：是否全部选中；
 - **partiallySelected**：是否在半选状态。
+- **selectAll**：全选所有项目。将所有列表项添加到选中集合中，并更新选中项数组
+- **unSelectAll**：取消选择所有项目。
+- **toggleAll**：切换所有项的选中状态。此函数根据当前所有项是否已选中来决定是调用 unSelectAll() 还是 selectAll()。它的作用是批量选择或取消选择所有项，具体行为取决于当前的选中状态
 
 我们可以发现 *useSelections 实际上是对 1～9 状态的一个维护*，这里通过 new Set 去处理，原因是 Set 处理数据可以方便点，但要注意的是我们拿数据的时候要通过 **Array.from** 来处理。
 
