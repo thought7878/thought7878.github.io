@@ -157,9 +157,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/hook/20.React的未来：什么是服务器端组件.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -262,7 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 493.5
   },
   "right": {
     "id": "b88e90de2e8830a6",
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/hook/20.React的未来：什么是服务器端组件.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/hook/20.React的未来：什么是服务器端组件.md",
+                "file": "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/hook/20.React的未来：什么是服务器端组件.md"
+                "file": "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md"
               }
             }
           }
@@ -343,6 +343,14 @@
   },
   "active": "7043e07e262bff7b",
   "lastOpenFiles": [
+    "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
+    "react/深入浅出搞定 React/2020-03-01-05_07_React-Hook 设计动机与工作模式（下）.md",
+    "react/深入浅出搞定 React/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
+    "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
+    "react/深入浅出搞定 React/2020-03-01-02_02_为什么 React 16 要更改组件的生命周期？（上）.md",
+    "react/深入浅出搞定 React/2020-03-01-04_04_数据是如何在 React 组件之间流动的？（上）.md",
+    "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
+    "react/hook/20.React的未来：什么是服务器端组件.md",
     "react/hook/19.第三方工具库：最常用的第三方工具库有哪些.md",
     "react/hook/18.单元测试：自定义Hooks应该如何进行单元测试.md",
     "react/hook/17.打包部署：你的应用是如何上线的.md",
@@ -361,14 +369,6 @@
     "react/hook/基础/3.Built-in-hooks-1.md",
     "react/hook/基础/2.why-hooks.md",
     "react/hook/基础/1.overview.md",
-    "ablog/2020-11-19-自定义 Hooks.md",
-    "interview/简历/商智.md",
-    "ablog/2020-12-11-JavaScript防抖与节流.md",
-    "react/hook/基础/6.hooks-customize.md",
-    "interview/问题/React、Redux、React-Router.md",
-    "interview/问题/工程化.md",
-    "任务记录/2024/11月/19.md",
-    "libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
     "libraries/_my-libraries/带查询的分页加载长列表的 Hook",
     "interview/简历/media/61db31c2376f6ddbbcada5a95e50a836_MD5.png",
     "engineering/需整理的",
