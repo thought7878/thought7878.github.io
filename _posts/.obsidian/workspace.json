@@ -145,7 +145,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "file": "libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7043e07e262bff7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -266,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "file": "interview/简历/商智.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
+                "file": "interview/简历/商智.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md"
+                "file": "interview/简历/商智.md"
               }
             }
           }
@@ -329,9 +341,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "be85c2b292e340c9",
+  "active": "97db20fa325d09fd",
   "lastOpenFiles": [
+    "react/hook/实践/2021-08-11-9.异步处理：如何向服务器端发送请求.md",
+    "react/hook/基础/2021-08-11-7.全局状态管理:如何在函数组件中使用 Redux.md",
     "libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
+    "interview/问题/工程化.md",
+    "tools/Apifox.md",
     "react/React 进阶实践指南/30.实践篇-自定义 Hooks 实践.md",
     "ablog/手写一个Promise.md",
     "任务记录/待办.md",
@@ -354,10 +370,6 @@
     "libraries/_my-libraries/SortableTable.md",
     "libraries/_my-libraries/calendar/需求记录.md",
     "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
-    "engineering/webpack/常见的Plugin.md",
-    "react/玩转 React Hooks/7.基础篇｜自定义 Hooks 之 Jest（三）：场景类 Hooks.md",
-    "react/玩转 React Hooks/4.基础篇｜自定义 Hooks 开发：响应式的 useState.md",
-    "react/玩转 React Hooks/1.预习篇｜React 组件的通信和强化方式.md",
     "interview/简历/media/61db31c2376f6ddbbcada5a95e50a836_MD5.png",
     "engineering/需整理的",
     "react/hook/基础/media",
