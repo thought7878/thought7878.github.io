@@ -7,7 +7,7 @@ Context API 是 **React 官方提供的一种组件树*全局通信*的方式**�
 
 在 React 16.3 之前，Context API 由于存在种种局限性，并不被 React 官方提倡使用，开发者更多的是把它作为一个概念来探讨。<u>而从 v 16.3.0 开始，React 对 Context API 进行了改进，新的 Context API 具备更强的可用性</u>。这里我们首先针对 React 16 下 Context API 的形态进行介绍。
 
-#### Context API 工作流
+#### Context 的工作流
 
 Context API 有 3 个关键的要素：React.createContext、Provider、Consumer。
 
