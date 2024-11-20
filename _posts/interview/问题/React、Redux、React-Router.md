@@ -40,12 +40,14 @@ JSX 经过 Babel 编译成JS的React.createElement()调用
 
 ### 简述React的生命周期
 
+
+
+## 组件的数据流动和通信
+### 数据如何在 React 组件中流动？React中组件之间如何通信？
+props、context、状态管理工具（基于React和Redux的React-Redux）
+
+
 ## 对高阶组件的理解？应用场景？
-
-## 数据如何在 React 组件中流动
-
-## React中组件之间如何通信？
-
 
 ## state和 props 有什么区别
 

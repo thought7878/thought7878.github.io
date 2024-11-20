@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "file": "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,6 +141,24 @@
           }
         ],
         "currentTab": 9
+      },
+      {
+        "id": "8f273f233ad5d2c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07361df9baf8d4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/04.组件的数据流动和通信.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -206,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "file": "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "file": "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md"
+                "file": "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md"
               }
             }
           }
@@ -271,10 +290,27 @@
   },
   "active": "aa6732857b31f51d",
   "lastOpenFiles": [
-    "_posts/interview/问题/React、Redux、React-Router.md",
+    "_posts/react/总结/04.组件的数据流动和通信.md",
+    "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
     "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
-    "_posts/react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+    "_posts/interview/问题/React、Redux、React-Router.md",
     "_posts/react/React 进阶实践指南/23.生态篇-React-redux.md",
+    "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
+    "_posts/react/总结/08.React-Hooks 的工作原理.md",
+    "_posts/interview/薪资情况/JD.md",
+    "_posts/interview/薪资情况/media/8a4adafc31c770019cb4cbeeb80af983_MD5.png",
+    "_posts/interview/薪资情况/media/e0cdaed55e9486a1feca4fe875671d06_MD5.png",
+    "_posts/interview/薪资情况/media/aa0c1ff866e739986131c8526bf02b4f_MD5.png",
+    "_posts/interview/薪资情况/media/58db84c5ca2f2482f0fd8840cebfb9b8_MD5.png",
+    "_posts/interview/薪资情况/media/6300832350da77e84242037ede1d0032_MD5.png",
+    "_posts/interview/薪资情况/media/91c692ba7694b27ad577d690a08b1693_MD5.png",
+    "_posts/interview/薪资情况/media/3ca3f4e28d366c1950103a5b546acf91_MD5.png",
+    "_posts/interview/薪资情况/media/7e13bd40cfb00a046e2c66852c47539f_MD5.png",
+    "_posts/interview/薪资情况/media/0439b47b9c287f97ef6b31eaeabf9970_MD5.png",
+    "_posts/interview/薪资情况/media/1652371f12bf1bb75db64420fb5473f6_MD5.png",
+    "_posts/interview/薪资情况/media",
+    "_posts/interview/薪资情况",
+    "_posts/react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
     "_posts/任务记录/待办.md",
     "_posts/react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
     "_posts/libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",

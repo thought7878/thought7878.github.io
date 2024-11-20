@@ -1,13 +1,13 @@
 
-在上个课时，我们掌握了 React 数据流方案中风格相对“朴素”的 Props 单向数据流方案，以及通用性较强的“发布-订阅”模式。在本课时，我们将一起认识 React 天然具备的全局通信方式“Context API”，并对 Redux 的设计思想和编码形态进行初步的探索。
+在上个课时，我们掌握了 React 数据流方案中风格相对“朴素”的 Props 单向数据流方案，以及通用性较强的“发布-订阅”模式。在本课时，我们将一起*认识 React 天然具备的全局通信方式“Context API”，并对 Redux 的设计思想和编码形态进行初步的探索*。
 
 ### 使用 Context API 维护全局状态
 
-Context API 是 **React 官方提供的一种组件树全局通信的方式**。
+Context API 是 **React 官方提供的一种组件树*全局通信*的方式**。
 
 在 React 16.3 之前，Context API 由于存在种种局限性，并不被 React 官方提倡使用，开发者更多的是把它作为一个概念来探讨。<u>而从 v 16.3.0 开始，React 对 Context API 进行了改进，新的 Context API 具备更强的可用性</u>。这里我们首先针对 React 16 下 Context API 的形态进行介绍。
 
-#### 图解 Context API 工作流
+#### Context API 工作流
 
 Context API 有 3 个关键的要素：React.createContext、Provider、Consumer。
 
@@ -17,7 +17,8 @@ Context API 有 3 个关键的要素：React.createContext、Provider、Consumer
 
 注意：Cosumer 不仅能够读取到 Provider 下发的数据，**还能读取到这些数据后续的更新**。这意味着数据在生产者和消费者之间能够及时同步，这对 Context 这种模式来说至关重要。
 
-#### 从编码的角度认识“三要素”
+#### createContext、Provider、Consumer
+从编码的角度认识“三要素”
 
 - **React.createContext**，作用是创建一个 context 对象。下面是一个简单的用法示范：
   
@@ -62,7 +63,7 @@ const { Provider, Consumer } = AppContext
 
 #### 新的 Context API 解决了什么问题
 
-想要知道新的 Context API 解决了什么问题，先要知道过时的 Context API 存在什么问题。
+想要知道新的 Context API 解决了什么问题，先要知道*过时的 Context API 存在什么问题*。
 
 **我们先从编码角度认识“过时的”Context API**
 
@@ -116,17 +117,19 @@ MessageList.childContextTypes = {
 - 首先，通过给 MessageList 设置 childContextTypes 和 getChildContext，可以使其承担起 context 的生产者的角色；
 - 然后，MessageList 的组件树内部所有层级的组件都可以通过定义 contextTypes 来成为数据的消费者，进而通过 this.context 访问到 MessageList 提供的数据。
 
-现在回过头来，我们再从编码角度审视一遍“过时的” Context API 的用法。首先映入眼帘的第一个问题是**代码不够优雅**：一眼望去，你很难迅速辨别出谁是 Provider、谁是 Consumer。同时这琐碎的属性设置和 API 编写过程，也足够我们写代码的时候“喝一壶了”。总而言之，从编码形态的角度来说，“过时的” Context API 和新 Context API 相去甚远。不过，这还不是最要命的，最要命的弊端我们从编码层面暂时感知不出来，但是一旦你感知到它，麻烦就大了——前面我们特别提到过，“Cosumer 不仅能够读取到 Provider 下发的数据，还能够读取到这些数据后续的更新”。**数据在生产者和消费者之间的及时同步，这一点对于 Context 这种模式来说是至关重要的，但旧的 Conext API 无法保证这一点：**
+现在回过头来，我们再从编码角度审视一遍“过时的” Context API 的用法。首先映入眼帘的第一个问题是*代码不够优雅*：一眼望去，你很难迅速辨别出谁是 Provider、谁是 Consumer。同时这琐碎的属性设置和 API 编写过程，也足够我们写代码的时候“喝一壶了”。总而言之，从编码形态的角度来说，“过时的” Context API 和新 Context API 相去甚远。不过，这还不是最要命的，最要命的弊端我们从编码层面暂时感知不出来，但是一旦你感知到它，麻烦就大了——前面我们特别提到过，“Cosumer 不仅能够读取到 Provider 下发的数据，还能够读取到这些数据后续的更新”。*数据在生产者和消费者之间的及时同步，这一点对于 Context 这种模式来说是至关重要的，但旧的 Conext API 无法保证这一点：*
 
 > 如果组件提供的一个 Context 发生了变化，而中间父组件的 shouldComponentUpdate 返回 false，**那么使用到该值的后代组件不会进行更新**。使用了 Context 的组件则完全失控，所以基本上没有办法能够可靠的更新 Context。[这篇博客文章](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)很好地解释了为何会出现此类问题，以及你该如何规避它。  ——React 官方
 
-新的 Context API 改进了这一点：**即便组件的 shouldComponentUpdate 返回 false，它仍然可以“穿透”组件继续向后代组件进行传播**，**进而确保了数据生产者和数据消费者之间数据的一致性**。再加上更加“好看”的语义化的声明式写法，新版 Context API 终于顺利地摘掉了“试验性 API”的帽子，成了一种确实可行的 React 组件间通信解决方案。
+*新的 Context API 改进了这一点：即便组件的 shouldComponentUpdate 返回 false，它仍然可以“穿透”组件继续向后代组件进行传播，进而确保了数据生产者和数据消费者之间数据的一致性*。再加上更加“好看”的语义化的声明式写法，新版 Context API 终于顺利地摘掉了“试验性 API”的帽子，成了一种确实可行的 React 组件间通信解决方案。
 
 理解了 Context API 的前世今生，接下来我们继续来串联 React 组件间通信的解决方案。
 
 ### 第三方数据流框架“课代表”：初探 Redux
 
-对于<u>简单的跨层级组件通信</u>，我们可以使用发布-订阅模式或者 Context API 来搞定。但是随着应用的复杂度不断提升，需要维护的状态越来越多，组件间的关系也越来越难以处理的时候，我们就需要请出 Redux 来帮忙了。
+#### Why
+
+对于<u>简单的跨层级组件通信</u>，我们可以使用发布-订阅模式或者 Context API 来搞定。**但是随着应用的复杂度不断提升，需要维护的状态越来越多，组件间的关系也越来越难以处理的时候，我们就需要请出 Redux 来帮忙了**。
 
 #### 什么是 Redux
 
@@ -136,7 +139,7 @@ MessageList.childContextTypes = {
 
 我们一起品品这句话背后的深意：
 
-- Redux 是为**JavaScript**应用而生的，也就是说它不是 React 的专利，React 可以用，Vue 可以用，原生 JavaScript 也可以用；
+- Redux 是**为JavaScript应用而生的**，也就是说它不是 React 的专利，React 可以用，Vue 可以用，原生 JavaScript 也可以用；
 - Redux 是一个**状态容器**，什么是状态容器？这里我举个例子。
 
 假如把一个 React 项目里面的所有组件拉进一个钉钉群，那么 Redux 就充当了这个群里的“群文件”角色，所有的组件都可以把需要在组件树里流动的数据存储在群文件里。当某个数据改变的时候，其他组件都能够通过下载最新的群文件来获取到数据的最新值。**这就是“状态容器”的含义——存放公共数据的仓库**。
@@ -145,7 +148,8 @@ MessageList.childContextTypes = {
 
 ![图片5.png](/assets/images/react/CgqCHl-Sm9qASdHXAAEjhh30y4s113.png)
 
-#### Redux 是如何帮助 React 管理数据的
+#### How
+**Redux 是如何帮助 React 管理数据的？**
 
 Redux 主要由三部分组成：store、reducer 和 action。我们先来看看它们各自代表什么：
 
@@ -171,7 +175,7 @@ store、action 和 reducer 三者紧密配合，便形成了 Redux 独树一帜�
 
 接下来仍然是围绕上图，我们来一起看看 Redux 是如何帮助 React 管理数据流的。<u>对于一个 React 应用来说，视图（View）层面的所有数据（state）都来自 store（再一次诠释了单一数据源的原则）。如果你想对数据进行修改，只有一种途径：派发 action。action 会被 reducer 读取，进而根据 action 内容的不同对数据进行修改、生成新的 state（状态），这个新的 state 会更新到 store 对象里，进而驱动视图层面做出对应的改变</u>。
 
-对于组件来说，任何组件都可以通过约定的方式从 store 读取到全局的状态，任何组件也都可以通过合理地派发 action 来修改全局的状态。**Redux 通过提供一个统一的状态容器，使得数据能够自由而有序地在任意组件之间穿梭**，这就是 Redux 实现组件间通信的思路。
+*对于组件来说，任何组件都可以通过约定的方式从 store 读取到全局的状态，任何组件也都可以通过合理地派发 action 来修改全局的状态*。**Redux 通过提供一个统一的状态容器，使得数据能够自由而有序地在任意组件之间穿梭**，***这就是 Redux 实现组件间通信的思路***。
 
 #### 从编码的角度理解 Redux 工作流
 
@@ -191,7 +195,6 @@ const store = createStore(
 ```
 
 createStore 方法是一切的开始，它接收三个入参：
-
 - reducer；
 - 初始状态内容；
 - 指定中间件（这个你先不用管）。
