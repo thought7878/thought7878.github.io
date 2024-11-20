@@ -1,11 +1,3 @@
----
-layout: post
-title: 数据是如何在 React 组件之间流动的？（下）
-subtitle:
-categories: react
-tags: [react]
-# top: 2
----
 
 在上个课时，我们掌握了 React 数据流方案中风格相对“朴素”的 Props 单向数据流方案，以及通用性较强的“发布-订阅”模式。在本课时，我们将一起认识 React 天然具备的全局通信方式“Context API”，并对 Redux 的设计思想和编码形态进行初步的探索。
 

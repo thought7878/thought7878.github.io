@@ -205,9 +205,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+                "file": "react/深入浅出搞定 React/24_结束语_聊聊 React 17，谈谈学习前端框架的心法.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+                "file": "react/深入浅出搞定 React/24_结束语_聊聊 React 17，谈谈学习前端框架的心法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+                "file": "react/深入浅出搞定 React/24_结束语_聊聊 React 17，谈谈学习前端框架的心法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md"
+                "file": "react/深入浅出搞定 React/24_结束语_聊聊 React 17，谈谈学习前端框架的心法.md"
               }
             }
           }
@@ -355,8 +355,27 @@
   },
   "active": "4cdbfe391e0e92dc",
   "lastOpenFiles": [
-    "react/深入浅出搞定 React/02_React 15 中的生命周期-为什么 React 16 要更改组件的生命周期？（上）.md",
+    "react/深入浅出搞定 React/23_跟 React 学设计模式：掌握编程“套路”，打造高质量应用.md",
+    "react/深入浅出搞定 React/22_思路拓展：如何打造高性能的 React 应用？.md",
+    "react/深入浅出搞定 React/21_从 React-Router 切入，系统学习前端路由解决方案.md",
+    "react/深入浅出搞定 React/20_从 Redux 中间件实现原理切入，理解“面向切面编程”.md",
+    "react/深入浅出搞定 React/19_揭秘 Redux 设计思想与工作原理（下）.md",
+    "react/深入浅出搞定 React/18_揭秘 Redux 设计思想与工作原理（上）.md",
+    "react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
+    "react/深入浅出搞定 React/16_剖析 Fiber 架构下 Concurrent 模式的实现原理.md",
+    "react/深入浅出搞定 React/15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
+    "react/深入浅出搞定 React/14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+    "react/深入浅出搞定 React/13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
+    "react/深入浅出搞定 React/12_如何理解 Fiber 架构的迭代动机与设计思想？.md",
+    "react/深入浅出搞定 React/11_React 15 中的setState 到底是同步的，还是异步的？.md",
+    "react/深入浅出搞定 React/09_真正理解虚拟 DOM：React 选它，真的是为了性能吗？.md",
+    "react/深入浅出搞定 React/08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
+    "react/深入浅出搞定 React/07_React-Hook 设计动机与工作模式（下）.md",
+    "react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
+    "react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
+    "react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
     "react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+    "react/深入浅出搞定 React/02_React 15 中的生命周期-为什么 React 16 要更改组件的生命周期？（上）.md",
     "react/深入浅出搞定 React/10_React 15 中的“栈调和”（Stack Reconciler）过程是怎样的？.md",
     "react/深入浅出搞定 React/01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
     "interview/问题/React、Redux、React-Router.md",
@@ -367,25 +386,6 @@
     "react/深入浅出搞定 React/media/c92632b857a8daa864277852e26313f6_MD5.png",
     "react/深入浅出搞定 React/assets/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？/2023-11-24-16-07-05-image.png",
     "react/React 进阶实践指南/23.生态篇-React-redux.md",
-    "react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
-    "interview/问题/工程化.md",
-    "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
-    "任务记录/2024/11月/19.md",
-    "react/React 进阶实践指南/10.基础篇-高阶组件.md",
-    "react/React 进阶实践指南/24.生态篇-React-mobx.md",
-    "react/React 进阶实践指南/41.v18特性篇-Suspense.md",
-    "react/React 进阶实践指南/34.V18特性篇-transition.md",
-    "react/React 进阶实践指南/21.原理篇-Hooks 原理.md",
-    "react/React 进阶实践指南/22.生态篇-React-router.md",
-    "react/React 进阶实践指南/1.写给想要进阶的你.md",
-    "react/深入浅出搞定 React/2020-03-01-05_18_揭秘 Redux 设计思想与工作原理（上）.md",
-    "react/react 通关秘籍/28、组件实战：Message.md",
-    "react/react 通关秘籍/29、组件实战：Popover.md",
-    "react/react 通关秘籍/35、组件实战：Pagination.md",
-    "react/react 通关秘籍/43、React 组件库都是怎么构建的.md",
-    "react/react 通关秘籍/58、React Fiber 的 render 阶段.md",
-    "react/react 通关秘籍/50、手写一个 Zustand.md",
-    "react/react 通关秘籍/49、History api 和 React Router 实现原理.md",
     "libraries/_my-libraries/带查询的分页加载长列表的 Hook",
     "interview/简历/media/61db31c2376f6ddbbcada5a95e50a836_MD5.png",
     "engineering/需整理的",
