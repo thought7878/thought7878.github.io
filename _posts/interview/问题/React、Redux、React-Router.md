@@ -23,11 +23,6 @@
 ### JSX是什么，它和 JS 有什么区别？
 JSX 经过 Babel 编译成JS的React.createElement()调用
 
-## 生命周期
-
-### React生命周期有哪些不同阶段？每个阶段对应的方法是？
-
-### 简述React的生命周期
 
 ## Hooks
 
@@ -36,6 +31,14 @@ JSX 经过 Babel 编译成JS的React.createElement()调用
 ### React Hooks 的API和功能
 
 ### React中的setState执行机制
+
+
+## 生命周期
+
+### React生命周期有哪些不同阶段？每个阶段对应的方法是？
+![Drawing 8.png](/assets/images/react/Ciqc1F-FVcSALRwNAAIomWwVcQU231.png)
+
+### 简述React的生命周期
 
 ## 对高阶组件的理解？应用场景？
 

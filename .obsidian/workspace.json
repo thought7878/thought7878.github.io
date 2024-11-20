@@ -1,0 +1,289 @@
+{
+  "main": {
+    "id": "fa79b096f040990f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4fd01e385f78a05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3da1543a06a6640b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/问题/React、Redux、React-Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a04f886b7749f91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/要整理的.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d21b8903b4bc9463",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/待办.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d455f62f265daa2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/问题/项目经验.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d37bf9af4cfba29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/问题/商智.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b35cdc9237ba45b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/2024/11月/19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b35f2f39f8468012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a88038cd81cf22e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2d8cec0c2db19b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/React 进阶实践指南/23.生态篇-React-redux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa6732857b31f51d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9efa135ec3345ea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/问题/React、Redux、React-Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3205625be5342412",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ccc742d359f81f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcdb747f0d7ac8de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d4d0570c02ee210",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f085a9864c8356d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "c697cfd0554083df",
+    "type": "split",
+    "children": [
+      {
+        "id": "9beee9b5646dc901",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3210001bd9c76aba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89a6b54ce21e8655",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46912ac2b9cb5c6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e65bf2be7f1ee31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "media-extended:Open media": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+    }
+  },
+  "active": "aa6732857b31f51d",
+  "lastOpenFiles": [
+    "_posts/interview/问题/React、Redux、React-Router.md",
+    "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
+    "_posts/react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+    "_posts/react/React 进阶实践指南/23.生态篇-React-redux.md",
+    "_posts/任务记录/待办.md",
+    "_posts/react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
+    "_posts/libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
+    "_posts/任务记录/2024/11月/19.md",
+    "_posts/interview/问题/商智.md",
+    "_posts/interview/问题/项目经验.md",
+    "_posts/要整理的.md",
+    "_posts/interview/前端知识体系及难点.md",
+    "_posts/ablog/2021-03-22-浏览器的渲染和事件循环.md",
+    "_posts/ablog/2020-12-11-JavaScript防抖与节流.md"
+  ]
+}
