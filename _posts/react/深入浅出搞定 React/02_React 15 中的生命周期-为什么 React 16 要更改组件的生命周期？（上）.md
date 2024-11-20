@@ -1,11 +1,4 @@
----
-layout: post
-title: 为什么 React 16 要更改组件的生命周期？（上）
-subtitle:
-categories: react
-tags: [react]
-# top: 2
----
+
 
 React 生命周期已经是一个老生常谈的话题了，几乎没有哪一门 React 入门教材会省略对组件生命周期的介绍。然而，入门教材在设计上往往追求的是“简单省事、迅速上手”，这就导致许多同学对于生命周期知识的刻板印象为“背就完了、别想太多”。
 
@@ -23,15 +16,15 @@ React 生命周期已经是一个老生常谈的话题了，几乎没有哪一�
 
 通过 01 课时的学习，你已经知晓了虚拟 DOM 节点的基本形态，现在我们需要简单了解下虚拟 DOM 在整个 React 工作流中的作用。
 
-<u>组件在初始化时</u>，会通过调用生命周期中的 render 方法，**生成虚拟 DOM（React Element object）**，然后再通过调用 ReactDOM.render 方法，实现虚拟 DOM 到真实 DOM 的转换。<u>当组件更新时</u>，会再次通过调用 render 方法**生成新的虚拟 DOM**，然后借助 diff（这是一个非常关键的算法，我将在“模块二：核心原理”重点讲解）**定位出两次虚拟 DOM 的差异**，从而针对发生变化的真实 DOM 作定向更新。
+<u>组件在初始化时</u>，会通过调用生命周期中的 render 方法（函数组件就是调用函数），**生成虚拟 DOM（React Element object）**，然后再通过调用 ReactDOM.render 方法，实现虚拟 DOM 到真实 DOM 的转换。<u>当组件更新时</u>，会再次通过调用 render 方法**生成*新的*虚拟 DOM**，然后借助 diff（这是一个非常关键的算法，我将在“模块二：核心原理”重点讲解）**定位出两次新旧虚拟 DOM 的差异**，从而针对发生变化的真实 DOM 作定向更新。
 
 ![](2023-11-25-15-13-46-image.png)
 
-以上就是 React 框架核心算法的大致流程。对于这套关键的工作流来说，“虚拟 DOM”是所有操作的大前提，是核心算法的基石。
+**以上就是 React 框架核心算法的大致流程。对于这套关键的工作流来说，“虚拟 DOM”是所有操作的大前提，是核心算法的基石。**
 
 #### 组件化：工程化思想在框架中的落地
 
-组件化是一种优秀的软件设计思想，也是 React 团队在研发效能方面所做的一个重要的努力。
+组件化（模块化的实现）是一种优秀的软件设计思想，也是 React 团队在研发效能方面所做的一个重要的努力。
 
 <u>在一个 React 项目中，几乎所有的可见/不可见的内容都可以被抽离为各种各样的组件，每个组件既是“封闭”的，也是“开放”的</u>。
 
@@ -45,7 +38,7 @@ React 生命周期已经是一个老生常谈的话题了，几乎没有哪一�
 
 之前我曾经在社区读过一篇文章，<u>文中将 render 方法形容为 React 组件的“灵魂”</u>。当时我对这句话产生了非常强烈的共鸣，这里我就想以这个曾经打动过我的比喻为引子，帮助你从宏观上建立对 React 生命周期的感性认知。
 
-注意，这里提到的 render 方法，和我们 01 课时所说的 ReactDOM.render 可不是一个东西，它指的是 React 组件内部的这个生命周期方法：
+注意，这里提到的 render 方法，和我们 01 课时所说的 ReactDOM.render 可不是一个东西，*它指的是 React 组件内部的这个生命周期方法：*
 
 ```jsx
 class LifeCycle extends React.Component {
@@ -56,7 +49,7 @@ class LifeCycle extends React.Component {
 }
 ```
 
-前面咱们介绍了虚拟 DOM、组件化，倘若把这两块知识整合一下，你就会发现这两个概念似乎都在围着 render 这个生命周期打转：虚拟 DOM 自然不必多说，它的生成都要仰仗 render；而组件化概念中所提及的“渲染工作流”，这里指的是从**组件数据改变**到**组件实际更新发生的**过程，这个过程的实现同样离不开 render。
+前面咱们介绍了虚拟 DOM、组件化，倘若把这两块知识整合一下，你就会发现这两个概念似乎都在围着 render 这个生命周期打转：*虚拟 DOM 自然不必多说，它的生成都要仰仗 render*；而组件化概念中所提及的“渲染工作流”，这里指的是从**组件数据改变**到**组件实际更新发生的**过程，*这个过程的实现同样离不开 render*。
 
 <u>由此看来，render 方法在整个组件生命周期中确实举足轻重，它担得起“灵魂”这个有分量的比喻</u>。那么如果将 render 方法比作组件的“**灵魂**”，render 之外的生命周期方法就完全可以理解为是组件的“**躯干**”。
 
@@ -66,7 +59,7 @@ class LifeCycle extends React.Component {
 
 我发现时下许多资料在讲解 React 生命周期时，喜欢直接拿 React 16 开刀。这样做虽然省事儿，却也模糊掉了新老生命周期变化背后的“Why”（关于两者的差异，我们会在“03 课时”中详细讲解）。这里为了把这个“Why”拎出来，我将首先带你认识 React 15 的生命周期流程。
 
-在 React 15 中，大家需要关注以下几个生命周期方法：
+*在 React 15 中，大家需要关注以下几个生命周期方法：*
 
 ```js
 constructor();
@@ -198,17 +191,17 @@ ReactDOM.render(<LifeCycleContainer />, document.getElementById("root"));
 
 接下来我们就结合这个 Demo 和开头的生命周期大图，一起来看看挂载、更新、卸载这 3 个阶段，React 组件都经历了哪些事情。
 
-#### Mounting 阶段：组件的初始化渲染（挂载）
+#### Mounting 阶段：首次渲染/初始化渲染
 
-挂载过程在组件的一生中仅会发生一次，在这个过程中，组件被初始化，然后会被渲染到真实 DOM 里，完成所谓的“首次渲染”。
+**挂载（首次渲染、初始化渲染）过程在组件的一生中仅会发生一次**，在这个过程中，组件被初始化，然后会被渲染到真实 DOM 里，完成所谓的 **“首次渲染”**。
 
-在挂载阶段，一个 React 组件会按照顺序经历如下图所示的生命周期：
+*在挂载阶段，一个 React 组件会按照顺序经历如下图所示的生命周期：*
 
 ![](2023-11-25-15-26-52-image.png)
 
 ![3.png](/assets/images/react/Ciqc1F-GZ1OAWETTAAA3Am2CwU0383.png)
 
-首先我们来看 constructor 方法，该方法仅仅在挂载的时候被调用一次，我们可以在该方法中对 this.state 进行初始化：
+首先我们来看 **constructor 方法**，该方法仅仅在挂载的时候被调用一次，我们可以在该方法中对 this.state 进行初始化：
 
 ```jsx
 constructor(props) {
@@ -219,11 +212,11 @@ constructor(props) {
 }
 ```
 
-componentWillMount、componentDidMount 方法同样只会在挂载阶段被调用一次。其中 componentWillMount 会在执行 render 方法前被触发，一些同学习惯在这个方法里做一些初始化的操作，但这些操作往往会伴随一些风险或者说不必要性（这一点大家先建立认知，具体原因将在“03 课时”展开讲解）。
+componentWillMount、componentDidMount 方法同样只会在挂载阶段被调用一次。其中 **componentWillMount** 会在执行 render 方法前被触发，一些同学习惯在这个方法里做一些初始化的操作，但这些操作往往会伴随一些风险或者说不必要性（这一点大家先建立认知，具体原因将在“03 课时”展开讲解）。
 
-接下来 render 方法被触发。注意 render 在执行过程中并不会去操作真实 DOM（也就是说不会渲染），它的职能是**把需要渲染的内容返回出来**。真实 DOM 的渲染工作，在挂载阶段是由 ReactDOM.render 来承接的。
+**接下来 render 方法被触发**。注意 render 在执行过程中并不会去操作真实 DOM（也就是说不会渲染），*它的职能是把需要渲染的内容返回出来*。真实 DOM 的渲染工作，在挂载阶段是由 ReactDOM.render 来承接的。
 
-componentDidMount 方法在渲染结束后被触发，此时因为真实 DOM 已经挂载到了页面上，我们可以在这个生命周期里执行真实 DOM 相关的操作。此外，类似于<u>异步请求、数据初始化这样的操作也大可以放在这个生命周期来做</u>（侧面印证了 componentWillMount 真的很鸡肋）。
+**componentDidMount 方法**在渲染结束后被触发，*此时因为真实 DOM 已经挂载到了页面上*，我们可以在这个生命周期里执行真实 DOM 相关的操作。此外，类似于*异步请求、数据初始化这样的操作也大可以放在这个生命周期来做*（侧面印证了 componentWillMount 真的很鸡肋）。
 
 这一整个流程对应的其实就是我们 Demo 页面刚刚打开时，组件完成初始化渲染的过程。下图是 Demo 中的 LifeCycle 组件在挂载过程中控制台的输出，你可以用它来验证挂载过程中生命周期顺序的正确性：
 
@@ -243,11 +236,9 @@ componentDidMount 方法在渲染结束后被触发，此时因为真实 DOM 已
 componentWillReceiveProps(nextProps)
 ```
 
-在这个生命周期方法里，nextProps 表示的是接收到新 props 内容，而现有的 props （相对于 nextProps 的“旧 props”）我们可以通过 this.props 拿到，由此便能够感知到 props 的变化。
+在这个生命周期方法里，**nextProps** 表示的是接收到新 props 内容，而现有的 props （相对于 nextProps 的“**旧 props**”）我们可以通过 this.props 拿到，由此便能够感知到 props 的变化。
 
-写到这里，就不得不在“变化”这个动作上深挖一下了。我在一些社区文章里，包括一些候选人面试时的回答里，都不约而同地见过/听过这样一种说法：**componentWillReceiveProps 是在组件的 props 内容发生了变化时被触发的。**
-
-**这种说法不够严谨**。远的不说，就拿咱们上文给出的 Demo 开刀，该界面的控制台输出在初始化完成后是这样的：
+写到这里，就不得不在“变化”这个动作上深挖一下了。我在一些社区文章里，包括一些候选人面试时的回答里，都不约而同地见过/听过这样一种说法：**componentWillReceiveProps 是在组件的 props 内容发生了变化时被触发的。** **这种说法不够严谨**。远的不说，就拿咱们上文给出的 Demo 开刀，该界面的控制台输出在初始化完成后是这样的：
 
 ![Drawing 5.png](/assets/images/react/Ciqc1F-FVA6AYiD4AADSl2lr-_Q663.png)
 
@@ -316,7 +307,7 @@ class LifeCycleContainer extends React.Component {
 
 ![Drawing 7.png](/assets/images/react/Ciqc1F-FVCGAVX_GAAFADHW8-9A107.png)
 
-可以看到，this.state.ownText 这个状态和子组件完全无关。但是当我点击“修改父组件自有文本内容”这个按钮的时候，componentReceiveProps 仍然被触发了，效果如下图所示：
+**可以看到，this.state.ownText 这个状态和子组件完全无关。但是当我点击“修改父组件自有文本内容”这个按钮的时候，componentWillReceiveProps 仍然被触发了**，效果如下图所示：
 
 ![Drawing 8.png](/assets/images/react/CgqCHl-FVCqASZNkAAGmF-R62cg649.png)
 
@@ -338,9 +329,9 @@ this.setState() 调用后导致的更新流程，前面大图中已经有体现�
 
 先来说说 componentWillUpdate 和 componentDidUpdate 这一对好基友。
 
-componentWillUpdate 会在 render 前被触发，它和 componentWillMount 类似，允许你在里面做一些不涉及真实 DOM 操作的准备工作；而 componentDidUpdate 则在组件更新完毕后被触发，和 componentDidMount 类似，这个生命周期也经常被用来处理 DOM 操作。此外，我们也常常将 componentDidUpdate 的执行作为子组件更新完毕的标志通知到父组件。
+**componentWillUpdate** 会在 render 前被触发，它和 componentWillMount 类似，允许你在里面做一些不涉及真实 DOM 操作的准备工作；而 **componentDidUpdate** 则在组件更新完毕后被触发，和 componentDidMount 类似，这个生命周期也经常被用来处理 DOM 操作。此外，我们也常常将 componentDidUpdate 的执行作为子组件更新完毕的标志通知到父组件。
 
-##### render 与性能：初识 shouldComponentUpdate
+##### shouldComponentUpdate：render 与性能
 
 这里需要重点提一下 shouldComponentUpdate 这个生命周期方法，它的调用形式如下所示：
 
@@ -348,9 +339,8 @@ componentWillUpdate 会在 render 前被触发，它和 componentWillMount 类�
 shouldComponentUpdate(nextProps, nextState)
 ```
 
-render 方法由于伴随着对虚拟 DOM 的构建和对比，过程可以说相当耗时。而在 React 当中，很多时候我们会不经意间就频繁地调用了 render。为了避免不必要的 render 操作带来的性能开销，React 为我们提供了 shouldComponentUpdate 这个口子。
-
-React 组件会根据 shouldComponentUpdate 的返回值，来决定是否执行该方法之后的生命周期，进而决定是否对组件进行**re-render**（重渲染）。shouldComponentUpdate 的默认值为 true，也就是说“无条件 re-render”。在实际的开发中，我们往往通过手动往 shouldComponentUpdate 中填充判定逻辑，或者直接在项目中引入 PureComponent 等最佳实践，来实现“有条件的 re-render”。
+render 方法由于伴随着对虚拟 DOM 的构建和对比，过程可以说相当耗时。而在 React 当中，很多时候我们会不经意间就频繁地调用了 render。*为了避免不必要的 render 操作带来的性能开销*，React 为我们提供了 shouldComponentUpdate 这个口子。
+React 组件会根据 shouldComponentUpdate 的返回值，来决定是否执行该方法之后的生命周期，进而决定是否对组件进行**re-render**（重渲染）。shouldComponentUpdate 的默认值为 true，也就是说“无条件 re-render”。*在实际的开发中，我们往往通过手动往 shouldComponentUpdate 中填充判定逻辑，或者直接在项目中引入 PureComponent 等最佳实践，来实现“有条件的 re-render”*。
 
 关于 shouldComponentUpdate 及 PureComponent 对 React 的优化，我们会在后续的性能小节中详细展开。这里你只需要认识到 shouldComponentUpdate 的基本使用及其**与 React 性能之间的关联关系**即可。
 
@@ -365,15 +355,14 @@ React 组件会根据 shouldComponentUpdate 的返回值，来决定是否执行
 ![Drawing 12.png](/assets/images/react/Ciqc1F-FVFeABZvpAAO9lJVFKhs335.png)
 
 这个生命周期本身不难理解，我们重点说说怎么触发它。**组件销毁的常见原因有以下两个：**
-
-- 组件在父组件中被移除了：这种情况相对比较直观，对应的就是我们上图描述的这个过程。
-- 组件中设置了 key 属性，父组件在 render 的过程中，发现 key 值和上一次不一致，那么这个组件就会被干掉。
+- *组件在父组件中被移除了*：这种情况相对比较直观，对应的就是我们上图描述的这个过程。
+- 组件中设置了 key 属性，父组件在 render 的过程中，*发现 key 值和上一次不一致，那么这个组件就会被干掉*。
 
 在本课时，只要能够理解到 1 就可以了。对于 2 这种情况，你只需要先记住有这样一种现象，这就够了。至于组件里面为什么要设置 key，为什么 key 改变后组件就必须被干掉？要回答这个问题，需要你先理解 React 的“调和过程”，而“调和过程”也会是我们第二模块中重点讲解的一个内容。这里我先把这个知识点点出来，方便你定位我们整个知识体系里的重难点。
 
 ### 总结
 
-在本课时，我们对 React 设计思想中的“虚拟 DOM”和“组件化”这两个关键概念形成了初步的理解，同时也对 React 15 中的生命周期进行了系统的学习和总结。到这里，你已经了解到了 React 生命周期在很长一段“过去”里的形态。
+在本课时，我们对 React 设计思想中的“虚拟 DOM”和“组件化”这两个关键概念形成了初步的理解，同时也*对 React 15 中的生命周期进行了系统的学习和总结*。到这里，你已经了解到了 React 生命周期在很长一段“过去”里的形态。
 
 而在 React 16 中，组件的生命周期其实已经发生了一系列的变化。这些变化到底是什么样的，它们背后又蕴含着 React 团队怎样的思量呢？
 

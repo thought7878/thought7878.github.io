@@ -1,15 +1,7 @@
----
-layout: post
-title: 为什么 React 16 要更改组件的生命周期？（下）
-subtitle:
-categories: react
-tags: [react]
-# top: 2
----
 
-通过对上一个课时的学习，你已经对 React 15 的生命周期有了系统的掌握和理解。本课时，我将在此基础上，对 React 16 以来的生命周期进行剖析。在理解“是什么”的基础上，我将带你对比新旧两个版本生命周期之间的差异，并探寻变化背后的原因。
+通过对上一个课时的学习，你已经对 React 15 的生命周期有了系统的掌握和理解。
 
-通过本课时的学习，你将明白 React 团队“动作频频”背后的思量与野心，同时也将对时下大热的 Fiber 架构形成初步的认知。
+本课时，我将在此基础上，*对 React 16 以来的生命周期进行剖析*。在理解“是什么”的基础上，*对比新旧两个版本生命周期之间的差异，并探寻变化背后的原因*。*将明白 React 团队“动作频频”背后的思量与野心，同时也将对时下大热的 Fiber 架构形成初步的认知*。
 
 ### 进化的生命周期方法：React 16 生命周期工作流详解
 
@@ -119,7 +111,7 @@ class LifeCycleContainer extends React.Component {
 ReactDOM.render(<LifeCycleContainer />, document.getElementById("root"));
 ```
 
-React 16 以来的生命周期也可以按照“挂载”“更新”和“卸载”三个阶段来看，所以接下来我们要做的事情仍然是分阶段拆解工作流程。在这个过程中，我将把 React 16 新增的生命周期方法，以及流程上相对于 React 15 产生的一些差异，作为我们学习的重点。对于和 React 15 保持一致的部分，这里不再重复讲解。
+*React 16 以来的生命周期也可以按照“挂载”“更新”和“卸载”三个阶段*来看，所以接下来我们要做的事情仍然是分阶段拆解工作流程。在这个过程中，我将把 React 16 新增的生命周期方法，以及流程上相对于 React 15 产生的一些差异，作为我们学习的重点。对于和 React 15 保持一致的部分，这里不再重复讲解。
 
 #### Mounting 阶段：组件的初始化渲染（挂载）
 
@@ -149,7 +141,7 @@ React 16 以来的生命周期也可以按照“挂载”“更新”和“卸�
 
 由此看来，挂载阶段的生命周期改变，并不是一个简单的“替换”逻辑，而是一个雄心勃勃的“进化”逻辑。
 
-##### 认识 getDerivedStateFromProps
+##### getDerivedStateFromProps
 
 这个新生命周期方法的调用规则如下：
 
@@ -173,7 +165,7 @@ static getDerivedStateFromProps(props, state)
 
 ![Drawing 5.png](/assets/images/react/Ciqc1F-FVaCAOOnzAALVyD02cdg817.png)
 
-**getDerivedStateFromProps 的返回值之所以不可或缺，是因为 React 需要用这个返回值来更新（派生）组件的 state**。因此当你确实不存在“使用 props 派生 state ”这个需求的时候，最好是直接省略掉这个生命周期方法的编写，否则一定记得给它 return 一个 null。
+**getDerivedStateFromProps 的返回值之所以不可或缺，是因为 React 需要用这个返回值来更新（派生）组件的 state**。因此当你确实不存在“使用 props 派生 state ”这个需求的时候，最好是直接省略掉这个生命周期方法的编写，*否则一定记得给它 return 一个 null*。
 
 注意，**getDerivedStateFromProps 方法对 state 的更新动作并非“覆盖”式的更新**，**而是针对某个属性的定向更新**。比如这里我们在 getDerivedStateFromProps 里返回的是这样一个对象，对象里面有一个 fatherText 属性用于表示“父组件赋予的文本”：
 
@@ -226,9 +218,9 @@ React 16.4 的挂载和卸载流程都是与 React 16.3 保持一致的，差异
 - 关于 getDerivedStateFromProps 是如何代替 componentWillReceiveProps 的，在“挂载”环节已经讨论过：getDerivedStateFromProps 可以代替 componentWillReceiveProps 是**基于 props 派生 state**。
 - 至于它为何不能完全和 componentWillReceiveProps 画等号，则是因为它过于“专注”了。这一点，单单从 getDerivedStateFromProps 这个 API 名字上也能够略窥一二。原则上来说，它能做且只能做这一件事。
 
-乍一看，原来的 API 能做的事情更多，现在的 API 却限制重重，难道是 React 16 的生命周期方法“退化”了？当然不是。如果你对设计模式有所了解的话，就会知道，**一个 API 并非越庞大越复杂才越优秀**。或者说得更直接一点，庞大和复杂的 API 往往会带来维护层面的“灾难”。
+乍一看，原来的 API 能做的事情更多，现在的 API 却限制重重，难道是 React 16 的生命周期方法“退化”了？当然不是。如果你对设计模式有所了解的话，就会知道，*一个 API 并非越庞大越复杂才越优秀，庞大和复杂的 API 往往会带来维护层面的“灾难”*。
 
-说回 getDerivedStateFromProps 这个 API，它相对于早期的 componentWillReceiveProps 来说，正是做了“**合理的减法**”。而做这个减法的决心之强烈，从 getDerivedStateFromProps 直接被定义为 static 方法这件事上就可见一斑—— <u>static 方法内部拿不到组件实例的 this，这就导致你无法在 getDerivedStateFromProps 里面做任何类似于 this.fetch()、不合理的 this.setState（会导致死循环的那种）这类可能会产生副作用的操作</u>。
+说回 getDerivedStateFromProps 这个 API，它相对于早期的 componentWillReceiveProps 来说，正是做了“**合理的减法**”。而做这个减法的决心之强烈，从 getDerivedStateFromProps 直接被定义为 static 方法这件事上就可见一斑—— *static 方法内部拿不到组件实例的 this，这就导致你无法在 getDerivedStateFromProps 里面做任何类似于 this.fetch()、不合理的 this.setState（会导致死循环的那种）这类可能会产生副作用的操作*。
 
 因此，getDerivedStateFromProps 生命周期替代 componentWillReceiveProps 的背后，**是 React 16 在强制推行“只用 getDerivedStateFromProps 来完成 props 到 state 的映射”这一最佳实践**。<u>意在确保生命周期函数的行为更加可控可预测，从根源上帮开发者避免不合理的编程方式，避免生命周期的滥用；同时，也是在为新的 Fiber 架构铺路</u>。
 
@@ -286,7 +278,7 @@ componentDidUpdate(prevProps, prevState, valueFromSnapshot) {
 
 ##### Fiber 架构简析
 
-Fiber 是 React 16 对 <u>React 核心算法</u>的一次重写。关于 Fiber，我将在“模块二：核心原理”花大量的篇幅来介绍它的原理和细节。在本课时，你只需要 get 到这一个点：**Fiber 会使原本同步的渲染过程变成异步的**。<u>在 React 16 之前，每当我们触发一次组件的更新，React 都会构建一棵新的虚拟 DOM 树，通过与上一次的虚拟 DOM 树进行 diff，实现对 DOM 的定向更新</u>。这个过程，是一个递归的过程。下面这张图形象地展示了这个过程的特征：
+Fiber 是 React 16 对 <u>React 核心算法</u>的一次重写。关于 Fiber，我将在“模块二：核心原理”花大量的篇幅来介绍它的原理和细节。在本课时，你只需要 get 到这一个点：**Fiber 会使原本同步的渲染过程变成异步的**。**在 React 16 之前，每当我们触发一次组件的更新，React 都会构建一棵新的虚拟 DOM 树，通过与上一次的虚拟 DOM 树进行 diff，实现对 DOM 的定向更新**。这个过程，是一个递归的过程。下面这张图形象地展示了这个过程的特征：
 
 ![图片4.png](/assets/images/react/Ciqc1F-Kl0WAO2mzAABxddWHnXI121.png)
 
@@ -296,7 +288,7 @@ Fiber 是 React 16 对 <u>React 核心算法</u>的一次重写。关于 Fiber�
 
 ###### 异步渲染
 
-而 <u>React 16 引入的 Fiber 架构，恰好能够解决掉这个风险</u>：**Fiber 会将一个大的更新任务拆解为许多个小任务**。每当执行完一个小任务时，**渲染线程都会把主线程交回去**，看看有没有优先级更高的工作要处理，确保不会出现其他任务被“饿死”的情况，进而避免同步渲染带来的卡顿。在这个过程中，**渲染线程不再“一去不回头”，而是可以被打断的**，这就是 **“异步渲染”**。它的执行过程如下图所示：
+而 ***React 16 引入的 Fiber 架构，恰好能够解决掉这个风险***：**Fiber 会将一个大的更新任务拆解为许多个小任务。每当执行完一个小任务时，渲染线程都会把主线程交回去，看看有没有优先级更高的工作要处理，确保不会出现其他任务被“饿死”的情况，进而避免同步渲染带来的卡顿。在这个过程中，渲染线程不再“一去不回头”，而是可以被打断的**，这就是 ***“异步渲染”***。它的执行过程如下图所示：
 
 ![图片5.png](/assets/images/react/Ciqc1F-Kl1CAA6pwAADpyi-xSnM494.png)
 

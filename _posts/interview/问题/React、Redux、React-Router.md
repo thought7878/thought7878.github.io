@@ -15,6 +15,13 @@
 
 ### Fiber的可中断数据结构
 
+## JSX
+### 说说React JSX转换成真实DOM过程？
+[[01_JSX 代码是如何“摇身一变”成为 DOM 的？]]
+
+![](2023-11-24-16-07-05-image.png)
+### JSX是什么，它和 JS 有什么区别？
+JSX 经过 Babel 编译成JS的React.createElement()调用
 
 ## 生命周期
 
@@ -70,14 +77,11 @@
 
 
 ## 说说Real DOM和Virtual DOM的区别？优缺点？
-## JSX
-### 说说React Jsx转换成真实DOM过程？
 
-### JSX是什么，它和 JS 有什么区别？
 
 ## 用户如何根据不同的权限，查看不同的页面
 
-## React.createClass VS extends Component
+## React.createClass（太老的版本）VS extends Component
 
 ## 错误边界 Error Boundary
 
