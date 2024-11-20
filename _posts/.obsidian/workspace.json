@@ -210,9 +210,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4cdbfe391e0e92dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/React 进阶实践指南/23.生态篇-React-redux.md",
+                "file": "react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/React 进阶实践指南/23.生态篇-React-redux.md",
+                "file": "react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/React 进阶实践指南/23.生态篇-React-redux.md"
+                "file": "react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md"
               }
             }
           }
@@ -341,11 +353,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "76b7bcc3d65be387",
+  "active": "4cdbfe391e0e92dc",
   "lastOpenFiles": [
-    "react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
+    "react/深入浅出搞定 React/media/30df58dbf557a3e6e3abdf855c3a6a10_MD5.png",
+    "react/深入浅出搞定 React/media/f6e9cf3ded615301a09ec8d9bc4f3cd5_MD5.png",
+    "react/深入浅出搞定 React/media/d664c0f40ed88c969a046b58a3e76ba8_MD5.png",
+    "react/深入浅出搞定 React/media/c92632b857a8daa864277852e26313f6_MD5.png",
+    "react/深入浅出搞定 React/01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
+    "react/深入浅出搞定 React/assets/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？/2023-11-24-16-07-05-image.png",
     "react/React 进阶实践指南/23.生态篇-React-redux.md",
-    "react/深入浅出搞定 React/2020-03-01-02_01_JSX 代码是如何“摇身一变”成为 DOM 的？.md",
+    "react/hook/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
     "interview/问题/React、Redux、React-Router.md",
     "interview/问题/工程化.md",
     "engineering/教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
@@ -368,7 +385,6 @@
     "react/深入浅出搞定 React/2020-03-01-05_19_揭秘 Redux 设计思想与工作原理（下）.md",
     "react/深入浅出搞定 React/2020-03-01-05_06_React-Hook 设计动机与工作模式（上）.md",
     "react/深入浅出搞定 React/2020-03-01-05_07_React-Hook 设计动机与工作模式（下）.md",
-    "react/深入浅出搞定 React/2020-03-01-02_00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
     "libraries/_my-libraries/带查询的分页加载长列表的 Hook",
     "interview/简历/media/61db31c2376f6ddbbcada5a95e50a836_MD5.png",
     "engineering/需整理的",
@@ -379,10 +395,6 @@
     "browser/media/66a8e4c66d7d9fd75cfa9802fee3fd00_MD5.png",
     "browser/media/3c37bfbafe0ce559de5416a3648274ef_MD5.png",
     "browser/media",
-    "ablog/media/b1bf49445813d9fff7411f947c52e8a4_MD5.gif",
-    "ablog/media/2f0e91352bdaf8032d776f07bac3ba0a_MD5.png",
-    "ablog/media/d7c078dbff22084c81757535e0042fad_MD5.png",
-    "ablog/media/46a275f7527310546016519c00a7b453_MD5.png",
     "任务记录/2024/11月",
     "任务记录/2024",
     "任务记录",

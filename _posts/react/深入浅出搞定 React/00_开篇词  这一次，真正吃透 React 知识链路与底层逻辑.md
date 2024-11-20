@@ -8,7 +8,7 @@
 
 ### 学好 React，到底有多爽？
 
-![Lark20201012-154736.png](https://s0.lgstatic.com/i/image/M00/5D/40/CgqCHl-ECi-Aeep6AACZ17MFsQw154.png)
+![[react/深入浅出搞定 React/media/c92632b857a8daa864277852e26313f6_MD5.png]]
 
 在过去的几年，“变化”始终是前端框架世界里的一号关键词：前有 jQuery 刚刚式微时各路神仙各显神通，后有 React/Vue/Angular 三分天下，如今又渐渐演变成了 React/Vue 两分天下。
 
@@ -22,11 +22,11 @@
 
 若单说岗位数量，我不敢妄言，但**在一二线的互联网大厂中，React 的绝对优势凸显无疑。**（比如，阿里就统一使用 React 作为底层技术栈，并且在内部紧密共建 React 生态。）国外的一份[“2019 年度 JavaScript 趋势报告”](https://2019.stateofjs.com/front-end-frameworks/)中，React 也被评估为综合指数最高的前端框架：
 
-![Drawing 0.png](https://s0.lgstatic.com/i/image/M00/5D/1E/CgqCHl-D4tuAIhZGAACpSU_Pme8543.png)
+![[react/深入浅出搞定 React/media/d664c0f40ed88c969a046b58a3e76ba8_MD5.png]]
 
 在招聘上，大厂普遍青睐 React 人才，各种高薪职位中不乏“精通 React”“掌握 React”的字眼。作为前端，我们必须认识到这样一个现状：**大厂（包括国内、国外）更喜欢 React，当我们立下一个有朝一日进大厂的志愿时，就意味着必须先下定决心搞定 React**。
 
-![Drawing 1.png](https://s0.lgstatic.com/i/image/M00/5D/13/Ciqc1F-D4uWAEDz9AACMs7KhhTk568.png)
+![[react/深入浅出搞定 React/media/f6e9cf3ded615301a09ec8d9bc4f3cd5_MD5.png]]
 
 （信息来源：拉勾网）
 
@@ -96,7 +96,7 @@ React 正是一个优秀前端框架的典型 ，它在架构上融合了数据�
 
 * **模块四：生产实践**。对于一个优秀的前端应用来说，性能和设计模式是永恒的主题，性能决定用户体验，设计模式决定研发效率。这部分将结合我团队的实践经验以及当下行业里推崇的最佳实践，为你输出实战观点。对于这些最佳实践，你不仅要知道怎么做，还要理解“为什么这么做”。学完个模块可以强化你的实际应用能力，提升自主研发创新实践的线索和灵感。
 
-![Lark20201208-111532.png](https://s0.lgstatic.com/i/image/M00/7E/2E/CgqCHl_O8AiAMsLrAAOzA7Lqfa0393.png)
+![[react/深入浅出搞定 React/media/30df58dbf557a3e6e3abdf855c3a6a10_MD5.png]]
 
 ### 讲师寄语
 

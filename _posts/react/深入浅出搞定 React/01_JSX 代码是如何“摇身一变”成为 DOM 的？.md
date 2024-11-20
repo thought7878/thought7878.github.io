@@ -34,9 +34,9 @@ JSX 到底是什么，我们先来看看 [React 官网](https://reactjs.org/docs
 
 ### JSX 语法是如何在 JavaScript 中生效的：认识 Babel
 
-Facebook 公司给 JSX 的定位是 JavaScript 的“扩展”，而非 JavaScript 的“某个版本”，这就直接决定了浏览器并不会像天然支持 JavaScript 一样地支持 JSX。那么，JSX 的语法是如何在 JavaScript 中生效的呢？[React 官网](https://reactjs.org/docs/glossary.html#jsx)其实早已给过我们线索：
+Facebook 公司给 JSX 的定位是 JavaScript 的“扩展”，而非 JavaScript 的“某个版本”，*这就直接决定了浏览器并不会像天然支持 JavaScript 一样地支持 JSX*。那么，JSX 的语法是如何在 JavaScript 中生效的呢？[React 官网](https://reactjs.org/docs/glossary.html#jsx)其实早已给过我们线索：
 
-> JSX 会被编译为 React.createElement()， React.createElement() 将返回一个叫作“React Element”的 JS 对象。
+> *JSX 会被编译为 React.createElement()， React.createElement() 将返回一个叫作“React Element”的 JS 对象*。
 
 这里提到，JSX 在被**编译**后，会变成一个针对 React.createElement 的调用。咱们先来说说这个“编译”是怎么回事：“编译”这个动作，是由 Babel 来完成的。
 
@@ -66,17 +66,17 @@ var place = "Flavortown";
 
 ![Drawing 0.png](/assets/images/react/CgqCHl-BegWAbxNEAAH9HxafvWE988.png)
 
-可以看到，所有的 JSX 标签都被转化成了 React.createElement 调用，这也就意味着，我们写的 JSX 其实写的就是 React.createElement，虽然它看起来有点像 HTML，但也只是“看起来像”而已。**JSX 的本质是**React.createElement**这个 JavaScript 调用的语法糖**，这也就完美地呼应上了 React 官方给出的“**JSX 充分具备 JavaScript 的能力**”这句话。
+可以看到，所有的 JSX 标签都被转化成了 React.createElement 调用，这也就意味着，我们写的 JSX 其实写的就是 React.createElement，虽然它看起来有点像 HTML，但也只是“看起来像”而已。**JSX 的本质是 React.createElement 这个 JavaScript 调用的语法糖**，这也就完美地呼应上了 React 官方给出的“**JSX 充分具备 JavaScript 的能力**”这句话。
 
 ### React 选用 JSX 语法的动机
 
-换个角度想想，既然 JSX 等价于一次 React.createElement 调用，那么 React 官方为什么不直接引导我们用 React.createElement 来创建元素呢？
+换个角度想想，既然 JSX 等价于一次 React.createElement 调用，*那么 React 官方为什么不直接引导我们用 React.createElement 来创建元素呢？*
 
 原因非常简单，我们来看一个相对复杂一些的组件的 JSX 代码和 React.createElement 调用之间的对比。它们各自的形态如下图所示：
 
 ![Drawing 1.png](/assets/images/react/CgqCHl-Beg-AXBihAA4t3S7nxKc532.png)
 
-你会发现，在实际功能效果一致的前提下，**JSX 代码层次分明、嵌套关系清晰**；而 React.createElement 代码则给人一种非常混乱的“杂糅感”，这样的代码不仅读起来不友好，写起来也费劲。
+你会发现，在实际功能效果一致的前提下，**JSX 代码层次分明、嵌套关系清晰**；**而 React.createElement 代码则给人一种非常混乱的“杂糅感”，这样的代码不仅读起来不友好，写起来也费劲**。
 
 **JSX 语法糖允许前端开发者使用我们最为熟悉的类 HTML 标签语法来创建虚拟 DOM，在降低学习成本的同时，也提升了研发效率与研发体验。**
 
@@ -179,9 +179,9 @@ var place = "Flavortown";
 
 createElement 有 3 个入参，这 3 个入参囊括了 React 创建一个元素所需要知道的全部信息。
 
-- type：用于标识节点的类型。它可以是类似“h1”“div”这样的标准 HTML 标签字符串，也可以是 React 组件类型或 React fragment 类型。
-- config：以对象形式传入，组件所有的属性都会以键值对的形式存储在 config 对象中。
-- children：以对象形式传入，它记录的是组件标签之间嵌套的内容，也就是所谓的“子节点”“子元素”。
+- **type**：用于*标识节点的类型*。它可以是类似 *“h1”“div”* 这样的标准 HTML 标签字符串，*也可以是 React 组件类型或 React fragment 类型*。
+- **config**：以对象形式传入，组件所有的属性都会以键值对的形式存储在 config 对象中。
+- **children**：以对象形式传入，它记录的是组件标签之间嵌套的内容，也就是所谓的“子节点”“子元素”。
 
 如果文字描述使你觉得抽象，下面这个调用示例可以帮你增进对概念的理解：
 
