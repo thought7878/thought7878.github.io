@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/React Hooks 核心原理与实战/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
+                "file": "_posts/react/总结/04.全局状态、通信、数据流动.md",
                 "mode": "source",
                 "source": false
               }
@@ -271,11 +271,11 @@
   },
   "active": "bd3c47d03fc6c272",
   "lastOpenFiles": [
-    "_posts/react/React Hooks 核心原理与实战/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
-    "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
     "_posts/react/Redux/React-Redux.md",
-    "_posts/react/Redux/Redux.md",
+    "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
     "_posts/react/总结/04.全局状态、通信、数据流动.md",
+    "_posts/react/React Hooks 核心原理与实战/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
+    "_posts/react/Redux/Redux.md",
     "_posts/interview/问题/React、Redux、React-Router.md",
     "_posts/react/overview_面试.md",
     "_posts/interview/问题/项目经验.md",

@@ -69,6 +69,10 @@ function counterReducer(state = 0, action) {
 
 - **状态初始化**：在应用启动时，通过`createStore`函数创建 Store，并传入一个或多个 Reducer 来处理不同类型的 Action。在创建 Store 时，Redux 会*调用 Reducer 并传入初始状态（通常是在 Reducer 函数中定义的默认状态）来得到初始的应用状态*。
 
+## 中间件
+[[中间件、Redux-Thunk、Redux-Saga]]
+
+
 # How
 **与其他技术结合（以 React 为例）**
 在 React - Redux 应用中，使用`react - redux`库来连接 Redux 和 React。
