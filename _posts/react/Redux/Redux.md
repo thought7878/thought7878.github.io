@@ -14,3 +14,70 @@
     - **Redux 对业务逻辑的分离作用**：使用 Redux 可以将业务逻辑（如数据获取、状态修改规则）从组件中分离出来。例如，*登录相关的业务逻辑可以放在 Redux 的 Action Creators（用于创建 Action 的函数）和 Reducer 中*。组件只需要发送登录 Action 和获取登录状态，从而使组件更加专注于 UI 展示，提高了组件的可维护性和复用性。
 
 # Redux 是什么？
+
+Redux 是一个用于 JavaScript 应用的可预测状态管理容器。**它的主要功能**是帮助开发者管理应用程序中的状态，使得状态的变化更可预测、更容易调试。**其核心原则**是将应用的整个状态存储在一个单一的对象树中，并且这个状态是只读的，只能通过触发特定的动作（Action）来改变。通常*用于大型复杂的前端应用*，特别是和 React 等框架配合使用，但也可以用于其他 JavaScript 环境，如 Node.js。
+
+## 核心概念
+
+**State（旧数据）** 即 Store，一般就是一个纯 JavaScript Object。 **Action（新数据）** 也是一个 Object，用于描述发生的动作和动作产生的数据。**Reducer（产生新state的逻辑）** 则是一个函数，接收 Action 和 State 作为参数，通过计算得到新的 State。它们三者之间的关系可以用下图来表示:
+![](2024-02-08-11-07-26-image.png)
+
+
+### Store（数据存储）
+
+**单一数据源**：整个应用**只有一个 Store**，它是一个**包含应用全部状态的 JavaScript 对象**。例如，在一个电商应用中，商品列表、购物车内容、用户信息等所有数据都存储在这个单一的 Store 中。*这就像是一个数据库，所有组件需要的数据都从这里获取*。
+
+- **方法**：
+    - **`getState`**：用于*获取 Store 中的当前状态*。任何组件都可以调用这个方法来获取应用的最新状态。例如，`const state = store.getState();`，可以得到整个应用状态的一个快照。
+    - **`dispatch`**：**这是改变 Store 中状态的唯一方式**。组件通过发送一个 Action（动作）到 Store 的`dispatch`方法来请求状态的改变。比如，`store.dispatch({ type: 'ADD_PRODUCT_TO_CART', payload: { productId: '123', quantity: 1 } });`，这里发送了一个添加产品到购物车的 Action。
+    - **`subscribe`**：用于**订阅 Store 状态的变化**。**当状态更新时，订阅的函数会被调用**。这使得组件能够在状态改变时及时更新自己。例如，`const unsubscribe = store.subscribe(() => console.log('状态已更新'));`，每次状态更新都会执行这个打印日志的函数。
+
+![](2024-02-08-11-06-16-image.png)
+### Action
+
+- **定义**：Action 是一个简单的 JavaScript 对象，用于**描述发生了什么事情**，它是改变状态的最小单位。每个 Action 必须包含一个`type`属性，这个属性是一个字符串，用于**标识动作的类型**。例如，`{ type: 'INCREMENT_COUNTER' }`是一个典型的 Action，表示计数器增加的动作。
+- **更新State的数据**：这些数据被称为`payload`，用于传递与动作相关的详细信息。例如，`{ type: 'UPDATE_USER_INFO', payload: { name: '新名字', age: 30 } }`这个 Action 包含了更新用户姓名和年龄的信息。
+
+### Reducer
+
+**函数特性与作用**：Reducer 是一个**纯函数**，它接收当前的状态和一个 Action 作为输入，然后返回一个新的状态。它根据 Action 的`type`来决定如何更新状态。
+
+**纯函数要求**：因为 Reducer 是纯函数，所以对于相同的输入（相同的当前状态和 Action），它总是返回相同的输出。并且它不能有副作用，不能修改外部变量，也不能进行如发送网络请求、操作 DOM 等操作。
+
+例如，对于一个计数器应用的 Reducer 可以这样写：
+
+```js
+function counterReducer(state = 0, action) {
+  switch (action.type) {
+    case 'INCREMENT_COUNTER':
+      return state + 1;
+    case 'DECREMENT_COUNTER':
+      return state - 1;
+    default:
+      return state;
+  }
+}
+```
+
+
+## 工作流程
+
+- **状态更新过程**：
+    - 当用户在应用中进行操作（如点击按钮、输入文本等），组件会通过`dispatch`发送一个 Action 到 Store。例如，在一个 React - Redux 应用中，一个按钮的`onClick`事件可能触发一个`{ type: 'DELETE_ITEM' }`的 Action。
+    - Store 会**将这个 Action 传递给所有的 Reducer**。每个 Reducer 检查 Action 的`type`，如果匹配自己处理的类型，就会返回一个新的状态；如果不匹配，就返回原来的状态。
+    - **Store 用 Reducer 返回的新状态替换原来的状态，并且通知所有订阅了状态变化的组件。这些组件会重新获取状态来更新自己的 UI。**
+
+- **状态初始化**：在应用启动时，通过`createStore`函数创建 Store，并传入一个或多个 Reducer 来处理不同类型的 Action。在创建 Store 时，Redux 会*调用 Reducer 并传入初始状态（通常是在 Reducer 函数中定义的默认状态）来得到初始的应用状态*。
+
+# How
+**与其他技术结合（以 React 为例）**
+在 React - Redux 应用中，使用`react - redux`库来连接 Redux 和 React。
+    
+- 对于类组件，可以使用`connect`函数将组件与 Redux 的 Store 连接起来，它会将 Store 中的状态映射到组件的`props`中，并且将`dispatch`方法也传递给组件。
+- 对于函数组件，可以使用`useSelector`和`useDispatch`钩子，`useSelector`用于从 Store 中获取状态，`useDispatch`用于获取`dispatch`方法，这样组件就可以方便地利用 Redux 来管理状态并更新 UI。
+
+
+# 参考
+
+[[7.全局状态管理：如何在函数组件中使用 Redux]]
+[[05_数据是如何在 React 组件之间流动的？（下）
