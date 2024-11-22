@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
+                "file": "_posts/react/源码/参考资料.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
+                "file": "_posts/react/源码/参考资料.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
+                "file": "_posts/react/源码/参考资料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md"
+                "file": "_posts/react/源码/参考资料.md"
               }
             }
           }
@@ -269,8 +269,22 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "07361df9baf8d4b2",
   "lastOpenFiles": [
+    "_posts/react/深入浅出搞定 React/08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
+    "_posts/react/源码/参考资料.md",
+    "_posts/react/源码",
+    "_posts/react/深入浅出搞定 React/14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
+    "_posts/react/深入浅出搞定 React/13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
+    "_posts/ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
+    "_posts/ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
+    "_posts/react/深入浅出搞定 React/15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
+    "_posts/react/深入浅出搞定 React/07_React-Hook 设计动机与工作模式（下）.md",
+    "_posts/react/深入浅出搞定 React/18_揭秘 Redux 设计思想与工作原理（上）.md",
+    "_posts/react/深入浅出搞定 React/19_揭秘 Redux 设计思想与工作原理（下）.md",
+    "_posts/react/深入浅出搞定 React/20_从 Redux 中间件实现原理切入，理解“面向切面编程”.md",
+    "_posts/react/深入浅出搞定 React/21_从 React-Router 切入，系统学习前端路由解决方案.md",
+    "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
     "_posts/react/Hooks",
     "_posts/react/React Hooks 核心原理与实战/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
     "_posts/react/Redux/React-Redux.md",
@@ -285,19 +299,8 @@
     "_posts/interview/问题/商智.md",
     "_posts/libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
     "_posts/react/React 进阶实践指南/23.生态篇-React-redux.md",
-    "_posts/react/深入浅出搞定 React/05_数据是如何在 React 组件之间流动的？（下）.md",
-    "_posts/react/React Hooks 核心原理与实战/基础/2.why-hooks.md",
-    "_posts/要整理的.md",
-    "_posts/react/React Hooks 核心原理与实战/基础/1.overview.md",
     "_posts/react/总结/Hooks",
     "_posts/react/Redux",
-    "_posts/interview/问题/工程化.md",
-    "_posts/interview/问题/场景面试题的思路.md",
-    "_posts/interview/问题/JS.md",
-    "_posts/react/深入浅出搞定 React/04_数据是如何在 React 组件之间流动的？（上）.md",
-    "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
-    "_posts/react/总结/08.React-Hooks 的工作原理.md",
-    "_posts/interview/薪资情况/JD.md",
     "_posts/interview/薪资情况/media/8a4adafc31c770019cb4cbeeb80af983_MD5.png",
     "_posts/interview/薪资情况/media/e0cdaed55e9486a1feca4fe875671d06_MD5.png",
     "_posts/interview/薪资情况/media/aa0c1ff866e739986131c8526bf02b4f_MD5.png",
@@ -309,7 +312,6 @@
     "_posts/interview/薪资情况/media/0439b47b9c287f97ef6b31eaeabf9970_MD5.png",
     "_posts/interview/薪资情况/media/1652371f12bf1bb75db64420fb5473f6_MD5.png",
     "_posts/interview/薪资情况/media",
-    "_posts/interview/薪资情况",
-    "_posts/react/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md"
+    "_posts/interview/薪资情况"
   ]
 }
