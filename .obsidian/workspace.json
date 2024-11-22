@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/Hooks/useDeferredValue.md",
+                "file": "_posts/react/总结/Hooks/useInsertionEffect.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/Hooks/useDeferredValue.md",
+                "file": "_posts/react/总结/Hooks/useInsertionEffect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/Hooks/useDeferredValue.md",
+                "file": "_posts/react/总结/Hooks/useInsertionEffect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/Hooks/useDeferredValue.md"
+                "file": "_posts/react/总结/Hooks/useInsertionEffect.md"
               }
             }
           }
@@ -295,6 +295,10 @@
   },
   "active": "d0f6ca337cb88b77",
   "lastOpenFiles": [
+    "_posts/react/总结/Hooks/useImperativeHandle.md",
+    "_posts/react/总结/Hooks/useId.md",
+    "_posts/react/总结/Hooks/useEffect.md",
+    "_posts/react/总结/Hooks/useDeferredValue.md",
     "_posts/react/总结/Hooks/useDebugValue.md",
     "_posts/react/总结/Hooks/useContext.md",
     "_posts/react/总结/Hooks/useCallback.md",
@@ -303,12 +307,8 @@
     "_posts/react/总结/Hooks/useOptimistic.md",
     "_posts/react/总结/Hooks/useLayoutEffect.md",
     "_posts/react/总结/Hooks/useInsertionEffect.md",
-    "_posts/react/总结/Hooks/useImperativeHandle.md",
-    "_posts/react/总结/Hooks/useId.md",
-    "_posts/react/总结/Hooks/useDeferredValue.md",
     "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Hooks/useMemo.md",
-    "_posts/react/总结/Hooks/useEffect.md",
     "_posts/react/总结/Hooks/useReducer.md",
     "_posts/react/总结/Hooks/useState.md",
     "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
