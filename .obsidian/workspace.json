@@ -138,9 +138,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0f6ca337cb88b77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/Hooks/useCallback.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/Redux/Redux.md",
+                "file": "_posts/react/总结/Hooks/useCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/Redux/Redux.md",
+                "file": "_posts/react/总结/Hooks/useCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/Redux/Redux.md"
+                "file": "_posts/react/总结/Hooks/useCallback.md"
               }
             }
           }
@@ -281,37 +293,37 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9bfc19021de4d1fe",
+  "active": "d0f6ca337cb88b77",
   "lastOpenFiles": [
+    "_posts/react/总结/Hooks/useTransition.md",
+    "_posts/react/总结/Hooks/useSyncExternalStore.md",
+    "_posts/react/总结/Hooks/useOptimistic.md",
+    "_posts/react/总结/Hooks/useLayoutEffect.md",
+    "_posts/react/总结/Hooks/useInsertionEffect.md",
+    "_posts/react/总结/Hooks/useImperativeHandle.md",
+    "_posts/react/总结/Hooks/useId.md",
+    "_posts/react/总结/Hooks/useDeferredValue.md",
+    "_posts/react/总结/Hooks/useDebugValue.md",
+    "_posts/react/总结/Hooks/useRef.md",
+    "_posts/react/总结/Hooks/useMemo.md",
+    "_posts/react/总结/Hooks/useCallback.md",
+    "_posts/react/总结/Hooks/useEffect.md",
+    "_posts/react/总结/Hooks/useContext.md",
+    "_posts/react/总结/Hooks/useReducer.md",
+    "_posts/react/总结/Hooks/useState.md",
+    "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
+    "_posts/react/Redux/React-Redux.md",
+    "_posts/react/Redux/Redux.md",
     "_posts/react/总结/Thinking in React.md",
     "_posts/react/源码/参考资料.md",
     "_posts/react/总结/Thinking",
-    "_posts/react/Redux/React-Redux.md",
     "_posts/react/深入浅出搞定 React/08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
     "_posts/react/总结/04.全局状态、通信、数据流动.md",
     "_posts/react/源码",
     "_posts/react/深入浅出搞定 React/14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
     "_posts/react/深入浅出搞定 React/13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
     "_posts/ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
-    "_posts/ablog/2021-08-05-ReactDOM.render 的渲染流程3.md",
-    "_posts/react/深入浅出搞定 React/15_ReactDOM.render 是如何串联渲染链路的？（下）.md",
-    "_posts/react/深入浅出搞定 React/07_React-Hook 设计动机与工作模式（下）.md",
-    "_posts/react/深入浅出搞定 React/18_揭秘 Redux 设计思想与工作原理（上）.md",
-    "_posts/react/深入浅出搞定 React/19_揭秘 Redux 设计思想与工作原理（下）.md",
-    "_posts/react/深入浅出搞定 React/20_从 Redux 中间件实现原理切入，理解“面向切面编程”.md",
-    "_posts/react/深入浅出搞定 React/21_从 React-Router 切入，系统学习前端路由解决方案.md",
-    "_posts/react/深入浅出搞定 React/06_React-Hook 设计动机与工作模式（上）.md",
     "_posts/react/Hooks",
-    "_posts/react/React Hooks 核心原理与实战/基础/7.全局状态管理：如何在函数组件中使用 Redux.md",
-    "_posts/任务记录/待办.md",
-    "_posts/任务记录/2024/11月/19.md",
-    "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
-    "_posts/interview/问题/React、Redux、React-Router.md",
-    "_posts/react/overview_面试.md",
-    "_posts/react/Redux/Redux.md",
-    "_posts/interview/问题/项目经验.md",
-    "_posts/interview/问题/商智.md",
-    "_posts/libraries/_my-libraries/带查询的分页加载长列表的 Hook/分析.md",
     "_posts/react/总结/Hooks",
     "_posts/react/Redux",
     "_posts/interview/薪资情况/media/8a4adafc31c770019cb4cbeeb80af983_MD5.png",

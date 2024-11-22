@@ -63,15 +63,16 @@ function counterReducer(state = 0, action) {
 
 ## 工作流程
 
-- **状态更新过程**：
-
+### 状态更新过程：
   - 当用户在应用中进行操作（如点击按钮、输入文本等），组件会通过`dispatch`发送一个 Action 到 Store。例如，在一个 React - Redux 应用中，一个按钮的`onClick`事件可能触发一个`{ type: 'DELETE_ITEM' }`的 Action。
   - Store 会**将这个 Action 传递给所有的 Reducer**。每个 Reducer 检查 Action 的`type`，如果匹配自己处理的类型，就会返回一个新的状态；如果不匹配，就返回原来的状态。
   - **Store 用 Reducer 返回的新状态替换原来的状态，并且通知所有订阅了状态变化的组件。这些组件会重新获取状态来更新自己的 UI。**
 
-- **状态初始化**：在应用启动时，通过`createStore`函数创建 Store，并传入一个或多个 Reducer 来处理不同类型的 Action。在创建 Store 时，Redux 会*调用 Reducer 并传入初始状态（通常是在 Reducer 函数中定义的默认状态）来得到初始的应用状态*。
+### 状态初始化：
+- 在应用启动时，通过`createStore`函数创建 Store，并传入一个或多个 Reducer 来处理不同类型的 Action。在创建 Store 时，Redux 会*调用 Reducer 并传入初始状态（通常是在 Reducer 函数中定义的默认状态）来得到初始的应用状态*。
 
 ## 源码
+伪代码：
 
 ```js
 export default function createStore(reducer, enhancer) {
@@ -93,7 +94,7 @@ export default function createStore(reducer, enhancer) {
   // 修改 state
   function dispation(action) {
     currentState = reducer(currentState, action);
-
+	// 发布、通知
     currentListeners.forEach((listener) => listener());
     return action;
   }
