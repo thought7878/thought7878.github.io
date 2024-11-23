@@ -84,6 +84,11 @@ function Home() {
 
 在这个`Home`组件中，`Link`组件创建了一个指向`/about`路径的链接。当用户点击这个链接时，应用会导航到`About`页面，并且`About`组件会被渲染。
 
+## 导航（NavLink 组件）
+
+`NavLink`是 React - Router 提供的一个组件，它是`Link`组件的特殊版本。主要用于*在导航栏等场景中，当链接对应的路由处于**激活状态时**，能够自动**应用一些样式**来表示当前选中的链接*。
+
+
 ## 获取路由参数（useParams）
 
 `useParams`是 React-Router 提供的一个钩子函数，用于*在组件中获取路由参数*。当路由路径中包含*动态参数*时（例如`/user/:id`，其中`id`是参数），可以使用`useParams`来获取这个参数的值。
@@ -108,6 +113,9 @@ function UserProfile() {
 ```
 
 在这个`UserProfile`组件中，假设路由路径是`/user/:id`，`useParams`用于获取`id`参数的值。然后，可以在`useEffect`中根据这个`id`参数来获取用户资料，例如发送网络请求来获取详细的用户信息。
+
+## 获取查询参数（useSearchParams）
+
 
 ## 嵌套路由（Route 和 Outlet）
 
@@ -187,4 +195,19 @@ React - Router 中用于**创建共享布局**的一种路由概念。它允许�
     </Route>
   </Route>
 </Routes>
+```
+
+## 路径前缀
+
+不带`element`属性的`<Route path>`会为其子路由添加路径前缀，而不引入父布局。
+
+```ts
+//
+<Route path="projects">
+  <Route index element={<ProjectsHome />} />
+  <Route element={<ProjectsLayout />}>
+    <Route path=":pid" element={<Project />} />
+    <Route path=":pid/edit" element={<EditProject />} />
+  </Route>
+</Route>
 ```
