@@ -48,31 +48,234 @@ function FunctionalComponent() {
 ```
 
 # 源码
+
 如果以下代码没有特殊标记路径的源码，那么路径都是 react/packages/react-reconciler/src/ReactFiberHooks.js
 
-## useReducer 
+## useReducer
+
+### 函数组件挂载阶段
+
+#### mountReducer
+
 ```ts
 // packages/react-reconciler/src/ReactFiberHooks.js :1338
 mountReducer(){
 
   mountWorkInProgressHook()
 
-  const dispatch: Dispatch<A> = (queue.dispatch = (dispatchReducerAction.bind(
+  const dispatch = dispatchReducerAction()
 
-null,
-
-currentlyRenderingFiber,
-
-queue,
-
-): any));
-
-return [hook.memoizedState, dispatch];
+  return [hook.memoizedState, dispatch];
 }
 
 
+```
 
+#### mountWorkInProgressHook
 
+```ts
+function mountWorkInProgressHook(): Hook {
+  const hook: Hook = {
+    memoizedState: null,
+    baseState: null,
+    baseQueue: null,
+    queue: null,
+
+    next: null,
+  };
+  // 构建单链表
+  if (workInProgressHook === null) {
+    // This is the first hook in the list
+    // 头结点
+    currentlyRenderingFiber.memoizedState = workInProgressHook = hook;
+  } else {
+    // Append to the end of the list
+    // 加入单链表尾部，同时更新workInProgressHook
+    workInProgressHook = workInProgressHook.next = hook;
+  }
+  return workInProgressHook;
+}
+```
+
+#### dispatchReducerAction
+
+```ts
+// packages/react-reconciler/src/ReactFiberHooks.js :3713
+function dispatchReducerAction<S, A>(
+  fiber: Fiber,
+  queue: UpdateQueue<S, A>,
+  action: A,
+): void {
+  const lane = requestUpdateLane(fiber);
+  // ! 1.创建update对象
+  const update: Update<S, A> = {
+    lane,
+    revertLane: NoLane,
+    action,
+    hasEagerState: false,
+    eagerState: null,
+    next: (null: any),
+  };
+
+  if (isRenderPhaseUpdate(fiber)) {
+    enqueueRenderPhaseUpdate(queue, update);
+  } else {
+    // 2.把update暂存到concurrentQueues数组中
+    const root = enqueueConcurrentHookUpdate(fiber, queue, update, lane);
+    if (root !== null) {
+      // 3.调度更新
+      startUpdateTimerByLane(lane);
+      scheduleUpdateOnFiber(root, fiber, lane);
+      entangleTransitionUpdate(root, queue, lane);
+    }
+  }
+
+  markUpdateInDevTools(fiber, lane, action);
+}
+```
+
+### 函数组件更新阶段
+
+#### updateReducer
+
+```ts
+function updateReducer<S, I, A>(
+  reducer: (S, A) => S,
+  initialArg: I,
+  init?: I => S,
+): [S, Dispatch<A>] {
+  const hook = updateWorkInProgressHook();
+  return updateReducerImpl(hook, ((currentHook: any): Hook), reducer);
+}
+```
+
+#### updateWorkInProgressHook
+
+```ts
+function updateWorkInProgressHook(): Hook {
+  let nextCurrentHook: null | Hook;
+  if (currentHook === null) {
+    const current = currentlyRenderingFiber.alternate;
+    if (current !== null) {
+      nextCurrentHook = current.memoizedState;
+    } else {
+      nextCurrentHook = null;
+    }
+  } else {
+    nextCurrentHook = currentHook.next;
+  }
+
+  let nextWorkInProgressHook: null | Hook;
+  if (workInProgressHook === null) {
+    nextWorkInProgressHook = currentlyRenderingFiber.memoizedState;
+  } else {
+    nextWorkInProgressHook = workInProgressHook.next;
+  }
+
+  if (nextWorkInProgressHook !== null) {
+    // There's already a work-in-progress. Reuse it.
+    workInProgressHook = nextWorkInProgressHook;
+    nextWorkInProgressHook = workInProgressHook.next;
+
+    currentHook = nextCurrentHook;
+  } else {
+    // Clone from the current hook.
+
+    if (nextCurrentHook === null) {
+      const currentFiber = currentlyRenderingFiber.alternate;
+      if (currentFiber === null) {
+        // This is the initial render. This branch is reached when the component
+        // suspends, resumes, then renders an additional hook.
+        // Should never be reached because we should switch to the mount dispatcher first.
+        throw new Error(
+          "Update hook called on initial render. This is likely a bug in React. Please file an issue."
+        );
+      } else {
+        // This is an update. We should always have a current hook.
+        throw new Error("Rendered more hooks than during the previous render.");
+      }
+    }
+
+    currentHook = nextCurrentHook;
+
+    const newHook: Hook = {
+      memoizedState: currentHook.memoizedState,
+
+      baseState: currentHook.baseState,
+      baseQueue: currentHook.baseQueue,
+      queue: currentHook.queue,
+
+      next: null,
+    };
+
+    if (workInProgressHook === null) {
+      // This is the first hook in the list.
+      currentlyRenderingFiber.memoizedState = workInProgressHook = newHook;
+    } else {
+      // Append to the end of the list.
+      workInProgressHook = workInProgressHook.next = newHook;
+    }
+  }
+  return workInProgressHook;
+}
+```
+
+#### updateReducer
+
+#### updateReducerImpl
+
+## useState
+
+### 函数组件挂载阶段
+
+#### mountState
+
+```ts
+function mountState<S>(
+  initialState: (() => S) | S,
+): [S, Dispatch<BasicStateAction<S>>] {
+  const hook = mountStateImpl(initialState);
+  const queue = hook.queue;
+  const dispatch: Dispatch<BasicStateAction<S>> = (dispatchSetState.bind(
+    null,
+    currentlyRenderingFiber,
+    queue,
+  ): any);
+  queue.dispatch = dispatch;
+  return [hook.memoizedState, dispatch];
+}
+```
+
+#### dispatchSetState
+
+```ts
+function dispatchSetState<S, A>(
+  fiber: Fiber,
+  queue: UpdateQueue<S, A>,
+  action: A
+): void {
+  const lane = requestUpdateLane(fiber);
+  const didScheduleUpdate = dispatchSetStateInternal(
+    fiber,
+    queue,
+    action,
+    lane
+  );
+  if (didScheduleUpdate) {
+    startUpdateTimerByLane(lane);
+  }
+  markUpdateInDevTools(fiber, lane, action);
+}
+```
+
+### 函数组件更新阶段
+
+```ts
+function updateState<S>(
+  initialState: (() => S) | S
+): [S, Dispatch<BasicStateAction<S>>] {
+  return updateReducer(basicStateReducer, initialState);
+}
 ```
 
 # 参考
@@ -84,4 +287,4 @@ return [hook.memoizedState, dispatch];
 
 [源码解读](https://www.bilibili.com/video/BV1SDm2Y3ETD?spm_id_from=333.788.player.switch&vd_source=22af953ea4c09540ad1966711a2d53f0&p=69)
 
-[useReducer的源码解读](https://www.bilibili.com/video/BV1SDm2Y3ETD?spm_id_from=333.788.player.switch&vd_source=22af953ea4c09540ad1966711a2d53f0&p=70)
+[useReducer 的源码解读](https://www.bilibili.com/video/BV1SDm2Y3ETD?spm_id_from=333.788.player.switch&vd_source=22af953ea4c09540ad1966711a2d53f0&p=70)
