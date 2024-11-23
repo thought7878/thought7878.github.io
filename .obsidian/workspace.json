@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
+                "file": "_posts/react/React-Router/Why-What-How.md",
                 "mode": "source",
                 "source": false
               }
@@ -226,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -243,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
+                "file": "_posts/react/React-Router/Why-What-How.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
+                "file": "_posts/react/React-Router/Why-What-How.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md"
+                "file": "_posts/react/React-Router/Why-What-How.md"
               }
             }
           }
@@ -306,16 +305,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "b87e9ba85abb9419",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/interview/问题/React、Redux、React-Router.md",
     "_posts/react/总结/Hooks/Hook 的原理和源码.md",
+    "_posts/react/React-Router/Why-What-How.md",
+    "_posts/任务记录/2024/11月/23.md",
+    "_posts/react/React-Router",
+    "_posts/interview/问题/React、Redux、React-Router.md",
     "_posts/react/总结/Hooks/Hook规则背后的原因.md",
     "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Hooks/useEffect.md",
     "_posts/react/总结/Hooks/useState.md",
     "_posts/react/总结/组件的常⻅性能优化的方法.md",
-    "_posts/任务记录/2024/11月/23.md",
     "_posts/react/总结/高阶组件.md",
     "_posts/react/总结/useImperativeHandle.md",
     "_posts/react/总结/Hooks/useCallback.md",
@@ -336,7 +337,6 @@
     "_posts/react/总结/Hooks/useReducer.md",
     "_posts/react/总结/Hooks/useOptimistic.md",
     "_posts/react/总结/Hooks/useMemo.md",
-    "_posts/react/总结/Hooks/useInsertionEffect.md",
     "_posts/react/总结/Thinking",
     "_posts/react/源码",
     "_posts/react/Hooks",
