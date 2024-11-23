@@ -145,14 +145,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
+                "file": "_posts/interview/问题/React、Redux、React-Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b87e9ba85abb9419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -214,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -230,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
+                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
+                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md"
+                "file": "_posts/react/总结/Hooks/Hook 的原理和源码.md"
               }
             }
           }
@@ -279,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,37 +307,37 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0f6ca337cb88b77",
+  "active": "b87e9ba85abb9419",
   "lastOpenFiles": [
+    "_posts/interview/问题/React、Redux、React-Router.md",
+    "_posts/react/总结/Hooks/Hook 的原理和源码.md",
+    "_posts/react/总结/Hooks/Hook规则背后的原因.md",
+    "_posts/react/总结/Hooks/useRef.md",
+    "_posts/react/总结/Hooks/useEffect.md",
+    "_posts/react/总结/Hooks/useState.md",
+    "_posts/react/总结/组件的常⻅性能优化的方法.md",
+    "_posts/任务记录/2024/11月/23.md",
+    "_posts/react/总结/高阶组件.md",
+    "_posts/react/总结/useImperativeHandle.md",
+    "_posts/react/总结/Hooks/useCallback.md",
     "_posts/react/总结/APIs/forwardRef().md",
     "_posts/react/总结/APIs/memo().md",
-    "_posts/react/总结/组件的常⻅性能优化的方法.md",
-    "_posts/react/总结/Hooks/useCallback.md",
     "_posts/react/总结/APIs/ForwardedRef、MutableRefObject、RefObject.md",
     "_posts/react/总结/Hooks/Hooks API.md",
     "_posts/react/总结/APIs",
-    "_posts/任务记录/2024/11月/23.md",
     "_posts/任务记录/待办.md",
     "_posts/任务记录/2024/11月/19.md",
     "_posts/react/overview_面试.md",
     "_posts/react/总结/media/a166c6f32566eb8d43d93910e8d2fe29_MD5.jpeg",
     "_posts/react/总结/media/Pasted image 20241123000225.png",
     "_posts/react/总结/Hooks/useContext.md",
-    "_posts/react/总结/Hooks/useEffect.md",
     "_posts/react/总结/Hooks/useTransition.md",
     "_posts/react/总结/Hooks/useLayoutEffect.md",
     "_posts/react/总结/Hooks/useSyncExternalStore.md",
-    "_posts/react/总结/Hooks/useState.md",
-    "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Hooks/useReducer.md",
     "_posts/react/总结/Hooks/useOptimistic.md",
     "_posts/react/总结/Hooks/useMemo.md",
     "_posts/react/总结/Hooks/useInsertionEffect.md",
-    "_posts/react/总结/Hooks/useImperativeHandle.md",
-    "_posts/react/总结/Hooks/useId.md",
-    "_posts/react/总结/Hooks/useDeferredValue.md",
-    "_posts/react/总结/Hooks/useDebugValue.md",
-    "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
     "_posts/react/总结/Thinking",
     "_posts/react/源码",
     "_posts/react/Hooks",
