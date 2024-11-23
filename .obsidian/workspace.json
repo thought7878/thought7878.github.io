@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/待办.md",
+                "file": "_posts/任务记录/2024/11月/23.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/Hooks/useTransition.md",
+                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/Hooks/useTransition.md",
+                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/Hooks/useTransition.md",
+                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/Hooks/useTransition.md"
+                "file": "_posts/react/总结/组件的常⻅性能优化的方法.md"
               }
             }
           }
@@ -295,8 +295,23 @@
   },
   "active": "d0f6ca337cb88b77",
   "lastOpenFiles": [
-    "_posts/react/总结/Hooks/useLayoutEffect.md",
+    "_posts/react/总结/APIs/forwardRef().md",
+    "_posts/react/总结/APIs/memo().md",
+    "_posts/react/总结/组件的常⻅性能优化的方法.md",
+    "_posts/react/总结/Hooks/useCallback.md",
+    "_posts/react/总结/APIs/ForwardedRef、MutableRefObject、RefObject.md",
+    "_posts/react/总结/Hooks/Hooks API.md",
+    "_posts/react/总结/APIs",
+    "_posts/任务记录/2024/11月/23.md",
+    "_posts/任务记录/待办.md",
+    "_posts/任务记录/2024/11月/19.md",
+    "_posts/react/overview_面试.md",
+    "_posts/react/总结/media/a166c6f32566eb8d43d93910e8d2fe29_MD5.jpeg",
+    "_posts/react/总结/media/Pasted image 20241123000225.png",
+    "_posts/react/总结/Hooks/useContext.md",
+    "_posts/react/总结/Hooks/useEffect.md",
     "_posts/react/总结/Hooks/useTransition.md",
+    "_posts/react/总结/Hooks/useLayoutEffect.md",
     "_posts/react/总结/Hooks/useSyncExternalStore.md",
     "_posts/react/总结/Hooks/useState.md",
     "_posts/react/总结/Hooks/useRef.md",
@@ -306,23 +321,11 @@
     "_posts/react/总结/Hooks/useInsertionEffect.md",
     "_posts/react/总结/Hooks/useImperativeHandle.md",
     "_posts/react/总结/Hooks/useId.md",
-    "_posts/react/总结/Hooks/useEffect.md",
     "_posts/react/总结/Hooks/useDeferredValue.md",
     "_posts/react/总结/Hooks/useDebugValue.md",
-    "_posts/react/总结/Hooks/useContext.md",
-    "_posts/react/总结/Hooks/useCallback.md",
     "_posts/react/Redux/中间件、Redux-Thunk、Redux-Saga.md",
-    "_posts/react/Redux/React-Redux.md",
-    "_posts/react/Redux/Redux.md",
-    "_posts/react/总结/Thinking in React.md",
-    "_posts/react/源码/参考资料.md",
     "_posts/react/总结/Thinking",
-    "_posts/react/深入浅出搞定 React/08_深入 React-Hook 工作机制：“原则”的背后，是“原理”.md",
-    "_posts/react/总结/04.全局状态、通信、数据流动.md",
     "_posts/react/源码",
-    "_posts/react/深入浅出搞定 React/14_ReactDOM.render 是如何串联渲染链路的？（中）.md",
-    "_posts/react/深入浅出搞定 React/13_ReactDOM.render 是如何串联渲染链路的？（上）.md",
-    "_posts/ablog/2021-07-28-ReactDOM.render 的渲染流程2.md",
     "_posts/react/Hooks",
     "_posts/react/总结/Hooks",
     "_posts/react/Redux",
@@ -334,8 +337,6 @@
     "_posts/interview/薪资情况/media/91c692ba7694b27ad577d690a08b1693_MD5.png",
     "_posts/interview/薪资情况/media/3ca3f4e28d366c1950103a5b546acf91_MD5.png",
     "_posts/interview/薪资情况/media/7e13bd40cfb00a046e2c66852c47539f_MD5.png",
-    "_posts/interview/薪资情况/media/0439b47b9c287f97ef6b31eaeabf9970_MD5.png",
-    "_posts/interview/薪资情况/media/1652371f12bf1bb75db64420fb5473f6_MD5.png",
     "_posts/interview/薪资情况/media",
     "_posts/interview/薪资情况"
   ]
