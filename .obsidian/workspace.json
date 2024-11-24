@@ -121,14 +121,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/mode.md",
+                "file": "_posts/engineering/webpack/配置项/infrastructureLogging.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/mode.md",
+                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/mode.md",
+                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/mode.md"
+                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md"
               }
             }
           }
@@ -269,9 +269,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e946dc3fb0a52a11",
+  "active": "cfff7c0dd96d08ee",
   "lastOpenFiles": [
+    "_posts/engineering/webpack/配置项/infrastructureLogging.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+    "_posts/engineering/webpack/配置项/stats.md",
+    "_posts/engineering/webpack/配置项/performance.md",
+    "_posts/engineering/webpack/配置项/cache.md",
+    "_posts/engineering/webpack/配置项/devServer.md",
+    "_posts/engineering/webpack/配置项/devtool.md",
+    "_posts/engineering/webpack/配置项/watch.md",
     "_posts/engineering/webpack/配置项/mode.md",
     "_posts/engineering/webpack/配置项/target.md",
     "_posts/engineering/webpack/配置项/optimization.md",
@@ -291,13 +298,6 @@
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/26 Chunk：三种产物的打包逻辑.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
     "_posts/任务记录/2024/11月/24.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
-    "_posts/engineering/教程/Webpack原理与实践/视频列表.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/30 HMR：如何动态替换页面代码？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/29 Sourcemap：源码映射原理与应用技巧.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/28 Tree-shaking：如何删除无用模块导出？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
     "_posts/react/React-Router",
     "_posts/react/总结/APIs",
     "_posts/react/总结/media/a166c6f32566eb8d43d93910e8d2fe29_MD5.jpeg",

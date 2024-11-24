@@ -1,4 +1,4 @@
-在 Webpack 配置中，`mode` 选项用于指定构建模式，可以是 `development`、`production` 或 `none`。不同的模式会自动应用不同的优化和配置，帮助你更好地开发和部署应用。以下是 `mode` 选项的详细用法和示例。
+在 Webpack 配置中，`mode` 选项用于*指定构建模式*，可以是 `development`、`production` 或 `none`。**不同的模式会自动应用不同的优化和配置**，帮助你更好地开发和部署应用。以下是 `mode` 选项的详细用法和示例。
 
 ### 基本配置
 
@@ -27,7 +27,7 @@ module.exports = {
 
 #### 1. `development`
 
-- **描述**：开发模式。在这种模式下，Webpack 会使用 `eval` 源映射（source map），提供更快的构建速度，但不会进行代码最小化（minification）。
+- **描述**：开发模式。在这种模式下，Webpack *会使用 `eval` 源映射（source map），提供更快的构建速度，但不会进行代码最小化（minification）*。
 - **示例**：
   ```javascript
   mode: 'development',
@@ -35,7 +35,7 @@ module.exports = {
 
 #### 2. `production`
 
-- **描述**：生产模式。在这种模式下，Webpack 会启用代码最小化（minification）、Tree Shaking 等优化策略，以提高应用的性能。
+- **描述**：生产模式。在这种模式下，Webpack 会*启用代码最小化（minification）、Tree Shaking 等优化策略*，以提高应用的性能。
 - **示例**：
   ```javascript
   mode: 'production',
@@ -43,7 +43,7 @@ module.exports = {
 
 #### 3. `none`
 
-- **描述**：无模式。在这种模式下，Webpack 不会应用任何内置的优化，默认情况下不会启用最小化或 Tree Shaking。
+- **描述**：无模式。在这种模式下，Webpack *不会应用任何内置的优化*，默认情况下不会启用最小化或 Tree Shaking。
 - **示例**：
   ```javascript
   mode: 'none',
@@ -56,6 +56,7 @@ module.exports = {
 ```javascript
 // webpack.config.js
 const path = require('path');
+//
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
 module.exports = {
