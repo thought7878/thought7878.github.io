@@ -22,7 +22,7 @@
 
 > 提示：单次构建过程自上而下按顺序执行，如果启动了 `watch` ，则构建完成后不会退出 Webpack 进程，而是持续监听文件内容，发生变化时回到「**构建**」阶段重新执行构建。
 
-三个阶段环环相扣，「**初始化**」的重点是根据用户配置设置好构建环境；「**构建阶段**」则重在解读文件输入与文件依赖关系；最后在「**生成阶段**」按规则组织、组装模块，并翻译为适合能够直接运行的产物包。三者结合，实现 Webpack 最核心的打包能力，其它功能特性也几乎都是在此基础上，通过 Hook 介入、修改不同阶段的对象状态、流程逻辑等方式实现。
+三个阶段环环相扣：「**初始化**」的重点是根据用户配置设置好构建环境；「**构建阶段**」则重在解读文件输入与文件依赖关系；最后在「**生成阶段**」按规则组织、组装模块，并翻译为适合能够直接运行的产物包。三者结合，实现 Webpack 最核心的打包能力，其它功能特性也几乎都是在此基础上，通过 Hook 介入、修改不同阶段的对象状态、流程逻辑等方式实现。
 
 可以说，深度理解这三个阶段，才算是真正掌握了 Webpack 核心原理，所以接下来，让我们一起深入底层源码，剖析各阶段的具体实现。
 
@@ -117,7 +117,7 @@ class EntryPlugin {
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/5ec6cb68d82d2f114af9c311f0f78371_MD5.webp]]
 
-1. 调用 [handleModuleCreation](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L1476-L1477)，根据文件类型构建 `module` 子类 —— 一般是 [NormalModule](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FNormalModule.js)；
+1. 调用 [handleModuleCreation](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L1476-L1477)，根据文件类型构建 `module` 子类的对象 —— 一般是 [NormalModule](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FNormalModule.js)；
 2. 调用 [loader-runner](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Floader-runner) 转译 `module` 内容，*将各类型资源转译为 Webpack 能够理解的标准 JavaScript 文本*；
 3. *调用 [acorn](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Facorn) 将 JavaScript 代码解析为 AST 结构*；
 4. 在 `JavaScriptParser` 类中遍历 AST，触发各种钩子，其中最关键的：
@@ -131,9 +131,9 @@ class EntryPlugin {
 6. 对于 `module` 新增的依赖，调用 `handleModuleCreate`，控制流回到第一步；
 7. 所有依赖都解析完毕后，构建阶段结束。
 
-过程中模块源码经历了 `module => ast => dependences => module` 的流转，先将源码解析为 AST 结构，再在 AST 中遍历 `import` 等模块导入语句，收集模块依赖数组 —— `dependences`，最后遍历 `dependences` 数组将 Dependency 转换为 Module 对象，之后递归处理这些新的 Module，直到所有项目文件处理完毕。
+**过程中模块源码经历了 `module => ast => dependences => module` 的流转**，先将源码解析为 AST 结构，再在 AST 中遍历 `import` 等模块导入语句，收集模块依赖数组 —— `dependences`，最后遍历 `dependences` 数组将 Dependency 转换为 Module 对象，之后递归处理这些新的 Module，直到所有项目文件处理完毕。
 
-> 提示：这个过程会调用 acorn 将模块内容 —— 包括 JS、CSS，甚至多媒体文件，解析为 AST 结构，所以需要使用 `loaders` 将不同类型的资源转译为标准 JavaScript 代码。
+> 提示：这个过程会调用 acorn 将模块内容 —— 包括 JS、CSS，甚至多媒体文件，解析为 AST 结构，**所以需要使用 `loaders` 将不同类型的资源转译为标准 JavaScript 代码**。
 
 ### 例子
 这个递归处理流程是「**构建阶段**」的精髓，我们来看个例子，假设对于下图这种简单模块依赖关系：
@@ -166,7 +166,7 @@ class EntryPlugin {
 
 ## 生成阶段
 
-「构建阶段」负责读入与分析源代码文件，将之一一转化为 [Module](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FModule.js)、[Dependency](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FDependency.js) 对象，解决的是资源“输入”问题；而「生成阶段」则负责根据一系列内置规则，将上一步构建出的所有 Module 对象拆分编排进若干 Chunk 对象中，之后以 Chunk 粒度将源码转译为适合在目标环境运行的产物形态，并写出为产物文件，解决的是资源“输出”问题。
+「构建阶段」负责读入与分析源代码文件，将之一一转化为 [Module](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FModule.js)、[Dependency](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FDependency.js) 对象，解决的是资源“输入”问题；而「生成阶段」则负责根据一系列内置规则，**将上一步构建出的所有 Module 对象拆分编排进若干 Chunk 对象中**，之后以 Chunk 粒度将源码转译为适合在目标环境运行的产物形态，并写出为产物文件，解决的是资源“输出”问题。
 
 「生成阶段」发生在 `make` 阶段执行完毕，`compiler.compile` 调用 [compilation.seal](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2780-L2781) 函数时：
 
@@ -182,72 +182,30 @@ compile(callback) {
   }
 ```
 
-也就是说，`compilation.seal` 函数是「生成阶段」的入口函数，`seal` 原意密封、上锁，我个人理解在 Webpack 语境下接近于“将模块装进 Chunk”，核心流程：
+也就是说，`compilation.seal` 函数是 **「生成阶段」的入口函数**，`seal` 原意*密封、上锁*，我个人理解在 Webpack 语境下接近于“*将模块装进 Chunk*”，核心流程：
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/be30b594bb8ed705e84d11e4191a87fc_MD5.webp]]
 
 1. 创建本次构建的 [ChunkGraph](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FChunkGraph.js) 对象。
 
-2. 遍历
+2. 遍历入口集合compilation.entries：
+   -  调用 `addChunk` 方法**为每一个入口 [创建](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2817-L2818) 对应的 Chunk 对象（EntryPoint Chunk）**；
+   - [遍历](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2832-L2833) 该入口对应的 Dependency 集合，**[找到](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2835-L2836) 相应 Module 对象并 [关联](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2837-L2838) 到该 Chunk**。
 
-    
+3. 到这里可以得到若干 Chunk，之后调用 [buildChunkGraph](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FbuildChunkGraph.js%23L1347-L1348) 方法**将这些 Chunk 处理成 Graph 结构**，方便后续处理。
 
-   入口集合
+4. 之后，触发 `optimizeModules/optimizeChunks` 等钩子，**由插件（如 [SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fsplit-chunks-plugin%2F)）进一步修剪、优化 Chunk 结构**。
 
-    
-
-   ```
-   compilation.entries
-   ```
-
-   ：
-
-   1. 调用 `addChunk` 方法为每一个入口 [创建](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2817-L2818) 对应的 Chunk 对象（EntryPoint Chunk）；
-   2. [遍历](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2832-L2833) 该入口对应的 Dependency 集合，[找到](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2835-L2836) 相应 Module 对象并 [关联](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L2837-L2838) 到该 Chunk。
-
-3. 到这里可以得到若干 Chunk，之后调用 [buildChunkGraph](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FbuildChunkGraph.js%23L1347-L1348) 方法将这些 Chunk 处理成 Graph 结构，方便后续处理。
-
-4. 之后，触发 `optimizeModules/optimizeChunks` 等钩子，由插件（如 [SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fplugins%2Fsplit-chunks-plugin%2F)）进一步修剪、优化 Chunk 结构。
-
-5. 一直到最后一个 Optimize 钩子
-
-    
-
-   ```
-   optimizeChunkModules
-   ```
-
-    
-
-   执行完毕后，开始调用
-
-    
-
-   compilation.codeGeneration
-
-    
-
-   方法生成 Chunk 代码，在
-
-    
-
-   ```
-   codeGeneration
-   ```
-
-    
-
-   方法内部：
-
-   1. 遍历每一个 Chunk 的 Module 对象，调用 [_codeGenerationModule](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L3297-L3298)；
-   2. `_codeGenerationModule` 又会继续往下调用 [module.codeGeneration](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FModule.js%23L876-L877) 生成单个 Module 的代码，这里注意不同 Module 子类有不同 `codeGeneration` 实现，对应不同产物代码效果。
+5. 一直到最后一个 Optimize 钩子 `optimizeChunkModules` 执行完毕后，开始调用 compilation.codeGeneration 方法**生成 Chunk 代码**，在 codeGeneration 方法内部：
+   - 遍历每一个 Chunk 的 Module 对象，调用 [_codeGenerationModule](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L3297-L3298)；
+   - `_codeGenerationModule` 又会继续往下调用 [module.codeGeneration](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FModule.js%23L876-L877) 生成单个 Module 的代码，这里注意不同 Module 子类有不同 `codeGeneration` 实现，对应不同产物代码效果。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/3fb0aaf37c9a2e72f91d705cec9e12f6_MD5.webp]]
 
-1. 所有 Module 都执行完 `codeGeneration`，生成模块资产代码后，开始调用 [createChunkAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L4520-L4521) 函数，为每一个 Chunk 生成资产文件。
-2. 调用 [compilation.emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L4638-L4639) 函数“**提交**”资产文件，注意这里还只是记录资产文件信息，还未写出磁盘文件。
-3. 上述所有操作正常完成后，触发 `callback` 回调，控制流回到 `compiler` 函数。
-4. 最后，[调用](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompiler.js%23L466-L467) `compiler` 对象的 [emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompiler.js%23L592-L593) 方法，输出资产文件。
+6. 所有 Module 都执行完 `codeGeneration`，生成模块资产代码后，开始调用 [createChunkAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L4520-L4521) 函数，为每一个 Chunk 生成资产文件。
+7. 调用 [compilation.emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompilation.js%23L4638-L4639) 函数“**提交**”资产文件，注意这里还只是记录资产文件信息，还未写出磁盘文件。
+8. 上述所有操作正常完成后，触发 `callback` 回调，控制流回到 `compiler` 函数。
+9. 最后，[调用](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompiler.js%23L466-L467) `compiler` 对象的 [emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fgithub1s.com%2Fwebpack%2Fwebpack%2Fblob%2FHEAD%2Flib%2FCompiler.js%23L592-L593) 方法，输出资产文件。
 
 `seal` 很复杂，重点在于将 Module 按入口组织成多个 Chunk 对象，之后暴露 `optimizeXXX` 钩子，交由插件根据不同需求对 Chunk 做进一步修剪、整形、优化，最后按 Chunk 为单位做好代码合并与转换，输出为资产文件。
 
