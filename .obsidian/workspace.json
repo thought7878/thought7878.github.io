@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/output.md",
+                "file": "_posts/engineering/webpack/配置项/mode.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/output.md",
+                "file": "_posts/engineering/webpack/配置项/mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/output.md",
+                "file": "_posts/engineering/webpack/配置项/mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/配置项/output.md"
+                "file": "_posts/engineering/webpack/配置项/mode.md"
               }
             }
           }
@@ -272,11 +272,15 @@
   "active": "e946dc3fb0a52a11",
   "lastOpenFiles": [
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+    "_posts/engineering/webpack/配置项/mode.md",
+    "_posts/engineering/webpack/配置项/target.md",
+    "_posts/engineering/webpack/配置项/optimization.md",
+    "_posts/engineering/webpack/配置项/module.md",
+    "_posts/engineering/webpack/配置项/externals.md",
     "_posts/engineering/webpack/配置项/output.md",
     "_posts/engineering/webpack/配置项/context.md",
     "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/engineering/webpack/配置项/entry.md",
-    "_posts/engineering/webpack/配置项/externals.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
     "_posts/engineering/webpack/目录.md",
     "_posts/engineering/webpack/配置项/resolve.md",
@@ -294,10 +298,6 @@
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/28 Tree-shaking：如何删除无用模块导出？.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/18 还有哪些值得学习的应用性能极致优化技巧？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/17 不止 Terser：揭秘代码压缩的门门道道.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
     "_posts/react/React-Router",
     "_posts/react/总结/APIs",
     "_posts/react/总结/media/a166c6f32566eb8d43d93910e8d2fe29_MD5.jpeg",
