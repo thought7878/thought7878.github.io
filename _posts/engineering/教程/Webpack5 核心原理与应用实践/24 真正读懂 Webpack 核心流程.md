@@ -242,46 +242,23 @@ OK，上面我们已经把逻辑层面的构造主流程梳理完了，最后我
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/868b3b34fb1c786f0f2b021e3d65392b_MD5.webp]]
 
-- ```
-  compiler.make
-  ```
+- `compiler.make` 阶段：
+    - `entry` 文件以 `dependence` 对象形式加入 `compilation` 的依赖列表，`dependence` 对象记录了 `entry` 的类型、路径等信息；
+    - 根据 `dependence` 调用对应的工厂函数创建 `module` 对象，之后读入 `module` 对应的文件内容，调用 `loader-runner` 对内容做转化，转化结果若有其它依赖则继续读入依赖资源，重复此过程直到所有依赖均被转化为 `module`。
+- `compilation.seal` 阶段：
+    - 遍历 `module` 集合，根据 `entry` 配置及引入资源的方式，将 `module` 分配到不同的 Chunk；
+    - Chunk 之间最终形成 ChunkGraph 结构；
+    - 遍历 ChunkGraph，调用 `compilation.emitAsset` 方法标记 `chunk` 的输出规则，即转化为 `assets` 集合。
+- `compiler.emitAssets` 阶段：
+    - 将 `assets` 写入文件系统。
 
-   
-
-  阶段：
-
-  - `entry` 文件以 `dependence` 对象形式加入 `compilation` 的依赖列表，`dependence` 对象记录了 `entry` 的类型、路径等信息；
-  - 根据 `dependence` 调用对应的工厂函数创建 `module` 对象，之后读入 `module` 对应的文件内容，调用 `loader-runner` 对内容做转化，转化结果若有其它依赖则继续读入依赖资源，重复此过程直到所有依赖均被转化为 `module`。
-
-- ```
-  compilation.seal
-  ```
-
-   
-
-  阶段：
-
-  - 遍历 `module` 集合，根据 `entry` 配置及引入资源的方式，将 `module` 分配到不同的 Chunk；
-  - Chunk 之间最终形成 ChunkGraph 结构；
-  - 遍历 ChunkGraph，调用 `compilation.emitAsset` 方法标记 `chunk` 的输出规则，即转化为 `assets` 集合。
-
-- ```
-  compiler.emitAssets
-  ```
-
-   
-
-  阶段：
-
-  - 将 `assets` 写入文件系统。
-
-这个过程用到很多 Webpack 基础对象，包括：
+**这个过程用到很多 Webpack 基础对象，包括：**
 
 - `Entry`：编译入口；
 - `Compiler`：编译管理器，Webpack 启动后会创建 `compiler` 对象，该对象一直存活直到构建结束进程退出；
-- `Compilation`：单次构建过程的管理器，比如 `watch = true` 时，运行过程中只有一个 `compiler`，但每次文件变更触发重新编译时，都会创建一个新的 `compilation` 对象；
+- `Compilation`：单次构建过程的管理器，比如 `watch = true` 时，运行过程中只有一个 `compiler`，但*每次文件变更触发重新编译时，都会创建一个新的 `compilation` 对象*；
 - `Dependence`：依赖对象，记录模块间依赖关系；
-- `Module`：Webpack 内部所有资源都会以 Module 对象形式存在，所有关于资源的操作、转译、合并都是以 Module 为单位进行的；
+- `Module`：Webpack 内部*所有资源都会以 Module 对象形式存在*，所有关于资源的操作、转译、合并都是以 Module 为单位进行的；
 - `Chunk`：编译完成准备输出时，将 Module 按特定的规则组织成一个一个的 Chunk。
 
 这里简单了解即可，后面章节中我们还会继续挖掘不同对象的作用与细节。
