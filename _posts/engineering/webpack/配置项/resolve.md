@@ -80,7 +80,7 @@ module.exports = {
    ```
 
 #### 3. **`modules`**：
-   - 通过 `modules` 配置，可以指定 Webpack 查找模块的目录。
+   - 通过 `modules` 配置，*指定 Webpack 查找模块的目录*。
    - 例如，配置了 `[path.resolve(__dirname, 'src'), 'node_modules']`，Webpack 会先在 `src` 目录中查找模块，如果找不到再在 `node_modules` 中查找。
 
 #### 4. **`mainFields`**：
