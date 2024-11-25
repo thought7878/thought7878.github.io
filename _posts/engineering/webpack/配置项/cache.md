@@ -61,11 +61,14 @@ module.exports = {
 #### 4. `buildDependencies`
 
 - **类型**：`object`
-- **描述**：指定构建依赖项，用于*确定何时清除缓存*。
+- **描述**：指定构建依赖项，用于*确定何时清除缓存*。额外的依赖文件，当这些文件内容发生变化时，缓存会完全失效而执行完整的编译构建，*通常可设置为各种配置文件*
 - **示例**：
   ```javascript
   buildDependencies: {
-    config: [__filename],
+    config: [
+        path.join(__dirname, 'webpack.dll_config.js'),
+        path.join(__dirname, '.babelrc')
+    ],
     defaultResolver: [require.resolve('enhanced-resolve')],
   },
   ```
