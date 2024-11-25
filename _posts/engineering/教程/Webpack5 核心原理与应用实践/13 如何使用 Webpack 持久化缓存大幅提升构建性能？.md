@@ -94,8 +94,8 @@ module.exports = {
 
 Webpack5 的持久化缓存用法简单，效果出众，*但可惜在 Webpack4 及之前版本原生还没有相关实现，只能借助一些第三方组件实现类似效果*，包括：
 
-- 使用 `[cache-loader](https://www.npmjs.com/package/cache-loader)`；
-- 使用 `[hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin)`；
+- 使用 [cache-loader](https://www.npmjs.com/package/cache-loader)；
+- 使用 [hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin)；
 - 使用 Loader（如 `babel-loader`、`eslint-loader`)）自带的缓存能力。
 
 先从 `cache-loader` 说起，`cache-loader` 能够将 Loader 处理结果保存到硬盘，下次运行时若文件内容没有发生变化则直接返回缓存结果，用法：

@@ -1,7 +1,7 @@
 ## 为什么要并行构建
 
 **受限于 Node.js 的单线程架构**，原生 Webpack 对所有资源文件做的所有解析、转译、合并操作*本质上都是在同一个线程内串行执行，CPU 利用率极低*。因此，理所当然地，*社区出现了一些以多进程方式运行 Webpack或 Webpack 构建过程某部分工作的方案*(从而提升单位时间利用率)，例如：
-- [Thread-loader](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fthread-loader%2F)：Webpack 官方出品，同样以多进程方式加载资源；
+- [Thread-loader](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fthread-loader%2F)：Webpack 官方出品，同样以多进程方式**加载资源**；
 - [HappyPack](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Famireh%2Fhappypack)：多进程方式运行资源加载(Loader)逻辑；
 
 - [Parallel-Webpack](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fparallel-webpack)：多进程方式运行多个 Webpack 构建实例；
