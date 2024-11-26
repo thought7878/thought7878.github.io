@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "534604d2630dc726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/Components/<Suspense>.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d455f62f265daa2e",
             "type": "leaf",
             "state": {
@@ -97,9 +109,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
+                "file": "_posts/engineering/webpack/构建性能/实际案例.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "8fabd6ec07b3485c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md"
               }
             }
           },
@@ -128,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -207,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
+                "file": "_posts/react/总结/Components/<Suspense>.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
+                "file": "_posts/react/总结/Components/<Suspense>.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md"
+                "file": "_posts/react/总结/Components/<Suspense>.md"
               }
             }
           }
@@ -267,56 +288,57 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "731637a33ebd29f1",
+  "active": "534604d2630dc726",
   "lastOpenFiles": [
+    "_posts/react/总结/APIs/lazy().md",
+    "_posts/react/总结/Components/<Suspense>.md",
+    "_posts/react/总结/Components",
     "_posts/任务记录/待办.md",
-    "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
-    "_posts/engineering/webpack/配置项/externals.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
+    "_posts/tools/obsidian/基础.md",
+    "_posts/tools/obsidian/用Obsidian做本地视频笔记.md",
+    "_posts/engineering/webpack/构建性能/实际案例.md",
     "_posts/engineering/webpack/目录.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
+    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-26 22.26.39.excalidraw.md",
+    "_posts/engineering/webpack/构建性能/Drawing 2024-11-26 22.18.02.excalidraw.md",
+    "Excalidraw",
     "_posts/engineering/webpack/Webpack的构建流程.md",
-    "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
-    "_posts/engineering/webpack/构建性能/并行构建.md",
+    "_posts/interview/问题/工程化.md",
+    "_posts/engineering/webpack/构建性能/media/fe969fe302d54853d93931c5c3b85519_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/d1c86d4cc092b6341a6d743fcc81fcf1_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/44117344e82ce6a1b683f1f2d994669e_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/6d39c4ebcf3206ab8d5fc689f35156d1_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/c44ac66d8a97300d9371b0b79b0a4923_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/9064271dc190817c8a42db0fb8dca7a1_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/551ce49544c8ceb360a0fbdecae42460_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/ecc25145bd5cf0671e8403dce8c1920e_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/d89b736ca9fe06c109016b004bcbab7f_MD5.png",
+    "_posts/engineering/webpack/构建性能/media/29d596e3671c376c6f2811eee8dff06b_MD5.png",
+    "_posts/engineering/webpack/构建性能/media",
+    "_posts/engineering/webpack/构建性能/4.常用的性能分析工具.md",
+    "_posts/engineering/webpack/构建性能/3.其他的优化技巧（除了缓存和并行）.md",
+    "_posts/engineering/webpack/构建性能/2.并行构建.md",
+    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
+    "_posts/engineering/webpack/配置项/externals.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
     "_posts/engineering/webpack/配置项/cache.md",
-    "_posts/interview/问题/工程化.md",
     "_posts/react/总结/Hooks/useTransition.md",
     "_posts/react/总结/Hooks/useSyncExternalStore.md",
     "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Hooks/useLayoutEffect.md",
     "_posts/react/总结/Hooks/useInsertionEffect.md",
-    "_posts/engineering/webpack/构建性能/常用的性能分析工具.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
     "_posts/engineering/webpack/开发 Loader & Plugin",
-    "_posts/engineering/webpack/场景实践/搭建 NPM Library 的环境.md",
-    "_posts/engineering/webpack/场景实践/搭建 React 全栈开发环境.md",
-    "_posts/engineering/webpack/场景实践/搭建 JS 工程环境： Babel+TS+ESLint.md",
-    "_posts/engineering/webpack/场景实践/搭建 CSS 工程环境：借助预处理器、PostCSS 等.md",
     "_posts/engineering/webpack/场景实践",
     "_posts/engineering/webpack/应用性能",
     "_posts/engineering/webpack/构建性能",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
-    "_posts/engineering/webpack/配置项/stats.md",
     "_posts/engineering/webpack/配置项",
     "_posts/react/React-Router",
-    "_posts/react/总结/APIs",
-    "_posts/react/总结/media/a166c6f32566eb8d43d93910e8d2fe29_MD5.jpeg",
-    "_posts/react/总结/media/Pasted image 20241123000225.png",
-    "_posts/react/总结/Thinking",
-    "_posts/react/源码",
-    "_posts/react/Hooks",
-    "_posts/interview/薪资情况/media/8a4adafc31c770019cb4cbeeb80af983_MD5.png",
-    "_posts/interview/薪资情况/media/e0cdaed55e9486a1feca4fe875671d06_MD5.png",
-    "_posts/interview/薪资情况/media/aa0c1ff866e739986131c8526bf02b4f_MD5.png",
-    "_posts/interview/薪资情况/media/58db84c5ca2f2482f0fd8840cebfb9b8_MD5.png",
-    "_posts/interview/薪资情况/media/6300832350da77e84242037ede1d0032_MD5.png",
-    "_posts/interview/薪资情况/media/91c692ba7694b27ad577d690a08b1693_MD5.png",
-    "_posts/interview/薪资情况/media/3ca3f4e28d366c1950103a5b546acf91_MD5.png",
-    "_posts/interview/薪资情况/media/7e13bd40cfb00a046e2c66852c47539f_MD5.png"
+    "_posts/react/总结/APIs"
   ]
 }
