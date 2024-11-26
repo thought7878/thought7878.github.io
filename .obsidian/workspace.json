@@ -274,6 +274,7 @@
   "lastOpenFiles": [
     "_posts/任务记录/待办.md",
     "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
+    "_posts/engineering/webpack/配置项/externals.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "_posts/engineering/webpack/目录.md",
     "_posts/engineering/webpack/Webpack的构建流程.md",
@@ -301,7 +302,6 @@
     "_posts/engineering/webpack/构建性能",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
     "_posts/engineering/webpack/配置项/stats.md",
-    "_posts/要整理的.md",
     "_posts/engineering/webpack/配置项",
     "_posts/react/React-Router",
     "_posts/react/总结/APIs",
