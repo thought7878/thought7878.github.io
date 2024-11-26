@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
+                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,24 +129,6 @@
           }
         ],
         "currentTab": 7
-      },
-      {
-        "id": "d6907843f067322d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6d5eafa949a1728",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
+                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
+                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md"
+                "file": "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md"
               }
             }
           }
@@ -290,22 +272,23 @@
   },
   "active": "731637a33ebd29f1",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/配置项/cache.md",
-    "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
+    "_posts/任务记录/待办.md",
+    "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "_posts/engineering/webpack/目录.md",
-    "_posts/engineering/webpack/构建性能/并行构建.md",
-    "_posts/interview/问题/工程化.md",
     "_posts/engineering/webpack/Webpack的构建流程.md",
+    "_posts/engineering/webpack/构建性能/持久化缓存：大幅提升构建性能.md",
+    "_posts/engineering/webpack/构建性能/并行构建.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
+    "_posts/engineering/webpack/配置项/cache.md",
+    "_posts/interview/问题/工程化.md",
     "_posts/react/总结/Hooks/useTransition.md",
     "_posts/react/总结/Hooks/useSyncExternalStore.md",
     "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Hooks/useLayoutEffect.md",
     "_posts/react/总结/Hooks/useInsertionEffect.md",
-    "_posts/engineering/webpack/构建性能/其他的优化技巧（除了缓存和并行）.md",
     "_posts/engineering/webpack/构建性能/常用的性能分析工具.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
     "_posts/engineering/webpack/开发 Loader & Plugin",
@@ -319,7 +302,6 @@
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
     "_posts/engineering/webpack/配置项/stats.md",
     "_posts/要整理的.md",
-    "_posts/engineering/webpack/配置项/infrastructureLogging.md",
     "_posts/engineering/webpack/配置项",
     "_posts/react/React-Router",
     "_posts/react/总结/APIs",
