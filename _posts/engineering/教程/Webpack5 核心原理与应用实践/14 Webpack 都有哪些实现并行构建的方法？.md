@@ -12,7 +12,7 @@
 ## 使用 Thread-loader
 
 [Thread-loader](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Floaders%2Fthread-loader%2F) 与 HappyPack 功能类似，都是*以多进程方式加载文件的 Webpack 组件，两者主要区别：*
-1. Thread-loader 由 Webpack *官方提供*，目前还处于持续迭代维护状态，理论上更可靠；
+1. Thread-loader 由 Webpack 官方提供（不是官方），目前还处于持续迭代维护状态，理论上更可靠；
 2. Thread-loader 只提供了一个 Loader 组件，用法简单很多；
 3. HappyPack 启动后会创建一套 Mock 上下文环境 —— 包含 `emitFile` 等接口，并传递给 Loader，因此对大多数 Loader 来说，运行在 HappyPack 与运行在 Webpack 原生环境相比没有太大差异；但 Thread-loader 并不具备这一特性，*所以要求 Loader 内不能调用特定上下文接口，兼容性较差*。
 
@@ -101,8 +101,9 @@ threadLoader.warmup(
 
 执行效果与 `HappyPack.ThreadPool` 相似，此处不再赘述。
 
-### 缺点
+### 优点、缺点
 与 HappyPack 相比，*Thread-loader 有两个突出的优点*，一是产自 Webpack 官方团队，后续有长期维护计划，稳定性有保障；二是用法更简单。
+
 *但它不可避免的也存在一些问题：*
 - 在 Thread-loader 中运行的 Loader 不能调用 `emitAsset` 等接口，这会导致 `style-loader` 这一类加载器无法正常工作，解决方案是将这类组件放置在 `thread-loader` 之前，如 `['style-loader', 'thread-loader', 'css-loader']`；
 - Loader 中不能获取 `compilation`、`compiler` 等实例对象，也无法获取 Webpack 配置。
