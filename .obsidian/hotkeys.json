@@ -6,5 +6,15 @@
       ],
       "key": "F"
     }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
   ]
 }

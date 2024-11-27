@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "534604d2630dc726",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/总结/Components/<Suspense>.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d455f62f265daa2e",
             "type": "leaf",
             "state": {
@@ -61,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2024/11月/24.md",
+                "file": "_posts/任务记录/2024/11月/27.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,6 +92,30 @@
             }
           },
           {
+            "id": "9f8dc32f4176e502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/webpack/应用性能/代码分割.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0173934434b6f2ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "731637a33ebd29f1",
             "type": "leaf",
             "state": {
@@ -112,16 +124,6 @@
                 "file": "_posts/engineering/webpack/构建性能/实际案例.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8fabd6ec07b3485c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md"
               }
             }
           },
@@ -150,7 +152,25 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
+      },
+      {
+        "id": "e103f6ae1b2e4b79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b72c2312b587b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -228,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/Components/<Suspense>.md",
+                "file": "_posts/engineering/webpack/应用性能/代码分割.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/Components/<Suspense>.md",
+                "file": "_posts/engineering/webpack/应用性能/代码分割.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/Components/<Suspense>.md"
+                "file": "_posts/engineering/webpack/应用性能/代码分割.md"
               }
             }
           }
@@ -292,18 +313,30 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "534604d2630dc726",
+  "active": "9f8dc32f4176e502",
   "lastOpenFiles": [
-    "_posts/react/总结/APIs/lazy().md",
-    "_posts/react/总结/Components/<Suspense>.md",
-    "_posts/react/总结/Components",
+    "_posts/engineering/webpack/应用性能/使用 SplitChunks 提升应用性能.md",
+    "_posts/engineering/webpack/应用性能/代码分割.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "_posts/engineering/webpack/目录.md",
+    "_posts/react/overview_面试.md",
+    "_posts/interview/问题/React、Redux、React-Router.md",
+    "_posts/任务记录/2024/11月/27.md",
+    "_posts/interview/问题/项目经验.md",
     "_posts/任务记录/待办.md",
+    "_posts/要整理的.md",
+    "_posts/methods/如何规划好一天.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
+    "_posts/engineering/webpack/构建性能/实际案例.md",
+    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
+    "_posts/任务记录/2024/11月/24.md",
+    "_posts/react/总结/Components/<Suspense>.md",
+    "_posts/react/总结/APIs/lazy().md",
+    "_posts/react/总结/Components",
     "_posts/tools/obsidian/基础.md",
     "_posts/tools/obsidian/用Obsidian做本地视频笔记.md",
-    "_posts/engineering/webpack/构建性能/实际案例.md",
-    "_posts/engineering/webpack/目录.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
-    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
     "Excalidraw/Drawing 2024-11-26 22.26.39.excalidraw.md",
     "_posts/engineering/webpack/构建性能/Drawing 2024-11-26 22.18.02.excalidraw.md",
     "Excalidraw",
@@ -321,18 +354,6 @@
     "_posts/engineering/webpack/构建性能/media/29d596e3671c376c6f2811eee8dff06b_MD5.png",
     "_posts/engineering/webpack/构建性能/media",
     "_posts/engineering/webpack/构建性能/4.常用的性能分析工具.md",
-    "_posts/engineering/webpack/构建性能/3.其他的优化技巧（除了缓存和并行）.md",
-    "_posts/engineering/webpack/构建性能/2.并行构建.md",
-    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
-    "_posts/engineering/webpack/配置项/externals.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
-    "_posts/engineering/webpack/配置项/cache.md",
-    "_posts/react/总结/Hooks/useTransition.md",
-    "_posts/react/总结/Hooks/useSyncExternalStore.md",
-    "_posts/react/总结/Hooks/useRef.md",
-    "_posts/react/总结/Hooks/useLayoutEffect.md",
-    "_posts/react/总结/Hooks/useInsertionEffect.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/14 Webpack 都有哪些实现并行构建的方法？.md",
     "_posts/engineering/webpack/开发 Loader & Plugin",
     "_posts/engineering/webpack/场景实践",
     "_posts/engineering/webpack/应用性能",
