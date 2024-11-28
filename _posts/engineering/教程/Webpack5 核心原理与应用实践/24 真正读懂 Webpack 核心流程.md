@@ -211,7 +211,7 @@ compile(callback) {
 
 > 提示：上述 `optimizeXXX` 钩子常被用于优化最终产物代码，例如 SplitChunksPlugin 就可以在这里分析 Chunk、Module 关系，将使用率较高的 Module 封装进新的 Chunk，实现 Common Chunk 效果。
 
-简单理解，Entry 与 Chunk 一一对应，而 Chunk 与最终输出的资源一一对应，我们来看个示例，假如有这样的配置：
+简单理解，*Entry 与 Chunk 一一对应*，而 Chunk 与最终输出的资源一一对应，我们来看个示例，假如有这样的配置：
 
 ```js
 // webpack.config.js

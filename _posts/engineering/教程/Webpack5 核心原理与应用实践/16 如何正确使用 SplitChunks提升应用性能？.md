@@ -9,17 +9,17 @@
 ## 深入理解 Chunk
 
 **`Chunk` 是 Webpack 内部一个非常重要的底层设计（写入文件之前的对象/数据结构），用于组织、管理、优化最终产物，在构建流程进入生成(Seal)阶段后：**
-1. Webpack 首先根据 `entry` 配置创建若干 Chunk 对象；
+1. Webpack 首先根据 `entry` 配置*创建若干 Chunk 对象*；
 2. 遍历构建(Make)阶段的所有 Module 对象，同一 Entry 下的模块分配到 Entry 对应的 Chunk 中；
 3. *遇到异步模块则创建新的 Chunk 对象*，并将异步模块放入该 Chunk；
-4. 分配完毕后，根据 SplitChunksPlugin 的启发式算法进一步对这些 Chunk 执行**裁剪、拆分、合并、代码调优**，最终调整成运行性能(可能)更优的形态；
+4. 分配完毕后，根据 SplitChunksPlugin 的启发式算法（根据配置规则）进一步对这些 Chunk 执行**裁剪、拆分、合并、代码调优**，最终调整成运行性能(可能)更优的形态；
 5. 最后，*将这些 Chunk 一个个输出成最终的产物(Asset)文件，编译打包工作到此结束*。
 
 ![[engineering/教程/Webpack5 核心原理与应用实践/media/8d485f1783389893fd3da684ade36476_MD5.webp]]
 
 可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列 **默认分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
 
-### 默认的代码分割策略和问题
+## 默认的代码分割策略和问题
 
 **Chunk 分包结果的好坏直接影响了最终应用性能**。
 
@@ -55,15 +55,17 @@ Webpack 会将 Entry 模块、异步模块所有代码都打进同一个单独�
 
 ## SplitChunksPlugin 简介
 
-[SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fplugins%2Fsplit-chunks-plugin%2F) 是 *Webpack 4 之后内置实现的最新分包方案*，与 Webpack3 时代的 `CommonsChunkPlugin` 相比，它能够基于一些更灵活、合理的启发式规则将 Module 编排进不同的 Chunk，最终构建出性能更佳，缓存更友好的应用产物。
+[SplitChunksPlugin](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.docschina.org%2Fplugins%2Fsplit-chunks-plugin%2F) 是 *Webpack 4 之后内置实现的最新分包方案*，与 Webpack3 时代的 `CommonsChunkPlugin` 相比，*它能够基于一些更灵活、合理的启发式规则将 Module 编排进不同的 Chunk*，最终构建出性能更佳，缓存更友好的应用产物。
 
 ### SplitChunksPlugin 的主要能力
-**`SplitChunksPlugin` 的用法比较抽象，算得上 Webpack 的一个难点，主要能力有：**
-- `SplitChunksPlugin` 支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否对 Chunk 做进一步拆解。*这些策略都可以通过 `optimization.splitChunks` 配置，可以实现：*
+
+**`SplitChunksPlugin` 的用法比较抽象，*算得上 Webpack 的一个难点*，主要能力有：**
+
+- *支持根据 Module 路径、Module 被引用次数、Chunk 大小、Chunk 请求数等决定是否**对 Chunk 做进一步拆解***。这些策略都可以通过 `optimization.splitChunks` 配置，可以实现：
     - **单独打包某些特定路径的内容**，例如 `node_modules` 打包为 `vendors`；
     - **单独打包使用频率较高的文件**；
-- `SplitChunksPlugin` 还提供了 `optimization.splitChunks.cacheGroup` 概念，*用于对不同特点的资源做分组处理，并为这些分组设置更有针对性的分包规则*；
-- `SplitChunksPlugin` 还内置了 `default` 与 `defaultVendors` 两个 `cacheGroup`，提供一些开箱即用的分包特性：
+- 还提供了 `optimization.splitChunks.cacheGroup` 概念，*用于对不同特点的资源做**分组处理**，并为这些分组设置更有针对性的分包规则*；
+- 还内置了 `default` 与 `defaultVendors` 两个 `cacheGroup`，提供一些开箱即用的分包规则：
     - `node_modules` 资源会命中 `defaultVendors` 规则，并被单独打包；
     - 只有包体超过 20kb 的 Chunk 才会被单独打包；
     - 加载 Async Chunk 所需请求数不得超过 30；
@@ -85,8 +87,8 @@ module.exports = {
 ```
 
 *`splitChunks` 主要有两种类型的配置：*
-- `minChunks/maxInitialRequest/minSize` 等分包条件，满足这些条件的模块都会被执行分包；
-- `cacheGroup` ：用于为特定资源声明特定分包条件，例如可以为 `node_modules` 包设定更宽松的分包条件。
+- `minChunks/maxInitialRequest/minSize` 等分包规则，满足这些规则的模块都会被执行分包；
+- `cacheGroup` ：用于为特定资源声明特定分包规则，例如可以为 `node_modules` 包设定更宽松的分包规则。
 
 下面展开细讲。
 
@@ -131,7 +133,7 @@ module.exports = {
 }
 ```
 
-注意，这里“被 Chunk 引用次数”并不直接等价于被 `import` 的次数，而是取决于上游调用者是否被视作 Initial Chunk 或 Async Chunk 处理，例如：
+注意，*这里“被 Chunk 引用次数”并不直接等价于被 `import` 的次数*，而是**取决于上游调用者是否被视作 Initial Chunk 或 Async Chunk 处理**，例如：
 
 ```js
 // common.js
@@ -187,7 +189,7 @@ module.exports = {
 - `maxInitialRequests`：用于设置 Initial Chunk 最大并行请求数；
 - `maxAsyncRequests`：用于设置 Async Chunk 最大并行请求数。
 
-敲重点，"请求数" 这个概念有点复杂。这里所说的“**请求数**”，是指**加载一个 Chunk 时所需要加载的所有分包数**。*例如，对于一个 Chunk A，如果根据分包规则(如模块引用次数、第三方包)分离出了若干子 Chunk A[¡]，那么加载 A 时，浏览器需要同时加载所有的 A[¡]，此时并行请求数等于 ¡ 个分包加 A 主包，即 ¡+1。*
+敲重点，"请求数" 这个概念有点复杂。这里所说的“**请求数**”，是指**加载一个 Chunk 时所需要加载的所有分包数**。*例如，对于一个 Chunk A，如果根据分包规则(如模块引用次数、第三方包)**分离出了若干子 Chunk A\[¡\]**，那么加载 A 时，浏览器需要同时加载所有的 A[¡]，**此时并行请求数等于 ¡ 个分包加 A 主包**，即 ¡+1。*
 
 > 提示：通过 [emitAssets](https://link.juejin.cn/?target=https%3A%2F%2Fwebpack.js.org%2Fapi%2Fcompilation-object%2F%23emitasset) 等方式直接输出产物文件不在此范畴。
 
@@ -203,7 +205,7 @@ module.exports = {
 
 若 `minChunks = 2` ，则 `common-1` 、`common-2` 同时命中 `minChunks` 规则被分别打包，浏览器请求 `entry-b` 时需要同时请求 `common-1` 、`common-2` 两个分包，并行数为 2 + 1 = 3，**此时若 `maxInitialRequests = 2`，则分包数超过阈值**，`SplitChunksPlugin` 会 **放弃 `common-1`、`common-2` 中体积较小的分包**。`maxAsyncRequests` 逻辑与此类似，不在赘述。
 
-并行**请求数关键逻辑总结如下：**
+**并行请求数关键逻辑总结如下：**
 - Initial Chunk 本身算一个请求；
 - Async Chunk 不算并行请求；
 - 通过 `runtimeChunk` 拆分出的 runtime 不算并行请求；
@@ -220,13 +222,15 @@ module.exports = {
 - `maxInitialSize`： 与 `maxSize` 类似，但只对 `entry` 配置的入口模块生效；
 - `enforceSizeThreshold`： *超过这个尺寸的 Chunk 会被强制分包，忽略上述其它 Size 限制*（minRemainingSize、maxAsyncRequests、maxInitialRequests）。
 
+## 规则的优先级顺序
+
 那么，**结合前面介绍的两种规则，`SplitChunksPlugin` 的主体流程如下：**
 1. `SplitChunksPlugin` 尝试将命中 `minChunks` 规则的 Module 统一抽到一个额外的 Chunk 对象；
 2. 判断该 Chunk 是否满足 `maxInitialRequests` 阈值，若满足则进行下一步；
 3. 判断该 Chunk 资源的体积是否大于`minSize`声明的下限阈值；
    - 如果体积小于 `minSize` 则取消这次分包，*对应的 Module 依然会被合并入原来的 Chunk*
    - 如果 Chunk 体积大于 `minSize` 则判断是否超过 `maxSize`、`maxAsyncSize`、`maxInitialSize` 声明的上限阈值，如果超过则尝试将该 Chunk 继续分割成更小的部分
-**注意，这些条件的优先级顺序为：** `minChunks < maxInitialRequests/maxAsyncRequests < maxSize < minSize < enforceSizeThreshold`。而命中 `enforceSizeThreshold` 阈值的 Chunk 会直接跳过这些条件判断，强制进行分包。
+**注意，这些规则的优先级顺序为：** `minChunks < maxInitialRequests/maxAsyncRequests < maxSize < minSize < enforceSizeThreshold`。而命中 `enforceSizeThreshold` 阈值的 Chunk 会直接跳过这些条件判断，强制进行分包。
 
 > 提示：虽然 `maxSize` 等阈值规则会产生更多的包体，但缓存粒度会更小，命中率相对也会更高，配合持久缓存与 HTTP2 的多路复用能力，网络性能反而会有正向收益。
 
@@ -236,7 +240,7 @@ module.exports = {
 
 若此时 Webpack 配置的 `minChunks` 大于 2，且 `maxInitialRequests` 也同样大于 2，如果 `common` 模块的体积大于上述说明的 `minSize` 配置项则分包，`commont` 会被分离为单独的 Chunk，否则会被合并入原来的 3 个 Chunk。
 
-## 缓存组 `cacheGroups` 简介
+## 缓存组 `cacheGroups` 
 
 上述 `minChunks`、`maxInitialRequests`、`minSize` 都**属于分包条件**，决定什么情况下对哪些 Module 做分包处理。此外， `SplitChunksPlugin` 还提供了 `cacheGroups` 配置项用于**为不同文件组设置不同的规则，例如：**
 
