@@ -242,7 +242,7 @@ module.exports = {
 
 ## 缓存组 `cacheGroups` 
 
-上述 `minChunks`、`maxInitialRequests`、`minSize` 都**属于分包条件**，决定什么情况下对哪些 Module 做分包处理。此外， `SplitChunksPlugin` 还提供了 `cacheGroups` 配置项用于**为不同文件组设置不同的规则，例如：**
+上述 `minChunks`、`maxInitialRequests`、`minSize` 都**属于分包规则**，决定什么情况下对哪些 Module 做分包处理。此外， `SplitChunksPlugin` 还提供了 `cacheGroups` 配置项用于**为不同文件组设置不同的规则，例如：**
 
 ```js
 module.exports = {
@@ -261,9 +261,9 @@ module.exports = {
 };
 ```
 
-示例**通过 `cacheGroups` 属性设置 `vendors` 缓存组**，*所有命中 `vendors.test` 规则的模块都会被归类 `vendors` 分组，优先应用该组下的 `minChunks`、`minSize` 等分包配置*。
+示例通过 `cacheGroups` 属性设置 `vendors` 缓存组，*所有命中 `vendors.test` 规则的**模块**都会被归类 `vendors` 分组，优先应用该组下的 `minChunks`、`minSize` 等分包配置*。
 
-`cacheGroups` 支持上述 `minSice/maxInitialRequest/minChunks` 等条件配置，此外还支持一些*与分组逻辑强相关的属性，包括：*
+`cacheGroups` 支持上述 `minSize/maxInitialRequest/minChunks` 等规则，此外还支持一些*与分组逻辑强相关的属性，包括：*
 - `test`：接受正则表达式、函数及字符串，所有符合 `test` 条件的 Module 或 Chunk 都会被分到该组；
 - `type`：接受正则表达式、函数及字符串，*与 `test` 类似用于筛选模块*，*区别是*它筛选的条件是文件类型而不是文件名，例如 `type = 'json'` 会命中所有 JSON 文件；
 - `idHint`：字符串型，用于*设置 Chunk ID*，*它会被写入最终产物文件名中*，例如 `idHint = 'vendors'` 时，输出产物文件名形如 `vendors-xxx-xxx.js` ；
