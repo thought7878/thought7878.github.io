@@ -116,7 +116,19 @@
             }
           },
           {
-            "id": "7aba959f0b8fc881",
+            "id": "4d3fede7dbf32fe9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/简历/商智.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc8f219299789a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -330,10 +342,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7aba959f0b8fc881",
+  "active": "fc8f219299789a6e",
   "lastOpenFiles": [
-    "_posts/libraries/_my-libraries/pagination/思路.md",
+    "_posts/interview/简历/商智.md",
     "_posts/libraries/_my-libraries/table/思路.md",
+    "_posts/libraries/_my-libraries/pagination/思路.md",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/34.如何写好一封简历.md",
     "_posts/interview/教程/前端面试之道/media/e2b541b37bda980a398921ad972371a5_MD5.jpg",
@@ -366,7 +379,6 @@
     "_posts/performance/实践指南-前端性能提升.md",
     "_posts/engineering/webpack/基础总结1.md",
     "_posts/engineering/webpack/原理总结1.md",
-    "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/react/总结/Components",
     "Excalidraw",
     "_posts/engineering/webpack/构建性能/media/fe969fe302d54853d93931c5c3b85519_MD5.png",
