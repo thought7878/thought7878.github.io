@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/函数定义方式.md",
+                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/函数定义方式.md",
+                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/函数定义方式.md",
+                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/函数定义方式.md"
+                "file": "_posts/base/js/知识点总结/数据类型/Set.md"
               }
             }
           }
@@ -356,18 +356,24 @@
   },
   "active": "d1ed4b9a2c01c1f7",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/Map、Set、WeakMap、WeakSet.md",
+    "_posts/base/js/知识点总结/数据类型/Set.md",
+    "_posts/base/js/知识点总结/数据类型",
+    "_posts/base/js/知识点总结/深拷贝.md",
+    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
+    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+    "_posts/base/js/知识点总结/闭包.md",
+    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
+    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/interview/教程/前端面试之道/5.ES6 知识点及常考面试题.md",
+    "_posts/interview/教程/前端面试之道/7.手写 Promise.md",
     "_posts/base/js/知识点总结/函数定义方式.md",
     "_posts/interview/教程/前端面试之道/media/a2ffe872cd6ff1d2146ecada61544700_MD5.jpeg",
     "_posts/interview/教程/前端面试之道/media/Pasted image 20241203105437.png",
-    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
     "_posts/任务记录/2024/11月/27.md",
     "_posts/ablog/JavaScript数据类型及判断.md",
     "_posts/interview/教程/前端面试之道/34.如何写好一封简历.md",
     "_posts/engineering/webpack/目录.md",
-    "_posts/base/js/知识点总结/闭包.md",
-    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
-    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
     "_posts/interview/教程/前端面试之道/media/4777872f3a43ad94e62d7095acd3527d_MD5.png",
     "_posts/interview/教程/前端面试之道/media/631e366fa29d2a023fc89c5c5d64c417_MD5.png",
     "_posts/interview/教程/前端面试之道/media/3774852ffc454f0696e8562a94231217_MD5.png",
@@ -387,11 +393,6 @@
     "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
     "_posts/interview/教程/前端面试之道/19.实现小型打包工具.md",
     "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
-    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
-    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
-    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
-    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
-    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
@@ -400,7 +401,6 @@
     "_posts/engineering/代码规范和质量",
     "_posts/react/总结/Components",
     "Excalidraw",
-    "_posts/engineering/webpack/构建性能/media",
-    "_posts/engineering/webpack/开发 Loader & Plugin"
+    "_posts/engineering/webpack/构建性能/media"
   ]
 }
