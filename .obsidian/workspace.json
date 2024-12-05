@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 39.183381088825215,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -145,7 +146,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
+                "file": "_posts/base/js/知识点总结/深拷贝.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,9 +211,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a8b2eea896aa0bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/methods/重塑自我 ！制定2025年计划！.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 17
+      },
+      {
+        "id": "c5640233630d5694",
+        "type": "tabs",
+        "dimension": 60.81661891117478,
+        "children": [
+          {
+            "id": "638558d1188fc961",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV19KzkYjEwW/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,7 +304,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -290,7 +321,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +337,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,9 +358,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/Set.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -339,7 +366,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,12 +382,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d1ed4b9a2c01c1f7",
+  "active": "638558d1188fc961",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/Map、Set、WeakMap、WeakSet.md",
-    "_posts/base/js/知识点总结/数据类型/Set.md",
-    "_posts/base/js/知识点总结/数据类型",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/base/js/知识点总结/深拷贝.md",
+    "_posts/base/js/知识点总结/Object常用的方法.md",
+    "_posts/base/js/知识点总结/数据类型/Map、Set、WeakMap、WeakSet.md",
+    "_posts/base/js/知识点总结/数据类型/WeakSet.md",
+    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
+    "_posts/base/js/知识点总结/数据类型/Map.md",
+    "_posts/base/js/知识点总结/数据类型/Set.md",
+    "_posts/base/js/知识点总结/循环.md",
+    "_posts/base/js/知识点总结/数据类型",
     "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
     "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
     "_posts/base/js/知识点总结/闭包.md",
@@ -387,12 +421,6 @@
     "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
     "_posts/interview/教程/前端面试之道/27.TCP.md",
     "_posts/interview/教程/前端面试之道/26.UDP.md",
-    "_posts/interview/教程/前端面试之道/25.监控.md",
-    "_posts/interview/教程/前端面试之道/24.React 常考进阶知识点.md",
-    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
-    "_posts/interview/教程/前端面试之道/19.实现小型打包工具.md",
-    "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
