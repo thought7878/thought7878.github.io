@@ -230,7 +230,7 @@
       {
         "id": "c5640233630d5694",
         "type": "tabs",
-        "dimension": 60.81661891117478,
+        "dimension": 60.816618911174785,
         "children": [
           {
             "id": "638558d1188fc961",
@@ -385,6 +385,7 @@
   "active": "638558d1188fc961",
   "lastOpenFiles": [
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
+    "_posts/methods/media",
     "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/base/js/知识点总结/Object常用的方法.md",
     "_posts/base/js/知识点总结/数据类型/Map、Set、WeakMap、WeakSet.md",
@@ -420,7 +421,6 @@
     "_posts/interview/教程/前端面试之道/31.设计模式.md",
     "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
     "_posts/interview/教程/前端面试之道/27.TCP.md",
-    "_posts/interview/教程/前端面试之道/26.UDP.md",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
@@ -428,7 +428,6 @@
     "_posts/libraries/_my-libraries/pagination",
     "_posts/engineering/代码规范和质量",
     "_posts/react/总结/Components",
-    "Excalidraw",
-    "_posts/engineering/webpack/构建性能/media"
+    "Excalidraw"
   ]
 }
