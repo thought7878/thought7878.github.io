@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 39.183381088825215,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -93,18 +92,6 @@
             }
           },
           {
-            "id": "7a76d1a107951274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/webpack/应用性能/使用 SplitChunks 提升应用性能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b72c2312b587b8c",
             "type": "leaf",
             "state": {
@@ -141,30 +128,6 @@
             }
           },
           {
-            "id": "d1ed4b9a2c01c1f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/知识点总结/深拷贝.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db286564aad7952c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/ablog/JavaScript数据类型及判断.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "731637a33ebd29f1",
             "type": "leaf",
             "state": {
@@ -189,24 +152,48 @@
             }
           },
           {
-            "id": "d6718f895040ed6e",
+            "id": "d1ed4b9a2c01c1f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/问题/工程化.md",
+                "file": "_posts/base/js/知识点总结/深拷贝.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d0bddce9a560adbc",
+            "id": "75a3cc727787d32a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/面试题的回答方法.md",
+                "file": "_posts/browser/事件机制/stopPropagation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c60d69be21a95a6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/事件机制/事件机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ec46bb058283a8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/0_前端的知识目录.md",
                 "mode": "source",
                 "source": false
               }
@@ -225,24 +212,7 @@
             }
           }
         ],
-        "currentTab": 17
-      },
-      {
-        "id": "c5640233630d5694",
-        "type": "tabs",
-        "dimension": 60.816618911174785,
-        "children": [
-          {
-            "id": "638558d1188fc961",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV19KzkYjEwW/"
-              }
-            }
-          }
-        ]
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -304,8 +274,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -321,6 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/browser/事件机制/stopPropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,6 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/browser/事件机制/stopPropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +329,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/browser/事件机制/stopPropagation.md"
+              }
             }
           }
         ],
@@ -366,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -382,52 +354,53 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "638558d1188fc961",
+  "active": "75a3cc727787d32a",
   "lastOpenFiles": [
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/methods/media",
+    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
+    "_posts/browser/事件机制/stopPropagation.md",
+    "_posts/browser/事件机制/事件机制.md",
+    "_posts/browser/事件机制/addEventListener.md",
+    "_posts/browser/事件机制",
+    "_posts/interview/0_前端的知识目录.md",
     "_posts/base/js/知识点总结/深拷贝.md",
-    "_posts/base/js/知识点总结/Object常用的方法.md",
-    "_posts/base/js/知识点总结/数据类型/Map、Set、WeakMap、WeakSet.md",
-    "_posts/base/js/知识点总结/数据类型/WeakSet.md",
-    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
-    "_posts/base/js/知识点总结/数据类型/Map.md",
-    "_posts/base/js/知识点总结/数据类型/Set.md",
-    "_posts/base/js/知识点总结/循环.md",
-    "_posts/base/js/知识点总结/数据类型",
-    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
-    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
-    "_posts/base/js/知识点总结/闭包.md",
-    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
+    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
+    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
+    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
-    "_posts/interview/教程/前端面试之道/5.ES6 知识点及常考面试题.md",
-    "_posts/interview/教程/前端面试之道/7.手写 Promise.md",
-    "_posts/base/js/知识点总结/函数定义方式.md",
-    "_posts/interview/教程/前端面试之道/media/a2ffe872cd6ff1d2146ecada61544700_MD5.jpeg",
-    "_posts/interview/教程/前端面试之道/media/Pasted image 20241203105437.png",
+    "_posts/interview/前端知识体系及难点.md",
+    "_posts/browser/浏览器的渲染和事件循环.md",
+    "_posts/要整理的.md",
+    "_posts/任务记录/待办.md",
+    "_posts/interview/问题/项目经验.md",
     "_posts/任务记录/2024/11月/27.md",
-    "_posts/ablog/JavaScript数据类型及判断.md",
-    "_posts/interview/教程/前端面试之道/34.如何写好一封简历.md",
+    "_posts/react/overview_面试.md",
     "_posts/engineering/webpack/目录.md",
-    "_posts/interview/教程/前端面试之道/media/4777872f3a43ad94e62d7095acd3527d_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/631e366fa29d2a023fc89c5c5d64c417_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/3774852ffc454f0696e8562a94231217_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/15255932ffbc9b5c656e12346886c4f7_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/11c9e3143b07eb04ee6e1a4b0c3daf35_MD5.jpg",
-    "_posts/interview/教程/前端面试之道/media/4b7a4953b19899cfe769a2583c7404f0_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/b21658a0e89efb88b81c427e7c806c22_MD5.jpg",
-    "_posts/interview/教程/前端面试之道/media/471973a3956a94f08534f711d5c2cb13_MD5.jpg",
-    "_posts/interview/教程/前端面试之道/32.常见数据结构.md",
-    "_posts/interview/教程/前端面试之道/31.设计模式.md",
-    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
-    "_posts/interview/教程/前端面试之道/27.TCP.md",
+    "_posts/engineering/webpack/应用性能/代码分割.md",
+    "_posts/interview/教程/前端面试之道/11.DevTools Tips.md",
+    "_posts/interview/教程/前端面试之道/10.JS 思考题.md",
+    "_posts/interview/教程/前端面试之道/media/69819978e3f0ebab3fa0609063378b73_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/48d3f3d4a6c14027c80d34892824d1b7_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/8bdbd7a51b62fa99e68e1326563d2046_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/3509540e3c51709adc5d2f890d8c5e56_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/aaef9d07756757e9eaa87b0c25632b51_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/f4d0272bb0ea895e05f17fa30194a694_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/9c262c4a4744c86c716bc521e3c179d1_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/ccad059e34e373662689c0bbae5b805b_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/b08a56c53ae5cd0c69f5e301c951f730_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/1764e8e68b10896637a4b4c03ad808ae_MD5.png",
+    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
+    "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
+    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
+    "_posts/interview/教程/前端面试之道/24.React 常考进阶知识点.md",
+    "_posts/interview/教程/前端面试之道/5.ES6 知识点及常考面试题.md",
+    "_posts/methods/media",
+    "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
     "_posts/interview/教程",
     "_posts/libraries/_my-libraries/pagination",
     "_posts/engineering/代码规范和质量",
-    "_posts/react/总结/Components",
-    "Excalidraw"
+    "_posts/react/总结/Components"
   ]
 }
