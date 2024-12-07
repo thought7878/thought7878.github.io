@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -169,7 +170,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/事件机制/stopPropagation.md",
+                "file": "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "740a8bfd4cd37ad9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +225,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -274,7 +287,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -290,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/事件机制/stopPropagation.md",
+                "file": "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +321,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/事件机制/stopPropagation.md",
+                "file": "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/事件机制/stopPropagation.md"
+                "file": "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md"
               }
             }
           }
@@ -339,7 +353,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,15 +369,28 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "75a3cc727787d32a",
+  "active": "740a8bfd4cd37ad9",
   "lastOpenFiles": [
+    "_posts/interview/web3所有岗位有哪些？岗位要求？薪资如何？以及常用的招聘渠道.md",
+    "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
+    "_posts/react/深入浅出搞定 React/media/85a8950c7e5dbe292b791ae840f2539f_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/d6d2a0e522d11b39f50b7135ba5cb38c_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/771e249b5410801201a6861db437736d_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/9c7581603e87631f159ca08312e1b18a_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/352d2bc4b0130a0a71179d92352ecd3c_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/7f4c3bec4978eafef6a7b8e4ec600078_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/2b2438ee3b9d84bc439dac7f8c19d24d_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/89965ebdee2b7022eafa3bc718b3bfc8_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/f0101352fc4634c91581f9b24693cd94_MD5.png",
+    "_posts/react/深入浅出搞定 React/media/ec7dcd8d5c03e5d535870e200554971a_MD5.png",
+    "_posts/base/js/知识点总结/深拷贝.md",
+    "_posts/react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
     "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
-    "_posts/browser/事件机制/stopPropagation.md",
     "_posts/browser/事件机制/事件机制.md",
+    "_posts/browser/事件机制/stopPropagation.md",
     "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/事件机制",
     "_posts/interview/0_前端的知识目录.md",
-    "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
     "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
@@ -378,21 +406,8 @@
     "_posts/engineering/webpack/应用性能/代码分割.md",
     "_posts/interview/教程/前端面试之道/11.DevTools Tips.md",
     "_posts/interview/教程/前端面试之道/10.JS 思考题.md",
-    "_posts/interview/教程/前端面试之道/media/69819978e3f0ebab3fa0609063378b73_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/48d3f3d4a6c14027c80d34892824d1b7_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/8bdbd7a51b62fa99e68e1326563d2046_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/3509540e3c51709adc5d2f890d8c5e56_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/aaef9d07756757e9eaa87b0c25632b51_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/f4d0272bb0ea895e05f17fa30194a694_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/9c262c4a4744c86c716bc521e3c179d1_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/ccad059e34e373662689c0bbae5b805b_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/b08a56c53ae5cd0c69f5e301c951f730_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/1764e8e68b10896637a4b4c03ad808ae_MD5.png",
     "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
     "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
-    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/interview/教程/前端面试之道/24.React 常考进阶知识点.md",
-    "_posts/interview/教程/前端面试之道/5.ES6 知识点及常考面试题.md",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",

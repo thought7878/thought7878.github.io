@@ -26,13 +26,13 @@ W3C 标准约定了一个事件的传播过程要经过以下 3 个阶段：
 
 理解这个过程最好的方式就是读图了，下图是一棵 DOM 树的结构简图，图中的箭头就代表着事件的“穿梭”路径。
 
-![Drawing 1.png](https://s0.lgstatic.com/i/image/M00/78/7B/Ciqc1F_KCc2AH3SuAADAfZ2rEXk066.png)
+![[_posts/react/深入浅出搞定 React/media/8cc495b570a83ba92ee60da749d8b290_MD5.png]]
 
 当事件被触发时，首先经历的是一个捕获过程：事件会从最外层的元素开始“穿梭”，逐层“穿梭”到最内层元素，这个过程会持续到事件抵达它目标的元素（也就是真正触发这个事件的元素）为止；此时事件流就切换到了“目标阶段”——事件被目标元素所接收；然后事件会被“回弹”，进入到冒泡阶段——它会沿着来时的路“逆流而上”，一层一层再走回去。
 
 这个过程很像我们小时候玩的蹦床：从高处下落，触达蹦床后再弹起、回到高处，整个过程呈一个对称的“V”字形。
 
-![图片15.png](https://s0.lgstatic.com/i/image/M00/78/8F/Ciqc1F_KGs2AQ6VHAABqyZCa5L0820.png)
+![[_posts/react/深入浅出搞定 React/media/892757bcf8f34077cee8905443cd52ae_MD5.png]]
 
 ### DOM 事件流下的性能优化思路：事件委托
 
@@ -110,11 +110,11 @@ React 的事件系统沿袭了事件委托的思想。在 React 中，除了少�
 
 **虽然合成事件并不是原生 DOM 事件，但它保存了原生 DOM 事件的引用**。当你需要访问原生 DOM 事件对象时，可以通过合成事件对象的 **e.nativeEvent** 属性获取到它，如下图所示：
 
-![Drawing 4.png](https://s0.lgstatic.com/i/image/M00/78/86/CgqCHl_KCfyAEJw8AAFeUK36DtI133.png)
+![[_posts/react/深入浅出搞定 React/media/214339129073f186e14af6c9fa23ccbe_MD5.png]]
 
 e.nativeEvent 将会输出 MouseEvent 这个原生事件，如下图所示：
 
-![Drawing 5.png](https://s0.lgstatic.com/i/image/M00/78/86/CgqCHl_KCgOAZixsAACyXDjo4cs933.png)
+![[_posts/react/深入浅出搞定 React/media/4fce20663f6d54963c540e440224e42a_MD5.png]]
 
 到这里，大家就对 React 事件系统的基本原理，包括合成事件的基本概念有了一定的了解。接下来，我们将在此基础上结合 React 源码和调用栈，对事件系统的工作流进行深入的拆解。
 
@@ -130,41 +130,41 @@ e.nativeEvent 将会输出 MouseEvent 这个原生事件，如下图所示：
 
 其中“为 DOM 节点\*\*设置属性”\*\*这个环节，会遍历 FiberNode 的 props key。当遍历到事件相关的 props 时，就会触发事件的注册链路。整个过程涉及的函数调用栈如下图所示：
 
-![Drawing 6.png](https://s0.lgstatic.com/i/image/M00/78/7B/Ciqc1F_KCi-ANLdOAACnuwItpnA575.png)
+![[_posts/react/深入浅出搞定 React/media/008d0482b67139981c6512615374d727_MD5.png]]
 
 这些函数之间是如何各司其职、打好“配合”的呢？请看下面这张工作流大图：
 
-![Drawing 8.png](https://s0.lgstatic.com/i/image/M00/78/87/CgqCHl_KCjaALFKsAAHNjlT3rrw342.png)
+![[_posts/react/深入浅出搞定 React/media/6a2e9dc16e27d6d24c5a6d504d5c6f41_MD5.png]]
 
 从图中可以看出，**事件的注册过程是由 ensureListeningTo 函数开启的**。在 ensureListeningTo 中，会尝试获取当前 DOM 结构中的根节点（这里指的是 document 对象），然后通过调用 legacyListenToEvent，将统一的事件监听函数注册到 document 上面。
 
 在 legacyListenToEvent 中，实际上是通过调用 legacyListenToTopLevelEvent 来处理事件和 document 之间的关系的。 legacyListenToTopLevelEvent 直译过来是“监听顶层的事件”，这里的“顶层”就可以理解为事件委托的最上层，也就是 document 节点。在 legacyListenToTopLevelEvent 中，有这样一段逻辑值得我们注意，请看下图：
 
-![Drawing 9.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCj6ABv8CAAMpWS1ws8Q056.png)
+![[_posts/react/深入浅出搞定 React/media/527366b220ae5fad5455e4ec37d0f750_MD5.png]]
 
 listenerMap 是在 legacyListenToEvent 里创建/获取的一个数据结构，它将记录**当前 document 已经监听了哪些事件**。在 legacyListenToTopLevelEvent 逻辑的起点，会首先判断 listenerMap.has(topLevelType) 这个条件是否为 true。
 
 这里插播一个小的前置知识：topLevelType 在 legacyListenToTopLevelEvent 的函数上下文中代表**事件的类型**，比如说我尝试监听的是一个点击事件，那么 topLevelType 的值就会是 click，如下图所示：
 
-![Drawing 10.png](https://s0.lgstatic.com/i/image/M00/78/87/CgqCHl_KCkWACHkwAACydURG2fM056.png)
+![[_posts/react/深入浅出搞定 React/media/504fd8740029ac363aebd2002ddc6947_MD5.png]]
 
 若事件系统识别到 listenerMap.has(topLevelType) 为 true，也就是当前这个事件 document 已经监听过了，那么就会直接跳过对这个事件的处理，否则才会进入具体的事件监听逻辑。如此一来，**即便我们在 React 项目中多次调用了对同一个事件的监听，也只会在 document 上触发一次注册**。
 
 **为什么针对同一个事件，即便可能会存在多个回调，document 也只需要注册一次监听**？因为 React**最终注册到 document 上的并不是某一个 DOM 节点上对应的具体回调逻辑，而是一个统一的事件分发函数**。这里我将断点打在事件监听函数的绑定动作上，请看下图：
 
-![Drawing 11.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCk-Afe7QAADMlUnc-KU093.png)
+![[_posts/react/深入浅出搞定 React/media/ec7dcd8d5c03e5d535870e200554971a_MD5.png]]
 
 在这段逻辑中，element 就是 document 这个 DOM 元素，如下图所示，它在 legacyListenToEvent 阶段被获取后，又被层层的逻辑传递到了这个位置。
 
-![Drawing 12.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KClaATXVLAAAhVJ6fu48519.png)
+![[_posts/react/深入浅出搞定 React/media/f0101352fc4634c91581f9b24693cd94_MD5.png]]
 
 addEventListener 就更不用多说了，它是[原生 DOM 里专门用来注册事件监听器的接口](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)。我们真正需要关注的是图中这个函数的前两个入参，首先看 eventType，它表示事件的类型，这里我监听的是一个点击事件，因此 eventType 就是 click（见下图的运行时输出结果）。
 
-![Drawing 13.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCl-AQUfuAAA3s44GMaI290.png)
+![[_posts/react/深入浅出搞定 React/media/89965ebdee2b7022eafa3bc718b3bfc8_MD5.png]]
 
 重点在 listener 上，前面刚说过，最终注册到 document 上的是一个**统一的事件分发函数**，这个函数到底长啥样？我们来看看，以下是运行时的 listener 输出结果：
 
-![Drawing 14.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCmeARunyAACxP1sCnKY948.png)
+![[_posts/react/深入浅出搞定 React/media/2b2438ee3b9d84bc439dac7f8c19d24d_MD5.png]]
 
 可以看到，**listener 本体是一个名为 dispatchDiscreteEvent 的函数**。事实上，根据情况的不同，listener 可能是以下 3 个函数中的任意一个：
 
@@ -182,7 +182,7 @@ dispatchDiscreteEvent 和 dispatchUserBlockingUpdate 的不同，主要体现在
 
 事件触发的本质是对 dispatchEvent 函数的调用。由于 dispatchEvent 触发的调用链路较长，中间涉及的要素也过多，因此我们这里不再逐个跟踪函数的调用栈，直接来看核心工作流，请看下图：
 
-![Drawing 15.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCneAfMZbAAE9PxK7X3w813.png)
+![[_posts/react/深入浅出搞定 React/media/7f4c3bec4978eafef6a7b8e4ec600078_MD5.png]]
 
 工作流中前三步我们在前面都有所提及，对你来说相对难以理解的应该是 4、5、6 这三步，这三步也是我们接下来讲解的重点。
 
@@ -209,13 +209,13 @@ dispatchDiscreteEvent 和 dispatchUserBlockingUpdate 的不同，主要体现在
 
 这个组件对应的界面如下图所示：
 
-![Drawing 16.png](https://s0.lgstatic.com/i/image/M00/78/87/CgqCHl_KCoaAHCSUAAAdOFZY7GY194.png)
+![[_posts/react/深入浅出搞定 React/media/352d2bc4b0130a0a71179d92352ecd3c_MD5.png]]
 
 界面中渲染出来的是一行数字文本和一个按钮，每点击一下按钮，数字文本会 +1。在 JSX 结构中，监听点击事件的除了 button 按钮外，还有 id 为 container 的 div 元素，这个 div 元素同时监听了点击事件的冒泡和捕获。
 
 App 组件对应的 Fiber 树结构如下图所示：
 
-![Drawing 18.png](https://s0.lgstatic.com/i/image/M00/78/87/CgqCHl_KCuSAdlxpAADdtt6LkCw620.png)
+![[_posts/react/深入浅出搞定 React/media/9c7581603e87631f159ca08312e1b18a_MD5.png]]
 
 接下来我们借助这张 Fiber 树结构图来理解事件回调的收集过程。
 
@@ -253,11 +253,11 @@ traverseTwoPhase**会以当前节点（触发事件的目标节点）为起点�
 
 将这个过程对应到 Demo 示例的 Fiber 树中来看，button 节点是事件触发的起点，在它的父节点中，符合 tag===HostComponent 这个条件的只有 div#container 和 div.App（即下图高亮处）。
 
-![image (5).png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KCz6AFPppAADdoA4lHx0444.png)
+![[_posts/react/深入浅出搞定 React/media/771e249b5410801201a6861db437736d_MD5.png]]
 
 因此最后收集上来的 path 数组内容就是 div#container、div.App 及 button 节点自身（button 节点别忘了，它是 while 循环的起点，一开始就会被推进 path 数组），如下图所示：
 
-![Drawing 20.png](https://s0.lgstatic.com/i/image/M00/78/7C/Ciqc1F_KC0SAHu4MAAC4V-Al5nU582.png)
+![[_posts/react/深入浅出搞定 React/media/d6d2a0e522d11b39f50b7135ba5cb38c_MD5.png]]
 
 **2\. 模拟事件在捕获阶段的传播顺序，收集捕获阶段相关的节点实例与回调函数**
 
@@ -279,7 +279,7 @@ traverseTwoPhase**会以当前节点（触发事件的目标节点）为起点�
 
 接下来仍然是以 Demo 为例，我们来看看 button 上触发的点击事件对应的 SyntheticEvent 对象上的 \_dispatchInstances 和 \_dispatchListeners 各是什么内容，请看下图：
 
-![Drawing 21.png](https://s0.lgstatic.com/i/image/M00/78/87/CgqCHl_KC1GAecTRAAFEgV7Sms0914.png)
+![[_posts/react/深入浅出搞定 React/media/85a8950c7e5dbe292b791ae840f2539f_MD5.png]]
 
 可以看出，**\_dispatchInstances 和 \_dispatchListeners 两个数组中的元素是严格的一一对应关系**，这确保了在回调的执行阶段，我们可以简单地通过索引来将实例与监听函数关联起来，实现事件委托的效果。同时，**两个数组中元素的排序，完美地契合了 DOM 标准中“捕获-目标-冒泡”这三个阶段的事件传播顺序**，真是妙啊！
 
