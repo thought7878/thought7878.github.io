@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -93,36 +92,12 @@
             }
           },
           {
-            "id": "2b72c2312b587b8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4d3fede7dbf32fe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/interview/简历/商智.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc8f219299789a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/libraries/_my-libraries/table/思路.md",
                 "mode": "source",
                 "source": false
               }
@@ -177,24 +152,12 @@
             }
           },
           {
-            "id": "740a8bfd4cd37ad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c60d69be21a95a6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/事件.md",
+                "file": "_posts/browser/同源策略和跨域问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -219,6 +182,18 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/methods/重塑自我 ！制定2025年计划！.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3279033826e53b7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/_my-libraries/calendar/代码实现.md",
                 "mode": "source",
                 "source": false
               }
@@ -303,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/事件.md",
+                "file": "_posts/libraries/_my-libraries/calendar/代码实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/事件.md",
+                "file": "_posts/libraries/_my-libraries/calendar/代码实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/事件.md"
+                "file": "_posts/libraries/_my-libraries/calendar/代码实现.md"
               }
             }
           }
@@ -367,12 +342,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c60d69be21a95a6d",
+  "active": "3279033826e53b7e",
   "lastOpenFiles": [
+    "_posts/libraries/_my-libraries/calendar/需求记录.md",
+    "_posts/libraries/_my-libraries/calendar/代码实现.md",
+    "_posts/engineering/webpack/Webpack的构建流程.md",
+    "_posts/engineering/webpack/构建性能/实际案例.md",
+    "_posts/browser/同源策略和跨域问题.md",
+    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
+    "_posts/browser/CORS-跨域资源共享.md",
+    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/react/总结/事件.md",
     "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
-    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
+    "_posts/browser/事件机制/Event 对象.md",
     "_posts/interview/web3所有岗位有哪些？岗位要求？薪资如何？以及常用的招聘渠道.md",
     "_posts/react/深入浅出搞定 React/media/85a8950c7e5dbe292b791ae840f2539f_MD5.png",
     "_posts/react/深入浅出搞定 React/media/d6d2a0e522d11b39f50b7135ba5cb38c_MD5.png",
@@ -390,7 +373,6 @@
     "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/事件机制",
     "_posts/interview/0_前端的知识目录.md",
-    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
     "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
@@ -399,13 +381,6 @@
     "_posts/要整理的.md",
     "_posts/任务记录/待办.md",
     "_posts/interview/问题/项目经验.md",
-    "_posts/任务记录/2024/11月/27.md",
-    "_posts/react/overview_面试.md",
-    "_posts/engineering/webpack/目录.md",
-    "_posts/engineering/webpack/应用性能/代码分割.md",
-    "_posts/interview/教程/前端面试之道/11.DevTools Tips.md",
-    "_posts/interview/教程/前端面试之道/10.JS 思考题.md",
-    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",
