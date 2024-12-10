@@ -193,14 +193,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md",
+                "file": "_posts/react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "578f4b8fe68eb837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md"
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md"
               }
             }
           }
@@ -342,8 +354,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3279033826e53b7e",
+  "active": "578f4b8fe68eb837",
   "lastOpenFiles": [
+    "_posts/libraries/antd/date-picker/解析.md",
+    "_posts/libraries/shadcn/component/react-day-picker.md",
+    "_posts/react/react 通关秘籍/8、组件实战：Calendar（下）.md",
+    "_posts/libraries/antd/date-picker",
+    "_posts/libraries/_my-libraries/未命名",
     "_posts/libraries/_my-libraries/calendar/代码实现.md",
     "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md",
     "_posts/react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
@@ -378,17 +395,12 @@
     "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
     "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
-    "_posts/interview/前端知识体系及难点.md",
-    "_posts/browser/浏览器的渲染和事件循环.md",
-    "_posts/要整理的.md",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
     "_posts/interview/教程",
-    "_posts/libraries/_my-libraries/pagination",
-    "_posts/engineering/代码规范和质量",
-    "_posts/react/总结/Components"
+    "_posts/libraries/_my-libraries/pagination"
   ]
 }
