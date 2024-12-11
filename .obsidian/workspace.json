@@ -212,7 +212,25 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 11
+      },
+      {
+        "id": "960308e708d2498c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b613d9e33afe3d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/存储/Service Worker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -290,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/browser/存储/Service Worker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +326,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/browser/存储/Service Worker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md"
+                "file": "_posts/browser/存储/Service Worker.md"
               }
             }
           }
@@ -354,10 +373,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "578f4b8fe68eb837",
+  "active": "b613d9e33afe3d3d",
   "lastOpenFiles": [
-    "_posts/engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
+    "_posts/browser/存储/overview.md",
+    "_posts/browser/存储/Service Worker.md",
+    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
+    "_posts/browser/存储",
+    "_posts/interview/教程/前端面试之道/media/89ddcd7204c6f34ca9b3a23e4c303bd2_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/c7c22ad86287c6ecffd533c134e8acea_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/f45e407fcef2f109719aa0b4186aab18_MD5.png",
+    "_posts/任务记录/2024/11月/27.md",
+    "_posts/browser/同源策略和跨域问题.md",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/libraries/shadcn/component/react-day-picker.md",
+    "_posts/engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
     "_posts/engineering/教程/从0到1/2.模块规范：在Node环境中运行ESM，可行吗？.md",
     "_posts/libraries/antd/date-picker/解析.md",
     "_posts/react/react 通关秘籍/8、组件实战：Calendar（下）.md",
@@ -370,8 +399,6 @@
     "_posts/libraries/_my-libraries/calendar/需求记录.md",
     "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/engineering/webpack/构建性能/实际案例.md",
-    "_posts/browser/同源策略和跨域问题.md",
-    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
     "_posts/browser/CORS-跨域资源共享.md",
     "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/browser/事件机制/事件机制.md",
@@ -386,21 +413,13 @@
     "_posts/react/深入浅出搞定 React/media/352d2bc4b0130a0a71179d92352ecd3c_MD5.png",
     "_posts/react/深入浅出搞定 React/media/7f4c3bec4978eafef6a7b8e4ec600078_MD5.png",
     "_posts/react/深入浅出搞定 React/media/2b2438ee3b9d84bc439dac7f8c19d24d_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/89965ebdee2b7022eafa3bc718b3bfc8_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/f0101352fc4634c91581f9b24693cd94_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/ec7dcd8d5c03e5d535870e200554971a_MD5.png",
     "_posts/base/js/知识点总结/深拷贝.md",
-    "_posts/react/深入浅出搞定 React/00_开篇词  这一次，真正吃透 React 知识链路与底层逻辑.md",
-    "_posts/browser/事件机制/stopPropagation.md",
-    "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/事件机制",
-    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
     "_posts/interview/教程/前端面试之道",
-    "_posts/interview/教程",
-    "_posts/libraries/_my-libraries/pagination"
+    "_posts/interview/教程"
   ]
 }
