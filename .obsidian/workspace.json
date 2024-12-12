@@ -201,31 +201,19 @@
             }
           },
           {
-            "id": "acca428cdfaa37e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/浏览器渲染原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cb5744255de4dc16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/浏览器的渲染和事件循环.md",
+                "file": "_posts/browser/浏览器的渲染流程和事件循环.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -303,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/浏览器的渲染和事件循环.md",
+                "file": "_posts/browser/浏览器的渲染流程和事件循环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -320,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/浏览器的渲染和事件循环.md",
+                "file": "_posts/browser/浏览器的渲染流程和事件循环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/浏览器的渲染和事件循环.md"
+                "file": "_posts/browser/浏览器的渲染流程和事件循环.md"
               }
             }
           }
@@ -369,10 +357,11 @@
   },
   "active": "cb5744255de4dc16",
   "lastOpenFiles": [
-    "_posts/ablog/2021-03-22-浏览器的渲染和事件循环.md",
-    "_posts/browser/浏览器的渲染和事件循环.md",
-    "_posts/browser/浏览器渲染原理.md",
     "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
+    "_posts/browser/浏览器的渲染流程.md",
+    "_posts/browser/浏览器的渲染流程和事件循环.md",
+    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
+    "_posts/browser/页面渲染流程分析.md",
     "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
     "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d21e05bbee3a28d0364ab88568fefc3f_MD5.gif",
@@ -408,7 +397,6 @@
     "_posts/libraries/_my-libraries/calendar/需求记录.md",
     "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/engineering/webpack/构建性能/实际案例.md",
-    "_posts/browser/CORS-跨域资源共享.md",
     "_posts/browser/事件机制",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
