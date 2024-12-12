@@ -145,19 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c60d69be21a95a6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/同源策略和跨域问题.md",
+                "file": "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
                 "mode": "source",
                 "source": false
               }
@@ -215,16 +203,16 @@
         "currentTab": 11
       },
       {
-        "id": "960308e708d2498c",
+        "id": "8656e0c21ddb35d3",
         "type": "tabs",
         "children": [
           {
-            "id": "b613d9e33afe3d3d",
+            "id": "c60d69be21a95a6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/存储/Service Worker.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -309,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/存储/Service Worker.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/存储/Service Worker.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/存储/Service Worker.md"
+                "file": "_posts/browser/缓存/overview.md"
               }
             }
           }
@@ -373,17 +361,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b613d9e33afe3d3d",
+  "active": "c60d69be21a95a6d",
   "lastOpenFiles": [
-    "_posts/browser/存储/overview.md",
+    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
+    "_posts/browser/缓存/overview.md",
+    "_posts/browser/同源策略和跨域问题.md",
+    "_posts/browser/缓存",
+    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/browser/存储/Service Worker.md",
+    "_posts/browser/存储/IndexedDB.md",
+    "_posts/browser/存储/overview.md",
+    "_posts/interview/教程/前端面试之道/media/a2cf756780a46615067d624b9ddcbfc4_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/8d3e4329e9776ca6f4c4edb9a7bca8e8_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/3349b52852f410a63a722a0a30509cef_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/57e4852bd0984099572057914033ee40_MD5.png",
     "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
     "_posts/browser/存储",
     "_posts/interview/教程/前端面试之道/media/89ddcd7204c6f34ca9b3a23e4c303bd2_MD5.png",
     "_posts/interview/教程/前端面试之道/media/c7c22ad86287c6ecffd533c134e8acea_MD5.png",
     "_posts/interview/教程/前端面试之道/media/f45e407fcef2f109719aa0b4186aab18_MD5.png",
     "_posts/任务记录/2024/11月/27.md",
-    "_posts/browser/同源策略和跨域问题.md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/libraries/shadcn/component/react-day-picker.md",
     "_posts/engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
@@ -400,26 +397,17 @@
     "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/engineering/webpack/构建性能/实际案例.md",
     "_posts/browser/CORS-跨域资源共享.md",
-    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/react/总结/事件.md",
     "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
-    "_posts/browser/事件机制/Event 对象.md",
-    "_posts/interview/web3所有岗位有哪些？岗位要求？薪资如何？以及常用的招聘渠道.md",
     "_posts/react/深入浅出搞定 React/media/85a8950c7e5dbe292b791ae840f2539f_MD5.png",
     "_posts/react/深入浅出搞定 React/media/d6d2a0e522d11b39f50b7135ba5cb38c_MD5.png",
     "_posts/react/深入浅出搞定 React/media/771e249b5410801201a6861db437736d_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/9c7581603e87631f159ca08312e1b18a_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/352d2bc4b0130a0a71179d92352ecd3c_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/7f4c3bec4978eafef6a7b8e4ec600078_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/2b2438ee3b9d84bc439dac7f8c19d24d_MD5.png",
-    "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/browser/事件机制",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
     "_posts/libraries/_my-libraries/table",
     "_posts/interview/教程/前端面试之道/media",
-    "_posts/interview/教程/前端面试之道",
-    "_posts/interview/教程"
+    "_posts/interview/教程/前端面试之道"
   ]
 }
