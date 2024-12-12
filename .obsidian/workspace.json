@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -140,18 +141,6 @@
             }
           },
           {
-            "id": "75a3cc727787d32a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9ec46bb058283a8f",
             "type": "leaf",
             "state": {
@@ -198,27 +187,45 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 11
-      },
-      {
-        "id": "8656e0c21ddb35d3",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c60d69be21a95a6d",
+            "id": "75a3cc727787d32a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acca428cdfaa37e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/浏览器渲染原理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb5744255de4dc16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/浏览器的渲染和事件循环.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -280,8 +287,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -297,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/browser/浏览器的渲染和事件循环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/browser/浏览器的渲染和事件循环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/缓存/overview.md"
+                "file": "_posts/browser/浏览器的渲染和事件循环.md"
               }
             }
           }
@@ -361,25 +367,31 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c60d69be21a95a6d",
+  "active": "cb5744255de4dc16",
   "lastOpenFiles": [
-    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
+    "_posts/ablog/2021-03-22-浏览器的渲染和事件循环.md",
+    "_posts/browser/浏览器的渲染和事件循环.md",
+    "_posts/browser/浏览器渲染原理.md",
+    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
+    "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/d21e05bbee3a28d0364ab88568fefc3f_MD5.gif",
+    "_posts/interview/教程/前端面试之道/media/8f322fb2f14aa82bfc34edb83fe5acf5_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/26618f47731e1b2a67f21484f90c864b_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/a912fdcdee497f9320cd4f7408feee44_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/bb057a4b8789b49dbf7de56096d5aa97_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/59a96b4fc18bd353b9538adfa8c7a15e_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/aa39514ff57e4c21ab1b94924522f004_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/a994618ab4a4e2bd773c11e367945cf8_MD5.png",
     "_posts/browser/缓存/overview.md",
+    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
     "_posts/browser/同源策略和跨域问题.md",
     "_posts/browser/缓存",
-    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/browser/存储/Service Worker.md",
     "_posts/browser/存储/IndexedDB.md",
     "_posts/browser/存储/overview.md",
-    "_posts/interview/教程/前端面试之道/media/a2cf756780a46615067d624b9ddcbfc4_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/8d3e4329e9776ca6f4c4edb9a7bca8e8_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/3349b52852f410a63a722a0a30509cef_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/57e4852bd0984099572057914033ee40_MD5.png",
     "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
     "_posts/browser/存储",
-    "_posts/interview/教程/前端面试之道/media/89ddcd7204c6f34ca9b3a23e4c303bd2_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/c7c22ad86287c6ecffd533c134e8acea_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/f45e407fcef2f109719aa0b4186aab18_MD5.png",
     "_posts/任务记录/2024/11月/27.md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/libraries/shadcn/component/react-day-picker.md",
@@ -397,12 +409,6 @@
     "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/engineering/webpack/构建性能/实际案例.md",
     "_posts/browser/CORS-跨域资源共享.md",
-    "_posts/browser/事件机制/事件机制.md",
-    "_posts/react/总结/事件.md",
-    "_posts/react/深入浅出搞定 React/17_特别的事件系统：React 事件与 DOM 事件有何不同？.md",
-    "_posts/react/深入浅出搞定 React/media/85a8950c7e5dbe292b791ae840f2539f_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/d6d2a0e522d11b39f50b7135ba5cb38c_MD5.png",
-    "_posts/react/深入浅出搞定 React/media/771e249b5410801201a6861db437736d_MD5.png",
     "_posts/browser/事件机制",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
