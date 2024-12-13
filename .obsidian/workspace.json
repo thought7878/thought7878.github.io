@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+                "file": "_posts/browser/渲染/preload.md",
                 "mode": "source",
                 "source": false
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+                "file": "_posts/browser/渲染/preload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+                "file": "_posts/browser/渲染/preload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程和事件循环.md"
+                "file": "_posts/browser/渲染/preload.md"
               }
             }
           }
@@ -357,8 +357,11 @@
   },
   "active": "cb5744255de4dc16",
   "lastOpenFiles": [
-    "_posts/browser/CORS-跨域资源共享.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+    "_posts/browser/渲染/preload.md",
+    "_posts/外面的世界/移民.md",
+    "_posts/外面的世界",
+    "_posts/browser/CORS-跨域资源共享.md",
     "_posts/browser/渲染",
     "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/browser/渲染/浏览器的渲染流程.md",
@@ -396,12 +399,9 @@
     "_posts/react/react 通关秘籍/7、组件实战：Calendar（上）-初始化.md",
     "_posts/react/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "_posts/interview/0_前端的知识目录.md",
-    "_posts/libraries/_my-libraries/calendar/需求记录.md",
-    "_posts/engineering/webpack/Webpack的构建流程.md",
     "_posts/browser/事件机制",
     "_posts/methods/media",
     "_posts/base/js/知识点总结/数据类型",
-    "_posts/libraries/_my-libraries/table",
-    "_posts/interview/教程/前端面试之道/media"
+    "_posts/libraries/_my-libraries/table"
   ]
 }
