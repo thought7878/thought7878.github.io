@@ -203,9 +203,11 @@
             "id": "cb5744255de4dc16",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md"
+                "file": "_posts/base/css/总结/BFC.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -288,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
+                "file": "_posts/base/css/总结/BFC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
+                "file": "_posts/base/css/总结/BFC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md"
+                "file": "_posts/base/css/总结/BFC.md"
               }
             }
           }
@@ -337,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -355,6 +356,9 @@
   },
   "active": "cb5744255de4dc16",
   "lastOpenFiles": [
+    "_posts/ablog/BFC到底是什么？.md",
+    "_posts/base/css/总结/BFC.md",
+    "_posts/browser/渲染/分层绘制的具体细节.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
     "_posts/browser/渲染/Drawing 2024-12-13 15.08.36.excalidraw.md",
@@ -393,9 +397,6 @@
     "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
     "_posts/browser/存储",
     "_posts/任务记录/2024/11月/27.md",
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/libraries/shadcn/component/react-day-picker.md",
-    "_posts/engineering/package-manager/NPM/2021-08-20-5.语义版本.md",
     "_posts/libraries/antd/date-picker",
     "_posts/libraries/_my-libraries/未命名",
     "_posts/browser/事件机制",
