@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md"
               }
             }
           }
@@ -339,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -357,9 +356,10 @@
   },
   "active": "cb5744255de4dc16",
   "lastOpenFiles": [
+    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
+    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
     "_posts/browser/安全/CORS-跨域资源共享.md",
-    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "_posts/browser/安全/overview.md",
@@ -386,7 +386,6 @@
     "_posts/browser/渲染/Drawing 2024-12-13 15.08.13.excalidraw.md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas",
     "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
-    "_posts/browser/渲染/defer.md",
     "_posts/外面的世界",
     "_posts/browser/渲染",
     "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
