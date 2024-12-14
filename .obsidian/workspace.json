@@ -205,14 +205,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/BFC.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a702a01439df6cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -290,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/css/总结/BFC.md",
+                "file": "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/css/总结/BFC.md",
+                "file": "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/css/总结/BFC.md"
+                "file": "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md"
               }
             }
           }
@@ -354,12 +366,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cb5744255de4dc16",
+  "active": "6a702a01439df6cd",
   "lastOpenFiles": [
+    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
+    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
+    "_posts/interview/教程/前端面试之道/35.面试常用技巧.md",
+    "_posts/interview/教程/前端面试之道/33.常考算法题解析.md",
+    "_posts/interview/教程/前端面试之道/31.设计模式.md",
+    "_posts/interview/教程/前端面试之道/32.常见数据结构.md",
+    "_posts/interview/教程/前端面试之道/30.输入 URL 到页面渲染的整个流程.md",
+    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
+    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
+    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
+    "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
+    "_posts/browser/渲染/分层绘制的具体细节.md",
     "_posts/ablog/BFC到底是什么？.md",
     "_posts/base/css/总结/BFC.md",
-    "_posts/browser/渲染/分层绘制的具体细节.md",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
     "_posts/browser/渲染/Drawing 2024-12-13 15.08.36.excalidraw.md",
     "_posts/browser/渲染/Drawing 2024-12-13 15.08.13.excalidraw.md",
@@ -368,15 +391,12 @@
     "_posts/browser/渲染/defer.md",
     "_posts/browser/渲染/async.md",
     "_posts/browser/渲染/preload.md",
-    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/browser/渲染/prefetch.md",
     "_posts/外面的世界/移民.md",
     "_posts/外面的世界",
     "_posts/browser/CORS-跨域资源共享.md",
     "_posts/browser/渲染",
     "_posts/browser/渲染/浏览器的渲染流程.md",
-    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
-    "_posts/browser/页面渲染流程分析.md",
     "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
     "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d21e05bbee3a28d0364ab88568fefc3f_MD5.gif",
@@ -387,16 +407,8 @@
     "_posts/interview/教程/前端面试之道/media/59a96b4fc18bd353b9538adfa8c7a15e_MD5.png",
     "_posts/interview/教程/前端面试之道/media/aa39514ff57e4c21ab1b94924522f004_MD5.png",
     "_posts/interview/教程/前端面试之道/media/a994618ab4a4e2bd773c11e367945cf8_MD5.png",
-    "_posts/browser/缓存/overview.md",
-    "_posts/interview/教程/前端面试之道/13.浏览器缓存机制.md",
-    "_posts/browser/同源策略和跨域问题.md",
     "_posts/browser/缓存",
-    "_posts/browser/存储/Service Worker.md",
-    "_posts/browser/存储/IndexedDB.md",
-    "_posts/browser/存储/overview.md",
-    "_posts/interview/教程/前端面试之道/12.浏览器基础知识点及常考面试题.md",
     "_posts/browser/存储",
-    "_posts/任务记录/2024/11月/27.md",
     "_posts/libraries/antd/date-picker",
     "_posts/libraries/_my-libraries/未命名",
     "_posts/browser/事件机制",
