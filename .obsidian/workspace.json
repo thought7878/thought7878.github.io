@@ -339,7 +339,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,10 +355,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "cb5744255de4dc16",
   "lastOpenFiles": [
-    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
+    "_posts/browser/安全/CORS-跨域资源共享.md",
+    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "_posts/browser/安全/overview.md",
@@ -385,7 +387,6 @@
     "_posts/browser/渲染/浏览器的渲染流程.canvas",
     "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
     "_posts/browser/渲染/defer.md",
-    "_posts/browser/渲染/async.md",
     "_posts/外面的世界",
     "_posts/browser/渲染",
     "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
