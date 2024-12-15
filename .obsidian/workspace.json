@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2024/11月/27.md",
+                "file": "_posts/任务记录/2024/12月/15.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,38 +193,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
+                "file": "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb5744255de4dc16",
+            "id": "c993436abfc9b10a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13247034811bff0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/安全/CSRF.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -302,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md"
+                "file": "_posts/libraries/shadcn/component/react-day-picker.md"
               }
             }
           }
@@ -366,37 +354,38 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cb5744255de4dc16",
+  "active": "578f4b8fe68eb837",
   "lastOpenFiles": [
-    "_posts/browser/安全/CSRF.md",
+    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
+    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
+    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
+    "_posts/interview/教程/前端面试之道/26.UDP.md",
+    "_posts/interview/教程/前端面试之道/25.监控.md",
+    "_posts/interview/教程/前端面试之道/24.React 常考进阶知识点.md",
+    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
+    "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
+    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
+    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
+    "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
+    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
+    "_posts/libraries/shadcn/component/react-day-picker.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
+    "_posts/任务记录/2024/12月/15.md",
+    "_posts/任务记录/2024/11月/27.md",
+    "_posts/任务记录/2024/12月",
+    "_posts/browser/安全/中间人攻击.md",
+    "_posts/interview/教程/前端面试之道/21.Vue 常考基础知识点.md",
+    "_posts/browser/安全/点击劫持.md",
+    "_posts/browser/安全/CSRF.md",
     "_posts/browser/安全/XSS.md",
     "_posts/browser/安全/overview.md",
-    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/security/XSS.md",
     "_posts/browser/安全/CSP-内容安全策略.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
     "_posts/browser/安全/同源策略和跨域问题.md",
-    "_posts/security/Understanding XSS Attacks.md",
-    "_posts/security/同源策略.md",
-    "_posts/security/overview.md",
-    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/32.同源策略：为什么XMLHttpRequest不能跨域请求资源？.md",
-    "_posts/browser/安全/CORS-跨域资源共享.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "_posts/browser/浏览器如何工作.md",
     "_posts/browser/教程",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/安全",
-    "_posts/interview/教程/前端面试之道/14.浏览器渲染原理.md",
     "_posts/ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",
-    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
-    "_posts/interview/教程/前端面试之道/35.面试常用技巧.md",
-    "_posts/interview/教程/前端面试之道/33.常考算法题解析.md",
-    "_posts/interview/教程/前端面试之道/31.设计模式.md",
-    "_posts/interview/教程/前端面试之道/32.常见数据结构.md",
-    "_posts/interview/教程/前端面试之道/30.输入 URL 到页面渲染的整个流程.md",
-    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas",
     "_posts/外面的世界",
     "_posts/browser/渲染",
@@ -413,7 +402,6 @@
     "_posts/browser/存储",
     "_posts/libraries/antd/date-picker",
     "_posts/libraries/_my-libraries/未命名",
-    "_posts/browser/事件机制",
-    "_posts/methods/media"
+    "_posts/browser/事件机制"
   ]
 }
