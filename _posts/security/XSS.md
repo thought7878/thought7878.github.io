@@ -74,3 +74,8 @@ app.listen(3000, () => {
 ### 总结
 
 XSS 攻击是 Web 应用程序面临的主要安全威胁之一。通过采取合适的输入验证、输出编码、HTTP 响应头设置以及使用现代 Web 框架和模板引擎，可以有效地防御 XSS 攻击。如果你有任何具体的问题或需要进一步的帮助，请随时提问。
+
+# 参考
+- [Understanding CSRF attacks](https://vercel.com/guides/understanding-csrf-attacks)
+
+- [Understanding XSS Attacks](https://vercel.com/guides/understanding-xss-attacks)
