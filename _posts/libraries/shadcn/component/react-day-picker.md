@@ -1,6 +1,6 @@
 "react-day-picker": "8.10.1",
 
-## 目录结构
+# 目录结构
 
 这个 TypeScript 文件  `DayPicker.tsx`  是一个 React 组件的实现，用于渲染日期选择器日历。它依赖于多个外部文件和目录，每个文件和目录的作用如下：
 
@@ -21,7 +21,7 @@
 
 通过这些文件和目录的协作，`DayPicker`  组件能够实现复杂的日期选择功能，并提供良好的用户体验。
 
-## DayPicker.tsx 代码功能解释
+# DayPicker.tsx 代码功能解释
 
 这段 TypeScript 代码定义了一个名为  `DayPicker`  的 React 组件，用于渲染日期选择器日历。主要功能包括：
 
@@ -107,16 +107,16 @@ flowchart TD
 
 - **输入**：`props`  对象，包含组件的各种属性。
 - **输出**：配置对象，包括  `components`、`formatters`、`labels`、`dateLib`、`locale`  和  `classNames`。
-	- **components**: 包含自定义组件的对象，这些组件可以用于替换或扩展 `DayPicker` 中的默认组件。
-	- **formatters**: 包含用于格式化日期和其他数据的函数对象。
-	- **labels**: 包含用于显示文本标签的对象，例如月份名称、周几等。
-	- **dateLib**: 一个 `DateLib` 实例，用于处理日期相关的逻辑，如日期计算、格式化等。
-	- **locale**: 包含本地化配置的对象，用于支持多语言和地区的显示。
-	- **classNames**: 包含类名的对象，用于自定义组件的样式。
+  - **components**: 包含自定义组件的对象，这些组件可以用于替换或扩展  `DayPicker`  中的默认组件。
+  - **formatters**: 包含用于格式化日期和其他数据的函数对象。
+  - **labels**: 包含用于显示文本标签的对象，例如月份名称、周几等。
+  - **dateLib**: 一个  `DateLib`  实例，用于处理日期相关的逻辑，如日期计算、格式化等。
+  - **locale**: 包含本地化配置的对象，用于支持多语言和地区的显示。
+  - **classNames**: 包含类名的对象，用于自定义组件的样式。
 - **逻辑**：
-	- 合并默认的  `locale`  和  `props.locale`。
-	- 创建  `dateLib`  实例，配置日期库的选项。
-	- 获取组件、格式化器、标签和类名。
+  - 合并默认的  `locale`  和  `props.locale`。
+  - 创建  `dateLib`  实例，配置日期库的选项。
+  - 获取组件、格式化器、标签和类名。
 
 ```tsx
 const { components, formatters, labels, dateLib, locale, classNames } =
@@ -163,13 +163,14 @@ const { components, formatters, labels, dateLib, locale, classNames } =
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：日历数据对象，包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
-	- days： 日历中的天数组
-	- months： 日历中的月份数组
-	- navStart： 导航起始点，用于确定日历显示的开始月份
-	- navEnd： 导航结束点，用于确定日历显示的结束月份
-	- previousMonth： 函数，用于导航到上一个月
-	- nextMonth： 函数，用于导航到下一个月
-	- goToMonth：函数，用于直接导航到指定的月份
+
+  - days： 日历中的天数组
+  - months： 日历中的月份数组
+  - navStart： 导航起始点，用于确定日历显示的开始月份
+  - navEnd： 导航结束点，用于确定日历显示的结束月份
+  - previousMonth： 函数，用于导航到上一个月
+  - nextMonth： 函数，用于导航到下一个月
+  - goToMonth：函数，用于直接导航到指定的月份
 
 - **逻辑**：
   - 根据  `props`  和  `dateLib`  生成日历数据。
@@ -183,7 +184,7 @@ const { days, months, navStart, navEnd, previousMonth, nextMonth, goToMonth } =
 
 #### 管理选中状态：
 
-使用  `useSelection`  钩子，管理选中的日期状态。从useSelection钩子中获取所需函数和状态。useSelection是一个自定义钩子，用于处理选择逻辑，它接受props和一个日期库作为参数
+使用  `useSelection`  钩子，管理选中的日期状态。从 useSelection 钩子中获取所需函数和状态。useSelection 是一个自定义钩子，用于处理选择逻辑，它接受 props 和一个日期库作为参数
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：选中状态对象，包括  `isSelected`、`select`  和  `selectedValue`。
@@ -292,3 +293,70 @@ flowchart TD
     G9 --> G10[渲染Footer底部内容]
     G10 --> H[结束]
 ```
+
+# useCalendar()
+
+## 代码功能解释
+
+这段 TypeScript 代码定义了一个名为  `useCalendar`  的自定义 Hook，用于生成和管理日历组件。具体功能如下：
+
+1. **初始化月份范围**：根据传入的属性  `props`  和日期库  `dateLib`  计算导航起始月  `navStart`  和结束月  `navEnd`。
+2. **设置初始月份**：计算初始显示月份  `initialMonth`，并使用  `useControlledValue`  管理第一个显示月份  `firstMonth`。
+3. **生成显示月份**：根据  `firstMonth`  和  `navEnd`  生成显示的月份  `displayMonths`。
+4. **生成日期和周**：根据  `displayMonths`  生成显示的日期  `dates`、月份  `months`  和周  `weeks`。
+5. **生成天数**：根据  `months`  生成显示的天数  `days`。
+6. **导航功能**：提供  `goToMonth`  和  `goToDay`  方法，用于在日历中导航到指定的月份或天数。
+7. **返回日历对象**：返回一个包含所有生成数据和导航方法的日历对象  `calendar`。
+
+## 控制流图
+
+```mermaid
+flowchart TD
+    A[开始] --> B[获取导航起始月和结束月]
+    B --> C[计算初始显示月份]
+    C --> D[设置第一个显示月份]
+    D --> E[生成显示月份]
+    E --> F[生成显示日期]
+    F --> G[生成显示月份]
+    G --> H[生成显示周]
+    H --> I[生成显示天数]
+    I --> J[计算上一个月]
+    J --> K[计算下一个月]
+    K --> L[获取禁用导航和月份变化回调]
+    L --> M[定义是否在日历中的检查方法]
+    M --> N[定义跳转到月份的方法]
+    N --> O[定义跳转到天数的方法]
+    O --> P[返回日历对象]
+    P --> Q[结束]
+
+```
+
+### 详细解释
+
+1. **初始化月份范围**：
+    
+    - `getNavMonths(props, dateLib)` 计算导航起始月 `navStart` 和结束月 `navEnd`。
+2. **设置初始月份**：
+    
+    - `getInitialMonth(props, dateLib)` 计算初始显示月份 `initialMonth`。
+    - 使用 `useControlledValue` 管理第一个显示月份 `firstMonth`，并在 `timeZone` 变化时更新 `firstMonth`。
+3. **生成显示月份**：
+    
+    - `getDisplayMonths(firstMonth, navEnd, props, dateLib)` 根据 `firstMonth` 和 `navEnd` 生成显示的月份 `displayMonths`。
+4. **生成日期和周**：
+    
+    - `getDates(displayMonths, props.endMonth ? endOfMonth(props.endMonth) : undefined, props, dateLib)` 生成显示的日期 `dates`。
+    - `getMonths(displayMonths, dates, props, dateLib)` 生成显示的月份 `months`。
+    - `getWeeks(months)` 生成显示的周 `weeks`。
+5. **生成天数**：
+    
+    - `getDays(months)` 生成显示的天数 `days`。
+6. **导航功能**：
+    
+    - `getPreviousMonth(firstMonth, navStart, props, dateLib)` 计算上一个月 `previousMonth`。
+    - `getNextMonth(firstMonth, navEnd, props, dateLib)` 计算下一个月 `nextMonth`。
+    - `goToMonth(date)` 跳转到指定月份，考虑导航限制。
+    - `goToDay(day)` 跳转到指定天数，如果不在日历中则跳转到该天数所在的月份。
+7. **返回日历对象**：
+    
+    - 返回一个包含所有生成数据和导航方法的日历对象 `calendar`。

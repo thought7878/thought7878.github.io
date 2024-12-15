@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/engineering/package.json/exports.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/engineering/package.json/exports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/engineering/package.json/exports.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md"
+                "file": "_posts/engineering/package.json/exports.md"
               }
             }
           }
@@ -356,6 +356,9 @@
   },
   "active": "578f4b8fe68eb837",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/component/react-day-picker.md",
+    "_posts/engineering/package.json/exports.md",
+    "_posts/engineering/package.json",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
     "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
@@ -368,7 +371,6 @@
     "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
     "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
     "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
-    "_posts/libraries/shadcn/component/react-day-picker.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
     "_posts/任务记录/2024/12月/15.md",
     "_posts/任务记录/2024/11月/27.md",
@@ -382,7 +384,6 @@
     "_posts/security/XSS.md",
     "_posts/browser/安全/CSP-内容安全策略.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md",
-    "_posts/browser/安全/同源策略和跨域问题.md",
     "_posts/browser/教程",
     "_posts/browser/安全",
     "_posts/ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",
@@ -401,7 +402,6 @@
     "_posts/browser/缓存",
     "_posts/browser/存储",
     "_posts/libraries/antd/date-picker",
-    "_posts/libraries/_my-libraries/未命名",
-    "_posts/browser/事件机制"
+    "_posts/libraries/_my-libraries/未命名"
   ]
 }
