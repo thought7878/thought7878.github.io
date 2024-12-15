@@ -106,7 +106,7 @@ flowchart TD
 使用  `useMemo`  计算并返回组件所需的配置对象，包括日期库、格式化器、标签、类名等。
 
 - **输入**：`props`  对象，包含组件的各种属性。
-- **输出**：配置对象，包括  `dateLib`、`components`、`formatters`、`labels`、`locale`  和  `classNames`。
+- **输出**：配置对象，包括  `components`、`formatters`、`labels`、`dateLib`、`locale`  和  `classNames`。
 	- **components**: 包含自定义组件的对象，这些组件可以用于替换或扩展 `DayPicker` 中的默认组件。
 	- **formatters**: 包含用于格式化日期和其他数据的函数对象。
 	- **labels**: 包含用于显示文本标签的对象，例如月份名称、周几等。
@@ -163,6 +163,14 @@ const { components, formatters, labels, dateLib, locale, classNames } =
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：日历数据对象，包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
+	- days： 日历中的天数组
+	- months： 日历中的月份数组
+	- navStart： 导航起始点，用于确定日历显示的开始月份
+	- navEnd： 导航结束点，用于确定日历显示的结束月份
+	- previousMonth： 函数，用于导航到上一个月
+	- nextMonth： 函数，用于导航到下一个月
+	- goToMonth：函数，用于直接导航到指定的月份
+
 - **逻辑**：
   - 根据  `props`  和  `dateLib`  生成日历数据。
 
@@ -175,7 +183,7 @@ const { days, months, navStart, navEnd, previousMonth, nextMonth, goToMonth } =
 
 #### 管理选中状态：
 
-使用  `useSelection`  钩子，管理选中的日期状态。
+使用  `useSelection`  钩子，管理选中的日期状态。从useSelection钩子中获取所需函数和状态。useSelection是一个自定义钩子，用于处理选择逻辑，它接受props和一个日期库作为参数
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：选中状态对象，包括  `isSelected`、`select`  和  `selectedValue`。
