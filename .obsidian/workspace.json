@@ -224,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -302,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/安全/CSRF.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/安全/CSRF.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/安全/CSRF.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md"
               }
             }
           }
@@ -366,11 +366,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "13247034811bff0a",
+  "active": "cb5744255de4dc16",
   "lastOpenFiles": [
-    "_posts/browser/安全/XSS.md",
     "_posts/browser/安全/CSRF.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
+    "_posts/browser/安全/XSS.md",
     "_posts/browser/安全/overview.md",
     "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
     "_posts/security/XSS.md",
