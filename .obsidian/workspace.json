@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker.md"
+                "file": "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md"
               }
             }
           }
@@ -354,12 +354,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "578f4b8fe68eb837",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/component/react-day-picker",
     "_posts/libraries/shadcn/component/media",
     "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
     "_posts/任务记录/2024/12月/18.md",
-    "_posts/libraries/shadcn/component/react-day-picker.md",
+    "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
     "_posts/任务记录/2025/目标.md",
     "_posts/任务记录/2025",
     "_posts/engineering/package.json/exports.md",
@@ -401,7 +402,6 @@
     "_posts/interview/教程/前端面试之道/media/59a96b4fc18bd353b9538adfa8c7a15e_MD5.png",
     "_posts/interview/教程/前端面试之道/media/aa39514ff57e4c21ab1b94924522f004_MD5.png",
     "_posts/browser/缓存",
-    "_posts/browser/存储",
-    "_posts/libraries/antd/date-picker"
+    "_posts/browser/存储"
   ]
 }
