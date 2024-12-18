@@ -168,8 +168,8 @@ const { components, formatters, labels, dateLib, locale, classNames } =
   - months： 日历中的月份数组
   - navStart： 导航起始点，用于确定日历显示的开始月份
   - navEnd： 导航结束点，用于确定日历显示的结束月份
-  - previousMonth： 函数，用于导航到上一个月
-  - nextMonth： 函数，用于导航到下一个月
+  - previousMonth： 上一个月
+  - nextMonth： 下一个月
   - goToMonth：函数，用于直接导航到指定的月份
 
 - **逻辑**：
