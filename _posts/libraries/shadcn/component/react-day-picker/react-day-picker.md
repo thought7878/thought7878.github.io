@@ -6,7 +6,13 @@
 
 - **DayPicker.tsx**：这是  `DayPicker`  组件的**主文件**，定义了组件的结构和逻辑。
 - **UI.ts**：提供了一些用于渲染的常量和样式类名。
+
 - **useCalendar.ts**：提供了一个自定义 Hook，用于管理日历的状态。
+- **useDayPicker.ts**：提供了一个上下文（Context），用于在组件树中传递日期选择器的配置。
+- **useFocus.ts**：提供了一个自定义 Hook，用于管理焦点状态。
+- **useGetModifiers.ts**：提供了一个自定义 Hook，用于获取日期单元格的修饰符。
+- **useSelection.ts**：提供了一个自定义 Hook，用于管理日期选择状态。
+
 - **classes/**
   - **CalendarDay.ts**：定义了  `CalendarDay`  类，用于表示日期信息。
   - **DateLib.ts**：提供了一个日期库，用于处理日期相关的操作。
@@ -14,10 +20,7 @@
 - **labels/**：包含默认的标签文本。
 - **types/**：定义了各种类型，用于类型检查和类型安全。
 - **utils/**：包含一些实用函数，用于判断日期范围等。
-- **useDayPicker.ts**：提供了一个上下文（Context），用于在组件树中传递日期选择器的配置。
-- **useFocus.ts**：提供了一个自定义 Hook，用于管理焦点状态。
-- **useGetModifiers.ts**：提供了一个自定义 Hook，用于获取日期单元格的修饰符。
-- **useSelection.ts**：提供了一个自定义 Hook，用于管理日期选择状态。
+
 
 通过这些文件和目录的协作，`DayPicker`  组件能够实现复杂的日期选择功能，并提供良好的用户体验。
 
@@ -69,53 +72,24 @@ flowchart TD
 
 ---
 
-15. **初始化配置**：
-
-    - 通过  `useMemo`  计算并返回组件所需的配置对象，包括日期库、格式化器、标签、类名等。
-    - 配置对象包括  `dateLib`、`components`、`formatters`、`labels`、`locale`  和  `classNames`。
-
-16. **生成日历数据**：
-
-    - 使用  `useCalendar`  钩子生成日历数据，包括月份、周数、天数等。
-    - 返回的数据包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
-
-17. **管理选中状态**：
-
-    - 使用  `useSelection`  钩子管理选中的日期状态。
-    - 返回的对象包括  `isSelected`、`select`  和  `selectedValue`。
-
-18. **管理焦点状态**：
-
-    - 使用  `useFocus`  钩子管理焦点状态。
-    - 返回的对象包括  `blur`、`focused`、`isFocusTarget`、`moveFocus`  和  `setFocused`。
-
-19. **定义事件处理函数**：
-
-    - 定义了各种事件处理函数，如点击、聚焦、模糊、键盘操作等，用于处理用户与日期选择器的交互。
-    - 包括  `handlePreviousClick`、`handleNextClick`、`handleDayClick`、`handleDayFocus`、`handleDayBlur`、`handleDayKeyDown`、`handleDayMouseEnter`  和  `handleDayMouseLeave`。
-
-20. **渲染日历组件**：
-
-    - 根据配置和状态，渲染日历的各个部分，包括导航、月份标题、周数、日期按钮等。
-    - 渲染的组件包括  `Root`、`Months`、`Nav`、`Month`、`MonthCaption`、`MonthGrid`、`Weekdays`、`Week`、`Day`  和  `Footer`。
-
----
-
-#### 初始化配置：
+### 初始化配置：
 
 使用  `useMemo`  计算并返回组件所需的配置对象，包括日期库、格式化器、标签、类名等。
 
 - **输入**：`props`  对象，包含组件的各种属性。
+
 - **输出**：配置对象，包括  `components`、`formatters`、`labels`、`dateLib`、`locale`  和  `classNames`。
+
   - **components**: 包含自定义组件的对象，这些组件可以用于替换或扩展  `DayPicker`  中的默认组件。
   - **formatters**: 包含用于格式化日期和其他数据的函数对象。
   - **labels**: 包含用于显示文本标签的对象，例如月份名称、周几等。
   - **dateLib**: 一个  `DateLib`  实例，用于处理日期相关的逻辑，如日期计算、格式化等。
   - **locale**: 包含本地化配置的对象，用于支持多语言和地区的显示。
   - **classNames**: 包含类名的对象，用于自定义组件的样式。
+
 - **逻辑**：
   - 合并默认的  `locale`  和  `props.locale`。
-  - 创建  `dateLib`  实例，配置日期库的选项。
+  - 创建  `dateLib`  实例，配置包括 locale 和一些日历相关的设置。
   - 获取组件、格式化器、标签和类名。
 
 ```tsx
@@ -157,9 +131,42 @@ const { components, formatters, labels, dateLib, locale, classNames } =
   ]);
 ```
 
-#### 生成日历数据：
+### 解构赋值：
 
-使用  `useCalendar`  钩子生成日历数据。
+- 从  `props`  中解构出多个属性，包括  `captionLayout`、`mode`、`onDayBlur`、`onDayClick`  等。
+- 从  `formatters`  对象中解构出多个格式化函数，如  `formatCaption`、`formatDay`  等。
+
+```tsx
+const {
+  captionLayout,
+  mode,
+  onDayBlur,
+  onDayClick,
+  onDayFocus,
+  onDayKeyDown,
+  onDayMouseEnter,
+  onDayMouseLeave,
+  onNextClick,
+  onPrevClick,
+  showWeekNumber,
+  styles,
+} = props;
+
+/** 解构赋值从formatters对象中提取多个格式化函数 */
+const {
+  formatCaption, // 用于格式化标题的函数
+  formatDay, // 用于格式化日期的函数
+  formatMonthDropdown, // 用于格式化月度下拉菜单的函数
+  formatWeekNumber, // 用于格式化周数的函数
+  formatWeekNumberHeader, // 用于格式化周数头部的函数
+  formatWeekdayName, // 用于格式化星期名称的函数
+  formatYearDropdown, // 用于格式化年度下拉菜单的函数
+} = formatters;
+```
+
+### 生成日历数据：
+
+使用  [[useCalendar()]]  钩子生成日历数据。
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：日历数据对象，包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
@@ -182,7 +189,7 @@ const { days, months, navStart, navEnd, previousMonth, nextMonth, goToMonth } =
   calendar;
 ```
 
-#### 管理选中状态：
+### 管理选中状态：
 
 使用  `useSelection`  钩子，管理选中的日期状态。从 useSelection 钩子中获取所需函数和状态。useSelection 是一个自定义钩子，用于处理选择逻辑，它接受 props 和一个日期库作为参数
 
@@ -199,7 +206,7 @@ const {
 } = useSelection(props, dateLib) ?? {};
 ```
 
-#### 管理焦点状态：
+### 管理焦点状态：
 
 使用  `useFocus`  钩子，管理焦点状态。
 
@@ -218,9 +225,9 @@ const { blur, focused, isFocusTarget, moveFocus, setFocused } = useFocus(
 );
 ```
 
-#### 定义事件处理函数：
+### 定义事件处理函数：
 
-定义了各种事件处理函数，用于处理用户与日期选择器的交互。
+定义了各种事件处理函数，用于处理用户与日期选择器的交互。如点击、聚焦、模糊、键盘操作等。
 
 - **事件处理函数**：
   - `handlePreviousClick`：处理前一个月的点击事件。
@@ -236,23 +243,31 @@ const { blur, focused, isFocusTarget, moveFocus, setFocused } = useFocus(
 - **逻辑**：
   - 每个事件处理函数根据相应的事件类型更新状态或调用回调函数。
 
-#### 渲染日历组件：
+### 渲染日历组件：
 
-根据配置和状态，渲染日历的各个部分。
+- 根据配置和状态，渲染日历的各个部分，包括导航、月份标题、周数、日期按钮等。
+- 渲染的组件包括  `Root`、`Months`、`Nav`、`Month`、`MonthCaption`、`MonthGrid`、`Weekdays`、`Week`、`Day`  和  `Footer`。
 
 - **渲染组件**：
-  - `Root`：根容器。
-  - `Months`：月份容器。
-  - `Nav`：导航栏。
-  - `Month`：单个月份。
-  - `MonthCaption`：月份标题。
-  - `MonthGrid`：月份网格。
-  - `Weekdays`：星期标题。
-  - `Week`：单周。
-  - `Day`：单日。
-  - `Footer`：底部内容。
+	- `Root`：根容器。
+	- `Months`：月份容器。
+	- `Nav`：导航栏。
+	- `Month`：单个月份。
+	- `MonthCaption`：月份标题。
+	- `MonthGrid`：月份网格。
+	- `Weekdays`：星期标题。
+	- `Week`：单周。
+	- `Day`：单日。
+	- `Footer`：底部内容。
+
 - **逻辑**：
-  - 根据  `props`  和状态，动态生成并渲染日历的各个部分。
+	- 根据  `props`  和状态，动态生成并渲染日历的各个部分。
+
+	- 使用 `dayPickerContext.Provider` 来提供上下文数据。
+	- 渲染日历的根组件 `components.Root`，并在其中渲染月份组件 `components.Months`。
+	- 在月份组件中，渲染导航按钮 `components.Nav` 和每个月的日历 `components.Month`。
+	- 在每个月的日历中，渲染月份标题 `components.MonthCaption` 和日期单元格 `components.Day`。
+
 
 ```mermaid
 flowchart TD
@@ -294,175 +309,4 @@ flowchart TD
     G10 --> H[结束]
 ```
 
-# useCalendar()
-
-## 代码功能解释
-
-这段 TypeScript 代码定义了一个名为  `useCalendar`  的自定义 Hook，用于生成和管理日历组件。具体功能如下：
-
-1. **初始化月份范围**：根据传入的属性  `props`  和日期库  `dateLib`  计算导航起始月  `navStart`  和结束月  `navEnd`。
-2. **设置初始月份**：计算初始显示月份  `initialMonth`，并使用  `useControlledValue`  管理第一个显示月份  `firstMonth`。
-3. **生成显示月份**：根据  `firstMonth`  和  `navEnd`  生成显示的月份  `displayMonths`。
-4. **生成日期和周**：根据  `displayMonths`  生成显示的日期  `dates`、月份  `months`  和周  `weeks`。
-5. **生成天数**：根据  `months`  生成显示的天数  `days`。
-6. **导航功能**：提供  `goToMonth`  和  `goToDay`  方法，用于在日历中导航到指定的月份或天数。
-7. **返回日历对象**：返回一个包含所有生成数据和导航方法的日历对象  `calendar`。
-
-## 控制流图
-
-```mermaid
-flowchart TD
-    A[开始] --> B[获取导航起始月和结束月]
-    B --> C[计算初始显示月份]
-    C --> D[设置第一个显示月份]
-    D --> E[生成显示月份]
-    E --> F[生成显示日期]
-    F --> G[生成显示月份]
-    G --> H[生成显示周]
-    H --> I[生成显示天数]
-    I --> J[计算上一个月]
-    J --> K[计算下一个月]
-    K --> L[获取禁用导航和月份变化回调]
-    L --> M[定义是否在日历中的检查方法]
-    M --> N[定义跳转到月份的方法]
-    N --> O[定义跳转到天数的方法]
-    O --> P[返回日历对象]
-    P --> Q[结束]
-
-```
-
-### 详细解释
-
-1. **初始化月份范围**：
-    
-    - `getNavMonths(props, dateLib)` 计算导航起始月 `navStart` 和结束月 `navEnd`。
-2. **设置初始月份**：
-    
-    - `getInitialMonth(props, dateLib)` 计算初始显示月份 `initialMonth`。
-    - 使用 `useControlledValue` 管理第一个显示月份 `firstMonth`，并在 `timeZone` 变化时更新 `firstMonth`。
-3. **生成显示月份**：
-    
-    - `getDisplayMonths(firstMonth, navEnd, props, dateLib)` 根据 `firstMonth` 和 `navEnd` 生成显示的月份 `displayMonths`。
-4. **生成日期和周**：
-    
-    - `getDates(displayMonths, props.endMonth ? endOfMonth(props.endMonth) : undefined, props, dateLib)` 生成显示的日期 `dates`。
-    - `getMonths(displayMonths, dates, props, dateLib)` 生成显示的月份 `months`。
-    - `getWeeks(months)` 生成显示的周 `weeks`。
-5. **生成天数**：
-    
-    - `getDays(months)` 生成显示的天数 `days`。
-6. **导航功能**：
-    
-    - `getPreviousMonth(firstMonth, navStart, props, dateLib)` 计算上一个月 `previousMonth`。
-    - `getNextMonth(firstMonth, navEnd, props, dateLib)` 计算下一个月 `nextMonth`。
-    - `goToMonth(date)` 跳转到指定月份，考虑导航限制。
-    - `goToDay(day)` 跳转到指定天数，如果不在日历中则跳转到该天数所在的月份。
-7. **返回日历对象**：
-    
-    - 返回一个包含所有生成数据和导航方法的日历对象 `calendar`。
-
-
-# getInitialMonth()
-
-src/helpers/getInitialMonth.ts
-
-这段代码定义了一个名为 `getInitialMonth` 的函数，用于*根据传入的 `DayPickerProps` 和 `DateLib` 对象计算并返回一个初始月份的日期*。以下是对这段代码的详细解释：
-
-1. **函数签名**：
-
-    ```typescript
-    export function getInitialMonth(
-      props: Pick<
-        DayPickerProps,
-        | "fromYear"
-        | "toYear"
-        | "startMonth"
-        | "endMonth"
-        | "month"
-        | "defaultMonth"
-        | "today"
-        | "numberOfMonths"
-        | "timeZone"
-      >,
-      dateLib: DateLib
-    ): Date {
-    ```
-    
-    这个函数接收两个参数：
-    
-    - `props`：一个包含 `DayPickerProps` 部分属性的对象，这些属性用于配置日历的显示范围和初始状态。
-    - `dateLib`：一个 `DateLib` 对象，提供了日期操作的方法。
-
-2. **解构赋值**：
-    
-    ```typescript
-    const {
-      month,
-      defaultMonth,
-      today = props.timeZone
-        ? TZDate.tz(props.timeZone)
-        : dateLib.Date
-          ? new dateLib.Date()
-          : new Date(),
-      numberOfMonths = 1,
-      endMonth,
-      startMonth
-    } = props;
-    ```
-    
-    从 `props` 中解构出以下属性：
-    
-    - `month`：用户指定的月份。
-    - `defaultMonth`：默认的月份。
-    - `today`：当前日期，如果未指定则根据 `timeZone` 或 `dateLib.Date` 生成。
-    - `numberOfMonths`：显示的月份数量，默认为 1。
-    - `endMonth`：结束月份。
-    - `startMonth`：开始月份。
-3. **计算初始月份**：
-    
-    
-    ```typescript
-    let initialMonth = month || defaultMonth || today;
-    ```
-    
-    初始月份首先尝试使用 `month`，如果未指定则使用 `defaultMonth`，如果都未指定则使用 `today`。
-    
-4. **日期库方法解构**：
-    
-    
-    ```typescript
-    const { differenceInCalendarMonths, addMonths, startOfMonth } = dateLib;
-    ```
-    
-    从 `dateLib` 中解构出以下方法：
-    
-    - `differenceInCalendarMonths`：计算两个日期之间的月份差。
-    - `addMonths`：在日期上增加指定的月份数。
-    - `startOfMonth`：返回指定日期所在月份的第一天。
-5. **调整初始月份**：
-    
-    ```typescript
-    // Fix the initialMonth if is after the to-date
-    if (endMonth && differenceInCalendarMonths(endMonth, initialMonth) < 0) {
-      const offset = -1 * (numberOfMonths - 1);
-      initialMonth = addMonths(endMonth, offset);
-    }
-    // Fix the initialMonth if is before the from-date
-    if (startMonth && differenceInCalendarMonths(initialMonth, startMonth) < 0) {
-      initialMonth = startMonth;
-    }
-    ```
-    
-    如果 `initialMonth` 在 `endMonth` 之后，则将其调整为 `endMonth` 之前的某个月份。如果 `initialMonth` 在 `startMonth` 之前，则将其调整为 `startMonth`。
-    
-6. **返回结果**：
-    
-    ```typescript
-    return startOfMonth(initialMonth);
-    ```
-    
-    最后，返回调整后的初始月份的第一天。
-    
-
-这段代码的主要功能是根据传入的配置计算并返回一个合适的初始月份日期，确保日历的显示范围和初始状态符合用户的期望。
 
