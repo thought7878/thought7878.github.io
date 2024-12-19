@@ -46,7 +46,7 @@ const calendar = {
 
 使用  `getNavMonths`  函数，根据传入的属性  `props.startMonth`、`props.endMonth` 和日期库  `dateLib` ，_计算导航起始月  `navStart`  和结束月  `navEnd`。_
 
-## 设置状态：初始月份
+## 设置状态：初始月份 firstMonth
 
 - `getInitialMonth(props, dateLib)`  计算初始显示月份  `initialMonth`。
 	- _如果 props.month 存在，则使用 month 作为初始月份，否则使用 defaultMonth，再否则使用 today_
@@ -69,14 +69,19 @@ export function Controlled() {
 
 - 当 timeZone 属性变化时，更新第一个显示的月份
 
-## 计算显示月份
+## 计算显示月份 displayMonths
 
-   - `getDisplayMonths(firstMonth, navEnd, props, dateLib)`  根据  `firstMonth`  和  `navEnd`  生成显示的月份  `displayMonths`。
+```tsx
+const displayMonths: Date[] = getDisplayMonths(firstMonth, navEnd, props, dateLib);
+```
+
+根据给定的起始月份、结束月份和*月份数量 props.numberOfMonths*，返回一个包含*所有要显示的月份的Date数组*。
 
 ## 计算日期和周
 
-   - `getDates(displayMonths, props.endMonth ? endOfMonth(props.endMonth) : undefined, props, dateLib)`  生成显示的日期  `dates`。
-   - `getMonths(displayMonths, dates, props, dateLib)`  生成显示的月份  `months`。
+   - `getDates()`  获取 `dates`，获取日期数组，类似days，但返回的是Date[]。只用于getMonths()。
+
+   - `getMonths()`  生成显示的月份  `months`。
    - `getWeeks(months)`  生成显示的周  `weeks`。
 
 ## 计算天数
