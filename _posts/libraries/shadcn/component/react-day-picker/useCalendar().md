@@ -12,29 +12,28 @@
 ## 输出
 
 ```tsx
-
 const calendar = {
-  months,// 日历中的月份数组；渲染的数据
+  months, // 日历中的月份数组: CalendarMonth[]；渲染的数据：多个月份，每个月份包含多个星期weeks，每个星期包含多个日期days。类型：CalendarMonth、CalendarWeek、CalendarDay。
   weeks,
-  days,// 日历中的天数组；只用于获取日期修饰符 useGetModifiers
+  days, // 日历中的天数组；只用于获取日期修饰符 useGetModifiers
 
-  navStart,// 导航起始点，用于确定日历显示的开始月份
-  navEnd,// 导航结束点，用于确定日历显示的结束月份
+  navStart, // 导航起始点，用于确定日历显示的开始月份，根据`props.startMonth`、`props.endMonth`获得
+  navEnd, // 导航结束点，用于确定日历显示的结束月份
 
-  previousMonth,// 上一个月
-  nextMonth,// 下一个月
+  previousMonth, // 上一个月
+  nextMonth, // 下一个月
 
-  goToMonth,// 函数，用于直接导航到指定的月份
+  goToMonth, // 函数，用于直接导航到指定的月份
   goToDay,
 };
 ```
 
 ## 逻辑、具体功能如下：
 
-1. **初始化月份范围**：使用 `getNavMonths` 函数，根据传入的属性  `props.startMonth`、`props.endMonth` 和日期库  `dateLib`  _计算导航起始月  `navStart`  和结束月  `navEnd`。_
+1. **初始化月份范围**：使用  `getNavMonths`  函数，根据传入的属性  `props.startMonth`、`props.endMonth` 和日期库  `dateLib`  _计算导航起始月  `navStart`  和结束月  `navEnd`。_
 2. **获取初始月份**：
-	1. 计算初始显示月份  `initialMonth`，
-	2. 并使用  `useControlledValue`  管理第一个显示月份  `firstMonth`。
+   1. 计算初始显示月份  `initialMonth`，
+   2. 并使用  `useControlledValue`  管理第一个显示月份  `firstMonth`。
 3. **生成显示月份**：根据  `firstMonth`  和  `navEnd`  生成显示的月份  `displayMonths`。
 4. **生成日期和周**：根据  `displayMonths`  生成显示的日期  `dates`、月份  `months`  和周  `weeks`。
 5. **生成天数**：根据  `months`  生成显示的天数  `days`。
@@ -43,40 +42,57 @@ const calendar = {
 
 # 详细解释
 
-## 初始化月份范围：
+## 计算月份范围
 
-使用 `getNavMonths` 函数，根据传入的属性  `props.startMonth`、`props.endMonth` 和日期库  `dateLib` ，_计算导航起始月  `navStart`  和结束月  `navEnd`。_
+使用  `getNavMonths`  函数，根据传入的属性  `props.startMonth`、`props.endMonth` 和日期库  `dateLib` ，_计算导航起始月  `navStart`  和结束月  `navEnd`。_
 
-## 设置初始月份：
+## 设置状态：初始月份
 
-   - `getInitialMonth(props, dateLib)`  计算初始显示月份  `initialMonth`。
-   - 使用  `useControlledValue`  管理第一个显示月份  `firstMonth`，并在  `timeZone`  变化时更新  `firstMonth`。
+- `getInitialMonth(props, dateLib)`  计算初始显示月份  `initialMonth`。
+	- _如果 props.month 存在，则使用 month 作为初始月份，否则使用 defaultMonth，再否则使用 today_
+	- 如果 endMonth 存在且 initialMonth 在 endMonth 之后，则将 initialMonth 设置为 endMonth 减去 numberOfMonths - 1 个月
+	- 如果 startMonth 存在且 initialMonth 在 startMonth 之前，则将 initialMonth 设置为 startMonth
 
-3. **生成显示月份**：
+- 使用  `useControlledValue`  管理*第一个显示的月份  `firstMonth`*。
+	- **如果外部状态  `props.month`  存在，则使用外部状态**，即  `props.month`  的第一天（多余，没必要第一天）作为第一个显示的月份；
+	- **否则，使用内部创建的状态**。上一步的`initialMonth`为初始值，作为第一个显示的月份。
+
+```tsx
+import { useState } from "react";
+import { DayPicker } from "react-day-picker";
+
+export function Controlled() {
+  const [month, setMonth] = useState(new Date(2024, 9)); // Start from October 2024
+  return <DayPicker month={month} onMonthChange={setMonth} />;
+}
+```
+
+- 当 timeZone 属性变化时，更新第一个显示的月份
+
+## 计算显示月份
 
    - `getDisplayMonths(firstMonth, navEnd, props, dateLib)`  根据  `firstMonth`  和  `navEnd`  生成显示的月份  `displayMonths`。
 
-4. **生成日期和周**：
+## 计算日期和周
 
    - `getDates(displayMonths, props.endMonth ? endOfMonth(props.endMonth) : undefined, props, dateLib)`  生成显示的日期  `dates`。
    - `getMonths(displayMonths, dates, props, dateLib)`  生成显示的月份  `months`。
    - `getWeeks(months)`  生成显示的周  `weeks`。
 
-5. **生成天数**：
+## 计算天数
 
    - `getDays(months)`  生成显示的天数  `days`。
 
-6. **导航功能**：
+## 导航功能
 
    - `getPreviousMonth(firstMonth, navStart, props, dateLib)`  计算上一个月  `previousMonth`。
    - `getNextMonth(firstMonth, navEnd, props, dateLib)`  计算下一个月  `nextMonth`。
    - `goToMonth(date)`  跳转到指定月份，考虑导航限制。
    - `goToDay(day)`  跳转到指定天数，如果不在日历中则跳转到该天数所在的月份。
 
-7. **返回日历对象**：
+## 返回日历对象
 
    - 返回一个包含所有生成数据和导航方法的日历对象  `calendar`。
-
 
 # 控制流图
 
