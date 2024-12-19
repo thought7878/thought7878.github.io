@@ -1,6 +1,8 @@
 
 
-这段代码定义了一个名为  `getInitialMonth`  的函数，用于*根据传入的  `DayPickerProps`  和  `DateLib`  对象计算并返回一个初始月份的日期*。以下是对这段代码的详细解释：
+这段代码定义了一个名为  `getInitialMonth`  的函数，用于*根据传入的属性  month/defaultMonth/today/numberOfMonths/startMonth/endMonth  和  `DateLib`  对象计算并返回一个初始月份的日期*。
+
+以下是对这段代码的详细解释：
 
 1. **函数签名**：
 
