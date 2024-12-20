@@ -1,6 +1,184 @@
 "react-day-picker": "8.10.1",
 
-# 目录结构
+
+# 工程结构概述
+
+### 1. 根目录
+
+- **`.editorconfig`**: 编辑器配置文件，确保不同编辑器和IDE之间的代码风格一致。
+- **`.eslintrc.cjs`**: ESLint配置文件，用于代码静态检查。
+- **`.git/`**: Git版本控制目录。
+- **`.github/`**: GitHub相关配置和工作流程文件。
+- **`.gitignore`**: 指定Git忽略的文件和目录。
+- **`.npmrc`**: npm配置文件。
+- **`.nvmrc`**: Node.js版本管理器配置文件。
+- **`.prettierrc`**: Prettier配置文件，用于代码格式化。
+- **`.vscode/`**: Visual Studio Code配置目录。
+- **`CHANGELOG.md`**: 项目变更日志。
+- **`CONTRIBUTING.md`**: 项目贡献指南。
+- **`LICENSE`**: 项目许可证。
+- **`README.md`**: 项目说明文档。
+- **`SECURITY.md`**: 项目安全指南。
+
+### 2. `examples/` 目录
+
+- **`AccessibleDatePicker.tsx`**, **`AutoFocus.tsx`**, **`BroadcastCalendar.tsx`**, ...: 各种示例组件，展示了日历组件的不同用法。
+
+### 3. `examples-app/` 目录
+
+- **`tsconfig.node.json`**: TypeScript配置文件，用于Node.js环境。
+- **`package.json`**: 示例应用的配置文件，定义了依赖和脚本。
+
+### 4. `jalali.d.ts` 和 `jalali.js`
+
+- **`jalali.d.ts`**: 定义了Jalali日期库的类型声明。
+- **`jalali.js`**: 可能是Jalali日期库的实现。
+
+### 5. `jest.config.ts`
+
+- **`jest.config.ts`**: Jest测试框架的配置文件。
+
+### 6. `locale.d.ts` 和 `locale.js`
+
+- **`locale.d.ts`**: 定义了本地化相关的类型声明。
+- **`locale.js`**: 可能是本地化相关的实现。
+
+### 7. `package.json`
+
+- **`package.json`**: 项目的配置文件，定义了项目的依赖、脚本等信息。
+
+### 8. `performance-tests/` 目录
+
+- 可能包含性能测试相关的文件和配置。
+
+### 9. `pnpm-workspace.yaml`
+
+- **`pnpm-workspace.yaml`**: pnpm工作区配置文件。
+
+### 10. `react-day-picker.code-workspace`
+
+- **`react-day-picker.code-workspace`**: Visual Studio Code工作区配置文件。
+
+### 11. `scripts/` 目录
+
+- 可能包含项目的脚本文件，用于构建、测试等操作。
+
+### 12. `src/` 目录
+
+- **`helpers/`**: 包含各种辅助函数，用于处理日期计算、格式化、比较等操作。
+- **`classes/`**: 定义了日历组件中使用的类，如 `CalendarDay`, `CalendarMonth`, `CalendarWeek`, `DateLib`。
+- **`utils/`**: 包含一些实用工具函数，用于处理日期范围、修饰符匹配等操作。
+- **`types/`**: 定义了日历组件中使用的类型和接口。
+- **`selection/`**: 处理日历中的选择逻辑，包括单选、多选和范围选择。
+
+### 13. `test/` 目录
+
+- **`jest-custom-matchers.d.ts`**: 定义了自定义的Jest匹配器。
+- **`elements.ts`**: 定义了测试中使用的一些辅助函数。
+
+### 14. `tsconfig-base.json`, `tsconfig-cjs.json`, `tsconfig-docs.json`, `tsconfig-esm.json`, `tsconfig.json`
+
+- 多个TypeScript配置文件，用于不同的编译目标和场景。
+
+### 15. `website/` 目录
+
+- **`versioned_docs/version-8.10.1/development/contributing.mdx`**, **`versioned_docs/version-8.10.1/development/architecture.mdx`**: 项目的贡献指南和架构文档。
+- **`versioned_sidebars/version-8.10.1-sidebars.json`**: 文档网站的侧边栏配置。
+- 可能还包含其他文档和网站相关的文件。
+
+### 总结
+
+这个工程主要是一个日历组件库，提供了丰富的日期处理功能和灵活的配置选项。通过不同的目录和文件，实现了日期计算、格式化、选择逻辑等核心功能，并提供了详细的文档和示例代码，方便用户使用和贡献。
+
+#### 1. `src/helpers` 目录
+
+- **功能**: 包含各种辅助函数，用于处理日期计算、格式化、比较等操作。
+- **作用**: 这些函数为日历组件提供了核心的日期处理逻辑。
+
+##### 文件
+
+- `getWeekdays.test.ts`: 测试 `getWeekdays` 函数，确保在不同配置下返回正确的工作日。
+- `getDays.ts`: 从日历月份中提取所有的日期。
+- `getWeeks.ts`: 从日历月份中提取所有的周。
+- `getMonths.ts`: 根据显示的月份和日期生成日历月份对象。
+
+#### 2. `src/classes` 目录
+
+- **功能**: 定义了日历组件中使用的类，如 `CalendarDay`, `CalendarMonth`, `CalendarWeek`, `DateLib`。
+- **作用**: 这些类用于表示日历中的日期、月份、周等概念，并提供了相关的操作方法。
+
+##### 文件
+
+- `CalendarDay.js`, `CalendarMonth.js`, `CalendarWeek.js`, `DateLib.js`: 定义了上述类的实现。
+
+#### 3. `src/utils` 目录
+
+- **功能**: 包含一些实用工具函数，用于处理日期范围、修饰符匹配等操作。
+- **作用**: 这些函数为日历组件提供了额外的功能支持。
+
+##### 文件
+
+- `addToRange.js`, `dateMatchModifiers.js`, `rangeContainsDayOfWeek.js`, `rangeContainsModifiers.js`, `rangeIncludesDate.js`, `rangeOverlaps.js`, `typeguards.js`: 定义了各种实用工具函数。
+
+#### 4. `src/types` 目录
+
+- **功能**: 定义了日历组件中使用的类型和接口。
+- **作用**: 这些类型和接口用于确保组件的属性和状态的一致性。
+
+##### 文件
+
+- `props.ts`: 定义了各种属性接口，如 `DayPickerProps`, `PropsMultiRequired` 等。
+
+#### 5. `src/selection` 目录
+
+- **功能**: 处理日历中的选择逻辑，包括单选、多选和范围选择。
+- **作用**: 这些文件为日历组件提供了选择功能的实现。
+
+##### 文件
+
+- `useSelection.ts`: 根据传入的属性和日期库，返回对应的选择模式。
+- `useSingle.tsx`, `useMulti.tsx`, `useRange.tsx`: 实现了单选、多选和范围选择的逻辑。
+
+#### 6. `test` 目录
+
+- **功能**: 包含测试相关的文件和配置。
+- **作用**: 确保日历组件的功能正确性和稳定性。
+
+##### 文件
+
+- `jest-custom-matchers.d.ts`: 定义了自定义的Jest匹配器。
+- `elements.ts`: 定义了测试中使用的一些辅助函数。
+
+#### 7. `website` 目录
+
+- **功能**: 包含项目的文档和网站相关的文件。
+- **作用**: 用于生成项目的文档网站，提供给用户查阅。
+
+##### 文件
+
+- `versioned_docs/version-8.10.1/development/contributing.mdx`, `versioned_docs/version-8.10.1/development/architecture.mdx`: 项目的贡献指南和架构文档。
+- `versioned_sidebars/version-8.10.1-sidebars.json`: 文档网站的侧边栏配置。
+
+#### 8. `examples` 目录
+
+- **功能**: 包含各种示例代码，展示了日历组件的不同用法。
+- **作用**: 帮助用户快速上手和理解日历组件的使用。
+
+##### 文件
+
+- `index.ts`: 导出所有示例组件。
+
+#### 9. 根目录文件
+
+- `package.json`: 项目的配置文件，定义了项目的依赖、脚本等信息。
+- `tsconfig-docs.json`: TypeScript配置文件，用于文档生成。
+- `tsconfig.json`: TypeScript配置文件，用于项目编译。
+- `jalali.d.ts`: 定义了Jalali日期库的类型声明。
+- `examples-app/tsconfig.json`, `examples-app/package.json`: 示例应用的配置文件。
+
+### 总结
+
+这个工程主要是一个日历组件库，提供了丰富的日期处理功能和灵活的配置选项。通过不同的目录和文件，实现了日期计算、格式化、选择逻辑等核心功能，并提供了详细的文档和示例代码，方便用户使用和贡献。
 
 这个 TypeScript 文件  `DayPicker.tsx`  是一个 React 组件的实现，用于渲染日期选择器日历。它依赖于多个外部文件和目录，每个文件和目录的作用如下：
 
