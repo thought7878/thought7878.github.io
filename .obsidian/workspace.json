@@ -181,7 +181,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/如何阅读源代码？.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48409a16eec700c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,9 +222,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09e3011ecca2dbc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/methods/重塑自我 ！制定2025年计划！.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -274,7 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 452.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -290,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/如何阅读源代码？.md",
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/如何阅读源代码？.md",
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/methods/如何阅读源代码？.md"
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md"
               }
             }
           }
@@ -354,54 +378,53 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "578f4b8fe68eb837",
+  "active": "48409a16eec700c7",
   "lastOpenFiles": [
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/84c928f4dc8c52f8d56a8b0752cd6868_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/3ce5b1ea6136513bb2b2510570f2e2c8_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/dead035d846fa29afa4a52b1752bb763_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/83e72dbbcaf4660a8bb67fa331e1834d_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/c079ca9ab61a6505e7dc66c4fed441c6_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/62f5ae9f3d4e16dfd184a0b4f0290e74_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/67d1b51c478b3780d2506faa0ba52858_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/methods/如何阅读源代码？.md",
-    "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
-    "_posts/libraries/shadcn/component/react-day-picker/helpers/getMonths().md",
-    "_posts/libraries/shadcn/component/react-day-picker/useCalendar().md",
-    "_posts/libraries/shadcn/component/react-day-picker/helpers/getDisplayMonths().md",
-    "_posts/libraries/shadcn/component/react-day-picker/helpers/getInitialMonth().md",
-    "_posts/libraries/shadcn/component/react-day-picker/helpers/useControlledValue.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/9.套路五：联合分散可简化.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/8.套路四：数组长度做计数.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/6.套路二：重新构造做变换.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/29.加餐：一道字节面试真题.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/28.加餐：JSDoc 真能取代 TypeScript？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/27.加餐：TypeScript 新语法 satisfies：用声明 or 用推导？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/26.加餐：项目中 2 个真实的类型编程案例.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/25.加餐：一道 3 层的 ts 面试题.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/24.加餐：用 Project Reference 优化 tsc 编译性能.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/23.加餐：3 种类型来源和 3 种模块语法.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/22.小册总结.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/21.原理篇：一些特殊情况的说明.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/20.原理篇：如何阅读 TypeScript 源码.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/19.原理篇：实现简易 TypeScript 类型检查 .md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/18.原理篇：编译 ts 代码用 tsc 还是 babel？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/17.原理篇：逆变、协变、双向协变、不变.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/16.新语法 infer extends 是如何简化类型编程的.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/15.类型编程综合实战二.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
+    "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
     "_posts/libraries/shadcn/component/react-day-picker",
     "_posts/libraries/shadcn/component/media",
-    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
-    "_posts/任务记录/2024/12月/18.md",
-    "_posts/任务记录/2025/目标.md",
     "_posts/任务记录/2025",
-    "_posts/engineering/package.json/exports.md",
     "_posts/engineering/package.json",
-    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
-    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/35.安全沙箱：页面和系统之间的隔离墙.md",
-    "_posts/interview/教程/前端面试之道/26.UDP.md",
-    "_posts/interview/教程/前端面试之道/25.监控.md",
-    "_posts/interview/教程/前端面试之道/24.React 常考进阶知识点.md",
-    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/interview/教程/前端面试之道/20.React 和 Vue 两大框架之间的相爱相杀.md",
-    "_posts/interview/教程/前端面试之道/15.安全防范知识点.md",
-    "_posts/interview/教程/前端面试之道/17.性能优化琐碎事.md",
-    "_posts/interview/教程/前端面试之道/18.Webpack 性能优化.md",
-    "_posts/interview/教程/前端面试之道/16.从 V8 中看 JS 性能优化.md",
-    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/34.CSRF攻击：陌生链接不要随便点.md",
-    "_posts/任务记录/2024/11月/27.md",
     "_posts/任务记录/2024/12月",
-    "_posts/browser/安全/中间人攻击.md",
     "_posts/browser/教程",
-    "_posts/browser/安全",
     "_posts/ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas",
-    "_posts/外面的世界",
-    "_posts/browser/渲染",
     "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/d21e05bbee3a28d0364ab88568fefc3f_MD5.gif",
-    "_posts/interview/教程/前端面试之道/media/8f322fb2f14aa82bfc34edb83fe5acf5_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/26618f47731e1b2a67f21484f90c864b_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/a912fdcdee497f9320cd4f7408feee44_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/bb057a4b8789b49dbf7de56096d5aa97_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/59a96b4fc18bd353b9538adfa8c7a15e_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/aa39514ff57e4c21ab1b94924522f004_MD5.png"
+    "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png"
   ]
 }
