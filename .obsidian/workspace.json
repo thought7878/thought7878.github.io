@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/methods/如何阅读源代码？.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/methods/如何阅读源代码？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/methods/如何阅读源代码？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md"
+                "file": "_posts/methods/如何阅读源代码？.md"
               }
             }
           }
@@ -356,8 +356,9 @@
   },
   "active": "578f4b8fe68eb837",
   "lastOpenFiles": [
-    "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+    "_posts/methods/如何阅读源代码？.md",
+    "_posts/libraries/shadcn/component/react-day-picker/react-day-picker.md",
     "_posts/libraries/shadcn/component/react-day-picker/helpers/getMonths().md",
     "_posts/libraries/shadcn/component/react-day-picker/useCalendar().md",
     "_posts/libraries/shadcn/component/react-day-picker/helpers/getDisplayMonths().md",
@@ -387,7 +388,6 @@
     "_posts/任务记录/2024/11月/27.md",
     "_posts/任务记录/2024/12月",
     "_posts/browser/安全/中间人攻击.md",
-    "_posts/interview/教程/前端面试之道/21.Vue 常考基础知识点.md",
     "_posts/browser/教程",
     "_posts/browser/安全",
     "_posts/ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",

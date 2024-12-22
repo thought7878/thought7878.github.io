@@ -109,8 +109,8 @@ const {
 - **输入**：`props`  和  `dateLib`。
 - **输出**：日历数据对象，包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
 
-  - days： 日历中要显示的天的数组，CalendarDay数组，包括上、下个月的天，包括多个月的天
-  - months：月份数组 CalendarMonth\[\]；渲染UI的数据
+  - days： 日历中要显示的天的数组，CalendarDay数组，包括上、下个月的天，包括多个月的天。*只用于获取日期修饰符 useGetModifiers*
+  - months：月份数组 CalendarMonth\[\]；*渲染UI的数据*
   - navStart： 导航起始点，用于确定日历显示的开始月份
   - navEnd： 导航结束点，用于确定日历显示的结束月份
   - previousMonth： 上一个月
