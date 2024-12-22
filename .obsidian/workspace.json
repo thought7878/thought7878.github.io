@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md"
+                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md"
               }
             }
           }
@@ -380,24 +380,28 @@
   },
   "active": "48409a16eec700c7",
   "lastOpenFiles": [
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/84c928f4dc8c52f8d56a8b0752cd6868_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/3ce5b1ea6136513bb2b2510570f2e2c8_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/174f37126adc157f7dfee052023491bf_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e7d8ab52331256d6724651660323f32f_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/8444b598b1592795cfc34ae4d0400dd4_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/51f84a33cf876c3b024dddacc4d52c88_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/c364db011fb493b36cfb7314fb292d28_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/ba2f471309f640de6d8993836f43f78f_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/ec22fcb5162a800abab0b6805b239a2c_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e3efc96d17f395a63370d51daca791a4_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/9d36832197d9c27365b6f269e2adfb37_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/cb81a7d542442c991e474cfa06643faa_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e67ff0a59da18c54377900a143fc6022_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/dead035d846fa29afa4a52b1752bb763_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/83e72dbbcaf4660a8bb67fa331e1834d_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/c079ca9ab61a6505e7dc66c4fed441c6_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/62f5ae9f3d4e16dfd184a0b4f0290e74_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/67d1b51c478b3780d2506faa0ba52858_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/9.套路五：联合分散可简化.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/8.套路四：数组长度做计数.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/6.套路二：重新构造做变换.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/29.加餐：一道字节面试真题.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/28.加餐：JSDoc 真能取代 TypeScript？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/27.加餐：TypeScript 新语法 satisfies：用声明 or 用推导？.md",
@@ -422,9 +426,6 @@
     "_posts/engineering/package.json",
     "_posts/任务记录/2024/12月",
     "_posts/browser/教程",
-    "_posts/ablog/media/848a3aa70a92aa230fc8abdc93f05574_MD5.png",
-    "_posts/browser/渲染/浏览器的渲染流程.canvas",
-    "_posts/interview/教程/前端面试之道/media/5b047061ea43a836cd217e1708bf4243_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/9a53da4d34683f56a3266f2aa9515cfd_MD5.png"
+    "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
