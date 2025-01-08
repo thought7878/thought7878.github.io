@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 34.59885386819484,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -188,12 +189,12 @@
             }
           },
           {
-            "id": "48409a16eec700c7",
+            "id": "76af7328232ea21c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
+                "file": "_posts/base/js/知识点总结/promise.md",
                 "mode": "source",
                 "source": false
               }
@@ -237,6 +238,23 @@
           }
         ],
         "currentTab": 15
+      },
+      {
+        "id": "02ffe98eeb69908c",
+        "type": "tabs",
+        "dimension": 65.40114613180515,
+        "children": [
+          {
+            "id": "35b771fa656c73ca",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1bD421V756/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,7 +316,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -314,7 +333,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +349,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -353,9 +370,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -363,7 +378,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -378,26 +394,29 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "48409a16eec700c7",
+  "active": "35b771fa656c73ca",
   "lastOpenFiles": [
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/174f37126adc157f7dfee052023491bf_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e7d8ab52331256d6724651660323f32f_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/8444b598b1592795cfc34ae4d0400dd4_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/51f84a33cf876c3b024dddacc4d52c88_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/c364db011fb493b36cfb7314fb292d28_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/ba2f471309f640de6d8993836f43f78f_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/ec22fcb5162a800abab0b6805b239a2c_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e3efc96d17f395a63370d51daca791a4_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/9d36832197d9c27365b6f269e2adfb37_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/cb81a7d542442c991e474cfa06643faa_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/e67ff0a59da18c54377900a143fc6022_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
+    "_posts/base/js/知识点总结/promise.md",
+    "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
+    "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250108102446.png",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/base/js/知识点总结/闭包.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/16.新语法 infer extends 是如何简化类型编程的.md",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/53b5c465569f0da100801ef74e040dec_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/238f29ed519f4d735b21ee454d44ac4e_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/824a56d85eaf5ce3e804c9d9ab908e46_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/d83f7b54c7e963f271ab5688e01c06a5_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/2dbb3d16970eafd9184e04b2beec7ee1_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/cb15ff7ce6401653dba16958b9b6c4cc_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/667a2c010f879d079402774462266195_MD5.png",
+    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/9.套路五：联合分散可简化.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/8.套路四：数组长度做计数.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
@@ -413,10 +432,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/21.原理篇：一些特殊情况的说明.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/20.原理篇：如何阅读 TypeScript 源码.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/19.原理篇：实现简易 TypeScript 类型检查 .md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/18.原理篇：编译 ts 代码用 tsc 还是 babel？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/17.原理篇：逆变、协变、双向协变、不变.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/16.新语法 infer extends 是如何简化类型编程的.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/15.类型编程综合实战二.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
