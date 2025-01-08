@@ -6,7 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 34.59885386819484,
+        "dimension": 49.14040114613181,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
       {
         "id": "02ffe98eeb69908c",
         "type": "tabs",
-        "dimension": 65.40114613180515,
+        "dimension": 50.85959885386819,
         "children": [
           {
             "id": "35b771fa656c73ca",
@@ -333,6 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,6 +350,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -370,7 +372,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/base/js/知识点总结/promise/promise.md"
+              }
             }
           }
         ],
@@ -378,8 +382,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -394,9 +397,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "35b771fa656c73ca",
+  "active": "76af7328232ea21c",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/promise.md",
+    "_posts/base/js/知识点总结/promise/then().md",
+    "_posts/base/js/知识点总结/promise/promise.md",
+    "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250108102446.png",
@@ -440,7 +445,6 @@
     "_posts/任务记录/2025",
     "_posts/engineering/package.json",
     "_posts/任务记录/2024/12月",
-    "_posts/browser/教程",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
