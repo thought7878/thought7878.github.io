@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/catch().md",
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,8 +310,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -327,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/catch().md",
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/catch().md",
+                "file": "_posts/base/js/知识点总结/promise/promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -367,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/catch().md"
+                "file": "_posts/base/js/知识点总结/promise/promise.md"
               }
             }
           }
@@ -393,9 +392,10 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/promise.md",
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/base/js/知识点总结/promise/catch().md",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
@@ -430,7 +430,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/24.加餐：用 Project Reference 优化 tsc 编译性能.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/23.加餐：3 种类型来源和 3 种模块语法.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/22.小册总结.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/21.原理篇：一些特殊情况的说明.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
