@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
                 "mode": "source",
                 "source": false
               }
@@ -326,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md"
+                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md"
               }
             }
           }
@@ -392,11 +392,14 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/promise/Promise.all().md",
+    "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
+    "_posts/ablog/手写一个Promise.md",
+    "_posts/base/js/知识点总结/promise/overview.md",
+    "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
-    "_posts/base/js/知识点总结/promise/promise.md",
     "_posts/base/js/知识点总结/promise/catch().md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
@@ -427,9 +430,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/27.加餐：TypeScript 新语法 satisfies：用声明 or 用推导？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/26.加餐：项目中 2 个真实的类型编程案例.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/25.加餐：一道 3 层的 ts 面试题.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/24.加餐：用 Project Reference 优化 tsc 编译性能.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/23.加餐：3 种类型来源和 3 种模块语法.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/22.小册总结.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",

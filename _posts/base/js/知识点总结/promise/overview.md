@@ -92,6 +92,7 @@ Promise 有三种状态，分别是`pending`（进行中）、`fulfilled`（已�
   ```
   
 ### catch 方法
+参考 [[catch()]]
   
 **用于处理 Promise 失败（`rejected`）的情况**。它接受一个函数作为参数，这个函数会在 Promise 状态变为`rejected`时被调用，并且会传入 Promise 失败的原因（通常是一个错误对象）。例如：
   ```javascript
@@ -106,6 +107,7 @@ Promise 有三种状态，分别是`pending`（进行中）、`fulfilled`（已�
   ```
 
 ### finally 方法
+参考 [[finally()]]
 
 **这个方法会在 Promise 完成（无论是`fulfilled`还是`rejected`）后执行**。例如：
   ```javascript
