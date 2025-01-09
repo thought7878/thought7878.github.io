@@ -241,7 +241,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
+                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
                 "mode": "source",
                 "source": false
               }
@@ -326,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
+                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
+                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/Promise.allSettled().md"
+                "file": "_posts/browser/Web API/Window/queueMicrotask().md"
               }
             }
           }
@@ -392,9 +392,14 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/browser/Web API/Window",
+    "_posts/ablog/手写一个Promise.md",
+    "_posts/browser/Web API/Window/queueMicrotask().md",
+    "_posts/browser/Web API",
+    "_posts/base/js/知识点总结/promise/Promise.race().md",
+    "_posts/base/js/知识点总结/promise/Promise.any().md",
     "_posts/base/js/知识点总结/promise/Promise.all().md",
     "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
-    "_posts/ablog/手写一个Promise.md",
     "_posts/base/js/知识点总结/promise/overview.md",
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
@@ -426,10 +431,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/6.套路二：重新构造做变换.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/29.加餐：一道字节面试真题.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/28.加餐：JSDoc 真能取代 TypeScript？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/27.加餐：TypeScript 新语法 satisfies：用声明 or 用推导？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/26.加餐：项目中 2 个真实的类型编程案例.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/25.加餐：一道 3 层的 ts 面试题.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
@@ -437,7 +438,6 @@
     "_posts/libraries/shadcn/component/media",
     "_posts/任务记录/2025",
     "_posts/engineering/package.json",
-    "_posts/任务记录/2024/12月",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
