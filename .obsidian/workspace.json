@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 49.14040114613181,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -194,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/catch().md",
                 "mode": "source",
                 "source": false
               }
@@ -235,26 +234,21 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 15
-      },
-      {
-        "id": "02ffe98eeb69908c",
-        "type": "tabs",
-        "dimension": 50.85959885386819,
-        "children": [
+          },
           {
-            "id": "35b771fa656c73ca",
+            "id": "12b7224c299f1dff",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1bD421V756/"
+                "file": "_posts/base/js/知识点总结/promise/catch().md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -333,7 +327,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/catch().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -350,7 +344,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md",
+                "file": "_posts/base/js/知识点总结/promise/catch().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -373,7 +367,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/promise/promise.md"
+                "file": "_posts/base/js/知识点总结/promise/catch().md"
               }
             }
           }
@@ -397,10 +391,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "76af7328232ea21c",
+  "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/promise.md",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
+    "_posts/base/js/知识点总结/promise/catch().md",
+    "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
@@ -435,8 +431,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/23.加餐：3 种类型来源和 3 种模块语法.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/22.小册总结.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/21.原理篇：一些特殊情况的说明.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/20.原理篇：如何阅读 TypeScript 源码.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/19.原理篇：实现简易 TypeScript 类型检查 .md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
