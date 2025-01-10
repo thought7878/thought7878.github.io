@@ -276,6 +276,7 @@ fetch('/api/get-data')
     })
   }
 ```
+> 参考 [[queueMicrotask()]]
 
 测试：
 

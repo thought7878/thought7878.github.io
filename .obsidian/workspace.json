@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "9f8dc32f4176e502",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/webpack/应用性能/代码分割.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4d3fede7dbf32fe9",
             "type": "leaf",
             "state": {
@@ -110,30 +98,6 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/engineering/webpack/构建性能/实际案例.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4df386a8c332a36f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/webpack/Webpack的构建流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1ed4b9a2c01c1f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/知识点总结/深拷贝.md",
                 "mode": "source",
                 "source": false
               }
@@ -241,14 +205,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -326,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/Web API/Window/queueMicrotask().md",
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -366,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/Web API/Window/queueMicrotask().md"
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md"
               }
             }
           }
@@ -392,15 +356,21 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/browser/Web API/Window",
+    "_posts/base/js/知识点总结/未命名.md",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/media/b8636af185b43b323ded5e088659bb02_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250109221156.png",
+    "_posts/base/js/知识点总结/media/f95bce1abddc3ba4a993ddf3915e8836_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250109220758.png",
+    "_posts/base/js/知识点总结/promise/overview.md",
     "_posts/ablog/手写一个Promise.md",
     "_posts/browser/Web API/Window/queueMicrotask().md",
+    "_posts/browser/Web API/Window",
     "_posts/browser/Web API",
     "_posts/base/js/知识点总结/promise/Promise.race().md",
     "_posts/base/js/知识点总结/promise/Promise.any().md",
     "_posts/base/js/知识点总结/promise/Promise.all().md",
     "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
-    "_posts/base/js/知识点总结/promise/overview.md",
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/catch().md",
@@ -417,10 +387,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/53b5c465569f0da100801ef74e040dec_MD5.png",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/238f29ed519f4d735b21ee454d44ac4e_MD5.png",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/824a56d85eaf5ce3e804c9d9ab908e46_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/d83f7b54c7e963f271ab5688e01c06a5_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/2dbb3d16970eafd9184e04b2beec7ee1_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/cb15ff7ce6401653dba16958b9b6c4cc_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/667a2c010f879d079402774462266195_MD5.png",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
@@ -430,14 +396,12 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/8.套路四：数组长度做计数.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/6.套路二：重新构造做变换.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/29.加餐：一道字节面试真题.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
     "_posts/libraries/shadcn/component/react-day-picker",
     "_posts/libraries/shadcn/component/media",
     "_posts/任务记录/2025",
-    "_posts/engineering/package.json",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
