@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 36.74785100286533,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/要整理的.md",
+                "file": "_posts/methods/overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,6 +213,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "8c3a3f545801efeb",
+        "type": "tabs",
+        "dimension": 63.25214899713467,
+        "children": [
+          {
+            "id": "e5d96e077e4788ac",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Ww6VYnEdb/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -289,7 +308,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/要整理的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -306,7 +324,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/要整理的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,9 +345,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/要整理的.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -354,12 +369,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a04f886b7749f91e",
+  "active": "e5d96e077e4788ac",
   "lastOpenFiles": [
+    "_posts/methods/overview.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
+    "_posts/base/fullstack-overview.md",
+    "_posts/base/fullstack-overview copy.md",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/要整理的.md",
     "_posts/methods/如何学习和记忆：字幕.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/世界趋势/世界趋势记录.md",
     "_posts/世界趋势",
     "未命名",
@@ -380,7 +399,6 @@
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/catch().md",
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
@@ -394,9 +412,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/238f29ed519f4d735b21ee454d44ac4e_MD5.png",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/824a56d85eaf5ce3e804c9d9ab908e46_MD5.png",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/2.为什么说 TypeScript 的火爆是必然？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",

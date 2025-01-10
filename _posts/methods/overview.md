@@ -1,0 +1,25 @@
+
+# [潜意识、程序---七岁看老](https://www.bilibili.com/video/BV1Ww6VYnEdb/?spm_id_from=333.788.top_right_bar_window_default_collection.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
+- 人生的95%在重复七岁之前的程序
+- [01:34](https://www.bilibili.com/video/BV1Ww6VYnEdb/?t=94.204958#t=01:34.20) 为什么穷人保持贫穷？富人保持富有？
+	- 穷人有这样的信念（在7岁之前观察学习到的程序）：你不可能成功；生活是一个斗争；事情很艰难。如果你得到了这样的程序，那么在一天的95%的时间里，你将会自我破坏。
+- [02:20](https://www.bilibili.com/video/BV1Ww6VYnEdb/?t=140.653217#t=02:20.65) 潜意识
+	- 95%的生活，来自潜意识中的那些程序
+	- 每天，只有大约5%的生活是你在使用意识，而这具有创造性。即使你认为你在过自己的生活。你看不到这个事实。
+
+- [03:00](https://www.bilibili.com/video/BV1Ww6VYnEdb/?t=180.020458#t=03:00.02) **解决办法：** 第一步，认识到你的困难所在
+	- 你不必尝试思考发生了什么。观察你的生活，观察进入你生活的你喜欢的事情。这些事情进入你的生活，是因为你有一个支持它们的程序。
+	- 任何你挣扎的努力去实现的事情，为什么你这么努力？
+		- 不可避免地，你有一个不支持你的潜意识中的程序，你正在试图超越、否决那个程序。这个程序不支持你所追求的目标
+- [03:39](https://www.bilibili.com/video/BV1Ww6VYnEdb/?t=219.134024#t=03:39.13) **解决办法：** 第二步，把新程序放入你的潜意识
+
+
+
+# 【TED科普】扼杀你动力的7个坏习惯！
+https://www.youtube.com/watch?v=J8w9ZirH5yo&ab_channel=TopThink
+
+https://www.bilibili.com/video/BV1yr421T7cv/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0
+
+七个坏习惯，这些习惯会扼杀你的动力。第一个是跳过必要的研磨工作，忽略失败教给你的教训。第二个是缺乏学习，停止探索和挑战自己的思想。第三个是毫无结果的比较，拿自己和别人作比较会破坏内在的自信。第四个是当事情不按你的方式发展时立即放弃，应该从失败中吸取教训并继续努力。第五个是分散注意力，避免干扰。
+
+追逐梦想的过程需要耐心和基础的打磨。
