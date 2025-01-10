@@ -211,8 +211,7 @@
               }
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -290,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/要整理的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +306,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/要整理的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +329,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md"
+                "file": "_posts/要整理的.md"
               }
             }
           }
@@ -339,7 +338,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,10 +354,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12b7224c299f1dff",
+  "active": "a04f886b7749f91e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/未命名.md",
+    "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
+    "_posts/要整理的.md",
+    "_posts/methods/如何学习和记忆：字幕.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/世界趋势/世界趋势记录.md",
+    "_posts/世界趋势",
+    "未命名",
+    "_posts/base/js/知识点总结/未命名.md",
     "_posts/base/js/知识点总结/media/b8636af185b43b323ded5e088659bb02_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250109221156.png",
     "_posts/base/js/知识点总结/media/f95bce1abddc3ba4a993ddf3915e8836_MD5.jpeg",
@@ -392,16 +398,10 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/3.TypeScript 类型编程为什么被叫做类型体操？.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/1.如何阅读本小册.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/9.套路五：联合分散可简化.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/8.套路四：数组长度做计数.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/7.套路三：递归复用做循环.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/6.套路二：重新构造做变换.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
     "_posts/typescript/教程",
     "_posts/libraries/shadcn/component/react-day-picker/helpers",
     "_posts/libraries/shadcn/component/react-day-picker",
-    "_posts/libraries/shadcn/component/media",
-    "_posts/任务记录/2025",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

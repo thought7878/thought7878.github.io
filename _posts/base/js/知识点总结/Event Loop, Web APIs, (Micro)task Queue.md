@@ -30,7 +30,8 @@
 
 
 ## Event Loop
-
+Event Loop 只是 JavaScript 运行时中的一个很小的组件！参考上图。
+`Event Loop`在处理异步任务中发挥着重要作用！这很重要，因为 JavaScript 是单线程的 - 我们只使用单个`Call Stack`
 
 ## Microtask Queue
 
