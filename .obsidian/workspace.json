@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 36.74785100286533,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -212,24 +211,8 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "8c3a3f545801efeb",
-        "type": "tabs",
-        "dimension": 63.25214899713467,
-        "children": [
-          {
-            "id": "e5d96e077e4788ac",
-            "type": "leaf",
-            "state": {
-              "type": "mx-webpage",
-              "state": {
-                "source": "https://www.bilibili.com/video/BV1Ww6VYnEdb/"
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -308,6 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -324,6 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +330,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md"
+              }
             }
           }
         ],
@@ -353,8 +340,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -369,7 +355,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e5d96e077e4788ac",
+  "active": "12b7224c299f1dff",
   "lastOpenFiles": [
     "_posts/methods/overview.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
