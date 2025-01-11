@@ -5,4 +5,4 @@ _site
 Gemfile.lock
 .DS_Store
 # 忽略所有视频文件
-*.mp4
+*/interview/**/*.mp4

@@ -274,8 +274,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -357,6 +356,16 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.45.37_AM_zvseeb.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.38.48_AM_zah8j0.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.26.32_AM_kh2e27.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_10.16.27_AM_hm4xf8.mp4",
+    "_posts/base/js/知识点总结/media/80916770b52509fd3eb6392d64d5c9d3_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250111143043.png",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-02_at_10.16.00_PM_fszooa.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_8.52.24_AM_icxgdw.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_8.53.49_AM_jjfaqa.mp4",
+    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_9.42.46_AM_epb9jc.mp4",
     "_posts/methods/overview.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/base/fullstack-overview.md",
@@ -377,7 +386,6 @@
     "_posts/ablog/手写一个Promise.md",
     "_posts/browser/Web API/Window/queueMicrotask().md",
     "_posts/browser/Web API/Window",
-    "_posts/browser/Web API",
     "_posts/base/js/知识点总结/promise/Promise.race().md",
     "_posts/base/js/知识点总结/promise/Promise.any().md",
     "_posts/base/js/知识点总结/promise/Promise.all().md",
@@ -385,7 +393,6 @@
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/catch().md",
-    "_posts/base/js/知识点总结/promise",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250108102446.png",
@@ -395,14 +402,6 @@
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/16.新语法 infer extends 是如何简化类型编程的.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/53b5c465569f0da100801ef74e040dec_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/238f29ed519f4d735b21ee454d44ac4e_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/824a56d85eaf5ce3e804c9d9ab908e46_MD5.png",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/4.TypeScript 类型系统支持哪些类型和类型运算？.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍",
-    "_posts/typescript/教程",
-    "_posts/libraries/shadcn/component/react-day-picker/helpers",
-    "_posts/libraries/shadcn/component/react-day-picker",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
