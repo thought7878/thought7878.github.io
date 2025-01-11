@@ -87,13 +87,53 @@ fetch("https://website.com/api/posts");
 
 ![[Screen_Recording_2024-03-31_at_11.45.37_AM_zvseeb.mp4]]
 
-但是， `successCallback`不能简单地推送到`Call Stack`上，因为这样做可能会破坏已经运行的任务，从而导致不可预测的行为和潜在的冲突。JavaScript 引擎一次处理一个任务，这确保了可预测且有组织的执行环境。
+*但是， `successCallback`不能简单地推送到`Call Stack`上，因为这样做可能会破坏已经运行的任务，从而导致不可预测的行为和潜在的冲突。* JavaScript 引擎一次处理一个任务，这确保了可预测且有组织的执行环境。
 
 ## Task Queue
 
+上面的`successCallback`被添加到`Task Queue` （因此​​也称为`Callback Queue` ）。 **`Task Queue`保存等待在将来某个时刻执行的 Web API 回调和事件处理程序**。
+![[Screen_Recording_2024-03-31_at_1.53.30_PM_s0nwe6.mp4]]
+
+*现在`successCallback`位于任务队列中......但是它什么时候执行？*
+
 ## Event Loop
 
-Event Loop 只是 `JavaScript 运行时`中的一个很小的组件！参考上图。
-`Event Loop`在处理异步任务中发挥着重要作用！因为，异步任务是基于 Event Loop 实现的。这很重要，因为 JavaScript 是单线程的 - 我们只使用单个`Call Stack`。
+**`Event Loop`的责任：**
+- *不断检查`Call Stack`是否为空*。
+- 每当`Call Stack`为空（意味着当前没有正在运行的任务）时，它就会*从`Task Queue`中获取第一个可用任务，并将其移至`Call Stack` ，并在其中执行回调*。
+![[Screen_Recording_2024-04-01_at_9.05.24_AM_gzb12b.mp4]]
 
+Event Loop 只是 `JavaScript 运行时`中的一个很小的组件！参考上图。
+*`Event Loop`在处理异步任务中发挥着重要作用！因为，异步任务是基于 Event Loop 实现的。这很重要，因为 JavaScript 是单线程的 - 我们只使用单个`Call Stack`。*
+
+### 例子：setTimeout
+
+另一个流行的基于回调的 Web API 是`setTimeout` 。每当我们调用`setTimeout`时，函数调用都会被推送到`Call Stack`上，该调用堆栈仅*负责启动具有指定延迟的计时器。在后台，浏览器会跟踪计时器*。
+![[Screen_Recording_2024-03-31_at_8.24.17_PM_cwetjv.mp4]]
+一旦计时器到期，计时器的`callback`就会在`Task Queue`中排队！重要的是要记住，延迟指定了回调被推送到`Task Queue` 而不是`Call Stack`之后的时间。这意味着*实际的执行延迟可能比传递给`setTimeout`指定延迟长*！如果`Call Stack`仍然忙于处理其他任务，则回调必须在`Task Queue`中等待。
+
+到目前为止，我们已经了解了如何处理基于回调的 API。然而，大多数现代 Web API 使用**基于 Promise** 的方法，这些方法的处理方式有所不同。
 ## Microtask Queue
+大多数现代 `Web APIs` 返回一个promise，通过链式 promise 的处理程序（或使用`await` ），而不是使用回调，来处理返回的数据。
+```js
+fetch("...")
+  .then(res => ...)
+  .catch(err => (...)
+```
+
+由于使用 Promise 处理数据，因此这些任务会使用 `Microtask Queue` ！
+`Microtask Queue`是运行时中**比`Task Queue`优先级更高的**队列。
+
+**如下这些函数会被放入 Microtask Queue：**
+- `then(callback)` 、 `catch(callback)`和`finally(callback)`
+- 在`await`之后执行的`async`函数
+- `MutationObserver`回调函数
+- `queueMicrotask`回调函数
+
+### 微任务与宏任务的优先级、执行顺序
+
+当`Call Stack`为空时， `Event Loop`首先处理`Microtask Queue`中的所有微任务，然后才是`Task Queue` 中的一个宏任务。
+完成`Task Queue`中的单个任务后，并且`Call Stack`为空， `Event Loop`会再次处理`Microtask Queue`中的所有微任务，然后再继续执行`Task Queue`中的下一个宏任务。
+
+**这可确保立即处理与刚刚完成的宏任务相关的微任务，从而保持程序的响应能力和一致性**。
+
