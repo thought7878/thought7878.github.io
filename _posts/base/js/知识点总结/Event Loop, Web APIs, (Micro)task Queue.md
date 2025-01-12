@@ -137,3 +137,70 @@ fetch("...")
 
 **这可确保立即处理与刚刚完成的宏任务相关的微任务，从而保持程序的响应能力和一致性**。
 
+### 例子：fetch
+一个流行的基于 Promise 的 API 是`fetch` 。当我们调用`fetch`时，它的执行上下文被添加到`Call Stack`中。
+调用`fetch`在内存中创建一个Promise 对象，默认情况下该对象处于`"pending"` 。发起网络请求后， `fetch`函数调用将从`Call Stack`中弹出。
+![[Screen_Recording_2024-04-01_at_2.34.43_PM_hn7zy3.mp4]]
+引擎遇到`then`处理程序，该处理程序创建存储在`PromiseFulfillReactions`中的**PromiseReaction**记录。
+![[Screen_Recording_2024-04-01_at_2.35.23_PM_fhrvwh.mp4]]
+接下来， `console.log`被推送到`Call Stack` ，并将`End of script`记录到控制台。在这种情况下，网络请求仍然处于待处理状态。
+![[Screen_Recording_2024-04-01_at_2.38.37_PM_belndv.mp4]]
+当服务器最终返回数据时， `[[PromiseStatus]]`设置为`"fulfilled"` ， `[[PromiseResult]]`设置为`Response`对象。当 Promise 解析时， **PromiseReaction**被推送到`Microtask Queue`上。
+当`Call Stack`为空时， `Event Loop`将回调从`Microtask Queue`移动到`Call Stack` ，执行它，输出`Response`对象。
+![[Screen_Recording_2024-04-01_at_2.39.20_PM_lhccgg.mp4]]
+
+## Promise化基于回调的Web API
+为了增强可读性并管理基于回调的 Web API 中的异步操作流程，我们可以将它们包装在 Promise 中。
+例如，我们可以将 Geolocation API 的基于回调的`getCurrentPosition`方法包装在`Promise`构造函数中。
+```js
+function getCurrentPosition() {
+  return new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(resolve, reject);
+  });
+}
+```
+这充分利用了 Promise 的全部功能，例如更好的可读性和`async` / `await`语法的使用。
+```js
+async function fetchAndLogCurrentPosition() {
+  try {
+    const position = await getCurrentPosition();
+    console.log(position);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// function fetchAndLogCurrentPosition() {
+//   getCurrentPosition()
+//     .then((position) => console.log(position))
+//     .catch((error) => console.error(error));
+// }
+```
+
+我们甚至可以使用`setTimeout`创建一个基于 Promise 的计时器来推迟代码块的执行，直到计时器到期：
+```js
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+async function doStuff() {
+  // Perform tasks...
+  await delay(5000);
+  // Perform the rest after 5 seconds
+}
+```
+
+
+## 总结
+了解`Event Loop` 、 `Task Queue`和`Microtask Queue`如何协同工作对于掌握异步、非阻塞 JavaScript 非常重要。使 JavaScript 能够在单线程环境中处理复杂的异步行为。
+
+*所有 Web API 都是异步处理的吗？*
+不是，只是启动异步操作的那些API。其他方法（例如`document.getElementById()`或`localStorage.setItem()`是同步处理的。
+
+*总结上面的内容：*
+- JavaScript 是单线程的，这意味着它一次只能处理一项任务。
+- `Web APIs`用于与浏览器的功能进行交互。其中一些 API 允许我们在后台启动异步任务。
+- 启动异步任务的函数调用被添加到`Call Stack`中，但这只是将其交给浏览器。实际的异步任务在后台处理，并且启动的函数不会保留在`Call Stack`上。
+- 基于回调的`Web APIs`使用`Task Queue`，在异步任务完成后，将回调排入Task Queue。
+- `Microtask Queue`由 Promise 处理程序、 `await`之后的`async`函数、 `MutationObserver`回调和`queueMicrotask`回调使用。该队列的优先级高于`Task Queue` 。
+- 当`Call Stack`为空时， `Event Loop`首先从`Microtask Queue`中获取任务，直到该队列完全为空。然后，它获取`Task Queue` ，将第一个可用任务移至`Call Stack` 。处理完第一个可用任务后，它会通过再次检查`Microtask Queue`来“重新开始”。
