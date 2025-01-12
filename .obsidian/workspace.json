@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md"
+                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md"
               }
             }
           }
@@ -350,12 +350,25 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg",
+    "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/e52c5fb299dc374f7df949d12afccf97_MD5.jpeg",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235726.png",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235648.png",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235603.png",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235507.png",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112233319.png",
+    "_posts/base/js/Test Your JavaScript Knowledge/media",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/media/9fbfcd816d6ebd7533103be0699ddba8_MD5.jpeg",
+    "_posts/base/js/Test Your JavaScript Knowledge",
+    "_posts/base/js/知识点总结/media/Pasted image 20250112233124.png",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.39.20_PM_lhccgg.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.38.37_PM_belndv.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.35.23_PM_fhrvwh.mp4",
@@ -364,25 +377,16 @@
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_9.05.24_AM_gzb12b.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_1.53.30_PM_s0nwe6.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.45.37_AM_zvseeb.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.38.48_AM_zah8j0.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.26.32_AM_kh2e27.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_10.16.27_AM_hm4xf8.mp4",
     "_posts/base/js/知识点总结/media/80916770b52509fd3eb6392d64d5c9d3_MD5.jpeg",
-    "_posts/base/js/知识点总结/media/Pasted image 20250111143043.png",
     "_posts/methods/overview.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/base/fullstack-overview.md",
     "_posts/base/fullstack-overview copy.md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/要整理的.md",
     "_posts/methods/如何学习和记忆：字幕.md",
     "_posts/世界趋势/世界趋势记录.md",
     "_posts/base/js/知识点总结/未命名.md",
-    "_posts/base/js/知识点总结/media/b8636af185b43b323ded5e088659bb02_MD5.jpeg",
-    "_posts/base/js/知识点总结/media/Pasted image 20250109221156.png",
-    "_posts/base/js/知识点总结/media/f95bce1abddc3ba4a993ddf3915e8836_MD5.jpeg",
-    "_posts/base/js/知识点总结/media/Pasted image 20250109220758.png",
     "_posts/base/js/知识点总结/promise/overview.md",
     "_posts/ablog/手写一个Promise.md",
     "_posts/browser/Web API/Window/queueMicrotask().md",
@@ -393,15 +397,9 @@
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/catch().md",
-    "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
-    "_posts/base/js/知识点总结/media/d98f4eb9c4868a14f459a84b7d6582a1_MD5.jpeg",
-    "_posts/base/js/知识点总结/media/Pasted image 20250108102446.png",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/闭包.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/16.新语法 infer extends 是如何简化类型编程的.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/media/53b5c465569f0da100801ef74e040dec_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

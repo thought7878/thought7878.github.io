@@ -30,11 +30,12 @@
 			- `OuterEnv`：保存/指向外部的声明该函数的environment record，函数的Environment属性
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
-	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**；函数的两个属性：`Environment`/`Call`。Environment指向声明该函数的environment record；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
+	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**：
+		- 函数的两个属性：`Environment`/`Call`。*Environment指向声明该函数的environment record*；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
 	- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **函数的execute阶段**：
 		- [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的Function Execution Context  
-		- [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、函数、 parameters 参数
-			- `OuterEnv`：指向Function Object的Environment属性，即外部的声明该函数的environment record
+		- [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、声明的函数、 parameters 参数
+			- `OuterEnv`：指向Function Object的Environment属性，即外部的声明该函数的environment record。
 		- [09:00](https://www.bilibili.com/video/BV16w4m197PV/?t=540.666144#t=09:00.67) 变量提升 Hoisting
-		- [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain
+		- [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain。`OuterEnv`是实现作用域链的基础。
 		- [10:27](https://www.bilibili.com/video/BV16w4m197PV/?t=627.557933#t=10:27.56) **闭包** Closures
