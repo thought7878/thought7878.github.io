@@ -225,6 +225,24 @@
           }
         ],
         "currentTab": 17
+      },
+      {
+        "id": "19ad734ae4e08039",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8e83f4b85de8f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -286,7 +304,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -351,7 +370,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -366,7 +386,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b1fd2a3020957bb6",
+  "active": "e8e83f4b85de8f32",
   "lastOpenFiles": [
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
