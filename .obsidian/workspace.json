@@ -210,9 +210,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1fd2a3020957bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -290,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
+                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
+                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Test Your JavaScript Knowledge/未命名.md"
+                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md"
               }
             }
           }
@@ -350,13 +362,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12b7224c299f1dff",
+  "active": "b1fd2a3020957bb6",
   "lastOpenFiles": [
-    "_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/media",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
     "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application",
+    "_posts/interview/教程/Interviewing for Front-End Engineers",
+    "_posts/任务记录/待办.md",
+    "_posts/methods/overview.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg",
     "_posts/base/js/Test Your JavaScript Knowledge/media/e52c5fb299dc374f7df949d12afccf97_MD5.jpeg",
     "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235726.png",
     "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235648.png",
@@ -375,10 +394,7 @@
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.34.43_PM_hn7zy3.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_8.24.17_PM_cwetjv.mp4",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_9.05.24_AM_gzb12b.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_1.53.30_PM_s0nwe6.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-03-31_at_11.45.37_AM_zvseeb.mp4",
     "_posts/base/js/知识点总结/media/80916770b52509fd3eb6392d64d5c9d3_MD5.jpeg",
-    "_posts/methods/overview.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/base/fullstack-overview.md",
     "_posts/base/fullstack-overview copy.md",
@@ -398,8 +414,6 @@
     "_posts/base/js/知识点总结/promise/finally().md",
     "_posts/base/js/知识点总结/promise/catch().md",
     "_posts/base/js/知识点总结/闭包.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/typescript/教程/TypeScript 类型体操通关秘籍/5.套路一：模式匹配做提取.md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
