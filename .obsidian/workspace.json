@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0b35cdc9237ba45b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/2024/12月/18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d21b8903b4bc9463",
             "type": "leaf",
             "state": {
@@ -38,18 +50,6 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/interview/问题/项目经验.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b35cdc9237ba45b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/任务记录/2024/12月/18.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/async & await.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
                 "mode": "source",
                 "source": false
               }
@@ -286,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -302,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/async & await.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -319,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/async & await.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/async & await.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md"
               }
             }
           }
@@ -366,11 +367,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12b7224c299f1dff",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
     "_posts/base/js/知识点总结/async & await.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/未命名.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg",
+    "_posts/任务记录/2024/12月/18.md",
+    "_posts/methods/overview.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call",
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/media/aebfb2cf815564ffafbc95518cecb18e_MD5.jpeg",
@@ -379,8 +384,6 @@
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application",
     "_posts/interview/教程/Interviewing for Front-End Engineers",
     "_posts/任务记录/待办.md",
-    "_posts/methods/overview.md",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg",
     "_posts/base/js/Test Your JavaScript Knowledge/media/e52c5fb299dc374f7df949d12afccf97_MD5.jpeg",
     "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235726.png",
     "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250112235648.png",
@@ -412,8 +415,6 @@
     "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
     "_posts/base/js/知识点总结/promise/then().md",
     "_posts/base/js/知识点总结/promise/finally().md",
-    "_posts/base/js/知识点总结/promise/catch().md",
-    "_posts/base/js/知识点总结/闭包.md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

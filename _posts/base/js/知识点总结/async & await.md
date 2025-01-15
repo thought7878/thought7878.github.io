@@ -11,7 +11,7 @@
      // 函数体
    }
    ```
-   - **返回值**：`async`函数总是返回一个`Promise`对象。如果在函数内部没有显式地返回一个`Promise`，它会自动将返回值包装在一个已解决的`Promise`中。例如：
+   - **返回值**：*`async`函数总是返回一个`Promise`对象*。如果在函数内部没有显式地返回一个`Promise`，它会自动将返回值包装在一个已解决的`Promise`中。例如：
    ```javascript
    async function returnValue() {
      return 42;
@@ -78,3 +78,6 @@
    }
    ```
    - 如果`someAsyncFunction`返回的`Promise`被拒绝，`catch`块会捕获这个异常，并执行相应的错误处理代码。
+
+# 参考资料
+[[20.async、await-使用同步的方式去写异步代码]]
