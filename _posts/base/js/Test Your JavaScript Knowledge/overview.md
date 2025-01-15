@@ -1,10 +1,21 @@
-# Question 2
+[[_posts/base/js/Test Your JavaScript Knowledge/media/cd3d59d272f0a30292f4405bb7446e47_MD5.jpeg|Open: Pasted image 20250115232208.png]]
+![[_posts/base/js/Test Your JavaScript Knowledge/media/cd3d59d272f0a30292f4405bb7446e47_MD5.jpeg]]
+
+# Event Loop
+
+## Question 1
+
+
+
+## Question 2
 
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/e52c5fb299dc374f7df949d12afccf97_MD5.jpeg]]
 
-# Question 3
-参考[[async & await]]
-疑问：这里的 async await 的执行
+## Question 3
+疑问：这里的 async await 的执行？参考 [[async & await]]、[[20.async、await-使用同步的方式去写异步代码]]
+
+async函数也是同步的，直到它命中await关键字，剩下的部分是异步的部分
+
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/924d3c5b20dd24b95f8e7482df9a0739_MD5.jpeg]]
 
 4 5 1 2 8 7 6 3
@@ -115,3 +126,13 @@ console.log(8);
 总结来说，代码的输出顺序将是 `4`、`5`、`1`、`2`、`8`、`7`、`3`、`6`。
 
 请注意，代码中第 3 行存在错误，已在上述解释中指出正确的写法。通过 `async` 和 `await` 以及 `Promise` 对象，结合事件循环的微任务和宏任务队列，实现了复杂的异步执行顺序控制。
+
+## Question 4
+
+![[_posts/base/js/Test Your JavaScript Knowledge/media/231c7007eb5d0baa5222b1012c690f69_MD5.jpeg]]
+
+# Scope & Closure
+
+![[_posts/base/js/知识点总结/media/fdf63eeb9e479fa88d722db0d5e06396_MD5.jpeg]]
+
+![[_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg]]

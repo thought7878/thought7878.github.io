@@ -31,7 +31,10 @@
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**：
-		- 函数的两个属性：`Environment`/`Call`。*Environment指向声明该函数的environment record*；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
+		- 函数的两个属性：`Environment`/`Call`。*Environment指向声明该函数的外部的 Lexical Environment record*；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
+ ![[_posts/base/js/知识点总结/media/fdf63eeb9e479fa88d722db0d5e06396_MD5.jpeg]]
+ ![[_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg]]
+ 
 	- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **函数的execute阶段**：
 		- [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的Function Execution Context  
 		- [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、声明的函数、 parameters 参数
