@@ -224,43 +224,62 @@ _调用函数就会执行`Call`属性，创建新的 Execution Context（包含�
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/c49c825b981e018ad69728808c3e4f57_MD5.jpeg]]
 
 # this keyword
-深入探讨了JavaScript的 “this” 关键字的复杂性，**探索它在各种上下文中的行为，包括全局范围、对象的方法、常规函数、箭头函数、类、严格模式（模块中）和事件处理程序**。 它强调了 “this” 值的确定，突出了传统函数和箭头函数在 “this” 方面的显著差异。 严格模式对 “this” 、事件处理程序中的 “this” 以及类的方法的影响。 
+深入探讨了JavaScript的 “this” 关键字的复杂性，**探索它在各种上下文中的行为，包括全局范围、对象的方法、常规函数、箭头函数、类、严格模式（模块）、事件处理程序、Call Bind Apply**。 它强调了 “this” 值的确定，突出了传统函数和箭头函数在 “this” 方面的显著差异。 严格模式对 “this” 、事件处理程序中的 “this” 以及类的方法的影响。 
 
-**全局作用域**
+- **全局作用域**
 
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/25d2c41b766550da8b3fe59659cf4fc4_MD5.jpeg]]
 
-**常规函数**
+- **常规函数**
 
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/ad75131b58c27ea9553090f51a968097_MD5.jpeg]]
 
-**箭头函数**
+- **箭头函数**
 
 箭头函数没有自己的this，它的this是上一级的词法环境的this，通过 scope chain 获取的。
 
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/034181e60bc0ed14ea6356ddd9100b59_MD5.jpeg]]
 
-**Class**
+- **Class**
 
 [[_posts/base/js/Test Your JavaScript Knowledge/media/d2a0cfd69b3fd5df12f706952b1752d8_MD5.jpeg|Open: Pasted image 20250116144706.png]]
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/d2a0cfd69b3fd5df12f706952b1752d8_MD5.jpeg]]
 
-**严格模式**
+- **严格模式**
 
 ES 模块（ECMAScript Modules）默认处于严格模式
 
+参考 [[严格模式]]
+
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/cf5f805bbc2e8c9af40b4f072b81f473_MD5.jpeg]]
 
+**事件处理函数**
+
+![[_posts/base/js/Test Your JavaScript Knowledge/media/7eb1617534272dcc0c1b4e2653e37501_MD5.jpeg]]
+
+**Call、Bind、Apply**
+[[_posts/base/js/Test Your JavaScript Knowledge/media/f85710e88e4e0e6457ef1665dd2cec01_MD5.jpeg|Open: Pasted image 20250116153846.png]]
+![[_posts/base/js/Test Your JavaScript Knowledge/media/f85710e88e4e0e6457ef1665dd2cec01_MD5.jpeg]]
 
 
 ## Question 11
-
+[[_posts/base/js/Test Your JavaScript Knowledge/media/46004ed50d993c1ecb404727e2e4fbbb_MD5.jpeg|Open: Pasted image 20250116154225.png]]
+![[_posts/base/js/Test Your JavaScript Knowledge/media/46004ed50d993c1ecb404727e2e4fbbb_MD5.jpeg]]
 
 ## Question 12
+疑问：!!!
+
+![[_posts/base/js/Test Your JavaScript Knowledge/media/665fb4a7958c423022f849c97efc9601_MD5.jpeg]]
 
 ## Question 13
+![[_posts/base/js/Test Your JavaScript Knowledge/media/6be4009534ddf039a3490d3f9fd50804_MD5.jpeg]]
 
 ## Question 14
+![[_posts/base/js/Test Your JavaScript Knowledge/media/61edbd9835ace1aa8e7ed6ba2e8a3d6d_MD5.jpeg]]
+
+## Question 15
+[[_posts/base/js/Test Your JavaScript Knowledge/media/21f49219c79c07be1efea9ae6d24f054_MD5.jpeg|Open: Pasted image 20250116155500.png]]
+![[_posts/base/js/Test Your JavaScript Knowledge/media/21f49219c79c07be1efea9ae6d24f054_MD5.jpeg]]
 
 # Classes & Prototypes
 介绍了原型和继承，阐明了它们如何促进*对象实例之间的共享属性和方法*。 
@@ -271,7 +290,7 @@ ES 模块（ECMAScript Modules）默认处于严格模式
 
 对话最后涉及了生成器和迭代器，预示着即将到来的关于这些主题的讨论，同时解决了关于 “这” 的常见误解，并加强了JavaScript中的面向对象编程原则。
 
-## Question 15
+
 
 ## Question 16
 

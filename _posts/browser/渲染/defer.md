@@ -49,3 +49,6 @@
 
 # defer属性和async属性有什么区别？
 
+
+# 参考资料
+[[1-q1-async-defer-execution-order]]

@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/严格模式.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
                 "mode": "source",
                 "source": false
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:XSS",
+                "query": "file:defer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/严格模式.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/严格模式.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/严格模式.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md"
               }
             }
           }
@@ -380,18 +380,24 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/Advanced Web Development Quiz/media/fb265668ba75e550d9fcb5e0065528dd_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116200949.png",
+    "_posts/browser/渲染/async.md",
+    "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
+    "_posts/browser/渲染/defer.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/36302f97e046a8c97ca367b332625139_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116200235.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/95847b2a3f06447ec92c3a88a4c9d23e_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195639.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/b1835baae2b48b0bb09a9e02ebe94e8c_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195426.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/17fb23a7e094a9a8dd9d6009c2953931_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195201.png",
+    "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
+    "_posts/base/js/Advanced Web Development Quiz",
+    "_posts/base/js/Test Your JavaScript Knowledge/media/21f49219c79c07be1efea9ae6d24f054_MD5.jpeg",
     "_posts/base/js/知识点总结/严格模式.md",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/cf5f805bbc2e8c9af40b4f072b81f473_MD5.jpeg",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250116144930.png",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/d2a0cfd69b3fd5df12f706952b1752d8_MD5.jpeg",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250116144706.png",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/034181e60bc0ed14ea6356ddd9100b59_MD5.jpeg",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250116144052.png",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/ad75131b58c27ea9553090f51a968097_MD5.jpeg",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250116143900.png",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/25d2c41b766550da8b3fe59659cf4fc4_MD5.jpeg",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/Pasted image 20250116143647.png",
     "_posts/base/js/知识点总结/函数/函数定义方式.md",
     "_posts/base/js/知识点总结/函数",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
@@ -414,18 +420,12 @@
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/Test Your JavaScript Knowledge",
     "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.39.20_PM_lhccgg.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.38.37_PM_belndv.mp4",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.35.23_PM_fhrvwh.mp4",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/base/fullstack-overview.md",
     "_posts/base/fullstack-overview copy.md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/要整理的.md",
     "_posts/methods/如何学习和记忆：字幕.md",
-    "_posts/世界趋势/世界趋势记录.md",
-    "_posts/base/js/知识点总结/promise/overview.md",
-    "_posts/ablog/手写一个Promise.md",
-    "_posts/browser/Web API/Window/queueMicrotask().md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
