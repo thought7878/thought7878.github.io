@@ -31,7 +31,7 @@
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 	- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的create阶段**：
-		- 函数的两个属性：`Environment`/`Call`。*Environment指向声明该函数的外部的 Lexical Environment record*；Call方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
+		- 函数的两个属性：`Environment`/`Call`。*`Environment`指向声明该函数的外部的 Lexical Environment*；`Call`方法，每当调用该函数时都会调用该方法，来创建自己的Function Execution Context
  ![[_posts/base/js/知识点总结/media/fdf63eeb9e479fa88d722db0d5e06396_MD5.jpeg]]
  ![[_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg]]
  
@@ -42,3 +42,10 @@
 		- [09:00](https://www.bilibili.com/video/BV16w4m197PV/?t=540.666144#t=09:00.67) 变量提升 Hoisting
 		- [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain。`OuterEnv`是实现作用域链的基础。
 		- [10:27](https://www.bilibili.com/video/BV16w4m197PV/?t=627.557933#t=10:27.56) **闭包** Closures
+
+## Execution Context、Lexical Environment、Environment Record、它们之间的关系
+
+
+![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
+
+## Function Object、Call属性、Environment属性

@@ -136,3 +136,55 @@ console.log(8);
 ![[_posts/base/js/知识点总结/media/fdf63eeb9e479fa88d722db0d5e06396_MD5.jpeg]]
 
 ![[_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg]]
+
+## Question 5
+
+![[_posts/base/js/Test Your JavaScript Knowledge/media/461f876a39155470785197f6fd7c156f_MD5.jpeg]]
+
+
+## Question 6
+*调用函数就会执行`Call`属性，创建新的Execution Context（包含新的Lexical Environment）*。注意下面的第三个log的createCounter的重新调用。
+
+![[_posts/base/js/Test Your JavaScript Knowledge/media/011147cfac2cbdb93d96f5fde7f097c8_MD5.jpeg]]
+
+## Question 7
+![[_posts/base/js/Test Your JavaScript Knowledge/media/f01dce938ae444e3214e1cf40eb1225f_MD5.jpeg]]
+
+## Question 8
+
+
+## Question 9
+
+
+## Question 10
+
+
+## Question 11
+
+
+## Question 12
+
+
+## Question 13
+
+
+## Question 14
+
+
+## Question 15
+
+
+## Question 16
+
+## Question 17
+
+
+## Question 18
+
+
+
+
+
+
+
+
