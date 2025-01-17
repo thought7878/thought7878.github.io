@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/7-q7-PerformanceNavigationTiming.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/7-q7-PerformanceNavigationTiming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/7-q7-PerformanceNavigationTiming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/7-q7-PerformanceNavigationTiming.md"
               }
             }
           }
@@ -380,18 +380,21 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/b463e29aeb831189ac1ceba0940b27a1_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150841.png",
     "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md",
+    "_posts/base/js/Advanced Web Development Quiz/7-q7-PerformanceNavigationTiming.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/4ba2fe1c965f964e241bef957ce0eaef_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150432.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/ddb62c6427f69b8f597d8ed8a9d6e95e_MD5.jpeg.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/ddb62c6427f69b8f597d8ed8a9d6e95e_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150217.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/ff2578baaf38c01e3adcbdcf3216863f_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117145743.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/d4984b60ad7c1896cfdd54e6cf89f120_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117145617.png",
+    "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
     "_posts/base/js/Advanced Web Development Quiz/media/41d8a1a044ce5b67e04b4bb8809e05a3_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117133812.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/541846fc552c896fc55a0c01ff050e6e_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117133159.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/ff0341edcc610726f3327c16eb76ff6f_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117132942.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/e15b7fda8331ba510577845ec12e861a_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117132600.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/e20a5ca2c0a38643d2716515a2a5f547_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117105855.png",
     "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/browser/Web API/Window/queueMicrotask().md",
@@ -417,13 +420,10 @@
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
     "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/19.Promise：使用Promise，告别回调函数.md",
     "_posts/任务记录/2024/12月/18.md",
-    "_posts/methods/overview.md",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call",
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/media",
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application",
     "_posts/interview/教程/Interviewing for Front-End Engineers",
-    "_posts/任务记录/待办.md",
     "_posts/base/js/Test Your JavaScript Knowledge/media",
     "_posts/base/js/Test Your JavaScript Knowledge",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
