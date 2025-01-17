@@ -135,8 +135,8 @@ fetch("...")
 **如下这些任务会被放入 Microtask Queue：**
 - `then(callback)` 、 `catch(callback)`和`finally(callback)`
 - 在`await`之后执行的`async`函数
-- `MutationObserver`回调函数
-- `queueMicrotask`回调函数
+- `MutationObserver`回调函数（参考 [[MutationObserver]]）
+- `queueMicrotask`回调函数（参考 [[queueMicrotask()]]）
 
 ### 微任务与宏任务的优先级、执行顺序
 
