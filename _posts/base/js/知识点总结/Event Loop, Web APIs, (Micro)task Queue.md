@@ -23,7 +23,7 @@
 - **定义**：浏览器的 Call Stack（调用栈）是一种*数据结构*，用于**跟踪在程序执行过程中函数的调用顺序**。它采用后进先出（LIFO）的原则，就像一叠盘子，最后放上去的盘子最先被拿下来。
 - **栈帧（Stack Frame）**：当一个函数被调用时，会在调用栈中创建一个栈帧。栈帧包含了函数的*局部变量、参数以及函数执行完后返回的地址*等信息。例如，当调用一个函数`function add(a, b) { return a + b; }`时，在调用栈中创建的栈帧就会存储`a`和`b`的值以及函数返回的位置等。
 
-`Call Stack` 管理我们程序的执行。当我们调用函数时，会创建一个新的*执行上下文*，并将其推送到 `Call Stack` 上。调用堆栈中最顶层的函数被评估，该函数又可以调用另一个函数，依此类推。当函数完成执行时，执行上下文将从 `Call Stack` 中弹出。
+`Call Stack` 管理我们程序的执行。当我们调用函数时，会执行函数的`call属性`，创建一个新的*执行上下文*，并将其推送到 `Call Stack` 上。调用堆栈中最顶层的函数被评估，该函数又可以调用另一个函数，依此类推。当函数完成执行时，执行上下文将从 `Call Stack` 中弹出。
 ![[Screen_Recording_2024-04-01_at_8.52.24_AM_icxgdw.mp4]]
 
 ### JavaScript 是单线程的原因
@@ -50,11 +50,11 @@ fetch("https://website.com/api/posts");
 ### 是什么
 
 `Web APIs` 是**一组与浏览器功能进行交互的接口**。这包括我们在使用 JavaScript 构建时经常使用的功能，例如`文档对象模型 DOM`、 `fetch` 、 `setTimeout` 等等。
+`Web APIs`本质上**充当 JavaScript 运行时和浏览器功能之间的桥梁，使我们能够访问信息并使用超出 JavaScript 自身能力的功能**。
 
 浏览器是一个强大的平台，有大量的功能。其中一些是我们构建应 ​​ 用程序所必需的，例如用于显示内容的*渲染引擎*或用于网络请求的*网络进程*。我们甚至可以访问一些较低级别的功能，例如设备的*传感器*、_摄像头_、*地理定位*等。
 ![[Screen_Recording_2024-03-31_at_9.42.46_AM_epb9jc.mp4]]
 
-`Web APIs`本质上**充当 JavaScript 运行时和浏览器功能之间的桥梁，使我们能够访问信息并使用超出 JavaScript 自身能力的功能**。
 
 ### Web APIs 与非阻塞的关系
 
@@ -92,6 +92,12 @@ fetch("https://website.com/api/posts");
 ## Task Queue
 
 上面的`successCallback`被添加到`Task Queue` （因此​​也称为`Callback Queue` ）。 **`Task Queue`保存等待在将来某个时刻执行的 Web API 回调和事件处理程序**。
+
+**如下这些任务会被放入Task Queue ：**
+- setTimeout与setInterval的callback function
+- UI渲染任务（UI rendering tasks）
+- 用户输入事件（User input events）
+- 网络事件（Network Events）
 ![[Screen_Recording_2024-03-31_at_1.53.30_PM_s0nwe6.mp4]]
 
 *现在`successCallback`位于任务队列中......但是它什么时候执行？*
@@ -113,7 +119,9 @@ Event Loop 只是 `JavaScript 运行时`中的一个很小的组件！参考上�
 一旦计时器到期，计时器的`callback`就会在`Task Queue`中排队！重要的是要记住，延迟指定了回调被推送到`Task Queue` 而不是`Call Stack`之后的时间。这意味着*实际的执行延迟可能比传递给`setTimeout`指定延迟长*！如果`Call Stack`仍然忙于处理其他任务，则回调必须在`Task Queue`中等待。
 
 到目前为止，我们已经了解了如何处理基于回调的 API。然而，大多数现代 Web API 使用**基于 Promise** 的方法，这些方法的处理方式有所不同。
+
 ## Microtask Queue
+
 大多数现代 `Web APIs` 返回一个promise，通过链式 promise 的处理程序（或使用`await` ），而不是使用回调，来处理返回的数据。
 ```js
 fetch("...")
@@ -124,7 +132,7 @@ fetch("...")
 由于使用 Promise 处理数据，因此这些任务会使用 `Microtask Queue` ！
 `Microtask Queue`是运行时中**比`Task Queue`优先级更高的**队列。
 
-**如下这些函数会被放入 Microtask Queue：**
+**如下这些任务会被放入 Microtask Queue：**
 - `then(callback)` 、 `catch(callback)`和`finally(callback)`
 - 在`await`之后执行的`async`函数
 - `MutationObserver`回调函数

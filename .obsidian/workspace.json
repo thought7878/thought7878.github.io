@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
+                "file": "_posts/base/js/知识点总结/不好分类/MutationObserver.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
+                "file": "_posts/base/js/知识点总结/不好分类/MutationObserver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
+                "file": "_posts/base/js/知识点总结/不好分类/MutationObserver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md"
+                "file": "_posts/base/js/知识点总结/不好分类/MutationObserver.md"
               }
             }
           }
@@ -380,23 +380,28 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/不好分类/MutationObserver.md",
+    "_posts/base/js/知识点总结/不好分类",
+    "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/b74a72accf6340a74dfcfd78e1bd9fca_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117094504.png",
+    "_posts/base/js/Advanced Web Development Quiz/3-q3-resolving-domain-requests.md",
+    "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/c2787a51e062660f6f4cf55cf4ea7eb9_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116211705.png",
+    "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
     "_posts/base/js/Advanced Web Development Quiz/media/fb265668ba75e550d9fcb5e0065528dd_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116200949.png",
     "_posts/browser/渲染/async.md",
-    "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
     "_posts/browser/渲染/defer.md",
     "_posts/base/js/Advanced Web Development Quiz/media/36302f97e046a8c97ca367b332625139_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116200235.png",
     "_posts/base/js/Advanced Web Development Quiz/media/95847b2a3f06447ec92c3a88a4c9d23e_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195639.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/b1835baae2b48b0bb09a9e02ebe94e8c_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195426.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/17fb23a7e094a9a8dd9d6009c2953931_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250116195201.png",
     "_posts/base/js/Advanced Web Development Quiz/media",
-    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
     "_posts/base/js/Advanced Web Development Quiz",
-    "_posts/base/js/Test Your JavaScript Knowledge/media/21f49219c79c07be1efea9ae6d24f054_MD5.jpeg",
     "_posts/base/js/知识点总结/严格模式.md",
     "_posts/base/js/知识点总结/函数/函数定义方式.md",
     "_posts/base/js/知识点总结/函数",
@@ -417,15 +422,10 @@
     "_posts/interview/教程/Interviewing for Front-End Engineers",
     "_posts/任务记录/待办.md",
     "_posts/base/js/Test Your JavaScript Knowledge/media",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/Test Your JavaScript Knowledge",
-    "_posts/base/js/知识点总结/media/Screen_Recording_2024-04-01_at_2.39.20_PM_lhccgg.mp4",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/base/fullstack-overview.md",
     "_posts/base/fullstack-overview copy.md",
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/要整理的.md",
-    "_posts/methods/如何学习和记忆：字幕.md",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
