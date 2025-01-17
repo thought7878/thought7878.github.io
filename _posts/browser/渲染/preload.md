@@ -2,8 +2,12 @@
 - **定义**：Preload 是一种资源预加载机制，它允许开发者通过*在 HTML 的`<link>`标签中添加`rel="preload"`属性，来告诉浏览器在页面加载的早期阶段就开始下载特定的资源*。这些资源可以是*脚本、样式表、字体、图像*等多种类型。
 - **目的**：主要是为了优化网页性能。在传统的资源加载方式中，*浏览器是按照文档中资源出现的顺序来加载的，这可能导致关键资源加载延迟*，影响页面的渲染和交互体验。**Preload 可以让浏览器提前获取*当前页面*的重要资源，使得这些资源在真正需要的时候已经准备好**，从而减少等待时间，提高页面响应速度。
 
+![[_posts/base/js/Advanced Web Development Quiz/media/541846fc552c896fc55a0c01ff050e6e_MD5.jpeg]]
+
+![[_posts/base/js/Advanced Web Development Quiz/media/41d8a1a044ce5b67e04b4bb8809e05a3_MD5.jpeg]]
+
 # 使用方式
-- **语法格式**：`<link rel="preload" href="资源路径" as="资源类型">`。其中，`href`属性指定要预加载资源的 URL，`as`属性用于明确资源的类型，这是非常关键的一点，因为它帮助浏览器确定如何处理预加载的资源。
+- **语法格式**：`<link rel="preload" href="资源路径" as="资源类型">`。其中，`href`属性指定要预加载资源的 URL；`as`属性用于明确资源的类型，这是非常关键的一点，因为它帮助浏览器确定如何处理预加载的资源；`rel`属性（[relationship](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#rel)）命名被链接的文档与当前文档的关系。
 - **资源类型示例**：
 	- **脚本（`as="script"`）**：例如`<link rel="preload" href="main.js" as="script">`，告诉浏览器预加载一个 JavaScript 脚本。预加载的脚本在下载完成后不会立即执行，只有在文档解析到该脚本的正常`<script>`标签位置或者通过 JavaScript 手动触发执行时才会执行。
 	- **样式（`as="style"`）**：`<link rel="preload" href="styles.css" as="style">`用于预加载 CSS 样式表。和脚本不同，预加载的样式表会在下载完成后立即应用到页面，帮助加快页面渲染。

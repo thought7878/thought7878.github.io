@@ -2,6 +2,12 @@
     
 - **定义**：Prefetch 是一种浏览器资源预获取机制。它通过在 HTML 中添加`<link rel="prefetch"`标签来*指示浏览器在空闲时间预先获取用户可能会访问的**下一个页面**或者资源*。**与 Preload 主要关注当前页面关键资源提前加载不同，Prefetch 更侧重于对未来可能需要的资源进行提前准备**。
 - **目的**：其核心目的是提升用户体验，减少用户访问下一个页面或者使用下一个功能时的等待时间。*通过在浏览器后台提前获取资源，当用户真正需要这些资源时，它们已经存储在缓存中，从而加快页面的加载速度*。
+
+![[_posts/base/js/Advanced Web Development Quiz/media/e15b7fda8331ba510577845ec12e861a_MD5.jpeg]]
+
+![[_posts/base/js/Advanced Web Development Quiz/media/ff0341edcc610726f3327c16eb76ff6f_MD5.jpeg]]
+
+
 # 使用方式
     
 - **语法格式**：`<link rel="prefetch" href="资源路径">`。其中，`href`属性指定了要预获取资源的 URL。*这个资源可以是一个完整的网页、一个脚本文件、一个样式表或者其他任何类型的网络资源*。例如，`<link rel="prefetch" href="next-page.html">`表示预获取下一个页面的 HTML 文档，`<link rel="prefetch" href="next-page-script.js">`则是预获取下一个页面的脚本文件。
@@ -41,3 +47,5 @@
 
 # 参考
 [ref](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel)
+
+[[5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload]]
