@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
+                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
+                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
+                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md"
+                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md"
               }
             }
           }
@@ -380,15 +380,16 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/browser/缓存/overview.md",
+    "_posts/browser/缓存/缓存指令/Cache-Control.md",
+    "_posts/browser/缓存/缓存指令/no-cache.md",
+    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
+    "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
     "_posts/browser/缓存/缓存指令/private.md",
     "_posts/browser/缓存/stale-while-revalidate.md",
-    "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
     "_posts/browser/缓存/缓存指令/must-revalidate.md",
     "_posts/browser/缓存/缓存指令/no-store.md",
-    "_posts/browser/缓存/缓存指令/no-cache.md",
-    "_posts/browser/缓存/overview.md",
     "_posts/browser/缓存/缓存指令",
-    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
     "_posts/base/js/Advanced Web Development Quiz/media/276b0ada0bd25f92564b59cd2f999351_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117203416.png",
     "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
@@ -412,7 +413,6 @@
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150841.png",
     "_posts/base/js/Advanced Web Development Quiz/media/4ba2fe1c965f964e241bef957ce0eaef_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150432.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/ddb62c6427f69b8f597d8ed8a9d6e95e_MD5.jpeg.md",
     "_posts/base/js/Advanced Web Development Quiz/media/ddb62c6427f69b8f597d8ed8a9d6e95e_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150217.png",
     "_posts/base/js/Advanced Web Development Quiz/media/ff2578baaf38c01e3adcbdcf3216863f_MD5.jpeg",
