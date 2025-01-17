@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/dns-prefetch.md",
+                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/dns-prefetch.md",
+                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/dns-prefetch.md",
+                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/dns-prefetch.md"
+                "file": "_posts/browser/缓存/缓存指令/stale-while-revalidate.md"
               }
             }
           }
@@ -380,15 +380,25 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/browser/缓存/缓存指令/private.md",
+    "_posts/browser/缓存/stale-while-revalidate.md",
+    "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
+    "_posts/browser/缓存/缓存指令/must-revalidate.md",
+    "_posts/browser/缓存/缓存指令/no-store.md",
+    "_posts/browser/缓存/缓存指令/no-cache.md",
+    "_posts/browser/缓存/overview.md",
+    "_posts/browser/缓存/缓存指令",
+    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/276b0ada0bd25f92564b59cd2f999351_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117203416.png",
     "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
-    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/browser/渲染/dns-prefetch.md",
+    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/browser/渲染/preconnect.md",
     "_posts/browser/渲染/preload.md",
     "_posts/browser/渲染/prefetch.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/base/js/Advanced Web Development Quiz/6-q6-object-reference-destructuring.md",
-    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
     "_posts/browser/渲染/浏览器的渲染流程.md",
     "_posts/browser/渲染/分层绘制的具体细节.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
@@ -407,16 +417,7 @@
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150217.png",
     "_posts/base/js/Advanced Web Development Quiz/media/ff2578baaf38c01e3adcbdcf3216863f_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117145743.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/d4984b60ad7c1896cfdd54e6cf89f120_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117145617.png",
-    "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/browser/Web API/Window/queueMicrotask().md",
-    "_posts/base/js/知识点总结/不好分类/MutationObserver.md",
     "_posts/base/js/知识点总结/不好分类",
-    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
-    "_posts/base/js/Advanced Web Development Quiz/3-q3-resolving-domain-requests.md",
-    "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
     "_posts/base/js/知识点总结/函数",
@@ -425,7 +426,6 @@
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application",
     "_posts/interview/教程/Interviewing for Front-End Engineers",
     "_posts/base/js/Test Your JavaScript Knowledge/media",
-    "_posts/base/js/Test Your JavaScript Knowledge",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

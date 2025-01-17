@@ -4,7 +4,7 @@
 ![[_posts/base/js/Advanced Web Development Quiz/media/63469fc3d1ec06ea66b1e251b500015e_MD5.jpeg]]
 
 ## dns-prefetch
-参考[[dns-prefetch]]
+参考 [[dns-prefetch]]
 
 节省了DNS解析的时间。
 
@@ -48,5 +48,4 @@
 
 
 ## 测试
-[[_posts/base/js/Advanced Web Development Quiz/media/061f056e08b8af14d860a1e4fab516cd_MD5.jpeg|Open: Pasted image 20250117104831.png]]
 ![[_posts/base/js/Advanced Web Development Quiz/media/061f056e08b8af14d860a1e4fab516cd_MD5.jpeg]]
