@@ -9,7 +9,7 @@ target.addEventListener(type, listener[, options]);
 - `target`：要添加事件监听器的 DOM 元素对象，可以通过`document.getElementById()`、`document.querySelector()`等方法获取。
 - `type`：表示事件类型的字符串，如`'click'`、`'mouseover'`、`'keydown'`等。
 - `listener`：当事件发生时要执行的函数，也称为事件处理函数或回调函数。
-- `options`：可选参数，可以是一个布尔值或者一个对象，用来指定如何监听事件。如果提供的是*布尔值*，则为 true 表示捕获阶段调用事件处理器，false 表示冒泡阶段调用。如果提供的是*对象*，则可以包含以下属性：
+- `options`：可选参数，可以是一个布尔值或者一个对象，用来指定如何监听事件。如果提供的是*布尔值*，为 true 表示**捕获阶段调用事件处理器**，false 表示冒泡阶段调用，默认为 `false`。如果提供的是*对象*，则可以包含以下属性：
 	- `capture`: 布尔值，表示事件监听器是在捕获阶段还是冒泡阶段被触发，默认为 false。
 	- `once`: 布尔值，如果设置为 true，表示监听器会在首次激活后自动移除。
 	- `passive`: 布尔值，如果设置为 true，表示监听器永远不会调用 `preventDefault()`。这可以提高滚动性能。
