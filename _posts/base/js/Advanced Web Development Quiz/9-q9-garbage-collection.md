@@ -3,3 +3,7 @@
 
 ![[_posts/base/js/Advanced Web Development Quiz/media/38f1bdab145f5fd9623ae3c313547064_MD5.jpeg]]
 
+
+## 相关资料
+[[堆、Heap]]
+[[垃圾回收、Garbage Collection]]
