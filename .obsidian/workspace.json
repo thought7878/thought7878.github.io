@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/browser/堆、Heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/browser/堆、Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/缓存/overview.md",
+                "file": "_posts/browser/堆、Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/缓存/overview.md"
+                "file": "_posts/browser/堆、Heap.md"
               }
             }
           }
@@ -380,11 +380,18 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/Advanced Web Development Quiz/9-q9-garbage-collection.md",
+    "_posts/browser/堆、Heap.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/38f1bdab145f5fd9623ae3c313547064_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118100527.png",
+    "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
+    "_posts/browser/缓存/缓存指令/media/986bfbcea9ada9be343c3b7c9e555be1_MD5.jpeg",
+    "_posts/browser/缓存/缓存指令/media/Pasted image 20250118095656.png",
+    "_posts/browser/缓存/缓存指令/media",
+    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
     "_posts/browser/缓存/缓存指令/Cache-Control.md",
     "_posts/browser/缓存/overview.md",
     "_posts/browser/缓存/缓存指令/no-cache.md",
-    "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
-    "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
     "_posts/browser/缓存/缓存指令/private.md",
     "_posts/browser/缓存/stale-while-revalidate.md",
     "_posts/browser/缓存/缓存指令/must-revalidate.md",
@@ -407,16 +414,10 @@
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
     "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
     "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/16.WebAPI：setTimeout是如何实现的？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
     "_posts/base/js/Advanced Web Development Quiz/media/b463e29aeb831189ac1ceba0940b27a1_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150841.png",
     "_posts/base/js/Advanced Web Development Quiz/media/4ba2fe1c965f964e241bef957ce0eaef_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150432.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/ddb62c6427f69b8f597d8ed8a9d6e95e_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117150217.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/ff2578baaf38c01e3adcbdcf3216863f_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250117145743.png",
     "_posts/base/js/知识点总结/不好分类",
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
@@ -425,7 +426,6 @@
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/media",
     "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application",
     "_posts/interview/教程/Interviewing for Front-End Engineers",
-    "_posts/base/js/Test Your JavaScript Knowledge/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

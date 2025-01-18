@@ -6,3 +6,8 @@
 
 [[_posts/base/js/Advanced Web Development Quiz/media/276b0ada0bd25f92564b59cd2f999351_MD5.jpeg|Open: Pasted image 20250117203416.png]]
 ![[_posts/base/js/Advanced Web Development Quiz/media/276b0ada0bd25f92564b59cd2f999351_MD5.jpeg]]
+
+
+## 参考资料
+[[_posts/browser/缓存/overview|overview]]
+[[Cache-Control]]
