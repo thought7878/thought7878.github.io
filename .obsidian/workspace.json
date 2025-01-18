@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md",
+                "file": "_posts/browser/缓存/overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/缓存/缓存指令/Cache-Control.md"
+                "file": "_posts/browser/缓存/overview.md"
               }
             }
           }
@@ -380,8 +380,8 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/browser/缓存/overview.md",
     "_posts/browser/缓存/缓存指令/Cache-Control.md",
+    "_posts/browser/缓存/overview.md",
     "_posts/browser/缓存/缓存指令/no-cache.md",
     "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
     "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
