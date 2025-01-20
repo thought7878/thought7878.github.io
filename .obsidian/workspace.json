@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:queueMicrotask",
+                "query": "file:weak",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md"
               }
             }
           }
@@ -380,20 +380,22 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/Advanced Web Development Quiz/media/4f1ed46c13352c1306e1a08d98aa2bae_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101942.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/2c5df7d23021dda62d7dd05f166944f1_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101914.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101625.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/0b75031cc98229f7f84b61b9d583e7db_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101612.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/57a1efaf7e716ad0eea727a790690adc_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101434.png",
+    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
+    "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/dbc844aa0d8258eaa652c6f94139c4a1_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120094929.png",
     "_posts/base/js/Advanced Web Development Quiz/12-q12-css选择器的权重.md",
-    "_posts/base/js/Advanced Web Development Quiz/未命名.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/1d4d32f82e730285597d461fce5c855d_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120092530.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/f742366d898bf1e6dd5b39d9e1a48453_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120091828.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/725b25e635cec305f855dd8eeef271cc_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120091454.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/86287c9964021abdcfd575f60df8ae25_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120090918.png",
     "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
     "_posts/browser/事件机制/stopPropagation.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/45f52b531ae395dcda79494527c58c76_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118151636.png",
     "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/base/js/Advanced Web Development Quiz/10-q10-animation-cost.md",
@@ -415,9 +417,7 @@
     "_posts/browser/缓存/缓存指令/private.md",
     "_posts/browser/缓存/stale-while-revalidate.md",
     "_posts/browser/缓存/缓存指令/must-revalidate.md",
-    "_posts/browser/缓存/缓存指令/no-store.md",
     "_posts/browser/缓存/缓存指令",
-    "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
     "_posts/base/js/知识点总结/不好分类",
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
