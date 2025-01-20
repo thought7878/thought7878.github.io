@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/未命名.md"
               }
             }
           }
@@ -380,30 +380,33 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
+    "_posts/base/js/Advanced Web Development Quiz/12-q12-css选择器的权重.md",
+    "_posts/base/js/Advanced Web Development Quiz/未命名.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/1d4d32f82e730285597d461fce5c855d_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120092530.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/f742366d898bf1e6dd5b39d9e1a48453_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120091828.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/725b25e635cec305f855dd8eeef271cc_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120091454.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/86287c9964021abdcfd575f60df8ae25_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120090918.png",
+    "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
+    "_posts/browser/事件机制/stopPropagation.md",
     "_posts/base/js/Advanced Web Development Quiz/media/45f52b531ae395dcda79494527c58c76_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118151636.png",
     "_posts/browser/事件机制/addEventListener.md",
-    "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
     "_posts/browser/事件机制/事件机制.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/9b06e93cb3596f11f609de6ec75b2d29_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118145828.png",
     "_posts/base/js/Advanced Web Development Quiz/10-q10-animation-cost.md",
     "_posts/browser/渲染/_浏览器的渲染流程.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
     "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
     "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/2029fc5c72db1c16a3757949dacafbca_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118125240.png",
     "_posts/base/js/Advanced Web Development Quiz/9-q9-garbage-collection.md",
     "_posts/base/js/知识点总结/垃圾回收、Garbage Collection.md",
     "_posts/base/js/知识点总结/严格模式.md",
     "_posts/browser/堆、Heap.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/38f1bdab145f5fd9623ae3c313547064_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250118100527.png",
     "_posts/browser/缓存/缓存指令/stale-while-revalidate.md",
-    "_posts/browser/缓存/缓存指令/media/986bfbcea9ada9be343c3b7c9e555be1_MD5.jpeg",
-    "_posts/browser/缓存/缓存指令/media/Pasted image 20250118095656.png",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/base/js/Advanced Web Development Quiz/8-q8-cache-directives.md",
     "_posts/browser/缓存/缓存指令/Cache-Control.md",
@@ -414,10 +417,7 @@
     "_posts/browser/缓存/缓存指令/must-revalidate.md",
     "_posts/browser/缓存/缓存指令/no-store.md",
     "_posts/browser/缓存/缓存指令",
-    "_posts/base/js/Advanced Web Development Quiz/media/276b0ada0bd25f92564b59cd2f999351_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/5-q5-resource-hints：dns-prefetch、preconnect、prefetch、preload.md",
-    "_posts/browser/渲染/dns-prefetch.md",
-    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/base/js/知识点总结/不好分类",
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
