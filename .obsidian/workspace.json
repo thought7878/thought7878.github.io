@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md"
               }
             }
           }
@@ -380,19 +380,20 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/base/js/Advanced Web Development Quiz/media/4f1ed46c13352c1306e1a08d98aa2bae_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101942.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/2c5df7d23021dda62d7dd05f166944f1_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101914.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101625.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/0b75031cc98229f7f84b61b9d583e7db_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101612.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/57a1efaf7e716ad0eea727a790690adc_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120101434.png",
-    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/ff947e002a52dccd4dcf97133ebb3284_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120105609.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/a50eeeabc6b23d460ca2c1be6b7e3e40_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120105219.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/40dab9b794b28001f12ba216ce94c061_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120105029.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/7b9fc0a20bc6a9383e0b02cb6a30583f_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120105000.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/c63044ab626951a0822907d316ed12df_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120104151.png",
+    "_posts/base/js/Advanced Web Development Quiz/media/b2e8275ba234fb6044048bc4f8e4f9ab_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/dbc844aa0d8258eaa652c6f94139c4a1_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120094929.png",
+    "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md",
+    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
     "_posts/base/js/Advanced Web Development Quiz/12-q12-css选择器的权重.md",
     "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
     "_posts/browser/事件机制/stopPropagation.md",
@@ -416,7 +417,6 @@
     "_posts/browser/缓存/缓存指令/no-cache.md",
     "_posts/browser/缓存/缓存指令/private.md",
     "_posts/browser/缓存/stale-while-revalidate.md",
-    "_posts/browser/缓存/缓存指令/must-revalidate.md",
     "_posts/browser/缓存/缓存指令",
     "_posts/base/js/知识点总结/不好分类",
     "_posts/base/js/Advanced Web Development Quiz/media",
