@@ -200,19 +200,6 @@
             }
           },
           {
-            "id": "12b7224c299f1dff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b1fd2a3020957bb6",
             "type": "leaf",
             "state": {
@@ -235,9 +222,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9de2580b0b8f5da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/存储/cookie.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -315,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
+                "file": "_posts/browser/存储/cookie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -332,7 +332,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
+                "file": "_posts/browser/存储/cookie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,7 +355,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md"
+                "file": "_posts/browser/存储/cookie.md"
               }
             }
           }
@@ -379,10 +379,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12b7224c299f1dff",
+  "active": "9de2580b0b8f5da9",
   "lastOpenFiles": [
-    "_posts/browser/安全/中间人攻击.md",
+    "_posts/base/js/Advanced Web Development Quiz/22-q22-cookie-policy-header.md",
+    "_posts/base/js/Advanced Web Development Quiz/23-q23-css-pseudo-selector.md",
+    "_posts/browser/存储/cookie.md",
+    "_posts/browser/存储/overview.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/e34b80154d7ef6724daaca4bc9ec1778_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121171453.png",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
+    "_posts/base/js/Advanced Web Development Quiz/21-q21-font-strategies.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/d4b449d55fb501305467c4b867a65c35_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121152527.png",
+    "_posts/base/css/总结/font-display.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/38d6222094a20b9301bf94642b74188c_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121150517.png",
+    "_posts/base/js/Advanced Web Development Quiz/12-q12-css选择器的权重.md",
+    "_posts/base/js/Advanced Web Development Quiz/15-q15-content-security-policy-csp-header.md",
+    "_posts/base/js/Advanced Web Development Quiz/16-q16-refer-policies.md",
     "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
+    "_posts/browser/安全/中间人攻击.md",
     "_posts/base/js/Advanced Web Development Quiz/media/9fbe398e7ca4a331d713d62015f516d2_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121141235.png",
     "_posts/browser/安全/UI redressing、UI 伪装攻击.md",
@@ -392,14 +408,8 @@
     "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md",
     "_posts/base/js/Advanced Web Development Quiz/media/dd2a2c95eae41acacc3de16f60fd6453_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121100532.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/37b7508a9b48fe7171984f7c91a9fd82_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121084113.png",
     "_posts/base/js/知识点总结/promise/Promise.all().md",
     "_posts/base/js/Advanced Web Development Quiz/18-q18-promise-methods.md",
-    "_posts/base/js/Advanced Web Development Quiz/media/8e45d62e21c3c06233cfe485426ec0d7_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121083424.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/c9e9c10a566122536346bb2989c03bf7_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121083244.png",
     "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
     "_posts/base/js/知识点总结/promise/Promise.race().md",
     "_posts/base/js/知识点总结/promise/Promise.any().md",
@@ -407,16 +417,6 @@
     "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/base/js/知识点总结/async & await.md",
     "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
-    "_posts/base/js/Advanced Web Development Quiz/16-q16-refer-policies.md",
-    "_posts/base/html/a标签.md",
-    "_posts/base/js/Advanced Web Development Quiz/15-q15-content-security-policy-csp-header.md",
-    "_posts/browser/安全/CSP-内容安全策略.md",
-    "_posts/base/js/Advanced Web Development Quiz/14-q14-web-vitals.md",
-    "_posts/base/js/Advanced Web Development Quiz/13-q13-weakmap.md",
-    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
-    "_posts/base/js/Advanced Web Development Quiz/12-q12-css选择器的权重.md",
-    "_posts/base/js/Advanced Web Development Quiz/11-q11-event-propagation.md",
-    "_posts/browser/事件机制/stopPropagation.md",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",
     "_posts/base/js/知识点总结/不好分类",
