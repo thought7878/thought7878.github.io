@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -315,7 +315,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -332,7 +332,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md",
+                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,7 +355,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md"
+                "file": "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md"
               }
             }
           }
@@ -381,8 +381,11 @@
   },
   "active": "12b7224c299f1dff",
   "lastOpenFiles": [
-    "_posts/browser/缓存/Back-Forward Cache（BFCache）.md",
+    "_posts/base/js/Advanced Web Development Quiz/media/dd2a2c95eae41acacc3de16f60fd6453_MD5.jpeg",
+    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121100532.png",
     "_posts/base/js/Advanced Web Development Quiz/19-q19-back-forward-cache.md",
+    "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
+    "_posts/browser/缓存/Back-Forward Cache（BFCache）.md",
     "_posts/base/js/Advanced Web Development Quiz/media/37b7508a9b48fe7171984f7c91a9fd82_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250121084113.png",
     "_posts/base/js/知识点总结/promise/Promise.all().md",
@@ -394,7 +397,6 @@
     "_posts/base/js/Advanced Web Development Quiz/media/a1a5e6e1a98df56a3a65fb0eb0c20f8c_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120233445.png",
     "_posts/base/js/Advanced Web Development Quiz/media/4779b8ad58375d257c0f7cd348f35174_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250120233259.png",
     "_posts/base/js/知识点总结/promise/Promise.allSettled().md",
     "_posts/base/js/知识点总结/promise/Promise.race().md",
     "_posts/base/js/知识点总结/promise/Promise.any().md",
@@ -415,8 +417,6 @@
     "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/base/js/Advanced Web Development Quiz/10-q10-animation-cost.md",
-    "_posts/browser/渲染/_浏览器的渲染流程.md",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",
     "_posts/base/js/知识点总结/不好分类",
