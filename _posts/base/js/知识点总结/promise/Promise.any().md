@@ -1,7 +1,7 @@
 1. **基本概念**
 
    - `Promise.any`是一个 Promise 的静态方法。它接收一个可迭代对象（通常是数组），里面包含多个 Promise 对象。
-   - 它返回一个新的 Promise。这个新 Promise 的状态变化规则如下：
+   - 它返回一个新的 Promise。**这个新 Promise 的状态变化规则如下：**
      - 只要有一个 Promise 变为`fulfilled`状态，`Promise.any`返回的 Promise 就变为`fulfilled`状态，并且其结果是第一个`fulfilled`的 Promise 的结果。
      - 只有当所有的 Promise 都变为`rejected`状态时，`Promise.any`返回的 Promise 才变为`rejected`状态。此时返回的错误是一个`AggregateError`（在支持的环境中），这个错误包含了所有被拒绝的 Promise 的原因数组。
 
@@ -32,6 +32,7 @@
        });
      }
      const promises = [asyncFunction1(), asyncFunction2(), asyncFunction3()];
+     // 
      Promise.any(promises).then((result) => {
        console.log(result);
        // 输出 "第一个任务完成"，因为asyncFunction1最先成功

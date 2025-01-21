@@ -1,7 +1,7 @@
 1. **基本概念**
 
-   - `Promise.allSettled`是一个静态方法，和`Promise.all`类似，它也用于处理多个 Promise 对象。但与`Promise.all`不同的是，`Promise.allSettled`会等待所有传入的 Promise 都已经确定状态（无论是`fulfilled`还是`rejected`），然后返回一个新的 Promise。
-   - 这个新 Promise 的状态总是`fulfilled`，它的结果是一个数组，数组中的每个元素是一个对象，该对象描述了对应的原始 Promise 的状态和结果。每个对象有两个属性：
+   - `Promise.allSettled`是一个静态方法，和`Promise.all`类似，它也用于处理多个 Promise 对象。但与`Promise.all`不同的是，`Promise.allSettled`会*等待所有传入的 Promise 都已经确定状态*（无论是`fulfilled`还是`rejected`），然后返回一个新的 Promise。
+   - 这个新 Promise 的**状态总是`fulfilled`**，它的**结果是一个数组**，数组中的每个元素是一个对象，**该对象描述了对应的原始 Promise 的状态和结果**。每个对象有两个属性：
      - `status`：其值为`"fulfilled"`或`"rejected"`，表示原始 Promise 的最终状态。
      - `value`（当`status`为`"fulfilled"`时）或`reason`（当`status`为`"rejected"`时）：表示原始 Promise 的成功值或失败原因。
 
@@ -32,6 +32,7 @@
      });
    }
    const promises = [asyncFunction1(), asyncFunction2(), asyncFunction3()];
+   //
    Promise.allSettled(promises).then((results) => {
      console.log(results);
      /*

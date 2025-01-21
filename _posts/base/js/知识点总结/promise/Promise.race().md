@@ -1,7 +1,7 @@
 1. **基本概念**
 
    - `Promise.race`是一个 Promise 的静态方法，它接受一个可迭代对象（通常是一个数组），其中包含多个 Promise 对象。
-   - 它返回一个新的 Promise，这个新 Promise 的状态由参数中第一个改变状态（无论是`fulfilled`还是`rejected`）的 Promise 来决定。一旦有一个 Promise 的状态发生变化，`Promise.race`返回的 Promise 就会采用这个 Promise 的状态和结果。
+   - 它返回一个新的 Promise，这个新 Promise 的状态由参数中*第一个改变状态（无论是`fulfilled`还是`rejected`）的 Promise 来决定*。一旦有一个 Promise 的状态发生变化，`Promise.race`返回的 Promise 就会采用这个 Promise 的状态和结果。
 
 2. **使用示例**
 
