@@ -1,4 +1,4 @@
-跨域资源共享（Cross-Origin Resource Sharing，简称 CORS）是一种安全机制，**用于解决浏览器同源策略（Same-origin policy）带来的限制**。CORS 允许一个域上的网页请求另一个域上的资源，从而实现了跨域的数据交换。
+跨域资源共享（Cross-Origin Resource Sharing，简称 CORS）是一种*安全机制*，**用于解决浏览器同源策略（Same-origin policy）带来的限制**。CORS 允许一个域上的网页请求另一个域上的资源，从而实现了跨域的数据交换。
 
 ### 同源策略
 
@@ -26,8 +26,7 @@ CORS 的实现涉及两个主要部分：浏览器发出的请求和服务器返
 
 #### 2. 预检请求（Preflight Request）
 
-预检请求是指不符合简单请求条件的请求，比如使用了 `PUT`、`DELETE` 等 HTTP 方法，或者请求头中有 `Content-Type` 以外的字段（如 `Authorization`）。
-
+**预检请求**是指不符合简单请求条件的请求，比如使用了 `PUT`、`DELETE` 等 HTTP 方法，或者请求头中有 `Content-Type` 以外的字段（如 `Authorization`）。
 在这种情况下，浏览器会先发送一个 OPTIONS 请求（预检请求）来询问服务器是否允许实际请求。如果服务器允许，才会发送实际的请求。
 
 ##### OPTIONS 请求
