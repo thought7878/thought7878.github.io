@@ -14,7 +14,7 @@ CORS 的实现涉及两个主要部分：浏览器发出的请求和服务器返
 
 #### 1. 简单请求（Simple Request）
 
-简单请求是指满足以下条件的请求：
+**简单请求**是指满足以下条件的请求：
 
 - 方法是 `GET`、`HEAD` 或 `POST`。
 - 对于 `POST` 请求，请求头中的 `Content-Type` 必须是以下之一：
@@ -22,13 +22,13 @@ CORS 的实现涉及两个主要部分：浏览器发出的请求和服务器返
   - `multipart/form-data`
   - `text/plain`
 
-对于简单请求，浏览器会直接发送请求，不会预先发送 OPTIONS 请求。如果服务端响应头中包含特定的 CORS 字段，浏览器将允许请求。
+对于简单请求，*浏览器会直接发送请求，不会预先发送 OPTIONS 请求。如果服务端响应头中包含特定的 CORS 字段，浏览器将允许请求*。
 
 #### 2. 预检请求（Preflight Request）
 
 **预检请求**是指不符合简单请求条件的请求，比如使用了 `PUT`、`DELETE` 等 HTTP 方法，或者请求头中有 `Content-Type` 以外的字段（如 `Authorization`）。
-在这种情况下，浏览器会先发送一个 OPTIONS 请求（预检请求）来询问服务器是否允许实际请求。如果服务器允许，才会发送实际的请求。
-
+在这种情况下，*浏览器会先发送一个 OPTIONS 请求（预检请求）来询问服务器是否允许实际请求。如果服务器允许，才会发送实际的请求*。
+![[_posts/base/js/Advanced Web Development Quiz/media/2a202d6ac93040e4734e7cafdd43fc17_MD5.jpeg]]
 ##### OPTIONS 请求
 
 预检请求是一个 OPTIONS 请求，包含以下头部信息：
