@@ -10,7 +10,7 @@
 
 ---
 
-### 初始化配置：
+## 初始化配置：
 
 使用  `useMemo`  计算并返回组件所需的配置对象，包括日期库、格式化器、标签、类名等。
 
@@ -69,7 +69,7 @@ const { components, formatters, labels, dateLib, locale, classNames } =
   ]);
 ```
 
-### 解构赋值：
+### 解构赋值
 
 - 从  `props`  中解构出多个属性，包括  `captionLayout`、`mode`、`onDayBlur`、`onDayClick`  等。
 - 从  `formatters`  对象中解构出多个格式化函数，如  `formatCaption`、`formatDay`  等。
@@ -102,7 +102,8 @@ const {
 } = formatters;
 ```
 
-### 生成日历数据：
+## 状态管理：
+### 生成日历数据
 
 使用  [[useCalendar()]]  钩子生成日历数据。
 
@@ -127,7 +128,7 @@ const { days, months, navStart, navEnd, previousMonth, nextMonth, goToMonth } =
   calendar;
 ```
 
-### 管理选中状态：
+### 管理选中状态
 
 使用  `useSelection`  钩子，管理选中的日期状态。从 useSelection 钩子中获取所需函数和状态。useSelection 是一个自定义钩子，用于处理选择逻辑，它接受 props 和一个日期库作为参数
 
@@ -144,7 +145,7 @@ const {
 } = useSelection(props, dateLib) ?? {};
 ```
 
-### 管理焦点状态：
+### 管理焦点状态
 
 使用  `useFocus`  钩子，管理焦点状态。
 
@@ -163,7 +164,8 @@ const { blur, focused, isFocusTarget, moveFocus, setFocused } = useFocus(
 );
 ```
 
-### 定义事件处理函数：
+## 事件处理：
+### 定义事件处理函数
 
 定义了各种事件处理函数，用于处理用户与日期选择器的交互。如点击、聚焦、模糊、键盘操作等。
 
@@ -181,10 +183,11 @@ const { blur, focused, isFocusTarget, moveFocus, setFocused } = useFocus(
 - **逻辑**：
   - 每个事件处理函数根据相应的事件类型更新状态或调用回调函数。
 
-### 渲染日历组件：
+## 渲染日历：
+![[_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg]]
 
-- 根据配置和状态，渲染日历的各个部分，包括导航、月份标题、周数、日期按钮等。
-- 渲染的组件包括  `Root`、`Months`、`Nav`、`Month`、`MonthCaption`、`MonthGrid`、`Weekdays`、`Week`、`Day`  和  `Footer`。
+根据配置和状态，渲染日历的各个部分，包括导航、月份标题、周数、日期按钮等。
+渲染的组件包括  `Root`、`Months`、`Nav`、`Month`、`MonthCaption`、`MonthGrid`、`Weekdays`、`Week`、`Day`  和  `Footer`。
 
 - **渲染组件**：
 	- `Root`：根容器。
@@ -200,7 +203,6 @@ const { blur, focused, isFocusTarget, moveFocus, setFocused } = useFocus(
 
 - **逻辑**：
 	- 根据  `props`  和状态，动态生成并渲染日历的各个部分。
-
 	- 使用 `dayPickerContext.Provider` 来提供上下文数据。
 	- 渲染日历的根组件 `components.Root`，并在其中渲染月份组件 `components.Months`。
 	- 在月份组件中，渲染导航按钮 `components.Nav` 和每个月的日历 `components.Month`。
