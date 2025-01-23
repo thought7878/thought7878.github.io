@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2024/12月/18.md",
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -255,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md"
+                "file": "_posts/tools/obsidian/知识管理.md"
               }
             }
           }
@@ -304,7 +303,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,19 +319,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "578f4b8fe68eb837",
+  "active": "0b35cdc9237ba45b",
   "lastOpenFiles": [
+    "_posts/tools/obsidian/任务管理.md",
+    "_posts/tools/obsidian/基础.md",
+    "_posts/tools/obsidian/知识管理.md",
+    "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/任务记录/2025/media",
+    "_posts/任务记录/2024/12月/18.md",
+    "_posts/任务记录/2025/目标.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/libraries/shadcn/component/react-day-picker/media",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/base/js/Advanced Web Development Quiz/24-q24-transport-security.md",
     "_posts/interview/简历/商智.md",
     "_posts/methods/overview.md",
-    "_posts/任务记录/2024/12月/18.md",
     "_posts/任务记录/待办.md",
     "_posts/interview/问题/项目经验.md",
     "_posts/react/overview_面试.md",
@@ -352,12 +358,7 @@
     "_posts/base/js/Advanced Web Development Quiz/media/8466214ddb681501e48ab4e7b3d35b69_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122193512.png",
     "_posts/base/js/Advanced Web Development Quiz/media/72277d79265d12836c1c4a9db635ca44_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122193137.png",
     "_posts/base/js/Advanced Web Development Quiz/28-q28-event-loop.md",
-    "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
-    "_posts/base/js/Advanced Web Development Quiz/27-q27-cors-headers.md",
-    "_posts/browser/安全/CORS-跨域资源共享.md",
-    "_posts/http/Methods.md",
     "_posts/http/响应头",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",
@@ -366,7 +367,6 @@
     "_posts/base/js/Advanced Web Development Quiz",
     "_posts/base/js/知识点总结/函数",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
