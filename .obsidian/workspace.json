@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/闭包.md",
+                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/闭包.md",
+                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/闭包.md",
+                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/闭包.md"
+                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md"
               }
             }
           }
@@ -344,10 +344,18 @@
   },
   "active": "75a3cc727787d32a",
   "lastOpenFiles": [
-    "_posts/methods/overview.md",
-    "_posts/要整理的.md",
     "_posts/base/js/知识点总结/闭包.md",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/base/js/知识点总结/Environment Record.md",
+    "_posts/base/js/知识点总结/Lexical Environment.md",
+    "_posts/要整理的.md",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
+    "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
+    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
+    "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
     "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
+    "_posts/methods/overview.md",
     "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
     "_posts/base/js/知识点总结/数据类型/类型转换.md",
     "_posts/base/js/知识点总结/数据类型/类型判断.md",
@@ -359,7 +367,6 @@
     "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
     "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/interview/教程/前端面试之道/7.手写 Promise.md",
     "_posts/interview/教程/前端面试之道/8.Event Loop.md",
@@ -369,14 +376,7 @@
     "_posts/interview/教程/前端面试之道/media/9096c31e97535c767de42801d6c1add8_MD5.png",
     "_posts/interview/教程/前端面试之道/media/1518e1bccf25f0e44bbdbaadec087c62_MD5.png",
     "_posts/interview/教程/前端面试之道/media/f1b797b20423d80ba1425726c43afdab_MD5.gif",
-    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
-    "_posts/tools/obsidian/知识管理.md",
-    "_posts/任务记录/2025/学习复习模版.md",
-    "_posts/tools/obsidian/任务管理.md",
-    "_posts/tools/obsidian/基础.md",
     "_posts/任务记录/2025/media",
-    "_posts/任务记录/2024/12月/18.md",
-    "_posts/任务记录/2025/目标.md",
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/libraries/shadcn/component/react-day-picker/media",
