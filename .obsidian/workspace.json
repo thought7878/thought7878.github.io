@@ -20,7 +20,19 @@
             }
           },
           {
-            "id": "0b35cdc9237ba45b",
+            "id": "ea6200a3b44e3c36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/2025/学习复习模版.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66b9fa7429fe3f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -116,18 +128,6 @@
             }
           },
           {
-            "id": "578f4b8fe68eb837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "09e3011ecca2dbc2",
             "type": "leaf",
             "state": {
@@ -164,19 +164,31 @@
             }
           },
           {
+            "id": "578f4b8fe68eb837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "75a3cc727787d32a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
+                "file": "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -254,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md"
+                "file": "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md"
               }
             }
           }
@@ -303,8 +315,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,25 +330,36 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0b35cdc9237ba45b",
+  "active": "75a3cc727787d32a",
   "lastOpenFiles": [
-    "_posts/tools/obsidian/任务管理.md",
-    "_posts/tools/obsidian/基础.md",
+    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+    "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
+    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/interview/教程/前端面试之道/7.手写 Promise.md",
+    "_posts/interview/教程/前端面试之道/8.Event Loop.md",
+    "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/9096c31e97535c767de42801d6c1add8_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/1518e1bccf25f0e44bbdbaadec087c62_MD5.png",
+    "_posts/interview/教程/前端面试之道/media/f1b797b20423d80ba1425726c43afdab_MD5.gif",
+    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
     "_posts/tools/obsidian/知识管理.md",
     "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/methods/overview.md",
+    "_posts/tools/obsidian/任务管理.md",
+    "_posts/tools/obsidian/基础.md",
     "_posts/任务记录/2025/media",
     "_posts/任务记录/2024/12月/18.md",
     "_posts/任务记录/2025/目标.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/libraries/shadcn/component/react-day-picker/media",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-    "_posts/interview/教程/前端面试之道/28.HTTP 及 TLS.md",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/base/js/Advanced Web Development Quiz/24-q24-transport-security.md",
     "_posts/interview/简历/商智.md",
-    "_posts/methods/overview.md",
     "_posts/任务记录/待办.md",
     "_posts/interview/问题/项目经验.md",
     "_posts/react/overview_面试.md",
@@ -346,19 +368,8 @@
     "_posts/base/js/知识点总结/promise/catch().md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
     "_posts/http/Strict-Transport-Security.md",
-    "_posts/base/js/Advanced Web Development Quiz/25-q25-render-layers.md",
-    "_posts/http/HTTP协议的版本.md",
-    "_posts/base/js/Advanced Web Development Quiz/29-q29-http-1-2-3.md",
-    "_posts/base/js/Advanced Web Development Quiz/30-q30-invoking-object-methods-scope.md",
     "_posts/base/js/Advanced Web Development Quiz/media/a121f47de0d94bf259dafb8e8519a2dc_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122194728.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/45d1d0e997133be24d6224ce53e3885c_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122194035.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122193939.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/8466214ddb681501e48ab4e7b3d35b69_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122193512.png",
-    "_posts/base/js/Advanced Web Development Quiz/media/72277d79265d12836c1c4a9db635ca44_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/28-q28-event-loop.md",
     "_posts/http/响应头",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",
