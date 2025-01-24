@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+                "file": "_posts/base/js/知识点总结/闭包.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+                "file": "_posts/base/js/知识点总结/闭包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+                "file": "_posts/base/js/知识点总结/闭包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md"
+                "file": "_posts/base/js/知识点总结/闭包.md"
               }
             }
           }
@@ -344,14 +344,16 @@
   },
   "active": "75a3cc727787d32a",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/数据类型/类型转换.md",
-    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
-    "_posts/base/js/知识点总结/数据类型/类型判断.md",
+    "_posts/methods/overview.md",
     "_posts/要整理的.md",
+    "_posts/base/js/知识点总结/闭包.md",
+    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
+    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+    "_posts/base/js/知识点总结/数据类型/类型转换.md",
+    "_posts/base/js/知识点总结/数据类型/类型判断.md",
     "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
     "_posts/外面的世界/男女.md",
     "_posts/AI/豆包.md",
-    "_posts/methods/overview.md",
     "_posts/世界趋势/世界趋势记录.md",
     "_posts/世界趋势/美国.md",
     "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
@@ -378,8 +380,6 @@
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/libraries/shadcn/component/react-day-picker/media",
-    "_posts/base/js/Advanced Web Development Quiz/24-q24-transport-security.md",
-    "_posts/interview/简历/商智.md",
     "_posts/base/js/Advanced Web Development Quiz/media/a121f47de0d94bf259dafb8e8519a2dc_MD5.jpeg",
     "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122194728.png",
     "_posts/http/响应头",
