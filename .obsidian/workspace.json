@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/methods/卢曼笔记法.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/methods/卢曼笔记法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/methods/卢曼笔记法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md"
+                "file": "_posts/methods/卢曼笔记法.md"
               }
             }
           }
@@ -332,8 +332,9 @@
   },
   "active": "9e873bbeda0016a5",
   "lastOpenFiles": [
-    "_posts/methods/知识管理.md",
     "_posts/tools/obsidian/知识管理.md",
+    "_posts/methods/卢曼笔记法.md",
+    "_posts/methods/知识管理.md",
     "_posts/methods/自我管理.md",
     "_posts/methods/2019-11-18-学习方法.md",
     "_posts/methods/如何学习和记忆：字幕.md",
@@ -359,7 +360,6 @@
     "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
     "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
-    "_posts/base/js/知识点总结/数据类型/类型转换.md",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
     "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
