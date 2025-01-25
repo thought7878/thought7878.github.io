@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md"
+                "file": "_posts/base/知识目录、路线图/JS.md"
               }
             }
           }
@@ -344,7 +344,14 @@
   },
   "active": "9ec46bb058283a8f",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
     "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/表达式、运算符/BigInt运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符/逻辑运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符/算术运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符/比较运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符/赋值运算符.md",
     "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
     "_posts/base/js/知识点总结/表达式、运算符",
     "_posts/base/js/知识点总结/数据类型/类型转换.md",
@@ -365,13 +372,6 @@
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/methods/卢曼笔记法.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
-    "_posts/tools/obsidian/知识管理.md",
-    "_posts/engineering/webpack/目录.md",
-    "_posts/methods/知识管理.md",
-    "_posts/methods/自我管理.md",
-    "_posts/methods/2019-11-18-学习方法.md",
-    "_posts/methods/如何学习和记忆：字幕.md",
-    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",

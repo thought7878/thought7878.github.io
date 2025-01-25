@@ -144,32 +144,36 @@ condition ? val_for_true : val_for_false
 可忽略，极少这么用
 
 ## Unary Operators
-一元运算符。一元运算是只有一个操作数的运算。如，`delete`、`typeof`、`+`、`-`、`!`等
+参考 [[一元运算符]]
+
+## Assignment Operators
+参考 [[赋值运算符]]
+
+## Comparison Operators
+参考 [[比较运算符]]
+
+## Arithmetic operators
+参考 [[算术运算符]]
+
+## Bitwise operators
+参考 [[位运算符]]
+
+## Logical Operators
+参考 [[逻辑运算符]]
+
+## BigInt Operators
+[[BigInt运算符]]
+
+## String Operators
+参考 [[字符串运算符]]
 
 
-#
+# Function
+Functions exist so we can reuse code. They are blocks of code that execute whenever they are invoked. Each function is typically written to perform a particular task, like an addition function used to find the sum of two or more numbers. When numbers need to be added anywhere within your code, the addition function can be invoked as many times as necessary.  
+
+**函数的存在是为了让我们可以重用代码**。它们是只要被调用就会执行的**代码块**。每个函数通常都是**为了执行特定任务而编写的**，例如用于求两个或多个数字之和的加法函数。当需要在代码中的任何位置添加数字时，可以根据需要多次调用加法函数。
 
 
-#
-
-
-#
-
-
-#
-
-
-#
-
-
-#
-
-
-#
-
-
-
-# Functions
 
 
 # DOM APIs
