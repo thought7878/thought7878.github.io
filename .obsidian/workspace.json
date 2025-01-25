@@ -104,18 +104,6 @@
             }
           },
           {
-            "id": "9ec46bb058283a8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/0_前端的知识目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3279033826e53b7e",
             "type": "leaf",
             "state": {
@@ -146,6 +134,30 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60f000befbbe6d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/interview/前端知识体系及难点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1940058c717cf3c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/前端roadmap-AI总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +200,25 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 11
+      },
+      {
+        "id": "ddda8ae670cf36e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ec46bb058283a8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 373.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -266,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/卢曼笔记法.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/卢曼笔记法.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/methods/卢曼笔记法.md"
+                "file": "_posts/base/知识目录、路线图/JS.md"
               }
             }
           }
@@ -330,36 +361,37 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9e873bbeda0016a5",
+  "active": "9ec46bb058283a8f",
   "lastOpenFiles": [
-    "_posts/tools/obsidian/知识管理.md",
+    "_posts/interview/前端知识体系及难点.md",
+    "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/知识目录、路线图/浏览器.md",
+    "_posts/interview/0_前端的知识目录.md",
+    "_posts/base/知识目录、路线图/fullstack-overview.md",
+    "_posts/base/知识目录、路线图/fullstack-overview copy.md",
+    "_posts/base/知识目录、路线图/前端roadmap-AI总结.md",
+    "_posts/base/知识目录、路线图",
+    "_posts/engineering/webpack/构建性能/实际案例.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/methods/卢曼笔记法.md",
+    "_posts/要整理的.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/tools/obsidian/知识管理.md",
+    "_posts/engineering/webpack/目录.md",
     "_posts/methods/知识管理.md",
     "_posts/methods/自我管理.md",
     "_posts/methods/2019-11-18-学习方法.md",
     "_posts/methods/如何学习和记忆：字幕.md",
-    "_posts/要整理的.md",
     "_posts/任务记录/2025/学习复习模版.md",
     "_posts/methods/overview.md",
     "_posts/methods/重塑自我 ！制定2025年计划！.md",
     "_posts/AI/豆包.md",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/base/js/知识点总结/闭包.md",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
     "_posts/base/js/知识点总结/深拷贝.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/base/js/知识点总结/函数/创建阶段、执行阶段.md",
-    "_posts/base/js/知识点总结/Environment Record.md",
-    "_posts/base/js/知识点总结/Lexical Environment.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
-    "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
-    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
-    "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
-    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
     "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
@@ -377,7 +409,6 @@
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
     "_posts/base/js/知识点总结/函数",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
