@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "ea6200a3b44e3c36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/任务记录/2025/学习复习模版.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "66b9fa7429fe3f4e",
             "type": "leaf",
             "state": {
@@ -164,18 +152,6 @@
             }
           },
           {
-            "id": "25af10f976841c91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "578f4b8fe68eb837",
             "type": "leaf",
             "state": {
@@ -193,14 +169,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+                "file": "_posts/base/js/知识点总结/闭包.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e873bbeda0016a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -229,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(generator)",
+                "query": "知识管理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -278,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+                "file": "_posts/tools/obsidian/知识管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md"
+                "file": "_posts/tools/obsidian/知识管理.md"
               }
             }
           }
@@ -342,34 +330,36 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "75a3cc727787d32a",
+  "active": "9e873bbeda0016a5",
   "lastOpenFiles": [
+    "_posts/methods/知识管理.md",
+    "_posts/tools/obsidian/知识管理.md",
+    "_posts/methods/自我管理.md",
+    "_posts/methods/2019-11-18-学习方法.md",
+    "_posts/methods/如何学习和记忆：字幕.md",
+    "_posts/要整理的.md",
+    "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/methods/overview.md",
+    "_posts/methods/重塑自我 ！制定2025年计划！.md",
+    "_posts/AI/豆包.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/base/js/知识点总结/闭包.md",
+    "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
+    "_posts/base/js/知识点总结/深拷贝.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+    "_posts/base/js/知识点总结/函数/创建阶段、执行阶段.md",
     "_posts/base/js/知识点总结/Environment Record.md",
     "_posts/base/js/知识点总结/Lexical Environment.md",
-    "_posts/要整理的.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
     "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
     "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
     "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
-    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
-    "_posts/methods/overview.md",
     "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
     "_posts/base/js/知识点总结/数据类型/类型转换.md",
-    "_posts/base/js/知识点总结/数据类型/类型判断.md",
-    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
-    "_posts/外面的世界/男女.md",
-    "_posts/AI/豆包.md",
-    "_posts/世界趋势/世界趋势记录.md",
-    "_posts/世界趋势/美国.md",
-    "_posts/base/js/知识点总结/数据类型/0.1 + 0.2 !== 0.3.md",
-    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
-    "_posts/interview/教程/前端面试之道/7.手写 Promise.md",
-    "_posts/interview/教程/前端面试之道/8.Event Loop.md",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
     "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
@@ -380,8 +370,6 @@
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/libraries/shadcn/component/react-day-picker/media",
-    "_posts/base/js/Advanced Web Development Quiz/media/a121f47de0d94bf259dafb8e8519a2dc_MD5.jpeg",
-    "_posts/base/js/Advanced Web Development Quiz/media/Pasted image 20250122194728.png",
     "_posts/http/响应头",
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",

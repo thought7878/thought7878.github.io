@@ -29,7 +29,7 @@
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 
-- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的 create 阶段**： 
+- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的 creation 阶段**： 
 	- 函数的两个属性：`Environment`/`Call`。
 		- _`Environment`指向声明该函数的外部的 Lexical Environment_；
 		- `Call`方法，每当调用该函数时都会调用该方法，来创建自己的 Function Execution Context
@@ -53,7 +53,9 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 ## Environment Record
 
-环境记录保存管理变量、参数、函数声明等
+环境记录保存管理变量、参数、声明函数等。
+
+`OuterEnv`属性：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record。
 
 ## 函数
 ### Function Object
@@ -68,8 +70,12 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 _`Environment`指向声明该函数的外部的 Lexical Environment_；
 
 
-### 创建阶段、执行阶段
+### 创建阶段
+- 为函数内部的变量、参数，分配内存空间，未初始化值，执行阶段才赋值
+- 为函数内部的声明函数，分配内存空间，初始化（这就是声明函数可以提前被使用的原因）
 
+### 执行阶段
+- 执行`Call`方法：创建自己的 Function Execution Context
 
 
 ## ai 总结
