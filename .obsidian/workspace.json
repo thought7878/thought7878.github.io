@@ -140,24 +140,12 @@
             }
           },
           {
-            "id": "60f000befbbe6d58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/前端知识体系及难点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1940058c717cf3c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/前端roadmap-AI总结.md",
+                "file": "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,14 +193,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -290,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md"
+                "file": "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md"
               }
             }
           }
@@ -356,18 +344,26 @@
   },
   "active": "9ec46bb058283a8f",
   "lastOpenFiles": [
-    "_posts/interview/前端知识体系及难点.md",
     "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/表达式、运算符/一元运算符.md",
+    "_posts/base/js/知识点总结/表达式、运算符",
+    "_posts/base/js/知识点总结/数据类型/类型转换.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
+    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
+    "_posts/base/js/知识点总结/数据类型/类型判断.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/interview/前端知识体系及难点.md",
+    "_posts/要整理的.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
+    "_posts/base/知识目录、路线图/JS_AI总结.md",
     "_posts/base/知识目录、路线图/浏览器.md",
     "_posts/interview/0_前端的知识目录.md",
     "_posts/base/知识目录、路线图/fullstack-overview.md",
     "_posts/base/知识目录、路线图/fullstack-overview copy.md",
-    "_posts/base/知识目录、路线图/前端roadmap-AI总结.md",
     "_posts/base/知识目录、路线图",
     "_posts/engineering/webpack/构建性能/实际案例.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/methods/卢曼笔记法.md",
-    "_posts/要整理的.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/tools/obsidian/知识管理.md",
     "_posts/engineering/webpack/目录.md",
@@ -376,15 +372,8 @@
     "_posts/methods/2019-11-18-学习方法.md",
     "_posts/methods/如何学习和记忆：字幕.md",
     "_posts/任务记录/2025/学习复习模版.md",
-    "_posts/methods/overview.md",
-    "_posts/methods/重塑自我 ！制定2025年计划！.md",
-    "_posts/AI/豆包.md",
-    "_posts/base/js/知识点总结/闭包.md",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-    "_posts/interview/教程/前端面试之道/4.JS 基础知识点及常考面试题（二）.md",
-    "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
     "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
@@ -401,7 +390,6 @@
     "_posts/base/js/知识点总结/不好分类",
     "_posts/base/js/Advanced Web Development Quiz/media",
     "_posts/base/js/Advanced Web Development Quiz",
-    "_posts/base/js/知识点总结/函数",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
