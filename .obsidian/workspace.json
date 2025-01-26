@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md"
+                "file": "_posts/base/知识目录、路线图/React.md"
               }
             }
           }
@@ -356,8 +356,16 @@
   },
   "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
+    "_posts/react/总结/Conditional Rendering.md",
+    "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/总结/Composition & Inheritance.md",
+    "_posts/react/总结/Props & State.md",
+    "_posts/react/总结/Component.md",
+    "_posts/react/总结/待整理的",
+    "_posts/react/总结/待整理的/04.全局状态、通信、数据流动.md",
+    "_posts/react/总结/待整理的/事件.md",
     "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
     "_posts/base/js/知识点总结/数据类型/JSON.md",
     "_posts/base/js/知识点总结/数据类型/Array.md",
     "_posts/base/js/知识点总结/数据类型/Set.md",
@@ -375,14 +383,7 @@
     "_posts/base/js/知识点总结/简介",
     "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/methods/卢曼笔记法.md",
-    "_posts/base/知识目录、路线图/React.md",
     "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
-    "_posts/外面的世界/男女.md",
-    "_posts/要整理的.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/js/知识点总结/模块/ES Module.md",
-    "_posts/base/js/知识点总结/模块/CommonJS.md",
-    "_posts/base/其他类型的基础知识/绝对路径和相对路径.md",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/Class",
@@ -399,7 +400,6 @@
     "_posts/interview/教程/前端面试之道/media/9096c31e97535c767de42801d6c1add8_MD5.png",
     "_posts/interview/教程/前端面试之道/media/1518e1bccf25f0e44bbdbaadec087c62_MD5.png",
     "_posts/interview/教程/前端面试之道/media/f1b797b20423d80ba1425726c43afdab_MD5.gif",
-    "_posts/任务记录/2025/media",
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"

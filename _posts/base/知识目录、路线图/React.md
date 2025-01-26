@@ -2,20 +2,20 @@
 
 ## Vite
 
-# Components
-## Functional Components
+# Component
+参考 [[Component]]
+
+## Functional Component
 
 ### JSX
 
-
 ### Props vs State
-
+参考 [[Props & State]]
 
 ### Conditional Rendering
-
-
+参考 [[Conditional Rendering]]
 ### Composition vs Inheritance
-组合与继承
+参考 [[Composition & Inheritance]]
 
 # Rendering
 
