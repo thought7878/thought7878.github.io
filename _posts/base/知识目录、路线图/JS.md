@@ -241,8 +241,8 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 ## Fetch
 参考 [[Fetch]]
 
-# Classe
-
+# Class
+参考 [[Class]]
 
 # Iterators and Generators
 

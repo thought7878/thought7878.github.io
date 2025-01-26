@@ -88,14 +88,14 @@ fetch("https://api.example.com/image")
 
 ### 错误处理
 
-虽然 `fetch()` 返回的 `Promise` 在网络请求失败（如网络中断、DNS 解析失败等）时会被拒绝，但需要注意的是，当服务器返回的状态码不是 200 - 299 时，`Promise` 并不会被拒绝，而是会正常解析为一个 `Response` 对象。因此，在处理响应时，需要手动检查 `response.ok` 属性来判断请求是否成功。
+虽然 `fetch()` *返回的 `Promise` 在网络请求失败（如网络中断、DNS 解析失败等）时会被拒绝*，但需要注意的是，*当服务器返回的状态码不是 200 - 299 时，`Promise` 并不会被拒绝*，而是会正常解析为一个 `Response` 对象。**因此，在处理响应时，需要手动检查 `response.ok` 属性来判断请求是否成功**。
 
 ### 兼容性和 polyfill
 
-`Fetch API` 在现代浏览器中得到了广泛支持，但在一些旧版本的浏览器中可能不被支持。为了确保代码的兼容性，可以使用 `whatwg-fetch` 这样的 polyfill 库，它可以在不支持 `Fetch API` 的浏览器中模拟其功能。
+`Fetch API` 在现代浏览器中得到了广泛支持，但在一些旧版本的浏览器中可能不被支持。为了确保代码的兼容性，可以*使用 `whatwg-fetch` 这样的 polyfill 库*，它可以在不支持 `Fetch API` 的浏览器中模拟其功能。
 
 ### 与 `XMLHttpRequest` 对比
 
 - **语法简洁**：`Fetch` 基于 `Promise`，避免了 `XMLHttpRequest` 中复杂的回调嵌套，使代码更易于阅读和维护。
 - **功能丰富**：`Fetch` 提供了更方便的请求和响应处理方式，如可以直接处理 `JSON` 数据、操作请求和响应头信息等。
-- **兼容性**：`XMLHttpRequest` 兼容性更好，几乎支持所有浏览器；而 `Fetch` 在旧浏览器中需要使用 polyfill。
+- **兼容性**：`XMLHttpRequest` 兼容性更好，几乎支持所有浏览器；而 `Fetch` *在旧浏览器中需要使用 polyfill*。
