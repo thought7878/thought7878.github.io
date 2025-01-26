@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/Web APIs/Fetch.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/Web APIs/Fetch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/js/知识点总结/Web APIs/Fetch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md"
+                "file": "_posts/base/js/知识点总结/Web APIs/Fetch.md"
               }
             }
           }
@@ -356,6 +356,15 @@
   },
   "active": "9ec46bb058283a8f",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/Web APIs/Fetch.md",
+    "_posts/base/js/知识点总结/Web APIs/XMLHttpRequest.md",
+    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
+    "_posts/base/js/知识点总结/Web APIs",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/异步编程/async & await.md",
+    "_posts/base/js/知识点总结/异步编程/promise/overview.md",
+    "_posts/base/js/知识点总结/异步编程",
     "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
     "_posts/base/js/Advanced Web Development Quiz/21-q21-font-strategies.md",
     "_posts/base/js/Advanced Web Development Quiz/20-q20-front-end-security.md",
@@ -375,13 +384,6 @@
     "_posts/base/js/Advanced Web Development Quiz/4-q4-call-stack-event-loop.md",
     "_posts/base/js/Advanced Web Development Quiz/3-q3-resolving-domain-requests.md",
     "_posts/base/js/Advanced Web Development Quiz/2-q2-rendering-pipeline-compositing.md",
-    "_posts/base/js/Advanced Web Development Quiz/1-q1-async-defer-execution-order.md",
-    "_posts/base/知识目录、路线图/JS.md",
-    "_posts/base/js/知识点总结/严格模式.md",
-    "_posts/base/js/知识点总结/不好分类/Strict Mode.md",
-    "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
-    "_posts/base/js/知识点总结/表达式、运算符/BigInt运算符.md",
-    "_posts/base/js/知识点总结/表达式、运算符/逻辑运算符.md",
     "_posts/base/js/知识点总结/表达式、运算符",
     "_posts/base/知识目录、路线图",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
@@ -400,8 +402,6 @@
     "_posts/browser/缓存/缓存指令/media",
     "_posts/browser/缓存/缓存指令",
     "_posts/base/js/知识点总结/不好分类",
-    "_posts/base/js/Advanced Web Development Quiz/media",
-    "_posts/base/js/Advanced Web Development Quiz",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

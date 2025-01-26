@@ -225,18 +225,21 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 
 # Asynchronous
 ## Promise
+参考 [[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
 
 ## async / await
+参考 [[async & await]]
 
 ## Web APIs
-
+参考 [[Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 ## Event Loop/Call Stack/(Micro)Task Queue
-
+参考 [[Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 
 # remote APIs
 ## XMLHttpRequest
-
+参考 [[XMLHttpRequest]]
 ## Fetch
+参考 [[Fetch]]
 
 # Classe
 
