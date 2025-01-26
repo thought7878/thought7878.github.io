@@ -252,6 +252,8 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 ## ES Module
 参考 [[ES Module]]
 ## CommonJS
+参考 [[CommonJS]]
+
 # Memory Management
 ## Memory lifecycle
 
