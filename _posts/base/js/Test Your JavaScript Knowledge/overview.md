@@ -242,7 +242,6 @@ _调用函数就会执行`Call`属性，创建新的 Execution Context（包含�
 
 - **Class**
 
-[[_posts/base/js/Test Your JavaScript Knowledge/media/d2a0cfd69b3fd5df12f706952b1752d8_MD5.jpeg|Open: Pasted image 20250116144706.png]]
 ![[_posts/base/js/Test Your JavaScript Knowledge/media/d2a0cfd69b3fd5df12f706952b1752d8_MD5.jpeg]]
 
 - **严格模式**

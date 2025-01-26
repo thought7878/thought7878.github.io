@@ -173,25 +173,70 @@ Functions exist so we can reuse code. They are blocks of code that execute whene
 
 **函数的存在是为了让我们可以重用代码**。它们是只要被调用就会执行的**代码块**。每个函数通常都是**为了执行特定任务而编写的**，例如用于求两个或多个数字之和的加法函数。当需要在代码中的任何位置添加数字时，可以根据需要多次调用加法函数。
 
+## Function Parameters
 
+### Default Parameters
 
+### Rest Parameters
+
+## Arrow Functions
+
+## IIFE
+
+## Arguments object
+
+## Scope and function stack(Call stack)
+### Scope
+
+A space or environment in which a particular variable or function can be accessed or used. Accessibility of this variable or function depends on where it is defined.  
+可以访问或使用特定变量或功能的空间或环境。此变量或函数的可访问性取决于定义的位置。
+
+JavaScript has the following kinds of scopes:  
+JavaScript具有以下类型的范围：
+
+- **Global scope**: The default scope for all code running in script mode.
+- **Module scope**: The scope for code running in module mode.
+- **Function scope**: The scope created with a function.
+- **Block scope**: The scope created with a pair of curly braces (a block).
+
+### Function Stack (Call stack)
+
+The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.  
+该功能堆栈是解释器如何在调用多个函数的脚本中跟踪其位置，例如当前正在执行哪个函数以及该功能中的哪些函数正在调用。
+
+### Recursion
+
+### Lexical scoping
+
+### Closures
+
+## Built-in functions
 
 # DOM APIs
-
-
+With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.  
+通过 HTML DOM，JavaScript 可以访问和更改 HTML 文档的所有元素（例如其属性、CSS 样式）、删除元素、在页面上添加和创建新元素。 Web API 是指网络应用程序编程接口。所有浏览器都有一组内置的 Web API 来支持复杂的操作并帮助访问数据。例如地理位置 API、网络存储、网络历史记录等。
 
 # Strict Mode
-
+参考 [[Strict Mode]]
 
 # This Keyword
 
 
 
 # Asynchronous
+## Promise
+
+## async / await
+
+## Web APIs
+
+## Event Loop/Call Stack/(Micro)Task Queue
 
 
 # remote APIs
+## XMLHttpRequest
 
+## Fetch
 
 # Classe
 
@@ -201,14 +246,18 @@ Functions exist so we can reuse code. They are blocks of code that execute whene
 
 
 # Module
+## ES Module
 
-
-
+## CommonJS
 # Memory Management
+## Memory lifecycle
 
-
-
+## Garbage Collection
 
 # Chrome Dev Tools
+## Debugging issues
 
+## Debugging Memory Leaks
+
+## Debugging performance
 
