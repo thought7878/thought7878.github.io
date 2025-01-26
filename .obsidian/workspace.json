@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/JS.md"
+                "file": "_posts/base/知识目录、路线图/React.md"
               }
             }
           }
@@ -344,16 +344,20 @@
   },
   "active": "9ec46bb058283a8f",
   "lastOpenFiles": [
+    "_posts/外面的世界/男女.md",
+    "_posts/base/知识目录、路线图/React.md",
+    "_posts/要整理的.md",
+    "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/模块/ES Module.md",
-    "_posts/base/js/知识点总结/模块/CommonJS.md",
     "_posts/任务记录/2025/January/26.md",
+    "_posts/base/js/知识点总结/模块/CommonJS.md",
     "_posts/base/其他类型的基础知识/绝对路径和相对路径.md",
     "_posts/interview/问题/项目经验.md",
     "_posts/tools/obsidian/知识管理.md",
     "_posts/methods/overview.md",
     "_posts/任务记录/2025/学习复习模版.md",
     "_posts/任务记录/2025/January",
-    "_posts/base/知识目录、路线图/JS.md",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/异步编程/Generator.md",
     "_posts/base/js/Advanced Web Development Quiz/17-q17-generators.md",
@@ -370,11 +374,7 @@
     "_posts/base/js/知识点总结/Web APIs/Fetch/Fetch.md",
     "_posts/base/js/知识点总结/Web APIs/Fetch/Response.md",
     "_posts/base/js/知识点总结/Web APIs/Fetch",
-    "_posts/base/js/知识点总结/Web APIs/XMLHttpRequest.md",
-    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
     "_posts/base/js/知识点总结/Web APIs",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/js/知识点总结/异步编程/async & await.md",
     "_posts/base/js/知识点总结/异步编程",
     "_posts/base/js/知识点总结/表达式、运算符",
     "_posts/base/知识目录、路线图",
