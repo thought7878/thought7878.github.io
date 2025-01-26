@@ -25,7 +25,7 @@ myobject.constructor == MyConstructor // true
 1. 创建一个新对象
 2. 将这个对象内部的、不可访问的`[[prototype]]`设置为构造函数的`prototype`对象，还是看这张图。
 
-> [!Caution] >[[Prototype]] 是对象内维护其对应原型对象的属性，但它不可直接被外界访问和修改；**proto** 是浏览器厂商实现的访问和修改对象内部属性 [[Prototype]] 的访问器属性(getter/setter)，不规范，现多用ECMAScript 定义的 Object.getPrototypeOf 和 Object.setPrototypeOf 代替。
+> [!Caution] >[[Prototype & Inheritance]] 是对象内维护其对应原型对象的属性，但它不可直接被外界访问和修改；**proto** 是浏览器厂商实现的访问和修改对象内部属性 [[Prototype & Inheritance]] 的访问器属性(getter/setter)，不规范，现多用ECMAScript 定义的 Object.getPrototypeOf 和 Object.setPrototypeOf 代替。
 
 3. 它将this变量指向新创建的对象。
 4. 执行构造函数，每当提到this时，使用新创建的对象作为this。
@@ -224,7 +224,7 @@ console.log(Bar.prototype.isPrototypeOf(bar))
 ```
 
 2. getPrototypeOf
-   > The Object.getPrototypeOf() static method returns the prototype (i.e. the value of the internal [[Prototype]] property) of the specified object.
+   > The Object.getPrototypeOf() static method returns the prototype (i.e. the value of the internal [[Prototype & Inheritance]] property) of the specified object.
 
 ```javascript
 const prototype1 = {}

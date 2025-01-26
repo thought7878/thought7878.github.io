@@ -1,0 +1,3 @@
+JavaScript, invented by Brendan Eich, achieved the status of an ECMA standard in 1997 and adopted the official name ECMAScript. This language has evolved through several versions, namely ES1, ES2, ES3, ES5, and the transformative ES6. These updates have played a crucial role in improving and standardizing JavaScript, making it widely used and valuable in the ever-changing field of web development.  
+
+JavaScript 由 Brendan Eich 发明，于 1997 年获得 ECMA 标准地位，并采用正式名称 ECMAScript。这种语言已经发展了多个版本，即 ES1、ES2、ES3、ES5 和*变革性的 ES6*。这些更新在改进和标准化 JavaScript 方面发挥了至关重要的作用，使其在不断变化的 Web 开发领域得到广泛使用和有价值。

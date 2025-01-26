@@ -1,14 +1,10 @@
 # JavaScript简介
-JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It lets us add interactivity to pages e.g. you might have seen sliders, alerts, click interactions, popups, etc on different websites — all of that is built using JavaScript. Apart from being used in the browser, it is also used in other non-browser environments as well such as Node.js for writing server-side code in JavaScript, Electron for writing desktop applications, React Native for mobile applications, and so on.  
-
-JavaScript，通常缩写为 JS，是一种编程语言，与 HTML 和 CSS 一样，是万维网的核心技术之一。它允许我们向页面添加交互性，例如您可能在不同的网站上看到过滑块、警报、点击交互、弹出窗口等 - 所有这些都是使用 JavaScript 构建的。除了在浏览器中使用之外，它还可以在其他非浏览器环境中使用，例如用于用 JavaScript 编写服务器端代码的 Node.js、用于编写桌面应用程序的 Electron、用于移动应用程序的 React Native 等。
 ## What is JavaScript?
+参考 [[What is JavaScript?]]
 ## History of JavaScript
-
+参考 [[History of JavaScript]]
 ## Javascript Versions
-JavaScript, invented by Brendan Eich, achieved the status of an ECMA standard in 1997 and adopted the official name ECMAScript. This language has evolved through several versions, namely ES1, ES2, ES3, ES5, and the transformative ES6. These updates have played a crucial role in improving and standardizing JavaScript, making it widely used and valuable in the ever-changing field of web development.  
-
-JavaScript 由 Brendan Eich 发明，于 1997 年获得 ECMA 标准地位，并采用正式名称 ECMAScript。这种语言已经发展了多个版本，即 ES1、ES2、ES3、ES5 和变革性的 ES6。这些更新在改进和标准化 JavaScript 方面发挥了至关重要的作用，使其在不断变化的 Web 开发领域得到广泛使用和有价值。
+参考 [[Javascript Versions]]
 ## How to Run Javascript
 
 # Variables
@@ -30,31 +26,22 @@ To use variables in JavaScript, we first need to create it i.e. declare a variab
 
 ## Primitive Types
 7种原始类型、基本类型
-
+参考 [[基本数据类型、引用数据类型]]
 ## Object
 对象类型、引用类型：对象、数组、函数
+参考 [[基本数据类型、引用数据类型]]
+### Prototype
+参考 [[Prototype & Inheritance]]
 
 ### Prototypal Inheritance
-The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the Prototype of an object, we use Object.getPrototypeOf and Object.setPrototypeOf.  
-
-原型继承是 javascript 中的一项功能，用于在对象中添加方法和属性。它是一个对象可以继承另一个对象的属性和方法的方法。传统上，为了获取和设置对象的 Prototype，我们使用 Object.getPrototypeOf 和 Object.setPrototypeOf。
-### Prototypes
-JavaScript is an object-oriented language built around a prototype model. In JavaScript, every object inherits properties from its prototype, if there are any. A prototype is simply an object from which another object inherits properties. To create complex programs using JavaScript, one has to be proficient in working with prototypes — they form the very core of OOP in the language.  
-
-JavaScript 是一种围绕原型模型构建的面向对象语言。在 JavaScript 中，每个对象都会从其原型继承属性（如果有的话）。原型只是一个对象，另一个对象从该对象继承属性。要使用 JavaScript 创建复杂的程序，必须熟练使用原型——它们构成了该语言中 OOP 的核心。
+参考 [[Prototype & Inheritance]]
 
 ## 类型判断
 参考 [[类型判断]]
-### typeof
-### instanceof
-### Object.prototype.toString.call()
-### Array.isArray()
 
 ## Type Conversion
 参考 [[类型转换]]
 
-Type conversion (or typecasting) means the transfer of data from one data type to another. Implicit conversion happens when the compiler (for compiled languages) or runtime (for script languages like [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript)) automatically converts data types. The source code can also explicitly require a conversion to take place.  
-类型转换（或类型转换）是指将数据从一种数据类型转换为另一种数据类型。当编译器（对于编译语言）或运行时（对于 JavaScript 等脚本语言）自动转换数据类型时，就会发生隐式转换。源代码还可以明确要求进行转换。
 ### Type Conversion/Coercion  
 类型转换/强制
 
@@ -72,21 +59,31 @@ Implicit type conversion happens when the compiler or runtime automatically conv
 
 Type casting means transferring data from one data type to another by explicitly specifying the type to convert the given data to. Explicit type casting is normally done to make data compatible with other variables. Examples of typecasting methods are `parseInt()`, `parseFloat()`, `toString()`.  
 类型转换意味着通过显式指定要将给定数据转换为的类型，将数据从一种数据类型传输到另一种数据类型。通常进行显式类型转换以使数据与其他变量兼容。类型转换方法的示例有 `parseInt()` 、 `parseFloat()` 、 `toString()` 。
+
 # Data Structures
 ## Keyed Collections
 ### Map
+参考 [[Map]]
 ### Weak map
+参考 [[WeakMap]]
 ### Set
+参考 [[Set]]
 ### WeakSet
+参考 [[WeakSet]]
+
 ## Indexed Collections
-### Typed Arrays
+### Typed Array
 In Javascript, a typed array is an array-like buffer of binary data. There is no JavaScript property or object named TypedArray, but properties and methods can be used with typed array objects.  
 在 Javascript 中，类型化数组是类似数组的二进制数据缓冲区。没有名为 TypedArray 的 JavaScript 属性或对象，但属性和方法可以与类型化数组对象一起使用。
-### Arrays
+### Array
+参考 [[Array]]
+
 Arrays are objects that store a collection of items and can be assigned to a variable. They have their methods that can perform operations on the array.  
 数组是存储项目集合并可以分配给变量的对象。他们的方法可以在数组上执行操作。
+
 ## Structured data
 ### JSON
+参考 [[JSON]]
 
 # Equality Comparisons
 相等比较

@@ -188,12 +188,24 @@
             }
           },
           {
-            "id": "9ec46bb058283a8f",
+            "id": "7a6e7d278993199d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "beb35d5849b103fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/2025/January/26.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/base/知识目录、路线图/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md"
+                "file": "_posts/base/知识目录、路线图/JS.md"
               }
             }
           }
@@ -342,37 +354,38 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9ec46bb058283a8f",
+  "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/外面的世界/男女.md",
-    "_posts/base/知识目录、路线图/React.md",
-    "_posts/要整理的.md",
+    "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
     "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/js/知识点总结/数据类型/JSON.md",
+    "_posts/base/js/知识点总结/数据类型/Array.md",
+    "_posts/base/js/知识点总结/数据类型/Set.md",
+    "_posts/任务记录/2025/January/26.md",
+    "_posts/base/js/知识点总结/数据类型/WeakSet.md",
+    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
+    "_posts/base/js/知识点总结/数据类型/Map.md",
+    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
+    "_posts/base/js/知识点总结/数据类型/类型转换.md",
+    "_posts/base/js/知识点总结/数据类型/类型判断.md",
+    "_posts/base/js/知识点总结/Class/Prototype & Inheritance.md",
+    "_posts/base/js/知识点总结/简介/Javascript Versions.md",
+    "_posts/base/js/知识点总结/简介/History of JavaScript.md",
+    "_posts/base/js/知识点总结/简介/What is JavaScript?.md",
+    "_posts/base/js/知识点总结/简介",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/methods/卢曼笔记法.md",
+    "_posts/base/知识目录、路线图/React.md",
+    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
+    "_posts/外面的世界/男女.md",
+    "_posts/要整理的.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/模块/ES Module.md",
-    "_posts/任务记录/2025/January/26.md",
     "_posts/base/js/知识点总结/模块/CommonJS.md",
     "_posts/base/其他类型的基础知识/绝对路径和相对路径.md",
-    "_posts/interview/问题/项目经验.md",
-    "_posts/tools/obsidian/知识管理.md",
-    "_posts/methods/overview.md",
-    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
-    "_posts/base/js/知识点总结/异步编程/Generator.md",
-    "_posts/base/js/Advanced Web Development Quiz/17-q17-generators.md",
-    "_posts/base/js/知识点总结/异步编程/Iterator.md",
-    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/21 插件开发基础：实例剖析插件基本形态与架构逻辑.md",
-    "_posts/interview/教程/前端面试之道/6.JS 异步编程及常考面试题.md",
-    "_posts/base/js/winter/6.JavaScript执行（二）：闭包和执行上下文.md",
-    "_posts/base/js/winter/5.JavaScript执行（一）：宏观任务-微观任务-Promise-async-await.md",
-    "_posts/courses/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
-    "_posts/base/js/Test Your JavaScript Knowledge/overview.md",
-    "_posts/base/js/知识点总结/Class/Class.md",
     "_posts/base/js/知识点总结/Class",
-    "_posts/base/js/知识点总结/Web APIs/Fetch/Fetch.md",
-    "_posts/base/js/知识点总结/Web APIs/Fetch/Response.md",
     "_posts/base/js/知识点总结/Web APIs/Fetch",
     "_posts/base/js/知识点总结/Web APIs",
     "_posts/base/js/知识点总结/异步编程",
@@ -389,7 +402,6 @@
     "_posts/任务记录/2025/media",
     "_posts/libraries/shadcn/component/react-day-picker/media/85820e52b5727b1c503b3efc254ae214_MD5.jpeg",
     "_posts/libraries/shadcn/component/react-day-picker/media/Pasted image 20250123093113.png",
-    "_posts/libraries/shadcn/component/react-day-picker/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
