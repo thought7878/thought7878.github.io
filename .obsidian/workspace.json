@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Event.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Event.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Event.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md"
+                "file": "_posts/react/总结/Event.md"
               }
             }
           }
@@ -356,8 +356,11 @@
   },
   "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/react/总结/Ref.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/总结/Event.md",
+    "_posts/react/总结/Ref-豆包.md",
+    "_posts/react/总结/Ref-DeepSeek.md",
+    "_posts/react/总结/Hooks/useRef.md",
     "_posts/react/总结/Render Props.md",
     "_posts/react/总结/Key.md",
     "_posts/react/总结/Render.md",
@@ -380,9 +383,6 @@
     "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
     "_posts/base/js/知识点总结/数据类型/类型转换.md",
     "_posts/base/js/知识点总结/数据类型/类型判断.md",
-    "_posts/base/js/知识点总结/Class/Prototype & Inheritance.md",
-    "_posts/base/js/知识点总结/简介/Javascript Versions.md",
-    "_posts/base/js/知识点总结/简介/History of JavaScript.md",
     "_posts/base/js/知识点总结/简介",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
