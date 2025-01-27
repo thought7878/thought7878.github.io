@@ -66,15 +66,14 @@
 
 
 # Routers
-
 ## React Router
 参考 [[React Router]]
 ## TanStack Router
 参考 [[TanStack Router]]
 
 # State Management
-
 ## Zustand
+参考 [[Zustand-DeepSeek]]、[[Zustand-豆包]]
 
 ## Jotai
 

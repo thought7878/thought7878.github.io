@@ -274,7 +274,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 308.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -354,12 +354,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/react/State Management/Zustand",
-    "_posts/react/State Management",
     "_posts/react/Routers/TanStack Router/TanStack Router.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/State Management/Zustand/Zustand-DeepSeek.md",
+    "_posts/react/State Management/Zustand/Zustand-豆包.md",
+    "_posts/AI/DeepSeek.md",
+    "_posts/react/State Management/Zustand",
+    "_posts/react/State Management",
     "_posts/react/Routers/TanStack Router",
     "_posts/react/Routers",
     "_posts/react/Routers/React-Router/React Router.md",
@@ -384,14 +387,11 @@
     "_posts/base/js/知识点总结/数据类型/JSON.md",
     "_posts/base/js/知识点总结/数据类型/Array.md",
     "_posts/base/js/知识点总结/数据类型/Set.md",
-    "_posts/任务记录/2025/January/26.md",
-    "_posts/base/js/知识点总结/数据类型/WeakSet.md",
     "_posts/base/js/知识点总结/简介",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/Class",
     "_posts/base/js/知识点总结/Web APIs/Fetch",
-    "_posts/base/js/知识点总结/Web APIs",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
