@@ -1,5 +1,5 @@
 ### React Router 的核心概念  
-React Router 是 React 生态中用于实现**单页面应用（SPA）路由管理**的核心库。它通过 URL 与组件之间的映射关系，实现页面间的无刷新跳转和状态同步。以下是 React Router 的核心用法和最佳实践（以 **v6** 版本为主）。
+`React Router` 是 React 生态中用于实现**单页面应用（SPA）路由管理**的核心库。*它通过 URL 与组件之间的映射关系*，实现页面间的无刷新跳转和状态同步。以下是 React Router 的核心用法和最佳实践（以 **v6** 版本为主）。
 
 ---
 
@@ -71,6 +71,7 @@ function UserPage() {
 import { useSearchParams } from "react-router-dom";  
 
 function SearchPage() {  
+  // https://domaim.com/user?q=1
   const [searchParams, setSearchParams] = useSearchParams();  
   const keyword = searchParams.get("q");  
 
@@ -86,7 +87,7 @@ function SearchPage() {
 
 ### 嵌套路由与布局  
 #### 嵌套路由定义  
-通过 `<Outlet>` 实现嵌套路由的占位渲染：  
+通过 `<Outlet>` 实现嵌套路由的*占位*渲染：  
 ```jsx  
 // 父路由组件  
 function Dashboard() {  
@@ -137,7 +138,7 @@ function LoginButton() {
 ---
 
 ### 路由懒加载与代码分割  
-结合 `React.lazy` 和 `Suspense` 实现按需加载：  
+结合 `React.lazy` 和 `Suspense` *实现按需加载*：  
 ```jsx  
 import { lazy, Suspense } from "react";  
 
@@ -157,7 +158,7 @@ function App() {
 ---
 
 ### 路由守卫与权限控制  
-通过高阶组件或自定义 Hook 实现路由拦截：  
+通过*高阶组件*或*自定义 Hook* 实现路由拦截：  
 ```jsx  
 function PrivateRoute({ children }) {  
   const isAuthenticated = checkAuth();  

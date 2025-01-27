@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/React-Router/React Router.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/React-Router/React Router.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/React-Router/React Router.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/React-Router/React Router.md"
+                "file": "_posts/base/知识目录、路线图/React.md"
               }
             }
           }
@@ -354,11 +354,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7a6e7d278993199d",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "_posts/react/State Management/Zustand",
+    "_posts/react/State Management",
+    "_posts/react/Routers/TanStack Router/TanStack Router.md",
     "_posts/base/知识目录、路线图/React.md",
-    "_posts/react/React-Router/Why-What-How.md",
-    "_posts/react/React-Router/React Router.md",
+    "_posts/react/Routers/TanStack Router",
+    "_posts/react/Routers",
+    "_posts/react/Routers/React-Router/React Router.md",
+    "_posts/react/Routers/React-Router/Why-What-How.md",
     "_posts/react/总结/High Order Components.md",
     "_posts/react/总结/Event.md",
     "_posts/react/总结/Ref-豆包.md",
@@ -381,17 +386,12 @@
     "_posts/base/js/知识点总结/数据类型/Set.md",
     "_posts/任务记录/2025/January/26.md",
     "_posts/base/js/知识点总结/数据类型/WeakSet.md",
-    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
-    "_posts/base/js/知识点总结/数据类型/Map.md",
     "_posts/base/js/知识点总结/简介",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/Class",
     "_posts/base/js/知识点总结/Web APIs/Fetch",
     "_posts/base/js/知识点总结/Web APIs",
-    "_posts/base/js/知识点总结/异步编程",
-    "_posts/base/js/知识点总结/表达式、运算符",
-    "_posts/base/知识目录、路线图",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
