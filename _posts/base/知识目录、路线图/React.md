@@ -18,7 +18,7 @@
 参考 [[Composition & Inheritance]]
 
 # Rendering
-
+参考 [[Render]]
 ## Component Lifecycle 
 
 ## Lists and Keys

@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Render.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Render.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/总结/Render.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md"
+                "file": "_posts/react/总结/Render.md"
               }
             }
           }
@@ -356,8 +356,9 @@
   },
   "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/react/总结/Conditional Rendering.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/总结/Render.md",
+    "_posts/react/总结/Conditional Rendering.md",
     "_posts/react/总结/Composition & Inheritance.md",
     "_posts/react/总结/Props & State.md",
     "_posts/react/总结/Component.md",
@@ -383,7 +384,6 @@
     "_posts/base/js/知识点总结/简介",
     "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/methods/卢曼笔记法.md",
-    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/Class",
