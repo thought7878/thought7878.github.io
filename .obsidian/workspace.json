@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/Render.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/Render.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/Render.md",
+                "file": "_posts/base/知识目录、路线图/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/Render.md"
+                "file": "_posts/base/知识目录、路线图/React.md"
               }
             }
           }
@@ -356,7 +356,10 @@
   },
   "active": "7a6e7d278993199d",
   "lastOpenFiles": [
+    "_posts/react/总结/Ref.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/总结/Render Props.md",
+    "_posts/react/总结/Key.md",
     "_posts/react/总结/Render.md",
     "_posts/react/总结/Conditional Rendering.md",
     "_posts/react/总结/Composition & Inheritance.md",
@@ -380,10 +383,7 @@
     "_posts/base/js/知识点总结/Class/Prototype & Inheritance.md",
     "_posts/base/js/知识点总结/简介/Javascript Versions.md",
     "_posts/base/js/知识点总结/简介/History of JavaScript.md",
-    "_posts/base/js/知识点总结/简介/What is JavaScript?.md",
     "_posts/base/js/知识点总结/简介",
-    "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/methods/卢曼笔记法.md",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",
     "_posts/base/js/知识点总结/Class",
