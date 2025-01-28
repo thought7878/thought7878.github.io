@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/Routers/React-Router/React-Router的原理-豆包.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/Routers/React-Router/React-Router的原理-豆包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md",
+                "file": "_posts/react/Routers/React-Router/React-Router的原理-豆包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React.md"
+                "file": "_posts/react/Routers/React-Router/React-Router的原理-豆包.md"
               }
             }
           }
@@ -356,8 +356,11 @@
   },
   "active": "7a6e7d278993199d",
   "lastOpenFiles": [
-    "_posts/react/Routers/TanStack Router/TanStack Router.md",
+    "_posts/react/Routers/React-Router/Why-What-How.md",
+    "_posts/react/Routers/React-Router/React-Router的原理-豆包.md",
+    "_posts/react/Routers/React-Router/React Router.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/react/Routers/TanStack Router/TanStack Router.md",
     "_posts/react/State Management/Zustand/Zustand-DeepSeek.md",
     "_posts/react/State Management/Zustand/Zustand-豆包.md",
     "_posts/AI/DeepSeek.md",
@@ -365,8 +368,6 @@
     "_posts/react/State Management",
     "_posts/react/Routers/TanStack Router",
     "_posts/react/Routers",
-    "_posts/react/Routers/React-Router/React Router.md",
-    "_posts/react/Routers/React-Router/Why-What-How.md",
     "_posts/react/总结/High Order Components.md",
     "_posts/react/总结/Event.md",
     "_posts/react/总结/Ref-豆包.md",
@@ -386,7 +387,6 @@
     "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md",
     "_posts/base/js/知识点总结/数据类型/JSON.md",
     "_posts/base/js/知识点总结/数据类型/Array.md",
-    "_posts/base/js/知识点总结/数据类型/Set.md",
     "_posts/base/js/知识点总结/简介",
     "_posts/任务记录/2025/January",
     "_posts/base/js/知识点总结/模块",

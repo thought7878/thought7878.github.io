@@ -159,8 +159,11 @@ function App() {
 
 ### 路由守卫与权限控制  
 通过*高阶组件*或*自定义 Hook* 实现路由拦截：  
+- 高阶组件：添加登陆、权限的验证逻辑
+- 自定义Hook：获取登陆状态
 ```jsx  
 function PrivateRoute({ children }) {  
+  // 自定义Hook，获取登陆状态
   const isAuthenticated = checkAuth();  
   const navigate = useNavigate();  
 
