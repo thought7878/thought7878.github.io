@@ -79,7 +79,7 @@
 ## Context API
 
 ## Redux
-参考 [[Redux-DS]] 、[[原理-DS]]
+参考 [[Redux-DS]] 、[[原理-DB]]
 
 # Styling
 ## Tailwind CSS
