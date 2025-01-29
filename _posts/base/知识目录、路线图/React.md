@@ -64,7 +64,7 @@
 
 # Routers
 ## React Router
-参考 [[React Router]]
+参考 [[React Router-DeepSeek]]
 ## TanStack Router
 参考 [[TanStack Router]]
 
@@ -77,8 +77,9 @@
 ## MobX
 
 ## Context API
-## Redux
 
+## Redux
+参考 [[Redux-DS]] 、[[原理-DS]]
 
 # Styling
 ## Tailwind CSS
