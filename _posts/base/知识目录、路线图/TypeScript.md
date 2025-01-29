@@ -19,12 +19,23 @@
 
 # Typescript Types
 ## Primitive Types 
+参考 [[Primitive]]
 
 ## Object Types 
+### Interface
+参考 [[Interface-DB]]、[[Interface-DS]]
+### Class
+参考 [[Class-DS]]
 
 ## Top Types 
+### unknown
+参考 [[unknown]]
+### any
+参考 [[any]]
 
 ## Bottom Types
+### never
+参考 [[never]]
 
 ## Assertion
 
