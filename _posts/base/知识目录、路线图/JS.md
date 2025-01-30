@@ -76,7 +76,7 @@ Type casting means transferring data from one data type to another by explicitly
 In Javascript, a typed array is an array-like buffer of binary data. There is no JavaScript property or object named TypedArray, but properties and methods can be used with typed array objects.  
 在 Javascript 中，类型化数组是类似数组的二进制数据缓冲区。没有名为 TypedArray 的 JavaScript 属性或对象，但属性和方法可以与类型化数组对象一起使用。
 ### Array
-参考 [[Array]]
+参考 [[_posts/base/js/知识点总结/数据类型/Array]]
 
 Arrays are objects that store a collection of items and can be assigned to a variable. They have their methods that can perform operations on the array.  
 数组是存储项目集合并可以分配给变量的对象。他们的方法可以在数组上执行操作。

@@ -188,12 +188,12 @@
             }
           },
           {
-            "id": "7a6e7d278993199d",
+            "id": "ee1c394007e2e23e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md"
+                "file": "_posts/typescript/总结/Types/Object Types/Object.md"
               }
             }
           }
@@ -354,13 +354,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7a6e7d278993199d",
+  "active": "ee1c394007e2e23e",
   "lastOpenFiles": [
-    "_posts/typescript/总结/Types/Object Types/Class-DS.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/Types/Object Types/Object.md",
+    "_posts/typescript/总结/Types/Object Types/Tuple.md",
+    "_posts/methods/卢曼笔记法.md",
+    "_posts/typescript/总结/Types/Object Types/Array.md",
+    "_posts/typescript/总结/Types/Object Types/Enum.md",
+    "_posts/typescript/总结/Types/Object Types/Class-DS.md",
+    "_posts/typescript/总结/Types/Bottom Types/never.md",
     "_posts/typescript/总结/Types/Object Types/Interface-DS.md",
     "_posts/typescript/总结/Types/Object Types/Interface-DB.md",
-    "_posts/typescript/总结/Types/Bottom Types/never.md",
     "_posts/typescript/总结/Types/Top Types/any.md",
     "_posts/typescript/总结/Types/Top Types/unknown.md",
     "_posts/typescript/总结/Types/Primitive Types/Primitive.md",
@@ -384,11 +389,6 @@
     "_posts/react/State Management/Redux/原理-DB.md",
     "_posts/base/js/知识点总结/数据类型/WeakSet.md",
     "_posts/base/js/知识点总结/数据类型/Set.md",
-    "_posts/base/js/知识点总结/数据类型/WeakMap.md",
-    "_posts/react/State Management/Redux/Redux-DS.md",
-    "_posts/react/State Management/Zustand/Zustand-豆包.md",
-    "_posts/react/总结/Hooks/useState-D.md",
-    "_posts/react/总结/Hooks/useState.md",
     "_posts/react/State Management/Zustand",
     "_posts/react/State Management",
     "_posts/react/Routers/TanStack Router",

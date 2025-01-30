@@ -1,13 +1,13 @@
 ### TypeScript 中的 `class` 详解
 
-TypeScript 的 `class` 在 JavaScript 类的基础上，增加了**类型注解**、**访问修饰符**等特性，使得面向对象编程（OOP）更安全、更易维护。以下是 TypeScript 类的核心概念和用法。
+TypeScript 的 `class` *在 JavaScript 类的基础上*，增加了**类型注解**、**访问修饰符**等特性，使得面向对象编程（OOP）更安全、更易维护。以下是 TypeScript 类的核心概念和用法。
 
 ---
 
 ### 一、TypeScript 类的基础特性
 
 #### 1. **基本语法**  
-与 JavaScript 类语法相似，但支持类型注解：
+与 JavaScript 类语法*相似，但支持类型注解：*
 ```typescript
 class Person {
   name: string;  // 声明属性类型
@@ -260,7 +260,7 @@ class Square extends Shape {
   constructor(private side: number) {
     super();
   }
-
+  // 
   override area(): number {
     return this.side ** 2;
   }
@@ -270,7 +270,7 @@ class Circle extends Shape {
   constructor(private radius: number) {
     super();
   }
-
+  // 
   override area(): number {
     return Math.PI * this.radius ** 2;
   }

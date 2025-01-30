@@ -26,6 +26,14 @@
 参考 [[Interface-DB]]、[[Interface-DS]]
 ### Class
 参考 [[Class-DS]]
+### Enum
+参考 [[Enum]]
+### Array
+参考 [[_posts/typescript/总结/Types/Object Types/Array|Array]]
+### Tuple
+参考 [[Tuple]]
+### Object
+参考 [[Object]]
 
 ## Top Types 
 ### unknown
