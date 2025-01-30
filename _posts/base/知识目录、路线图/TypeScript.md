@@ -55,7 +55,8 @@
 ### satisfies
 参考 [[_posts/typescript/总结/Types/Assertion/satisfies|satisfies]]
 
-# Type Inference  类型推理
+# Type Inference
+类型推断
 
 
 

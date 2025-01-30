@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/类型推断.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/类型推断.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/类型推断.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md"
+                "file": "_posts/typescript/总结/Types/类型推断.md"
               }
             }
           }
@@ -356,8 +356,9 @@
   },
   "active": "ee1c394007e2e23e",
   "lastOpenFiles": [
-    "_posts/typescript/总结/Types/Assertion/satisfies.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/Types/类型推断.md",
+    "_posts/typescript/总结/Types/Assertion/satisfies.md",
     "_posts/typescript/总结/Types/Assertion/非空断言---!.md",
     "_posts/typescript/总结/Types/Assertion/as const.md",
     "_posts/typescript/总结/Types/Assertion/as.md",
@@ -388,7 +389,6 @@
     "_posts/typescript/总结/Install、Configure、run",
     "_posts/typescript/总结/TypeScript 和 JavaScript的互操作性.md",
     "_posts/typescript/总结/TypeScript vs JavaScript.md",
-    "_posts/base/知识目录、路线图/React.md",
     "_posts/react/State Management/Zustand",
     "_posts/react/State Management",
     "_posts/react/Routers/TanStack Router",
