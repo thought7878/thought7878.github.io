@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/Types/类型推断.md",
+                "file": "_posts/typescript/总结/类型组合/联合类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/总结/Types/类型推断.md",
+                "file": "_posts/typescript/总结/类型组合/联合类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/总结/Types/类型推断.md",
+                "file": "_posts/typescript/总结/类型组合/联合类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/typescript/总结/Types/类型推断.md"
+                "file": "_posts/typescript/总结/类型组合/联合类型.md"
               }
             }
           }
@@ -356,8 +356,12 @@
   },
   "active": "ee1c394007e2e23e",
   "lastOpenFiles": [
+    "_posts/typescript/总结/类型组合/交叉类型.md",
+    "_posts/typescript/总结/类型组合/联合类型.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/typescript/总结/Types/类型推断.md",
+    "_posts/typescript/总结/类型组合",
+    "_posts/typescript/总结/类型兼容性.md",
+    "_posts/typescript/总结/类型推断.md",
     "_posts/typescript/总结/Types/Assertion/satisfies.md",
     "_posts/typescript/总结/Types/Assertion/非空断言---!.md",
     "_posts/typescript/总结/Types/Assertion/as const.md",
@@ -385,13 +389,9 @@
     "_posts/任务记录/2025/January/29.md",
     "_posts/任务记录/2025/January/26.md",
     "_posts/typescript/总结/Install、Configure、run/ts-node.md",
-    "_posts/typescript/总结/Install、Configure、run/Install and Configure.md",
     "_posts/typescript/总结/Install、Configure、run",
-    "_posts/typescript/总结/TypeScript 和 JavaScript的互操作性.md",
-    "_posts/typescript/总结/TypeScript vs JavaScript.md",
     "_posts/react/State Management/Zustand",
     "_posts/react/State Management",
-    "_posts/react/Routers/TanStack Router",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
