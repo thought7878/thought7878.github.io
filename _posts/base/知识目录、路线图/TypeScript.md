@@ -61,21 +61,29 @@
 # Type Compatibility
 参考 [[类型兼容性]]
 
-# Combining Type  结合类型
 
-
-
+# Combining Type
+## 联合类型
+参考 [[联合类型]]
+## 交叉类型
+参考 [[交叉类型]]
+## 类型别名
+参考 [[类型别名]]
+## keyof
+参考 [[_posts/typescript/总结/类型组合/keyof|keyof]]
 
 
 # Type Guard / Narrowing
-类型守卫/类型缩小
+参考 [[类型守卫、类型缩小]]
+## instanceof
 
-
+## typeof
 
 
 # Function
-
-
+参考 [[函数]]
+## 重载（Overload）
+参考 [[重载（Overload）]]
 
 # Interface
 

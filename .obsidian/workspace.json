@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/类型组合/联合类型.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/总结/类型组合/联合类型.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/总结/类型组合/联合类型.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/typescript/总结/类型组合/联合类型.md"
+                "file": "_posts/base/知识目录、路线图/TypeScript.md"
               }
             }
           }
@@ -356,9 +356,16 @@
   },
   "active": "ee1c394007e2e23e",
   "lastOpenFiles": [
-    "_posts/typescript/总结/类型组合/交叉类型.md",
-    "_posts/typescript/总结/类型组合/联合类型.md",
+    "_posts/typescript/总结/函数/重载（Overload）.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/函数/函数.md",
+    "_posts/typescript/总结/函数",
+    "_posts/typescript/总结/类型组合/联合类型.md",
+    "_posts/typescript/总结/类型守卫、类型缩小/类型守卫、类型缩小.md",
+    "_posts/typescript/总结/类型组合/keyof.md",
+    "_posts/typescript/总结/类型组合/交叉类型.md",
+    "_posts/typescript/总结/类型守卫、类型缩小",
+    "_posts/typescript/总结/类型组合/类型别名.md",
     "_posts/typescript/总结/类型组合",
     "_posts/typescript/总结/类型兼容性.md",
     "_posts/typescript/总结/类型推断.md",
@@ -384,14 +391,7 @@
     "_posts/typescript/总结/Types/Object Types",
     "_posts/typescript/总结/Types/Primitive Types",
     "_posts/typescript/总结/Types",
-    "_posts/typescript/总结/Install、Configure、run/tsc.md",
-    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
-    "_posts/任务记录/2025/January/29.md",
-    "_posts/任务记录/2025/January/26.md",
-    "_posts/typescript/总结/Install、Configure、run/ts-node.md",
     "_posts/typescript/总结/Install、Configure、run",
-    "_posts/react/State Management/Zustand",
-    "_posts/react/State Management",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
