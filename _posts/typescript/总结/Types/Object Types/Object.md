@@ -1,13 +1,13 @@
 ### TypeScript 中的 `Object` 详解
 
-TypeScript 中的 **对象（Object）** 是描述键值对集合的核心类型。通过类型注解，可以精确约束对象的结构，确保属性存在性、类型正确性及方法签名的合法性。以下是 TypeScript 对象的核心用法和高级实践。
+TypeScript 中的 **对象（Object）** 是*描述键值对集合*的核心类型。*通过类型注解，可以精确约束对象的结构*，确保属性存在性、类型正确性及方法签名的合法性。以下是 TypeScript 对象的核心用法和高级实践。
 
 ---
 
 ### 一、对象类型的基本定义
 
 #### 1. **内联类型注解**  
-直接定义对象结构，无需提前声明类型：  
+直接定义对象结构，*无需提前声明类型*：  
 ```typescript
 // 明确每个属性的类型
 const user: { 
@@ -21,7 +21,7 @@ const user: {
 ```
 
 #### 2. **类型别名（`type`）**  
-复用复杂对象类型定义：  
+*起个名字，复用*，复杂对象类型定义：  
 ```typescript
 type User = {
   id: number;
@@ -173,7 +173,7 @@ lockedSettings.theme = "light"; // ❌ 错误：只读
 ### 五、对象类型操作技巧
 
 #### 1. **类型断言（`as`）**  
-临时覆盖类型推断（慎用）：  
+临时覆盖类型推断（*慎用*）：  
 ```typescript
 const unknownData = JSON.parse('{"name": "Alice"}') as { name: string };
 console.log(unknownData.name.toUpperCase()); // "ALICE"
@@ -287,7 +287,7 @@ const user: User = {
    如 `Partial`、`Pick`、`Omit` 简化类型操作。
 
 4. **类型守卫保障安全**  
-   在操作未知对象时，通过类型守卫避免运行时错误。
+   在操作未知对象时，通过类型守卫*避免运行时错误*。
 
 5. **保持对象结构扁平**  
    避免过度嵌套，必要时拆分为多个类型。

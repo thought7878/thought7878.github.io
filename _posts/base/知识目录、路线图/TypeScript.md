@@ -46,8 +46,14 @@
 参考 [[never]]
 
 ## Assertion
-
-
+### as
+参考 [[as]]
+### as const
+参考 [[as const]]
+### 非空断言
+参考 [[非空断言---!]]
+### satisfies
+参考 [[_posts/typescript/总结/Types/Assertion/satisfies|satisfies]]
 
 # Type Inference  类型推理
 
