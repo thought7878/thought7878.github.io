@@ -106,14 +106,23 @@
 
 
 # Decorators
-装饰器
-
+参考 [[装饰器（Decorator）]]
 
 
 # Utility Types
+## Partial
+## Pick
+## Omit
+## Readonly
+## Record
+## Exclude
+## Extract
+## Awaited
 
-
-
+## Parameters
+## Non Nullable
+## ReturnType
+## InstanceType
 
 # Advanced Types
 
