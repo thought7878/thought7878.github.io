@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Utility Types/Utility Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Utility Types/Utility Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Utility Types/Utility Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md"
+                "file": "_posts/typescript/总结/Utility Types/Utility Type.md"
               }
             }
           }
@@ -356,9 +356,11 @@
   },
   "active": "1ca632daf7026065",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/Utility Types/Utility Type.md",
+    "_posts/typescript/总结/Utility Types",
     "_posts/typescript/总结/Decorator/装饰器（Decorator）.md",
     "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/typescript/总结/Generic/Generic-DS的思考.md",
     "_posts/typescript/总结/Decorator",
     "_posts/typescript/总结/Generic/Generic.md",
@@ -389,9 +391,7 @@
     "_posts/typescript/总结/类型组合",
     "_posts/typescript/总结/类型推断.md",
     "_posts/typescript/总结/Types/Assertion/satisfies.md",
-    "_posts/typescript/总结/Types/Assertion/非空断言---!.md",
     "_posts/typescript/总结/Types/Assertion",
-    "_posts/typescript/总结/Types/Bottom Types",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",

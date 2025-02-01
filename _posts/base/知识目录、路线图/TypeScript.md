@@ -110,6 +110,7 @@
 
 
 # Utility Types
+参考 [[Utility Type]]
 ## Partial
 ## Pick
 ## Omit
@@ -125,17 +126,34 @@
 ## InstanceType
 
 # Advanced Types
+## Literal Types
+## Template Literal Types
+## Recursive Types
 
-
-
+## Intersection Types
+## Union Types
+## Type Aliases
+## Conditional Types
+## Index Types
+## Mapped Types
+## Type Guards
 
 # Module
+## namespace
 
+## Ambient Module
 
+## External Module
 
+## Namespace Augmentation
+
+## Global Augmentation
 
 # Ecosystem
-
+## Formatting
+## Linting
+## Useful Packages
+## Build Tools
 
 
 # 相关资料
