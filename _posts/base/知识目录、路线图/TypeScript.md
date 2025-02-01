@@ -76,9 +76,7 @@
 # Type Guard / Narrowing
 参考 [[类型守卫、类型缩小]]
 ## instanceof
-
 ## typeof
-
 
 # Function
 参考 [[函数]]
@@ -86,18 +84,25 @@
 参考 [[重载（Overload）]]
 ## 协变、逆变
 参考 [[协变、逆变]]
+
 # Interface
-
-
-
+参考 [[Interface-DB]]、[[Interface-DS]]
+## Types vs Interfaces
+## Extends
+## Interface Declaration
+## Hybrid Types
 
 # Class
-
-
-
+参考 [[Class-DS]]、[[_posts/typescript/总结/Class/Overview|Overview]]
+## Constructor Params
+## Access Modifiers
+## Abstract Classes
+## Inheritance vs Polymorphism
+## Method Overriding
+## Constructor Overloading
 
 # Generic
-
+参考 [[Generic]]、[[Generic-DS的思考]]
 
 
 # Decorators
