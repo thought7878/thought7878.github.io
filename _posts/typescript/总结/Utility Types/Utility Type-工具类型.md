@@ -112,7 +112,7 @@ TypeScript 提供了多种**工具类型（Utility Types）**，用于在类型�
 
 ### **四、函数操作工具**
 10. **`ReturnType<T>`**  
-    - **作用**：获取函数 `T` 的返回值类型。  
+    - **作用**：获取函数类型 `T` 的返回值类型。  
     - **语法**：`type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any`  
     - **示例**：
       ```typescript
@@ -120,7 +120,7 @@ TypeScript 提供了多种**工具类型（Utility Types）**，用于在类型�
       ```
 
 11. **`Parameters<T>`**  
-    - **作用**：获取函数 `T` 的参数类型元组。  
+    - **作用**：获取函数类型 `T` 的参数类型元组。  
     - **语法**：`type Parameters<T extends (...args: any) => any> = T extends (...args: infer P) => any ? P : never`  
     - **示例**：
       ```typescript
@@ -179,7 +179,7 @@ TypeScript 提供了多种**工具类型（Utility Types）**，用于在类型�
 ---
 
 ### **总结**
-这些工具类型通过组合映射类型、条件类型和 `infer` 关键字实现，极大提升了类型编程的灵活性。掌握它们可以显著简化复杂类型的定义，提升代码的可维护性。
+这些工具类型*通过组合映射类型、条件类型和 `infer` 关键字实现*，极大提升了**类型编程**的灵活性。掌握它们可以显著简化复杂类型的定义，提升代码的可维护性。
 
 
 ### 相关资料

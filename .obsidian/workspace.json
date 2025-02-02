@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/Generic/Generic.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"_posts/\" Generator",
+                "query": "file:typeof",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/总结/Generic/Generic.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/总结/Generic/Generic.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/typescript/总结/Generic/Generic.md"
+                "file": "_posts/base/知识目录、路线图/TypeScript.md"
               }
             }
           }
@@ -356,15 +356,22 @@
   },
   "active": "1ca632daf7026065",
   "lastOpenFiles": [
-    "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/typescript/总结/Generic/Generic.md",
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
-    "_posts/typescript/总结/Generic/条件类型（Conditional Types）.md",
-    "_posts/typescript/总结/Generic/Generic-DS的思考.md",
+    "_posts/typescript/总结/类型守卫、类型缩小/typeof.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/typescript/总结/类型守卫、类型缩小/类型守卫、类型缩小.md",
     "_posts/typescript/总结/Utility Types/Utility Type-工具类型.md",
-    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/typeof.md",
+    "_posts/typescript/总结/Generic/infer.md",
     "_posts/要整理的.md",
+    "_posts/typescript/总结/Generic/条件类型（Conditional Types）.md",
+    "_posts/typescript/总结/Generic/Generic.md",
+    "_posts/typescript/总结/Generic/映射类型（Mapped Types）.md",
+    "_posts/typescript/总结/类型组合/keyof.md",
+    "_posts/typescript/总结/Types/Object Types/Object.md",
+    "_posts/typescript/总结/keyof.md",
+    "_posts/任务记录/2025/February/1-单词.md",
+    "_posts/typescript/总结/Generic/Generic-DS的思考.md",
     "_posts/base/知识目录、路线图/React.md",
     "_posts/typescript/总结/Utility Types",
     "_posts/typescript/总结/Decorator/装饰器（Decorator）.md",
@@ -381,14 +388,7 @@
     "_posts/typescript/总结/Types/Object Types/Interface-DS.md",
     "_posts/任务记录/2025/February",
     "_posts/typescript/总结/函数/协变、逆变.md",
-    "_posts/typescript/总结/类型兼容性.md",
-    "_posts/typescript/总结/类型安全.md",
-    "_posts/typescript/总结/函数/函数.md",
-    "_posts/typescript/总结/函数/重载（Overload）.md",
     "_posts/typescript/总结/函数",
-    "_posts/typescript/总结/类型组合/联合类型.md",
-    "_posts/typescript/总结/类型组合/keyof.md",
-    "_posts/typescript/总结/类型组合/交叉类型.md",
     "_posts/typescript/总结/类型守卫、类型缩小",
     "_posts/typescript/总结/类型组合",
     "_posts/typescript/总结/Types/Assertion",

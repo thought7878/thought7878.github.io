@@ -31,13 +31,13 @@
   - 类实现接口（`implements`）
 
 - **泛型（Generics）**
-  - 泛型函数/接口/类
-  - 泛型约束（`T extends U`）
-  - `keyof` 与索引类型查询
-  - 条件类型（`T extends U ? X : Y`）参考 [[条件类型（Conditional Types）]]
-  - 映射类型（`{ [K in keyof T]: ... }`）
-  - 默认泛型参数（`T = DefaultType`）
-  - 类型推断上下文（`infer` 关键字）
+  - 泛型函数/接口/类｜参考 [[Generic]]
+  - 泛型约束（`T extends U`）｜参考 [[Generic]]
+  - `keyof` 与索引类型查询｜参考 [[Generic]]
+  - 条件类型（`T extends U ? X : Y`）｜参考 [[条件类型（Conditional Types）]]
+  - 映射类型（`{ [K in keyof T]: ... }`）｜参考 [[映射类型（Mapped Types）]]
+  - 默认泛型参数（`T = DefaultType`）｜参考 [[Generic]]
+  - 类型推断上下文（`infer` 关键字）｜参考 [[infer]]
 
 - **函数**
   - 可选参数 / 默认参数 / 剩余参数
@@ -50,7 +50,7 @@
   - 联合类型（`|`）、交叉类型（`&`）
   - 类型别名（`type`）
   - 可辨识联合（Discriminated Unions）
-  - 类型守卫：`typeof`, `instanceof`, `in`, 自定义守卫（类型谓词）
+  - 类型守卫：`typeof`, `instanceof`, `in`, 自定义守卫（类型谓词）。参考 [[typeof]]、
   - 类型断言（`as` 语法 / `<T>value`）
   - 非空断言（`!`）、常量断言（`as const`）
   - 工具类型：`Partial`, `Required`, `Readonly`, `Record`, `Pick`, `Omit`, `Exclude`, `Extract`, `NonNullable`, `ReturnType`, `Parameters`, 等

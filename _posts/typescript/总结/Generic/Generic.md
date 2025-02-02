@@ -78,7 +78,7 @@ logLength(42); // ❌ 错误：number 没有 length
 ```
 
 #### 2. **使用 `keyof` 约束**
-
+参考 [[_posts/typescript/总结/类型组合/keyof|keyof]]
 确保访问对象属性的安全性：
 
 ```typescript
@@ -182,6 +182,7 @@ type B = IsString<42>; // "No"
 ```
 
 #### 3. **映射类型（Mapped Types）**
+参考 [[映射类型（Mapped Types）]]
 
 结合泛型生成新类型：
 

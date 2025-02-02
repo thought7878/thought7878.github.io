@@ -77,7 +77,7 @@
 参考 [[类型守卫、类型缩小]]
 ## instanceof
 ## typeof
-
+参考 [[typeof]]
 # Function
 参考 [[函数]]
 ## 重载（Overload）
