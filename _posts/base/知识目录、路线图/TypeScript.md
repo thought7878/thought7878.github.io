@@ -110,7 +110,7 @@
 
 
 # Utility Types
-参考 [[Utility Type]]
+参考 [[Utility Type-工具类型]]
 ## Partial
 ## Pick
 ## Omit

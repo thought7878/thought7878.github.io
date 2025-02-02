@@ -171,6 +171,7 @@ const numArray = createArray<number>(3, 5); // number[]
 ```
 
 #### 2. **条件类型（Conditional Types）**
+参考 [[条件类型（Conditional Types）]]
 
 根据条件动态确定类型：
 
