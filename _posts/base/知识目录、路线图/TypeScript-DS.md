@@ -11,13 +11,14 @@
 - **变量声明**
   - `let`, `const`, `var` 的作用域与类型推断
   - 解构赋值（对象/数组）。参考 [[_posts/typescript/总结/Types/Object Types/Array/解构赋值]]、[[_posts/typescript/总结/Types/Object Types/Object/解构赋值|解构赋值]]
-  - 类型注解与自动类型推断
+  - 类型注解。参考 [[类型注解]]
+  - 自动类型推断。参考 [[自动类型推断]]
 
 - **接口（Interfaces）**
   - 对象结构定义
   - 可选属性（`?`）、只读属性（`readonly`）
   - 函数类型定义
-  - 索引签名（`[key: T]: U`）
+  - 索引签名（`[key: T]: U`）。参考 [[索引签名（Index Signatures）]]
   - 接口继承（`extends`）
   - 声明合并（同名接口合并）
 
@@ -47,7 +48,8 @@
   - 函数类型表达式（`(arg: T) => U`）
 
 - **高级类型**
-  - 联合类型（`|`）、交叉类型（`&`）
+  - 联合类型（`|`）
+  - 交叉类型（`&`）
   - 类型别名（`type`）
   - 可辨识联合（Discriminated Unions）
   - 类型守卫：`typeof`, `instanceof`, `in`, 自定义守卫（类型谓词）。参考 [[typeof]]、[[instanceof]]、[[in]]、[[自定义类型守卫（类型谓词---Type Predicates）]]

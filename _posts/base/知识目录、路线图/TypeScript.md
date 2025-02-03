@@ -56,7 +56,7 @@
 参考 [[_posts/typescript/总结/Types/Assertion/satisfies|satisfies]]
 
 # Type Inference
-参考 [[类型推断]]
+参考 [[自动类型推断]]
 
 # Type Compatibility
 参考 [[类型兼容性]]
