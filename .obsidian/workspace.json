@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 47.06927175843694,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -193,19 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "beb35d5849b103fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/任务记录/2025/February/1-单词.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,6 +206,7 @@
       {
         "id": "5371a5ba1c5ebada",
         "type": "tabs",
+        "dimension": 52.93072824156305,
         "children": [
           {
             "id": "79f9379dd40c6f34",
@@ -309,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md"
+                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md"
               }
             }
           }
@@ -358,7 +348,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -373,34 +364,73 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "79f9379dd40c6f34",
+  "floating": {
+    "id": "cba83cc66d3e2a9a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "61bffabbc48468df",
+        "type": "window",
+        "children": [
+          {
+            "id": "805185ce994f7418",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "beb35d5849b103fd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_posts/任务记录/2025/February/1-单词.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 104,
+        "y": 40,
+        "width": 822,
+        "height": 860,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1ca632daf7026065",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
+    "_posts/typescript/总结/Types/Object Types/Array/解构赋值.md",
+    "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
+    "_posts/typescript/总结/Types/Object Types/Object",
+    "_posts/typescript/总结/Types/Object Types/Object/Object.md",
+    "_posts/要整理的.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/typescript/总结/Types/Primitive Types/Primitive.md",
-    "_posts/typescript/总结/Types/Primitive Types/字面量类型.md",
+    "_posts/base/知识目录、路线图/Vite.md",
+    "_posts/typescript/总结/Types/Bottom Types/never.md",
+    "_posts/typescript/总结/Types/Object Types/Enum.md",
     "_posts/任务记录/2025/February/1-单词.md",
+    "_posts/typescript/总结/Types/Object Types/Array/Array.md",
+    "_posts/typescript/总结/Types/Object Types/Array/API.md",
+    "_posts/typescript/总结/Types/Object Types/Array",
+    "_posts/typescript/总结/类型守卫、类型缩小/自定义类型守卫（类型谓词---Type Predicates）.md",
+    "_posts/typescript/总结/Types/Object Types/Tuple-元组.md",
+    "_posts/typescript/总结/Types/Top Types/unknown.md",
+    "_posts/typescript/总结/Types/Primitive Types/字面量类型.md",
+    "_posts/typescript/总结/Utility Types/Utility Type-工具类型.md",
+    "_posts/typescript/总结/类型守卫、类型缩小/typeof.md",
+    "_posts/typescript/总结/Types/Primitive Types/Primitive.md",
     "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
     "_posts/typescript/总结/Install、Configure、run/Install and Configure.md",
-    "_posts/typescript/总结/Types/Top Types/unknown.md",
     "_posts/methods/卢曼笔记法.md",
     "_posts/typescript/总结/Types/Primitive Types/Void.md",
-    "_posts/要整理的.md",
     "_posts/typescript/总结/Types/Top Types/any.md",
-    "_posts/typescript/总结/Types/Bottom Types/never.md",
     "_posts/typescript/总结/Generic/Generic.md",
     "_posts/base/知识目录、路线图/性能优化.md",
-    "_posts/base/知识目录、路线图/Vite.md",
-    "_posts/base/知识目录、路线图/Webpack.md",
-    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
-    "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
-    "_posts/base/知识目录、路线图/面试题-overview.md",
-    "_posts/base/知识目录、路线图/面试题-overview copy.md",
-    "_posts/base/知识目录、路线图/JS.md",
-    "_posts/base/知识目录、路线图/JS_AI总结.md",
-    "_posts/base/知识目录、路线图/浏览器.md",
-    "_posts/base/知识目录、路线图/React.md",
-    "_posts/typescript/总结/类型守卫、类型缩小/自定义类型守卫（类型谓词---Type Predicates）.md",
     "_posts/typescript/总结/Utility Types",
     "_posts/typescript/总结/Decorator",
     "_posts/typescript/总结/Generic/media",
@@ -409,8 +439,6 @@
     "_posts/任务记录/2025/February",
     "_posts/typescript/总结/函数",
     "_posts/typescript/总结/类型守卫、类型缩小",
-    "_posts/typescript/总结/类型组合",
-    "_posts/typescript/总结/Types/Assertion",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",

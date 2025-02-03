@@ -1,6 +1,6 @@
 ### TypeScript 中的 `Array` 详解
 
-TypeScript 的数组在 JavaScript 数组的基础上，通过**类型注解**和**泛型**提供了更严格的类型安全机制，确保数组元素的类型一致性。以下是 TypeScript 数组的核心用法和高级特性。
+TypeScript 的数组在 JavaScript 数组的基础上，通过**类型注解**和**泛型**提供了更严格的类型安全机制，确保数组元素的类型一致性。
 
 ---
 
@@ -30,6 +30,7 @@ let empty3 = new Array<boolean>(); // ✅ 泛型构造函数
 ---
 
 ### 二、数组的常用操作
+参考 [[API]]
 
 #### 1. **类型安全的增删改查**  
 ```typescript
@@ -103,6 +104,8 @@ const firstRoute: "/home" = routes[0];       // 精确推断字面量类型
 ---
 
 ### 四、元组（Tuple）  
+参考 [[Tuple-元组]]
+
 处理**固定长度和类型**的数组，常见于函数多返回值、React Hooks 等场景。
 
 #### 1. **基本定义**  
@@ -134,7 +137,9 @@ const response: HttpResponse = [200, "OK"];
 ### 五、数组类型守卫
 
 #### 1. **类型谓词（Type Predicates）**  
-自定义类型检查逻辑：
+参考 [[自定义类型守卫（类型谓词---Type Predicates）]]
+
+*自定义类型检查逻辑*：
 ```typescript
 function isNumberArray(arr: unknown[]): arr is number[] {
   return arr.every((item) => typeof item === "number");
@@ -188,7 +193,7 @@ readOnly[0] = "c"; // ❌ 错误：只读
    ```
 
 2. **优先使用 `for..of` 遍历**  
-   相比传统 `for` 循环，`for..of` 更简洁且类型安全。  
+   相比传统 `for` 循环，`for..of` *更简洁且类型安全*。  
    ```typescript
    for (const num of numbers) {
      console.log(num * 2); // num 类型为 number

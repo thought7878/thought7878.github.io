@@ -29,9 +29,9 @@
 ### Enum
 参考 [[Enum]]
 ### Array
-参考 [[_posts/typescript/总结/Types/Object Types/Array|Array]]
+参考 [[_posts/typescript/总结/Types/Object Types/Array/Array|Array]]
 ### Tuple
-参考 [[Tuple]]
+参考 [[Tuple-元组]]
 ### Object
 参考 [[Object]]
 

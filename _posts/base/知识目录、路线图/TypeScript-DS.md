@@ -2,15 +2,15 @@
 
 - **基础类型**
   - 原始类型：`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`。参考 [[Primitive]]
-  - 数组：`T[]` / `Array<T>`
-  - 元组：`[T1, T2, ...]`
-  - 枚举：数值枚举 / 字符串枚举
+  - 数组：`T[]` / `Array<T>`。参考 [[_posts/typescript/总结/Types/Object Types/Array/Array|Array]]
+  - 元组：`[T1, T2, ...]`。参考 [[Tuple-元组]]
+  - 枚举：数值枚举 / 字符串枚举。参考 [[Enum]]
   - 特殊类型：`any`, `unknown`, `void`, `never`。参考 [[any]]、[[unknown]]、[[never]]、[[Void]]
   - 字面量类型：字符串/数字/布尔字面量。参考 [[字面量类型]]
 
 - **变量声明**
   - `let`, `const`, `var` 的作用域与类型推断
-  - 解构赋值（对象/数组）
+  - 解构赋值（对象/数组）。参考 [[_posts/typescript/总结/Types/Object Types/Array/解构赋值]]、[[_posts/typescript/总结/Types/Object Types/Object/解构赋值|解构赋值]]
   - 类型注解与自动类型推断
 
 - **接口（Interfaces）**
