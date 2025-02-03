@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -282,8 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5,
-    "collapsed": true
+    "width": 308.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -299,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md"
+                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md"
               }
             }
           }
@@ -403,9 +402,9 @@
   },
   "active": "1ca632daf7026065",
   "lastOpenFiles": [
+    "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
     "_posts/typescript/总结/Types/Object Types/Array/解构赋值.md",
-    "_posts/typescript/总结/Types/Object Types/Object/解构赋值.md",
     "_posts/typescript/总结/Types/Object Types/Object",
     "_posts/typescript/总结/Types/Object Types/Object/Object.md",
     "_posts/要整理的.md",
