@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,6 +213,24 @@
           }
         ],
         "currentTab": 15
+      },
+      {
+        "id": "5371a5ba1c5ebada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79f9379dd40c6f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -339,7 +358,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,40 +373,40 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1ca632daf7026065",
+  "active": "79f9379dd40c6f34",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
-    "_posts/typescript/总结/类型守卫、类型缩小/typeof.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/typescript/总结/类型守卫、类型缩小/类型守卫、类型缩小.md",
-    "_posts/typescript/总结/Utility Types/Utility Type-工具类型.md",
-    "_posts/typescript/总结/typeof.md",
-    "_posts/typescript/总结/Generic/infer.md",
-    "_posts/要整理的.md",
-    "_posts/typescript/总结/Generic/条件类型（Conditional Types）.md",
-    "_posts/typescript/总结/Generic/Generic.md",
-    "_posts/typescript/总结/Generic/映射类型（Mapped Types）.md",
-    "_posts/typescript/总结/类型组合/keyof.md",
-    "_posts/typescript/总结/Types/Object Types/Object.md",
-    "_posts/typescript/总结/keyof.md",
+    "_posts/typescript/总结/Types/Primitive Types/Primitive.md",
+    "_posts/typescript/总结/Types/Primitive Types/字面量类型.md",
     "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/typescript/总结/Generic/Generic-DS的思考.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
+    "_posts/typescript/总结/Install、Configure、run/Install and Configure.md",
+    "_posts/typescript/总结/Types/Top Types/unknown.md",
+    "_posts/methods/卢曼笔记法.md",
+    "_posts/typescript/总结/Types/Primitive Types/Void.md",
+    "_posts/要整理的.md",
+    "_posts/typescript/总结/Types/Top Types/any.md",
+    "_posts/typescript/总结/Types/Bottom Types/never.md",
+    "_posts/typescript/总结/Generic/Generic.md",
+    "_posts/base/知识目录、路线图/性能优化.md",
+    "_posts/base/知识目录、路线图/Vite.md",
+    "_posts/base/知识目录、路线图/Webpack.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
+    "_posts/base/知识目录、路线图/面试题-overview.md",
+    "_posts/base/知识目录、路线图/面试题-overview copy.md",
+    "_posts/base/知识目录、路线图/JS.md",
+    "_posts/base/知识目录、路线图/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/浏览器.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/typescript/总结/类型守卫、类型缩小/自定义类型守卫（类型谓词---Type Predicates）.md",
     "_posts/typescript/总结/Utility Types",
-    "_posts/typescript/总结/Decorator/装饰器（Decorator）.md",
     "_posts/typescript/总结/Decorator",
     "_posts/typescript/总结/Generic/media",
-    "_posts/methods/卢曼笔记法.md",
-    "_posts/base/js/知识点总结/闭包.md",
     "_posts/typescript/总结/Generic",
-    "_posts/typescript/总结/Types/Object Types/Class-DS.md",
-    "_posts/typescript/总结/Class/Overview.md",
     "_posts/typescript/总结/Class",
-    "_posts/任务记录/2025/February/1.md",
-    "_posts/任务记录/2025/January/29.md",
-    "_posts/typescript/总结/Types/Object Types/Interface-DS.md",
     "_posts/任务记录/2025/February",
-    "_posts/typescript/总结/函数/协变、逆变.md",
     "_posts/typescript/总结/函数",
     "_posts/typescript/总结/类型守卫、类型缩小",
     "_posts/typescript/总结/类型组合",

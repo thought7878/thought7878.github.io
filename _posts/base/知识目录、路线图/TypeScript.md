@@ -112,16 +112,19 @@
 # Utility Types
 参考 [[Utility Type-工具类型]]
 ## Partial
+## Required
+## Readonly
+
 ## Pick
 ## Omit
-## Readonly
 ## Record
+
 ## Exclude
 ## Extract
 ## Awaited
 
 ## Parameters
-## Non Nullable
+## NonNullable
 ## ReturnType
 ## InstanceType
 
@@ -133,10 +136,13 @@
 ## Intersection Types
 ## Union Types
 ## Type Aliases
-## Conditional Types
 ## Index Types
+## Conditional Types
+参考 [[条件类型（Conditional Types）]]
 ## Mapped Types
+参考 [[映射类型（Mapped Types）]]
 ## Type Guards
+参考 [[类型守卫、类型缩小]]
 
 # Module
 ## namespace

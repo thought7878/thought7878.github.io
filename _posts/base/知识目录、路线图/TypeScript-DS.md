@@ -1,12 +1,12 @@
 > 生成TypeScript的所有知识点。以markdown格式，只要知识点，不要介绍
 
 - **基础类型**
-  - 原始类型：`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`
+  - 原始类型：`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`。参考 [[Primitive]]
   - 数组：`T[]` / `Array<T>`
   - 元组：`[T1, T2, ...]`
   - 枚举：数值枚举 / 字符串枚举
-  - 特殊类型：`any`, `unknown`, `void`, `never`
-  - 字面量类型：字符串/数字/布尔字面量
+  - 特殊类型：`any`, `unknown`, `void`, `never`。参考 [[any]]、[[unknown]]、[[never]]、[[Void]]
+  - 字面量类型：字符串/数字/布尔字面量。参考 [[字面量类型]]
 
 - **变量声明**
   - `let`, `const`, `var` 的作用域与类型推断
@@ -31,13 +31,13 @@
   - 类实现接口（`implements`）
 
 - **泛型（Generics）**
-  - 泛型函数/接口/类｜参考 [[Generic]]
-  - 泛型约束（`T extends U`）｜参考 [[Generic]]
-  - `keyof` 与索引类型查询｜参考 [[Generic]]
-  - 条件类型（`T extends U ? X : Y`）｜参考 [[条件类型（Conditional Types）]]
-  - 映射类型（`{ [K in keyof T]: ... }`）｜参考 [[映射类型（Mapped Types）]]
-  - 默认泛型参数（`T = DefaultType`）｜参考 [[Generic]]
-  - 类型推断上下文（`infer` 关键字）｜参考 [[infer]]
+  - 泛型函数/接口/类。参考 [[Generic]]
+  - 泛型约束（`T extends U`）。参考 [[Generic]]
+  - `keyof` 与索引类型查询。参考 [[Generic]]
+  - 条件类型（`T extends U ? X : Y`）。参考 [[条件类型（Conditional Types）]]
+  - 映射类型（`{ [K in keyof T]: ... }`）。参考 [[映射类型（Mapped Types）]]
+  - 默认泛型参数（`T = DefaultType`）。参考 [[Generic]]
+  - 类型推断上下文（`infer` 关键字）。参考 [[infer]]
 
 - **函数**
   - 可选参数 / 默认参数 / 剩余参数
@@ -50,10 +50,10 @@
   - 联合类型（`|`）、交叉类型（`&`）
   - 类型别名（`type`）
   - 可辨识联合（Discriminated Unions）
-  - 类型守卫：`typeof`, `instanceof`, `in`, 自定义守卫（类型谓词）。参考 [[typeof]]、
+  - 类型守卫：`typeof`, `instanceof`, `in`, 自定义守卫（类型谓词）。参考 [[typeof]]、[[instanceof]]、[[in]]、[[自定义类型守卫（类型谓词---Type Predicates）]]
   - 类型断言（`as` 语法 / `<T>value`）
   - 非空断言（`!`）、常量断言（`as const`）
-  - 工具类型：`Partial`, `Required`, `Readonly`, `Record`, `Pick`, `Omit`, `Exclude`, `Extract`, `NonNullable`, `ReturnType`, `Parameters`, 等
+  - 工具类型：`Partial`, `Required`, `Readonly`, `Record`, `Pick`, `Omit`, `Exclude`, `Extract`, `NonNullable`, `ReturnType`, `Parameters`, 等。参考 [[Utility Type-工具类型]]
 
 - **模块与命名空间**
   - ES 模块（`import`/`export`）
