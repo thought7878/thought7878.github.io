@@ -35,7 +35,7 @@ Once this is done, the virtual DOM calculates the best possible method to make t
 The image below shows the virtual DOM tree and the diffing process.  
 下图显示了虚拟 DOM 树和比较过程。
 
-![[react/总结/media/76283c4c20fe227e6a5ad36939a61819_MD5.png]]
+![[76283c4c20fe227e6a5ad36939a61819_MD5.png]]
 
 _source:_ [_https://www.oreilly.com/library/view/learning-react-native/9781491929049/ch02.html_](https://www.oreilly.com/library/view/learning-react-native/9781491929049/ch02.html)  
 

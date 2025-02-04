@@ -44,6 +44,7 @@ function App() {
   return (
     <div>
       <Mouse
+	    //
         render={({ x, y }) => (
           <p>
             鼠标位置: ({x}, {y})
@@ -69,6 +70,7 @@ class Mouse extends React.Component {
   render() {
     return (
       <div style={{ height: "100vh" }} onMouseMove={this.handleMouseMove}>
+        // 使用children
         {this.props.children(this.state)}
       </div>
     );

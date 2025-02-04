@@ -1,13 +1,13 @@
 # React 核心概念
 
-## **JSX**
+## JSX
 参考 [[JSX]]
 
 - 语法扩展
 - 嵌入表达式
 - JSX 编译
 
-## **组件**
+## 组件
 参考 [[Component]]
 
 - 函数组件。参考 [[函数组件]]
@@ -16,7 +16,7 @@
 - 组件状态 (`state`)。参考 [[Props & State]]
 - 组件属性 (`props`)。参考 [[Props & State]]
 
-## **事件处理**
+## 事件处理
 参考 [[Event]]
 
 - 事件绑定
@@ -24,7 +24,7 @@
 - 事件处理函数
 - 事件对象
 
-## **组合（Composition）和继承（Inheritance）**
+## 组合（Composition）和继承（Inheritance）
 参考 [[Composition & Inheritance]]
 
 ## 渲染
@@ -43,17 +43,39 @@
 ### Render Props
 参考 [[Render Props]]
 
-## **表单**
+## Refs
+参考 [[Ref-DS]]、[[Ref-豆包]]
 
+- `React.createRef`。参考 [[Ref-DS]]
+- `useRef`。参考[[useRef-DS]]
+- 转发 Refs (`React.forwardRef`)。参考 [[forwardRef-DS]]
+- useImperativeHandle。参考 [[useImperativeHandle-DS]]
+
+
+## 高阶组件 (HOC)
+参考 [[High Order Components]]
+- 组件复用
+- 属性代理
+- 反向继承
+
+
+## 表单
+参考 [[受控组件、非受控组件]]
 - 受控组件
 - 非受控组件
 - 表单验证
 
-## **状态管理**
+## 状态管理
+参考 [[Props & State]]
 
-- `useState` Hook
-- `useReducer` Hook
-- 状态提升
+- `useState` Hook。参考 [[useState-DS]]
+- `useReducer` Hook。参考 [[useReducer]]
+- 状态提升。参考 [[状态提升]]
+
+## 组件间的通信
+- props
+- context
+- 状态管理库
 
 ## **Hooks**
 
@@ -71,19 +93,6 @@
 - `Consumer`
 - `useContext`
 
-## **Refs**
-参考 [[Ref-DS]]、[[Ref-豆包]]
-
-- `React.createRef`。参考 [[Ref-DS]]
-- `useRef`。参考[[useRef-DS]]
-- 转发 Refs (`React.forwardRef`)。参考 [[forwardRef-DS]]
-- useImperativeHandle。参考 [[useImperativeHandle-DS]]
-
-## **高阶组件 (HOC)**
-
-- 组件复用
-- 属性代理
-- 反向继承
 
 ## **错误边界**
 
@@ -126,7 +135,8 @@
 
 # React 生态系统
 
-## **React Router**
+## React Router
+参考 [[React Router-DeepSeek]]
 
    - `BrowserRouter`
    - `Route`
@@ -137,7 +147,7 @@
    - `Switch`
    - `Redirect`
 
-## **状态管理**
+## 状态管理
 
    - **Redux**
      - `createStore`
