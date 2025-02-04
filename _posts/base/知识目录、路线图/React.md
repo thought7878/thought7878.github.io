@@ -27,8 +27,7 @@
 ## Render Props
 参考 [[Render Props]]
 ## Ref
-参考 [[Ref-豆包]]
-参考 [[Ref-DeepSeek]]
+参考 [[Ref-DS]]、[[Ref-豆包]]
 ## Event
 参考 [[Event]]
 ## High Order Components

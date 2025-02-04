@@ -27,17 +27,21 @@
 ## **组合（Composition）和继承（Inheritance）**
 参考 [[Composition & Inheritance]]
 
-## **条件渲染**
+## 渲染
+
+### 条件渲染
 参考 [[Conditional Rendering]]
 
 - `if` 语句
 - 三元运算符
 - 逻辑与运算符 (`&&`)
 
-## **列表渲染**
-
+### 列表渲染
 - `map` 方法
 - `key` 属性。参考 [[Key]]
+
+### Render Props
+参考 [[Render Props]]
 
 ## **表单**
 
@@ -68,10 +72,12 @@
 - `useContext`
 
 ## **Refs**
+参考 [[Ref-DS]]、[[Ref-豆包]]
 
-- `React.createRef`
-- `useRef`
-- 转发 Refs (`React.forwardRef`)
+- `React.createRef`。参考 [[Ref-DS]]
+- `useRef`。参考[[useRef-DS]]
+- 转发 Refs (`React.forwardRef`)。参考 [[forwardRef-DS]]
+- useImperativeHandle。参考 [[useImperativeHandle-DS]]
 
 ## **高阶组件 (HOC)**
 
