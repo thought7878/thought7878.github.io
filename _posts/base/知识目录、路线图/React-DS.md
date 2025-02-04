@@ -86,7 +86,8 @@
 - `useCallback`
 - 自定义 Hooks
 
-## **Context API**
+## Context API
+参考 [[_posts/react/总结/Context/Context|Context]]
 
 - `React.createContext`
 - `Provider`
@@ -149,31 +150,38 @@
 
 ## 状态管理
 
-   - **Redux**
-     - `createStore`
-     - `reducer`
-     - `dispatch`
-     - `connect`
-     - `useSelector`
-     - `useDispatch`
-     - `combineReducers`
-     - `applyMiddleware`
-     - Redux Thunk
-     - Redux Saga
-   - **MobX**
-     - `observable`
-     - `computed`
-     - `action`
-     - `observer`
-   - **Recoil**
-     - `atom`
-     - `selector`
-     - `useRecoilState`
-     - `useRecoilValue`
-   - **Zustand**
-     - `create`
-     - `useStore`
- - **Context API**
+### Redux
+参考 [[Redux-DS]] 、[[原理-DB]]
+- `createStore`
+- `reducer`
+- `dispatch`
+- `connect`
+- `useSelector`
+- `useDispatch`
+- `combineReducers`
+- `applyMiddleware`
+- Redux Thunk
+- Redux 
+
+### Zustand
+参考 [[Zustand-DeepSeek]]、[[Zustand-豆包]]
+- `create`
+- `useStore`
+
+
+### MobX
+- `observable`
+- `computed`
+- `action`
+- `observer`
+
+### Recoil
+- `atom`
+- `selector`
+- `useRecoilState`
+- `useRecoilValue`
+
+### Context API
 
 ## **数据获取**
 

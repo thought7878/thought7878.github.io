@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React-DS.md",
+                "file": "_posts/react/总结/Context/Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -322,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React-DS.md",
+                "file": "_posts/react/总结/Context/Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React-DS.md",
+                "file": "_posts/react/总结/Context/Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/React-DS.md"
+                "file": "_posts/react/总结/Context/Context.md"
               }
             }
           }
@@ -425,12 +425,17 @@
   },
   "active": "1ca632daf7026065",
   "lastOpenFiles": [
-    "_posts/react/Routers/React-Router/React Router-DeepSeek.md",
     "_posts/base/知识目录、路线图/React-DS.md",
+    "_posts/react/总结/Context/Context.md",
+    "_posts/react/总结/Context",
+    "_posts/react/Routers/React-Router/React Router-DeepSeek.md",
+    "_posts/任务记录/2025/February/4.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/February/1-单词.md",
     "_posts/base/知识目录、路线图/React.md",
+    "_posts/要整理的.md",
     "_posts/react/Routers/TanStack Router/TanStack Router.md",
     "_posts/react/总结/状态/状态提升.md",
-    "_posts/任务记录/2025/February/1-单词.md",
     "_posts/react/总结/状态",
     "_posts/react/总结/状态/Props & State.md",
     "_posts/react/总结/Hooks/useReducer.md",
@@ -440,8 +445,6 @@
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
     "_posts/react/总结/Components/生命周期.md",
     "_posts/base/知识目录、路线图/React-DB.md",
-    "_posts/任务记录/2025/February/4.md",
-    "_posts/要整理的.md",
     "_posts/react/总结/Render/High Order Components.md",
     "_posts/react/总结/Render/Render Props.md",
     "_posts/react/总结/Ref/Ref-DS.md",
@@ -451,8 +454,6 @@
     "_posts/react/总结/Ref/forwardRef()-DB.md",
     "_posts/react/总结/Ref/ForwardedRef、MutableRefObject、RefObject.md",
     "_posts/react/总结/Ref",
-    "_posts/react/总结/Ref/Ref-豆包.md",
-    "_posts/react/总结/Render/Conditional Rendering.md",
     "_posts/react/总结/Render",
     "_posts/react/总结/Event",
     "_posts/typescript/总结/Types/Object Types/Interface",
@@ -460,7 +461,6 @@
     "_posts/typescript/总结/Types/Object Types/Array",
     "_posts/typescript/总结/Utility Types",
     "_posts/typescript/总结/Decorator",
-    "_posts/typescript/总结/Generic/media",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",

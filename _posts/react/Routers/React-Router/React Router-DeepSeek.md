@@ -1,11 +1,11 @@
 ### React Router 的核心概念  
-`React Router` 是 React 生态中用于实现**单页面应用（SPA）路由管理**的核心库。*它通过 URL 与组件之间的映射关系*，实现页面间的无刷新跳转和状态同步。以下是 React Router 的核心用法和最佳实践（以 **v6** 版本为主）。
+`React Router` 是 React 生态中用于实现**单页面应用（SPA）路由管理**的核心库。*它通过 URL 与组件之间的映射关系*，**实现页面间的无刷新跳转和状态同步**。以下是 React Router 的核心用法和最佳实践（以 **v6** 版本为主）。
 
 ---
 
 ### 基础路由配置  
 #### 路由入口与基本结构  
-使用 `BrowserRouter` 包裹整个应用，并通过 `Routes` 和 `Route` 定义路由规则：  
+*使用 `BrowserRouter` 包裹整个应用*，并*通过 `Routes` 和 `Route` 定义路由规则*：  
 ```jsx  
 import { BrowserRouter, Routes, Route } from "react-router-dom";  
 
