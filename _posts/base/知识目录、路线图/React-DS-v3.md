@@ -1,26 +1,34 @@
 # React 核心概念
 
 ## **JSX**
+参考 [[JSX]]
 
 - 语法扩展
 - 嵌入表达式
 - JSX 编译
 
 ## **组件**
+参考 [[Component]]
 
-- 函数组件
+- 函数组件。参考 [[函数组件]]
 - 类组件
-- 组件生命周期
-- 组件状态 (`state`)
-- 组件属性 (`props`)
+- 组件生命周期。参考 [[生命周期]]
+- 组件状态 (`state`)。参考 [[Props & State]]
+- 组件属性 (`props`)。参考 [[Props & State]]
 
 ## **事件处理**
+参考 [[Event]]
 
 - 事件绑定
 - 合成事件
 - 事件处理函数
+- 事件对象
+
+## **组合（Composition）和继承（Inheritance）**
+参考 [[Composition & Inheritance]]
 
 ## **条件渲染**
+参考 [[Conditional Rendering]]
 
 - `if` 语句
 - 三元运算符
@@ -29,7 +37,7 @@
 ## **列表渲染**
 
 - `map` 方法
-- `key` 属性
+- `key` 属性。参考 [[Key]]
 
 ## **表单**
 
@@ -98,14 +106,21 @@
 - `ReactDOM.hydrate`
 - `ReactDOM.createRoot`
 
-## **React Server Components**
+## **React 18+**
+
+- 并发模式（Concurrent Mode）
+- 自动批处理
+- 服务端组件（Server Components）/客户端组件
+- `useTransition`/`useDeferredValue`
+
+## React Server Components
 
 - 服务端组件
 - 客户端组件
 
 # React 生态系统
 
-1. **React Router**
+## **React Router**
 
    - `BrowserRouter`
    - `Route`
@@ -116,7 +131,7 @@
    - `Switch`
    - `Redirect`
 
-2. **状态管理**
+## **状态管理**
 
    - **Redux**
      - `createStore`
@@ -142,50 +157,64 @@
    - **Zustand**
      - `create`
      - `useStore`
+ - **Context API**
 
-3. **数据获取**
+## **数据获取**
 
-   - **Axios**
-   - **SWR**
+   - **Axios/Fetch**
+   - **SWR**（自动缓存）
    - **React Query**
      - `useQuery`
      - `useMutation`
      - `QueryClient`
      - `QueryClientProvider`
 
-4. **样式管理**
+## **样式方案**
 
    - **CSS Modules**
-   - **Styled Components**
-   - **Emotion**
+   - **CSS-in-JS（Styled Components、Emotion）**
    - **Tailwind CSS**
    - **Sass/SCSS**
 
-5. **表单管理**
+## **表单管理**
 
    - **Formik**
    - **React Hook Form**
    - **Final Form**
 
-6. **测试**
+## **测试**
 
-   - **Jest**
-   - **React Testing Library**
+   - **Jest**（单元测试）
+   - **React Testing Library**（组件测试）
    - **Enzyme**
-   - **Cypress**
+   - **Cypress**（E2E）
 
-7. **动画**
+## **动画**
 
    - **React Spring**
    - **Framer Motion**
    - **React Transition Group**
 
-8. **国际化**
+## **工具链**
 
-   - **React Intl**
-   - **i18next**
+### 构建工具（Webpack、Vite、Babel）
 
-9. **服务端渲染 (SSR)**
+- **Webpack**
+- **Babel**
+- **Vite**
+- **Parcel**
+
+### 类型检查（TypeScript、PropTypes）
+
+- **TypeScript**
+- **PropTypes**
+
+### 代码规范（ESLint、Prettier）
+- **ESLint**
+- **Prettier**
+
+
+## **服务端渲染 (SSR)**
 
    - **Next.js**
      - `getStaticProps`
@@ -198,65 +227,52 @@
      - GraphQL 数据层
      - 插件系统
 
-10. **静态类型检查**
+## **UI 组件库**
 
-    - **TypeScript**
-    - **PropTypes**
+- **Material-UI (MUI)**
+- **Ant Design**
+- **Chakra UI**
 
-11. **构建工具**
+## **开发工具**
 
-    - **Webpack**
-    - **Babel**
-    - **Vite**
-    - **Parcel**
+- **React DevTools**
+- **Redux DevTools**
+- Storybook（组件文档）
 
-12. **UI 组件库**
 
-    - **Material-UI (MUI)**
-    - **Ant Design**
-    - **Chakra UI**
-    - **Bootstrap**
+## **GraphQL**
 
-13. **开发工具**
+- **Apollo Client**
+- **Relay**
 
-    - **React DevTools**
-    - **Redux DevTools**
-    - **ESLint**
-    - **Prettier**
+## **PWA**（离线支持）
 
-14. **状态机**
+- **Workbox**
+- **Create React App PWA**
 
-    - **XState**
-    - **React State Machine**
+## **微前端**
 
-15. **GraphQL**
+- **Single-SPA**
+- **Module Federation**
 
-    - **Apollo Client**
-    - **Relay**
+## **国际化**
 
-16. **PWA**
+   - **React Intl**
+   - **i18next**
 
-    - **Workbox**
-    - **Create React App PWA**
+## **桌面应用**
 
-17. **微前端**
+- **Electron**
+- **Proton Native**
 
-    - **Single-SPA**
-    - **Module Federation**
+## **移动应用**
 
-18. **桌面应用**
+- **React Native**
+- **Expo**
 
-    - **Electron**
-    - **Proton Native**
+## **其他生态**
 
-19. **移动应用**
-
-    - **React Native**
-    - **Expo**
-
-20. **其他工具**
-    - **Storybook**
-    - **React DnD**
-    - **React Virtualized**
-    - **React Table**
-    - **React Grid Layout**
+- 拖拽库（React DnD）
+- 表格处理（React Table）
+- 虚拟化（React Virtualized）
+- 状态机（XState）

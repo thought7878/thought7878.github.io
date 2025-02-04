@@ -44,6 +44,7 @@ function Form() {
 ---
 
 ### 2. 合成事件（SyntheticEvent）
+参考 [[合成事件（SyntheticEvent）]]
 
 React 的 `SyntheticEvent` 是*对原生事件的包装*，具有与原生事件*相同的接口*（如 `e.target`, `e.stopPropagation()`），_但解决了浏览器兼容性问题_。
 
@@ -175,9 +176,9 @@ function Parent() {
 
 ### 7. 性能优化
 
-#### (1) 避免内联箭头函数
+#### (1) 避免不必要的重渲染
 
-在渲染时创建新函数可能导致子组件不必要的重渲染。使用 `useCallback` 缓存函数：
+在渲染时，如果使用内联箭头函数，*创建新函数可能导致子组件不必要的重渲染*。使用 `useCallback` 缓存函数：
 
 ```jsx
 function Button({ onClick }) {
@@ -185,6 +186,7 @@ function Button({ onClick }) {
 }
 
 function Parent() {
+  //
   const handleClick = useCallback(() => {
     console.log("Optimized click");
   }, []);
@@ -238,7 +240,7 @@ function Child({ onCustomEvent }) {
 
 ### 9. 合成事件与原生事件的混用
 
-在需要直接操作原生事件时，可通过 `addEventListener` 绑定，但需注意清理：
+在需要直接操作原生事件时，可通过 `addEventListener` 绑定，**但需注意清理**：
 
 ```jsx
 function NativeEventExample() {

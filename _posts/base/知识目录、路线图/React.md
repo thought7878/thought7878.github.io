@@ -6,9 +6,10 @@
 参考 [[Component]]
 
 ## Functional Component
+参考 [[函数组件]]
 
 ### JSX
-
+参考 [[JSX]]
 ### Props vs State
 参考 [[Props & State]]
 
@@ -20,7 +21,7 @@
 # Rendering
 参考 [[Render]]
 ## Component Lifecycle 
-
+参考 [[生命周期]]
 ## List and Key
 参考 [[Key]]
 ## Render Props
