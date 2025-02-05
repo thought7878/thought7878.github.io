@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/Restful/TanStack Query/概念/Query.md",
+                "file": "_posts/base/知识目录、路线图/性能优化的学习计划.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/Restful/TanStack Query/概念/Query.md",
+                "file": "_posts/base/知识目录、路线图/性能优化的学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/Restful/TanStack Query/概念/Query.md",
+                "file": "_posts/base/知识目录、路线图/性能优化的学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/Restful/TanStack Query/概念/Query.md"
+                "file": "_posts/base/知识目录、路线图/性能优化的学习计划.md"
               }
             }
           }
@@ -393,11 +393,13 @@
   },
   "active": "89dd2832d4a3fd2b",
   "lastOpenFiles": [
+    "_posts/react/Restful/TanStack Query/概念/Query.md",
+    "_posts/base/知识目录、路线图/性能优化.md",
+    "_posts/base/知识目录、路线图/性能优化的学习计划.md",
     "_posts/react/Routers/React-Router/React Router-DeepSeek.md",
     "_posts/base/知识目录、路线图/Webpack 学习计划.md",
     "_posts/base/知识目录、路线图/Vite 学习计划.md",
     "_posts/base/知识目录、路线图/Vite.md",
-    "_posts/react/Restful/TanStack Query/概念/Query.md",
     "_posts/react/Restful/TanStack Query/学习计划.md",
     "_posts/base/知识目录、路线图/TypeScript-DS.md",
     "_posts/base/知识目录、路线图/Webpack 学习计划2.md",
@@ -419,9 +421,7 @@
     "_posts/任务记录/2025/February/4.md",
     "_posts/react/Restful/Restful.md",
     "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/base/知识目录、路线图/React.md",
     "_posts/react/GraphQL",
-    "_posts/base/知识目录、路线图/React-DS.md",
     "_posts/react/Restful/TanStack Query",
     "_posts/react/Restful",
     "_posts/react/总结/Context",
