@@ -73,9 +73,17 @@
 - 状态提升。参考 [[状态提升]]
 
 ## 组件间的通信
-- props
-- context
-- 状态管理库
+### Props
+参考 [[Props & State]]
+### Context API
+参考 [[_posts/react/总结/Context/Context|Context]]
+
+- `React.createContext`
+- `Provider`
+- `Consumer`
+- `useContext`
+
+### 状态管理库
 
 ## **Hooks**
 
@@ -85,14 +93,6 @@
 - `useMemo`
 - `useCallback`
 - 自定义 Hooks
-
-## Context API
-参考 [[_posts/react/总结/Context/Context|Context]]
-
-- `React.createContext`
-- `Provider`
-- `Consumer`
-- `useContext`
 
 
 ## **错误边界**
@@ -148,7 +148,7 @@
    - `Switch`
    - `Redirect`
 
-## 状态管理
+## 状态管理库
 
 ### Redux
 参考 [[Redux-DS]] 、[[原理-DB]]
@@ -183,15 +183,28 @@
 
 ### Context API
 
-## **数据获取**
+## 数据获取
 
-   - **Axios/Fetch**
-   - **SWR**（自动缓存）
-   - **React Query**
-     - `useQuery`
-     - `useMutation`
-     - `QueryClient`
-     - `QueryClientProvider`
+### Restful
+#### Axios/Fetch
+
+#### TanStack Query
+参考 [[TanStack Query]]
+
+- `useQuery`
+- `useMutation`
+- `QueryClient`
+- `QueryClientProvider`
+
+#### SWR（自动缓存）
+
+### GraphQL
+
+#### Apollo
+
+#### Relay
+
+#### urql
 
 ## **样式方案**
 
@@ -264,10 +277,6 @@
 - Storybook（组件文档）
 
 
-## **GraphQL**
-
-- **Apollo Client**
-- **Relay**
 
 ## **PWA**（离线支持）
 

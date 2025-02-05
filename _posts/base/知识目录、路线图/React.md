@@ -109,7 +109,7 @@
 
 # API Calls
 APIs, short for Application Programming Interfaces, are software-to-software interfaces. Meaning, they allow different applications to talk to each other and exchange information or functionality. This allows businesses to access another business’s data, piece of code, software, or services in order to extend the functionality of their own products — all while saving time and money. There are several options available to make API calls from your React.js applications.  
-API，用于应用程序编程接口的缩写，是软件对软件的接口。意思是，它们允许不同的应用程序互相交谈并交换信息或功能。这使企业可以访问另一个企业的数据，代码，软件或服务，以扩展自己的产品的功能，同时节省时间和金钱。有几个选项可从您的react.js应用程序中进行API调用。
+API，用于应用程序编程接口的缩写，*是软件对软件的接口*。意思是，**它们允许不同的应用程序互相交谈并交换信息或功能**。这使企业可以访问另一个企业的数据，代码，软件或服务，以扩展自己的产品的功能，同时节省时间和金钱。有几个选项可从您的react.js应用程序中进行API调用。
 
 ## GraphQL
 
@@ -121,7 +121,7 @@ API，用于应用程序编程接口的缩写，是软件对软件的接口。�
 
 ## Restful
 ### React Query
-
+参考 [[TanStack Query]]
 ### Axios
 
 ### SWR
