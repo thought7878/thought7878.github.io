@@ -1,3 +1,11 @@
+# 免费平台
+- https://cloud.siliconflow.cn/playground/chat/17885302724
+- 
+- 【百度终于干了件人事！DeepSeek满血版免费白嫖，本地部署详细教程】 https://b23.tv/PkQgJsV
+- 
+
+
+
 # [一口气学会使用 DeepSeek，甚至给 55 岁的我妈用上了！](https://b23.tv/WHV5SGe)
 
 视频介绍了给妈妈安装 deep seek 后的使用情况及总结的 deep seek 使用技巧，包括画图、成为 AI 原住民、让 AI 提问、通用问题模板、给例子与组合拳、迭代等。
