@@ -1,4 +1,6 @@
 # 免费平台
+- 【最全教程-官网卡顿？4种方法白嫖deepseek满血版！手机、电脑都可（硅基流动+百度+字节白嫖方案）-哔哩哔哩】 https://b23.tv/aUMkUyB
+
 - https://cloud.siliconflow.cn/playground/chat/17885302724
 - 
 - [【摆脱卡顿】DeepSeek全网最全的实战技巧！](https://www.bilibili.com/video/BV12QPme7EN9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
