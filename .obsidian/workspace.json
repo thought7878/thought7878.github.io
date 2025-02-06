@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/Why & What & How.md",
+                "file": "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/Why & What & How.md",
+                "file": "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/Why & What & How.md",
+                "file": "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/Why & What & How.md"
+                "file": "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DB.md"
               }
             }
           }
@@ -333,9 +333,19 @@
   },
   "active": "89dd2832d4a3fd2b",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/Webpack.md",
-    "_posts/engineering/webpack/原理总结1.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DB.md",
+    "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/学习计划、路线图/Webpack 学习计划-DS.md",
+    "_posts/engineering/module/模块化.md",
+    "_posts/engineering/module/模块化-DB.md",
+    "_posts/base/知识目录、路线图/学习计划、路线图/架构设计 学习计划-DS.md",
+    "_posts/engineering/module/模块化-DS.md",
+    "_posts/任务记录/2025/February/6.md",
+    "_posts/base/知识目录、路线图/学习计划、路线图/Webpack 学习计划-siliconflow.md",
+    "_posts/base/知识目录、路线图/Webpack.md",
+    "_posts/engineering/webpack/Why & What & How-废话太多.md",
+    "_posts/engineering/webpack/原理总结1.md",
     "_posts/engineering/webpack/配置项/entry.md",
     "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
     "_posts/engineering/webpack/场景实践/搭建 CSS 工程环境：借助预处理器、PostCSS 等.md",
@@ -349,19 +359,9 @@
     "_posts/base/知识目录、路线图/React.md",
     "_posts/AI/DeepSeek.md",
     "_posts/AI/开发资料.md",
-    "_posts/base/知识目录、路线图/学习计划、路线图/架构设计 学习计划-DS.md",
     "_posts/base/知识目录、路线图/学习计划、路线图",
-    "_posts/architect/架构模式/微前端架构.md",
-    "_posts/architect/架构模式/React的组件化架构.md",
-    "_posts/base/知识目录、路线图/学习计划、路线图/前端工程化 学习计划.md",
-    "_posts/architect/架构模式/Flux.md",
-    "_posts/architect/架构模式/MVC.md",
     "_posts/architect/架构模式",
-    "_posts/architect/设计原则/设计原则：DRY、KISS、YAGNI.md",
-    "_posts/architect/资料.md",
     "_posts/architect/设计原则",
-    "_posts/architect/设计原则/设计原则：SOLID.md",
-    "_posts/外面的世界/趋势.md",
     "_posts/engineering/pnpm & monorepo/pnpm",
     "_posts/react/Restful/TanStack Query/概念",
     "_posts/react/Restful/TanStack Query/media",
