@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/自动化构建.md",
+                "file": "_posts/base/知识目录、路线图/前端工程化.md",
                 "mode": "source",
                 "source": false
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/自动化构建.md",
+                "file": "_posts/base/知识目录、路线图/前端工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/自动化构建.md",
+                "file": "_posts/base/知识目录、路线图/前端工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/自动化构建.md"
+                "file": "_posts/base/知识目录、路线图/前端工程化.md"
               }
             }
           }
@@ -351,9 +351,13 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/engineering/代码质量和规范/Prettier.md",
     "_posts/base/知识目录、路线图/前端工程化.md",
-    "_posts/engineering/自动化构建.md",
+    "_posts/engineering/代码质量和规范/Stylelint.md",
+    "_posts/engineering/代码质量和规范/ESLint.md",
+    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/engineering/自动化构建.md",
     "_posts/engineering/module/模块化.md",
     "_posts/base/知识目录、路线图/JS.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
@@ -373,10 +377,6 @@
     "_posts/engineering/webpack/Why & What & How-废话太多.md",
     "_posts/engineering/webpack/原理总结1.md",
     "_posts/engineering/webpack/配置项/entry.md",
-    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
-    "_posts/engineering/webpack/场景实践/搭建 CSS 工程环境：借助预处理器、PostCSS 等.md",
-    "_posts/engineering/webpack/配置项/cache.md",
-    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
     "_posts/base/知识目录、路线图/学习计划",
     "_posts/architect/架构模式",
     "_posts/architect/设计原则",
