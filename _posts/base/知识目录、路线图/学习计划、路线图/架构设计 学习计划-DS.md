@@ -23,7 +23,6 @@
 #### 1. 核心设计原则
 
 ##### SOLID 原则
-
 参考 [[设计原则：SOLID]]
 
 - 单一职责（Single Responsibility）
@@ -33,11 +32,10 @@
 - 依赖倒置（Dependency Inversion）
 
 ##### DRY/KISS/YAGNI 原则
-
 参考 [[设计原则：DRY、KISS、YAGNI]]
 
 #### 2. 架构模式对比
-参考 [[MVC]]、[[Flux]]、
+参考 [[MVC]]、[[Flux]]、[[React的组件化架构]]、[[微前端架构]]
 
 | **模式** | 适用场景    | 典型案例        |
 | ------ | ------- | ----------- |
@@ -61,7 +59,6 @@
   npx madge --image graph.svg src/
   ```
 
----
 
 ### 二、核心架构设计（4-8 周）
 
@@ -146,6 +143,7 @@
 | iframe            | 完全隔离     | 通信复杂         |
 
 - **乾坤（qiankun）实战**：
+
   ```ts
   // 主应用配置
   registerMicroApps([

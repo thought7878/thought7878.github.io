@@ -1,6 +1,8 @@
 # 免费平台
 - https://cloud.siliconflow.cn/playground/chat/17885302724
 - 
+- [【摆脱卡顿】DeepSeek全网最全的实战技巧！](https://www.bilibili.com/video/BV12QPme7EN9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+- 
 - 【百度终于干了件人事！DeepSeek满血版免费白嫖，本地部署详细教程】 https://b23.tv/PkQgJsV
 - 
 
@@ -71,3 +73,4 @@
   - [16:18] DeepSeek R1 思考过程值得学习
   - [16:59] 玩好玩的梗，对比 OpenAI 和 DeepSeek R1
   - [19:00] DeepSeek R1 中文语境理解能力不错
+
