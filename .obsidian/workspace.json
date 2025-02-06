@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/架构设计 学习计划.md",
+                "file": "_posts/architect/架构模式/Flux.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/架构设计 学习计划.md",
+                "file": "_posts/architect/架构模式/Flux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/架构设计 学习计划.md",
+                "file": "_posts/architect/架构模式/Flux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/架构设计 学习计划.md"
+                "file": "_posts/architect/架构模式/Flux.md"
               }
             }
           }
@@ -279,7 +279,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,11 +332,13 @@
       }
     ]
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "89dd2832d4a3fd2b",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/架构设计 学习计划.md",
+    "_posts/architect/架构模式/Flux.md",
+    "_posts/architect/架构模式/MVC.md",
     "_posts/architect/架构模式",
     "_posts/architect/设计原则/设计原则：DRY、KISS、YAGNI.md",
-    "_posts/base/知识目录、路线图/架构设计 学习计划.md",
     "_posts/architect/资料.md",
     "_posts/architect/设计原则",
     "_posts/architect/设计原则/设计原则：SOLID.md",
@@ -359,7 +362,6 @@
     "_posts/react/总结/Components/JSX.md",
     "_posts/任务记录/2025/February/5.md",
     "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/任务记录/2025/February/6.md",
     "_posts/engineering/pnpm & monorepo/pnpm",
     "_posts/react/Restful/TanStack Query/概念",
     "_posts/react/Restful/TanStack Query/media",
@@ -368,7 +370,6 @@
     "_posts/react/Restful",
     "_posts/react/总结/Context",
     "_posts/react/总结/状态",
-    "_posts/react/总结/Ref",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
