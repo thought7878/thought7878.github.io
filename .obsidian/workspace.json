@@ -140,37 +140,31 @@
             }
           },
           {
+            "id": "cfaf26c2b4f93008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/代码质量和规范/Prettier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4b50beb8dbbe26e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/任务记录/2025/February/7.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
-      },
-      {
-        "id": "f9a5eee26b1aed52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cfaf26c2b4f93008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/前端工程化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -248,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/前端工程化.md",
+                "file": "_posts/engineering/代码质量和规范/Prettier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/前端工程化.md",
+                "file": "_posts/engineering/代码质量和规范/Prettier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/前端工程化.md"
+                "file": "_posts/engineering/代码质量和规范/Prettier.md"
               }
             }
           }
@@ -351,32 +345,33 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/engineering/代码质量和规范/未命名.md",
     "_posts/engineering/代码质量和规范/Prettier.md",
-    "_posts/base/知识目录、路线图/前端工程化.md",
+    "_posts/任务记录/2025/February/7.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
     "_posts/engineering/代码质量和规范/Stylelint.md",
     "_posts/engineering/代码质量和规范/ESLint.md",
-    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/engineering/代码质量和规范/ESLint-2.md",
+    "_posts/base/知识目录、路线图/浏览器.md",
+    "_posts/base/知识目录、路线图/性能优化.md",
+    "_posts/base/知识目录、路线图/Webpack.md",
+    "_posts/base/知识目录、路线图/Vite.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
+    "_posts/base/知识目录、路线图/知识目录/React.md",
+    "_posts/base/知识目录、路线图/知识目录/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/知识目录、路线图/知识目录",
     "_posts/engineering/自动化构建.md",
+    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/engineering/module/模块化.md",
-    "_posts/base/知识目录、路线图/JS.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/engineering/前端工程化的定义、目标和意义.md",
     "_posts/AI/DeepSeek.md",
     "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
     "_posts/要整理的.md",
     "_posts/engineering/前端开发流程.md",
-    "_posts/engineering/module/模块化-DS.md",
-    "_posts/任务记录/2025/February/4.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
-    "_posts/engineering/module/模块化-DB.md",
-    "_posts/base/知识目录、路线图/学习计划/架构设计 学习计划-DS.md",
-    "_posts/任务记录/2025/February/6.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-siliconflow.md",
-    "_posts/base/知识目录、路线图/Webpack.md",
-    "_posts/engineering/webpack/Why & What & How-废话太多.md",
-    "_posts/engineering/webpack/原理总结1.md",
-    "_posts/engineering/webpack/配置项/entry.md",
     "_posts/base/知识目录、路线图/学习计划",
     "_posts/architect/架构模式",
     "_posts/architect/设计原则",
@@ -386,7 +381,6 @@
     "_posts/react/GraphQL",
     "_posts/react/Restful/TanStack Query",
     "_posts/react/Restful",
-    "_posts/react/总结/Context",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
