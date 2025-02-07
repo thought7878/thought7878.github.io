@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+                "file": "_posts/base/知识目录、路线图/_知识点提问的模版.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:typeof",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/前端工程化.md"
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md"
               }
             }
           }
@@ -357,15 +357,18 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/部署/前端项目的部署方式.md",
     "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
     "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
-    "_posts/engineering/部署",
-    "_posts/engineering/overview/前端工程化有哪些知识点？.md",
-    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
-    "_posts/base/知识目录、路线图/Webpack.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/版本控制与协作/Git",
     "_posts/engineering/module/ES Module/ES Module.md",
     "_posts/engineering/module/ES Module/循环依赖.md",
+    "_posts/engineering/部署/前端项目的部署方式.md",
+    "_posts/engineering/版本控制与协作",
+    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
+    "_posts/engineering/部署",
+    "_posts/engineering/overview/前端工程化有哪些知识点？.md",
+    "_posts/base/知识目录、路线图/Webpack.md",
     "_posts/任务记录/2025/February/7.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/engineering/module/ES Module/导出的是引用.md",
@@ -384,15 +387,12 @@
     "_posts/engineering/代码质量和规范/Lint-staged.md",
     "_posts/engineering/代码质量和规范/Prettier.md",
     "_posts/engineering/代码质量和规范/prettier、eslint的冲突问题.md",
-    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/base/知识目录、路线图/知识目录",
     "_posts/base/知识目录、路线图/学习计划",
     "_posts/architect/架构模式",
     "_posts/architect/设计原则",
     "_posts/engineering/pnpm & monorepo/pnpm",
     "_posts/react/Restful/TanStack Query/概念",
-    "_posts/react/Restful/TanStack Query/media",
-    "_posts/react/GraphQL",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
