@@ -247,7 +247,7 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 
 # Module
 ## ES Module
-参考 [[ES Module]]
+参考 [[_posts/base/js/知识点总结/模块/ES Module]]
 ## CommonJS
 参考 [[CommonJS]]
 
