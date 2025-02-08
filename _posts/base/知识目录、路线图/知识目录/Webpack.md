@@ -1,6 +1,6 @@
 > 总结Webpack的全部的知识点，不要介绍，只要知识点
 
-### DS的思考
+# DS的思考
 好的，我需要总结Webpack的所有知识点，但用户要求不要介绍，只要知识点。首先，我需要回忆Webpack的核心概念、配置项、常用loader、插件、优化手段、开发环境配置、与其他工具的集成等等。
 
 首先，Webpack的`核心概念`有入口(entry)、输出(output)、loader、插件(plugins)、模式(mode)、模块(module)、依赖图(dependency graph)。这些是基础，必须列出来。
@@ -28,44 +28,100 @@
 可能需要分几个主要部分，比如核心概念、配置项、Loader、插件、优化、开发环境、生产环境、高级特性、工具集成等。确保每个部分下的知识点全面且准确，不涉及具体使用方法，只列出名称或功能关键词。
 
 
-### Webpack 知识点清单
+# Webpack 知识点清单
+参考：[[Webpack 学习计划-DS]]
 
 ---
+## 前置知识
 
-#### **一、核心概念**
-1. **入口 (Entry)**  
+打包、编译、压缩
+参考：[[打包]]、[[编译]]
+
+## 一、核心概念
+
+### 核心作用
+#### 模块打包
+将分散的模块合并为少数文件
+
+#### 资源处理
+编译（TypeScript/Sass）、压缩、代码分割
+
+### 基本术语
+
+####  入口 (Entry)  
    - 单入口、多入口、动态入口  
-2. **输出 (Output)**  
+参考：[[entry]]
+#### 输出 (Output)  
    - `path`, `filename`, `publicPath`, `chunkFilename`, `library`  
-3. **模块 (Module)**  
+参考：[[output]]
+#### 模块 (Module)  
    - 支持的模块类型（JS、CSS、图片等）  
    - `rules` 配置 (`test`, `use`, `exclude`, `include`)  
-4. **Loader**  
+
+#### Loader  
    - 转换非 JS 资源（如 CSS、图片、字体）  
-5. **插件 (Plugins)**  
+
+#### 插件 (Plugins)  
    - 扩展功能（打包优化、资源管理、环境注入等）  
-6. **模式 (Mode)**  
+
+#### 模式 (Mode)  
    - `development`、`production`、`none`  
-7. **依赖图 (Dependency Graph)**  
+
+#### 依赖图 (Dependency Graph)  
    - 模块间的依赖关系解析  
 
 ---
 
-#### **二、配置项**
-8. **基础配置**  
-   - `entry`, `output`, `module`, `plugins`, `mode`, `devtool`  
-9. **解析配置 (Resolve)**  
-   - `alias`, `extensions`, `modules`  
-10. **开发服务器 (DevServer)**  
-    - `contentBase`, `port`, `hot`, `proxy`, `historyApiFallback`  
-11. **优化配置 (Optimization)**  
-    - `splitChunks`, `minimizer`, `runtimeChunk`, `concatenateModules`  
-12. **外部扩展 (Externals)**  
-    - 排除第三方库（如 CDN 引入的 jQuery）  
+## 二、配置项
+参考：[[配置项、完整配置文件]]
+
+### 1. 基础配置
+
+| 配置项       | 说明                          |
+| --------- | --------------------------- |
+| `entry`   | 入口文件（单入口、多入口、动态入口）          |
+| `output`  | 输出文件配置（路径、文件名、公共路径等）        |
+| `context` | 基础上下文路径（默认 `process.cwd()`） |
+
+### 2. 模块处理
+
+| 配置项            | 说明                          |
+| -------------- | --------------------------- |
+| `module.rules` | 定义 Loader 规则（处理 JS/CSS/图片等） |
+| `resolve`      | 模块解析规则（别名、扩展名、主文件等）         |
+| `externals`    | 排除外部依赖（如 CDN 引入的库）          |
+
+### 3. 插件
+
+| 配置项 | 说明 |
+|--------|------|
+| `plugins` | 插件列表（HTML 生成、环境变量注入、压缩等） |
+
+### 4. 开发工具
+
+| 配置项 | 说明 |
+|--------|------|
+| `devServer` | 开发服务器配置（端口、代理、热更新等） |
+| `devtool` | 源码映射模式（`source-map`、`eval-cheap-source-map` 等） |
+
+### 5. 优化与模式
+
+| 配置项 | 说明 |
+|--------|------|
+| `optimization` | 代码分割、压缩、Tree Shaking 等优化配置 |
+| `mode` | 构建模式（`development` 或 `production`） |
+
+### 6. 高级配置
+
+| 配置项 | 说明 |
+|--------|------|
+| `performance` | 性能提示（文件大小限制等） |
+| `stats` | 控制构建输出信息（日志级别） |
+| `experiments` | 实验性功能（如 WebAssembly、异步模块等） |
 
 ---
 
-#### **三、常用 Loader**
+## **三、常用 Loader**
 13. **JavaScript 处理**  
     - `babel-loader`（转译 ES6+）  
     - `ts-loader`（编译 TypeScript）  
@@ -84,7 +140,7 @@
 
 ---
 
-#### **四、常用插件**
+## **四、常用插件**
 17. **HTML 管理**  
     - `HtmlWebpackPlugin`（生成 HTML 文件）  
 18. **资源清理**  
@@ -105,7 +161,7 @@
 
 ---
 
-#### **五、优化策略**
+## **五、优化策略**
 25. **代码分割 (Code Splitting)**  
     - 入口分割、动态导入 (`import()`)、`splitChunks`  
 26. **Tree Shaking**  
@@ -124,7 +180,7 @@
 
 ---
 
-#### **六、开发环境**
+## **六、开发环境**
 32. **Source Map**  
     - `devtool` 配置（`eval`、`source-map`、`cheap-module-source-map` 等）  
 33. **模块热替换 (HMR)**  
@@ -136,7 +192,7 @@
 
 ---
 
-#### **七、生产环境**
+## **七、生产环境**
 36. **代码压缩**  
     - JS（Terser）、CSS（CSSNano）、HTML（HtmlWebpackPlugin 压缩）  
 37. **资源指纹**  
@@ -148,7 +204,7 @@
 
 ---
 
-#### **八、高级特性**
+## **八、高级特性**
 40. **模块联邦 (Module Federation)**  
     - Webpack 5 支持微前端架构  
 41. **持久化缓存**  
@@ -162,7 +218,7 @@
 
 ---
 
-#### **九、工具集成**
+## **九、工具集成**
 45. **Babel**  
     - `@babel/core`、`@babel/preset-env`、`babel.config.js`  
 46. **TypeScript**  
@@ -174,7 +230,7 @@
 
 ---
 
-#### **十、其他**
+## **十、其他**
 49. **Webpack CLI**  
     - `webpack`、`webpack-dev-server`、`--config` 指定配置文件  
 50. **多配置导出**  
@@ -186,5 +242,5 @@
 
 ---
 
-### **总结**  
+# **总结**  
 此清单涵盖 Webpack 核心配置、Loader/插件、优化策略、开发/生产环境实践及高级特性，适用于快速查阅和系统性学习。

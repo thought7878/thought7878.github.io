@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/编译.md",
+                "file": "_posts/engineering/webpack/目录.md",
                 "mode": "source",
                 "source": false
               }
@@ -248,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 390.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/编译.md",
+                "file": "_posts/engineering/webpack/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/编译.md",
+                "file": "_posts/engineering/webpack/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/编译.md"
+                "file": "_posts/engineering/webpack/目录.md"
               }
             }
           }
@@ -367,12 +367,17 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/配置项/配置项、完整配置文件.md",
+    "_posts/任务记录/2025/February/8.md",
+    "_posts/任务记录/2025/February/7.md",
+    "_posts/engineering/webpack/配置项/output.md",
+    "_posts/engineering/webpack/配置项/entry.md",
     "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
     "_posts/engineering/webpack/编译.md",
     "_posts/engineering/webpack/打包.md",
     "_posts/engineering/webpack/目录.md",
     "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
-    "_posts/base/知识目录、路线图/Webpack.md",
     "_posts/engineering/module/ES Module/ES Module.md",
     "_posts/engineering/module/ES Module/循环依赖.md",
     "_posts/engineering/版本控制与协作/Git/git-workflow.md",
@@ -382,8 +387,6 @@
     "_posts/engineering/版本控制与协作/Git/directive.md",
     "_posts/engineering/版本控制与协作/Git/命令流程图.md",
     "Excalidraw/Drawing 2025-02-08 08.56.49.excalidraw.md",
-    "_posts/任务记录/2025/February/8.md",
-    "_posts/任务记录/2025/February/7.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/任务记录/2025/学习复习模版.md",
     "_posts/engineering/版本控制与协作/Git/暂存区.md",
@@ -393,9 +396,6 @@
     "_posts/base/知识目录、路线图/_知识点提问的模版.md",
     "_posts/engineering/部署",
     "_posts/engineering/overview/前端工程化有哪些知识点？.md",
-    "_posts/engineering/module/ES Module/导出的是引用.md",
-    "_posts/engineering/module/ES Module/Import().md",
-    "_posts/engineering/module/ES Module/Import().md",
     "_posts/engineering/module/ES Module",
     "_posts/base/知识目录、路线图/知识目录",
     "_posts/base/知识目录、路线图/学习计划",
