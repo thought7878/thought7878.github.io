@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
+                "file": "_posts/engineering/版本控制与协作/Git/directive.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,9 +169,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/7.md",
+                "file": "_posts/任务记录/2025/February/8.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e98cd7cf198a6247",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_posts/engineering/版本控制与协作/Git/命令流程图.md"
               }
             }
           }
@@ -238,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -254,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
+                "file": "_posts/engineering/版本控制与协作/Git/directive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
+                "file": "_posts/engineering/版本控制与协作/Git/directive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/Git.md"
+                "file": "_posts/engineering/版本控制与协作/Git/directive.md"
               }
             }
           }
@@ -357,9 +368,18 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/版本控制与协作/Git/directive.md",
+    "_posts/任务记录/2025/February/8.md",
+    "_posts/任务记录/2025/February/7.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/engineering/版本控制与协作/Git/命令流程图.md",
+    "_posts/engineering/版本控制与协作/Git/暂存区.md",
+    "_posts/engineering/版本控制与协作/Git/overview.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/engineering/版本控制与协作/Git/git-workflow.md",
+    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
     "_posts/engineering/版本控制与协作/Git",
     "_posts/engineering/module/ES Module/ES Module.md",
     "_posts/engineering/module/ES Module/循环依赖.md",
@@ -369,8 +389,6 @@
     "_posts/engineering/部署",
     "_posts/engineering/overview/前端工程化有哪些知识点？.md",
     "_posts/base/知识目录、路线图/Webpack.md",
-    "_posts/任务记录/2025/February/7.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/engineering/module/ES Module/导出的是引用.md",
     "_posts/engineering/module/ES Module/Import().md",
     "_posts/engineering/module/ES Module/Import().md",
@@ -380,13 +398,6 @@
     "_posts/engineering/module/模块化-DS.md",
     "_posts/engineering/代码质量和规范/Husky.md",
     "_posts/要整理的.md",
-    "_posts/AI/豆包.md",
-    "_posts/engineering/代码质量和规范/Commitizen.md",
-    "_posts/engineering/代码质量和规范/Commitlint.md",
-    "_posts/engineering/代码质量和规范/Conventional Commits 规范.md",
-    "_posts/engineering/代码质量和规范/Lint-staged.md",
-    "_posts/engineering/代码质量和规范/Prettier.md",
-    "_posts/engineering/代码质量和规范/prettier、eslint的冲突问题.md",
     "_posts/base/知识目录、路线图/知识目录",
     "_posts/base/知识目录、路线图/学习计划",
     "_posts/architect/架构模式",
