@@ -88,8 +88,7 @@
 | `output`  | 输出文件配置（路径、文件名、公共路径等）        |
 | `context` | 基础上下文路径（默认 `process.cwd()`） |
 
-参考：[[entry]]、[[output]]、
-
+参考：[[entry]]、[[output]]、[[_posts/engineering/webpack/配置项/context|context]]
 
 ### 2. 模块处理
 
@@ -99,11 +98,15 @@
 | `resolve`      | 模块解析规则（别名、扩展名、主文件等）         |
 | `externals`    | 排除外部依赖（如 CDN 引入的库）          |
 
+参考：[[module]]、[[resolve]]、[[externals]]
+
 ### 3. 插件
 
-| 配置项 | 说明 |
-|--------|------|
+| 配置项       | 说明                       |
+| --------- | ------------------------ |
 | `plugins` | 插件列表（HTML 生成、环境变量注入、压缩等） |
+
+参考：[[plugins]]
 
 ### 4. 开发工具
 

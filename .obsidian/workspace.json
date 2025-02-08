@@ -191,14 +191,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/8.md",
+                "file": "_posts/任务记录/2025/February/7.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+                "file": "_posts/任务记录/2025/February/7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+                "file": "_posts/任务记录/2025/February/7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md"
+                "file": "_posts/任务记录/2025/February/7.md"
               }
             }
           }
@@ -377,15 +377,22 @@
       }
     ]
   },
-  "active": "cfaf26c2b4f93008",
+  "active": "b4b50beb8dbbe26e",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/配置项/output.md",
+    "_posts/任务记录/2025/February/8.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/engineering/webpack/配置项/mode.md",
+    "_posts/engineering/webpack/配置项/plugins.md",
+    "_posts/engineering/webpack/配置项/externals.md",
+    "_posts/engineering/webpack/配置项/resolve.md",
+    "_posts/读书笔记/警句.md",
     "_posts/engineering/webpack/配置项/module.md",
+    "_posts/engineering/webpack/配置项/context.md",
+    "_posts/engineering/webpack/配置项/entry.md",
+    "_posts/base/知识目录、路线图/知识目录/media",
+    "_posts/engineering/webpack/配置项/output.md",
+    "_posts/engineering/webpack/配置项/mode.md",
     "_posts/engineering/webpack/Why、What.md",
     "_posts/engineering/webpack/目录.md",
-    "_posts/任务记录/2025/February/8.md",
     "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
     "_posts/要整理的.md",
     "_posts/外面的世界/趋势.md",
@@ -399,12 +406,6 @@
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
     "_posts/任务记录/2025/February/1-单词.md",
     "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
-    "_posts/engineering/webpack/配置项/配置项、完整配置文件.md",
-    "_posts/任务记录/2025/February/7.md",
-    "_posts/engineering/webpack/配置项/entry.md",
-    "_posts/engineering/webpack/编译.md",
-    "_posts/engineering/webpack/打包.md",
     "_posts/engineering/版本控制与协作/Git",
     "_posts/engineering/版本控制与协作",
     "_posts/engineering/部署",
@@ -414,7 +415,6 @@
     "_posts/architect/架构模式",
     "_posts/architect/设计原则",
     "_posts/engineering/pnpm & monorepo/pnpm",
-    "_posts/react/Restful/TanStack Query/概念",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
