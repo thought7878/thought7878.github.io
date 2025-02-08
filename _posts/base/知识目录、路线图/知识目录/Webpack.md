@@ -33,18 +33,22 @@
 
 ---
 ## 前置知识
+### Why、What
+参考：[[Why、What]]
 
-打包、编译、压缩
+### 打包、编译、压缩
 参考：[[打包]]、[[编译]]
 
 ## 一、核心概念
 
 ### 核心作用
+参考：[[Why、What]]
 #### 模块打包
 将分散的模块合并为少数文件
 
 #### 资源处理
-编译（TypeScript/Sass）、压缩、代码分割
+- 将任意资源转换为 JS 可识别的模块。
+- 编译（TypeScript/Sass）、压缩、代码分割。
 
 ### 基本术语
 
@@ -57,7 +61,7 @@
 #### 模块 (Module)  
    - 支持的模块类型（JS、CSS、图片等）  
    - `rules` 配置 (`test`, `use`, `exclude`, `include`)  
-
+参考：[[module]]
 #### Loader  
    - 转换非 JS 资源（如 CSS、图片、字体）  
 
@@ -66,6 +70,7 @@
 
 #### 模式 (Mode)  
    - `development`、`production`、`none`  
+参考：[[mode]]
 
 #### 依赖图 (Dependency Graph)  
    - 模块间的依赖关系解析  
@@ -82,6 +87,9 @@
 | `entry`   | 入口文件（单入口、多入口、动态入口）          |
 | `output`  | 输出文件配置（路径、文件名、公共路径等）        |
 | `context` | 基础上下文路径（默认 `process.cwd()`） |
+
+参考：[[entry]]、[[output]]、
+
 
 ### 2. 模块处理
 

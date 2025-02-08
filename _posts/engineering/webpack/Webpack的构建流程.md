@@ -1,104 +1,55 @@
+Webpack 是一个强大的模块打包工具，其构建流程可以大致分为以下几个关键阶段：
 
-# 构建流程
-Webpack 的构建过程，大致上可划分为**三个阶段：**
+### 1. 初始化阶段
 
-![[engineering/教程/Webpack5 核心原理与应用实践/media/0007aa99d42380bfd9ce3abfce8fadf9_MD5.webp]]
+- **读取配置文件**：Webpack 启动时，会首先查找项目根目录下的 `webpack.config.js`（或通过命令行指定的配置文件），并解析其中的配置信息，包括入口文件、输出路径、Loader、插件等配置项。
 
-- 初始化阶段：
-	- 主要是根据配置信息设置/初始化内置的各类插件。
-- 构建阶段/Make：从`entry`模块开始，执行
-	- 读入文件内容；
-	- 调用 Loader 转译文件内容；
-	- 调用 [acorn](https://link.juejin.cn/?target=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Facorn) 生成 AST 结构；
-	- 分析 AST，确定模块依赖列表；
-	- 遍历模块依赖列表，对每一个依赖模块重新执行上述流程，直到生成完整的模块依赖图 —— ModuleGraph 对象。
-- 生成阶段/Seal：
-	- 遍历模块依赖图，对每一个模块执行：
-		- 代码转译？？？，如 `import` 转换为 `require` 调用；
-		- 分析运行时依赖。
-	- 合并模块代码与运行时代码，生成 chunk；
-	- 执行产物优化操作，如 Tree-shaking；
-	- 将最终结果写出到产物文件。
+```javascript
+// webpack.config.js
+const path = require("path");
 
-
-
-## 初始化阶段
- 
-### 读取配置文件
-
-Webpack 首先会读取项目根目录下的`webpack.config.js`（或其他指定的配置文件）。这个配置文件包含了一系列的配置选项，如`entry`（入口）、`output`（输出）、`module`（模块）、`plugins`（插件）等。*这些配置信息将指导 Webpack 整个构建过程*。例如，一个简单的`webpack.config.js`可能如下：
-
-```js
-const path = require('path');
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
   },
   module: {
     rules: [
-      // 模块处理规则，如加载CSS、图片等
-    ]
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
-  plugins: [
-    // 插件配置
-  ]
+  plugins: [],
 };
 ```
 
-### 创建 Compiler 对象
-Webpack *根据读取的配置文件*创建一个`Compiler`对象。这个`Compiler`对象是 Webpack 的*核心引擎*，*它包含了整个构建过程的状态信息和方法*。它会在后续的构建过程中协调各个模块的处理、插件的调用等操作。例如，`Compiler`对象*可以触发构建过程中的不同阶段*，如`compilation`阶段。
+- **创建 Compiler 对象**：根据解析后的配置信息，Webpack 会创建一个 `Compiler` 对象，该对象是 Webpack 的核心对象，负责整个编译过程的控制和管理，包含了所有的配置信息和事件钩子。
 
-### 加载插件（Plugin）
+### 2. 编译阶段
 
-在初始化阶段，Webpack 会*遍历配置文件中的`plugins`数组，加载并实例化每个插件*。每个插件都可以通过定义的钩子（Hook）方法来介入 Webpack 的构建过程。例如，`html-webpack-plugin`插件会在构建过程中生成 HTML 文件，它在初始化阶段被加载后，会等待合适的构建阶段来执行生成 HTML 文件的操作。
+- **确定入口文件**：根据配置中的 `entry` 选项，Webpack 确定编译的入口文件，从该文件开始递归解析其依赖的所有模块。
+- **模块解析与构建依赖图**
+  - **解析模块路径**：对于每个模块导入语句（如 `import` 或 `require`），Webpack 会根据配置的解析规则（如 `resolve.extensions`）查找对应的模块文件。
+  - **使用 Loader 处理模块**：如果模块文件是特殊类型（如 CSS、图片等），Webpack 会使用配置的 Loader 对其进行转换，将其转换为 JavaScript 模块。
+  - **构建依赖图**：Webpack 会递归地分析每个模块的依赖关系，将所有模块及其依赖信息构建成一个依赖图，每个模块在图中都有唯一的标识。
+- **模块转换**：在找到模块文件后，Webpack 会根据配置的 Loader 对模块进行转换。Loader 是一个函数，它接收模块的源代码作为输入，并返回转换后的代码。例如，`css-loader` 会将 CSS 文件解析为 JavaScript 对象，`style-loader` 会将这些样式注入到 HTML 的 `<style>` 标签中。
 
+### 3. 打包阶段
 
+- **合并模块**：根据构建好的依赖图，Webpack 会将所有模块合并成一个或多个文件。在合并过程中，Webpack 会处理模块之间的引用关系，确保每个模块只被打包一次。
+- **代码分割（可选）**：如果配置了代码分割策略（如使用动态导入 `import()`），Webpack 会将应用程序分割成多个较小的代码块，以提高应用的加载性能。这些代码块会在需要时动态加载。
+- **生成最终打包文件**：Webpack 根据配置的 `output` 选项，将合并后的代码输出到指定的文件和目录中。
 
-## 编译（Compilation）阶段
+### 4. 输出阶段
 
-### 解析入口文件
+- **生成文件**：Webpack 将打包好的代码写入到磁盘上的输出文件中，这些文件通常位于配置的 `output.path` 目录下。
+- **插件执行**：在输出阶段，Webpack 会触发各种插件的钩子函数，允许插件对最终的打包结果进行进一步的处理。例如，`HtmlWebpackPlugin` 会生成一个 HTML 文件，并将打包后的 JavaScript 文件引入到该 HTML 文件中；`UglifyJsPlugin` 会对 JavaScript 代码进行压缩和混淆。
 
-`Compiler`对象会从配置的`entry`（入口）点开始解析模块。例如，如果`entry`是`'./src/index.js'`，Webpack 会读取这个`index.js`文件，并*将其作为构建的起点*。在解析过程中，会识别文件中的`import`或`require`语句，从而确定需要加载的其他模块。
+### 5. 完成阶段
 
-### 构建模块依赖图
+- **构建完成通知**：当所有文件都输出完成后，Webpack 会触发构建完成的事件，通知开发者构建过程已经结束。此时，开发者可以在终端看到构建成功的提示信息，并且可以在指定的输出目录中找到打包好的文件。
 
-当解析入口文件和其他被引用的模块时，Webpack 会*构建一个模块依赖图（Module Dependency Graph）*。这个图展示了各个模块之间的依赖关系，例如，`index.js`可能依赖于`utils.js`，那么在模块依赖图中就会有一条从`index.js`指向`utils.js`的边。*这种依赖关系的构建有助于 Webpack 正确地处理模块加载顺序等问题*。
-
-### 编译、转换模块（通过 Loader）
-
-对于每个需要处理的模块，Webpack 会根据配置文件中的`module.rules`来选择合适的 Loader 进行处理。*例如*，如果模块是一个`.css`文件，并且配置了`css-loader`和`style-loader`，那么会先使用`css-loader`来解析 CSS 模块，然后使用`style-loader`将解析后的 CSS 样式注入到 HTML 文档中。**这个过程会对各种类型的模块进行转换**，如将 ES6 + 代码转换为 ES5（通过`babel-loader`）、将 LESS/SASS 文件转换为 CSS 文件（通过`less-loader`或`sass-loader`）等。
-
-## 输出（Output）阶段
-### 生成资源文件
-
-在模块转换完成后，Webpack 会*根据配置文件中的`output`选项来生成最终的资源文件*。例如，如果`output.filename`配置为`'main.js'`，`output.path`配置为`path.resolve(__dirname, 'dist')`，那么 Webpack 会将打包后的 JavaScript 文件（以及其他通过插件或 Loader 处理后的资源，如 CSS、图片等）输出到`dist`目录下的`main.js`文件中。对于 CSS 文件，如果使用了`extract-css-plugins`等插件，可能会将 CSS 文件单独输出到`dist`目录下的某个 CSS 文件中。
-
-### 输出 HTML 文件（如果有相关插件）
-
-如果配置了`html-webpack-plugin`等生成 HTML 的插件，在这个阶段会根据模板文件和打包后的资源信息生成 HTML 文件。插件会自动将打包后的 JavaScript 和 CSS 文件的引用插入到 HTML 文件的正确位置。例如，生成的 HTML 文件可能会在`<head>`部分插入`<link>`标签来引用 CSS 文件，在`<body>`部分插入`<script>`标签来引用 JavaScript 文件。
-
-### 文件写入磁盘
-
-最后，Webpack 会将生成的所有资源文件（JavaScript、CSS、HTML 以及其他文件）写入到磁盘的相应位置。这个过程完成后，构建过程结束，生成的文件可以用于部署到服务器或者在本地进行开发测试等操作。
-
-# 深入理解 Chunk
-
-> 参考 [[16 如何正确使用 SplitChunks提升应用性能？]]
-
-**`Chunk` 是 Webpack 内部一个非常重要的底层设计（写入文件之前的对象/数据结构），用于组合、优化 Module 对象。在构建流程进入生成(Seal)阶段后：**
-1. Webpack 首先根据 `entry` 配置*创建若干 Chunk 对象*；
-2. 遍历构建(Make)阶段的所有 Module 对象，同一 Entry 下的模块分配到 Entry 对应的 Chunk 中；
-3. *遇到异步模块则创建新的 Chunk 对象*，并将异步模块放入该 Chunk；
-4. 分配完毕后，根据 SplitChunksPlugin 的配置规则进一步对这些 Chunk 执行**拆分、合并、代码调优**，最终调整成运行性能(可能)更优的形态；
-5. 最后，*将这些 Chunk 一个个输出成最终的产物(Asset)文件，编译打包工作到此结束*。
-
-![[engineering/教程/Webpack5 核心原理与应用实践/media/8d485f1783389893fd3da684ade36476_MD5.webp]]
-
-可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列 **默认分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
-
-
-# 参考
-[[24 真正读懂 Webpack 核心流程]]
-[[1.持久化缓存：大幅提升构建性能]]
+综上所述，Webpack 的构建流程是一个复杂而有序的过程，通过模块解析、依赖图构建、模块转换、打包和输出等步骤，将多个模块打包成一个或多个文件，同时利用插件系统提供了强大的扩展能力。

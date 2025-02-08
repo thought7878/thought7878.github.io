@@ -157,6 +157,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5821792203030783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "_posts/engineering/webpack/目录.md",
                 "mode": "source",
                 "source": false
@@ -264,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/目录.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/目录.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/目录.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md"
               }
             }
           }
@@ -367,35 +379,35 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/engineering/webpack/配置项/配置项、完整配置文件.md",
-    "_posts/任务记录/2025/February/8.md",
-    "_posts/任务记录/2025/February/7.md",
     "_posts/engineering/webpack/配置项/output.md",
-    "_posts/engineering/webpack/配置项/entry.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/配置项/mode.md",
+    "_posts/engineering/webpack/配置项/module.md",
+    "_posts/engineering/webpack/Why、What.md",
+    "_posts/engineering/webpack/目录.md",
+    "_posts/任务记录/2025/February/8.md",
     "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
+    "_posts/要整理的.md",
+    "_posts/外面的世界/趋势.md",
+    "_posts/engineering/版本控制与协作/Git/命令流程图.md",
+    "_posts/engineering/webpack/Webpack的构建流程.md",
+    "_posts/engineering/webpack/Why & What & How-废话太多.md",
+    "_posts/engineering/webpack/Webpack的构建流程2.md",
+    "_posts/engineering/webpack/Webpack 核心原理.md",
+    "_posts/engineering/webpack/原理总结1.md",
+    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/24 真正读懂 Webpack 核心流程.md",
+    "_posts/任务记录/2025/February/1-单词.md",
+    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/2 如何理解 Webpack 配置底层结构逻辑？.md",
+    "_posts/engineering/webpack/配置项/配置项、完整配置文件.md",
+    "_posts/任务记录/2025/February/7.md",
+    "_posts/engineering/webpack/配置项/entry.md",
     "_posts/engineering/webpack/编译.md",
     "_posts/engineering/webpack/打包.md",
-    "_posts/engineering/webpack/目录.md",
-    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
-    "_posts/engineering/module/ES Module/ES Module.md",
-    "_posts/engineering/module/ES Module/循环依赖.md",
-    "_posts/engineering/版本控制与协作/Git/git-workflow.md",
-    "_posts/engineering/版本控制与协作/Git/overview.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
-    "_posts/engineering/版本控制与协作/Git/directive.md",
-    "_posts/engineering/版本控制与协作/Git/命令流程图.md",
-    "Excalidraw/Drawing 2025-02-08 08.56.49.excalidraw.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/任务记录/2025/学习复习模版.md",
-    "_posts/engineering/版本控制与协作/Git/暂存区.md",
     "_posts/engineering/版本控制与协作/Git",
-    "_posts/engineering/部署/前端项目的部署方式.md",
     "_posts/engineering/版本控制与协作",
-    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
     "_posts/engineering/部署",
-    "_posts/engineering/overview/前端工程化有哪些知识点？.md",
     "_posts/engineering/module/ES Module",
     "_posts/base/知识目录、路线图/知识目录",
     "_posts/base/知识目录、路线图/学习计划",
