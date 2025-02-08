@@ -115,6 +115,8 @@
 | `devServer` | 开发服务器配置（端口、代理、热更新等） |
 | `devtool` | 源码映射模式（`source-map`、`eval-cheap-source-map` 等） |
 
+参考：[[devServer]]、[[devTool]]
+
 ### 5. 优化与模式
 
 | 配置项 | 说明 |
@@ -122,13 +124,17 @@
 | `optimization` | 代码分割、压缩、Tree Shaking 等优化配置 |
 | `mode` | 构建模式（`development` 或 `production`） |
 
+参考：[[optimization]]、[[mode]]
+
 ### 6. 高级配置
 
-| 配置项 | 说明 |
-|--------|------|
-| `performance` | 性能提示（文件大小限制等） |
-| `stats` | 控制构建输出信息（日志级别） |
+| 配置项           | 说明                         |
+| ------------- | -------------------------- |
+| `performance` | 性能提示（文件大小限制等）              |
+| `stats`       | 控制构建输出信息（日志级别）             |
 | `experiments` | 实验性功能（如 WebAssembly、异步模块等） |
+
+参考：[[_posts/engineering/webpack/配置项/performance|performance]]、[[stats]]
 
 ---
 

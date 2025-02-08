@@ -1,4 +1,4 @@
-在 Webpack 配置中，`optimization` 选项用于优化构建过程和输出文件。通过配置 `optimization`，你可以**实现代码分割、Tree Shaking、懒加载、缓存优化等多种优化策略**，从而提高应用的性能和加载速度。
+在 Webpack 配置中，`optimization` 选项用于*优化构建过程*和输出文件。通过配置 `optimization`，你可以**实现代码分割、Tree Shaking、懒加载、缓存优化等多种优化策略**，从而提高应用的性能和加载速度。
 
 以下是一些常见的 `optimization` 配置选项及其用法：
 
