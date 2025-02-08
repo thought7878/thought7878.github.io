@@ -3,21 +3,26 @@
 ---
 
 ### **一、工作区（Working Directory）**
+
 **操作未跟踪或已修改但未暂存的文件**  
-| 命令 | 说明 | 示例 |
-|------|------|------|
-| `git status` | 查看工作区状态（未跟踪/已修改的文件） | `git status` |
-| `git add` | 将文件添加到暂存区 | `git add file.js` 或 `git add .` |
-| `git restore` | 撤销工作区的修改（恢复到最后提交或暂存状态） | `git restore file.js` |
-| `git clean` | 删除未跟踪的文件 | `git clean -fd`（强制删除目录和文件） |
-| `git diff` | 查看工作区与暂存区的差异 | `git diff` |
-| `git mv` | 移动或重命名文件 | `git mv old.txt new.txt` |
-| `git rm` | 删除文件（需提交） | `git rm file.js` |
+
+| 命令            | 说明                     | 示例                              |
+| ------------- | ---------------------- | ------------------------------- |
+| `git status`  | 查看工作区状态（未跟踪/已修改的文件）    | `git status`                    |
+| `git add`     | 将文件添加到暂存区              | `git add file.js` 或 `git add .` |
+| `git restore` | 撤销工作区的修改（恢复到最后提交或暂存状态） | `git restore file.js`           |
+| `git clean`   | 删除未跟踪的文件               | `git clean -fd`（强制删除目录和文件）      |
+| `git diff`    | 查看工作区与暂存区的差异           | `git diff`                      |
+| `git mv`      | 移动或重命名文件               | `git mv old.txt new.txt`        |
+| `git rm`      | 删除文件（需提交）              | `git rm file.js`                |
+|               |                        |                                 |
 
 ---
 
 ### **二、暂存区（Staging Area）**
+
 **操作已暂存但未提交的变更**  
+
 | 命令 | 说明 | 示例 |
 |------|------|------|
 | `git reset` | 将文件从暂存区撤回工作区 | `git reset HEAD file.js` |
@@ -27,7 +32,9 @@
 ---
 
 ### **三、本地仓库（Local Repository）**
+
 **操作已提交的版本历史和分支**  
+
 | 命令 | 说明 | 示例 |
 |------|------|------|
 | `git commit` | 提交暂存区的变更到本地仓库 | `git commit -m "message"` |
@@ -44,7 +51,9 @@
 ---
 
 ### **四、远程仓库（Remote Repository）**
+
 **操作远程仓库（如 GitHub/GitLab）**  
+
 | 命令 | 说明 | 示例 |
 |------|------|------|
 | `git clone` | 克隆远程仓库到本地 | `git clone https://github.com/user/repo.git` |
@@ -58,16 +67,18 @@
 ---
 
 ### **五、跨区域或工具类命令**
-| 命令 | 说明 | 示例 |
-|------|------|------|
-| `git config` | 配置 Git 参数 | `git config --global user.name "Your Name"` |
-| `gitignore` | 定义忽略文件规则 | 创建 `.gitignore` 文件 |
-| `git reflog` | 查看所有操作记录（包括被删除的提交） | `git reflog` |
-| `git help` | 查看帮助文档 | `git help commit` |
+
+| 命令         | 说明                                 | 示例                                        |
+| ------------ | ------------------------------------ | ------------------------------------------- |
+| `git config` | 配置 Git 参数                        | `git config --global user.name "Your Name"` |
+| `gitignore`  | 定义忽略文件规则                     | 创建 `.gitignore` 文件                      |
+| `git reflog` | 查看所有操作记录（包括被删除的提交） | `git reflog`                                |
+| `git help`   | 查看帮助文档                         | `git help commit`                           |
 
 ---
 
-### **总结流程图**
+## 总结流程图
+
 ```
 工作区 → `git add` → 暂存区 → `git commit` → 本地仓库 → `git push` → 远程仓库
   ↑                        ↑                     ↑
@@ -77,13 +88,9 @@
 工作区 ←------------------ 暂存区 ←------------ 本地仓库
 ```
 
----
 
-通过以上分类，可以更清晰地理解 Git 命令与各区域的关系，帮助高效管理代码版本
 
----
-
-以下是 **Git 命令流程图**，基于 **工作区、暂存区、本地仓库、远程仓库** 四区域的关系和命令分类（使用 Mermaid 语法，可直接粘贴到支持 Mermaid 的 Markdown 工具中）：
+以下是 **Git 命令流程图**，基于 **工作区、暂存区、本地仓库、远程仓库** 四区域的关系和命令分类：
 
 ```mermaid
 flowchart TB
@@ -136,17 +143,21 @@ flowchart TB
 ---
 
 ### **流程图说明**
+
 1. **正向流程**（代码提交）：
+
    ```
    工作区 → git add → 暂存区 → git commit → 本地仓库 → git push → 远程仓库
    ```
 
 2. **逆向操作**（撤销/回退）：
+
    - 从暂存区撤回工作区：`git restore --staged` 或 `git reset HEAD`
    - 从本地仓库回退到暂存区：`git reset --soft`
    - 彻底回退到工作区：`git reset --hard`
 
 3. **远程交互**：
+
    - 从远程同步到本地：`git clone`（初次下载）、`git pull`（拉取并合并）、`git fetch`（仅获取更新）
    - 推送本地到远程：`git push`
 
@@ -156,6 +167,7 @@ flowchart TB
 ---
 
 ### **纯文本版流程图**
+
 ```
 +-------------------+       git add       +-------------------+       git commit      +-------------------+       git push       +-------------------+
 |                   | -------------------> |                   | -------------------> |                   | -------------------> |                   |
