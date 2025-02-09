@@ -2,7 +2,7 @@
 
 ### 工作原理
 
-`babel-loader` 作为 Webpack 和 Babel 之间的**桥梁**，其工作过程大致如下：
+`babel-loader` 作为 Webpack 和 Babel 之间的**桥梁**，其*工作过程*大致如下：
 
 1. **Webpack 识别文件**：Webpack 在构建过程中，遇到符合 `babel-loader` 配置规则（如 `.js` 或 `.jsx` 文件）的模块时，会将这些文件交给 `babel-loader` 处理。
 2. **`babel-loader` 调用 Babel**：`babel-loader` 会启动 Babel 编译器，读取 Babel 的配置信息（如预设和插件）。
@@ -44,9 +44,9 @@ module.exports = {
 
 #### 预设
 
-预设是一组 Babel 插件的集合，用于快速配置 Babel 以支持特定的 JavaScript 特性或目标环境。常见的预设如下：
+**预设**是*一组 Babel 插件的集合*，用于*快速配置 Babel 以支持特定的 JavaScript 特性或目标环境*。常见的预设如下：
 
-- **`@babel/preset-env`**：这是最常用的预设，它可以根据你指定的目标浏览器或环境，自动确定需要的 Babel 插件来转换代码。例如：
+- **`@babel/preset-env`**：这是*最常用*的预设，它可以*根据你指定的目标浏览器或环境，自动确定需要的 Babel 插件*来转换代码。例如：
 
 ```javascript
 module.exports = {
@@ -67,7 +67,7 @@ module.exports = {
 };
 ```
 
-你还可以在 `package.json` 中通过 `browserslist` 字段指定目标浏览器，例如：
+你还可以在 `package.json` 中通过 `browserslist` 字段*指定目标浏览器*，例如：
 
 ```json
 {
@@ -75,12 +75,12 @@ module.exports = {
 }
 ```
 
-- **`@babel/preset-react`**：用于处理 React 代码，支持 JSX 语法和 React 特定的特性。
-- **`@babel/preset-typescript`**：用于处理 TypeScript 代码，将 TypeScript 转换为 JavaScript。
+- **`@babel/preset-react`**：用于处理 React 代码，*支持 JSX 语法*和 *React 特定的特性*。
+- **`@babel/preset-typescript`**：用于处理 TypeScript 代码，*将 TypeScript 转换为 JavaScript*。
 
 #### 插件
 
-插件用于实现特定的代码转换功能。例如，`@babel/plugin-transform-arrow-functions` 插件可以将箭头函数转换为普通函数。你可以在 `babel-loader` 的配置中单独使用插件：
+**插件**用于实现特定的*代码转换*功能。例如，`@babel/plugin-transform-arrow-functions` 插件可以*将箭头函数转换为普通函数*。你可以在 `babel-loader` 的配置中单独使用插件：
 
 ```javascript
 module.exports = {
@@ -103,7 +103,7 @@ module.exports = {
 
 ### 缓存配置
 
-为了提高构建性能，`babel-loader` 支持缓存转换后的结果。可以通过配置 `cacheDirectory` 选项来启用缓存：
+*为了提高构建性能*，`babel-loader` 支持*缓存转换后的结果*。可以通过配置 `cacheDirectory` 选项来启用缓存：
 
 ```javascript
 module.exports = {
@@ -127,4 +127,4 @@ module.exports = {
 
 ### 总结
 
-`babel-loader` 是 Webpack 中不可或缺的一部分，它让开发者能够使用现代 JavaScript 语法进行开发，同时保证代码在各种环境中的兼容性。通过合理配置 Babel 的预设和插件，可以满足不同项目的需求。
+`babel-loader` 是 Webpack 中不可或缺的一部分，它让开发者能够*使用现代 JavaScript 语法进行开发，同时保证代码在各种环境中的兼容性*。通过合理配置 Babel 的预设和插件，可以满足不同项目的需求。

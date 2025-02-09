@@ -142,7 +142,7 @@
 ## 三、常见的 Loader
 参考：[[常见的Loader]]
 ### JavaScript 处理  
-- `babel-loader`（转译 ES6+、JSX）  
+- `babel-loader`（转译 ES6+、JSX）  参考：[[babel-loader]]
 - `ts-loader`（编译 TypeScript）  
 
 ### 样式处理  
@@ -192,7 +192,7 @@
 
 ---
 
-## **五、优化策略**
+## 五、优化策略
 25. **代码分割 (Code Splitting)**  
     - 入口分割、动态导入 (`import()`)、`splitChunks`  
 26. **Tree Shaking**  
@@ -211,7 +211,7 @@
 
 ---
 
-## **六、开发环境**
+## 六、开发环境
 32. **Source Map**  
     - `devtool` 配置（`eval`、`source-map`、`cheap-module-source-map` 等）  
 33. **模块热替换 (HMR)**  
