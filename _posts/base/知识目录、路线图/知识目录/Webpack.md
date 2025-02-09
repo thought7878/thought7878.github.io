@@ -74,6 +74,7 @@
 
 #### 依赖图 (Dependency Graph)  
    - 模块间的依赖关系解析  
+参考：[[依赖图 (Dependency Graph)]]
 
 ---
 
@@ -138,22 +139,26 @@
 
 ---
 
-## **三、常用 Loader**
-13. **JavaScript 处理**  
-    - `babel-loader`（转译 ES6+）  
-    - `ts-loader`（编译 TypeScript）  
-14. **样式处理**  
-    - `css-loader`（解析 CSS 依赖）  
-    - `style-loader`（注入 CSS 到 DOM）  
-    - `sass-loader`/`less-loader`（编译 Sass/Less）  
-    - `postcss-loader`（Autoprefixer 等）  
-15. **资源处理**  
-    - `file-loader`（处理文件路径）  
-    - `url-loader`（转 Base64 小文件）  
-    - `raw-loader`（导入文件为字符串）  
-16. **框架支持**  
-    - `vue-loader`（Vue 单文件组件）  
-    - `svg-react-loader`（SVG 转 React 组件）  
+## 三、常见的 Loader
+参考：[[常见的Loader]]
+### JavaScript 处理  
+- `babel-loader`（转译 ES6+、JSX）  
+- `ts-loader`（编译 TypeScript）  
+
+### 样式处理  
+- `css-loader`（解析 CSS 依赖）  
+- `style-loader`（注入 CSS 到 DOM）  
+- `sass-loader`/`less-loader`（编译 Sass/Less）  
+- `postcss-loader`（Autoprefixer 等）  
+
+### 资源处理  
+- `file-loader`（处理文件路径）  
+- `url-loader`（转 Base64 小文件）  
+- `raw-loader`（导入文件为字符串）  
+
+### 框架支持  
+- `vue-loader`（Vue 单文件组件）  
+- `svg-react-loader`（SVG 转 React 组件）  
 
 ---
 

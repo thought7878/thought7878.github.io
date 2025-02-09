@@ -1,7 +1,7 @@
-在 Webpack 中，Loader 是用于处理和转换模块（如文件、代码片段等）的工具。它们可以将各种类型的文件转换为可以被 Webpack 处理的有效模块。以下是一些常见的 Loader 及其用途：
+在 Webpack 中，**Loader** 是用于*编译、转换模块*（如文件、代码片段等）的工具。它们可以*将各种类型的文件转换为可以被 JS 使用的有效模块*。以下是一些常见的 Loader 及其用途：
 ## JS / TS
 ### `babel-loader`
-- **用途**：用于将 ES6 + 代码转换为向后兼容的 JavaScript 代码，使代码能够在旧版本的浏览器中运行。它主要与 Babel 一起使用，Babel 是一个 JavaScript 编译器，而 babel-loader 则是 **Webpack 中用于将 Babel 集成进来的工具**。
+- **用途**：用于*将 ES6 + 代码*转换为向后兼容的 JavaScript 代码，使代码能够在旧版本的浏览器中运行。它主要与 Babel 一起使用，Babel 是一个 JavaScript 编译器，而 babel-loader 则是 **Webpack 中用于将 Babel 集成进来的工具**。
 
 - **配置示例**：
   ```javascript
@@ -154,7 +154,7 @@
   ```
 
 
-### 8. `json-loader`
+### `json-loader`
 - **用途**：处理 JSON 文件，尽管在 Webpack 4 及以上版本中，JSON 文件已经可以被直接导入，但 `json-loader` 仍然可以用于更早的版本。
 - **配置示例**：
   ```javascript
@@ -170,7 +170,7 @@
   };
   ```
 
-### 9. `image-webpack-loader`
+### `image-webpack-loader`
 - **用途**：优化图片文件，如压缩图片。
 - **配置示例**：
   ```javascript

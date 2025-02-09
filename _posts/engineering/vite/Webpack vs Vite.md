@@ -27,46 +27,46 @@
 | **TypeScript 支持** | 需配置 `ts-loader`/`babel`                 | 开箱即用（无需额外配置）                        |
 | **浏览器兼容性**        | 通过 `babel` 和 `@babel/preset-env` 支持旧浏览器 | 需插件（如 `@vitejs/plugin-legacy`）      |
 | **适用场景**          | 大型复杂项目、需要深度定制构建流程                       | 现代前端项目、追求开发速度、轻量应用                  |
-原因：webpack在开发阶段，多了打包的任务，打包又很消耗资源。
+原因：webpack在开发阶段，**多了打包的任务**，打包又很消耗资源。**vite开发阶段不打包，只按需编译**。
 结果：启动速度、HMR，webpack慢，vite快。
 
 ---
 
 ### 核心差异详解
 
-#### 1. **开发体验**
+#### 1. 开发体验
 - **Webpack**：  
-  启动时需全量打包所有模块，随着项目增大，冷启动和 HMR 速度明显下降。  
-  示例：修改一个文件 → Webpack 重新构建依赖链 → 更新页面。  
+  *启动时需全量打包所有模块*，随着项目增大，冷启动和 HMR 速度明显下降。  
+  示例：修改一个文件 → Webpack *重新构建依赖链* → 更新页面。  
 
 - **Vite**：  
-  基于浏览器原生 ESM，启动时仅预构建依赖项（`node_modules`），源码按需编译。  
-  示例：修改文件 → Vite 仅编译该文件 → 瞬间 HMR。
+  *基于浏览器原生 ESM*，启动时仅预构建依赖项（`node_modules`），源码*按需编译*。  
+  示例：修改文件 → Vite *仅编译该文件* → 瞬间 HMR。
 
-#### 2. **构建流程**
+#### 2. 构建流程
 - **Webpack**：  
   开发和生产共用同一套打包逻辑，通过插件优化代码（如 `TerserPlugin`）。  
 
 - **Vite**：  
-  开发阶段不打包，生产阶段使用 Rollup（更快的 Tree Shaking 和代码分割）。
+  *开发阶段不打包*，生产阶段使用 Rollup（更快的 Tree Shaking 和代码分割）。
 
-#### 3. **配置复杂度**
+#### 3. 配置复杂度
 - **Webpack**：  
-  需要配置大量 Loader 和插件（如 `css-loader`、`HtmlWebpackPlugin`）。  
+  *需要配置大量 Loader 和插件*（如 `css-loader`、`HtmlWebpackPlugin`）。  
   示例：处理 CSS 需 `style-loader` + `css-loader` + `postcss-loader`。  
 
 - **Vite**：  
-  内置常见功能（如 CSS Modules、Sass），仅需少量配置。  
+  *内置常见功能*（如 CSS Modules、Sass），仅需少量配置。  
   示例：Vue 项目只需安装 `@vitejs/plugin-vue`。
 
-#### 4. **性能优化**
+#### 4. 性能优化
 - **Webpack**：  
   依赖代码分割、缓存组（`splitChunks`）优化加载性能。  
 
 - **Vite**：  
   天然支持动态导入（`import()`），按需加载更高效。
 
-#### 5. **适用场景**
+#### 5. 适用场景
 - **选 Webpack**：  
   - 需要兼容旧浏览器（如 IE11）。  
   - 项目重度依赖 Webpack 特有插件（如 `ModuleFederationPlugin`）。  
