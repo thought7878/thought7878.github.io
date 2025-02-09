@@ -1,4 +1,4 @@
-在 Webpack 中，Plugin 是用于扩展 Webpack 功能的工具。它们可以执行更复杂的任务，如生成 HTML 文件、清理输出目录、优化代码、热模块替换等。以下是一些常见的 Webpack Plugin 及其用途：
+在 Webpack 中，**Plugin** 是用于*扩展 Webpack 功能*的工具。它们可以执行更复杂的任务，如*生成 HTML 文件、清理输出目录、优化代码、热模块替换*等。以下是一些常见的 Webpack Plugin 及其用途：
 
 ### 1. `HtmlWebpackPlugin`
 - **用途**：自动生成 HTML 文件，并将生成的 JavaScript 文件自动注入到 HTML 文件中。

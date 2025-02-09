@@ -162,24 +162,33 @@
 
 ---
 
-## **四、常用插件**
-17. **HTML 管理**  
-    - `HtmlWebpackPlugin`（生成 HTML 文件）  
-18. **资源清理**  
-    - `CleanWebpackPlugin`（清理构建目录）  
-19. **CSS 优化**  
-    - `MiniCssExtractPlugin`（提取 CSS 为独立文件）  
-    - `OptimizeCSSAssetsPlugin`（压缩 CSS）  
-20. **JS 压缩**  
-    - `TerserWebpackPlugin`（压缩 JS）  
-21. **热更新**  
-    - `HotModuleReplacementPlugin`（模块热替换）  
-22. **环境变量**  
-    - `DefinePlugin`（注入全局常量）  
-23. **文件复制**  
-    - `CopyWebpackPlugin`（复制静态文件）  
-24. **包分析**  
-    - `BundleAnalyzerPlugin`（可视化分析包体积）  
+## 四、常见的插件
+参考：[[常见的Plugin]]
+
+### 资源清理  
+- `CleanWebpackPlugin`（清理构建目录）  
+
+### HTML 管理  
+- `HtmlWebpackPlugin`（生成 HTML 文件）  
+
+### CSS 优化  
+- `MiniCssExtractPlugin`（提取 CSS 为独立文件）  
+- `OptimizeCSSAssetsPlugin`（压缩 CSS）  
+
+### JS 压缩  
+- `TerserWebpackPlugin`（压缩 JS）  
+
+### 热更新  
+- `HotModuleReplacementPlugin`（模块热替换）  
+
+### 环境变量  
+- `DefinePlugin`（注入全局常量）  
+
+### 文件复制  
+- `CopyWebpackPlugin`（复制静态文件）  
+
+### 包分析  
+- `BundleAnalyzerPlugin`（可视化分析包体积）  
 
 ---
 
