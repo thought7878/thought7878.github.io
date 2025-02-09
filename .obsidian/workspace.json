@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/Vite 学习计划.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+                "file": "_posts/engineering/vite/Webpack vs Vite.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,14 +181,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/任务记录/2025/February/9.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/Vite 学习计划.md",
+                "file": "_posts/engineering/vite/Webpack vs Vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/Vite 学习计划.md",
+                "file": "_posts/engineering/vite/Webpack vs Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/Vite 学习计划.md"
+                "file": "_posts/engineering/vite/Webpack vs Vite.md"
               }
             }
           }
@@ -367,44 +367,44 @@
       }
     ]
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/vite",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/engineering/webpack/Webpack 核心原理-DS.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/engineering/vite/Webpack vs Vite.md",
+    "_posts/engineering/webpack/目录.md",
+    "_posts/任务记录/2025/February/9.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/engineering/vite/核心原理/开发阶段基于原生 ESM 按需编译.md",
+    "_posts/engineering/webpack/核心原理/基于依赖图全量打包.md",
+    "_posts/engineering/vite/核心原理",
+    "_posts/engineering/webpack/核心原理",
+    "_posts/要整理的.md",
+    "_posts/base/知识目录、路线图/知识目录/Vite-DS.md",
+    "_posts/engineering/webpack/常见的Loader.md",
+    "_posts/engineering/webpack/Webpack的构建流程-自己.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/base/知识目录、路线图/学习计划/Vite 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/前端工程化.md",
+    "_posts/base/知识目录、路线图/知识目录/React.md",
+    "_posts/engineering/vite",
     "_posts/engineering/webpack/配置项/performance.md",
     "_posts/engineering/webpack/配置项/optimization.md",
     "_posts/engineering/webpack/配置项/mode.md",
     "_posts/engineering/webpack/配置项/devTool.md",
     "_posts/engineering/webpack/配置项/devServer.md",
     "_posts/engineering/webpack/配置项/plugins.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/任务记录/2025/February/8.md",
-    "_posts/任务记录/2025/February/5.md",
-    "_posts/任务记录/2025/February/6.md",
-    "_posts/engineering/webpack/目录.md",
-    "_posts/engineering/版本控制与协作/Git/命令流程图.md",
-    "_posts/任务记录/2025/February/7.md",
-    "_posts/engineering/webpack/配置项/externals.md",
-    "_posts/engineering/webpack/配置项/resolve.md",
-    "_posts/读书笔记/警句.md",
-    "_posts/engineering/webpack/配置项/module.md",
-    "_posts/engineering/webpack/配置项/context.md",
-    "_posts/engineering/webpack/配置项/entry.md",
     "_posts/base/知识目录、路线图/知识目录/media",
-    "_posts/engineering/webpack/配置项/output.md",
-    "_posts/engineering/webpack/Why、What.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
-    "_posts/要整理的.md",
     "_posts/engineering/版本控制与协作/Git",
     "_posts/engineering/版本控制与协作",
     "_posts/engineering/部署",
     "_posts/engineering/module/ES Module",
     "_posts/base/知识目录、路线图/知识目录",
     "_posts/base/知识目录、路线图/学习计划",
-    "_posts/architect/架构模式",
-    "_posts/architect/设计原则",
-    "_posts/engineering/pnpm & monorepo/pnpm",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
