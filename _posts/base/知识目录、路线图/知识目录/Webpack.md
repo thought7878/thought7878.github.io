@@ -190,9 +190,24 @@
 ### 包分析  
 - `BundleAnalyzerPlugin`（可视化分析包体积）  
 
+
+---
+## 构建流程
+参考：[[Webpack的构建流程-DB]]、[[Webpack的构建流程-DS]]
+
+
+
 ---
 
-## 五、优化策略
+## 优化构建性能
+参考：[[优化构建性能]]
+
+
+---
+
+## 优化应用性能
+参考：[[使用Webpack优化应用的性能]]、[[SplitChunks]]、
+
 25. **代码分割 (Code Splitting)**  
     - 入口分割、动态导入 (`import()`)、`splitChunks`  
 26. **Tree Shaking**  
@@ -211,7 +226,13 @@
 
 ---
 
-## 六、开发环境
+## 开发 Loader & Plugin
+参考：[[自定义 Loader]]、
+
+
+---
+
+## 、配置开发环境
 32. **Source Map**  
     - `devtool` 配置（`eval`、`source-map`、`cheap-module-source-map` 等）  
 33. **模块热替换 (HMR)**  
@@ -223,7 +244,7 @@
 
 ---
 
-## **七、生产环境**
+## 、配置生产环境
 36. **代码压缩**  
     - JS（Terser）、CSS（CSSNano）、HTML（HtmlWebpackPlugin 压缩）  
 37. **资源指纹**  
@@ -235,7 +256,7 @@
 
 ---
 
-## **八、高级特性**
+## 、高级特性
 40. **模块联邦 (Module Federation)**  
     - Webpack 5 支持微前端架构  
 41. **持久化缓存**  
@@ -249,7 +270,7 @@
 
 ---
 
-## **九、工具集成**
+## 、工具集成
 45. **Babel**  
     - `@babel/core`、`@babel/preset-env`、`babel.config.js`  
 46. **TypeScript**  
@@ -261,7 +282,7 @@
 
 ---
 
-## **十、其他**
+## 、其他
 49. **Webpack CLI**  
     - `webpack`、`webpack-dev-server`、`--config` 指定配置文件  
 50. **多配置导出**  
@@ -273,5 +294,5 @@
 
 ---
 
-# **总结**  
+# 总结  
 此清单涵盖 Webpack 核心配置、Loader/插件、优化策略、开发/生产环境实践及高级特性，适用于快速查阅和系统性学习。

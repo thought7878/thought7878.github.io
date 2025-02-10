@@ -1,4 +1,26 @@
 在 Webpack 中，**Loader** 是用于*编译、转换模块*（如文件、代码片段等）的工具。它们可以*将各种类型的文件转换为可以被 JS 使用的有效模块*。以下是一些常见的 Loader 及其用途：
+
+# 分类方式1
+### JavaScript 处理  
+- `babel-loader`（转译 ES6+、JSX）  参考：[[babel-loader]]
+- `ts-loader`（编译 TypeScript）  
+
+### 样式处理  
+- `css-loader`（解析 CSS 依赖）  
+- `style-loader`（注入 CSS 到 DOM）  
+- `sass-loader`/`less-loader`（编译 Sass/Less）  
+- `postcss-loader`（Autoprefixer 等）  
+
+### 资源处理  
+- `file-loader`（处理文件路径）  
+- `url-loader`（转 Base64 小文件）  
+- `raw-loader`（导入文件为字符串）  
+
+### 框架支持  
+- `vue-loader`（Vue 单文件组件）  
+- `svg-react-loader`（SVG 转 React 组件）  
+
+# 分类方式2
 ## JS / TS
 ### `babel-loader`
 参考：[[babel-loader]]

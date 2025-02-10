@@ -33,7 +33,7 @@ module.exports = {
 - **确定入口文件**：根据配置中的 `entry` 选项，Webpack 确定编译的入口文件，从该文件开始递归解析其依赖的所有模块。
 - **模块解析与构建依赖图**
   - **解析模块路径**：对于每个模块导入语句（如 `import` 或 `require`），Webpack 会根据配置的解析规则（如 `resolve.extensions`）查找对应的模块文件。
-  - **使用 Loader 处理模块**：如果模块文件是特殊类型（如 CSS、图片等），Webpack 会使用配置的 Loader 对其进行转换，将其转换为 JavaScript 模块。
+  - **使用 Loader 处理模块**：如果模块文件是特殊类型（如 CSS、图片等），Webpack 会使用配置的 Loader 对其进行转换，*将其转换为 JavaScript 模块*。
   - **构建依赖图**：Webpack 会*递归地分析每个模块的依赖关系，将所有模块及其依赖信息构建成一个依赖图*，每个模块在图中都有唯一的标识。
 - **模块转换**：在找到模块文件后，Webpack 会根据配置的 Loader 对模块进行转换。Loader 是一个函数，它接收模块的源代码作为输入，并返回转换后的代码。例如，`css-loader` 会将 CSS 文件解析为 JavaScript 对象，`style-loader` 会将这些样式注入到 HTML 的 `<style>` 标签中。
 

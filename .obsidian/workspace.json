@@ -157,19 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5821792203030783",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "mode": "source",
                 "source": false
               }
@@ -189,6 +177,24 @@
           }
         ],
         "currentTab": 12
+      },
+      {
+        "id": "5028d5d6c793cc3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5821792203030783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/webpack/目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,7 +256,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 390.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -266,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md"
               }
             }
           }
@@ -369,32 +376,32 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/构建性能/提升开发阶段的构建性能.md",
-    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
+    "_posts/engineering/webpack/目录.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/engineering/webpack/构建性能/实际案例.md",
+    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+    "_posts/engineering/webpack/应用性能/代码分割.md",
+    "_posts/engineering/webpack/应用性能/使用 SplitChunks 提升应用性能-我的.md",
+    "_posts/engineering/webpack/应用性能/SplitChunks.md",
     "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
     "_posts/engineering/webpack/Loader & Plugin/常见的Plugin.md",
+    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
+    "_posts/engineering/webpack/Why、What.md",
+    "_posts/engineering/webpack/构建性能/提升开发阶段的构建性能.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/16 如何正确使用 SplitChunks提升应用性能？.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/15 有哪些值得学习的构建性能极致优化技巧？.md",
-    "_posts/engineering/webpack/目录.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/11 深入理解 Webpack 核心配置结构.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DB.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
     "_posts/engineering/webpack/Loader & Plugin/babel-loader.md",
     "_posts/base/知识目录、路线图/_知识点提问的模版.md",
-    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
-    "_posts/要整理的.md",
-    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph).md",
-    "_posts/base/知识目录、路线图/知识目录/Vite-DS.md",
-    "_posts/engineering/vite/Webpack vs Vite.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
-    "_posts/任务记录/2025/February/9.md",
-    "_posts/engineering/webpack/Webpack 核心原理-DS.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",
