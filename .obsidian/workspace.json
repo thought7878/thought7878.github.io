@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
+                "file": "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
+                "file": "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
+                "file": "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md"
+                "file": "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md"
               }
             }
           }
@@ -357,32 +357,32 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
-    "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph)-DS.md",
     "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
-    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
-    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
-    "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
+    "_posts/engineering/webpack/核心原理/作用域提升（Scope Hoisting）-DS.md",
+    "_posts/engineering/webpack/Webpack 核心原理-DS.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader-DS.md",
+    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph)-DB.md",
+    "_posts/engineering/webpack/Webpack 目录.md",
+    "_posts/engineering/webpack/核心原理/HMR-DS.md",
+    "_posts/engineering/webpack/核心原理/Sourcemap-DS.md",
+    "_posts/engineering/webpack/核心原理/Tree-shaking-DS.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
+    "_posts/engineering/webpack/核心原理/Chunk-DS.md",
+    "_posts/engineering/webpack/核心原理/Runtime-DS.md",
     "_posts/任务记录/2025/February/10.md",
+    "_posts/engineering/vite/核心原理/优化应用的性能-DS.md",
+    "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
+    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/应用性能/使用 SplitChunks 提升应用性能-我的.md",
+    "_posts/engineering/webpack/应用性能/代码分割.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+    "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
     "_posts/任务记录/2025/February/9.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/任务记录/2025/February/8.md",
-    "_posts/engineering/webpack/Loader & Plugin/thread-loader.md",
-    "_posts/engineering/webpack/配置项/module.md",
-    "_posts/engineering/webpack/Loader & Plugin/esbuild-loader.md",
-    "_posts/engineering/webpack/配置项/cache.md",
-    "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
-    "_posts/engineering/webpack/Webpack 目录.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Plugin.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
-    "_posts/读书笔记/警句.md",
-    "_posts/外面的世界/趋势.md",
-    "_posts/AI/DeepSeek.md",
-    "_posts/AI/使用方法.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",
