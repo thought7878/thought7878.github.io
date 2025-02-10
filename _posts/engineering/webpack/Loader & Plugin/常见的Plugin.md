@@ -1,5 +1,33 @@
 在 Webpack 中，**Plugin** 是用于*扩展 Webpack 功能*的工具。它们可以执行更复杂的任务，如*生成 HTML 文件、清理输出目录、优化代码、热模块替换*等。以下是一些常见的 Webpack Plugin 及其用途：
 
+## 分类
+### 资源清理  
+- `CleanWebpackPlugin`（清理构建目录）  
+
+### HTML 管理  
+- `HtmlWebpackPlugin`（生成 HTML 文件）  
+
+### CSS 优化  
+- `MiniCssExtractPlugin`（提取 CSS 为独立文件）  
+- `OptimizeCSSAssetsPlugin`（压缩 CSS）  
+
+### JS 压缩  
+- `TerserWebpackPlugin`（压缩 JS）  
+
+### 热更新  
+- `HotModuleReplacementPlugin`（模块热替换）  
+
+### 环境变量  
+- `DefinePlugin`（注入全局常量）  
+
+### 文件复制  
+- `CopyWebpackPlugin`（复制静态文件）  
+
+### 包分析  
+- `BundleAnalyzerPlugin`（可视化分析包体积）  
+
+
+## 
 ### 1. `HtmlWebpackPlugin`
 - **用途**：自动生成 HTML 文件，并将生成的 JavaScript 文件自动注入到 HTML 文件中。
 - **配置示例**：

@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 81.70515097690941,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -158,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/9.md",
+                "file": "_posts/任务记录/2025/February/10.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,25 +177,6 @@
           }
         ],
         "currentTab": 12
-      },
-      {
-        "id": "5028d5d6c793cc3a",
-        "type": "tabs",
-        "dimension": 18.29484902309059,
-        "children": [
-          {
-            "id": "5821792203030783",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/webpack/Webpack 目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 303.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -274,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md"
+                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md"
               }
             }
           }
@@ -377,32 +357,32 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS3.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/engineering/webpack/核心原理/Loader 的实现原理-DS3.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS3.md",
     "_posts/engineering/webpack/Webpack 目录.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/任务记录/2025/February/10.md",
+    "_posts/任务记录/2025/February/9.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/engineering/webpack/Loader & Plugin/常见的Plugin.md",
+    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
+    "_posts/读书笔记/警句.md",
+    "_posts/外面的世界/趋势.md",
+    "_posts/AI/DeepSeek.md",
+    "_posts/AI/使用方法.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS3.md",
+    "_posts/engineering/webpack/核心原理/Loader 的实现原理-DS3.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS3.md",
     "_posts/engineering/webpack/核心原理/Webpack的构建流程-QW.md",
     "_posts/要整理的.md",
     "_posts/AI/阿里.md",
     "_posts/AI/AI工具集合.md",
     "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
-    "_posts/engineering/webpack/构建性能/优化构建性能.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
     "_posts/engineering/webpack/构建性能/实际案例.md",
-    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
-    "_posts/engineering/webpack/应用性能/代码分割.md",
-    "_posts/engineering/webpack/应用性能/使用 SplitChunks 提升应用性能-我的.md",
-    "_posts/engineering/webpack/应用性能/SplitChunks.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Plugin.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
-    "_posts/engineering/webpack/Why、What.md",
-    "_posts/engineering/webpack/构建性能/提升开发阶段的构建性能.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/13 如何使用 Webpack 持久化缓存大幅提升构建性能？.md",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",

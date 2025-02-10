@@ -1,4 +1,5 @@
 # 免费平台
+- 
 - 【最全教程-官网卡顿？4种方法白嫖deepseek满血版！手机、电脑都可（硅基流动+百度+字节白嫖方案）-哔哩哔哩】 https://b23.tv/aUMkUyB
 
 - https://cloud.siliconflow.cn/playground/chat/17885302724
@@ -8,9 +9,10 @@
 - 【百度终于干了件人事！DeepSeek满血版免费白嫖，本地部署详细教程】 https://b23.tv/PkQgJsV
 - 
 
+## DeepSeek从入门到精通
+【必看！DeepSeek从入门到精通！这11个高阶技巧，让你的效率提升10倍-哔哩哔哩】 https://b23.tv/DSHy28J
 
-
-# [一口气学会使用 DeepSeek，甚至给 55 岁的我妈用上了！](https://b23.tv/WHV5SGe)
+## [一口气学会使用 DeepSeek，甚至给 55 岁的我妈用上了！](https://b23.tv/WHV5SGe)
 
 视频介绍了给妈妈安装 deep seek 后的使用情况及总结的 deep seek 使用技巧，包括画图、成为 AI 原住民、让 AI 提问、通用问题模板、给例子与组合拳、迭代等。
 
@@ -42,7 +44,7 @@
   - [06:59] 让 AI 取标题，不满意就反复追问
   - [07:34] 总结全部 DeepSeek 使用技巧
 
-# [DeepSeek R1 怎么用？七大真实使用场景评测-哔哩哔哩](https://b23.tv/tRH4wYj)
+## [DeepSeek R1 怎么用？七大真实使用场景评测-哔哩哔哩](https://b23.tv/tRH4wYj)
 
 视频主要对 DeepSeek R1 的使用进行评测，包括信息收集、论文总结翻译、写作任务、问答任务和学习案例分析等七大场景，并与其他模型对比，最后玩了一个三体的梗来测试其理解能力。
 
