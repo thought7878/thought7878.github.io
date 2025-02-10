@@ -59,7 +59,7 @@ module.exports = {
 
 ### 三、最佳实践策略
 
-#### 1. **分离第三方库**
+#### 1. 分离第三方库
 ```javascript
 cacheGroups: {
   vendors: {
@@ -74,7 +74,7 @@ cacheGroups: {
 
 ---
 
-#### 2. **提取公共业务代码**
+#### 2. 提取公共业务代码
 ```javascript
 cacheGroups: {
   common: {

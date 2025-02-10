@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
+                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
+                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
+                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md"
+                "file": "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md"
               }
             }
           }
@@ -357,16 +357,25 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
-    "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/engineering/webpack/Webpack 目录.md",
     "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
+    "_posts/engineering/vite/核心原理/Vite的构建流程-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+    "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+    "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
     "_posts/任务记录/2025/February/10.md",
     "_posts/任务记录/2025/February/9.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/February/8.md",
+    "_posts/engineering/webpack/Loader & Plugin/thread-loader.md",
+    "_posts/engineering/webpack/配置项/module.md",
+    "_posts/engineering/webpack/Loader & Plugin/esbuild-loader.md",
+    "_posts/engineering/webpack/配置项/cache.md",
+    "_posts/engineering/webpack/构建性能/优化构建性能-DS3.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader.md",
+    "_posts/engineering/webpack/Webpack 目录.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
     "_posts/engineering/webpack/Loader & Plugin/常见的Plugin.md",
     "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
     "_posts/读书笔记/警句.md",
@@ -374,15 +383,6 @@
     "_posts/AI/DeepSeek.md",
     "_posts/AI/使用方法.md",
     "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS3.md",
-    "_posts/engineering/webpack/核心原理/Loader 的实现原理-DS3.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS3.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-QW.md",
-    "_posts/要整理的.md",
-    "_posts/AI/阿里.md",
-    "_posts/AI/AI工具集合.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/19 Loader 开发基础：从开源项目学到的 Loader 开发技巧.md",
-    "_posts/engineering/webpack/构建性能/实际案例.md",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",

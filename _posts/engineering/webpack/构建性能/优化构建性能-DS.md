@@ -20,7 +20,9 @@
 ### 一、基础优化（所有项目必做）
 
 #### 1. 启用持久化缓存（Webpack 5+）
-通过文件系统缓存跳过未修改模块的重复构建：
+参考：[[cache]]
+
+通过文件系统缓存，*跳过未修改模块的重复构建*：
 ```javascript
 // webpack.config.js
 module.exports = {
@@ -34,6 +36,8 @@ module.exports = {
 ```
 
 #### 2. 缩小文件处理范围
+参考：[[module#2. `include` 和 `exclude`]]
+
 精准指定 Loader 的作用范围：
 ```javascript
 {
@@ -45,6 +49,8 @@ module.exports = {
 ```
 
 #### 3. 使用更快的编译工具
+参考：[[esbuild-loader]]
+
 替换 `babel-loader` 为高性能工具：
 ```javascript
 // 使用 esbuild 加速 JS/TS 编译（速度提升 5-10 倍）
@@ -63,7 +69,9 @@ module.exports = {
 ### 二、高级优化（中大型项目推荐）
 
 #### 4. 多进程并行处理
-- **Thread-loader（CPU 密集型任务）**：
+
+- **Thread-loader（CPU 密集型任务）**：参考：[[thread-loader]]
+
   ```javascript
   {
     test: /\.js$/,
@@ -76,7 +84,9 @@ module.exports = {
     ]
   }
   ```
+
 - **并行压缩（生产环境）**：
+
   ```javascript
   const TerserPlugin = require('terser-webpack-plugin');
   optimization: {
