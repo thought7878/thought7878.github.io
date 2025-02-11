@@ -206,7 +206,7 @@
 ---
 
 ## 优化应用性能
-参考：[[使用Webpack优化应用的性能]]、[[SplitChunks-DS]]、
+参考：[[优化构建性能-DS]]、[[使用Webpack优化应用的性能]]、[[SplitChunks-DS]]、
 
 25. **代码分割 (Code Splitting)**  
     - 入口分割、动态导入 (`import()`)、`splitChunks`  
