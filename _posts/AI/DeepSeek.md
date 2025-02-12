@@ -9,6 +9,10 @@
 - 【百度终于干了件人事！DeepSeek满血版免费白嫖，本地部署详细教程】 https://b23.tv/PkQgJsV
 - 
 
+# 使用方法
+
+## [更炸裂的DeepSeek技巧！55岁妈妈学AI续集。服务器繁忙，请稍后再试。](https://b23.tv/i211Wgp) 
+
 ## DeepSeek从入门到精通
 【必看！DeepSeek从入门到精通！这11个高阶技巧，让你的效率提升10倍-哔哩哔哩】 https://b23.tv/DSHy28J
 

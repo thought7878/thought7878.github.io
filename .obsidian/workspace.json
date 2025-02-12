@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/Webpack 核心原理-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/构建性能/优化构建性能-DS.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md"
               }
             }
           }
@@ -355,34 +355,36 @@
       }
     ]
   },
-  "active": "6a64ac95449b6685",
+  "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/外面的世界/移民.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/engineering/webpack/构建性能/优化构建性能-DS.md",
-    "_posts/engineering/webpack/Loader & Plugin/常见的Loader.md",
-    "_posts/engineering/webpack/配置项/context.md",
-    "_posts/engineering/webpack/Webpack 核心原理-DS.md",
-    "_posts/外面的世界/趋势.md",
-    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph)-DB.md",
-    "_posts/engineering/webpack/Webpack 目录.md",
     "_posts/engineering/webpack/应用性能/使用Webpack优化应用的性能.md",
+    "_posts/engineering/webpack/Webpack 目录.md",
+    "_posts/engineering/webpack/核心原理/Webpack 核心原理-DS.md",
+    "_posts/engineering/webpack/核心原理/Webpack 核心原理-QW.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
+    "_posts/AI/搞钱/工具.md",
+    "_posts/AI/AI工具集合.md",
+    "_posts/AI/DeepSeek.md",
+    "_posts/AI/搞钱/搞钱总览.md",
+    "_posts/AI/搞钱/AI内容创作.md",
+    "_posts/AI/搞钱/AI生成宠物搞笑的视频/AI生成宠物搞笑的视频.md",
+    "_posts/AI/搞钱/视频生成工具.md",
+    "_posts/外面的世界/趋势.md",
+    "_posts/AI/搞钱/AI短视频搬运.md",
+    "_posts/任务记录/2025/February/5.md",
+    "_posts/AI/搞钱/AI生成宠物搞笑的视频",
+    "_posts/AI/搞钱",
+    "_posts/外面的世界/男女.md",
+    "_posts/engineering/webpack/Why、What.md",
     "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
     "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DB.md",
-    "_posts/base/知识目录、路线图/学习计划/Vite 学习计划-DS.md",
-    "_posts/engineering/webpack/核心原理/代码分割（Code Splitting）-DS.md",
-    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph)-DS.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DB.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/25 Dependency Graph：如何管理模块间依赖？.md",
-    "_posts/engineering/webpack/核心原理/作用域提升（Scope Hoisting）-DS.md",
     "_posts/engineering/webpack/Loader & Plugin/自定义 Plugin-DS.md",
-    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader-DS.md",
-    "_posts/engineering/webpack/核心原理/HMR-DS.md",
-    "_posts/engineering/webpack/核心原理/Sourcemap-DS.md",
-    "_posts/engineering/webpack/核心原理/Tree-shaking-DS.md",
-    "_posts/engineering/教程/Webpack5 核心原理与应用实践/27 Runtime：模块编译打包及运行时逻辑.md",
-    "_posts/engineering/webpack/核心原理/Chunk-DS.md",
-    "_posts/engineering/webpack/核心原理/Runtime-DS.md",
-    "_posts/任务记录/2025/February/10.md",
+    "_posts/engineering/webpack/核心原理/依赖图 (Dependency Graph)-DB.md",
+    "_posts/要整理的.md",
+    "_posts/methods/overview.md",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",
@@ -391,8 +393,6 @@
     "_posts/engineering/版本控制与协作",
     "_posts/engineering/部署",
     "_posts/engineering/module/ES Module",
-    "_posts/base/知识目录、路线图/知识目录",
-    "_posts/base/知识目录、路线图/学习计划",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",

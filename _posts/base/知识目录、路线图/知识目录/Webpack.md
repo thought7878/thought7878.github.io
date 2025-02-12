@@ -200,34 +200,40 @@
 ---
 
 ## 优化构建性能
-参考：[[优化构建性能-DS]]
+参考：[[优化构建性能-DS]]、[[实际案例]]
 
 
 ---
 
 ## 优化应用性能
-参考：[[优化构建性能-DS]]、[[使用Webpack优化应用的性能]]、[[SplitChunks-DS]]、
+参考：[[使用Webpack优化应用的性能]]、[[SplitChunks-DS]]、[[代码分割（Code Splitting）-DS]]、[[作用域提升（Scope Hoisting）-DS]]、[[Tree-shaking-DS]]
 
-25. **代码分割 (Code Splitting)**  
-    - 入口分割、动态导入 (`import()`)、`splitChunks`  
-26. **Tree Shaking**  
-    - 移除未引用代码（需 ES Module 语法）  
-27. **Scope Hoisting**  
-    - 合并模块作用域，减少闭包  
-28. **缓存优化**  
-    - `[hash]`/`[chunkhash]`/`[contenthash]`（文件名哈希）  
-    - `cache-loader`（缓存 Loader 结果）  
-29. **懒加载 (Lazy Loading)**  
-    - 动态 `import()` 按需加载模块  
-30. **DLL 预编译**  
-    - `DllPlugin` + `DllReferencePlugin` 提升构建速度  
-31. **CDN 加速**  
-    - 配置 `publicPath` 指向 CDN 地址  
+**代码分割 (Code Splitting)**  
+- 入口分割、动态导入 (`import()`)、`splitChunks`  
+
+**Tree Shaking**  
+- 移除未引用代码（需 ES Module 语法）  
+
+**Scope Hoisting**  
+- 合并模块作用域，减少闭包  
+
+**缓存优化**  
+- `[hash]`/`[chunkhash]`/`[contenthash]`（文件名哈希）  
+- `cache-loader`（缓存 Loader 结果）  
+
+**懒加载 (Lazy Loading)**  
+- 动态 `import()` 按需加载模块  
+
+**DLL 预编译**  
+- `DllPlugin` + `DllReferencePlugin` 提升构建速度  
+
+**CDN 加速**  
+- 配置 `publicPath` 指向 CDN 地址  
 
 ---
 
 ## 开发 Loader & Plugin
-参考：[[自定义 Loader-DS]]、
+参考：[[自定义 Loader-DS]]、[[自定义 Plugin-DS]]
 
 
 ---
