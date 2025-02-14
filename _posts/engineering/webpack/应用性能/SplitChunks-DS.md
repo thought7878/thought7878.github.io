@@ -19,7 +19,7 @@
 
 ### 一、`SplitChunks` 解决的问题
 1. **减少重复代码**：多个入口/异步模块共享的代码会被提取成公共模块。
-2. **缓存利用率**：将稳定代码（如第三方库）分离，利用浏览器长效缓存。
+2. **提高缓存利用率**：将稳定代码（如第三方库）分离，利用浏览器长效缓存。
 3. **并行加载**：拆分后的文件可并行加载，提升页面加载速度。
 
 ---
@@ -54,6 +54,79 @@ module.exports = {
   }
 }
 ```
+
+配置项用于*控制代码分割* (Code Splitting) 的行为。
+
+**`splitChunks` 的主要配置项:**
+
+1.  **`chunks` (string | function):**
+
+    *   **`'all'` (默认值):**  *对所有类型的 chunk 都进行分割*，包括同步和异步的。
+    *   **`'async'`:**  只对异步加载的 chunk 进行分割（例如通过 `import()` 动态导入的模块）。
+    *   **`'initial'`:**  只对初始加载的 chunk 进行分割（同步导入的模块）。
+    *   **`function(chunk)`:**  自定义函数，根据 chunk 信息决定是否进行分割。
+
+2.  **`minSize` (number):**
+
+    *   生成 chunk 的最小大小（以字节为单位）。*只有大于等于这个大小的 chunk 才会被分割*。默认值是 20000 字节 (Webpack 5)，旧版本默认值是 30000 字节。
+
+3.  **`maxSize` (number):**
+
+    *   生成 chunk 的最大大小（以字节为单位）。Webpack 会尝试*将 chunk 分割成小于等于这个大小的块*。这只是一个提示，Webpack 不一定会严格遵守。默认值是 0，表示不限制。
+
+4.  **`minChunks` (number):**
+
+    *   模块*被引用多少次*才会被分割成单独的 chunk。默认值是 1。
+
+5.  **`maxAsyncRequests` (number):**
+
+    *   按需加载（异步加载）时并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 5。
+
+6.  **`maxInitialRequests` (number):**
+
+    *   入口点并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 3。
+
+7.  **`automaticNameDelimiter` (string):**
+
+    *   自动生成 chunk 名称的分隔符。默认值是 `~`。
+
+8.  **`name` (boolean | string | function):**
+
+    *   **`true` (默认值):**  根据 `chunks` 和 `cacheGroups` 自动生成 chunk 名称。
+    *   **`false`:**  不生成名称。
+    *   **`string`:**  自定义 chunk 名称。
+    *   **`function(module, chunks, cacheGroupKey)`:**  自定义函数，根据模块、chunks 和 cacheGroup 信息生成 chunk 名称。
+
+9.  **`cacheGroups` (object):**
+
+    *   缓存组，用于自定义分割规则。可以定义多个缓存组，每个缓存组可以有自己的配置。
+    *   **优先级:**  `cacheGroups` 中的规则优先级高于 `splitChunks` 中的全局规则。
+    *   **常用缓存组:**
+        *   **`vendors`:**  将 node_modules 中的第三方库提取到一个单独的 chunk 中。
+        *   **`default`:**  默认的缓存组，用于处理没有被其他缓存组匹配到的模块。
+
+    **`cacheGroups` 中的常用配置项:**
+
+    *   **`test` (RegExp | string | function):**  匹配模块的规则。
+        *   **`RegExp`:**  正则表达式，匹配模块的路径。
+        *   **`string`:**  字符串，匹配模块的路径（可以是绝对路径或相对于 context 的路径）。
+        *   **`function(module, chunks)`:**  自定义函数，根据模块和 chunks 信息决定是否匹配。
+    *   **`priority` (number):**  缓存组的优先级，数值越大优先级越高。默认值是 0。
+    *   **`reuseExistingChunk` (boolean):**  如果当前 chunk 已经包含来自其他入口点的模块，是否重用已有的 chunk，而不是创建一个新的。默认值是 `true`。
+    *   **`enforce` (boolean):**  强制创建一个新的 chunk，即使它的大小小于 `minSize` 或大于 `maxSize`。默认值是 `false`。
+    *   `chunks`, `minSize`, `maxSize`, `minChunks`, `maxAsyncRequests`, `maxInitialRequests`, `name` 这些配置项与 `splitChunks` 中的含义相同，但作用范围仅限于当前缓存组。
+
+
+**总结:**
+
+*   `splitChunks` 配置项提供了灵活的代码分割策略，可以根据项目的具体需求进行定制。
+*   `cacheGroups` 是 `splitChunks` 的核心配置，通过定义不同的缓存组，可以实现更精细的代码分割。
+*   合理配置 `splitChunks` 可以有效减少打包文件的体积，提高页面加载速度，优化用户体验。
+*   Webpack 5 对 `splitChunks` 的默认配置进行了优化，通常情况下不需要进行太多自定义配置。
+*   理解每个配置项的含义和作用，有助于更好地配置 `splitChunks`，实现最佳的代码分割效果。
+*  `maxSize`是一个软性限制，webpack会尽量将chunk大小控制在`maxSize`以内，但是不保证一定小于这个值，尤其是在modules很大的情况下。
+* `enforce`设置为`true`时，会忽略`minSize`, `minChunks`, `maxAsyncRequests`, 和 `maxInitialRequests`的配置，强制创建一个新的chunk。
+
 
 ---
 

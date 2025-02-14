@@ -16,14 +16,16 @@
 
 ---
 
-Webpack 中的 **Chunk（代码块）** 是打包过程中模块的集合单位，用于将代码分割成不同的文件，以提高加载性能、缓存利用率或实现按需加载。以下是关于 Chunk 的核心概念和工作原理的详细解析：
+Webpack 中的 **Chunk（代码块）** 是打包过程中模块的集合单位（*一个 chunk 可以包含多个 module*），用于*将代码分割成不同的文件*，**实现按需加载、提高缓存利用率**，进而提高加载性能。
+
+以下是关于 Chunk 的核心概念和工作原理的详细解析：
 
 
-### **一、Chunk 的类型**
+### 一、Chunk 的类型
 Webpack 中的 Chunk 主要分为以下几种类型：
 1. **Entry Chunk（入口代码块）**  
-   - 由配置中的 `entry` 入口文件直接生成的 Chunk。
-   - 每个入口文件对应一个 Entry Chunk（除非手动合并）。
+   - *由配置中的 `entry` 入口文件直接生成的 Chunk*。
+   - *每个入口文件对应一个 Entry Chunk*（除非手动合并）。
    - 示例：若配置 `entry: { app: './src/index.js' }`，则生成 `app.js`。
 
 2. **Async Chunk（异步代码块）**  
@@ -32,21 +34,21 @@ Webpack 中的 Chunk 主要分为以下几种类型：
    - 示例：`import('./module.js')` 会生成一个独立的 Async Chunk。
 
 3. **Runtime Chunk（运行时代码块）**  
-   - 包含 Webpack 的运行时逻辑（如模块加载、依赖管理）。
-   - 通常单独拆分，避免重复代码（通过 `optimization.runtimeChunk` 配置）。
+   - 包含 Webpack 的运行时逻辑（如*模块加载、依赖管理*）。
+   - 通常单独拆分，避免重复代码（*通过 `optimization.runtimeChunk` 配置*）。
 
 4. **Vendors Chunk（第三方库代码块）**  
    - 将 `node_modules` 中的第三方依赖单独打包，提升缓存利用率。
-   - 通过 `SplitChunksPlugin` 的 `cacheGroups` 配置生成。
+   - *通过 `SplitChunksPlugin` 的 `cacheGroups` 配置生成*。
 
 5. **Common Chunk（公共代码块）**  
    - 多个 Chunk 共享的公共代码（如工具函数）。
-   - 通过 `SplitChunksPlugin` 提取重复代码。
+   - *通过 `SplitChunksPlugin` 提取重复代码*。
 
 ---
 
-### **二、Chunk 的生成方式**
-#### **1. 通过入口配置生成**
+### 二、Chunk 的生成方式
+#### 1. 通过入口配置生成
 ```javascript
 // webpack.config.js
 module.exports = {
@@ -57,7 +59,7 @@ module.exports = {
 };
 ```
 
-#### **2. 通过动态导入生成**
+#### 2. 通过动态导入生成
 ```javascript
 // 在代码中使用动态导入生成 Async Chunk
 button.onclick = () => {
@@ -67,7 +69,7 @@ button.onclick = () => {
 };
 ```
 
-#### **3. 通过 SplitChunksPlugin 优化生成**
+#### 3. 通过 SplitChunksPlugin 优化生成
 ```javascript
 // webpack.config.js
 module.exports = {
@@ -94,13 +96,13 @@ module.exports = {
 
 ---
 
-### **三、Chunk 的核心特性**
-#### **1. 依赖关系**
+### 三、Chunk 的核心特性
+#### 1. 依赖关系
 - Chunk 之间通过 Webpack 的运行时逻辑管理依赖。
 - 异步 Chunk 在需要时通过 JSONP 或动态 `<script>` 加载。
 
-#### **2. 文件输出**
-- 每个 Chunk 默认对应一个输出文件（如 `app.js`、`vendors.js`）。
+#### 2. 文件输出
+- *每个 Chunk 默认对应一个输出文件 Bundle*（如 `app.js`、`vendors.js`）。
 - 可通过 `output.filename` 配置文件名格式（如哈希命名）：
   ```javascript
   output: {
@@ -109,14 +111,14 @@ module.exports = {
   }
   ```
 
-#### **3. 优化策略**
+#### 3. 优化策略
 - **Tree Shaking**：删除 Chunk 中未使用的代码。
 - **Scope Hoisting**：合并模块作用域，减少闭包开销。
 - **预加载/预获取**：通过 `<link rel="preload">` 优化加载优先级。
 
 ---
 
-### **四、Chunk 的常见应用场景**
+### 四、Chunk 的常见应用场景
 1. **代码分割**  
    - 拆分首屏与非首屏代码，减少初始加载时间。
    - 示例：路由懒加载（React 的 `lazy()` + `Suspense`）。
@@ -132,8 +134,8 @@ module.exports = {
 
 ---
 
-### **五、配置示例与效果**
-#### **1. 动态导入生成 Async Chunk**
+### 五、配置示例与效果
+#### 1. 动态导入生成 Async Chunk
 ```javascript
 // 源码中使用 import()
 import(/* webpackChunkName: "math" */ './math.js');
@@ -144,7 +146,7 @@ dist/
   math.chunk.js // Async Chunk
 ```
 
-#### **2. 提取第三方库为 Vendors Chunk**
+#### 2. 提取第三方库为 Vendors Chunk
 ```javascript
 // webpack.config.js
 optimization: {
@@ -168,7 +170,7 @@ dist/
 
 ---
 
-### **六、Chunk 与 Bundle 的关系**
+### 六、Chunk 与 Bundle 的关系
 - **Chunk** 是逻辑概念，代表代码的集合。
 - **Bundle** 是物理概念，指最终输出的文件。
 - 一个 Chunk 对应一个或多个 Bundle（如通过 `MiniCssExtractPlugin` 分离 CSS）。
