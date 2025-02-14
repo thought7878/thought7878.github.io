@@ -18,9 +18,11 @@
 ---
 
 ### 一、`SplitChunks` 解决的问题
-1. **减少重复代码**：多个入口/异步模块共享的代码会被提取成公共模块。
-2. **提高缓存利用率**：将稳定代码（如第三方库）分离，利用浏览器长效缓存。
-3. **并行加载**：拆分后的文件可并行加载，提升页面加载速度。
+- **实现按需加载、懒加载**：先加载必需的代码块，动态加载非关键功能（如弹窗、复杂计算模块）。
+- **提高缓存利用率**：将稳定代码（如第三方库）分离，利用浏览器长效缓存。
+- 
+- **减少重复代码**：多个入口/异步模块共享的代码会被提取成公共模块。
+- **并行加载**：拆分后的文件可并行加载，提升页面加载速度。
 
 ---
 
@@ -89,18 +91,18 @@ module.exports = {
     * 平衡模块拆分与加载性能：通过 `maxInitialRequests` **设置合理的拆分粒度，在模块拆分和加载性能之间找到平衡点**。拆分代码不能过碎。
 	- 参考：[[maxInitialRequests]]
 
-2.  **`automaticNameDelimiter` (string):**
+7.  **`automaticNameDelimiter` (string):**
 
     *   自动生成 chunk 名称的分隔符。默认值是 `~`。
 
-3.  **`name` (boolean | string | function):**
+8.  **`name` (boolean | string | function):**
 
     *   **`true` (默认值):**  根据 `chunks` 和 `cacheGroups` 自动生成 chunk 名称。
     *   **`false`:**  不生成名称。
     *   **`string`:**  自定义 chunk 名称。
     *   **`function(module, chunks, cacheGroupKey)`:**  自定义函数，根据模块、chunks 和 cacheGroup 信息生成 chunk 名称。
 
-4.  **`cacheGroups` (object):**
+9.  **`cacheGroups` (object):**
 
     *   缓存组，用于自定义分割规则。可以定义多个缓存组，每个缓存组可以有自己的配置。
     *   **优先级:**  `cacheGroups` 中的规则优先级高于 `splitChunks` 中的全局规则。
@@ -165,7 +167,7 @@ cacheGroups: {
 
 ---
 
-#### 3. **按体积拆分大文件**
+#### 3. 按体积拆分大文件
 ```javascript
 {
   maxSize: 200000, // 200KB
@@ -176,7 +178,7 @@ cacheGroups: {
 
 ---
 
-#### 4. **动态导入优化**
+#### 4. 动态导入优化
 ```javascript
 // 原代码
 import _ from 'lodash';
@@ -201,7 +203,7 @@ const getLodash = () => import(/* webpackChunkName: "lodash" */ 'lodash');
 
 ### 五、性能优化验证
 
-#### 1. **使用分析工具**
+#### 1. 使用分析工具
 安装 `webpack-bundle-analyzer` 可视化分析：
 ```javascript
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -214,7 +216,7 @@ plugins: [
 
 ---
 
-#### 2. **关键指标检查**
+#### 2. 关键指标检查
 - 首屏加载的 JS 体积 < 200KB
 - 第三方库 chunk 的 `contenthash` 长期不变
 - 异步 chunk 数量 < 5（HTTP/2 环境下可放宽）
@@ -223,7 +225,7 @@ plugins: [
 
 ### 六、常见问题解决
 
-#### 1. **过度拆分导致请求数过多**
+#### 1. 过度拆分导致请求数过多
 ```javascript
 // 解决方案：合并小 chunk 或提高 minSize
 splitChunks: {
@@ -233,13 +235,13 @@ splitChunks: {
 }
 ```
 
-#### 2. **动态导入未被拆分**
+#### 2. 动态导入未被拆分
 ```javascript
 // 确保使用标准动态导入语法
 const module = await import(/* webpackChunkName: "my-chunk" */ './module.js');
 ```
 
-#### 3. **缓存失效问题**
+#### 3. 缓存失效问题
 ```javascript
 // 为稳定 chunk 设置固定名称
 cacheGroups: {

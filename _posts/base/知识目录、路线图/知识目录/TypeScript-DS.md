@@ -1,6 +1,6 @@
 > 生成TypeScript的所有知识点。以markdown格式，只要知识点，不要介绍
 
-- **基础类型**
+## 基础类型
   - 原始类型：`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`。参考 [[Primitive]]
   - 数组：`T[]` / `Array<T>`。参考 [[_posts/typescript/总结/Types/Object Types/Array/Array|Array]]
   - 元组：`[T1, T2, ...]`。参考 [[Tuple-元组]]
@@ -8,13 +8,13 @@
   - 特殊类型：`any`, `unknown`, `void`, `never`。参考 [[any]]、[[unknown]]、[[never]]、[[Void]]
   - 字面量类型：字符串/数字/布尔字面量。参考 [[字面量类型]]
 
-- **变量声明**
+## 变量声明
   - `let`, `const`, `var` 的作用域与类型推断
   - 解构赋值（对象/数组）。参考 [[_posts/typescript/总结/Types/Object Types/Array/解构赋值]]、[[_posts/typescript/总结/Types/Object Types/Object/解构赋值|解构赋值]]
   - 类型注解。参考 [[类型注解]]
   - 自动类型推断。参考 [[自动类型推断]]
 
-- **接口（Interfaces）**
+## 接口（Interfaces）
   - 对象结构定义
   - 可选属性（`?`）、只读属性（`readonly`）
   - 函数类型定义
@@ -31,10 +31,10 @@
   - 参数属性（构造函数简写）
   - 类实现接口（`implements`）
 
-- **泛型（Generics）**
+## 泛型（Generics）
   - 泛型函数/接口/类。参考 [[Generic]]
   - 泛型约束（`T extends U`）。参考 [[Generic]]
-  - `keyof` 与索引类型查询。参考 [[Generic]]
+  - `keyof` 与索引类型查询。参考：[[_posts/typescript/总结/类型组合/keyof|keyof]]、[[Generic#2. **使用 `keyof` 约束**]]
   - 条件类型（`T extends U ? X : Y`）。参考 [[条件类型（Conditional Types）]]
   - 映射类型（`{ [K in keyof T]: ... }`）。参考 [[映射类型（Mapped Types）]]
   - 默认泛型参数（`T = DefaultType`）。参考 [[Generic]]

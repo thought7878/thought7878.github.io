@@ -78,7 +78,7 @@ logLength(42); // ❌ 错误：number 没有 length
 ```
 
 #### 2. **使用 `keyof` 约束**
-参考 [[_posts/typescript/总结/类型组合/keyof|keyof]]
+参考：[[_posts/typescript/总结/类型组合/keyof|keyof]]
 确保访问对象属性的安全性：
 
 ```typescript
