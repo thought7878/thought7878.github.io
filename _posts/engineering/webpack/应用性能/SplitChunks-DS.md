@@ -80,24 +80,27 @@ module.exports = {
 
 5.  **`maxAsyncRequests` (number):**
 
-    *   按需加载（异步加载）时并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 5。
-
+    * 按需加载（异步加载）时并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 5。
+	- 参考：[[maxAsyncRequests]]
+	
 6.  **`maxInitialRequests` (number):**
 
-    *   入口点并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 3。
+    * 入口点并行请求的最大数量。默认值是 30 (Webpack 5)，旧版本默认值是 3。
+    * 平衡模块拆分与加载性能：通过 `maxInitialRequests` **设置合理的拆分粒度，在模块拆分和加载性能之间找到平衡点**。拆分代码不能过碎。
+	- 参考：[[maxInitialRequests]]
 
-7.  **`automaticNameDelimiter` (string):**
+2.  **`automaticNameDelimiter` (string):**
 
     *   自动生成 chunk 名称的分隔符。默认值是 `~`。
 
-8.  **`name` (boolean | string | function):**
+3.  **`name` (boolean | string | function):**
 
     *   **`true` (默认值):**  根据 `chunks` 和 `cacheGroups` 自动生成 chunk 名称。
     *   **`false`:**  不生成名称。
     *   **`string`:**  自定义 chunk 名称。
     *   **`function(module, chunks, cacheGroupKey)`:**  自定义函数，根据模块、chunks 和 cacheGroup 信息生成 chunk 名称。
 
-9.  **`cacheGroups` (object):**
+4.  **`cacheGroups` (object):**
 
     *   缓存组，用于自定义分割规则。可以定义多个缓存组，每个缓存组可以有自己的配置。
     *   **优先级:**  `cacheGroups` 中的规则优先级高于 `splitChunks` 中的全局规则。
@@ -119,12 +122,12 @@ module.exports = {
 
 **总结:**
 
-*   `splitChunks` 配置项提供了灵活的代码分割策略，可以根据项目的具体需求进行定制。
-*   `cacheGroups` 是 `splitChunks` 的核心配置，通过定义不同的缓存组，可以实现更精细的代码分割。
-*   合理配置 `splitChunks` 可以有效减少打包文件的体积，提高页面加载速度，优化用户体验。
-*   Webpack 5 对 `splitChunks` 的默认配置进行了优化，通常情况下不需要进行太多自定义配置。
-*   理解每个配置项的含义和作用，有助于更好地配置 `splitChunks`，实现最佳的代码分割效果。
-*  `maxSize`是一个软性限制，webpack会尽量将chunk大小控制在`maxSize`以内，但是不保证一定小于这个值，尤其是在modules很大的情况下。
+* `splitChunks` 配置项提供了灵活的代码分割策略，可以根据项目的具体需求进行定制。
+* `cacheGroups` 是 `splitChunks` 的核心配置，通过定义不同的缓存组，可以实现更精细的代码分割。
+* 合理配置 `splitChunks` 可以有效减少打包文件的体积，提高页面加载速度，优化用户体验。
+* Webpack 5 对 `splitChunks` 的默认配置进行了优化，通常情况下不需要进行太多自定义配置。
+* 理解每个配置项的含义和作用，有助于更好地配置 `splitChunks`，实现最佳的代码分割效果。
+* `maxSize`是一个软性限制，webpack会尽量将chunk大小控制在`maxSize`以内，但是不保证一定小于这个值，尤其是在modules很大的情况下。
 * `enforce`设置为`true`时，会忽略`minSize`, `minChunks`, `maxAsyncRequests`, 和 `maxInitialRequests`的配置，强制创建一个新的chunk。
 
 

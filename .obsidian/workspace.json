@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md",
+                "file": "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md",
+                "file": "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md",
+                "file": "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md"
+                "file": "_posts/engineering/webpack/应用性能/SplitChunks-DS.md"
               }
             }
           }
@@ -358,9 +358,9 @@
   "active": "6a64ac95449b6685",
   "lastOpenFiles": [
     "_posts/engineering/webpack/应用性能/SplitChunks/maxAsyncRequests.md",
+    "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
     "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md",
     "_posts/任务记录/2025/February/1-单词.md",
-    "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
     "_posts/engineering/webpack/应用性能/SplitChunks",
     "_posts/engineering/webpack/核心原理/Webpack 核心原理-QW.md",
     "_posts/AI/DeepSeek.md",
