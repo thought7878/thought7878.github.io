@@ -1,4 +1,4 @@
-Jest 是一个功能强大且流行的 JavaScript 测试框架，广泛用于前端开发中的单元测试、集成测试和快照测试。它由 Facebook 开源，特别适合 React 项目，但也支持其他框架（如 Vue、Angular）和纯 JavaScript 项目。以下是关于 Jest 的核心知识点和使用方法。
+Jest 是一个功能强大且流行的 JavaScript 测试框架，广泛用于前端开发中的*单元测试、集成测试和快照测试*。它由 Facebook 开源，特别适合 React 项目，但也支持其他框架（如 Vue、Angular）和纯 JavaScript 项目。以下是关于 Jest 的核心知识点和使用方法。
 
 ---
 
@@ -52,7 +52,7 @@ module.exports = {
 
 ### **3. 核心功能**
 #### **(1) 单元测试**
-测试单个函数或模块的功能是否正确。
+测试*单个函数或模块*的功能是否正确。
 ```javascript
 // sum.js
 function sum(a, b) {
@@ -69,7 +69,8 @@ test('adds 1 + 2 to equal 3', () => {
 ```
 
 #### **(2) 快照测试**
-捕获组件或数据结构的状态，并在后续测试中比较是否有变化。
+参考：[[快照测试-QW]]
+*捕获组件或数据结构的状态*，并在后续测试中比较是否有变化。
 ```javascript
 // snapshot.test.js
 const generateConfig = () => ({
@@ -164,6 +165,7 @@ jest --coverage
 ---
 
 ### **6. 集成 React 测试**
+参考：[[React Testing Library-QW]]
 Jest 与 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) 结合，是 React 项目的最佳实践。
 #### **(1) 安装依赖**
 ```bash

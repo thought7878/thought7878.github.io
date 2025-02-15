@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
+                "file": "_posts/engineering/测试/Jest/Jest-QW.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
+                "file": "_posts/engineering/测试/Jest/Jest-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
+                "file": "_posts/engineering/测试/Jest/Jest-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md"
+                "file": "_posts/engineering/测试/Jest/Jest-QW.md"
               }
             }
           }
@@ -357,21 +357,22 @@
   },
   "active": "6a64ac95449b6685",
   "lastOpenFiles": [
+    "_posts/任务记录/2025/February/15.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/engineering/测试/Jest/Jest-QW.md",
+    "_posts/engineering/测试/Jest/快照测试-QW.md",
     "_posts/engineering/测试/测试-DS.md",
     "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
-    "_posts/engineering/测试/React Testing Library",
-    "_posts/engineering/测试/测试-QW.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/测试/测试-QW.md",
+    "_posts/engineering/测试/React Testing Library",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
     "_posts/engineering/webpack/Loader & Plugin/自定义 Loader-DS.md",
     "_posts/engineering/webpack/打包.md",
     "_posts/engineering/webpack/Why、What.md",
     "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
     "_posts/engineering/webpack/核心原理/Webpack的构建流程.md",
-    "_posts/任务记录/2025/February/15.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/要整理的.md",
-    "_posts/engineering/测试/Jest/Jest-QW.md",
     "_posts/engineering/测试/Jest",
     "_posts/engineering/测试",
     "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
@@ -385,7 +386,6 @@
     "_posts/typescript/总结/Types/Object Types/Array/解构赋值.md",
     "_posts/typescript/总结/Types/Object Types/Enum.md",
     "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
-    "_posts/engineering/webpack/应用性能/代码分割（Code Splitting）-DS.md",
     "_posts/engineering/webpack/应用性能/SplitChunks",
     "_posts/engineering/webpack/核心原理/media",
     "_posts/AI/搞钱/AI生成宠物搞笑的视频",
