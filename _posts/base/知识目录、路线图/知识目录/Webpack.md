@@ -77,7 +77,7 @@
   参考：[[module]]
 
 **Loader**
-- *编译JS；转换非 JS 资源*（如 CSS、图片、字体），将不同类型的模块转换为 Webpack 可以处理的 JavaScript 可以使用的模块
+- *编译JS、CSS；转换非 JS 资源*（如 CSS、图片、字体），将不同类型的模块转换为 Webpack 可以处理的 JavaScript 可以使用的模块
 
 **插件 (Plugins)**
 - 用于*扩展 Webpack 的功能*（打包优化、资源管理、环境注入等），可以在构建过程的不同阶段执行自定义的任务。
@@ -98,11 +98,11 @@
 - 代表一次特定的构建，包含了当前的模块资源、编译生成资源、变化的文件等信息。
 
 **Chunk：** 
-- Webpack 打包生成的代码块，一个 chunk 可以包含多个 module。
+- Webpack 打包生成的代码块，*一个 chunk 可以包含多个 module*。
   参考：[[Chunk-DS]]
   
 **Bundle:** 
-- 最终输出的打包文件，一个 bundle 可以包含一个或多个 chunk。
+- 最终输出的打包文件，*一个 bundle 可以包含一个或多个 chunk*。
 
 #### 代码分割（Code Splitting）
 参考：[[代码分割（Code Splitting）-DS]]、[[SplitChunks-DS]]
@@ -218,7 +218,7 @@
 - `MiniCssExtractPlugin`（提取 CSS 为独立文件）
 - `OptimizeCSSAssetsPlugin`（压缩 CSS）
 
-  **JS 压缩**
+**JS 压缩**
 
 - `TerserWebpackPlugin`（压缩 JS）
 

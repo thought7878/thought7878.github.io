@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
+                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/webpack/核心原理/Webpack的构建流程.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Webpack.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/任务记录/2025/February/15.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
+                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
+                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md"
+                "file": "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md"
               }
             }
           }
@@ -357,8 +357,26 @@
   },
   "active": "6a64ac95449b6685",
   "lastOpenFiles": [
-    "_posts/typescript/总结/类型组合/类型别名.md",
+    "_posts/engineering/测试/测试-DS.md",
+    "_posts/engineering/测试/React Testing Library/React Testing Library-QW.md",
+    "_posts/engineering/测试/React Testing Library",
+    "_posts/engineering/测试/测试-QW.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/engineering/webpack/Loader & Plugin/自定义 Loader-DS.md",
+    "_posts/engineering/webpack/打包.md",
+    "_posts/engineering/webpack/Why、What.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
+    "_posts/engineering/webpack/核心原理/Webpack的构建流程.md",
+    "_posts/任务记录/2025/February/15.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/要整理的.md",
+    "_posts/engineering/测试/Jest/Jest-QW.md",
+    "_posts/engineering/测试/Jest",
+    "_posts/engineering/测试",
     "_posts/base/知识目录、路线图/知识目录/TypeScript-DS.md",
+    "_posts/typescript/总结/类型组合/类型别名.md",
+    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/typescript/总结/类型组合/交叉类型.md",
     "_posts/typescript/总结/类型组合/联合类型.md",
     "_posts/typescript/总结/Generic/条件类型（Conditional Types）.md",
@@ -366,33 +384,15 @@
     "_posts/typescript/总结/Generic/Generic.md",
     "_posts/typescript/总结/Types/Object Types/Array/解构赋值.md",
     "_posts/typescript/总结/Types/Object Types/Enum.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
     "_posts/engineering/webpack/应用性能/SplitChunks-DS.md",
     "_posts/engineering/webpack/应用性能/代码分割（Code Splitting）-DS.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/engineering/webpack/应用性能/SplitChunks/maxInitialRequests.md",
-    "_posts/engineering/webpack/应用性能/SplitChunks/maxAsyncRequests.md",
-    "_posts/任务记录/2025/February/1-单词.md",
     "_posts/engineering/webpack/应用性能/SplitChunks",
-    "_posts/engineering/webpack/核心原理/Webpack 核心原理-QW.md",
-    "_posts/AI/DeepSeek.md",
-    "_posts/任务记录/2025/February/14.md",
-    "_posts/engineering/webpack/应用性能/代码分割.md",
-    "_posts/engineering/webpack/核心原理/Chunk-DS.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程.md",
-    "_posts/任务记录/2025/February/10.md",
-    "_posts/engineering/webpack/核心原理/Webpack的构建流程-DS.md",
-    "_posts/engineering/webpack/核心原理/Tree-shaking-DS.md",
     "_posts/engineering/webpack/核心原理/media",
     "_posts/AI/搞钱/AI生成宠物搞笑的视频",
     "_posts/AI/搞钱",
     "_posts/engineering/vite/核心原理",
     "_posts/engineering/webpack/核心原理",
     "_posts/engineering/vite",
-    "_posts/base/知识目录、路线图/知识目录/media",
-    "_posts/engineering/版本控制与协作/Git",
-    "_posts/engineering/版本控制与协作",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
