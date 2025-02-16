@@ -322,7 +322,7 @@
 ## 、高级特性
 
 40. **模块联邦 (Module Federation)**
-    - Webpack 5 支持微前端架构
+    - Webpack 5 支持微前端架构。参考：[[模块联邦（Module Federation）-QW]]
 41. **持久化缓存**
     - `cache: { type: 'filesystem' }` 加速二次构建
 42. **资源模块 (Asset Modules)**
