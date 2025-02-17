@@ -89,7 +89,7 @@
 ## Hooks
 
 1. **内置 Hooks**
-   - useState。参考：[[useState-DS]]
+   - useState。参考：[[useState-DS]]、[[useState的原理]]
    - useEffect
    - useContext
    - useReducer
