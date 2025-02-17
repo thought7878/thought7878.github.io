@@ -132,7 +132,7 @@ HashRouter、BrowserRouter，这俩人名字这么像，该不会底层逻辑区
 
 * `createHashHistory`：它是使用 hash tag (#) 处理 URL 的方法，能够处理形如这样的 URL，example.com/#/some/path。我们可以看到[它的源码中](https://github.com/ReactTraining/history/blob/v4.7.2/modules/createHashHistory.js)对各种方法的定义基本都围绕 hash 展开（如下图所示），由此可得，**HashRouter 是通过 URL 的 hash 属性来控制路由跳转的**。
 
-![[react/深入浅出搞定 React/media/e7ac93aa26c1e4542b03ff7e2f9399ab_MD5.png]]
+![[e7ac93aa26c1e4542b03ff7e2f9399ab_MD5.png]]
 
 > 注：关于 hash 和 history 这两种模式，我们在下文中还会持续探讨。
 

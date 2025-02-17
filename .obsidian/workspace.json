@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/overview.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/react/总结/原理和源码/自动批处理.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/react/总结/原理和源码/自动批处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/react/总结/原理和源码/自动批处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md"
+                "file": "_posts/react/总结/原理和源码/自动批处理.md"
               }
             }
           }
@@ -357,52 +357,52 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/react/总结/Hooks/Hook 的原理和源码.md",
     "_posts/base/知识目录、路线图/知识目录/React-DS.md",
-    "_posts/react/总结/Hooks/useState/useState的原理.md",
-    "_posts/react/总结/Hooks/useState/useState-DS.md",
-    "_posts/react/总结/Hooks/useState/setState的原理.md",
-    "_posts/react/总结/Hooks/useState",
-    "_posts/base/知识目录、路线图/知识目录/React-DB.md",
-    "_posts/react/总结/Hooks/useState/useState.md",
-    "_posts/base/知识目录、路线图/知识目录/React.md",
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/react/总结/原理和源码/自动批处理.md",
+    "_posts/react/总结/原理和源码/并发模式.md",
+    "_posts/react/总结/性能优化/性能优化-QW.md",
+    "_posts/react/总结/性能优化/memo().md",
     "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
-    "_posts/interview/面试题/React/React-QW.md",
+    "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
+    "_posts/browser/浏览器的主线程.md",
+    "_posts/methods/常看的.md",
+    "_posts/外面的世界/美景.md",
+    "_posts/要整理的.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/react/教程/react 通关秘籍/6、组件实战：迷你 Calendar.md",
+    "_posts/react/教程/react 通关秘籍/4、React 组件如何写 TypeScript 类型.md",
+    "_posts/react/教程",
+    "_posts/react/教程/深入浅出搞定 React/03_React 16 中的生命周期-为什么 React 16 要更改组件的生命周期？（下）.md",
+    "_posts/react/教程/玩转 React Hooks/5.基础篇｜自定义 Hooks 之 Jest（一）：如何测试自定义 Hooks？.md",
+    "_posts/react/教程/玩转 React Hooks/media/ed19c42fa752c98ed29c3f24405f7306_MD5.png",
+    "_posts/react/教程/玩转 React Hooks/media/4d0439536d850e0d408777c1baf3ec5d_MD5.png",
+    "_posts/react/教程/玩转 React Hooks/media/210be74f77f367b164c47aa2256d549a_MD5.png",
+    "_posts/react/总结/原理和源码",
+    "_posts/react/总结/原理和源码/源码/参考资料.md",
+    "_posts/react/总结/Portal.md",
+    "_posts/任务记录/2025/February/15.md",
+    "_posts/react/总结/Fragment.md",
+    "_posts/react/总结/Components/Component.md",
+    "_posts/react/总结/性能优化",
+    "_posts/react/总结/Event/Event.md",
+    "_posts/react/总结/Hooks/useEffect/useEffect.md",
+    "_posts/react/总结/Hooks/useEffect/useEffect-QW.md",
+    "_posts/react/总结/Hooks/useEffect/useEffect的原理.md",
+    "_posts/react/总结/Hooks/useEffect",
+    "_posts/react/总结/Hooks/useState/useState的原理.md",
+    "_posts/react/总结/Hooks/useState",
     "_posts/interview/面试题/React",
-    "_posts/interview/面试题/网络/取消请求.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
-    "_posts/interview/面试题/网络/网络.md",
     "_posts/interview/面试题/网络",
     "_posts/interview/面试题",
     "_posts/interview/教程/前端面试之道/media/85e447ce219373110bf3db213c14891e_MD5.png",
     "_posts/interview/教程/前端面试之道/media/880bb86552be32e179378503130ef844_MD5.png",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/base/知识目录、路线图/学习计划/架构设计 学习计划-DS.md",
-    "_posts/外面的世界/男女.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/任务记录/2025/February/15.md",
     "_posts/media",
-    "_posts/要整理的.md",
-    "_posts/architect/架构模式/微前端架构.md",
-    "_posts/engineering/webpack/Module Federation/模块联邦（Module Federation）-QW.md",
     "_posts/engineering/webpack/Module Federation",
-    "_posts/architect/架构模式/微前端架构-QW.md",
-    "_posts/engineering/持续集成 & 持续部署/持续集成、持续部署-DS.md",
-    "_posts/engineering/持续集成 & 持续部署/GitHub Actions",
-    "_posts/engineering/DevOps",
-    "_posts/engineering/敏捷开发",
-    "_posts/engineering/持续集成 & 持续部署",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
     "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
     "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/9096c31e97535c767de42801d6c1add8_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/1518e1bccf25f0e44bbdbaadec087c62_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/f1b797b20423d80ba1425726c43afdab_MD5.gif",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

@@ -90,7 +90,7 @@
 
 1. **内置 Hooks**
    - useState。参考：[[useState-DS]]、[[useState的原理]]
-   - useEffect
+   - useEffect。参考：[[useEffect-QW]]、[[useEffect的原理]]
    - useContext
    - useReducer
    - useCallback
@@ -110,16 +110,16 @@
 - 错误捕获
 
 ## **Fragments**
-
+参考：[[Fragment]]
 - `<React.Fragment>`
 - 短语法 `<>`
 
 ## **Portals**
-
+参考：[[Portal]]
 - `ReactDOM.createPortal`
 
-## **性能优化**
-
+## 性能优化
+参考：[[性能优化-QW]]、
 - `React.memo`
 - `PureComponent`
 - `shouldComponentUpdate`
@@ -133,8 +133,8 @@
 
 ## **React 18+**
 
-- 并发模式（Concurrent Mode）
-- 自动批处理
+- 并发模式（Concurrent Mode）。参考：[[并发模式]]
+- 自动批处理。参考：[[自动批处理]]
 - 服务端组件（Server Components）/客户端组件
 - `useTransition`/`useDeferredValue`
 
