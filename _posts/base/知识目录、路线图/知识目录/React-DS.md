@@ -134,9 +134,9 @@
 ## **React 18+**
 
 - 并发模式（Concurrent Mode）。参考：[[并发模式]]
+	- `useTransition`/`useDeferredValue`
 - 自动批处理。参考：[[自动批处理]]
-- 服务端组件（Server Components）/客户端组件
-- `useTransition`/`useDeferredValue`
+- 服务端组件（Server Components）/客户端组件。参考：[[服务端组件（Server Components）]]
 
 ## React Server Components
 

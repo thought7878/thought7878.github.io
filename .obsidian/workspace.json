@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/自动批处理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/原理和源码/自动批处理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/原理和源码/自动批处理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/react/总结/原理和源码/自动批处理.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md"
               }
             }
           }
@@ -357,9 +357,10 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/React-DS.md",
-    "_posts/react/总结/原理和源码/自动批处理.md",
     "_posts/react/总结/原理和源码/并发模式.md",
+    "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+    "_posts/react/总结/原理和源码/服务端组件（Server Components）.md",
+    "_posts/react/总结/原理和源码/自动批处理.md",
     "_posts/react/总结/性能优化/性能优化-QW.md",
     "_posts/react/总结/性能优化/memo().md",
     "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
@@ -389,7 +390,6 @@
     "_posts/react/总结/Hooks/useEffect/useEffect-QW.md",
     "_posts/react/总结/Hooks/useEffect/useEffect的原理.md",
     "_posts/react/总结/Hooks/useEffect",
-    "_posts/react/总结/Hooks/useState/useState的原理.md",
     "_posts/react/总结/Hooks/useState",
     "_posts/interview/面试题/React",
     "_posts/interview/面试题/网络",
