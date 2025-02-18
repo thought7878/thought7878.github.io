@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/任务记录/2025/February/18.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/React-DS.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md"
               }
             }
           }
@@ -357,19 +357,23 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/并发模式.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
     "_posts/base/知识目录、路线图/知识目录/React-DS.md",
-    "_posts/react/总结/原理和源码/服务端组件（Server Components）.md",
+    "_posts/react/总结/原理和源码/并发模式-QW.md",
+    "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
+    "_posts/任务记录/2025/February/18.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/react/总结/原理和源码/客户端组件.md",
+    "_posts/react/总结/原理和源码/服务端组件.md",
     "_posts/react/总结/原理和源码/自动批处理.md",
     "_posts/react/总结/性能优化/性能优化-QW.md",
     "_posts/react/总结/性能优化/memo().md",
     "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
     "_posts/browser/浏览器的主线程.md",
     "_posts/methods/常看的.md",
     "_posts/外面的世界/美景.md",
     "_posts/要整理的.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/react/教程/react 通关秘籍/6、组件实战：迷你 Calendar.md",
     "_posts/react/教程/react 通关秘籍/4、React 组件如何写 TypeScript 类型.md",
     "_posts/react/教程",
@@ -385,10 +389,6 @@
     "_posts/react/总结/Fragment.md",
     "_posts/react/总结/Components/Component.md",
     "_posts/react/总结/性能优化",
-    "_posts/react/总结/Event/Event.md",
-    "_posts/react/总结/Hooks/useEffect/useEffect.md",
-    "_posts/react/总结/Hooks/useEffect/useEffect-QW.md",
-    "_posts/react/总结/Hooks/useEffect/useEffect的原理.md",
     "_posts/react/总结/Hooks/useEffect",
     "_posts/react/总结/Hooks/useState",
     "_posts/interview/面试题/React",

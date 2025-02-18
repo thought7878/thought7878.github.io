@@ -125,23 +125,23 @@
 - `shouldComponentUpdate`
 - 懒加载 (`React.lazy` 和 `Suspense`)
 
-## **React DOM**
+## React DOM
 
 - `ReactDOM.render`
 - `ReactDOM.hydrate`
 - `ReactDOM.createRoot`
 
-## **React 18+**
+## React 18+
 
-- 并发模式（Concurrent Mode）。参考：[[并发模式]]
+- 并发模式（Concurrent Mode）。参考：[[并发模式-QW]]
 	- `useTransition`/`useDeferredValue`
 - 自动批处理。参考：[[自动批处理]]
-- 服务端组件（Server Components）/客户端组件。参考：[[服务端组件（Server Components）]]
+- 服务端组件（Server Components）/客户端组件。参考：[[服务端组件]]
 
-## React Server Components
+### React Server Components
 
-- 服务端组件
-- 客户端组件
+- 服务端组件。参考：[[服务端组件]]
+- 客户端组件。参考：[[客户端组件]]
 
 # React 生态系统
 
