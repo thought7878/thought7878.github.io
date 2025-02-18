@@ -236,7 +236,7 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 ## XMLHttpRequest
 参考 [[XMLHttpRequest]]
 ## Fetch
-参考 [[Fetch]]
+参考 [[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
 
 # Class
 参考 [[Class]]

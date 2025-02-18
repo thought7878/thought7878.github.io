@@ -128,8 +128,8 @@
 
 ### 3. **网络请求**
 - **XMLHttpRequest**：传统的 AJAX 请求方式。
-- **Fetch API**：现代的网络请求方式，基于 Promise。
-- **WebSocket**：实现全双工通信。
+- **Fetch API**：现代的网络请求方式，基于 Promise。参考：[[Fetch-QW]]
+- **WebSocket**：实现全双工通信。参考：[[WebSocket]]
 
 ### 4. **存储**
 - **LocalStorage** 和 **SessionStorage**：简单的键值对存储。
