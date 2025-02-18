@@ -157,9 +157,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "534d78a7fd85aba2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md"
               }
             }
           },
@@ -254,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md"
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md"
               }
             }
           }
@@ -303,7 +313,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -357,18 +368,27 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/browser/网络/Fetch-QW.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+    "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
+    "_posts/browser/渲染/分层绘制的具体细节.md",
+    "_posts/browser/渲染/重绘（Repaint）-QW.md",
+    "_posts/base/css/总结/动画/动画.md",
+    "_posts/base/css/总结/动画",
+    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/健康/舞蹈/自学舞蹈计划-QW.md",
+    "_posts/健康/舞蹈/自学舞蹈计划-Gemini.md",
+    "_posts/健康/舞蹈",
+    "_posts/base/css/总结/transform.md",
+    "_posts/browser/渲染/_浏览器的渲染流程.md",
+    "_posts/browser/网络/Fetch-QW.md",
     "_posts/browser/网络/WebSocket.md",
     "_posts/browser/浏览器的主线程-QW.md",
     "_posts/browser/Web Worker-QW.md",
     "_posts/browser/网络",
     "_posts/任务记录/2025/February/18.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
     "_posts/browser/浏览器如何工作.md",
-    "_posts/browser/渲染/_浏览器的渲染流程.md",
-    "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
     "_posts/base/知识目录、路线图/知识目录/React-DS.md",
     "_posts/react/总结/原理和源码/并发模式-QW.md",
     "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
@@ -377,13 +397,6 @@
     "_posts/react/总结/原理和源码/服务端组件.md",
     "_posts/react/总结/原理和源码/自动批处理.md",
     "_posts/react/总结/性能优化/性能优化-QW.md",
-    "_posts/react/总结/性能优化/memo().md",
-    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-    "_posts/methods/常看的.md",
-    "_posts/外面的世界/美景.md",
-    "_posts/要整理的.md",
-    "_posts/react/教程/react 通关秘籍/6、组件实战：迷你 Calendar.md",
-    "_posts/react/教程/react 通关秘籍/4、React 组件如何写 TypeScript 类型.md",
     "_posts/react/教程",
     "_posts/react/教程/玩转 React Hooks/media/ed19c42fa752c98ed29c3f24405f7306_MD5.png",
     "_posts/react/教程/玩转 React Hooks/media/4d0439536d850e0d408777c1baf3ec5d_MD5.png",
@@ -394,10 +407,8 @@
     "_posts/react/总结/Hooks/useState",
     "_posts/interview/面试题/React",
     "_posts/interview/面试题/网络",
-    "_posts/interview/面试题",
     "_posts/interview/教程/前端面试之道/media/85e447ce219373110bf3db213c14891e_MD5.png",
     "_posts/interview/教程/前端面试之道/media/880bb86552be32e179378503130ef844_MD5.png",
-    "_posts/media",
     "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
     "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
