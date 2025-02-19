@@ -1,14 +1,14 @@
 Users love pixels (frames) delivered on screen as fast as possible; that's what makes a web application feel _fast_!  
-用户喜欢尽可能快地在屏幕上传递的像素（帧）；这就是使Web应用程序感觉快速的原因！
+用户喜欢尽可能快地在屏幕上显示像素（帧）;这就是Web应用程序感觉速度快的原因！
 
 HTML and CSS are the foundational building blocks web developers use to build visual experiences on the web. But how does the browser convert HTML and CSS into pixels?  
-HTML和CSS是Web开发人员在网络上构建视觉体验的基础构建块。但是，浏览器如何将HTML和CSS转换为像素？
+HTML和CSS是Web开发人员用来在Web上构建视觉体验的基本构建块。但是，浏览器如何将HTML和CSS转换为像素？
 
 The browser orchestrated transformation process of HTML and CSS into pixels is fairly opaque, and as a result, most web developers don't consider how or when it runs.  
-浏览器将HTML和CSS的转换过程精心策划为像素，结果相当不透明，因此，大多数Web开发人员都不考虑如何运行方式或何时运行。
+浏览器编排的HTML和CSS到像素的转换过程是相当不透明的，因此，大多数Web开发人员不考虑如何或何时运行。
 
 Understanding this process is key to building high performance web applications, and in this tip, I'll help demystify it.  
-了解此过程是构建高性能Web应用程序的关键，在此提示中，我将帮助它神秘化。
+理解这个过程是构建高性能Web应用程序的关键，在本技巧中，我将帮助您揭开这个过程的神秘面纱。
 
 ## [](https://webperf.tips/tip/browser-rendering-pipeline/#the-overall-process)The Overall Process  总体过程
 
@@ -17,16 +17,16 @@ The journey from raw HTML and CSS text all the way to visual on-screen pixels ha
 
 ![[_posts/browser/渲染/media/5bdf702c27ece50de3ea6dfa12986e80_MD5.png|"A diagram showing HTML Text input to the DOM Tree, CSS Text becoming the CSSOM. CSSOM and DOM become the Styled Render Tree and the styled Render tree gets positioned via Layout. Finally, Pixels are drawn via Paint"]]
 
-## [](https://webperf.tips/tip/browser-rendering-pipeline/#html-parsing)HTML Parsing  HTML解析
+## [](https://webperf.tips/tip/browser-rendering-pipeline/#html-parsing)HTML Parsing 
 
 When a user navigates to a web page, the entry to the application is the HTML document served to the user as a text file.  
-当用户导航到网页时，应用程序的条目是将用户作为文本文件提供给用户的HTML文档。
+当用户导航到网页时，*应用程序的入口*是作为文本文件提供给用户的HTML文档。
 
 The browser utilizes its [HTML Parser](https://webperf.tips/tip/html-parser) to convert this HTML text into the **Document Object Model**, or **DOM**.  
-浏览器利用其HTML解析器将此HTML文本转换为文档对象模型或DOM。
+*浏览器利用其HTML解析器**将此HTML文本转换为文档对象模型**（DOM）*。
 
 The DOM is a tree that defines the structure of the document. Each node in the DOM tree is a browser object that maps back to items specified in the HTML text file.  
-DOM是定义文档结构的树。 DOM树中的每个节点都是浏览器对象，该对象映射回HTML文本文件中指定的项目。
+*DOM是一棵树，它定义了文档的结构*。DOM树中的每个节点都是一个浏览器对象，它映射回HTML文本文件中指定的项。
 
 For example, consider the following HTML text:  
 例如，考虑以下HTML文本：
@@ -54,20 +54,20 @@ Once the HTML parser finishes its job, the following DOM tree would be produced:
 ![[_posts/browser/渲染/media/e4a41423807f02d2eb025020100dea4e_MD5.png|"The produced DOM Tree from the HTML text above."]]
 
 Parsing HTML into the DOM takes place as a [Task](https://webperf.tips/tip/event-loop) on the Main Thread. It is presented visually in [a trace](https://webperf.tips/tip/collect-a-trace) like this:  
-将HTML解析到DOM中是作为主线程上的任务进行的。它以这样的痕迹在视觉上显示：
+*将HTML解析为DOM是作为**主线程上的任务**进行的*。它在视觉上呈现为这样的轨迹：
 
 ![[_posts/browser/渲染/media/ba9ae733f355d9745d556ecf7edb067e_MD5.png|"The DOMParser running as a Task on the Main Thread in the Profiler."]]
 
-## [](https://webperf.tips/tip/browser-rendering-pipeline/#css-object-model)CSS Object Model  CSS对象模型
+## [](https://webperf.tips/tip/browser-rendering-pipeline/#css-object-model)CSS Object Model  
 
 While HTML defines the structure of the document, it may also reference CSS Stylesheets to define the visual presentation of the document.  
-当HTML定义文档的结构时，它还可以参考CSS样式表来定义文档的可视化表示。
+虽然HTML定义了文档的结构，但它也可以引用CSS样式表来定义文档的视觉表示。
 
 These stylesheets are are typically defined via `<link rel="stylesheet" />` tags, but may also be defined through inline `<style>` nodes.  
-这些样式表通常是通过标签，但也可以通过内联定义
+这些样式表通常通过 `<link rel="stylesheet" />` 标记定义，但也可以通过内联节点定义
 
 A CSS stylesheet defines _rules_ composed of _selectors_ and _declarations_. For example, consider `styles.css`:  
-CSS样式表定义了由选择器和声明组成的规则。例如，考虑样式。css：
+CSS样式表定义了由*选择器*和*声明*组成的*规则*。例如，考虑styles.css：
 
 ```css
 div {
@@ -76,25 +76,25 @@ div {
 ```
 
 In this example, `div` is a selector and `background-color: red` is a declaration. The entire block is considered a rule:  
-在此示例中，DIV是选择器和背景色：红色是声明。整个块被认为是一个规则：
+在这个例子中，div是一个选择器，background-color：red是一个声明。整个块被视为一条规则：
 
 ![[_posts/browser/渲染/media/3c25b5e8a506c986772b0d43118f156a_MD5.png|"A diagram highlighting the differences between a rule, selector, and declaration."]]
 
 A web application may reference many stylesheets, and a stylesheet may define many rules (often with many declarations!).  
-Web应用程序可能会引用许多样式表，并且样式表可以定义许多规则（通常有许多声明！）。
+*一个Web应用程序可能引用许多样式表，一个样式表可能定义许多规则*（通常有许多声明！）。
 
 The browser will parse these stylesheets into a memory-efficient, lookup-efficient data structure, called the **CSS Object Model**, or **CSSOM**. Its primary purpose is to aggregate rules and provide an efficient lookup to match selectors to their declared styles.  
-浏览器将将这些样式表解析为记忆效率高效的数据结构，称为CSS对象模型或CSSOM。它的主要目的是汇总规则并提供有效的查找，使选择器与其声明的样式匹配。
+**浏览器将把这些样式表解析成一个*内存效率高*、*查找效率高*的*数据结构***，称为**CSS对象模型**，或**CSSOM**。它的**主要目的**是*聚合规则*，并提供一个有效的查找来匹配选择器和它们声明的样式。
 
 ![[_posts/browser/渲染/media/ed44d8a246cfc6279ac8ccd68697beaf_MD5.png|"A diagram showing CSS transforming from Text to CSSOM Aggregation"]]
 
 Downloaded text stylesheets get parsed and aggregated into the CSSOM on the Main Thread within a [Task](https://webperf.tips/tip/event-loop). This will manifest as a _Parse Stylesheet_ Task in [a trace](https://webperf.tips/tip/collect-a-trace):  
-下载的文本样式表被解析并汇总到任务中主线程的CSSOM中。这将在跟踪中表现为解析样式表任务：
+下载的文本样式表被解析并聚合到任务内**主线程上**的CSSOM中。这将在跟踪中表现为解析样式表任务：
 
 ![[_posts/browser/渲染/media/c28cf6c3498f914fa9ee327dffa9255b_MD5.png|"A screenshot of the Chromium F12 Profiler showing a Parse Stylesheet task"]]
 
 > **Note:** The CSSOM's exact backing structure is browser-specific and worth a dedicated article on its own. While I won't cover it in this tip, you can imagine it's a memory-efficient tree optimized for fast lookup. You can explore the [StyleEngine source code](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/css/style_engine.cc;drc=ebf6be4eaa77a47b813aece108e06523a3f7ddde) for in-depth details.  
-> 注意：CSSOM的确切背景结构是特定于浏览器的，值得独立的文章。虽然我不会在此提示中介绍它，但您可以想象这是一棵可用于快速查找的内存效率树。您可以探索stylegene源代码，以了解深入的详细信息。
+注意：CSSOM的确切支持结构是特定于浏览器的，值得专门撰写一篇文章。虽然我不会在这篇技巧文章中介绍它，但您可以想象它是一个为快速查找而优化的内存高效树。您可以浏览StyleEngine源代码以获得更深入的详细信息。
 
 ## [](https://webperf.tips/tip/browser-rendering-pipeline/#style-and-the-render-tree)Style and The Render Tree  
 样式和渲染树
@@ -105,18 +105,18 @@ Let's take a moment to examine the overall process flowchart:
 ![[_posts/browser/渲染/media/c29f39b76ce8325b1e4b25e01411dc60_MD5.png|"A diagram showing the overall browser rendering phases, with Style phase circled."]]
 
 Once the DOM and CSSOM are constructed, the browser can begin the next phase of the pipeline: _Style_. This phase is sometimes called _Recalculate Style_ or a _Render Tree Update_.  
-构造DOM和CSSOM后，浏览器可以开始管道的下一阶段：样式。此阶段有时称为重新计算样式或渲染树更新。
+一旦DOM和CSSOM构造完成，浏览器就可以开始管道的下一个阶段：*样式*。此阶段有时称为“*重新计算样式*”或“*渲染树更新*”。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#the-render-tree)The Render Tree  渲染树
 
 The **Render Tree** (sometimes called the **Layout Tree**) is a browser-internal C++ data structure that web developers don't directly modify.  
-渲染树（有时称为布局树）是Web开发人员未直接修改的浏览器内部C ++数据结构。
+**渲染树**（有时称为**布局树**）是一种*浏览器内部的C++数据结构*，Web开发人员不会直接修改。
 
 It is a separate tree from the DOM but often mirrors its structure. Each node typically references a _DOM node_ and a _Computed Style_. It's essentially composed of every DOM node that should be presented visually on the user's screen.  
-它是与DOM的独立树，但经常反映其结构。每个节点通常引用DOM节点和计算样式。它基本上由应在用户屏幕上视觉显示的每个DOM节点组成。
+*它是一个独立于DOM的树*，但通常反映其结构。**每个节点通常引用一个DOM节点和一个被计算的样式**。它基本上由每个DOM节点组成，这些节点应该在用户的屏幕上以可视方式呈现。
 
 Consider this simplified Render Tree node, called a `RenderObject`:  
-考虑此简化的渲染树节点，称为`RenderObject` ：
+考虑此简化的渲染树节点（称为`渲染对象`）：
 
 ```cpp
 class RenderObject {
@@ -136,28 +136,27 @@ class RenderObject {
 ![[_posts/browser/渲染/media/dac5a369af6587747b983bbbc1269bb8_MD5.png|"A diagram showing a RenderObject referencing a DOMNode and a ComputedStyle"]]
 
 The Render Tree is also responsible for other, non-DOM related visual elements, such as scroll bars and text selection.  
-渲染树还负责其他与非DOM相关的视觉元素，例如滚动条和文本选择。
+渲染树还负责其他与DOM无关的可视元素，如滚动条和文本选择。
 
 > Consider reading through Chromium's [LayoutTree implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/layout/layout_object.h;l=184-279;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) for more in-depth details on this data structure.  
-> 考虑通过Chromium的Layouttree实施阅读，以了解有关此数据结构的更深入的详细信息。
-> 
-> **Note:** Notable exclusions from the Render Tree include `<head>` and its children, anything that is marked as `display: none`, and `<script>` elements because they are not presented to the user's screen.  
-> 注意：渲染树中值得注意的排除包括和它的孩子，任何标记为显示的东西：无，
+考虑阅读Chromium的LayoutTree实现，以获得关于此数据结构的更深入的细节。
+>**Note:** Notable exclusions from the Render Tree include `<head>` and its children, anything that is marked as `display: none`, and `<script>` elements because they are not presented to the user's screen.  
+注意：渲染树中不包括 `<head>` 及其子项、 `display: none`元素、`<script>`元素，因为它们没有呈现在用户的屏幕上。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#computedstyle)ComputedStyle 
 
 A ComputedStyle is effectively the list of CSS declarations that apply to that DOM node, considering the DOM node's selector, CSS specificity, and the aggregated rules in the CSSOM.  
-一个计算施法实际上是适用于该DOM节点的CSS声明列表，考虑到DOM节点的选择器，CSS特异性和CSSOM中的汇总规则。
+ComputedStyle实际上是应用于该DOM节点的CSS声明的列表，考虑到DOM节点的选择器、CSS特性和CSSOM中的聚合规则。
 
 For example, if I have an example HTML Element:  
-例如，如果我有一个示例html元素：
+例如，如果我有一个示例HTML元素：
 
 ```html
 <div class="center-text">Example</div>
 ```
 
 and styles defined like this:  
-和类似定义的样式：
+样式定义如下：
 
 ```css
 .center-text {
@@ -170,18 +169,18 @@ div {
 ```
 
 The ComputedStyle for my element would be constructed via:  
-我的元素的计算施法将通过：
+我的元素的ComputedStyle将通过以下方式构造：
 
 1. Querying the CSS selectors against the aggregated rules in the CSSOM for the `div` element to get the applicable rules  
-    向CSOM中的`div`规则查询CSS选择器以获取适用规则
+    根据CSSOM中`div`元素的聚合规则查询CSS选择器，以获取适用的规则
 2. Resolving any CSS specificity conflicts to the final set of declarations applied, in this case:  
-    解决对所应用的最终声明的任何CSS特异性冲突，在这种情况下：
-    - `text-align: center`
-    - `background-color: red`
+    解决与应用的最终声明集的任何CSS特定性冲突，在这种情况下：
+    - `text-align: center`  
+    - `background-color: red`  
     - any of the default styles defined by the browser  
         浏览器定义的任何默认样式
 
-> Consider reading through Chromium's [ComputedStyle implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/style/computed_style.h;l=153-207;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) and [StyleResolver](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/css/resolver/style_resolver.cc;drc=42112cd2b5164c7410121180d173556d9c03ffdb) for more in-depth details on this process.  
+>Consider reading through Chromium's [ComputedStyle implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/style/computed_style.h;l=153-207;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) and [StyleResolver](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/css/resolver/style_resolver.cc;drc=42112cd2b5164c7410121180d173556d9c03ffdb) for more in-depth details on this process.  
 > 考虑通过Chromium的计算机实现和Styleresolver阅读以了解此过程的更深入的详细信息。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#tree-construction)Tree Construction  树建造
@@ -302,4 +301,5 @@ That's all for this tip! Thanks for reading! _Discover more similar tips matchi
 这就是这个技巧！感谢您的阅读！_发现更多类似的技巧匹配[浏览器内部](https://webperf.tips/topic/browser-internals)。_
 
 ## 相关资料
-[An Introduction to the Browser Rendering Pipeline](https://webperf.tips/tip/browser-rendering-pipeline/)
+- [An Introduction to the Browser Rendering Pipeline](https://webperf.tips/tip/browser-rendering-pipeline/)
+- [【前端性能】浏览器渲染管道](https://www.bilibili.com/video/BV1zQ2zYeEjh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)

@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md"
+                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md"
               }
             }
           }
@@ -367,19 +367,22 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/base/js/知识点总结/media/132dd112dd35a89d9b165496b7f8be44_MD5.png",
+    "_posts/base/js/知识点总结/media/07e48c90eb3e5b158332776c5a3987e3_MD5.png",
+    "_posts/base/js/知识点总结/media/d9d8c2eebf3d27dd4cd9aa797cd042b8_MD5.png",
+    "_posts/base/js/知识点总结/media/7ee6393e667c81ec51288e2ec458c1e6_MD5.png",
+    "_posts/base/js/知识点总结/media/1728e8d4c1f84c186dab3b67884932ab_MD5.png",
+    "_posts/base/js/知识点总结/media/ccfc402e822b2937c9f9c37733989a79_MD5.png",
+    "_posts/base/js/知识点总结/media/01bb4390dffcb5589708078982986591_MD5.png",
+    "_posts/base/js/知识点总结/media/6382b2d70156fef45c1fe91dad8d8eec_MD5.png",
+    "_posts/base/js/知识点总结/media/62c9cddbec3546bc53e713c907103cae_MD5.png",
+    "_posts/base/js/知识点总结/media/a0dbdcfdb66e7cf41bcb3b5ccd372c8d_MD5.png",
+    "_posts/base/js/知识点总结/media/7273ae73b880a4906150e046976fcd22_MD5.png",
     "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/browser/渲染/media/36eabd04746aa3e1381296ddc2df8284_MD5.png",
-    "_posts/browser/渲染/media/c203791cd4b6a5288896d5491ca6091f_MD5.png",
-    "_posts/browser/渲染/media/8952652faa265fe22eeb026ae5dfa48b_MD5.png",
-    "_posts/browser/渲染/media/0ef96f53c36129b21b8913785b52874c_MD5.png",
-    "_posts/browser/渲染/media/538c9066d13e1fe7ca5ccbd9c4d44d33_MD5.png",
-    "_posts/browser/渲染/media/127a4da02f420348a485ca20d9444355_MD5.png",
-    "_posts/browser/渲染/media/d3f2de08c258881c090b841380ae3f85_MD5.png",
-    "_posts/browser/渲染/media/e4a41423807f02d2eb025020100dea4e_MD5.png",
-    "_posts/browser/渲染/media/48ff9590df8b6f0ed0ef7e14c72d54b4_MD5.png",
-    "_posts/browser/渲染/media/3c25b5e8a506c986772b0d43118f156a_MD5.png",
+    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+    "_posts/AI/学习.md",
     "_posts/要整理的.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/浏览器如何工作.md",
     "_posts/browser/渲染/_浏览器的渲染流程.md",
@@ -404,8 +407,6 @@
     "_posts/browser/网络",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
     "_posts/base/知识目录、路线图/知识目录/React-DS.md",
-    "_posts/react/总结/原理和源码/并发模式-QW.md",
-    "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
     "_posts/react/教程",
     "_posts/react/总结/原理和源码",
     "_posts/react/总结/性能优化",
