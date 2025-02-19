@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-DS.md"
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md"
               }
             }
           }
@@ -313,8 +313,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -368,52 +367,51 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
-    "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/browser/渲染/media/36eabd04746aa3e1381296ddc2df8284_MD5.png",
+    "_posts/browser/渲染/media/c203791cd4b6a5288896d5491ca6091f_MD5.png",
+    "_posts/browser/渲染/media/8952652faa265fe22eeb026ae5dfa48b_MD5.png",
+    "_posts/browser/渲染/media/0ef96f53c36129b21b8913785b52874c_MD5.png",
+    "_posts/browser/渲染/media/538c9066d13e1fe7ca5ccbd9c4d44d33_MD5.png",
+    "_posts/browser/渲染/media/127a4da02f420348a485ca20d9444355_MD5.png",
+    "_posts/browser/渲染/media/d3f2de08c258881c090b841380ae3f85_MD5.png",
+    "_posts/browser/渲染/media/e4a41423807f02d2eb025020100dea4e_MD5.png",
+    "_posts/browser/渲染/media/48ff9590df8b6f0ed0ef7e14c72d54b4_MD5.png",
+    "_posts/browser/渲染/media/3c25b5e8a506c986772b0d43118f156a_MD5.png",
+    "_posts/要整理的.md",
+    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+    "_posts/browser/浏览器如何工作.md",
+    "_posts/browser/渲染/_浏览器的渲染流程.md",
+    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
     "_posts/browser/渲染/分层绘制的具体细节.md",
+    "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
+    "_posts/browser/渲染/media",
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/渲染/重绘（Repaint）-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+    "_posts/任务记录/2025/February/18.md",
     "_posts/base/css/总结/动画/动画.md",
     "_posts/base/css/总结/动画",
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
     "_posts/健康/舞蹈/自学舞蹈计划-QW.md",
     "_posts/健康/舞蹈/自学舞蹈计划-Gemini.md",
     "_posts/健康/舞蹈",
     "_posts/base/css/总结/transform.md",
-    "_posts/browser/渲染/_浏览器的渲染流程.md",
     "_posts/browser/网络/Fetch-QW.md",
     "_posts/browser/网络/WebSocket.md",
     "_posts/browser/浏览器的主线程-QW.md",
     "_posts/browser/Web Worker-QW.md",
     "_posts/browser/网络",
-    "_posts/任务记录/2025/February/18.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/browser/浏览器如何工作.md",
     "_posts/base/知识目录、路线图/知识目录/React-DS.md",
     "_posts/react/总结/原理和源码/并发模式-QW.md",
     "_posts/react/总结/原理和源码/Fiber 架构-QW.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/react/总结/原理和源码/客户端组件.md",
-    "_posts/react/总结/原理和源码/服务端组件.md",
-    "_posts/react/总结/原理和源码/自动批处理.md",
-    "_posts/react/总结/性能优化/性能优化-QW.md",
     "_posts/react/教程",
-    "_posts/react/教程/玩转 React Hooks/media/ed19c42fa752c98ed29c3f24405f7306_MD5.png",
-    "_posts/react/教程/玩转 React Hooks/media/4d0439536d850e0d408777c1baf3ec5d_MD5.png",
-    "_posts/react/教程/玩转 React Hooks/media/210be74f77f367b164c47aa2256d549a_MD5.png",
     "_posts/react/总结/原理和源码",
     "_posts/react/总结/性能优化",
     "_posts/react/总结/Hooks/useEffect",
     "_posts/react/总结/Hooks/useState",
     "_posts/interview/面试题/React",
-    "_posts/interview/面试题/网络",
-    "_posts/interview/教程/前端面试之道/media/85e447ce219373110bf3db213c14891e_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/880bb86552be32e179378503130ef844_MD5.png",
-    "_posts/base/js/知识点总结/media/ac82717eae30e9885e3e7a5a8d475c50_MD5.jpeg",
-    "_posts/base/js/知识点总结/media/Pasted image 20250125082548.png",
-    "_posts/interview/教程/前端面试之道/media/ffd8853e1f6744f54a87cf977affd2a1_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/873c5f28843d141275b21d724eeda754_MD5.png",
-    "_posts/interview/教程/前端面试之道/media/d25237f344ad80fdb6d32fe59371075e_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

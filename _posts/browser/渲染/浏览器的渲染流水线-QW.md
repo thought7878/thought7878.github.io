@@ -1,10 +1,11 @@
-浏览器的 **渲染流水线（Rendering Pipeline）** 是指从接收到 HTML、CSS 和 JavaScript 资源，到最终将内容绘制到屏幕上的整个过程。这个过程涉及多个步骤，每个步骤都有特定的任务和优化点。理解渲染流水线对于前端开发者来说非常重要，因为它直接影响页面的性能和用户体验。
+浏览器的 **渲染流水线（Rendering Pipeline）** 是指*从接收到 HTML、CSS 和 JavaScript 资源，到最终将内容绘制到屏幕上的整个过程*，也称为*关键渲染路径（Critical Rendering Path）*，是指*浏览器将 HTML、CSS 和 JavaScript 代码转换为屏幕上可见像素的一系列步骤*。这个过程涉及多个步骤，每个步骤都有特定的任务和优化点。理解渲染流水线对于前端开发者来说非常重要，*因为它直接影响页面的性能和用户体验*。
 
 以下是浏览器渲染流水线的详细解析：
 
 ---
 
 ## **1. 渲染流水线的主要阶段**
+参考：[【前端性能】浏览器渲染管道](https://www.bilibili.com/video/BV1zQ2zYeEjh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、 [An Introduction to the Browser Rendering Pipeline](https://webperf.tips/tip/browser-rendering-pipeline/)
 
 浏览器的渲染流水线可以分为以下几个主要阶段：
 
@@ -12,6 +13,11 @@
 - **任务**：浏览器从网络中接收 HTML 文档，并逐步解析它。
 - **结果**：生成一个 **DOM 树**，表示文档的结构化内容。
 - **关键点**：
+	- **遇到 `<script>` 标签:**
+	    - **同步脚本:** 浏览器会暂停 HTML 解析，立即下载并执行 JavaScript 代码（除非脚本标记为 `async` 或 `defer`）。JavaScript 代码可能会修改 DOM 树和 CSSOM 树。
+	    - **异步脚本 (`async`):** 浏览器会异步下载脚本，下载完成后立即执行。执行期间会阻塞 HTML 解析。
+	    - **延迟脚本 (`defer`):** 浏览器会异步下载脚本，在 HTML 解析完成后、`DOMContentLoaded` 事件触发前执行。
+	- **遇到 `<link rel="stylesheet">` 标签:** 浏览器会开始下载 CSS 文件。
   - 如果遇到 `<script>` 标签且没有 `async` 或 `defer` 属性，HTML 解析会被暂停，直到脚本加载和执行完成。
   - 如果遇到外部样式表（如 `<link rel="stylesheet">`），*HTML 解析不会暂停，但会阻塞渲染树的构建*。
 
