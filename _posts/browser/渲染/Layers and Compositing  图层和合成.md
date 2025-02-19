@@ -13,7 +13,7 @@ Web developers typically aren't exposed to low-level browser rendering primitive
 Layers are groups of visual elements that share the same coordinate plane. They are rendered onto a 2-dimensional mesh and retained in GPU memory. Below is an example of Layers (and we'll dive into detail later):  
 图层是共享同一坐标平面的视觉元素组。它们被渲染到二维网格上并保留在 GPU 内存中。下面是图层的一个示例（我们稍后会详细介绍）：
 
-![A recording of a simple scroll operation in the Layers View](https://webperf.tips/b9c86049a506d1a66518875aa2277fe3/LayersAndCompositing01.gif)
+![[_posts/browser/渲染/media/35789c95a0dfc29f88019569a0b131c2_MD5.gif]]
 
 All modern web browsers support Layers, yet the exact implementation details may differ and evolve as browsers are continually changing.  
 所有现代网络浏览器都支持层，但具体的实现细节可能不同，并且随着浏览器的不断变化而发展和演变。
@@ -56,7 +56,7 @@ In Chromium, [here is the list of conditions](https://source.chromium.org/chrom
 Consider the following diagram:  
 考虑以下图示：
 
-![A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below.](https://webperf.tips/static/cb69132d864fd5feba9b9f639c942881/906b5/LayersAndCompositing03.png "A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below.")
+![[_posts/browser/渲染/media/28d7e8385c8ef51cfae1bb5c43f7f120_MD5.png|"A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below."]]
 
 Each browser operates differently, but at a high level, it works like this:  
 每个浏览器的工作方式都不同，但大体上，它的工作原理是这样的：
@@ -79,7 +79,7 @@ Each browser operates differently, but at a high level, it works like this:
 Below, I visualize some of the key data structures in this proces and their various transformations:  
 以下，我可视化了这个过程中的关键数据结构及其各种转换：
 
-![A visualization showing the various data structures ordered as described above.](https://webperf.tips/static/2f9f8c70b3d2602ae88bda913d336fbb/906b5/LayersAndCompositing04.png "A visualization showing the various data structures ordered as described above.")
+![[_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png|"A visualization showing the various data structures ordered as described above."]]
 
 > **Note**: There is a lot of nuance and depth in this complex process! I highly recommend the most recent (and evolving!) Chromium rendering architecture overview, which can be [found here](https://developer.chrome.com/docs/chromium/renderingng-architecture).  
 > 注意：这个复杂的过程有很多细微之处和深度！我强烈推荐最新的（并且不断发展的！）Chromium 渲染架构概述，可以在以下链接找到。
@@ -100,7 +100,8 @@ Layers aren't used to order visual elements on-screen. They are lower-level grap
 If authored correctly, CSS animations can be completely offloaded to the compositor thread, allowing a smooth, 60 FPS animation to take place despite any heavy activity on the main thread.  
 如果编写正确，CSS 动画可以完全卸载到合成器线程，即使在主线程上有任何重负载，也能实现流畅的 60 FPS 动画。
 
-https://webperf.tips/static/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4#t=0.001
+
+![[_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4]]
 
 This is by processing the animation instructions completely on the compositor thread on the in-memory layer. I have [a dedicated tip on this mechanism](https://webperf.tips/tip/animate-on-compositor-thread).  
 这是通过在内存层上的合成器线程上完全处理动画指令来实现的。我对这个机制有一个专门的提示。
@@ -144,7 +145,7 @@ It can be found here (it's hidden behind a few menus):
 3. _More Tools  更多工具_
 4. _Layers  层级_
 
-![A screenshot of the Menus view in Chromium for the Layers tool.](https://webperf.tips/static/4c2be57379d45886938cb2038b67e02a/906b5/LayersAndCompositing05.png "A screenshot of the Menus view in Chromium for the Layers tool.")
+![[_posts/browser/渲染/media/8910428320635abaff3b71553b8039b3_MD5.png|"A screenshot of the Menus view in Chromium for the Layers tool."]]
 
 ### [](https://webperf.tips/tip/layers-and-compositing/#microsoft-edge-3d-view)Microsoft Edge 3D View  微软 Edge 3D 视图
 
