@@ -4,22 +4,20 @@
 
 ---
 
-## **1. 渲染流水线的主要阶段**
+## 1. 渲染流水线的主要阶段
 参考：[【前端性能】浏览器渲染管道](https://www.bilibili.com/video/BV1zQ2zYeEjh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、 [An Introduction to the Browser Rendering Pipeline](https://webperf.tips/tip/browser-rendering-pipeline/)
 
 浏览器的渲染流水线可以分为以下几个主要阶段：
 
-### (1) **解析 HTML 并构建 DOM 树**
-- **任务**：浏览器从网络中接收 HTML 文档，并逐步解析它。
+### (1) 解析 HTML 并构建 DOM 树
+- **任务**：浏览器从网络中接收 HTML 文档，并*逐步*解析它。
 - **结果**：生成一个 **DOM 树**，表示文档的结构化内容。
 - **关键点**：
 	- **遇到 `<script>` 标签:**
-	    - **同步脚本:** 浏览器会暂停 HTML 解析，立即下载并执行 JavaScript 代码（除非脚本标记为 `async` 或 `defer`）。JavaScript 代码可能会修改 DOM 树和 CSSOM 树。
-	    - **异步脚本 (`async`):** 浏览器会异步下载脚本，下载完成后立即执行。执行期间会阻塞 HTML 解析。
-	    - **延迟脚本 (`defer`):** 浏览器会异步下载脚本，在 HTML 解析完成后、`DOMContentLoaded` 事件触发前执行。
-	- **遇到 `<link rel="stylesheet">` 标签:** 浏览器会开始下载 CSS 文件。
-  - 如果遇到 `<script>` 标签且没有 `async` 或 `defer` 属性，HTML 解析会被暂停，直到脚本加载和执行完成。
-  - 如果遇到外部样式表（如 `<link rel="stylesheet">`），*HTML 解析不会暂停，但会阻塞渲染树的构建*。
+	    - **同步脚本:** 浏览器会暂停 HTML 解析，立即下载并执行 JavaScript 代码（除非脚本标记为 `async` 或 `defer`），*因为*JavaScript 代码可能会修改 DOM 树和 CSSOM 树。
+	    - **异步脚本 (`async`):** 浏览器会异步下载脚本，下载完成后*立即执行*。*执行期间会阻塞 HTML 解析*。
+	    - **延迟脚本 (`defer`):** 浏览器会异步下载脚本，*在 HTML 解析完成后、`DOMContentLoaded` 事件触发前执行*。
+	- **遇到 `<link rel="stylesheet">` 标签:** *HTML 解析不会暂停，但会阻塞渲染树的构建*。浏览器会开始下载 CSS 文件。
 
 #### 示例：
 ```html
@@ -36,12 +34,12 @@
 
 ---
 
-### (2) **解析 CSS 并构建 CSSOM 树**
-- **任务**：浏览器解析 CSS 文件或内联样式，生成 **CSSOM 树**（CSS Object Model）。
+### (2) 解析 CSS 并构建 CSSOM 树
+- **任务**：浏览器解析 CSS 文件或内联样式，将 CSS 规则转换为 **CSSOM 树**（CSS Object Model）。
 - **结果**：CSSOM 树描述了每个元素的样式规则。
 - **关键点**：
-  - CSS 是阻塞渲染的资源，必须在渲染树构建之前完成解析。
-  - 外部样式表会阻塞渲染，因此建议尽量减少关键路径上的 CSS 文件大小。
+  - CSS 是阻塞渲染的资源，*必须在渲染树构建之前完成解析*。
+  - 外部样式表*会阻塞渲染*，因此建议尽量*减少关键路径上的 CSS 文件大小*。
 
 #### 示例：
 ```css
@@ -53,12 +51,12 @@ div {
 
 ---
 
-### (3) **合并 DOM 和 CSSOM，生成渲染树**
+### (3) 合并 DOM 和 CSSOM，生成渲染树
 - **任务**：将 DOM 树和 CSSOM 树合并，生成 **渲染树（Render Tree）**。
-- **结果**：渲染树包含*所有可见*的节点及其样式信息。
+- **结果**：渲染树包含*所有可见的节点及其样式信息*。
 - **关键点**：
-  - 不可见的元素（如 `display: none`）不会出现在渲染树中。
-  - 可见性隐藏的元素（如 `visibility: hidden`）会出现在渲染树中，但不会占用布局空间。
+  - *不可见的元素*（如 `display: none`）不会出现在渲染树中。
+  - *可见性隐藏的元素*（如 `visibility: hidden`）会出现在渲染树中，但不会占用布局空间（？）。
 
 #### 示例：
 ```html

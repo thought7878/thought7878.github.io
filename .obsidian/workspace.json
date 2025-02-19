@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/Event Loop Fundamentals.md"
+                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md"
               }
             }
           }
@@ -367,6 +367,13 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/browser/渲染/渲染相关的事件.md",
+    "_posts/任务记录/2025/February/18.md",
+    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+    "_posts/外面的世界/男女.md",
     "_posts/base/js/知识点总结/media/132dd112dd35a89d9b165496b7f8be44_MD5.png",
     "_posts/base/js/知识点总结/media/07e48c90eb3e5b158332776c5a3987e3_MD5.png",
     "_posts/base/js/知识点总结/media/d9d8c2eebf3d27dd4cd9aa797cd042b8_MD5.png",
@@ -377,12 +384,8 @@
     "_posts/base/js/知识点总结/media/6382b2d70156fef45c1fe91dad8d8eec_MD5.png",
     "_posts/base/js/知识点总结/media/62c9cddbec3546bc53e713c907103cae_MD5.png",
     "_posts/base/js/知识点总结/media/a0dbdcfdb66e7cf41bcb3b5ccd372c8d_MD5.png",
-    "_posts/base/js/知识点总结/media/7273ae73b880a4906150e046976fcd22_MD5.png",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
     "_posts/AI/学习.md",
     "_posts/要整理的.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/浏览器如何工作.md",
     "_posts/browser/渲染/_浏览器的渲染流程.md",
@@ -393,7 +396,6 @@
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/渲染/重绘（Repaint）-QW.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
-    "_posts/任务记录/2025/February/18.md",
     "_posts/base/css/总结/动画/动画.md",
     "_posts/base/css/总结/动画",
     "_posts/健康/舞蹈/自学舞蹈计划-QW.md",
@@ -405,8 +407,6 @@
     "_posts/browser/浏览器的主线程-QW.md",
     "_posts/browser/Web Worker-QW.md",
     "_posts/browser/网络",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/base/知识目录、路线图/知识目录/React-DS.md",
     "_posts/react/教程",
     "_posts/react/总结/原理和源码",
     "_posts/react/总结/性能优化",

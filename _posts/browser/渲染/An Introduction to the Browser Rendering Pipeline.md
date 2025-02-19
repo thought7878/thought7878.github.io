@@ -89,7 +89,7 @@ The browser will parse these stylesheets into a memory-efficient, lookup-efficie
 ![[_posts/browser/渲染/media/ed44d8a246cfc6279ac8ccd68697beaf_MD5.png|"A diagram showing CSS transforming from Text to CSSOM Aggregation"]]
 
 Downloaded text stylesheets get parsed and aggregated into the CSSOM on the Main Thread within a [Task](https://webperf.tips/tip/event-loop). This will manifest as a _Parse Stylesheet_ Task in [a trace](https://webperf.tips/tip/collect-a-trace):  
-下载的文本样式表被解析并聚合到任务内**主线程上**的CSSOM中。这将在跟踪中表现为解析样式表任务：
+*下载的文本样式表被解析并聚合到**主线程上**的CSSOM中*。这将在跟踪中表现为解析样式表任务：
 
 ![[_posts/browser/渲染/media/c28cf6c3498f914fa9ee327dffa9255b_MD5.png|"A screenshot of the Chromium F12 Profiler showing a Parse Stylesheet task"]]
 
@@ -107,7 +107,8 @@ Let's take a moment to examine the overall process flowchart:
 Once the DOM and CSSOM are constructed, the browser can begin the next phase of the pipeline: _Style_. This phase is sometimes called _Recalculate Style_ or a _Render Tree Update_.  
 一旦DOM和CSSOM构造完成，浏览器就可以开始管道的下一个阶段：*样式*。此阶段有时称为“*重新计算样式*”或“*渲染树更新*”。
 
-### [](https://webperf.tips/tip/browser-rendering-pipeline/#the-render-tree)The Render Tree  渲染树
+### [](https://webperf.tips/tip/browser-rendering-pipeline/#the-render-tree)The Render Tree  
+渲染树
 
 The **Render Tree** (sometimes called the **Layout Tree**) is a browser-internal C++ data structure that web developers don't directly modify.  
 **渲染树**（有时称为**布局树**）是一种*浏览器内部的C++数据结构*，Web开发人员不会直接修改。
@@ -136,7 +137,7 @@ class RenderObject {
 ![[_posts/browser/渲染/media/dac5a369af6587747b983bbbc1269bb8_MD5.png|"A diagram showing a RenderObject referencing a DOMNode and a ComputedStyle"]]
 
 The Render Tree is also responsible for other, non-DOM related visual elements, such as scroll bars and text selection.  
-渲染树还负责其他与DOM无关的可视元素，如滚动条和文本选择。
+*渲染树还负责其他与DOM无关的可视元素*，如*滚动条*和*文本选择*。
 
 > Consider reading through Chromium's [LayoutTree implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/layout/layout_object.h;l=184-279;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) for more in-depth details on this data structure.  
 考虑阅读Chromium的LayoutTree实现，以获得关于此数据结构的更深入的细节。
@@ -146,7 +147,7 @@ The Render Tree is also responsible for other, non-DOM related visual elements, 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#computedstyle)ComputedStyle 
 
 A ComputedStyle is effectively the list of CSS declarations that apply to that DOM node, considering the DOM node's selector, CSS specificity, and the aggregated rules in the CSSOM.  
-ComputedStyle实际上是应用于该DOM节点的CSS声明的列表，考虑到DOM节点的选择器、CSS特性和CSSOM中的聚合规则。
+**计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。
 
 For example, if I have an example HTML Element:  
 例如，如果我有一个示例HTML元素：
@@ -172,9 +173,9 @@ The ComputedStyle for my element would be constructed via:
 我的元素的ComputedStyle将通过以下方式构造：
 
 1. Querying the CSS selectors against the aggregated rules in the CSSOM for the `div` element to get the applicable rules  
-    根据CSSOM中`div`元素的聚合规则查询CSS选择器，以获取适用的规则
+    针对 CSS 对象模型（CSSOM）中的汇总规则，对 `div` 元素的 CSS 选择器进行查询，以获取适用的规则。
 2. Resolving any CSS specificity conflicts to the final set of declarations applied, in this case:  
-    解决与应用的最终声明集的任何CSS特定性冲突，在这种情况下：
+    解决所有 CSS 优先级冲突，以确定最终应用的声明集，在这种情况下：
     - `text-align: center`  
     - `background-color: red`  
     - any of the default styles defined by the browser  
@@ -183,7 +184,7 @@ The ComputedStyle for my element would be constructed via:
 >Consider reading through Chromium's [ComputedStyle implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/style/computed_style.h;l=153-207;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) and [StyleResolver](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/css/resolver/style_resolver.cc;drc=42112cd2b5164c7410121180d173556d9c03ffdb) for more in-depth details on this process.  
 > 考虑通过Chromium的计算机实现和Styleresolver阅读以了解此过程的更深入的详细信息。
 
-### [](https://webperf.tips/tip/browser-rendering-pipeline/#tree-construction)Tree Construction  树建造
+### [](https://webperf.tips/tip/browser-rendering-pipeline/#tree-construction)Tree Construction
 
 To build the Render Tree, the browser will:  
 为了构建渲染树，浏览器将：
@@ -193,7 +194,7 @@ To build the Render Tree, the browser will:
 2. Construct / update the Render Tree node pointing back to the DOM node  
     构造 /更新指向DOM节点的渲染树节点
 3. Derive ComputedStyles for that DOM node, and associate with the DOM node and Render Tree node  
-    得出该DOM节点的计算施法，并与DOM节点和渲染树节点相关联
+    为该 DOM 节点推导出计算样式，并将其与 DOM 节点和渲染树节点关联起来。
 
 In the end, we end up with a styled Render Tree of visual elements to present the user:  
 最后，我们最终得到了风格的视觉元素树，以呈现用户：
@@ -208,7 +209,8 @@ In the Chromium Profiler, this will appear as a _Recalculate Style_ task:
 
 ![[_posts/browser/渲染/media/0ef96f53c36129b21b8913785b52874c_MD5.png|"A screenshot of the Chromium Profiler referencing Recalculate Style"]]
 
-## [](https://webperf.tips/tip/browser-rendering-pipeline/#layout)Layout  布局
+## [](https://webperf.tips/tip/browser-rendering-pipeline/#layout)Layout  
+布局
 
 Although the Render Tree contains all the CSS declarations for widths, heights, colors, etc. for each visual element on the page, the browser has not assigned any geometry or coordinates to the elements.  
 尽管渲染树包含有关宽度，高度，颜色等的所有CSS声明。对于页面上的每个视觉元素，浏览器尚未将任何几何形状或坐标分配给元素。
@@ -251,7 +253,8 @@ In some cases, if you [force a synchronous reflow](https://webperf.tips/tip/lay
 
 ![[_posts/browser/渲染/media/d3f2de08c258881c090b841380ae3f85_MD5.png|"A screenshot of the Chromium Profiler highlighting a forced reflow."]]
 
-## [](https://webperf.tips/tip/browser-rendering-pipeline/#paint)Paint  画
+## [](https://webperf.tips/tip/browser-rendering-pipeline/#paint)Paint  
+画
 
 Let's take a look at our overall process flowchart (we're almost there!):  
 让我们看一下我们的整体流程流程图（我们几乎在那里！）：
@@ -281,7 +284,8 @@ Paint is unique in that the work spans multiple threads and processes to complet
 > **Note:** I am intentionally leaving off the advanced details of Layers and Compositing. Consider reading more about those in my [Layers and Compositing](https://webperf.tips/tip/layers-and-compositing) tip.  
 > 注意：我有意删除层和合成的高级细节。考虑阅读更多有关我的层中的内容和组合提示。
 
-## [](https://webperf.tips/tip/browser-rendering-pipeline/#when-does-rendering-run)When does Rendering Run?  渲染何时运行？
+## [](https://webperf.tips/tip/browser-rendering-pipeline/#when-does-rendering-run)When does Rendering Run?  
+渲染何时运行？
 
 We've described _how_ the browser renders, but _when_ does it run?  
 我们已经描述了浏览器的渲染_方式_，但是它_何时_运行？
