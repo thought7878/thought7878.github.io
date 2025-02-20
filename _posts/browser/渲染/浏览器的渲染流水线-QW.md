@@ -52,13 +52,17 @@ div {
 ---
 
 ### (3) 合并 DOM 和 CSSOM，生成渲染树
-- **任务**：将 DOM 树和 CSSOM 树合并，生成 **渲染树（Render Tree）**。
-- **结果**：渲染树包含*所有可见的节点及其样式信息*。
+- **任务**：构造渲染树节点，指向DOM节点，为节点计算样式。将 DOM 树和 CSSOM 树合并，生成渲染树（Render Tree）。
+- **结果**：**渲染树**包含*所有可见的节点及其样式信息*。
 - **关键点**：
   - *不可见的元素*（如 `display: none`）不会出现在渲染树中。
   - *可见性隐藏的元素*（如 `visibility: hidden`）会出现在渲染树中，但不会占用布局空间（？）。
 
-#### 示例：
+参考：[[An Introduction to the Browser Rendering Pipeline]]、[[CSS规则]]
+
+![[_posts/browser/渲染/media/dac5a369af6587747b983bbbc1269bb8_MD5.png|"A diagram showing a RenderObject referencing a DOMNode and a ComputedStyle"]]
+
+**示例：**
 ```html
 <div style="display: none;">Hidden</div>
 <div style="visibility: hidden;">Invisible</div>
@@ -67,7 +71,7 @@ div {
 
 ---
 
-### (4) **布局（Layout）**
+### (4) **布局（Layout / Reflow）**
 - **任务**：计算每个元素在屏幕上的*位置和大小*。
 - **结果**：生成 **布局树（Layout Tree）**。
 - **关键点**：
@@ -187,3 +191,8 @@ div {
 5. **优化技巧**：减少回流和重绘，利用 GPU 加速，优化关键渲染路径。
 
 通过深入理解渲染流水线，开发者可以更好地优化代码，提升页面性能和用户体验。
+
+
+## 相关资料
+- [浏览器渲染原理](https://www.bilibili.com/video/BV13Z421a7qw/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+- 参考：[[An Introduction to the Browser Rendering Pipeline]]

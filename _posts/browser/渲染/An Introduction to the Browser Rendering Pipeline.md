@@ -148,7 +148,7 @@ The Render Tree is also responsible for other, non-DOM related visual elements, 
 参考：[[ComputedStyle-DS]]
 
 A ComputedStyle is effectively the list of CSS declarations that apply to that DOM node, considering the DOM node's selector, CSS specificity, and the aggregated rules in the CSSOM.  
-**计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。
+**计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。参考：[[CSS规则]]
 
 For example, if I have an example HTML Element:  
 例如，如果我有一个示例HTML元素：
@@ -174,7 +174,7 @@ The ComputedStyle for my element would be constructed via:
 我的元素的ComputedStyle将通过以下方式构造：
 
 1. Querying the CSS selectors against the aggregated rules in the CSSOM for the `div` element to get the applicable rules  
-    针对 CSS 对象模型（CSSOM）中的汇总规则，对 `div` 元素的 CSS 选择器进行查询，以获取适用的规则。
+    针对 CSS 对象模型（CSSOM）中的汇总规则，对 `div` 元素的 CSS 选择器进行查询，以获取适用的规则。（*从CSSOM中获取适用的规则*）
 2. Resolving any CSS specificity conflicts to the final set of declarations applied, in this case:  
     解决所有 CSS 优先级冲突，以确定最终应用的声明集，在这种情况下：
     - `text-align: center`  
@@ -188,14 +188,14 @@ The ComputedStyle for my element would be constructed via:
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#tree-construction)Tree Construction
 
 To build the Render Tree, the browser will:  
-为了构建渲染树，浏览器将：
+**为了构建渲染树，浏览器将：**
 
 1. Recursively traverse the DOM, searching for visual elements  
     递归遍历DOM，搜索视觉元素
 2. Construct / update the Render Tree node pointing back to the DOM node  
     构造 /更新指向DOM节点的渲染树节点
 3. Derive ComputedStyles for that DOM node, and associate with the DOM node and Render Tree node  
-    为该 DOM 节点推导出计算样式，并将其与 DOM 节点和渲染树节点关联起来。
+    为该 DOM 节点推导出计算样式，并将 DOM 节点和渲染树节点关联起来。
 
 In the end, we end up with a styled Render Tree of visual elements to present the user:  
 最后，我们最终得到了风格的视觉元素树，以呈现用户：
@@ -206,7 +206,7 @@ In the end, we end up with a styled Render Tree of visual elements to present th
 > 如果此图太小而无法阅读（我尝试包含所有内容😅），请尝试右键单击并在新标签中打开。
 
 In the Chromium Profiler, this will appear as a _Recalculate Style_ task:  
-在Chromium Profiler中，这将是_重新计算的样式_任务：
+在Chromium Profiler中，这将是*重新计算样式*任务：
 
 ![[_posts/browser/渲染/media/0ef96f53c36129b21b8913785b52874c_MD5.png|"A screenshot of the Chromium Profiler referencing Recalculate Style"]]
 
@@ -217,7 +217,7 @@ Although the Render Tree contains all the CSS declarations for widths, heights, 
 尽管渲染树包含有关宽度，高度，颜色等的所有CSS声明。对于页面上的每个视觉元素，浏览器尚未将任何几何形状或坐标分配给元素。
 
 The **Layout** process (sometimes called **Reflow**) recursively traverses the newly constructed / updated Render Tree, and assigns each node precise floating-point positions and geometry.  
-布局过程（有时称为反流）会递归地穿越新构造 /更新的渲染树，并分配每个节点精确的浮点位置和几何形状。
+**布局**过程（有时称为反流）会递归地穿越新构造 /更新的渲染树，并分配每个节点精确的浮点位置和几何形状。
 
 Layout is a very deep and complex topic. For the purposes of this tip, what's important to know is that Layout will create and position boxes for each node in the Render Tree.  
 布局是一个非常深刻而复杂的话题。出于本提示的目的，重要的是要知道的是，布局将为渲染树中的每个节点创建和定位框。
@@ -230,7 +230,7 @@ For example, in our example Render Tree:
 2. To get the height, the browser traverses to the `body` element's children (the three `div` elements, also `block` boxes)  
     为了达到高度，浏览器遍历`body`元素的孩子（三个`div`元素，也`block`盒子）
 3. The height of each of these `div` `block`s is derived from their child, the `TextNode`  
-    这些`div` `block` s的高度源自他们的孩子， `TextNode`
+    这些`div` `block` 的高度源自他们的孩子， `TextNode`
 4. The heights are aggregated recursively up, and precise coordinates and heights are assigned  
     高度递归地汇总，并分配精确的坐标和高度
 
@@ -239,10 +239,12 @@ For example, in our example Render Tree:
 ![[_posts/browser/渲染/media/538c9066d13e1fe7ca5ccbd9c4d44d33_MD5.png|"A screenshot of the div element's height."]]
 
 This very cool video shows the browser assigning geometry recursively through the Layout process:  
-这个非常酷的视频显示了浏览器通过布局过程递归分配的几何形状：
+这个非常酷的视频展示了浏览器通过布局过程递归地分配几何形状：
+
+https://youtu.be/ZTnIxIA5KGw?si=kdhMFyl-0JQJ9NwY
 
 One thing to note here is that the Layout process can be quite expensive, so the browser uses extensive caching to avoid re-computing Layout unnecessarily.  
-这里要注意的一件事是，布局过程可能非常昂贵，因此浏览器使用大量的缓存来避免不必要地重新计算布局。
+这里要注意的一件事是，*布局过程可能非常昂贵*，因此浏览器使用大量的缓存来避免不必要地重新计算布局。
 
 Layout will typically appear in the Profiler during the Rendering phase, like this:  
 在渲染阶段，布局通常会出现在探测器中，因此：

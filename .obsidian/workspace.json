@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 69.34097421203438,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -164,7 +165,7 @@
             }
           },
           {
-            "id": "6792e734a49c3488",
+            "id": "654da2e8eb273934",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,12 +177,14 @@
             }
           },
           {
-            "id": "534d78a7fd85aba2",
+            "id": "1648c4f61f064361",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md"
+                "file": "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -198,7 +201,24 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
+      },
+      {
+        "id": "84e3a03443e25781",
+        "type": "tabs",
+        "dimension": 30.659025787965614,
+        "children": [
+          {
+            "id": "b26a48ebc8b81188",
+            "type": "leaf",
+            "state": {
+              "type": "mx-webpage",
+              "state": {
+                "source": "https://www.bilibili.com/video/BV1Gb4y1L7CV/"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md"
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md"
               }
             }
           }
@@ -325,7 +345,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -358,7 +379,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/任务记录/2025/February/1-单词.md",
+                    "file": "_posts/任务记录/2025/February/单词.md",
                     "mode": "source",
                     "source": false
                   }
@@ -377,54 +398,54 @@
       }
     ]
   },
-  "active": "6792e734a49c3488",
+  "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/browser/渲染/解析 CSS 并构建 CSSOM 树的详细过程.md",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/外面的世界/男女.md",
     "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
+    "_posts/methods/常看的.md",
+    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+    "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
+    "_posts/browser/渲染/media/Pasted image 20250220191451.png",
+    "_posts/browser/渲染/预解析.md",
+    "_posts/browser/渲染/ComputedStyle-DS.md",
+    "_posts/base/css/总结/CSS规则.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+    "_posts/任务记录/2025/February/20.md",
+    "_posts/English/音标.md",
+    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
+    "_posts/English/高效地练习听力的方法.md",
+    "_posts/任务记录/2025/February/听力.md",
+    "_posts/任务记录/2025/February/单词.md",
+    "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
+    "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
+    "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
+    "_posts/English/media",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/英语.md",
+    "_posts/browser/渲染/ComputedStyle-QW.md",
+    "_posts/browser/渲染/解析 CSS 并构建 CSSOM 树的详细过程.md",
     "_posts/browser/渲染/Performance Profiler.md",
     "_posts/要整理的.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/渲染/media/728ce4ede7f79dbc0c91250ec700e271_MD5.png",
     "_posts/browser/渲染/media/8d05dfed4cc5313b3db52bd71fb416de_MD5.png",
     "_posts/browser/渲染/media/7d38bef48987bee7997fb015bec2c1e1_MD5.png",
     "_posts/browser/渲染/media/300921c28328dea885cd45a0b3979e5e_MD5.png",
     "_posts/browser/渲染/media/6caadd16fb311aad928496340472b383_MD5.png",
-    "_posts/browser/渲染/media/507188a6f5ac8cef1e04a6e5d213ce3d_MD5.png",
-    "_posts/browser/渲染/media/c5e1c3ad10f6ec26465e00432e29e827_MD5.png",
-    "_posts/browser/渲染/media/37bc3ba892d8d70520bb9c8fa3d68b97_MD5.png",
-    "_posts/browser/渲染/media/c0246aecc071ed8d5600d768c7abfbd5_MD5.png",
-    "_posts/browser/渲染/media/60afa39fa8ecf3645ab701a287f9e9b0_MD5.png",
     "_posts/browser/渲染/未命名",
-    "_posts/任务记录/2025/February/20.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/任务记录/2025/学习复习模版.md",
     "_posts/任务记录/2025/February/18.md",
     "_posts/browser/渲染/优化/减少关键路径上的 CSS 文件大小.md",
     "_posts/browser/渲染/优化/优化CSS.md",
     "_posts/browser/渲染/优化",
-    "_posts/browser/渲染/ComputedStyle-DS.md",
-    "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
-    "_posts/browser/渲染/media.md",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
-    "_posts/browser/渲染/渲染相关的事件.md",
-    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
-    "_posts/外面的世界/男女.md",
-    "_posts/AI/学习.md",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
-    "_posts/browser/浏览器如何工作.md",
-    "_posts/browser/渲染/_浏览器的渲染流程.md",
-    "_posts/ablog/2021-03-22-浏览器的渲染流程和事件循环.md",
-    "_posts/browser/渲染/分层绘制的具体细节.md",
-    "_posts/browser/渲染/浏览器的渲染流程.excalidraw.md",
     "_posts/browser/渲染/media",
-    "_posts/browser/渲染/重绘（Repaint）-QW.md",
     "_posts/base/css/总结/动画",
     "_posts/健康/舞蹈",
     "_posts/browser/网络",
     "_posts/react/教程",
     "_posts/react/总结/原理和源码",
-    "_posts/react/总结/性能优化",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
