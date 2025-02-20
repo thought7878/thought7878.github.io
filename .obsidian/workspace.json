@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 69.34097421203438,
         "children": [
           {
             "id": "a04f886b7749f91e",
@@ -158,21 +157,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "654da2e8eb273934",
+            "id": "b26a48ebc8b81188",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mx-webpage",
               "state": {
-                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-                "mode": "source",
-                "source": false
+                "source": "https://www.bilibili.com/video/BV1Gb4y1L7CV/"
               }
             }
           },
@@ -204,17 +201,18 @@
         "currentTab": 12
       },
       {
-        "id": "84e3a03443e25781",
+        "id": "651cf2b2c26ee40a",
         "type": "tabs",
-        "dimension": 30.659025787965614,
         "children": [
           {
-            "id": "b26a48ebc8b81188",
+            "id": "654da2e8eb273934",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1Gb4y1L7CV/"
+                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -280,7 +278,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -296,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md"
+                "file": "_posts/browser/渲染/ComputedStyle-DS.md"
               }
             }
           }
@@ -345,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -398,18 +396,19 @@
       }
     ]
   },
-  "active": "cfaf26c2b4f93008",
+  "active": "654da2e8eb273934",
   "lastOpenFiles": [
-    "_posts/外面的世界/男女.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/渲染/ComputedStyle-DS.md",
     "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+    "_posts/外面的世界/男女.md",
     "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
     "_posts/methods/常看的.md",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
     "_posts/browser/渲染/预解析.md",
-    "_posts/browser/渲染/ComputedStyle-DS.md",
     "_posts/base/css/总结/CSS规则.md",
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/任务记录/2025/February/20.md",
@@ -437,7 +436,6 @@
     "_posts/任务记录/2025/学习复习模版.md",
     "_posts/任务记录/2025/February/18.md",
     "_posts/browser/渲染/优化/减少关键路径上的 CSS 文件大小.md",
-    "_posts/browser/渲染/优化/优化CSS.md",
     "_posts/browser/渲染/优化",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/media",

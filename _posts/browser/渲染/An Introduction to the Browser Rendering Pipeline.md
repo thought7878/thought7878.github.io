@@ -105,7 +105,7 @@ Let's take a moment to examine the overall process flowchart:
 ![[_posts/browser/渲染/media/c29f39b76ce8325b1e4b25e01411dc60_MD5.png|"A diagram showing the overall browser rendering phases, with Style phase circled."]]
 
 Once the DOM and CSSOM are constructed, the browser can begin the next phase of the pipeline: _Style_. This phase is sometimes called _Recalculate Style_ or a _Render Tree Update_.  
-一旦DOM和CSSOM构造完成，浏览器就可以开始管道的下一个阶段：*样式*。此阶段有时称为“*重新计算样式*”或“*渲染树更新*”。
+一旦DOM和CSSOM构造完成，浏览器就可以开始管道的下一个阶段：*Style*。此阶段有时称为*重新计算样式*或*渲染树更新*。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#the-render-tree)The Render Tree  
 渲染树
@@ -114,7 +114,7 @@ The **Render Tree** (sometimes called the **Layout Tree**) is a browser-inter
 **渲染树**（有时称为**布局树**）是一种*浏览器内部的C++数据结构*，Web开发人员不会直接修改。
 
 It is a separate tree from the DOM but often mirrors its structure. Each node typically references a _DOM node_ and a _Computed Style_. It's essentially composed of every DOM node that should be presented visually on the user's screen.  
-*它是一个独立于DOM的树*，但通常反映其结构。**每个节点通常引用一个DOM节点和一个被计算的样式**。它基本上由每个DOM节点组成，这些节点应该在用户的屏幕上以可视方式呈现。
+*它是一个独立于DOM的树*，但通常反映其结构。**每个节点通常引用一个DOM节点和一个被计算的样式**。它是由屏幕上可见的DOM节点组成。
 
 Consider this simplified Render Tree node, called a `RenderObject`:  
 考虑此简化的渲染树节点（称为`渲染对象`）：
@@ -142,7 +142,7 @@ The Render Tree is also responsible for other, non-DOM related visual elements, 
 > Consider reading through Chromium's [LayoutTree implementation](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/layout/layout_object.h;l=184-279;drc=f7f2dcfbd24f7ee74a0b306043bc757da65f64a6) for more in-depth details on this data structure.  
 考虑阅读Chromium的LayoutTree实现，以获得关于此数据结构的更深入的细节。
 >**Note:** Notable exclusions from the Render Tree include `<head>` and its children, anything that is marked as `display: none`, and `<script>` elements because they are not presented to the user's screen.  
-注意：渲染树中不包括 `<head>` 及其子项、 `display: none`元素、`<script>`元素，因为它们没有呈现在用户的屏幕上。
+注意：渲染树中不包括 `<head>` 及其子项、 `display: none`元素、`<script>`元素，*因为它们没有渲染在用户的屏幕上*。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#computedstyle)ComputedStyle 
 参考：[[ComputedStyle-DS]]
