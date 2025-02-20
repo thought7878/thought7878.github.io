@@ -195,18 +195,15 @@ To build the Render Tree, the browser will:
 2. Construct / update the Render Tree node pointing back to the DOM node  
     构造 /更新指向DOM节点的渲染树节点
 3. Derive ComputedStyles for that DOM node, and associate with the DOM node and Render Tree node  
-    为该 DOM 节点推导出计算样式，并将 DOM 节点和渲染树节点关联起来。
+    为该 DOM 节点计算样式，并将 DOM 节点和渲染树节点关联起来。
 
 In the end, we end up with a styled Render Tree of visual elements to present the user:  
 最后，我们最终得到了风格的视觉元素树，以呈现用户：
 
 ![[_posts/browser/渲染/media/36eabd04746aa3e1381296ddc2df8284_MD5.png|"A diagram showing the Render Tree referencing back its DOM Nodes"]]
 
-> If this diagram is too small to read (I tried to include everything 😅), try to right-click and open in new tab.  
-> 如果此图太小而无法阅读（我尝试包含所有内容😅），请尝试右键单击并在新标签中打开。
-
 In the Chromium Profiler, this will appear as a _Recalculate Style_ task:  
-在Chromium Profiler中，这将是*重新计算样式*任务：
+在Chromium Profiler中，是*重新计算样式*任务：
 
 ![[_posts/browser/渲染/media/0ef96f53c36129b21b8913785b52874c_MD5.png|"A screenshot of the Chromium Profiler referencing Recalculate Style"]]
 
