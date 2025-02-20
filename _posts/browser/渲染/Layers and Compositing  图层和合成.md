@@ -1,5 +1,5 @@
 Web developers typically aren't exposed to low-level browser rendering primitives, yet the concepts of Layers and Compositing are foundational to how the browser renders web applications as pixels on screen! In this tip, I'll explain what Layers are, why they exist, and how they are Composited together to produce on-screen Frames to the user's display.  
-网页开发者通常不会接触到低级浏览器渲染原语，然而层和合成概念是浏览器如何将网页应用作为屏幕上的像素渲染的基础！在本提示中，我将解释层是什么，为什么存在，以及它们是如何组合在一起以向用户显示屏幕上的帧的。
+网页开发者通常不会接触到低级浏览器渲染原语，然而*图层和合成概念是浏览器如何将网页应用作为屏幕上的像素渲染的基础*！在本提示中，我将解释层是什么，为什么存在，以及它们是如何组合在一起以向用户显示屏幕上的帧的。
 
 ## [](https://webperf.tips/tip/layers-and-compositing/#prerequisites)Prerequisites  先决条件
 

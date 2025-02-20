@@ -145,6 +145,7 @@ The Render Tree is also responsible for other, non-DOM related visual elements, 
 注意：渲染树中不包括 `<head>` 及其子项、 `display: none`元素、`<script>`元素，因为它们没有呈现在用户的屏幕上。
 
 ### [](https://webperf.tips/tip/browser-rendering-pipeline/#computedstyle)ComputedStyle 
+参考：[[ComputedStyle-DS]]
 
 A ComputedStyle is effectively the list of CSS declarations that apply to that DOM node, considering the DOM node's selector, CSS specificity, and the aggregated rules in the CSSOM.  
 **计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。

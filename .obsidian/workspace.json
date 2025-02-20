@@ -157,7 +157,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+                "file": "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6792e734a49c3488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,14 +191,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/18.md",
+                "file": "_posts/任务记录/2025/February/20.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -264,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing  图层和合成.md"
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md"
               }
             }
           }
@@ -365,19 +377,28 @@
       }
     ]
   },
-  "active": "cfaf26c2b4f93008",
+  "active": "6792e734a49c3488",
   "lastOpenFiles": [
-    "_posts/browser/渲染/media.md",
+    "_posts/browser/渲染/Performance Profiler.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/browser/渲染/未命名",
+    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
+    "_posts/任务记录/2025/February/20.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/任务记录/2025/February/18.md",
+    "_posts/browser/渲染/优化/减少关键路径上的 CSS 文件大小.md",
+    "_posts/browser/渲染/优化/优化CSS.md",
+    "_posts/browser/渲染/优化",
+    "_posts/browser/渲染/ComputedStyle-DS.md",
     "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+    "_posts/browser/渲染/media.md",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/media/8910428320635abaff3b71553b8039b3_MD5.png",
     "_posts/browser/渲染/media/28d7e8385c8ef51cfae1bb5c43f7f120_MD5.png",
     "_posts/browser/渲染/media/35789c95a0dfc29f88019569a0b131c2_MD5.gif",
     "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-QW.md",
     "_posts/browser/渲染/渲染相关的事件.md",
-    "_posts/任务记录/2025/February/18.md",
     "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
     "_posts/外面的世界/男女.md",
     "_posts/base/js/知识点总结/media/132dd112dd35a89d9b165496b7f8be44_MD5.png",
@@ -398,21 +419,12 @@
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/渲染/重绘（Repaint）-QW.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
-    "_posts/base/css/总结/动画/动画.md",
     "_posts/base/css/总结/动画",
-    "_posts/健康/舞蹈/自学舞蹈计划-QW.md",
-    "_posts/健康/舞蹈/自学舞蹈计划-Gemini.md",
     "_posts/健康/舞蹈",
-    "_posts/base/css/总结/transform.md",
-    "_posts/browser/网络/Fetch-QW.md",
-    "_posts/browser/网络/WebSocket.md",
-    "_posts/browser/浏览器的主线程-QW.md",
     "_posts/browser/网络",
     "_posts/react/教程",
     "_posts/react/总结/原理和源码",
     "_posts/react/总结/性能优化",
-    "_posts/react/总结/Hooks/useEffect",
-    "_posts/react/总结/Hooks/useState",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
