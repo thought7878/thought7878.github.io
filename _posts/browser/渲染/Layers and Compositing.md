@@ -1,15 +1,18 @@
 Web developers typically aren't exposed to low-level browser rendering primitives, yet the concepts of Layers and Compositing are foundational to how the browser renders web applications as pixels on screen! In this tip, I'll explain what Layers are, why they exist, and how they are Composited together to produce on-screen Frames to the user's display.
-
+Web 开发者通常不会接触到低级别的浏览器渲染原语，但图层（Layers）和合成（Compositing）的概念是浏览器如何将 Web 应用程序渲染为屏幕上像素的基础！在本技巧中，我将解释什么是图层、它们为何存在，以及它们是如何通过合成（Compositing）组合在一起以生成显示在用户屏幕上的帧（Frames）。
 ## [](https://webperf.tips/tip/layers-and-compositing/#prerequisites)Prerequisites
-
+先决条件
 - You should understand [the basics on the Browser Rendering Pipeling](https://webperf.tips/tip/browser-rendering-pipeline)
+  您应该了解浏览器渲染管道的基础知识 。
 - You should understand [the basics on the Browser Process Model](https://webperf.tips/tip/browser-process-model)
+  您应该了解浏览器进程模型的基础知识 。
 
 ## [](https://webperf.tips/tip/layers-and-compositing/#layers)Layers
 
 Layers are groups of visual elements that share the same coordinate plane. They are rendered onto a 2-dimensional mesh and retained in GPU memory. Below is an example of Layers (and we'll dive into detail later):
+图层是一组共享相同坐标平面的视觉元素。它们被渲染到一个二维网格中，并保留在 GPU 内存中。以下是图层的一个示例（我们将在后面深入探讨细节）：
 
-![A recording of a simple scroll operation in the Layers View](https://webperf.tips/b9c86049a506d1a66518875aa2277fe3/LayersAndCompositing01.gif)
+![[_posts/browser/渲染/media/35789c95a0dfc29f88019569a0b131c2_MD5.gif]]
 
 All modern web browsers support Layers, yet the exact implementation details may differ and evolve as browsers are continually changing.
 
@@ -39,7 +42,7 @@ In Chromium, [here is the list of conditions](https://source.chromium.org/chrom
 
 Consider the following diagram:
 
-![A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below.](https://webperf.tips/static/cb69132d864fd5feba9b9f639c942881/906b5/LayersAndCompositing03.png "A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below.")
+![[_posts/browser/渲染/media/28d7e8385c8ef51cfae1bb5c43f7f120_MD5.png|"A diagram showing the Compositor Thread, Raster Threads, and Main Thread coordinating the steps described below."]]
 
 Each browser operates differently, but at a high level, it works like this:
 
@@ -53,7 +56,7 @@ Each browser operates differently, but at a high level, it works like this:
 
 Below, I visualize some of the key data structures in this proces and their various transformations:
 
-![A visualization showing the various data structures ordered as described above.](https://webperf.tips/static/2f9f8c70b3d2602ae88bda913d336fbb/906b5/LayersAndCompositing04.png "A visualization showing the various data structures ordered as described above.")
+![[_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png|"A visualization showing the various data structures ordered as described above."]]
 
 > **Note**: There is a lot of nuance and depth in this complex process! I highly recommend the most recent (and evolving!) Chromium rendering architecture overview, which can be [found here](https://developer.chrome.com/docs/chromium/renderingng-architecture).
 
@@ -100,7 +103,7 @@ It can be found here (it's hidden behind a few menus):
 3. _More Tools_
 4. _Layers_
 
-![A screenshot of the Menus view in Chromium for the Layers tool.](https://webperf.tips/static/4c2be57379d45886938cb2038b67e02a/906b5/LayersAndCompositing05.png "A screenshot of the Menus view in Chromium for the Layers tool.")
+![[_posts/browser/渲染/media/8910428320635abaff3b71553b8039b3_MD5.png|"A screenshot of the Menus view in Chromium for the Layers tool."]]
 
 ### [](https://webperf.tips/tip/layers-and-compositing/#microsoft-edge-3d-view)Microsoft Edge 3D View
 
