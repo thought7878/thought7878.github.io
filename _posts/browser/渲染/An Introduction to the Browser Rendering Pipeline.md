@@ -148,7 +148,9 @@ The Render Tree is also responsible for other, non-DOM related visual elements, 
 参考：[[ComputedStyle-DS]]
 
 A ComputedStyle is effectively the list of CSS declarations that apply to that DOM node, considering the DOM node's selector, CSS specificity, and the aggregated rules in the CSSOM.  
-**计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。参考：[[CSS规则]]
+**计算样式（ComputedStyle）** 实际上是应用于该DOM节点的CSS声明列表，它综合考虑了DOM节点的选择器、CSS特异性、CSS对象模型（CSSOM）中的汇总规则。
+
+参考：[[浏览器的渲染流水线]]
 
 For example, if I have an example HTML Element:  
 例如，如果我有一个示例HTML元素：
@@ -174,7 +176,7 @@ The ComputedStyle for my element would be constructed via:
 我的元素的ComputedStyle将通过以下方式构造：
 
 1. Querying the CSS selectors against the aggregated rules in the CSSOM for the `div` element to get the applicable rules  
-    针对 CSS 对象模型（CSSOM）中的汇总规则，对 `div` 元素的 CSS 选择器进行查询，以获取适用的规则。（*从CSSOM中获取适用的规则*）
+    针对 CSS 对象模型（CSSOM）中的汇总规则，对 `div` 元素的 CSS 选择器进行查询，以获取适用的规则。（*根据元素、类选择器，从CSSOM中获取适用的规则*）
 2. Resolving any CSS specificity conflicts to the final set of declarations applied, in this case:  
     解决所有 CSS 优先级冲突，以确定最终应用的声明集，在这种情况下：
     - `text-align: center`  
@@ -211,45 +213,46 @@ In the Chromium Profiler, this will appear as a _Recalculate Style_ task:
 布局
 
 Although the Render Tree contains all the CSS declarations for widths, heights, colors, etc. for each visual element on the page, the browser has not assigned any geometry or coordinates to the elements.  
-尽管渲染树包含有关宽度，高度，颜色等的所有CSS声明。对于页面上的每个视觉元素，浏览器尚未将任何几何形状或坐标分配给元素。
+尽管渲染树（Render Tree）包含了页面上每个可视元素的所有 CSS 声明（如宽度、高度、颜色等），但*浏览器尚未为这些元素分配任何几何形状或坐标*。
 
 The **Layout** process (sometimes called **Reflow**) recursively traverses the newly constructed / updated Render Tree, and assigns each node precise floating-point positions and geometry.  
-**布局**过程（有时称为反流）会递归地穿越新构造 /更新的渲染树，并分配每个节点精确的浮点位置和几何形状。
+**布局（Layout）** 过程（有时称为 **回流（Reflow）**）会递归地遍历新构建或更新的渲染树，并为每个节点分配精确的浮点位置和几何形状。
 
 Layout is a very deep and complex topic. For the purposes of this tip, what's important to know is that Layout will create and position boxes for each node in the Render Tree.  
-布局是一个非常深刻而复杂的话题。出于本提示的目的，重要的是要知道的是，布局将为渲染树中的每个节点创建和定位框。
+布局是一个非常深入且复杂的话题。就本文而言，需要了解的重要一点是，*布局会为渲染树中的每个节点创建并定位盒子Box*。
 
 For example, in our example Render Tree:  
-例如，在我们的示例中渲染树：
+例如，在我们的示例渲染树中：
 
 1. The browser creates and assigns a box for the `body` element. Its width is the full width of the screen, because it's a `block`  
-    浏览器为`body`元素创建并分配一个框。它的宽度是屏幕的完整宽度，因为它是一个`block`
+    浏览器为 `body` 元素创建并分配一个盒子。其宽度是屏幕的全宽，因为它是`block`
 2. To get the height, the browser traverses to the `body` element's children (the three `div` elements, also `block` boxes)  
-    为了达到高度，浏览器遍历`body`元素的孩子（三个`div`元素，也`block`盒子）
+    为了获取高度，浏览器会遍历 `body` 元素的子元素（即三个 `div` 元素，它们也是块级盒子）。
 3. The height of each of these `div` `block`s is derived from their child, the `TextNode`  
-    这些`div` `block` 的高度源自他们的孩子， `TextNode`
+    每个 div 块的高度是由其子元素（即文本节点 TextNode）决定的。
 4. The heights are aggregated recursively up, and precise coordinates and heights are assigned  
-    高度递归地汇总，并分配精确的坐标和高度
+    这些高度会递归地向上汇总，并为每个元素分配精确的坐标和高度。
 
 ![[_posts/browser/渲染/media/127a4da02f420348a485ca20d9444355_MD5.png|"A screenshot of the body element's height."]]
 
 ![[_posts/browser/渲染/media/538c9066d13e1fe7ca5ccbd9c4d44d33_MD5.png|"A screenshot of the div element's height."]]
 
 This very cool video shows the browser assigning geometry recursively through the Layout process:  
-这个非常酷的视频展示了浏览器通过布局过程递归地分配几何形状：
+这个非常酷的视频展示了浏览器在布局过程中*递归分配几何图形：*
 
 https://youtu.be/ZTnIxIA5KGw?si=kdhMFyl-0JQJ9NwY
 
+![[Gecko Reflow Visualization  mozillaorg_360P.mp4]]
 One thing to note here is that the Layout process can be quite expensive, so the browser uses extensive caching to avoid re-computing Layout unnecessarily.  
 这里要注意的一件事是，*布局过程可能非常昂贵*，因此浏览器使用大量的缓存来避免不必要地重新计算布局。
 
 Layout will typically appear in the Profiler during the Rendering phase, like this:  
-在渲染阶段，布局通常会出现在探测器中，因此：
+在性能分析工具（Profiler）中，Layout 通常会在渲染阶段（Rendering phase）显示，如下所示：
 
 ![[_posts/browser/渲染/media/c203791cd4b6a5288896d5491ca6091f_MD5.png|"A screenshot of the Chromium Profiler highlighting Layout."]]
 
 In some cases, if you [force a synchronous reflow](https://webperf.tips/tip/layout-thrashing), it's possible that you will see Layout appear within a JavaScript task:  
-在某些情况下，如果强制同步回流，则可能会在JavaScript任务中看到布局出现：
+在某些情况下，如果你[强制同步回流](https://webperf.tips/tip/layout-thrashing)，可能会看到 **Layout** 出现在 JavaScript 任务中：
 
 ![[_posts/browser/渲染/media/d3f2de08c258881c090b841380ae3f85_MD5.png|"A screenshot of the Chromium Profiler highlighting a forced reflow."]]
 
@@ -262,47 +265,47 @@ Let's take a look at our overall process flowchart (we're almost there!):
 ![[_posts/browser/渲染/media/8952652faa265fe22eeb026ae5dfa48b_MD5.png|"The overall browser rendering process, with Paint highlighted."]]
 
 Once we have a styled, positioned set of Render Tree nodes, the browser utilizes a computational graphics library to draw the Render Tree nodes programmatically as pixels.  
-一旦我们拥有了样式的，定位的渲染树节点集，浏览器就会利用计算图形库将渲染树节点编程为像素。
+一旦我们有了经过样式和定位处理的渲染树（Render Tree）节点集合，浏览器会利用一个计算图形库将这些渲染树节点以像素的形式程序化地绘制出来。
 
 This process is quite nuanced, but, from a high level, the browser traverses the newly positioned Render Tree recursively, and executes instructions to draw each Render Tree node.  
-这个过程非常细微，但是从高级别来看，浏览器会递归递归渲染树，并执行指令绘制每个渲染树节点。
+这个过程非常复杂，但从高层来看，浏览器会递归地遍历渲染树，并执行指令来绘制每个渲染树节点。
 
 This phases is responsible for making sure each visual element is painted in the correct order (i.e., resolving `z-index`, scroll containers, etc.).  
-该相位负责确保每个视觉元素按正确的顺序（即解决z索引，滚动容器等）绘制。
+*这一阶段的职责*是确保每个视觉元素按照正确的顺序绘制（例如，解决 `z-index`、滚动容器等问题）。
 
 Chromium utilizes the [Skia library](https://skia.org/) to facilitate drawing, and Skia will interface with the GPU for lower-level OpenGL / DirectX graphics instructions.  
-Chromium利用Skia库来促进绘画，Skia将与GPU进行低级OpenGL / DirectX图形指令进行连接。
+Chromium 使用 Skia 图形库来完成绘制工作，*而 Skia 会与 GPU 交互，生成底层的 OpenGL / DirectX 图形指令*。
 
 Once textures are produced from the GPU, the browser aggregates them into a Frame, and the Frame is submitted to the user's display!  
-一旦从GPU产生纹理后，浏览器将它们汇总到框架中，并将框架提交给用户的显示器！
+一旦 GPU 生成了纹理，浏览器会将它们聚合为一帧（Frame），并将该帧提交到用户的显示器上！
 
 Paint is unique in that the work spans multiple threads and processes to complete, but in general it'll manifest in the Chromium Profiler like this:  
-油漆是独一无二的，因为工作涵盖了多个线程和过程要完成，但总的来说，它会在这样的铬剖面中表现出来：
+*绘制（Paint）的独特之处*在于，它的工作跨越多个线程和进程来完成，但总体来说，在 Chromium 性能分析工具中，它通常会表现为如下形式：
 
 ![[_posts/browser/渲染/media/48ff9590df8b6f0ed0ef7e14c72d54b4_MD5.png|"A screenshot of the Chromium Profiler highlighting Paint."]]
 
 > **Note:** I am intentionally leaving off the advanced details of Layers and Compositing. Consider reading more about those in my [Layers and Compositing](https://webperf.tips/tip/layers-and-compositing) tip.  
-> 注意：我有意删除层和合成的高级细节。考虑阅读更多有关我的层中的内容和组合提示。
+> **注意：** 我有意省略了关于图层（Layers）和合成（Compositing）的高级细节。想了解更多相关内容，可以阅读我的[图层与合成](https://webperf.tips/tip/layers-and-compositing) 技巧文章。
 
 ## [](https://webperf.tips/tip/browser-rendering-pipeline/#when-does-rendering-run)When does Rendering Run?  
 渲染何时运行？
 
 We've described _how_ the browser renders, but _when_ does it run?  
-我们已经描述了浏览器的渲染_方式_，但是它_何时_运行？
+我们已经描述了浏览器是如何渲染的，但它具体在什么时候运行呢？
 
 For this answer, read my tip on [the browser event loop](https://webperf.tips/tip/event-loop).  
-为此，请阅读我在[浏览器事件循环](https://webperf.tips/tip/event-loop)中的提示。
+要找到答案，请阅读我关于浏览器事件循环（event loop）的技巧文章。
 
 ## [](https://webperf.tips/tip/browser-rendering-pipeline/#conclusion)Conclusion  结论
 
 As web developers, it's important to understand that our favorite CSS, HTML, React components, etc. cannot present themselves visually to the user until the browser completes these phases.  
-作为Web开发人员，重要的是要了解我们最喜欢的CSS，HTML，React组件等，直到浏览器完成这些阶段之前，才能直观地向用户展示自己。
+作为 Web 开发者，理解我们的 CSS、HTML、React 组件等内容，只有在浏览器完成这些渲染阶段后，才能以视觉形式呈现给用户，这一点非常重要。
 
 Consider [how to measure frame paint time](https://webperf.tips/tip/measuring-paint-time) next, or go deeper into Browser Rendering with [Layers and Compositing](https://webperf.tips/tip/layers-and-compositing).  
-考虑接下来[如何测量框架涂料时间](https://webperf.tips/tip/measuring-paint-time)，或更深入地进入浏览[器和合成的](https://webperf.tips/tip/layers-and-compositing)浏览器渲染。
+接下来，可以考虑如何测量帧绘制时间，或者通过图层与合成（Layers and Compositing）深入了解浏览器渲染机制。
 
 That's all for this tip! Thanks for reading! _Discover more similar tips matching [Browser Internals](https://webperf.tips/topic/browser-internals)._  
-这就是这个技巧！感谢您的阅读！_发现更多类似的技巧匹配[浏览器内部](https://webperf.tips/topic/browser-internals)。_
+这就是本期技巧的全部内容！感谢阅读！发现更多与浏览器内部机制相关的技巧。
 
 ## 相关资料
 - [An Introduction to the Browser Rendering Pipeline](https://webperf.tips/tip/browser-rendering-pipeline/)

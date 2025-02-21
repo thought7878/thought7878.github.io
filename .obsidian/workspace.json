@@ -158,7 +158,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
+                "file": "_posts/browser/渲染/Layers and Compositing.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/层叠规则.md",
+                "file": "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -280,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -296,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/css/总结/层叠规则.md",
+                "file": "_posts/browser/渲染/Layers and Compositing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/css/总结/层叠规则.md",
+                "file": "_posts/browser/渲染/Layers and Compositing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/css/总结/层叠规则.md"
+                "file": "_posts/browser/渲染/Layers and Compositing.md"
               }
             }
           }
@@ -397,20 +398,26 @@
       }
     ]
   },
-  "active": "654da2e8eb273934",
+  "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
-    "_posts/base/css/总结/视觉格式化模型.md",
-    "_posts/base/css/总结/层叠规则.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/base/css/总结/属性值的计算过程.md",
+    "_posts/browser/渲染/Layers and Compositing.md",
     "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/健康/资料.md",
+    "_posts/base/css/总结/视觉格式化模型.md",
+    "_posts/base/css/总结/格式化上下文.md",
+    "_posts/browser/渲染/强制同步回流.md",
+    "_posts/browser/requestAnimationFrame.md",
+    "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
+    "_posts/外面的世界/趋势.md",
+    "_posts/外面的世界/男女.md",
+    "_posts/base/css/总结/层叠规则.md",
+    "_posts/base/css/总结/属性值的计算过程.md",
     "_posts/browser/渲染/ComputedStyle-DS.md",
     "_posts/base/css/总结/CSS规则.md",
-    "_posts/base/css/总结/格式化上下文.md",
     "_posts/任务记录/2025/February/单词.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/外面的世界/男女.md",
     "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
     "_posts/methods/常看的.md",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
@@ -426,11 +433,6 @@
     "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
     "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
     "_posts/English/media",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/任务记录/2025/英语.md",
-    "_posts/browser/渲染/ComputedStyle-QW.md",
-    "_posts/browser/渲染/解析 CSS 并构建 CSSOM 树的详细过程.md",
-    "_posts/browser/渲染/Performance Profiler.md",
     "_posts/browser/渲染/media/728ce4ede7f79dbc0c91250ec700e271_MD5.png",
     "_posts/browser/渲染/media/8d05dfed4cc5313b3db52bd71fb416de_MD5.png",
     "_posts/browser/渲染/media/7d38bef48987bee7997fb015bec2c1e1_MD5.png",
@@ -444,7 +446,6 @@
     "_posts/健康/舞蹈",
     "_posts/browser/网络",
     "_posts/react/教程",
-    "_posts/react/总结/原理和源码",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
