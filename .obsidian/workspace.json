@@ -212,7 +212,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
+                "file": "_posts/base/css/总结/CSS规则.md",
                 "mode": "source",
                 "source": false
               }
@@ -297,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
+                "file": "_posts/base/css/总结/CSS规则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/ComputedStyle-DS.md",
+                "file": "_posts/base/css/总结/CSS规则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/ComputedStyle-DS.md"
+                "file": "_posts/base/css/总结/CSS规则.md"
               }
             }
           }
@@ -400,9 +400,10 @@
   },
   "active": "654da2e8eb273934",
   "lastOpenFiles": [
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/ComputedStyle-DS.md",
+    "_posts/任务记录/2025/February/单词.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/外面的世界/男女.md",
@@ -418,7 +419,6 @@
     "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
     "_posts/English/高效地练习听力的方法.md",
     "_posts/任务记录/2025/February/听力.md",
-    "_posts/任务记录/2025/February/单词.md",
     "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
     "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
     "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
