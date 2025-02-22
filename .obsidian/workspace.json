@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
+                "file": "_posts/server/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
+                "file": "_posts/server/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
+                "file": "_posts/server/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/渲染流程/绘制（Paint）.md"
+                "file": "_posts/server/Docker.md"
               }
             }
           }
@@ -379,8 +379,15 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+    "_posts/server/Docker.md",
+    "_posts/server",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
+    "_posts/browser/渲染/渲染流程/media",
+    "_posts/browser/渲染/渲染流程/构建渲染树.md",
+    "_posts/browser/渲染/渲染流程/计算样式（ComputedStyle）.md",
+    "_posts/browser/渲染/渲染流程/布局（Layout、Reflow）.md",
     "_posts/browser/渲染/渲染流程/合成（Composite）.md",
     "_posts/browser/渲染/渲染流程/图层（Layers）.md",
     "_posts/browser/渲染/渲染流程",
@@ -402,13 +409,8 @@
     "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
-    "_posts/methods/常看的.md",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
-    "_posts/browser/渲染/预解析.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
-    "_posts/任务记录/2025/February/20.md",
-    "_posts/English/音标.md",
     "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
     "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
     "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
@@ -423,8 +425,6 @@
     "_posts/browser/渲染/media",
     "_posts/base/css/总结/动画",
     "_posts/健康/舞蹈",
-    "_posts/browser/网络",
-    "_posts/react/教程",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
