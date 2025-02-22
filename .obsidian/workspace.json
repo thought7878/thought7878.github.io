@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/server/Docker.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
                 "mode": "source",
                 "source": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/server/Docker.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/server/Docker.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/server/Docker.md"
+                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md"
               }
             }
           }
@@ -379,6 +379,12 @@
   },
   "active": "cfaf26c2b4f93008",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+    "_posts/外面的世界/男女.md",
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/server/Docker.md",
     "_posts/server",
@@ -400,15 +406,9 @@
     "_posts/browser/requestAnimationFrame.md",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
     "_posts/外面的世界/趋势.md",
-    "_posts/外面的世界/男女.md",
     "_posts/base/css/总结/层叠规则.md",
     "_posts/base/css/总结/属性值的计算过程.md",
     "_posts/browser/渲染/ComputedStyle-DS.md",
-    "_posts/base/css/总结/CSS规则.md",
-    "_posts/任务记录/2025/February/单词.md",
-    "_posts/browser/渲染/浏览器的渲染流程和事件循环.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
     "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
