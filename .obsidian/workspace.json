@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
+                "file": "_posts/base/css/总结/transform.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
+                "file": "_posts/base/css/总结/transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
+                "file": "_posts/base/css/总结/transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md"
+                "file": "_posts/base/css/总结/transform.md"
               }
             }
           }
@@ -369,9 +369,22 @@
   },
   "active": "3d021406909ff917",
   "lastOpenFiles": [
-    "_posts/browser/渲染/优化/async.md",
+    "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
+    "_posts/browser/渲染/渲染流程/6.绘制（Paint）.md",
+    "_posts/browser/渲染/Layers and Compositing.md",
+    "_posts/browser/渲染/渲染流程/4.布局（Layout、Reflow）.md",
+    "_posts/browser/渲染/渲染流程/3_1.计算样式（ComputedStyle）.md",
+    "_posts/browser/渲染/渲染流程/3.构建渲染树.md",
+    "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
+    "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
+    "_posts/browser/渲染/渲染流程/media/a5cdb4332ba6b2bd0c5673a7c497daf0_MD5.jpeg",
+    "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164138.png",
+    "_posts/browser/渲染/渲染流程/1.构建 DOM 树.md",
+    "_posts/browser/渲染/渲染流程/2.构建 CSSOM 树.md",
+    "_posts/browser/渲染/优化/async.md",
     "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
     "_posts/任务记录/2025/February/23.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
@@ -386,15 +399,6 @@
     "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络.md",
     "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
     "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/28.WebComponent：像搭积木一样构建Web应用.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
-    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程",
@@ -406,10 +410,6 @@
     "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
     "_posts/English/media",
     "_posts/browser/渲染/media/728ce4ede7f79dbc0c91250ec700e271_MD5.png",
-    "_posts/browser/渲染/media/8d05dfed4cc5313b3db52bd71fb416de_MD5.png",
-    "_posts/browser/渲染/media/7d38bef48987bee7997fb015bec2c1e1_MD5.png",
-    "_posts/browser/渲染/media/300921c28328dea885cd45a0b3979e5e_MD5.png",
-    "_posts/browser/渲染/media/6caadd16fb311aad928496340472b383_MD5.png",
     "_posts/browser/渲染/优化",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/media",
