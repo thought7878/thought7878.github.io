@@ -152,24 +152,26 @@
             }
           },
           {
-            "id": "cfaf26c2b4f93008",
+            "id": "3d021406909ff917",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b26a48ebc8b81188",
+            "id": "cfaf26c2b4f93008",
             "type": "leaf",
             "state": {
-              "type": "mx-webpage",
+              "type": "markdown",
               "state": {
-                "source": "https://www.bilibili.com/video/BV1Gb4y1L7CV/"
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -198,7 +200,25 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
+      },
+      {
+        "id": "275ddde6a52bdd07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7053cbfa0bd9e040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 565.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -276,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +337,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md"
               }
             }
           }
@@ -377,18 +398,27 @@
       }
     ]
   },
-  "active": "cfaf26c2b4f93008",
+  "active": "7053cbfa0bd9e040",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
     "_posts/外面的世界/男女.md",
+    "_posts/外面的世界/人性.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+    "_posts/任务记录/2025/英语.md",
+    "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/server/Docker.md",
     "_posts/server",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程/构建渲染树.md",
@@ -399,16 +429,7 @@
     "_posts/browser/渲染/渲染流程",
     "_posts/browser/渲染/Layers and Compositing.md",
     "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/健康/资料.md",
-    "_posts/base/css/总结/视觉格式化模型.md",
-    "_posts/base/css/总结/格式化上下文.md",
-    "_posts/browser/渲染/强制同步回流.md",
-    "_posts/browser/requestAnimationFrame.md",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
-    "_posts/外面的世界/趋势.md",
-    "_posts/base/css/总结/层叠规则.md",
-    "_posts/base/css/总结/属性值的计算过程.md",
-    "_posts/browser/渲染/ComputedStyle-DS.md",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
     "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
