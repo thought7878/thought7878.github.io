@@ -157,18 +157,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfaf26c2b4f93008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md",
                 "mode": "source",
                 "source": false
@@ -200,25 +188,7 @@
             }
           }
         ],
-        "currentTab": 13
-      },
-      {
-        "id": "275ddde6a52bdd07",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7053cbfa0bd9e040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -280,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 565.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -297,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md"
               }
             }
           }
@@ -398,37 +367,37 @@
       }
     ]
   },
-  "active": "7053cbfa0bd9e040",
+  "active": "3d021406909ff917",
   "lastOpenFiles": [
-    "_posts/外面的世界/男女.md",
-    "_posts/外面的世界/人性.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/01.Chrome架构：仅仅打开了1个页面，为什么有4个进程？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
-    "_posts/任务记录/2025/英语.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
     "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/base/知识目录、路线图/学习计划/前端工程化 学习计划-DS.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
-    "_posts/server/Docker.md",
+    "_posts/任务记录/2025/February/单词.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器-QW.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/28.WebComponent：像搭积木一样构建Web应用.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/27.渐进式网页应用（PWA）：它究竟解决了Web应用的哪些问题？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/26.虚拟DOM：虚拟DOM和实际的DOM有何不同？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/24.分层和合成机制：为什么CSS动画比JavaScript高效？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/23.渲染流水线：CSS如何影响首次加载时的白屏时间？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/22.DOM树：JavaScript是如何影响DOM树构建的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/20.async、await-使用同步的方式去写异步代码.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/19.Promise：使用Promise，告别回调函数.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/18.宏任务和微任务：不是所有任务都是一个待遇.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/17.WebAPI：XMLHttpRequest是怎么实现的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/16.WebAPI：setTimeout是如何实现的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/05-浏览器中的页面循环系统 (6讲)/15.消息队列和事件循环：页面是怎么“活”起来的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/14.编译器和解释器：V8是如何执行一段JavaScript代码的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/13.垃圾回收：垃圾数据是如何自动回收的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
     "_posts/server",
-    "_posts/browser/渲染/渲染流程/绘制（Paint）.md",
     "_posts/browser/渲染/渲染流程/media",
-    "_posts/browser/渲染/渲染流程/构建渲染树.md",
-    "_posts/browser/渲染/渲染流程/计算样式（ComputedStyle）.md",
-    "_posts/browser/渲染/渲染流程/布局（Layout、Reflow）.md",
-    "_posts/browser/渲染/渲染流程/合成（Composite）.md",
-    "_posts/browser/渲染/渲染流程/图层（Layers）.md",
     "_posts/browser/渲染/渲染流程",
-    "_posts/browser/渲染/Layers and Compositing.md",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
     "_posts/browser/渲染/media/a8ef3c4d7d14a813d96d3f8138839cd7_MD5.jpeg",
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
