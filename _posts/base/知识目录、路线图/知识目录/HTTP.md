@@ -34,9 +34,11 @@ scheme://host:port/path?query#fragment
 
 ## 二、HTTP 请求与响应
 
-### HTTP 请求
+### 请求
 
-#### 请求方法（HTTP Methods）
+#### 请求方法（Methods）
+参考：[[请求方法（HTTP Methods）]]
+
   - `GET`：获取资源。
   - `POST`：提交数据。
   - `PUT`：更新资源。
@@ -60,12 +62,13 @@ Accept: text/html
 
 - **请求体**（可选）：用于传递数据（如表单数据、JSON）。参考：[[请求体]]
 
-### HTTP 响应
+### 响应
 
 #### 状态码（Status Codes）
+参考：[[状态码（Status Codes）]]
 - **1xx**：信息性状态（如 `100 Continue`）。
 - **2xx**：成功（如 `200 OK`、`201 Created`）。
-- **3xx**：重定向（如 `301 Moved Permanently`、`302 Found`）。
+- **3xx**：重定向（如 `301 Moved Permanently`、`304 Not Modified`）。
 - **4xx**：客户端错误（如 `400 Bad Request`、`404 Not Found`）。
 - **5xx**：服务器错误（如 `500 Internal Server Error`）。
 
@@ -76,18 +79,18 @@ Accept: text/html
 HTTP/1.1 200 OK
 ```
 
-- **响应头**：包含元信息（如 `Content-Type`、`Cache-Control` 等）。
+- **响应头**：包含元信息（如 `Content-Type`、`Cache-Control` 等）。参考：[[响应头]]
 
 ```http
 Content-Type: text/html
 Cache-Control: max-age=3600
 ```
 
-- **响应体**：实际返回的数据（如 HTML 文档、JSON 数据）。
+- **响应体**：实际返回的数据（如 HTML 文档、JSON 数据）。参考：[[响应体]]
 
 ---
 
-## **三、HTTP 版本**
+## 三、HTTP 版本
 
 1. **HTTP/1.0**
 

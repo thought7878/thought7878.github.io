@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/http/请求体.md",
+                "file": "_posts/http/响应头.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/http/请求体.md",
+                "file": "_posts/http/响应头.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/http/请求体.md",
+                "file": "_posts/http/响应头.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/http/请求体.md"
+                "file": "_posts/http/响应头.md"
               }
             }
           }
@@ -370,6 +370,12 @@
   "active": "f077d5aaf59ceef9",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/http/响应头.md",
+    "_posts/http/响应体.md",
+    "_posts/http/状态码（Status Codes）.md",
+    "_posts/http/网络协议概述.md",
+    "_posts/http/Methods.md",
+    "_posts/http/请求方法（HTTP Methods）.md",
     "_posts/http/请求体.md",
     "_posts/http/请求头.md",
     "_posts/任务记录/2025/February/单词.md",
@@ -389,13 +395,7 @@
     "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/要整理的.md",
-    "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
-    "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
-    "_posts/browser/渲染/Layers and Compositing.md",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
     "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
-    "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
     "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
     "_posts/browser/渲染/渲染流程/media/a5cdb4332ba6b2bd0c5673a7c497daf0_MD5.jpeg",
