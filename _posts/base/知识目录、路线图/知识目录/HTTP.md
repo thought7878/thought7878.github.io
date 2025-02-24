@@ -2,7 +2,7 @@
 
 ---
 
-## **一、HTTP 基础**
+## 一、HTTP 基础
 
 1. **什么是 HTTP？**
 
@@ -16,39 +16,41 @@
    - **明文传输**：默认情况下，HTTP 数据是*未加密的*（HTTPS 使用 TLS 加密）。
 
 3. **URL 的组成**
-   - URL（Uniform Resource Locator）是*资源的地址*，格式如下：
+
+- URL（Uniform Resource Locator）是*资源的地址*，格式如下：
 
 ```
 scheme://host:port/path?query#fragment
 ```
 
-	- `scheme`：协议（如 `http` 或 `https`）。
-	- `host`：服务器域名或 IP 地址。
-	- `port`：端口号（默认 HTTP 为 80，HTTPS 为 443）。
-	- `path`：资源路径。
-	- `query`：查询参数（如 `?name=John&age=30`）。
-	- `fragment`：页面内的锚点（如 `#section1`）。
+- `scheme`：协议（如 `http` 或 `https`）。
+- `host`：服务器域名或 IP 地址。
+- `port`：端口号（默认 HTTP 为 80，HTTPS 为 443）。
+- `path`：资源路径。
+- `query`：查询参数（如 `?name=John&age=30`）。
+- `fragment`：页面内的锚点（如 `#section1`）。
 
 ---
 
-## **二、HTTP 请求与响应**
+## 二、HTTP 请求与响应
 
-1. **HTTP 请求**
+### HTTP 请求
 
-   - **请求方法（HTTP Methods）**：
-     - `GET`：获取资源。
-     - `POST`：提交数据。
-     - `PUT`：更新资源。
-     - `DELETE`：删除资源。
-     - 其他：`HEAD`、`OPTIONS`、`PATCH` 等。
-   - **请求结构**：
-     - **请求行**：包含方法、URL 和 HTTP 版本。
+#### 请求方法（HTTP Methods）
+  - `GET`：获取资源。
+  - `POST`：提交数据。
+  - `PUT`：更新资源。
+  - `DELETE`：删除资源。
+  - 其他：`HEAD`、`OPTIONS`、`PATCH` 等。
+
+#### 请求结构
+- **请求行**：包含方法、URL 和 HTTP 版本。
 
 ```http
 GET /index.html HTTP/1.1
 ```
 
-- **请求头**：包含元信息（如 `Host`、`User-Agent`、`Accept` 等）。
+- **请求头**：包含元信息（如 `Host`、`User-Agent`、`Accept` 等）。参考：[[请求头]]
 
 ```http
 Host: www.example.com
@@ -56,18 +58,19 @@ User-Agent: Mozilla/5.0
 Accept: text/html
 ```
 
-- **请求体**（可选）：用于传递数据（如表单数据、JSON）。
+- **请求体**（可选）：用于传递数据（如表单数据、JSON）。参考：[[请求体]]
 
-2. **HTTP 响应**
-- **状态码（Status Codes）**：
-	- **1xx**：信息性状态（如 `100 Continue`）。
-	- **2xx**：成功（如 `200 OK`、`201 Created`）。
-	- **3xx**：重定向（如 `301 Moved Permanently`、`302 Found`）。
-	- **4xx**：客户端错误（如 `400 Bad Request`、`404 Not Found`）。
-	- **5xx**：服务器错误（如 `500 Internal Server Error`）。
+### HTTP 响应
 
-- **响应结构**：
-	- **状态行**：包含 HTTP 版本、状态码和状态消息。
+#### 状态码（Status Codes）
+- **1xx**：信息性状态（如 `100 Continue`）。
+- **2xx**：成功（如 `200 OK`、`201 Created`）。
+- **3xx**：重定向（如 `301 Moved Permanently`、`302 Found`）。
+- **4xx**：客户端错误（如 `400 Bad Request`、`404 Not Found`）。
+- **5xx**：服务器错误（如 `500 Internal Server Error`）。
+
+#### 响应结构
+- **状态行**：包含 HTTP 版本、状态码和状态消息。
 
 ```http
 HTTP/1.1 200 OK
@@ -80,7 +83,7 @@ Content-Type: text/html
 Cache-Control: max-age=3600
 ```
 
- - **响应体**：实际返回的数据（如 HTML 文档、JSON 数据）。
+- **响应体**：实际返回的数据（如 HTML 文档、JSON 数据）。
 
 ---
 
