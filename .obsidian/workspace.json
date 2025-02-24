@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/http/响应头.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/http/响应头.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/http/响应头.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/http/响应头.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md"
               }
             }
           }
@@ -369,9 +369,9 @@
   },
   "active": "f077d5aaf59ceef9",
   "lastOpenFiles": [
+    "_posts/http/响应体.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
     "_posts/http/响应头.md",
-    "_posts/http/响应体.md",
     "_posts/http/状态码（Status Codes）.md",
     "_posts/http/网络协议概述.md",
     "_posts/http/Methods.md",
