@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+                "file": "_posts/http/UDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+                "file": "_posts/http/UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+                "file": "_posts/http/UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md"
+                "file": "_posts/http/UDP.md"
               }
             }
           }
@@ -369,8 +369,13 @@
   },
   "active": "f077d5aaf59ceef9",
   "lastOpenFiles": [
-    "_posts/http/响应体.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+    "_posts/http/UDP.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/http/TCP.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/http/响应体.md",
     "_posts/http/响应头.md",
     "_posts/http/状态码（Status Codes）.md",
     "_posts/http/网络协议概述.md",
@@ -379,10 +384,7 @@
     "_posts/http/请求体.md",
     "_posts/http/请求头.md",
     "_posts/任务记录/2025/February/单词.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/任务记录/2025/February/23.md",
     "_posts/http/请求流程-DS.md",
     "_posts/http/请求流程-QW.md",
@@ -393,8 +395,6 @@
     "_posts/base/知识目录、路线图/_知识点提问的模版.md",
     "_posts/AI/趋势.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
-    "_posts/要整理的.md",
     "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
     "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
