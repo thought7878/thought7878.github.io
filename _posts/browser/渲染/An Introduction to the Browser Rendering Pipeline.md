@@ -268,10 +268,10 @@ Once we have a styled, positioned set of Render Tree nodes, the browser utilizes
 一旦我们有了经过样式和定位处理的渲染树（Render Tree）节点集合，浏览器会利用一个计算图形库将这些渲染树节点以像素的形式程序化地绘制出来。
 
 This process is quite nuanced, but, from a high level, the browser traverses the newly positioned Render Tree recursively, and executes instructions to draw each Render Tree node.  
-这个过程非常复杂，但从高层来看，浏览器会递归地遍历渲染树，并执行指令来绘制每个渲染树节点。
+这个过程非常复杂，但从高层来看，浏览器会**递归地遍历渲染树，并执行指令来绘制每个渲染树节点**。
 
 This phases is responsible for making sure each visual element is painted in the correct order (i.e., resolving `z-index`, scroll containers, etc.).  
-*这一阶段的职责*是确保每个视觉元素按照正确的顺序绘制（例如，解决 `z-index`、滚动容器等问题）。
+**这一阶段的职责**是确保每个视觉元素按照正确的顺序绘制（例如，解决 `z-index`、滚动容器等问题）。
 
 Chromium utilizes the [Skia library](https://skia.org/) to facilitate drawing, and Skia will interface with the GPU for lower-level OpenGL / DirectX graphics instructions.  
 Chromium 使用 Skia 图形库来完成绘制工作，*而 Skia 会与 GPU 交互，生成底层的 OpenGL / DirectX 图形指令*。

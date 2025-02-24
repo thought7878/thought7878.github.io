@@ -1,5 +1,5 @@
 Web developers typically aren't exposed to low-level browser rendering primitives, yet the concepts of Layers and Compositing are foundational to how the browser renders web applications as pixels on screen! In this tip, I'll explain what Layers are, why they exist, and how they are Composited together to produce on-screen Frames to the user's display.
-Web 开发者通常不会接触到低级别的浏览器渲染原语，但图层（Layers）和合成（Compositing）的概念是浏览器如何将 Web 应用程序渲染为屏幕上像素的基础！在本技巧中，我将解释什么是图层、它们为何存在，以及它们是如何通过合成（Compositing）组合在一起以生成显示在用户屏幕上的帧（Frames）。
+Web 开发者通常不会接触到低级别的浏览器渲染原语，但*图层（Layers）和合成（Compositing）的概念是浏览器如何将 Web 应用程序渲染为屏幕上像素的基础*！在本技巧中，我将解释什么是图层、它们为何存在，以及它们是如何通过合成（Compositing）组合在一起以生成显示在用户屏幕上的帧（Frames）。
 ## [](https://webperf.tips/tip/layers-and-compositing/#prerequisites)Prerequisites
 先决条件
 - You should understand [the basics on the Browser Rendering Pipeling](https://webperf.tips/tip/browser-rendering-pipeline)
@@ -99,6 +99,9 @@ Layers aren't used to order visual elements on-screen. They are lower-level grap
 
 If authored correctly, CSS animations can be completely offloaded to the compositor thread, allowing a smooth, 60 FPS animation to take place despite any heavy activity on the main thread.
 如果编写正确，*CSS 动画可以完全交给合成线程处理，这样即便主线程上有任何繁重的任务，也能实现流畅的、每秒 60 帧的动画效果*。
+
+![[_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4]]
+
 
 This is by processing the animation instructions completely on the compositor thread on the in-memory layer. I have [a dedicated tip on this mechanism](https://webperf.tips/tip/animate-on-compositor-thread).
 这是通过在内存中的图层上由合成线程完全处理动画指令来实现的。我有一篇关于这种机制的[专门的技巧文章](https://webperf.tips/tip/animate-on-compositor-thread)。

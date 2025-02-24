@@ -104,36 +104,12 @@
             }
           },
           {
-            "id": "75a3cc727787d32a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/知识点总结/闭包.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9e873bbeda0016a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/methods/卢曼笔记法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89dd2832d4a3fd2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/_知识点提问的模版.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +133,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75a3cc727787d32a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/js/知识点总结/闭包.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/February/23.md",
+                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,14 +181,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -262,7 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -278,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/渲染/Layers and Compositing.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md"
               }
             }
           }
@@ -379,38 +367,39 @@
       }
     ]
   },
-  "active": "3d021406909ff917",
+  "active": "f077d5aaf59ceef9",
   "lastOpenFiles": [
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/任务记录/2025/February/23.md",
+    "_posts/http/请求流程-DS.md",
+    "_posts/http/请求流程-QW.md",
+    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/base/js/知识点总结/闭包.md",
+    "_posts/methods/卢曼笔记法.md",
+    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
+    "_posts/AI/趋势.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
+    "_posts/要整理的.md",
+    "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
+    "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
+    "_posts/browser/渲染/Layers and Compositing.md",
+    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
+    "_posts/browser/渲染/Layers and Compositing  图层和合成.md",
+    "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
     "_posts/base/知识目录、路线图/学习计划/浏览器 学习计划-DS.md",
     "_posts/browser/浏览器的工作流程.md",
-    "_posts/browser/渲染/Layers and Compositing.md",
     "_posts/任务记录/2025/February/单词.md",
-    "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
     "_posts/base/css/总结/堆叠上下文.md",
-    "_posts/browser/渲染/渲染流程/重绘（Repaint）-QW.md",
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
-    "_posts/base/css/总结/transform.md",
-    "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
-    "_posts/browser/渲染/渲染流程/6.绘制（Paint）.md",
-    "_posts/browser/渲染/渲染流程/4.布局（Layout、Reflow）.md",
-    "_posts/browser/渲染/渲染流程/3_1.计算样式（ComputedStyle）.md",
-    "_posts/browser/渲染/渲染流程/3.构建渲染树.md",
     "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
     "_posts/browser/渲染/渲染流程/media/a5cdb4332ba6b2bd0c5673a7c497daf0_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164138.png",
-    "_posts/browser/渲染/渲染流程/1.构建 DOM 树.md",
-    "_posts/browser/渲染/渲染流程/2.构建 CSSOM 树.md",
-    "_posts/browser/渲染/优化/async.md",
-    "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
-    "_posts/任务记录/2025/February/23.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/任务记录/2025/February/20.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
-    "_posts/methods/常看的.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器-DS.md",
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程",
@@ -421,7 +410,6 @@
     "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
     "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
     "_posts/English/media",
-    "_posts/browser/渲染/media/728ce4ede7f79dbc0c91250ec700e271_MD5.png",
     "_posts/browser/渲染/优化",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/media",
