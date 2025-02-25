@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/http/UDP.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
                 "mode": "source",
                 "source": false
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/http/UDP.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/http/UDP.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/http/UDP.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md"
               }
             }
           }
@@ -327,7 +327,8 @@
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
   "floating": {
@@ -370,9 +371,13 @@
   "active": "f077d5aaf59ceef9",
   "lastOpenFiles": [
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
-    "_posts/http/UDP.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/http/UDP.md",
     "_posts/http/TCP.md",
+    "_posts/http/IP.md",
+    "_posts/tools/obsidian/基础.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/http/响应体.md",
@@ -391,10 +396,6 @@
     "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/base/js/知识点总结/闭包.md",
-    "_posts/methods/卢曼笔记法.md",
-    "_posts/base/知识目录、路线图/_知识点提问的模版.md",
-    "_posts/AI/趋势.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
     "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
