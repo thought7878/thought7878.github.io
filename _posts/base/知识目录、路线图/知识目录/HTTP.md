@@ -1,6 +1,10 @@
 学习 HTTP（HyperText Transfer Protocol）是理解 Web 开发和网络通信的基础。以下是 HTTP 的核心知识点总结，涵盖了从基础到高级的内容，帮助你系统地学习。
 
 ---
+## 前置知识
+- IP。参考：[[IP]]
+- TCP。参考：[[TCP]]
+- UDP。参考：[[UDP]]
 
 ## 一、HTTP 基础
 
