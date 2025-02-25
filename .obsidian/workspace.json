@@ -181,32 +181,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/请求流程.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae469e889d576683",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/网络/HTTP 1.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b525fbe54db1ad1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 14
-      },
-      {
-        "id": "7eb591b23e05f1d0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9f6f45f3c0f5697f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -285,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
+                "file": "_posts/网络/HTTP 1.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +308,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
+                "file": "_posts/网络/HTTP 1.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md"
+                "file": "_posts/网络/HTTP 1.0.md"
               }
             }
           }
@@ -387,34 +393,37 @@
       }
     ]
   },
-  "active": "9f6f45f3c0f5697f",
+  "active": "ae469e889d576683",
   "lastOpenFiles": [
-    "_posts/网络/请求流程.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
-    "_posts/网络/请求流程-QW.md",
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
-    "_posts/网络/请求方法（HTTP Methods）.md",
-    "_posts/网络/UDP.md",
-    "_posts/网络/TCP.md",
-    "_posts/网络/IP.md",
-    "_posts/tools/obsidian/基础.md",
-    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
-    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
+    "_posts/网络/HTTP 3.md",
+    "_posts/网络/HTTP协议的版本.md",
+    "_posts/网络/HTTP 2.md",
+    "_posts/网络/HTTP 1.1.md",
+    "_posts/网络/HTTP 1.0.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/网络/请求流程.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/性能优化.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/performance/性能指标/LCP（Largest Contentful Paint）.md",
+    "_posts/performance/性能指标/CLS（Cumulative Layout Shift）.md",
+    "_posts/performance/性能指标/FID（First Input Delay）.md",
+    "_posts/performance/性能指标/FCP（First Contentful Paint）.md",
+    "_posts/performance/indicators/FP & FCP.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DB.md",
+    "_posts/performance/性能指标/media/c65074b192112832e1572ade3eb45ce6_MD5.png",
+    "_posts/performance/性能指标/media",
+    "_posts/performance/性能指标",
+    "_posts/外面的世界/男女.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/网络/响应体.md",
-    "_posts/网络/响应头.md",
-    "_posts/网络/状态码（Status Codes）.md",
-    "_posts/网络/网络协议概述.md",
-    "_posts/http/Methods.md",
-    "_posts/网络/请求体.md",
-    "_posts/网络/请求头.md",
-    "_posts/任务记录/2025/February/单词.md",
-    "_posts/任务记录/2025/February/23.md",
-    "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
+    "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/base/css/Tailwind CSS/总结-DS.md",
+    "_posts/base/css/Tailwind CSS/总结-QW.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
     "_posts/browser/渲染/media/42b6bfd5a842aee5377001d9638c691f_MD5.png",
     "_posts/browser/渲染/渲染流程/media/12c6c866aae154eeebe8558c8ac66ffc_MD5.jpeg",
     "_posts/browser/渲染/渲染流程/media/Pasted image 20250223164321.png",
@@ -428,13 +437,10 @@
     "_posts/browser/渲染/media/Pasted image 20250220191451.png",
     "_posts/English/media/2b3ec2908389afc3b09657b31510f7ec_MD5.webp",
     "_posts/English/media/da19068a584922ce02e2f00259aea4a6_MD5.webp",
-    "_posts/English/media/fb21eef26ab586b5745882af5181e5df_MD5.webp",
     "_posts/English/media",
     "_posts/browser/渲染/优化",
     "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/media",
-    "_posts/base/css/总结/动画",
-    "_posts/健康/舞蹈",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

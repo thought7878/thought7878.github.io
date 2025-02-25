@@ -95,6 +95,7 @@ Cache-Control: max-age=3600
 ---
 
 ## 三、HTTP 版本
+参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]
 
 1. **HTTP/1.0**
 
