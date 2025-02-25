@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP 1.0.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,6 +213,37 @@
           }
         ],
         "currentTab": 15
+      },
+      {
+        "id": "42b7af1246bf8e4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67a7674463e6e688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/网络/HTTP 1.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d80df31e249e41c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/网络/HTTP 1.1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -291,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/网络/HTTP 1.0.md",
+                "file": "_posts/网络/HTTP 1.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/网络/HTTP 1.0.md",
+                "file": "_posts/网络/HTTP 1.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -331,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/网络/HTTP 1.0.md"
+                "file": "_posts/网络/HTTP 1.1.md"
               }
             }
           }
@@ -393,15 +424,15 @@
       }
     ]
   },
-  "active": "ae469e889d576683",
+  "active": "d80df31e249e41c8",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
-    "_posts/网络/HTTP 3.md",
-    "_posts/网络/HTTP协议的版本.md",
-    "_posts/网络/HTTP 2.md",
     "_posts/网络/HTTP 1.1.md",
     "_posts/网络/HTTP 1.0.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/网络/HTTP 3.md",
+    "_posts/网络/HTTP协议的版本.md",
+    "_posts/网络/HTTP 2.md",
     "_posts/网络/请求流程.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
     "_posts/base/知识目录、路线图/Frontend Roadmap.md",
