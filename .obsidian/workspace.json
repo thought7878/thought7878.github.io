@@ -285,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/网络/请求流程.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/网络/请求流程.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/网络/请求流程.md"
+                "file": "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md"
               }
             }
           }
@@ -387,10 +387,10 @@
       }
     ]
   },
-  "active": "f077d5aaf59ceef9",
+  "active": "9f6f45f3c0f5697f",
   "lastOpenFiles": [
-    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
     "_posts/网络/请求流程.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/03.HTTP请求流程：为什么很多站点第二次打开速度会很快？.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/04.导航流程：从输入URL到页面展示，这中间发生了什么？.md",
