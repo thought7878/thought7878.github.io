@@ -212,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       },
       {
         "id": "42b7af1246bf8e4b",
@@ -224,7 +224,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP 1.0.md",
+                "file": "_posts/网络/HTTP/HTTP 1.0.md",
                 "mode": "source",
                 "source": false
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP 1.1.md",
+                "file": "_posts/网络/HTTP/HTTP 1.1.md",
                 "mode": "source",
                 "source": false
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP 2.md",
+                "file": "_posts/网络/HTTP/HTTP 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -260,7 +260,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP 3.md",
+                "file": "_posts/网络/HTTP/HTTP 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/网络/HTTP/HTTP 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md",
+                "file": "_posts/网络/HTTP/HTTP 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/任务记录/2025/February/学习、复习记录.md"
+                "file": "_posts/网络/HTTP/HTTP 2.md"
               }
             }
           }
@@ -448,27 +448,31 @@
       }
     ]
   },
-  "active": "2e4d6b114d8d8496",
+  "active": "6923879509c925a2",
   "lastOpenFiles": [
+    "_posts/网络/HTTP/HTTP 2.md",
+    "_posts/网络/HTTP/HTTP 3.md",
+    "_posts/网络/HTTP/HTTP 1.1.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/网络/TCP的队头阻塞问题.md",
+    "_posts/网络/HTTP/0-RTT 握手.md",
+    "_posts/网络/HTTP",
+    "_posts/网络/media/07fddef406bdf423b62b43f1f8ea0a07_MD5.jpeg",
+    "_posts/网络/media/Pasted image 20250226082119.png",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/网络/HTTP 2.md",
     "_posts/网络/media/19b745bcd8abe728c59ef380321541f9_MD5.jpeg",
     "_posts/网络/media/Pasted image 20250226080934.png",
     "_posts/网络/media/e1e62e492a6a17e5a5bfb0840bf5ec91_MD5.jpeg",
     "_posts/网络/media/Pasted image 20250226080107.png",
-    "_posts/网络/HTTP 1.1.md",
     "_posts/网络/media/08ab21c04d64e3c8a3610a3429915b44_MD5.jpeg",
     "_posts/网络/media/Pasted image 20250226074412.png",
     "_posts/网络/media/dcdab1eb01d253416a681599991718c8_MD5.jpeg",
     "_posts/网络/media/Pasted image 20250226074228.png",
-    "_posts/网络/media/f0b4b89e8cfb77c0bb86580a6b958c35_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250225212046.png",
     "_posts/网络/media",
-    "_posts/网络/HTTP 3.md",
-    "_posts/网络/HTTP 1.0.md",
+    "_posts/网络/HTTP/HTTP 1.0.md",
     "_posts/网络/HTTP协议的版本.md",
-    "_posts/网络/请求流程.md",
+    "_posts/网络/HTTP/请求流程.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
     "_posts/base/知识目录、路线图/Frontend Roadmap.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器.md",
@@ -483,18 +487,14 @@
     "_posts/performance/性能指标/media",
     "_posts/performance/性能指标",
     "_posts/外面的世界/男女.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
     "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/base/css/Tailwind CSS/总结-DS.md",
-    "_posts/base/css/Tailwind CSS/总结-QW.md",
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
     "_posts/English/media",
     "_posts/browser/渲染/优化",
-    "_posts/browser/渲染/media/LayersAndCompositing02-05618cbf0be08d56924929541ab5a675.mp4",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

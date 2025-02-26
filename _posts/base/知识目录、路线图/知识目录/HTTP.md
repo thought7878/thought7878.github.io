@@ -97,6 +97,17 @@ Cache-Control: max-age=3600
 ## 三、HTTP 版本
 参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]
 
+
+### HTTP/2 和 HTTP/3 的对比
+
+| 特性     | HTTP/2              | HTTP/3          |
+| ------ | ------------------- | --------------- |
+| 传输协议   | TCP                 | QUIC（基于 UDP）    |
+| 队头阻塞问题 | 存在（底层 TCP 的限制）      | 不存在（QUIC 的多流设计） |
+| 连接建立时间 | 较长（TCP 握手 + TLS 握手） | 较短（0-RTT 握手）    |
+| 丢包恢复能力 | 较弱（依赖 TCP 的重传机制）    | 较强（QUIC 的内置机制）  |
+
+
 1. **HTTP/1.0**
 
    - 每次请求都需要建立新的 TCP 连接。
@@ -119,7 +130,7 @@ Cache-Control: max-age=3600
    - 提供更快的连接建立和更高的可靠性。
 
 
-[HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
+
 [Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
 [HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
 [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")

@@ -216,4 +216,5 @@ HTTP/1.1 是 HTTP 协议发展的重要里程碑，通过引入持久连接、�
 
 ## 相关资料
 - [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
+- [HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
 - 
