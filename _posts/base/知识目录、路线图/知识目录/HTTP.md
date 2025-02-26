@@ -118,7 +118,7 @@ Cache-Control: max-age=3600
    - 基于 QUIC 协议（UDP），解决了 TCP 的队头阻塞问题。
    - 提供更快的连接建立和更高的可靠性。
 
-[HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
+
 [HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
 [Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
 [HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
