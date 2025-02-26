@@ -59,7 +59,16 @@
 - **ETag 和 If-None-Match**：
   - 用于协商缓存，服务器通过 ETag 标识资源的版本，客户端通过 `If-None-Match` 请求验证资源是否已修改。
 - **Last-Modified 和 If-Modified-Since**：
-  - 基于时间戳的缓存验证机制。
+  - *基于时间戳*的缓存验证机制。
+
+`条件请求（conditional request）`：使用类似 If-Modified-Since 的头部，让客户端仅在资源已更改时请求资源
+
+![[_posts/网络/HTTP/media/afe4737ca1857b629be9488d8c745ec9_MD5.jpeg]]
+
+![[_posts/网络/HTTP/media/0c1eff056c7f615b4cf53f1745a677e8_MD5.jpeg]]
+
+![[_posts/网络/HTTP/media/238383db376d198cea380b19e5bc5fa5_MD5.jpeg]]
+
 
 ---
 
@@ -80,9 +89,9 @@
 ### 5. 分块传输编码（Chunked Transfer Encoding）
 
 - **定义**：
-  - 允许服务器将响应体分成多个小块传输，而无需提前知道内容的总长度。
+  - 允许服务器*将响应体分成多个小块传输*，而无需提前知道内容的总长度。
 - **应用场景**：
-  - 动态生成的内容（如流媒体、实时数据）。
+  - 动态生成的内容（如*流媒体、实时数据*）。
 - **示例**：
 
   ```
@@ -99,6 +108,8 @@
   0\r\n
   \r\n
   ```
+
+![[_posts/网络/HTTP/media/061a22caf07f935af1f4afd4ad3dbdf4_MD5.jpeg]]
 
 ---
 

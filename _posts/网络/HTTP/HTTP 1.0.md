@@ -83,6 +83,8 @@
 - **每次请求都需要建立新的 TCP 连接，增加了延迟和资源消耗**。
 - 解决方案：HTTP/1.1 引入了*持久连接（Keep-Alive）*。
 
+![[_posts/网络/HTTP/media/26c8625b1e51a215b5ee889899d7a89d_MD5.jpeg]]
+
 ### 2. 缺少 Host 头
 
 - HTTP/1.0 不强制要求使用 `Host` 头字段，导致虚拟主机（共享 IP 地址的多个域名）无法区分。
@@ -159,3 +161,8 @@ Content-Length: 1234
 ## **八、总结**
 
 HTTP/1.0 是 HTTP 协议发展的重要里程碑，虽然存在一些局限性，但它为现代 Web 的发展奠定了基础。随着 HTTP/1.1 和更高版本的普及，HTTP/1.0 逐渐退出主流应用，但在某些简单场景中仍然具有一定的价值。
+
+## 相关资料
+- [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
+- [HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
+- 

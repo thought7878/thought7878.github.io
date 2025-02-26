@@ -267,7 +267,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -346,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 2.md",
+                "file": "_posts/网络/HTTP/HTTP 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 2.md",
+                "file": "_posts/网络/HTTP/HTTP 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 2.md"
+                "file": "_posts/网络/HTTP/HTTP 3.md"
               }
             }
           }
@@ -448,29 +448,30 @@
       }
     ]
   },
-  "active": "6923879509c925a2",
+  "active": "8eecf9f2aa1dfc01",
   "lastOpenFiles": [
     "_posts/网络/HTTP/HTTP 2.md",
-    "_posts/网络/HTTP/HTTP 3.md",
+    "_posts/网络/HTTP/media/b673e40c3f6169a84b281dbe384cfb9e_MD5.jpeg",
+    "_posts/网络/HTTP/media/Pasted image 20250226135641.png",
+    "_posts/网络/HTTP/media/49e2b0efb7b1d9c012d9384c7e8b9bb7_MD5.jpeg",
+    "_posts/网络/HTTP/media/Pasted image 20250226135313.png",
+    "_posts/网络/HTTP/media/ee662034c375b7c0e3446953d0564bd1_MD5.jpeg",
+    "_posts/网络/HTTP/media/Pasted image 20250226110016.png",
+    "_posts/网络/HTTP/media/70150335b6889e3df2bed2567c10f356_MD5.jpeg",
+    "_posts/网络/HTTP/media/Pasted image 20250226105621.png",
+    "_posts/网络/HTTP/media/0b93081485084e1b4408d62707e23883_MD5.jpeg",
+    "_posts/网络/HTTP/media/Pasted image 20250226105205.png",
     "_posts/网络/HTTP/HTTP 1.1.md",
+    "_posts/网络/HTTP/HTTP 1.0.md",
+    "_posts/网络/HTTP/media",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/网络/HTTP/HTTP 3.md",
     "_posts/网络/TCP的队头阻塞问题.md",
     "_posts/网络/HTTP/0-RTT 握手.md",
     "_posts/网络/HTTP",
-    "_posts/网络/media/07fddef406bdf423b62b43f1f8ea0a07_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250226082119.png",
     "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/网络/media/19b745bcd8abe728c59ef380321541f9_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250226080934.png",
-    "_posts/网络/media/e1e62e492a6a17e5a5bfb0840bf5ec91_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250226080107.png",
-    "_posts/网络/media/08ab21c04d64e3c8a3610a3429915b44_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250226074412.png",
-    "_posts/网络/media/dcdab1eb01d253416a681599991718c8_MD5.jpeg",
-    "_posts/网络/media/Pasted image 20250226074228.png",
     "_posts/网络/media",
-    "_posts/网络/HTTP/HTTP 1.0.md",
     "_posts/网络/HTTP协议的版本.md",
     "_posts/网络/HTTP/请求流程.md",
     "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
@@ -494,7 +495,6 @@
     "_posts/browser/渲染/渲染流程",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
     "_posts/English/media",
-    "_posts/browser/渲染/优化",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
