@@ -176,12 +176,12 @@
             }
           },
           {
-            "id": "f077d5aaf59ceef9",
+            "id": "316c140c25e32c95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/性能优化.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,6 +194,19 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73772519b07499fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,61 +226,6 @@
           }
         ],
         "currentTab": 15
-      },
-      {
-        "id": "42b7af1246bf8e4b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "67a7674463e6e688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/网络/HTTP/HTTP 1.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d80df31e249e41c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/网络/HTTP/HTTP 1.1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6923879509c925a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/网络/HTTP/HTTP 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eecf9f2aa1dfc01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/网络/HTTP/HTTP 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -329,8 +287,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -346,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 3.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 3.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/网络/HTTP/HTTP 3.md"
+                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md"
               }
             }
           }
@@ -448,10 +405,32 @@
       }
     ]
   },
-  "active": "8eecf9f2aa1dfc01",
+  "active": "ae469e889d576683",
   "lastOpenFiles": [
-    "_posts/网络/HTTP/HTTP 2.md",
+    "_posts/网络/缓存/缓存.md",
+    "_posts/网络/CDN.md",
+    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/网络/HTTP/HTTPS.md",
+    "_posts/browser/缓存/缓存指令/Cache-Control.md",
+    "_posts/browser/缓存/缓存_overview.md",
+    "_posts/网络/缓存",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/25.页面性能：如何系统地优化页面？.md",
+    "_posts/base/知识目录、路线图/知识目录/性能优化.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DB.md",
+    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/36.HTTPS：让数据传输更安全.md",
     "_posts/网络/HTTP/HTTP 3.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络.md",
+    "_posts/网络/HTTP/HTTP 2.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/30.HTTP2：如何提升网络速度？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/07-浏览器中的网络 (3讲)/29.HTTP1：HTTP性能优化.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md",
+    "_posts/网络/HTTP/HTTP 1.1.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
+    "_posts/网络/UDP.md",
+    "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/02.TCP协议：如何保证页面文件能被完整送达浏览器？.md",
+    "_posts/网络/HTTP/HTTP 1.0.md",
     "_posts/网络/HTTP/media/80ea0ad79c3343b02a23927e9367f790_MD5.jpeg",
     "_posts/网络/HTTP/media/2dc614cf74111363adc27a3a37b7f51b_MD5.jpeg",
     "_posts/网络/HTTP/media/Pasted image 20250226142412.png",
@@ -461,40 +440,19 @@
     "_posts/网络/HTTP/media/Pasted image 20250226141753.png",
     "_posts/网络/HTTP/media/473d6f22007a701a33225ad0a551ff72_MD5.jpeg",
     "_posts/网络/HTTP/media/Pasted image 20250226141437.png",
-    "_posts/网络/UDP.md",
     "_posts/网络/HTTP/media/4d3faa8b1b6e9fe4b28cc2cf774ffc5a_MD5.jpeg",
     "_posts/网络/HTTP/media/Pasted image 20250226140531.png",
-    "_posts/网络/HTTP/HTTP 1.1.md",
-    "_posts/网络/HTTP/HTTP 1.0.md",
     "_posts/网络/HTTP/media",
-    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
     "_posts/网络/TCP的队头阻塞问题.md",
     "_posts/网络/HTTP",
     "_posts/任务记录/2025/February/学习、复习记录.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
     "_posts/网络/media",
-    "_posts/网络/HTTP协议的版本.md",
-    "_posts/网络/HTTP/请求流程.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/性能优化.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/performance/性能指标/LCP（Largest Contentful Paint）.md",
-    "_posts/performance/性能指标/CLS（Cumulative Layout Shift）.md",
-    "_posts/performance/性能指标/FID（First Input Delay）.md",
-    "_posts/performance/性能指标/FCP（First Contentful Paint）.md",
-    "_posts/performance/indicators/FP & FCP.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-DB.md",
     "_posts/performance/性能指标/media",
     "_posts/performance/性能指标",
-    "_posts/外面的世界/男女.md",
-    "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程",
     "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
-    "_posts/English/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

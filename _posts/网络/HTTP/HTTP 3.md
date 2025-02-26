@@ -172,6 +172,8 @@ HTTP/3 是 HTTP 协议发展的最新里程碑，通过基于 QUIC 协议的设�
 
 
 ## 相关资料
-- [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
 - [HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
+- [[31.HTTP3：甩掉TCP、TLS 的包袱，构建高效网络]]
+- [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
+- 
 - 

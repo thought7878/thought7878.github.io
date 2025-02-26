@@ -97,16 +97,7 @@ Cache-Control: max-age=3600
 ## 三、HTTP 版本
 参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]
 
-
-### HTTP/2 和 HTTP/3 的对比
-
-| 特性     | HTTP/2              | HTTP/3          |
-| ------ | ------------------- | --------------- |
-| 传输协议   | TCP                 | QUIC（基于 UDP）    |
-| 队头阻塞问题 | 存在（底层 TCP 的限制）      | 不存在（QUIC 的多流设计） |
-| 连接建立时间 | 较长（TCP 握手 + TLS 握手） | 较短（0-RTT 握手）    |
-| 丢包恢复能力 | 较弱（依赖 TCP 的重传机制）    | 较强（QUIC 的内置机制）  |
-
+### HTTP/1.0、HTTP/1.1、HTTP/2、HTTP/3
 
 1. **HTTP/1.0**
 
@@ -129,17 +120,24 @@ Cache-Control: max-age=3600
    - 基于 QUIC 协议（UDP），解决了 TCP 的队头阻塞问题。
    - 提供更快的连接建立和更高的可靠性。
 
+### HTTP/2 和 HTTP/3 的对比
+
+| 特性     | HTTP/2              | HTTP/3          |
+| ------ | ------------------- | --------------- |
+| 传输协议   | TCP                 | QUIC（基于 UDP）    |
+| 队头阻塞问题 | 存在（底层 TCP 的限制）      | 不存在（QUIC 的多流设计） |
+| 连接建立时间 | 较长（TCP 握手 + TLS 握手） | 较短（0-RTT 握手）    |
+| 丢包恢复能力 | 较弱（依赖 TCP 的重传机制）    | 较强（QUIC 的内置机制）  |
+
 
 
 [Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
 [HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
-[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")
-[What Is A CDN? How Does It Work?](https://www.youtube.com/watch?v=RI9np1LWzqw "What Is A CDN? How Does It Work?")
-
 
 ---
 
-## **四、HTTPS**
+## 四、HTTPS
+参考：[[HTTPS]]、[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]
 
 1. **什么是 HTTPS？**
 
@@ -148,8 +146,8 @@ Cache-Control: max-age=3600
 
 2. **TLS 握手过程**
 
-   - **客户端问候**：客户端发送支持的加密算法列表。
-   - **服务器问候**：服务器选择加密算法并返回证书。
+   - **客户端问候**：客户端*发送支持的加密算法列表*。
+   - **服务器问候**：服务器*选择加密算法并返回证书*。
    - **密钥交换**：双方协商生成对称加密密钥。
    - **完成握手**：双方确认握手完成，开始加密通信。
 
@@ -160,7 +158,9 @@ Cache-Control: max-age=3600
 
 ---
 
-## **五、HTTP 缓存**
+## 五、HTTP 缓存
+[What Is A CDN? How Does It Work?](https://www.youtube.com/watch?v=RI9np1LWzqw "What Is A CDN? How Does It Work?")
+参考：[[缓存]]、[[CDN]]
 
 1. **缓存的作用**
 
@@ -173,15 +173,15 @@ Cache-Control: max-age=3600
      - `Expires`：指定资源的过期时间。
      - `Cache-Control`：更灵活的缓存控制（如 `max-age=3600`）。
    - **协商缓存**：
-     - `ETag`：唯一标识资源的哈希值。
-     - `Last-Modified`：资源的最后修改时间。
+     - `ETag`：唯一标识资源的*哈希值*。
+     - `Last-Modified`：资源的*最后修改时间*。
 
 3. **缓存策略**
    - 浏览器缓存、代理缓存、CDN 缓存。
 
 ---
 
-## **六、HTTP 与 RESTful API**
+## 六、HTTP 与 RESTful API
 
 1. **RESTful API 的特点**
 
@@ -195,7 +195,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## **七、HTTP 性能优化**
+## 七、HTTP 性能优化
 
 1. **减少请求数量**
 
@@ -220,7 +220,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## **八、HTTP 工具与调试**
+## 八、HTTP 工具与调试
 
 1. **常用工具**
 
@@ -234,7 +234,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## **九、扩展知识**
+## 九、扩展知识
 
 1. **WebSocket**
 
@@ -251,7 +251,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## **十、学习建议**
+## 十、学习建议
 
 1. **实践为主**
 

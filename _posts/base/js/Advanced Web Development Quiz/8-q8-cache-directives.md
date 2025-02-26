@@ -9,5 +9,5 @@
 
 
 ## 参考资料
-[[_posts/browser/缓存/overview|overview]]
+[[缓存_overview|缓存_overview]]
 [[Cache-Control]]

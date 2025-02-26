@@ -182,6 +182,6 @@ Content-Length: 1234
 HTTP/2 是 HTTP 协议发展的重要里程碑，通过引入多路复用、头部压缩、二进制帧等技术，显著提高了网络性能和用户体验。尽管它存在一些局限性（如复杂性和对 HTTPS 的依赖），但它已经成为现代 Web 的基础协议之一。
 
 ## 相关资料
-- [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
 - [HTTP 1 Vs HTTP 2 Vs HTTP 3!](https://youtu.be/UMwQjFzTQXw?si=_nrvPzQ5QPgpQl58)
-- 
+- [[30.HTTP2：如何提升网络速度？]]
+- [HTTP/1 to HTTP/2 to HTTP/3](https://youtu.be/a-sBfyiXysI?si=lvH1QCawKRc-c5vo)
