@@ -41,28 +41,28 @@
 ---
 
 ### **阶段 2：资源加载优化（2-3 周）**
-#### **(1) 优化 HTML 和 CSS**
+#### (1) 优化 HTML 和 CSS
 - 减少 DOM 复杂度。
 - 避免使用阻塞渲染的 CSS。
 - 使用媒体查询分离非关键 CSS。
 
-#### **(2) 优化 JavaScript**
+#### (2) 优化 JavaScript
 - 将脚本标记为 `async` 或 `defer`。
 - 拆分代码（Code Splitting），按需加载模块。
 - 使用 Tree Shaking 移除未使用的代码。
 
-#### **(3) 图片和多媒体优化**
+#### (3) 图片和多媒体优化
 - 使用现代图片格式（如 WebP、AVIF）。
 - 压缩图片（工具：TinyPNG、ImageMagick）。
 - 懒加载图片（Lazy Loading）。
 - 使用响应式图片（`<picture>` 标签和 `srcset` 属性）。
 
-#### **(4) 字体优化**
+#### (4) 字体优化
 - 使用字体子集化（Subset Fonts）。
 - 异步加载字体（`font-display: swap`）。
 - 避免 Flash of Invisible Text（FOIT）。
 
-#### **(5) 缓存与 CDN**
+#### (5) 缓存与 CDN
 - 使用 HTTP 缓存（`Cache-Control` 和 `ETag`）。
 - 配置 Service Worker 实现离线缓存。
 - 使用 CDN 加速静态资源加载。
@@ -70,40 +70,40 @@
 ---
 
 ### **阶段 3：网络与服务器优化（2 周）**
-#### **(1) 减少请求次数**
+#### (1) 减少请求次数
 - 合并文件（CSS、JS、图片）。
 - 使用雪碧图（CSS Sprites）。
 - 使用 Base64 内联小图片。
 
-#### **(2) 提高传输效率**
+#### (2) 提高传输效率
 - 启用 Gzip/Brotli 压缩。
 - 使用 HTTP/2 或 HTTP/3。
 - 避免重定向。
 
-#### **(3) DNS 优化**
+#### (3) DNS 优化
 - 减少 DNS 查询次数。
 - 使用 DNS Prefetch（`<link rel="dns-prefetch">`）。
 
-#### **(4) 预加载与预取**
+#### (4) 预加载与预取
 - 使用 `<link rel="preload">` 和 `<link rel="prefetch">`。
 - 预加载关键资源（如字体、CSS、JS）。
 
 ---
 
 ### **阶段 4：渲染性能优化（2 周）**
-#### **(1) 减少主线程阻塞**
+#### (1) 减少主线程阻塞
 - 避免长时间运行的 JavaScript。
 - 使用 Web Workers 处理复杂计算。
 
-#### **(2) 优化 DOM 操作**
+#### (2) 优化 DOM 操作
 - 减少频繁的 DOM 操作。
 - 使用虚拟 DOM（如 React、Vue）提高更新效率。
 
-#### **(3) 避免布局抖动**
+#### (3) 避免布局抖动
 - 避免在循环中读写样式属性。
 - 使用 `requestAnimationFrame` 优化动画。
 
-#### **(4) CSS 优化**
+#### (4) CSS 优化
 - 避免过度复杂的 CSS 选择器。
 - 使用 GPU 加速（`transform` 和 `opacity`）。
 
