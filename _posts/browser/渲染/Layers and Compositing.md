@@ -24,7 +24,7 @@ All modern web browsers support Layers, yet the exact implementation details may
 为什么会有图层？
 
 Layers exist as an optimization. The browser will render (draw pixels for) multiple Layers and retain the results in GPU memory for subsequent use. When a Frame needs to be produced (i.e. scrolling, animating), it's faster to transform and compose multiple pre-rendered Layers rather than re-drawing the viewport on demand.
-图层的存在是一种优化手段。浏览器会渲染（为其绘制像素）多个图层，并*将渲染结果保留在 GPU 内存中*，以便后续使用。*当需要生成一帧画面时（比如在滚动页面、进行动画效果展示时）*，对多个已预先渲染好的图层进行变换和合成，要比根据需求重新绘制视口区域的速度更快。
+图层的存在是一种*优化手段*。浏览器会渲染（为其绘制像素）多个图层，并*将渲染结果保留在 GPU 内存中*，以便后续使用。*当需要生成一帧画面时（比如在滚动页面、进行动画效果展示时）*，对多个已预先渲染好的图层进行变换和合成，要比根据需求重新绘制视口区域的速度更快。
 
 Furthermore, Layers can be visually updated independently by a separate thread, the _Compositor Thread_ without competition from heavy JavaScript or other activity taking place on the Main Thread.
 此外，**图层可以由一个单独的线程 —— 合成线程（_Compositor Thread_）独立地进行视觉更新**，这样就*不会与主线程上运行的占用大量资源的 JavaScript 代码或其他活动产生冲突*。

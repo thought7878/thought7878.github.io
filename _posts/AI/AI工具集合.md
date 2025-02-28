@@ -1,3 +1,6 @@
+【炸裂！阿里WAN2.1视频模型登顶榜首，效果惊艳，ComfyUI安装教程！-哔哩哔哩】 https://b23.tv/cuZ6Ncf
+
+
 
 # [3年后，AI编程将超过程序员？程序员还能干多久？](https://www.bilibili.com/video/BV15ysoeqEcm/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=22af953ea4c09540ad1966711a2d53f0)
 

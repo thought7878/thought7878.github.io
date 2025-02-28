@@ -260,12 +260,12 @@ In some cases, if you [force a synchronous reflow](https://webperf.tips/tip/lay
 画
 
 Let's take a look at our overall process flowchart (we're almost there!):  
-让我们看一下我们的整体流程流程图（我们几乎在那里！）：
+让我们看一下我们的整体流程的流程图（我们几乎在那里！）：
 
 ![[_posts/browser/渲染/media/8952652faa265fe22eeb026ae5dfa48b_MD5.png|"The overall browser rendering process, with Paint highlighted."]]
 
 Once we have a styled, positioned set of Render Tree nodes, the browser utilizes a computational graphics library to draw the Render Tree nodes programmatically as pixels.  
-一旦我们有了经过样式和定位处理的渲染树（Render Tree）节点集合，浏览器会利用一个计算图形库将这些渲染树节点以像素的形式程序化地绘制出来。
+一旦我们有了*经过样式和定位处理的渲染树*（Render Tree）节点集合，浏览器会利用一个`计算图形库`将这些渲染树节点*以像素的形式程序化地绘制出来*。
 
 This process is quite nuanced, but, from a high level, the browser traverses the newly positioned Render Tree recursively, and executes instructions to draw each Render Tree node.  
 这个过程非常复杂，但从高层来看，浏览器会**递归地遍历渲染树，并执行指令来绘制每个渲染树节点**。
@@ -274,10 +274,10 @@ This phases is responsible for making sure each visual element is painted in the
 **这一阶段的职责**是确保每个视觉元素按照正确的顺序绘制（例如，解决 `z-index`、滚动容器等问题）。
 
 Chromium utilizes the [Skia library](https://skia.org/) to facilitate drawing, and Skia will interface with the GPU for lower-level OpenGL / DirectX graphics instructions.  
-Chromium 使用 Skia 图形库来完成绘制工作，*而 Skia 会与 GPU 交互，生成底层的 OpenGL / DirectX 图形指令*。
+Chromium 使用 Skia 图形库来完成绘制工作，*而 Skia 会与 GPU 交互，生成底层的 OpenGL / DirectX **图形指令***。
 
 Once textures are produced from the GPU, the browser aggregates them into a Frame, and the Frame is submitted to the user's display!  
-一旦 GPU 生成了纹理，浏览器会将它们聚合为一帧（Frame），并将该帧提交到用户的显示器上！
+一旦 GPU 生成了纹理，*浏览器会将它们聚合为一帧（Frame），并将该帧提交到用户的显示器上*！
 
 Paint is unique in that the work spans multiple threads and processes to complete, but in general it'll manifest in the Chromium Profiler like this:  
 *绘制（Paint）的独特之处*在于，它的工作跨越多个线程和进程来完成，但总体来说，在 Chromium 性能分析工具中，它通常会表现为如下形式：
