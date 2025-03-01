@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/块格式化上下文（Block Formatting Context, BFC）.md",
+                "file": "_posts/base/css/总结/布局/普通流（Normal Flow）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -263,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/css/总结/块格式化上下文（Block Formatting Context, BFC）.md",
+                "file": "_posts/base/css/总结/布局/普通流（Normal Flow）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/css/总结/块格式化上下文（Block Formatting Context, BFC）.md",
+                "file": "_posts/base/css/总结/布局/普通流（Normal Flow）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/css/总结/块格式化上下文（Block Formatting Context, BFC）.md"
+                "file": "_posts/base/css/总结/布局/普通流（Normal Flow）.md"
               }
             }
           }
@@ -367,13 +367,21 @@
   },
   "active": "8b3901378172c4a8",
   "lastOpenFiles": [
-    "_posts/base/css/总结/格式化上下文.md",
+    "_posts/base/css/总结/视觉格式化模型-DS.md",
+    "_posts/base/css/总结/布局/普通流（Normal Flow）.md",
+    "_posts/base/css/总结/布局",
+    "_posts/base/css/总结/视觉格式化模型.md",
+    "_posts/任务记录/2025/February/单词.md",
+    "_posts/任务记录/2025/英语.md",
+    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/base/css/总结/块格式化上下文（Block Formatting Context, BFC）.md",
+    "_posts/base/css/总结/格式化上下文-DS.md",
+    "_posts/base/css/总结/格式化上下文.md",
+    "_posts/ablog/BFC到底是什么？.md",
     "_posts/base/css/总结/BFC.md",
     "_posts/base/知识目录、路线图/知识目录/性能优化.md",
     "_posts/browser/渲染/渲染流程/5..md",
     "_posts/browser/渲染/渲染流程/2.构建 CSSOM 树.md",
-    "_posts/base/css/总结/视觉格式化模型.md",
     "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/base/css/总结/堆叠上下文.md",
     "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
@@ -386,13 +394,6 @@
     "_posts/browser/渲染/Layers and Compositing.md",
     "_posts/AI/自媒体的收入.md",
     "_posts/AI/AI工具集合.md",
-    "_posts/AI/阿里.md",
-    "_posts/任务记录/2025/学习复习模版.md",
-    "_posts/browser/渲染/渲染流程/3.构建渲染树.md",
-    "_posts/browser/渲染/渲染流程/1.构建 DOM 树.md",
-    "_posts/browser/渲染/优化/按需加载、懒加载 CSS.md",
-    "_posts/performance/optimization-methods/按需加载 CSS.md",
-    "_posts/performance/optimization-methods/optimize-LCP.md",
     "_posts/网络/缓存",
     "_posts/网络/HTTP/media/80ea0ad79c3343b02a23927e9367f790_MD5.jpeg",
     "_posts/网络/HTTP/media/2dc614cf74111363adc27a3a37b7f51b_MD5.jpeg",
@@ -412,7 +413,6 @@
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/渲染流程",
-    "_posts/browser/渲染/media/Gecko Reflow Visualization  mozillaorg_360P.mp4",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
