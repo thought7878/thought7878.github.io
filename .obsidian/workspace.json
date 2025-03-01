@@ -247,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -367,12 +368,16 @@
   },
   "active": "8b3901378172c4a8",
   "lastOpenFiles": [
-    "_posts/base/css/总结/布局/相对定位（Relative Positioning）.md",
+    "_posts/base/css/总结/格式化上下文.md",
     "_posts/base/css/总结/视觉格式化模型.md",
+    "_posts/base/css/总结/盒子模型（Box Model）.md",
+    "_posts/base/css/总结/视觉格式化模型/包含块（Containing Block）.md",
+    "_posts/base/css/总结/视觉格式化模型",
+    "_posts/任务记录/2025/February/学习、复习记录.md",
+    "_posts/base/css/总结/布局/相对定位（Relative Positioning）.md",
     "_posts/base/css/总结/布局/固定定位（Fixed Positioning）.md",
     "_posts/base/css/总结/布局/绝对定位（Absolute Positioning）.md",
     "_posts/base/css/总结/布局/浮动（Float）.md",
-    "_posts/base/css/总结/格式化上下文.md",
     "_posts/base/知识目录、路线图/知识目录/性能优化.md",
     "_posts/browser/渲染/渲染流程/5..md",
     "_posts/base/css/总结/视觉格式化模型-DS.md",
@@ -386,14 +391,11 @@
     "_posts/ablog/BFC到底是什么？.md",
     "_posts/base/css/总结/BFC.md",
     "_posts/browser/渲染/渲染流程/2.构建 CSSOM 树.md",
-    "_posts/任务记录/2025/February/学习、复习记录.md",
     "_posts/base/css/总结/堆叠上下文.md",
     "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
     "_posts/base/css/总结/transform.md",
-    "_posts/browser/渲染/An Introduction to the Browser Rendering Pipeline.md",
-    "_posts/browser/渲染/渲染流程/6.绘制（Paint）.md",
     "_posts/网络/缓存",
     "_posts/网络/HTTP/media/80ea0ad79c3343b02a23927e9367f790_MD5.jpeg",
     "_posts/网络/HTTP/media/2dc614cf74111363adc27a3a37b7f51b_MD5.jpeg",
@@ -412,7 +414,6 @@
     "_posts/performance/性能指标",
     "_posts/server",
     "_posts/browser/渲染/渲染流程/media",
-    "_posts/browser/渲染/渲染流程",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
