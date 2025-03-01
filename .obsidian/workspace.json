@@ -171,7 +171,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
                 "mode": "source",
                 "source": false
               }
@@ -256,7 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md"
+                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md"
               }
             }
           }
@@ -360,10 +360,16 @@
   },
   "active": "a7f01fa13987c4b2",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
+    "_posts/base/js/知识点总结/数据类型/数组/数组-DS.md",
+    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
+    "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+    "_posts/base/js/知识点总结/数据类型/数组/数组的底层实现-QW.md",
+    "_posts/base/js/知识点总结/数据类型/Array.md",
+    "_posts/base/js/知识点总结/数据类型/数组",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
     "_posts/algorithm/数据结构是什么？为什么学习数据结构？-QW.md",
     "_posts/algorithm/数据结构是什么？为什么学习数据结构？-DS.md",
-    "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
     "_posts/algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
     "_posts/base/知识目录、路线图/知识目录/性能优化-DS.md",
     "_posts/base/知识目录、路线图/知识目录/性能优化.md",
@@ -385,11 +391,6 @@
     "_posts/performance/optimization-methods/SVG Symbols.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
-    "_posts/browser/渲染/渲染流程/6.绘制（Paint）.md",
-    "_posts/browser/渲染/渲染流程/5.分层、图层（Layers）.md",
-    "_posts/base/css/总结/堆叠上下文.md",
-    "_posts/任务记录/2025/学习、复习记录.md",
-    "_posts/base/css/总结/格式化上下文.md",
     "_posts/base/css/总结/视觉格式化模型",
     "_posts/base/css/总结/布局",
     "_posts/网络/缓存",
@@ -405,7 +406,6 @@
     "_posts/performance/性能指标/media",
     "_posts/performance/性能指标",
     "_posts/server",
-    "_posts/browser/渲染/渲染流程/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
