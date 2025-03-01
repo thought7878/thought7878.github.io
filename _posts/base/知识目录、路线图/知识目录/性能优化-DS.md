@@ -27,8 +27,8 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
 
 ---
 
-### **一、资源加载优化**
-#### **1. 减少资源体积**
+### 一、资源加载优化
+#### 1. 减少资源体积
 - **优化图片**：
   - **格式选择**：优先使用 WebP（支持透明度的 AVIF 更优），JPEG 2000/XR 作为备选。
   - **压缩工具**：使用 Squoosh、ImageOptim 或 CDN 动态压缩（如 Cloudinary）。
@@ -46,20 +46,20 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
   - **子集化**：使用 `fonttools` *提取页面实际用到的字符*。
   - **FOUT 控制**：`font-display: swap` 避免布局偏移，预加载关键字体。
 
-#### **2. 减少 HTTP 请求**
+#### 2. 减少 HTTP 请求
 - **合并资源**：小图标用雪碧图（Sprite）或 [[SVG Symbols]]。
 - **内联关键 CSS**：首屏关键样式直接内联到 HTML，避免阻塞渲染。
-- **HTTP/2 多路复用**：利用 HTTP/2 并行加载特性，避免域名分片。
+- **HTTP/2 多路复用**：利用 HTTP/2 并行加载特性，*避免域名分片*。
 
-#### **3. 缓存策略**
+#### 3. 缓存策略
 - **强缓存**：`Cache-Control: max-age=31536000`（1 年）用于哈希命名的静态资源。
 - **协商缓存**：`ETag`/`Last-Modified` 用于*频繁更新的资源*。
 - **Service Worker**：实现离线缓存和资源预加载（PWA 核心）。
 
 ---
 
-### **二、渲染性能优化**
-#### **1. 关键渲染路径（CRP）优化**
+### 二、渲染性能优化
+#### 1. 关键渲染路径（CRP）优化
 - **优化 HTML 结构**：
   - 避免深层嵌套，减少 DOM 节点数量（理想 < 1500 节点）。
   - 使用语义化标签提升解析效率。
@@ -70,7 +70,7 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
   - 使用 `async`/`defer` 属性控制脚本加载顺序。
   - 避免同步布局操作（如强制 `offsetHeight` 读取）。
 
-#### **2. 减少重排（Reflow）与重绘（Repaint）**
+#### 2. 减少重排（Reflow）与重绘（Repaint）
 - **批处理 DOM 操作**：
   ```javascript
   // 错误示例：多次触发重排
@@ -83,14 +83,14 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
 - **离线 DOM 操作**：使用 `document.createDocumentFragment()` 或克隆节点。
 - **GPU 加速**：对动画元素使用 `transform`/`opacity`，触发合成层（Compositing Layer）。
 
-#### **3. 图层管理**
+#### 3. 图层管理
 - **减少图层数量**：避免滥用 `will-change` 和 `transform: translateZ(0)`。
 - **图层压缩**：使用 Chrome DevTools 的 Layers 面板分析图层爆炸问题。
 
 ---
 
-### **三、JavaScript 执行优化**
-#### **1. 主线程优化**
+### 三、JavaScript 执行优化
+#### 1. 主线程优化
 - **任务拆分**：将长任务分解为 <50ms 的微任务（`setTimeout` 或 `queueMicrotask`）。
 - **Web Workers**：将计算密集型任务（如 WASM 处理）移出主线程。
   ```javascript
@@ -106,7 +106,7 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
   };
   ```
 
-#### **2. 事件处理优化**
+#### 2. 事件处理优化
 - **防抖（Debounce）与节流（Throttle）**：
   ```javascript
   // Lodash 实现示例
@@ -114,7 +114,7 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
   ```
 - **被动事件监听器**：`addEventListener('scroll', fn, { passive: true })` 避免阻塞滚动。
 
-#### **3. 内存管理**
+#### 3. 内存管理
 - **避免内存泄漏**：
   - 及时解绑事件监听器（尤其是单页应用）。
   - 避免闭包意外引用 DOM 节点。
@@ -122,16 +122,16 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
 
 ---
 
-### **四、网络传输优化**
-#### **1. CDN 与边缘计算**
+### 四、网络传输优化
+#### 1. CDN 与边缘计算
 - **静态资源分发**：将 JS/CSS/图片托管到 CDN（如 Cloudflare、Akamai）。
 - **边缘缓存**：利用 Cloudflare Workers 或 AWS Lambda@Edge 实现动态内容缓存。
 
-#### **2. 协议优化**
+#### 2. 协议优化
 - **HTTP/2 或 HTTP/3**：多路复用、头部压缩、0-RTT 等特性显著提升速度。
 - **QUIC 协议**：基于 UDP 的 HTTP/3 改善高延迟网络下的性能。
 
-#### **3. 预加载与预连接**
+#### 3. 预加载与预连接
 - **资源提示**：
   ```html
   <link rel="preload" href="critical.css" as="style">
@@ -142,13 +142,13 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
 
 ---
 
-### **五、构建与部署优化**
-#### **1. 现代构建工具链**
+### 五、构建与部署优化
+#### 1. 现代构建工具链
 - **增量构建**：Webpack 5 持久化缓存、Vite 的 ESM 按需编译。
 - **Tree Shaking**：确保 `sideEffects: false` 标记，配合 `@babel/preset-env` 按需 polyfill。
 - **代码分割策略**：基于路由的动态导入（React.lazy + Suspense）。
 
-#### **2. 部署策略**
+#### 2. 部署策略
 - **版本化文件名**：`main.abcd1234.js` 实现永久缓存。
 - **灰度发布**：通过 Feature Flags 逐步验证性能影响。
 
@@ -179,14 +179,15 @@ JavaScript优化需要包括减少主线程负担，防抖节流，Web Workers�
 
 ---
 
-### **总结：优化优先级矩阵**
-| 优化方向         | 高 ROI 方案示例                     | 实施难度 |
-|------------------|------------------------------------|----------|
-| **资源加载**     | 图片懒加载、HTTP/2、Brotli 压缩     | 低       |
-| **渲染性能**     | 减少重排、GPU 加速动画              | 中       |
-| **JavaScript**   | 代码分割、Web Workers               | 高       |
-| **网络传输**     | CDN、预加载                        | 中       |
-| **监控**         | Core Web Vitals 跟踪               | 低       |
+### 总结：优化优先级矩阵
+
+| 优化方向           | 高 ROI 方案示例             | 实施难度 |
+| -------------- | ---------------------- | ---- |
+| **资源加载**       | 图片懒加载、HTTP/2、Brotli 压缩 | 低    |
+| **渲染性能**       | 减少重排、GPU 加速动画          | 中    |
+| **JavaScript** | 代码分割、Web Workers       | 高    |
+| **网络传输**       | CDN、预加载                | 中    |
+| **监控**         | Core Web Vitals 跟踪     | 低    |
 
 **关键原则**：  
 1. **测量优先**：用工具定位瓶颈（如 Lighthouse 低分项）。  

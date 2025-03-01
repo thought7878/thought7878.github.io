@@ -119,7 +119,7 @@
 - `ReactDOM.createPortal`
 
 ## 性能优化
-参考：[[性能优化-QW]]、
+参考：[[_posts/react/总结/性能优化/性能优化-QW]]、
 - `React.memo`
 - `PureComponent`
 - `shouldComponentUpdate`
