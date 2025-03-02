@@ -171,7 +171,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/任务记录/2025/March/单词.md",
+                "file": "_posts/algorithm & 数据结构/数据结构/队列（Queue）-QW.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:单词 line:(pop)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/任务记录/2025/查询单词的提示词模版.md",
+                "file": "_posts/algorithm & 数据结构/数据结构/队列（Queue）-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/任务记录/2025/查询单词的提示词模版.md",
+                "file": "_posts/algorithm & 数据结构/数据结构/队列（Queue）-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,13 +303,11 @@
             }
           },
           {
-            "id": "9e65bf2be7f1ee31",
+            "id": "a16c9704b5e7fa50",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "_posts/任务记录/2025/查询单词的提示词模版.md"
-              }
+              "type": "quiet-outline",
+              "state": {}
             }
           }
         ],
@@ -370,41 +368,42 @@
       }
     ]
   },
-  "active": "c58991077fa4342e",
+  "active": "a7f01fa13987c4b2",
   "lastOpenFiles": [
-    "_posts/任务记录/2025/英文单词的记忆技巧.md",
-    "_posts/任务记录/2025/March/单词.md",
+    "_posts/algorithm & 数据结构/数据结构/栈（Stack）-QW.md",
+    "_posts/algorithm & 数据结构/数据结构/栈（Stack）-DS.md",
+    "_posts/algorithm & 数据结构/数据结构/队列（Queue）-DS.md",
+    "_posts/要整理的.md",
+    "_posts/algorithm & 数据结构/数据结构/队列（Queue）-QW.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
+    "_posts/读书笔记/社会 & 资本主义.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
     "_posts/任务记录/2025/查询单词的提示词模版.md",
-    "_posts/任务记录/2025/英语.md",
+    "_posts/任务记录/2025/March/单词.md",
+    "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
+    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？-DS.md",
+    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？-QW.md",
+    "_posts/algorithm & 数据结构/数据结构",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组-DS.md",
-    "_posts/世界趋势/世界趋势记录.md",
-    "_posts/世界趋势/美国.md",
+    "_posts/任务记录/2025/February/单词.md",
+    "_posts/任务记录/2025/英文单词的记忆技巧.md",
+    "_posts/任务记录/2025/英语.md",
+    "_posts/读书笔记/世界趋势/世界趋势记录.md",
+    "_posts/读书笔记/世界趋势/美国.md",
     "_posts/任务记录/2025/March/单词",
     "_posts/任务记录/2025/March",
-    "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
-    "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
-    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组的底层实现-QW.md",
     "_posts/base/js/知识点总结/数据类型/Array.md",
     "_posts/base/js/知识点总结/数据类型/数组",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/algorithm/数据结构是什么？为什么学习数据结构？-QW.md",
-    "_posts/algorithm/数据结构是什么？为什么学习数据结构？-DS.md",
-    "_posts/algorithm/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/1、面试总有套路，算法不是玄学——写给普通人的前端算法面试攻略.md",
     "_posts/base/知识目录、路线图/知识目录/性能优化-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/性能优化.md",
-    "_posts/algorithm/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
-    "_posts/algorithm/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
-    "_posts/algorithm/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
-    "_posts/algorithm/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
-    "_posts/algorithm/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-QW.md",
-    "_posts/algorithm/算法是什么？为什么？-DS.md",
-    "_posts/algorithm/算法是什么？为什么？-QW.md",
-    "_posts/algorithm/前端算法与数据结构/media/6a16e210fc6463c45f01c01e655173da_MD5.png",
-    "_posts/algorithm/前端算法与数据结构/media/71ac1c76bcf11c348779cd86661e3545_MD5.png",
-    "_posts/algorithm/前端算法与数据结构/media/e400d6cb739e31f8d6c0c41521834328_MD5.png",
-    "_posts/algorithm/前端算法与数据结构/media/aab2d65aaa52f14f716761f747a7c895_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/6a16e210fc6463c45f01c01e655173da_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/71ac1c76bcf11c348779cd86661e3545_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/e400d6cb739e31f8d6c0c41521834328_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/aab2d65aaa52f14f716761f747a7c895_MD5.png",
     "_posts/base/css/总结/视觉格式化模型",
     "_posts/base/css/总结/布局",
     "_posts/网络/缓存",
@@ -417,7 +416,6 @@
     "_posts/网络/HTTP/media",
     "_posts/网络/HTTP",
     "_posts/网络/media",
-    "_posts/performance/性能指标/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
