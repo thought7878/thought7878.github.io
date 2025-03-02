@@ -171,14 +171,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
+                "file": "_posts/任务记录/2025/March/单词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c58991077fa4342e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/任务记录/2025/查询单词的提示词模版.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -256,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
+                "file": "_posts/任务记录/2025/查询单词的提示词模版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
+                "file": "_posts/任务记录/2025/查询单词的提示词模版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +308,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/数组/二维数组.md"
+                "file": "_posts/任务记录/2025/查询单词的提示词模版.md"
               }
             }
           }
@@ -358,12 +370,20 @@
       }
     ]
   },
-  "active": "a7f01fa13987c4b2",
+  "active": "c58991077fa4342e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
+    "_posts/任务记录/2025/英文单词的记忆技巧.md",
+    "_posts/任务记录/2025/March/单词.md",
+    "_posts/任务记录/2025/查询单词的提示词模版.md",
+    "_posts/任务记录/2025/英语.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组-DS.md",
-    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
+    "_posts/世界趋势/世界趋势记录.md",
+    "_posts/世界趋势/美国.md",
+    "_posts/任务记录/2025/March/单词",
+    "_posts/任务记录/2025/March",
+    "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
     "_posts/algorithm/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
+    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组的底层实现-QW.md",
     "_posts/base/js/知识点总结/数据类型/Array.md",
     "_posts/base/js/知识点总结/数据类型/数组",
@@ -385,12 +405,6 @@
     "_posts/algorithm/前端算法与数据结构/media/71ac1c76bcf11c348779cd86661e3545_MD5.png",
     "_posts/algorithm/前端算法与数据结构/media/e400d6cb739e31f8d6c0c41521834328_MD5.png",
     "_posts/algorithm/前端算法与数据结构/media/aab2d65aaa52f14f716761f747a7c895_MD5.png",
-    "_posts/base/知识目录、路线图/知识目录/性能优化-QW.md",
-    "_posts/base/知识目录、路线图/学习计划/性能优化 学习计划-QW.md",
-    "_posts/base/css/总结/视觉格式化模型.md",
-    "_posts/performance/optimization-methods/SVG Symbols.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/browser/渲染/渲染流程/7.合成（Composite）.md",
     "_posts/base/css/总结/视觉格式化模型",
     "_posts/base/css/总结/布局",
     "_posts/网络/缓存",
@@ -404,8 +418,6 @@
     "_posts/网络/HTTP",
     "_posts/网络/media",
     "_posts/performance/性能指标/media",
-    "_posts/performance/性能指标",
-    "_posts/server",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

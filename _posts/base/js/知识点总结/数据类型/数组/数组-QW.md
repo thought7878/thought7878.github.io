@@ -64,24 +64,24 @@ const arr2 = new Array(1, 2, 3); // 创建一个包含 1, 2, 3 的数组
 ## **三、数组的常用方法**
 ### **1. 增加/删除元素**
 #### 添加元素
-- `push(...items)`：向数组末尾添加元素，返回新长度。
+- `push(...items)`：向数组*末尾添加元素*，返回新长度。
   ```javascript
   const arr = [1, 2];
   arr.push(3); // [1, 2, 3]
   ```
-- `unshift(...items)`：向数组开头添加元素，返回新长度。
+- `unshift(...items)`：向数组*开头添加元素*，返回新长度。“把（已移动的东西）移回原处”
   ```javascript
   const arr = [2, 3];
   arr.unshift(1); // [1, 2, 3]
   ```
 
 #### 删除元素
-- `pop()`：移除数组末尾的元素，返回被移除的元素。
+- `pop()`：*移除数组末尾的元素*，返回被移除的元素。“取出；拔出；分开”
   ```javascript
   const arr = [1, 2, 3];
   arr.pop(); // 返回 3，数组变为 [1, 2]
   ```
-- `shift()`：移除数组开头的元素，返回被移除的元素。
+- `shift()`：*移除数组开头的元素*，返回被移除的元素。“移动；转移”
   ```javascript
   const arr = [1, 2, 3];
   arr.shift(); // 返回 1，数组变为 [2, 3]
@@ -89,14 +89,14 @@ const arr2 = new Array(1, 2, 3); // 创建一个包含 1, 2, 3 的数组
 
 ### **2. 修改数组**
 #### 替换部分元素
-- `splice(start, deleteCount, ...items)`：从 `start` 索引开始，删除 `deleteCount` 个元素，并插入新的元素。
+- `splice(start, deleteCount, ...items)`：从 `start` 索引开始，删除 `deleteCount` 个元素，并插入新的元素。“拼接；接合”
   ```javascript
   const arr = [1, 2, 3, 4];
   arr.splice(1, 2, 'a', 'b'); // [1, 'a', 'b', 4]
   ```
 
 #### 复制或填充
-- `slice(start, end)`：返回从 `start` 到 `end`（不包括 `end`）的子数组。
+- `slice(start, end)`：返回从 `start` 到 `end`（不包括 `end`）的子数组。“把… 切成薄片”
   ```javascript
   const arr = [1, 2, 3, 4];
   const subArr = arr.slice(1, 3); // [2, 3]
@@ -230,4 +230,7 @@ JavaScript 的数组是一个强大且灵活的数据结构，适用于各种场
 2. **理解原理**：了解数组的底层实现（如连续内存分配）。
 3. **结合实际应用**：在项目中尝试使用数组解决实际问题。
 
-希望这份总结能帮助你更好地理解和使用 JavaScript 数组！
+
+## 相关资料
+- [[2、快速上手——从0到1掌握算法面试需要的数据结构（一）]]
+- 
