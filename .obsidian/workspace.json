@@ -116,18 +116,6 @@
             }
           },
           {
-            "id": "2e4d6b114d8d8496",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/任务记录/2025/学习、复习记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ae469e889d576683",
             "type": "leaf",
             "state": {
@@ -171,7 +159,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
+                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c8d081059b3df41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/algorithm & 数据结构/数据结构/树/二叉树（Binary Tree）.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,27 +188,21 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 13
-      },
-      {
-        "id": "9228ab91f7d8d5bf",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "7c8d081059b3df41",
+            "id": "2e4d6b114d8d8496",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+                "file": "_posts/任务记录/2025/学习、复习记录.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -270,8 +264,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -287,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+                "file": "_posts/algorithm & 数据结构/数据结构/树/二叉树（Binary Tree）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+                "file": "_posts/algorithm & 数据结构/数据结构/树/二叉树（Binary Tree）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -389,10 +382,28 @@
   },
   "active": "7c8d081059b3df41",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/数据结构/数组.md",
+    "_posts/algorithm & 数据结构/数据结构/树/树（Tree）.md",
+    "_posts/algorithm & 数据结构/数据结构/树/二叉树（Binary Tree）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
-    "_posts/读书笔记/外面的世界/移民.md",
+    "_posts/algorithm & 数据结构/数据结构/树",
     "_posts/algorithm & 数据结构/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
+    "_posts/任务记录/2025/学习、复习记录.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/性能优化-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
+    "_posts/读书笔记/外面的世界/男女.md",
+    "_posts/读书笔记/外面的世界/人性.md",
+    "_posts/AI/搞钱/别人的方法.md",
+    "_posts/AI/搞钱/搞钱总览.md",
+    "_posts/AI/搞钱/AI内容创作.md",
+    "_posts/AI/趋势.md",
+    "_posts/AI/学习.md",
+    "_posts/AI/AI工具集合.md",
+    "_posts/AI/使用方法.md",
+    "_posts/algorithm & 数据结构/数据结构/数组.md",
+    "_posts/读书笔记/外面的世界/移民.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组-DS.md",
     "_posts/base/js/知识点总结/数据类型/数组/数组-QW.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
@@ -400,24 +411,7 @@
     "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）-QW.md",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/78b973f718ed58a44f63c041de3c9807_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/2、快速上手——从0到1掌握算法面试需要的数据结构（一）.md",
-    "_posts/algorithm & 数据结构/数据结构/队列（Queue）.md",
-    "_posts/algorithm & 数据结构/数据结构/队列（Queue）-QW.md",
-    "_posts/algorithm & 数据结构/数据结构/栈（Stack）-DS.md",
-    "_posts/要整理的.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/任务记录/2025/查询单词的提示词模版.md",
-    "_posts/任务记录/2025/March/单词.md",
-    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？-DS.md",
-    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？-QW.md",
     "_posts/algorithm & 数据结构/数据结构",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
-    "_posts/base/js/知识点总结/数据类型/数组/二维数组.md",
-    "_posts/任务记录/2025/February/单词.md",
-    "_posts/任务记录/2025/英文单词的记忆技巧.md",
-    "_posts/任务记录/2025/英语.md",
-    "_posts/读书笔记/世界趋势/世界趋势记录.md",
     "_posts/任务记录/2025/March/单词",
     "_posts/任务记录/2025/March",
     "_posts/base/js/知识点总结/数据类型/数组",
@@ -434,7 +428,6 @@
     "_posts/网络/HTTP/media/Pasted image 20250226142256.png",
     "_posts/网络/HTTP/media/1b466485522eb89cff3aff779248ae0f_MD5.jpeg",
     "_posts/网络/HTTP/media",
-    "_posts/网络/HTTP",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
