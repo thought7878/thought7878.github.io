@@ -137,7 +137,7 @@ class LinkedList {
     } else {
       // 遍历到最后一个节点
       let current = this.head;
-      while (current.next !== null) {
+      while (current.next !== null) {//???
         current = current.next;
       }
       current.next = newNode;  // 最后一个节点指向新节点
@@ -184,7 +184,11 @@ class LinkedList {
 
 ```
 
-
+插入前：   
+![[ebe6b0ad45fd798d55e9e0f2638a8bf7_MD5.png]]
+插入后：   
+![[3f22303796854d5b1edc5aa9a91c7ba7_MD5.png]]
+  
 
 ### 删除
 #### 头部删除
@@ -204,16 +208,289 @@ class LinkedList {
   }
 ```
 
-**尾部删除**：遍历至倒数第二个节点，断开其 `next` 指针（O(n)）。
+#### 尾部删除
+遍历至倒数第二个节点，断开其 `next` 指针（O(n)）。
 
+```js
+/**
+   * 删除尾部节点
+   * 时间复杂度：O(n)
+   * @returns {*} 被删除节点的值
+   */
+  deleteTail() {
+    if (this.head === null) return null;
+    // 处理只有一个节点的特殊情况
+    if (this.head.next === null) {
+      return this.deleteHead();
+    }
 
-**指定位置删除**：调整前驱节点的 `next` 以跳过目标节点（O(n)）。
+    // 找到倒数第二个节点
+    let current = this.head;
+    while (current.next.next !== null) {
+      current = current.next;
+    }
+    const value = current.next.value;
+    current.next = null;  // 断开最后一个节点的连接
+    this.size--;
+    return value;
+  }
+```
+
+#### 指定位置删除
+调整前驱节点的 `next` 以跳过目标节点（O(n)）。
+
+```js
+/**
+   * 删除指定索引位置的节点
+   * 时间复杂度：O(n)
+   * @param {number} index - 要删除的位置（0-based）
+   * @returns {*} 被删除节点的值
+   */
+  deleteAt(index) {
+    if (index < 0 || index >= this.size) return null;  // 越界检查
+    if (index === 0) return this.deleteHead();        // 处理头部删除
+
+    // 找到要删除节点的前驱节点
+    let current = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      current = current.next;
+    }
+    const value = current.next.value;
+    current.next = current.next.next;  // 跳过要删除的节点
+    this.size--;
+    return value;
+  }
+```
 
 ### 查找
-查找链表中的某个节点。
+查找值对应的第一个索引。
+
+```js
+/**
+   * 查找值对应的第一个索引
+   * 时间复杂度：O(n)
+   * @param {*} value - 要查找的值
+   * @returns {number} 找到的索引，未找到返回-1
+   */
+  find(value) {
+    let current = this.head;
+    let index = 0;
+    while (current !== null) {
+      if (current.value === value) return index;
+      current = current.next;
+      index++;
+    }
+    return -1;
+  }
+```
 
 ### 遍历
 从头节点开始，依次访问每个节点，直到末尾。
+参考：[[遍历链表]]
+
+### **完整代码：**
+```js
+/**
+ * 链表节点类
+ */
+class Node {
+  constructor(value) {
+    this.value = value;  // 节点存储的值
+    this.next = null;    // 指向下一个节点的指针（默认为null）
+  }
+}
+
+/**
+ * 链表类
+ */
+class LinkedList {
+  constructor() {
+    this.head = null;   // 链表头节点（初始为空链表）
+    this.size = 0;      // 链表长度计数器
+  }
+
+  /**
+   * 在链表头部插入新节点
+   * 时间复杂度：O(1)
+   * @param {*} value - 要插入的值
+   */
+  prepend(value) {
+    const newNode = new Node(value);
+    newNode.next = this.head;  // 新节点指向原头节点
+    this.head = newNode;        // 更新头节点为新节点
+    this.size++;
+  }
+
+  /**
+   * 在链表尾部插入新节点
+   * 时间复杂度：O(n)
+   * @param {*} value - 要插入的值
+   */
+  append(value) {
+    const newNode = new Node(value);
+    // 处理空链表情况
+    if (this.head === null) {
+      this.head = newNode;
+    } else {
+      // 遍历到最后一个节点
+      let current = this.head;
+      while (current.next !== null) {
+        current = current.next;
+      }
+      current.next = newNode;  // 最后一个节点指向新节点
+    }
+    this.size++;
+  }
+
+  /**
+   * 在指定索引位置插入节点
+   * 时间复杂度：O(n)
+   * @param {number} index - 要插入的位置（0-based）
+   * @param {*} value - 要插入的值
+   * @returns {boolean} 是否插入成功
+   */
+  insertAt(index, value) {
+    if (index < 0 || index > this.size) return false;  // 越界检查
+    
+    // 处理头部插入的特殊情况
+    if (index === 0) {
+      this.prepend(value);
+      return true;
+    }
+
+    const newNode = new Node(value);
+    // 找到插入位置的前驱节点
+    let current = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      current = current.next;
+    }
+    // 调整指针连接
+    newNode.next = current.next;
+    current.next = newNode;
+    this.size++;
+    return true;
+  }
+
+  /**
+   * 删除头部节点
+   * 时间复杂度：O(1)
+   * @returns {*} 被删除节点的值
+   */
+  deleteHead() {
+    if (this.head === null) return null;
+    const value = this.head.value;
+    this.head = this.head.next;  // 头指针后移
+    this.size--;
+    return value;
+  }
+
+  /**
+   * 删除尾部节点
+   * 时间复杂度：O(n)
+   * @returns {*} 被删除节点的值
+   */
+  deleteTail() {
+    if (this.head === null) return null;
+    // 处理只有一个节点的特殊情况
+    if (this.head.next === null) {
+      return this.deleteHead();
+    }
+
+    // 找到倒数第二个节点
+    let current = this.head;
+    while (current.next.next !== null) {
+      current = current.next;
+    }
+    const value = current.next.value;
+    current.next = null;  // 断开最后一个节点的连接
+    this.size--;
+    return value;
+  }
+
+  /**
+   * 删除指定索引位置的节点
+   * 时间复杂度：O(n)
+   * @param {number} index - 要删除的位置（0-based）
+   * @returns {*} 被删除节点的值
+   */
+  deleteAt(index) {
+    if (index < 0 || index >= this.size) return null;  // 越界检查
+    if (index === 0) return this.deleteHead();        // 处理头部删除
+
+    // 找到要删除节点的前驱节点
+    let current = this.head;
+    for (let i = 0; i < index - 1; i++) {
+      current = current.next;
+    }
+    const value = current.next.value;
+    current.next = current.next.next;  // 跳过要删除的节点
+    this.size--;
+    return value;
+  }
+
+  /**
+   * 查找值对应的第一个索引
+   * 时间复杂度：O(n)
+   * @param {*} value - 要查找的值
+   * @returns {number} 找到的索引，未找到返回-1
+   */
+  find(value) {
+    let current = this.head;
+    let index = 0;
+    while (current !== null) {
+      if (current.value === value) return index;
+      current = current.next;
+      index++;
+    }
+    return -1;
+  }
+
+  /**
+   * 反转链表
+   * 时间复杂度：O(n)
+   */
+  reverse() {
+    let prev = null;      // 前驱指针
+    let current = this.head;  // 当前指针
+    while (current !== null) {
+      const next = current.next;  // 临时保存下一个节点
+      current.next = prev;        // 反转指针方向
+      prev = current;             // 前驱指针后移
+      current = next;             // 当前指针后移
+    }
+    this.head = prev;  // 更新头指针
+  }
+
+  /**
+   * 将链表转换为数组
+   * 时间复杂度：O(n)
+   * @returns {Array} 包含链表元素的数组
+   */
+  toArray() {
+    const array = [];
+    let current = this.head;
+    while (current !== null) {
+      array.push(current.value);
+      current = current.next;
+    }
+    return array;
+  }
+
+  /**
+   * 可视化打印链表结构
+   */
+  print() {
+    let str = '';
+    let current = this.head;
+    while (current !== null) {
+      str += `${current.value} -> `;
+      current = current.next;
+    }
+    str += 'null';
+    console.log(str);
+  }
+}
+```
 
 ---
 
