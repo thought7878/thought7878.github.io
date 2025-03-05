@@ -219,9 +219,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:单词 line:(pop)",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -370,8 +370,8 @@
   },
   "active": "a7f01fa13987c4b2",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "_posts/base/js/知识点总结/正则表达式.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "_posts/algorithm & 数据结构/算法题/字符串/字符串与数字之间的转换问题.md",
     "_posts/algorithm & 数据结构/算法题/字符串/字符串匹配问题.md",
     "_posts/algorithm & 数据结构/算法题/字符串/回文字符串的变种问题.md",
