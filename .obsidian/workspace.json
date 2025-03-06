@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -259,8 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -276,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,8 +377,16 @@
   },
   "active": "a04f886b7749f91e",
   "lastOpenFiles": [
+    "_posts/methods/学习方法/主动回忆（Active Recall）.md",
+    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+    "_posts/methods/学习方法/间隔重复（Spaced Repetition）.md",
+    "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
+    "_posts/methods/学习方法/费曼学习法.md",
+    "_posts/methods/学习方法",
+    "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg.md",
+    "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
+    "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/任务记录/2025/February/单词.md",
-    "_posts/methods/【Ali Abdaal】超强超全面的学习方法总结.md",
     "_posts/methods/常看的.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md",
@@ -400,12 +407,7 @@
     "_posts/algorithm & 数据结构/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
     "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "_posts/base/js/知识点总结/正则表达式/正则表达式.md",
-    "_posts/base/js/知识点总结/数据类型/字符串/match().md",
     "_posts/base/js/知识点总结/数据类型/字符串",
-    "_posts/base/js/知识点总结/数据类型/字符串/字符串.md",
-    "_posts/algorithm & 数据结构/算法题/字符串/字符串与数字之间的转换问题.md",
-    "_posts/base/js/知识点总结/正则表达式/分组与引用.md",
-    "_posts/base/js/知识点总结/正则表达式/定位符.md",
     "_posts/base/js/知识点总结/正则表达式",
     "_posts/algorithm & 数据结构/算法题/字符串",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
@@ -419,11 +421,8 @@
     "_posts/algorithm & 数据结构/算法题",
     "_posts/algorithm & 数据结构/media",
     "_posts/algorithm & 数据结构/算法",
-    "_posts/algorithm & 数据结构/数据结构/树",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/78b973f718ed58a44f63c041de3c9807_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/6a16e210fc6463c45f01c01e655173da_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/71ac1c76bcf11c348779cd86661e3545_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/e400d6cb739e31f8d6c0c41521834328_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
