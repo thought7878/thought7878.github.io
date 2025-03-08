@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/要整理的.md",
+                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
                 "mode": "source",
                 "source": false
               }
@@ -197,7 +197,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,13 +376,32 @@
       }
     ]
   },
-  "active": "a04f886b7749f91e",
+  "active": "a05433e55328a638",
   "lastOpenFiles": [
+    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
+    "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+    "_posts/methods/构建系统/《Building a Second Brain》",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
+    "_posts/methods/构建系统/《原子习惯》",
+    "_posts/methods/构建系统/真正的高手，正在建构系统.md",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/《我的人生样样稀松照样赢》总结.md",
+    "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
+    "_posts/methods/构建系统/如何告别知识焦虑，搭建个人知识体系.md",
+    "_posts/methods/要整理的.md",
     "_posts/要整理的.md",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
+    "_posts/读书笔记/外面的世界/趋势.md",
+    "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
+    "_posts/methods/media/Pasted image 20250308162711.png",
     "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+    "_posts/tools/obsidian/知识管理.md",
+    "_posts/methods/常看的.md",
+    "_posts/methods/构建系统",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md",
+    "_posts/读书笔记/外面的世界/人性.md",
+    "_posts/methods/学习方法/科学证明的最佳学习方法！——安德鲁·休伯曼.md",
     "_posts/methods/学习方法/康奈尔笔记系统.md",
     "_posts/methods/学习方法/思维导图.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/搞钱/工具.md",
     "_posts/methods/学习方法/主动回忆（Active Recall）.md",
     "_posts/methods/学习方法/间隔重复（Spaced Repetition）.md",
@@ -393,20 +413,7 @@
     "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/任务记录/2025/February/单词.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/algorithm & 数据结构/算法题/链表/合并有序链表.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/合并有序链表.md",
-    "_posts/读书笔记/外面的世界/男女.md",
-    "_posts/读书笔记/外面的世界/未命名.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/虚拟头节点（Dummy Head）.md",
-    "_posts/读书笔记/外面的世界/人性.md",
-    "_posts/algorithm & 数据结构/算法题/数组/三数求和.md",
-    "_posts/任务记录/2025/学习、复习记录.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
     "_posts/algorithm & 数据结构/算法题/链表",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
     "_posts/base/js/知识点总结/数据类型/字符串",
     "_posts/base/js/知识点总结/正则表达式",
     "_posts/algorithm & 数据结构/算法题/字符串",
@@ -417,12 +424,6 @@
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/e066461d9affa49a5c85b9f0088c8f1e_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abc47eeaa35b4fd8bbcfca3f1c6a400b_MD5.png",
-    "_posts/algorithm & 数据结构/算法题/数组",
-    "_posts/algorithm & 数据结构/算法题",
-    "_posts/algorithm & 数据结构/media",
-    "_posts/algorithm & 数据结构/算法",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/78b973f718ed58a44f63c041de3c9807_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/6a16e210fc6463c45f01c01e655173da_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
