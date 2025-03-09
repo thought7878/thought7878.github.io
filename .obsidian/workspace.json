@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+                "file": "_posts/任务记录/daily template.md",
                 "mode": "source",
                 "source": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+                "file": "_posts/任务记录/daily template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+                "file": "_posts/任务记录/daily template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,8 @@
       "media-extended:Open media": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false
     }
   },
   "floating": {
@@ -378,8 +379,13 @@
   },
   "active": "a05433e55328a638",
   "lastOpenFiles": [
-    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
+    "_posts/读书笔记/外面的世界/人性.md",
+    "_posts/任务记录/daily template.md",
+    "_posts/任务记录/2025/February/单词.md",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+    "_posts/任务记录/2025/目标.md",
+    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
+    "_posts/任务记录/2025/学习、复习记录.md",
     "_posts/methods/构建系统/《Building a Second Brain》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
     "_posts/methods/构建系统/《原子习惯》",
@@ -398,7 +404,6 @@
     "_posts/methods/常看的.md",
     "_posts/methods/构建系统",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md",
-    "_posts/读书笔记/外面的世界/人性.md",
     "_posts/methods/学习方法/科学证明的最佳学习方法！——安德鲁·休伯曼.md",
     "_posts/methods/学习方法/康奈尔笔记系统.md",
     "_posts/methods/学习方法/思维导图.md",
@@ -406,13 +411,9 @@
     "_posts/methods/学习方法/主动回忆（Active Recall）.md",
     "_posts/methods/学习方法/间隔重复（Spaced Repetition）.md",
     "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
-    "_posts/methods/学习方法/费曼学习法.md",
     "_posts/methods/学习方法",
-    "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg.md",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
-    "_posts/任务记录/2025/February/单词.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
     "_posts/algorithm & 数据结构/算法题/链表",
     "_posts/base/js/知识点总结/数据类型/字符串",
     "_posts/base/js/知识点总结/正则表达式",
