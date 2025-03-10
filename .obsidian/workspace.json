@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a4fd01e385f78a05",
+        "id": "365a708a738df9f2",
         "type": "tabs",
         "children": [
           {
-            "id": "a04f886b7749f91e",
+            "id": "cda4883ab67993cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a05433e55328a638",
+            "id": "6e5f1564c5a9889e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/要整理的.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cf0375354231ee1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,173 +44,43 @@
             }
           },
           {
-            "id": "66b9fa7429fe3f4e",
+            "id": "18660104342d1feb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/知识管理.md",
+                "file": "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d455f62f265daa2e",
+            "id": "783dd345eb31bfd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/问题/项目经验.md",
+                "file": "_posts/任务记录/daily template.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09e3011ecca2dbc2",
+            "id": "4f9980a87c9ab985",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/重塑自我 ！制定2025年计划！.md",
+                "file": "_posts/tools/obsidian/任务管理.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b1fd2a3020957bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e873bbeda0016a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/methods/卢曼笔记法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a64ac95449b6685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/教程/前端面试之道/23.React 常考基础知识点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1648c4f61f064361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae469e889d576683",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTTP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b525fbe54db1ad1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/性能优化-QW.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "316c140c25e32c95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbc267d9ed21cb66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f6c5ef744597eaa",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "2e4d6b114d8d8496",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/任务记录/2025/学习、复习记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7f01fa13987c4b2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(前端构建效率优化之路)",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -248,12 +130,8 @@
             "id": "be67923f2c1b46c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/overview_面试.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -276,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/任务记录/daily template.md",
+                "file": "_posts/tools/obsidian/任务管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/任务记录/daily template.md",
+                "file": "_posts/tools/obsidian/任务管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,10 +201,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "callout-manager:Insert Callout": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -336,90 +216,53 @@
       "media-extended:Open media": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "floating": {
-    "id": "cba83cc66d3e2a9a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "61bffabbc48468df",
-        "type": "window",
-        "children": [
-          {
-            "id": "805185ce994f7418",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "beb35d5849b103fd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_posts/任务记录/2025/February/单词.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 104,
-        "y": 40,
-        "width": 822,
-        "height": 860,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a05433e55328a638",
+  "active": "4f9980a87c9ab985",
   "lastOpenFiles": [
-    "_posts/读书笔记/外面的世界/人性.md",
+    "_posts/tools/obsidian/Dataview 插件.md",
+    "_posts/tools/obsidian/任务管理.md",
     "_posts/任务记录/daily template.md",
-    "_posts/任务记录/2025/February/单词.md",
+    "_posts/engineering/webpack/构建性能/**实际案例**.md",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/任务记录/2025/目标.md",
+    "_posts/要整理的.md",
+    "_posts/methods/要整理的.md",
+    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
+    "_posts/engineering/webpack/构建性能/3.其他的优化技巧（除了缓存和并行）.md",
+    "_posts/engineering/面试题的回答方法.md",
+    "_posts/engineering/面试题-来源网络.md",
+    "_posts/engineering/自动化构建.md",
+    "_posts/engineering/前端开发流程.md",
+    "_posts/engineering/webpack/原理总结1.md",
     "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
-    "_posts/任务记录/2025/学习、复习记录.md",
-    "_posts/methods/构建系统/《Building a Second Brain》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
-    "_posts/methods/构建系统/《原子习惯》",
-    "_posts/methods/构建系统/真正的高手，正在建构系统.md",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/《我的人生样样稀松照样赢》总结.md",
     "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
     "_posts/methods/构建系统/如何告别知识焦虑，搭建个人知识体系.md",
-    "_posts/methods/要整理的.md",
-    "_posts/要整理的.md",
+    "_posts/methods/构建系统/真正的高手，正在建构系统.md",
+    "_posts/methods/常看的.md",
+    "_posts/任务记录/2025/学习、复习记录.md",
+    "_posts/任务记录/待办.md",
+    "_posts/复习.md",
+    "_posts/2019-05-28-.md",
+    "_posts/疑问记录.md",
+    "daily notes",
+    "测试.md",
+    "templates/media",
+    "templates",
+    "_posts/methods/构建系统/《Building a Second Brain》",
+    "_posts/methods/构建系统/《原子习惯》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
-    "_posts/读书笔记/外面的世界/趋势.md",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",
-    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
-    "_posts/tools/obsidian/知识管理.md",
-    "_posts/methods/常看的.md",
     "_posts/methods/构建系统",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表.excalidraw.md",
-    "_posts/methods/学习方法/科学证明的最佳学习方法！——安德鲁·休伯曼.md",
-    "_posts/methods/学习方法/康奈尔笔记系统.md",
-    "_posts/methods/学习方法/思维导图.md",
-    "_posts/AI/搞钱/工具.md",
-    "_posts/methods/学习方法/主动回忆（Active Recall）.md",
-    "_posts/methods/学习方法/间隔重复（Spaced Repetition）.md",
-    "_posts/methods/艾宾浩斯记忆遗忘曲线记忆法.md",
     "_posts/methods/学习方法",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/algorithm & 数据结构/算法题/链表",
     "_posts/base/js/知识点总结/数据类型/字符串",
-    "_posts/base/js/知识点总结/正则表达式",
-    "_posts/algorithm & 数据结构/算法题/字符串",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
-    "_posts/base/js/知识点总结/循环",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",

@@ -1,5 +1,8 @@
 {
-  "activeProfile": {},
+  "activeProfile": {
+    "name": "default",
+    "modifiedAt": "2025-03-10T06:54:07.125Z"
+  },
   "profileUpdate": true,
   "profileUpdateDelay": 800,
   "uiUpdate": true,
