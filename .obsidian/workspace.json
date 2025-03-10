@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/methods/构建系统/建构系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,14 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/任务管理.md",
+                "file": "_posts/tools/obsidian/Dataview 插件.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/任务管理.md",
+                "file": "_posts/methods/构建系统/建构系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/任务管理.md",
+                "file": "_posts/methods/构建系统/建构系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,15 +218,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4f9980a87c9ab985",
+  "active": "cda4883ab67993cc",
   "lastOpenFiles": [
+    "_posts/methods/要整理的.md",
+    "_posts/要整理的.md",
     "_posts/tools/obsidian/Dataview 插件.md",
+    "_posts/读书笔记/外面的世界/趋势.md",
     "_posts/tools/obsidian/任务管理.md",
     "_posts/任务记录/daily template.md",
     "_posts/engineering/webpack/构建性能/**实际案例**.md",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/要整理的.md",
-    "_posts/methods/要整理的.md",
     "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
     "_posts/engineering/webpack/构建性能/3.其他的优化技巧（除了缓存和并行）.md",
     "_posts/engineering/面试题的回答方法.md",
@@ -240,7 +239,7 @@
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
     "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
     "_posts/methods/构建系统/如何告别知识焦虑，搭建个人知识体系.md",
-    "_posts/methods/构建系统/真正的高手，正在建构系统.md",
+    "_posts/methods/构建系统/建构系统.md",
     "_posts/methods/常看的.md",
     "_posts/任务记录/2025/学习、复习记录.md",
     "_posts/任务记录/待办.md",
@@ -248,7 +247,6 @@
     "_posts/2019-05-28-.md",
     "_posts/疑问记录.md",
     "daily notes",
-    "测试.md",
     "templates/media",
     "templates",
     "_posts/methods/构建系统/《Building a Second Brain》",
