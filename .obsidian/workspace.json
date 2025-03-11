@@ -73,13 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/Dataview 插件.md",
+                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,8 +109,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(前端构建效率优化之路)",
-                "matchingCase": true,
+                "query": "从零开始完整设置",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/构建系统/建构系统.md",
+                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/构建系统/建构系统.md",
+                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,12 +219,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cda4883ab67993cc",
+  "active": "4f9980a87c9ab985",
   "lastOpenFiles": [
-    "_posts/读书笔记/历史.md",
+    "_posts/tools/obsidian/插件/Tracker.md",
+    "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+    "_posts/tools/obsidian/插件/Heatmap Calendar.md",
+    "_posts/tools/obsidian/插件/Charts.md",
+    "_posts/tools/obsidian/插件/Callout Manager.md",
+    "_posts/tools/obsidian/插件/Journals.md",
+    "_posts/tools/obsidian/插件/Templater.md",
+    "_posts/tools/obsidian/插件/Dataview.md",
+    "_posts/tools/obsidian/插件",
     "_posts/methods/构建系统/建构系统.md",
+    "_posts/tools/obsidian/基础.md",
+    "_posts/tools/obsidian/知识管理.md",
+    "_posts/读书笔记/历史.md",
     "_posts/methods/要整理的.md",
-    "_posts/tools/obsidian/Dataview 插件.md",
     "_posts/要整理的.md",
     "_posts/读书笔记/外面的世界/趋势.md",
     "_posts/tools/obsidian/任务管理.md",
@@ -237,15 +248,6 @@
     "_posts/engineering/自动化构建.md",
     "_posts/engineering/前端开发流程.md",
     "_posts/engineering/webpack/原理总结1.md",
-    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
-    "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
-    "_posts/methods/构建系统/如何告别知识焦虑，搭建个人知识体系.md",
-    "_posts/methods/常看的.md",
-    "_posts/任务记录/2025/学习、复习记录.md",
-    "_posts/任务记录/待办.md",
-    "_posts/复习.md",
-    "_posts/2019-05-28-.md",
     "daily notes",
     "templates/media",
     "templates",
@@ -259,7 +261,6 @@
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/algorithm & 数据结构/算法题/链表",
-    "_posts/base/js/知识点总结/数据类型/字符串",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
