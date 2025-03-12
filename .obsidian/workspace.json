@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+                "file": "_posts/tools/obsidian/插件/Templater.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+                "file": "_posts/tools/obsidian/插件/Templater.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+                "file": "_posts/tools/obsidian/插件/Templater.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,14 +221,17 @@
   },
   "active": "4f9980a87c9ab985",
   "lastOpenFiles": [
-    "_posts/tools/obsidian/插件/Tracker.md",
+    "_posts/methods/构建系统/PKM（个人知识管理）.md",
+    "_posts/tools/obsidian/插件/Templater.md",
+    "_posts/tools/obsidian/插件/Dataview.md",
     "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+    "_posts/读书笔记/世界趋势/media",
+    "_posts/读书笔记/世界趋势/Crypto.md",
+    "_posts/tools/obsidian/插件/Tracker.md",
     "_posts/tools/obsidian/插件/Heatmap Calendar.md",
     "_posts/tools/obsidian/插件/Charts.md",
     "_posts/tools/obsidian/插件/Callout Manager.md",
     "_posts/tools/obsidian/插件/Journals.md",
-    "_posts/tools/obsidian/插件/Templater.md",
-    "_posts/tools/obsidian/插件/Dataview.md",
     "_posts/tools/obsidian/插件",
     "_posts/methods/构建系统/建构系统.md",
     "_posts/tools/obsidian/基础.md",
@@ -246,8 +249,6 @@
     "_posts/engineering/面试题的回答方法.md",
     "_posts/engineering/面试题-来源网络.md",
     "_posts/engineering/自动化构建.md",
-    "_posts/engineering/前端开发流程.md",
-    "_posts/engineering/webpack/原理总结1.md",
     "daily notes",
     "templates/media",
     "templates",
@@ -260,7 +261,6 @@
     "_posts/methods/学习方法",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
-    "_posts/algorithm & 数据结构/算法题/链表",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
