@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./media",
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "promptDelete": false
 }

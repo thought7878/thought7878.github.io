@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,8 +221,22 @@
   },
   "active": "4f9980a87c9ab985",
   "lastOpenFiles": [
+    "_posts/tools/obsidian/插件/Templater/media/8a3fb52106d697fe3a1ab0eb4fe6fccc_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/6c3f6483f14ae44cc1c2c7de922cdfd5_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/13d600c45f5dc013714f610caab9ae95_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/ef66a114e1b1d5a275eeaa18d669d9aa_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/55d180a26b5e1b71a36a0010e97b670c_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/e9bd408bc03c8b2461f5d001c5655ea0_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/1b35f5125cab5851cc42bb018f8a359b_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/4d3d35f3029a72365493aa59e60d0cea_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/888e19ad32c087d307f59a25c0400b19_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/a86a60b11a01673174de8cabb747df04_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/media/95488e73d173a5be7b7cdcbb806c913d_MD5.webp",
+    "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
+    "_posts/tools/obsidian/插件/Templater/media",
+    "_posts/tools/obsidian/插件/Templater/Templater.md",
+    "_posts/tools/obsidian/插件/Templater",
     "_posts/methods/构建系统/PKM（个人知识管理）.md",
-    "_posts/tools/obsidian/插件/Templater.md",
     "_posts/tools/obsidian/插件/Dataview.md",
     "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
     "_posts/读书笔记/世界趋势/media",
@@ -247,26 +261,12 @@
     "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
     "_posts/engineering/webpack/构建性能/3.其他的优化技巧（除了缓存和并行）.md",
     "_posts/engineering/面试题的回答方法.md",
-    "_posts/engineering/面试题-来源网络.md",
-    "_posts/engineering/自动化构建.md",
     "daily notes",
     "templates/media",
     "templates",
     "_posts/methods/构建系统/《Building a Second Brain》",
     "_posts/methods/构建系统/《原子习惯》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
-    "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
-    "_posts/methods/media/Pasted image 20250308162711.png",
-    "_posts/methods/构建系统",
-    "_posts/methods/学习方法",
-    "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
-    "_posts/methods/media/Pasted image 20250306193621.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/e066461d9affa49a5c85b9f0088c8f1e_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/abc47eeaa35b4fd8bbcfca3f1c6a400b_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
