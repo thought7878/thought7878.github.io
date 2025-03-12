@@ -68,12 +68,12 @@
             }
           },
           {
-            "id": "4f9980a87c9ab985",
+            "id": "a08e2c342abe7796",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
+                "file": "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
+                "file": "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
+                "file": "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,20 +219,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4f9980a87c9ab985",
+  "active": "a08e2c342abe7796",
   "lastOpenFiles": [
+    "_posts/任务记录/daily template.md",
+    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "_posts/tools/obsidian/插件/Templater/media/1b35f5125cab5851cc42bb018f8a359b_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/8a3fb52106d697fe3a1ab0eb4fe6fccc_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/6c3f6483f14ae44cc1c2c7de922cdfd5_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/13d600c45f5dc013714f610caab9ae95_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/ef66a114e1b1d5a275eeaa18d669d9aa_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/55d180a26b5e1b71a36a0010e97b670c_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/e9bd408bc03c8b2461f5d001c5655ea0_MD5.webp",
-    "_posts/tools/obsidian/插件/Templater/media/1b35f5125cab5851cc42bb018f8a359b_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/4d3d35f3029a72365493aa59e60d0cea_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/888e19ad32c087d307f59a25c0400b19_MD5.webp",
     "_posts/tools/obsidian/插件/Templater/media/a86a60b11a01673174de8cabb747df04_MD5.webp",
-    "_posts/tools/obsidian/插件/Templater/media/95488e73d173a5be7b7cdcbb806c913d_MD5.webp",
-    "_posts/tools/obsidian/插件/Templater/Obsidian 达人成长之路 5：使用 Templater 减少重复工作，提高效率.md",
     "_posts/tools/obsidian/插件/Templater/media",
     "_posts/tools/obsidian/插件/Templater/Templater.md",
     "_posts/tools/obsidian/插件/Templater",
@@ -255,7 +255,6 @@
     "_posts/要整理的.md",
     "_posts/读书笔记/外面的世界/趋势.md",
     "_posts/tools/obsidian/任务管理.md",
-    "_posts/任务记录/daily template.md",
     "_posts/engineering/webpack/构建性能/**实际案例**.md",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
     "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
