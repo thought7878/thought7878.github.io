@@ -74,11 +74,11 @@ dv.list(dv.pages("").file.tags.distinct())
 
 ## YAML 简介
 
-在 Obsidian 中，YAML 是一种用于配置文件和元数据的标记语言。YAML 语法简洁明了，易于阅读和编写，使得在 Obsidian 中描述属性变得更为便捷。
+在 Obsidian 中，YAML 是一种用于*配置文件和元数据*的标记语言。YAML 语法简洁明了，易于阅读和编写，使得在 Obsidian 中*描述属性变得更为便捷*。
 
-在 Obsidian 中，YAML 通常用于为笔记添加元数据，如标题、标签、别名等。这些元数据可以帮助你更好地组织和管理笔记。具体来说，YAML 在 Obsidian 中的使用方式如下：
+在 Obsidian 中，YAML 通常用于*为笔记添加元数据，如标题、标签、别名*等。*这些元数据可以帮助你**更好地组织和管理笔记***。具体来说，YAML 在 Obsidian 中的使用方式如下：
 
-在笔记的开头使用三个短横线（`---`）来定义一个 YAML 区域，也称之为 Front Matter。在这个区域内，你可以使用 YAML 语法为笔记添加各种元数据，例如，使用 `tags` 来添加标签，使用 `aliases` 来设置别名，使用 `cssclasses` 来设置文档样式等。
+*在笔记的开头使用三个短横线（`---`）来定义一个 YAML 区域*，也称之为 `Front Matter`。在这个区域内，你可以使用 YAML 语法为笔记添加各种元数据，例如，使用 `tags` 来添加标签，使用 `aliases` 来设置别名，使用 `cssclasses` 来设置文档样式等。
 
 ```yaml
 ---
@@ -92,13 +92,13 @@ alias: 别名
 
 ### 基本语法
 
-在 YAML 语言中变量名是区分大小写的，因此 `one` 与 `One` 是不同的实体。
+在 YAML 语言中变量名是*区分大小写*的，因此 `one` 与 `One` 是不同的实体。
 
-使用 `#` 来表示注释。
+使用 `#` 来表示*注释*。
 
-使用缩进来表示层级关系，并且只能使用空格来缩进，同一层级在空格数量上需要保持一致。
+使用*缩进*来表示层级关系，并且*只能使用空格*来缩进，*同一层级在空格数量上需要保持一致*。
 
-一个文件中是可以包含多个 `---` 区域的。
+一个文件中是*可以包含多个 `---` 区域的*。
 
 ```yaml
 # 这是注释
@@ -126,7 +126,7 @@ YAML 支持数字、布尔、字符串、数组和对象这几种常见类型，
 
 #### 字符串
 
-字符串一般不需要用引号（不区分单/双引号，但必须成对）包裹，但是如果字符串中包含转义字符（以反斜杠 `\` 开头，如换行：`\n`）就必须引号包裹。
+字符串*一般不需要用引号*（不区分单/双引号，但必须成对）包裹，但是如果字符串中*包含转义字符*（以反斜杠 `\` 开头，如换行：`\n`）就*必须引号包裹*。
 
 字符串分为单行和多行文本，在多行文本中还可能包含空白行（是否保留？），因此会有不同的语法扶持。
 
@@ -152,7 +152,7 @@ strings:
 }
 ```
 
-使用 `|` 来保留数据的换行，每行的缩进和行尾空白都会被去掉，而额外的缩进会被保留。
+使用 `|` 来*保留数据的换行*，每行的缩进和行尾空白都会被去掉，而额外的缩进会被保留。
 
 ```yaml
 lines: |
@@ -170,7 +170,7 @@ lines: |
 }
 ```
 
-使用 `>` 来表示折叠换行，只有空白行才识别为换行。
+使用 `>` 来表示*折叠换行*，只有空白行才识别为换行。
 
 ```yaml
 lines: >
@@ -214,7 +214,7 @@ boolean:
 }
 ```
 
-注意在 Obsidian 属性面板中输入布尔值时需要将【属性类型】设置为【复选框】。
+注意在 Obsidian 属性面板中输入布尔值时*需要将【属性类型】设置为【复选框】*。
 
 #### 数字
 
@@ -242,7 +242,7 @@ Floats: [0., -0.0, .5, +12e03, -2E+05]
 }
 ```
 
-注意在 Obsidian 属性面板中输入数字时需要将【属性类型】设置为【数字】。
+注意在 Obsidian 属性面板中输入数字时*需要将【属性类型】设置为【数字】*。
 
 #### 空值
 
@@ -267,7 +267,7 @@ nulls:
 
 #### 时间缀
 
-YAML 支持 ISO 8601 格式的时间数据。但是在 Obsidian 中使用时只支持部分格式，建议使用 `xxxx-xx-xx xx:xx:xx` 这种格式来输入日期和时间，或者在属性面板中将【属性类型】设置为【日期】或【日期 & 时间】然后在日期或时间选择器中选择想要的值。
+YAML 支持 ISO 8601 格式的时间数据。但是在 Obsidian 中使用时只支持部分格式，*建议使用 `xxxx-xx-xx xx:xx:xx` 这种格式*来输入日期和时间，*或者在属性面板中将【属性类型】设置为【日期】或【日期 & 时间】* 然后在日期或时间选择器中选择想要的值。
 
 > \[Tips\] 在 Obsidian 的【选项】中的【编辑器】将【文档属性】显示方式切换为【源码】模式就可以显示属性的 YAML 源码。
 
@@ -280,7 +280,7 @@ date4: 11:32:00.000-04:00
 
 #### 数组
 
-YAML 中数组有 2 种语法格式，一种是区块格式（即：`- 属性值`），另一种是内联格式（`[属性值]`）。多维数组则通过缩进来表示层级关系。
+YAML 中数组有 2 种语法格式，一种是*区块格式*（即：`- 属性值`），另一种是*内联格式*（`[属性值]`）。*多维数组*则通过缩进来表示层级关系。
 
 ```yaml
 Inline arrays: ["a", "b", 1, 2]
@@ -353,17 +353,17 @@ key:
 
 Obsidian 官方为属性描述提供了 6 种数据类型：
 
-- 文本（Text）：普通的文本以及文档链接（示例：`link: "[[Link]]"`）文本。
-- 列表（List）：包含多个普通文本的数组。
+- 文本（Text）：普通的文本以及*文档链接*（示例：`link: "[[Link]]"`）文本。
+- 列表（List）：包含多个普通文本的*数组*。
 - 数字（Number）：包含整数，小数及负数。
-- 布尔值（Checkbox）：要么是 `true` 或者 `false`，空值默认为 `false`。
+- 复选框（Checkbox）：布尔值，要么是 `true` 或者 `false`，空值默认为 `false`。
 - 日期（Date）和时间（Time）：以格式 `YYYY-MM[-DDTHH:mm:ss.nnn+ZZ]` 的形式表示，比如：`2024-04-25`。
 
-Dataview 在则在此基础上额外提供了 2 种数据类型持续时间（`Duration` ）和对象（`Object`）。
+Dataview 在则*在此基础上*额外提供了 2 种数据类型*持续时间（`Duration` ）和对象（`Object`）*:
 
-持续时间的语法为 `<time> <unit>`，例如：`6 hours` 或者 `4 minutes`，下面是更多的表达场景：
+- *持续时间的语法*为 `<time> <unit>`，例如：`6 hours` 或者 `4 minutes`，下面是更多的表达场景
 
-```arduino
+```md
 Example:: 7 hours
 Example:: 16days
 Example:: 4min
@@ -372,7 +372,7 @@ Example:: 9 years, 8 months, 4 days, 16 hours, 2 minutes
 Example:: 9 yrs 8 min
 ```
 
-对象就是在一个父字段下多个字段的映射，只能定义在 YAML 中，例如：
+- *对象*就是在一个父字段下有多个字段的映射，只能定义在 YAML 中，例如：
 
 ```yaml
 ---
@@ -388,9 +388,9 @@ obj:
 
 ### 内联字段
 
-Dataview 提供了一种内联字段，让我们可以在文档内容中任意位置定义数据。这种内联字段的语法允许你在不干扰文档主要内容的同时，为文档添加额外的元数据或信息。这些内联字段可以被 Dataview 插件识别并用于查询、过滤、排序等操作。
+Dataview 提供了一种内联字段，让我们可以*在文档内容中**任意位置**定义数据*。这种内联字段的语法允许你在*不干扰文档主要内容*的同时，**为文档添加额外的元数据或信息**。这些内联字段可以*被 Dataview 插件识别并用于查询、过滤、排序等操作*。
 
-```kotlin
+```md
 Basic Field:: Some random Value
 **Bold Field**:: Nice!
 带❤变量:: 我是表情+非拉丁字母
@@ -412,60 +412,60 @@ This will not show the (longKeyIDontNeedWhenReading:: key).
 
 ![[_posts/tools/obsidian/插件/Dataview/media/ec4a005b6c3897ee77c3652a7c651fea_MD5.webp]]
 
-下以是 Dataview 内联字段的一些基本规则和用法：
+下以是 Dataview 内联字段的一些*基本规则和用法：*
 
 1. **内联字段的定义**
 
 内联字段可以使用  `字段名:: 字段值`  的形式在文档内容中定义。
 
-1. **独占一行与位于文本内**
+2. **独占一行与位于文本内**
 
-如果内联字段是独占一行的，通常不需要加任何包裹字符。但如果内联字段在文本内部，确保它被 Dataview 正确识别，要将其放在方括号  `[]`  中。
+如果内联字段是*独占一行的*，通常不需要加任何包裹字符。但如果内联字段*在文本内部*，确保它被 Dataview 正确识别，要将其放在方括号  `[]`  中。
 
-1. **变量名的命名规则**
+3. **变量名的命名规则**
 
-对于变量名，Dataview 允许使用英文、中文或表情符号来命名，建议尽可能使用英文来命名变量和字段。如果变量名使用空格来分隔的（例如：`Foo bar`），在内部会被表示成小写字母+连字符的方式（`foo-bar`），当然我们也可以直接使用 `this["Foo bar"]` 的方式来读取，但需要注意的是这里必须使用双引号。
+对于变量名，Dataview 允许使用*英文、中文、表情符号*来命名，建议*尽可能使用英文*来命名变量和字段。如果变量名使用空格来分隔的（例如：`Foo bar`），在内部会被表示成小写字母+连字符的方式（`foo-bar`），当然我们也可以直接使用 `this["Foo bar"]` 的方式来读取，但需要注意的是这里必须使用双引号。
 
-1. **渲染时隐藏变量名**
+4. **渲染时隐藏变量名**
 
-如果您想在渲染时只显示值而不显示变量名，可以使用圆括号  `()`  包裹整个内联字段。但请注意，这并不会影响 Dataview 的查询功能，只是改变了它在文档中的显示方式。
+如果您想*在渲染时只显示值而不显示变量名*，可以使用*圆括号  `()`  包裹整个内联字段*。但请注意，这并不会影响 Dataview 的查询功能，*只是改变了它在文档中的显示方式*。
 
 ### 文档中的默认属性
 
-Obsidian 中每个文档都有一系列默认的属性，最常见的就是 `tags`, `aliases` 和 `cssclasses`，分别表示页面的标签、别名和样式类名。此外，还有一些和发布相关的，暂时我们不关注，可自行查阅官方文档。
+Obsidian 中每个文档都有一系列*默认的属性*，最常见的就是 `tags`, `aliases` 和 `cssclasses`，分别表示页面的标签、别名和样式类名。此外，还有一些和发布相关的，暂时我们不关注，可自行查阅官方文档。
 
-Dataview 为每个文档自动生成了一个 `file` 的属性，用于访问文件相关的信息。
+**Dataview 为每个文档自动生成了一个 `file` 的属性**，用于*访问文件相关的信息*。
 
-| 文件属性           | 字段类型       | 属性说明                                                                                                        |
-| ------------------ | -------------- | --------------------------------------------------------------------------------------------------------------- |
-| `file.name`        | Text           | 文件名                                                                                                          |
-| `file.folder`      | Text           | 所在文件夹                                                                                                      |
-| `file.path`        | Text           | 文件路径（包含文件名）                                                                                          |
-| `file.ext`         | Text           | 扩展名                                                                                                          |
-| `file.link`        | Link           | 文件的链接地址                                                                                                  |
-| `file.size`        | Number         | 文件大小 (bytes)                                                                                                |
-| `file.ctime`       | Date with Time | 创建时间                                                                                                        |
-| `file.cday`        | Date           | 创建日期                                                                                                        |
-| `file.mtime`       | Date with Time | 最后修改时间                                                                                                    |
-| `file.mday`        | Date           | 最后修改日期                                                                                                    |
-| `file.tags`        | List           | 文档中所有标签的数组。子标签按每个级别细分，因此 `#Tag/1/A`   将存储在数组中，作为 `[#Tag, #Tag/1, #Tag/1/A]`。 |
-| `file.etags`       | List           | 同上，但是只存储最终的 `[#Tag/1/A]`                                                                             |
-| `file.inlinks`     | List           | 反向链接                                                                                                        |
-| `file.outlinks`    | List           | 正向链接                                                                                                        |
-| `file.tasks`       | List           | 文中的任务列表                                                                                                  |
-| `file.lists`       | List           | 文中的列表 (包含任务列表)                                                                                       |
-| `file.frontmatter` | List           | 文件中的 YAML 块内容                                                                                            |
-| `file.day`         | Date           | 如果文件名使用日期定义（格式为 `yyyy-mm-dd`  或者 `yyymmdd`），则返回其日期值。                                 |
-| `file.starred`     | Boolean        | 是否使用核心插件 "Bookmarks"  标记过。                                                                          |
+| 文件属性               | 字段类型           | 属性说明                                                                           |
+| ------------------ | -------------- | ------------------------------------------------------------------------------ |
+| `file.name`        | Text           | 文件名                                                                            |
+| `file.folder`      | Text           | 所在文件夹                                                                          |
+| `file.path`        | Text           | 文件路径（包含文件名）                                                                    |
+| `file.ext`         | Text           | 扩展名                                                                            |
+| `file.link`        | Link           | 文件的链接地址                                                                        |
+| `file.size`        | Number         | 文件大小 (bytes)                                                                   |
+| `file.ctime`       | Date with Time | 创建时间                                                                           |
+| `file.cday`        | Date           | 创建日期                                                                           |
+| `file.mtime`       | Date with Time | 最后修改时间                                                                         |
+| `file.mday`        | Date           | 最后修改日期                                                                         |
+| `file.tags`        | List           | *文档中所有标签的数组*。子标签按每个级别细分，因此 `#Tag/1/A`   将存储在数组中，作为 `[#Tag, #Tag/1, #Tag/1/A]`。 |
+| `file.etags`       | List           | 同上，但是*只存储最终的* `[#Tag/1/A]`                                                     |
+| `file.inlinks`     | List           | 反向链接                                                                           |
+| `file.outlinks`    | List           | 正向链接                                                                           |
+| `file.tasks`       | List           | 文中的任务列表                                                                        |
+| `file.lists`       | List           | 文中的列表 (包含任务列表)                                                                 |
+| `file.frontmatter` | List           | 文件中的 YAML 块内容                                                                  |
+| `file.day`         | Date           | 如果文件名使用日期定义（格式为 `yyyy-mm-dd`  或者 `yyymmdd`），则返回其日期值。                           |
+| `file.starred`     | Boolean        | 是否使用核心插件 "Bookmarks"  标记过。                                                     |
 
 示例：
 
-```vbnet
-\`\`\`dataview
+````md
+```dataview
 TABLE file.name AS 文件名, file.ctime AS 创建时间, file.mtime AS 修改时间, file.tags AS 标签
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -473,9 +473,9 @@ WHERE file = this.file
 
 结果截图中由于标题中带有 `#` 字符所以在渲染时被当成了标签。
 
-### 任务相关属性
+### 任务（待办事项）相关属性
 
-使用 `TASK` 查询类型，我们可以查询所有文档中的任务（又叫待办事项）。下面我们创建几个不同类型的任务，并使用内联属性指定创建日期（`created`），开始日期（`start`），计划日期 （`scheduled`），截止日期（`due`），取消日期（`cancelled`）和完成日期（`completion`）几个属性。
+使用 `TASK` 查询类型，我们可以*查询所有文档中的任务*（又叫待办事项）。下面我们创建几个不同类型的任务，并*使用内联属性指定*创建日期（`created`），开始日期（`start`），计划日期 （`scheduled`），截止日期（`due`），取消日期（`cancelled`）和完成日期（`completion`）几个属性。
 
 ```css
 - [ ] 任务创建 [created:: 2024-04-25]
@@ -492,29 +492,29 @@ WHERE file = this.file
 
 下面我们来查询任务开始日期为 `2024-04-22` 的任务：
 
-```sql
-\`\`\`dataview
+````sql
+```dataview
 TASK
 WHERE start = date("2024-04-22")
-\`\`\`
 ```
+````
 
 结果：
 
 ![[_posts/tools/obsidian/插件/Dataview/media/d95d1205a70f69ee206f88b25f22d886_MD5.webp]]
 
-在 Obsidian 的 Dataview 插件中，`completed`  和  `fullyCompleted`  是两个与任务（即使用复选框的待办事项）相关的属性。这两个属性在查询和过滤任务时非常有用，但它们具有不同的含义和用途。
+在 Obsidian 的 Dataview 插件中，`completed`  和  `fullyCompleted`  是两个与任务（即使用复选框的待办事项）相关的属性。*这两个属性在查询和过滤任务时非常有用*，但它们具有不同的含义和用途。
 
 - `completed`
 
-`completed`  属性是一个布尔值（`true`  或  `false`），用于指示任务是否已被标记为完成。如果一个任务项（即一个带有复选框的列表项）被勾选（即标记为完成），则  `completed`  属性将为  `true`；如果未被勾选，则为  `false`。
+`completed`  属性是一个布尔值（`true`  或  `false`），用于指示*任务是否已被标记为完成*。如果一个任务项（即一个带有复选框的列表项）*被勾选*（即标记为完成），则  `completed`  属性将为  `true`；如果未被勾选，则为  `false`。
 
-```go
-\`\`\`dataview
+````sql
+```dataview
 TASK
 WHERE file = this.file AND completed
-\`\`\`
 ```
+````
 
 结果：
 
@@ -522,53 +522,53 @@ WHERE file = this.file AND completed
 
 - `fullyCompleted`
 
-`fullyCompleted`  属性也用于指示任务是否完成，但它考虑的是嵌套任务（即嵌套在另一个任务下的子任务）的完成情况。如果一个任务及其所有子任务都已被标记为完成，则  `fullyCompleted`  属性将为  `true`。即使主任务被标记为完成，但如果它有任何子任务尚未完成，`fullyCompleted`  仍将为  `false`。
+`fullyCompleted`  属性也用于*指示任务是否完成*，但它考虑的是*嵌套任务（即嵌套在另一个任务下的子任务）的完成情况*。*如果一个任务及其所有子任务都已被标记为完成*，则  `fullyCompleted`  属性将为  `true`。*即使主任务被标记为完成，但如果它有任何子任务尚未完成*，`fullyCompleted`  仍将为  `false`。
 
-```go
-\`\`\`dataview
+````sql
+```dataview
 TASK
 WHERE file = this.file AND fullyCompleted
-\`\`\`
 ```
+````
 
 结果：
 
 ![[_posts/tools/obsidian/插件/Dataview/media/dfba178eb589eaaf54eda9dc3f5345f0_MD5.webp]]
 
-下面给出 Dataview 为列表和任务提供的内置属性，更多操作参考后面的综合实例部分。
+下面给出 **Dataview 为列表和任务提供的内置属性**，更多操作参考后面的综合实例部分。
 
-| 字段名           | 数据类型 | 描述                                                                                                          |
-| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
-| `status`         | Text     | 返回完成状态文本（`[]`中的文本）`" "`  表示未完成，`[x]`  表示已完成，也支持自定状态来替代默认的。            |
-| `checked`        | Boolean  | 用于判断当前状态是否为空，也就是说 `[]`  中有内容，但不一定是 `x`，也排除 `[ ]`                               |
-| `completed`      | Boolean  | 判断任务是否完成，不要求所有子任务都完成，如果使用非 `[x]`  来标记完成，例如 `[-]` ，那么不会被包含在结果中。 |
-| `fullyCompleted` | Boolean  | 同上，但要求所有子任务完成才算完成。                                                                          |
-| `text`           | Text     | 任务的纯文本，包含属性和批注。                                                                                |
-| `visual`         | Text     | 由 Dataview  渲染出的任务文本，可以使用 Dataviewjs  来覆盖实现自定义渲染效果，同时保留验证逻辑的正确性。      |
-| `line`           | Number   | 任务在文档中所在的行数。                                                                                      |
-| `lineCount`      | Number   | 任务占据的行数，包含子任务的任务会占用多行。                                                                  |
-| `path`           | Text     | 任务所在的文档路径。                                                                                          |
-| `section`        | Link     | 任务所在章节链接。                                                                                            |
-| `tags`           | List     | 任务中包含的标签。                                                                                            |
-| `outlinks`       | Link     | 任务中定义的任何链接。                                                                                        |
-| `link`           | Link     | 指向任务最近可被链接的区域的链接，对于通过链接指向到当前任务十分有用。                                        |
-| `children`       | List     | 当前任务的子任务列表。                                                                                        |
-| `task`           | Boolean  | 通过这个属性来判断当前项是否为任务。                                                                          |
-| `annotated`      | Boolean  | 用于判断当前任务项是否包含属性。                                                                              |
-| `parent`         | Number   | 用于获取子任务的父任务所在行号，如果当前任务为根任务则为空值。                                                |
-| `blockId`        | Text     | 如果使用 `^blockId`  语法定义了块 ID，则返回其对应的任务或者列表。                                            |
+| 字段名              | 数据类型    | 描述                                                               |
+| ---------------- | ------- | ---------------------------------------------------------------- |
+| `status`         | Text    | 返回完成状态文本（`[]`中的文本）`" "`  表示未完成，`[x]`  表示已完成，也支持自定状态来替代默认的。       |
+| `checked`        | Boolean | 用于判断当前状态是否为空，也就是说 `[]`  中有内容，但不一定是 `x`，也排除 `[ ]`                 |
+| `completed`      | Boolean | 判断任务是否完成，*不要求所有子任务都完成*，如果使用非 `[x]`  来标记完成，例如 `[-]` ，那么不会被包含在结果中。 |
+| `fullyCompleted` | Boolean | 同上，但*要求所有子任务完成*才算完成。                                             |
+| `text`           | Text    | 任务的纯文本，包含属性和批注。                                                  |
+| `visual`         | Text    | 由 Dataview  渲染出的任务文本，可以使用 Dataviewjs  来覆盖实现自定义渲染效果，同时保留验证逻辑的正确性。 |
+| `line`           | Number  | 任务在文档中所在的行数。                                                     |
+| `lineCount`      | Number  | 任务*占据的行数*，包含子任务的任务会占用多行。                                         |
+| `path`           | Text    | 任务所在的*文档路径*。                                                     |
+| `section`        | Link    | 任务*所在章节链接*。                                                      |
+| `tags`           | List    | 任务中*包含的标签*。                                                      |
+| `outlinks`       | Link    | 任务中定义的任何链接。                                                      |
+| `link`           | Link    | 指向任务最近可被链接的区域的链接，对于通过链接指向到当前任务十分有用。                              |
+| `children`       | List    | 当前任务的*子任务列表*。                                                    |
+| `task`           | Boolean | 通过这个属性来*判断当前项是否为任务*。                                             |
+| `annotated`      | Boolean | 用于*判断当前任务项是否包含属性*。                                               |
+| `parent`         | Number  | 用于*获取子任务的父任务所在行号*，如果当前任务为根任务则为空值。                                |
+| `blockId`        | Text    | 如果使用 `^blockId`  语法定义了块 ID，则返回其对应的任务或者列表。                        |
 
 ### Tasks 插件提供的属性
 
-[obsidian-tasks](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fobsidian-tasks-group%2Fobsidian-tasks "https://github.com/obsidian-tasks-group/obsidian-tasks") 是一个流行的 Obsidian 插件，用于增强 Obsidian 中的任务管理功能。后续文章会专门探讨，现在我们只需要关注它提供的任务分类状态表情速记符（emoji-shorthands），让我们不用自己来使用内联属性定义任务状态，它直接开箱即用提供了以下几种速记语法：
+[obsidian-tasks](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fobsidian-tasks-group%2Fobsidian-tasks "https://github.com/obsidian-tasks-group/obsidian-tasks") 是一个流行的 Obsidian 插件，用于*增强 Obsidian 中的任务管理功能*。后续文章会专门探讨，现在我们只需要关注它提供的任务分类状态表情速记符（emoji-shorthands），*让我们不用自己来使用内联属性定义任务状态*，它直接开箱即用提供了以下几种速记语法：
 
-| 属性名       | 速记语法       | 解释     |
-| ------------ | -------------- | -------- |
+| 属性名          | 速记语法            | 解释   |
+| ------------ | --------------- | ---- |
 | `due`        | `🗓️YYYY-MM-DD` | 截止日期 |
-| `completion` | `✅YYYY-MM-DD` | 完成日期 |
-| `created`    | `➕YYYY-MM-DD` | 创建日期 |
-| `start`      | `🛫YYYY-MM-DD` | 开始日期 |
-| `scheduled`  | `⏳YYYY-MM-DD` | 计划日期 |
+| `completion` | `✅YYYY-MM-DD`   | 完成日期 |
+| `created`    | `➕YYYY-MM-DD`   | 创建日期 |
+| `start`      | `🛫YYYY-MM-DD`  | 开始日期 |
+| `scheduled`  | `⏳YYYY-MM-DD`   | 计划日期 |
 
 除此之外，还有优先级等速记符，这里不再展开。
 
@@ -583,12 +583,12 @@ WHERE file = this.file AND fullyCompleted
 
 现在我们来查询当前文档中 4 月 26 日完成的任务：
 
-```java
-\`\`\`dataview
+````md
+```dataview
 TASK
 WHERE completion = date("2024-04-26") AND file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -604,14 +604,14 @@ Dataview 插件为 Obsidian 提供了强大的数据查询和可视化功能。�
 
 #### `TABLE` 类型
 
-`TABLE`  查询类型用于生成表格形式的输出。你可以指定要显示的列和它们的排序方式。
+`TABLE`  查询类型用于**生成表格**形式的输出。你可以*指定要显示的列*和*它们的排序方式*。
 
-```go
-\`\`\`dataview
+````sql
+```dataview
 TABLE WITHOUT ID file.name AS 文件名, file.cday AS 创建时期
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -619,14 +619,14 @@ WHERE file = this.file
 
 #### `LIST` 类型
 
-`LIST`  查询类型用于生成列表形式的输出。你可以指定要显示的字段和它们的排序方式。
+`LIST`  查询类型用于**生成列表**形式的输出。你可以指定要显示的字段和它们的排序方式。
 
-```go
-\`\`\`dataview
+````sql
+```dataview
 LIST WITHOUT ID file.name
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -634,16 +634,16 @@ WHERE file = this.file
 
 #### `TASK` 类型
 
-`TASK`  查询类型专门用于检索和展示任务。你可以根据任务的完成状态、截止日期等属性进行筛选和排序。
+`TASK`  查询类型专门用于**检索和展示任务**。你可以*根据任务的完成状态、截止日期*等属性进行筛选和排序。
 
-```sql
-\`\`\`dataview
+````sql
+```dataview
 TASK
 FROM "10 Example Data/dailys"
 WHERE "#journal" AND completed
 LIMIT 5
-\`\`\`
 ```
+````
 
 结果：
 
@@ -651,14 +651,14 @@ LIMIT 5
 
 #### `CALENDAR` 类型
 
-`CALENDAR`  查询类型用于生成日历视图，展示具有日期属性（如截止日期或开始日期）的任务或事件。
+`CALENDAR`  查询类型用于**生成日历视图**，展示具有日期属性（如截止日期或开始日期）的任务或事件。
 
-```go
-\`\`\`dataview
+````sql
+```dataview
 CALENDAR file.day
 FROM "10 Example Data/dailys"
-\`\`\`
 ```
+````
 
 结果：
 
@@ -694,12 +694,12 @@ FROM "10 Example Data/dailys"
 
 在使用时只需要将代码块的类型设置为 `dataviewjs` 即可：
 
-```go
-\`\`\`dataviewjs
+````md
+```dataviewjs
 let currentFilename = dv.current().file.name
 dv.list([currentFilename])
-\`\`\`
 ```
+````
 
 上面的示例直接将当前文档的文件名作为列表查询结果显示。
 
@@ -731,8 +731,8 @@ dv.list([currentFilename])
 
 DQL 查询语言的语法定义如下：
 
-```sql
-\`\`\`dataview
+````md
+```dataview
 TABLE or LIST or TASK or CALENDER [WITHOUT ID] <field> or <field AS alias>
 FROM <source>
 WHERE <clause>
@@ -741,8 +741,8 @@ GROUP BY <value> [AS <name>]
 LIMIT <value>
 FLATTEN <value> [AS <name>]
 ...
-\`\`\`
 ```
+````
 
 > **注意**：这个语法定义非官方提供，在文章中仅为了方便描述。除了查询类型和 `FROM` 语句位置固定外，其它语句统称数据命令（Data Command），可以多次使用，位置不固定。
 
@@ -775,12 +775,12 @@ FLATTEN <value> [AS <name>]
 
 如果指定在当前文档中进行查询，可以将 `<FROM>` 来源指定为文档的路径：
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE file.name, file.ctime
 FROM "博客/Obsidian/打造极致体验笔记：Obsidian Dataview 插件使用"
-\`\`\`
 ```
+````
 
 上面我们从指定的**文档**获取数据源，当然也可以指定**目录**，例如：`FROM "博客/Obsidian"`，此外，也可以指定**标签**，再结合运算符来过滤数据源，例如：`FROM #博客 AND "Go"`，结果为博客中 Go 目录下的所有文件。
 
@@ -799,46 +799,46 @@ FROM "博客/Obsidian/打造极致体验笔记：Obsidian Dataview 插件使用"
 
 然后我们来看一下如何查询外链和出链。通常在 `FROM [[x]]` 查询的结果为外链，如果要查询出链则需要调用 `outgoing()` 函数：
 
-```lua
-\`\`\`dataview
+````md
+```dataview
 LIST file.name
 FROM outgoing([[打造极致体验笔记：Obsidian Dataview 插件使用]])
-\`\`\`
 ```
+````
 
 #### `WHERE` 语句
 
 `WHERE` 语句用于过滤数据，这里我们再次实现在 `<FROM>` 语句中查询当前文档的操作。
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE file.name, file.ctime
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 #### `SORT` 语句
 
 `SORT` 语句用于对结果进行排序，排序方式有升序 (`ASC` | `ASCENDING`) 和降序（`DESC` | `DESCENDING`）二种方式，如果不指定则默认按升序排序。下面的查询结果以创建时间升序显示。
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE file.name, file.ctime
 SORT file.ctime ASC
-\`\`\`
 ```
+````
 
 #### `GROUP BY` 语句
 
 `GROUP BY` 语句用于对查询的结果进行分组显示，需要注意的是它的用法，如果我们在上面 `SORT` 语句示例中添加按 `file.cday` 分组的话，除了加上 `GROUP BY file.cday` 外，还需要将 `file.name, file.ctime` 修改成 `rows.file.name, rows.file.ctime`，因为我们需要从分组后的结果中获取文档信息，这个匹配的结果存储在属性 `rows` 数组中。这里我们不需要自己来处理索引，如果你想要获取分组结果数组中第 3 项的结果，可以直接这样写 `rows[2].file.name`。
 
-```sql
-\`\`\`dataview
+````md
+```dataview
 TABLE WITHOUT ID rows.file.name, rows.file.ctime
 SORT file.ctime ASC // 使用分组时，默认会对数据进行排序，这里可以不写。
 GROUP BY file.cday
-\`\`\`
 ```
+````
 
 结果：
 
@@ -852,13 +852,13 @@ GROUP BY file.cday
 
 `FLATTEN` 语句的作用是展开（扁平）数组，举个例子：`[1, [2, [3, 4], 5]]` 展开后：`[1, 2, 3, 4, 5]`，但是这里并不一定恰当，因为在 DataView 中我们区分查询类型，比如说多级嵌套的任务就比较贴合前面说的展开数组的情况。现在我们就利用前面章节\[\[博客/Obsidian/Obsidian 达人成长之路#1：使用终极工具 Dataview 释放笔记库的潜力 · DQL 查询语言#任务相关属性\]\] 中的任务数据来举例。
 
-```kotlin
-\`\`\`dataview
+````md
+```dataview
 TABLE WITHOUT ID T.text as "任务名称"
 FLATTEN file.tasks as T
 WHERE T.completed AND file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -868,13 +868,13 @@ WHERE T.completed AND file = this.file
 
 现在再来演示另一种使用 `FLATTEN` 的场景，这刚好与 `GROUP BY` 语句结果相反。现在有一个目录 `books` 放置了很多书籍，每一个文档代表一本书，文档中设置 `genres` 属性来作为分类（`Children`, `Romance`, `Magic` 等等），当我们使用 `TABLE genres` 查询时，结果是每个分类占据表格的一行，而默认文档链接会根据分类数量自动合并行，现在想要相同行不合并显示，这时就需要使用 `FLATTEN genres` 来实现。
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE genres
 FROM "10 Example Data/books"
 FLATTEN genres
-\`\`\`
 ```
+````
 
 > \[!Tip\] 数据来源于网络，在【参考】中有给出链接，请自行查阅。
 
@@ -884,15 +884,15 @@ FLATTEN genres
 
 接着上面书籍的案例，现在想要根据阅读页数（`pageRead`）和总页数（`totalPages`）来计算出阅读进度，并且过滤掉进度少于 50% 的书籍，这里我们可以使用 `FLATTEN` 来声明一个新的字段 `progress` 来实现：
 
-```vbnet
-\`\`\`dataview
+````md
+```dataview
 TABLE pagesRead, totalPages, percentage
 FROM "10 Example Data/books"
 FLATTEN round((pagesRead / totalPages) * 100) AS progress
 WHERE progress > 50
 FLATTEN progress + "%" AS percentage
-\`\`\`
 ```
+````
 
 结果：
 
@@ -1076,13 +1076,13 @@ DataView 提供了大量的函数来提高处理文档的效率，这里的函�
 
 上面的示例我们使用内联 DQL 查询，对于一个普通的对象如何在 DQL 显示呢？这里我们需要借助 `FLATTEN` 语句来实现：
 
-```vbnet
-\`\`\`dataview
+````md
+```dataview
 TABLE WITHOUT ID T.name AS 姓名, T.age AS 年龄
 FLATTEN object("name", "jenemy", "age", 33) AS T
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -1190,13 +1190,13 @@ WHERE file = this.file
 
 对于函数 `flat(array, [depth])`，默认情况下只展开第一级数组（`depth = 1`），下面我们在 DQL 查询中看一下一个 4 层数组 `[1, [2, [3, [4, [5, 6]]]]]` 分别使用默认和 `depth = 3` 的结果：
 
-```csharp
-\`\`\`dataview
+````md
+```dataview
 TABLE WITHOUT ID T
 FLATTEN flat([1, [2, [3, [4, [5, 6]]]]], 1) as T
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 ![[_posts/tools/obsidian/插件/Dataview/media/49d975b847f4fb6788f9ca0c8bca4bfd_MD5.webp]]
 
@@ -1276,13 +1276,13 @@ WHERE file = this.file
 
 下面举一个实际的例子，在 [LifeOS for Obsidian (obsidian-life-os.netlify.app)](https://link.juejin.cn/?target=https%3A%2F%2Fobsidian-life-os.netlify.app%2Fzh%2Findex.html "https://obsidian-life-os.netlify.app/zh/index.html") 的示例项目中返回所有未完成的任务时过滤掉目录 Templates 中的模板文件（Daily.md, Monthly.md, Quarterly.md, Weekly.md 和 Yearly.md）中的任务并按文件链接地址分组。
 
-```vbnet
-\`\`\`dataview
+````
+```dataview
 TASK
 WHERE !regextest("Templates", file.folder) AND !completed
 GROUP BY file.link
-\`\`\`
 ```
+````
 
 上面例子中不能使用 `regexmatch()` 函数，因为 `file.folder` 的值是包含路径的，如果使用它就只是匹配了 `Templates` 这个字符串，达不到预期的结果。
 
@@ -1315,8 +1315,8 @@ GROUP BY file.link
 
 现在我们想要过滤掉不包含日期的任务，同时把日期提取出来，将中国标准时间显示成 `xxxx-xx-xx` 的日期格式，下面是作者的一个尝试参考：
 
-```vbnet
-\`\`\`dataview
+````md
+```dataview
 TABLE Date, T.text
 FLATTEN file.tasks AS T
 FLATTEN {"Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06", "Jul": "07", "Aug": "08", "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"} AS monthObj
@@ -1327,8 +1327,8 @@ FLATTEN choice(isRegularDate, T.text, monthObj[split(T.text, " ")[1]]) AS Month
 FLATTEN choice(isCHDate, split(T.text, " ")[2], "") AS Day
 FLATTEN choice(isCHDate, split(T.text, " ")[3], "") AS Year
 FLATTEN choice(isCHDate, Year + "-" + Month + "-" + Day, split(T.text, " ")[0]) AS Date
-\`\`\`
 ```
+````
 
 结果：
 
@@ -1350,12 +1350,12 @@ FLATTEN choice(isCHDate, Year + "-" + Month + "-" + Day, split(T.text, " ")[0]) 
 
 使用 `startswith()` 函数在获取“打造极致体验笔记”系列笔记文档：
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE file.name
 WHERE startswith(file.name, "打造极致体验笔记")
-\`\`\`
 ```
+````
 
 ##### `padleft` / `padright` 函数
 
@@ -1432,13 +1432,13 @@ WHERE startswith(file.name, "打造极致体验笔记")
 
 下面我们使用 `hash()` 函数来随机排序文档
 
-```go
-\`\`\`dataview
+````md
+```dataview
 TABLE WITHOUT ID file.name, file.mtime
 SORT file.ctime
 SORT hash(dateformat(file.ctime, "YYYY-MM-DD"), file.name)
-\`\`\`
 ```
+````
 
 结果：
 
