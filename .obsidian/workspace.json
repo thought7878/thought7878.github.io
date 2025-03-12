@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 3：使用终极工具 Dataview 释放笔记库的潜力 · 案例讲解.md",
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "从零开始完整设置",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 3：使用终极工具 Dataview 释放笔记库的潜力 · 案例讲解.md",
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 3：使用终极工具 Dataview 释放笔记库的潜力 · 案例讲解.md",
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,38 +219,38 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a08e2c342abe7796",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 2：使用终极工具 Dataview 释放笔记库的潜力 · JavaScript API.md",
-    "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 3：使用终极工具 Dataview 释放笔记库的潜力 · 案例讲解.md",
-    "_posts/tools/obsidian/插件/Dataview/Obsidian 达人成长之路 1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言.md",
-    "_posts/tools/obsidian/插件/Dataview/media/49d975b847f4fb6788f9ca0c8bca4bfd_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/239e8bd1cfaef2c46a349d094b0ab298_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/a92d20e0acd495514a4ff59f495b8df0_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/a7d33582a7923e39675d4330ee94abca_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/cfed78332d05a5c68be9b1c4b41e0f94_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/ec4a005b6c3897ee77c3652a7c651fea_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/70e22153f6a4a4fa484a99dbcf53b0ba_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/fa7ed8f7e942cb77a83d2889abc9a65f_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/7032da1caa28620ab8991511292f0584_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/f4161b4cc1ce612912c058c80843b4cf_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media",
+    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
+    "_posts/tools/obsidian/插件/Dataview/3：Dataview · 案例讲解.md",
+    "_posts/tools/obsidian/插件/Heatmap Calendar.md",
+    "_posts/tools/obsidian/插件/Journals.md",
+    "_posts/tools/obsidian/插件/Tracker.md",
+    "_posts/tools/obsidian/插件/Charts.md",
     "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "_posts/tools/obsidian/插件/Templater/Templater.md",
+    "_posts/tools/obsidian/插件/Dataview/media/e008b5f265f3935b870b17069f5ecb74_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/58e93a9bb268fe1ae85e70c41a79f180_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/042b58447ecb5b857b536629bd3d927a_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/cd5039a6543123eb961380f86b8dfa1b_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/e254f092803c1f5accf3d045b2077731_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/2f9c4bef4b25eb658d916c94922fb9f9_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/147237de96ed61c6508be2126659e04c_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/0bff380ee84d61d535bad68810c72afe_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/9a39ea6970bb4706f8701f7dc5613d27_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media/fc290776756206e3f0a77784a889f877_MD5.webp",
+    "_posts/tools/obsidian/插件/Dataview/media",
     "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
     "_posts/tools/obsidian/插件/Dataview",
     "_posts/任务记录/daily template.md",
     "_posts/tools/obsidian/插件/Templater/media",
-    "_posts/tools/obsidian/插件/Templater/Templater.md",
     "_posts/tools/obsidian/插件/Templater",
     "_posts/methods/构建系统/PKM（个人知识管理）.md",
-    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
     "_posts/读书笔记/世界趋势/media",
     "_posts/读书笔记/世界趋势/Crypto.md",
-    "_posts/tools/obsidian/插件/Tracker.md",
-    "_posts/tools/obsidian/插件/Heatmap Calendar.md",
-    "_posts/tools/obsidian/插件/Charts.md",
     "_posts/tools/obsidian/插件/Callout Manager.md",
-    "_posts/tools/obsidian/插件/Journals.md",
     "_posts/tools/obsidian/插件",
     "_posts/methods/构建系统/建构系统.md",
     "_posts/tools/obsidian/基础.md",
@@ -262,7 +262,6 @@
     "_posts/tools/obsidian/任务管理.md",
     "_posts/engineering/webpack/构建性能/**实际案例**.md",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/engineering/webpack/构建性能/1.持久化缓存：大幅提升构建性能.md",
     "daily notes",
     "templates/media",
     "templates",

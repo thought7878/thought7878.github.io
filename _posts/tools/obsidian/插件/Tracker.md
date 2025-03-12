@@ -1,12 +1,12 @@
-### **Tracker 插件简介**
+### Tracker 插件简介
 
-**Tracker 插件** 是 Obsidian 的一款社区插件，用于记录、跟踪和可视化个人数据（如习惯养成、任务完成情况、学习进度等）。它通过结合 Markdown 笔记中的元数据（如 YAML Frontmatter 或内联字段），生成动态的统计图表（如折线图、柱状图、饼图等），帮助用户直观地分析自己的行为模式和生产力趋势。
+**Tracker 插件** 是 Obsidian 的一款社区插件，用于*记录、跟踪、可视化个人数据（如习惯养成、任务完成情况、学习进度等）*。它通过结合 Markdown 笔记中的元数据（如 YAML Frontmatter 或内联字段），*生成动态的统计图表*（如折线图、柱状图、饼图等），帮助用户直观地分析自己的行为模式和生产力趋势。
 
-Tracker 插件非常适合需要量化自我（Quantified Self）或进行数据分析的用户。通过与 Dataview 等插件结合，它可以将笔记内容转化为强大的数据管理工具。
+Tracker 插件非常适合需要*量化自我（Quantified Self）或进行数据分析*的用户。通过与 Dataview 等插件结合，它可以将笔记内容转化为强大的数据管理工具。
 
 ---
 
-### **Tracker 插件的核心功能**
+### Tracker 插件的核心功能
 
 1. **数据跟踪**
    - 支持从笔记中提取数值型数据（如每日完成的任务数、学习时间、运动时长等）。
@@ -36,7 +36,7 @@ Tracker 插件非常适合需要量化自我（Quantified Self）或进行数据
 
 ---
 
-### **安装和启用 Tracker 插件**
+### 安装和启用 Tracker 插件
 
 1. 打开 Obsidian 设置 -> “社区插件”。
 2. 点击“浏览”，搜索“Tracker”。
@@ -45,12 +45,12 @@ Tracker 插件非常适合需要量化自我（Quantified Self）或进行数据
 
 ---
 
-### **使用 Tracker 插件的基本方法**
+### 使用 Tracker 插件的基本方法
 
-#### **1. 准备数据**
+#### 1. 准备数据
 在笔记中记录需要跟踪的数据。可以通过以下两种方式存储数据：
 
-##### **方法 1：YAML Frontmatter**
+##### 方法 1：YAML Frontmatter
 ```markdown
 ---
 date: 2023-10-01
@@ -60,7 +60,7 @@ exercise: true
 ---
 ```
 
-##### **方法 2：内联字段**
+##### 方法 2：内联字段
 ```markdown
 日期:: 2023-10-01  
 番茄时间:: 5  
@@ -68,9 +68,9 @@ exercise: true
 锻炼:: 是
 ```
 
-#### **2. 创建 Tracker 配置**
+#### 2. 创建 Tracker 配置
 在笔记中插入代码块，定义 Tracker 的配置和数据源。以下是基本语法：
-```markdown
+````markdown
 ```tracker
 searchType: frontmatter
 searchTarget: pomodoros
@@ -82,12 +82,12 @@ line:
   xAxisLabel: 日期
   yAxisLabel: 番茄时间
 ```
-```
+````
 
-#### **3. 常见图表类型示例**
+#### 3. 常见图表类型示例
 
-##### **折线图（Line Chart）**
-```markdown
+##### 折线图（Line Chart）
+````markdown
 ```tracker
 searchType: frontmatter
 searchTarget: study_hours
@@ -99,10 +99,10 @@ line:
   xAxisLabel: 日期
   yAxisLabel: 学习时间（小时）
 ```
-```
+````
 
-##### **柱状图（Bar Chart）**
-```markdown
+##### 柱状图（Bar Chart）
+````markdown
 ```tracker
 searchType: inlineField
 searchTarget: 锻炼
@@ -115,10 +115,10 @@ bar:
   yAxisLabel: 次数
   groupBy: week
 ```
-```
+````
 
-##### **饼图（Pie Chart）**
-```markdown
+##### 饼图（Pie Chart）
+````markdown
 ```tracker
 searchType: frontmatter
 searchTarget: mood
@@ -129,10 +129,10 @@ pie:
   title: 心情分布
   legend: true
 ```
-```
+````
 
-##### **热力图（Heatmap）**
-```markdown
+##### 热力图（Heatmap）
+````markdown
 ```tracker
 searchType: frontmatter
 searchTarget: pomodoros
@@ -143,15 +143,15 @@ heatmap:
   title: 每日番茄时间热力图
   colorScale: ['#ebedf0', '#c6e48b', '#7bc96f', '#239a3b', '#196127']
 ```
-```
+````
 
 ---
 
-### **高级用法**
+### 高级用法
 
-#### **1. 动态数据生成**
+#### 1. 动态数据生成
 结合 Templater 插件，可以动态生成 Tracker 数据。例如：
-```markdown
+````markdown
 <%*
 let data = {
   '2023-10-01': 5,
@@ -170,17 +170,17 @@ line:
   xAxisLabel: 日期
   yAxisLabel: 番茄时间
 ```
-```
+````
 
-#### **2. 数据聚合**
+#### 2. 数据聚合
 Tracker 插件支持多种数据聚合方式。例如：
 - 按周汇总：`groupBy: week`
 - 按月汇总：`groupBy: month`
 - 计算平均值：`aggregation: average`
 
-#### **3. 多数据源**
+#### 3. 多数据源
 你可以同时跟踪多个数据字段，并在同一个图表中展示。例如：
-```markdown
+````markdown
 ```tracker
 searchType: frontmatter
 searchTarget: [study_hours, exercise_hours]
@@ -192,11 +192,11 @@ line:
   xAxisLabel: 日期
   yAxisLabel: 时间（小时）
 ```
-```
+````
 
 ---
 
-### **与其他插件的结合**
+### 与其他插件的结合
 
 1. **Dataview 插件**
    - 使用 Dataview 查询笔记中的数据，并将其作为 Tracker 的数据源。
@@ -214,7 +214,7 @@ line:
 
 ---
 
-### **注意事项**
+### 注意事项
 
 1. **性能问题**
    - 如果数据量较大或图表数量较多，可能会影响笔记的加载速度。
@@ -229,7 +229,7 @@ line:
 
 ---
 
-### **总结**
+### 总结
 
 Tracker 插件是 Obsidian 中一款专注于数据跟踪和可视化的工具，能够帮助用户将笔记中的数据转化为直观的图表。无论是日常记录、任务管理还是知识整理，Tracker 插件都能显著提升效率。
 

@@ -9,11 +9,11 @@ tags:
   - "clippings"
 ---
 
-️DataView 是 Obsidian 社区中的热门插件，它为用户提供了一个强大的实时索引和查询引擎。通过在文档中设置属性（或称为元数据），DataView 能够检索并处理这些数据。借助 DataView，用户可以轻松列出、筛选、排序和分组数据，这与使用数据库查询语言类似。
+️DataView 是 Obsidian 社区中的热门插件，它为用户提供了一个强大的实时索引和查询引擎。通过在文档中设置属性（或称为元数据），DataView 能够检索并处理这些数据。借助 DataView，用户可以*轻松列出、筛选、排序和分组数据*，这与使用数据库查询语言类似。
 
-在 Obsidian 中，我们使用“属性”来描述文档中由官方或第三方插件提供的描述变量，这些变量也被称为“元数据”。在 DataView 的语境下，虽然名称有所差异，但它们实际上指的是同一实体。为了保持一致性，后续文章中我们将统一使用“属性”来描述这些变量。
+在 Obsidian 中，我们使用“属性”来描述文档中由官方或第三方插件提供的描述变量，这些变量也被称为“`元数据`”。在 DataView 的语境下，虽然名称有所差异，但它们实际上指的是同一实体。为了保持一致性，后续文章中我们将统一使用“属性”来描述这些变量。
 
-考虑到不同读者拥有的 Obsidian 文档数量和内容的多样性，文章中将主要以当前文档的数据作为示例，展示 Dataview 的使用案例。为了避免过于复杂和需要额外构造数据的用例，我们将尽量基于实际文档数据进行演示。在文章中，我们将使用“文档”一词特指 Obsidian 中的笔记，即具有 `.md` 后缀的 Markdown 文档，而非其他类型的文件。这样的定义旨在明确文章的语境和对象，方便读者理解和跟随。
+考虑到不同读者拥有的 Obsidian 文档数量和内容的多样性，文章中将主要以当前文档的数据作为示例，展示 Dataview 的使用案例。为了避免过于复杂和需要额外构造数据的用例，我们将尽量基于实际文档数据进行演示。在文章中，我们将使用“`文档`”一词特指 Obsidian 中的笔记，即具有  `.md`  后缀的 Markdown 文档，而非其他类型的文件。这样的定义旨在明确文章的语境和对象，方便读者理解和跟随。
 
 文章中复杂的示例我们将以 Dataview Example Vault 这个开源示例库为数据源进行演示，读者可自行去 Github 上克隆到本地进行操作。
 
@@ -21,12 +21,12 @@ tags:
 
 ## 快速入门
 
-为了更顺畅地使用 DataView 插件，你可以直接在 Obsidian 的官方插件商店中搜索“DataView”并安装它。安装完成后，请按照以下步骤进行配置：
+为了更顺畅地使用 DataView 插件，你可以直接在 Obsidian 的官方插件商店中搜索“DataView”并安装它。安装完成后，*请按照以下步骤进行配置：*
 
 1. 打开 DataView 的插件设置选项。
 2. 启用【Enable JavaScript Queries】和【Enable Inline JavaScript Queries】选项，以允许在 DataView 中使用 JavaScript 查询。
-3. 将【Date Format】选项设置为 `yyyy-MM-dd`，这将确保日期以“年-月-日”的格式显示，更符合我们的使用习惯。
-4. 同时，将【Date + Time Format】选项设置为 `yyyy-MM-dd HH:MM:ss`，以便在需要同时显示日期和时间时，按照“年-月-日 时:分:秒”的格式呈现。
+3. 将【Date Format】选项设置为  `yyyy-MM-dd`，这将确保日期以“年-月-日”的格式显示，更符合我们的使用习惯。
+4. 同时，将【Date + Time Format】选项设置为  `yyyy-MM-dd HH:MM:ss`，以便在需要同时显示日期和时间时，按照“年-月-日 时:分:秒”的格式呈现。
 
 完成这些设置后，你就可以开始使用 DataView 插件来索引、查询和整理你的 Obsidian 文档了。
 
@@ -35,7 +35,7 @@ tags:
 下面是当前文档的属性值，以 YAML 展示：
 
 ```yaml
-yaml 代码解读复制代码---
+---
 tags:
   - Blog
   - Obsidian
@@ -45,12 +45,12 @@ tags:
 
 要在 Obsidian 中使用 DataView 查询语言（DQL）来读取当前文档（或选定文档）的标签属性并以列表形式显示，我们需要编写一个 DataView 查询，下面我们编写的第一个查询示例：
 
-```go
-go 代码解读复制代码\`\`\`dataview
+````md
+```dataview
 LIST tags
 WHERE file = this.file
-\`\`\`
 ```
+````
 
 结果：
 
@@ -58,15 +58,15 @@ WHERE file = this.file
 
 **注意**：这里我们遵循官方的写法，将查询语法的关键词以大写方式表示。
 
-对于大多数日常任务，Dataview 查询语言已足够应对。然而，当需要执行复杂的逻辑和数据操作时，Dataview 的 JavaScript API 便派上了用场。借助这一 API，我们可以充分利用编程语言的强大功能以及 Dataview 提供的丰富函数，不仅可以自由定义输出的格式和内容，还能加载外部脚本和样式，极大地提升了查询的灵活性和扩展性。
+对于大多数日常任务，Dataview 查询语言已足够应对。然而，*当需要执行复杂的逻辑和数据操作时*，Dataview 的 JavaScript API 便派上了用场。借助这一 API，我们可以充分利用编程语言的强大功能以及 Dataview 提供的丰富函数，*不仅可以自由定义输出的格式和内容，还能加载外部脚本和样式，极大地提升了查询的灵活性和扩展性*。
 
 这是上一个示例采用 JavaScript API 实现的重写：
 
-```go
-go 代码解读复制代码\`\`\`dataviewjs
+````md
+```dataviewjs
 dv.list(dv.pages("").file.tags.distinct())
-\`\`\`
 ```
+````
 
 结果：
 
@@ -81,13 +81,12 @@ dv.list(dv.pages("").file.tags.distinct())
 在笔记的开头使用三个短横线（`---`）来定义一个 YAML 区域，也称之为 Front Matter。在这个区域内，你可以使用 YAML 语法为笔记添加各种元数据，例如，使用 `tags` 来添加标签，使用 `aliases` 来设置别名，使用 `cssclasses` 来设置文档样式等。
 
 ```yaml
-yaml 代码解读复制代码---
+---
 title: Obsidian 达人成长之路 #1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言
 date: 2024-05-08
-tags: ['Blog', 'Obsidian', 'Dataview']
+tags: ["Blog", "Obsidian", "Dataview"]
 alias: 别名
 ---
-
 主体内容
 ```
 
@@ -102,7 +101,7 @@ alias: 别名
 一个文件中是可以包含多个 `---` 区域的。
 
 ```yaml
-yaml 代码解读复制代码# 这是注释
+# 这是注释
 one:
     two: 2
     three:
@@ -132,7 +131,7 @@ YAML 支持数字、布尔、字符串、数组和对象这几种常见类型，
 字符串分为单行和多行文本，在多行文本中还可能包含空白行（是否保留？），因此会有不同的语法扶持。
 
 ```yaml
-yaml 代码解读复制代码strings:
+strings:
     - Hello Dataview
     - 'Hello Dataview with single quotes'
     - "Hello Dataview with double quotes"
@@ -156,7 +155,7 @@ yaml 代码解读复制代码strings:
 使用 `|` 来保留数据的换行，每行的缩进和行尾空白都会被去掉，而额外的缩进会被保留。
 
 ```yaml
-yaml 代码解读复制代码lines: |
+lines: |
     line 1
     line 2
 
@@ -174,7 +173,7 @@ yaml 代码解读复制代码lines: |
 使用 `>` 来表示折叠换行，只有空白行才识别为换行。
 
 ```yaml
-yaml 代码解读复制代码lines: >
+lines: >
     line 1
     line 2
 
@@ -194,7 +193,7 @@ yaml 代码解读复制代码lines: >
 在 YAML 中我们统一使用 `true` 和 `false` 表示真值与假值，此外 `True` / `TRUE` 同样可以表示真值，同理还有 `False` / `FALSE` 表示假值。
 
 ```yaml
-yaml 代码解读复制代码boolean:
+boolean:
     - true
     - true
     - TRUE
@@ -222,7 +221,7 @@ yaml 代码解读复制代码boolean:
 数字分为整数、浮点数，表示方法有科学表示法，进制表示法（二进制、八进制、十进制和十六进制）。
 
 ```yaml
-yaml 代码解读复制代码Integers: [ 0, 0o7, 0x3A, -19 ]
+Integers: [ 0, 0o7, 0x3A, -19 ]
 Floats: [0., -0.0, .5, +12e03, -2E+05]
 
 // JSON:
@@ -250,7 +249,7 @@ Floats: [0., -0.0, .5, +12e03, -2E+05]
 `null`、`Null` 和 `~` 以及不指定值默认都为空。
 
 ```yaml
-yaml 代码解读复制代码nulls:
+nulls:
     - null
     - Null
     -
@@ -273,7 +272,7 @@ YAML 支持 ISO 8601 格式的时间数据。但是在 Obsidian 中使用时只�
 > \[Tips\] 在 Obsidian 的【选项】中的【编辑器】将【文档属性】显示方式切换为【源码】模式就可以显示属性的 YAML 源码。
 
 ```yaml
-yaml 代码解读复制代码date1: 2024-04-20T11:32:00.000-04:00
+date1: 2024-04-20T11:32:00.000-04:00
 date2: 2017-04-20
 date3: 2017-W17-7
 date4: 11:32:00.000-04:00
@@ -284,7 +283,7 @@ date4: 11:32:00.000-04:00
 YAML 中数组有 2 种语法格式，一种是区块格式（即：`- 属性值`），另一种是内联格式（`[属性值]`）。多维数组则通过缩进来表示层级关系。
 
 ```yaml
-yaml 代码解读复制代码Inline arrays: ["a", "b", 1, 2]
+Inline arrays: ["a", "b", 1, 2]
 Block arrays:
     - a
     - b
@@ -330,7 +329,7 @@ Multiple arrays:
 对象是以键值对（`key: value`）的形式来表示数据。
 
 ```yaml
-yaml 代码解读复制代码key: value
+key: value
 key: { key1: value1, key2: value2 }
 key:
   key2: value2
@@ -365,7 +364,7 @@ Dataview 在则在此基础上额外提供了 2 种数据类型持续时间（`D
 持续时间的语法为 `<time> <unit>`，例如：`6 hours` 或者 `4 minutes`，下面是更多的表达场景：
 
 ```arduino
-arduino 代码解读复制代码Example:: 7 hours
+Example:: 7 hours
 Example:: 16days
 Example:: 4min
 Example:: 6hr7min
@@ -376,11 +375,11 @@ Example:: 9 yrs 8 min
 对象就是在一个父字段下多个字段的映射，只能定义在 YAML 中，例如：
 
 ```yaml
-yaml 代码解读复制代码---
+---
 obj:
   key1: "Val"
   key2: 3
-  key3: 
+  key3:
     - "List1"
     - "List2"
     - "List3"
@@ -392,7 +391,7 @@ obj:
 Dataview 提供了一种内联字段，让我们可以在文档内容中任意位置定义数据。这种内联字段的语法允许你在不干扰文档主要内容的同时，为文档添加额外的元数据或信息。这些内联字段可以被 Dataview 插件识别并用于查询、过滤、排序等操作。
 
 ```kotlin
-kotlin 代码解读复制代码Basic Field:: Some random Value
+Basic Field:: Some random Value
 **Bold Field**:: Nice!
 带❤变量:: 我是表情+非拉丁字母
 I would rate this a [rating:: 9]! It was [mood:: acceptable].
@@ -417,11 +416,11 @@ This will not show the (longKeyIDontNeedWhenReading:: key).
 
 1. **内联字段的定义**
 
-内联字段可以使用 `字段名:: 字段值` 的形式在文档内容中定义。
+内联字段可以使用  `字段名:: 字段值`  的形式在文档内容中定义。
 
 1. **独占一行与位于文本内**
 
-如果内联字段是独占一行的，通常不需要加任何包裹字符。但如果内联字段在文本内部，确保它被 Dataview 正确识别，要将其放在方括号 `[]` 中。
+如果内联字段是独占一行的，通常不需要加任何包裹字符。但如果内联字段在文本内部，确保它被 Dataview 正确识别，要将其放在方括号  `[]`  中。
 
 1. **变量名的命名规则**
 
@@ -429,7 +428,7 @@ This will not show the (longKeyIDontNeedWhenReading:: key).
 
 1. **渲染时隐藏变量名**
 
-如果您想在渲染时只显示值而不显示变量名，可以使用圆括号 `()` 包裹整个内联字段。但请注意，这并不会影响 Dataview 的查询功能，只是改变了它在文档中的显示方式。
+如果您想在渲染时只显示值而不显示变量名，可以使用圆括号  `()`  包裹整个内联字段。但请注意，这并不会影响 Dataview 的查询功能，只是改变了它在文档中的显示方式。
 
 ### 文档中的默认属性
 
@@ -437,32 +436,32 @@ Obsidian 中每个文档都有一系列默认的属性，最常见的就是 `tag
 
 Dataview 为每个文档自动生成了一个 `file` 的属性，用于访问文件相关的信息。
 
-| 文件属性 | 字段类型 | 属性说明 |
-| --- | --- | --- |
-| `file.name` | Text | 文件名 |
-| `file.folder` | Text | 所在文件夹 |
-| `file.path` | Text | 文件路径（包含文件名） |
-| `file.ext` | Text | 扩展名 |
-| `file.link` | Link | 文件的链接地址 |
-| `file.size` | Number | 文件大小 (bytes) |
-| `file.ctime` | Date with Time | 创建时间 |
-| `file.cday` | Date | 创建日期 |
-| `file.mtime` | Date with Time | 最后修改时间 |
-| `file.mday` | Date | 最后修改日期 |
-| `file.tags` | List | 文档中所有标签的数组。子标签按每个级别细分，因此 `#Tag/1/A`  将存储在数组中，作为 `[#Tag, #Tag/1, #Tag/1/A]`。 |
-| `file.etags` | List | 同上，但是只存储最终的 `[#Tag/1/A]` |
-| `file.inlinks` | List | 反向链接 |
-| `file.outlinks` | List | 正向链接 |
-| `file.tasks` | List | 文中的任务列表 |
-| `file.lists` | List | 文中的列表 (包含任务列表) |
-| `file.frontmatter` | List | 文件中的 YAML 块内容 |
-| `file.day` | Date | 如果文件名使用日期定义（格式为 `yyyy-mm-dd` 或者 `yyymmdd`），则返回其日期值。 |
-| `file.starred` | Boolean | 是否使用核心插件 "Bookmarks" 标记过。 |
+| 文件属性           | 字段类型       | 属性说明                                                                                                        |
+| ------------------ | -------------- | --------------------------------------------------------------------------------------------------------------- |
+| `file.name`        | Text           | 文件名                                                                                                          |
+| `file.folder`      | Text           | 所在文件夹                                                                                                      |
+| `file.path`        | Text           | 文件路径（包含文件名）                                                                                          |
+| `file.ext`         | Text           | 扩展名                                                                                                          |
+| `file.link`        | Link           | 文件的链接地址                                                                                                  |
+| `file.size`        | Number         | 文件大小 (bytes)                                                                                                |
+| `file.ctime`       | Date with Time | 创建时间                                                                                                        |
+| `file.cday`        | Date           | 创建日期                                                                                                        |
+| `file.mtime`       | Date with Time | 最后修改时间                                                                                                    |
+| `file.mday`        | Date           | 最后修改日期                                                                                                    |
+| `file.tags`        | List           | 文档中所有标签的数组。子标签按每个级别细分，因此 `#Tag/1/A`   将存储在数组中，作为 `[#Tag, #Tag/1, #Tag/1/A]`。 |
+| `file.etags`       | List           | 同上，但是只存储最终的 `[#Tag/1/A]`                                                                             |
+| `file.inlinks`     | List           | 反向链接                                                                                                        |
+| `file.outlinks`    | List           | 正向链接                                                                                                        |
+| `file.tasks`       | List           | 文中的任务列表                                                                                                  |
+| `file.lists`       | List           | 文中的列表 (包含任务列表)                                                                                       |
+| `file.frontmatter` | List           | 文件中的 YAML 块内容                                                                                            |
+| `file.day`         | Date           | 如果文件名使用日期定义（格式为 `yyyy-mm-dd`  或者 `yyymmdd`），则返回其日期值。                                 |
+| `file.starred`     | Boolean        | 是否使用核心插件 "Bookmarks"  标记过。                                                                          |
 
 示例：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE file.name AS 文件名, file.ctime AS 创建时间, file.mtime AS 修改时间, file.tags AS 标签
 WHERE file = this.file
 \`\`\`
@@ -479,11 +478,11 @@ WHERE file = this.file
 使用 `TASK` 查询类型，我们可以查询所有文档中的任务（又叫待办事项）。下面我们创建几个不同类型的任务，并使用内联属性指定创建日期（`created`），开始日期（`start`），计划日期 （`scheduled`），截止日期（`due`），取消日期（`cancelled`）和完成日期（`completion`）几个属性。
 
 ```css
-css 代码解读复制代码- [ ] 任务创建 [created:: 2024-04-25]
+- [ ] 任务创建 [created:: 2024-04-25]
 - [ ] 任务开始 [start:: 2024-04-26]
 - [ ] 任务开始2 [start:: 2024-04-22]
 - [x] 任务完成
-	- [x] 子任务完成 1 
+	- [x] 子任务完成 1
 	- [ ] 子任务未完成 1
 	- [x] 子任务完成 2 [completion:: 2024-04-28]
 - [x] 任务全部完成
@@ -494,7 +493,7 @@ css 代码解读复制代码- [ ] 任务创建 [created:: 2024-04-25]
 下面我们来查询任务开始日期为 `2024-04-22` 的任务：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE start = date("2024-04-22")
 \`\`\`
@@ -504,14 +503,14 @@ WHERE start = date("2024-04-22")
 
 ![[_posts/tools/obsidian/插件/Dataview/media/d95d1205a70f69ee206f88b25f22d886_MD5.webp]]
 
-在 Obsidian 的 Dataview 插件中，`completed` 和 `fullyCompleted` 是两个与任务（即使用复选框的待办事项）相关的属性。这两个属性在查询和过滤任务时非常有用，但它们具有不同的含义和用途。
+在 Obsidian 的 Dataview 插件中，`completed`  和  `fullyCompleted`  是两个与任务（即使用复选框的待办事项）相关的属性。这两个属性在查询和过滤任务时非常有用，但它们具有不同的含义和用途。
 
 - `completed`
 
-`completed` 属性是一个布尔值（`true` 或 `false`），用于指示任务是否已被标记为完成。如果一个任务项（即一个带有复选框的列表项）被勾选（即标记为完成），则 `completed` 属性将为 `true`；如果未被勾选，则为 `false`。
+`completed`  属性是一个布尔值（`true`  或  `false`），用于指示任务是否已被标记为完成。如果一个任务项（即一个带有复选框的列表项）被勾选（即标记为完成），则  `completed`  属性将为  `true`；如果未被勾选，则为  `false`。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE file = this.file AND completed
 \`\`\`
@@ -523,10 +522,10 @@ WHERE file = this.file AND completed
 
 - `fullyCompleted`
 
-`fullyCompleted` 属性也用于指示任务是否完成，但它考虑的是嵌套任务（即嵌套在另一个任务下的子任务）的完成情况。如果一个任务及其所有子任务都已被标记为完成，则 `fullyCompleted` 属性将为 `true`。即使主任务被标记为完成，但如果它有任何子任务尚未完成，`fullyCompleted` 仍将为 `false`。
+`fullyCompleted`  属性也用于指示任务是否完成，但它考虑的是嵌套任务（即嵌套在另一个任务下的子任务）的完成情况。如果一个任务及其所有子任务都已被标记为完成，则  `fullyCompleted`  属性将为  `true`。即使主任务被标记为完成，但如果它有任何子任务尚未完成，`fullyCompleted`  仍将为  `false`。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE file = this.file AND fullyCompleted
 \`\`\`
@@ -538,45 +537,45 @@ WHERE file = this.file AND fullyCompleted
 
 下面给出 Dataview 为列表和任务提供的内置属性，更多操作参考后面的综合实例部分。
 
-| 字段名 | 数据类型 | 描述 |
-| --- | --- | --- |
-| `status` | Text | 返回完成状态文本（`[]`中的文本）`" "` 表示未完成，`[x]` 表示已完成，也支持自定状态来替代默认的。 |
-| `checked` | Boolean | 用于判断当前状态是否为空，也就是说 `[]` 中有内容，但不一定是 `x`，也排除 `[ ]` |
-| `completed` | Boolean | 判断任务是否完成，不要求所有子任务都完成，如果使用非 `[x]` 来标记完成，例如 `[-]` ，那么不会被包含在结果中。 |
-| `fullyCompleted` | Boolean | 同上，但要求所有子任务完成才算完成。 |
-| `text` | Text | 任务的纯文本，包含属性和批注。 |
-| `visual` | Text | 由 Dataview 渲染出的任务文本，可以使用 Dataviewjs 来覆盖实现自定义渲染效果，同时保留验证逻辑的正确性。 |
-| `line` | Number | 任务在文档中所在的行数。 |
-| `lineCount` | Number | 任务占据的行数，包含子任务的任务会占用多行。 |
-| `path` | Text | 任务所在的文档路径。 |
-| `section` | Link | 任务所在章节链接。 |
-| `tags` | List | 任务中包含的标签。 |
-| `outlinks` | Link | 任务中定义的任何链接。 |
-| `link` | Link | 指向任务最近可被链接的区域的链接，对于通过链接指向到当前任务十分有用。 |
-| `children` | List | 当前任务的子任务列表。 |
-| `task` | Boolean | 通过这个属性来判断当前项是否为任务。 |
-| `annotated` | Boolean | 用于判断当前任务项是否包含属性。 |
-| `parent` | Number | 用于获取子任务的父任务所在行号，如果当前任务为根任务则为空值。 |
-| `blockId` | Text | 如果使用 `^blockId` 语法定义了块ID，则返回其对应的任务或者列表。 |
+| 字段名           | 数据类型 | 描述                                                                                                          |
+| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
+| `status`         | Text     | 返回完成状态文本（`[]`中的文本）`" "`  表示未完成，`[x]`  表示已完成，也支持自定状态来替代默认的。            |
+| `checked`        | Boolean  | 用于判断当前状态是否为空，也就是说 `[]`  中有内容，但不一定是 `x`，也排除 `[ ]`                               |
+| `completed`      | Boolean  | 判断任务是否完成，不要求所有子任务都完成，如果使用非 `[x]`  来标记完成，例如 `[-]` ，那么不会被包含在结果中。 |
+| `fullyCompleted` | Boolean  | 同上，但要求所有子任务完成才算完成。                                                                          |
+| `text`           | Text     | 任务的纯文本，包含属性和批注。                                                                                |
+| `visual`         | Text     | 由 Dataview  渲染出的任务文本，可以使用 Dataviewjs  来覆盖实现自定义渲染效果，同时保留验证逻辑的正确性。      |
+| `line`           | Number   | 任务在文档中所在的行数。                                                                                      |
+| `lineCount`      | Number   | 任务占据的行数，包含子任务的任务会占用多行。                                                                  |
+| `path`           | Text     | 任务所在的文档路径。                                                                                          |
+| `section`        | Link     | 任务所在章节链接。                                                                                            |
+| `tags`           | List     | 任务中包含的标签。                                                                                            |
+| `outlinks`       | Link     | 任务中定义的任何链接。                                                                                        |
+| `link`           | Link     | 指向任务最近可被链接的区域的链接，对于通过链接指向到当前任务十分有用。                                        |
+| `children`       | List     | 当前任务的子任务列表。                                                                                        |
+| `task`           | Boolean  | 通过这个属性来判断当前项是否为任务。                                                                          |
+| `annotated`      | Boolean  | 用于判断当前任务项是否包含属性。                                                                              |
+| `parent`         | Number   | 用于获取子任务的父任务所在行号，如果当前任务为根任务则为空值。                                                |
+| `blockId`        | Text     | 如果使用 `^blockId`  语法定义了块 ID，则返回其对应的任务或者列表。                                            |
 
 ### Tasks 插件提供的属性
 
 [obsidian-tasks](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fobsidian-tasks-group%2Fobsidian-tasks "https://github.com/obsidian-tasks-group/obsidian-tasks") 是一个流行的 Obsidian 插件，用于增强 Obsidian 中的任务管理功能。后续文章会专门探讨，现在我们只需要关注它提供的任务分类状态表情速记符（emoji-shorthands），让我们不用自己来使用内联属性定义任务状态，它直接开箱即用提供了以下几种速记语法：
 
-| 属性名 | 速记语法 | 解释 |
-| --- | --- | --- |
-| `due` | `🗓️YYYY-MM-DD` | 截止日期 |
+| 属性名       | 速记语法       | 解释     |
+| ------------ | -------------- | -------- |
+| `due`        | `🗓️YYYY-MM-DD` | 截止日期 |
 | `completion` | `✅YYYY-MM-DD` | 完成日期 |
-| `created` | `➕YYYY-MM-DD` | 创建日期 |
-| `start` | `🛫YYYY-MM-DD` | 开始日期 |
-| `scheduled` | `⏳YYYY-MM-DD` | 计划日期 |
+| `created`    | `➕YYYY-MM-DD` | 创建日期 |
+| `start`      | `🛫YYYY-MM-DD` | 开始日期 |
+| `scheduled`  | `⏳YYYY-MM-DD` | 计划日期 |
 
 除此之外，还有优先级等速记符，这里不再展开。
 
 我们下载插件后，使用 【Ctrl/CMD + P】打开命令面板，然后输入命令 `Tasks: Create or edit`，会弹出一个对话框让你输入任务描述，优先级，是否循环等，下面是我创建的 3 个任务：
 
 ```yaml
-yaml 代码解读复制代码- [ ] 早上跑步 🔁 every day ➕ 2024-04-26 🛫 2024-04-27 📅 2024-04-27
+- [ ] 早上跑步 🔁 every day ➕ 2024-04-26 🛫 2024-04-27 📅 2024-04-27
 - [x] 早上跑步 🔁 every day ➕ 2024-04-26 🛫 2024-04-26 📅 2024-04-26 ✅ 2024-04-26
 - [ ] 看书 ➕ 2024-04-26
 - [ ] 上班 ⏫ ➕ 2024-04-26 🛫 2024-04-26 📅 2024-04-26
@@ -585,7 +584,7 @@ yaml 代码解读复制代码- [ ] 早上跑步 🔁 every day ➕ 2024-04-26 �
 现在我们来查询当前文档中 4 月 26 日完成的任务：
 
 ```java
-java 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE completion = date("2024-04-26") AND file = this.file
 \`\`\`
@@ -601,14 +600,14 @@ WHERE completion = date("2024-04-26") AND file = this.file
 
 ### DQL 查询语言
 
-Dataview 插件为 Obsidian 提供了强大的数据查询和可视化功能。通过使用 Dataview 查询语言（DQL），用户可以创建复杂的查询来检索、处理和展示 Obsidian 笔记库中的信息。DQL 支持四种主要的查询类型：`TABLE`、`LIST`、`TASK` 和 `CALENDAR`，每种类型都有其特定的用途和语法。
+Dataview 插件为 Obsidian 提供了强大的数据查询和可视化功能。通过使用 Dataview 查询语言（DQL），用户可以创建复杂的查询来检索、处理和展示 Obsidian 笔记库中的信息。DQL 支持四种主要的查询类型：`TABLE`、`LIST`、`TASK`  和  `CALENDAR`，每种类型都有其特定的用途和语法。
 
 #### `TABLE` 类型
 
-`TABLE` 查询类型用于生成表格形式的输出。你可以指定要显示的列和它们的排序方式。
+`TABLE`  查询类型用于生成表格形式的输出。你可以指定要显示的列和它们的排序方式。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID file.name AS 文件名, file.cday AS 创建时期
 WHERE file = this.file
 \`\`\`
@@ -620,10 +619,10 @@ WHERE file = this.file
 
 #### `LIST` 类型
 
-`LIST` 查询类型用于生成列表形式的输出。你可以指定要显示的字段和它们的排序方式。
+`LIST`  查询类型用于生成列表形式的输出。你可以指定要显示的字段和它们的排序方式。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST WITHOUT ID file.name
 WHERE file = this.file
 \`\`\`
@@ -635,10 +634,10 @@ WHERE file = this.file
 
 #### `TASK` 类型
 
-`TASK` 查询类型专门用于检索和展示任务。你可以根据任务的完成状态、截止日期等属性进行筛选和排序。
+`TASK`  查询类型专门用于检索和展示任务。你可以根据任务的完成状态、截止日期等属性进行筛选和排序。
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 FROM "10 Example Data/dailys"
 WHERE "#journal" AND completed
@@ -652,10 +651,10 @@ LIMIT 5
 
 #### `CALENDAR` 类型
 
-`CALENDAR` 查询类型用于生成日历视图，展示具有日期属性（如截止日期或开始日期）的任务或事件。
+`CALENDAR`  查询类型用于生成日历视图，展示具有日期属性（如截止日期或开始日期）的任务或事件。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 CALENDAR file.day
 FROM "10 Example Data/dailys"
 \`\`\`
@@ -670,7 +669,7 @@ FROM "10 Example Data/dailys"
 这种方式使用内联块格式（而不是代码块）和可配置的前缀来将内联代码块标记为 DQL 块，语法如下：
 
 ```go
-go 代码解读复制代码\`= <变量名>\`
+\`= <变量名>\`
 ```
 
 > 注意：这里的 `=` 是可以在 DataView 选项中指定为其它符号的，例如：`dv:` 或者 `~`，但通常我们保持默认。
@@ -678,25 +677,25 @@ go 代码解读复制代码\`= <变量名>\`
 我们可以在文档中任意位置插入内联 DQL：
 
 ```lua
-lua 代码解读复制代码今天是：\`= date(today)\` 我还有 < \`= [[打造极致体验笔记：Obsidian Meta Bind 插件使用]].file.name\` > 计划要去写！
+今天是：\`= date(today)\` 我还有 < \`= [[打造极致体验笔记：Obsidian Meta Bind 插件使用]].file.name\` > 计划要去写！
 ```
 
 结果：
 
 ```
- 代码解读复制代码今天是：2024-04-26 我还有 <打造极致体验笔记：Obsidian Meta Bind 插件使用> 计划要去写！
+今天是：2024-04-26 我还有 <打造极致体验笔记：Obsidian Meta Bind 插件使用> 计划要去写！
 ```
 
 > 注意：DataView 提供的各种函数我们同样也可以在内联 DQL 中使用，后续会介绍各种函数的使用。
 
 ### 使用 Dataview JS 查询
 
-使用 DataView 提供的 JavaScript API 可以实现复杂的功能，结合 `DataView` 和 Obsidian API，你可以实现一些有趣且复杂的功能。
+使用 DataView 提供的 JavaScript API 可以实现复杂的功能，结合  `DataView`  和 Obsidian API，你可以实现一些有趣且复杂的功能。
 
 在使用时只需要将代码块的类型设置为 `dataviewjs` 即可：
 
 ```go
-go 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 let currentFilename = dv.current().file.name
 dv.list([currentFilename])
 \`\`\`
@@ -709,13 +708,13 @@ dv.list([currentFilename])
 内联 JavaScript 的写法如下，同样也可以通过选项来更改语法前缀为 `dvjs:` 或 `$~`。
 
 ```go
-go 代码解读复制代码\`$= dv.current().file.name\`
+\`$= dv.current().file.name\`
 ```
 
 下面是一个显示当前任务进度的进度条代码：
 
 ```matlab
-matlab 代码解读复制代码[任务完成度:: \`$= const value = Math.round(((dv.page("Obsidian 达人成长之路 #1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言").file.tasks.where(t => t.completed).length) / (dv.page("Obsidian 达人成长之路 #1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言").file.tasks).length || 0) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"\`]
+[任务完成度:: \`$= const value = Math.round(((dv.page("Obsidian 达人成长之路 #1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言").file.tasks.where(t => t.completed).length) / (dv.page("Obsidian 达人成长之路 #1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言").file.tasks).length || 0) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"\`]
 ```
 
 结果：
@@ -733,7 +732,7 @@ matlab 代码解读复制代码[任务完成度:: \`$= const value = Math.round(
 DQL 查询语言的语法定义如下：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE or LIST or TASK or CALENDER [WITHOUT ID] <field> or <field AS alias>
 FROM <source>
 WHERE <clause>
@@ -777,7 +776,7 @@ FLATTEN <value> [AS <name>]
 如果指定在当前文档中进行查询，可以将 `<FROM>` 来源指定为文档的路径：
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE file.name, file.ctime
 FROM "博客/Obsidian/打造极致体验笔记：Obsidian Dataview 插件使用"
 \`\`\`
@@ -801,7 +800,7 @@ FROM "博客/Obsidian/打造极致体验笔记：Obsidian Dataview 插件使用"
 然后我们来看一下如何查询外链和出链。通常在 `FROM [[x]]` 查询的结果为外链，如果要查询出链则需要调用 `outgoing()` 函数：
 
 ```lua
-lua 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST file.name
 FROM outgoing([[打造极致体验笔记：Obsidian Dataview 插件使用]])
 \`\`\`
@@ -812,7 +811,7 @@ FROM outgoing([[打造极致体验笔记：Obsidian Dataview 插件使用]])
 `WHERE` 语句用于过滤数据，这里我们再次实现在 `<FROM>` 语句中查询当前文档的操作。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE file.name, file.ctime
 WHERE file = this.file
 \`\`\`
@@ -823,7 +822,7 @@ WHERE file = this.file
 `SORT` 语句用于对结果进行排序，排序方式有升序 (`ASC` | `ASCENDING`) 和降序（`DESC` | `DESCENDING`）二种方式，如果不指定则默认按升序排序。下面的查询结果以创建时间升序显示。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE file.name, file.ctime
 SORT file.ctime ASC
 \`\`\`
@@ -834,7 +833,7 @@ SORT file.ctime ASC
 `GROUP BY` 语句用于对查询的结果进行分组显示，需要注意的是它的用法，如果我们在上面 `SORT` 语句示例中添加按 `file.cday` 分组的话，除了加上 `GROUP BY file.cday` 外，还需要将 `file.name, file.ctime` 修改成 `rows.file.name, rows.file.ctime`，因为我们需要从分组后的结果中获取文档信息，这个匹配的结果存储在属性 `rows` 数组中。这里我们不需要自己来处理索引，如果你想要获取分组结果数组中第 3 项的结果，可以直接这样写 `rows[2].file.name`。
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID rows.file.name, rows.file.ctime
 SORT file.ctime ASC // 使用分组时，默认会对数据进行排序，这里可以不写。
 GROUP BY file.cday
@@ -851,10 +850,10 @@ GROUP BY file.cday
 
 #### `FLATTEN` 语句
 
-`FLATTEN` 语句的作用是展开（扁平）数组，举个例子：`[1, [2, [3, 4], 5]]` 展开后：`[1, 2, 3, 4, 5]`，但是这里并不一定恰当，因为在 DataView 中我们区分查询类型，比如说多级嵌套的任务就比较贴合前面说的展开数组的情况。现在我们就利用前面章节\[\[博客/Obsidian/Obsidian 达人成长之路#1：使用终极工具 Dataview 释放笔记库的潜力 · DQL查询语言#任务相关属性\]\] 中的任务数据来举例。
+`FLATTEN` 语句的作用是展开（扁平）数组，举个例子：`[1, [2, [3, 4], 5]]` 展开后：`[1, 2, 3, 4, 5]`，但是这里并不一定恰当，因为在 DataView 中我们区分查询类型，比如说多级嵌套的任务就比较贴合前面说的展开数组的情况。现在我们就利用前面章节\[\[博客/Obsidian/Obsidian 达人成长之路#1：使用终极工具 Dataview 释放笔记库的潜力 · DQL 查询语言#任务相关属性\]\] 中的任务数据来举例。
 
 ```kotlin
-kotlin 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID T.text as "任务名称"
 FLATTEN file.tasks as T
 WHERE T.completed AND file = this.file
@@ -870,7 +869,7 @@ WHERE T.completed AND file = this.file
 现在再来演示另一种使用 `FLATTEN` 的场景，这刚好与 `GROUP BY` 语句结果相反。现在有一个目录 `books` 放置了很多书籍，每一个文档代表一本书，文档中设置 `genres` 属性来作为分类（`Children`, `Romance`, `Magic` 等等），当我们使用 `TABLE genres` 查询时，结果是每个分类占据表格的一行，而默认文档链接会根据分类数量自动合并行，现在想要相同行不合并显示，这时就需要使用 `FLATTEN genres` 来实现。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE genres
 FROM "10 Example Data/books"
 FLATTEN genres
@@ -886,7 +885,7 @@ FLATTEN genres
 接着上面书籍的案例，现在想要根据阅读页数（`pageRead`）和总页数（`totalPages`）来计算出阅读进度，并且过滤掉进度少于 50% 的书籍，这里我们可以使用 `FLATTEN` 来声明一个新的字段 `progress` 来实现：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE pagesRead, totalPages, percentage
 FROM "10 Example Data/books"
 FLATTEN round((pagesRead / totalPages) * 100) AS progress
@@ -958,7 +957,7 @@ DataView 提供了一个 `date()` 函数来构造一个日期对象，这个函�
 下面使用内联 DQL 查询来演示：
 
 ```ruby
-ruby 代码解读复制代码日期:: 2024-04-29
+日期:: 2024-04-29
 时间:: 2024/04/29 11:01:20
 \`= this.日期\` %% 2024-04-29 %%
 \`= this.时间\` %% 2024/04/29 11:01:20 %%
@@ -983,7 +982,7 @@ ruby 代码解读复制代码日期:: 2024-04-29
 `date()` 函数的这种使用方式设计是有点让人产生歧义，初看以为是一种类似日期 `format` 类似的作用，实则不是。它的第 1 个参数必须是文本，不可传入变量，然后第 2 个参数你以为可以使用任何满足 Luxon 时间库格式化的字符，那就理解错了，它真正的作用是为了解决上面我们说的除唯一合法格式以外的输入，请看下面的示例：
 
 ```bash
-bash 代码解读复制代码日期1：\`= date("12/31/2022 12:12:12", "MM/dd/yyyy HH:mm:s")\` %% 2022-12-31 12:12:12 %%
+日期1：\`= date("12/31/2022 12:12:12", "MM/dd/yyyy HH:mm:s")\` %% 2022-12-31 12:12:12 %%
 日期2：\`= date("2023/10/12", "yyyy/MM/dd")\` %% 2023/10/12 %%
 日期3：\`= date("210313", "yyMMdd")\` %% 2021/03/13 %%
 时间缀（毫秒）：\`= date("1714366864889", "x")\` %% 2024-04-29 01:04:04 %%
@@ -1009,7 +1008,7 @@ bash 代码解读复制代码日期1：\`= date("12/31/2022 12:12:12", "MM/dd/yy
 下面是一些基础示例：
 
 ```ruby
-ruby 代码解读复制代码年：\`= dur(5 yr)\` %% 5年 %%
+年：\`= dur(5 yr)\` %% 5年 %%
 月：\`= dur(5 mo)\` %% 5个月 %%
 日：\`= dur(5 d)\` %% 5天 %%
 小时：\`= dur(5 h)\` %% 5小时 %%
@@ -1021,7 +1020,7 @@ ruby 代码解读复制代码年：\`= dur(5 yr)\` %% 5年 %%
 接下来看一下复杂的组合示例，我们会发现 Dataview 会自动推算出合适的表达：
 
 ```ruby
-ruby 代码解读复制代码100天：\`= dur(100 d)\` %% 3个月、2周、2天 %%
+100天：\`= dur(100 d)\` %% 3个月、2周、2天 %%
 36个月：\`= dur(36 mo)\` %% 3年 %%
 50周：\`= dur(50 w)\` %% 1年、2周 %%
 160分钟：\`= dur(160 m)\` %% 2小时、40分钟 %%
@@ -1033,7 +1032,7 @@ ruby 代码解读复制代码100天：\`= dur(100 d)\` %% 3个月、2周、2天 
 除了单独使用外，更多的场景是结合 `date()` 函数一起使用：
 
 ```scss
-scss 代码解读复制代码过去5天：\`= date(now) - dur(5 d)\` %% 2024-04-24 17:04:02 %%
+过去5天：\`= date(now) - dur(5 d)\` %% 2024-04-24 17:04:02 %%
 过去2周：\`= date(now) - dur(2 w)\` %% 2024-04-15 17:04:02 %%
 明天：\`= date(now) + dur(1 d)\` %% 2024-04-30 17:04:02 %%
 往后3年：\`= date(now) + dur(3 yr)\` %% 2027-04-29 17:04:02 %%
@@ -1053,7 +1052,7 @@ DataView 提供了大量的函数来提高处理文档的效率，这里的函�
 下面我们举例来说明 `object(key1, value1, ...)`, `list(value1, value2, ...)`, `number(string)` 和 `string(any)` 的使用，需要注意的是通过内联 DQL 查询后显示结果，对象显示为：`key: key2: key3: value` 的形式，而列表不分是否嵌套统一显示成 `value, value, ...` 的形式。
 
 ```css
-css 代码解读复制代码普通对象：\`= object("a", 123)\` %% a: 123 %%
+普通对象：\`= object("a", 123)\` %% a: 123 %%
 获取对象的值1：\`= object("a", 123).a\` %% 123 %%
 获取对象的值2：\`= extract(object("a", 123), "a")\` %% a: 123 %%
 嵌套对象：\`= object("a", object("b", object("c", 123)))\` %% a: b: c: 123 %%
@@ -1078,7 +1077,7 @@ css 代码解读复制代码普通对象：\`= object("a", 123)\` %% a: 123 %%
 上面的示例我们使用内联 DQL 查询，对于一个普通的对象如何在 DQL 显示呢？这里我们需要借助 `FLATTEN` 语句来实现：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID T.name AS 姓名, T.age AS 年龄
 FLATTEN object("name", "jenemy", "age", 33) AS T
 WHERE file = this.file
@@ -1096,7 +1095,7 @@ WHERE file = this.file
 假如现在我们的文档目录树如下：
 
 ```
- 代码解读复制代码|- Obsidian
+|- Obsidian
 |  |- 笔记一.md
 |  |- 笔记二.md
 |  └─ Dataview
@@ -1112,7 +1111,7 @@ WHERE file = this.file
 经过上面的实验我们需要注意的是在指定链接时一定要加是路径，如果在文档内引用了多个同名的文档，最好使用别名来标识。下面是一些使用示例：
 
 ```less
-less 代码解读复制代码\`= link("笔记二)"\` %% 根目录下的笔记二 %%
+\`= link("笔记二)"\` %% 根目录下的笔记二 %%
 \`= link("/笔记二)"\` %% 根目录下的笔记二 %%
 \`= link("./笔记二")\` %% 同级目录笔记二 %%
 \`= link("Obsidian/笔记二")\` %% Obsidian 目录下的笔记二 %%
@@ -1122,7 +1121,7 @@ less 代码解读复制代码\`= link("笔记二)"\` %% 根目录下的笔记二
 然后我们再来看一下如何使用 `embed(link, [embed?])` 嵌入图片和 `elink(url, [display])` 创建外部链接。
 
 ```erlang
-erlang 代码解读复制代码\`= embed(link("bg_1.jpg"))\` %% 图片位于附件默认存放路径中 %%
+\`= embed(link("bg_1.jpg"))\` %% 图片位于附件默认存放路径中 %%
 \`= elink("www.baidu.com")\` %% 创建百度外部链接 %%
 \`= elink("www.google.com", "谷歌搜索")\` %% 显示指定的别名，而非地址 %%
 ```
@@ -1130,7 +1129,7 @@ erlang 代码解读复制代码\`= embed(link("bg_1.jpg"))\` %% 图片位于附�
 最后我们来看一下如何判断数据类型,，这里我们使用 `typeof(any)` 函数来判断：
 
 ```vbnet
-vbnet 代码解读复制代码\`= typeof(12)\` %% "number" %%
+\`= typeof(12)\` %% "number" %%
 \`= typeof("abc")\` %% "string" %%
 \`= typeof(link("笔记二"))\` %% "link" %%
 \`= typeof(list(1, 3, 4))\` %% "array" %%
@@ -1138,7 +1137,7 @@ vbnet 代码解读复制代码\`= typeof(12)\` %% "number" %%
 \`= typeof(object("a", 1))\` %% "object" %%
 \`= typeof({ a: 1 })\` %% "object" %%
 \`= typeof(date(now))\` %% "date" %%
-\`= typeof(dur(1 d))\` %% "duration" %% 
+\`= typeof(dur(1 d))\` %% "duration" %%
 \`= typeof(true)\` %% "boolean" %%
 ```
 
@@ -1147,7 +1146,7 @@ vbnet 代码解读复制代码\`= typeof(12)\` %% "number" %%
 对于数字的操作除了前面章节介绍过的四则运算和求余运算外，比较常见的还有求最大值（`max(a, b, ..)`）、最小值（`min(a, b, ..)`）、求和（`sum(array)`）、向上取整（`ceil(number)`）、向下取整（`floor(number)`）、四舍五入（`round(number, [digits])`）、平均值（`average(array)`）以及小数位截断（`trunc(number)`）等。
 
 ```ruby
-ruby 代码解读复制代码四舍五入：\`= round(16.5555)\` %% 17 %%
+四舍五入：\`= round(16.5555)\` %% 17 %%
 保留2位小数：\`= round(16.5555, 2)\` %% 16.56 %%
 小数点截断：\`= trunc(-12.937)\` %% -12 %%
 向下取整：\`= floor(12.937)\` %% 12 %%
@@ -1167,7 +1166,7 @@ ruby 代码解读复制代码四舍五入：\`= round(16.5555)\` %% 17 %%
 `minby(array, function)` 和 `maxby(array, function)` 用于根据指定的函数来返回最小值和最大值。
 
 ```scss
-scss 代码解读复制代码最小值：\`= minby([1, 3, 5], (v) => v)\` %% 1 %%
+最小值：\`= minby([1, 3, 5], (v) => v)\` %% 1 %%
 将正整数按负数进行比较获得的最小值：\`= minby([1, 2, 3], (v) => 0 - v)\` %% 3 %%
 对一组单词返回最长的词汇：\`= maxby(["Compute", "the", "maximum", "value"], (v) => length(v))\` %% maximum %%
 ```
@@ -1179,7 +1178,7 @@ scss 代码解读复制代码最小值：\`= minby([1, 3, 5], (v) => v)\` %% 1 %
 下面通过一些实际的例子来理解这些数组函数的用法：
 
 ```erlang
-erlang 代码解读复制代码\`= map(["Ctrl", "Shift", "Alt"], (v) => "<kbd>" + v + "</kbd>")\` %% Ctrl, Shift, Alt %%
+\`= map(["Ctrl", "Shift", "Alt"], (v) => "<kbd>" + v + "</kbd>")\` %% Ctrl, Shift, Alt %%
 \`= filter([true, false, true, true, false], (v) => !v)\` %% false, false %%
 \`= join(["a", "b", "c"], ",")\` %% a,b,c %%
 \`= flat([1, [2, 3], [4, 5, [6, 7]], 8])\` %% 1, 2, 3, 4, 5, 6, 7, 8 %%
@@ -1192,7 +1191,7 @@ erlang 代码解读复制代码\`= map(["Ctrl", "Shift", "Alt"], (v) => "<kbd>" 
 对于函数 `flat(array, [depth])`，默认情况下只展开第一级数组（`depth = 1`），下面我们在 DQL 查询中看一下一个 4 层数组 `[1, [2, [3, [4, [5, 6]]]]]` 分别使用默认和 `depth = 3` 的结果：
 
 ```csharp
-csharp 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID T
 FLATTEN flat([1, [2, [3, [4, [5, 6]]]]], 1) as T
 WHERE file = this.file
@@ -1208,7 +1207,7 @@ WHERE file = this.file
 下面我们介绍一个重要的函数 `contains(object|list|string, value)` 和其变种，这个函数的作用是用于判断在对象、数组和字符串中是否包含给定的字符（串），对于对象我们关注的是是否包含某个键值，数组则是否包含某个数组项值，字符串则是判断是否包含特定的字符（串）。
 
 ```sql
-sql 代码解读复制代码\`= contains(object("a", 1, "b", 2), "a")\` %% true %%
+\`= contains(object("a", 1, "b", 2), "a")\` %% true %%
 当前文件名是否包含日期：\`= contains(this.file, "day")\` %% false %%
 \`= contains(list(1, 2, 3), 3)\` %% true %%
 \`= contains([], 3)\` %% false %%
@@ -1223,7 +1222,7 @@ sql 代码解读复制代码\`= contains(object("a", 1, "b", 2), "a")\` %% true 
 下面看一下使用 `contains()` 和 `icontains()` 函数的一个例子：
 
 ```sql
-sql 代码解读复制代码\`= contains(["acb", "bcd", "efg", "egk"], "cb")\` %% true %%
+\`= contains(["acb", "bcd", "efg", "egk"], "cb")\` %% true %%
 \`= icontains(["abc", "Abc", "ABC", "abC"], "Bc")\` %% true %%
 ```
 
@@ -1232,13 +1231,13 @@ sql 代码解读复制代码\`= contains(["acb", "bcd", "efg", "egk"], "cb")\` %
 继续看下面一个 `icontains()` 函数的例子：
 
 ```arduino
-arduino 代码解读复制代码\`= icontains(["foo", "bar", "baz"], "bA")\` %% true %%
+\`= icontains(["foo", "bar", "baz"], "bA")\` %% true %%
 ```
 
 这个例子中，如果相要在忽略大小写的情况下来判断数组项是否包含某个单词，而不是部分字符时，`icontains()` 函数就显得捉襟见肘了，这便引入了最后一个和 `contains` 相关的函数 `containsword(list|string, value)`，这个函数不作用于对象，因为根据部分字符去获取一个对象的键值没有意义。
 
 ```arduino
-arduino 代码解读复制代码\`= containsword("foo, bar, baz, ba", "bA")\` %% true %%
+\`= containsword("foo, bar, baz, ba", "bA")\` %% true %%
 \`= containsword(["foo", "bar", "baz", "ba"], "bA")\` %% false, false, false, true %%
 ```
 
@@ -1249,7 +1248,7 @@ arduino 代码解读复制代码\`= containsword("foo, bar, baz, ba", "bA")\` %%
 这 3 个函数均可传入一个判断函数作为第二个参数来根据条件返回结果，下面是使用示例：
 
 ```sql
-sql 代码解读复制代码\`= all(["", 0, null, false])\` %% false %%
+\`= all(["", 0, null, false])\` %% false %%
 \`= all(1, "a", false)\` %% false %%
 \`= none(["", 0, null, false])\` %% true %%
 \`= any(["", 1, null, false])\` %% true %%
@@ -1271,14 +1270,14 @@ sql 代码解读复制代码\`= all(["", 0, null, false])\` %% false %%
 这 4 个函数均使用正则表达式来判断传入的 `string` 是否匹配 `pattern`。`regextest(pattern, string)` 和 `regexmatch(pattern, string)` 两个函数的使用是一样的，只不过判断的规则不一样，前者只需要部分匹配就返回成功，而后者要求完全匹配规则。
 
 ```arduino
-arduino 代码解读复制代码\`= regextest("foo", "foo bar baz")\` %% true %%
+\`= regextest("foo", "foo bar baz")\` %% true %%
 \`= regexmatch("foo", "foo bar baz")\` %% false %%
 ```
 
 下面举一个实际的例子，在 [LifeOS for Obsidian (obsidian-life-os.netlify.app)](https://link.juejin.cn/?target=https%3A%2F%2Fobsidian-life-os.netlify.app%2Fzh%2Findex.html "https://obsidian-life-os.netlify.app/zh/index.html") 的示例项目中返回所有未完成的任务时过滤掉目录 Templates 中的模板文件（Daily.md, Monthly.md, Quarterly.md, Weekly.md 和 Yearly.md）中的任务并按文件链接地址分组。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE !regextest("Templates", file.folder) AND !completed
 GROUP BY file.link
@@ -1290,13 +1289,13 @@ GROUP BY file.link
 `regexreplace(string, pattern, replacement)` 函数用于正则替换字符串，例如将日期格式 `2024-05-02` 替换成 `05/02/2024`，它同样支持像 JavaScript 的 `replace()` 函数中那样在 `replacement` 中使用 `$1` 来匹配捕获的第一个分组，然后依次类推。
 
 ```bash
-bash 代码解读复制代码\`= regexreplace("2024-05-02", "(\d{4})-(\d{2})-(\d{2})", "$2/$3/$1")\` %% 05/02/2024 %%
+\`= regexreplace("2024-05-02", "(\d{4})-(\d{2})-(\d{2})", "$2/$3/$1")\` %% 05/02/2024 %%
 ```
 
 `replace(string, pattern, replacement)` 函数虽然函数签名同 `regexreplace()` 函数，但是只能用于普通的广西替换，下面是一个对比的例子：
 
 ```bash
-bash 代码解读复制代码\`= regexreplace("从 2024-05-02 至 2024-05-03", "(\d{4})-(\d{2})-(\d{2})", "$2/$3/$1")\` %% 从 05/02/2024 至 05/03/2024 %%
+\`= regexreplace("从 2024-05-02 至 2024-05-03", "(\d{4})-(\d{2})-(\d{2})", "$2/$3/$1")\` %% 从 05/02/2024 至 05/03/2024 %%
 \`= replace("从 2024-05-02 至 2024-05-03", "(\d{4})-(\d{2})-(\d{2})", "$2/$3/$1")\` %% 从 2024-05-02 至 2024-05-03 %%
 \`= regexreplace("foo bar baz, and bar again", "bar", "BAR")\` %% foo BAR baz, and BAR again %%
 \`= replace("foo bar baz, and bar again", "bar", "BAR")\` %% foo BAR baz, and BAR again %%
@@ -1307,7 +1306,7 @@ bash 代码解读复制代码\`= regexreplace("从 2024-05-02 至 2024-05-03", "
 前面在介绍 `date()` 函数时，我们提及过它不能解析使用 JavaScript 日期函数 `new Date()` 得到中国标准时间，现在我们来举一个并无实际用处的例子，而且还漏洞百出。下面是在文档 `笔记二.md` 中的 5 个任务：
 
 ```diff
-diff 代码解读复制代码- [ ] ChinaDate: Thu May 02 2024 23:19:23 GMT+0800 (中国标准时间) 
+- [ ] ChinaDate: Thu May 02 2024 23:19:23 GMT+0800 (中国标准时间)
 - [ ] 日期：Sun Jan 23 2022 08:00:00 GMT+0800 (中国标准时间)
 - [x] 去年：Mon Nov 13 2023 08:00:00 GMT+0800 (中国标准时间)
 - [ ] 2023-08-20 灼灼出生
@@ -1317,7 +1316,7 @@ diff 代码解读复制代码- [ ] ChinaDate: Thu May 02 2024 23:19:23 GMT+0800 
 现在我们想要过滤掉不包含日期的任务，同时把日期提取出来，将中国标准时间显示成 `xxxx-xx-xx` 的日期格式，下面是作者的一个尝试参考：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE Date, T.text
 FLATTEN file.tasks AS T
 FLATTEN {"Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06", "Jul": "07", "Aug": "08", "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"} AS monthObj
@@ -1352,7 +1351,7 @@ FLATTEN choice(isCHDate, Year + "-" + Month + "-" + Day, split(T.text, " ")[0]) 
 使用 `startswith()` 函数在获取“打造极致体验笔记”系列笔记文档：
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE file.name
 WHERE startswith(file.name, "打造极致体验笔记")
 \`\`\`
@@ -1369,14 +1368,14 @@ WHERE startswith(file.name, "打造极致体验笔记")
 `split(string, delimiter, [limit])` 函数的作用和前面介绍的 `join()` 函数操作相反，它用于将一个字符串按指定的分隔符 `delimiter` 来分割成数组，并且还提供了一个可选的结果数组返回长度限制 `limit`。
 
 ```less
-less 代码解读复制代码\`= split("abcdefg", "", 3)\` %% a, b, c %%
+\`= split("abcdefg", "", 3)\` %% a, b, c %%
 \`= split(join(["a", "b", "c"], ""), "", 2)\` %% a, b %%
 ```
 
 `substring(string, start, [end])` 函数用于获取字符串的一部分，需要注意的是它和数组切片 `slice()` 函数的区别：
 
 ```vbscript
-vbscript 代码解读复制代码\`= substring("hello", 0, 2)\` %% he %%
+\`= substring("hello", 0, 2)\` %% he %%
 \`= substring("hello", 2)\` %% llo %%
 \`= substring("hello", -3, 4)\` %% hell %%
 \`= slice(split("hello", ""), -3, 4)\` %% l, l %%
@@ -1387,7 +1386,7 @@ vbscript 代码解读复制代码\`= substring("hello", 0, 2)\` %% he %%
 `truncate(string, length, [suffix])` 函数用于将文本截断至指定的长度 `length`，需要注意的是这个长度需要将后缀 `suffix` 值 `...` 算入。这个函数对于展示表格数据中单元格文本较长时非常有用。
 
 ```bash
-bash 代码解读复制代码\`= truncate("hello world!", 9)\` %% hello ... %%
+\`= truncate("hello world!", 9)\` %% hello ... %%
 \`= truncate("hello world!", 9, "***")\` %% hello *** %%
 ```
 
@@ -1400,7 +1399,7 @@ bash 代码解读复制代码\`= truncate("hello world!", 9)\` %% hello ... %%
 `default(field, value)` 函数的作用是如果 `filed` 为空值，则返回 `value` 值。对于一个数组，我们可以使用 `nonnull()` 函数来移除空值，也可以使用 `default()` 函数来将空值替换成指定的默认值。如果想要保留空值，可以使用 `ldefault()` 函数，用法是一样的，只不过它不会替换掉 `field` 中的空值。
 
 ```csharp
-csharp 代码解读复制代码\`= default(completed, "incompleted")\` %% incompleted %%
+\`= default(completed, "incompleted")\` %% incompleted %%
 \`= default(undefined, 1)\` %% 1 %%
 \`= default(null, 1)\` %% 1 %%
 \`= default(false, 1)\` %% false %%
@@ -1416,7 +1415,7 @@ csharp 代码解读复制代码\`= default(completed, "incompleted")\` %% incomp
 `choice(bool, left, right)` 函数是一个原始的 if 语句，相当于 JavaScript 中的 `? :` 运算符，没有 else 语句，只能进行一个条件判断，如果为真则执行 `left` 否则执行 `right`。这是唯一一个条件判断函数，因此使用较多，比如前面介绍判断中国标准时间的例子。
 
 ```bash
-bash 代码解读复制代码\`= choice(true, "yes", "no")\` %% yes %%
+\`= choice(true, "yes", "no")\` %% yes %%
 ```
 
 ##### `hash` 函数
@@ -1424,7 +1423,7 @@ bash 代码解读复制代码\`= choice(true, "yes", "no")\` %% yes %%
 `hash(seed, [text], [variant])` 函数用于生成一个基于给定种子（`seed`）、文本（`text`）和变体（`variant`）的哈希值。这里的种子如果提供不同的值会产生不同的哈希输出，相同的种子可以增加哈希函数的唯一性。变体可以提供进一步的文本区分依据，例如在同一个文件，相同的任务名，将 `variant` 设置为任务所在的行号可区分出同名的任务。
 
 ```bash
-bash 代码解读复制代码\`= hash("1", "same text")\` %% 673738316819763 %%
+\`= hash("1", "same text")\` %% 673738316819763 %%
 \`= hash("2", "same text")\` %% 6125302604555861 %%
 \`= hash("2", "same text", 1)\` %% 3643262541303331 %%
 \`= hash("2", "same text", 2)\` %% 27826704613653 %%
@@ -1434,7 +1433,7 @@ bash 代码解读复制代码\`= hash("1", "same text")\` %% 673738316819763 %%
 下面我们使用 `hash()` 函数来随机排序文档
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID file.name, file.mtime
 SORT file.ctime
 SORT hash(dateformat(file.ctime, "YYYY-MM-DD"), file.name)
@@ -1450,7 +1449,7 @@ SORT hash(dateformat(file.ctime, "YYYY-MM-DD"), file.name)
 `striptime(date)` 函数用于去掉日期中的时间部分，只留下年、月和日。
 
 ```kotlin
-kotlin 代码解读复制代码\`= striptime(this.file.ctime)\` %% 2024-04-30 %%
+\`= striptime(this.file.ctime)\` %% 2024-04-30 %%
 ```
 
 ##### `dateformat` 函数
@@ -1458,7 +1457,7 @@ kotlin 代码解读复制代码\`= striptime(this.file.ctime)\` %% 2024-04-30 %%
 `dateformat(date|datetime, string)` 函数用于格式化日期，格式化符号参见：[Luxon tokens](https://link.juejin.cn/?target=https%3A%2F%2Fmoment.github.io%2Fluxon%2F%23%2Fformatting%3Fid%3Dtable-of-tokens "https://moment.github.io/luxon/#/formatting?id=table-of-tokens")。
 
 ```scss
-scss 代码解读复制代码\`= dateformat(this.file.ctime, "yyyy-MM-dd")\` %% 2024-04-20 %%
+\`= dateformat(this.file.ctime, "yyyy-MM-dd")\` %% 2024-04-20 %%
 \`= dateformat(this.file.ctime, "HH:mm:ss")\` %% 21:09:55 %%
 \`= dateformat(date(now),"x")\` %% 1714802627234 %%
 \`= dateformat(date(now),"ffff")\` %% 2024年5月4日星期六中国标准时间 14:10 %%
@@ -1483,7 +1482,7 @@ scss 代码解读复制代码\`= dateformat(this.file.ctime, "yyyy-MM-dd")\` %% 
 下面是简单使用举例：
 
 ```less
-less 代码解读复制代码\`= durationformat(dur("3 days 7 hours 43 seconds"), "ddd'd' hh'h' ss's'")\` %% 003d 07h 43s %%
+\`= durationformat(dur("3 days 7 hours 43 seconds"), "ddd'd' hh'h' ss's'")\` %% 003d 07h 43s %%
 \`= durationformat(dur("30000 days 7 hours 43 seconds"), "ddd'd' hh'h' ss's'")\` %% 30000d 07h 43s %%
 \`= durationformat(dur("3 days 7 hours 43 seconds"), "hh'h' ss's'")\` %% 79h 43s %%
 \`= durationformat(dur("3 days 7 hours 43 seconds"), "ss'秒'")\` %% 79 h 43 s %%
@@ -1494,7 +1493,7 @@ less 代码解读复制代码\`= durationformat(dur("3 days 7 hours 43 seconds")
 `currencyformat(number, [currency])` 函数用于格式化货币，其中 `currency` 常见取值有人民币（`CNY`），美元（`USD`），欧元（`EUR`），日元（`JPY`），更多国家的取值请参考：[ISO 4217](https://link.juejin.cn/?target=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISO_4217%23List_of_ISO_4217_currency_codes "https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes")。
 
 ```ruby
-ruby 代码解读复制代码\`= currencyformat(123456.789, "CNY")\` %% ¥123,456.79 %%
+\`= currencyformat(123456.789, "CNY")\` %% ¥123,456.79 %%
 \`= currencyformat(123456.789, "USD")\` %% US$123,456.79 %%
 \`= currencyformat(123456.789, "EUR")\` %% €123,456.79 %%
 \`= currencyformat(123456.789, "JPY")\` %% JP¥123,457 %%
@@ -1507,7 +1506,7 @@ ruby 代码解读复制代码\`= currencyformat(123456.789, "CNY")\` %% ¥123,45
 `localtime(date)` 函数用于将固定时区中的日期转换为当前时区中的日期。
 
 ```ruby
-ruby 代码解读复制代码\`= localtime(date(now))\` %% 9:07 下午 - 5 04, 2024 %%
+\`= localtime(date(now))\` %% 9:07 下午 - 5 04, 2024 %%
 ```
 
 ##### `meta` 函数
@@ -1541,9 +1540,9 @@ ruby 代码解读复制代码\`= localtime(date(now))\` %% 9:07 下午 - 5 04, 2
 - [Obsidian 插件之 Dataview - 知乎 (zhihu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F373623264 "https://zhuanlan.zhihu.com/p/373623264")
 - [Obsidian DataView 入门保姆级引导手册 - 知乎 (zhihu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F614881764 "https://zhuanlan.zhihu.com/p/614881764")
 - [一文看懂 YAML - 知乎 (zhihu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F145173920 "https://zhuanlan.zhihu.com/p/145173920")
-- [obsidian插件dataview官方文档翻译 - 知乎 (zhihu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F393550306 "https://zhuanlan.zhihu.com/p/393550306")
-- [Dataviewjs的奇技淫巧 - 经验分享 - Obsidian 中文论坛](https://link.juejin.cn/?target=https%3A%2F%2Fforum-zh.obsidian.md%2Ft%2Ftopic%2F5954 "https://forum-zh.obsidian.md/t/topic/5954")
-- [Obsidian学习从0到1 —— 双链（重点）\_obsidian 双链-CSDN博客](https://link.juejin.cn/?target=https%3A%2F%2Fblog.csdn.net%2Fweixin_51684355%2Farticle%2Fdetails%2F126084867 "https://blog.csdn.net/weixin_51684355/article/details/126084867")
+- [obsidian 插件 dataview 官方文档翻译 - 知乎 (zhihu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F393550306 "https://zhuanlan.zhihu.com/p/393550306")
+- [Dataviewjs 的奇技淫巧 - 经验分享 - Obsidian 中文论坛](https://link.juejin.cn/?target=https%3A%2F%2Fforum-zh.obsidian.md%2Ft%2Ftopic%2F5954 "https://forum-zh.obsidian.md/t/topic/5954")
+- [Obsidian 学习从 0 到 1 —— 双链（重点）\_obsidian 双链-CSDN 博客](https://link.juejin.cn/?target=https%3A%2F%2Fblog.csdn.net%2Fweixin_51684355%2Farticle%2Fdetails%2F126084867 "https://blog.csdn.net/weixin_51684355/article/details/126084867")
 - [dmscode/Obsidian-Templates: 我在 Obsidian 中用的各种模板（Dataview，Templater，QuickAdd） (github.com)](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fdmscode%2FObsidian-Templates "https://github.com/dmscode/Obsidian-Templates")
 - [702573N/Obsidian-Tasks-Timeline: A custom view build with Obsidian-Dataview to display tasks from Obsidian-Tasks and from your daily notes in a highly customisable timeline (github.com)](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2F702573N%2FObsidian-Tasks-Timeline "https://github.com/702573N/Obsidian-Tasks-Timeline")
 - [Aetherinox/obsidian-dataview-snippets: A collection of Obsidian.md scripts which include Tag & Page Clouds, Table of Contents / ToC, Bad / Missing Link reporting, etc. (github.com)](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FAetherinox%2Fobsidian-dataview-snippets "https://github.com/Aetherinox/obsidian-dataview-snippets")

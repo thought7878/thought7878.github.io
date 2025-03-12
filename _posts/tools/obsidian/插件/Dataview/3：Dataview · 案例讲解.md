@@ -26,7 +26,7 @@ tags:
 DQL 内联查询示例：
 
 ```ruby
-ruby 代码解读复制代码topic:: basic inline queries
+topic:: basic inline queries
 description:: Showcase basic syntax of DQL and JS Inline Queries
 
 创建时间：\`= this.file.ctime\` %% 2024-05-13 11:05:56 %%
@@ -47,7 +47,7 @@ description:: Showcase basic syntax of DQL and JS Inline Queries
 JavaScript API 示例：
 
 ```matlab
-matlab 代码解读复制代码创建时间：\`$= dv.current().file.ctime\` %% 2024-05-13 11:05:56 %%
+创建时间：\`$= dv.current().file.ctime\` %% 2024-05-13 11:05:56 %%
 修改时间：\`$= dv.current().file.mtime\` %% 2024-05-15 12:05:44 %%
 标签：\`$= dv.current().file.tags\` %% Blog, Dataview, Obsidian %%
 内联字段查询：\`$= dv.current().topic\` %% basic inline queries %%
@@ -65,7 +65,7 @@ matlab 代码解读复制代码创建时间：\`$= dv.current().file.ctime\` %% 
 
 > \[!Tip\] 使用内联 API 查询出来的标签在结果显示上和内联 DQL 的结果略有不同，前者是可交互的结果，后者为纯文本。
 
-> 有没有发现在 API 中没有对应的 `truncate()` 函数使用（骗人的：所有 DQL 查询语句能用的函数都在 `dv.func` 对象中，这里就是 `dv.func.truncate()`），但是我们还可以 `dv.evalute()` 或者 `dv.tryEvaluate()` 函数在 API 中执行 DQL 查询。
+> 有没有发现在 API 中没有对应的  `truncate()`  函数使用（骗人的：所有 DQL 查询语句能用的函数都在  `dv.func`  对象中，这里就是  `dv.func.truncate()`），但是我们还可以  `dv.evalute()`  或者  `dv.tryEvaluate()`  函数在 API 中执行 DQL 查询。
 
 > \[!Warning\] 在文件名不要包含 `#` 符号，在使用链接时会被错误的识别为标签或者页面标题。
 
@@ -78,12 +78,11 @@ matlab 代码解读复制代码创建时间：\`$= dv.current().file.ctime\` %% 
 现在我们在 Front Matter 中添加一个属性 `cover-img`，其值为图片的链接数组。然后，我们来看一下如何在文档中显示图片：
 
 ```yaml
-yaml 代码解读复制代码---
-cover-img: 
-- https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546512443i/43451211.jpg
-- "[[Pasted image 20240529150343.png]]"
 ---
-
+cover-img:
+  - https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546512443i/43451211.jpg
+  - "[[Pasted image 20240529150343.png]]"
+---
 \`= "![图片名称|50](" + this.cover-img[0] + ")"\`
 \`= "!" + this.cover-img[1]\`
 \`= embed(link(this.cover-img[1], "50"))\`
@@ -96,7 +95,7 @@ WHERE file = this.file
 
 结果：
 
-![Pasted image 20240529163127.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8ad58336ccef48758abb7028e4d2f333~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=399&h=276&s=21672&e=png&b=fefdfd)
+![[_posts/tools/obsidian/插件/Dataview/media/0fb9706ab8794223ad9fc75c6bf339e7_MD5.webp]]
 
 上面的示例中，我们分别使用了 3 种方式来展示图片：
 
@@ -111,13 +110,13 @@ WHERE file = this.file
 下面我们来看一下在现实场景中的应用：
 
 ```csharp
-csharp 代码解读复制代码\`\`\` dataview
+\`\`\` dataview
 TABLE author, genres, EmbededCoverImg as ""
 FROM "10 Example Data/books"
 FLATTEN choice(typeof(cover-img)="link",
 	embed(link(meta(
 		choice(
-			typeof(cover-img)="link", 
+			typeof(cover-img)="link",
 				cover-img, this.file.link
 		)
 	).path, "50")), "![anyName|50](" + cover-img + ")") AS EmbededCoverImg
@@ -126,12 +125,12 @@ FLATTEN choice(typeof(cover-img)="link",
 
 结果：
 
-![Pasted image 20240529170641.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/130f2cd527af46288d823f74e9f822de~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=709&h=590&s=66993&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/efae28fc936c1a2c233856ac20e3a3c8_MD5.webp]]
 
 下面现给出一个 API 实现方式参考：
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.table(["File", "Author", "Genres", ""], dv.pages('"10 Example Data/books"')
     .map(p => {
         let img;
@@ -160,11 +159,10 @@ dv.table(["File", "Author", "Genres", ""], dv.pages('"10 Example Data/books"')
 #### 示例一：书籍按作者分组
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 author: Conrad C
 ---
-
 %% 查询 %%
 \`\`\`dataview
 TABLE rows.file.link AS 书籍
@@ -175,19 +173,18 @@ GROUP BY author AS 作者
 
 結果：
 
-![Pasted image 20240516114029.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8716ed96b3de438bb7e119e1fd9fccd4~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=603&h=274&s=15362&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/9a747703b64e0907764e066cc2136bb4_MD5.webp]]
 
 #### 示例二：书籍按类型分组
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 genres:
-- Romance
-- Children
-- Magic
+  - Romance
+  - Children
+  - Magic
 ---
-
 %% 查询 %%
 \`\`\`dataview
 TABLE rows.file.link AS 书籍
@@ -199,26 +196,25 @@ GROUP BY genres AS 类别
 
 结果：
 
-![Pasted image 20240516114930.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ced497b8289242678ec18afbf02d37f8~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=605&h=450&s=25567&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/7d7c64ecdc5c63927412932cf0f8d3ce_MD5.webp]]
 
 > \[!Tip\] 这里需要注意的是 `FLATTEN` 语句很关键，如果不使用将会得到一个错误的结果。原因是在原始数据中每一本书可以对应多个类别，而在按类别查询分组后，结果变成多个类别对应一本书。因此我们需要把每个类别对应上同一本书来修正数据，这样再使用分组时就符合预期了。
 
 下面是一个转换过程示例图解：
 
-![Pasted image 20240516115704.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d68956def5047e4aa3cc24ca52e88ab~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=789&h=84&s=10045&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/ed38c55a48034fa35fbda47ff85c2f47_MD5.webp]]
 
 #### 示例三：根据计算结果分组
 
 这里对任务的 `due` 进行分组，如果在 `2022-05-12` 前没有完成就视为过期。
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 class: history
 received: 2022-03-20
 due: 2022-05-05
 ---
-
 %% 查询 %%
 \`\`\`dataview
 LIST rows.file.link
@@ -229,16 +225,16 @@ GROUP BY choice(due < date("2022-05-12"), "已过期", "还有机会")
 
 结果：
 
-![Pasted image 20240516121939.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd213d6cc7d746fe8332b52dcbcc55d3~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=186&h=391&s=9535&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/6a4455b9aa522b9b0acdaca0fbc172d7_MD5.webp]]
 
 #### 示例四：分组后的元数据
 
 在分组章节提到了分组后的数据属性 `rows`，实际上使用 `GROUP BY` 语句后返回的是一个对象，类似于：
 
 ```ts
-ts 代码解读复制代码{
-	key: groupName;
-	rows: ArrayOfDataColumns
+{
+  key: groupName;
+  rows: ArrayOfDataColumns;
 }
 ```
 
@@ -255,7 +251,7 @@ ts 代码解读复制代码{
 对于 `GROUP BY` 语句我们还可以不提供分组属性，而是提供一个文本，然后只针对 `rows` 进行处理，比如获取其长度 `length(rows)`，这实际上是将所有查询的数组归为一个组了。
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST length(rows)
 FROM "10 Example Data/assignments"
 GROUP BY "什么也不做"
@@ -264,7 +260,7 @@ GROUP BY "什么也不做"
 
 结果：
 
-![Pasted image 20240516180032.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6598a4452dd54e43b94bd80d1eebb60d~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=155&h=40&s=2429&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/ea24932ef95c25ad1e629840279f047e_MD5.webp]]
 
 现在我们来把【示例三】根据上面提及的一些知识点进行一次改造：
 
@@ -272,7 +268,7 @@ GROUP BY "什么也不做"
 2. 对结果进行合并，显示在一个列表中
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST join(map(rows.file, (f) => f.link + " " + f.frontmatter.due), ", ")
 FROM "10 Example Data/assignments"
 FLATTEN file.frontmatter.due AS path
@@ -282,12 +278,12 @@ GROUP BY choice(due < date("2022-05-12"), "已过期", "还有机会")
 
 结果：
 
-![Pasted image 20240516182930.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/90b28dc5b6fc4c6a916f8ad6c1d16414~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=586&h=154&s=20018&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/1a42b7f9c661f78b250e0a4438c18c83_MD5.webp]]
 
 进一步我们可以使用 `FLATTEN` 语句改造实现同样的效果，可以不用 `map()` 函数，直接将需要格式化显示的结果作为 `rows` 分组后的数据的一个属性。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST join(rows.desc, ", ")
 FROM "10 Example Data/assignments"
 FLATTEN file.link + " " + file.frontmatter.due AS desc
@@ -302,7 +298,7 @@ GROUP BY choice(due < date("2022-05-12"), "已过期", "还有机会")
 在介绍数据分组时有提及过 `FLATTEN` 语句的作用，现在我们再次以书籍数据为例子，将书籍的分类和话题查询出来：
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE genres, booktopics
 FROM "10 Example Data/books"
 \`\`\`
@@ -310,12 +306,12 @@ FROM "10 Example Data/books"
 
 结果：
 
-![Pasted image 20240517160559.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/99e58b18ba004f428619e6166ded35f1~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=711&h=438&s=33234&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/3113ae054a4a02952cc3e24f2f39d95a_MD5.webp]]
 
 因为分类和话题其实是多对多的关系，因此我们可以使用 2 个 `FLATTEN` 语句对其展开成 1 维的数据列。
 
 ```go
-go 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE genres, booktopics
 FROM "10 Example Data/books"
 FLATTEN genres
@@ -326,7 +322,7 @@ LIMIT 4
 
 结果：
 
-![Pasted image 20240517161616.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82cc9b7fa2ef473dad23eb21b8abe115~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=718&h=167&s=14091&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/6ed21c9096ae501163543a90a4e96282_MD5.webp]]
 
 ##### 声明新属性
 
@@ -335,7 +331,7 @@ LIMIT 4
 下面我们通过 `FLATTEN` 语句分别声明了一个字符串 `arr`，一个数字 `num` 和一个对象 `obj`，对象中包含一个数组 `[1, 2, 3]`，看一下结果如何：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID num, str, obj
 FLATTEN 123 AS num
 FLATTEN "hello" AS str
@@ -346,26 +342,26 @@ WHERE file = this.file
 
 结果：
 
-![Pasted image 20240517170018.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a33ebd09bb6c40a29a426f1eb33eb829~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=704&h=203&s=9273&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/ae27e1a9561212dfa65aacc94b923781_MD5.webp]]
 
 现在我们再进行一点小改变，将数组 `[1, 2, 3]` 单独提取出来使用 `FLATTEN` 语句声明一个新的属性 `arr`，即：`FLATTEN [1, 2, 3] AS arr`，然后再将 `obj` 修改成：`FLATTEN {"数字": num, "字符串": str, "数组": arr} AS obj`，结果如下：
 
-![Pasted image 20240517170551.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f542a2feca1f49989cc43ed6b0c28f47~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=717&h=280&s=19414&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/8dea483e265ceaacf31086260dce3cb7_MD5.webp]]
 
 可以看到我们得到了一个完全不同的结果，这说明在使用 `FLATTEN` 语句声明数组时会影响结果的维数，我们可以大胆的猜测，假如使用 `FLATTEN` 语句声明 3 个 2 维数组，那么结果将产生 8 种结果：
 
-![Pasted image 20240517172832.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2662b55bd19d4b4493a64c7c5a65a7d4~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=790&h=278&s=33531&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/37e67b20b93c77d006a7e6030c65cfec_MD5.webp]]
 
 #### 处理嵌套
 
-**数据嵌套** 通常指的是在数据结构或数据模型中，一个数据元素内部包含另一个或多个相同或不同类型的数据元素。这种结构使得数据能够以层次化或树状的方式组织起来，从而更好地表示复杂的数据关系。
+**数据嵌套**  通常指的是在数据结构或数据模型中，一个数据元素内部包含另一个或多个相同或不同类型的数据元素。这种结构使得数据能够以层次化或树状的方式组织起来，从而更好地表示复杂的数据关系。
 
 ##### 对象嵌套对象
 
 这种情况下，不需要额外的处理，使用和不适用 `FLATTEN` 语句效果是一样的。
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 obj:
   obj1:
@@ -373,7 +369,6 @@ obj:
       prop1: 1
       prop2: 2
 ---
-
 %% 查询 %%
 \`\`\`dataview
 TABLE WITHOUT ID obj
@@ -384,12 +379,12 @@ FLATTEN obj
 
 结果：
 
-![Pasted image 20240517152437.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c798b814ca724339861d0924bdb8d9f9~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=201&h=148&s=3914&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/bcad0d500283e2e7cdad62f74715ecdc_MD5.webp]]
 
 有了上面的知识，下面我们来分析一个查询书籍中阅读进度不足 50% 的案例：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE pagesRead, totalPages, percentage
 FROM "10 Example Data/books"
 FLATTEN round((pagesRead / totalPages) * 100) AS progress
@@ -400,7 +395,7 @@ FLATTEN progress + "%" AS percentage
 
 结果：
 
-![Pasted image 20240517173908.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7b55a3e855044688bbb1cc928ee3d2d2~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=170&s=11838&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/54f26aadbbb10651b970fab4f805d34a_MD5.webp]]
 
 分析：
 
@@ -415,18 +410,17 @@ FLATTEN progress + "%" AS percentage
 下面是一个数组中包含了 2 个对象和一个字符，对象的属性值为数组。可以看到使用 `FLATTEN` 语句后对象依然保持不变。
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 arr2:
   - a1:
-    - a2
-    - a3
+      - a2
+      - a3
   - b1:
-    - b2
-    - b3
+      - b2
+      - b3
   - c1
 ---
-
 %% 查询 %%
 \`\`\`dataview
 TABLE WITHOUT ID arr2
@@ -437,27 +431,22 @@ FLATTEN arr2
 
 结果：
 
-![Pasted image 20240517153559.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85436c54fef1426293184edc0bc70f30~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=789&h=273&s=21785&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/a9d168ca7b698304b30d58cc9be993e9_MD5.webp]]
 
 ##### 多维数组
 
 这种情况下，数组内部嵌套数组，可能为 2 维（示例：`[[1,2], [3, 4]]`），3 维（示例：`[[[1,2,3], [4,5, 6], [7, 8, 9]]]`）甚至多维，但是 `FLATTEN` 语句只能处理 2 维数组，如果是多维的数据，需要结合 `flat(array, [depth])` 函数，通过指定 `depth` 来根据实际情况指定要处理的层级。
 
 ```yaml
-yaml 代码解读复制代码%% 属性样例 %%
+%% 属性样例 %%
 ---
 arr3:
-  -
-    - a1
+  - - a1
     - b1
-  -
-    - c1
-    -
-      - e1
-      -
-        - f1
+  - - c1
+    - - e1
+      - - f1
 ---
-
 %% 查询 %%
 \`\`\`dataview
 TABLE WITHOUT ID flat(arr3, 2)
@@ -467,11 +456,11 @@ FLATTEN arr3
 
 结果：
 
-![Pasted image 20240517154843.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26d232e1a9304daba3c94a70b36a2e0a~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=722&h=234&s=21678&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/9b573bebd2e76adadc80e05132351e1e_MD5.webp]]
 
 > \[!Tip\] 还有一种方法来实现多维数组展开，修改上面的示例，连续使用 4 次 `FLATTEN arr3`，得到一个展开的结果。这个结果并不能推断出原始数组是由几维展开的，在显示上也没有出现列表符号，读者可以根据需求灵活选用。
 
-![Pasted image 20240517164859.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/605cfb48bc074a4cbf2a42991b96b511~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=682&h=181&s=20945&e=png&b=fdfdfd)
+![[_posts/tools/obsidian/插件/Dataview/media/0bff380ee84d61d535bad68810c72afe_MD5.webp]]
 
 ### SORT 语句
 
@@ -480,7 +469,7 @@ FLATTEN arr3
 默认查询并根据 `recipe-type` 进行分组后的显示顺序为 `meat` , `onepot` 和 `vegetarian`，现在我们将其变成 `onepot`, 'meat' 和 `vegetarian` 的顺序，看看怎么实现：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE rows.file.link
 FROM "10 Example Data/food"
 WHERE recipe-type
@@ -491,14 +480,14 @@ SORT choice(recipe-type="onepot", "1", choice(recipe-type="meat", "2", "3")) ASC
 
 结果：
 
-![Pasted image 20240530145453.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/570dd119574246cc8f001428a85c5dff~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=710&h=186&s=13410&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/1287b9ee51893009738af20d7b5d322a_MD5.webp]]
 
 上面示例中，我们对应对的 3 个属性值的顺序调整，如果数量量很多，几十个又该如何处理呢？
 
 我们可以用一个对象将属性作为键值，排序的权重（顺序值，如 `1`, `2`, ...）作为值，然后以一个立即执行函数根据参数值获取顺序：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID Person.name AS 姓名
 FLATTEN [{name: "晓露"}, {name: "一佰度"}, {name: "周工"}, {name: "狼人头"}, {name: "腰哥"}, {name: "黑黑"}] AS Person
 WHERE file = this.file
@@ -511,7 +500,7 @@ SORT default(((x) => {
 
 结果：
 
-![Pasted image 20240530152109.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6166bc4401aa45df8808969f196c2327~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=719&h=252&s=8605&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/d8090b4003d9cec4a0a86ffe8141b9d6_MD5.webp]]
 
 `default()` 函数中第二个参数，我们只需要指定为比数据量大就可以了，后续没有指定顺序的值就会按默认的排序方式来执行。
 
@@ -528,7 +517,7 @@ SORT default(((x) => {
 需要注意的是，在比较时需要将目标日期使用 `date()` 方法封装后才能进行比较，因为 `file.day` 是一个 DateView 对象，不能和字符串去比较，比如：`file.day = "2022-01-04"` 就是一个无效表达。
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST WITHOUT ID file.link + " 起床时间：" + wake-up
 WHERE file.day = date(2022-01-04) OR file.day = date(2022-01-24)
 \`\`\`
@@ -536,18 +525,18 @@ WHERE file.day = date(2022-01-04) OR file.day = date(2022-01-24)
 
 结果：
 
-![Pasted image 20240527170356.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9b502e943f043c5897f514415ba3ece~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=237&h=61&s=3859&e=png&b=fffefe)
+![[_posts/tools/obsidian/插件/Dataview/media/44f53f07470c377cbc09928e278fd090_MD5.webp]]
 
 #### 忽略年份/月份查询
 
 有些情况下我们并不关心是哪一年、哪一个月的日记中所记载的事项，只想知道某个月的某一天或着每年每个月 17 号自己做了些什么。
 
-> \[!Tip\] 如果使用 API 来查询的话还可以结合：[jjonline/calendar.js: 中国农历（阴阳历）和西元阳历即公历互转JavaScript库 (github.com)](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjjonline%2Fcalendar.js "https://github.com/jjonline/calendar.js") 来查询每年自己农历生日的日记信息。
+> \[!Tip\] 如果使用 API 来查询的话还可以结合：[jjonline/calendar.js: 中国农历（阴阳历）和西元阳历即公历互转 JavaScript 库 (github.com)](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjjonline%2Fcalendar.js "https://github.com/jjonline/calendar.js") 来查询每年自己农历生日的日记信息。
 
 要查询这样的数据，需要将日期使用 `dateformat()` 方法进行格式化后进行比较。
 
 ```sql
-sql 代码解读复制代码按月-日查询：
+按月-日查询：
 
 \`\`\`dataview
 LIST WITHOUT ID file.link + " 起床时间：" + wake-up
@@ -564,7 +553,7 @@ WHERE dateformat(file.day, "dd") = "17"
 
 结果：
 
-![Pasted image 20240527184049.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d0e967f5af2463590b5265db1c164c2~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=431&h=321&s=19882&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/042b58447ecb5b857b536629bd3d927a_MD5.webp]]
 
 第一个查询结果因为 2020 和 2021 年日记数据中没有内联字段 `wake-up`，所以没有数据。第二个查询前 2 个也是同样的原因，第 4 个结果我们可以看出，只要文件面中包含符合日期的格式就会被解析出来。
 
@@ -579,7 +568,7 @@ WHERE dateformat(file.day, "dd") = "17"
 下面是两方式实现示例：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST WITHOUT ID file.link + " 起床时间：" + wake-up
 FROM "10 Example Data/dailys"
 WHERE wake-up
@@ -608,7 +597,7 @@ dv.list(
 
 结果：
 
-![Pasted image 20240527200105.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/74f10e2fa5c846bd99d66d84f4953f07~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=238&h=349&s=12412&e=png&b=fffefe)
+![[_posts/tools/obsidian/插件/Dataview/media/f3bae18bfcf5a733c1369d546cf33c4d_MD5.webp]]
 
 在处理时需要注意，在表示 6 点时，数据源中有少部分是 `6:xx` 其它为 `06:xx`。我们上面的代码中无须担心会被其影响，因为在使用 `number()` 方法时，`06` 会变成数字 `6`，而在脚本实现中 `dt.fromFormat()` 方法会自动处理。如果是字符串比较就需要慎重一些，将其考虑在内。
 
@@ -617,7 +606,7 @@ dv.list(
 下面是日记中和联系人的见面信息记录：
 
 ```lua
-lua 代码解读复制代码#### Appointments
+#### Appointments
 My next appointment with (person:: [[AB1908]]) is on (appointment:: 2022-06-02).
 Also I have an appointment at (appointment:: 2022-05-24 13:17) with (person:: [[Bob]])
 ```
@@ -625,7 +614,7 @@ Also I have an appointment at (appointment:: 2022-05-24 13:17) with (person:: [[
 现在我们来查询和每一个人的最后一次约会日期以及目前为止过去了多少天，并按降序排序（最近日期显示在前面）：
 
 ```sql
-sql 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID
 contactedPerson AS "Person",
 max(rows.file.link) AS "Last contact",
@@ -641,7 +630,7 @@ SORT max(rows.file.day) DESC
 
 结果：
 
-![Pasted image 20240529180837.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa7a6a97a34a4482928e1f84401e9390~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=419&s=35174&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/58e93a9bb268fe1ae85e70c41a79f180_MD5.webp]]
 
 从这个示例中我们可学到一点日记小技巧：如何使用 `(xx: xx)` 内联字段来记录信息，并在后期进行查询。
 
@@ -652,7 +641,7 @@ SORT max(rows.file.day) DESC
 下面这个案例中，我们查询日记数据中的 `wake-up` 和 `go-to-sleep` 行内属性，来计算出醒来时长。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE wake-up, go-to-sleep, wakeTime
 FROM "10 Example Data/dailys"
 LIMIT 10
@@ -663,7 +652,7 @@ FLATTEN date(dt + "T" + go-to-sleep) - date(dt + "T" + wake-up) as wakeTime
 
 结果：
 
-![Pasted image 20240531115539.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5c316b6a6b545d8a69e874fd1a3cb0e~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=712&h=335&s=37578&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/bd3d4ea8cc7ae2c43b10cdd7699b4396_MD5.webp]]
 
 进一步阅读：[Calculate waking phase with wake up and go to sleep times - Dataview Example Vault (s-blu.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fs-blu.github.io%2Fobsidian_dataview_example_vault%2F20%2520Dataview%2520Queries%2FCalculate%2520waking%2520phase%2520with%2520wake%2520up%2520and%2520go%2520to%2520sleep%2520times%2F "https://s-blu.github.io/obsidian_dataview_example_vault/20%20Dataview%20Queries/Calculate%20waking%20phase%20with%20wake%20up%20and%20go%20to%20sleep%20times/")
 
@@ -672,7 +661,7 @@ FLATTEN date(dt + "T" + go-to-sleep) - date(dt + "T" + wake-up) as wakeTime
 下面这个示例，我们通过指定的周数 `2022-W5` 查询日记中的 `note` 属性的值，并以本地化的时间显示星期数。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID "**" + dateformat(file.day, "cccc") + "**" AS "Day" , choice(typeof(note) = "array", note, array(note)) AS "Notes"
 FROM "10 Example Data/dailys"
 FLATTEN "2022-W5" AS Week
@@ -683,7 +672,7 @@ SORT file.name
 
 结果：
 
-![Pasted image 20240529191626.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eb21d35cabbd45bea67b42c61d11aa6a~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=714&h=584&s=45665&e=png&b=fdfdfd)
+![[_posts/tools/obsidian/插件/Dataview/media/301b3c4a4a3406956e0ed78fbcff913e_MD5.webp]]
 
 关于日期格式符可以参见：[Formatting (moment.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fmoment.github.io%2Fluxon%2F%23%2Fformatting%3Fid%3Dtable-of-tokens "https://link.juejin.cn/?target=https%3A%2F%2Fmoment.github.io%2Fluxon%2F%23%2Fformatting%3Fid%3Dtable-of-tokens")
 
@@ -692,7 +681,7 @@ SORT file.name
 创建一个页面，在页面中复制以下面容：
 
 ```markdown
-markdown 代码解读复制代码# title 1
+# title 1
 
 - [ ] task 1
 - list 1
@@ -712,7 +701,7 @@ markdown 代码解读复制代码# title 1
 现在我们来看如何在当前页面中查询标题 `title 2` 下的任务。
 
 ```java
-java 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE file = this.file AND meta(section).subpath = "title 2"
 \`\`\`
@@ -720,7 +709,7 @@ WHERE file = this.file AND meta(section).subpath = "title 2"
 
 结果：
 
-![Pasted image 20240528152438.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/689e350087fe4c0ab7e5bbe2e5f703aa~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=107&h=84&s=2179&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/e4a23e02ce1fe16826f0ccb9f10ce204_MD5.webp]]
 
 > \[!Tip\] 我们在查询中使用的 `section` 属性只存在于 `TASK` 查询中，虽然在 Dataview 中任务也是一种列表项，内部使用了 `task` 属性是否为 `true` 来判断列表为任务。但是，需要注意的是换成 `LIST` 查询就会出现执行错误。
 
@@ -735,7 +724,7 @@ WHERE file = this.file AND meta(section).subpath = "title 2"
 参考代码如下：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TASK
 WHERE file = this.file AND meta(section).subpath = "title 2"
 \`\`\`
@@ -761,7 +750,7 @@ dv.list(
 
 结果：
 
-![Pasted image 20240528155240.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/315913319de04306aaac55792b3e947e~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=144&h=302&s=7922&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/89e9c80bcda2f95794936803071eb8fe_MD5.webp]]
 
 实现一、二都没有问题，优先采用实现一，第三种实现只是模拟，不能反向操作，对查询结果任务状态的改变不会反应到原任务。从结果截图中还可以看出第三种显示又是列表又是任务，两者叠加在一起了，其实我们可以换一种方式，使用 `dv.paragraph()` 来渲染，就会好看一点，就不具体展开了。
 
@@ -770,7 +759,7 @@ dv.list(
 在 `TABLE` 查询输出时，我们可以将两个属性进行合并成一个列表进行显示。
 
 ```css
-css 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID [Person.name, Person.nickname] AS 称呼
 FLATTEN [{name: "晓露", nickname: "球球"}, {name: "周工", nickname: "露露"}, {name: "狼人头", nickname: "Jenemy"}, {name: "腰哥"}] AS Person
 WHERE file = this.file
@@ -780,7 +769,7 @@ WHERE file = this.file
 如果数据中缺少其中某个属性，则会显示为 `-`，下面我们通过 `filter()` 函数来处理一下，过滤掉不存在的属性。
 
 ```css
-css 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID name AS 称呼
 FLATTEN [{name: "晓露", nickname: "球球"}, {name: "周工", nickname: "露露"}, {name: "狼人头", nickname: "Jenemy"}, {name: "腰哥"}] AS Person
 WHERE file = this.file
@@ -790,14 +779,14 @@ FLATTEN filter([Person.name, Person.nickname], (x) => x) AS name
 
 对比结果：
 
-![Pasted image 20240530160245.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dc105755fde64bcc83a654d28d339aa0~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=496&h=314&s=18227&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/0da696c868ef1b8b8fe10a89330bb062_MD5.webp]]
 
 ### 进度条
 
 在 HTML 中有一个标签 `<progress>` 来渲染进度条，我们可以很容易的使用内联查询 JS 或 `dv.el()` 函数来实现。
 
 ```arduino
-arduino 代码解读复制代码pagesRead:: 42
+pagesRead:: 42
 totalPages:: 130
 
 \`$= const value = Math.round((dv.current().pagesRead / dv.current().totalPages) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"\`
@@ -805,12 +794,12 @@ totalPages:: 130
 
 结果：
 
-![Pasted image 20240530183919.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85aa04d71856430990bbca4aae4256d1~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=227&h=42&s=1121&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/742e9703bec78de67e872adddf4b36e1_MD5.webp]]
 
 下面这个案例中，我们在页面中设置了两个内联字段来分别表示当前进度值和目标总数值，并根据不同的进度显示不同的图片。
 
 ```ini
-ini 代码解读复制代码wordcount:: 3900
+wordcount:: 3900
 targetcount:: 15000
 
 \`\`\`dataviewjs
@@ -845,7 +834,7 @@ dv.el("div", html)
 
 结果：
 
-![Pasted image 20240530174437.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fe0def5f06745f5b4394bf58a884587~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=261&h=82&s=2475&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/2f9c4bef4b25eb658d916c94922fb9f9_MD5.webp]]
 
 代码中 `this.app.vault.getConfig("attachmentFolderPath")` 用于获取我们配置的附件文件夹路径。`getConfig()` 方法也可以读取 `.obsidian/app.json` 中的其它配置。`this.app.vault.adapter.basePath` 用于获取当前笔记在操作系统中的路径，如：`D:\Test_Note`。
 
@@ -856,7 +845,7 @@ dv.el("div", html)
 查询项目数据，并对每个目标及包含的项目的完成情况进行可视化显示。
 
 ```sql
-sql 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const DQL = await dv.tryQuery(\`
 TABLE WITHOUT ID
 	G AS Goals,
@@ -864,7 +853,7 @@ TABLE WITHOUT ID
 	map(rows, (r) => r.Lt),
 	map(rows, (r) => r.Lc),
 	map(rows, (r) => "<progress style='width:80px;' value='" + (r.Lc/r.Lt)*100 + "' max='100'></progress>" + "&nbsp;&nbsp;<span style='font-size:smaller;color:var(--text-muted)'>" + round((r.Lc/r.Lt)*100) + "%</span>")
-FROM #goal 
+FROM #goal
 FLATTEN file.outlinks AS OUT
 WHERE OUT.file.tasks
 FLATTEN length(OUT.file.tasks) AS Lt
@@ -880,9 +869,9 @@ const globalValues = DQL.values
 		row[0], //Goals Link
 		removeBulletpoints(row[1]), // Project links
 		removeBulletpoints(row[4]), // progress bars
-		"<progress value='" + sumUp(row[3])/sumUp(row[2]) * 100 
-		+ "' max='100'></progress><br><span style='font-size:smaller;'>" 
-		+ Math.round(sumUp(row[3])/sumUp(row[2]) * 100) + "% completed</span>" 
+		"<progress value='" + sumUp(row[3])/sumUp(row[2]) * 100
+		+ "' max='100'></progress><br><span style='font-size:smaller;'>"
+		+ Math.round(sumUp(row[3])/sumUp(row[2]) * 100) + "% completed</span>"
 	]})
 
 dv.table(["Goals", "Projects", "Progress", "Goal Progress"], globalValues);
@@ -899,14 +888,14 @@ function sumUp(val) {
 
 结果：
 
-![Pasted image 20240530175840.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/06413b69b16945c7b6fbbf52baaae435~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=228&s=22890&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/ee9c96ff7da234ace17c05fd010e2427_MD5.webp]]
 
 这个例子中查询的数据源有 2 个目标 `Goal 1` 和 `Goal 2`，两个文件中分别外链了 `Project 1~9`，并且都标记了 `#goal` 标签。所以 DQL 查询语句先通过标签来获取 2 个目标文件，然后通过外链获取所有项目中的任务，并根据每个任务文件中的任务数和完成数来生成进度条。
 
 例子中的 `removeBulletpoints()` 函数去除 Bullet 的方式让我们又 Get 到了新技能：如何去掉列表丑陋的小点点。
 
 ```ruby
-ruby 代码解读复制代码name:: 标题1
+name:: 标题1
 name:: 标题2
 name:: 标题3
 
@@ -923,7 +912,7 @@ where file = this.file
 
 结果：
 
-![Pasted image 20240530182704.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f71c6448fa7948039268bbfaf3825d7e~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=447&h=169&s=10289&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/e008b5f265f3935b870b17069f5ecb74_MD5.webp]]
 
 ## 中级篇：Dataview 进阶应用
 
@@ -946,7 +935,7 @@ Obsidian 作为双链笔记应用中的佼佼者，提供了强大的链接支�
 在 Obsidian 中使用 `[[xxx]]` 引用链接时，不一定要求链接指向的文件存在于库中，因此，会存在大量空链接。页面中引用的链接存放在 `file.outlinks` 属性中，我们可以读取其中的值来进一步判断链接是否存在。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE WITHOUT ID key AS "unresolved link", rows.file.link AS "referencing file"
 FROM "10 Example Data"
 FLATTEN file.outlinks as outlinks
@@ -965,10 +954,10 @@ GROUP BY outlinks
 假如文档 `测试.md` 包含一个不存在的 `[[xxx]]` 链接，那么在 `unresolvedLinks` 中表示如下：
 
 ```json
-json 代码解读复制代码{
-	"测试.md": {
-	    "xx": 1
-	}
+{
+  "测试.md": {
+    "xx": 1
+  }
 }
 ```
 
@@ -977,13 +966,21 @@ json 代码解读复制代码{
 下面我们来遍历输出当前文档中不存在的链接：
 
 ```js
-js 代码解读复制代码dv.list(Object.keys(dv.app.metadataCache.unresolvedLinks[dv.current().file.path]))
+dv.list(
+  Object.keys(dv.app.metadataCache.unresolvedLinks[dv.current().file.path])
+);
 ```
 
 如果要查询库中所有不存在的链接，将遍历方式修改一下：
 
 ```js
-js 代码解读复制代码dv.list(new Set(Object.values(dv.app.metadataCache.unresolvedLinks).flatMap(l => Object.keys(l)).sort()).values())
+dv.list(
+  new Set(
+    Object.values(dv.app.metadataCache.unresolvedLinks)
+      .flatMap((l) => Object.keys(l))
+      .sort()
+  ).values()
+);
 ```
 
 这里需要使用 `Set()` 来去重，因为同一个链接可能在不同的页面引用多次。
@@ -991,7 +988,7 @@ js 代码解读复制代码dv.list(new Set(Object.values(dv.app.metadataCache.un
 上面我们只是将仓库中所有不存在的链接遍历并以列表的形式显示出来了，现在我们进一步将每一个链接所包含的文件列举出来：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const unresolvedLinksMap = dv.app.metadataCache.unresolvedLinks
 
 const res = {}
@@ -1010,7 +1007,7 @@ dv.table(["Unresolved Link", "Contained in"], Object.values(res).map(l => [dv.fi
 
 结果部分截图：
 
-![Pasted image 20240528190213.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8ca133977954476aa79324a909a6a291~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=711&h=457&s=33341&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/386b83e766f79902e12e3fbbcab76672_MD5.webp]]
 
 进一步阅读：[List non existing, linked pages - Dataview Example Vault (s-blu.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fs-blu.github.io%2Fobsidian_dataview_example_vault%2F20%2520Dataview%2520Queries%2FList%2520non%2520existing%252C%2520linked%2520pages%2F "https://s-blu.github.io/obsidian_dataview_example_vault/20%20Dataview%20Queries/List%20non%20existing%2C%20linked%20pages/")
 
@@ -1023,7 +1020,7 @@ dv.table(["Unresolved Link", "Contained in"], Object.values(res).map(l => [dv.fi
 注意：这里的 `app` 是一个全局属性，可以在 Dataviewjs 代码块直接访问。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const allNonMdFiles = app.vault.getFiles().filter(f => f.extension !== "md")
 const allNonMdOutlinks = dv.pages().file.outlinks.path.filter(link => !link.endsWith(".md"))
 const notReferenced = allNonMdFiles.filter(f => !allNonMdOutlinks.includes(f.path))
@@ -1033,7 +1030,7 @@ dv.list(dv.array(notReferenced).map(link => dv.fileLink(link.path)))
 
 结果部分截图：
 
-![Pasted image 20240528194056.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5477dcde4dd84b86a5b998daec2598d3~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=220&h=317&s=9388&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/4db6cbdb2d625f1542a40df331294e72_MD5.webp]]
 
 如果要指定多个非附件文档后缀，比如截图中的 `.loom` 文件后缀，可以将第一行代码中的过滤语句修改成：`['md', 'loom'].includes(file.extension)`。
 
@@ -1042,7 +1039,7 @@ dv.list(dv.array(notReferenced).map(link => dv.fileLink(link.path)))
 通过 YAML 中的属性 `wellbeing.pain-type` 是否包含 `head` 来判断当日是否有头痛记录，然后计算持续的天数以及上一次的间隔周期。
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const dur = dv.luxon.Duration
 
@@ -1081,14 +1078,14 @@ function checkCriteria(p) {
 
 结果：
 
-![Pasted image 20240511181827.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dbd3bce2615a49159d610bfd7f4121a1~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=710&h=173&s=21061&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/77181ee6a1866bd541c279924a393650_MD5.webp]]
 
 ### 根据复选框动态显示内容
 
 当前页面中以作者名为任务名，当任务完成时自动去查询在日记中有引用自该作者的语录，当取消完成时，自动移除相关语录信息。
 
 ```scss
-scss 代码解读复制代码- [x] Michel Foucault
+- [x] Michel Foucault
 - [ ] Walter Benjamin
 - [ ] Karl Marx
 
@@ -1116,14 +1113,14 @@ function isActive(name) {
 
 结果：
 
-![Pasted image 20240511193408.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0a8100ad75684592a6082cbab24c8c59~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=712&h=422&s=51947&e=png&b=fffefe)
+![[_posts/tools/obsidian/插件/Dataview/media/fc290776756206e3f0a77784a889f877_MD5.webp]]
 
 ### 按照文件中的顺序对重复的元数据字段进行分组
 
 这个案例对日记中以下数据中的 `bought` 进行查询并显示出对应的 `paid` 数据。
 
 ```ruby
-ruby 代码解读复制代码#### Money spent
+#### Money spent
 
 bought:: piece of cake
 paid:: 7.99$
@@ -1140,7 +1137,7 @@ paid:: 99$
 下面是查询代码：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const pages = dv.pages('"10 Example Data/dailys"').where(p => p.bought)
 
 const groupedValues = [];
@@ -1165,18 +1162,18 @@ function getValue(page, key, i) {
 
 结果：
 
-![Pasted image 20240512233848.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf0efc4a088e454fa21f5b9f33589a67~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=692&h=420&s=76783&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/912e09954f37071858919a600a3d289b_MD5.webp]]
 
 从上面的结果来看，物品有一部分是经常购买的，比如说：`piece of cake`，现在我有一个想法浮现在脑海，我们能不能进一步根据 `bought` 的具体值再进行一次分组呢，相同组的名字以 `--` 显示，下面是期望得到的效果：
 
-![Pasted image 20240512235407.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c1cc593930b047b5849cb7c198f2940f~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=686&h=424&s=70514&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/7254e7477841c3fc573b15b24bfe5bfa_MD5.webp]]
 
 然后，我进入了无休止的尝试中…
 
 最终，我实现出了想要的结果，但是这个代码有点长，不太好理解，也并不优雅：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const pages = dv.pages('"10 Example Data/dailys"').where(p => p.bought)
    .sort(p => p.file.name)
 
@@ -1252,7 +1249,7 @@ function getValue(page, key, i) {
 `flatMap()` 方法是一个很重要的函数，关于其用法可自行去脑补，后面处理分组数据部分写出来后，思索着应该还有更简单的实现。与是，作者又双叒叕熬夜想了想，终于以 2 个 `flatMap()` 方法成功破局，一行代码暴击（不追求代码可读性为前提）：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const pages = dv.pages('"10 Example Data/dailys"').where(p => p.bought)
    .sort(p => p.file.name)
 
@@ -1283,7 +1280,7 @@ const newGroupedValues = dv.array(newPages)
 
 dv.table(
    ["购买", "支付", "页面"],
-   newGroupedValues.flatMap((g, i, arr) => 
+   newGroupedValues.flatMap((g, i, arr) =>
         g.rows.flatMap((r, i, arr) => {
             if (i === 0) {
                 return [[g.key, r.paid, r.link]]
@@ -1302,17 +1299,17 @@ function getValue(page, key, i) {
 
 最后，如果你脑子又一转，在数据很多的情况下，是否可以将每个分组拆解出来单独显示呢？也就是说多个表格单独显示，像下面这样：
 
-![Pasted image 20240513001831.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/645a4a42f0fd4e9ebbaede697a82fbc8~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=720&h=378&s=38252&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/147237de96ed61c6508be2126659e04c_MD5.webp]]
 
 这必需安排起，只需要将上面的示例中的 `dv.table()` 部分改成下面的代码即可：
 
 ```js
-js 代码解读复制代码for (let g of newGroupedValues) {
-    dv.span('- ' + g.key)
-    dv.table(
-        ["页面", "支付"],
-        g.rows.map(r => [r.link, r.paid])
-    )
+for (let g of newGroupedValues) {
+  dv.span("- " + g.key);
+  dv.table(
+    ["页面", "支付"],
+    g.rows.map((r) => [r.link, r.paid])
+  );
 }
 ```
 
@@ -1321,9 +1318,9 @@ js 代码解读复制代码for (let g of newGroupedValues) {
 这个案例中我们将仓库中所有标签按引用次数，设定不同的权重并使用 `dv.view()` 来加载脚本和样式。
 
 ```ini
-ini 代码解读复制代码%% 查询代码 %%
+%% 查询代码 %%
 \`\`\`dataviewjs
-await dv.view("00 Meta/dataview_views/tagcloud", 
+await dv.view("00 Meta/dataview_views/tagcloud",
 {
 values: dv.pages('"10 Example Data/dailys"').where(p => p.person).person
 })
@@ -1389,7 +1386,7 @@ Object.keys(uniqueValues).forEach(t => {
 
 结果：
 
-![Pasted image 20240530171237.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e65bf6e533f04d8a83adcc6bafcb3046~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=632&h=91&s=8742&e=png&b=fdfdfd)
+![[_posts/tools/obsidian/插件/Dataview/media/c57dcfe2e5a711d494b70fe342f7fc01_MD5.webp]]
 
 上述代码位 `00 Meta/dataview_views` 目录中。
 
@@ -1398,7 +1395,7 @@ Object.keys(uniqueValues).forEach(t => {
 这个案例中，根据任务描述文本中定义的内联属性 `priority` 的值 `high` | `medium` | `low` 来添加不同的标识样式。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 // define pages
 const pages = dv.pages('"10 Example Data/projects"')
 
@@ -1435,7 +1432,7 @@ dv.taskList(tasks.sort((a, b) => order.indexOf(b.priority) - order.indexOf(a.pri
 
 结果：
 
-![Pasted image 20240531145021.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/93e302e8d356408ba7af855e0d728042~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=254&h=326&s=8329&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/1a8a890604475942d32f836c950b816a_MD5.webp]]
 
 进一步阅读：[Colorcode tasks based on meta data - Dataview Example Vault (s-blu.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fs-blu.github.io%2Fobsidian_dataview_example_vault%2F20%2520Dataview%2520Queries%2FColorcode%2520tasks%2520based%2520on%2520meta%2520data%2F "https://s-blu.github.io/obsidian_dataview_example_vault/20%20Dataview%20Queries/Colorcode%20tasks%20based%20on%20meta%20data/")
 
@@ -1448,7 +1445,7 @@ dv.taskList(tasks.sort((a, b) => order.indexOf(b.priority) - order.indexOf(a.pri
 在电子表格中，我们可以对列数据进行运算，如求和、未平均值等。下面我们来看一下如何在 Dataview 查询的结果中实现对列数据的求和。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`TABLE praying, training, situps, steps
 FROM "10 Example Data/dailys"
 WHERE file.day.month = 2\`
@@ -1473,7 +1470,7 @@ for (let i = 1; i < DQL.headers.length; i++) {
 	for (let k = 0; k < DQL.values.length; k++) {
 		// 行 \`k\`, 列 \`i\` 的值
 		let currentValue = DQL.values[k][i];
-		if (currentValue) sum += currentValue 
+		if (currentValue) sum += currentValue
 	}
 	if (!sum) sum = ""
 	sums.push(dataType === "duration" ? dv.luxon.Duration.fromMillis(sum) : sum);
@@ -1500,14 +1497,14 @@ dv.table(DQL.headers, DQL.values)
 
 结果：
 
-![Pasted image 20240530192412.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9a6c627be25e4118976540644444a70a~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=710&h=344&s=33797&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/cd5039a6543123eb961380f86b8dfa1b_MD5.webp]]
 
 ### 在文档中搜索文字
 
 要在文档中搜索指定的单词，我们首先需要将文件读到内容中，可使用 `dv.io.load()` 方法，然后再通过正则去匹配文本。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const word = "but"
 
 const regex = new RegExp("(\\S+\\s?){0,2}(\\b"+word+"\\b)(\\s\\S+){0,2}", "gi")
@@ -1529,14 +1526,14 @@ dv.table(
             pages
             .filter(p => p.count)
             .sort((a, b) => b.count - a.count)
-            .map(p => [p.link, p.count, p.matches])  
+            .map(p => [p.link, p.count, p.matches])
     );
 \`\`\`
 ```
 
 结果：
 
-![Pasted image 20240531110948.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d9c96f0e7ffa466698538f77a00fc8d5~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=720&h=389&s=40577&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/d08455fa77a513202a536267a9222a70_MD5.webp]]
 
 上面的正则表达式中 `\b` 用于匹配单词边界（英文句子单词之间以空格分隔），然后最左边的 `(\\S+\\s?){0,2}` 和右边的 `(\\s\\S+){0,2}` 用于匹配目标单词前后的两个相邻单词。基中 `+` 符表示匹配 1 次或多次，`?` 表示匹配 0 次或多次，`\s` 表示匹配一个空白字符（包括空格、制表符、换页符和换行符），`\S` 表示匹配一个非空白符。`dv.io.load()` 方法用于将文件加载到内存中。
 
@@ -1545,7 +1542,7 @@ dv.table(
 在查询数据时，有的数据不同的状态会有不同的结果，我们可以按状态来进行条件显示。将状态作为选项卡，而其关联的内容作为选项卡内容。
 
 ```dart
-dart 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const createButton = name => {
     const btn = dv.el('button', name)
     btn.addEventListener('click', () => {
@@ -1592,14 +1589,14 @@ renderTable('Watching')
 
 结果：
 
-![动画.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7b2eb4f48dd46bc9581a1b07a7fcbda~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=422&s=153375&e=gif&f=62&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/e254f092803c1f5accf3d045b2077731_MD5.webp]]
 
 上面的代码中，我们使用 `dv.el()` 来创建了按钮并添加了事件处理逻辑。在选项卡被选中时，根据选项卡名去过滤查询结果，并将上一次渲染的 HTML 节点移除掉。
 
 进一步，我们还可以实现同一份数据结果以不同的方式渲染：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const views = ['Table', 'List', 'Tasks']
 
 const changeView = viewName => {
@@ -1647,18 +1644,18 @@ createButtons()
 
 结果：
 
-![动画2.gif](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21938b55723346e488f31267e07f2749~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=390&s=89545&e=gif&f=50&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/9a39ea6970bb4706f8701f7dc5613d27_MD5.webp]]
 
 ### 使用不同的表情符来显示时间缀
 
 这个案例我们查询任务计划数据，来获取未完成的任务距离现在过去了多长时间，并对其按时间长度自定义不同的表情符来显示得分。
 
-- 如果月数超过6个月，则添加 "🥳" 表情符号。
-- 如果剩余的月数（在超过6个月后）超过3个月，则添加 "🎉" 表情符号。
-- 如果剩余的月数（在超过9个月后）仍然有剩余，则添加 "🎁" 表情符号。
+- 如果月数超过 6 个月，则添加 "🥳" 表情符号。
+- 如果剩余的月数（在超过 6 个月后）超过 3 个月，则添加 "🎉" 表情符号。
+- 如果剩余的月数（在超过 9 个月后）仍然有剩余，则添加 "🎁" 表情符号。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const projects = dv.pages('"10 Example Data/projects"')
     .where(p => p.status !== undefined && p.status !== "finished")
     .mutate(p => {
@@ -1689,7 +1686,7 @@ function addEmojis(emoji, max) {
 
 结果：
 
-![企业微信截图_17170585746313.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/574dd542250e4b7d8dcf5953a0462a32~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=714&h=193&s=17354&e=png&b=fefefe)
+![[_posts/tools/obsidian/插件/Dataview/media/035c183be48d4dee5d002c017199df8d_MD5.webp]]
 
 代码中 `shiftTo('months').toObject()` 函数用于将时间缀转换成类似：`xx个月` 的形式。
 
@@ -1700,7 +1697,7 @@ function addEmojis(emoji, max) {
 下面这个案例可以好好研究一下如何运用 Luxon 填充每天的数据和构造 HTML 结构。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const values = dv.pages('"10 Example Data/dailys"').where(p => p.wellbeing?.mood)
 const year = 2022
 const color = "green"
@@ -1750,7 +1747,7 @@ function determineColor(date) {
 
 结果：
 
-![Pasted image 20240530172043.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/97e21104dcd740fcb7e0fdd874c55a75~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=559&h=295&s=13720&e=png&b=f6f6f6)
+![[_posts/tools/obsidian/插件/Dataview/media/f246af4cd85f3c028873e8bd9ce46167_MD5.webp]]
 
 进一步阅读：[Render a year overview for your data - Dataview Example Vault (s-blu.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fs-blu.github.io%2Fobsidian_dataview_example_vault%2F20%2520Dataview%2520Queries%2FRender%2520a%2520year%2520overview%2520for%2520your%2520data%2F "https://s-blu.github.io/obsidian_dataview_example_vault/20%20Dataview%20Queries/Render%20a%20year%20overview%20for%20your%20data/")
 
@@ -1759,7 +1756,7 @@ function determineColor(date) {
 要在 Obsidian 中渲染图表，我们需要用到 [Obsidian-Charts](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fphibr0%2Fobsidian-charts "https://github.com/phibr0/obsidian-charts") 这个插件。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 let chartType = 'bar'; //bar or line
 
 let xAxis = "xAxis: {type:'time', time: {unit: 'day'}}"; // {type:'category'}";
@@ -1790,7 +1787,7 @@ if (autoLabels) {
 }
 
 var datasets = [];
-for (let i = 0; i < allSeries.length; i++) {	
+for (let i = 0; i < allSeries.length; i++) {
 	let seriesName = allSeries[i];
 	let backCol = colors[i%colors.length];
 	let bordCol = colors[i%colors.length];
@@ -1802,15 +1799,15 @@ for (let i = 0; i < allSeries.length; i++) {
 			let labelIndex = allLabels.indexOf(l);
 			if (labelIndex < 0) { return 0 }
 			else { return allRows[labelIndex][i+1] }
-		})	
+		})
 	} else {
 		dataPoints = allRows.map(r => r[i+1]);
 	}
 
-	let chartDataset = {label: seriesName, 
-						data: dataPoints, 
+	let chartDataset = {label: seriesName,
+						data: dataPoints,
 						backgroundColor: backCol,
-						borderColor: bordCol, 
+						borderColor: bordCol,
 						borderWidth: bWidth};
 
 	datasets.push(chartDataset);
@@ -1822,11 +1819,11 @@ xAxis = (autoLabels ? xAxis : "xAxis: {type:'category'}");
 // chart.js 选项配置
 const chartData = {
 	type: chartType,
-	data: {	
+	data: {
 		labels: labels,
 		datasets: datasets
 	},
-	options: {  
+	options: {
 		scales: { xAxis, yAxis }
 	}
 }
@@ -1836,14 +1833,14 @@ window.renderChart(chartData, this.container);
 
 结果：
 
-![Pasted image 20240530173135.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f673153e18145dc823bc42ee6d2e66e~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=718&h=364&s=32644&e=png&b=fdfdfd)
+![[_posts/tools/obsidian/插件/Dataview/media/f8a54e11ffb94fb8262f2b07f8c5c8e1_MD5.webp]]
 
 ### 使用 Heatmap Calendar 插件显示热力图
 
 这个案例我们来使用插件 [Richardsl/heatmap-calendar-obsidian: An Obsidian plugin for displaying data in a calendar similar to the github activity calendar](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FRichardsl%2Fheatmap-calendar-obsidian "https://github.com/Richardsl/heatmap-calendar-obsidian") 渲染一个步数的热力图。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const calendarData = {
     year: 2022,
     entries: []
@@ -1862,7 +1859,7 @@ renderHeatmapCalendar(this.container, calendarData)
 
 结果：
 
-![Pasted image 20240531154412.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b5715eaab2a48bd950d24e5fa395417~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=715&h=218&s=4859&e=png&b=ffffff)
+![[_posts/tools/obsidian/插件/Dataview/media/70cf8fb33a2e5fa17c1646ef058ff8dc_MD5.webp]]
 
 ## 总结
 

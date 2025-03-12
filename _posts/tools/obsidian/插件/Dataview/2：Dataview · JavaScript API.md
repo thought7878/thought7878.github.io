@@ -30,7 +30,7 @@ Dataview 提供的 DQL 查询语言为不同背景和需求的用户带来了便
 任意新建一个文档将下面的内容复制粘贴并运行。
 
 ```css
-css 代码解读复制代码greet:: Hello World!
+greet:: Hello World!
 
 - [ ] \`= this.greet\`
 
@@ -57,7 +57,7 @@ dv.table(["问候"], [[inlineGreet]])
 
 接下来，我们通过调用 `dv.current()` 函数获取脚本当前正在执行的页面的页面信息，这相当于调用 `dv.page("当前文档名")` 函数。然后赋值给常量 `page`，紧接着读取了页面中的内联属性 `greet` 并赋值给常量 `inlineGreet`。
 
-第一个输出使用浏览器的控制台作为载体，通过调用 JavaScript 的 `console.log()` 函数来实现。如果你不知道怎么显示开发者工具，1）在 Windows 或 Linux 下可以使用快捷键 Ctrl+Shift+I；2）macOS 请使用Cmd+Opt+I。
+第一个输出使用浏览器的控制台作为载体，通过调用 JavaScript 的 `console.log()` 函数来实现。如果你不知道怎么显示开发者工具，1）在 Windows 或 Linux 下可以使用快捷键 Ctrl+Shift+I；2）macOS 请使用 Cmd+Opt+I。
 
 接下来我们分别使用了 `div.header(2, inlineGreet)` 函数来将问候输出为二级标题；使用 `dv.list([inlineGreet])` 将其输出为列表元素；使用 `dv.el("span", ...)` 函数来将其输出为任务（这里只是为了演示，通常我们是从文档中获取任务）；使用 `dv.taskList(page.file.tasks)` 函数将页面中的任务查询出来；最后使用 `dv.table(["问候"], [[inlineGreet]])` 函数将其输出为表格显示。
 
@@ -68,7 +68,7 @@ dv.table(["问候"], [[inlineGreet]])
 下面是一段包含了各种属性的文档内容片段，我们将基于此进行讲解。
 
 ```yaml
-yaml 代码解读复制代码---
+---
 ---
 description: 测试描述
 tags:
@@ -91,7 +91,7 @@ Test Long Split Words:: 不规则变量名测试
 我们使用 `dv.current()` 获取当前页面的数据，然后使用 `Object.keys()` 方法来遍历所有属性。
 
 ```go
-go 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 Object.keys(dv.current()).forEach(key => {
     console.log(key);
 })
@@ -107,7 +107,7 @@ Object.keys(dv.current()).forEach(key => {
 我们在命名变量时分别使用了驼峰式命名法、帕斯卡命名法、下划线命令法以及带有空格的属性名。从结果来看当前页面中定义的属性都在了，而且输出的数量远比我们定义的多，这是因为对于不规则的属性名，Dataview 内部进行了规范化。在 JavaScript 中属性通常以 `对象.属性名` 的方式来读取，同时也可以使用 `对象['属性名']` 的方式，后者在通常用于动态计算属性名和特殊属性名读取。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const page = dv.current()
 console.log(page['test-long-split-words']) // 不规则变量名测试
 console.log(page['Test Long Split Words']) // 不规则变量名测试
@@ -128,7 +128,7 @@ console.log(page.inlineprop1) // 测试
 在 Obsidian 中 `tags`，`cssclasses` 和 `aliases` 是内置的默认属性，如果要获取自定义或者第三方插件提供的属性，则需要提前知识有哪些属性名，因为所有属性全挂在了 `dv.current()` 返回的对象中。要获取 YAML 中的属性我们需要使用 `file.frontmatter` 属性：
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 console.log(dv.current().file.frontmatter) // {description: '测试描述', tags: Array(2), hello-world: '你好呀'}
 \`\`\`
 ```
@@ -140,7 +140,7 @@ Dataview 将任务作为一种特殊的列表来处理，可以使用 `page.file
 在列表中定义的属性会挂载在当前列表对象下，而标签则位于 `tags` 属性中，下面我们分别读取列表和任务中的标签和属性。
 
 ```scss
-scss 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const lists = dv.current().file.lists;
 const tasks = dv.current().file.tasks;
 
@@ -166,7 +166,7 @@ tasks.forEach(task => {
 在示例中我们使用外部链接引用了一篇笔记的地址，现在我们通过遍历 `page.file.outlinks` 属性来获取外链的元数据，然后将其 `path` 属性传入 `dv.page()` 中来获取页面的所有信息，接着使用 `file.tags` 来读取标签值。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const links = dv.current().file.outlinks
 links.forEach(link => {
   console.log(dv.page(link.path).file.tags.array()) // ['#daily', '#journal']
@@ -183,7 +183,7 @@ links.forEach(link => {
 用于将结果渲染成列表，可接收 JavaScript 数组及 DataArray 类型。
 
 ```c
-c 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const vanillaArray = [1, 2, [3, 4, 5, [6]]]
 const dvArray = dv.array(vanillaArray)
 
@@ -211,7 +211,7 @@ dv.list(dvArray)
 用于将结果渲染成表格数据，`headers` 为一个数组，表示表头名称，而 `elements` 为表格数据，其值为数组，数组的每一项值同样为数组，用于表示表格的行数据。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const headers = ["姓名", "年龄", "性别", "爱好"]
 const data = [    ["张三", 20, "男", "打篮球"],
     ["李四", 25, "女", "踢足球"],
@@ -228,7 +228,7 @@ dv.table(headers, dv.array(data))
 下面我们通过查询书籍数据来演示实际使用：
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.table(["File", "Author", "Book topics", "Genres", "Total pages", "Cover image"], dv.pages('"10 Example Data/books"')
     .sort( b => b.totalPages)
     .map(b => [b.file.link, b.author, b.booktopics, b.genres, b.totalPages, b['Cover-Img']]))
@@ -246,7 +246,7 @@ dv.table(["File", "Author", "Book topics", "Genres", "Total pages", "Cover image
 Dataview 并没有提供 `dv.calendar()` 方法来将查询的数据渲染为日历显示，但是我们可以通过 `dv.execute(source)` 来执行 DQL 查询，实现在 API 中渲染日历的功能。
 
 ```go
-go 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 CALENDAR file.day
 FROM "10 Example Data/dailys"
@@ -259,7 +259,7 @@ dv.execute(query)
 
 ![Pasted image 20240521121123.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09a2204dfd844aacaec1a68a48de7299~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=687&h=321&s=15545&e=png&b=ffffff)
 
-### HTML渲染
+### HTML 渲染
 
 我们使用的表格、任务和列表在 Obsidian 中实际上都是最终用特定的 HTML 标签元素表示的，比如说表格为 `<table></table>` 标签，列表分为有符号列表 `<ol></ol>`，无符号列表 `<ul></ul>`，定义列表 `<dl></dl>`，像日历这种比较复杂的组件则是由多个 `<div></div>` 等元素嵌套而成的。
 
@@ -271,7 +271,7 @@ dv.execute(query)
 - `dv.el(element, text)` 用于渲染指定的 `<element></element>` 标签内容。
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.header(2, "HTML渲染")
 dv.paragraph("HTML段落元素渲染")
 dv.span("行内容元素渲染")
@@ -300,7 +300,7 @@ dv.el("div", html)
 在 Obsidian 中我们可以通过标题栏右则的【更多选项】-> 【源码模式】来切换至 Markdown 原始内容视图。我们可以将任何 Markdown 文本内容渲染到页面中。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const raw = \`
 ## 2号标题
 
@@ -348,7 +348,7 @@ DQL（数据查询语言）为普通用户提供了一种便捷的查询方式�
 使用方式：
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.executeJs("dv.list([1, 2, 3, 4])") // 相当于 dv.list([1, 2, 3, 4])
 dv.execute("TASK FROM #daily")
 \`\`\`
@@ -361,42 +361,52 @@ dv.execute("TASK FROM #daily")
 下面是官方提供的 `DataArray` 接口定义，为了简少行数，删除了所有注释：
 
 ```ts
-ts 代码解读复制代码export type ArrayFunc<T, O> = (elem: T, index: number, arr: T[]) => O;
+export type ArrayFunc<T, O> = (elem: T, index: number, arr: T[]) => O;
 export type ArrayComparator<T> = (a: T, b: T) => number;
 export interface DataArray<T> {
-    length: number;
-    where(predicate: ArrayFunc<T, boolean>): DataArray<T>;
-    filter(predicate: ArrayFunc<T, boolean>): DataArray<T>;
-    map<U>(f: ArrayFunc<T, U>): DataArray<U>;
-    flatMap<U>(f: ArrayFunc<T, U[]>): DataArray<U>;
-    mutate(f: ArrayFunc<T, any>): DataArray<any>;
-    limit(count: number): DataArray<T>;
-    slice(start?: number, end?: number): DataArray<T>;
-    concat(other: Iterable<T>): DataArray<T>;
-    indexOf(element: T, fromIndex?: number): number;
-    find(pred: ArrayFunc<T, boolean>): T | undefined;
-    findIndex(pred: ArrayFunc<T, boolean>, fromIndex?: number): number;
-    includes(element: T): boolean;
-    join(sep?: string): string;
-    sort<U>(key: ArrayFunc<T, U>, direction?: "asc" | "desc", comparator?: ArrayComparator<U>): DataArray<T>;
-    groupBy<U>(key: ArrayFunc<T, U>, comparator?: ArrayComparator<U>): DataArray<{ key: U; rows: DataArray<T> }>;
-    distinct<U>(key?: ArrayFunc<T, U>, comparator?: ArrayComparator<U>): DataArray<T>;
-    every(f: ArrayFunc<T, boolean>): boolean;
-    some(f: ArrayFunc<T, boolean>): boolean;
-    none(f: ArrayFunc<T, boolean>): boolean;
-    first(): T;
-    last(): T;
-    to(key: string): DataArray<any>;
-    expand(key: string): DataArray<any>;
-    sum(): number;
-    avg(): number;
-    min(): number;
-    max(): number;
-    forEach(f: ArrayFunc<T, void>): void;
-    array(): T[];
-    [Symbol.iterator](): Iterator<T>;
-    [index: number]: any;
-    [field: string]: any;
+  length: number;
+  where(predicate: ArrayFunc<T, boolean>): DataArray<T>;
+  filter(predicate: ArrayFunc<T, boolean>): DataArray<T>;
+  map<U>(f: ArrayFunc<T, U>): DataArray<U>;
+  flatMap<U>(f: ArrayFunc<T, U[]>): DataArray<U>;
+  mutate(f: ArrayFunc<T, any>): DataArray<any>;
+  limit(count: number): DataArray<T>;
+  slice(start?: number, end?: number): DataArray<T>;
+  concat(other: Iterable<T>): DataArray<T>;
+  indexOf(element: T, fromIndex?: number): number;
+  find(pred: ArrayFunc<T, boolean>): T | undefined;
+  findIndex(pred: ArrayFunc<T, boolean>, fromIndex?: number): number;
+  includes(element: T): boolean;
+  join(sep?: string): string;
+  sort<U>(
+    key: ArrayFunc<T, U>,
+    direction?: "asc" | "desc",
+    comparator?: ArrayComparator<U>
+  ): DataArray<T>;
+  groupBy<U>(
+    key: ArrayFunc<T, U>,
+    comparator?: ArrayComparator<U>
+  ): DataArray<{ key: U; rows: DataArray<T> }>;
+  distinct<U>(
+    key?: ArrayFunc<T, U>,
+    comparator?: ArrayComparator<U>
+  ): DataArray<T>;
+  every(f: ArrayFunc<T, boolean>): boolean;
+  some(f: ArrayFunc<T, boolean>): boolean;
+  none(f: ArrayFunc<T, boolean>): boolean;
+  first(): T;
+  last(): T;
+  to(key: string): DataArray<any>;
+  expand(key: string): DataArray<any>;
+  sum(): number;
+  avg(): number;
+  min(): number;
+  max(): number;
+  forEach(f: ArrayFunc<T, void>): void;
+  array(): T[];
+  [Symbol.iterator](): Iterator<T>;
+  [index: number]: any;
+  [field: string]: any;
 }
 ```
 
@@ -407,7 +417,7 @@ export interface DataArray<T> {
 一个数组通过索引来获取其对应的数据项的值是一个很常规的操作。这里我们有一个数组 `arr`，就可以通过 `arr[0]` 和 `arr[arr.length - 1]` 来分别读取第一项和最后一项的值，这对应 `DataArray` 中的 `first()` 和 `last()` 方法。如果数组项是一个对象值，想要获取读取对象中某个字段的值，就需要使用遍历方法，比如 `for` 语句，或者数组的 `forEach()` 方法，为了方便操作，`DataArray` 接口直接提供了一个通过属性来获取数组中对象值的方法 `to()`，也可以在 `DataArray` 实例中直接访问这个属性名。
 
 ```c
-c 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = [1, 2, 3]
 const arr2 = [{name: 'jenemy', age: 34}, {name: 'xiaolu', age: 33}, {name: 'lulu', age: 25 }]
 
@@ -440,7 +450,7 @@ dvObjArr.forEach(p => console.log(p.name)) // jenemy, xiaolu, lulu
 > \[!tip\] 本节内容为 Dataview@0.5.67 新增内容
 
 ```c
-c 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = dv.array([2, 3, 1, 8, 4, 6, 5, 7, 9])
 console.log(arr.sum()) // 15
 console.log(arr.min()) // 1
@@ -458,7 +468,7 @@ console.log(arr.avg()) // 5
 方法签名为：`forEach(f: ArrayFunc<T, void>): void`，对数组的每一项执行指定的函数。
 
 ```go
-go 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.array([1, 2, 3, 4, 5]).forEach(n => dv.span(n)) // 页面显示：12345
 \`\`\`
 ```
@@ -468,7 +478,7 @@ dv.array([1, 2, 3, 4, 5]).forEach(n => dv.span(n)) // 页面显示：12345
 方法签名为：`map<U>(f: ArrayFunc<T, U>): DataArray<U>`，对数组中的每一项执行指定的函数，并返回一个值。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.list(dv.array([1, 2, 3, 4, 5]).map(x => x * 2)) // 渲染列表：2, 4, 6, 8, 10
 dv.list(dv.array([1, 2, 3, 4, 5]).map(x => x % 2 === 0)) // 渲染列表：false, true, false, true, false
 \`\`\`
@@ -489,7 +499,7 @@ dv.list(dv.array([1, 2, 3, 4, 5]).map(x => x % 2 === 0)) // 渲染列表：false
 下面我们看一下在实际操作中的运用。
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.table(["File", "Author", "Book topics", "Genres", "Progress"], dv.pages('"10 Example Data/books"')
     .mutate(b => b.percent = (b.pagesRead / b.totalPages * 100).toFixed(2) + "%")
     .map(b => [b.file.link, b.author, b.booktopics, b.genres, b.percent]))
@@ -509,7 +519,7 @@ dv.table(["File", "Author", "Book topics", "Genres", "Progress"], dv.pages('"10 
 首先我们将在 `mutate()` 方法讲解时我们使用的简单数组 `[1, 2, 3, 4]` 和 `const arr = [{a: 1, b: 2}, {a: 3, b: 4}, {a: 5, b: 6}]` 使用 `flatMap()` 方法进行同样操作：
 
 ```yaml
-yaml 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = dv.array([{a: 1, b: 2}, {a: 3, b: 4}, {a: 5, b: 6}])
 
 dv.list(dv.array([1, 2, 3, 4]).flatMap(x => [x * 2])) // 页面显示 [2, 4, 6, 8]
@@ -527,7 +537,7 @@ dv.list(arr.flatMap(x => {x.c = x.a + x.b; return [x]})) // 页面显示 [{a: 1,
 在使用 `map()` 方法时不会改变数组的长度，这是一个共识。现在我想把数组 `[1, 2, 3, 4]` 变成 `[1, 2, [3], 2, 3, [5], 3, 4, [7]]`，其中嵌套数组值为第 `i` 项加上 `i + 1` 项的值，其中 `i` 为数组索引。这个时候就无法使用 `map()` 来实现了，需要使用 `for` 语句或者 `forEach()` 方法来遍历数组，然后声明一个新的数组来存放结果：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = dv.array([1, 2, 3, 4])
 const result = []
 for (let i = 0; i < arr.length; i++) {
@@ -550,7 +560,7 @@ console.log(result) // [1, 2, [3], 2, 3, [5], 3, 4, [7]]
 最后，说一下 `flatMap()` 之所以叫这个名字，是因为它实际上是先执行了 `map()` 操作，然后再执行了深度为 `1` 的 `flat()` 操作。
 
 ```yaml
-yaml 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = [{a: 1, b: 2, c: [1, 2]}, {a: 3, b: 4, c: [3, 4]}, {a: 5, b: 6, c: [5, 6]}]
 
 console.log(arr.map(x => x.c).flat()) // [1, 2, 3, 4, 5, 6]
@@ -569,7 +579,7 @@ console.log(arr.flatMap(x => x.c)) // [1, 2, 3, 4, 5, 6]
 下面我们接着讲解 `mutate()` 方法时使用的书籍查询示例，加上一个条件判断：
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.table(["File", "Author", "Book topics", "Genres", "Progress"], dv.pages('"10 Example Data/books"')
     .where(b => b.author === "Dora D" && b.genres.includes("Dystopia"))
     .mutate(b => b.percent = (b.pagesRead / b.totalPages * 100).toFixed(2) + "%")
@@ -586,26 +596,26 @@ dv.table(["File", "Author", "Book topics", "Genres", "Progress"], dv.pages('"10 
 下面以 `filter()` 方法来举例：
 
 ```js
-js 代码解读复制代码const arr = [1, 2, 3, 4, 5, 6]
+const arr = [1, 2, 3, 4, 5, 6];
 const result = arr.filter((d, i, arr) => {
-    if (i < arr.length - 1) arr[i + 1] += 10
-    return d < 5
-})
-console.log(result, arr) // [1] (6) [1, 12, 13, 14, 15, 16]
+  if (i < arr.length - 1) arr[i + 1] += 10;
+  return d < 5;
+});
+console.log(result, arr); // [1] (6) [1, 12, 13, 14, 15, 16]
 
-const arr2 = [1, 2, 3, 4, 5, 6]
+const arr2 = [1, 2, 3, 4, 5, 6];
 const result2 = arr2.filter((d, i, arr) => {
-    arr.push(3)
-    return d < 4
-})
-console.log(result2, arr2) // [1, 2, 3] (12) [1, 2, 3, 4, 5, 6, 3, 3, 3, 3, 3, 3]
+  arr.push(3);
+  return d < 4;
+});
+console.log(result2, arr2); // [1, 2, 3] (12) [1, 2, 3, 4, 5, 6, 3, 3, 3, 3, 3, 3]
 
-const arr3 = [1, 2, 3, 4, 5, 6]
+const arr3 = [1, 2, 3, 4, 5, 6];
 const result3 = arr3.filter((d, i, arr) => {
-    arr.pop()
-    return d < 5
-})
-console.log(result3, arr3) // [1, 2, 3] (3) [1, 2, 3]
+  arr.pop();
+  return d < 5;
+});
+console.log(result3, arr3); // [1, 2, 3] (3) [1, 2, 3]
 ```
 
 对 `arr` 的过滤中我们将当前遍历的数据项的下一项执行了加 `10` 操作，导致第 2 次执行时其值为 `12`，依次类推，最终只有第一次执行时满足过滤条件。
@@ -621,7 +631,7 @@ console.log(result3, arr3) // [1, 2, 3] (3) [1, 2, 3]
 下面我们通过这两个方法来找出 6:00-6:30 第一次早起的日期和在日记中记录的索引位置，需要注意的是由于第一篇日记没有相关数据，所以这里的 `index` 结果为 `2`。
 
 ```php
-php 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const link = dv.pages('"10 Example Data/dailys"').find(p => {
     const wakeUpTime = p['wake-up'] && dt.fromFormat(p['wake-up'], 'HH:mm').startOf('minute')
@@ -652,7 +662,7 @@ dv.span(\`第 ${index + 1} 天(${link})开始 6:00-6:30 早起\`)
 对于数组 `[1, 2, 3]` 我们可以使用 `dv.array([1, 2, 3]).includes(2)` 来判断 `2` 是否在数组中。下面是一个判断页面是否在日记目录中的示例：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 console.log(dv.pages('"10 Example Data/dailys"').includes(dv.page("2022-01-12"))) // true
 console.log(dv.pages('"10 Example Data/dailys"').includes(dv.page("2023-01-12"))) // false
 \`\`\`
@@ -663,7 +673,7 @@ console.log(dv.pages('"10 Example Data/dailys"').includes(dv.page("2023-01-12"))
 `indexOf(element: T, fromIndex?: number): number` 方法返回数组中第 `fromIndex` 次出现给定元素的下标，如果不存在则返回 `-1`。这个方法的使用场景目前作者能想的是多个同名文件（如未命名的）的查找，不过这里不打算这个作为示例，而是以普通的数字数组更方便直白。
 
 ```kotlin
-kotlin 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const data = dv.array([1, 2, 3, 2, 45, 23, 2, 32, 43242, 5435, 2, 23])
 console.log(data.indexOf(2)) // 1
 console.log(data.indexOf(2, data.length - 1)) // -1
@@ -676,7 +686,7 @@ console.log(data.indexOf(2, 4)) // 6
 在 JavaScript 中可以通过数组的 `every()` 方法测试一个数组内的所有元素是否都能通过指定函数的测试，使用 `some()` 方法测试数组中是否至少有一个元素通过了由提供的函数实现的测试。如果在数组中找到一个元素使得提供的函数返回 `true`，则返回 `true`；否则返回 `false`。而 DataArray 同样也提供了这两个方法，同时还提供了一个和 `every()` 相反的 `none()` 方法。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const data = dv.array([11, 20, 23, 43, 123, 13, 55])
 console.log(data.every(item => item > 10)) // true
 console.log(data.none(item => item > 10)) // false
@@ -703,7 +713,7 @@ DataArray 接口提供了 `groupBy()` 方法来对数据进行分组，`expan()`
 下面我们来查询书籍并按作者进行分组。这个示例中一个作者对应多本书籍，因此我们需要将分组后的数据 `rows` 进行展开。
 
 ```css
-css 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE rows.file.link AS 书籍
 FROM "10 Example Data/books"
 GROUP BY author AS 作者
@@ -746,7 +756,7 @@ dv.table(['作者', '书籍'], dv.pages('"10 Example Data/books"')
 在使用 API 处理这种多对多分组时，我们就需要分别对 `key` 和 `rows` 进行遍历展开才能得到和 DQL 查询~~类似~~的结果。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 TABLE rows.file.link AS 书籍
 FROM "10 Example Data/books"
 FLATTEN genres
@@ -841,7 +851,7 @@ dv.table(['类别', '书籍'], dv.pages('"10 Example Data/books"')
 下面这个示例我们不返回字段名，而是返回一个根据条件判断自定义的名称。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataview
+\`\`\`dataview
 LIST rows.file.link
 FROM "10 Example Data/assignments"
 GROUP BY choice(due < date("2022-05-12"), "已过期", "还有机会")
@@ -874,7 +884,7 @@ dv.list(dv.pages('"10 Example Data/assignments"')
 这个方法在 Dataview Example Valut 示例库也没有找到相应的示例，说明其适用范围很小，很冷门。作者本以为能够实现将嵌套的任务展开，然而却...
 
 ```less
-less 代码解读复制代码- [ ] 1
+- [ ] 1
 - [ ] 2
     - [ ] 3
     - [ ] 4
@@ -896,7 +906,7 @@ dv.taskList(dv.current().file.tasks.expand('subtasks'))
 由于篇幅有限就不一一讲解所有的方法了。`sort()` 方法有在前面的示例中应用到，剩下的都比较简单，直接上示例：
 
 ```c
-c 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const arr = dv.array([1, 2, 3, 4, 2, 1, 23, 12])
 console.log(arr.distinct().array()) // [1, 2, 3, 4, 12, 23]
 console.log(arr.join('#')) // 1#2#3#4#2#1#23#12
@@ -915,7 +925,7 @@ console.log(arr.concat(dv.array([5, 6, 7, 8])).array()) // [1, 2, 3, 4, 2, 1, 23
 在前面的示例中我们使用 `dv.current()` 来获取代码所在当前页面，使用 `dv.page(path)` 来获取单个文档页面，使用 `dv.pages(source)` 来获取指定目录的文档。现在我们来进一步了解 `dv.pages()` 的其它用法。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.list(dv.pages().limit(5).map(p => p.file.link)) // 获取所有页面，返回前5个链接
 dv.list(dv.pages('#daily').limit(5).map(p => p.file.link)) // 获取所有带有daily标签的页面，返回前5个链接
 dv.list(dv.pages('#daily or #clientC').map(p => p.file.link)) // 获取所有带有daily或clientC标签的页面，返回链接列表
@@ -953,7 +963,7 @@ dv.list(dv.pages('"10 Example Data/books" or #clientC').map(p => p.file.link)) /
 - `dv.blockLink(path, blockId, [embed?], [display?]` 对应类型 `block`，用于链接文档中的段落。
 
 ```lua
-lua 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 console.log(dv.fileLink("2022-02-04")) // Link {path: '2022-02-04', display: undefined, subpath: undefined, embed: false, type: 'file'}
 console.log(dv.fileLink("2022-02-04", true)) // Link {path: '2022-02-04', display: undefined, subpath: undefined, embed: true, type: 'file'}
 console.log(dv.fileLink("2022-02-04", false, '显示名称')) // Link {path: '2022-02-04', display: '显示名称', subpath: undefined, embed: false, type: 'file'}
@@ -969,7 +979,7 @@ console.log(dv.blockLink("2022-02-04", '220763', true, '显示名称')) // Link�
 这里我们来使用 `dv.span()` 渲染来展示块引用的效果：
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 dv.span(dv.blockLink("2022-02-04", '220763', true, '显示名称'))
 \`\`\`
 ```
@@ -989,7 +999,7 @@ dv.span(dv.blockLink("2022-02-04", '220763', true, '显示名称'))
 在 API 中 Dataview 提供了 `dv.date(text)` 和 `dv.duration(text)` 来分别表示日期和时间以及持续时间。它们的返回值分别对应于底层的 `dv.luxon.DateTime` 和 `dv.luxon.Duration` 对象。关于 Luxon 日期和时间操作库我们会在文章中单独介绍其用法。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const now = new dv.luxon.DateTime(new Date())
 const dur = dv.luxon.Duration
 
@@ -1016,20 +1026,35 @@ console.log(dv.duration(dur.fromObject({hours: 8, minutes: 30})).toHuman()) // 8
 在 Dataview 源码中将查询结果声明为类型 `QueryResult`，这是一个联合类型，下面是相关的源码：
 
 ```ts
-ts 代码解读复制代码export type IdentifierMeaning = { type: "group"; name: string; on: IdentifierMeaning } | { type: "path" };
-export type TableResult = { type: "table"; headers: string[]; values: Literal[][]; idMeaning: IdentifierMeaning };
-export type ListResult = { type: "list"; values: Literal[]; primaryMeaning: IdentifierMeaning };
+export type IdentifierMeaning =
+  | { type: "group"; name: string; on: IdentifierMeaning }
+  | { type: "path" };
+export type TableResult = {
+  type: "table";
+  headers: string[];
+  values: Literal[][];
+  idMeaning: IdentifierMeaning;
+};
+export type ListResult = {
+  type: "list";
+  values: Literal[];
+  primaryMeaning: IdentifierMeaning;
+};
 export type TaskResult = { type: "task"; values: Grouping<SListItem> };
 export type CalendarResult = {
-    type: "calendar";
-    values: {
-        date: DateTime;
-        link: Link;
-        value?: Literal[];
-    }[];
+  type: "calendar";
+  values: {
+    date: DateTime;
+    link: Link;
+    value?: Literal[];
+  }[];
 };
 
-export type QueryResult = TableResult | ListResult | TaskResult | CalendarResult;
+export type QueryResult =
+  | TableResult
+  | ListResult
+  | TaskResult
+  | CalendarResult;
 ```
 
 从上面的 TypeScript 类型声明来看，符合我们已知的 4 种查询类型 `table` | `list` | `task` 和 `calendar`，每一种类型都有其特殊的数据结构。
@@ -1041,7 +1066,7 @@ export type QueryResult = TableResult | ListResult | TaskResult | CalendarResult
 我们使用前面提到过的书籍查询例子，并将结果使用输出为 JSON 格式。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 TABLE rows.file.link AS 书籍
 FROM "10 Example Data/books"
@@ -1055,7 +1080,7 @@ console.log(JSON.stringify(queryResult))
 下面是控制台中输出的数据，我们将其中文件元数据使用 `Link` 来指代，这样有利于关注重要部分。
 
 ```json
-json 代码解读复制代码{
+{
     "value": {
         "type": "table",
         "values": [
@@ -1094,7 +1119,7 @@ json 代码解读复制代码{
 `file` 默认为当前代码所在文档的路径，格式为 `xxx.md`，我们可以通过传入自定义的路径来修改这个值。这个可选参数有什么用途呢？目前作者对 Obsidian 探索还不够深入，就留给读者去挖掘，这里在给出一个示例来演示其作用。
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 TABLE WITHOUT ID file.link AS 替换后文件
 WHERE file = this.file
@@ -1124,7 +1149,7 @@ dv.table(queryResult.value.headers, queryResult.value.values)
 这里我们同样使用前面分组时的示例，来看一下解析后数据：
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 LIST rows.file.link
 FROM "10 Example Data/assignments"
@@ -1138,7 +1163,7 @@ console.log(JSON.stringify(queryResult))
 结果：
 
 ```json
-json 代码解读复制代码{
+{
     "value": {
         "type": "list",
         "values": [
@@ -1172,7 +1197,7 @@ Dataview 目前定义了 2 种类型分别为 `ListPairWidget` ID 为 `dataview:
 下面是演示代码：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 LIST rows.file.link
 FROM "10 Example Data/assignments"
@@ -1201,7 +1226,7 @@ dv.list(queryResult.value.values)
 下面给出一个改变任务状态的示例代码：
 
 ```ini
-ini 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 TASK
 WHERE file = this.file
@@ -1229,7 +1254,7 @@ dv.taskList(queryResult.value.values)
 这 2 个方法的实际用法同 `dv.query()` 和 `dv.tryQuery()`，只不过它是将结果以 Markdown 语法原始格式输出。
 
 ```vbnet
-vbnet 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const query = \`
 TABLE rows.file.link AS 书籍
 FROM "10 Example Data/books"
@@ -1244,7 +1269,7 @@ dv.paragraph(queryResult)
 输出的 Markdown 格式结果：
 
 ```lua
-lua 代码解读复制代码| 作者       | 书籍                                                                                                                      |
+| 作者       | 书籍                                                                                                                      |
 | -------- | ----------------------------------------------------------------------------------------------------------------------- |
 | \-       | <ul><li>[[10 Example Data/books/books_7.md\\|books_7]]</li></ul>                                                        |
 | Alice A  | <ul><li>[[10 Example Data/books/books_2.md\\|books_2]]</li></ul>                                                        |
@@ -1268,7 +1293,7 @@ lua 代码解读复制代码| 作者       | 书籍                             
 为了方便参考，我直接将官方支持的表达式贴出来：
 
 ```css
-css 代码解读复制代码# Literals
+# Literals
 1                   (number)
 true/false          (boolean)
 "text"              (text)
@@ -1315,7 +1340,7 @@ a * num             (repeat string <num> times)
 使用如下：
 
 ```less
-less 代码解读复制代码test:: 测试变量
+test:: 测试变量
 
 \`\`\`dataviewjs
 dv.paragraph(dv.evaluate("x + y + z", {x: 1, y: 2, z: 3}).value) // 6
@@ -1341,7 +1366,7 @@ I/O 操作是指输入(Input)/输出(Output)操作，通常用于读取/写入�
 首先我们在当前编辑的文件同目录创建一个名为 `person.csv` 的 CSV 文件，然后复制以下内容粘贴进去：
 
 ```csv
-csv 代码解读复制代码姓名,性别,年龄
+姓名,性别,年龄
 张三,男,20
 李四,女,23
 stu1,男,18
@@ -1351,7 +1376,7 @@ stu2,女,19
 现在，我们来通过 `dv.io.csv()` 方法读取数据，看一下读取数据后会被转换成什么样的结构。
 
 ```c
-c 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const data = await dv.io.csv("person.csv")
 console.log(data.array())
 \`\`\`
@@ -1362,7 +1387,7 @@ console.log(data.array())
 CSV 数据经过 Dataview 解析后每一行（除了表头）会转换成 `{表头名: 数据值}` 的格式。接下来我们来将其渲染到页面中。
 
 ```dart
-dart 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const data = await dv.io.csv("person.csv")
 const headers = Object.keys(data[0])
 const values = data.map(item => Object.values(item))
@@ -1391,7 +1416,7 @@ dv.table(headers, values)
 现在我们在根目录创建了一个 `person.csv` 文件，同时也在目录 `dir1/dir2` 和 `dir1/dir2/dir3` 中同时创建，然后来看一下使用效果：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 console.log(dv.io.normalize("not-exist")) // not-exist
 console.log(dv.io.normalize("not-exist", "/")) // not-exist
 console.log(dv.io.normalize("not-exist.csv")) // not-exist.csv
@@ -1414,7 +1439,7 @@ console.log(dv.io.normalize("person.csv", "dir1/dir2/")) // dir1/dir2/person.csv
 下面我们用一个问候函数来举例，更多高级的用法后续案例分析篇会重点讲解。
 
 ```less
-less 代码解读复制代码%% views/demo/view.js %%
+%% views/demo/view.js %%
 \`\`\`js
 function greet(name) {
     return dv.el('h1', \`你好，${name}\`, { cls: 'demo' })
@@ -1453,7 +1478,7 @@ await dv.view("views/demo", { name: "Dataview" })
 举例：
 
 ```yaml
-yaml 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const a = {a: 1, b: 2, c: [1, 2, 3, [4, [5, 6]]], d: {e: 1, f: 2}}
 const b = {a: 1, b: 2, c: [1, 2, 3, [4, [5, 6]]], d: {e: 1, f: 2}}
 const c = {a: 1, b: 2, c: b.c, d: {e: 1, f: 2}}
@@ -1514,7 +1539,7 @@ Luxon 提供了多种方式来创建和获取日期和时间。
 - 从字符串中以特定格式去解析（`DateTime.fromFormat(text, fmt, opts)`）。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const print = date => console.log(date.toFormat('yyyy-MM-dd HH:mm:ss'))
 
@@ -1551,7 +1576,7 @@ print(dt.fromFormat('May 25, 1982', 'MMMM dd, yyyy')) // 1982-05-25 00:00:00
 一个日期和时间通常可以解读为年、月、日、时、分、秒、毫秒、区域、季度、周等，下面我们通过实例来快速一阅。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().get("year")) // 2024
 console.log(dt.now().locale) // zh-CN
@@ -1589,7 +1614,7 @@ console.log(dt.now().resolvedLocaleOptions()) // {locale: 'zh-CN', numberingSyst
 使用格式字符（又叫令牌（Token））来格式化日期和时间是比较常用的一种方式，通常我们使用 `yyyy-MM-dd HH:mm:ss` 来显示日期和时间，下面是一些简单使用举例：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toFormat('yyyy-MM-dd HH:mm:ss')) // 2024-05-06 14:55:23
 console.log(dt.now().toFormat('MMMM dd, yyyy')) // May 06, 2024
@@ -1610,7 +1635,7 @@ console.log('unix 时间戳（以毫秒为单位）:', dt.now().toFormat('x')) /
 在格式化时 Luxon 还提供了一种在双引号中使用单引号进行字符串转义的使用方式，举例如下：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toFormat("HH 'hours' mm 'minutes'")) // 12 hours 08 minutes
 console.log(dt.now().toFormat("'现在是：'HH'点'mm'分'")) // 现在是：13点18分
@@ -1624,7 +1649,7 @@ console.log(dt.now().toFormat("'现在是：'HH'点'mm'分'")) // 现在是：13
 下面是官方提供的预设在作者本地环境输出示例：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 
 console.log(dt.now().toRFC2822())
@@ -1656,13 +1681,13 @@ console.log(dt.now().toLocaleString(dt.DATETIME_HUGE_WITH_SECONDS)) // 2024年5�
 除了显示本地环境输出外，我们也可以通过调用 `setLocale()` 函数来指定其它语言输出环境：
 
 ```less
-less 代码解读复制代码console.log(dt.now().setLocale('fr').toLocaleString(DateTime.DATE_FULL)) // 7 mai 2024
+console.log(dt.now().setLocale('fr').toLocaleString(DateTime.DATE_FULL)) // 7 mai 2024
 ```
 
 `Intl` 对象是 ECMAScript 国际化 API 的命名空间，它提供对语言敏感的字符串比较、支持数字格式化以及日期和时间的格式化。下面我们使用 `Intl.DateTimeFormat` 相同的选项来格式化日期和时间：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 console.log(dt.now().toLocaleString({
 	year: 'numeric',
 	weekday: 'long',
@@ -1683,15 +1708,15 @@ console.log(dt.now().toLocaleString({
 
 从上面的示例中可以看出在格式化日期和时间相关的数据时，有 `full` / `long` / `medium` / `short` / `2-digit` / `numeric` 这几种样式选项，下面通过一个表格来更好的演示几种样式的不同：
 
-| 日期和时期属性 | `full` | `long` | `medium` | `short` | `2-digit` | `numeric` |
-| --- | --- | --- | --- | --- | --- | --- |
-| 年（`year`） | \- | \- | \- | \- | 24年 | 2024年 |
-| 月（`month`） | \- | 五月 | \- | 5月 | 05月 | 5月 |
-| 日（`day`） | \- | \- | \- | \- | 06日 | 6日 |
-| 时（`hour`） | \- | \- | \- | \- | 20时 | 20时 |
-| 分（`minute`） | \- | \- | \- | \- | 14 | 11 |
-| 秒（`second`） | \- | \- | \- | \- | 19 | 7 |
-| 周（`weekday`） | \- | 星期一 | \- | 周一 | \- | \- |
+| 日期和时期属性  | `full` | `long` | `medium` | `short` | `2-digit` | `numeric` |
+| --------------- | ------ | ------ | -------- | ------- | --------- | --------- |
+| 年（`year`）    | \-     | \-     | \-       | \-      | 24 年     | 2024 年   |
+| 月（`month`）   | \-     | 五月   | \-       | 5 月    | 05 月     | 5 月      |
+| 日（`day`）     | \-     | \-     | \-       | \-      | 06 日     | 6 日      |
+| 时（`hour`）    | \-     | \-     | \-       | \-      | 20 时     | 20 时     |
+| 分（`minute`）  | \-     | \-     | \-       | \-      | 14        | 11        |
+| 秒（`second`）  | \-     | \-     | \-       | \-      | 19        | 7         |
+| 周（`weekday`） | \-     | 星期一 | \-       | 周一    | \-        | \-        |
 
 需要注意的是如果要将小时数设置为 12 小时制，需要将选项 `hour12` 设置为 `false`。
 
@@ -1700,7 +1725,7 @@ console.log(dt.now().toLocaleString({
 ISO 8601 是使用最广泛的日期和时间字符串格式集。下面给出几个 Luxon 提供的相关输出函数示例：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toISO()) // 2024-05-07T11:51:35.464+08:00
 console.log(dt.now().toISODate()) // 2024-05-07
@@ -1714,7 +1739,7 @@ console.log(dt.now().toISOTime()) // 11:52:22.894+08:00
 通常，日期和时间的数值表达形式包括毫秒和秒两种，用于精确呈现时间数据。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toMillis()) // 1715054074747
 console.log(dt.now().toSeconds()) // 1715054084.961
@@ -1728,7 +1753,7 @@ console.log(dt.now().valueOf()) // 1715054111806
 这里主要是指输出为 JavaScript 对象，Date 日期格式以及 JSON 格式。
 
 ```css
-css 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toJSDate()) // Tue May 07 2024 14:32:53 GMT+0800 (中国标准时间)
 console.log(dt.now().toJSON()) // 2024-05-07T14:29:54.238+08:00
@@ -1741,7 +1766,7 @@ console.log(dt.now().toObject()) // {year: 2024, month: 5, day: 7, hour: 14, min
 将输出的日期和时间与当前对比，输出类似于 `x天前`、`前天` 、`去年` 这种描述形式。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const date = dt.local(2024, 5, 5, 22, 23, 12)
 const date2 = dt.local(2023, 8, 5, 22, 23, 12)
@@ -1761,7 +1786,7 @@ console.log(date3.toRelative()) // 2天后
 这里是一些不常用，但会在特定场景下适用的输出方式：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 console.log(dt.now().toRFC2822()) // Tue, 07 May 2024 15:05:47 +0800
 console.log(dt.now().toHTTP()) // Tue, 07 May 2024 07:06:25 GMT
@@ -1781,7 +1806,7 @@ console.log(dt.now().toBSON()) // Tue May 07 2024 15:08:04 GMT+0800 (中国标�
 使用 `plus(duration: (Duration | Object | number)): DateTime` 和 `minus(duration: (Duration | Object | number)): DateTime)` 来对日期和时间执行加减操作。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const print = date => console.log(date.toFormat('yyyy-MM-dd HH:mm:ss.SSS'))
 const now = dt.local(2024, 5, 7, 12, 0, 0, 100)
@@ -1812,7 +1837,7 @@ print(now.plus(Duration.fromObject({ hours: 3, minutes: 13 }))) // 2024-05-07 15
 可以使用 `<`、`>` 、`<=` 和 `>=` 来进行日期和时间比较，因为 DateTime 在比较时使用了 `valueOf()` 函数返回纪元时间缀进行数字对比。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 
 const date1 = dt.local(2024, 5, 7, 12, 0, 0, 100)
@@ -1826,7 +1851,7 @@ console.log(date1 >= date3) // true
 此外，还可以使用 `hasSame(otherDateTime: DateTime, unit: string, opts: Object): boolean` 函数来进行微妙的比较。需要注意的是这里的比较是基于日历进行检查的，也就是说在比较月的时候我们要保证年份是相同的，同理，比较分钟时，要确保是在同样的小时内。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 
 const date1 = dt.local(2024, 5, 7, 12, 0, 0, 100)
@@ -1844,7 +1869,7 @@ console.log(date1.hasSame(date2, 'minute')) // false
 使用 `diff(otherDateTime: DateTime, unit: (string | Array<string>), opts: Object): Duration` 函数可以来对比两个日期和时间的差异。如果要比较与当前时刻的时差，可以使用 `diffNow(unit: (string | Array<string>), opts: Object): Duration` 函数。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const d1 = dt.local(2024, 5, 7, 12, 23, 45, 100)
 const d2 = dt.local(2023, 11, 27, 12, 23, 45, 100)
@@ -1863,7 +1888,7 @@ console.log(d1.diffNow('hours').toObject()) // {hours: -5.035617222222222}
 有时候我们想要舍弃日期和时间中的一部分值，比如只关心小时数，不关心具体多少秒，或者我们想输出一天的开始和结束时间，即：`00:00:00 - 23:59:59` 这种形式，这时可以使用 `statOf(unit: string, opts: Object): DateTime` 和 `endOf(unit: string, opts: Object): DateTime` 函数来实现：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const d = dt.local(2024, 5, 7, 12, 23, 45, 100)
 
@@ -1890,7 +1915,7 @@ console.log(d.endOf('minute').toISOTime()) // 12:23:59.999+08:00
 - 通过 `fromISO(text: string, opts: Object): Duration` 和 `fromISOTime(text: string, opts: Object): Duration` 函数来创建。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 const d = dur.fromMillis(1715238823499)
 
@@ -1928,7 +1953,7 @@ console.log(dur.fromISOTime('11:22:33.444').toObject()) // { hours: 11, minutes:
 这里的 `toFormat()` 函数同样也支持在字符串内使用单引号进行转义。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 const d = dur.fromISO('P3Y6M1W4DT12H30M5S')
 
@@ -1942,7 +1967,7 @@ console.log(d.toFormat("yy'年'MM'月'")) // 03年06月
 `toHuman(opts: Object)` 函数返回包含所有单位的 Duration 的字符串表示形式。
 
 ```arduino
-arduino 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 const d = dur.fromISO('P3Y6M1W4DT12H30M5S')
 
@@ -1976,7 +2001,7 @@ ISO 8601 形式的持续时间表示法，对很多人来讲很陌生，作者�
 下面是一些示例：
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 
 console.log(dur.fromObject({years: 2024}).toISO()) // P2024Y
@@ -2002,7 +2027,7 @@ console.log(dur.fromObject({ hours: 11 }).toISOTime({ format: 'basic' })) // 110
 持续时间的数学运算只支持相加（`plus(duration: (Duration | Object | number)): Duration`）和相减（`minus(duration: (Duration | Object | number)): Duration`）以及比较（`equals(others: Duration): boolean`）运算，此外还提供了一个遍历函数 `mapUnits(fn: function): Duration` 来根据条件作运算。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 
 const dur1 = dur.fromISO('P1Y')
@@ -2021,7 +2046,7 @@ console.log(dur1.plus(dur2).mapUnits((x, u) => u === "months" ? x * 3 : x).toISO
 我们知道 1 天有 24 小时，1 小时有 60 分钟，1 分钟有 60 秒，1 秒有 1000 毫秒，然后 1 天可以表示成 8640000 毫秒，在 Luxon 中提供了 `as(unit: string): number` 和 `shiftTo(units: ...any): Duration` 函数来处理，些外还有一个 `shiftToAll(): Duration` 函数，等同于调用 `shiftTo("years", "months", "weeks", "days", "hours", "minutes", "seconds", "milliseconds")`。
 
 ```less
-less 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dt = dv.luxon.DateTime
 const dur = dv.luxon.Duration
 const d1 = dt.local(2024, 5, 7, 12, 23, 45, 100)
@@ -2046,7 +2071,7 @@ console.log(dur3.shiftToAll().toObject()) // {"years":0,"months":2,"weeks":3,"da
 既然有将日期和时间换算成毫秒表示，自然也有对应的将毫秒转换成相应的对象表示形式，这里我们需要用到 `rescale(): Duration` 函数，使用方法如下：
 
 ```scss
-scss 代码解读复制代码\`\`\`dataviewjs
+\`\`\`dataviewjs
 const dur = dv.luxon.Duration
 const dur1 = dur.fromObject({milliseconds: 86400000})
 
@@ -2060,13 +2085,13 @@ console.log(dur.fromMillis(1715245618057).rescale().toObject()) // {years: 59, m
 
 ## 总结
 
-相较于DQL查询语言，使用API可以更灵活地处理数据，但是也不是万能的，这取决于使用者的专业能力和需求。
+相较于 DQL 查询语言，使用 API 可以更灵活地处理数据，但是也不是万能的，这取决于使用者的专业能力和需求。
 
 文章的写作周期比较长，因为这部分内容说实话还真不好写，主要受限于作者个人的实践不够，无法给出比较贴切的实例。
 
-文章比较长，虽然极力想囊括所有API的用法，但还是有些过于庞大，有些地方写得太细了，有些地方写得太粗糙了。如果你发现了文章中的错误，欢迎指正。
+文章比较长，虽然极力想囊括所有 API 的用法，但还是有些过于庞大，有些地方写得太细了，有些地方写得太粗糙了。如果你发现了文章中的错误，欢迎指正。
 
-最后，动动你发财的小手，关注，点赞一键三连，你的鼓励是我坚持下去的动力。有任何问题欢迎加作者微信（jenemy\_xl）沟通交流一起成长。
+最后，动动你发财的小手，关注，点赞一键三连，你的鼓励是我坚持下去的动力。有任何问题欢迎加作者微信（jenemy_xl）沟通交流一起成长。
 
 ## 更新内容
 
@@ -2080,7 +2105,7 @@ console.log(dur.fromMillis(1715245618057).rescale().toObject()) // {years: 59, m
 
 - [luxon 3.4.4 | Documentation (moment.github.io)](https://link.juejin.cn/?target=https%3A%2F%2Fmoment.github.io%2Fluxon%2Fapi-docs%2Findex.html "https://moment.github.io/luxon/api-docs/index.html")
 - [moment.github.io/luxon/demo/…](https://link.juejin.cn/?target=https%3A%2F%2Fmoment.github.io%2Fluxon%2Fdemo%2Fglobal.html "https://moment.github.io/luxon/demo/global.html")
-- [深入了解ISO 8601：日期和时间的国际标准化-CSDN博客](https://link.juejin.cn/?target=https%3A%2F%2Fblog.csdn.net%2Fweixin_53742691%2Farticle%2Fdetails%2F135534399 "https://blog.csdn.net/weixin_53742691/article/details/135534399")
-- [JS Intl对象完整简介及在中文中的应用 « 张鑫旭-鑫空间-鑫生活 (zhangxinxu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fwww.zhangxinxu.com%2Fwordpress%2F2019%2F09%2Fjs-intl-zh%2F "https://www.zhangxinxu.com/wordpress/2019/09/js-intl-zh/")
+- [深入了解 ISO 8601：日期和时间的国际标准化-CSDN 博客](https://link.juejin.cn/?target=https%3A%2F%2Fblog.csdn.net%2Fweixin_53742691%2Farticle%2Fdetails%2F135534399 "https://blog.csdn.net/weixin_53742691/article/details/135534399")
+- [JS Intl 对象完整简介及在中文中的应用 « 张鑫旭-鑫空间-鑫生活 (zhangxinxu.com)](https://link.juejin.cn/?target=https%3A%2F%2Fwww.zhangxinxu.com%2Fwordpress%2F2019%2F09%2Fjs-intl-zh%2F "https://www.zhangxinxu.com/wordpress/2019/09/js-intl-zh/")
 - [Array.prototype.flatMap() - JavaScript | MDN (mozilla.org)](https://link.juejin.cn/?target=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FWeb%2FJavaScript%2FReference%2FGlobal_Objects%2FArray%2FflatMap "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap")
 - [ISO 8601 - Wikipedia](https://link.juejin.cn/?target=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISO_8601%23Durations "https://en.wikipedia.org/wiki/ISO_8601#Durations")
