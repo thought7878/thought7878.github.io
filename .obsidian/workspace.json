@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Templater.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Templater.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+                "file": "_posts/tools/obsidian/插件/Templater/Templater.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,21 +198,23 @@
   },
   "active": "a08e2c342abe7796",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/抗衰.md",
+    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "_posts/tools/obsidian/插件/Templater/Templater.md",
+    "_posts/tools/obsidian/插件/Journals.md",
+    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
+    "_posts/tools/obsidian/插件/Dataview/2. JavaScript API.md",
+    "_posts/读书笔记/健康/抗衰.md",
     "_posts/tools/obsidian/插件/Dataview/Dataview.md",
     "_posts/读书笔记/外面的世界/趋势.md",
     "_posts/任务记录/daily template.md",
     "_posts/要整理的.md",
     "_posts/methods/构建系统/建构系统.md",
-    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
     "_posts/tools/obsidian/插件/Dataview/3：Dataview · 案例讲解.md",
     "_posts/tools/obsidian/插件/Heatmap Calendar.md",
-    "_posts/tools/obsidian/插件/Journals.md",
     "_posts/tools/obsidian/插件/Tracker.md",
     "_posts/tools/obsidian/插件/Charts.md",
-    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
-    "_posts/tools/obsidian/插件/Templater/Templater.md",
     "_posts/tools/obsidian/插件/Dataview/media/e008b5f265f3935b870b17069f5ecb74_MD5.webp",
     "_posts/tools/obsidian/插件/Dataview/media/58e93a9bb268fe1ae85e70c41a79f180_MD5.webp",
     "_posts/tools/obsidian/插件/Dataview/media/042b58447ecb5b857b536629bd3d927a_MD5.webp",
@@ -224,7 +226,6 @@
     "_posts/tools/obsidian/插件/Dataview/media/9a39ea6970bb4706f8701f7dc5613d27_MD5.webp",
     "_posts/tools/obsidian/插件/Dataview/media/fc290776756206e3f0a77784a889f877_MD5.webp",
     "_posts/tools/obsidian/插件/Dataview/media",
-    "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
     "_posts/tools/obsidian/插件/Dataview",
     "_posts/tools/obsidian/插件/Templater/media",
     "_posts/tools/obsidian/插件/Templater",
@@ -239,7 +240,6 @@
     "_posts/methods/要整理的.md",
     "_posts/tools/obsidian/任务管理.md",
     "_posts/engineering/webpack/构建性能/**实际案例**.md",
-    "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
     "daily notes",
     "templates/media",
     "templates",
