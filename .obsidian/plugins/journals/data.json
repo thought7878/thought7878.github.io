@@ -182,9 +182,11 @@
       },
       "confirmCreation": false,
       "nameTemplate": "{{date}}",
-      "dateFormat": "YYYY-[W]w",
-      "folder": "",
-      "templates": [],
+      "dateFormat": "YYYY-[W]ww",
+      "folder": "Journal/02 Weekly/{{date:YYYY}}/{{date:MM}}",
+      "templates": [
+        "Templates/Weekly Note Template.md"
+      ],
       "start": "",
       "end": {
         "type": "never"

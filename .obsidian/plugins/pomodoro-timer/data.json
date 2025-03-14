@@ -15,5 +15,5 @@
   "logFormat": "VERBOSE",
   "useSystemNotification": true,
   "taskFormat": "TASKS",
-  "lowFps": false
+  "lowFps": true
 }

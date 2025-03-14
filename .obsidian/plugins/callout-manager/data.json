@@ -1,7 +1,45 @@
 {
   "callouts": {
-    "custom": [],
-    "settings": {}
+    "custom": [
+      "journal",
+      "task",
+      "highlight",
+      "calendar"
+    ],
+    "settings": {
+      "journal": [
+        {
+          "changes": {
+            "icon": "lucide-pencil",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "task": [
+        {
+          "changes": {
+            "icon": "lucide-check-square",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "highlight": [
+        {
+          "changes": {
+            "icon": "lucide-lightbulb",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "calendar": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-days",
+            "color": "166, 189, 197"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

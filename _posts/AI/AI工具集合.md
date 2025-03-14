@@ -1,3 +1,6 @@
+[测试100多款AI工具后，2024年好用+低门槛的](https://www.douyin.com/video/7461434027480861986)
+
+
 【炸裂！阿里WAN2.1视频模型登顶榜首，效果惊艳，ComfyUI安装教程！-哔哩哔哩】 https://b23.tv/cuZ6Ncf
 
 

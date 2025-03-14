@@ -25,3 +25,7 @@
 - 01:43:50 Bonus - Heatmaps!
 - 02:05:07 Style - logredis task box look (CSS)
 - 02:08:47 kay byyyyee
+
+## 参考资料
+- [Obsidian 每日笔记汇总（周、月、季度和年度）- 从零开始完整设置！](https://www.youtube.com/watch?v=m5SYja0V29w&ab_channel=ConstructByDee)
+- [b站](https://www.bilibili.com/video/BV1Dgs4e7ES1/?spm_id_from=333.337.search-card.all.click&vd_source=22af953ea4c09540ad1966711a2d53f0)

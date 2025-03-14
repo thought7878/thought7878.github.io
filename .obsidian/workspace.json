@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "365a708a738df9f2",
+        "id": "a4fd01e385f78a05",
         "type": "tabs",
         "children": [
           {
-            "id": "18660104342d1feb",
+            "id": "485fb91c620939e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/methods/要整理的.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1cbcf14a9bced046",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +32,7 @@
             }
           },
           {
-            "id": "cda4883ab67993cc",
+            "id": "55f167823895e193",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +44,7 @@
             }
           },
           {
-            "id": "6e5f1564c5a9889e",
+            "id": "3167054cef30078c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,20 +56,33 @@
             }
           },
           {
-            "id": "a08e2c342abe7796",
+            "id": "6852985ca5f5b996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/3：Dataview · 案例讲解.md",
+                "file": "_posts/tools/obsidian/插件/Tasks.md",
                 "mode": "source",
-                "backlinks": false,
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cac852fd4860a194",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +112,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
@@ -126,12 +151,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "508be625af61ccd3",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {}
+            }
+          },
+          {
             "id": "3210001bd9c76aba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/构建系统/建构系统.md",
+                "file": "_posts/tools/obsidian/插件/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,20 +181,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/构建系统/建构系统.md",
+                "file": "_posts/tools/obsidian/插件/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "46912ac2b9cb5c6a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -170,6 +192,14 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "7cd6c363d83ff10e",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
               "state": {}
             }
           }
@@ -191,59 +221,59 @@
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "cda4883ab67993cc",
+  "active": "6852985ca5f5b996",
   "lastOpenFiles": [
-    "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/要整理的.md",
+    "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
+    "_posts/tools/obsidian/插件/Tasks.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
     "_posts/methods/构建系统/建构系统.md",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》/《我的人生样样稀松照样赢》.md",
-    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
-    "_posts/methods/构建系统/PKM（个人知识管理）.md",
-    "_posts/methods/构建系统/media/58f30d599adb6932761b2b6f66889999_MD5.jpeg",
-    "_posts/methods/构建系统/media/Pasted image 20250313215142.png",
-    "_posts/methods/构建系统/media/fd9b3e9e96c621b3bc08c3266fa16afb_MD5.jpeg",
-    "_posts/methods/构建系统/media/Pasted image 20250313214220.png",
-    "_posts/methods/构建系统/media/30b434439b32a8e1c90f3d86d72fba82_MD5.jpeg",
-    "_posts/methods/构建系统/media/Pasted image 20250313213850.png",
-    "_posts/methods/构建系统/media/aa58e3367045acc33ee52ce951b626f3_MD5.jpeg",
-    "_posts/methods/构建系统/media/Pasted image 20250313213330.png",
-    "_posts/methods/构建系统/media",
-    "_posts/tools/obsidian/插件/Dataview/3：Dataview · 案例讲解.md",
-    "_posts/tools/obsidian/插件/Templater/Templater.md",
+    "_posts/要整理的.md",
+    "_posts/AI/AI工具集合.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/常看的.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
-    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
-    "_posts/tools/obsidian/插件/Journals.md",
-    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/tools/obsidian/插件/Dataview/2. JavaScript API.md",
-    "_posts/读书笔记/健康/抗衰.md",
-    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
-    "_posts/读书笔记/外面的世界/趋势.md",
-    "_posts/任务记录/daily template.md",
-    "_posts/tools/obsidian/插件/Heatmap Calendar.md",
-    "_posts/tools/obsidian/插件/Tracker.md",
-    "_posts/tools/obsidian/插件/Charts.md",
-    "_posts/tools/obsidian/插件/Dataview/media/e008b5f265f3935b870b17069f5ecb74_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media/58e93a9bb268fe1ae85e70c41a79f180_MD5.webp",
-    "_posts/tools/obsidian/插件/Dataview/media",
-    "_posts/tools/obsidian/插件/Dataview",
-    "_posts/tools/obsidian/插件/Templater/media",
-    "_posts/tools/obsidian/插件/Templater",
-    "_posts/读书笔记/世界趋势/media",
-    "_posts/读书笔记/世界趋势/Crypto.md",
-    "_posts/tools/obsidian/插件/Callout Manager.md",
-    "_posts/tools/obsidian/插件",
-    "_posts/tools/obsidian/基础.md",
-    "_posts/tools/obsidian/知识管理.md",
+    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
+    "Templates/Weekly Note Template.md",
+    "Templates/Daily Note Template.md",
+    "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
+    "Journal/01 Daily/2025/03/2025-03-12.md",
+    "Journal/01 Daily/2025/03/test.md",
+    "Templates/callout.md",
+    "Templates/日记模版.md",
+    "测试.md",
     "daily notes",
+    "templates/callout.md",
+    "templates/test.md",
     "templates/media",
     "templates",
+    "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
+    "_posts/任务记录/daily template.md",
+    "_posts/任务记录/2025/目标.md",
+    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
+    "_posts/任务记录/2025/学习、复习记录.md",
+    "_posts/methods/构建系统/《Building a Second Brain》",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
+    "_posts/methods/构建系统/《原子习惯》",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
+    "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
+    "_posts/methods/media/Pasted image 20250308162711.png",
+    "_posts/methods/构建系统",
+    "_posts/methods/学习方法",
+    "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
+    "_posts/methods/media/Pasted image 20250306193621.png",
+    "_posts/algorithm & 数据结构/算法题/链表",
+    "_posts/base/js/知识点总结/数据类型/字符串",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/media/e066461d9affa49a5c85b9f0088c8f1e_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
