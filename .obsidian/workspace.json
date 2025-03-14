@@ -15,8 +15,20 @@
               "state": {
                 "file": "_posts/methods/要整理的.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "要整理的"
             }
           },
           {
@@ -27,8 +39,20 @@
               "state": {
                 "file": "_posts/methods/构建系统/如何建立系统？.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "如何建立系统？"
             }
           },
           {
@@ -39,8 +63,20 @@
               "state": {
                 "file": "_posts/methods/构建系统/建构系统.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "建构系统"
             }
           },
           {
@@ -51,8 +87,20 @@
               "state": {
                 "file": "_posts/要整理的.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "要整理的"
             }
           },
           {
@@ -61,11 +109,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
+                "file": "_posts/tools/obsidian/插件/Tasks.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           },
           {
@@ -76,13 +135,48 @@
               "state": {
                 "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "算法 学习计划-DS"
+            }
+          },
+          {
+            "id": "494b88d31689c045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -101,8 +195,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -117,7 +214,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -125,7 +224,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           },
           {
@@ -133,7 +234,9 @@
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -155,7 +258,29 @@
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "7cd6c363d83ff10e",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          },
+          {
+            "id": "a16c9704b5e7fa50",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -164,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +297,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "算法 学习计划-DS 的反向链接列表"
             }
           },
           {
@@ -181,30 +308,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "算法 学习计划-DS 的出链列表"
             }
           },
           {
-            "id": "a16c9704b5e7fa50",
+            "id": "dc3f60c813409538",
             "type": "leaf",
             "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "7cd6c363d83ff10e",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {}
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -212,6 +335,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "callout-manager:Insert Callout": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -226,12 +350,13 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "6852985ca5f5b996",
+  "active": "cac852fd4860a194",
   "lastOpenFiles": [
     "_posts/tools/obsidian/插件/Tasks.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/media",
     "_posts/tools/obsidian/基础/Tags（标签）.md",
     "_posts/tools/obsidian/基础",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/世界趋势/美国.md",
@@ -258,7 +383,6 @@
     "templates/media",
     "templates",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/任务记录/daily template.md",
     "_posts/methods/构建系统/《Building a Second Brain》",
     "_posts/methods/构建系统/《原子习惯》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
@@ -268,7 +392,6 @@
     "_posts/methods/学习方法",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
-    "_posts/algorithm & 数据结构/算法题/链表",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
