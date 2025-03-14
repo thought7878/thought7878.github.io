@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "file": "_posts/tools/obsidian/基础/Tags（标签）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,9 +228,14 @@
   },
   "active": "6852985ca5f5b996",
   "lastOpenFiles": [
-    "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
     "_posts/tools/obsidian/插件/Tasks.md",
+    "_posts/tools/obsidian/基础/Tags（标签）.md",
+    "_posts/tools/obsidian/基础",
     "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/世界趋势/美国.md",
+    "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
     "_posts/methods/构建系统/建构系统.md",
     "_posts/要整理的.md",
     "_posts/AI/AI工具集合.md",
@@ -254,11 +259,7 @@
     "templates",
     "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
     "_posts/任务记录/daily template.md",
-    "_posts/任务记录/2025/目标.md",
-    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
-    "_posts/任务记录/2025/学习、复习记录.md",
     "_posts/methods/构建系统/《Building a Second Brain》",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结/如何建立系统？.md",
     "_posts/methods/构建系统/《原子习惯》",
     "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
@@ -268,7 +269,6 @@
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/algorithm & 数据结构/算法题/链表",
-    "_posts/base/js/知识点总结/数据类型/字符串",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
