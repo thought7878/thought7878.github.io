@@ -127,7 +127,7 @@ a.tag[href="#工作"] {
    - 示例：根据用户输入的内容自动生成标签。
 
 3. **Tag Wrangler 插件**
-   - 提供标签批量编辑和管理功能。
+   - 提供标签*批量编辑和管理*功能。
    - 示例：合并重复标签或重命名标签。
 
 4. **Style Settings 插件**
@@ -156,3 +156,7 @@ a.tag[href="#工作"] {
 标签是 Obsidian 中一个简单但极其强大的功能，能够帮助用户高效地分类和管理笔记内容。无论是任务管理、知识分类还是项目跟踪，标签都能显著提升效率。
 
 **最终答案**：Obsidian 中的标签通过简单的语法（如 `#标签名`）实现笔记分类和检索功能，支持嵌套标签、跨笔记搜索以及与插件（如 Dataview、Templater）结合使用，适合任务管理、知识分类和项目跟踪等场景。
+
+### 相关资料
+[我是如何来使用标签的？obsidian标签的语法，美化，用法和标签列表插件介绍。](https://www.bilibili.com/video/BV1zK4y117Q8/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+[【Obsidian】标签系统的底层原理！3分钟建立一个不会崩溃的笔记标签系统](https://www.bilibili.com/video/BV1iu4m1A7Go/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)

@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "file": "_posts/tools/obsidian/基础.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "基础"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/时间管理方法/番茄工作法.md",
+                "file": "DailyNote/Templates/Daily Note Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "番茄工作法"
+              "title": "Daily Note Template"
+            }
+          },
+          {
+            "id": "94a87f3da61d745b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "1：Dataview · DQL查询语言"
             }
           }
         ],
@@ -264,16 +288,6 @@
             }
           },
           {
-            "id": "7cd6c363d83ff10e",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
             "id": "a16c9704b5e7fa50",
             "type": "leaf",
             "state": {
@@ -289,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/时间管理方法/番茄工作法.md",
+                "file": "DailyNote/Templates/Daily Note Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +313,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "番茄工作法 的反向链接列表"
+              "title": "Daily Note Template 的反向链接列表"
             }
           },
           {
@@ -308,12 +322,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/时间管理方法/番茄工作法.md",
+                "file": "DailyNote/Templates/Daily Note Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "番茄工作法 的出链列表"
+              "title": "Daily Note Template 的出链列表"
             }
           },
           {
@@ -335,9 +349,29 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "a32c0d91fb0f8bbd",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          },
+          {
+            "id": "08058aeabe1ca9ee",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -359,48 +393,49 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "pomodoro-timer:Toggle timer panel": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
   "active": "494b88d31689c045",
   "lastOpenFiles": [
-    "_posts/methods/时间管理方法/GTD.md",
-    "_posts/methods/时间管理方法/番茄工作法.md",
-    "_posts/methods/时间管理方法/柳比歇夫时间管理法.md",
-    "_posts/methods/时间管理方法",
-    "_posts/tools/obsidian/基础/Tags（标签）.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/要整理的.md",
+    "DailyNote/Templates/Daily Note Template.md",
     "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "_posts/tools/obsidian/基础.md",
+    "_posts/tools/obsidian/插件/Tasks.md",
+    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
+    "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
+    "_posts/tools/obsidian/基础/Tags（标签）.md",
+    "_posts/methods/时间管理方法/番茄工作法.md",
+    "_posts/methods/时间管理方法/GTD.md",
+    "_posts/methods/时间管理方法/柳比歇夫时间管理法.md",
+    "_posts/tools/obsidian/基础/基础.md",
+    "_posts/methods/时间管理方法",
     "DailyNote/Journal/01 Daily/2025-03-15.md",
     "_posts/任务记录/2025/学习、复习记录.md",
-    "_posts/tools/obsidian/插件/Tasks.md",
-    "_posts/要整理的.md",
     "_posts/methods/构建系统/建构系统.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/methods/要整理的.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
-    "_posts/tools/obsidian/基础/基础.md",
-    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
     "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
     "DailyNote/daily notes/3、10.md",
     "DailyNote/iaryTasks/00 Templates/日记模板.md",
     "DailyNote/daily notes/3、09.md",
-    "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "DailyNote/Templates/media",
     "DailyNote/Templates/Weekly Note Template.md",
     "DailyNote/Templates/callout.md",
     "DailyNote/Templates/日记模版.md",
-    "DailyNote/Templates/Daily Note Template.md",
     "DailyNote/Journal/02 Weekly",
     "DailyNote/Journal/03 Monthly",
     "DailyNote/Journal/05 Yearly",
     "DailyNote/Journal/04 Quarterly",
     "DailyNote/Journal/01 Daily/2025/03/test.md",
     "DailyNote/Journal/01 Daily/2025/03/media",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-12.md",
     "DailyNote/Journal/01 Daily/2025/03",
     "DailyNote/Journal/01 Daily/2025",
     "DailyNote/Journal/01 Daily",
-    "DailyNote/iaryTasks/Taskido/demo_file.md",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",
