@@ -20,7 +20,9 @@
       "dateFormat": "YYYY-MM-DD",
       "folder": "Journal/01 Daily/{{date:YYYY}}/{{date:MM}}",
       "templates": [
-        "Templates/Daily Note Template.md"
+        "Templates/Daily Note Template.md",
+        "",
+        ""
       ],
       "start": "",
       "end": {

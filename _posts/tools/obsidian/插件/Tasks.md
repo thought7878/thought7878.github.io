@@ -1,3 +1,7 @@
+>[! error] 时间不能使用
+>https://publish.obsidian.md/tasks/Getting+Started/Dates#Dates+cannot+include+times
+>
+
 ### Obsidian 的 Tasks 插件简介
 
 **Tasks 插件** 是 Obsidian 的一款社区插件，专注于*任务管理和待办事项*（To-Do List）的高效处理。它允许用户通过 Markdown 格式的任务列表（如 `[ ]` 和 `[x]`）创建和管理任务，并*提供强大的查询、过滤和排序*功能。相比 Obsidian 原生的任务列表功能，Tasks 插件提供了更高级的功能，例如按标签、优先级、截止日期等筛选任务。

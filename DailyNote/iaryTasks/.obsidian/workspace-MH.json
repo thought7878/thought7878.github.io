@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "53a2a29ead73ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bbc8446e5f533b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ab1e0220037513a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading notes/parkSinusoidalHarmonicVoltage2021.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f92436b85d0132d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab61acfbeb07d12e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7012c4fd27ceceab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce338b2018851331",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dce39bcca1f544af",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "219062b931919f10",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5
+  },
+  "right": {
+    "id": "e1fced52a2ba0095",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c609e9d1571ef21",
+        "type": "tabs",
+        "dimension": 35.621521335807046,
+        "children": [
+          {
+            "id": "4203856bea458424",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reading notes/parkSinusoidalHarmonicVoltage2021.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1bcb039ebbafb89d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Reading notes/parkSinusoidalHarmonicVoltage2021.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc3dc01056e9eb05",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f45a3d082691ce1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a17cf026a6ab5133",
+        "type": "tabs",
+        "dimension": 64.37847866419295,
+        "children": [
+          {
+            "id": "21dc99ecec2c760a",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5df784a9987e47e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reading notes/parkSinusoidalHarmonicVoltage2021.md"
+              }
+            }
+          },
+          {
+            "id": "76c31836d07eedcb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 350.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "6ab1e0220037513a",
+  "lastOpenFiles": [
+    "Reading notes/parkSinusoidalHarmonicVoltage2021.md",
+    "00 Templates/parkSinusoidalHarmonicVoltage2021.md",
+    "00 Attachment/我的文库2.bib",
+    "00 Attachment/我的文库 - 副本.bib",
+    "Reading notes/WOS_000670630400091.md",
+    "01 NEW/Templater.pdf",
+    "01 NEW/MarkDown超级教程 Obsidian版 2022.1.12.pdf",
+    "01 NEW/看个文献试试.md",
+    "01 NEW/看个EPUB试试.md",
+    "01 NEW/批量修改属性obsidian-yaml-database.md",
+    "01 NEW/像notion database一样浏览编辑文档的YAML属性.md",
+    "00 Attachment/我的文库.json",
+    "04 Journal/1.md",
+    "Reading notes/zhujinqu.md",
+    "Reading notes/WOS_000583807100039.md",
+    "02 Diary/20230325_周六.md",
+    "00 Attachment/我的文库.bib",
+    "Reading notes",
+    "00 Templates/读书笔记模板.md",
+    "06 Book/我的书架.md",
+    "06 Book/读书笔记/刀剑神域 01.md",
+    "06 Book/读书笔记/我的青春恋爱喜剧果然有问题 01.md",
+    "06 Book/读书笔记/天气之子.md",
+    "06 Book/读书笔记/你的名字.md",
+    "06 Book/读书笔记/铃芽之旅.md",
+    "06 Book/读书笔记/可能性的艺术.md",
+    "06 Book/读书笔记/冰菓.md",
+    "02 Diary/20230324_周五.md",
+    "04 Journal/00 整流器控制策略.md",
+    "04 Journal/06/2 SVPWM 算法改进.md",
+    "04 Journal/00/2.2.2 变结构控制.md",
+    "04 Journal/DGJS202210009.md",
+    "04 Journal/ZGDC202103032.md",
+    "05 Anime/data/Episodes",
+    "Reading notes",
+    "00 Attachment/savedrecs (1).bib",
+    "05 Anime/cover/辉夜大小姐想让我告白～天才们的恋爱头脑战～.webp",
+    "00 Attachment/辉夜大小姐想让我告白～天才们的恋爱头脑战～ 1.webp",
+    "00 Attachment/辉夜大小姐想让我告白～天才们的恋爱头脑战～.webp",
+    "05 Anime/cover/冰菓.webp",
+    "05 Anime/cover/刀剑神域.webp",
+    "05 Anime/cover/紫罗兰永恒花园外传.webp",
+    "05 Anime/cover/紫罗兰永恒花园.webp",
+    "05 Anime/cover/86_Anime_S2_KV.jpg",
+    "05 Anime/cover/Lycoris Recoil.jpg",
+    "04 Journal/00 figure/LUTDPC.png",
+    "Canvas/测试.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas"
+  ]
+}

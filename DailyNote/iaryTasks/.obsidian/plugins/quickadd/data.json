@@ -1,0 +1,127 @@
+{
+  "choices": [
+    {
+      "id": "eb633f86-97de-44d7-b76d-b0391ecc9d1f",
+      "name": "日记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00 Templates/日记模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYYMMDD}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02 Diary/day"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "5cb075f6-8b7b-468a-ab2a-f606ed525641",
+      "name": "周记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00 Templates/周记模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY}}年第{{DATE:WW}}周总结"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02 Diary/week"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "添加读书笔记",
+      "id": "4fb33589-4325-4270-9a32-e60478f06f44",
+      "commands": [
+        {
+          "name": "bookfromdouban",
+          "type": "UserScript",
+          "id": "cdcf0d48-ebd9-4570-9440-dc3a5fc05d77",
+          "path": "06 Book/bookfromdouban.js",
+          "settings": {}
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "7ef8c23d-b25d-454a-b63f-ad0e54b40e7e",
+          "choice": {
+            "id": "fc970de6-fdfb-477e-b392-3a6dc0a6489c",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "00 Templates/读书笔记模板.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:bookname}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "06 Book/读书笔记"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "00 Templates",
+  "announceUpdates": true,
+  "version": "0.17.1",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

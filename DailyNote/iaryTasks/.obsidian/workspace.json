@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "53a2a29ead73ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9078efeb2f203d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2c103b197740db1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f92436b85d0132d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab61acfbeb07d12e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7012c4fd27ceceab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce338b2018851331",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dce39bcca1f544af",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "219062b931919f10",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5
+  },
+  "right": {
+    "id": "e1fced52a2ba0095",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c609e9d1571ef21",
+        "type": "tabs",
+        "dimension": 40.672074159907304,
+        "children": [
+          {
+            "id": "4203856bea458424",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1bcb039ebbafb89d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc3dc01056e9eb05",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f45a3d082691ce1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a17cf026a6ab5133",
+        "type": "tabs",
+        "dimension": 59.327925840092696,
+        "children": [
+          {
+            "id": "5df784a9987e47e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "76c31836d07eedcb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "278cb410c2921829",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "audio-recorder:开始/结束录音": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "278cb410c2921829",
+  "lastOpenFiles": [
+    "02 Diary/day/20230424.md",
+    "02 Diary/week/2023年第17周总结.md",
+    "Taskido/README.md",
+    "02 Diary/day/20230423.md",
+    "day2.md",
+    "day 1.md",
+    "day.md",
+    "11.md",
+    "02 Diary/day2/2023-04-23.md",
+    "Taskido/demo_file.md",
+    "00 Templates/周记模板.md",
+    "02 Diary/day/20230404.md",
+    "02 Diary/day/20230422.md",
+    "00 Templates/日记模板.md",
+    "02 Diary/week/2023年第16周总结.md",
+    "02 Diary/week/2023年第16周总结 1.md",
+    "02 Diary/week/2023年第14周总结.md",
+    "02 Diary/day/20230423_星期日.md",
+    "00 Templates/日记模板-原版.md",
+    "00 Templates/周记模板 -原版.md",
+    "02 Diary/day/Inbox.md",
+    "Task Management/Inbox.md",
+    "Task Management",
+    "02 Diary/参考网站.md",
+    "02 Diary/day2/2023-04-22.md",
+    "02 Diary/day1/20230423-星期日.md",
+    "02 Diary/day1/20230404-星期二.md",
+    "02 Diary/day1",
+    "02 Diary/day2",
+    "TasksTimeline/view.js",
+    "TasksTimeline/view.css",
+    "TasksTimeline",
+    "Taskido/view.js",
+    "Taskido/view.css",
+    "Taskido",
+    "00 Attachment/Zotero/better-bibtex/cache.Better BibLaTeX.json",
+    "04 Journal/figs/DGJS20230317005/image-5-x314-y375.png",
+    "04 Journal/figs/DGJS20230317005/image-4-x73-y140.png",
+    "00 Attachment/Zotero/cache/library/82YPDK7H.png",
+    "00 Attachment/Zotero/cache/library/SJSL2DB6.png",
+    "04 Journal/figs/WOS000931062600081/image-3-x307-y484.png",
+    "01 NEW/Bilibili/封面/源文件.png",
+    "01 NEW/Bilibili/封面/ob2.png",
+    "01 NEW/Bilibili/封面/ob.png",
+    "01 NEW/Bilibili/封面/4K_1.png",
+    "04 Journal/journal title/现代电力/image-6-x51-y299.png",
+    "Canvas/测试.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas"
+  ]
+}

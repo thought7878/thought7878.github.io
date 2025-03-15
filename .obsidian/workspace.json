@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Tasks.md",
+                "file": "_posts/methods/时间管理方法/番茄工作法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "番茄工作法"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -289,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+                "file": "_posts/methods/时间管理方法/番茄工作法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +299,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "算法 学习计划-DS 的反向链接列表"
+              "title": "番茄工作法 的反向链接列表"
             }
           },
           {
@@ -308,12 +308,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+                "file": "_posts/methods/时间管理方法/番茄工作法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "算法 学习计划-DS 的出链列表"
+              "title": "番茄工作法 的出链列表"
             }
           },
           {
@@ -324,6 +324,16 @@
               "state": {},
               "icon": "clock",
               "title": "Reminders"
+            }
+          },
+          {
+            "id": "7d3db5aebf49ddcb",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
         ],
@@ -347,56 +357,59 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "cac852fd4860a194",
+  "active": "494b88d31689c045",
   "lastOpenFiles": [
-    "_posts/tools/obsidian/插件/Tasks.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/media",
+    "_posts/methods/时间管理方法/GTD.md",
+    "_posts/methods/时间管理方法/番茄工作法.md",
+    "_posts/methods/时间管理方法/柳比歇夫时间管理法.md",
+    "_posts/methods/时间管理方法",
     "_posts/tools/obsidian/基础/Tags（标签）.md",
-    "_posts/tools/obsidian/基础",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/世界趋势/美国.md",
-    "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
-    "_posts/methods/构建系统/建构系统.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "DailyNote/Journal/01 Daily/2025-03-15.md",
+    "_posts/任务记录/2025/学习、复习记录.md",
+    "_posts/tools/obsidian/插件/Tasks.md",
     "_posts/要整理的.md",
-    "_posts/AI/AI工具集合.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/常看的.md",
+    "_posts/methods/构建系统/建构系统.md",
     "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/tools/obsidian/Obsidian 每日笔记汇总（周、月、季度和年度）.md",
-    "Excalidraw/Drawing 2024-11-26 22.12.53.excalidraw.md",
-    "Templates/Weekly Note Template.md",
-    "Templates/Daily Note Template.md",
+    "_posts/methods/要整理的.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/tools/obsidian/基础/基础.md",
+    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
+    "_posts/methods/学习方法/卡片盒笔记法（Zettelkasten）.md",
+    "DailyNote/daily notes/3、10.md",
+    "DailyNote/iaryTasks/00 Templates/日记模板.md",
+    "DailyNote/daily notes/3、09.md",
+    "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
+    "DailyNote/Templates/media",
+    "DailyNote/Templates/Weekly Note Template.md",
+    "DailyNote/Templates/callout.md",
+    "DailyNote/Templates/日记模版.md",
+    "DailyNote/Templates/Daily Note Template.md",
+    "DailyNote/Journal/02 Weekly",
+    "DailyNote/Journal/03 Monthly",
+    "DailyNote/Journal/05 Yearly",
+    "DailyNote/Journal/04 Quarterly",
+    "DailyNote/Journal/01 Daily/2025/03/test.md",
+    "DailyNote/Journal/01 Daily/2025/03/media",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-12.md",
+    "DailyNote/Journal/01 Daily/2025/03",
+    "DailyNote/Journal/01 Daily/2025",
+    "DailyNote/Journal/01 Daily",
+    "DailyNote/iaryTasks/Taskido/demo_file.md",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
-    "Journal/01 Daily/2025/03/2025-03-12.md",
-    "Journal/01 Daily/2025/03/test.md",
-    "Templates/callout.md",
-    "Templates/日记模版.md",
-    "测试.md",
-    "daily notes",
-    "templates/callout.md",
-    "templates/test.md",
-    "templates/media",
-    "templates",
-    "_posts/methods/构建系统/《Building a Second Brain》/《Building a Second Brain》.md",
-    "_posts/methods/构建系统/《Building a Second Brain》",
-    "_posts/methods/构建系统/《原子习惯》",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》总结",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",
-    "_posts/methods/构建系统",
-    "_posts/methods/学习方法",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
     "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/e066461d9affa49a5c85b9f0088c8f1e_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

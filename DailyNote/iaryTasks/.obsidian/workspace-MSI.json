@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "53a2a29ead73ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f41149651a1d5178",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d954d97d2392a9ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Diary/20230310_周五.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f92436b85d0132d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab61acfbeb07d12e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7012c4fd27ceceab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce338b2018851331",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dce39bcca1f544af",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "219062b931919f10",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1fced52a2ba0095",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c609e9d1571ef21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4203856bea458424",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Diary/20230310_周五.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1bcb039ebbafb89d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Diary/20230310_周五.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76c31836d07eedcb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5df784a9987e47e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 Diary/20230310_周五.md"
+              }
+            }
+          },
+          {
+            "id": "cc3dc01056e9eb05",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8ce65ce058d5217",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "d954d97d2392a9ee",
+  "lastOpenFiles": [
+    "00 Templates/日记模板.md",
+    "02 Diary/20230310_周五.md",
+    "02 Diary/20230312_周日.md",
+    "02 Diary/20230309_周四.md",
+    "02 Diary/20230306_周一.md",
+    "02 Diary/20230307_周二.md",
+    "02 Diary/20230311_周六.md",
+    "00 Templates/当前天气.md",
+    "00 Templates/修改时间.md",
+    "00 Templates/会议记录模板.md",
+    "02 Diary/Drawing 2023-03-10 00.18.24.excalidraw.md",
+    "01 Attachment/Templater.pdf",
+    "02 Diary/20230314_周二.md",
+    "02 Diary/20230313_周一.md",
+    "00 NEW/MarkDown超级教程 Obsidian版 2022.1.12.md",
+    "00 NEW/PPT.md",
+    "00 NEW/天气信息.md",
+    "02 Diary/20230308_周三.md",
+    "00 NEW/2023-03-08.md",
+    "00 NEW/230306会议记录.md",
+    "00 NEW/未命名.md",
+    "00 NEW/DATAView.md",
+    "04 Jornal",
+    "00 NEW/202303081958.md",
+    "00 NEW/看个文献试试.md",
+    "00 NEW/刻晴.md",
+    "00 NEW/狂人日记.md",
+    "00 NEW/试试表格.md",
+    "01 Attachment/MarkDown超级教程 Obsidian版 2022.1.12.pdf",
+    "01 Attachment/Delay Compensation of Demand Response and Adaptive Disturbance Rejection Applied to Power System Frequency Control.pdf",
+    "01 Attachment/1.png",
+    "01 Attachment/5人版本1920-1080.jpg",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "01 Attachment/A_review_on_ADRC_based_PMSM_control_designs.pdf",
+    "01 Attachment/A Novel Extended State Observer for Output Tracking of MIMO Systems with Mismatched Uncertainty.pdf",
+    "01 Attachment/基于扰动补偿的LCL型并网...变器无差拍预测电流控制策略_杨浩.pdf",
+    "01 Attachment/data.jpeg",
+    "03 Canvas/未命名.canvas",
+    "03 Canvas",
+    "Excalidraw",
+    "Day Planners",
+    "01 Attachment/6人版本1920-1080.jpg"
+  ]
+}

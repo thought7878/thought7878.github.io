@@ -1,0 +1,23 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "livePreview": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01 NEW",
+  "attachmentFolderPath": "00 Attachment",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en"
+  ],
+  "readableLineLength": true,
+  "showUnsupportedFiles": true
+}
