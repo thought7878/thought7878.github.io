@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Templates/Daily Note.md",
+                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,35 +196,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Note"
+              "title": "2025-03-17"
             }
           },
           {
             "id": "21052265cdcfb3bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/tools/obsidian/基础/Callout.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Callout"
-            }
-          },
-          {
-            "id": "94a87f3da61d745b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -272,7 +248,60 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
+      },
+      {
+        "id": "f4fafb19f40849d1",
+        "type": "split",
+        "children": [
+          {
+            "id": "a0ef2c7fc0323d7f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "912459663ee0a9f8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "数据结构、算法"
+                }
+              }
+            ]
+          },
+          {
+            "id": "64054d76e6028e1b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c6b33d6534c47a0b",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap-nextgen-plugin",
+                  "state": {},
+                  "icon": "dot-network",
+                  "title": "数据结构、算法"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -339,7 +368,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -447,7 +477,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -470,45 +501,45 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "912459663ee0a9f8",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
+    "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-17.md",
+    "DailyNote/Templates/Time/Due.md",
+    "DailyNote/Templates/Time/Create.md",
+    "DailyNote/Templates/Time/Schedule.md",
+    "DailyNote/Templates/Time/Start.md",
+    "DailyNote/Templates/Time/Completion.md",
+    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "DailyNote/Templates/Time",
+    "DailyNote/Templates/普通知识点.md",
+    "DailyNote/Templates/Daily Note.md",
+    "DailyNote/README.md",
+    "DailyNote/Templates/Capture.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-12.md",
+    "Journal/01 Daily/2025/03/2025-03-17.md",
+    "Journal/01 Daily/2025/03",
+    "Journal/01 Daily/2025",
+    "Journal/01 Daily",
+    "Journal",
     "_posts/tools/obsidian/基础/基础.md",
     "_posts/tools/obsidian/基础/Callout.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "DailyNote/Journal/01 Daily/2025/03/测试.md",
+    "DailyNote/Templates/Program.md",
     "_posts/tools/obsidian/插件/Dataview/Dataview.md",
-    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
-    "DailyNote/Templates/Daily Note.md",
     "DailyNote/Templates/Callout.md",
     "DailyNote/Journal/01 Daily/2025/03/test.md",
     "_posts/tools/obsidian/插件/Callout Manager.md",
-    "DailyNote/Templates/Weekly Note.md",
-    "DailyNote/Templates/Capture.md",
-    "DailyNote/Templates/日记模版.md",
-    "DailyNote/Templates/Program.md",
-    "_posts/base/知识目录、路线图/知识目录/体系结构和操作系统.md",
-    "_posts/tools/obsidian/插件/Templater/test.md",
-    "未命名.md",
-    "Untitled.md",
-    "_posts/tools/obsidian/插件/Templater/性能.md",
-    "_posts/tools/obsidian/插件/Templater/性能优化.md",
-    "_posts/tools/obsidian/插件/Templater/Untitled.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "DailyNote/Templates/性能.md",
-    "_posts/tools/obsidian/插件/Dataview/未命名.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/tools/obsidian/基础.md",
-    "_posts/methods/常看的.md",
     "_posts/base/知识目录、路线图/media",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/时间管理方法",
     "DailyNote/Templates/media",
     "DailyNote/Journal/02 Weekly",
     "DailyNote/Journal/03 Monthly",
-    "DailyNote/Journal/05 Yearly",
-    "DailyNote/Journal/04 Quarterly",
-    "DailyNote/Journal/01 Daily/2025/03/media",
-    "DailyNote/Journal/01 Daily/2025/03",
-    "DailyNote/Journal/01 Daily/2025",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",

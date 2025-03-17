@@ -176,3 +176,6 @@ Callout 可以与其他 Markdown 元素（如列表、代码块、图片等）�
 Callout 是 Obsidian 中一个强大且易用的功能，能够帮助用户更好地组织和展示信息。通过合理使用预定义类型和自定义样式，你可以显著提升笔记的可读性和专业性。
 
 **最终答案**：Obsidian 的 Callout 是一种基于 Markdown 的格式化块，用于突出显示提示、警告、信息等内容。通过 `[!keyword]` 和标题的组合，可以快速创建不同类型的 Callout，增强笔记的可读性和条理性。
+
+### 相关资料
+- [Obsidian 引用 & Callout 语法，让你的读书笔记更好看](https://www.bilibili.com/video/BV1tM4m1f7S6/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)

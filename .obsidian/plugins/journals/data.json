@@ -18,11 +18,9 @@
       "confirmCreation": false,
       "nameTemplate": "{{date}}",
       "dateFormat": "YYYY-MM-DD",
-      "folder": "Journal/01 Daily/{{date:YYYY}}/{{date:MM}}",
+      "folder": "DailyNote/Journal/01 Daily/{{date:YYYY}}/{{date:MM}}",
       "templates": [
-        "Templates/Daily Note Template.md",
-        "",
-        ""
+        "DailyNote/Templates/Daily Note.md"
       ],
       "start": "",
       "end": {

@@ -27,7 +27,11 @@ log-day-rating:
 
 
 # 今日新建的笔记
-
+```dataview
+Table file.ctime as "创建日期"
+Where date(today) - file.ctime <= dur(0 day)
+Sort file.ctime desc
+```
 
 # 闪念
 
