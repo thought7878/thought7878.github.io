@@ -1,19 +1,19 @@
-### **Callout Manager 插件简介**
+### Callout Manager 插件简介
 
-**Callout Manager** 是 Obsidian 的一款社区插件，用于管理和自定义笔记中的 Callout（提示框）。Callout 是 Obsidian 内置的一种格式化工具，允许用户通过简单的 Markdown 语法创建带有标题和内容的提示框。这些提示框通常用于突出显示信息、分类内容或增强笔记的可读性。
+**Callout Manager** 是 Obsidian 的一款社区插件，用于管理和自定义笔记中的 Callout（*提示框*）。Callout 是 Obsidian 内置的一种*格式化工具*，允许用户通过简单的 Markdown 语法创建*带有标题和内容的提示框*。这些提示框通常用于*突出显示信息、分类内容、增强笔记的可读性*。
 
 Callout Manager 插件扩展了 Obsidian 原生 Callout 功能，提供了更多自定义选项，例如更改颜色、图标、样式等，从而让笔记更具个性化和视觉吸引力。
 
 ---
 
-### **Callout Manager 插件的核心功能**
+### Callout Manager 插件的核心功能
 
 1. **自定义 Callout 样式**
    - 修改 Callout 的颜色、背景、边框等样式。
    - 自定义 Callout 的图标，支持 Font Awesome 图标库。
 
 2. **新增 Callout 类型**
-   - 创建全新的 Callout 类型，超出 Obsidian 默认提供的类型（如 `NOTE`、`TIP`、`WARNING` 等）。
+   - 创建全新的 Callout 类型，*超出 Obsidian 默认提供的类型*（如 `NOTE`、`TIP`、`WARNING` 等）。
    - 定义每个 Callout 类型的名称、样式和行为。
 
 3. **批量管理 Callout**
@@ -28,7 +28,7 @@ Callout Manager 插件扩展了 Obsidian 原生 Callout 功能，提供了更多
 
 ---
 
-### **安装和启用 Callout Manager 插件**
+### 安装和启用 Callout Manager 插件
 
 1. 打开 Obsidian 设置 -> “社区插件”。
 2. 点击“浏览”，搜索“Callout Manager”。
@@ -37,9 +37,9 @@ Callout Manager 插件扩展了 Obsidian 原生 Callout 功能，提供了更多
 
 ---
 
-### **使用 Callout Manager 插件的基本方法**
+### 使用 Callout Manager 插件的基本方法
 
-#### **1. 使用原生 Callout**
+#### 1. 使用原生 Callout
 Obsidian 原生支持以下几种 Callout 类型：
 - `NOTE`：普通提示
 - `TIP`：建议或技巧
@@ -54,12 +54,12 @@ Obsidian 原生支持以下几种 Callout 类型：
 > 这是一个普通的提示框。
 ```
 
-#### **2. 自定义 Callout 样式**
+#### 2. 自定义 Callout 样式
 通过 Callout Manager 插件，可以自定义 Callout 的外观。例如：
 - 更改颜色：将 `NOTE` 的背景色改为蓝色。
 - 更改图标：将 `TIP` 的图标从灯泡改为星星。
 
-#### **3. 新增 Callout 类型**
+#### 3. 新增 Callout 类型
 你可以通过 Callout Manager 插件创建全新的 Callout 类型。例如：
 - 名称：`IDEA`
 - 图标：💡
@@ -71,14 +71,14 @@ Obsidian 原生支持以下几种 Callout 类型：
 > 这是一个新的灵感提示框。
 ```
 
-#### **4. 导入/导出配置**
+#### 4. 导入/导出配置
 如果你在多个仓库中使用相同的 Callout 配置，可以通过 Callout Manager 插件导出配置文件，并在其他仓库中导入。
 
 ---
 
-### **常见用法示例**
+### 常见用法示例
 
-#### **示例 1：创建一个“目标”类型的 Callout**
+#### 示例 1：创建一个“目标”类型的 Callout
 假设你想创建一个专门用于记录目标的 Callout 类型：
 1. 打开 Callout Manager 插件设置。
 2. 添加一个新的 Callout 类型：
@@ -91,7 +91,7 @@ Obsidian 原生支持以下几种 Callout 类型：
 > 本周目标：完成项目计划书。
 ```
 
-#### **示例 2：自定义“警告”类型的 Callout**
+#### 示例 2：自定义“警告”类型的 Callout
 如果你想修改默认的 `WARNING` Callout：
 1. 打开 Callout Manager 插件设置。
 2. 找到 `WARNING` 类型，修改其样式：
@@ -104,7 +104,7 @@ Obsidian 原生支持以下几种 Callout 类型：
 > 注意：此操作可能会导致数据丢失。
 ```
 
-#### **示例 3：结合 CSS 片段增强 Callout**
+#### 示例 3：结合 CSS 片段增强 Callout
 通过自定义 CSS，可以进一步美化 Callout。例如：
 ```css
 .callout[data-callout="GOAL"] {
@@ -119,23 +119,25 @@ Obsidian 原生支持以下几种 Callout 类型：
 
 ---
 
-### **高级用法**
+### 高级用法
 
-#### **1. 批量管理 Callout**
+#### 1. 批量管理 Callout
 Callout Manager 插件提供了一个集中管理界面，可以快速查看和编辑所有 Callout 类型。你可以：
 - 删除不再使用的 Callout 类型。
 - 批量修改 Callout 的样式和图标。
 - 导出配置文件以便备份或共享。
 
-#### **2. 结合 Dataview 插件**
+#### 2. 结合 Dataview 插件
 通过 Dataview 插件，可以查询和统计特定 Callout 类型的内容。例如：
+````md
 ```dataview
 LIST FROM ""
 WHERE contains(file.content, "[!GOAL]")
 ```
+````
 - 列出所有包含 `GOAL` Callout 的笔记。
 
-#### **3. 动态生成 Callout**
+#### 3. 动态生成 Callout
 结合 Templater 插件，可以动态生成 Callout。例如：
 ```markdown
 <%*
@@ -148,7 +150,7 @@ _%>
 
 ---
 
-### **与其他插件的结合**
+### 与其他插件的结合
 
 1. **Dataview 插件**
    - 使用 Dataview 查询特定 Callout 类型的内容，方便知识整理和分析。
@@ -164,7 +166,7 @@ _%>
 
 ---
 
-### **注意事项**
+### 注意事项
 
 1. **兼容性问题**
    - 确保你的 Obsidian 版本支持 Callout 功能（通常需要 0.15 或更高版本）。
@@ -179,7 +181,7 @@ _%>
 
 ---
 
-### **总结**
+### 总结
 
 Callout Manager 插件是 Obsidian 中一款专注于 Callout 管理和自定义的工具，能够帮助用户创建个性化的提示框，并提升笔记的可读性和美观度。无论是日常记录、任务管理还是知识整理，Callout Manager 插件都能显著提升效率。
 

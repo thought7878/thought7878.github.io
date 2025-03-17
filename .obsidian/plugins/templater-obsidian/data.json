@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "DailyNote/Templates",
   "templates_pairs": [
     [
       "",
@@ -14,6 +14,10 @@
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
+    {
+      "folder": "_posts/",
+      "template": "DailyNote/Templates/Program.md"
+    },
     {
       "folder": "",
       "template": ""
@@ -29,7 +33,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "templates/test.md"
+    "DailyNote/Templates/Program.md"
   ],
   "startup_templates": []
 }

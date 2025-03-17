@@ -74,3 +74,43 @@ WHERE start >= date("2024-04-22")
 CALENDAR file.day
 FROM "10 Example Data/dailys"
 ```
+
+
+> [!danger] Bugs
+> 有中到的阿斯顿发
+
+> [!calendar]
+> Contents
+
+> [!important]
+> Contents
+
+> [!bug]
+> Contents
+
+> [!faq]
+> Contents
+
+> [!calendar]-
+> Contents
+> asdfasdf
+> asdfasdf
+
+> [!example]
+> Contents
+
+
+> [!example]+
+> Contents
+
+
+
+> [!asdf-]-
+> Contents
+
+> [!cloze]
+> Contents
+
+> [!casdfadf]-
+> asdfasdf
+

@@ -44,5 +44,13 @@
       "key": "C"
     }
   ],
-  "workspace:new-tab": []
+  "workspace:new-tab": [],
+  "templater-obsidian:create-DailyNote/Templates/Program.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ]
 }

@@ -1,12 +1,13 @@
 ---
-date: <% moment(tp.file.title,'YYYY-MM-DD').format('YYYY-MM-DD') %>
+created: <% tp.file.creation_date() %>
+updated: <% tp.file.last_modified_date() %>
 aliases: 
 tags:
   - "#daily-note"
 log-sleep-hours: 
 log-sleep-rating: 
 log-healthy-food-rating: 
-log-day-rating:
+log-day-rating: 
 ---
 # 习惯
 - 睡眠时间:: 
@@ -16,12 +17,14 @@ log-day-rating:
 
 
 # 任务
-## 计划的任务
-
-## 已完成的任务
+## 计划的
 
 
-## 未完成的任务
+## 已完成的
+
+
+## 未完成的
+
 
 # 今日新建的笔记
 
@@ -30,7 +33,8 @@ log-day-rating:
 
 
 
-# 回顾
+# 复盘
+
 
 
 

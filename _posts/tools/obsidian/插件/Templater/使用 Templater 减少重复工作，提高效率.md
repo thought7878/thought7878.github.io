@@ -556,20 +556,20 @@ Note's type: <% tp.frontmatter["note type"] %>
 
 参数如下：
 
-- `text_items` 选项的文本内容，可以是字符串数组也可以是回调函数，回调函数接收一个参数 `item`，返回对应的文本内容。
-- `items` 选项的数据内容
+- `text_items` 选项的文本内容（*key*），可以是字符串数组也可以是回调函数，回调函数接收一个参数 `item`，返回对应的文本内容。
+- `items` 选项的数据内容（*value*）
 - `throw_on_cancel` 为 `true` 抛出异常，而不是返回 `null` 值
 - `placeholder` 输入框的占位符
 - `limit` 限制显示的选项数量
 
 示例：
 
-```lua
-<% tp.system.suggester(["选项1", "选项2", "选项3"], ["数据1", "数据2", "数据3"]) %>
-<% tp.system.suggester((item) => \`选项${item}\`, ["数据1", "数据2", "数据3"]) %>
-<% tp.system.suggester((item) => \`选项${item}\`, ["数据1", "数据2", "数据3"], true) %>
-<% tp.system.suggester((item) => \`选项${item}\`, ["数据1", "数据2", "数据3"], true, "请选择") %>
-<% tp.system.suggester((item) => \`选项${item}\`, ["数据1", "数据2", "数据3"], true, "请选择", 2) %>
+```
+ <% tp.system.suggester(["选项1", "选项2", "选项3"], ["数据1", "数据2", "数据3"]) %>
+ <% tp.system.suggester((item) => `选项${item}`, ["数据1", "数据2", "数据3"]) %>
+ <% tp.system.suggester((item) => `选项${item}`, ["数据1", "数据2", "数据3"], true) %>
+ <% tp.system.suggester((item) => `选项${item}`, ["数据1", "数据2", "数据3"], true, "请选择") %>
+ <% tp.system.suggester((item) => `选项${item}`, ["数据1", "数据2", "数据3"], true, "请选择", 2) %>
 ```
 
 ### 配置相关
@@ -791,7 +791,7 @@ banner: <% banner %>
 
 #### 动态命令
 
-动态命令用于在预览模式下执行模板语句，其语法为 `<%+ expression %>` 这个功能虽然官方文档上说*有一些问题，后面不会进一下维护，推荐使用 Dataview 插件来代替*，因为这个功能在执行一次后，下次再打开显示的是上次的执行结果，它不会像 Dataview 那样实时执行，需要再一次切换模式后才能显示最新的。
+动态命令用于*仅仅在预览模式下执行模板语句*，其语法为 `<%+ expression %>` 这个功能虽然官方文档上说**有一些问题，后面不会进一下维护，推荐使用 Dataview 插件来代替**，因为这个功能在执行一次后，下次再打开显示的是上次的执行结果，它不会像 Dataview 那样实时执行，需要再一次切换模式后才能显示最新的。
 
 下面我们以官方的示例：`Last modified date: <%+ tp.file.last_modified_date() %>` 来看看实际效果：
 
@@ -876,7 +876,7 @@ Some content ...
 
 ### 模板快捷键
 
-这个功能就是为我们定义的模板添加一个全局的快捷键，使用进需要注意的是在应用时，需要有一个当前正在编辑的文档才可以应用。
+这个功能就是*为我们定义的模板添加一个全局的快捷键*，需要注意的是在应用时，需要有一个当前正在编辑的文档才可以应用。
 
 下面是我为本地一个模板添加了一个快捷键 Alt + 1，相关的配置界面如下：
 
@@ -920,7 +920,7 @@ title = await tp.system.prompt("Title")
 if (isDefaultTitle) {
 	title = await tp.system.prompt("Title")
     if (title.trim() !== "") {
-        await tp.file.rename(\`${titlePrefix}${title}${titleSuffix}\`)
+        await tp.file.rename(`${titlePrefix}${title}${titleSuffix}`)
     } else {
         title = tp.file.title
     }
@@ -966,7 +966,7 @@ const titleSuffix = " 插件使用"
 if (isDefaultTitle) {
 	title = await tp.system.prompt("Title")
     if (title.trim() !== "") {
-        await tp.file.rename(\`${titlePrefix}${title}${titleSuffix}\`)
+        await tp.file.rename(`${titlePrefix}${title}${titleSuffix}`)
     } else {
         title = tp.file.title
     }
@@ -979,7 +979,7 @@ const currentFileFolder = tp.config.active_file.parent.path
 
 if (!currentFileFolder.startsWith(currentTemplateFolder)) {
 	if (isDefaultTitle) {
-		await tp.file.move(\`${currentTemplateFolder}/${titlePrefix}${title}${titleSuffix}\`);
+		await tp.file.move(`${currentTemplateFolder}/${titlePrefix}${title}${titleSuffix}`);
 	}
 }
 %>
@@ -1020,13 +1020,13 @@ if (!currentFileFolder.startsWith(currentTemplateFolder)) {
 ```ruby
 %% greet.js %%
 
-\`\`\`js
+`\``js
 function greet(msg) {
-return \`Hello, ${msg}.\`
+return `Hello, ${msg}.`
 }
 
 module.exports = greet
-\`\`\`
+`\``
 ```
 
 这个脚本文件位于 `Scripts/greet.js` ，下面是插件的配置：
@@ -1063,7 +1063,7 @@ module.exports = greet
 
 ### 为文档添加创建时间
 
-可能有人会觉得很奇怪，每一个文件不是默认自带了创建时间和上次修改时间，我们自己何必再多此一举额外添加两个属性？这是因为如果你的文档只是在单机操作的情况下系统提供的时间是没有什么问题的，但是如果涉及到多个设备同步，或者使用 Git 来管理，你就会突然发现这个时间会改变，文件并不是你最早创建的日期。
+可能有人会觉得很奇怪，每一个文件不是默认自带了创建时间和上次修改时间，我们自己何必再多此一举额外添加两个属性？这是因为如果你的文档只是在单机操作的情况下系统提供的时间是没有什么问题的，但是如果涉及到多个设备同步，或者使用 Git 来管理，你就会突然*发现这个时间会改变，文件并不是你最早创建的日期*。
 
 既然我们使用 Templater，就可以为创建的文件默认添加一个 `created_at` 的自定义 YAML 属性来自动生成文档的创建时间。
 
@@ -1233,7 +1233,7 @@ const currentFileFolder = tp.config.active_file.parent.path
 
 if (!currentFileFolder.startsWith(currentTemplateFolder)) {
 	if (isDefaultTitle) {
-		await tp.file.move(\`${currentTemplateFolder}/${titlePrefix}${title}${titleSuffix}\`)
+		await tp.file.move(`${currentTemplateFolder}/${titlePrefix}${title}${titleSuffix}`)
 	}
 }
 -%>
