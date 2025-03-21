@@ -1,6 +1,8 @@
 ## [【Ali Abdaal】超强超全面的学习方法总结](https://b23.tv/kf2kdbU)
-[视频2](https://www.bilibili.com/video/BV1wA411h7AV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
+[视频 2](https://www.bilibili.com/video/BV1wA411h7AV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+- [ ] 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53] [🍅:: 7] ^rxjn
 
 这段视频是一位来自英国的医生阿里的课程介绍，他分享了自己在学习过程中总结的高效学习方法，旨在帮助学生提高学习效率、节省时间。
 
@@ -210,27 +212,25 @@ Ali Abdaal 分享超强超全面学习方法，强调界定主题的重要性，
 
 视频主要介绍了 Ali Abdaal 与朋友关于学习方法的讨论，重点围绕*理解的重要性*以及*建立心智模型来理解复杂概念*，以神经生理学中的海马体为例进行了说明。
 
-- - [00:01] 理解的定义
-	- 理解的定义是头脑一致性
-- - [01:20] 内部一致性与解释的区别
-	- 讨论理解的标准
-	- 内部一致性和解释的区别
-	- 以向五岁孩子解释衡量理解程度
-	- 黄金标准是向五岁孩子解释，表明理解深入
-	- 神经生理学有复杂概念需理解
-- - [02:35] 复杂概念的理解与记忆
-  - Ali Abdaal 谈复杂概念理解的问题
-  - *复杂概念需借助图表理解*
+- [00:01] 理解的定义
+  - 理解的定义是头脑一致性
+- [01:20] 内部一致性与解释的区别
+  - 讨论理解的标准
+  - 内部一致性和解释的区别
+  - 以向五岁孩子解释衡量理解程度
+  - 黄金标准是向五岁孩子解释，表明理解深入
+  - 神经生理学有复杂概念需理解
+- [02:35] 复杂概念的理解与记忆
+  - _复杂概念需借助图表理解_
   - 为考试记住理解方法而非事实
   - 记得理解方法而非随机事实
   - 复杂概念与神经生理学相关
-- - [03:50] 理解主题如建立心智模型
+- [03:50] 理解主题如建立心智模型
   - 建立心理形象有助于记忆
   - 理解主题如建立心智模型
-  - 以神经生理学海马体举例
-  - 海马体参与记忆，受损影响大
+  - 以神经生理学海马体举例，海马体参与记忆，受损影响大
   - 二年级时学习理解海马体
-- - [05:05] 以海马体为例说明理解概念
+- [05:05] 以海马体为例说明理解概念
   - 介绍海马体工作方式像索引不储存记忆
   - 需半小时完成图表重新理解海马体
   - 基于海马体像索引理解神经学原理
@@ -238,14 +238,79 @@ Ali Abdaal 分享超强超全面学习方法，强调界定主题的重要性，
   - 理解并建立心智模型，以海马体为例
 
 ## 10 - 自己制定一份课程大纲
+
 [10-finding a syllabus for yourself](https://www.bilibili.com/video/BV1wA411h7AV?spm_id_from=333.788.videopod.episodes&vd_source=22af953ea4c09540ad1966711a2d53f0&p=10)
 
+Ali Abdaal 在视频中讨论了为课程制定教学大纲的重要性，强调*在面对大量信息时要简化*，以一本或一组资源为核心，如以牛津手册为基础并适当补充，把一本书作为理解关键，就像有自己的圣经和补充文本，希望对学习方法有所帮助。
+
+- [00:00] 教学大纲的重要性
+  - [00:02] Ali 和阿萨德讨论为课程制定教学大纲
+  - [00:23] 创建自己教学大纲很重要
+  - [00:31] 需为自己找教学大纲
+  - [00:42] 有扩大资源趋势
+  - [00:51] 有很棒的手册可能有不足
+- [01:03] _接受不可能什么都知道_
+  - [01:03] Ali 讨论需补充知识，引出不可能什么都知道
+  - [01:28] 强调必须接受不可能什么都知道
+  - [01:43] 再次强调不可能什么都知道
+  - [01:45] 思考知道哪些信息及无需担心哪些信息
+  - [01:56] _越简化越好_，与学生聊天举例
+- [02:04] 学生的困惑与建议
+  - [02:05] 学生不知该用哪些学习资源，信息过多很困惑
+  - [02:27] 只需掌握牛津手册内容再加一点其他资源
+  - [02:35] 意识到心脏病学只有十五个主题，易管理
+  - [02:42] 牛津手册解释差，像清单不助理解
+  - [02:52] 几年临床几乎没用过牛津手册
+- [03:05] 以一组资源为核心
+  - [03:09] 关键是拿一组资源为核心
+  - [03:23] 思考是否在资源上做笔记
+  - [03:35] 读多余笔记无意义原因
+  - [03:51] 有很大阅读清单且难理解
+- [04:07] 以一本书为理解关键
+  - [04:07] 以一本书为理解关键，深入学习
+  - [04:23] 以一本书为基础，略读其他书补充
+  - [04:36] 多本书依次读理解更肤浅
+  - [04:42] 一本书为圣经，其他是补充文本
+  - [04:51] 可自己找教学大纲，希望有用
 
 ## 11 - 神奇的间隔式重复学习法
 
+重点讲解了*记忆技巧中的间隔重复*，包括其*克服遗忘曲线的原理*、具体应用及对学习的重要性等内容。
+
+- - [00:01] 理解与记忆的重要性及引入间隔重复
+  - [00:07] 强调理解是记忆第一步
+  - [00:18] 深入研究基于证据的记忆技巧
+  - [00:25] 重申理解是最重要部分
+  - [00:43] 讨论间隔重复记忆方法
+  - [01:02] 重复是有效学习重要方面
+- - [01:05] 遗忘曲线与间隔重复的关系
+  - [01:10] 努力克服遗忘曲线
+  - [01:28] 记忆呈指数级下降
+  - [01:37] 打断遗忘曲线
+  - [01:53] 重复越多忘得越慢
+  - [02:08] 应间隔重复话题
+- - [02:12] 以甲状腺为例解释间隔重复
+  - [02:12] 第一天研究甲状腺话题
+  - [02:22] 明天可能忘大约百分之五十
+  - [02:39] 一周后研究甲状腺
+  - [02:44] 一周、一月重复研究甲状腺
+  - [02:50] 解释空间重复背后的想法
+- - [03:18] 学习费力与信息留存及间隔重复的作用
+  - [03:18] 记忆随时间呈指数级衰减
+  - [03:33] 学习费力信息才更易留存
+  - [03:46] 一天读三遍无意义因未忘
+  - [04:09] 学习困难时才能真正学会
+  - [04:21] 为考试学习同理于学新事物
+- - [04:23] 空间重复的理念及后续内容预告
+  - [04:30] 介绍空间重复背后的想法
+  - [04:48] 总结空间重复的作用
+  - [04:57] 展示空间重复的力量
+  - [05:08] 探讨空间重复的应用方法
+  - [05:18] 感谢收看，下期视频再见
+
 ## 12 - 回顾式复习时间表
 
-## 13 - Simon Clark是如何使用间隔式重复学习法的
+## 13 - Simon Clark 是如何使用间隔式重复学习法的
 
 ## 14 - 交替学习的力量
 
@@ -255,7 +320,7 @@ Ali Abdaal 分享超强超全面学习方法，强调界定主题的重要性，
 
 ## 17 - 如何正确地使用抽认卡
 
-## 18 - google-sheets与anki的比较
+## 18 - google-sheets 与 anki 的比较
 
 ## 19 - 思维导图
 
@@ -287,59 +352,60 @@ Ali Abdaal 分享超强超全面学习方法，强调界定主题的重要性，
 
 ---
 
-## 33 - SimonClark将学习与生活的平衡
+## 33 - SimonClark 将学习与生活的平衡
 
-## 34 - Simon Clark讲动力、专注与阻力
+## 34 - Simon Clark 讲动力、专注与阻力
 
-## 35 - Simon Clark讲学习时的饮食、音乐
+## 35 - Simon Clark 讲学习时的饮食、音乐
 
-## 36 - Simon Clark讲如何停止拖延
+## 36 - Simon Clark 讲如何停止拖延
 
 ## **两个黄鹂叽叽喳的学习笔记**
+
 [两个黄鹂叽叽喳的学习笔记](https://www.bilibili.com/opus/769830337772519425?spm_id_from=333.1387.0.0)
 
-**P2课程概览**
+### P2 课程概览
 
 一、学习三部曲
 
-1. 理解2-the 3 steps of effective studying P2 - 00:24
-2. 在记忆前应先理解，理解是有效学习中最重要的部分，脱离理解的记忆毫无意义
+1. 理解 2-the 3 steps of effective studying P2 - 00:24
+2. *在记忆前应先理解，理解是有效学习中最重要的部分，脱离理解的记忆毫无意义*
 3. 可以采取费曼学习法，确定自己已经理解
-4. 记忆2-the 3 steps of effective studying P2 - 01:31
+4. 记忆 2-the 3 steps of effective studying P2 - 01:31
 5. 间隔重复来避免遗忘
-6. 专注2-the 3 steps of effective studying P2 - 02:40
+6. 专注 2-the 3 steps of effective studying P2 - 02:40
 7. 动机＋专注＋休息
 
-二、总结2-the 3 steps of effective studying P2 - 03:23
+二、总结 2-the 3 steps of effective studying P2 - 03:23
 
 - 推荐《认知天性》一书
 
-P3理解：费曼技巧
+### P3 理解：费曼技巧
 
-一、介绍费曼3-Understand anything with the feynman technique P3 - 00:05
+一、介绍费曼 3-Understand anything with the feynman technique P3 - 00:05
 
 二、具体方法
 
-1. 步骤3-Understand anything with the feynman technique P3 - 00:43
+1. 步骤 3-Understand anything with the feynman technique P3 - 00:43
 2. 我能解释清楚吗？
 3. 我能否将它解释给一个五岁孩子？
-4. 技巧3-Understand anything with the feynman technique P3 - 03:18
+4. 技巧 3-Understand anything with the feynman technique P3 - 03:18
 5. 语言简单——易于理解
 6. 去挖掘本质——深入（注重整体布局，不要过度纠结细枝末节）
 7. 读书每读一段都使用费曼技巧弄清楚书中讲了什么内容
 
-P4理解：主动回忆
+### P4 理解：主动回忆
 
-1. 含义4-the science of active recall P4 - 00:34
+1. 含义 4-the science of active recall P4 - 00:34
 2. 主动回忆是一种自我测试
 3. 从大脑中检索信息会加强大脑的 神经连接
-4. 相关研究4-the science of active recall P4 - 01:27
+4. 相关研究 4-the science of active recall P4 - 01:27
 5. 测试具有广泛的适用性
 6. 用测试代替重复阅读
 
-P5理解：如何用主动回忆学新内容
+### P5 理解：如何用主动回忆学新内容
 
-1. 方法5-how to learn new content with active recall P5 - 00:22
+1. 方法 5-how to learn new content with active recall P5 - 00:22
 2. 误区：先学后测
 3. 把主动回忆作为学习的一部分
 4. 教科书阅读每一章后自检
@@ -348,56 +414,56 @@ P5理解：如何用主动回忆学新内容
 7. 能否复述
 8. 优化记忆曲线
 9. 阅读被动——回忆主动（过程越艰难，我们就可能做的越好）
-10. 具体介绍5-how to learn new content with active recall P5 - 02:07
+10. 具体介绍 5-how to learn new content with active recall P5 - 02:07
 11. 一开始可能很慢很焦虑
 12. 尽管相信这个方法
 13. **大脑动的越多，学习过程越费力，知识之间的联系可能越能得到加强**
 
-P6 理解：上课记笔记
+### P6 理解：上课记笔记
 
-1. 记笔记的争议6-taking notes during class P6 - 00:11
+1. 记笔记的争议 6-taking notes during class P6 - 00:11
 2. 对书总结非常低效（因为被动）
-3. 有效记笔记的方法6-taking notes during class P6 - 01:15
+3. 有效记笔记的方法 6-taking notes during class P6 - 01:15
 4. 手写笔记优于打字笔记
 5. 手写笔记利于深入思考
 6. 打字笔记即时抄录老师的话，但并没有动脑，不易于理解
 7. 手写笔记慢，所以要思考课程的重点和结构。课后再进行扩展和补充
 8. 书写过程和大脑形成联系，从而改善记忆
-9. 可使用iPad进行手写笔记
-10. 康奈尔笔记系统6-taking notes during class P6 - 05:14
+9. 可使用 iPad 进行手写笔记
+10. 康奈尔笔记系统 6-taking notes during class P6 - 05:14
 11. 一边问题一边笔记
 12. 线性笔记
 13. 记录子标题，形成对内容的大致理解
-14. 虽然记笔记并不高效，但可以让人保持清醒6-taking notes during class P6 - 07:02
+14. 虽然记笔记并不高效，但可以让人保持清醒 6-taking notes during class P6 - 07:02
 
-P7理解：课后记笔记
+### P7 理解：课后记笔记
 
-1. 目的7-taking notes after class P7 - 00:15
+1. 目的 7-taking notes after class P7 - 00:15
 2. 建立主动回忆问题
 3. 加强对主题的理解
-4. 原因7-taking notes after class P7 - 00:31
+4. 原因 7-taking notes after class P7 - 00:31
 5. 能够使用多种资源帮助理解
 6. 结合费曼笔记，弄清不理解的点，建立连贯的知识架构
 7. OneNote、notion
 8. 康奈尔笔记进行提问
 9. 主动回忆问题来巩固信息
 10. 可以使用抽认卡
-11. 学科差异7-taking notes after class P7 - 02:20
+11. 学科差异 7-taking notes after class P7 - 02:20
 12. 因为不能直接回归原材料，所以记笔记有必要
 13. 可以通过论文解决问题，而不是在课堂做笔记
-14. 总结7-taking notes after class P7 - 06:09
+14. 总结 7-taking notes after class P7 - 06:09
 
-P8理解：挖掘主题
+### P8 理解：挖掘主题
 
-1. 基本思路8-scoping the subject P8 - 00:14
+1. 基本思路 8-scoping the subject P8 - 00:14
 2. 需要了解大框架的主题
 3. 不要舍本逐末，过度关注细节
 4. 要把细节焊接在主题上，形成知识树
-5. 具体方法8-scoping the subject P8 - 03:36
+5. 具体方法 8-scoping the subject P8 - 03:36
 6. 通过副标题的形式记录主题，并进行扩展
 7. 虽然考试不考，但可以帮助理解运用
 
-P9 bonus：理解的重要性
+### P9 bonus：理解的重要性
 
 1. 理解意味着什么？9-the importance of understanding P9 - 00:34
 2. 学习的一部分，记忆前的必要步骤
@@ -406,7 +472,7 @@ P9 bonus：理解的重要性
 5. 基本思想
 6. 在头脑中理解和建立主题的思维模型
 
-P10 bonus：设立课程大纲
+### P10 bonus：设立课程大纲
 
 10-finding a syllabus for yourself P10 - 00:28
 
@@ -416,24 +482,24 @@ P10 bonus：设立课程大纲
 4. 方法
 5. 读一本经典教材，其他教材作为知识补充
 
-P11记忆：间隔重复
+### P11 记忆：间隔重复
 
-1. 重要性11-the magic of spaced repetition P11 - 00:42
+1. 重要性 11-the magic of spaced repetition P11 - 00:42
 2. 积极回忆是高效学习最重要的一个方面，间隔重复是第二重要的方面
 3. 克服遗忘曲线
 4. 重复的次数越多，忘记地越慢
-5. 方法11-the magic of spaced repetition P11 - 02:51
+5. 方法 11-the magic of spaced repetition P11 - 02:51
 6. 科学地选择何时复习来最大限度地提升记忆
 7. 在即将忘记的时候记忆比短时重复多次效果更佳
 
-P12记忆：回顾复习时间表12-the retrospective revision timetable P12 - 00:13
+### P12 记忆：回顾复习时间表 12-the retrospective revision timetable P12 - 00:13
 
-1. 传统时间表的问题12-the retrospective revision timetable P12 - 01:19
+1. 传统时间表的问题 12-the retrospective revision timetable P12 - 01:19
 2. 对未来进行预测比较困难，容易变动
 3. 把复习和时间联系而不是和复习的内容联系
 4. 无法清晰掌握自己对于知识的了解度
 5. 制定完计划可能因缺乏动力而陷入拖延
-6. 回顾式复习时间表12-the retrospective revision timetable P12 - 04:01
+6. 回顾式复习时间表 12-the retrospective revision timetable P12 - 04:01
 7. 在表格第一列写主题
 8. 在各项内容后面写复习日期，
 9. 根据掌握程度标记颜色（红黄绿）
@@ -441,134 +507,134 @@ P12记忆：回顾复习时间表12-the retrospective revision timetable P12 - 0
 11. 复习自己最需要复习的内容
 12. 第二次复习开始采取主动回忆的方式
 13. 最后做到所有部分都标绿（pass）
-14. 例子12-the retrospective revision timetable P12 - 08:32
-15. 总结12-the retrospective revision timetable P12 - 11:10
+14. 例子 12-the retrospective revision timetable P12 - 08:32
+15. 总结 12-the retrospective revision timetable P12 - 11:10
 16. 优点
 17. 无须进行未来预测
 18. 可以看到知识掌握的全貌
 19. 从主题复习，而非时间（花费时间不重要，掌握程度才重要）
 20. 制作表格容易
 
-P13记忆：间隔重复日记13-simon clark's spaced repetition journal P13 - 00:52
+### P13 记忆：间隔重复日记 13-simon clark's spaced repetition journal P13 - 00:52
 
 - 提前按照间隔重复的方式提前安排要学习的内容，然后就知道每天要复习什么了
 - 输入一个主题就可以自动创建一个日历事件直接安排接下来的复习日期（好像已经有办法实现了）
 
-P14记忆：交叉练习
+### P14 记忆：交叉练习
 
 - 如何在一个学习周期中分配时间
 
-1. 概念14-the power of interleaved practice P14 - 00:14
+1. 概念 14-the power of interleaved practice P14 - 00:14
 2. 应该在学习过程中穿插练习
 3. 按顺序学习完三个新知识点之后再去回顾第一个
 4. 不是一个接一个逐步弄懂，而是在快弄懂一个的时候就下一个，虽然下一次依旧困难，但记得更牢固
 5. 交叉记忆可以提升对知识的记忆能力
-6. 例子14-the power of interleaved practice P14 - 00:51
+6. 例子 14-the power of interleaved practice P14 - 00:51
 7. 只有当一件事变得困难的时候，我们的大脑才真正地在学习知识
-8. 背后理论14-the power of interleaved practice P14 - 02:48
+8. 背后理论 14-the power of interleaved practice P14 - 02:48
 9. 当我们成堆解决问题（如数学题）时大脑容易走捷径，而当我们把所有问题混在一起时，大脑不得不思考对应的方法，这意味着我们可能在之后的考试中表现更好
-10. 应用14-the power of interleaved practice P14 - 03:18
+10. 应用 14-the power of interleaved practice P14 - 03:18
 11. 在学习过程中进行穿插练习
 12. 不要想着只努力学习，而要想办法进行科学地学习
 
-P15记忆：应该重读笔记吗？
+### P15 记忆：应该重读笔记吗？
 
-1. 研究15-should you re-read your notes P15 - 00:11
+1. 研究 15-should you re-read your notes P15 - 00:11
 2. 重复阅读非常低效
 3. 大脑处于被动状态，没有主动吸收知识
 4. 我们为什么喜欢读笔记？15-should you re-read your notes P15 - 02:01
 5. 简单，有成就感
 6. 大脑够放松，不需要思考
-7. 如何有效阅读15-should you re-read your notes P15 - 02:43
+7. 如何有效阅读 15-should you re-read your notes P15 - 02:43
 8. 如果我们想养成坚持学习的习惯，而又精力不足，可以通过重复阅读的方法象征性地维持坚持学习的习惯
 
-P16记忆：如何有效用荧光笔做标记
+### P16 记忆：如何有效用荧光笔做标记
 
-1. 研究16-how to highlight effectively P16 - 00:41
+1. 研究 16-how to highlight effectively P16 - 00:41
 2. 高亮有效但低效
 3. 主动高亮比被动重读高亮材料效果好
-4. 高亮的原因16-how to highlight effectively P16 - 02:53
+4. 高亮的原因 16-how to highlight effectively P16 - 02:53
 5. 帮助集中注意
 6. 突出重点，美观
 7. 用不同颜色标注不同种类的内容，并根据高亮内容创建主动回忆的问题，并制成抽认卡等
 8. 高亮结合费曼技巧和主动回忆并不低效，还可以提供帮助
 
-P17 记忆：如何有效利用抽认卡
+### P17 记忆：如何有效利用抽认卡
 
 - 抽认卡是主动回忆和间隔重复的结合
 
-1. 什么是抽认卡17-how to use flashcards properly P17 - 00:16
+1. 什么是抽认卡 17-how to use flashcards properly P17 - 00:16
 2. 正面写问题，背面写答案
-3. 不推荐实体抽认卡，推荐anki，内置算法可以实现间隔重复
+3. 不推荐实体抽认卡，推荐 anki，内置算法可以实现间隔重复
 4. 一张卡片一个知识点
 5. 能够坚持下去
 6. 论文名称＋论文的研究结果
-7. 抽认卡的建议17-how to use flashcards properly P17 - 08:25
+7. 抽认卡的建议 17-how to use flashcards properly P17 - 08:25
 8. 只对必要的内容制作抽认卡（避免过多）
-9. 不要在第一眼看到文本内容的时候就制作，可以先用康奈尔笔记法记笔记，然后再把其中难以记忆的考点或概念制作成anki卡片
+9. 不要在第一眼看到文本内容的时候就制作，可以先用康奈尔笔记法记笔记，然后再把其中难以记忆的考点或概念制作成 anki 卡片
 10. 可以将错题制作成为错题库
 
-P18 记忆：抽认卡代替——Google Sheets
+### P18 记忆：抽认卡代替——Google Sheets
 
-- 复习时间短用Google Sheets作为anki的替代品
+- 复习时间短用 Google Sheets 作为 anki 的替代品
 - 免费、运行速度快、支持任何设备
 
-1. 方法20-memory techniques-mnemonics P20 - 02:14
-2. 问题在A栏，回答在B栏
-3. B栏写完字体设定为白色
-4. A栏高亮（绿黄红）
+1. 方法 20-memory techniques-mnemonics P20 - 02:14
+2. 问题在 A 栏，回答在 B 栏
+3. B 栏写完字体设定为白色
+4. A 栏高亮（绿黄红）
 5. 已经完全会的问题可以隐藏或者删除
-6. 为什么用Google Sheets代替抽认卡20-memory techniques-mnemonics P20 - 04:56
+6. 为什么用 Google Sheets 代替抽认卡 20-memory techniques-mnemonics P20 - 04:56
 7. 有一个系统化的结构用来回顾，抽认卡是随机的打乱的
 8. 一眼就可以知道自己的知识漏洞在哪里
 9. 开小组会议时更加高效
-10. 闪卡有一种负担感，会减少学习中的乐趣；而Google Sheets是低承诺的，也是自由的
-11. 相关问题20-memory techniques-mnemonics P20 - 09:07
+10. 闪卡有一种负担感，会减少学习中的乐趣；而 Google Sheets 是低承诺的，也是自由的
+11. 相关问题 20-memory techniques-mnemonics P20 - 09:07
 12. 表格和抽认卡区别
 13. 抽认卡用于非常独立的知识点，可以用于理解关键概念，答案具有限定性而非开放性
 14. 表格可以适用于系统化、开放性的知识，笼统的概念
 15. 是否全部把答案写出来
 16. 有答案写答案
 
-P19记忆：思维导图/蜘蛛图
+### P19 记忆：思维导图/蜘蛛图
 
-1. 基本内容19-mind maps P19 - 00:09
+1. 基本内容 19-mind maps P19 - 00:09
 2. 中间有个主题，分支由主题发散开来，分支是主题的子类别
 3. 可以用来背论文框架
 4. 可以用来构建知识框架
-5. 具体方法19-mind maps P19 - 04:09
+5. 具体方法 19-mind maps P19 - 04:09
 6. 看着思维导图主动回忆，可以找出知识漏洞
 7. 重画思维导图，确认掌握了框架
 
-P20记忆：助记符
+### P20 记忆：助记符
 
-1. 什么是助记符20-memory techniques-mnemonics P20 - 00:27
+1. 什么是助记符 20-memory techniques-mnemonics P20 - 00:27
 2. 把难记的东西转化为简单的东西进行记忆
 3. 首字母编歌诀（如杀伤强抢贩，放火爆炸投毒）
 4. 联想图片、音乐记忆法
-5. 注意20-memory techniques-mnemonics P20 - 04:30
+5. 注意 20-memory techniques-mnemonics P20 - 04:30
 6. 不应以牺牲理解为代价
 7. 理智运用，并且考虑合理顺序
 
-P21记忆：peg system
+### P21 记忆：peg system
 
-1. 内容21-memory techniques-the peg system P21 - 00:34
+1. 内容 21-memory techniques-the peg system P21 - 00:34
 2. 大脑不习惯记忆抽象的东西，比如数字和单词
 3. 把数字转换成文字进行记忆
-4. 应用21-memory techniques-the peg system P21 - 03:48
+4. 应用 21-memory techniques-the peg system P21 - 03:48
 5. 记忆论文作者和年份
 6. 记忆魔术
 
-P22记忆：记忆宫殿
+### P22 记忆：记忆宫殿
 
-1. 内容22-memory techniques-the mind palace P22 - 00:44
+1. 内容 22-memory techniques-the mind palace P22 - 00:44
 2. 在记忆中建立一个宫殿，在宫殿的里设置不同的视觉设备
 
-P23记忆：论文记忆框架
+### P23 记忆：论文记忆框架
 
 - 创作大量的测试计划，然后在记忆阶段记住，考试时运用到纸上
 
-（一）创作阶段23-the essay memorisation framework P23 - 01:38
+（一）创作阶段 23-the essay memorisation framework P23 - 01:38
 
 1. 如何确定文章标题
 2. 确定主题范围，找到考试范围
@@ -581,9 +647,9 @@ P23记忆：论文记忆框架
 9. 如何制作论文
 10. 在摘要（引言）中列出文章的结构、主要内容和创新点
 
-（二）记忆阶段23-the essay memorisation framework P23 - 08:28
+（二）记忆阶段 23-the essay memorisation framework P23 - 08:28
 
-1. anki抽认卡
+1. anki 抽认卡
 2. 记忆论文中的每一段
 3. 就算没有考到预期的论文，但知识块在脑中可以构建出一篇论文
 4. 思维导图
@@ -594,34 +660,34 @@ P23记忆：论文记忆框架
 9. 回顾复习时间表
 10. 复习时间表
 
-![](https://i0.hdslb.com/bfs/note/da99f69fb0b4b5b0a8dc6b6a73cf4861e5af240e.jpg@1192w.webp)
+![[_posts/methods/学习方法/media/280b51d0f1fd1e3a54938cbf0674a8a1_MD5.webp]]
 
-![](https://i0.hdslb.com/bfs/note/2d52dcb67185546e68bed48f0b228b3cd716e973.jpg@1192w.webp)
+![[_posts/methods/学习方法/media/e8c97387522a1bb9e1be33e9d54bc8b6_MD5.webp]]
 
-![](https://i0.hdslb.com/bfs/note/1602d05cef32b8e0496a55fd2f7b4464f945bafd.jpg@1192w.webp)
+![[_posts/methods/学习方法/media/62164df44642816d5043e956b3abdb95_MD5.webp]]
 
-![](https://i0.hdslb.com/bfs/note/45280feec6aa9bb3f69bb59ace56521b8fa91f10.jpg@1192w.webp)
+![[_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp]]
 
-P24记忆：主动回忆框架
+### P24 记忆：主动回忆框架
 
-1. 方法24-the active recall framework P24 - 01:00
+1. 方法 24-the active recall framework P24 - 01:00
 2. 不记笔记，也不记总结，看一遍课堂笔记和教科书，然后列举书上能够列举出的问题，之后尽可能去回答
-3. 为什么有效24-the active recall framework P24 - 04:10
+3. 为什么有效 24-the active recall framework P24 - 04:10
 4. 主动回忆，自我测试
-5. 方法实现24-the active recall framework P24 - 06:58
+5. 方法实现 24-the active recall framework P24 - 06:58
 6. 回答答案。如果不记得答案，就去课堂笔记、百度、论文中寻找答案，查找答案需要时间，但是可能可以获取更多信息
 7. 复习答案。第一次不知道用红色标注，第二次不知道用蓝色标注，第三次用紫色。
 8. 可以在电脑上分屏，左书右提问
 
-P25记忆：anki
+### P25 记忆：anki
 
 1. 第一遍：孤立的知识（在理解的基础上记忆）
 2. 第二遍：知识联系起来
 3. 第三遍：加入自己的知识树
 
-P26专注：动力
+### P26 专注：动力
 
-1. 动力是个谜26-motivation is a myth P26 - 00:41
+1. 动力是个谜 26-motivation is a myth P26 - 00:41
 2. 动力是去做某事的意愿
 3. 只有当我们做不想做的事情的时候我们才会需要动力（短期痛苦获取长期收益）
 4. 用纪律（规划）取代动力
@@ -629,90 +695,90 @@ P26专注：动力
 6. 在自己的脑海中删去“动力”一词
 7. 完全没必要在做某事之前先想要做这件事，自己的意愿无关紧要，做事都要考虑自己的意愿非常幼稚
 8. 激励自己的小方法（克服抗拒感）26-motivation is a myth P26 - 03:24
-9. 愉悦感or惩罚性大的话都会去行动
+9. 愉悦感 or 惩罚性大的话都会去行动
 10. 针对愉悦感
 11. 氛围感，环境，音乐
-12. 把学习当游戏
+12. **把学习当游戏**
 13. 针对惩罚
-14. 如果不完成某件事就给***钱
+14. 如果不完成某件事就给钱
 15. 推荐书籍：《动力》
 
-P27专注：如何减少分心
+### P27 专注：如何减少分心
 
-1. 专注27-how to reduce distriction P27 - 00:15
+1. 专注 27-how to reduce distriction P27 - 00:15
 2. 需要我们很享受当下做的事情，完全沉浸其中
-3. 勿扰27-how to reduce distriction P27 - 01:00
+3. 勿扰 27-how to reduce distriction P27 - 01:00
 4. 手机勿扰模式/放到另一个房间
-5. 增加浏览app的阻力（如卸载app，只能去登录网页端、阻止打开app的软件等）
+5. 增加浏览 app 的阻力（如卸载 app，只能去登录网页端、阻止打开 app 的软件等）
 6. 设置手机为黑白色调
 7. 推荐书籍《深度工作》
 
-P28专注：番茄工作法
+### P28 专注：番茄工作法
 
-1. 介绍28-the pomodoro techniques-pros and cons P28 - 00:40
-2. 工作25分钟，休息5分钟，循环四轮之后休息20-30分钟
+1. 介绍 28-the pomodoro techniques-pros and cons P28 - 00:40
+2. 工作 25 分钟，休息 5 分钟，循环四轮之后休息 20-30 分钟
 3. 让我们对专注减少厌烦
-4. 分析28-the pomodoro techniques-pros and cons P28 - 01:42
+4. 分析 28-the pomodoro techniques-pros and cons P28 - 01:42
 5. 优点
 6. 利于社交中大家一起学习
 7. 在做无趣的事情的时候会感觉有个休息很好
 8. 反思
 9. 专注累了就休息也不错
-10. 不必局限于25分钟
+10. 不必局限于 25 分钟
 
-P29专注：听不听音乐
+### P29 专注：听不听音乐
 
 1. 有歌词的音乐非常糟糕
 2. 干扰大脑记忆和语音循环
-3. 没有歌词的音乐29-the best music to study with P29 - 00:46
+3. 没有歌词的音乐 29-the best music to study with P29 - 00:46
 4. 安静的环境下最好，因为和考场环境最接近（白噪音）
 5. 纯音乐也很好，会让自己更加愉悦，提升学习效率
 
-P30平衡学习和生活
+### P30 平衡学习和生活
 
 1. 身心健康比考试更重要
 2. 学习（图书馆）-生活（家），二者相分离
 3. 营养均衡加强锻炼
 
-P31和朋友一起专心学习
+### P31 和朋友一起专心学习
 
 1. 找到志同道合的人一起学习
 2. 有一个负责人组织
 3. 计时学习或休息
 4. 放抽认卡，然后所有人一起用纸笔回答
 
-P33bonus：平衡工作与生活
+### P33bonus：平衡工作与生活
 
 1. 把考试想象成一场和自己的游戏，即使考不好十年后也不会有人记得
 2. 定期反思（复盘）：客观分析效率高低、学习情况、身体状况等等
 3. 像做生意一样对待生活
 
-P34bonus：？？？
+### P34bonus：？？？
 
-1. 如何看待动力34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 00:06
+1. 如何看待动力 34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 00:06
 2. 用规划取代动力和潜力
 3. 每天特定时间做特定的事
 4. 不要考虑自己有没有潜力，去做便是
-5. 如何强迫自己做一些事情34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 01:52
+5. 如何强迫自己做一些事情 34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 01:52
 6. 例行公事
 7. 区分工作区和生活区
 8. 享受在做的事情（学习……）
 9. 时间计划（time pressure）
-10. 如何保持专注34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 05:36
+10. 如何保持专注 34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 05:36
 11. 找到自己自然状态的上限，接受自己并不是一个机器人的事实，不用羞愧（负面反馈会增加抗拒感）
 12. 正念冥想调整呼吸
 13. 关闭手机通知
-14. 如何迅速回归学习状态34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 14:26
+14. 如何迅速回归学习状态 34-bonus-motivation,focus and friction reduction ft. simon clark P34 - 14:26
 15. 如果环境相同就难以切换模式，所以要改变环境（工作区、起床时间）
 16. 把要做的事的东西放在更近的位置，就会越自然地做这件事
 17. 把周围收拾好，随手归位非常管用
 
-P35bonus：吃东西和听音乐
+### P35bonus：吃东西和听音乐
 
 1. 让学习的过程更加愉悦的话可以选择，但不要损害健康
 2. 播放列表随机循环，给自己一点小惊喜（纯音乐或喜欢的音乐会好一点）
 
-P36bonus：摆脱拖延
+### P36bonus：摆脱拖延
 
 1. 消除诱惑
 2. 手机面朝下，不通知，告诉自己做完……就可以做……
@@ -723,3 +789,11 @@ P36bonus：摆脱拖延
 ## 相关资料
 
 [《make it stick》--- 十六分钟教你如何科学学习](https://www.bilibili.com/video/BV1k5PeeKECR/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:26) - (end:: 2025-03-21T17:27)
+☕️ (pomodoro:: BREAK) (duration:: 1m) (begin:: 2025-03-21T17:34) - (end:: 2025-03-21T17:35)
+🍅 (pomodoro:: WORK) (taskName:: - [ ] 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53] [🍅:: 3] ^rxjn) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:36) - (end:: 2025-03-21T17:37)
+🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:39) - (end:: 2025-03-21T17:40)
+
+
+asdfasfd

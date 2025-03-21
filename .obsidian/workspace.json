@@ -200,36 +200,12 @@
             }
           },
           {
-            "id": "494b88d31689c045",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/Templates/Time/Start.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Start"
-            }
-          },
-          {
             "id": "21052265cdcfb3bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "使用 Templater 减少重复工作，提高效率"
+              "title": "1：Dataview · DQL查询语言"
             }
           },
           {
@@ -253,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/体系结构和操作系统.md",
+                "file": "_posts/methods/学习方法/Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,11 +244,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "体系结构和操作系统"
+              "title": "Overview"
+            }
+          },
+          {
+            "id": "d170237f3abdd851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/Journal/01 Daily/2025-03-21.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-21"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -350,16 +350,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "508be625af61ccd3",
-            "type": "leaf",
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "a16c9704b5e7fa50",
             "type": "leaf",
             "state": {
@@ -385,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+                "file": "_posts/methods/学习方法/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -395,7 +385,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "数据结构、算法 的反向链接列表"
+              "title": "Overview 的反向链接列表"
             }
           },
           {
@@ -441,9 +431,18 @@
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
+          },
+          {
+            "id": "84b44971c74947c5",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -459,44 +458,51 @@
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "templater-obsidian:Templater": false,
       "pomodoro-timer:Toggle timer panel": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "audio-recorder:开始/结束录音": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "1a1f10242be2ad23",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/16、二叉树真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/20、排序算法专题（上）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/21、排序算法专题（下）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/22、普通人也能吃透的动态规划思想专题（上）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/25、大厂真题训练与解读——Google 真题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/27、大厂真题训练与解读——头条真题.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/28、思维课：算法面试的评价逻辑.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
+    "_posts/methods/学习方法/《make it stick》的总结-QW.md",
+    "_posts/methods/学习方法/Overview.md",
+    "_posts/methods/时间管理方法/柳比歇夫时间管理法.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "DailyNote/Journal/01 Daily/2025-03-21.md",
+    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
+    "DailyNote/Templates/Time/Start.md",
+    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "DailyNote/Journal/01 Daily/Log of Pomodoro Timer.md",
+    "_posts/tools/obsidian/插件/Pomodoro Timer.md",
+    "_posts/tools/obsidian/插件/media",
+    "_posts/methods/学习方法/学习是如何发生的？-DS.md",
+    "_posts/methods/学习方法/学习是如何发生的？-QW.md",
+    "_posts/methods/学习方法/《make it stick》的总结-DS.md",
+    "_posts/methods/学习方法/建立知识框架.md",
+    "_posts/methods/学习方法/笔记方法/卢曼笔记法.md",
+    "_posts/methods/学习方法/笔记方法",
+    "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
+    "_posts/methods/构建系统/建构系统.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "_posts/methods/学习方法/SQ3R阅读法.md",
+    "_posts/methods/学习方法/费曼学习法.md",
+    "_posts/methods/学习方法/主动回忆（Active Recall）.md",
+    "_posts/methods/学习方法/间隔重复（Spaced Repetition）.md",
+    "_posts/methods/学习方法/思维导图.md",
+    "_posts/methods/学习方法/科学证明的最佳学习方法！——安德鲁·休伯曼.md",
+    "_posts/methods/学习方法/笔记方法/康奈尔笔记系统.md",
+    "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
+    "_posts/methods/学习方法/media/62164df44642816d5043e956b3abdb95_MD5.webp",
+    "_posts/methods/学习方法/media/e8c97387522a1bb9e1be33e9d54bc8b6_MD5.webp",
+    "_posts/methods/学习方法/media/280b51d0f1fd1e3a54938cbf0674a8a1_MD5.webp",
+    "_posts/methods/学习方法/media",
     "DailyNote/Templates/Time/media",
     "DailyNote/Templates/Time",
     "Journal/01 Daily/2025/03",
@@ -505,18 +511,11 @@
     "Journal",
     "_posts/base/知识目录、路线图/media",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
-    "_posts/methods/时间管理方法",
-    "DailyNote/Templates/media",
-    "DailyNote/Journal/02 Weekly",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",
     "_posts/methods/media/2a5a49d0037c58eb6c1c0a83bb82c973_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250306193621.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/abbf41b3e54a5257ab0134db7a34abb8_MD5.jpg",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/9fad0f21bbdc2b91c95beda6b0ace727_MD5.png",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/c0c312b050e04cd132b2543dcb83a7bb_MD5.jpg",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/media/0089e16b705afc41c539cdc82a31313f_MD5.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
