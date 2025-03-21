@@ -54,3 +54,7 @@
     - **原理**：这种方法需要在客户端和服务器端进行配合。首先，服务器在用户访问页面时，除了设置正常的会话 Cookie 外，还会设置一个额外的、具有特定名称（如`csrf_cookie`）的 Cookie，其值为一个随机的令牌。同时，在页面中的每个表单或关键的请求中，都会包含一个隐藏字段，其值是从这个`csrf_cookie`中读取的。当服务器接收到请求时，会检查请求中的隐藏字段的值是否与`csrf_cookie`中的值一致。
     - **示例**：服务器在用户访问页面时，设置`Set - Cookie: csrf_cookie = abcdef123456`。在表单中包含`<input type="hidden" name="csrf_value" value="abcdef123456">`。当用户提交表单时，服务器检查`csrf_value`的值是否与`csrf_cookie`中的值相同。
     - **适用场景**：可以作为一种替代 CSRF 令牌的方法，尤其适用于一些不适合在表单中添加额外隐藏字段的场景，如通过 JavaScript 直接发起的请求。不过，这种方法也有一定的复杂性，需要注意 Cookie 的安全性和隐私问题。
+
+
+## 相关资料
+[Understanding CSRF attacks](https://vercel.com/blog/understanding-csrf-attacks)
