@@ -135,7 +135,7 @@ console.log(dv.current().file.frontmatter) // {description: '测试描述', tags
 
 #### 列表和任务中的属性读取
 
-Dataview 将任务作为一种特殊的列表来处理，可以使用 `page.file.lists` 来获取当前页面中的列表数据，使用 `page.file.tasks` 来获取任务数据。在获取的列表数据同时包含了所有的任务，可通过基属性 `task` 是否为 `true` 来判断当前列表是否为任务项。
+Dataview 将任务作为一种特殊的列表来处理，可以使用 `page.file.lists` 来*获取当前页面中的列表数据*，使用 `page.file.tasks` 来*获取任务数据*。在获取的列表数据同时包含了所有的任务，可通过基属性 `task` 是否为 `true` 来判断当前列表是否为任务项。
 
 在列表中定义的属性会挂载在当前列表对象下，而标签则位于 `tags` 属性中，下面我们分别读取列表和任务中的标签和属性。
 

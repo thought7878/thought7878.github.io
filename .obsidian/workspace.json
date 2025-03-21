@@ -176,12 +176,12 @@
             }
           },
           {
-            "id": "494b88d31689c045",
+            "id": "912459663ee0a9f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-17.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-17"
+              "title": "数据结构、算法"
+            }
+          },
+          {
+            "id": "494b88d31689c045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/Templates/Time/Start.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Start"
             }
           },
           {
@@ -205,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+                "file": "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1：Dataview · DQL查询语言"
+              "title": "使用 Templater 减少重复工作，提高效率"
             }
           },
           {
@@ -248,60 +272,7 @@
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "f4fafb19f40849d1",
-        "type": "split",
-        "children": [
-          {
-            "id": "a0ef2c7fc0323d7f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "912459663ee0a9f8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "数据结构、算法"
-                }
-              }
-            ]
-          },
-          {
-            "id": "64054d76e6028e1b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c6b33d6534c47a0b",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap-nextgen-plugin",
-                  "state": {},
-                  "icon": "dot-network",
-                  "title": "数据结构、算法"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -368,8 +339,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -400,12 +370,22 @@
             }
           },
           {
+            "id": "9b6b9e6d91bf8833",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          },
+          {
             "id": "3210001bd9c76aba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/Templates/Daily Note Template.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,7 +395,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily Note Template 的反向链接列表"
+              "title": "数据结构、算法 的反向链接列表"
             }
           },
           {
@@ -453,16 +433,6 @@
             }
           },
           {
-            "id": "a32c0d91fb0f8bbd",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
             "id": "08058aeabe1ca9ee",
             "type": "leaf",
             "state": {
@@ -473,12 +443,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -488,7 +457,6 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "media-extended:Open media": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
@@ -497,49 +465,49 @@
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "audio-recorder:开始/结束录音": false
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "912459663ee0a9f8",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/10、快慢指针与多指针——玩转链表复杂操作.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/16、二叉树真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/20、排序算法专题（上）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/21、排序算法专题（下）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/22、普通人也能吃透的动态规划思想专题（上）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/25、大厂真题训练与解读——Google 真题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/26、大厂真题训练与解读——腾讯真题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/27、大厂真题训练与解读——头条真题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/28、思维课：算法面试的评价逻辑.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-17.md",
-    "DailyNote/Templates/Time/Due.md",
-    "DailyNote/Templates/Time/Create.md",
-    "DailyNote/Templates/Time/Schedule.md",
-    "DailyNote/Templates/Time/Start.md",
-    "DailyNote/Templates/Time/Completion.md",
-    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/7、数组的应用——真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/6、算法的衡量——轻松理解时间复杂度与空间复杂度.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/5、递归初相见——二叉树递归遍历的三种姿势.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/4、快速上手——从0到1掌握算法面试需要的数据结构（三）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/3、快速上手——从0到1掌握算法面试需要的数据结构（二）.md",
+    "DailyNote/Templates/Time/media",
     "DailyNote/Templates/Time",
-    "DailyNote/Templates/普通知识点.md",
-    "DailyNote/Templates/Daily Note.md",
-    "DailyNote/README.md",
-    "DailyNote/Templates/Capture.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-12.md",
-    "Journal/01 Daily/2025/03/2025-03-17.md",
     "Journal/01 Daily/2025/03",
     "Journal/01 Daily/2025",
     "Journal/01 Daily",
     "Journal",
-    "_posts/tools/obsidian/基础/基础.md",
-    "_posts/tools/obsidian/基础/Callout.md",
-    "DailyNote/Journal/01 Daily/2025/03/测试.md",
-    "DailyNote/Templates/Program.md",
-    "_posts/tools/obsidian/插件/Dataview/Dataview.md",
-    "DailyNote/Templates/Callout.md",
-    "DailyNote/Journal/01 Daily/2025/03/test.md",
-    "_posts/tools/obsidian/插件/Callout Manager.md",
     "_posts/base/知识目录、路线图/media",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/时间管理方法",
     "DailyNote/Templates/media",
     "DailyNote/Journal/02 Weekly",
-    "DailyNote/Journal/03 Monthly",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250308162711.png",

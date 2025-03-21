@@ -1,1 +1,1 @@
-[start:: <% tp.date.now("YYYY-MM-DD HH:mm") %>]
+[start:: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>] 

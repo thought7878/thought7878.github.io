@@ -1,1 +1,1 @@
-[completion:: <% tp.date.now("YYYY-MM-DD HH:mm") %>]
+[completion:: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>] 
