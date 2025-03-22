@@ -87,6 +87,13 @@ Sort file.ctime desc
 ```
 
 ```dataview
+TABLE file.ctime AS "创建时间"
+FROM ""
+WHERE date(file.ctime) = date(now)
+SORT file.ctime DESC
+```
+
+```dataview
 table file.name as "笔记名", dateformat(file.ctime, "yyyy-MM-dd HH:mm:ss") as "Created Time"
 from ""
 where file.ctime != null and typeof file.ctime == "object" and dateformat(file.ctime, "yyyy-MM-dd") = date("<% today %>").toISODate()

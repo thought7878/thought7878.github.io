@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/obsidian/基础.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "基础"
+              "title": "Obsidian"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Templates/Daily Note.md",
+                "file": "_posts/base/html/可访问性（Accessibility）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Daily Note"
+              "title": "可访问性（Accessibility）"
             }
           },
           {
@@ -398,12 +398,20 @@
   },
   "active": "912459663ee0a9f8",
   "lastOpenFiles": [
+    "_posts/base/html/ARIA属性.md",
+    "_posts/base/html/可访问性（Accessibility）.md",
+    "_posts/base/html/ARIA.md",
+    "_posts/base/知识目录、路线图/知识目录/HTML.md",
+    "_posts/base/html/语义化.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
+    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-22.md",
+    "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
+    "_posts/tools/obsidian/基础.md",
     "DailyNote/Journal/01 Daily/2025-03-21.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
     "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
-    "DailyNote/Templates/Daily Note.md",
     "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
     "DailyNote/Journal/01 Daily/Log of Pomodoro Timer.md",
     "_posts/browser/安全/CSP-内容安全策略.md",
@@ -411,19 +419,11 @@
     "DailyNote/Templates/日记参考模版.md",
     "DailyNote/Templates/Capture.md",
     "DailyNote/Templates/普通知识点.md",
-    "_posts/base/知识目录、路线图/知识目录/HTML.md",
     "DailyNote/Templates/Time/Sleep.md",
     "DailyNote/Templates/Time/Create.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-18.md",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
     "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/base/html/语义化.md",
-    "_posts/base/html/HTML是什么？.md",
-    "_posts/base/html/浏览器如何解析HTML.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/HTML-QW.md",
-    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
