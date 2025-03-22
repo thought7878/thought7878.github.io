@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTML.md",
+                "file": "DailyNote/Templates/Daily Note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "Daily Note"
             }
           },
           {
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025-03-21.md",
+                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-21"
+              "title": "1：Dataview · DQL查询语言"
             }
           }
         ],
@@ -302,45 +302,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a16c9704b5e7fa50",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
-            }
-          },
-          {
-            "id": "9b6b9e6d91bf8833",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
-            "id": "3210001bd9c76aba",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTML.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "HTML 的反向链接列表"
-            }
-          },
-          {
             "id": "89a6b54ce21e8655",
             "type": "leaf",
             "state": {
@@ -355,16 +316,6 @@
             }
           },
           {
-            "id": "dc3f60c813409538",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "7d3db5aebf49ddcb",
             "type": "leaf",
             "state": {
@@ -372,6 +323,30 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
+            }
+          },
+          {
+            "id": "a16c9704b5e7fa50",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "pinned": true,
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "9b6b9e6d91bf8833",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "pinned": true,
+              "icon": "timer",
+              "title": "Timer"
             }
           },
           {
@@ -394,7 +369,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -422,33 +398,33 @@
   },
   "active": "912459663ee0a9f8",
   "lastOpenFiles": [
-    "_posts/base/html/语义化.md",
-    "_posts/base/知识目录、路线图/知识目录/HTML.md",
-    "_posts/base/html/HTML是什么？.md",
-    "_posts/base/html/浏览器如何解析HTML.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-22.md",
     "DailyNote/Journal/01 Daily/2025-03-21.md",
-    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
-    "_posts/base/知识目录、路线图/学习计划/HTML-QW.md",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
-    "_posts/base/知识目录、路线图/Frontend Roadmap.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
+    "DailyNote/Templates/Daily Note.md",
+    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
+    "DailyNote/Journal/01 Daily/Log of Pomodoro Timer.md",
     "_posts/browser/安全/CSP-内容安全策略.md",
     "_posts/browser/安全/CSRF.md",
-    "_posts/browser/安全/同源策略（跨域问题）.md",
-    "_posts/methods/学习方法/Overview.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/base/知识目录、路线图/学习计划/算法 学习计划-DS.md",
-    "_posts/tools/obsidian/基础.md",
-    "_posts/methods/学习方法/《make it stick》的总结-QW.md",
-    "_posts/methods/时间管理方法/柳比歇夫时间管理法.md",
-    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
-    "DailyNote/Templates/Time/Start.md",
-    "_posts/tools/obsidian/插件/Templater/使用 Templater 减少重复工作，提高效率.md",
-    "DailyNote/Journal/01 Daily/Log of Pomodoro Timer.md",
-    "_posts/tools/obsidian/插件/Pomodoro Timer.md",
+    "DailyNote/Templates/日记参考模版.md",
+    "DailyNote/Templates/Capture.md",
+    "DailyNote/Templates/普通知识点.md",
+    "_posts/base/知识目录、路线图/知识目录/HTML.md",
+    "DailyNote/Templates/Time/Sleep.md",
+    "DailyNote/Templates/Time/Create.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-18.md",
+    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/base/html/语义化.md",
+    "_posts/base/html/HTML是什么？.md",
+    "_posts/base/html/浏览器如何解析HTML.md",
+    "_posts/base/知识目录、路线图/学习计划/Webpack 学习计划-DS.md",
+    "_posts/base/知识目录、路线图/学习计划/HTML-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/HTTP.md",
     "_posts/tools/obsidian/插件/media",
-    "_posts/methods/学习方法/学习是如何发生的？-DS.md",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
     "_posts/methods/学习方法/media/62164df44642816d5043e956b3abdb95_MD5.webp",
