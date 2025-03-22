@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/html/可访问性（Accessibility）.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/HTML.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "可访问性（Accessibility）"
+              "title": "HTML"
             }
           },
           {
@@ -370,7 +370,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -398,11 +398,17 @@
   },
   "active": "912459663ee0a9f8",
   "lastOpenFiles": [
+    "_posts/base/html/语义化（semantics）.md",
+    "_posts/base/知识目录、路线图/知识目录/HTML.md",
     "_posts/base/html/ARIA属性.md",
+    "_posts/任务记录/2025/查询单词的提示词模版.md",
+    "_posts/任务记录/2025/学习复习模版.md",
+    "_posts/任务记录/2025/英文单词的记忆技巧.md",
+    "_posts/English/音标.md",
+    "_posts/English/高效地练习听力的方法.md",
+    "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
     "_posts/base/html/可访问性（Accessibility）.md",
     "_posts/base/html/ARIA.md",
-    "_posts/base/知识目录、路线图/知识目录/HTML.md",
-    "_posts/base/html/语义化.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
     "DailyNote/Templates/Daily Note.md",
@@ -418,12 +424,6 @@
     "_posts/browser/安全/CSRF.md",
     "DailyNote/Templates/日记参考模版.md",
     "DailyNote/Templates/Capture.md",
-    "DailyNote/Templates/普通知识点.md",
-    "DailyNote/Templates/Time/Sleep.md",
-    "DailyNote/Templates/Time/Create.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-18.md",
-    "_posts/tools/obsidian/插件/Dataview/2：Dataview · JavaScript API.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",

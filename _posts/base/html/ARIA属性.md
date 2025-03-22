@@ -1,4 +1,4 @@
-ARIA（**Accessible Rich Internet Applications**）是一组属性，用于增强HTML的可访问性，尤其是在动态内容和复杂交互中。它通过为HTML元素添加额外的语义信息，帮助屏幕阅读器等辅助技术更好地理解网页内容。
+ARIA（**Accessible Rich Internet Applications**）是*一组属性*，用于*增强HTML的可访问性*，尤其是在动态内容和复杂交互中。它通过为HTML元素添加额外的语义信息，帮助屏幕阅读器等辅助技术更好地理解网页内容。
 
 ---
 

@@ -1,4 +1,4 @@
-- [ ] 整理HTML知识目录 [created:: 2025-03-21T22:07:01] [start:: 2025-03-21T22:07:08] [🍅:: 4]  ^u11b
+- [ ] 整理HTML知识目录 [created:: 2025-03-21T22:07:01] [start:: 2025-03-21T22:07:08] [🍅:: 5]  ^u11b
 
 
 # HTML的基本概念和语法
@@ -35,7 +35,7 @@
 
 ## 语义化标签
 - `<header>`、`<nav>`、`<main>`、`<section>`、`<article>`、`<footer>`等。
-- 为什么需要语义化？参考：[[语义化]]
+- 语义化是什么？为什么需要语义化？参考：[[语义化（semantics）]] ^plzh
 
 
 # 表单与多媒体
@@ -64,10 +64,15 @@
 - 新增语义化标签：`<figure>`、`<figcaption>`、`<time>`等。
 - 数据存储：`<datalist>`、`<output>`。
 - 画布与矢量图形：`<canvas>`、`<svg>`。
-## SEO与可访问性
+
+## 可访问性
+
+- 可访问性。参考：[[可访问性（Accessibility）]]
+- ARIA属性（无障碍设计）。参考：[[ARIA属性]]
+
+## SEO
 - 使用`<meta>`标签优化SEO。
-- 使用`alt`属性提升图片的可访问性。
-- ARIA属性（无障碍设计）。
+
 ## HTML与CSS/JavaScript的协作
 - 如何通过`class`和`id`为CSS和JavaScript提供选择器。
 - 初步了解HTML与CSS、JavaScript的关系。
