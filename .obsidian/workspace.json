@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/伪类选择器/伪类选择器.md",
+                "file": "_posts/base/css/总结/响应式设计/响应式设计.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "伪类选择器"
+              "title": "响应式设计"
             }
           }
         ],
@@ -396,9 +396,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e0eb859578fd6361",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "_posts/base/css/总结/响应式设计/响应式设计.md",
+    "_posts/base/css/总结/响应式设计",
+    "_posts/base/css/待整理/CSS语法：整体的语法规则（@规则和普通规则）.md",
+    "_posts/base/css/待整理/2019-12-18_Grid.md",
+    "_posts/base/css/待整理/overview.md",
+    "_posts/base/css/待整理",
+    "_posts/base/css/总结/选择器",
+    "_posts/base/css/总结/选择器/伪类选择器/伪类选择器.md",
+    "_posts/base/css/总结/选择器/伪类选择器/is & not & where.md",
     "_posts/base/css/总结/CSS与HTML的协作.md",
     "_posts/base/css/总结/层叠规则.md",
     "_posts/base/css/总结/颜色.md",
@@ -418,12 +427,6 @@
     "_posts/base/css/总结/布局/浮动（Float）.md",
     "_posts/base/知识目录、路线图/学习计划/CSS-QW.md",
     "_posts/base/知识目录、路线图/知识目录/HTML.md",
-    "_posts/base/html/svg.md",
-    "_posts/base/html/canvas.md",
-    "_posts/base/html/ARIA属性.md",
-    "_posts/base/html/可访问性（Accessibility）.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
@@ -435,9 +438,6 @@
     "DailyNote/Templates/Time",
     "Journal/01 Daily/2025/03",
     "Journal/01 Daily/2025",
-    "Journal/01 Daily",
-    "Journal",
-    "_posts/base/知识目录、路线图/media",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
