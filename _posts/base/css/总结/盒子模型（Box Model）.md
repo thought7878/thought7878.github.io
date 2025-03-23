@@ -1,8 +1,8 @@
-**盒子模型（Box Model）** 是 CSS 中描述元素布局和尺寸的核心概念。*每个 HTML 元素都被视为一个矩形的“盒子”*，这个盒子由内容区域、内边距、边框和外边距组成。理解盒子模型是掌握 CSS 布局的基础。
+**盒子模型（Box Model）** 是 CSS 中**描述元素布局和尺寸**的核心概念。*每个 HTML 元素都被视为一个矩形的“盒子”*，这个盒子由内容区域、内边距、边框和外边距组成。理解盒子模型是*掌握 CSS 布局的基础*。
 
 
-- **盒子的外部显示类型/规则**：block 或 inline，外部显示类型（outer display type），指的是盒子与附近的其他元素的行为。
-- **盒子的内部显示类型/规则**：这决定了它们的子元素如何行为，如BFC、IFC、FFC、GFC。
+- **盒子的外部显示类型/规则**：block 或 inline，外部显示类型（outer display type），指的是*盒子与附近的其他元素的行为*。
+- **盒子的内部显示类型/规则**：这*决定了它们的子元素如何行为*，如BFC、IFC、FFC、GFC。
 
 参考：[formatting contexts](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model#formatting_contexts_and_the_display_property)
 

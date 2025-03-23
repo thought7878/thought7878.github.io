@@ -63,12 +63,15 @@
 ## HTML5新特性
 - 新增语义化标签：`<figure>`、`<figcaption>`、`<time>`等。
 - 数据存储：`<datalist>`、`<output>`。
-- 画布与矢量图形：`<canvas>`、`<svg>`。
+- [ ] 画布：`<canvas>`。参考：[[canvas]]
+- [ ] 矢量图形：`<svg>`。参考：[[svg]]
 
 ## 可访问性
 
-- 可访问性。参考：[[可访问性（Accessibility）]]
-- ARIA属性（无障碍设计）。参考：[[ARIA属性]]
+- [x] 访问性是什么？为什么需要可访问性？参考：[[可访问性（Accessibility）]] [created:: 2025-03-22T16:08:13] [start:: 2025-03-22T16:08:22] [🍅:: 1] [completion:: 2025-03-22T16:14:43]  ^r8rh
+- [x] ARIA属性（无障碍设计）。参考：[[ARIA属性]] [created:: 2025-03-22T16:14:11] [start:: 2025-03-22T17:40:31] [completion:: 2025-03-22T18:07:34]  [🍅:: 1]   ^pdls
+	- 是什么？
+	- 为什么需要ARIA？
 
 ## SEO
 - 使用`<meta>`标签优化SEO。

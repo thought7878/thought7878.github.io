@@ -152,30 +152,6 @@
             }
           },
           {
-            "id": "912459663ee0a9f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/HTML.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTML"
-            }
-          },
-          {
             "id": "62e8e30cf5238f23",
             "type": "leaf",
             "state": {
@@ -222,9 +198,33 @@
               "icon": "lucide-file",
               "title": "1：Dataview · DQL查询语言"
             }
+          },
+          {
+            "id": "e0eb859578fd6361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/css/总结/伪类选择器/伪类选择器.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "伪类选择器"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -370,11 +370,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -396,34 +396,34 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "912459663ee0a9f8",
+  "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "_posts/base/html/语义化（semantics）.md",
-    "_posts/base/知识目录、路线图/知识目录/HTML.md",
-    "_posts/base/html/ARIA属性.md",
-    "_posts/任务记录/2025/查询单词的提示词模版.md",
-    "_posts/任务记录/2025/学习复习模版.md",
-    "_posts/任务记录/2025/英文单词的记忆技巧.md",
-    "_posts/English/音标.md",
-    "_posts/English/高效地练习听力的方法.md",
-    "_posts/English/自学英语零基础到中高级！超详细学习指南！.md",
-    "_posts/base/html/可访问性（Accessibility）.md",
-    "_posts/base/html/ARIA.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "DailyNote/Templates/Daily Note.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "_posts/base/css/总结/CSS与HTML的协作.md",
+    "_posts/base/css/总结/层叠规则.md",
+    "_posts/base/css/总结/颜色.md",
+    "_posts/base/css/总结/函数.md",
+    "_posts/base/css/总结/单位.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-23.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-22.md",
-    "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
-    "_posts/tools/obsidian/基础.md",
-    "DailyNote/Journal/01 Daily/2025-03-21.md",
+    "_posts/base/css/总结/CSS是什么？为什么使用CSS？.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
-    "_posts/methods/学习方法/【Ali Abdaal】超强超全面的学习方法总结.md",
-    "DailyNote/Journal/01 Daily/Log of Pomodoro Timer.md",
-    "_posts/browser/安全/CSP-内容安全策略.md",
-    "_posts/browser/安全/CSRF.md",
-    "DailyNote/Templates/日记参考模版.md",
-    "DailyNote/Templates/Capture.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
+    "DailyNote/Journal/01 Daily/2025-03-21.md",
+    "DailyNote/Journal/01 Daily/2025-03-23.md",
+    "_posts/base/css/总结/CSS规则.md",
+    "_posts/base/css/总结/盒子模型（Box Model）.md",
+    "_posts/base/css/总结/布局/浮动（Float）.md",
+    "_posts/base/知识目录、路线图/学习计划/CSS-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/HTML.md",
+    "_posts/base/html/svg.md",
+    "_posts/base/html/canvas.md",
+    "_posts/base/html/ARIA属性.md",
+    "_posts/base/html/可访问性（Accessibility）.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/任务记录/2025/学习复习模版.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",

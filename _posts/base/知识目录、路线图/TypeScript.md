@@ -79,7 +79,7 @@
 ## typeof
 参考 [[typeof]]
 # Function
-参考 [[函数]]
+参考 [[_posts/typescript/总结/函数/函数]]
 ## 重载（Overload）
 参考 [[重载（Overload）]]
 ## 协变、逆变
