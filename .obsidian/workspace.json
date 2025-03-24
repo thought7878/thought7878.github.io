@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
+                "file": "_posts/algorithm & 数据结构/算法题/链表/删除重复值的结点—dummy 结点.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "删除链表结点"
+              "title": "删除重复值的结点—dummy 结点"
             }
           }
         ],
@@ -423,13 +423,16 @@
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
     "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
+    "_posts/algorithm & 数据结构/算法题/链表/删除重复值的结点—dummy 结点.md",
     "_posts/algorithm & 数据结构/算法题/链表/合并有序链表.md",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
+    "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
     "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？.md",
     "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-24.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
     "_posts/algorithm & 数据结构/数据结构/数组.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-23.md",
     "_posts/algorithm & 数据结构/算法/时间复杂度-QW.md",
@@ -446,11 +449,8 @@
     "_posts/base/css/总结/响应式设计",
     "_posts/base/css/待整理/CSS语法：整体的语法规则（@规则和普通规则）.md",
     "_posts/base/css/待整理/2019-12-18_Grid.md",
-    "_posts/base/css/待整理/overview.md",
     "_posts/base/css/待整理",
     "_posts/base/css/总结/选择器",
-    "_posts/base/css/总结/选择器/伪类选择器/伪类选择器.md",
-    "_posts/base/css/总结/选择器/伪类选择器/is & not & where.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
