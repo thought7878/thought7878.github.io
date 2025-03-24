@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
+                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17、特殊的二叉树——二叉搜索树专题"
+              "title": "18、特殊的二叉树——平衡二叉树专题"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/算法题/二叉树/验证二叉搜索树.md",
+                "file": "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/构造平衡二叉树.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "验证二叉搜索树"
+              "title": "构造平衡二叉树"
             }
           }
         ],
@@ -470,8 +470,14 @@
   },
   "active": "55737435f2ccbdea",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/构造平衡二叉树.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/验证平衡二叉树.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/二叉搜索树/将排序数组转化为二叉搜索树.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树",
+    "_posts/algorithm & 数据结构/算法题/二叉树/二叉搜索树",
     "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
-    "_posts/algorithm & 数据结构/算法题/二叉树/验证二叉搜索树.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/二叉搜索树/验证二叉搜索树.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/翻转二叉树.md",
     "_posts/algorithm & 数据结构/前端算法与数据结构/16、二叉树真题归纳与解读.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/层序遍历的衍生问题.md",
@@ -496,20 +502,14 @@
     "_posts/algorithm & 数据结构/算法题/栈与队列/5.滑动窗口问题.md",
     "_posts/algorithm & 数据结构/算法题/栈与队列/4.如何用栈实现一个队列？.md",
     "_posts/algorithm & 数据结构/算法题/栈与队列",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
-    "_posts/algorithm & 数据结构/算法题/链表/7.环形链表衍生问题——定位环的起点.md",
-    "_posts/algorithm & 数据结构/算法题/链表/6.环形链表基本问题——如何判断链表是否成环？.md",
-    "_posts/algorithm & 数据结构/算法题/链表/5.多指针法—链表的反转.md",
     "_posts/base/css/总结/响应式设计",
     "_posts/base/css/待整理",
     "_posts/base/css/总结/选择器",
     "_posts/tools/obsidian/插件/media",
-    "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
     "_posts/methods/学习方法/media/62164df44642816d5043e956b3abdb95_MD5.webp",
     "_posts/methods/学习方法/media/e8c97387522a1bb9e1be33e9d54bc8b6_MD5.webp",
     "_posts/methods/学习方法/media/280b51d0f1fd1e3a54938cbf0674a8a1_MD5.webp",
-    "_posts/methods/学习方法/media",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",
