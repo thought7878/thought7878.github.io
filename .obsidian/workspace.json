@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
+                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "18、特殊的二叉树——平衡二叉树专题"
+              "title": "24、大厂真题训练与解读——微软真题"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/构造平衡二叉树.md",
+                "file": "_posts/algorithm & 数据结构/算法题/动态规划/最长上升子序列模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,11 +292,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "构造平衡二叉树"
+              "title": "最长上升子序列模型"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -468,10 +468,29 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "55737435f2ccbdea",
+  "active": "d7a78f7b06e265f4",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
+    "_posts/algorithm & 数据结构/算法题/动态规划/最长上升子序列模型.md",
+    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/23、普通人也能吃透的动态规划思想专题（下）.md",
+    "_posts/algorithm & 数据结构/算法题/动态规划/0-1 背包模型.md",
+    "_posts/algorithm & 数据结构/算法题/动态规划/“最值”型问题典范：如何优雅地找硬币.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/22、普通人也能吃透的动态规划思想专题（上）.md",
+    "_posts/algorithm & 数据结构/算法题/动态规划/“爬楼梯”问题.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法/快速排序.md",
+    "_posts/algorithm & 数据结构/算法题/动态规划",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/21、排序算法专题（下）.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法/归并排序.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法/插入排序.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/20、排序算法专题（上）.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法/选择排序.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法/冒泡排序.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/特殊的二叉树——堆结构及其在排序中的应用.md",
+    "_posts/algorithm & 数据结构/算法题/排序算法",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/19、特殊的二叉树——堆结构及其在排序中的应用.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/构造平衡二叉树.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/18、特殊的二叉树——平衡二叉树专题.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树/验证平衡二叉树.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/二叉搜索树/将排序数组转化为二叉搜索树.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/平衡二叉树",
@@ -481,31 +500,11 @@
     "_posts/algorithm & 数据结构/算法题/二叉树/翻转二叉树.md",
     "_posts/algorithm & 数据结构/前端算法与数据结构/16、二叉树真题归纳与解读.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/层序遍历的衍生问题.md",
-    "_posts/algorithm & 数据结构/算法题/二叉树/后序遍历.md",
-    "_posts/algorithm & 数据结构/算法题/二叉树/中序遍历.md",
-    "_posts/algorithm & 数据结构/算法题/二叉树/前序遍历.md",
-    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/限定组合问题：及时回溯，即为“剪枝”.md",
     "_posts/algorithm & 数据结构/算法题/二叉树",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
-    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/组合问题：变化的“坑位”，不变的“套路”.md",
-    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/关键套路初相见：全排列问题.md",
     "_posts/algorithm & 数据结构/算法题/递归与回溯思想",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
     "_posts/algorithm & 数据结构/算法题/遍历专题：DFS 与 BFS",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/3.栈的设计——“最小栈”问题.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/2.栈问题进阶-每日温度问题.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/1.典型真题快速上手-“有效括号”问题.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/5.滑动窗口问题.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/4.如何用栈实现一个队列？.md",
     "_posts/algorithm & 数据结构/算法题/栈与队列",
     "_posts/base/css/总结/响应式设计",
-    "_posts/base/css/待整理",
-    "_posts/base/css/总结/选择器",
-    "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
     "_posts/methods/学习方法/media/62164df44642816d5043e956b3abdb95_MD5.webp",
     "_posts/methods/学习方法/media/e8c97387522a1bb9e1be33e9d54bc8b6_MD5.webp",
