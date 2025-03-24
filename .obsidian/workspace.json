@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/算法题/链表/删除重复值的结点—dummy 结点.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +244,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "删除重复值的结点—dummy 结点"
+              "title": "数据结构、算法"
+            }
+          },
+          {
+            "id": "d7a78f7b06e265f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "17、特殊的二叉树——二叉搜索树专题"
+            }
+          },
+          {
+            "id": "55737435f2ccbdea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/algorithm & 数据结构/算法题/二叉树/验证二叉搜索树.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "验证二叉搜索树"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -420,35 +468,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e0eb859578fd6361",
+  "active": "55737435f2ccbdea",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/算法题/链表/删除重复值的结点—dummy 结点.md",
-    "_posts/algorithm & 数据结构/算法题/链表/合并有序链表.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/17、特殊的二叉树——二叉搜索树专题.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/验证二叉搜索树.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/翻转二叉树.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/16、二叉树真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/层序遍历的衍生问题.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/后序遍历.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/中序遍历.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树/前序遍历.md",
+    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/限定组合问题：及时回溯，即为“剪枝”.md",
+    "_posts/algorithm & 数据结构/算法题/二叉树",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/15、场景化解读：递归与回溯思想在真题中的应用.md",
+    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/组合问题：变化的“坑位”，不变的“套路”.md",
+    "_posts/algorithm & 数据结构/算法题/递归与回溯思想/关键套路初相见：全排列问题.md",
+    "_posts/algorithm & 数据结构/算法题/递归与回溯思想",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
-    "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/8、字符串的应用——真题归纳与解读.md",
-    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？.md",
-    "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-24.md",
-    "_posts/algorithm & 数据结构/数据结构/数组.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-23.md",
-    "_posts/algorithm & 数据结构/算法/时间复杂度-QW.md",
-    "_posts/algorithm & 数据结构/算法/对数.md",
-    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "DailyNote/Templates/Time/Now.md",
-    "_posts/base/css/总结/响应式设计/响应式设计.md",
-    "_posts/base/css/总结/响应式设计/响应式图片.md",
-    "_posts/base/css/总结/响应式设计/object-position.md",
-    "_posts/base/css/总结/响应式设计/object-fit.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
+    "_posts/algorithm & 数据结构/算法题/遍历专题：DFS 与 BFS",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/13、栈与队列怎么玩（下）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/12、栈与队列怎么玩（上）.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列/3.栈的设计——“最小栈”问题.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列/2.栈问题进阶-每日温度问题.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列/1.典型真题快速上手-“有效括号”问题.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列/5.滑动窗口问题.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列/4.如何用栈实现一个队列？.md",
+    "_posts/algorithm & 数据结构/算法题/栈与队列",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/11、姿势特别的链表——环形链表专题.md",
+    "_posts/algorithm & 数据结构/算法题/链表/7.环形链表衍生问题——定位环的起点.md",
+    "_posts/algorithm & 数据结构/算法题/链表/6.环形链表基本问题——如何判断链表是否成环？.md",
+    "_posts/algorithm & 数据结构/算法题/链表/5.多指针法—链表的反转.md",
     "_posts/base/css/总结/响应式设计",
-    "_posts/base/css/待整理/CSS语法：整体的语法规则（@规则和普通规则）.md",
-    "_posts/base/css/待整理/2019-12-18_Grid.md",
     "_posts/base/css/待整理",
     "_posts/base/css/总结/选择器",
     "_posts/tools/obsidian/插件/media",
@@ -458,10 +510,6 @@
     "_posts/methods/学习方法/media/e8c97387522a1bb9e1be33e9d54bc8b6_MD5.webp",
     "_posts/methods/学习方法/media/280b51d0f1fd1e3a54938cbf0674a8a1_MD5.webp",
     "_posts/methods/学习方法/media",
-    "DailyNote/Templates/Time/media",
-    "DailyNote/Templates/Time",
-    "Journal/01 Daily/2025/03",
-    "Journal/01 Daily/2025",
     "DailyNote/Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "Templates/media/92a84d504b8818402d0815b1afb8a4ed_MD5.jpeg",
     "_posts/methods/media/732a1af9cc32571fee012209cfef74b7_MD5.jpeg",

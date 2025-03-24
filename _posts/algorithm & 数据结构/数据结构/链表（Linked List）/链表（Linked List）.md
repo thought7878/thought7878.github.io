@@ -676,7 +676,7 @@ function reverseList(head) {
 ```
 
 ### 合并有序链表
-参考：[[_posts/algorithm & 数据结构/数据结构/链表（Linked List）/合并有序链表|合并有序链表]]、[[_posts/algorithm & 数据结构/算法题/链表/合并有序链表|合并有序链表]]
+参考：[[_posts/algorithm & 数据结构/数据结构/链表（Linked List）/合并有序链表|合并有序链表]]、[[1.合并有序链表|1.合并有序链表]]
 
 ```javascript
 function mergeTwoLists(l1, l2) {
