@@ -200,12 +200,12 @@
             }
           },
           {
-            "id": "e0eb859578fd6361",
+            "id": "a98ce650859d3fe4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/响应式设计/响应式设计.md",
+                "file": "DailyNote/Journal/01 Daily/学习复习模版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +220,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "响应式设计"
+              "title": "学习复习模版"
+            }
+          },
+          {
+            "id": "e0eb859578fd6361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "删除链表结点"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -396,10 +420,29 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "e0eb859578fd6361",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
+    "_posts/algorithm & 数据结构/算法题/链表/删除链表结点.md",
+    "_posts/algorithm & 数据结构/算法题/链表/合并有序链表.md",
+    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "_posts/algorithm & 数据结构/数据结构是什么？为什么学习数据结构？.md",
+    "_posts/algorithm & 数据结构/数据结构/栈（Stack）.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-24.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+    "_posts/algorithm & 数据结构/数据结构/数组.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-23.md",
+    "_posts/algorithm & 数据结构/算法/时间复杂度-QW.md",
+    "_posts/algorithm & 数据结构/算法/对数.md",
+    "_posts/algorithm & 数据结构/算法是什么？为什么？-QW.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "DailyNote/Templates/Time/Now.md",
     "_posts/base/css/总结/响应式设计/响应式设计.md",
+    "_posts/base/css/总结/响应式设计/响应式图片.md",
+    "_posts/base/css/总结/响应式设计/object-position.md",
+    "_posts/base/css/总结/响应式设计/object-fit.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
     "_posts/base/css/总结/响应式设计",
     "_posts/base/css/待整理/CSS语法：整体的语法规则（@规则和普通规则）.md",
     "_posts/base/css/待整理/2019-12-18_Grid.md",
@@ -408,25 +451,6 @@
     "_posts/base/css/总结/选择器",
     "_posts/base/css/总结/选择器/伪类选择器/伪类选择器.md",
     "_posts/base/css/总结/选择器/伪类选择器/is & not & where.md",
-    "_posts/base/css/总结/CSS与HTML的协作.md",
-    "_posts/base/css/总结/层叠规则.md",
-    "_posts/base/css/总结/颜色.md",
-    "_posts/base/css/总结/函数.md",
-    "_posts/base/css/总结/单位.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-23.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-22.md",
-    "_posts/base/css/总结/CSS是什么？为什么使用CSS？.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-21.md",
-    "DailyNote/Journal/01 Daily/2025-03-21.md",
-    "DailyNote/Journal/01 Daily/2025-03-23.md",
-    "_posts/base/css/总结/CSS规则.md",
-    "_posts/base/css/总结/盒子模型（Box Model）.md",
-    "_posts/base/css/总结/布局/浮动（Float）.md",
-    "_posts/base/知识目录、路线图/学习计划/CSS-QW.md",
-    "_posts/base/知识目录、路线图/知识目录/HTML.md",
     "_posts/tools/obsidian/插件/media",
     "_posts/methods/学习方法/笔记方法",
     "_posts/methods/学习方法/media/ba1cb0d280f63c745fe77cd69543abff_MD5.webp",
