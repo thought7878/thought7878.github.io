@@ -125,6 +125,7 @@ _注：以下 flex 属性示例图，子项目宽高默认为 100px × 100px_
 
 **3. 3 flex-shrink(缩小比例)**
 `.item { flex-shrink: <number || 1> }`_缺少空间按所有各项目的缩放比例分配_
+
 ![[_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png]]
 
 **3. 4 flex-basis**
@@ -138,6 +139,7 @@ _可设置值与 width 类似，优先级 width < flex-basis < max-width_
 缩放比例为 1 且超出父容器的空间，缩放计算公式为：(分配前占的空间/子项目的总空间)_需缩放空间
 下图的计算结果为：(200 / 1000) _ 200 = 40；(100 / 1000) \* 200 = 20;
 ![[_posts/base/css/待整理/media/8e3468f42e8281a1caf978dcfb575a2c_MD5.png]]
+
 ![[_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png]]
 
 **3. 5 flex ( flex-grow + flex-shrink + flex-basis )**

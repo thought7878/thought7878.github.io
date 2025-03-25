@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/CSS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "弹性布局（Flexbox）"
+              "title": "CSS"
             }
           }
         ],
@@ -422,8 +422,10 @@
   },
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "_posts/base/css/待整理/排版-Flex2.md",
     "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
+    "_posts/base/css/待整理/排版-Flex2.md",
+    "_posts/base/css/总结/布局/Flexbox/flex-basis.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
@@ -436,7 +438,6 @@
     "_posts/base/css/待整理/media/bc3002b7cfe0d794e716e5aefe119790_MD5.png",
     "_posts/base/css/待整理/media",
     "_posts/base/css/待整理/排版-Flex1.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/总结/布局/Grid",
     "_posts/base/css/总结/布局/Flexbox",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
@@ -464,7 +465,6 @@
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/微软真题/复制带随机指针的链表.md",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/Google真题",
     "_posts/algorithm & 数据结构/前端算法与数据结构/24、大厂真题训练与解读——微软真题.md",
-    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/微软真题/从前序与中序遍历序列构造二叉树.md",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/微软真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读",
     "_posts/algorithm & 数据结构/算法题/动态规划",
