@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/待整理/排版-Flex2.md",
+                "file": "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "排版-Flex2"
+              "title": "弹性布局（Flexbox）"
             }
           }
         ],
@@ -422,6 +422,8 @@
   },
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
+    "_posts/base/css/待整理/排版-Flex2.md",
+    "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
@@ -432,9 +434,7 @@
     "_posts/base/css/待整理/media/274df9389619b4f8fb6d8b76592992dd_MD5.png",
     "_posts/base/css/待整理/media/176a10dae9f49e7d7a12a8420455cf26_MD5.png",
     "_posts/base/css/待整理/media/bc3002b7cfe0d794e716e5aefe119790_MD5.png",
-    "_posts/base/css/待整理/media/07606aa920739fb3469fa505619fcd4e_MD5.png",
     "_posts/base/css/待整理/media",
-    "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
     "_posts/base/css/待整理/排版-Flex1.md",
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/总结/布局/Grid",
