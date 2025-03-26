@@ -57,15 +57,29 @@ CSS `网格布局（Grid Layout）`是一种*强大的二维布局系统*，允�
 
 ![](assets/排版-Grid-API/2023-09-19-13-57-06-image.png)
 
-#### `grid-template`
-是的简写形式。
+
+#### 2.2 `grid-template-areas`
+通过命名区域创建语义化的布局。
+
+参考：[[grid-template-areas]]
+
+
+#### 2.3 `grid-template`
+`grid-template` 是 grid-template-rows、grid-template-columns 和 grid-template-areas 的组合的*简写形式*。
+
+**推荐使用`grid`，代替该属性**
 
 参考：[[grid-template]]
 
+#### 2.4 `grid`
+`grid`是grid-template-rows、grid-template-columns、grid-template-areas、grid-auto-rows、grid-auto-columns、grid-auto-flow的*简写形式*。
 
-#### 2.2  `gap`、`row-gap`、`column-gap`
+参考：[[grid]]
+
+
+#### 2.4  `gap`、`row-gap`、`column-gap`
 定义*网格之间的间距*（行间距和列间距）。
-gap 是 row-gap 和 column-gap 的简写。
+`gap` 是 row-gap 和 column-gap 的*简写*。
 
 ```css
 .container {
@@ -83,19 +97,14 @@ gap 是 row-gap 和 column-gap 的简写。
 
 ![](assets/排版-Grid-API/2023-09-19-18-32-37-image.png)
 
-#### 2.3 `grid-auto-columns` 和 `grid-auto-rows`
-*定义隐式网格轨道的大小*（当网格项目*超出显式定义的行列时*）。
+#### 2.3 `grid-auto-columns`、`grid-auto-rows`、`grid-auto-flow`
+*定义**隐式**网格轨道的大小*（当网格项目*超出显式定义的行列时*）。
 
 ```css
 .container {
     grid-auto-rows: 100px; /* 隐式行的高度为 100px */
 }
 ```
-
-#### 2.4 `grid-template-areas`
-通过命名区域创建语义化的布局。
-
-参考：[[grid-template-areas]]
 
 #### 2.5 `justify-items` 和 `align-items`
 定义所有项目的对齐方式：
@@ -112,7 +121,7 @@ gap 是 row-gap 和 column-gap 的简写。
 ```
 
 #### 2.6 `place-items`
-是`align-items` 和 `justify-items`的简写形式。
+是`align-items` 和 `justify-items`的*简写形式*。
 
 ```css
 place-items: <align-items> <justify-items>;
@@ -141,6 +150,9 @@ place-items: <align-items> <justify-items>;
 place-content:<align-content>/<justify-content>
 ```
 
+#### `grid-auto-flow`
+
+参考：[[grid-auto-flow]]
 
 ---
 
@@ -315,6 +327,6 @@ CSS 网格布局是一种强大的工具，能够帮助开发者轻松实现复�
 
 ### 参考资料
 - [A Complete Guide to CSS Grid | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end)
-- [[2019-12-18-排版-Grid]]
 - [[2019-12-18-排版-Grid-API]]
+- [[2019-12-18-排版-Grid]]
 - [[2019-12-18_Grid]]

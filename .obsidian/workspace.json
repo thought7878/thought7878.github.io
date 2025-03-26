@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/布局/Grid/grid-template.md",
+                "file": "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,41 +244,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "grid-template"
+              "title": "网格布局（Grid Layout）"
             }
           }
         ],
         "currentTab": 9
-      },
-      {
-        "id": "86a626cd8f78e0fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "83a51887cef26a6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2019-12-18-排版-Grid-API"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -345,8 +315,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -453,9 +422,13 @@
   },
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
+    "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
+    "_posts/base/css/总结/布局/Grid/grid-auto-flow.md",
+    "_posts/base/css/总结/布局/Grid/grid.md",
     "_posts/base/css/总结/布局/Grid/grid-template.md",
+    "_posts/base/css/总结/布局/Grid/grid-template-areas.md",
+    "_posts/base/css/总结/布局/Grid/grid-template-rows & grid-template-columns.md",
     "_posts/base/css/总结/布局/Grid/place-self.md",
     "_posts/base/css/总结/布局/Grid/align-self.md",
     "_posts/base/css/总结/布局/Grid/justify-self.md",
@@ -468,16 +441,13 @@
     "_posts/base/css/总结/布局/Grid/place-items.md",
     "_posts/base/css/总结/布局/Grid/align-items.md",
     "_posts/base/css/总结/布局/Grid/justify-items.md",
-    "_posts/base/css/总结/布局/Grid/grid-template-areas.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
-    "_posts/base/css/总结/布局/Grid/grid-template-rows & grid-template-columns.md",
     "_posts/base/css/总结/布局/Flexbox/fr单位.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid.md",
     "_posts/base/css/待整理/2019-12-18_Grid.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
     "_posts/base/css/待整理/排版-Flex2.md",
-    "_posts/base/css/总结/布局/Flexbox/flex-basis.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
@@ -489,7 +459,6 @@
     "_posts/base/css/待整理/media/176a10dae9f49e7d7a12a8420455cf26_MD5.png",
     "_posts/base/css/待整理/media/bc3002b7cfe0d794e716e5aefe119790_MD5.png",
     "_posts/base/css/待整理/media",
-    "_posts/base/css/待整理/排版-Flex1.md",
     "_posts/base/css/总结/布局/Grid",
     "_posts/base/css/总结/布局/Flexbox",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/头条真题",

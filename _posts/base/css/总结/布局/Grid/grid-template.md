@@ -1,4 +1,4 @@
-`grid-template` 是 CSS 网格布局（Grid Layout）中的一个简写属性，用于一次性定义网格的列、行和命名区域。它将 `grid-template-rows`、`grid-template-columns` 和 `grid-template-areas` 组合在一起，从而简化代码并提高可读性。
+`grid-template` 是 CSS 网格布局（Grid Layout）中的一个简写属性，用于一次性定义网格的列、行和命名区域。它*将 `grid-template-rows`、`grid-template-columns` 和 `grid-template-areas` 组合在一起*，从而简化代码并提高可读性。
 
 ---
 
@@ -19,7 +19,7 @@ grid-template: <grid-template-areas> <grid-template-rows> / <grid-template-colum
 ```
 
 - 如果只提供 `<grid-template-rows>` 和 `<grid-template-columns`，则不会定义命名区域。
-- 如果结合 `<grid-template-areas>` 使用，则可以同时定义命名区域、行高和列宽。
+- 如果结合 `<grid-template-areas>` 使用，则可以*同时定义命名区域、行高和列宽*。
 
 ---
 
@@ -107,8 +107,8 @@ grid-template: <grid-template-areas> <grid-template-rows> / <grid-template-colum
 
 ---
 
-#### 3.2 定义命名区域
-可以通过 `grid-template` 同时定义命名区域、行高和列宽。
+#### 3.2 **定义命名区域**
+可以通过 `grid-template` *同时定义命名区域、行高和列宽*。
 
 ```css
 .container {
@@ -121,10 +121,10 @@ grid-template: <grid-template-areas> <grid-template-rows> / <grid-template-colum
 ```
 
 效果：
-- 第一行命名为 `header`，跨越所有列，高度为 `auto`。
-- 第二行分为 `sidebar` 和 `main` 区域，高度为 `1fr`。
-- 第三行命名为 `footer`，跨越所有列，高度为 `auto`。
-- 定义了三列（宽度比例为 `1:2:1`）。
+- **第一行**命名为 `header`，跨越所有列，**行的高度**为 `auto`。
+- **第二行**分为 `sidebar` 和 `main` 区域，**行的高度**为 `1fr`。
+- **第三行**命名为 `footer`，跨越所有列，**行的高度**为 `auto`。
+- **定义了三列**（宽度比例为 `1fr:2fr:1fr`）。
 
 ---
 
@@ -161,18 +161,7 @@ grid-template: <grid-template-areas> <grid-template-rows> / <grid-template-colum
 
 ---
 
-### 5. 示例分析
-
-假设网格容器有 3 列 3 行，以下是不同 `grid-template` 的效果：
-
-| **CSS 代码**                                                                 | **效果描述**                                                                 |
-|------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| `grid-template: auto 1fr auto / 1fr 2fr 1fr;`                               | 定义三行（高度为 `auto`、`1fr` 和 `auto`），三列（宽度比例为 `1:2:1`）。       |
-| `grid-template: "header header header" auto "sidebar main main" 1fr "footer footer footer" auto / 1fr 2fr 1fr;` | 定义三行三列，并分配命名区域（如 `header`、`sidebar`、`main` 和 `footer`）。 |
-
----
-
-### 6. 总结
+### 5. 总结
 
 - **核心功能**：
   - `grid-template` 同时定义网格的行、列和命名区域。
