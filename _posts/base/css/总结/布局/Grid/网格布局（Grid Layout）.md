@@ -90,33 +90,15 @@ gap 是 row-gap 和 column-gap 的简写。
 
 #### 2.4 `grid-template-areas`
 通过命名区域创建语义化的布局。
-参考：[[grid-template-areas]]
 
-```css
-.container {
-    grid-template-areas:
-        "header header header"
-        "sidebar main main"
-        "footer footer footer";
-}
-.item-header {
-    grid-area: header;
-}
-.item-sidebar {
-    grid-area: sidebar;
-}
-.item-main {
-    grid-area: main;
-}
-.item-footer {
-    grid-area: footer;
-}
-```
+参考：[[grid-template-areas]]
 
 #### 2.5 `justify-items` 和 `align-items`
 定义所有项目的对齐方式：
 - `justify-items`：水平方向（列轴）的对齐方式。
 - `align-items`：垂直方向（行轴）的对齐方式。
+
+参考：[[justify-items]]、[[align-items]]
 
 ```css
 .container {
@@ -125,10 +107,21 @@ gap 是 row-gap 和 column-gap 的简写。
 }
 ```
 
+#### `place-items`
+是`align-items` 和 `justify-items`的简写形式。
+
+```css
+place-items: <align-items> <justify-items>;
+```
+
+参考：[[place-items]]
+
 #### 2.6 `justify-content` 和 `align-content`
-定义整个网格在容器内的对齐方式（当网格尺寸小于容器时）：
+定义*整个网格在容器内的对齐方式*（当网格尺寸小于容器时）：
 - `justify-content`：水平方向（列轴）的对齐方式。
 - `align-content`：垂直方向（行轴）的对齐方式。
+
+参考：[[justify-content]]、[[align-content]]
 
 ```css
 .container {
