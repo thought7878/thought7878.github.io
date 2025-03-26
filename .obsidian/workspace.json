@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
+                "file": "_posts/base/css/总结/动画/动画.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "网格布局（Grid Layout）"
+              "title": "动画"
             }
           }
         ],
@@ -422,8 +422,13 @@
   },
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
+    "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+    "_posts/base/css/总结/动画/动画.md",
+    "_posts/base/css/总结/动画/过渡（Transition）.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "_posts/base/css/总结/响应式设计/响应式设计.md",
     "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
+    "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
     "_posts/base/css/总结/布局/Grid/grid-auto-flow.md",
     "_posts/base/css/总结/布局/Grid/grid.md",
     "_posts/base/css/总结/布局/Grid/grid-template.md",
@@ -434,7 +439,6 @@
     "_posts/base/css/总结/布局/Grid/justify-self.md",
     "_posts/base/css/总结/布局/Grid/grid-area.md",
     "_posts/base/css/总结/布局/Grid/grid-column-start、grid-column-end、grid-row-start、grid-row-end.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/总结/布局/Grid/align-content.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "_posts/base/css/总结/布局/Grid/justify-content.md",
@@ -444,10 +448,6 @@
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
     "_posts/base/css/总结/布局/Flexbox/fr单位.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid.md",
-    "_posts/base/css/待整理/2019-12-18_Grid.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
-    "_posts/base/css/待整理/排版-Flex2.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",

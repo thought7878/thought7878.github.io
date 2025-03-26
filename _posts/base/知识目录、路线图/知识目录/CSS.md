@@ -1,4 +1,4 @@
-- [ ] 整理CSS知识目录 [created:: 2025-03-22T21:23:02] [start:: 2025-03-22T21:23:09] [🍅:: 7]  ^pbfg
+- [ ] 整理CSS知识目录 [created:: 2025-03-22T21:23:02] [start:: 2025-03-22T21:23:09] [🍅:: 8]  ^pbfg
 
 
 学习CSS（Cascading Style Sheets，层叠样式表）是前端开发的重要一环。CSS用于*控制网页的外观和布局*，与HTML结合使用可以创建美观且功能强大的网页。以下是一个详细的学习内容和学习计划，帮助你系统地掌握CSS。
@@ -96,25 +96,29 @@
 - 子项属性
 
 ## **网格布局（Grid）**
-- [ ] [[网格布局（Grid Layout）]] [created:: 2025-03-25T20:21:40] [start:: 2025-03-25T20:21:44] [🍅:: 9]  ^hzca
-- 定义网格容器：`display: grid`
-- 划分行和列：`grid-template-rows`、`grid-template-columns`
-- 定位子项：`grid-row`、`grid-column`
+- [ ] [[网格布局（Grid Layout）]] [created:: 2025-03-25T20:21:40] [start:: 2025-03-25T20:21:44] [completion:: 2025-03-26T22:20:48]  [🍅:: 10]  ^hzca
+- **定义网格容器**：`display: grid`
+- **划分行和列**：`grid-template-rows`、`grid-template-columns`
+- **定位子项**：`grid-row`、`grid-column`
 
 ## **响应式设计**
+- [ ] [[响应式设计]] [created:: 2025-03-26T22:22:14] 
 - 媒体查询（Media Queries）：`@media`规则
 - 移动优先设计原则。
 - 使用`meta`标签设置视口
 
+
 # 动画与交互
-## 过渡（Transitions）
+参考：[[动画]]
+
+## 过渡（Transition）
 - `transition-property`、`transition-duration`、`transition-timing-function`
 
-## 动画（Animations）
+## 动画（Animation）
 - `@keyframes`规则定义动画。
 - 动画属性：`animation-name`、`animation-duration`、`animation-iteration-count`
 
-## 变换（Transforms）
+## 变换（Transform）
 - `transform`属性：`translate`、`rotate`、`scale`
 
 
