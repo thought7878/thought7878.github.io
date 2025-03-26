@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/布局/Grid/align-self.md",
+                "file": "_posts/base/css/总结/布局/Grid/grid-template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "align-self"
+              "title": "grid-template"
             }
           }
         ],
@@ -451,12 +451,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "83a51887cef26a6b",
+  "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "_posts/base/css/总结/布局/Grid/align-self.md",
     "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
-    "_posts/base/css/总结/布局/Grid/justify-self.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
+    "_posts/base/css/总结/布局/Grid/grid-template.md",
+    "_posts/base/css/总结/布局/Grid/place-self.md",
+    "_posts/base/css/总结/布局/Grid/align-self.md",
+    "_posts/base/css/总结/布局/Grid/justify-self.md",
     "_posts/base/css/总结/布局/Grid/grid-area.md",
     "_posts/base/css/总结/布局/Grid/grid-column-start、grid-column-end、grid-row-start、grid-row-end.md",
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
@@ -490,8 +492,6 @@
     "_posts/base/css/待整理/排版-Flex1.md",
     "_posts/base/css/总结/布局/Grid",
     "_posts/base/css/总结/布局/Flexbox",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/algorithm & 数据结构/算法题/二叉树/中序遍历.md",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/头条真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题/未命名",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题",

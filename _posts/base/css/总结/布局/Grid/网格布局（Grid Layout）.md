@@ -57,9 +57,13 @@ CSS `网格布局（Grid Layout）`是一种*强大的二维布局系统*，允�
 
 ![](assets/排版-Grid-API/2023-09-19-13-57-06-image.png)
 
+#### `grid-template`
+是的简写形式。
+
+参考：[[grid-template]]
 
 
-#### 2.2  `gap`、row-gap、column-gap
+#### 2.2  `gap`、`row-gap`、`column-gap`
 定义*网格之间的间距*（行间距和列间距）。
 gap 是 row-gap 和 column-gap 的简写。
 
@@ -142,7 +146,7 @@ place-content:<align-content>/<justify-content>
 
 ### 3. 网格项目的属性
 
-#### `grid-column-start`、`grid-column-end`、`grid-row-start`、`grid-row-end`
+#### 3.1 `grid-column-start`、`grid-column-end`、`grid-row-start`、`grid-row-end`
 以上这几个属性，用于**控制项目的位置、项目所占网格大小**，*参考特定的网格线确定项目在网格内的位置*。 
 
 - **grid-column-start:**  指定项目在列轴上的起始位置
@@ -152,7 +156,7 @@ place-content:<align-content>/<justify-content>
 
 参考：[[grid-column-start、grid-column-end、grid-row-start、grid-row-end]]
 
-#### 3.1 `grid-column` 和 `grid-row`
+#### 3.2 `grid-column` 和 `grid-row`
 是 grid-column-start、grid-column-end、grid-row-start、grid-row-end 的*简写形式*。定义*项目占据的列和行范围*。
 
 参考：[[grid-column-start、grid-column-end、grid-row-start、grid-row-end#5. `grid-column` 和 `grid-row`]]
@@ -164,7 +168,7 @@ place-content:<align-content>/<justify-content>
 }
 ```
 
-#### 3.2 `grid-area`
+#### 3.3 `grid-area`
 定义*项目占据的网格区域*（可以结合 `grid-template-areas` 使用）。
 
 参考：[[grid-area]]
@@ -181,7 +185,7 @@ place-content:<align-content>/<justify-content>
 }
 ```
 
-#### 3.3 `justify-self` 和 `align-self`
+#### 3.4 `justify-self` 和 `align-self`
 参考：[[justify-self]]、[[align-self]]
 
 *单独*定义某个项目的对齐方式：
@@ -194,6 +198,33 @@ place-content:<align-content>/<justify-content>
     align-self: center; /* 垂直居中对齐 */
 }
 ```
+
+#### 3.5 `place-self`
+该属性为`justify-self`和`align-self`的简写模式。
+如果省略第二个值，则将第一个值分配给这两个属性。
+
+参考：[[place-self#3. 不同取值的效果]]
+
+```css
+place-self: <align-self> <justify-self>;
+```
+
+
+```css
+.item-a {
+  place-self: center;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-18-35-image.png)
+
+```css
+.item-a {
+  place-self: center stretch;
+}
+```
+
+![](assets/排版-Grid-API/2023-09-19-21-20-55-image.png)
 
 
 
@@ -283,6 +314,7 @@ CSS 网格布局是一种强大的工具，能够帮助开发者轻松实现复�
 
 
 ### 参考资料
+- [A Complete Guide to CSS Grid | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-column-row-start-end)
 - [[2019-12-18-排版-Grid]]
 - [[2019-12-18-排版-Grid-API]]
 - [[2019-12-18_Grid]]
