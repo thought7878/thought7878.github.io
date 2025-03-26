@@ -44,7 +44,7 @@ CSS `网格布局（Grid Layout）`是一种*强大的二维布局系统*，允�
 ### 2. 网格容器的属性
 
 #### 2.1 `grid-template-columns` 和 `grid-template-rows`
-*定义网格的列和行的大小*。空格代表网格线。
+*定义网格的列、行的大小、数量*。空格代表网格线。
 
 参考：[[grid-template-rows & grid-template-columns]]
 
@@ -107,7 +107,7 @@ gap 是 row-gap 和 column-gap 的简写。
 }
 ```
 
-#### `place-items`
+#### 2.6 `place-items`
 是`align-items` 和 `justify-items`的简写形式。
 
 ```css
@@ -116,7 +116,7 @@ place-items: <align-items> <justify-items>;
 
 参考：[[place-items]]
 
-#### 2.6 `justify-content` 和 `align-content`
+#### 2.7 `justify-content` 和 `align-content`
 定义*整个网格在容器内的对齐方式*（当网格尺寸小于容器时）：
 - `justify-content`：水平方向（列轴）的对齐方式。
 - `align-content`：垂直方向（行轴）的对齐方式。
@@ -130,18 +130,32 @@ place-items: <align-items> <justify-items>;
 }
 ```
 
+#### 2.8 `place-content`
+是 align-content 和 justify-content的缩写。
+
+```css
+place-content:<align-content>/<justify-content>
+```
+
+
 ---
 
 ### 3. 网格项目的属性
+
+#### `grid-column-start`、`grid-column-end`、`grid-row-start`、`grid-row-end`
+以上这几个属性，用于**控制项目的位置、项目所占网格大小**，*参考特定的网格线确定项目在网格内的位置*。 
 
 - **grid-column-start:**  指定项目在列轴上的起始位置
 - **grid-column-end:**  指定项目在列轴上的结束位置
 - **grid-row-start:**  指定项目在行轴上的起始位置
 - **grid-row-end:**  指定项目在行轴上的结束位置
 
+参考：[[grid-column-start、grid-column-end、grid-row-start、grid-row-end]]
 
 #### 3.1 `grid-column` 和 `grid-row`
-定义项目占据的列和行范围。
+是 grid-column-start、grid-column-end、grid-row-start、grid-row-end 的*简写形式*。定义*项目占据的列和行范围*。
+
+参考：[[grid-column-start、grid-column-end、grid-row-start、grid-row-end#5. `grid-column` 和 `grid-row`]]
 
 ```css
 .item {
@@ -151,18 +165,28 @@ place-items: <align-items> <justify-items>;
 ```
 
 #### 3.2 `grid-area`
-定义项目占据的网格区域（可以结合 `grid-template-areas` 使用）。
+定义*项目占据的网格区域*（可以结合 `grid-template-areas` 使用）。
+
+参考：[[grid-area]]
 
 ```css
 .item {
+	/* 分配命名区域 */
+	grid-area: <area-name>;
+
+	/* 指定位置和跨越范围 */
+	grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
+	
     grid-area: 1 / 2 / 3 / 4; /* 起始行/起始列/结束行/结束列 */
 }
 ```
 
 #### 3.3 `justify-self` 和 `align-self`
-单独定义某个项目的对齐方式：
-- `justify-self`：水平方向（列轴）的对齐方式。
-- `align-self`：垂直方向（行轴）的对齐方式。
+参考：[[justify-self]]、[[align-self]]
+
+*单独*定义某个项目的对齐方式：
+- `justify-self`：水平方向（*列*轴）的对齐方式。
+- `align-self`：垂直方向（*行*轴）的对齐方式。
 
 ```css
 .item {

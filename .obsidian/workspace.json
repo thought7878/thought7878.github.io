@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/布局/Grid/align-content.md",
+                "file": "_posts/base/css/总结/布局/Grid/align-self.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "align-content"
+              "title": "align-self"
             }
           }
         ],
@@ -453,17 +453,21 @@
   },
   "active": "83a51887cef26a6b",
   "lastOpenFiles": [
-    "_posts/base/css/总结/布局/Grid/align-content.md",
+    "_posts/base/css/总结/布局/Grid/align-self.md",
     "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
-    "_posts/base/css/总结/布局/Grid/justify-content.md",
+    "_posts/base/css/总结/布局/Grid/justify-self.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
+    "_posts/base/css/总结/布局/Grid/grid-area.md",
+    "_posts/base/css/总结/布局/Grid/grid-column-start、grid-column-end、grid-row-start、grid-row-end.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "_posts/base/css/总结/布局/Grid/align-content.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
+    "_posts/base/css/总结/布局/Grid/justify-content.md",
     "_posts/base/css/总结/布局/Grid/place-items.md",
     "_posts/base/css/总结/布局/Grid/align-items.md",
     "_posts/base/css/总结/布局/Grid/justify-items.md",
     "_posts/base/css/总结/布局/Grid/grid-template-areas.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/总结/布局/Grid/grid-template-rows & grid-template-columns.md",
     "_posts/base/css/总结/布局/Flexbox/fr单位.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid.md",
@@ -488,10 +492,6 @@
     "_posts/base/css/总结/布局/Flexbox",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
     "_posts/algorithm & 数据结构/算法题/二叉树/中序遍历.md",
-    "_posts/algorithm & 数据结构/算法题/栈与队列/5.滑动窗口问题.md",
-    "_posts/algorithm & 数据结构/算法题/链表/1.合并有序链表.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/头条真题/柱状图中的最大矩形.md",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/头条真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题/未命名",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题",
