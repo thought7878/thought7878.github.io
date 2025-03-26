@@ -90,6 +90,7 @@ gap 是 row-gap 和 column-gap 的简写。
 
 #### 2.4 `grid-template-areas`
 通过命名区域创建语义化的布局。
+参考：[[grid-template-areas]]
 
 ```css
 .container {
