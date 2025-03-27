@@ -2,7 +2,7 @@
 
 ## 1. 是什么？
 
-关键帧动画（`@keyframes`）是 CSS 中的一种动画技术，允许开发者通过定义一组样式规则，并在指定的时间点应用这些规则，从而创建复杂的、多阶段的动画效果。与 CSS 的 `transition` 不同，关键帧动画可以精确控制动画的每个阶段，适用于需要分步骤展示或循环播放的场景。
+**关键帧动画**（`@keyframes`）是 CSS 中的一种动画技术，允许开发者*通过定义一组样式规则，并在指定的时间点应用这些规则，从而创建**复杂的、多阶段的**动画效果*。与 CSS 的 `transition` 不同，关键帧动画可以*精确控制动画的每个阶段*，适用于*需要分步骤展示或循环播放的场景*。
 
 **核心概念：**
 
@@ -18,7 +18,7 @@
 
 ### (1) 支持复杂动画
 
-CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的变化，而关键帧动画可以通过 `@keyframes` 定义多个时间点的状态，从而实现更复杂的动画效果。
+CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的变化，而关键帧动画可以*通过 `@keyframes` 定义多个时间点的状态*，从而*实现更复杂的动画效果*。
 
 **示例：颜色渐变 + 尺寸变化**
 
@@ -49,7 +49,7 @@ CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的
 
 ### (2) 精确控制动画阶段
 
-通过 `@keyframes`，你可以为动画的不同阶段设置不同的样式规则。这种灵活性使得关键帧动画非常适合需要分阶段展示的场景。
+通过 `@keyframes`，你可以*为动画的不同阶段设置不同的样式规则*。这种灵活性使得关键帧动画*非常适合需要分阶段展示的场景*。
 
 **示例：文字逐字显示**
 
@@ -75,7 +75,7 @@ CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的
 
 ### (3) 自动播放和循环
 
-关键帧动画支持自动播放和循环功能，而无需额外的 JavaScript 控制。这对于制作加载动画、背景动画等非常有用。
+关键帧动画支持*自动播放和循环功能*，而无需额外的 JavaScript 控制。这对于制作加载动画、背景动画等非常有用。
 
 **示例：旋转加载动画**
 
@@ -103,13 +103,13 @@ CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的
 
 ### (4) 性能优化
 
-关键帧动画通常由浏览器的渲染引擎优化，特别是当使用 `transform` 和 `opacity` 属性时，动画可以在 GPU 上运行，从而提高性能。
+关键帧动画通常由浏览器的渲染引擎优化，特别是当使用 `transform` 和 `opacity` 属性时，*动画可以在 GPU 上运行，从而提高性能*。
 
 ---
 
 ### (5) 更丰富的用户体验
 
-关键帧动画可以用来增强用户界面的交互性和吸引力。例如：
+关键帧动画可以用来*增强用户界面的交互性和吸引力*。例如：
 
 - 按钮点击后的动态反馈。
 - 页面加载时的欢迎动画。
@@ -139,7 +139,25 @@ CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的
 
 ### (2) 关键帧的定义
 
-通过 `@keyframes` 定义动画的关键帧，可以使用百分比（如 `0%`, `50%`, `100%`）或关键字（如 `from`, `to`）来表示动画的不同阶段。
+通过 `@keyframes` 定义动画的关键帧（*即每个时间点的状态*），可以使用*百分比*（如 `0%`, `50%`, `100%`）或*关键字*（如 `from`, `to`）来*表示动画的不同阶段*。
+
+```css
+@keyframes <animation-name> {
+    from { /* 初始状态 */ }
+    to { /* 结束状态 */ }
+}
+
+/* 百分比，定义多个关键帧 */
+@keyframes <animation-name> {
+    0% { /* 初始状态 */ }
+    50% { /* 中间状态 */ }
+    100% { /* 结束状态 */ }
+}
+```
+
+- **`from` 和 `to`**：分别表示动画的*起始*和*结束*状态。
+- **百分比**：可以定义*任意数量*的关键帧，*精确控制*动画的每一阶段。
+
 
 **示例：简单的移动动画**
 
@@ -158,19 +176,71 @@ CSS 过渡（Transition）只能处理单个属性从一个值到另一个值的
 
 ### (3) animation 属性
 
-将定义好的关键帧动画应用到元素上，需要使用 `animation` 属性。以下是其常用子属性：
+将定义好的关键帧动画*应用到元素上*，需要使用 `animation` 属性。以下是其常用子属性：
 
-- **animation-name**: 动画名称（与 `@keyframes` 定义的名称一致）。
-- **animation-duration**: 动画持续时间（单位为秒或毫秒）。
-- **animation-timing-function**: 动画的速度曲线（如 `ease`, `linear`）。
-- **animation-delay**: 动画开始前的延迟时间。
-- **animation-iteration-count**: 动画的播放次数（如 `infinite` 表示无限循环）。
-- **animation-direction**: 动画的方向（如 `normal`, `reverse`, `alternate`）。
-- **animation-fill-mode**: 动画结束后的状态（如 `forwards` 保持最终状态）。
+#### `animation-name`
+- 指定动画的名称，必须与 `@keyframes` 定义的名称一致。
 
-**简写形式：**
+#### `animation-duration`
+- 定义动画的持续时间。
+- 示例：`4s` 表示动画持续 4 秒。
+
+#### `animation-timing-function`
+- 定义动画的速度曲线。
+- 常见取值：
+  - `ease`（默认值）：慢速开始和结束。
+  - `linear`：匀速变化。
+  - `ease-in`：慢速开始。
+  - `ease-out`：慢速结束。
+  - `cubic-bezier(n1, n2, n3, n4)`：自定义贝塞尔曲线。
+
+#### `animation-delay`
+- 定义动画开始前的延迟时间。
+- 示例：`0.5s` 表示延迟 0.5 秒后开始。
+
+#### `animation-iteration-count`
+- 定义动画的播放次数。
+- 常见取值：
+  - 数字：如 `3` 表示播放 3 次。
+  - `infinite`：无限循环播放。
+
+#### `animation-direction`
+- 定义动画的播放方向。
+- 常见取值：
+  - `normal`（默认值）：正向播放。
+  - `reverse`：反向播放。
+  - `alternate`：正向和反向交替播放。
+  - `alternate-reverse`：反向和正向交替播放。
+
+#### `animation-fill-mode`
+- 定义动画结束后的样式。
+- 常见取值：
+  - `none`：动画结束后恢复初始状态。
+  - `forwards`：动画结束后保持最后一帧的样式。
+  - `backwards`：动画开始前应用第一帧的样式。
+  - `both`：结合 `forwards` 和 `backwards`。
+
+#### `animation-play-state`
+- 控制动画的播放状态。
+- 常见取值：
+  - `running`（默认值）：动画正在播放。
+  - `paused`：暂停动画。
+
 
 ```css
+/* 单独设置 */
+animation-name: <animation-name>;
+animation-duration: <time>;
+animation-timing-function: <timing-function>;
+animation-delay: <time>;
+animation-iteration-count: <number>|infinite;
+animation-direction: normal|reverse|alternate|alternate-reverse;
+animation-fill-mode: none|forwards|backwards|both;
+animation-play-state: running|paused;
+
+/* 简写形式 */
+animation: <name> <duration> <timing-function> <delay> <iteration-count> <direction> <fill-mode> <play-state>;
+
 animation: 动画名称 持续时间 速度曲线 延迟时间 播放次数 方向 填充模式;
 ```
 
