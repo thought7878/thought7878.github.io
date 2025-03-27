@@ -122,14 +122,15 @@
 - 为什么需要？
 
 ## 变换（Transform）
-参考：[[变换（Transform）]]
-
-- 
+- [[变换（Transform）]]
+- Why？What？
 
 
 # 现代特性
 ## CSS变量（Custom Properties）
-- 定义和使用变量
+- [[CSS变量]]
+- 为什么使用变量？
+- 如何定义、使用变量？
 
 ## 现代框架实践
 - Tailwind CSS：原子化工具类
