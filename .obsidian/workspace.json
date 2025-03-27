@@ -224,12 +224,12 @@
             }
           },
           {
-            "id": "e0eb859578fd6361",
+            "id": "38ef4679bc3720ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/动画/过渡（Transition）.md",
+                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +244,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "过渡（Transition）"
+              "title": "2025-03-27"
+            }
+          },
+          {
+            "id": "e0eb859578fd6361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "关键帧动画（Animation）"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -399,7 +423,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/css/总结/动画/过渡（Transition）.md",
+                "file": "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +433,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "过渡（Transition） 的反向链接列表"
+              "title": "关键帧动画（Animation） 的反向链接列表"
             }
           },
           {
@@ -450,12 +474,12 @@
   },
   "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
+    "_posts/base/css/总结/动画/过渡（Transition）.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/base/css/总结/动画/过渡（Transition）.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
     "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
