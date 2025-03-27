@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+                "file": "_posts/base/css/总结/动画/（Animation）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "关键帧动画（Animation）"
+              "title": "（Animation）"
             }
           }
         ],
@@ -423,7 +423,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+                "file": "_posts/base/css/总结/动画/（Animation）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -433,7 +433,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "关键帧动画（Animation） 的反向链接列表"
+              "title": "（Animation） 的反向链接列表"
             }
           },
           {
@@ -472,20 +472,25 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "e0eb859578fd6361",
   "lastOpenFiles": [
+    "_posts/base/css/总结/动画/关键帧动画（CSS Animation）.md",
+    "_posts/base/css/总结/动画/（Animation）.md",
+    "_posts/base/css/总结/动画/变换（Transform）.md",
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
+    "_posts/base/css/总结/动画/动画.md",
+    "_posts/要整理的.md",
+    "_posts/base/js/知识点总结/正则表达式/正则表达式.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/常看的.md",
     "_posts/base/css/总结/动画/过渡（Transition）.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
     "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/base/css/总结/动画/变换（Transform）.md",
-    "_posts/base/css/总结/动画/动画.md",
     "_posts/base/css/总结/响应式设计/响应式设计.md",
     "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
@@ -495,11 +500,6 @@
     "_posts/base/css/总结/布局/Grid/grid-template-areas.md",
     "_posts/base/css/总结/布局/Grid/grid-template-rows & grid-template-columns.md",
     "_posts/base/css/总结/布局/Grid/place-self.md",
-    "_posts/base/css/总结/布局/Grid/align-self.md",
-    "_posts/base/css/总结/布局/Grid/justify-self.md",
-    "_posts/base/css/总结/布局/Grid/grid-area.md",
-    "_posts/base/css/总结/布局/Grid/grid-column-start、grid-column-end、grid-row-start、grid-row-end.md",
-    "_posts/base/css/总结/布局/Grid/align-content.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
