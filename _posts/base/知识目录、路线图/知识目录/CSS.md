@@ -112,16 +112,19 @@
 参考：[[动画]]
 
 ## 过渡（Transition）
-- `transition-property`、`transition-duration`、`transition-timing-function`
+参考：[[过渡（Transition）]]
 
-## 动画（Animation）
-- `@keyframes`规则定义动画。
-- 动画属性：`animation-name`、`animation-duration`、`animation-iteration-count`
+- 为什么需要？
+
+## 关键帧动画（Animation）
+参考：[[关键帧动画（Animation）]]
+
+- 
 
 ## 变换（Transform）
 参考：[[变换（Transform）]]
 
-- `transform`属性：`translate`、`rotate`、`scale`
+- 
 
 
 # 现代特性

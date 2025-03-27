@@ -1,12 +1,72 @@
 CSS 的 **过渡（Transitions）** 是一种用于*在元素的样式属性发生变化时，平滑地应用动画效果的技术*。它可以让状态之间的变化更加自然和流畅，从而提升用户体验。
 
+## Why
+使用 CSS 的过渡（Transition）的主要原因是：
+1. 提升用户体验，让界面变化更加自然。
+2. 简化动画实现，减少代码复杂性。
+3. 性能优化，利用 GPU 加速提高流畅度。
+
 ---
+
+### 1. 提升用户体验
+CSS 过渡可以让界面*变化更加自然和平滑*，从而减少用户的认知负担。例如：
+- 按钮悬停时的颜色渐变。
+- 元素显示或隐藏时的淡入淡出效果。
+- 页面滚动时导航栏的动态收起或展开。
+
+这些平滑的变化让用户感受到界面的“生命力”，*而不是突兀地切换状态，从而提升整体的用户体验*。
+
+---
+
+### 2. 简化动画实现、减少代码复杂性
+相比于 JavaScript 动画，CSS 过渡是一种*更轻量级的解决方案*。*它不需要编写复杂的逻辑*代码即可实现*简单的动画效果*。例如：
+
+**示例：按钮悬停效果**
+```css
+button {
+  background-color: blue;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+}
+```
+
+*通过简单的 `transition` 属性*，按钮在鼠标悬停时会自动产生颜色渐变效果，而无需额外的 JavaScript 代码。
+
+---
+
+### 3. 性能优化
+现代浏览器*对 CSS 过渡进行了优化，支持硬件加速*（GPU 加速）。尤其是当使用 `transform` 和 `opacity` 属性时，这些操作可以被 GPU 加速，*动画会在 GPU 上运行*，从而显著提升性能。相比之下，*JavaScript 动画可能会占用更多主线程*，导致页面卡顿。
+
+参考：[[#性能优化]]
+
+示例：
+```css
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 0.5s ease;
+}
+
+.box:hover {
+  transform: translateX(200px);
+}
+```
+
+使用 `transform` 实现平滑位移。在这个例子中，`transform` 的动画*不会触发重排或重绘，而是由 GPU 直接处理，因此动画流畅且高效*。
+
+
+---
+## What
 
 ### 1. 过渡的基本概念
 
 #### 作用
-- **平滑变化**：*当元素的 CSS 属性值发生变化时*（例如通过伪类 `:hover` 或 JavaScript 动态修改），**过渡为其添加动画效果**。
-- **增强体验**：过渡让界面的变化更自然，避免了突兀的视觉跳跃。
+- **平滑变化**：*当元素的 CSS 属性值发生变化时*（例如通过伪类 `:hover` 或 JavaScript 动态修改），**过渡为其添加简单的动画效果**。
+- **增强体验**：过渡让界面的变化更自然，*避免了突兀的视觉跳跃*。
 
 #### 核心组成部分
 要实现过渡效果，需要指定以下*四个关键属性：*
@@ -108,7 +168,7 @@ transition: <property> <duration> <timing-function> <delay>;
 
 ### 5. 注意事项
 
-1. **可过渡的属性**：
+#### 可过渡的属性
    - *并非所有 CSS 属性都支持过渡效果*。常见的可过渡属性包括：
      - 尺寸相关：`width`、`height`、`margin`、`padding`。
      - 颜色相关：`color`、`background-color`、`border-color`。
@@ -116,15 +176,53 @@ transition: <property> <duration> <timing-function> <delay>;
      - 透明度：`opacity`。
    - *不支持过渡的属性*：如 `display` 和 `visibility`。
 
-2. **性能优化**：
-   - 尽量避免对昂贵的属性（如 `width`、`height`）进行过渡，**推荐使用 `transform` 和 `opacity`，因为它们由 GPU 加速，性能更高**。
+#### 性能优化
+尽量避免对昂贵的属性（如 `width`、`height`）进行过渡，**推荐使用 `transform` 和 `opacity`，因为它们由 GPU 加速，性能更高**。
 
-3. **兼容性**：
+以下属性是 CSS 过渡中性能较高的选择：
+- `transform`（如 `translate`, `scale`, `rotate`）
+- `opacity`
+- `filter`（部分场景下）
+
+*避免对昂贵的属性*（如 `width`, `height`, `margin`, `box-shadow`）进行频繁的过渡操作，因为它们可能*触发重排（reflow）或重绘（repaint）*，影响性能。
+
+
+#### 与其他动画技术的结合
+尽管 CSS 过渡适合简单的动画效果，但对于复杂的动画需求，可以结合其他技术（如 `@keyframes` 或 JavaScript）来实现更丰富的交互效果。
+
+**示例：结合 `@keyframes` 实现复杂动画**
+```css
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.box {
+  animation: slideIn 1s ease-in-out;
+  transition: opacity 0.5s ease;
+}
+
+.box:hover {
+  opacity: 0.5;
+}
+```
+
+#### 兼容性
    - 过渡效果在现代浏览器中广泛支持，但在老旧浏览器中可能需要回退方案。
 
 ---
 
-### 6. 示例分析
+### 6. 应用场景
+CSS 过渡可以应用于各种常见的交互场景，包括但不限于：
+- **按钮和链接**：悬停效果、点击反馈。
+- **导航菜单**：展开/折叠效果。
+- **模态框**：显示/隐藏时的淡入淡出。
+- **图片轮播**：平滑切换效果。
+- **加载动画**：进度条或旋转图标。
 
 #### 示例 1：按钮悬停效果
 ```css
@@ -162,7 +260,7 @@ transition: <property> <duration> <timing-function> <delay>;
 
 ---
 
-#### 示例 3：延迟加载
+#### 示例 3：延迟加载（非hover情况）
 ```css
 .image {
     opacity: 0;

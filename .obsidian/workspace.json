@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/CSS.md",
+                "file": "_posts/base/css/总结/动画/过渡（Transition）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "过渡（Transition）"
             }
           }
         ],
@@ -392,6 +392,35 @@
               "icon": "calendar-days",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "3215013a7da1b2d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/base/css/总结/动画/过渡（Transition）.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "过渡（Transition） 的反向链接列表"
+            }
+          },
+          {
+            "id": "509635561c5b16bc",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
         "currentTab": 2
@@ -409,7 +438,6 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
-      "media-extended:Open media": false,
       "templater-obsidian:Templater": false,
       "pomodoro-timer:Toggle timer panel": false,
       "obsidian-day-planner:Open Timeline": false,
@@ -420,13 +448,20 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e0eb859578fd6361",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/base/css/总结/动画/变换（Transform）.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "_posts/base/css/总结/动画/动画.md",
-    "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
     "_posts/base/css/总结/动画/过渡（Transition）.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
+    "_posts/base/css/总结/动画/关键帧动画（Animation）.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
+    "DailyNote/Templates/Daily Note.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/base/css/总结/动画/变换（Transform）.md",
+    "_posts/base/css/总结/动画/动画.md",
     "_posts/base/css/总结/响应式设计/响应式设计.md",
     "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
     "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
@@ -441,13 +476,6 @@
     "_posts/base/css/总结/布局/Grid/grid-area.md",
     "_posts/base/css/总结/布局/Grid/grid-column-start、grid-column-end、grid-row-start、grid-row-end.md",
     "_posts/base/css/总结/布局/Grid/align-content.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
-    "_posts/base/css/总结/布局/Grid/justify-content.md",
-    "_posts/base/css/总结/布局/Grid/place-items.md",
-    "_posts/base/css/总结/布局/Grid/align-items.md",
-    "_posts/base/css/总结/布局/Grid/justify-items.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
-    "_posts/base/css/总结/布局/Flexbox/fr单位.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
