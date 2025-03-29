@@ -369,7 +369,7 @@ Ali Abdaal 在视频中讨论了为课程制定教学大纲的重要性，强调
 一、学习三部曲
 
 1. 理解 2-the 3 steps of effective studying P2 - 00:24
-2. *在记忆前应先理解，理解是有效学习中最重要的部分，脱离理解的记忆毫无意义*
+2. _在记忆前应先理解，理解是有效学习中最重要的部分，脱离理解的记忆毫无意义_
 3. 可以采取费曼学习法，确定自己已经理解
 4. 记忆 2-the 3 steps of effective studying P2 - 01:31
 5. 间隔重复来避免遗忘
@@ -790,10 +790,10 @@ Ali Abdaal 在视频中讨论了为课程制定教学大纲的重要性，强调
 
 [《make it stick》--- 十六分钟教你如何科学学习](https://www.bilibili.com/video/BV1k5PeeKECR/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
-🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:26) - (end:: 2025-03-21T17:27)
+🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId:: ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:26) - (end:: 2025-03-21T17:27)
 ☕️ (pomodoro:: BREAK) (duration:: 1m) (begin:: 2025-03-21T17:34) - (end:: 2025-03-21T17:35)
-🍅 (pomodoro:: WORK) (taskName:: - [ ] 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53] [🍅:: 3] ^rxjn) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:36) - (end:: 2025-03-21T17:37)
-🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId::  ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:39) - (end:: 2025-03-21T17:40)
-
+🍅 (pomodoro:: WORK) (taskName:: - [ ] 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53] [🍅:: 3] ^rxjn) (blockLinkId:: ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:36) - (end:: 2025-03-21T17:37)
+🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId:: ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:39) - (end:: 2025-03-21T17:40)
 
 asdfasfd
+kl
