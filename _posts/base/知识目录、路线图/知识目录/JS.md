@@ -22,7 +22,7 @@ To use variables in JavaScript, we first need to create it i.e. declare a variab
 - Block
 
 # Data types
-参考 [[基本数据类型、引用数据类型]]
+参考 [[基本数据类型、引用数据类型]]、[[12.栈空间和堆空间：数据是如何存储的？]]
 
 ## Primitive Types
 7种原始类型、基本类型
