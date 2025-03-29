@@ -99,6 +99,7 @@ Arrays are objects that store a collection of items and can be assigned to a var
 
 # Loops and Iterations
 循环和迭代
+[[循环]]
 
 ## for
 

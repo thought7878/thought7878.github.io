@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "d170237f3abdd851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1：Dataview · DQL查询语言"
-            }
-          },
-          {
             "id": "a98ce650859d3fe4",
             "type": "leaf",
             "state": {
@@ -229,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
+                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-27"
+              "title": "2025-03-29"
             }
           },
           {
@@ -253,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/CSS.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,11 +244,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "12.栈空间和堆空间：数据是如何存储的？"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -423,7 +399,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/CSS.md",
+                "file": "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -433,7 +409,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CSS 的反向链接列表"
+              "title": "12.栈空间和堆空间：数据是如何存储的？ 的反向链接列表"
             }
           },
           {
@@ -474,32 +450,32 @@
   },
   "active": "e0eb859578fd6361",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "_posts/base/css/总结/CSS变量.md",
-    "_posts/要整理的.md",
-    "_posts/base/css/总结/变量.md",
+    "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/循环.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
+    "_posts/base/知识目录、路线图/知识目录/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
+    "_posts/algorithm & 数据结构/算法题/链表/1.合并有序链表.md",
+    "_posts/algorithm & 数据结构/算法题/链表/2.删除链表重复的结点.md",
+    "_posts/algorithm & 数据结构/算法题/链表/3.删除重复值的所有结点—dummy 结点.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-28.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
     "DailyNote/Templates/Daily Note.md",
-    "_posts/base/css/总结/动画/变换（Transform）.md",
-    "_posts/base/css/总结/动画/变换（）.md",
-    "_posts/base/css/总结/动画/关键帧动画（CSS Animation）.md",
-    "_posts/base/css/总结/动画/（Animation）.md",
-    "_posts/base/css/总结/动画/动画.md",
-    "_posts/base/js/知识点总结/正则表达式/正则表达式.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/常看的.md",
-    "_posts/base/css/总结/动画/过渡（Transition）.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/合并有序链表.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/虚拟头节点（Dummy Head）.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）-QW.md",
+    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
+    "_posts/base/知识目录、路线图/知识目录/CSS.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/base/css/总结/响应式设计/响应式设计.md",
-    "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
-    "_posts/base/css/待整理/2019-12-18-排版-Grid-API.md",
-    "_posts/base/css/总结/布局/Grid/grid-auto-flow.md",
-    "_posts/base/css/总结/布局/Grid/grid.md",
-    "_posts/base/css/总结/布局/Grid/grid-template.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/base/css/总结/CSS变量.md",
+    "_posts/base/css/总结/动画/变换（Transform）.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
     "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
     "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",

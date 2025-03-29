@@ -56,10 +56,10 @@
 - **指定位置删除**：调整前驱节点的 `next` 以跳过目标节点（O(n)）。
 
 **查找** ：
-查找链表中的某个节点。
+查找链表中的某个节点。参考：[[#查找]]
 
 **遍历** ：
-遍历链表中的所有节点。
+遍历链表中的所有节点。参考：[[#遍历]]
 
 **反转链表**：
 通过迭代调整指针方向，将每个节点的 `next` 指向前一个节点。
@@ -141,7 +141,7 @@ class LinkedList {
     } else {
       // 遍历到最后一个节点
       let current = this.head;
-      while (current.next !== null) {//???
+      while (current.next !== null) {//倒数第二个的next不为null，最后一个为null
         current = current.next;
       }
       current.next = newNode;  // 最后一个节点指向新节点
