@@ -200,7 +200,7 @@
             }
           },
           {
-            "id": "38ef4679bc3720ce",
+            "id": "2ec0c28f2cb0200e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -248,7 +248,37 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
+      },
+      {
+        "id": "f84e334819f228db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1844e1d3060613ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/js/知识点总结/内存管理：栈空间、堆空间、代码空间.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "内存管理：栈空间、堆空间、代码空间"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,7 +345,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -371,16 +402,6 @@
               "pinned": true,
               "icon": "timer",
               "title": "Timer"
-            }
-          },
-          {
-            "id": "08058aeabe1ca9ee",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
             }
           },
           {
@@ -444,17 +465,29 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "audio-recorder:开始/结束录音": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e0eb859578fd6361",
+  "active": "3167054cef30078c",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/内存管理：栈空间、堆空间、代码空间.md",
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/ac8efd5634dc90efd518d5d733dd2a9e_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/5b1109008483c32ef6d822688ef74882_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/25a43eee0dbfb54e8f05f5a6ad93ca36_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/42d243c452de5af1cedec6a110235a2d_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/697e301a2e456ef270ad0c01da97270e_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/6716cb6dff7d15dc60e65f97f26d8a3b_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/c283365e37b90c60c9a1e62e39c776b7_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/b1aee9dabda030a801f15288a936b84e_MD5.jpeg",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/Pasted image 20250329094816.png",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
+    "_posts/base/知识目录、路线图/知识目录/JS.md",
     "_posts/base/知识目录、路线图/知识目录/JS_AI总结.md",
     "_posts/base/js/知识点总结/循环.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
     "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
     "_posts/algorithm & 数据结构/算法题/链表/1.合并有序链表.md",
     "_posts/algorithm & 数据结构/算法题/链表/2.删除链表重复的结点.md",
@@ -469,23 +502,11 @@
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）-QW.md",
     "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
     "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/tools/obsidian/插件/Dataview/1：Dataview · DQL查询语言.md",
-    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/base/css/总结/CSS变量.md",
     "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
-    "_posts/base/css/待整理/media/3845eb3abf51985ba60ec407eb3c5cd0_MD5.png",
-    "_posts/base/css/待整理/media/8dfa0a4cb09677d104032acba9873829_MD5.png",
-    "_posts/base/css/待整理/media/8e3468f42e8281a1caf978dcfb575a2c_MD5.png",
-    "_posts/base/css/待整理/media/d5835d008859f785d33316e283bec186_MD5.png",
-    "_posts/base/css/待整理/media/8c829b1ec56a310e76cfd6e49ec5175e_MD5.png",
-    "_posts/base/css/待整理/media/74db8c6a0b769864c1e47b4e51646f09_MD5.png",
-    "_posts/base/css/待整理/media/274df9389619b4f8fb6d8b76592992dd_MD5.png",
-    "_posts/base/css/待整理/media/176a10dae9f49e7d7a12a8420455cf26_MD5.png",
-    "_posts/base/css/待整理/media/bc3002b7cfe0d794e716e5aefe119790_MD5.png",
     "_posts/base/css/待整理/media",
     "_posts/base/css/总结/布局/Grid",
     "_posts/base/css/总结/布局/Flexbox",
@@ -495,7 +516,6 @@
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/Google真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/微软真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读",
-    "_posts/algorithm & 数据结构/算法题/动态规划",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
