@@ -1,10 +1,10 @@
-JavaScript 的 **词法环境（Lexical Environment）** 是 ES6 引入的核心概念，用于管理块级作用域和 `let`/`const` 变量的行为。它与 **变量环境（Variable Environment）** 共同构成执行上下文（Execution Context），支撑现代作用域规则。以下是词法环境的深度解析：
+JavaScript 的 `词法环境（Lexical Environment）` 是 **ES6 引入**的核心概念，用于*管理块级作用域和 `let`/`const` 变量*的行为。它与 **变量环境（Variable Environment）** *共同构成执行上下文（Execution Context）*，支撑现代作用域规则。
 
 ---
 
 ### 一、词法环境的核心特性
-#### 1. **块级作用域（Block Scope）**
-   - `let` 和 `const` 声明的变量仅在代码块（如 `{}`、`if`、`for`）内有效。
+#### 1. 块级作用域（Block Scope）
+   - `let` 和 `const` 声明的变量仅在**代码块**（如 `{}`、`if`、`for`）内有效。
    ```javascript
    if (true) {
      let a = 10;
@@ -14,14 +14,14 @@ JavaScript 的 **词法环境（Lexical Environment）** 是 ES6 引入的核心
    console.log(a); // ReferenceError: a is not defined
    ```
 
-#### 2. **暂时性死区（Temporal Dead Zone, TDZ）**
+#### 2. 暂时性死区（Temporal Dead Zone, TDZ）
    - 变量在声明前不可访问，否则抛出 `ReferenceError`。
    ```javascript
    console.log(x); // ReferenceError: x is not defined
    let x = 5;
    ```
 
-#### 3. **不可重复声明**
+#### 3. 不可重复声明
    - 同一作用域内 `let`/`const` 变量不可重复声明。
    ```javascript
    let a = 1;
@@ -56,7 +56,7 @@ function outer() {
 作用域链通过 **外部引用（Outer）** 串联，逐层向上查找变量：
 1. 当前词法环境 → 2. 外部词法环境 → ... → 全局词法环境。
 
-#### **闭包的本质**
+#### 闭包的本质
 闭包是函数与其定义时的词法环境的组合。内部函数保留对外部环境的引用，即使外部函数已执行完毕。
 ```javascript
 function outer() {
@@ -83,7 +83,7 @@ closure(); // 输出 10（闭包生效）
 ---
 
 ### 五、词法环境的执行流程示例
-#### 1. **块级作用域与循环**
+#### 1. 块级作用域与循环
 ```javascript
 for (let i = 0; i < 3; i++) {
   setTimeout(() => console.log(i)); // 输出 0, 1, 2
@@ -91,7 +91,7 @@ for (let i = 0; i < 3; i++) {
 ```
 - 每次循环迭代创建一个 **新的块级词法环境**，`i` 的值独立保存。
 
-#### 2. **暂时性死区（TDZ）**
+#### 2. 暂时性死区（TDZ）
 ```javascript
 {
   console.log(a); // ReferenceError: a is not defined
@@ -102,7 +102,7 @@ for (let i = 0; i < 3; i++) {
 ---
 
 ### 六、词法环境与异步代码
-#### **事件循环中的闭包**
+#### 事件循环中的闭包
 异步回调通过作用域链访问定义时的词法环境。
 ```javascript
 function asyncTask() {
@@ -117,7 +117,7 @@ asyncTask(); // 1秒后输出 "Loaded"
 ---
 
 ### 七、常见问题与解决方案
-#### 1. **循环中的闭包陷阱（历史问题）**
+#### 1. 循环中的闭包陷阱（历史问题）
 - **问题**：`var` 导致循环变量共享。
   ```javascript
   for (var i = 0; i < 3; i++) {
@@ -131,7 +131,7 @@ asyncTask(); // 1秒后输出 "Loaded"
   }
   ```
 
-#### 2. **意外的全局变量**
+#### 2. 意外的全局变量
 - **问题**：未声明直接赋值，污染全局（严格模式下报错）。
   ```javascript
   function leak() {

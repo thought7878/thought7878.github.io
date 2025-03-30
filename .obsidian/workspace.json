@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "变量环境（Variable Environment）"
+              "title": "词法环境（Lexical Environment）"
             }
           }
         ],
