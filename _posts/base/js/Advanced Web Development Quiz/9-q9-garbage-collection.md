@@ -6,4 +6,4 @@
 
 ## 相关资料
 [[堆、Heap]]
-[[垃圾回收、Garbage Collection]]
+[[垃圾回收（Garbage Collection）]]

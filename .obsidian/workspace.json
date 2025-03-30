@@ -224,12 +224,12 @@
             }
           },
           {
-            "id": "e0eb859578fd6361",
+            "id": "b6994b4a5ec355a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,23 +244,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12.栈空间和堆空间：数据是如何存储的？"
+              "title": "JS"
+            }
+          },
+          {
+            "id": "3593594467552479",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "变量环境（Variable Environment）"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
-        "id": "f84e334819f228db",
+        "id": "7819e829e502dfa8",
         "type": "tabs",
         "children": [
           {
-            "id": "1844e1d3060613ce",
+            "id": "60f5eca29860f23e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/内存管理：栈空间、堆空间、代码空间.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -275,10 +299,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "内存管理：栈空间、堆空间、代码空间"
+              "title": "JavaScript 代码的执行流程-QW"
+            }
+          },
+          {
+            "id": "ea6fbd47d11560a0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "执行上下文.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -465,57 +502,59 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "audio-recorder:开始/结束录音": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "3593594467552479",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/内存管理：栈空间、堆空间、代码空间.md",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
-    "_posts/要整理的.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/ac8efd5634dc90efd518d5d733dd2a9e_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/5b1109008483c32ef6d822688ef74882_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/25a43eee0dbfb54e8f05f5a6ad93ca36_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/42d243c452de5af1cedec6a110235a2d_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/697e301a2e456ef270ad0c01da97270e_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/6716cb6dff7d15dc60e65f97f26d8a3b_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/c283365e37b90c60c9a1e62e39c776b7_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/b1aee9dabda030a801f15288a936b84e_MD5.jpeg",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media/Pasted image 20250329094816.png",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）-DS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-DS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
+    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）与变量环境（Variable Environment）、词法环境（Lexical Environment）.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 函数的执行流程-DS.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
-    "_posts/base/知识目录、路线图/知识目录/JS_AI总结.md",
-    "_posts/base/js/知识点总结/循环.md",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/algorithm & 数据结构/算法题/链表/1.合并有序链表.md",
-    "_posts/algorithm & 数据结构/算法题/链表/2.删除链表重复的结点.md",
-    "_posts/algorithm & 数据结构/算法题/链表/3.删除重复值的所有结点—dummy 结点.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-28.md",
-    "_posts/algorithm & 数据结构/前端算法与数据结构/9、链表的应用——真题归纳与解读.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-30.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
     "DailyNote/Templates/Daily Note.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-28.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/合并有序链表.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/虚拟头节点（Dummy Head）.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/链表（Linked List）-QW.md",
-    "_posts/algorithm & 数据结构/数据结构/链表（Linked List）/遍历链表.md",
-    "_posts/base/知识目录、路线图/知识目录/CSS.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-26.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-25.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/base/css/待整理/media/a877b4c835b27bdc54a37f9fd7f6eea5_MD5.png",
+    "DailyNote/Journal/01 Daily/2025-03-30.md",
+    "_posts/base/js/知识点总结/JS 执行机制",
+    "_posts/base/js/知识点总结/函数/创建阶段、执行阶段.md",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/13.垃圾回收：垃圾数据是如何自动回收的？.md",
+    "_posts/base/js/知识点总结/函数/函数定义方式.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/cdb813ba33bd4bb0e3ecccc8533074b3_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6760c31e7ed47e7c734f577a6b8b2e9c_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/8c609d5d1c1fea66e769c8dd5cbcc1a6_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/1307e5bfc19bf261f5d56641700afc81_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/ba1a2065482654cac7e8edecd2f5a0b3_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/521491c230dabfdf743d7f33e2298de4_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/f1d51067f6fbfbbfa85b275221ea27f0_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6c7c19134dd044a26990e7aa9bbca75e_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/8e70e8248582421e175d09e54b073569_MD5.png",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/171215eb6132102d5e6531e0c47b8627_MD5.png",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/Memory Management",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
+    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
     "_posts/base/css/待整理/media",
     "_posts/base/css/总结/布局/Grid",
     "_posts/base/css/总结/布局/Flexbox",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/头条真题",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题/未命名",
     "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/腾讯真题",
-    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/Google真题",
-    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读/微软真题",
-    "_posts/algorithm & 数据结构/算法题/大厂真题训练与解读",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

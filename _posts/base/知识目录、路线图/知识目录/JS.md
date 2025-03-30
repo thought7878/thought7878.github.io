@@ -210,6 +210,8 @@ The function stack is how the interpreter keeps track of its place in a script t
 
 ## Built-in functions
 
+## 函数声明、函数表达式
+
 # DOM APIs
 With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.  
 通过 HTML DOM，JavaScript 可以访问和更改 HTML 文档的所有元素（例如其属性、CSS 样式）、删除元素、在页面上添加和创建新元素。 Web API 是指网络应用程序编程接口。所有浏览器都有一组内置的 Web API 来支持复杂的操作并帮助访问数据。例如地理位置 API、网络存储、网络历史记录等。
@@ -253,9 +255,12 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 参考 [[CommonJS]]
 
 # Memory Management
+参考：[[内存管理：栈空间、堆空间、代码空间]]
+
 ## Memory lifecycle
 
 ## Garbage Collection
+参考：[[垃圾回收（Garbage Collection）]]、[[13.垃圾回收：垃圾数据是如何自动回收的？]]
 
 # Chrome Dev Tools
 ## Debugging issues
