@@ -66,15 +66,15 @@
    - 类（`class`）、继承（`extends`）、静态方法（`static`）
    - 模块化（`import`/`export`）
    - `Map`、`Set`、`WeakMap`、`WeakSet`
-   - `Proxy` 与 `Reflect`
+   - `Proxy` 与 `Reflect`。[[Proxy]]、[[Reflect]]
    - 可选链（`?.`）、空值合并（`??`）
 
 2. **函数进阶**
 
-   - 高阶函数（函数作为参数或返回值）
-   - 柯里化（Currying）与偏函数
-   - 防抖（Debounce）与节流（Throttle）
-   - 函数式编程概念（纯函数、不可变性）
+   - 函数式编程（纯函数、不可变性）。[[函数式编程]]
+   - 高阶函数（函数作为参数或返回值）。[[高阶函数]]
+   - 柯里化（Currying）与偏函数。[[柯里化（Currying）与偏函数]]
+   - 防抖（Debounce）与节流（Throttle）。[[防抖（Debounce）与节流（Throttle）]]
 
 3. **错误处理**
 [[错误处理]]
