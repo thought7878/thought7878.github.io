@@ -1,4 +1,4 @@
-JavaScript 的 **变量环境（Variable Environment）** 是执行上下文（Execution Context）的*核心组成部分*，专门用于*管理 `var` 声明的变量和函数声明*。它是 _ES6 之前 JavaScript 作用域机制的基石_，与后续引入的 **词法环境（Lexical Environment）** 共同支撑现代作用域规则。
+JavaScript 的 `变量环境（Variable Environment）` 是执行上下文（Execution Context）的*核心组成部分*，专门用于**管理 `var` 声明的变量、函数声明**。它是 _ES6 之前 JavaScript 作用域机制的基石_，与后续引入的 `词法环境（Lexical Environment）` 共同支撑现代作用域规则。
 
 ---
 
@@ -6,8 +6,8 @@ JavaScript 的 **变量环境（Variable Environment）** 是执行上下文（E
 
 #### 1. 变量提升（Hoisting）
 
-- `var` 变量在代码解析阶段被提升到作用域顶部，并初始化为 `undefined`。
-- **函数声明** 整体提升（优先级高于变量提升）。
+- `var` 变量*在代码解析阶段*被提升到作用域顶部，并初始化为 `undefined`。
+- `函数声明` 整体提升（*优先级高于变量提升*）。
 
 ```javascript
 console.log(a); // undefined（变量提升）
@@ -43,9 +43,9 @@ var a = 2; // 合法，a 最终为 2
 
 ---
 
-### 二、变量环境的结构
+### 二、**变量环境的结构**
 
-变量环境是一个**环境记录（Environment Record）**，存储以下内容：
+变量环境是一个`环境记录（Environment Record）`（Record是Key-Value数据结构），存储以下内容：
 
 1. _`var` 声明的变量_（初始值为 `undefined`）。
 2. _函数声明_（整体提升，可直接调用）。
@@ -62,9 +62,9 @@ function test(b) {
 test(10);
 ```
 
-- 变量环境初始化：
+- **变量环境初始化**：
   ```javascript
-  // 创建阶段：
+  // 执行上下文的创建阶段：
   VariableEnvironment = {
     b: 10,               // 形参传入值
     c: undefined,        // var 变量提升
@@ -74,7 +74,7 @@ test(10);
 
 ---
 
-### 三、变量环境 vs. 词法环境
+### 三、**变量环境 vs. 词法环境**
 
 **ES6 引入 `let`/`const` 后，执行上下文拆分为两个环境**：
 
@@ -90,7 +90,7 @@ test(10);
 
 ### 四、变量环境与作用域链
 
-变量环境是作用域链的起点，变量查找遵循：
+变量环境是*作用域链的起点*，变量查找遵循：
 
 1. **当前变量环境** → 2. **外层词法环境** → ... → **全局变量环境**。
 
@@ -113,7 +113,7 @@ closure(); // 输出 10（闭包保留对变量环境的引用）
 
 #### 1. 变量污染
 
-- `var` 穿透块作用域导致变量意外覆盖。
+- `var` *穿透块作用域*导致*变量意外覆盖*。
 
 ```javascript
 for (var i = 0; i < 3; i++) {
@@ -132,7 +132,7 @@ var a = 5;
 
 #### 3. 全局变量挂载
 
-- 非严格模式下，未声明的变量赋值会泄露到全局。
+- 非严格模式下，未声明的变量赋值会*泄露到全局*。
 
 ```javascript
 function leak() {

@@ -1,4 +1,4 @@
-JavaScript 的 `词法环境（Lexical Environment）` 是 **ES6 引入**的核心概念，用于*管理块级作用域和 `let`/`const` 变量*的行为。它与 **变量环境（Variable Environment）** *共同构成执行上下文（Execution Context）*，支撑现代作用域规则。
+JavaScript 的 `词法环境（Lexical Environment）` 是 **ES6 引入**的核心概念，用于*管理块级作用域和 `let`/`const` 变量*的行为。它与 `变量环境（Variable Environment）` *共同构成执行上下文（Execution Context）*，支撑现代作用域规则。
 
 ---
 
@@ -30,7 +30,7 @@ JavaScript 的 `词法环境（Lexical Environment）` 是 **ES6 引入**的核�
 
 ---
 
-### 二、词法环境的结构
+### 二、**词法环境的结构**
 词法环境由两部分组成：
 1. **环境记录（Environment Record）**  
    - 存储当前作用域内的变量绑定（`let`/`const`）。
@@ -52,12 +52,12 @@ function outer() {
 
 ---
 
-### 三、词法环境与作用域链
-作用域链通过 **外部引用（Outer）** 串联，逐层向上查找变量：
+### 三、**词法环境与作用域链**
+*作用域链通过 **外部引用（Outer）** 串联*，逐层向上查找变量：
 1. 当前词法环境 → 2. 外部词法环境 → ... → 全局词法环境。
 
 #### 闭包的本质
-闭包是函数与其定义时的词法环境的组合。内部函数保留对外部环境的引用，即使外部函数已执行完毕。
+`闭包`是**函数与其定义时的词法环境的组合**。内部函数保留对外部环境的引用，即使外部函数已执行完毕。
 ```javascript
 function outer() {
   let x = 10;

@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 82.174688057041,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -205,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
+                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-31.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-29"
+              "title": "2025-03-31"
             }
           },
           {
@@ -272,11 +273,12 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       },
       {
         "id": "7819e829e502dfa8",
         "type": "tabs",
+        "dimension": 17.825311942959,
         "children": [
           {
             "id": "60f5eca29860f23e",
@@ -300,6 +302,30 @@
               },
               "icon": "lucide-file",
               "title": "JavaScript 代码的执行流程-QW"
+            }
+          },
+          {
+            "id": "fe2c5b5d9e629b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "07.变量提升：JavaScript代码是按顺序执行的吗？"
             }
           },
           {
@@ -382,8 +408,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -507,20 +532,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "3593594467552479",
+  "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）-DS.md",
-    "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-DS.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
-    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）与变量环境（Variable Environment）、词法环境（Lexical Environment）.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 函数的执行流程-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/JS_roadmap.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
+    "_posts/base/js/知识点总结/闭包.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-31.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-30.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
+    "_posts/algorithm & 数据结构/算法/空间复杂度-QW.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）与变量环境（Variable Environment）、词法环境（Lexical Environment）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 函数的执行流程-DS.md",
     "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-28.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-27.md",
@@ -529,12 +561,6 @@
     "_posts/base/js/知识点总结/函数/创建阶段、执行阶段.md",
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/13.垃圾回收：垃圾数据是如何自动回收的？.md",
     "_posts/base/js/知识点总结/函数/函数定义方式.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/11.this：从JavaScript执行上下文的视角讲清楚this.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/cdb813ba33bd4bb0e3ecccc8533074b3_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6760c31e7ed47e7c734f577a6b8b2e9c_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/8c609d5d1c1fea66e769c8dd5cbcc1a6_MD5.png",
@@ -545,7 +571,6 @@
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6c7c19134dd044a26990e7aa9bbca75e_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/8e70e8248582421e175d09e54b073569_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/171215eb6132102d5e6531e0c47b8627_MD5.png",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/Memory Management",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
