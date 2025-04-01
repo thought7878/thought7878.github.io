@@ -6,7 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 82.174688057041,
+        "dimension": 54.188948306595364,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/03/2025-03-31.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-31"
+              "title": "2025-04-01"
             }
           },
           {
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
+                "file": "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "Execution Context，Environment Record"
             }
           },
           {
@@ -278,7 +278,7 @@
       {
         "id": "7819e829e502dfa8",
         "type": "tabs",
-        "dimension": 17.825311942959,
+        "dimension": 45.811051693404636,
         "children": [
           {
             "id": "60f5eca29860f23e",
@@ -408,7 +408,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -506,7 +507,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -525,7 +526,6 @@
       "pomodoro-timer:Toggle timer panel": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "audio-recorder:开始/结束录音": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
@@ -534,35 +534,36 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/ES6+ 新特性/Reflect.md",
+    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-01.md",
+    "DailyNote/Journal/01 Daily/2025/03/2025-03-31.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
+    "_posts/base/js/知识点总结/Environment Record.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/函数/防抖（Debounce）与节流（Throttle）.md",
+    "_posts/base/js/知识点总结/函数/柯里化（Currying）与偏函数.md",
+    "DailyNote/Journal/01 Daily/2025/04",
+    "_posts/base/js/知识点总结/函数/函数式编程.md",
+    "_posts/base/js/知识点总结/函数/高阶函数.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/Reflect.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/Proxy.md",
     "_posts/base/知识目录、路线图/知识目录/JS_roadmap.md",
     "_posts/base/js/知识点总结/错误处理/错误处理.md",
     "_posts/base/js/知识点总结/ES6+ 新特性",
-    "_posts/base/js/知识点总结/函数/防抖（Debounce）与节流（Throttle）.md",
-    "_posts/base/js/知识点总结/函数/柯里化（Currying）与偏函数.md",
-    "_posts/base/js/知识点总结/函数/高阶函数.md",
-    "_posts/base/js/知识点总结/函数/函数式编程.md",
     "_posts/base/js/知识点总结/错误处理/未命名",
-    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
-    "DailyNote/Journal/01 Daily/2025/03/2025-03-31.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-29.md",
     "DailyNote/Journal/01 Daily/2025/03/2025-03-30.md",
     "_posts/base/js/知识点总结/错误处理",
     "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
     "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/js/知识点总结/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/08.调用栈：为什么JavaScript代码会出现栈溢出？.md",
     "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/09.块级作用域：var缺陷以及为什么要引入let和const？.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/10.作用域链和闭包 ：代码中出现相同的变量，JavaScript引擎是如何选择的？.md",
-    "_posts/algorithm & 数据结构/算法/空间复杂度-QW.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）与变量环境（Variable Environment）、词法环境（Lexical Environment）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 函数的执行流程-DS.md",
     "_posts/base/js/知识点总结/JS 执行机制",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/cdb813ba33bd4bb0e3ecccc8533074b3_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6760c31e7ed47e7c734f577a6b8b2e9c_MD5.png",
@@ -579,7 +580,6 @@
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
     "_posts/base/css/待整理/media",
     "_posts/base/css/总结/布局/Grid",
-    "_posts/base/css/总结/布局/Flexbox",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

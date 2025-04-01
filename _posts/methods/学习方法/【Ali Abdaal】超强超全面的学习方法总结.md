@@ -794,6 +794,3 @@ Ali Abdaal 在视频中讨论了为课程制定教学大纲的重要性，强调
 ☕️ (pomodoro:: BREAK) (duration:: 1m) (begin:: 2025-03-21T17:34) - (end:: 2025-03-21T17:35)
 🍅 (pomodoro:: WORK) (taskName:: - [ ] 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53] [🍅:: 3] ^rxjn) (blockLinkId:: ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:36) - (end:: 2025-03-21T17:37)
 🍅 (pomodoro:: WORK) (taskName:: 【Ali Abdaal】超强超全面的学习方法 [created:: 2025-03-21T10:19:49] [start:: 2025-03-21T10:19:53]) (blockLinkId:: ^rxjn) (duration:: 1m) (begin:: 2025-03-21T17:39) - (end:: 2025-03-21T17:40)
-
-asdfasfd
-kl

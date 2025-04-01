@@ -18,15 +18,17 @@
   - 由三部分组成：
     - `Intrinsics/内置函数`：包含内置的对象和函数
     - `Global Object` [01:59](https://www.bilibili.com/video/BV16w4m197PV/?t=119.898017#t=01:59.90)
-      - 保存/暴露 Intrinsics
-      - `宿主属性/Host Properties`： document/localStorage/fetch/setTimeout/history
-      - `自定义属性/User properties`：全局声明的函数/var 声明的变量
-    - `Global Environment Record`：管理该上下文中的变量（identifier bingdings:标识符和值的绑定） [02:45](https://www.bilibili.com/video/BV16w4m197PV/?t=165.269302#t=02:45.27)
-      - `ObjectRecord`：对 Global Object 的直接引用
-      - `DeclarativeRecord`：保存 let/const 变量，不是 var 和函数声明的变量
-      - `GlobalThisValue`：全局的 this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73)
-      - `OuterEnv`：保存/指向外部的声明该函数的 environment record，函数的 Environment 属性
-- [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) LexicalEnvironment / VariableEnvironment：
+		- 保存/暴露 Intrinsics
+		- `宿主属性/Host Properties`： document/localStorage/fetch/setTimeout/history
+		- `自定义属性/User properties`：全局声明的函数/var 声明的变量
+	- `Global Environment Record`：管理该上下文中的变量（identifier bingdings:标识符和值的绑定） [02:45](https://www.bilibili.com/video/BV16w4m197PV/?t=165.269302#t=02:45.27)
+		- `ObjectRecord`：对 Global Object 的直接引用
+		- `DeclarativeRecord`：保存 let/const 变量，不是 var 和函数声明的变量
+		- `GlobalThisValue`：全局的 this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73)
+		- `OuterEnv`：保存/指向外部的声明该函数的 environment record，函数的 Environment 属性
+- [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) `Lexical Environment` / `Variable Environment`：
+	- Lexical Environment，指向包含变量（let、const）、函数（函数表达式）的 Environment Record
+	- Variable Environment，指向包含变量（var）、函数（函数声明）的 Environment Record
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 
 - [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的 creation 阶段**： 
