@@ -15,7 +15,7 @@
     ![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 - [01:24](https://www.bilibili.com/video/BV16w4m197PV/?t=84.613012#t=01:24.61) Realm
   - realm 本质上是一个隔离的环境，代码在其中运行
-  - 由三部分组成：
+  - **全局执行上下文**，由三部分组成：
     - `Intrinsics/内置函数`：包含内置的对象和函数
     - `Global Object` [01:59](https://www.bilibili.com/video/BV16w4m197PV/?t=119.898017#t=01:59.90)
 		- 保存/暴露 Intrinsics
@@ -23,7 +23,7 @@
 		- `自定义属性/User properties`：全局声明的函数/var 声明的变量
 	- `Global Environment Record`：管理该上下文中的变量（identifier bingdings:标识符和值的绑定） [02:45](https://www.bilibili.com/video/BV16w4m197PV/?t=165.269302#t=02:45.27)
 		- `ObjectRecord`：对 Global Object 的直接引用
-		- `DeclarativeRecord`：保存 let/const 变量，不是 var 和函数声明的变量
+		- `DeclarativeRecord`：保存 let/const 变量，不是 var 变量和函数声明
 		- `GlobalThisValue`：全局的 this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73)
 		- `OuterEnv`：保存/指向外部的声明该函数的 environment record，函数的 Environment 属性
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) `Lexical Environment` / `Variable Environment`：
@@ -31,11 +31,12 @@
 	- Variable Environment，指向包含变量（var）、函数（函数声明）的 Environment Record
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 
-- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **函数的 creation 阶段**： 
+- [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **执行上下文/函数的 creation 阶段**： 
 	- 函数的两个属性：`Environment`/`Call`。
 		- _`Environment`指向声明该函数的外部的 Lexical Environment_；
 		- `Call`方法，每当调用该函数时都会调用该方法，来创建自己的 Function Execution Context
-- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **函数的 execute 阶段**：
+![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
+- [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **执行上下文/函数的 execute 阶段**：
     - [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的 Function Execution Context
     - [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、声明的函数、 parameters 参数
 		- `OuterEnv`：指向 Function Object 的 Environment 属性，即外部的声明该函数的 environment record。
@@ -49,9 +50,23 @@
 ## Execution Context
 ![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 
+执行上下文的3个生命周期/阶段：
+创建阶段（creation phase）：为变量声明和函数声明设置内存空间
+
+
+主要由这几部分组成：
+- Lexical Environment
+	- Environment Record
+- Variable Environment
+	- Environment Record
+
+### 全局执行上下文
+
 
 ## Lexical Environment
 Lexical Environment 是 Execution Context 的一部分、组件，内部包含 Environment Record。如上图。
+
+## Variable Environment
 
 ## Environment Record
 
@@ -61,7 +76,7 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 ## 函数
 ### Function Object
-函数本质上就是对象。两个私有属性：`\[\[Call\]\]`和`\[\[Environment\]\]`
+函数本质上就是对象。两个私有属性：`[[Call]]`和`[[Environment]]`
 ![[_posts/base/js/知识点总结/media/fdf63eeb9e479fa88d722db0d5e06396_MD5.jpeg]]
 
 #### Call 属性
