@@ -6,7 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 47.02934860415176,
+        "dimension": 54.68331846565566,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-02.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-02"
+              "title": "2025-04-09"
             }
           },
           {
@@ -278,7 +278,7 @@
       {
         "id": "7819e829e502dfa8",
         "type": "tabs",
-        "dimension": 52.97065139584824,
+        "dimension": 45.31668153434433,
         "children": [
           {
             "id": "60f5eca29860f23e",
@@ -534,12 +534,18 @@
   },
   "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-09.md",
+    "_posts/algorithm & 数据结构/算法/时间复杂度-QW.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-02.md",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "DailyNote/Journal/01 Daily/2025-04-09.md",
+    "_posts/base/js/知识点总结/media/5b820f1cebbc136b438156335cd45298_MD5.jpeg",
+    "_posts/base/js/知识点总结/media/Pasted image 20250402153959.png",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-02.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-01.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/Lexical Environment.md",
@@ -561,10 +567,6 @@
     "_posts/base/js/知识点总结/函数/柯里化（Currying）与偏函数.md",
     "DailyNote/Journal/01 Daily/2025/04",
     "_posts/base/js/知识点总结/函数/函数式编程.md",
-    "_posts/base/js/知识点总结/函数/高阶函数.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/Reflect.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/Proxy.md",
-    "_posts/base/知识目录、路线图/知识目录/JS_roadmap.md",
     "_posts/base/js/知识点总结/ES6+ 新特性",
     "_posts/base/js/知识点总结/错误处理/未命名",
     "_posts/base/js/知识点总结/错误处理",
@@ -573,8 +575,6 @@
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/6760c31e7ed47e7c734f577a6b8b2e9c_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/8c609d5d1c1fea66e769c8dd5cbcc1a6_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/1307e5bfc19bf261f5d56641700afc81_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/ba1a2065482654cac7e8edecd2f5a0b3_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media/521491c230dabfdf743d7f33e2298de4_MD5.png",
     "_posts/base/js/知识点总结/Memory Management",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",

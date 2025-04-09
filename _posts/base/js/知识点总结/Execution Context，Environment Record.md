@@ -4,8 +4,8 @@
 - [00:00](https://www.bilibili.com/video/BV16w4m197PV/?t=0.108247#t=0.11) 视频简介
 - [00:11](https://www.bilibili.com/video/BV16w4m197PV/?t=11.645425#t=11.65) Execution Context Overview
   - 调用函数，就会创建一个 Execution Context，并将其推送到 call stack（其实是 execution context stack）
-  - 执行上下文是什么？执行上下文本质上*定义了代码执行的环境*。包含很多内部组件，JS 引擎使用这些组件来跟踪代码的执行流程。_执行上下文使用 environment record 来保存变量、函数_
-  - 执行上下文的两个阶段：创建阶段和执行阶段 [00:45](https://www.bilibili.com/video/BV16w4m197PV/?t=45.180927#t=45.18)
+  - 执行上下文是什么？执行上下文本质上*定义了代码执行的环境*。包含很多内部组件，*JS 引擎使用这些组件来跟踪代码的执行流程*。_执行上下文使用 environment record 来保存变量、函数，environment records manage the identifier bindings within the context_（如下图）
+  - **执行上下文的两个阶段**：创建阶段和执行阶段 [00:45](https://www.bilibili.com/video/BV16w4m197PV/?t=45.180927#t=45.18)
     - 创建阶段：为上下文中的变量、函数等设置内存空间
     - 执行阶段：将其推送到 call stack，执行代码
   - Global Execution Context 由 3 部分组成： 
@@ -14,17 +14,18 @@
 	  - VariableEnvitonment
     ![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 - [01:24](https://www.bilibili.com/video/BV16w4m197PV/?t=84.613012#t=01:24.61) Realm
+![[_posts/base/js/知识点总结/media/5b820f1cebbc136b438156335cd45298_MD5.jpeg]]
   - realm 本质上是一个隔离的环境，代码在其中运行
-  - **全局执行上下文**，由三部分组成：
-    - `Intrinsics/内置函数`：包含内置的对象和函数
+  - **全局执行上下文**，由三部分组成：（参考上图）
+    - `Intrinsics（内置的）`：包含内置的对象和函数，提供了所有标准内置对象
     - `Global Object` [01:59](https://www.bilibili.com/video/BV16w4m197PV/?t=119.898017#t=01:59.90)
 		- 保存/暴露 Intrinsics
-		- `宿主属性/Host Properties`： document/localStorage/fetch/setTimeout/history
-		- `自定义属性/User properties`：全局声明的函数/var 声明的变量
+		- `Host Properties（宿主属性）`：Web API，document/localStorage/fetch/setTimeout/history
+		- `User properties（自定义属性）`：全局声明的函数、var变量
 	- `Global Environment Record`：管理该上下文中的变量（identifier bingdings:标识符和值的绑定） [02:45](https://www.bilibili.com/video/BV16w4m197PV/?t=165.269302#t=02:45.27)
 		- `ObjectRecord`：对 Global Object 的直接引用
 		- `DeclarativeRecord`：保存 let/const 变量，不是 var 变量和函数声明
-		- `GlobalThisValue`：全局的 this [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73)
+		- `GlobalThisValue`：全局的 this，指向 Global Object  [03:29](https://www.bilibili.com/video/BV16w4m197PV/?t=209.731061#t=03:29.73)
 		- `OuterEnv`：保存/指向外部的声明该函数的 environment record，函数的 Environment 属性
 - [03:57](https://www.bilibili.com/video/BV16w4m197PV/?t=237.500098#t=03:57.50) `Lexical Environment` / `Variable Environment`：
 	- Lexical Environment，指向包含变量（let、const）、函数（函数表达式）的 Environment Record
@@ -32,9 +33,9 @@
 - [04:26](https://www.bilibili.com/video/BV16w4m197PV/?t=266.597824#t=04:26.60) 例子解释
 
 - [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **执行上下文/函数的 creation 阶段**： 
-	- 函数的两个属性：`Environment`/`Call`。
-		- _`Environment`指向声明该函数的外部的 Lexical Environment_；
-		- `Call`方法，每当调用该函数时都会调用该方法，来创建自己的 Function Execution Context
+	- 函数的两个属性：`[[Environment]]`/`[[Call]]`。
+		- _`[[Environment]]`指向声明该函数的外部的 environment record_；
+		- `[[Call]]`方法，每当调用函数时都会调用该方法，来创建自己的 Function Execution Context
 ![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
 - [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **执行上下文/函数的 execute 阶段**：
     - [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的 Function Execution Context
@@ -51,7 +52,9 @@
 ![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 
 执行上下文的3个生命周期/阶段：
-创建阶段（creation phase）：为变量声明和函数声明设置内存空间
+- 创建阶段（creation phase）：为变量声明和函数声明设置内存空间
+- 执行阶段
+- 销毁阶段
 
 
 主要由这几部分组成：
@@ -70,9 +73,9 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 ## Environment Record
 
-环境记录保存管理变量、参数、声明函数等。
+环境记录保存*变量、参数、声明函数、this*等。
 
-`OuterEnv`属性：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record。
+`OuterEnv`属性：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。
 
 ## 函数
 ### Function Object
@@ -84,7 +87,7 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 
 #### Environment 属性
-_`Environment`指向声明该函数的外部的 Lexical Environment_；
+_`Environment`指向声明该函数的外部的 environment record_；
 
 
 ### 创建阶段
