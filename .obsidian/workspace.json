@@ -6,7 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 54.68331846565566,
+        "dimension": 82.15878679750223,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/函数/箭头函数.md",
+                "file": "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "箭头函数"
+              "title": "解构赋值"
             }
           },
           {
@@ -278,7 +278,7 @@
       {
         "id": "7819e829e502dfa8",
         "type": "tabs",
-        "dimension": 45.31668153434433,
+        "dimension": 17.84121320249777,
         "children": [
           {
             "id": "60f5eca29860f23e",
@@ -341,7 +341,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -408,7 +408,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -533,14 +534,17 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/ES6+ 新特性/模板字符串.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/js/知识点总结/函数/箭头函数.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
     "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
     "_posts/要整理的.md",
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
     "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-09.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -559,9 +563,6 @@
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/Lexical Environment.md",
     "_posts/base/js/知识点总结/闭包.md",
-    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
-    "_posts/base/js/知识点总结/Environment Record.md",
-    "_posts/algorithm & 数据结构/算法/空间复杂度-QW.md",
     "_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg",
     "_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250401092523.png",
