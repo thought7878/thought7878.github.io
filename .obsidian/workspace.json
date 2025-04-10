@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "解构赋值"
+              "title": "JS"
             }
           },
           {
@@ -534,9 +534,11 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
+    "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/默认参数.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/模板字符串.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
-    "_posts/base/知识目录、路线图/知识目录/JS.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/js/知识点总结/函数/箭头函数.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
@@ -561,8 +563,6 @@
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-01.md",
     "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/js/知识点总结/Lexical Environment.md",
-    "_posts/base/js/知识点总结/闭包.md",
     "_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg",
     "_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250401092523.png",
