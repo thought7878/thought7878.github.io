@@ -35,16 +35,17 @@
 - [05:41](https://www.bilibili.com/video/BV16w4m197PV/?t=341.015584#t=05:41.02) **执行上下文/函数的 creation 阶段**： 
 	- 解析代码：
 		- 提升变量
-		- 分配、设置内存空间
-		- 没有设置值，值是uninitialized（let/const）、undefined（var）
-	- 函数的两个属性：`[[Environment]]`/`[[Call]]`。
-		- _`[[Environment]]`指向声明该函数的外部的 environment record_；
-		- `[[Call]]`方法，每当调用函数时都会调用该方法，来创建自己的 Function Execution Context
+		- 分配、设置内存空间。变量，没有设置值，值是uninitialized（let/const）、undefined（var）；函数表达式，没有设置值；函数声明，初始化，有值（函数体、代码）。
+		- 创建函数对象：
+			- 函数的两个属性：`[[Environment]]`/`[[Call]]`。
+				- _`[[Environment]]`指向声明该函数的外部的 environment record_；
+				- `[[Call]]`方法：每当调用函数时都会调用该方法，来创建自己的 Function Execution Context
 ![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
 - [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **执行上下文/函数的 execute 阶段**：
     - [06:44](https://www.bilibili.com/video/BV16w4m197PV/?t=404.722898#t=06:44.72) 执行`Call`方法：创建自己的 Function Execution Context
-    - [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：保存函数内部的变量、声明的函数、 parameters 参数
-		- `OuterEnv`：指向 Function Object 的 Environment 属性，即外部的声明该函数的 environment record。
+    - [07:14](https://www.bilibili.com/video/BV16w4m197PV/?t=434.361555#t=07:14.36) Function `Environment Record`：
+	    - 保存函数内部的变量、声明的函数、 parameters 参数
+		- `OuterEnv`：它的值是 Function Object 的 Environment 属性值。该值，即外部的声明该函数的 environment record。
     - [09:00](https://www.bilibili.com/video/BV16w4m197PV/?t=540.666144#t=09:00.67) 变量提升 Hoisting
     - [10:11](https://www.bilibili.com/video/BV16w4m197PV/?t=611.420751#t=10:11.42) **作用域链** Scope Chain。`OuterEnv`是实现作用域链的基础。
     - [10:27](https://www.bilibili.com/video/BV16w4m197PV/?t=627.557933#t=10:27.56) **闭包** Closures
@@ -55,19 +56,25 @@
 ## Execution Context
 ![[base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png]]
 
-**执行上下文的3个生命周期/阶段**：
-- 创建阶段（creation phase）：
-	- 为变量、函数声明设置内存空间。变量，没有设置值，值是uninitialized（let/const）、undefined；函数表达式，没有设置值；函数声明，有值
-	- 提升变量
-- 执行阶段
-- 销毁阶段
-
-
 主要由这几部分组成：
 - Lexical Environment
 	- Environment Record
 - Variable Environment
 	- Environment Record
+
+### 执行上下文的3个生命周期/阶段
+- **创建阶段**（creation phase）：
+	- *变量：提升变量；为变量、函数声明设置内存空间*。变量，没有设置值，值是uninitialized（let/const）、undefined（var）；函数表达式，没有设置值；函数声明，初始化，有值（函数体、代码）。
+	- *函数：创建函数对象*：
+		- 函数的两个属性：`[[Environment]]`/`[[Call]]`。
+			- _`[[Environment]]`指向声明该函数的外部的 environment record，应是暂存，然后赋值给environment record的OuterEnv_；
+			- `[[Call]]`方法：每当调用函数时都会调用该方法，来创建自己的 Function Execution Context
+![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
+- **执行阶段**（execution phase）：
+	- execution context 入栈 Call Stack
+	- 执行代码，为变量初始化，执行函数（先是执行上下文的创建阶段，再是执行上下文的执行阶段）
+- **销毁阶段**（destroy phase）：
+	- execution context 出栈 Call Stack
 
 ### 全局执行上下文
 
@@ -75,16 +82,16 @@
 ## Lexical Environment
 Lexical Environment 是 Execution Context 的一部分、组件，内部包含 Environment Record。如上图。
 
-**Lexical Environment**，指向包含变量（let、const）、函数（函数表达式）的 Environment Record。词汇环境只是指向包含所有内容绑定的环境记录（the lexical environment just points to the environment record that contains the bindings for everything）
+**Lexical Environment**，*指向*包含变量（let、const）、函数（函数表达式）的 Environment Record。词汇环境只是指向包含所有内容绑定的环境记录（the lexical environment just points to the environment record that contains the bindings for everything）
 
 ## Variable Environment
-**Variable Environment**，指向包含变量（var）、函数（函数声明）的 Environment Record
+**Variable Environment**，*指向*包含变量（var）、函数（函数声明）的 Environment Record
 
 ## Environment Record
 
 环境记录保存*变量、参数、声明函数、this*等。
 
-`OuterEnv`属性：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。作用域链是基于这个属性实现的。
+**`OuterEnv`属性**：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。*作用域链是基于这个属性实现的*。
 
 ## 函数
 ### Function Object
@@ -96,15 +103,16 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 
 #### Environment 属性
-_`Environment`指向声明该函数的外部的 environment record_；
+_`Environment`指向声明该函数的外部的 environment record，应是暂存，然后赋值给environment record的OuterEnv_；
 
 
-### 创建阶段
-- 为函数内部的变量、参数，分配内存空间，未初始化值，执行阶段才赋值
-- 为函数内部的声明函数，分配内存空间，初始化（这就是声明函数可以提前被使用的原因）
-
-### 执行阶段
+### 创建阶段（执行上下文的创建阶段）
 - 执行`Call`方法：创建自己的 Function Execution Context
+- 为函数内部的变量、参数，分配内存空间，未初始化值，执行阶段才赋值
+- 为函数内部的声明函数，分配内存空间，初始化、创建函数对象（这就是声明函数可以提前被使用的原因）
+
+### 执行阶段（执行上下文的执行阶段）
+
 
 
 ## ai 总结
