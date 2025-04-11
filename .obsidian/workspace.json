@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-10"
+              "title": "2025-04-11"
             }
           },
           {
@@ -254,7 +254,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/环境记录（Environment Record）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -269,11 +269,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "词法环境（Lexical Environment）"
+              "title": "环境记录（Environment Record）"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "7819e829e502dfa8",
@@ -408,8 +408,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -532,18 +531,26 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b6994b4a5ec355a1",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/环境记录（Environment Record）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
+    "_posts/base/js/知识点总结/Lexical Environment.md",
+    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+    "_posts/base/js/知识点总结/Environment Record.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
+    "_posts/读书笔记/经济、金融/知识点.md",
+    "_posts/读书笔记/经济、金融",
     "_posts/base/js/知识点总结/ES6+ 新特性/默认参数.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/模板字符串.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/js/知识点总结/函数/箭头函数.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
-    "_posts/base/js/知识点总结/Execution Context，Environment Record.md",
-    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
     "_posts/要整理的.md",
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
@@ -553,16 +560,9 @@
     "_posts/读书笔记/健康/牙齿.md",
     "DailyNote/Journal/01 Daily/2025-04-10.md",
     "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/algorithm & 数据结构/算法/时间复杂度-QW.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-02.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
-    "DailyNote/Journal/01 Daily/2025-04-09.md",
     "_posts/base/js/知识点总结/media/5b820f1cebbc136b438156335cd45298_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250402153959.png",
     "_posts/base/js/知识点总结/media/6b7a4dcca94cfe94d321b3afa926a111_MD5.png",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-01.md",
-    "_posts/base/js/知识点总结/Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/media/326c90c1cb44b6a8b98e9e70e2fc5130_MD5.jpeg",
     "_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg",
     "_posts/base/js/知识点总结/media/Pasted image 20250401092523.png",
@@ -579,7 +579,6 @@
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
     "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
     "_posts/base/css/待整理/media",
-    "_posts/base/css/总结/布局/Grid",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

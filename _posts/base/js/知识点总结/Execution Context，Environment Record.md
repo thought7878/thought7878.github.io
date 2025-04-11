@@ -72,7 +72,9 @@
 ![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
 - **执行阶段**（execution phase）：
 	- execution context 入栈 Call Stack
-	- 执行代码，为变量初始化，执行函数（先是执行上下文的创建阶段，再是执行上下文的执行阶段）
+	- 执行代码：
+		- 为变量初始化，
+		- 执行函数（调用`[[Call]]` => 执行上下文的创建阶段 => 执行上下文的执行阶段）
 - **销毁阶段**（destroy phase）：
 	- execution context 出栈 Call Stack
 
@@ -91,7 +93,7 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 环境记录保存*变量、参数、声明函数、this*等。
 
-**`OuterEnv`属性**：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。*作用域链是基于这个属性实现的*。
+**`OuterEnv`属性**：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。*作用域链、闭包是基于这个属性实现的*。
 
 ## 函数
 ### Function Object

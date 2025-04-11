@@ -65,7 +65,7 @@
    - 默认参数、剩余参数（`...`）。[[默认参数]]、[[剩余参数（...）]]
    - 类（`class`）、继承（`extends`）、静态方法（`static`）
    - 模块化（`import`/`export`）
-   - `Map`、`Set`、`WeakMap`、`WeakSet`
+   - `Map`、`Set`、`WeakMap`、`WeakSet`。
    - `Proxy` 与 `Reflect`。[[Proxy]]、[[Reflect]]
    - 可选链（`?.`）、空值合并（`??`）
 
