@@ -38,7 +38,7 @@
 		- 分配、设置内存空间。变量，没有设置值，值是uninitialized（let/const）、undefined（var）；函数表达式，没有设置值；函数声明，初始化，有值（函数体、代码）。
 		- 创建函数对象：
 			- 函数的两个属性：`[[Environment]]`/`[[Call]]`。
-				- _`[[Environment]]`指向声明该函数的外部的 environment record_；
+				- _`[[Environment]]`指向声明该函数的外部的 environment record，是实现闭包的基础_；
 				- `[[Call]]`方法：每当调用函数时都会调用该方法，来创建自己的 Function Execution Context
 ![[_posts/base/js/知识点总结/media/8265fef659538695ec9c6714628e6bbb_MD5.jpeg]]
 - [06:16](https://www.bilibili.com/video/BV16w4m197PV/?t=376.839284#t=06:16.84) **执行上下文/函数的 execute 阶段**：
@@ -93,7 +93,7 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 环境记录保存*变量、参数、声明函数、this*等。
 
-**`OuterEnv`属性**：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。*作用域链、闭包是基于这个属性实现的*。
+**`OuterEnv`属性**：值等于 Function Object 的 Environment 属性值，即外部的声明该函数的 environment record（outer environment）。*作用域链是基于这个属性实现的*。
 
 ## 函数
 ### Function Object
@@ -105,7 +105,7 @@ Lexical Environment 是 Execution Context 的一部分、组件，内部包含 E
 
 
 #### Environment 属性
-_`Environment`指向声明该函数的外部的 environment record，应是暂存，然后赋值给environment record的OuterEnv_；
+_`Environment`指向声明该函数的外部的 environment record，是实现闭包的基础，应是暂存然后赋值给environment record的OuterEnv_；
 
 
 ### 创建阶段（执行上下文的创建阶段）
