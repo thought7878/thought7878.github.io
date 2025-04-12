@@ -155,4 +155,4 @@ console.log("End"); // 同步
 理解执行上下文能帮助开发者写出更可靠、高效的代码，并深入掌握闭包、`this`、异步等高级特性。
 
 ### 相关资料
-- [[Execution Context，Environment Record]]
+- [[_Execution Context，Environment Record]]
