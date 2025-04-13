@@ -273,7 +273,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       },
       {
         "id": "7819e829e502dfa8",
@@ -506,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -531,11 +531,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/Environment Record.md",
