@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-11"
+              "title": "2025-04-13"
             }
           },
           {
@@ -254,7 +254,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/_闭包.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -269,7 +269,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_闭包"
+              "title": "_Event Loop, Web APIs, (Micro)task Queue"
             }
           }
         ],
@@ -506,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -531,20 +531,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "3593594467552479",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_闭包.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
+    "_posts/base/js/知识点总结/Environment Record.md",
+    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
+    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-12.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
     "_posts/methods/常看的.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/2ee7aa83d30869979d352dd0fdf0e6f7_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250412101944.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250412101008.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/0cb1edcf7278088e4d8fb562888e205a_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250412100947.png",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-12.md",
     "DailyNote/Journal/01 Daily/2025-04-09.md",
     "DailyNote/Journal/01 Daily/2025-04-12.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
@@ -555,22 +562,15 @@
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250412090813.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/c45291416ce6d71ca18bbb530a37c0c4_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media",
-    "_posts/base/js/知识点总结/Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/环境记录（Environment Record）.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
     "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
     "_posts/base/js/知识点总结/JS 执行机制/执行上下文（Execution Context）.md",
     "_posts/base/js/知识点总结/Lexical Environment.md",
-    "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
     "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/读书笔记/经济、金融",
     "_posts/base/js/知识点总结/ES6+ 新特性/默认参数.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/模板字符串.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/解构赋值.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "_posts/base/js/知识点总结/函数/箭头函数.md",
-    "_posts/要整理的.md",
-    "_posts/methods/要整理的.md",
     "DailyNote/Journal/01 Daily/2025/04",
     "_posts/base/js/知识点总结/ES6+ 新特性",
     "_posts/base/js/知识点总结/错误处理/未命名",

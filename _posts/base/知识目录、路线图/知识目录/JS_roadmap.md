@@ -231,9 +231,9 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 参考 [[async & await]]
 
 ## Web APIs
-参考 [[Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 ## Event Loop/Call Stack/(Micro)Task Queue
-参考 [[Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 
 # remote APIs
 ## XMLHttpRequest

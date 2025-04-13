@@ -31,7 +31,7 @@
 
    - 作用域类型：全局作用域、函数作用域、块级作用域（`let`/`const`）
    - 作用域链与变量查找规则
-   - 闭包原理与应用场景（模块化、私有变量）
+   - 闭包原理与应用场景（模块化、私有变量）。[[_闭包、作用域链]]、[[闭包]]
 
 2. **`this` 绑定规则**
 
@@ -52,7 +52,7 @@
    - 回调函数（Callback）
    - `Promise` 链式调用与静态方法（`all`、`race`、`allSettled`）
    - `async/await` 语法糖
-   - 事件循环（Event Loop）：宏任务（`setTimeout`）与微任务（`Promise.then`）
+   - 事件循环（Event Loop）：宏任务（`setTimeout`）与微任务（`Promise.then`）。[[_Event Loop, Web APIs, (Micro)task Queue]]
    - `Generator` 与 `yield`
 
 ---
@@ -97,7 +97,7 @@
 [[执行上下文（Execution Context）]]
    - 执行上下文类型：全局、函数、eval
    - 变量环境（`var`）与词法环境（`let`/`const`）
-   - 作用域链与闭包的内存管理
+   - 作用域链与闭包的内存管理。
 
 2. **内存管理**
 [[内存管理：栈空间、堆空间、代码空间]]、
