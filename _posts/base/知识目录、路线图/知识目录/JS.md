@@ -50,7 +50,7 @@
 
 4. **异步编程**
    - 回调函数（Callback）
-   - `Promise` 链式调用与静态方法（`all`、`race`、`allSettled`）
+   - `Promise` 链式调用与静态方法（`all`、`race`、`allSettled`）。[[_Promise|Promise 原理]]、
    - `async/await` 语法糖
    - 事件循环（Event Loop）：宏任务（`setTimeout`）与微任务（`Promise.then`）。[[_Event Loop, Web APIs, (Micro)task Queue]]
    - `Generator` 与 `yield`
@@ -67,7 +67,7 @@
    - 模块化（`import`/`export`）
    - `Map`、`Set`、`WeakMap`、`WeakSet`。
    - `Proxy` 与 `Reflect`。[[Proxy]]、[[Reflect]]
-   - 可选链（`?.`）、空值合并（`??`）
+   - 可选链（`?.`）、空值合并（`??`）。[[可选链（?.）]]、[[空值合并（??）]]
 
 2. **函数进阶**
 
