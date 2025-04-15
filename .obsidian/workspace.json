@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/ES6+ 新特性/空值合并（??）.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "空值合并（??）"
+              "title": "JS"
             }
           },
           {
@@ -506,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -533,10 +533,13 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025-04-14.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/可选链（?.）.md",
+    "_posts/读书笔记/程序员的生活.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/模块/模块化.md",
+    "_posts/base/js/知识点总结/函数/防抖（Debounce）与节流（Throttle）.md",
+    "_posts/base/js/知识点总结/ES6+ 新特性/可选链（?.）.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/空值合并（??）.md",
+    "DailyNote/Journal/01 Daily/2025-04-14.md",
     "_posts/读书笔记/健康/其他类别.md",
     "_posts/读书笔记/健康/抗衰.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
@@ -566,10 +569,7 @@
     "DailyNote/Journal/01 Daily/2025-04-09.md",
     "DailyNote/Journal/01 Daily/2025-04-12.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
-    "DailyNote/Journal/01 Daily/2025-04-10.md",
     "_posts/base/js/知识点总结/JS 执行机制/media",
-    "_posts/base/js/知识点总结/JS 执行机制/环境记录（Environment Record）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/词法环境（Lexical Environment）.md",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
     "_posts/base/js/知识点总结/ES6+ 新特性",
