@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/原型与继承/原型.md",
+                "file": "_posts/base/js/知识点总结/原型/原型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -246,6 +246,18 @@
               },
               "icon": "lucide-file",
               "title": "原型"
+            }
+          },
+          {
+            "id": "c4978b5904a17d0b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_posts/base/js/知识点总结/原型/原型.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "原型.excalidraw"
             }
           },
           {
@@ -273,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "7819e829e502dfa8",
@@ -531,14 +543,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b6994b4a5ec355a1",
+  "active": "c4978b5904a17d0b",
   "lastOpenFiles": [
+    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
+    "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
+    "_posts/base/js/知识点总结/原型/原型.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
-    "_posts/base/js/知识点总结/原型与继承/原型.md",
-    "_posts/base/js/知识点总结/原型与继承",
+    "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/base/js/知识点总结/模块/模块化.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-15.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/男女.md",
@@ -550,7 +565,6 @@
     "DailyNote/Journal/01 Daily/2025-04-14.md",
     "_posts/读书笔记/健康/其他类别.md",
     "_posts/读书笔记/健康/抗衰.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/bd59e4d76defc87b3e9e6f72d9033843_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222150.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/10400c344a0c05737aae3662970731af_MD5.jpeg",
@@ -568,8 +582,6 @@
     "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-12.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
