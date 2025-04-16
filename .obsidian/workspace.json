@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/原型/原型.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "原型"
+              "title": "JS"
             }
           },
           {
@@ -543,14 +543,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/原型/Object.create.md",
+    "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
-    "_posts/base/知识目录、路线图/知识目录/JS.md",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/base/js/知识点总结/模块/模块化.md",
@@ -581,7 +582,6 @@
     "_posts/base/js/知识点总结/Environment Record.md",
     "_posts/base/js/知识点总结/Event Loop Fundamentals.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-12.md",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
