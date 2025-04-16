@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-13"
+              "title": "2025-04-16"
             }
           },
           {
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/JS.md",
+                "file": "_posts/base/js/知识点总结/原型与继承/原型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "原型"
             }
           },
           {
@@ -506,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -533,9 +533,17 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "_posts/读书笔记/程序员的生活.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/base/js/知识点总结/原型与继承/原型.md",
+    "_posts/base/js/知识点总结/原型与继承",
+    "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/base/js/知识点总结/模块/模块化.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-15.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/男女.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
+    "_posts/读书笔记/程序员的生活.md",
     "_posts/base/js/知识点总结/函数/防抖（Debounce）与节流（Throttle）.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/可选链（?.）.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/空值合并（??）.md",
@@ -554,7 +562,6 @@
     "_posts/base/js/知识点总结/JS 执行机制/media/ecc7820c734cea0b0a160e874c20d3a1_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221604.png",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/Environment Record.md",
@@ -562,13 +569,7 @@
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-12.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-11.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/剩余参数（...）.md",
-    "_posts/methods/常看的.md",
-    "DailyNote/Journal/01 Daily/2025-04-09.md",
-    "DailyNote/Journal/01 Daily/2025-04-12.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-10.md",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
@@ -578,7 +579,6 @@
     "_posts/base/js/知识点总结/JS 执行机制",
     "_posts/base/js/知识点总结/Memory Management",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
-    "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
