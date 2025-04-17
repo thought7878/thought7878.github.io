@@ -44,7 +44,7 @@
 3. **原型与继承**
 
    - 原型链：`__proto__`、`prototype`。[[原型]]
-   - 构造函数与 `new` 的原理
+   - 构造函数与 `new` 的原理。[[构造函数与 new 的原理]]
    - 继承方式：原型链继承、组合继承、寄生组合继承、Class 继承
    - `Object.create()`、`Object.assign()`。[[Object.create]]
 
