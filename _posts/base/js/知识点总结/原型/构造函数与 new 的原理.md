@@ -125,8 +125,8 @@ alice.greet(); // 输出: Hello, my name is Alice
 
 ## 5. 注意事项
 
-### **(1) 忘记使用 `new`**
-如果忘记使用 `new` 调用构造函数，`this` 会绑定到全局对象（非严格模式下为 `window` 或 `global`），导致意外行为。
+### (1) 忘记使用 `new`
+如果忘记使用 `new` 调用构造函数，`this` *会绑定到全局对象*（非严格模式下为 `window` 或 `global`），导致意外行为。
 
 **示例：**
 ```javascript
@@ -144,8 +144,8 @@ console.log(global.name); // 输出: Alice（Node.js 环境）
 
 ---
 
-### **(2) 不要直接调用原型上的方法**
-虽然可以通过 `Person.prototype.methodName` 访问方法，但不建议直接调用，因为 `this` 的绑定可能会出错。
+### (2) 不要直接调用原型上的方法
+虽然可以通过 `Person.prototype.methodName` 访问方法，但不建议直接调用，*因为 `this` 的绑定可能会出错*。
 
 **示例：**
 ```javascript
@@ -168,7 +168,7 @@ Person.prototype.greet(); // 报错: Cannot read properties of undefined
 
 ---
 
-### **(3) 避免修改内置原型**
+### (3) 避免修改内置原型
 不要直接修改内置对象（如 `Object.prototype` 或 `Array.prototype`），这可能导致不可预期的行为。
 
 #### 错误示例：
@@ -181,7 +181,7 @@ const arr = [1, 2, 3];
 console.log(arr.first()); // 输出: 1
 ```
 
-推荐使用工具函数代替直接修改原型。
+*推荐使用工具函数*代替直接修改原型。
 
 #### 推荐示例：
 ```javascript
@@ -195,7 +195,7 @@ console.log(first(arr)); // 输出: 1
 
 ---
 
-## **6. 总结**
+## 6. 总结
 
 构造函数和 `new` 是 JavaScript 中实现对象创建和继承的重要机制，其核心原理包括以下几点：
 1. **创建新对象**：通过 `new` 创建一个新对象，并将其隐式原型指向构造函数的 `prototype`。

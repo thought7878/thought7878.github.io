@@ -242,7 +242,7 @@
 
 ## 构建流程
 
-参考：[[Webpack的构建流程-DB]]、[[Webpack的构建流程-DS]]、[[Webpack的构建流程-DS3]]
+参考：[[Webpack的构建流程-DB]]、[[Webpack的构建流程-DS]]、[[Webpack的构建流程-DS3]]、[咱们深耕一下webpack的编译过程【渡一教育】](https://www.bilibili.com/video/BV1hP411C7hf/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 ---
 

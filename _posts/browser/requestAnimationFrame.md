@@ -1,13 +1,13 @@
-**`requestAnimationFrame`** 是一种浏览器提供的 API，用于在下一帧渲染之前执行动画或视觉更新相关的代码。它是一种高效的替代方案，取代了传统的 `setTimeout` 或 `setInterval` 方法来实现动画效果。`requestAnimationFrame` 的设计目标是优化性能，确保动画与屏幕刷新率同步，从而提供更流畅的用户体验。
+**`requestAnimationFrame`** 是一种浏览器提供的 API，用于**在下一帧渲染之前执行动画或视觉更新相关的代码**。它是一种*高效的替代方案*，取代了传统的 `setTimeout` 或 `setInterval` 方法来实现动画效果。`requestAnimationFrame` 的设计**目标**是优化性能，确保动画与屏幕刷新率同步，从而提供更流畅的用户体验。
 
 以下是关于 `requestAnimationFrame` 的详细解析：
 
 ---
 
-## **1. 什么是 `requestAnimationFrame`？**
+## 1. 什么是 `requestAnimationFrame`？
 
 ### **定义**
-- **`requestAnimationFrame`** 是一个浏览器 API，用于请求在下一帧渲染之前执行回调函数。
+- **`requestAnimationFrame`** 是一个浏览器 API，用于**请求在下一帧渲染之前执行回调函数**。
 - 它会根据显示器的刷新率（通常是 60Hz，即每秒 60 帧）自动调整回调函数的执行频率。
 
 ### **语法**

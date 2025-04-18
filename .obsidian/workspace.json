@@ -206,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-17.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-17"
+              "title": "2025-04-18"
             }
           },
           {
@@ -230,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/原型/构造函数与 new 的原理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "构造函数与 new 的原理"
+              "title": "高级前端工程师的面试题 总结_DS"
             }
           },
           {
@@ -545,30 +545,33 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
-    "_posts/base/js/知识点总结/原型/构造函数与 new 的原理.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-17.md",
+    "_posts/browser/requestAnimationFrame.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
     "_posts/base/知识目录、路线图/知识目录/JS.md",
+    "_posts/methods/学习方法/80-20法则.md",
+    "_posts/methods/学习方法/编程.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-18.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-17.md",
+    "_posts/base/js/知识点总结/模块/模块化.md",
+    "_posts/base/知识目录、路线图/知识目录/Webpack.md",
+    "_posts/methods/常看的.md",
+    "_posts/base/js/知识点总结/Memory Management/内存管理：栈空间、堆空间、代码空间.md",
+    "_posts/base/js/知识点总结/原型/Object.create().md",
+    "_posts/base/js/知识点总结/原型/Object.assign().md",
+    "_posts/base/js/知识点总结/原型/继承方式：原型链继承、组合继承、寄生组合继承、Class 继承.md",
+    "_posts/base/js/知识点总结/原型/构造函数与 new 的原理.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-16.md",
-    "_posts/base/js/知识点总结/原型/Object.create.md",
     "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/深拷贝.md",
-    "_posts/base/js/知识点总结/模块/模块化.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-15.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-13.md",
-    "_posts/读书笔记/程序员的生活.md",
-    "_posts/base/js/知识点总结/函数/防抖（Debounce）与节流（Throttle）.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/可选链（?.）.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/空值合并（??）.md",
-    "DailyNote/Journal/01 Daily/2025-04-14.md",
-    "_posts/读书笔记/健康/其他类别.md",
-    "_posts/读书笔记/健康/抗衰.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/bd59e4d76defc87b3e9e6f72d9033843_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222150.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/10400c344a0c05737aae3662970731af_MD5.jpeg",
@@ -579,9 +582,6 @@
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221713.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/ecc7820c734cea0b0a160e874c20d3a1_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221604.png",
-    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
