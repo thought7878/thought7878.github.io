@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/JSX 、createElement.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Fiber.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JSX 、createElement"
+              "title": "Fiber"
             }
           },
           {
@@ -462,8 +462,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b6994b4a5ec355a1",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/读书笔记/动物性.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Fiber.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/JSX 、createElement.md",
+    "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
+    "DailyNote/Journal/01 Daily/学习复习模版.md",
+    "_posts/base/知识目录、路线图/知识目录/HTML.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/ed9ca81c87eca2b32d3433c73f8f9f71_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250421101548.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/0edbbc854c276463855a89e23dfc4380_MD5.jpeg",
@@ -472,7 +478,6 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250421101017.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media",
     "_posts/react/总结/原理和源码/源码/JSX-DS.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/JSX 、createElement.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解",
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
@@ -493,16 +498,11 @@
     "DailyNote/Journal/01 Daily/2025/04/2025-04-17.md",
     "_posts/base/js/知识点总结/模块/模块化.md",
     "_posts/base/知识目录、路线图/知识目录/Webpack.md",
-    "_posts/methods/常看的.md",
-    "_posts/base/js/知识点总结/Memory Management/内存管理：栈空间、堆空间、代码空间.md",
-    "_posts/base/js/知识点总结/原型/Object.create().md",
-    "_posts/base/js/知识点总结/原型/Object.assign().md",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/JS 执行机制/media/bd59e4d76defc87b3e9e6f72d9033843_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222150.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/10400c344a0c05737aae3662970731af_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222032.png",
-    "_posts/base/js/知识点总结/JS 执行机制/media/948369f55a0bff99e1b141724a69ebfc_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",

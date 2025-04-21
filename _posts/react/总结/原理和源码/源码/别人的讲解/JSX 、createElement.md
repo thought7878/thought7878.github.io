@@ -3,7 +3,7 @@
 ## React的渲染流程
 视频：[00:00]
 
-JSX --> ReactElement --> Fiber --> Commit
+JSX -createElement()--> ReactElement --> Fiber --> Commit
 
 参考：[[React的渲染流程-DS]]
 
