@@ -47,6 +47,7 @@
 
 ### 三、框架原理（React/Vue 深度）
 #### React
+[[JSX 、createElement]]
 1. **Fiber 架构**  
    - 时间切片（Time Slicing）与可中断渲染实现原理  
    - 双缓冲机制（Current Tree 与 WorkInProgress Tree）
