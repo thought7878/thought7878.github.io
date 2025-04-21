@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/JSX 、createElement.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "React的渲染流程-DS"
+              "title": "JSX 、createElement"
             }
           },
           {
@@ -464,9 +464,18 @@
   },
   "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/JSX 、createElement.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/ed9ca81c87eca2b32d3433c73f8f9f71_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250421101548.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/0edbbc854c276463855a89e23dfc4380_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250421101121.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/e7825555efb364a7a812fd4d512d4874_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250421101017.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media",
+    "_posts/react/总结/原理和源码/源码/JSX-DS.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/JSX 、createElement.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解",
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
-    "_posts/react/总结/原理和源码/源码/参考资料.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
     "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
@@ -488,19 +497,12 @@
     "_posts/base/js/知识点总结/Memory Management/内存管理：栈空间、堆空间、代码空间.md",
     "_posts/base/js/知识点总结/原型/Object.create().md",
     "_posts/base/js/知识点总结/原型/Object.assign().md",
-    "_posts/base/js/知识点总结/原型/继承方式：原型链继承、组合继承、寄生组合继承、Class 继承.md",
-    "_posts/base/js/知识点总结/原型/构造函数与 new 的原理.md",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/JS 执行机制/media/bd59e4d76defc87b3e9e6f72d9033843_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222150.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/10400c344a0c05737aae3662970731af_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222032.png",
     "_posts/base/js/知识点总结/JS 执行机制/media/948369f55a0bff99e1b141724a69ebfc_MD5.jpeg",
-    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221903.png",
-    "_posts/base/js/知识点总结/JS 执行机制/media/aa15295480b22dfd2937ff2fa28108df_MD5.jpeg",
-    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221713.png",
-    "_posts/base/js/知识点总结/JS 执行机制/media/ecc7820c734cea0b0a160e874c20d3a1_MD5.jpeg",
-    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413221604.png",
     "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/读书笔记/经济、金融",
     "DailyNote/Journal/01 Daily/2025/04",
@@ -508,8 +510,6 @@
     "_posts/base/js/知识点总结/错误处理/未命名",
     "_posts/base/js/知识点总结/错误处理",
     "_posts/base/js/知识点总结/JS 执行机制",
-    "_posts/base/js/知识点总结/Memory Management",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
