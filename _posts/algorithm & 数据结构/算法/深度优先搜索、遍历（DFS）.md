@@ -100,6 +100,7 @@ console.log(dfsPreOrderWithStack(tree)); // 输出: [1, 2, 4, 5, 3]
 ## 3. 深度优先遍历的应用场景
 
 ### (1) DOM 树操作
+[[实现 React 的首次渲染]]
 在前端开发中，**DFS 常用于遍历 DOM 树**，查找特定节点或修改样式。
 
 **示例：查找所有文本节点**
@@ -233,3 +234,6 @@ console.log(topologicalSort(graph)); // 输出: ["B", "D", "A", "C", "F", "E"]
 `深度优先遍历`是一种*高效且常用*的算法，适用于*树、图*等数据结构的遍历和搜索。它的核心思想是沿着一条路径尽可能深入地访问节点，直到无法继续为止，然后回溯并探索其他分支。
 
 在前端开发中，DFS 广泛应用于 DOM 树操作、依赖解析、路径查找等场景。掌握 DFS 的递归和栈实现方式，可以帮助开发者更灵活地解决实际问题。
+
+## 相关资料
+[6分钟学深度优先搜索DFS](https://www.bilibili.com/video/BV1B1QpYwELv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
