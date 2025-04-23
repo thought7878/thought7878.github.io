@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-22.md",
+                "file": "DailyNote/Journal/01 Daily/2025/04/2025-04-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-22"
+              "title": "2025-04-23"
             }
           },
           {
@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/实现 React 的首次渲染.md",
+                "file": "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "实现 React 的首次渲染"
+              "title": "React的渲染流程-DS"
             }
           },
           {
@@ -462,10 +462,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "b6994b4a5ec355a1",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-22.md",
+    "_posts/react/总结/原理和源码/源码/beginWork()-QW.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/实现 React 的首次渲染.md",
+    "_posts/react/总结/原理和源码/源码/beginWork()-DS.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-23.md",
+    "DailyNote/Journal/01 Daily/2025/04/2025-04-22.md",
+    "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
     "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
     "_posts/algorithm & 数据结构/算法/深度优先搜索、遍历（DFS）.md",
     "DailyNote/Journal/01 Daily/学习复习模版.md",
@@ -494,10 +498,6 @@
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/base/js/知识点总结/JS 执行机制/执行上下文.excalidraw.md",
-    "_posts/browser/教程/浏览器工作原理与实践/03-浏览器中的JavaScript执行机制 (5讲)/07.变量提升：JavaScript代码是按顺序执行的吗？.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JavaScript 代码的执行流程-QW.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/JS 执行机制/media/bd59e4d76defc87b3e9e6f72d9033843_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250413222150.png",

@@ -26,6 +26,8 @@
 renderRootSync()：渲染阶段
 commitRoot()：commit阶段
 
+
+
 ### 
 ```js
 const root = {
@@ -39,6 +41,14 @@ hostRootFiber.stateNode = root // stateNode表示真实DOM节点
 
 let workInProgress = createWorkInProgress(hostRootFiber,{children:element}); // 根fiber节点的副本
 ```
+
+### renderRootSync()
+
+### beginWork()
+输入：ReactElement
+输出：Fiber节点
+
+### completeWork()
 
 
 ## fiber.js

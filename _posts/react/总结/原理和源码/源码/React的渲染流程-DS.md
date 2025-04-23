@@ -6,7 +6,7 @@ React 的渲染流程可以分为 **初始化渲染** 和 **更新渲染** 两�
 
 #### 1. JSX 编译与虚拟 DOM 创建
 
-- **JSX → React Element**：通过 Babel 将 JSX 转换为 `React.createElement()` 调用，生成 React 元素（虚拟 DOM 的轻量级描述）。
+- **JSX → React Element**：*通过 Babel 将 JSX 转换为 `React.createElement()` 调用，生成 React 元素*（虚拟 DOM 的轻量级描述）。
 
 ```jsx
 // JSX
@@ -18,7 +18,7 @@ React.createElement("div", { className: "container" }, "Hello");
 
 #### 2. 构建 Fiber 树
 
-- **Fiber 节点**：为每个 React 元素创建对应的 Fiber 节点（包含组件类型、props、state 等信息）。
+- **Fiber 节点**：*为每个 React 元素创建对应的 Fiber 节点*（包含组件类型、props、state 等信息）。
 - **Fiber 树结构**：通过 `child`、`sibling`、`return` 指针形成树结构，替代传统的虚拟 DOM 树。
 
 ```javascript
@@ -61,7 +61,7 @@ function commitRoot(root) {
 #### 1. 触发更新
 
 - **更新入队**：状态变更会被加入更新队列（Update Queue）。
-- **调度优先级**：根据更新来源（用户交互、网络请求等）分配优先级（Concurrent Mode 特性）。
+- **调度优先级**：根据更新来源（用户交互、网络请求等）*分配优先级*（Concurrent Mode 特性）。
 
 #### 2. 构建新的 Fiber 树
 
@@ -89,7 +89,7 @@ function commitRoot(root) {
 #### 1. Fiber 架构
 
 - **数据结构**：每个 Fiber 节点对应一个组件或 DOM 元素，保存渲染所需信息。
-- **双缓冲机制**：当前树（Current Tree）与工作树（WorkInProgress Tree）交替更新，减少渲染卡顿。
+- **双缓冲机制**：当前树（Current Tree）与工作树（WorkInProgress Tree）交替更新，*减少渲染卡顿*。
 - **任务调度**：将渲染过程分解为可中断的单元任务，优化用户体验。
 
 #### 2. 协调算法（Diffing）
