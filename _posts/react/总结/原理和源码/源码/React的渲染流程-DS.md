@@ -34,8 +34,8 @@ React.createElement("div", { className: "container" }, "Hello");
 
 #### 3. 协调（Reconciliation）
 
-- **深度优先遍历**：从根 Fiber 节点开始，递归遍历子节点，构建完整的 Fiber 树。
-- **标记副作用（Effect）**：在遍历过程中，标记需要 DOM 操作的节点（如插入、更新、删除）。
+- **深度优先遍历**：从根 Fiber 节点开始，递归遍历子节点，*构建完整的 Fiber 树*。
+- **标记副作用（Effect）**：在遍历过程中，*标记需要 DOM 操作的节点*（如插入、更新、删除）。
 
 #### 4. 提交阶段（Commit）
 
@@ -72,7 +72,7 @@ function commitRoot(root) {
 
 #### 3. 协调阶段（可中断）
 
-- **增量渲染**：Fiber 架构允许将渲染任务拆分为多个小任务，通过 `requestIdleCallback` 或 `setTimeout` 调度。
+- **增量渲染**：Fiber 架构允许*将渲染任务拆分为多个小任务*，通过 `requestIdleCallback` 或 `setTimeout` 调度。
 - **优先级机制**：高优先级任务（如动画）可中断低优先级任务（如数据加载）。
 
 #### 4. 提交阶段
