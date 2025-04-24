@@ -27,9 +27,10 @@ export function createFiberFromElement(element) {
 
 `stateNode`属性：当前 Fiber 节点对应的真实 DOM 节点。
 
-**根据已有 Fiber 节点，创建新的 Fiber 节点，应用场景**：_首次渲染后的第一次更新_，此时内存中只有一棵 Fiber 树。current Fiber 节点还没有 alternate 属性，就根据 current Fiber 节点创建一个新的副本 Fiber 节点。
+**_React 每次更新时_，都会调用这个 createWorkInProgress 函数，根据老的 Fiber 节点，创建工作节点（新的节点）、复用老节点**
 
-***React每次更新时*，都会调用这个函数，根据老的Fiber节点，创建工作节点（新的节点）**
+**根据已有 Fiber 节点，创建新的 Fiber 节点，应用场景**：_首次渲染后的第一次更新_，此时内存中只有一棵 Fiber 树。current Fiber 节点还没有 alternate 属性，就根据 current Fiber 节点创建一个新的副本 Fiber 节点。
+_第二次及以后更新_，渲染时，*复用*已有的 workInProgress Fiber 节点，更新其 pendingProps
 
 ```js
 /**
@@ -46,6 +47,7 @@ export function createWorkInProgress(current, pendingProps) {
   let workInProgress = current.alternate;
 
   // 如果 alternate 不存在，说明还没有创建 workInProgress Fiber 节点
+  // 首次渲染
   if (workInProgress === null) {
     // 使用 createFiber 函数创建一个新的 Fiber 节点，继承 current 节点的 tag、key 和新的 pendingProps
     workInProgress = createFiber(current.tag, pendingProps, current.key);
@@ -55,7 +57,8 @@ export function createWorkInProgress(current, pendingProps) {
     workInProgress.alternate = current;
     current.alternate = workInProgress;
   } else {
-    // 如果 alternate 存在，说明已经有 workInProgress Fiber 节点，更新其 pendingProps
+    // 如果 alternate 存在，说明已经有 workInProgress Fiber 节点，复用它，更新其 pendingProps
+    // 场景：第二次及以后更新，渲染时，复用已有的 workInProgress Fiber 节点，更新其 pendingProps
     workInProgress.pendingProps = pendingProps;
   }
 

@@ -1,8 +1,11 @@
 
 # React的渲染流程
-[00:25]
+[00:00]
+创建一堆Fiber节点，即创建Fiber树。进而，实现首次渲染。
 
-# 深度优先遍历
+[[React的渲染流程-DS]]
+
+## 深度优先遍历
 [00:41]
 
 参考：[[深度优先搜索、遍历（DFS）]]、[[14、遍历专题：DFS 与 BFS]]、[6分钟学深度优先搜索DFS](https://www.bilibili.com/video/BV1B1QpYwELv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
@@ -43,8 +46,16 @@ let workInProgress = createWorkInProgress(hostRootFiber,{children:element}); // 
 ```
 
 ### renderRootSync()
+[10:36]
+深度优先搜索：
+- 先从上到下，遍历节点
+- 再从左到右，遍历节点
+- 没有下也没有右了，遍历完子节点、兄弟节点，向上回退
+
 
 ### beginWork()
+[14:23]
+
 输入：ReactElement
 输出：Fiber节点
 
