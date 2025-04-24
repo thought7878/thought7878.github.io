@@ -51,7 +51,7 @@ React 的 `Fiber 节点` 是 *Fiber 架构的核心数据结构*，每个 React 
    - **`childLanes`**：子树的优先级标记。
 
 #### 5. 双缓冲与协调
-   - **`alternate`**：指向当前 Fiber 节点的“镜像”节点，用于双缓冲机制（[[双缓冲机制-QW]]）：
+   - **`alternate`**：指向当前 Fiber 节点的“镜像”节点，*用于复用节点、双缓冲机制*（[[双缓冲机制-QW]]）：
      - `current` 树：*当前已渲染*的 Fiber 树。
      - `workInProgress` 树：*正在构建*的新 Fiber 树。
 
