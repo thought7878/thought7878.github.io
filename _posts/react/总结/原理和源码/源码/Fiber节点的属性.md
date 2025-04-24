@@ -37,7 +37,7 @@ React 的 `Fiber 节点` 是 *Fiber 架构的核心数据结构*，每个 React 
    - **`updateQueue`**：存储状态更新的队列（如 `setState` 的更新对象）。
 
 #### 4. 副作用与更新标记
-   - **`flags`**（旧版为 `effectTag`）：标记当前节点需要执行的副作用类型（如插入、更新、删除）。
+   - **`flags`**（旧版为 `effectTag`）：*标记当前节点需要执行的副作用类型*（如插入、更新、删除）。
      ```typescript
      enum ReactFiberFlags {
        Placement = 0b00000000000010, // 插入 DOM
@@ -57,20 +57,20 @@ React 的 `Fiber 节点` 是 *Fiber 架构的核心数据结构*，每个 React 
 
 ---
 
-### **二、Fiber 节点的生命周期相关属性**
-#### 1. **渲染阶段**
+### 二、Fiber 节点的生命周期相关属性
+#### 1. 渲染阶段
    - **`mode`**：渲染模式（如 `ConcurrentMode`、`BlockingMode`、`LegacyMode`）。
    - **`expirationTime`**（旧版）：任务的过期时间（时间切片调度）。
-   - **`lanes`**（新版）：替代 `expirationTime`，表示任务优先级。
+   - **`lanes`**（新版）：替代 `expirationTime`，表示*任务优先级*。
 
-#### 2. **提交阶段**
+#### 2. 提交阶段
    - **`firstEffect`**、**`lastEffect`**：当前节点及其子树的副作用链表首尾指针。
    - **`nextEffect`**：指向下一个需要处理的副作用节点。
 
 ---
 
-### **三、函数组件与 Hooks**
-#### 1. **Hooks 链表**
+### 三、函数组件与 Hooks
+#### 1. Hooks 链表
    - **`memoizedState`**：函数组件的 Hooks 链表头节点。
      - 每个 Hook 节点存储 `useState`、`useEffect` 等的状态。
      ```typescript
@@ -83,23 +83,23 @@ React 的 `Fiber 节点` 是 *Fiber 架构的核心数据结构*，每个 React 
      };
      ```
 
-#### 2. **副作用处理**
+#### 2. 副作用处理
    - **`flags`** 标记与 `useEffect`、`useLayoutEffect` 关联的副作用。
 
 ---
 
-### **四、Fiber 节点的创建与更新流程**
-#### 1. **创建阶段**
-   - **协调（Reconciliation）**：根据 React 元素创建或复用 Fiber 节点，设置 `pendingProps` 和 `type`。
+### 四、Fiber 节点的创建与更新流程
+#### 1. 创建阶段
+   - **协调（Reconciliation）**：*根据 React 元素创建或复用 Fiber 节点*，设置 `pendingProps` 和 `type`。
    - **标记副作用**：通过 Diff 算法确定 `flags` 和 `subtreeFlags`。
 
-#### 2. **提交阶段**
+#### 2. 提交阶段
    - **副作用链表遍历**：根据 `firstEffect` 和 `nextEffect` 执行 DOM 操作。
    - **双缓冲切换**：将 `workInProgress` 树切换为 `current` 树。
 
 ---
 
-### **五、示例：Fiber 节点结构**
+### 五、示例：Fiber 节点结构
 ```javascript
 // 一个典型的 Fiber 节点（简化版）
 {
@@ -124,7 +124,7 @@ React 的 `Fiber 节点` 是 *Fiber 架构的核心数据结构*，每个 React 
 
 ---
 
-### **六、总结**
+### 六、总结
 - **Fiber 节点** 是 React 协调与渲染的核心单元，通过链表结构管理组件树。
 - **关键属性** 包括树结构指针（`child`、`sibling`、`return`）、状态（`memoizedState`）、副作用标记（`flags`）和双缓冲（`alternate`）。
 - **设计目标** 是实现可中断的异步渲染（时间切片）、优先级调度和高效的 DOM 更新。
