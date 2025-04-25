@@ -1,22 +1,27 @@
+# React 的渲染流程
 
-# React的渲染流程
 [00:00]
-创建一堆Fiber节点，即创建Fiber树。进而，实现首次渲染。
+创建一堆 Fiber 节点，即创建 Fiber 树。进而，实现首次渲染。
 
 [[React的渲染流程-DS]]
 
 ## 深度优先遍历
+
 [00:41]
 
-参考：[[深度优先搜索、遍历（DFS）]]、[[14、遍历专题：DFS 与 BFS]]、[6分钟学深度优先搜索DFS](https://www.bilibili.com/video/BV1B1QpYwELv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+参考：[[深度优先搜索、遍历（DFS）]]、[[14、遍历专题：DFS 与 BFS]]、[6 分钟学深度优先搜索 DFS](https://www.bilibili.com/video/BV1B1QpYwELv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 # 源码
+
 [03:10]
+
 ## index.js
 
 ## react.js
+
 ### createElement()
-在编译时，Babel 将JSX转换成createElement()的调用。
+
+在编译时，Babel 将 JSX 转换成 createElement()的调用。
 
 输入：type、config、children
 输出：ReactElement 对象
@@ -24,55 +29,212 @@
 ### Component 类
 
 ### render()
-模拟ReactDom.render()
+
+模拟 ReactDom.render()
 
 renderRootSync()：渲染阶段
-commitRoot()：commit阶段
+commitRoot()：commit 阶段
 
+###
 
-
-### 
 ```js
 const root = {
-	container: document.getElementById('root')
-}
+  container: document.getElementById("root"),
+};
 
 const hostRootFiber: FiberNode = createHostRootFiber(); // 根fiber节点
 
-root.current = hostRootFiber // 保存根fiber节点
-hostRootFiber.stateNode = root // stateNode表示真实DOM节点
+root.current = hostRootFiber; // 保存根fiber节点
+hostRootFiber.stateNode = root; // stateNode表示真实DOM节点
 
-let workInProgress = createWorkInProgress(hostRootFiber,{children:element}); // 根fiber节点的副本
+let workInProgress = createWorkInProgress(hostRootFiber, { children: element }); // 根fiber节点的副本
 ```
 
 ### renderRootSync()
-[10:36]
-深度优先搜索：
-- 先从上到下，遍历节点
-- 再从左到右，遍历节点
-- 没有下也没有右了，遍历完子节点、兄弟节点，向上回退
 
+[10:36]
+
+**深度优先搜索（DFS）：**
+
+- 外层的 while 循环：从上到下，遍历子节点
+- 内层的 do-while 循环：回退到父节点，遍历父节点的兄弟节点
+
+- 先从上到下，遍历子节点（外层的 while 循环）
+- 没有子节点了，再从左到右（打破内层的 do-while 回退循环，开始从上到下的外层 while 循环）
+- 没有下也没有右了，遍历完子节点、兄弟节点；向上回退，先从左到右，再从上到下
+
+```js
+/**
+ * 同步渲染根节点的函数。
+ * 该函数会遍历 fiber 树，依次执行 beginWork 和 completeWork 操作，完成整个渲染流程。
+ */
+function renderRootSync() {
+  // 当存在待处理的 workInProgress fiber 节点时，继续执行渲染工作
+  // 当不存在待处理的 workInProgress fiber 节点时，说明渲染工作已经完成，退出循环
+  while (workInProgress) {
+    // 获取当前 workInProgress fiber 节点对应的 current fiber 节点
+    const current = workInProgress.alternate;
+    // 执行 beginWork 函数，处理当前 fiber 节点，返回下一个需要处理的子 fiber
+    const next = beginWork(current, workInProgress);
+    // 将 pendingProps 赋值给 memoizedProps，表示属性已经处理完成
+    workInProgress.memoizedProps = workInProgress.pendingProps;
+    // 如果存在下一个需要处理的子 fiber
+    if (next) {
+      // 将 workInProgress 指向子 fiber，继续处理子节点
+      workInProgress = next;
+    } else {
+      // 当没有子 fiber 时，开始回溯，完成当前节点及其父节点的工作
+      do {
+        // 执行 completeWork 函数，完成当前 fiber 节点的工作
+        completeWork(workInProgress);
+        // ！！！从左到右：如果当前 fiber 存在兄弟节点
+        if (workInProgress.sibling) {
+          // 将 workInProgress 指向兄弟节点，继续处理兄弟节点
+          workInProgress = workInProgress.sibling;
+          // ！！！跳出 do-while 循环，开始从上到下处理兄弟节点
+          break;
+        } else {
+          // ！！！从下到上：如果没有兄弟节点，将 workInProgress 指向父节点，继续回溯
+          workInProgress = workInProgress.return;
+        }
+      } while (workInProgress);
+    }
+  }
+}
+```
 
 ### beginWork()
+
 [14:23]
 
-输入：ReactElement
-输出：Fiber节点
+输入：current 节点、正在构建的 workInProgress 节点
+输出：正在构建的 workInProgress 的子节点（下一个需要处理的子节点）
+
+```js
+/**
+ * 处理current Fiber 节点，决定是复用现有节点，还是重新构建子 Fiber 节点。
+ * @param {Fiber|null} current - current Fiber 树中对应的 Fiber 节点，如果是首次渲染则为 null。
+ * @param {Fiber} workInProgress - 正在构建的新 Fiber 节点。
+ * @returns {Fiber|null} - 下一个需要处理的子 Fiber 节点，如果没有则返回 null。
+ */
+function beginWork(current, workInProgress) {
+  // 如果存在 current Fiber 节点，说明不是首次渲染
+  if (current) {
+    // 检查当前节点的属性是否未发生变化，并且当前节点的优先级车道不在渲染车道中
+    if (
+      current.memoizedProps === workInProgress.pendingProps &&
+      !includesSomeLane(workInProgress.lanes, renderLanes)
+    ) {
+      // 检查当前节点的子节点的优先级车道是否也不在渲染车道中
+      if (!includesSomeLane(workInProgress.childLanes, renderLanes)) {
+        // 如果都不满足渲染条件，返回 null 表示不需要处理子节点
+        return null;
+      }
+      // NOTE: 复用子节点
+      return bailout(current, workInProgress);
+    }
+  }
+
+  // 存储下一个需要处理的子节点对应的ReactElement
+  let nextChildren = null;
+  // 根据 workInProgress 节点的类型进行不同处理
+  // NOTE: 获取对应的ReactElement
+  switch (workInProgress.tag) {
+    case HostRoot:
+      // 获取根节点的更新队列中的载荷作为子节点
+      nextChildren = workInProgress.updateQueue.pending.payload;
+      // 清空更新队列
+      workInProgress.updateQueue.pending = null;
+      break;
+    case Fragment:
+      // 将 Fragment 的属性作为子节点
+      nextChildren = workInProgress.pendingProps;
+      break;
+    case HostComponent:
+      // 获取宿主组件的子节点
+      const children = workInProgress.pendingProps.children;
+      // 如果子节点是字符串或数字，则不处理，否则作为下一个子节点
+      nextChildren =
+        typeof children === "string" || typeof children === "number"
+          ? null
+          : children;
+      break;
+    case HostText:
+      // 文本节点没有子节点
+      nextChildren = null;
+      break;
+    case FunctionComponent:
+      // NOTE: 调用 renderWithHooks 函数处理函数组件，获取ReactElement
+      nextChildren = renderWithHooks(current, workInProgress);
+      break;
+    case ClassComponent:
+      // 如果是首次渲染
+      if (!current) {
+        // 创建类组件的实例
+        const instance = new workInProgress.type(workInProgress.pendingProps);
+        // 将实例与 Fiber 节点关联
+        instance._reactFiber = workInProgress;
+        // 将实例存储在 Fiber 节点的 stateNode 属性中
+        workInProgress.stateNode = instance;
+        // NOTE: 调用实例的 render 方法，获取ReactElement
+        nextChildren = instance.render();
+      } else {
+        // 获取类组件的实例
+        const instance = workInProgress.stateNode;
+        // 初始化新的状态
+        let newState = instance.state;
+        // 获取当前节点的更新队列
+        const pendingState = current.updateQueue.pending;
+        // 获取更新队列的第一个更新
+        let next = pendingState.next;
+        // 遍历更新队列，合并状态
+        do {
+          newState = { ...newState, ...next.payload };
+          if (next === pendingState) {
+            break;
+          }
+          next = next.next;
+        } while (next);
+        // 更新实例的状态
+        instance.state = newState;
+        // 调用实例的 render 方法获取子节点
+        nextChildren = instance.render();
+      }
+      break;
+    default:
+      return;
+  }
+
+  // 重新构建子 Fiber 节点，清除自身的优先级
+  // 重新构建子 fiber，清除自身标记
+  workInProgress.lanes = NoLane;
+
+  // React diff
+  // NOTE: 调用 reconciler 函数进行 React diff，生成新的子 Fiber 节点
+  workInProgress.child = reconciler(current, workInProgress, nextChildren);
+  // 返回下一个需要处理的子 Fiber 节点
+  return workInProgress.child;
+}
+```
 
 ### completeWork()
 
+[20:31]
 
 ## fiber.js
+
 ### FiberNode()
-Fiber节点的构造函数
+
+Fiber 节点的构造函数
 
 ### createFiber()
-
 
 ### createFiberFromElement()
 
 ## constants.js
+
 常量：fiber tag 类型、协调过程中产生的副作用 flag、渲染优先级 lane
 
 # 相关资料
+
 [实现 React 的首次渲染](https://www.bilibili.com/video/BV16H89epER9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)

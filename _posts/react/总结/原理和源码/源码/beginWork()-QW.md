@@ -4,7 +4,7 @@
 
 ## **1. 什么是 `beginWork()`？**
 
-`beginWork()` 是 React 在**渲染阶段（Render Phase）**调用的函数，主要任务是：
+`beginWork()` 是 React 在**渲染阶段（Render Phase）** 调用的函数，主要任务是：
 - 根据当前的 Fiber 节点和新的 props、state 等信息，确定需要执行的操作。
 - 创建或更新子 Fiber 节点。
 - 返回下一个需要处理的子节点（如果有的话）。
