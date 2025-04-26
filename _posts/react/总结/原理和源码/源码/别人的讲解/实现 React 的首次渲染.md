@@ -103,7 +103,7 @@ function renderRootSync() {
 }
 ```
 
-### beginWork()
+#### beginWork()
 
 [14:23]
 
@@ -217,10 +217,15 @@ function beginWork(current, workInProgress) {
 }
 ```
 
-### completeWork()
+#### completeWork()
 [20:31]
 
 每一个宿主组件的Fiber节点都有一个stateNode属性，指向真实的DOM节点
+
+### commitRoot()
+[30:14]
+
+
 
 
 ## fiber.js
