@@ -218,8 +218,10 @@ function beginWork(current, workInProgress) {
 ```
 
 ### completeWork()
-
 [20:31]
+
+每一个宿主组件的Fiber节点都有一个stateNode属性，指向真实的DOM节点
+
 
 ## fiber.js
 
