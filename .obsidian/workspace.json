@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. JSX 、createElement"
+              "title": "高级前端工程师的面试题 总结_DS"
+            }
+          },
+          {
+            "id": "0d207fdfc964b58f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2. Fiber"
             }
           },
           {
@@ -272,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -437,7 +461,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -559,11 +583,17 @@
       }
     ]
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/react/总结/原理和源码/源码/React 的工作原理-DS.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
+    "_posts/react/总结/原理和源码/源码/React 的工作原理-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/English/英语.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
     "_posts/methods/要整理的.md",
     "_posts/react/总结/原理和源码/源码/JSX-DS.md",
     "_posts/react/总结/原理和源码/源码/JSX 编译转换详解.md",
@@ -574,9 +604,7 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427100413.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/c7e410245a3b124bc3093409b9fe68c1_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427100341.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
     "_posts/读书笔记/历史.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-27.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-26.md",
     "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
@@ -584,7 +612,6 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/836950350c38caf9c65a14e7b62af933_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250426154924.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/7526f5a3d66b10b7fbee5fa10e9f4de9_MD5.jpeg",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/react/总结/原理和源码/源码/同步渲染阻塞-DS.md",
     "_posts/react/总结/原理和源码/源码/beginWork()-QW.md",
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
@@ -594,10 +621,7 @@
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/state.md",
     "_posts/English/单词/status.md",
-    "_posts/English/单词/host.md",
     "_posts/English/单词",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "DailyNote/Journal/01 Daily/学习复习模版.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media",
     "_posts/react/总结/原理和源码/源码/别人的讲解",
     "_posts/base/js/知识点总结/原型",
