@@ -7,10 +7,10 @@ JavaScript XML (**JSX**) 是 React 中用于**描述 UI 结构**的语法扩展�
 
 ### **一、JSX 的本质**
 #### 0. Why
-在JS中的JSX，只是方便程序员，但不能被引擎执行。因此，需要被编译成JS。
+**在JS中的JSX，只是方便程序员，但不能被引擎执行。因此，需要被编译成JS。**
 
 #### 1. 语法糖
-   - JSX 会*被编译工具（如 Babel）转换为 `React.createElement()` 调用*，生成 **React 元素对象**（虚拟 DOM 的组成部分）。
+   - JSX 会*被编译工具（如 Babel）转换为 `jsx`、`jsxs`、`React.createElement()` 调用*，生成 **React 元素对象**（虚拟 DOM 的组成部分）。[[JSX 编译转换详解]]
    - **编译前**：
      ```jsx
      const element = <h1 className="title">Hello, JSX!</h1>;
