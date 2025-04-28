@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 创建一个 Fiber 节点"
+              "title": "4. 实现 React 的首次渲染"
             }
           },
           {
@@ -461,7 +461,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -486,13 +486,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0d207fdfc964b58f",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/react/总结/原理和源码/源码/_React 的工作原理-DS.md",
     "_posts/react/总结/原理和源码/源码/_React 的工作原理-QW.md",
     "_posts/react/总结/原理和源码/源码/同步渲染阻塞-DS.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-DS.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-QW.md",
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
@@ -502,7 +503,6 @@
     "DailyNote/Journal/01 Daily/2025/04/media",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/English/英语.md",
     "_posts/methods/要整理的.md",
