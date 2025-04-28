@@ -3,21 +3,21 @@ React 是一个用于构建用户界面的 JavaScript 库，其核心思想是�
 ---
 
 ### 1. 虚拟 DOM（Virtual DOM）
-React 的核心机制之一是虚拟 DOM，它通过以下步骤优化渲染性能：
+React 的核心机制之一是虚拟 DOM，它通过以下步骤**优化渲染性能：**
 - **虚拟 DOM 的生成**：  
   当组件状态（`state`）或属性（`props`）变化时，React 会生成一个新的虚拟 DOM 树（轻量级的 JavaScript 对象表示）。
 - **Diffing 算法**：  
   React 使用 **Diffing 算法** 对比新旧虚拟 DOM 树的差异（仅比较同层节点，不递归深层节点）。
 - **最小化真实 DOM 操作**：  
-  根据差异结果，React 生成一个最小的 DOM 更新操作集合（如增删改节点），批量应用到真实 DOM 上。
+  根据差异结果，React *生成一个最小的 DOM 更新操作集合*（如增删改节点），批量应用到真实 DOM 上。
 
-**优势**：避免直接操作真实 DOM 的高昂性能开销，提升渲染效率。
+**优势**：*避免直接操作真实 DOM 的高昂性能开销，提升渲染效率*。
 
 ---
 
 ### 2. 组件化（Component-Based Architecture）
 - **声明式 UI**：  
-  开发者通过返回 JSX 描述 UI 应该是什么样子（而非直接操作 DOM），React 负责将声明式代码转换为实际 DOM。
+  开发者通过返回 JSX *描述 UI 应该是什么样子*（而非直接操作 DOM），React 负责将声明式代码转换为实际 DOM。
 - **组件类型**：  
   - **函数组件**：纯函数形式，通过 `props` 接收参数，返回 JSX（React 16.8+ 支持 Hooks 管理状态）。
   - **类组件**：继承 `React.Component`，通过 `this.state` 和生命周期方法管理状态。
@@ -26,8 +26,8 @@ React 的核心机制之一是虚拟 DOM，它通过以下步骤优化渲染性�
 
 ---
 
-### 3. **协调（Reconciliation）**
-React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
+### 3. 协调（Reconciliation）
+`React 的协调过程`是*虚拟 DOM Diffing 的核心逻辑*：
 - **Diffing 规则**：
   - **同层比较**：如果节点类型不同（如从 `<div>` 变为 `<span>`），直接销毁旧子树，构建新子树。
   - **Key 的作用**：列表元素必须提供唯一的 `key`，帮助 React 识别元素是否移动、添加或删除。
@@ -37,7 +37,7 @@ React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
 
 ---
 
-### 4. **状态管理（State Management）**
+### 4. 状态管理（State Management）
 - **状态更新机制**：  
   - 使用 `setState`（类组件）或 `useState`（函数组件）触发状态更新。
   - **批量更新**：React 会将多次状态更新合并为一次渲染，减少重复计算。
@@ -46,7 +46,7 @@ React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
 
 ---
 
-### 5. **Hooks 原理（函数组件）**
+### 5. Hooks 原理（函数组件）
 - **Hooks 的实现**：  
   React 通过链表结构管理 Hooks 的调用顺序，确保每次渲染时 Hook 的顺序一致。
 - **常见 Hooks**：  
@@ -57,17 +57,17 @@ React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
 
 ---
 
-### 6. **React 18 的并发模式（Concurrent Mode）**
+### 6. React 18 的并发模式（Concurrent Mode）
 - **时间切片（Time Slicing）**：  
   将渲染任务分割为多个小任务，避免长时间阻塞主线程。
 - **过渡更新（Transitions）**：  
-  使用 `startTransition` 标记低优先级更新，确保高优先级交互（如输入）即时响应。
+  使用 `startTransition` *标记低优先级更新*，确保高优先级交互（如输入）即时响应。
 - **Suspense**：  
   延迟加载组件或数据，在等待期间显示占位内容（如 `<Suspense fallback={<Spinner />}>`）。
 
 ---
 
-### 7. **生命周期（类组件）**
+### 7. 生命周期（类组件）
 - **挂载阶段**：  
   `constructor` → `render` → `componentDidMount`
 - **更新阶段**：  
@@ -77,7 +77,7 @@ React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
 
 ---
 
-### 8. **事件系统**
+### 8. 事件系统
 - **合成事件（SyntheticEvent）**：  
   React 封装了跨浏览器兼容的事件对象，提供统一 API（如 `onClick`）。
 - **事件委托**：  
@@ -85,7 +85,7 @@ React 的协调过程是虚拟 DOM Diffing 的核心逻辑：
 
 ---
 
-### 9. **渲染流程示例**
+### 9. 渲染流程示例
 假设有一个简单组件：
 ```jsx
 function Counter() {
@@ -111,7 +111,7 @@ function Counter() {
 
 ---
 
-### 10. **总结：React 的核心优势**
+### 10. 总结：React 的核心优势
 - **高效渲染**：虚拟 DOM + Diffing 算法。
 - **声明式编程**：聚焦 UI 逻辑，而非 DOM 操作细节。
 - **组件化**：提升代码复用性和可维护性。

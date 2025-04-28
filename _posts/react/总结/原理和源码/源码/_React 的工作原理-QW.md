@@ -2,7 +2,7 @@ React 是一个用于构建用户界面的 JavaScript 库，其核心设计思�
 
 ---
 
-## 1. **声明式编程**
+## 1. 声明式编程
 React 的核心理念之一是**声明式编程**，与传统的命令式编程相比，它更关注“什么”而不是“如何”。开发者只需描述 UI 的状态（即数据）以及它应该如何渲染，而不需要手动操作 DOM。
 
 ### 特点：
@@ -12,29 +12,29 @@ React 的核心理念之一是**声明式编程**，与传统的命令式编程�
 
 ---
 
-## 2. **虚拟 DOM 和 Diff 算法**
+## 2. 虚拟 DOM 和 Diff 算法
 React 的高效更新机制依赖于**虚拟 DOM**和**Diff 算法**。
 
-### （1）**虚拟 DOM**
+### （1）虚拟 DOM
 - 虚拟 DOM 是一个内存中的 JavaScript 对象，它是对真实 DOM 的抽象表示。
 - 当组件的状态或属性发生变化时，React 会生成一个新的虚拟 DOM 树，并与旧的虚拟 DOM 树进行比较。
 
-### （2）**Diff 算法**
+### （2）Diff 算法
 - React 使用一种高效的 Diff 算法来比较新旧虚拟 DOM 树之间的差异。
 - **同层级比较**：React 假设 DOM 节点的跨层级移动是非常罕见的，因此只会对同一层级的节点进行比较。
 - **Key 属性**：React 通过 `key` 属性来识别列表中的元素，从而避免不必要的重新渲染。
 - **类型检查**：如果两个节点的类型不同（例如从 `<div>` 变为 `<span>`），React 会直接销毁旧节点并创建新节点。
 
-### （3）**批量更新**
+### （3）批量更新
 - React 将多次状态更新合并为一次更新，减少了对真实 DOM 的操作次数。
 - 这种机制被称为**批处理（Batching）**，它显著提高了性能。
 
 ---
 
-## 3. **组件生命周期**
+## 3. 组件生命周期
 React 组件具有明确的生命周期，分为三个阶段：**挂载（Mounting）**、**更新（Updating）** 和 **卸载（Unmounting）**。
 
-### （1）**挂载阶段**
+### （1）挂载阶段
 - 组件被插入到 DOM 中。
 - 生命周期方法（以类组件为例）：
   - `constructor()`
@@ -42,7 +42,7 @@ React 组件具有明确的生命周期，分为三个阶段：**挂载（Mounti
   - `render()`
   - `componentDidMount()`
 
-### （2）**更新阶段**
+### （2）更新阶段
 - 组件的状态或属性发生变化时触发更新。
 - 生命周期方法：
   - `static getDerivedStateFromProps()`
@@ -51,7 +51,7 @@ React 组件具有明确的生命周期，分为三个阶段：**挂载（Mounti
   - `getSnapshotBeforeUpdate()`
   - `componentDidUpdate()`
 
-### （3）**卸载阶段**
+### （3）卸载阶段
 - 组件从 DOM 中移除。
 - 生命周期方法：
   - `componentWillUnmount()`
@@ -60,20 +60,20 @@ React 组件具有明确的生命周期，分为三个阶段：**挂载（Mounti
 
 ---
 
-## 4. **JSX 和 React.createElement**
+## 4. JSX 和 React.createElement
 React 使用 JSX（JavaScript XML）作为模板语言，但它本质上是一个语法糖，最终会被编译为 `React.createElement` 的调用。
 
-### （1）**JSX 示例**
+### （1）JSX 示例
 ```jsx
 const element = <h1>Hello, World!</h1>;
 ```
 
-### （2）**编译后的代码**
+### （2）编译后的代码
 ```javascript
 const element = React.createElement('h1', null, 'Hello, World!');
 ```
 
-### （3）**React.createElement 的作用**
+### （3）React.createElement 的作用
 - `React.createElement` 创建一个描述 UI 的对象（即虚拟 DOM 节点）。
 - 该对象包含以下主要属性：
   - `type`：表示元素的类型（如 `'div'` 或组件函数/类）。
@@ -81,50 +81,50 @@ const element = React.createElement('h1', null, 'Hello, World!');
 
 ---
 
-## 5. **状态管理（State 和 Props）**
+## 5. 状态管理（State 和 Props）
 React 的核心概念之一是**状态管理**，它决定了组件的行为和渲染。
 
-### （1）**State**
+### （1）State
 - State 是组件内部的私有数据，可以动态变化。
 - 在类组件中使用 `this.state` 和 `this.setState()`。
 - 在函数组件中使用 `useState` Hook。
 
-### （2）**Props**
+### （2）Props
 - Props 是从父组件传递给子组件的数据，通常是只读的。
 - 子组件不能直接修改 props，只能通过回调函数通知父组件更新。
 
 ---
 
-## 6. **Reconciliation（协调）**
+## 6. Reconciliation（协调）
 当组件的状态或属性发生变化时，React 会触发**协调过程**，以确定需要更新哪些部分的 UI。
 
-### （1）**流程**
+### （1）流程
 1. **生成新的虚拟 DOM 树**：根据最新的状态和属性生成新的虚拟 DOM。
 2. **Diff 比较**：将新旧虚拟 DOM 树进行比较，找出差异。
 3. **更新真实 DOM**：将差异应用到真实 DOM 上。
 
-### （2）**Fiber 架构**
+### （2）Fiber 架构
 从 React 16 开始，React 引入了**Fiber 架构**，这是一种新的协调算法。它的主要特点包括：
 - **增量渲染**：将渲染任务拆分为多个小任务，允许浏览器在任务之间进行中断和恢复。
 - **优先级调度**：支持高优先级任务（如用户交互）优先执行，低优先级任务（如后台渲染）延迟执行。
 
 ---
 
-## 7. **Hooks 的原理**
+## 7. Hooks 的原理
 React Hooks 是 React 16.8 引入的新特性，允许在函数组件中使用状态和其他 React 特性。
 
-### （1）**核心 Hook**
+### （1）核心 Hook
 - `useState`：用于管理状态。
 - `useEffect`：用于处理副作用（如数据获取、订阅等）。
 - `useContext`：用于访问上下文（Context）。
 
-### （2）**实现原理**
+### （2）实现原理
 - Hooks 的实现依赖于 React 内部的 Fiber 节点和链表结构。
 - 每个 Hook 都会存储在一个链表中，React 在渲染时依次调用这些 Hooks。
 
 ---
 
-## 8. **总结**
+## 8. 总结
 React 的核心原理可以概括为以下几点：
 1. **声明式编程**：开发者只需描述 UI 的状态和逻辑，React 自动处理 DOM 更新。
 2. **虚拟 DOM 和 Diff 算法**：通过高效的对比机制，最小化对真实 DOM 的操作。
