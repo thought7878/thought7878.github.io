@@ -461,7 +461,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -486,11 +486,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
+    "_posts/react/总结/原理和源码/源码/JSX 编译转换详解.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-29.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-28.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "_posts/react/总结/原理和源码/源码/_React 的工作原理-DS.md",
@@ -498,7 +501,6 @@
     "_posts/react/总结/原理和源码/源码/同步渲染阻塞-DS.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-DS.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-QW.md",
-    "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "DailyNote/Journal/01 Daily/2025/04/2025-04-27.md",
     "DailyNote/Journal/01 Daily/2025/04/media",
@@ -508,7 +510,6 @@
     "_posts/English/英语.md",
     "_posts/methods/要整理的.md",
     "_posts/react/总结/原理和源码/源码/JSX-DS.md",
-    "_posts/react/总结/原理和源码/源码/JSX 编译转换详解.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102820.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/1f4e20b9b05c67765e49aeb071b92561_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102644.png",
@@ -524,7 +525,6 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250426154924.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/7526f5a3d66b10b7fbee5fa10e9f4de9_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/beginWork()-QW.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
     "_posts/English/单词",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media",
     "_posts/react/总结/原理和源码/源码/别人的讲解",
