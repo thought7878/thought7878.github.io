@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/红花-心脑血管.md",
+                "file": "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "红花-心脑血管"
+              "title": "感染性鼻炎"
             }
           },
           {
@@ -486,14 +486,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "0d207fdfc964b58f",
   "lastOpenFiles": [
+    "_posts/读书笔记/健康/鼻炎/鼻窦炎.md",
+    "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+    "_posts/读书笔记/健康/鼻炎/慢性鼻炎.md",
+    "_posts/读书笔记/健康/老爹/蟾麝救心丸.md",
+    "_posts/读书笔记/健康/老爹/阿司匹林.md",
     "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/读书笔记/健康/老爹/红花-心脑血管.md",
+    "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
     "_posts/读书笔记/健康/老爹/肺心病.md",
-    "_posts/读书笔记/健康/老爹/阿司匹林.md",
-    "_posts/读书笔记/健康/老爹/蟾麝救心丸.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/读书笔记/健康/眼睛、眼镜.md",
     "_posts/读书笔记/健康/media/7944cfd980de01f3f3d7ee689155795a_MD5.jpeg",
     "_posts/读书笔记/健康/media/Pasted image 20250504164606.png",
@@ -517,10 +522,7 @@
     "_posts/react/总结/原理和源码/源码/同步渲染阻塞-DS.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-DS.md",
     "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-QW.md",
-    "_posts/读书笔记/世界趋势/美国.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-27.md",
     "DailyNote/Journal/01 Daily/2025/04/media",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102820.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/1f4e20b9b05c67765e49aeb071b92561_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102644.png",
@@ -532,7 +534,6 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解",
     "_posts/base/js/知识点总结/原型",
     "_posts/base/js/知识点总结/JS 执行机制/media",
-    "_posts/读书笔记/经济、金融",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
