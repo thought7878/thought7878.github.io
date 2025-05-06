@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-01.md",
+                "file": "_posts/methods/学习方法/编程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-01"
+              "title": "编程"
             }
           },
           {
@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "感染性鼻炎"
+              "title": "4. 实现 React 的首次渲染"
             }
           },
           {
@@ -296,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -328,7 +328,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:?.",
+                "query": "懒人高效学编程",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -461,7 +461,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -486,15 +486,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0d207fdfc964b58f",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/鼻炎/鼻窦炎.md",
-    "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-06.md",
+    "_posts/methods/学习方法/编程.md",
+    "_posts/base/编程范式.md",
+    "_posts/methods/学习方法/80-20法则.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+    "_posts/methods/常看的.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-01.md",
+    "_posts/algorithm & 数据结构/算法题/链表/7.环形链表衍生问题——定位环的起点.md",
+    "_posts/algorithm & 数据结构/算法题/链表/6.环形链表基本问题——如何判断链表是否成环？.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/未来.md",
+    "_posts/读书笔记/健康/牙齿.md",
+    "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/读书笔记/健康/鼻炎/鼻窦炎.md",
     "_posts/读书笔记/健康/鼻炎/慢性鼻炎.md",
     "_posts/读书笔记/健康/老爹/蟾麝救心丸.md",
     "_posts/读书笔记/健康/老爹/阿司匹林.md",
-    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
     "_posts/读书笔记/健康/老爹/红花-心脑血管.md",
     "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
@@ -509,19 +521,7 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-01.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-29.md",
     "DailyNote/Journal/01 Daily/2025/05",
-    "_posts/react/总结/原理和源码/源码/_React 的工作原理-DS.md",
-    "_posts/react/总结/原理和源码/源码/_React 的工作原理-QW.md",
-    "_posts/react/总结/原理和源码/源码/双缓冲机制-QW.md",
-    "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
-    "_posts/react/总结/原理和源码/源码/JSX 编译转换详解.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
-    "DailyNote/Journal/01 Daily/2025/04/2025-04-28.md",
-    "_posts/react/总结/原理和源码/源码/同步渲染阻塞-DS.md",
-    "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-DS.md",
-    "_posts/react/总结/原理和源码/源码/_为什么要使用Fiber？-QW.md",
     "DailyNote/Journal/01 Daily/2025/04/media",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102820.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/1f4e20b9b05c67765e49aeb071b92561_MD5.jpeg",
