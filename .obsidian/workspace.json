@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-06.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-06"
+              "title": "2025-05-08"
             }
           },
           {
@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/学习方法/编程.md",
+                "file": "_posts/methods/学习方法/编程/提问模版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "编程"
+              "title": "提问模版"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 事件绑定"
+              "title": "4. 实现 React 的首次渲染"
             }
           },
           {
@@ -485,7 +485,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -512,10 +512,21 @@
   },
   "active": "0d207fdfc964b58f",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
-    "_posts/methods/学习方法/编程.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-08.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-07.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-06.md",
+    "DailyNote/Journal/01 Daily/2025-05-07.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/methods/学习方法/编程/编程.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/English/单词/host.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/methods/学习方法/编程/提问模版-DS.md",
+    "_posts/methods/学习方法/编程/QW.md",
+    "_posts/methods/学习方法/编程",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/base/编程范式.md",
     "_posts/methods/学习方法/80-20法则.md",
     "_posts/methods/常看的.md",
@@ -528,23 +539,13 @@
     "_posts/读书笔记/健康/牙齿.md",
     "_posts/读书笔记/健康/鼻炎/感染性鼻炎.md",
     "_posts/读书笔记/健康/老爹/支气管哮喘.md",
-    "_posts/读书笔记/健康/鼻炎/鼻窦炎.md",
-    "_posts/读书笔记/健康/鼻炎/慢性鼻炎.md",
-    "_posts/读书笔记/健康/老爹/蟾麝救心丸.md",
-    "_posts/读书笔记/健康/老爹/阿司匹林.md",
-    "_posts/读书笔记/健康/老爹/红花-心脑血管.md",
     "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
-    "_posts/读书笔记/健康/老爹/肺心病.md",
-    "_posts/读书笔记/健康/眼睛、眼镜.md",
     "_posts/读书笔记/健康/media/7944cfd980de01f3f3d7ee689155795a_MD5.jpeg",
     "_posts/读书笔记/健康/media/Pasted image 20250504164606.png",
     "_posts/读书笔记/健康/media/1e7e08e557ce0e22e00239be8cfec4f3_MD5.jpeg",
     "_posts/读书笔记/健康/media/Pasted image 20250504164430.png",
     "_posts/读书笔记/健康/media",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "DailyNote/Journal/01 Daily/2025/05",
     "DailyNote/Journal/01 Daily/2025/04/media",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102820.png",
@@ -557,7 +558,6 @@
     "_posts/react/总结/原理和源码/源码/别人的讲解/media",
     "_posts/react/总结/原理和源码/源码/别人的讲解",
     "_posts/base/js/知识点总结/原型",
-    "_posts/base/js/知识点总结/JS 执行机制/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
