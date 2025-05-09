@@ -485,7 +485,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -510,16 +510,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "0d207fdfc964b58f",
   "lastOpenFiles": [
+    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
+    "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-09.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-08.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-07.md",
@@ -538,7 +539,6 @@
     "DailyNote/Journal/01 Daily/2025/05/2025-05-01.md",
     "_posts/algorithm & 数据结构/算法题/链表/7.环形链表衍生问题——定位环的起点.md",
     "_posts/algorithm & 数据结构/算法题/链表/6.环形链表基本问题——如何判断链表是否成环？.md",
-    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
     "_posts/读书笔记/健康/media/7944cfd980de01f3f3d7ee689155795a_MD5.jpeg",
