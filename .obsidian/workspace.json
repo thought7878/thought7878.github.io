@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-09.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-09"
+              "title": "2025-05-10"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+                "file": "_posts/English/查询单词的提示词模版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 实现 React 的首次渲染"
+              "title": "查询单词的提示词模版"
             }
           },
           {
@@ -352,7 +352,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "懒人高效学编程",
+                "query": "file:循环",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -485,7 +485,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -510,19 +510,26 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
+    "_posts/base/js/知识点总结/循环.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/4. 实现 React 的首次渲染.md",
+    "_posts/读书笔记/人性.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-10.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-09.md",
+    "_posts/algorithm & 数据结构/算法/深度优先搜索、遍历（DFS）.md",
+    "_posts/algorithm & 数据结构/前端算法与数据结构/14、遍历专题：DFS 与 BFS.md",
+    "_posts/algorithm & 数据结构/算法题/遍历专题：DFS 与 BFS/DFS.md",
+    "_posts/methods/常看的.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/3. 创建一个 Fiber 节点.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/1. JSX 、createElement.md",
     "_posts/react/总结/原理和源码/源码/React的渲染流程-DS.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-09.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-08.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-07.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-06.md",
     "DailyNote/Journal/01 Daily/2025-05-07.md",
@@ -532,13 +539,6 @@
     "_posts/methods/学习方法/编程/提问模版-DS.md",
     "_posts/methods/学习方法/编程/QW.md",
     "_posts/methods/学习方法/编程",
-    "_posts/base/编程范式.md",
-    "_posts/methods/学习方法/80-20法则.md",
-    "_posts/methods/常看的.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-01.md",
-    "_posts/algorithm & 数据结构/算法题/链表/7.环形链表衍生问题——定位环的起点.md",
-    "_posts/algorithm & 数据结构/算法题/链表/6.环形链表基本问题——如何判断链表是否成环？.md",
     "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
     "_posts/读书笔记/健康/media/7944cfd980de01f3f3d7ee689155795a_MD5.jpeg",
