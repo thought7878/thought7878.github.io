@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-12.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-12"
+              "title": "2025-05-13"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "参考资料"
+              "title": "Build your own React"
+            }
+          },
+          {
+            "id": "fcab52317ce27e0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/搞钱/别人的方法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "别人的方法"
             }
           },
           {
@@ -485,7 +509,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -510,52 +534,52 @@
       "media-extended:Open media": false
     }
   },
-  "active": "0d207fdfc964b58f",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/methods/构建系统/如何快速学习陌生领域.md",
-    "_posts/读书笔记/健康/老爹/泼尼松.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/17573e0770d097548d054da342d40525_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092504.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/7b4eeb96d649a0de3e713e1657404752_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092319.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513091712.png",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/f687e693beff6f157bc0865039a5a40e_MD5.jpeg",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513091650.png",
     "_posts/AI/搞钱/别人的方法.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/6. React 更新过程1.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-13.md",
+    "_posts/base/css/总结/布局/Flexbox/弹性布局（Flexbox）.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-12.md",
+    "_posts/base/css/总结/布局/Grid/网格布局（Grid Layout）.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/English/单词/review.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/6. React 更新过程1.md",
+    "_posts/methods/构建系统/如何快速学习陌生领域.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/读书笔记/健康/老爹/泼尼松.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-11.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/methods/构建系统/建构系统.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/要整理的.md",
     "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
-    "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/兴趣/军事.md",
     "_posts/读书笔记/兴趣",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/5. 事件绑定.md",
-    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-10.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/单词/target.md",
     "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
     "_posts/读书笔记/健康/老爹/media/Pasted image 20250510202216.png",
     "_posts/读书笔记/健康/老爹/media",
-    "_posts/读书笔记/健康/老爹/阿司匹林.md",
-    "_posts/读书笔记/健康/老爹/氨茶碱.md",
-    "_posts/读书笔记/健康/老爹/醋酸泼尼松片.md",
-    "().md",
     "_posts/methods/学习方法/编程",
     "_posts/读书笔记/健康/鼻炎",
     "_posts/读书笔记/健康/老爹",
     "_posts/读书笔记/健康/media/7944cfd980de01f3f3d7ee689155795a_MD5.jpeg",
-    "_posts/读书笔记/健康/media/Pasted image 20250504164606.png",
-    "_posts/读书笔记/健康/media/1e7e08e557ce0e22e00239be8cfec4f3_MD5.jpeg",
-    "_posts/读书笔记/健康/media/Pasted image 20250504164430.png",
     "_posts/读书笔记/健康/media",
     "DailyNote/Journal/01 Daily/2025/05",
     "DailyNote/Journal/01 Daily/2025/04/media",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102820.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/1f4e20b9b05c67765e49aeb071b92561_MD5.jpeg",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250427102644.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/a841071b792be23c78c4fe05729cfee6_MD5.jpeg",
     "_posts/English/单词",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
