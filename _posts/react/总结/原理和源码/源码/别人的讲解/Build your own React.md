@@ -227,35 +227,26 @@ function createElement(type, props, ...children) {  return {    type,    props: 
 ```
 
 There’s a problem with this recursive call.  
-这个递归调用存在问题。
-
+**这个递归调用存在问题。**
 Once we start rendering, we won’t stop until we have rendered the complete element tree. If the element tree is big, it may block the main thread for too long. And if the browser needs to do high priority stuff like handling user input or keeping an animation smooth, it will have to wait until the render finishes.  
-一旦开始渲染，我们将不会停止，直到渲染完整的元素树。如果元素树很大，它可能会阻塞主线程太长时间。如果浏览器需要处理高优先级的事情，比如处理用户输入或保持动画流畅，它将不得不等待渲染完成。
-
+**一旦开始渲染，我们将不会停止，直到渲染完整的元素树。如果元素树很大，它可能会阻塞主线程太长时间。如果浏览器需要处理高优先级的事情，比如处理用户输入或保持动画流畅，它将不得不等待渲染完成。**
 So we are going to break the work into small units, and after we finish each unit we’ll let the browser interrupt the rendering if there’s anything else that needs to be done.  
-所以我们将把工作分解成小的单元，每完成一个单元，如果浏览器有其他需要做的事情，我们将允许浏览器中断渲染。
+**所以我们将把工作分解成小的单元，每完成一个单元，如果浏览器有其他需要做的事情，我们将允许浏览器中断渲染。**
 
 We use `requestIdleCallback` to make a loop. You can think of `requestIdleCallback` as a `setTimeout`, but instead of us telling it when to run, the browser will run the callback when the main thread is idle.  
-我们使用  `requestIdleCallback`  来创建一个循环。你可以把  `requestIdleCallback`  看作是一个  `setTimeout` ，但不是由我们告诉它何时运行，而是当主线程空闲时浏览器会运行回调。
-
-_React [doesn’t use `requestIdleCallback` anymore](https://github.com/facebook/react/issues/11171#issuecomment-417349573). Now it uses the [scheduler package](https://github.com/facebook/react/tree/master/packages/scheduler). But for this use case it’s conceptually the same.  
-React 不再使用  `requestIdleCallback`  了。现在它使用调度器包。但对于这个用例，在概念上是一样的。_
-
+我们使用  `requestIdleCallback`  来创建一个循环。你可以把  `requestIdleCallback`  看作是一个  `setTimeout` ，但不是由我们告诉它何时运行，而是**当主线程空闲时浏览器会运行回调**。
+React [doesn’t use `requestIdleCallback` anymore](https://github.com/facebook/react/issues/11171#issuecomment-417349573). Now it uses the [scheduler package](https://github.com/facebook/react/tree/master/packages/scheduler). But for this use case it’s conceptually the same.  
+_React 不再使用  `requestIdleCallback`  了。现在它使用调度器包_。但对于这个用例，在概念上是一样的。
 `requestIdleCallback` also gives us a deadline parameter. We can use it to check how much time we have until the browser needs to take control again.  
 `requestIdleCallback`  还给我们提供了一个截止日期参数。我们可以用它来检查浏览器再次需要控制之前还有多少时间。
+As of November 2019, Concurrent Mode isn’t stable in React yet. The stable version of the loop looks more like this:  
+截至 2019 年 11 月，React 中的并发模式（Concurrent Mode）尚未稳定。这个循环的稳定版本看起来更像是这样：
 
-_As of November 2019, Concurrent Mode isn’t stable in React yet. The stable version of the loop looks more like this:  
-截至 2019 年 11 月，React 中的并发模式（Concurrent Mode）尚未稳定。这个循环的稳定版本看起来更像是这样：_
-
+```js
 while (nextUnitOfWork) {
-
-nextUnitOfWork = performUnitOfWork(
-
-    nextUnitOfWork
-
-)
-
+  nextUnitOfWork = performUnitOfWork(nextUnitOfWork);
 }
+```
 
 To start using the loop we’ll need to set the first unit of work, and then write a `performUnitOfWork` function that not only performs the work but also returns the next unit of work.  
 要开始使用循环，我们需要设置第一个工作单元，然后编写一个  `performUnitOfWork`  函数，该函数不仅执行工作，还返回下一个工作单元。
@@ -263,43 +254,35 @@ To start using the loop we’ll need to set the first unit of work, and then wri
 ### Step IV: Fibers   步骤 IV: Fibers
 
 To organize the units of work we’ll need a data structure: a fiber tree.  
-为了组织工作单元，我们需要一种数据结构：一个 fiber 树。
-
+**为了组织工作单元，我们需要一种数据结构：一个 fiber 树。**
 We’ll have one fiber for each element and each fiber will be a unit of work.  
-我们将为每个元素有一个 fiber，每个 fiber 将是一个工作单元。
+**每个元素有一个对应的 fiber，每个 fiber 将是一个工作单元。**
 
 Let me show you with an example.  
 让我举个例子给你看。
 
-![Fiber Tree 0](https://pomb.us/static/de664d437c94d478778b965c66c91f99/d3fa7/fiber0.png "Fiber Tree 0")
+![[_posts/react/总结/原理和源码/源码/别人的讲解/media/7e28c45a17ef413a241614894ad0710d_MD5.png]]
 
-![Fiber Tree 1](https://pomb.us/static/a88a3ec01855349c14302f6da28e2b0c/d3fa7/fiber1.png "Fiber Tree 1")
+![[_posts/react/总结/原理和源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png]]
 
 Suppose we want to render an element tree like this one:  
 假设我们想要渲染这样一个元素树：
 
+```jsx
 Didact.render(
-
   <div>
-
     <h1>
-
       <p />
-
       <a />
-
     </h1>
-
     <h2 />
-
   </div>,
-
-container
-
-)
+  container
+);
+```
 
 In the `render` we’ll create the root fiber and set it as the `nextUnitOfWork`. The rest of the work will happen on the `performUnitOfWork` function, there we will do three things for each fiber:  
-在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成，在那里我们将为每个 fiber 做三件事：
+在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成，**在那里我们将为每个 fiber 做三件事：**
 
 1. add the element to the DOM  
    将元素添加到 DOM 中
@@ -309,25 +292,19 @@ In the `render` we’ll create the root fiber and set it as the `nextUnitOfWo
    选择下一个工作单元
 
 One of the goals of this data structure is to make it easy to find the next unit of work. That’s why each fiber has a link to its first child, its next sibling and its parent.  
-这个数据结构的一个目标是要让它容易找到下一个工作单元。这就是为什么每个 fiber 都有一个链接到它的第一个子节点、下一个兄弟节点和父节点的链接。
-
+**这个数据结构的一个目标是要让它容易找到下一个工作单元**。这就是为什么每个 fiber 都有一个链接到它的第一个子节点、下一个兄弟节点和父节点的链接。
 When we finish performing work on a fiber, if it has a `child` that fiber will be the next unit of work.  
-当我们完成对一个 fiber 的工作时，如果它有一个  `child` ，那么这个 fiber 将是下一个工作单元。
-
+**当我们完成对一个 fiber 的工作时，如果它有一个  `child` ，那么这个 fiber 将是下一个工作单元。**
 From our example, when we finish working on the `div` fiber the next unit of work will be the `h1` fiber.  
-从我们的例子中，当我们完成对  `div` fiber 的工作后，下一个工作单元将是  `h1` fiber。
-
+*从我们的例子中，当我们完成对  `div` fiber 的工作后，下一个工作单元将是  `h1` fiber。*
 If the fiber doesn’t have a `child`, we use the `sibling` as the next unit of work.  
-如果该 fiber 没有  `child` ，我们使用  `sibling`  作为下一个工作单元。
-
+**如果该 fiber 没有  `child` ，我们使用  `sibling`  作为下一个工作单元。**
 For example, the `p` fiber doesn’t have a `child` so we move to the `a` fiber after finishing it.  
-例如， `p`  纤维没有  `child` ，所以我们完成它后移动到  `a`  纤维。
-
+*例如， `p`  纤维没有  `child` ，所以我们完成它后移动到  `a`  纤维。*
 And if the fiber doesn’t have a `child` nor a `sibling` we go to the “uncle”: the `sibling` of the `parent`. Like `a` and `h2` fibers from the example.  
-如果纤维既没有  `child`  也没有  `sibling` ，我们就去找“叔叔”： `parent`  的  `sibling` 。就像例子中的  `a`  和  `h2`  纤维。
-
+**如果纤维既没有  `child`  也没有  `sibling` ，我们就去找“叔叔”： `parent`  的  `sibling` 。就像例子中的  `a`  和  `h2`  纤维。**
 Also, if the `parent` doesn’t have a `sibling`, we keep going up through the `parent`s until we find one with a `sibling` or until we reach the root. If we have reached the root, it means we have finished performing all the work for this `render`.  
-此外，如果  `parent`  没有  `sibling` ，我们就继续向上通过  `parent`  直到找到一个有  `sibling`  的，或者直到我们到达根。如果我们已经到达了根，这意味着我们已经完成了这个  `render`  的所有工作。
+**此外，如果  `parent`  没有  `sibling` ，我们就继续向上通过  `parent`  直到找到一个有  `sibling`  的，或者直到我们到达根。如果我们已经到达了根，这意味着我们已经完成了这个  `render`  的所有工作。**
 
 Now let’s put it into code.  
 现在让我们把它写成代码。
