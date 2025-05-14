@@ -1,4 +1,4 @@
-自己动手构建 React
+[原文](https://pomb.us/build-your-own-react/)
 
 We are going to rewrite React from scratch. Step by step. Following the architecture from the real React code but without all the optimizations and non-essential features.  
 我们将从头开始重写 React。一步一步地。_遵循真实 React 代码的架构，但省略所有优化和非必要的功能_。
@@ -266,7 +266,7 @@ Let me show you with an example.
 ![[_posts/react/总结/原理和源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png]]
 
 Suppose we want to render an element tree like this one:  
-假设我们想要渲染这样一个元素树：
+假设我们想要*渲染这样一个**元素树**：*
 
 ```jsx
 Didact.render(
@@ -282,12 +282,12 @@ Didact.render(
 ```
 
 In the `render` we’ll create the root fiber and set it as the `nextUnitOfWork`. The rest of the work will happen on the `performUnitOfWork` function, there we will do three things for each fiber:  
-在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成，**在那里我们将为每个 fiber 做三件事：**
+*在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成*，**在那里我们将为每个 fiber 做三件事：**
 
 1. add the element to the DOM  
    将元素添加到 DOM 中
 2. create the fibers for the element’s children  
-   为元素的子项创建纤维
+   为元素的子项创建fiber
 3. select the next unit of work  
    选择下一个工作单元
 
@@ -322,8 +322,7 @@ We keep the part that creates a DOM node in its own function, we are going to us
 In the `render` function we set `nextUnitOfWork` to the root of the fiber tree.  
 在  `render`  函数中，我们将  `nextUnitOfWork`  设置为 fiber 树的根。
 
-Then, when the browser is ready,it will call our `workLoop` and we’ll start working on the root.  
-然后，当浏览器准备好时，它会调用我们的  `workLoop` ，然后我们将开始处理根节点。
+Then, when the browser is ready,it will call our `workLoop` and we’ll start working on the root. 然后，当浏览器准备好时，它会调用我们的  `workLoop` ，然后我们将开始处理根节点。
 
 First, we create a new node and append it to the DOM.  
 首先，我们创建一个新的节点并将其添加到 DOM 中。
