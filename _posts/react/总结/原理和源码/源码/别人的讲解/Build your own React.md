@@ -256,7 +256,7 @@ To start using the loop we’ll need to set the first unit of work, and then wri
 To organize the units of work we’ll need a data structure: a fiber tree.  
 **为了组织工作单元，我们需要一种数据结构：一个 fiber 树。**
 We’ll have one fiber for each element and each fiber will be a unit of work.  
-**每个元素有一个对应的 fiber，每个 fiber 将是一个工作单元。**
+**每个元素有一个对应的 fiber，*每个 fiber 将是一个工作单元*。**
 
 Let me show you with an example.  
 让我举个例子给你看。
