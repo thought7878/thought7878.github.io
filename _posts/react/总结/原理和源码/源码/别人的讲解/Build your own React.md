@@ -251,7 +251,8 @@ while (nextUnitOfWork) {
 To start using the loop we’ll need to set the first unit of work, and then write a `performUnitOfWork` function that not only performs the work but also returns the next unit of work.  
 要开始使用循环，我们需要设置第一个工作单元，然后编写一个  `performUnitOfWork`  函数，该函数不仅执行工作，还返回下一个工作单元。
 
-### Step IV: Fibers   步骤 IV: Fibers
+### Step IV: Fibers   
+步骤 IV: Fibers
 
 To organize the units of work we’ll need a data structure: a fiber tree.  
 **为了组织工作单元，我们需要一种数据结构：一个 fiber 树。**
@@ -347,11 +348,9 @@ And that’s our `performUnitOfWork` .
 步骤 V：渲染和提交阶段
 
 We have another problem here.  
-我们在这里又有一个问题。
-
+*我们在这里又有一个问题*。
 We are adding a new node to the DOM each time we work on an element. And, remember, the browser could interrupt our work before we finish rendering the whole tree. In that case, the user will see an incomplete UI. And we don’t want that.  
-每次我们处理一个元素时，我们都在向 DOM 添加一个新的节点。记住，浏览器可能会在我们完成渲染整个树之前中断我们的工作。在这种情况下，用户会看到一个不完整的 UI。我们不希望这样。
-
+**每次我们处理一个元素时，我们都在向 DOM 添加一个新的节点。记住，浏览器可能会在我们完成渲染整个树之前中断我们的工作。在这种情况下，用户会看到一个不完整的 UI。我们不希望这样。**
 So we need to remove the part that mutates the DOM from here.  
 所以我们得从这里移除改变 DOM 的部分。
 
@@ -364,13 +363,13 @@ And once we finish all the work (we know it because there isn’t a next unit of
 We do it in the `commitRoot` function. Here we recursively append all the nodes to the dom.  
 我们在  `commitRoot`  函数中完成。在这里，我们递归地将所有节点附加到 dom 中。
 
-### Step VI: Reconciliation   步骤六：Reconciliation
+### Step VI: Reconciliation   
+步骤六：Reconciliation
 
 So far we only *added* stuff to the DOM, but what about updating or deleting nodes?  
-到目前为止，我们只添加了内容到 DOM 中，但如何更新或删除节点呢？
-
+**到目前为止，我们只添加了内容到 DOM 中，但如何更新或删除节点呢？**
 That’s what we are going to do now, we need to compare the elements we receive on the `render` function to the last fiber tree we committed to the DOM.  
-现在我们将做这个，我们需要比较我们在  `render`  函数中接收到的元素与最后提交到 DOM 的纤维树。
+现在我们将做这个，我们**需要比较我们在  `render`  函数中接收到的元素与最后提交到 DOM 的fiber树。**
 
 So we need to save a reference to that “last fiber tree we committed to the DOM” after we finish the commit. We call it `currentRoot`.  
 所以我们需要在完成提交后保存对“最后提交到 DOM 的纤维树”的引用。我们称之为  `currentRoot` 。
@@ -385,19 +384,16 @@ Now let’s extract the code from `performUnitOfWork` that creates the new fib
 …到一个新的  `reconcileChildren`  函数。
 
 Here we will reconcile the old fibers with the new elements.  
-在这里我们将旧纤维与新元素进行协调。
-
+***在这里我们将旧fiber与新元素进行协调。***
 We iterate at the same time over the children of the old fiber (`wipFiber.alternate`) and the array of elements we want to reconcile.  
-我们同时遍历旧 fiber 的子元素 ( `wipFiber.alternate` ) 和我们要重新调和解的元素数组。
-
+**我们同时遍历旧 fiber 的子元素 ( `wipFiber.alternate` ) 和我们要重新调和的元素数组。**
 If we ignore all the boilerplate needed to iterate over an array and a linked list at the same time, we are left with what matters most inside this while: `oldFiber` and `element`. **The `element` is the thing we want to render to the DOM and the `oldFiber` is what we rendered the last time.**  
-如果我们忽略所有同时迭代数组和链表所需的样板代码，我们就剩下 while 内部最重要的事情： `oldFiber`  和  `element` 。 `element`  是我们想要渲染到 DOM 的东西，而  `oldFiber`  是我们上次渲染的东西。
-
+如果我们忽略所有同时迭代数组和链表所需的样板代码，我们就剩下 while 内部最重要的事情： `oldFiber`  和  `element` 。 **`element`  是我们想要渲染到 DOM 的东西，而  `oldFiber`  是我们上次渲染的东西。**
 We need to compare them to see if there’s any change we need to apply to the DOM.  
-我们需要将它们进行比较，看看是否需要对 DOM 进行任何更改。
+***我们需要将它们进行比较，看看是否需要对 DOM 进行任何更改。***
 
 To compare them we use the type:  
-要比较它们，我们使用类型：
+**要比较它们，我们使用类型：**
 
 - if the old fiber and the new element have the same type, we can keep the DOM node and just update it with the new props  
    如果旧纤维和新元素具有相同的类型，我们可以保留 DOM 节点，并用新属性更新它
