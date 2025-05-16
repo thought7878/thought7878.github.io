@@ -530,7 +530,8 @@ First, to find the parent of a DOM node we’ll need to go up the fiber tree unt
 And when removing a node we also need to keep going until we find a child with a DOM node.  
 当删除一个节点时，我们也需要继续下去，直到找到一个带有 DOM 节点的子节点。
 
-### Step VIII: Hooks   步骤八：Hooks
+### Step VIII: Hooks   
+步骤八：Hooks
 
 Last step. Now that we have function components let’s also add state.  
 最后一步。既然我们已经有了函数组件，那么也让我们添加状态。
