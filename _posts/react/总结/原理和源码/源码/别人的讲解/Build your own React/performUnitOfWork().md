@@ -1,4 +1,7 @@
-`performUnitOfWork` 函数，该函数是 *React Fiber 架构中工作循环的核心*，**负责处理单个 Fiber 节点，并返回下一个需要处理的工作单元**。
+`performUnitOfWork` 函数，该函数是 *React Fiber 架构中工作循环的核心*，**负责处理单个 Fiber 节点，并返回下一个需要处理的工作单元**：
+- 创建一个新的DOM。如果当前的fiber节点没有对应的DOM，为它创建DOM。
+- 
+- 查找下一个需要处理的工作单元（Fiber 节点），并返回。
 
 完整代码：
 
@@ -17,8 +20,8 @@ function performUnitOfWork(fiber) {
 
 定义 `performUnitOfWork` 函数，接收一个 `fiber` 参数，代表*当前要处理的 Fiber 节点*。
 
-### 创建 DOM 元素
-
+### 创建 DOM 元素（正在处理的fiber）
+为当前正在处理的fiber节点，创建DOM，并建立关系。
 ```javascript
   // NOTE: 创建一个新的DOM，并将其添加到父 DOM 中
   if (!fiber.dom) {
@@ -45,7 +48,7 @@ function performUnitOfWork(fiber) {
 
 - 注释部分原本是将当前 Fiber 节点的 DOM 元素添加到其父节点的 DOM 元素中。但这样做存在问题，因为浏览器可能在整个 Fiber 树处理完成前中断工作，导致用户看到不完整的 UI。因此这部分代码被注释掉，实际的 DOM 更新操作会在 `commitRoot` 阶段统一处理。
 
-### 调和子节点
+### 调和子节点（正在处理的fiber的子节点）
 
 ```javascript
   // NOTE: 为当前的fiber节点的每个子 react element，创建新的 fiber；将其添加到 fiber 树中，建立fiber节点之间的关系
@@ -53,8 +56,11 @@ function performUnitOfWork(fiber) {
   reconcileChildren(fiber, elements);
 ```
 
-- 从当前 Fiber 节点的 `props` 中获取 `children` 数组，代表其子元素。
-- 调用 `reconcileChildren` 函数，**该函数会对比新旧子元素，为每个子元素创建新的 Fiber 节点，并建立这些 Fiber 节点之间的父子、兄弟关系，同时标记相应的 `effectTag`（如 `PLACEMENT`、`UPDATE`、`DELETION`）**。
+- 从当前 Fiber 节点的 `props` 中获取 `children` 数组，代表其*ReactElement子元素*。
+- 调用 `reconcileChildren` 函数：
+	- 该函数会对比新旧子元素，**为每个子元素创建新的 Fiber 节点**；
+	- **并建立这些 Fiber 节点之间的父子、兄弟关系**；
+	- **标记相应的 `effectTag`（如 `PLACEMENT`、`UPDATE`、`DELETION`）**。
 
 ### 查找下一个工作单元
 
@@ -73,8 +79,8 @@ function performUnitOfWork(fiber) {
   }
 ```
 
-- 优先检查当前 Fiber 节点是否有子节点。若有，将子节点作为下一个工作单元返回。
-- 若没有子节点，初始化 `nextFiber` 为当前 Fiber 节点，通过 `while` 循环向上查找。若当前节点有兄弟节点，将兄弟节点作为下一个工作单元返回；若没有兄弟节点，继续向上查找其父节点，直到找到下一个工作单元或遍历完整个 Fiber 树。若都没找到，函数隐式返回 `undefined`。
+- *优先检查当前 Fiber 节点是否有子节点*。若有，将子节点作为下一个工作单元返回。
+- 若没有子节点，初始化 `nextFiber` 为当前 Fiber 节点，*通过 `while` 循环向上查找*。*若当前节点有兄弟节点*，将兄弟节点作为下一个工作单元返回；*若没有兄弟节点，继续向上查找其**叔节点***，直到找到下一个工作单元或遍历完整个 Fiber 树。若都没找到，函数隐式返回 `undefined`。
 
 ### 总结
 

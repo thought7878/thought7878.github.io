@@ -42,7 +42,7 @@ function workLoop(deadline) {
 - 定义 `workLoop` 函数，接收 `deadline` 参数，该参数由 *该参数由 `requestIdleCallback` 提供，包含有关浏览器空闲时间的信息*。
 - 初始化 `shouldYield` 变量为 `false`，用于标记是否应该暂停工作循环，将控制权交还给浏览器*标记是否应该暂停工作循环，将控制权交还给浏览器*。
 
-### 工作单元处理循环
+### 工作单元（Fiber 节点）处理循环
 
 ```javascript
   while (nextUnitOfWork && !shouldYield) {
