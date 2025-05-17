@@ -313,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/workLoop().md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -328,7 +328,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "workLoop()"
+              "title": "performUnitOfWork()"
             }
           },
           {
@@ -545,7 +545,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -572,20 +572,30 @@
   },
   "active": "9e2841d976c477d1",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/updateDom().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitWork().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/createDom().md",
+    "_posts/读书笔记/男女.md",
+    "().md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-17.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-16.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/workLoop().md",
-    "_posts/browser/Web API/Window/requestIdleCallback().md",
+    "_posts/English/单词/state.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/常看的.md",
+    "_posts/English/学习复习模版.md",
+    "_posts/English/方法.md",
+    "_posts/English/英语.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/别人的生活.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitWork().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/createDom().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/updateDom().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-17.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-16.md",
+    "_posts/browser/Web API/Window/requestIdleCallback().md",
     "_posts/框架/Svelte/Svelte.md",
     "_posts/框架/Svelte",
     "_posts/框架",
@@ -595,16 +605,6 @@
     "Excalidraw/Scripts",
     "Excalidraw",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React",
-    "_posts/English/单词/effect.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/单词/affect.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-15.md",
-    "_posts/读书笔记/宇宙、物理.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/权力.md",
-    "_posts/读书笔记/黑客.md",
-    "_posts/English/单词/reconciliation.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-14.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/7e28c45a17ef413a241614894ad0710d_MD5.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/17573e0770d097548d054da342d40525_MD5.jpeg",

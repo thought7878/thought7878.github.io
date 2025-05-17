@@ -30,6 +30,8 @@ function workLoop(deadline) {
 }
 ```
 
+下面详细解释代码逻辑：
+
 ### 函数定义与变量初始化
 
 ```javascript
@@ -49,9 +51,9 @@ function workLoop(deadline) {
   }
 ```
 
-- `while` 循环条件：`nextUnitOfWork` 存在且 `shouldYield` 为 `false` 时，持续执行循环体。
+- `while` 循环条件：`nextUnitOfWork` 存在且 `shouldYield` 为 false 时，持续执行循环体。
 - `performUnitOfWork(nextUnitOfWork)`：调用 `performUnitOfWork` 函数*处理当前**工作单元（Fiber 节点）**，并返回下一个需要处理的工作单元*，更新 `nextUnitOfWork` 的值。
-- `deadline.timeRemaining()`：*获取浏览器当前空闲周期剩余的时间*。若剩余时间小于 1 毫秒，将 `shouldYield` 设置为 `true`，表示需要*暂停工作循环，避免阻塞浏览器的其他任务*。
+- `deadline.timeRemaining()`：*获取浏览器当前空闲周期剩余的时间*。若剩余时间小于 1 毫秒，将 `shouldYield` 设置为 true，表示需要*暂停工作循环，避免阻塞浏览器的其他任务*。
 
 ### 提交 Fiber 树到 DOM
 
