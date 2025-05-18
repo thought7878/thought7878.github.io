@@ -53,7 +53,6 @@ function reconcileChildren(wipFiber, elements) {
 ```javascript
     // 如果旧fiber和新元素具有相同的类型，创建一个新的 fiber，保留 DOM 节点，用新属性更新它
     if (sameType) {
-      // TODO update the node
       newFiber = {
         type: oldFiber.type,
         // 用新属性更新它
@@ -68,14 +67,13 @@ function reconcileChildren(wipFiber, elements) {
     }
 ```
 
-- 当旧 Fiber 节点和新元素类型相同时，复用旧的 DOM 节点，创建一个新的 Fiber 节点，将其 `effectTag` 标记为 `UPDATE`，表示需要更新该节点的属性。
+- 当旧 Fiber 节点和新元素类型相同时，创建一个新的 Fiber 节点，复用旧的 DOM 节点，将其 `effectTag` 标记为 `UPDATE`，表示*需要更新该节点的属性*。
 
 #### 添加操作
 
 ```javascript
     // 如果类型不同并且有新元素，这意味着我们需要创建一个新的 DOM 节点
     if (element && !sameType) {
-      // TODO add this node
       newFiber = {
         type: element.type,
         props: element.props,
@@ -88,21 +86,20 @@ function reconcileChildren(wipFiber, elements) {
     }
 ```
 
-- 当新元素存在且与旧 Fiber 节点类型不同时，创建一个新的 Fiber 节点，将其 `dom` 设为 `null`，表示需要创建新的 DOM 节点，`effectTag` 标记为 `PLACEMENT`，表示需要添加该节点。
+- 当新元素存在且与旧 Fiber 节点类型不同时，创建一个新的 Fiber 节点，将其 `dom` 设为 `null`，表示需要创建新的 DOM 节点，`effectTag` 标记为 `PLACEMENT`，表示*需要添加该节点*。
 
 #### 删除操作
 
 ```javascript
     // 如果类型不同并且存在旧 fiber（oldFiber），需要移除旧节点 oldFiber
     if (oldFiber && !sameType) {
-      // TODO delete the oldFiber's node
       // 删：删除节点时，没有新的 fiber，所以向旧的 fiber 添加 effect 标签。
       oldFiber.effectTag = 'DELETION';
       deletions.push(oldFiber);
     }
 ```
 
-- 当旧 Fiber 节点存在且与新元素类型不同时，将旧 Fiber 节点的 `effectTag` 标记为 `DELETION`，并将其添加到 `deletions` 数组中，后续会在 `commitRoot` 阶段删除该节点对应的 DOM 元素。
+- 当旧 Fiber 节点存在且与新元素类型不同时，将旧 Fiber 节点的 `effectTag` 标记为 `DELETION`，并将其添加到 `deletions` 数组中，*后续会在 `commitRoot` 阶段删除该节点对应的 DOM 元素*。
 
 ### 移动到下一个旧 Fiber 节点
 
@@ -138,4 +135,4 @@ function reconcileChildren(wipFiber, elements) {
 
 ### 总结
 
-`reconcileChildren` 函数通过对比新旧子元素和 Fiber 节点，标记出需要添加、更新和删除的操作，同时建立新的 Fiber 节点之间的关系，为后续的 DOM 更新操作做准备。
+`reconcileChildren` 函数**通过对比新子元素和旧 Fiber 节点，标记出需要添加、更新和删除的操作，同时建立新的 Fiber 节点之间的关系**，为后续的 DOM 更新操作做准备。
