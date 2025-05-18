@@ -19,7 +19,7 @@ function reconcileChildren(wipFiber, elements) {
   let prevSibling = null;
 ```
 
-- 定义 `reconcileChildren` 函数，接收两个参数：`wipFiber` 表示当前正在处理的工作中的 Fiber 节点，`elements` 是该节点的新子元素数组。
+- 定义 `reconcileChildren` 函数，接收两个参数：`wipFiber` 表示*当前正在处理的工作中的 Fiber 节点*，`elements` 是*该 Fiber 节点的新子元素 ReactElement 数组*。
 - `index` 用于遍历 `elements` 数组。
 - `oldFiber` 指向旧的 Fiber 树中 `wipFiber` 的第一个子节点，若不存在则为 `null`。
 - `prevSibling` 用于记录上一个处理的兄弟 Fiber 节点，初始为 `null`。
