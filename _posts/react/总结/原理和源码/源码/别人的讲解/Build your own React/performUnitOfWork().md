@@ -6,7 +6,58 @@
 完整代码：
 
 ```js
+/**
+ * 工作单元就是Fiber 节点。
+ * 执行单个工作单元的处理逻辑，即处理当前 Fiber 节点（Fiber->DOM）、Fiber的子节点（ReactElement->Fiber），返回下一个需要处理的工作单元。
+ * 该函数负责：
+ * - 为正在处理（当前）的fiber，创建对应的DOM（在commit阶段，将其添加到父 DOM 中，根据fiber.effectTag）。
+ * - 调用 reconcileChildren 调和子节点；为当前fiber的每个子 ReactElement，创建 fiber；将其添加到 fiber 树中，建立fiber节点之间的关系（父子、兄弟）。
+ * - 查找下一个需要处理的工作单元（Fiber 节点），并返回。查找下一个工作单元，首先尝试子节点，然后是兄弟节点，然后是叔节点。
+ *
+ * @param {Object} fiber - 当前需要处理的 Fiber 节点。
+ * @returns {Object|null} - 下一个需要处理的 Fiber 节点，如果没有则返回 null。
+ */
+function performUnitOfWork(fiber) {
+  // NOTE: 为正在处理（当前）的fiber，创建对应的DOM（在commit阶段，将其添加到父 DOM 中，根据fiber.effectTag）
+  // 检查当前 Fiber 节点是否已有对应的 DOM 元素，若没有则创建
+  if (!fiber.dom) {
+    // 调用 createDom 函数，为当前 Fiber 节点创建对应的 DOM 元素
+    fiber.dom = createDom(fiber);
+  }
 
+  /* 
+  // 这里有一个问题：
+  // 每次我们处理一个元素时，我们都在向 DOM 添加一个新的节点。
+  // 记住，浏览器可能会在我们完成渲染整个树之前中断我们的工作。
+  // 在这种情况下，用户会看到一个不完整的 UI。我们不希望这样。
+  if (fiber.parent) {
+    // 将当前 Fiber 节点的 DOM 元素添加到父 Fiber 节点的 DOM 元素中
+    fiber.parent.dom.appendChild(fiber.dom);
+  } */
+
+  // NOTE: 调用 reconcileChildren 函数调和子节点；为当前fiber的每个子 ReactElement，创建 fiber；将其添加到 fiber 树中，建立fiber节点之间的关系（父子、兄弟）
+  // 获取当前 Fiber 节点的子ReactElement数组
+  const elements = fiber.props.children;
+  reconcileChildren(fiber, elements);
+
+  // NOTE: 查找下一个需要处理的工作单元（Fiber 节点），并返回。查找下一个工作单元，首先尝试子节点，然后是兄弟节点，然后是叔节点。
+  // 若当前 Fiber 节点有子节点，优先返回其子节点作为下一个工作单元
+  if (fiber.child) {
+    return fiber.child;
+  }
+  // 若没有子节点，从当前节点开始向上查找
+  let nextFiber = fiber;
+  while (nextFiber) {
+    // 若当前节点有兄弟节点，返回其兄弟节点作为下一个工作单元
+    if (nextFiber.sibling) {
+      return nextFiber.sibling;
+    }
+    // 若没有兄弟节点，继续向上查找其父节点
+    nextFiber = nextFiber.parent;
+  }
+  // 若没有找到下一个工作单元，返回 null
+  return null;
+}
 ```
 
 
