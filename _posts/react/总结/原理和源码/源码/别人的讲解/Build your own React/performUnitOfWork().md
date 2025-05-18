@@ -1,7 +1,7 @@
 `performUnitOfWork` 函数，该函数是 *React Fiber 架构中工作循环的核心*，**负责处理单个 Fiber 节点，并返回下一个需要处理的工作单元**：
-- 创建一个新的DOM。如果当前的fiber节点没有对应的DOM，为它创建DOM。
-- 
-- 查找下一个需要处理的工作单元（Fiber 节点），并返回。
+- 为正在处理（当前）的fiber，创建对应的DOM（在commit阶段，将其添加到父 DOM 中，根据fiber.effectTag）。
+- 调用 reconcileChildren 调和子节点；为当前fiber的每个子 ReactElement，创建 fiber；将其添加到 fiber 树中，建立fiber节点之间的关系（父子、兄弟）。
+- 查找下一个需要处理的工作单元（Fiber 节点），并返回。查找下一个工作单元，首先尝试子节点，然后是兄弟节点，然后是叔节点。
 
 完整代码：
 
@@ -109,7 +109,7 @@ function performUnitOfWork(fiber) {
 
 - 从当前 Fiber 节点的 `props` 中获取 `children` 数组，代表其*ReactElement子元素*。
 - 调用 `reconcileChildren` 函数：
-	- 该函数会对比新旧子元素，**为每个子元素创建新的 Fiber 节点**；
+	- 该函数会对比新旧子元素，**为每个子元素创建或复用 Fiber 节点**；
 	- **并建立这些 Fiber 节点之间的父子、兄弟关系**；
 	- **标记相应的 `effectTag`（如 `PLACEMENT`、`UPDATE`、`DELETION`）**。
 
