@@ -380,7 +380,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -570,10 +570,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d43cd37db4d10f9d",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-18.md",

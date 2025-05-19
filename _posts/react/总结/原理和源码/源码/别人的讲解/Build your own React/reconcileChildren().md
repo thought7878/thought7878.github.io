@@ -24,7 +24,7 @@ function reconcileChildren(wipFiber, elements) {
 - `oldFiber` 指向旧的 Fiber 树中 `wipFiber` 的第一个子节点，若不存在则为 `null`。
 - `prevSibling` 用于记录上一个处理的兄弟 Fiber 节点，初始为 `null`。
 
-### 循环处理新子元素和旧 Fiber 节点
+### 循环处理新子元素和对应的旧 Fiber 节点
 
 ```javascript
   while (index < elements.length || oldFiber != null) {
@@ -36,7 +36,7 @@ function reconcileChildren(wipFiber, elements) {
 - `element` 获取当前索引对应的新子元素。
 - `newFiber` 用于存储当前要创建或复用的新 Fiber 节点，初始为 `null`。
 
-### 对比旧 Fiber 节点和新元素
+### 对比新子元素和对应的旧 Fiber 节点
 
 ```javascript
     // NOTE: 比较 oldFiber 和 element
@@ -46,7 +46,9 @@ function reconcileChildren(wipFiber, elements) {
 
 - `sameType` 用于判断旧 Fiber 节点和新元素的类型是否相同。若旧 Fiber 节点和新元素都存在，且它们的类型一致，则 `sameType` 为 `true`。
 
-### 根据对比结果处理 Fiber 节点
+### 根据对比结果处理 Fiber 节点（ReactElement-->Fiber）
+- 构建ReactElement对应的Fiber，ReactElement-->Fiber
+- 根据对比结果，判断Fiber、DOM的操作类型（增删改）
 
 #### 更新操作
 
