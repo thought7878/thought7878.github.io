@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-18.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-18"
+              "title": "2025-05-19"
             }
           },
           {
@@ -380,7 +380,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -570,17 +570,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9e2841d976c477d1",
+  "active": "d43cd37db4d10f9d",
   "lastOpenFiles": [
-    "_posts/English/单词/common.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-18.md",
+    "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
+    "_posts/English/单词/common.md",
     "_posts/读书笔记/旅行.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/reconcile.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-18.md",
     "_posts/English/单词/root.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/methods/常看的.md",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
@@ -598,8 +600,6 @@
     "_posts/English/方法.md",
     "_posts/English/英语.md",
     "_posts/methods/学习方法/编程/提问模版.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/别人的生活.md",
     "_posts/框架/Svelte",
     "_posts/框架",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",

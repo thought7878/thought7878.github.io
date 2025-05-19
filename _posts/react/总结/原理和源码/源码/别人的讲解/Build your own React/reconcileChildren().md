@@ -24,7 +24,7 @@ function reconcileChildren(wipFiber, elements) {
 - `oldFiber` 指向旧的 Fiber 树中 `wipFiber` 的第一个子节点，若不存在则为 `null`。
 - `prevSibling` 用于记录上一个处理的兄弟 Fiber 节点，初始为 `null`。
 
-### 循环处理子元素和旧 Fiber 节点
+### 循环处理新子元素和旧 Fiber 节点
 
 ```javascript
   while (index < elements.length || oldFiber != null) {
