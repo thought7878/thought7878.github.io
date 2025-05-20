@@ -251,13 +251,14 @@ while (nextUnitOfWork) {
 To start using the loop we’ll need to set the first unit of work, and then write a `performUnitOfWork` function that not only performs the work but also returns the next unit of work.  
 要开始使用循环，我们需要设置第一个工作单元，然后编写一个  `performUnitOfWork`  函数，该函数不仅执行工作，还返回下一个工作单元。
 
-### Step IV: Fibers   
+### Step IV: Fibers  
+
 步骤 IV: Fibers
 
 To organize the units of work we’ll need a data structure: a fiber tree.  
 **为了组织工作单元，我们需要一种数据结构：一个 fiber 树。**
 We’ll have one fiber for each element and each fiber will be a unit of work.  
-**每个元素有一个对应的 fiber，*每个 fiber 将是一个工作单元*。**
+**每个元素有一个对应的 fiber，_每个 fiber 将是一个工作单元_。**
 
 Let me show you with an example.  
 让我举个例子给你看。
@@ -283,12 +284,12 @@ Didact.render(
 ```
 
 In the `render` we’ll create the root fiber and set it as the `nextUnitOfWork`. The rest of the work will happen on the `performUnitOfWork` function, there we will do three things for each fiber:  
-*在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成*，**在那里我们将为每个 fiber 做三件事：**
+_在  `render`  中我们将创建根 fiber 并将其设置为  `nextUnitOfWork` 。其余的工作将在  `performUnitOfWork`  函数上完成_，**在那里我们将为每个 fiber 做三件事：**
 
 1. add the element to the DOM  
    将元素添加到 DOM 中
 2. create the fibers for the element’s children  
-   为元素的子项创建fiber
+   为元素的子项创建 fiber
 3. select the next unit of work  
    选择下一个工作单元
 
@@ -297,11 +298,11 @@ One of the goals of this data structure is to make it easy to find the next unit
 When we finish performing work on a fiber, if it has a `child` that fiber will be the next unit of work.  
 **当我们完成对一个 fiber 的工作时，如果它有一个  `child` ，那么这个 fiber 将是下一个工作单元。**
 From our example, when we finish working on the `div` fiber the next unit of work will be the `h1` fiber.  
-*从我们的例子中，当我们完成对  `div` fiber 的工作后，下一个工作单元将是  `h1` fiber。*
+_从我们的例子中，当我们完成对  `div` fiber 的工作后，下一个工作单元将是  `h1` fiber。_
 If the fiber doesn’t have a `child`, we use the `sibling` as the next unit of work.  
 **如果该 fiber 没有  `child` ，我们使用  `sibling`  作为下一个工作单元。**
 For example, the `p` fiber doesn’t have a `child` so we move to the `a` fiber after finishing it.  
-*例如， `p`  纤维没有  `child` ，所以我们完成它后移动到  `a`  纤维。*
+_例如， `p`  纤维没有  `child` ，所以我们完成它后移动到  `a`  纤维。_
 And if the fiber doesn’t have a `child` nor a `sibling` we go to the “uncle”: the `sibling` of the `parent`. Like `a` and `h2` fibers from the example.  
 **如果纤维既没有  `child`  也没有  `sibling` ，我们就去找“叔叔”： `parent`  的  `sibling` 。就像例子中的  `a`  和  `h2`  纤维。**
 Also, if the `parent` doesn’t have a `sibling`, we keep going up through the `parent`s until we find one with a `sibling` or until we reach the root. If we have reached the root, it means we have finished performing all the work for this `render`.  
@@ -348,7 +349,7 @@ And that’s our `performUnitOfWork` .
 步骤 V：渲染和提交阶段
 
 We have another problem here.  
-*我们在这里又有一个问题*。
+_我们在这里又有一个问题_。
 We are adding a new node to the DOM each time we work on an element. And, remember, the browser could interrupt our work before we finish rendering the whole tree. In that case, the user will see an incomplete UI. And we don’t want that.  
 **每次我们处理一个元素时，我们都在向 DOM 添加一个新的节点。记住，浏览器可能会在我们完成渲染整个树之前中断我们的工作。在这种情况下，用户会看到一个不完整的 UI。我们不希望这样。**
 So we need to remove the part that mutates the DOM from here.  
@@ -363,13 +364,14 @@ And once we finish all the work (we know it because there isn’t a next unit of
 We do it in the `commitRoot` function. Here we recursively append all the nodes to the dom.  
 我们在  `commitRoot`  函数中完成。在这里，我们递归地将所有节点附加到 dom 中。
 
-### Step VI: Reconciliation   
+### Step VI: Reconciliation  
+
 步骤六：Reconciliation
 
 So far we only *added* stuff to the DOM, but what about updating or deleting nodes?  
 **到目前为止，我们只添加了内容到 DOM 中，但如何更新或删除节点呢？**
 That’s what we are going to do now, we need to compare the elements we receive on the `render` function to the last fiber tree we committed to the DOM.  
-现在我们将做这个，我们**需要比较我们在  `render`  函数中接收到的元素与最后提交到 DOM 的fiber树。**
+现在我们将做这个，我们**需要比较我们在  `render`  函数中接收到的元素与最后提交到 DOM 的 fiber 树。**
 
 So we need to save a reference to that “last fiber tree we committed to the DOM” after we finish the commit. We call it `currentRoot`.  
 所以我们需要在完成提交后保存对“最后提交到 DOM 的纤维树”的引用。我们称之为  `currentRoot` 。
@@ -384,13 +386,13 @@ Now let’s extract the code from `performUnitOfWork` that creates the new fib
 …到一个新的  `reconcileChildren`  函数。
 
 Here we will reconcile the old fibers with the new elements.  
-***在这里我们将旧fiber与新元素进行协调。***
+**_在这里我们将旧 fiber 与新元素进行协调。_**
 We iterate at the same time over the children of the old fiber (`wipFiber.alternate`) and the array of elements we want to reconcile.  
 **我们同时遍历旧 fiber 的子元素 ( `wipFiber.alternate` ) 和我们要重新调和的元素数组。**
 If we ignore all the boilerplate needed to iterate over an array and a linked list at the same time, we are left with what matters most inside this while: `oldFiber` and `element`. **The `element` is the thing we want to render to the DOM and the `oldFiber` is what we rendered the last time.**  
 如果我们忽略所有同时迭代数组和链表所需的样板代码，我们就剩下 while 内部最重要的事情： `oldFiber`  和  `element` 。 **`element`  是我们想要渲染到 DOM 的东西，而  `oldFiber`  是我们上次渲染的东西。**
 We need to compare them to see if there’s any change we need to apply to the DOM.  
-***我们需要将它们进行比较，看看是否需要对 DOM 进行任何更改。***
+**_我们需要将它们进行比较，看看是否需要对 DOM 进行任何更改。_**
 
 To compare them we use the type:  
 **要比较它们，我们使用类型：**
@@ -470,38 +472,37 @@ The next thing we need to add is support for function components.
 First let’s change the example. We’ll use this simple function component, that returns an `h1` element.  
 首先，让我们更改示例。我们将使用这个简单的函数组件，它返回一个  `h1`  元素。
 
+```js
+/** @jsx Didact.createElement */
+function App(props) {
+  return <h1>Hi {props.name}</h1>;
+}
+
+const element = <App name="foo" />;
+
+const container = document.getElementById("root");
+Didact.render(element, container);
+```
+
 Note that if we transform the jsx to js, it will be:  
 注意，如果我们把 jsx 转换为 js，它将是：
 
+```js
 function App(props) {
-
-return Didact.createElement(
-
-    "h1",
-
-    null,
-
-    "Hi ",
-
-    props.name
-
-)
-
+  return Didact.createElement("h1", null, "Hi ", props.name);
 }
-
 const element = Didact.createElement(App, {
-
-name: "foo",
-
-})
+  name: "foo",
+});
+```
 
 Function components are differents in two ways:  
-函数组件在两个方面有所不同：
+**函数组件在两个方面有所不同：**
 
 - the fiber from a function component doesn’t have a DOM node  
-   函数组件的 fiber 没有 DOM 节点
+   **函数组件的 fiber 没有 DOM 节点**
 - and the children come from running the function instead of getting them directly from the `props`  
-   子元素是从运行函数中获取的，而不是直接从  `props`  获取
+   **子元素是从运行函数中获取的，而不是直接从  `props`  获取**
 
 We check if the fiber type is a function, and depending on that we go to a different update function.  
 我们检查 fiber 类型是否为函数，根据这一点我们进入不同的更新函数。
@@ -530,7 +531,8 @@ First, to find the parent of a DOM node we’ll need to go up the fiber tree unt
 And when removing a node we also need to keep going until we find a child with a DOM node.  
 当删除一个节点时，我们也需要继续下去，直到找到一个带有 DOM 节点的子节点。
 
-### Step VIII: Hooks   
+### Step VIII: Hooks  
+
 步骤八：Hooks
 
 Last step. Now that we have function components let’s also add state.  
