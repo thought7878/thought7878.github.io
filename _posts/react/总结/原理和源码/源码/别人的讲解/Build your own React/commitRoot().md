@@ -1,4 +1,4 @@
-选中代码定义了 `commitRoot` 函数，其**主要作用**是将整个工作中的 Fiber 树（`wipRoot`）的更改提交到实际的 DOM 中。
+选中代码定义了 `commitRoot` 函数，其**主要作用**是*将整个工作中的 Fiber 树（`wipRoot`）的更改提交到实际的 DOM 中*。
 
 完整代码：
 
@@ -24,7 +24,7 @@ function commitRoot() {
   deletions.forEach(commitWork);
 ```
 
-- `deletions` 是一个数组，在 `reconcileChildren` 函数中，当发现需要从 DOM 中移除的旧 Fiber 节点时，会将这些节点添加到 `deletions` 数组中。
+- `deletions` 是一个数组，在 `reconcileChildren` 函数中，当发现需要从 DOM 中移除的旧 Fiber 节点时，会将这些 Fiber 节点添加到 `deletions` 数组中。
 - `forEach(commitWork)` 会遍历 `deletions` 数组，对每个需要删除的 Fiber 节点调用 `commitWork` 函数，`commitWork` 函数会根据 Fiber 节点的 `effectTag` 为 `DELETION` 来执行实际的 DOM 删除操作。
 
 ### 提交子节点更改

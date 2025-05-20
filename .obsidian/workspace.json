@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-19"
+              "title": "2025-05-20"
             }
           },
           {
@@ -313,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -328,7 +328,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "reconcileChildren()"
+              "title": "commitRoot()"
             }
           },
           {
@@ -484,11 +484,9 @@
           {
             "id": "a16c9704b5e7fa50",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "pinned": true,
               "icon": "lines-of-text",
               "title": "Quiet Outline"
             }
@@ -572,10 +570,16 @@
   },
   "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitWork().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
+    "_posts/读书笔记/富人.md",
+    "_posts/读书笔记/穷人.md",
+    "_posts/读书笔记/未命名",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/performUnitOfWork().md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-18.md",
     "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
     "_posts/English/单词/common.md",
@@ -595,11 +599,6 @@
     "DailyNote/Journal/01 Daily/2025/05/2025-05-15.md",
     "().md",
     "_posts/English/单词/state.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/English/学习复习模版.md",
-    "_posts/English/方法.md",
-    "_posts/English/英语.md",
-    "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/框架/Svelte",
     "_posts/框架",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
@@ -617,7 +616,6 @@
     "_posts/读书笔记/兴趣",
     "_posts/读书笔记/健康/老爹/media",
     "_posts/methods/学习方法/编程",
-    "_posts/读书笔记/健康/鼻炎",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }

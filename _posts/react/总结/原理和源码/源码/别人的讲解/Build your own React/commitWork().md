@@ -1,4 +1,4 @@
-选中代码定义了 `commitWork` 函数，该函数的核心作用是依据 Fiber 节点的 `effectTag` 属性，将 Fiber 节点的更改（添加、删除、更新）递归地提交到实际的 DOM 中。
+选中代码定义了 `commitWork` 函数，该函数的**核心作用**是依据 Fiber 节点的 `effectTag` 属性，将 Fiber 节点的更改（添加、删除、更新）递归地提交到实际的 DOM 中。
 
 
 完整代码：
@@ -44,7 +44,7 @@ function commitWork(fiber) {
   }
 ```
 
-- 当 `fiber` 的 `effectTag` 为 `PLACEMENT` 且 `fiber.dom` 存在时，意味着需要将该 Fiber 节点对应的 DOM 元素添加到其父节点的 DOM 元素中，使用 `appendChild` 方法实现。
+- 当 `fiber` 的 `effectTag` 为 `PLACEMENT` 且 `fiber.dom` 存在时，意味着需要*将该 Fiber 节点对应的 DOM 元素添加到其父节点的 DOM 元素中*，使用 `appendChild` 方法实现。
 
 #### 删除操作
 
@@ -58,7 +58,7 @@ function commitWork(fiber) {
   }
 ```
 
-- 当 `fiber` 的 `effectTag` 为 `DELETION` 时，需要将该 Fiber 节点对应的 DOM 元素从其父节点的 DOM 元素中移除。添加 `if (fiber.dom)` 检查，确保要移除的 DOM 元素存在，避免报错。
+- 当 `fiber` 的 `effectTag` 为 `DELETION` 时，需要*将该 Fiber 节点对应的 DOM 元素从其父节点的 DOM 元素中移除*。添加 `if (fiber.dom)` 检查，确保要移除的 DOM 元素存在，避免报错。
 
 #### 更新操作
 
@@ -82,7 +82,7 @@ function commitWork(fiber) {
 }
 ```
 
-- 调用 `commitWork` 函数递归处理当前 Fiber 节点的子节点和兄弟节点，确保整个 Fiber 树的更改都能被提交到 DOM 中。
+- 调用 `commitWork` 函数*递归处理当前 Fiber 节点的子节点和兄弟节点，确保整个 Fiber 树的更改都能被提交到 DOM 中*。
 
 ### 总结
 
