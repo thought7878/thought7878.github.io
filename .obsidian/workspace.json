@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-20"
+              "title": "2025-05-21"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/useState().md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "useState()"
+              "title": "Build your own React"
             }
           },
           {
@@ -313,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
+                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -328,7 +328,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "commitRoot()"
+              "title": "参考资料"
             }
           },
           {
@@ -380,7 +380,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -568,19 +568,25 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9e2841d976c477d1",
   "lastOpenFiles": [
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/useState().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/读书笔记/健康/老爹/泼尼松.md",
+    "_posts/读书笔记/健康/老爹/孟鲁司特.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
+    "_posts/English/单词/approve.md",
+    "_posts/English/查询单词的提示词模版.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/react/总结/原理和源码/源码/Fiber节点的属性.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/2. Fiber.md",
     "_posts/读书笔记/人性.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitWork().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-19.md",
     "_posts/读书笔记/富人.md",
     "_posts/读书笔记/穷人.md",
@@ -590,15 +596,9 @@
     "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
     "_posts/English/单词/common.md",
     "_posts/读书笔记/旅行.md",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/reconcile.md",
-    "_posts/English/单词/root.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/methods/常看的.md",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
     "_posts/methods/media/选择权.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/workLoop().md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-17.md",
     "_posts/框架/Svelte",
     "_posts/框架",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
