@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
+                "file": "_posts/engineering/_现代前端开发工具链.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,19 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Build your own React"
-            }
-          },
-          {
-            "id": "d43cd37db4d10f9d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "调用流程.excalidraw"
+              "title": "_现代前端开发工具链"
             }
           },
           {
@@ -313,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/React 18 的主要特性.md",
+                "file": "_posts/react/总结/原理和源码/React 的工作原理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -328,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "React 18 的主要特性"
+              "title": "React 的工作原理"
             }
           },
           {
@@ -380,7 +368,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -570,6 +558,13 @@
   },
   "active": "9e2841d976c477d1",
   "lastOpenFiles": [
+    "_posts/框架/Svelte/Svelte.md",
+    "_posts/react/总结/原理和源码/React 的工作原理.md",
+    "_posts/engineering/_现代前端开发工具链.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
+    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "_posts/react/总结/原理和源码/React 18 的主要特性.md",
     "_posts/react/总结/原理和源码/并发模式-QW.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/English/查询单词的提示词模版.md",
@@ -579,12 +574,9 @@
     "_posts/methods/要整理的.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/常看的.md",
-    "_posts/react/总结/原理和源码/React 18 的主要特性.md",
     "_posts/react/总结/原理和源码/React 19 的主要特性.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/6. React 更新过程1.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/useState().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
@@ -592,10 +584,6 @@
     "_posts/读书笔记/健康/老爹/泼尼松.md",
     "_posts/读书笔记/健康/老爹/孟鲁司特.md",
     "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
-    "_posts/English/单词/approve.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/react/总结/原理和源码/源码/Fiber节点的属性.md",
     "_posts/读书笔记/未命名",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
     "_posts/methods/media/选择权.png",
