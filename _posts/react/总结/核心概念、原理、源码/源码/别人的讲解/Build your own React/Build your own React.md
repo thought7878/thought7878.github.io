@@ -39,7 +39,7 @@ const container = document.getElementById("root");
 ReactDOM.render(element, container);
 ```
 
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg]]
+![[8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg]]
 
 But first let’s review some basic concepts. You can skip this step if you already have a good idea of how React, JSX and DOM elements work.  
 但首先让我们复习一些基本概念。如果你已经对 React、JSX 和 DOM 元素的工作方式有很好的了解，可以跳过这一步。
@@ -52,7 +52,7 @@ On the first line we have the element, defined with JSX. It isn’t even valid J
 在第一行，我们有一个用 JSX 定义的元素。它甚至不是有效的 JavaScript，所以在用纯 JS 替换它之前，我们首先需要用有效的 JS 来替换它。
 JSX is transformed to JS by build tools like Babel. The transformation is usually simple: replace the code inside the tags with a call to `createElement`, passing the tag name, the props and the children as parameters.  
 **JSX 是由像 Babel 这样的构建工具转换为 JS 的**。转换通常很简单：用调用  `createElement`  来替换标签内的代码，将标签名、属性和子元素作为参数传递。
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/f687e693beff6f157bc0865039a5a40e_MD5.jpeg]]
+![[f687e693beff6f157bc0865039a5a40e_MD5.jpeg]]
 
 `React.createElement` creates an object from its arguments. Besides some validations, that’s all it does. So we can safely replace the function call with its output.  
 **`React.createElement`  根据它的参数创建一个对象**。除了进行一些验证外，它就做这些。所以我们可以安全地用它的输出替换函数调用。
@@ -76,13 +76,13 @@ The `type` is a string that specifies the type of the DOM node we want to crea
 **`props`  是另一个对象**，它包含 JSX 属性的所有键和值。它还有一个特殊属性： `children` 。
 `children` in this case is a string, but it’s usually an array with more elements. That’s why elements are also trees.  
 `children`  在这个情况下是一个字符串，但它通常是一个包含更多元素的数组。这就是为什么元素也是树的原因。
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/7b4eeb96d649a0de3e713e1657404752_MD5.jpeg]]
+![[7b4eeb96d649a0de3e713e1657404752_MD5.jpeg]]
 
 The other piece of React code we need to replace is the call to `ReactDOM.render`.  
 我们需要替换的另一段 React 代码是调用  `ReactDOM.render`  的地方。
 `render` is where React changes the DOM, so let’s do the updates ourselves.  
 `render`  是 React 修改 DOM 的地方，所以让我们自己来做更新。
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/17573e0770d097548d054da342d40525_MD5.jpeg]]
+![[17573e0770d097548d054da342d40525_MD5.jpeg]]
 
 First we create a node* using the element `type`, in this case `h1`.  
 首先我们使用元素  `type`  创建一个节点*，在这种情况下是  `h1` 。
@@ -263,9 +263,9 @@ We’ll have one fiber for each element and each fiber will be a unit of work.
 Let me show you with an example.  
 让我举个例子给你看。
 
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/7e28c45a17ef413a241614894ad0710d_MD5.png]]
+![[7e28c45a17ef413a241614894ad0710d_MD5.png]]
 
-![[_posts/react/总结/原理和源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png]]
+![[c10379616ff478356c35c1c2b8e349cb_MD5.png]]
 
 Suppose we want to render an element tree like this one:  
 假设我们想要*渲染这样一个**元素树**：*

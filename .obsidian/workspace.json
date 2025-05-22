@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-21"
+              "title": "2025-05-22"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/原理和源码/React 的工作原理.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "React 的工作原理"
+              "title": "Fiber 架构-QW"
             }
           },
           {
@@ -558,32 +558,34 @@
   },
   "active": "9e2841d976c477d1",
   "lastOpenFiles": [
-    "_posts/框架/Svelte/Svelte.md",
-    "_posts/react/总结/原理和源码/React 的工作原理.md",
-    "_posts/engineering/_现代前端开发工具链.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/Build your own React.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/参考资料.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
-    "_posts/react/总结/原理和源码/React 18 的主要特性.md",
-    "_posts/react/总结/原理和源码/并发模式-QW.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/react/总结/核心概念、原理、源码/React 的工作原理.md",
+    "_posts/react/总结/核心概念、原理、源码/核心概念/虚拟 DOM（Virtual DOM）.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-22.md",
     "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/compose.md",
+    "_posts/react/总结/核心概念、原理、源码/核心概念/组件（Component）.md",
+    "_posts/react/总结/核心概念、原理、源码/核心概念",
+    "_posts/react/总结/未命名",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
+    "_posts/框架/Svelte/Svelte.md",
+    "_posts/engineering/_现代前端开发工具链.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React/Build your own React.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/参考资料.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
+    "_posts/react/总结/核心概念、原理、源码/React 18 的主要特性.md",
+    "_posts/react/总结/核心概念、原理、源码/并发模式-QW.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/要整理的.md",
     "_posts/methods/构建系统/建构系统.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/methods/要整理的.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/常看的.md",
-    "_posts/react/总结/原理和源码/React 19 的主要特性.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/6. React 更新过程1.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/useState().md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-21.md",
+    "_posts/react/总结/核心概念、原理、源码/React 19 的主要特性.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/6. React 更新过程1.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React/useState().md",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React/reconcileChildren().md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-20.md",
-    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
-    "_posts/读书笔记/健康/老爹/泼尼松.md",
-    "_posts/读书笔记/健康/老爹/孟鲁司特.md",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React/commitRoot().md",
     "_posts/读书笔记/未命名",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
     "_posts/methods/media/选择权.png",
@@ -593,17 +595,15 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/Build your own React",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/7e28c45a17ef413a241614894ad0710d_MD5.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/17573e0770d097548d054da342d40525_MD5.jpeg",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/media/7e28c45a17ef413a241614894ad0710d_MD5.png",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/media/c10379616ff478356c35c1c2b8e349cb_MD5.png",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/media/17573e0770d097548d054da342d40525_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092504.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/7b4eeb96d649a0de3e713e1657404752_MD5.jpeg",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/media/7b4eeb96d649a0de3e713e1657404752_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092319.png",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg",
+    "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/media/8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg",
     "_posts/读书笔记/兴趣",
-    "_posts/读书笔记/健康/老爹/media",
-    "_posts/methods/学习方法/编程",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
