@@ -40,14 +40,15 @@
 
 以下是在 React 18 中可用的并发特性：
 
-| API | 描述 |
-|-----|------|
-| `startTransition` | 标记一个状态更新为非紧急任务，允许 React 延迟执行 |
-| `useTransition` | Hook 版本的 `startTransition`，提供 pending 状态指示 |
-| `useDeferredValue` | 延迟更新某个值，优先渲染高优先级内容 |
-| `Suspense` | 在等待数据加载时显示 loading 状态（React 16.6 引入） |
+| API                | 描述                                         |
+| ------------------ | ------------------------------------------ |
+| `startTransition`  | 标记一个状态更新为非紧急任务，允许 React 延迟执行               |
+| `useTransition`    | Hook 版本的 `startTransition`，提供 pending 状态指示 |
+| `useDeferredValue` | 延迟更新某个值，优先渲染高优先级内容                         |
+| `Suspense`         | 在等待数据加载时显示 loading 状态（React 16.6 引入）       |
+[[startTransition()]]、
 
-### 示例：使用 `startTransition`
+**示例：使用 `startTransition`**
 
 ```jsx
 import { startTransition } from 'react';
@@ -69,7 +70,7 @@ function handleChange(newQuery) {
 1. 接收状态更新 → 2. 判断优先级 → 3. 执行渲染任务（可中断）→ 4. 提交到真实 DOM
 ```
 
-### 工作阶段说明：
+**工作阶段说明：**
 
 | 阶段 | 描述 |
 |------|------|
@@ -123,7 +124,7 @@ root.render(<App />);
 
 Suspense 是 React 提供的一种用于等待异步操作的机制，在并发模式中得到了全面加强。
 
-### 示例：结合 Suspense 加载数据
+**示例：结合 Suspense 加载数据**
 
 ```jsx
 function ProfilePage({ userId }) {
