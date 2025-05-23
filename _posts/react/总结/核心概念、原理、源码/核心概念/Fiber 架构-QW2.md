@@ -96,7 +96,7 @@ React 使用浏览器的空闲时间 API（如 `requestIdleCallback`）来逐步
 1. 接收状态变化 → 2. 创建 Fiber 树 → 3. 执行 Work Loop → 4. 收集副作用 → 5. 提交到真实 DOM
 ```
 
-### 详细流程如下：
+**详细流程如下：**
 
 1. **创建 Fiber 树**
    - 从根组件开始，生成对应的 Fiber Node
@@ -117,12 +117,12 @@ React 使用浏览器的空闲时间 API（如 `requestIdleCallback`）来逐步
 
 ## 六、Fiber 与 React 新特性的关系
 
-| 特性 | 说明 |
-|------|------|
-| **Suspense** | 基于 Fiber 的优先级机制实现 |
-| **Error Boundaries** | 更细粒度控制错误处理 |
-| **Portals** | 更灵活地操作 DOM 结构 |
-| **React 18 的 Concurrent Mode** | 完全依赖 Fiber 实现异步渲染 |
+| 特性                                   | 说明                |
+| ------------------------------------ | ----------------- |
+| **Suspense**                         | 基于 Fiber 的优先级机制实现 |
+| **Error Boundaries**                 | 更细粒度控制错误处理        |
+| **Portals**                          | 更灵活地操作 DOM 结构     |
+| **React 18 的 Concurrent Mode**       | 完全依赖 Fiber 实现异步渲染 |
 | **useTransition / useDeferredValue** | 利用 Fiber 的优先级系统实现 |
 
 ---
@@ -146,8 +146,8 @@ function performUnitOfWork(unitOfWork) {
 
 ### 2. Lane 模型（React 18 开始）
 
-- 用于表示不同优先级的任务（如用户交互、数据加载）
-- 每个任务都会被打上一个 Lane 标记
+- 用于*表示不同优先级*的任务（如用户交互、数据加载）
+- 每个任务（fiber节点）都会被打上一个 Lane 标记
 - React 会根据 Lane 权重决定任务的执行顺序
 
 ### 3. Scheduler（调度器）
