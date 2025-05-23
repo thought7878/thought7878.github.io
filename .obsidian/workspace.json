@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-22.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-22"
+              "title": "2025-05-23"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/世界趋势/趋势.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "趋势"
+              "title": "Fiber 架构-QW"
             }
           },
           {
@@ -558,7 +558,14 @@
   },
   "active": "9e2841d976c477d1",
   "lastOpenFiles": [
+    "_posts/English/查询单词的提示词模版.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-23.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-22.md",
+    "_posts/English/单词/current.md",
+    "_posts/English/单词/compose.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW2.md",
     "_posts/react/总结/核心概念、原理、源码/React 的工作原理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
@@ -566,13 +573,9 @@
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/并发模式-QW.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/并发模式（Concurrent Mode）.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-22.md",
     "_posts/English/单词/concurrent.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/虚拟 DOM（Virtual DOM）.md",
-    "_posts/English/单词/compose.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/组件（Component）.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念",
     "_posts/react/总结/未命名",
@@ -583,9 +586,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/别人的讲解/Build your own React/调用流程.excalidraw.md",
     "_posts/react/总结/核心概念、原理、源码/React 18 的主要特性.md",
     "_posts/要整理的.md",
-    "_posts/methods/构建系统/建构系统.md",
-    "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/未命名",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
     "_posts/methods/media/选择权.png",
