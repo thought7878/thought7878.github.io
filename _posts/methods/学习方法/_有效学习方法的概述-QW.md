@@ -6,20 +6,21 @@
 
 ## 一、有效学习的核心原则（基于科学研究）
 
-| 原则 | 描述 |
-|------|------|
-| ✅ 主动回忆（Active Recall） | 强化记忆的关键：主动从大脑中提取知识 |
-| ✅ 间隔重复（Spaced Repetition） | 分布式学习比集中复习更有效 |
-| ✅ 精细化加工（Elaboration） | 将新知识与已有知识建立联系 |
-| ✅ 交错学习（Interleaving） | 混合练习不同技能，提升迁移能力 |
-| ✅ 自我解释（Self-explanation） | 训练“教别人”的能力，加深理解 |
-| ✅ 多模态输入（Multimodal Learning） | 听、读、写、讲结合，提高吸收率 |
+| 原则                           | 描述                 |
+| ---------------------------- | ------------------ |
+| ✅ 主动回忆（Active Recall）        | 强化记忆的关键：主动从大脑中提取知识 |
+| ✅ 间隔重复（Spaced Repetition）    | 分布式学习比集中复习更有效      |
+| ✅ 精细化加工（Elaboration）         | 将新知识与已有知识建立联系      |
+| ✅ 交错学习（Interleaving）         | 混合练习不同技能，提升迁移能力    |
+| ✅ 自我解释（Self-explanation）     | 训练“教别人”的能力，加深理解    |
+| ✅ 多模态输入（Multimodal Learning） | 听、读、写、讲结合，提高吸收率    |
+[[主动回忆（Active Recall）]]、[[间隔重复（Spaced Repetition）]]、[[精细化加工（Elaboration）]]、[[交错学习（Interleaving）]]、[[自我解释（Self-explanation）]]、[[多模态输入（Multimodal Learning）]]
 
 ---
 
 ## 二、具体有效的学习方法汇总
 
-### 1. **费曼技巧（Feynman Technique）**
+### 1. 费曼技巧（Feynman Technique）
 - **步骤**：
   1. 学习一个概念
   2. 写下它的含义，用简单语言解释
@@ -29,16 +30,20 @@
 
 > 💡 口号：“如果你不能向六岁小孩解释清楚，说明你还没真正理解。”
 
+[[费曼学习法]]
+
 ---
 
-### 2. **间隔重复法（Spaced Repetition）**
+### 2. 间隔重复法（Spaced Repetition）
 - 使用工具如 Anki、Forest、Quizlet 等进行**按时间间隔复习**
 - 遵循艾宾浩斯遗忘曲线，合理安排复习节奏
 - **优势**：避免死记硬背，强化长期记忆
 
+[[间隔重复（Spaced Repetition）]]
+
 ---
 
-### 3. **番茄工作法（Pomodoro Technique）**
+### 3. 番茄工作法（Pomodoro Technique）
 - **方法**：
   - 25分钟专注学习 + 5分钟休息 = 1个番茄钟
   - 每完成4个番茄钟后休息15~30分钟
@@ -46,16 +51,18 @@
 
 ---
 
-### 4. **康奈尔笔记法（Cornell Notes Method）**
+### 4. 康奈尔笔记法（Cornell Notes Method）
 - 笔记分为三部分：
   - 左侧：主要内容
   - 右侧：详细解释
   - 底部：总结
 - **优点**：结构清晰、便于复习、适合课堂/阅读笔记
 
+[[康奈尔笔记系统]]
+
 ---
 
-### 5. **思维导图法（Mind Mapping）**
+### 5. 思维导图法（Mind Mapping）
 - 以中心主题发散出分支，构建可视化知识网络
 - 适用于：
   - 整理章节内容
@@ -64,7 +71,7 @@
 
 ---
 
-### 6. **SQ3R 阅读法（Survey, Question, Read, Recite, Review）**
+### 6. SQ3R 阅读法（Survey, Question, Read, Recite, Review）
 - **步骤**：
   1. Survey（浏览）
   2. Question（提问）
@@ -74,9 +81,11 @@
 
 - **适用对象**：教材、论文、长篇文章阅读
 
+[[SQ3R阅读法]]
+
 ---
 
-### 7. **项目驱动学习（Project-Based Learning, PBL）**
+### 7. 项目驱动学习（Project-Based Learning, PBL）
 - 通过实际项目来学习理论知识
 - 例如：
   - 学 Python → 做一个小游戏
@@ -85,7 +94,7 @@
 
 ---
 
-### 8. **费力回忆法（Effortful Retrieval）**
+### 8. 费力回忆法（Effortful Retrieval）
 - 不只是看一遍，而是努力回忆知识点
 - 例如：
   - 关上书本，尝试复述今天学了什么
@@ -94,7 +103,7 @@
 
 ---
 
-### 9. **分块记忆法（Chunking）**
+### 9. 分块记忆法（Chunking）
 - 把大量信息分成小块，方便记忆
 - 例如：
   - 手机号码：138-1234-5678
@@ -102,7 +111,7 @@
 
 ---
 
-### 10. **多感官参与法（Multi-Sensory Learning）**
+### 10. 多感官参与法（Multi-Sensory Learning）
 - 同时调动视觉、听觉、动手操作
 - 举例：
   - 看视频 + 做笔记 + 动手编程 + 教别人
@@ -137,7 +146,7 @@
 
 ## 五、如何制定有效的学习计划？
 
-### 📅 步骤如下：
+**步骤如下：**
 
 1. **明确目标（SMART 原则）**
    - Specific（具体）
