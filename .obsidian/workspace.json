@@ -320,6 +320,30 @@
             }
           },
           {
+            "id": "30c45dd35eb84188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/读书笔记/经济、金融/知识点.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "知识点"
+            }
+          },
+          {
             "id": "fcab52317ce27e0d",
             "type": "leaf",
             "state": {
@@ -368,7 +392,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -554,10 +578,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9e2841d976c477d1",
+  "active": "30c45dd35eb84188",
   "lastOpenFiles": [
-    "_posts/methods/学习方法/SQ3R阅读法.md",
     "_posts/methods/学习方法/_有效学习方法的概述-QW.md",
+    "_posts/methods/学习方法/SQ3R阅读法.md",
     "_posts/methods/学习方法/有效的方法/费曼学习法.md",
     "_posts/methods/学习方法/建立知识框架.md",
     "_posts/methods/学习方法/有效的方法/交错学习（Interleaving）.md",
