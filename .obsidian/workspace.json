@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/methods/_待整理的/对学习上瘾很简单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "对学习上瘾很简单"
             }
           },
           {
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-24.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-24"
+              "title": "2025-05-25"
             }
           },
           {
@@ -320,30 +320,6 @@
             }
           },
           {
-            "id": "30c45dd35eb84188",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/经济、金融/知识点.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "知识点"
-            }
-          },
-          {
             "id": "fcab52317ce27e0d",
             "type": "leaf",
             "state": {
@@ -391,8 +367,7 @@
               "title": "如何快速学习陌生领域"
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -578,9 +553,28 @@
       "media-extended:Open media": false
     }
   },
-  "active": "30c45dd35eb84188",
+  "active": "148c6846560e64c4",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "_posts/methods/_待整理的/对学习上瘾很简单.md",
+    "_posts/methods/构建系统/如何快速学习陌生领域.md",
+    "_posts/methods/_待整理的",
+    "_posts/methods/构建系统/建构系统.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
+    "_posts/methods/构建系统/《我的人生样样稀松照样赢》/《我的人生样样稀松照样赢》.md",
+    "_posts/methods/media/9f7e86d8481ba7fbc07f587be603b71f_MD5.jpeg",
+    "_posts/methods/media/Pasted image 20250525083653.png",
+    "_posts/methods/构建系统/The One Habit That Is Changing My Life.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-25.md",
     "_posts/methods/学习方法/_有效学习方法的概述-QW.md",
+    "_posts/engineering/_现代前端开发工具链.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/AI/搞钱/别人的方法.md",
+    "_posts/读书笔记/经济、金融/知识点.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-24.md",
+    "DailyNote/Journal/01 Daily/2025/05/media",
     "_posts/methods/学习方法/SQ3R阅读法.md",
     "_posts/methods/学习方法/有效的方法/费曼学习法.md",
     "_posts/methods/学习方法/建立知识框架.md",
@@ -592,21 +586,6 @@
     "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW.md",
     "_posts/react/总结/核心概念、原理、源码/核心概念/Fiber 架构-QW2.md",
     "_posts/methods/学习方法/Overview.md",
-    "_posts/methods/构建系统/如何快速学习陌生领域.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-24.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-23.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/English/方法.md",
-    "_posts/engineering/_现代前端开发工具链.md",
-    "_posts/react/总结/核心概念、原理、源码/React 18 的主要特性.md",
-    "_posts/react/总结/核心概念、原理、源码/核心概念/并发模式（Concurrent Mode）.md",
-    "_posts/react/总结/APIs/startTransition().md",
-    "_posts/react/总结/Components/<Suspense>.md",
-    "_posts/react/总结/Hooks/useTransition.md",
-    "_posts/react/总结/核心概念、原理、源码/核心概念/虚拟 DOM（Virtual DOM）.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工",
     "_posts/react/总结/核心概念、原理、源码/核心概念",
     "_posts/react/总结/未命名",
@@ -617,15 +596,11 @@
     "_posts/框架",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/media/7e28c45a17ef413a241614894ad0710d_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/media/c10379616ff478356c35c1c2b8e349cb_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/media/17573e0770d097548d054da342d40525_MD5.jpeg",
     "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092504.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/media/7b4eeb96d649a0de3e713e1657404752_MD5.jpeg",
-    "_posts/react/总结/原理和源码/源码/别人的讲解/media/Pasted image 20250513092319.png",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/media/8b11e9e58d2c9579fbbcccba56d1a6db_MD5.jpeg",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
