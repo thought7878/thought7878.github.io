@@ -529,7 +529,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -554,8 +554,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9e2841d976c477d1",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
+    "_posts/methods/大脑/media/Pasted image 20250527144415.png",
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527073652.png",
     "_posts/methods/大脑/media/8c5f048b70c2c716f8440a7bc61fae0d_MD5.jpeg",
@@ -598,10 +600,8 @@
     "_posts/react/总结/未命名",
     "_posts/读书笔记/未命名",
     "_posts/methods/media/ea8136ee789b0d98283c564ad400825a_MD5.jpeg",
-    "_posts/methods/media/选择权.png",
     "_posts/框架/Svelte",
     "_posts/框架",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
