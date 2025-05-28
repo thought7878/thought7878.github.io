@@ -342,9 +342,33 @@
               "icon": "lucide-file",
               "title": "_高级前端开发工程师的计划"
             }
+          },
+          {
+            "id": "e0de11c1a4dfa338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DayPicker.tsx"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -530,14 +554,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "69328233e9ab688e",
+  "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
+    "_posts/methods/编程/如何学习一个前端开源项目？.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+    "_posts/libraries/shadcn/component/react-day-picker/优化.md",
+    "_posts/libraries/shadcn/component/react-day-picker/概述.md",
+    "_posts/methods/编程/学习一个前端开源项目的流程是什么？.md",
+    "_posts/methods/编程/architecture/overview.md",
+    "_posts/methods/编程",
+    "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/methods/构建系统/_高级前端开发工程师的计划.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-28.md",
+    "_posts/libraries/shadcn/component/react-day-picker/useCalendar().md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/methods/构建系统/_如何制定计划、目标？.md",
     "_posts/methods/构建系统/_建构系统.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/常看的.md",
     "_posts/engineering/_现代前端开发工具链.md",
-    "_posts/methods/构建系统/_高级前端开发工程师的计划.md",
     "_posts/methods/构建系统/如何快速学习陌生领域.md",
     "_posts/AI/搞钱/别人的方法.md",
     "_posts/methods/大脑/多巴胺/自然提升多巴胺的食物.md",
@@ -546,12 +583,7 @@
     "_posts/methods/大脑/缰核.md",
     "_posts/methods/大脑/多巴胺/多巴胺-视频.md",
     "_posts/AI/趋势.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-28.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-27.md",
-    "_posts/读书笔记/Crypto.md",
-    "_posts/读书笔记/健康/男性的性欲.md",
-    "_posts/methods/大脑/抑郁症.md",
-    "_posts/methods/要整理的.md",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527144415.png",
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
@@ -559,15 +591,8 @@
     "_posts/methods/大脑/media/8c5f048b70c2c716f8440a7bc61fae0d_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527072402.png",
     "_posts/methods/大脑/media",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-26.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/methods/大脑/神经科学.md",
     "_posts/methods/构建系统/media/89f9e1bef2e63f8f9e12280f69346f74_MD5.jpeg",
     "_posts/methods/构建系统/media/Pasted image 20250526180016.png",
-    "_posts/methods/构建系统/动力.md",
-    "_posts/methods/大脑/对学习上瘾很简单.md",
-    "_posts/methods/构建系统/《呆伯特》作者教你如何打造个人系统躺赢.md",
-    "_posts/methods/构建系统/《我的人生样样稀松照样赢》/《我的人生样样稀松照样赢》.md",
     "_posts/methods/_待整理的",
     "_posts/methods/media/9f7e86d8481ba7fbc07f587be603b71f_MD5.jpeg",
     "_posts/methods/media/Pasted image 20250525083653.png",
@@ -577,7 +602,6 @@
     "_posts/react/总结/核心概念、原理、源码/核心概念",
     "_posts/react/总结/未命名",
     "_posts/读书笔记/未命名",
-    "_posts/框架/Svelte",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
