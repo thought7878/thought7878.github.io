@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DayPicker.tsx"
+              "title": "组件初始化的流程"
             }
           }
         ],
@@ -556,11 +556,12 @@
   },
   "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/component/react-day-picker/概述.md",
+    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/methods/编程/如何学习一个前端开源项目？.md",
+    "_posts/methods/编程/学习一个前端开源项目的流程是什么？.md",
     "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/libraries/shadcn/component/react-day-picker/优化.md",
-    "_posts/libraries/shadcn/component/react-day-picker/概述.md",
-    "_posts/methods/编程/学习一个前端开源项目的流程是什么？.md",
     "_posts/methods/编程/architecture/overview.md",
     "_posts/methods/编程",
     "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
@@ -583,7 +584,6 @@
     "_posts/methods/大脑/缰核.md",
     "_posts/methods/大脑/多巴胺/多巴胺-视频.md",
     "_posts/AI/趋势.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-27.md",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527144415.png",
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
