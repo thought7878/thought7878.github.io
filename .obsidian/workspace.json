@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-29.md",
+                "file": "DailyNote/Journal/01 Daily/2025/05/2025-05-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-29"
+              "title": "2025-05-30"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "组件初始化的流程"
+              "title": "pnpm的学习计划"
+            }
+          },
+          {
+            "id": "8d5a54566097811f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "组件初始化的流程.excalidraw"
             }
           },
           {
@@ -404,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -565,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -590,36 +602,36 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/engineering/package-manager/pnpm & monorepo/Monorepo.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
+    "_posts/engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-30.md",
+    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
+    "_posts/engineering/package-manager/Pnpm.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DB.md",
+    "DailyNote/Journal/01 Daily/2025/05/2025-05-29.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.excalidraw.md",
+    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
+    "_posts/engineering/版本控制与协作/Git/命令/git revert.md",
     "_posts/engineering/版本控制与协作/Git/命令/git pull.md",
     "_posts/engineering/版本控制与协作/Git/命令/git rebase.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/命令/git fetch.md",
-    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/读书笔记/Crypto.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/世界趋势/世界趋势记录.md",
     "_posts/engineering/版本控制与协作/Git/命令/clean、checkout、restore.md",
     "_posts/engineering/版本控制与协作/Git/命令",
-    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/libraries/shadcn/component/react-day-picker/优化.md",
     "_posts/libraries/shadcn/component/react-day-picker/概述.md",
     "_posts/methods/编程/如何学习一个前端开源项目？.md",
     "_posts/engineering/版本控制与协作/Git/Drawing 2025-05-29 09.31.07.excalidraw.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-29.md",
-    "DailyNote/Journal/01 Daily/2025/05/2025-05-28.md",
-    "_posts/methods/编程/学习一个前端开源项目的流程是什么？.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/methods/编程/architecture/overview.md",
     "_posts/methods/编程",
-    "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/methods/构建系统/_高级前端开发工程师的计划.md",
-    "_posts/libraries/shadcn/component/react-day-picker/useCalendar().md",
-    "_posts/methods/构建系统/_如何制定计划、目标？.md",
     "_posts/methods/大脑/多巴胺",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527144415.png",

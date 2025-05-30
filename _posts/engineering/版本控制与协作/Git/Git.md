@@ -1,3 +1,5 @@
+【我的高效Git配置秘籍 😎】 https://www.bilibili.com/video/BV1KSjRzxE3b/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 # 一、Git 概述
 
 **Git** 是一个免费、开源的分布式版本控制系统，常用于软件开发中*对代码的版本管理*。由 Linus Torvalds 为了帮助管理 Linux 内核开发而开发。它主要用于软件开发过程中的代码版本管理，但也可以用于管理任何文件集合的历史变更。相比于传统的集中式版本控制系统（如 SVN），Git 的分布式特性*让每个开发者的本地仓库都包含完整的项目历史*，允许离线工作，并能更高效地处理分支和合并操作。
