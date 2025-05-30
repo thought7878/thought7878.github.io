@@ -142,7 +142,7 @@ for (var i = 0; i < 3; i++) {
 
 你可以使用如下格式来整理一个完整的知识点总结：
 
-```markdown
+````markdown
 # JavaScript 闭包总结
 
 ## 什么是闭包？
@@ -194,6 +194,7 @@ for (var i = 0; i < 3; i++) {
 
 - MDN: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures
 - 《你不知道的JavaScript（上卷）》
+````
 
 ---
 
