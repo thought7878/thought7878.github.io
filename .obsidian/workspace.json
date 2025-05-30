@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
+                "file": "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pnpm的学习计划"
+              "title": "pnpm-DS"
             }
           },
           {
@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
+                "file": "_posts/base/知识目录、路线图/_总结某个前端编程知识点，如何做？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -400,23 +400,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git"
-            }
-          },
-          {
-            "id": "6fb290b601b6dd16",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "命令流程图.excalidraw"
+              "title": "_总结某个前端编程知识点，如何做？"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -577,7 +565,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,35 +590,35 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "bbe89d4c513b4398",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/_总结前端编程知识，如何做？-QW.md",
+    "_posts/base/知识目录、路线图/_总结某个前端编程知识点，如何做？.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结.md",
+    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DS.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-QW.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/工作区（Workspace）-DB.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/Workspace-QW.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/Workspace-DS.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DB.md",
+    "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/engineering/package-manager/pnpm & monorepo/Monorepo.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/base/知识目录、路线图/学习计划/pnpm的学习计划.md",
+    "_posts/engineering/package-manager/Pnpm2.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/engineering/package-manager/2021-08-18-npm-pnpm-yarn.md",
     "_posts/engineering/package-manager/pnpm & monorepo/使用 pnpm workspace 管理 monorepo.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-30.md",
     "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
-    "_posts/engineering/package-manager/Pnpm.md",
-    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DB.md",
     "DailyNote/Journal/01 Daily/2025/05/2025-05-29.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.excalidraw.md",
-    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
     "_posts/engineering/版本控制与协作/Git/命令/git revert.md",
     "_posts/engineering/版本控制与协作/Git/命令/git pull.md",
     "_posts/engineering/版本控制与协作/Git/命令/git rebase.md",
     "_posts/engineering/版本控制与协作/Git/命令/git fetch.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/读书笔记/Crypto.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/世界趋势/世界趋势记录.md",
-    "_posts/engineering/版本控制与协作/Git/命令/clean、checkout、restore.md",
     "_posts/engineering/版本控制与协作/Git/命令",
-    "_posts/libraries/shadcn/component/react-day-picker/优化.md",
-    "_posts/libraries/shadcn/component/react-day-picker/概述.md",
-    "_posts/methods/编程/如何学习一个前端开源项目？.md",
-    "_posts/engineering/版本控制与协作/Git/Drawing 2025-05-29 09.31.07.excalidraw.md",
     "_posts/methods/编程",
     "_posts/methods/大脑/多巴胺",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
