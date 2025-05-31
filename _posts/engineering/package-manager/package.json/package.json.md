@@ -127,15 +127,15 @@
 
 ## 三、常用操作命令
 
-| 命令 | 说明 |
-|------|------|
-| `npm init` / `yarn init` | 初始化 package.json |
-| `npm install <pkg>` / `yarn add <pkg>` | 安装依赖，默认添加到 dependencies |
-| `npm install <pkg> -D` / `yarn add -D <pkg>` | 添加到 devDependencies |
-| `npm install <pkg> -g` / `yarn global add <pkg>` | 全局安装 |
-| `npm uninstall <pkg>` / `yarn remove <pkg>` | 卸载依赖 |
-| `npm update <pkg>` / `yarn upgrade <pkg>` | 更新依赖 |
-| `npm run <script>` / `yarn <script>` | 运行脚本命令 |
+| 命令                                               | 说明                      |
+| ------------------------------------------------ | ----------------------- |
+| `npm init` / `yarn init`                         | 初始化 package.json        |
+| `npm install <pkg>` / `yarn add <pkg>`           | 安装依赖，默认添加到 dependencies |
+| `npm install <pkg> -D` / `yarn add -D <pkg>`     | 添加到 devDependencies     |
+| `npm install <pkg> -g` / `yarn global add <pkg>` | 全局安装                    |
+| `npm uninstall <pkg>` / `yarn remove <pkg>`      | 卸载依赖                    |
+| `npm update <pkg>` / `yarn upgrade <pkg>`        | 更新依赖                    |
+| `npm run <script>` / `yarn <script>`             | 运行脚本命令                  |
 
 ---
 
