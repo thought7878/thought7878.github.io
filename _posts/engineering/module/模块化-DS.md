@@ -63,7 +63,7 @@
 
 ### 二、模块化技术演进（逐步实践）
 
-#### 1. **IIFE 模式（立即执行函数）**
+#### 1. IIFE 模式（立即执行函数）
 
 ```js
 // 模块定义
@@ -84,7 +84,7 @@ moduleA.add();
 console.log(moduleA.getCount()); // 1
 ```
 
-#### 2. **CommonJS（Node.js 默认规范）**
+#### 2. CommonJS（Node.js 默认规范）
 
 ```js
 // math.js
@@ -98,7 +98,7 @@ const math = require("./math.js");
 console.log(math.add(2, 3)); // 5
 ```
 
-#### 3. **AMD（异步模块定义）**
+#### 3. AMD（异步模块定义）
 
 ```js
 // 定义模块（math.js）
@@ -116,7 +116,7 @@ require(["math"], function (math) {
 });
 ```
 
-#### 4. **ES Modules（现代标准）**
+#### 4. ES Modules（现代标准）
 
 ```html
 <!-- 浏览器直接使用（需 type="module"） -->
