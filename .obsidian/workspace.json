@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-01.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-01"
+              "title": "2025-06-02"
             }
           },
           {
@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/module/模块化.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "模块化"
+              "title": "前端工程化"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes/DateLib.ts.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DateLib.ts"
+              "title": "组件初始化的流程"
             }
           },
           {
@@ -392,7 +392,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -578,38 +578,39 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b6994b4a5ec355a1",
+  "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
-    "_posts/engineering/module/模块化-DS.md",
-    "_posts/engineering/module/模块化.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes/DateLib.ts.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-02.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-01.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病-DS.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病的饮食建议-DS.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-QW.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-DS.md",
+    "_posts/读书笔记/健康/糖尿病/二甲双胍-QW.md",
+    "_posts/读书笔记/健康/糖尿病/如何自测血糖？.md",
+    "_posts/读书笔记/健康/糖尿病",
+    "_posts/methods/学习方法/_SQ3R阅读法.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/1. JSX 、createElement.md",
+    "_posts/engineering/module/模块化.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/engineering/module/模块化-DS.md",
     "_posts/engineering/前端工程化的定义、目标和意义.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/base/知识目录、路线图/知识目录/HTTP.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/CSS.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言",
-    "_posts/base/知识目录、路线图/知识目录/数据结构、算法.md",
-    "_posts/base/知识目录、路线图/知识目录/Obsidian.md",
     "_posts/base/知识目录、路线图/知识目录/框架",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/性能优化.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
-    "_posts/读书笔记/健康/其他类别.md",
     "_posts/base/知识目录、路线图/知识目录/工程化",
-    "_posts/methods/构建系统/_如何制定计划、目标？.md",
-    "_posts/methods/构建系统/_建构系统.md",
-    "_posts/methods/大脑/多巴胺/自然提升多巴胺的食物.md",
-    "_posts/methods/大脑/多巴胺/多巴胺.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes/DateLib.ts.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-01.md",
     "DailyNote/Journal/01 Daily/2025/06",
     "_posts/AI/编程/media/d7d162454ca5f94b26284a87e7563042_MD5.jpeg",
     "_posts/AI/编程/media/Pasted image 20250531173948.png",
@@ -617,7 +618,6 @@
     "_posts/AI/编程",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527144415.png",
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
