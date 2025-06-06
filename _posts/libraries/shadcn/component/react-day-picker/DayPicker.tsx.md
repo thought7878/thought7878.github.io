@@ -105,7 +105,7 @@ const {
 ## 状态管理：
 ### 生成日历数据
 
-使用  [[useCalendar()]]  钩子生成日历数据。
+使用  [[useCalendar()-2]]  钩子生成日历数据。
 
 - **输入**：`props`  和  `dateLib`。
 - **输出**：日历数据对象，包括  `days`、`months`、`navStart`、`navEnd`、`previousMonth`、`nextMonth`  和  `goToMonth`。
