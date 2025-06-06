@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/useCalendar.ts.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "useCalendar.ts"
+              "title": "组件初始化的流程"
             }
           },
           {
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -602,11 +602,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
+    "_posts/AI/编程/阿里AI原生IDE.md",
+    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/libraries/shadcn/component/react-day-picker/useCalendar()-2.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/useCalendar.ts.md",
-    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes/DateLib.ts.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-06.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-05.md",
@@ -627,7 +628,6 @@
     "_posts/读书笔记/健康/吸烟的危害.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病-DS.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
-    "_posts/AI/编程/阿里AI原生IDE.md",
     "_posts/AI/编程/AI编程工具的对比.md",
     "_posts/AI/编程/待整理的.md",
     "_posts/读书笔记/健康/糖尿病",

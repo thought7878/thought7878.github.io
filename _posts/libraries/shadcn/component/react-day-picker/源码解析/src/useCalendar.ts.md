@@ -28,7 +28,7 @@
 
 ---
 
-### **1. 类型定义：`Calendar` 接口**
+### 1. 类型定义：`Calendar` 接口
 
 定义了日历对象的结构，包含以下核心属性：
 
@@ -45,11 +45,11 @@
 
 ---
 
-### **2. `useCalendar` 函数逻辑**
+### 2. `useCalendar` 函数逻辑
 
 函数接收日历配置 `props` 和日期工具 `dateLib`，输出计算后的 `Calendar` 对象。核心步骤如下：
 
-#### **(1) 初始化导航范围**
+#### (1) 初始化导航范围
 
 ```typescript
 const [navStart, navEnd] = getNavMonths(props, dateLib);
@@ -57,7 +57,7 @@ const [navStart, navEnd] = getNavMonths(props, dateLib);
 
 通过 `getNavMonths` 计算导航的起止月份（由 `startMonth`/`endMonth` 等配置决定），限制用户能切换的月份范围。
 
-#### **(2) 管理初始月份状态**
+#### (2) 管理初始月份状态
 
 
 ```typescript
@@ -71,13 +71,8 @@ const [firstMonth, setFirstMonth] = useControlledValue(
 - `initialMonth`：根据 `props.month` 或 `props.defaultMonth` 计算初始显示的月份（默认当前月）。
 - `useControlledValue`：自定义 Hook，用于管理受控/非受控组件的状态（若 `props.month` 存在则为受控模式，否则为非受控）。
 
-#### **(3) 时区变化时更新初始月份**
+#### (3) 时区变化时更新初始月份
 
-![](https://file+.vscode-resource.vscode-cdn.net/Users/ll/.vscode/extensions/marscode.marscode-extension-1.2.16/resource/images/languageIcon/typescript.svg)
-
-typescript
-
-Apply
 
 ```typescript
 useEffect(() => {
@@ -88,7 +83,7 @@ useEffect(() => {
 
 当用户配置的时区（`timeZone`）变化时，重新计算初始月份并更新状态，确保日历显示正确。
 
-#### **(4) 计算布局数据**
+#### (4) 计算布局数据
 
 通过一系列辅助函数生成日历的核心数据：
 
@@ -98,13 +93,13 @@ useEffect(() => {
 - `weeks`：将 `months` 中的日期按周分组，生成 `CalendarWeek` 对象（每周包含 7 天）。
 - `days`：将所有 `weeks` 中的日期展平，生成 `CalendarDay` 数组（最终渲染的日期列表）。
 
-#### **(5) 导航方法实现**
+#### (5) 导航方法实现
 
 - **`goToMonth`**：切换月份时检查是否超出 `navStart`/`navEnd` 范围，若超出则调整到边界值，更新 `firstMonth` 并触发 `onMonthChange` 回调。
 - **`goToDay`**：检查目标日期是否在当前日历中，若不在则调用 `goToMonth` 切换到该日期所在的月份。
 
 ---
 
-### **总结**
+### 总结
 
 `useCalendar` 是日历组件的“数据引擎”，负责根据配置（时区、导航范围、显示月份数等）计算出需要渲染的月份、周、日数据，并提供导航方法，确保用户能通过点击/键盘操作切换月份。其输出的 `Calendar` 对象会被 `DayPicker` 组件使用，驱动日历的渲染和交互。
