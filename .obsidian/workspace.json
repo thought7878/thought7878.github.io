@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
+                "file": "_posts/browser/Chrome 开发者工具/performance 面板的官方文档.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "组件初始化的流程"
+              "title": "performance 面板的官方文档"
             }
           },
           {
@@ -448,7 +448,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:requestIdleCallback",
+                "query": "file:chrome",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -604,12 +604,24 @@
   },
   "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
-    "_posts/AI/编程/阿里AI原生IDE.md",
+    "_posts/browser/Chrome 开发者工具/performance、性能面板.md",
+    "_posts/browser/Chrome 开发者工具/performance 面板的官方文档.md",
+    "_posts/libraries/shadcn/issues 记录.md",
+    "_posts/debug/前端调试通关秘籍/31 Chrome DevTools 小功能集锦.md",
+    "_posts/browser/教程/浏览器工作原理与实践/06-浏览器中的页面 (8讲)/21.Chrome开发者工具：利用网络面板做性能分析.md",
     "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
+    "_posts/browser/Chrome 开发者工具",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-06.md",
+    "_posts/performance/视频资料/Web Performance Fundamentals/3.Metrics/2.Chrome User Experience Exercise.md",
+    "_posts/performance/视频资料/Web Performance Fundamentals/3.Metrics/3.Chrome User Experience Solution.md",
+    "_posts/methods/学习方法/_SQ3R阅读法.md",
+    "_posts/engineering/教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
+    "_posts/performance/视频资料/Web Performance Fundamentals/2.Elements of Performance/3.感知性能解决方案.md",
+    "_posts/engineering/webpack/构建性能/4.常用的性能分析工具.md",
+    "_posts/AI/编程/阿里AI原生IDE.md",
     "_posts/libraries/shadcn/component/react-day-picker/useCalendar()-2.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/useCalendar.ts.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes/DateLib.ts.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-06.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-05.md",
     "_posts/读书笔记/健康/糖尿病/测量.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
@@ -619,17 +631,6 @@
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/读书笔记/健康/糖尿病/二甲双胍-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病与高血压.md",
-    "_posts/读书笔记/健康/糖尿病/中风、脑卒中.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/读书笔记/健康/糖尿病/心绞痛.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-02.md",
-    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
-    "_posts/methods/学习方法/_SQ3R阅读法.md",
-    "_posts/读书笔记/健康/吸烟的危害.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病-DS.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录结构.md",
-    "_posts/AI/编程/AI编程工具的对比.md",
-    "_posts/AI/编程/待整理的.md",
     "_posts/读书笔记/健康/糖尿病",
     "_posts/base/知识目录、路线图/知识目录/基础、语言",
     "_posts/base/知识目录、路线图/知识目录/框架",
@@ -641,7 +642,6 @@
     "_posts/AI/编程/media",
     "_posts/AI/编程",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/classes",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527144415.png",
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",

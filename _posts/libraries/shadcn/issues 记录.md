@@ -45,6 +45,10 @@ CommandEmpty没有自定义class，可以增加
 ## bug
 
 ### 看过，需要研究的
+#### 7544 性能优化*
+https://github.com/shadcn-ui/ui/issues/7544
+
+#### 
 https://github.com/pacocoursey/cmdk/issues/279
 https://github.com/shadcn-ui/ui/issues/4510
 4489
