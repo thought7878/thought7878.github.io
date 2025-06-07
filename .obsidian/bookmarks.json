@@ -6,13 +6,9 @@
       "items": [
         {
           "type": "file",
-          "ctime": 1738764254826,
-          "path": "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md"
-        },
-        {
-          "type": "file",
           "ctime": 1738764332676,
-          "path": "_posts/要整理的.md"
+          "path": "_posts/要整理的.md",
+          "title": "之前/要整理的"
         },
         {
           "type": "file",
@@ -27,12 +23,20 @@
         {
           "type": "file",
           "ctime": 1749262989960,
-          "path": "_posts/base/知识目录、路线图/学习计划/_要整理的.md"
+          "path": "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+          "title": "学习计划/要整理的"
         },
         {
           "type": "file",
           "ctime": 1742002917916,
-          "path": "_posts/methods/要整理的.md"
+          "path": "_posts/methods/要整理的.md",
+          "title": "methods/要整理的"
+        },
+        {
+          "type": "file",
+          "ctime": 1749263640559,
+          "path": "_posts/AI/使用方法.md",
+          "title": "AI/使用方法"
         }
       ],
       "title": "防止忘记"
@@ -83,6 +87,11 @@
       "type": "file",
       "ctime": 1742623480937,
       "path": "_posts/任务记录/2025/查询单词的提示词模版.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1749264139030,
+      "path": "_posts/methods/学习方法/_SQ3R阅读法.md"
     }
   ]
 }

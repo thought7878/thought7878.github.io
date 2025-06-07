@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/使用方法.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "使用方法"
+              "title": "要整理的"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
+                "file": "_posts/读书笔记/健康/糖尿病/饮食/鸡肉做法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "搭建开发环境"
+              "title": "鸡肉做法"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -602,23 +602,28 @@
       "media-extended:Open media": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
-    "_posts/AI/趋势.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/鸡肉做法.md",
+    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
+    "_posts/libraries/_my-libraries/number-input/改进记录.md",
+    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
+    "_posts/methods/学习方法/_SQ3R阅读法.md",
+    "_posts/methods/要整理的.md",
+    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
     "_posts/AI/使用方法.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/要整理的.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/AI/趋势.md",
     "_posts/AI/media/5655e5ad0614600f0357b9bf421be2b5_MD5.jpeg",
     "_posts/AI/media/Pasted image 20250607103155.png",
     "_posts/AI/media",
     "_posts/AI/学习资料.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/methods/要整理的.md",
-    "_posts/要整理的.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/methods/常看的.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
-    "_posts/libraries/_my-libraries/number-input/改进记录.md",
-    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
-    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/debug/前端调试通关秘籍/31 Chrome DevTools 小功能集锦.md",
     "_posts/browser/Chrome 开发者工具/performance、性能面板.md",
     "_posts/browser/Chrome 开发者工具/performance 面板的官方文档.md",
@@ -629,10 +634,6 @@
     "_posts/methods/思考、认知",
     "_posts/读书笔记/健康/糖尿病/饮食/糙米 VS 大米.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/糖尿病的饮食-QW.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/糖尿病的饮食-DS.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食 VS 生酮饮食.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食-DS.md",
     "_posts/读书笔记/健康/糖尿病/饮食",
     "_posts/browser/Chrome 开发者工具",
     "_posts/读书笔记/健康/糖尿病",
