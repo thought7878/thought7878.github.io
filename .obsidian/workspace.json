@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/useCalendar.ts.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "useCalendar.ts"
+              "title": "package.json"
             }
           },
           {
@@ -605,6 +605,13 @@
   "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
     "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
+    "_posts/要整理的.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/常看的.md",
+    "_posts/libraries/_my-libraries/number-input/参考资料.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/useCalendar.ts.md",
+    "_posts/libraries/_my-libraries/什么组件合适？.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-08.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-07.md",
     "_posts/methods/学习方法/_SQ3R阅读法.md",
@@ -612,8 +619,6 @@
     "_posts/读书笔记/健康/糖尿病/测量.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/methods/思考、认知/思考方法.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
     "_posts/读书笔记/健康/糖尿病/如何自测血糖？.md",
@@ -626,11 +631,6 @@
     "_posts/libraries/_my-libraries/number-input/改进记录.md",
     "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
     "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
-    "_posts/libraries/shadcn/component/react-day-picker/DayPicker.tsx.md",
-    "_posts/AI/使用方法.md",
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/要整理的.md",
-    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
     "_posts/AI/media/5655e5ad0614600f0357b9bf421be2b5_MD5.jpeg",
     "_posts/AI/media/Pasted image 20250607103155.png",
     "_posts/AI/media",
