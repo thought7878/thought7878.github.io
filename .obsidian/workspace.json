@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "package.json"
+              "title": "技术栈"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,10 +602,23 @@
       "media-extended:Open media": false
     }
   },
-  "active": "e0de11c1a4dfa338",
+  "active": "14d85c69b9a8aec3",
   "lastOpenFiles": [
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
+    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘的人，需要补充什么？.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/读书笔记/健康/成年人需要补充什么？.md",
+    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/battle.md",
+    "_posts/读书笔记/健康/老爹/孟鲁司特.md",
+    "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg.md",
+    "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
+    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境.md",
     "_posts/要整理的.md",
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
@@ -615,22 +628,10 @@
     "DailyNote/Journal/01 Daily/2025/06/2025-06-08.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-07.md",
     "_posts/methods/学习方法/_SQ3R阅读法.md",
-    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
     "_posts/读书笔记/健康/糖尿病/测量.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/methods/思考、认知/思考方法.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-QW.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
-    "_posts/读书笔记/健康/糖尿病/如何自测血糖？.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病-DS.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/健康/糖尿病/记录",
-    "_posts/读书笔记/健康/糖尿病/饮食/鸡肉做法.md",
-    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
-    "_posts/libraries/_my-libraries/number-input/改进记录.md",
-    "_posts/libraries/shadcn/component/react-day-picker/组件初始化的流程.md",
-    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
     "_posts/AI/media/5655e5ad0614600f0357b9bf421be2b5_MD5.jpeg",
     "_posts/AI/media/Pasted image 20250607103155.png",
     "_posts/AI/media",
@@ -649,7 +650,6 @@
     "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
     "_posts/methods/大脑/media/Pasted image 20250527073652.png",
     "_posts/methods/大脑/media/8c5f048b70c2c716f8440a7bc61fae0d_MD5.jpeg",
-    "_posts/methods/大脑/media/Pasted image 20250527072402.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
