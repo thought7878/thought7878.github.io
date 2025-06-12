@@ -371,12 +371,12 @@
             "id": "b9578950ee952161",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "diagram-edit",
               "state": {
-                "file": "_posts/engineering/概述.excalidraw.md"
+                "file": "_posts/engineering/工程化概述.svg"
               },
-              "icon": "excalidraw-icon",
-              "title": "概述.excalidraw"
+              "icon": "lucide-file",
+              "title": "工程化概述.svg"
             }
           },
           {
@@ -452,7 +452,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -613,7 +613,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -638,15 +638,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "2ec0c28f2cb0200e",
+  "active": "c93b5db441854be9",
   "lastOpenFiles": [
+    "_posts/读书笔记/健康/糖尿病/高血脂.md",
+    "_posts/读书笔记/健康/老爹/胰腺炎.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
+    "_posts/engineering/工程化概述.svg",
     "_posts/engineering/概述.excalidraw.md",
+    "_posts/engineering/Untitled Diagram 1.svg",
+    "_posts/engineering/gaisu.md",
+    "Untitled Diagram.svg",
+    "_posts/engineering/未命名.canvas",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
     "_posts/tools/obsidian/libraries/bubbles.excalidrawlib",
     "_posts/tools/obsidian/libraries/UML-ER-library.excalidrawlib",
     "_posts/tools/obsidian/libraries/software-architecture.excalidrawlib",
     "_posts/tools/obsidian/libraries",
     "_posts/tools/obsidian/未命名文件夹",
-    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
@@ -662,17 +671,13 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录结构1.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
     "_posts/methods/学习方法/编程/提问模版.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-10.md",
     "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
     "_posts/读书笔记/健康/糖尿病/并发症",
     "_posts/读书笔记/健康/糖尿病/未命名.md",
     "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-QW.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-DS.md",
     "_posts/读书笔记/健康/糖尿病/药物",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
-    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
     "_posts/读书笔记/健康/糖尿病/记录/media",
     "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
     "_posts/读书笔记/健康/糖尿病/记录",
@@ -682,9 +687,6 @@
     "_posts/AI/编程/media/d7d162454ca5f94b26284a87e7563042_MD5.jpeg",
     "_posts/AI/编程/media/Pasted image 20250531173948.png",
     "_posts/methods/大脑/media/6d0ea9b4affb2d109cf2d8028d6dff5a_MD5.jpeg",
-    "_posts/methods/大脑/media/Pasted image 20250527144415.png",
-    "_posts/methods/大脑/media/13a714c4c64db27e4be5f9eac3d40a09_MD5.jpeg",
-    "_posts/methods/大脑/media/Pasted image 20250527073652.png",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
