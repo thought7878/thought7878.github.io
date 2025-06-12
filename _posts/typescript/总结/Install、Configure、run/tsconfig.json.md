@@ -1,4 +1,4 @@
-`tsconfig.json` 是 TypeScript 项目的配置文件，它用于*指定 TypeScript 编译器（`tsc`）的编译选项和项目结构*，*帮助开发者更好地控制 TypeScript 代码的编译过程*。下面详细介绍 `tsconfig.json` 的相关内容：
+`tsconfig.json` 是 TypeScript 项目的配置文件，它用于*指定 TypeScript 编译器（`tsc`）的编译选项、项目结构*，*帮助开发者更好地控制 TypeScript 代码的编译过程*。下面详细介绍 `tsconfig.json` 的相关内容：
 
 ### 基本结构
 
@@ -6,11 +6,20 @@
 
 ```json
 {
+  // 继承其他配置文件（可选）
+  "extends": "...",      
+      
+  // 编译选项（关键配置）
   "compilerOptions": {
-    // 编译选项
+    
   },
+  
+  // 包含的文件/目录（默认: ["**/*"]）
   "include": [],
+  
+  // 排除的文件/目录（默认: ["node_modules", "bower_components"]）
   "exclude": [],
+  
   "files": []
 }
 ```

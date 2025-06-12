@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "目录、文件的功能"
+              "title": "tsconfig.json"
             }
           },
           {
@@ -602,13 +602,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "e0de11c1a4dfa338",
   "lastOpenFiles": [
-    "_posts/libraries/_my-libraries/Message.md",
-    "_posts/libraries/_my-libraries/什么组件合适？.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/methods/要整理的.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
     "_posts/读书笔记/健康/老爹/胃病.md",
+    "_posts/libraries/_my-libraries/Message.md",
+    "_posts/libraries/_my-libraries/什么组件合适？.md",
     "DailyNote/Journal/01 Daily/2025-06-12.md",
     "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录结构1.md",
@@ -630,9 +633,6 @@
     "_posts/methods/常看的.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-08.md",
     "_posts/读书笔记/健康/糖尿病/记录/media",
-    "_posts/读书笔记/健康/糖尿病/糖尿病的检查.md",
-    "_posts/读书笔记/健康/老爹/支气管哮喘的人，需要补充什么？.md",
-    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
     "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
     "_posts/读书笔记/健康/糖尿病/记录",
     "_posts/AI/media/5655e5ad0614600f0357b9bf421be2b5_MD5.jpeg",

@@ -8,7 +8,7 @@
 ## Install and Configure
 参考 [[Install and Configure]]
 ### tsconfig.json
-参考 [[tsconfig.json]]
+参考 [[_posts/typescript/总结/Install、Configure、run/tsconfig.json]]
 ### Compiler Options
 
 ## Running TypeScript
