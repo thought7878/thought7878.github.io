@@ -6,7 +6,6 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
-        "dimension": 51.33689839572193,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -350,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -365,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "tsconfig.json"
+              "title": "目录、文件的功能"
             }
           },
           {
@@ -454,37 +453,6 @@
           }
         ],
         "currentTab": 14
-      },
-      {
-        "id": "f3ea35d7cd6d47f5",
-        "type": "tabs",
-        "dimension": 48.663101604278076,
-        "children": [
-          {
-            "id": "1d858c49727ddacd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "tsconfig.json2"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -516,7 +484,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:chrome  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -551,8 +519,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -646,7 +613,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -671,11 +638,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
     "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
     "_posts/读书笔记/健康/轻断食.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/读书笔记/男女.md",
     "_posts/engineering/工程化概述.svg",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
@@ -695,9 +665,7 @@
     "_posts/tools/obsidian/未命名文件夹",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
     "_posts/base/js/知识点总结/前端工程化有哪些知识点？.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/健康/老爹/胃病.md",
@@ -708,7 +676,6 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录结构1.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/读书笔记/健康/糖尿病/并发症",
     "_posts/读书笔记/健康/糖尿病/药物",
     "_posts/读书笔记/健康/糖尿病/记录/media",
