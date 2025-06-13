@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 51.33689839572193,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -205,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +221,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-11"
+              "title": "2025-06-13"
             }
           },
           {
@@ -453,6 +454,37 @@
           }
         ],
         "currentTab": 14
+      },
+      {
+        "id": "f3ea35d7cd6d47f5",
+        "type": "tabs",
+        "dimension": 48.663101604278076,
+        "children": [
+          {
+            "id": "1d858c49727ddacd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tsconfig.json2"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -519,7 +551,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -613,7 +646,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -640,17 +673,21 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
+    "_posts/读书笔记/健康/轻断食.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
+    "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/engineering/工程化概述.svg",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
     "_posts/读书笔记/健康/糖尿病/高血脂.md",
     "_posts/读书笔记/健康/老爹/胰腺炎.md",
     "_posts/读书笔记/健康/老爹/支气管哮喘.md",
-    "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
-    "_posts/engineering/工程化概述.svg",
     "_posts/engineering/概述.excalidraw.md",
     "_posts/engineering/Untitled Diagram 1.svg",
     "_posts/engineering/gaisu.md",
     "Untitled Diagram.svg",
     "_posts/engineering/未命名.canvas",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
     "_posts/tools/obsidian/libraries/bubbles.excalidrawlib",
     "_posts/tools/obsidian/libraries/UML-ER-library.excalidrawlib",
     "_posts/tools/obsidian/libraries/software-architecture.excalidrawlib",
@@ -672,11 +709,7 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/methods/学习方法/编程/提问模版.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-10.md",
-    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
     "_posts/读书笔记/健康/糖尿病/并发症",
-    "_posts/读书笔记/健康/糖尿病/未命名.md",
-    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-QW.md",
     "_posts/读书笔记/健康/糖尿病/药物",
     "_posts/读书笔记/健康/糖尿病/记录/media",
     "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
