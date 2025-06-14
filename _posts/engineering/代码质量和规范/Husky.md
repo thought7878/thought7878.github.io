@@ -46,7 +46,7 @@ npx husky install
 
 ##### pre-commit 钩子
 
-*在代码提交前执行 ESLint 检查*，确保代码符合规范。在终端执行以下命令**添加 `pre-commit` 钩子**：
+**在代码提交前执行 ESLint 检查**，确保代码符合规范。在终端执行以下命令**添加 `pre-commit` 钩子**：
 
 ```bash
 npx husky add .husky/pre-commit "npx eslint src"
