@@ -44,25 +44,25 @@ npx husky install
 
 可以使用 `husky add` 命令来添加钩子。以下是几个常见的钩子配置示例：
 
-##### pre - commit 钩子
+##### pre-commit 钩子
 
-*在代码提交前执行 ESLint 检查*，确保代码符合规范。在终端执行以下命令添加 `pre - commit` 钩子：
+*在代码提交前执行 ESLint 检查*，确保代码符合规范。在终端执行以下命令**添加 `pre-commit` 钩子**：
 
 ```bash
 npx husky add .husky/pre-commit "npx eslint src"
 ```
 
-*上述命令会在 `.husky` 文件夹下创建一个 `pre - commit` 文件，文件内容为执行 `npx eslint src` 命令*，即对 `src` 目录下的代码进行 ESLint 检查。*如果检查不通过，提交操作将被阻止*。
+*上述命令会在 `.husky` 文件夹下创建一个 `pre-commit` 文件，文件内容为执行 `npx eslint src` 命令*，即对 `src` 目录下的代码进行 ESLint 检查。*如果检查不通过，提交操作将被阻止*。
 
-##### pre - push 钩子
+##### pre-push 钩子
 
-*在代码推送前执行测试脚本*，确保代码的功能正常。添加 `pre - push` 钩子的命令如下：
+*在代码推送前执行测试脚本*，确保代码的功能正常。添加 `pre-push` 钩子的命令如下：
 
 ```bash
 npx husky add .husky/pre-push "npx jest"
 ```
 
-该命令会在 `.husky` 文件夹下创建 `pre - push` 文件，其中的脚本会执行 `npx jest` 命令运行测试用例。若测试不通过，代码将无法推送。
+该命令会在 `.husky` 文件夹下创建 `pre-push` 文件，其中的脚本会执行 `npx jest` 命令运行测试用例。若测试不通过，代码将无法推送。
 
 ### 4. 注意事项
 
