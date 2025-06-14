@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-14"
+              "title": "2025-06-15"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
+                "file": "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "prettierrc"
+              "title": "eslintrc.cjs"
+            }
+          },
+          {
+            "id": "d0cacc102221c0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/代码质量和规范/ESLint.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ESLint"
             }
           },
           {
@@ -409,7 +433,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
+                "file": "_posts/读书笔记/健康/糖尿病/记录/记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -424,7 +448,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "二甲双胍-DS"
+              "title": "记录"
             }
           }
         ],
@@ -589,7 +613,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -616,12 +640,19 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
+    "_posts/engineering/代码质量和规范/ESLint.md",
+    "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
+    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
+    "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
+    "_posts/engineering/代码质量和规范/Prettier",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
+    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
+    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/eslint、prettier.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
-    "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
-    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
@@ -636,15 +667,9 @@
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/prettierrc.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
     "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
     "_posts/读书笔记/健康/轻断食.md",
-    "_posts/typescript/总结/Install、Configure、run/tsconfig.json2.md",
-    "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
-    "_posts/读书笔记/健康/糖尿病/高血脂.md",
     "_posts/engineering/Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "_posts/engineering/未命名.canvas",
@@ -656,7 +681,6 @@
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "_posts/读书笔记/健康/糖尿病/并发症",
     "_posts/读书笔记/健康/糖尿病/药物",
-    "_posts/读书笔记/健康/糖尿病/记录/media",
     "_posts/读书笔记/健康/老爹/media/222dab77269ded3b067ef3d5b7cd1e39_MD5.jpeg",
     "_posts/AI/media/5655e5ad0614600f0357b9bf421be2b5_MD5.jpeg",
     "_posts/AI/media/Pasted image 20250607103155.png",

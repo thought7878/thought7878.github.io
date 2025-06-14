@@ -27,7 +27,7 @@ const config = {
   settings: {
     react: {
       // 自动检测安装的React版本
-      version: "detect"
+      version: "detect" 
     }
   },
   // 定义具体的规则及其级别
