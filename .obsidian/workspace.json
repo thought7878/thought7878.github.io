@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-13"
+              "title": "2025-06-14"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "目录、文件的功能"
+              "title": "package.json"
             }
           },
           {
@@ -638,10 +638,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/libraries/shadcn/component/react-day-picker/概述2.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/prettierrc.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
+    "_posts/libraries/shadcn/component/react-day-picker/概述2.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
     "_posts/typescript/总结/Install、Configure、run/tsconfig.json.md",
@@ -650,7 +655,6 @@
     "_posts/base/知识目录、路线图/TypeScript.md",
     "_posts/读书笔记/男女.md",
     "_posts/engineering/工程化概述.svg",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-13.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-11.md",
     "_posts/读书笔记/健康/糖尿病/高血脂.md",
     "_posts/读书笔记/健康/老爹/胰腺炎.md",
@@ -672,10 +676,6 @@
     "_posts/读书笔记/健康/老爹/胃病.md",
     "_posts/libraries/_my-libraries/Message.md",
     "_posts/libraries/_my-libraries/什么组件合适？.md",
-    "DailyNote/Journal/01 Daily/2025-06-12.md",
-    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录结构1.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录结构2.md",
     "_posts/读书笔记/健康/糖尿病/并发症",
     "_posts/读书笔记/健康/糖尿病/药物",
     "_posts/读书笔记/健康/糖尿病/记录/media",
