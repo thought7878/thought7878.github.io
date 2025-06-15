@@ -235,7 +235,7 @@
     "react": "^19.1.0", // React 依赖
     "react-dom": "^19.1.0", // React DOM 依赖
     "ts-node": "^10.9.2", // 在 Node.js 中直接运行 TypeScript
-    "tslib": "^2.8.1", // TypeScript 工具库
+    "tslib": "^2.8.1", // TypeScript 工具库，用于减少重复代码。
     "typescript": "~5.8.3", // TypeScript 版本
     "typescript-css-modules": "^1.0.4" // 支持 CSS Modules 类型定义
   },
