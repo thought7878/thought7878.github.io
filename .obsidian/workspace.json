@@ -433,7 +433,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/记录/记录.md",
+                "file": "_posts/读书笔记/健康/糖尿病/心脏病.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -448,11 +448,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "记录"
+              "title": "心脏病"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -613,7 +613,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -638,10 +638,23 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c93b5db441854be9",
+  "active": "14d85c69b9a8aec3",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/其他类别.md",
+    "_posts/读书笔记/健康/糖尿病/抗心绞痛药物.md",
+    "_posts/读书笔记/健康/糖尿病/心脏病.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
+    "_posts/读书笔记/权力.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食-DS.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食 VS 生酮饮食.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+    "_posts/读书笔记/健康/老爹/止痛药.md",
+    "_posts/读书笔记/健康/老爹/去痛片.md",
+    "_posts/读书笔记/健康/抗衰.md",
+    "_posts/读书笔记/健康/其他类别.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
@@ -654,22 +667,9 @@
     "_posts/engineering/代码质量和规范/ESLint.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/engineering/代码质量和规范/Prettier",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-14.md",
-    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
-    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/libraries/_my-libraries/number-input/源码",
-    "_posts/libraries/shadcn/component/react-day-picker/技术栈.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
-    "_posts/engineering/代码质量和规范/Husky.md",
-    "_posts/libraries/shadcn/component/react-day-picker/概述2.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
     "_posts/engineering/工程化概述.svg",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/src/package.json.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/prettierrc.md",
     "_posts/engineering/Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "_posts/engineering/未命名.canvas",
