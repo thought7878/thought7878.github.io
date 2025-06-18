@@ -519,7 +519,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -640,16 +641,16 @@
   },
   "active": "b9578950ee952161",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
+    "_posts/engineering/工程化概述.svg",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
     "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
     "_posts/methods/要整理的.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/要整理的.md",
     "_posts/methods/思考、认知/思考方法.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/engineering/工程化概述.svg",
     "_posts/engineering/前端开发的流程.md",
     "_posts/engineering/_前端开发的工程化.md",
     "_posts/engineering/_前端开发的DevOps.md",
@@ -666,7 +667,6 @@
     "_posts/读书笔记/健康/糖尿病/心脏病.md",
     "_posts/读书笔记/健康/糖尿病/抗心绞痛药物.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/engineering/代码质量和规范/Prettier",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
