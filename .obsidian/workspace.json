@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-15"
+              "title": "2025-06-18"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+                "file": "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "package.json"
+              "title": "typescript"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,19 +364,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Prettier"
+              "title": "tsconfig-base.json"
             }
           },
           {
             "id": "b9578950ee952161",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
+              "type": "markdown",
               "state": {
-                "file": "_posts/engineering/工程化概述.svg"
+                "file": "_posts/engineering/前端开发流程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "工程化概述.svg"
+              "title": "前端开发流程"
             }
           },
           {
@@ -433,7 +445,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/心脏病.md",
+                "file": "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -448,11 +460,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "心脏病"
+              "title": "生酮饮食-DS"
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -638,38 +650,37 @@
       "media-extended:Open media": false
     }
   },
-  "active": "14d85c69b9a8aec3",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/糖尿病/抗心绞痛药物.md",
+    "_posts/engineering/工程化概述.svg",
+    "_posts/engineering/概述.excalidraw.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
+    "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-18.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/糖尿病的饮食-DS.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/适合糖尿病的饮食类型-QW.md",
+    "_posts/读书笔记/健康/糖尿病/记录/心脏.md",
+    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
+    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-QW.md",
+    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
     "_posts/读书笔记/健康/糖尿病/心脏病.md",
+    "_posts/读书笔记/健康/糖尿病/抗心绞痛药物.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
     "_posts/读书笔记/权力.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食-DS.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
     "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食 VS 生酮饮食.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "_posts/读书笔记/健康/老爹/止痛药.md",
     "_posts/读书笔记/健康/老爹/去痛片.md",
     "_posts/读书笔记/健康/抗衰.md",
-    "_posts/读书笔记/健康/其他类别.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/eslint、prettier.md",
-    "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
-    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/engineering/代码质量和规范/Lint-staged.md",
-    "_posts/engineering/代码质量和规范/ESLint.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/engineering/代码质量和规范/Prettier",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
-    "_posts/engineering/工程化概述.svg",
     "_posts/engineering/Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "_posts/engineering/未命名.canvas",
