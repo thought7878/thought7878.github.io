@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/要整理的.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/_面试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "_面试"
             }
           },
           {
@@ -371,24 +371,12 @@
             "id": "b9578950ee952161",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram-edit",
               "state": {
-                "file": "_posts/engineering/前端开发流程.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "_posts/engineering/工程化概述.svg"
               },
               "icon": "lucide-file",
-              "title": "前端开发流程"
+              "title": "工程化概述.svg"
             }
           },
           {
@@ -625,7 +613,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -650,17 +638,25 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "b9578950ee952161",
   "lastOpenFiles": [
-    "_posts/engineering/工程化概述.svg",
-    "_posts/engineering/概述.excalidraw.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/要整理的.md",
+    "_posts/methods/思考、认知/思考方法.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/engineering/工程化概述.svg",
+    "_posts/engineering/前端开发的流程.md",
+    "_posts/engineering/_前端开发的工程化.md",
+    "_posts/engineering/_前端开发的DevOps.md",
+    "_posts/engineering/概述.excalidraw.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-18.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-15.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
     "_posts/读书笔记/健康/糖尿病/饮食/糖尿病的饮食-DS.md",
     "_posts/读书笔记/健康/糖尿病/饮食/适合糖尿病的饮食类型-QW.md",
     "_posts/读书笔记/健康/糖尿病/记录/心脏.md",
@@ -671,13 +667,6 @@
     "_posts/读书笔记/健康/糖尿病/抗心绞痛药物.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/读书笔记/权力.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食-DS.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/低碳生酮饮食 VS 生酮饮食.md",
-    "_posts/读书笔记/健康/老爹/止痛药.md",
-    "_posts/读书笔记/健康/老爹/去痛片.md",
-    "_posts/读书笔记/健康/抗衰.md",
     "_posts/engineering/代码质量和规范/Prettier",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
