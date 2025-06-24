@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/学习方法/_从重复式学习到检索式学习.md",
+                "file": "_posts/methods/学习方法/_马斯克的2条学习法则.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_从重复式学习到检索式学习"
+              "title": "_马斯克的2条学习法则"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
+                "file": "_posts/methods/软件工程之美/01-为什么应该学好软件工程？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "typescript"
+              "title": "01-为什么应该学好软件工程？"
             }
           },
           {
@@ -464,7 +464,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -650,13 +650,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "485fb91c620939e1",
+  "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/methods/学习方法/《make it stick》的总结-QW.md",
+    "_posts/engineering/教程/软件工程之美/总结/01.为什么应该学好软件工程？.md",
+    "_posts/methods/软件工程之美/01-为什么应该学好软件工程？.md",
+    "_posts/engineering/教程/软件工程之美/总结",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
+    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
+    "_posts/engineering/教程/软件工程之美",
+    "_posts/methods/软件工程之美/02-从软件工程的角度解读任正非的新年公开信.md",
+    "_posts/methods/软件工程之美/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员.md",
     "_posts/methods/学习方法/_从重复式学习到检索式学习.md",
+    "_posts/methods/学习方法/《make it stick》的总结-QW.md",
     "_posts/methods/常看的.md",
     "_posts/methods/大脑/对学习上瘾很简单（多巴胺 ）.md",
-    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类/格列本脲、格列美脲、格列齐特、格列吡嗪、格列喹酮的对比-QW.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-24.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-23.md",
@@ -684,12 +691,6 @@
     "_posts/methods/构建系统/_建构系统.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-QW.md",
     "_posts/读书笔记/健康/糖尿病/ma",
-    "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
-    "_posts/读书笔记/健康/糖尿病/记录/记录.md",
-    "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
-    "_posts/读书笔记/健康/糖尿病/记录/心脏.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/生酮饮食-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
     "_posts/engineering/代码质量和规范/Prettier",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
@@ -697,8 +698,6 @@
     "_posts/tools/obsidian/libraries/bubbles.excalidrawlib",
     "_posts/tools/obsidian/libraries/UML-ER-library.excalidrawlib",
     "_posts/tools/obsidian/libraries/software-architecture.excalidrawlib",
-    "_posts/tools/obsidian/libraries",
-    "_posts/tools/obsidian/未命名文件夹",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
