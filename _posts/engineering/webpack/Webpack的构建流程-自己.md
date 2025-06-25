@@ -2,7 +2,7 @@
 # 构建流程
 Webpack 的构建过程，大致上可划分为**三个阶段：**
 
-![[engineering/教程/Webpack5 核心原理与应用实践/media/0007aa99d42380bfd9ce3abfce8fadf9_MD5.webp]]
+![[0007aa99d42380bfd9ce3abfce8fadf9_MD5.webp]]
 
 - 初始化阶段：
 	- 主要是根据配置信息设置/初始化内置的各类插件。
@@ -94,7 +94,7 @@ Webpack *根据读取的配置文件*创建一个`Compiler`对象。这个`Compi
 4. 分配完毕后，根据 SplitChunksPlugin 的配置规则进一步对这些 Chunk 执行**拆分、合并、代码调优**，最终调整成运行性能(可能)更优的形态；
 5. 最后，*将这些 Chunk 一个个输出成最终的产物(Asset)文件，编译打包工作到此结束*。
 
-![[engineering/教程/Webpack5 核心原理与应用实践/media/8d485f1783389893fd3da684ade36476_MD5.webp]]
+![[8d485f1783389893fd3da684ade36476_MD5.webp]]
 
 可以看出，**Chunk 在构建流程中起着承上启下的关键作用** —— *一方面*作为 Module 容器，根据一系列 **默认分包策略** 决定哪些模块应该合并在一起打包；*另一方面*根据 `splitChunks` 设定的 **策略** 优化分包，决定最终输出多少产物文件。
 
