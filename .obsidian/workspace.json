@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-学习攻略 | 怎样学好软件工程？"
+              "title": "01丨到底应该怎样理解软件工程？"
             }
           },
           {
@@ -625,7 +625,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -652,8 +652,18 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/39a4b18a15d3b4759110eb8c81d74df7_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/ff11dbabaa0518338cdda616a7b955da_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/a641e91cc74927f78cabcd42e62c5e81_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/b7c9f066feba002ed09150931611756d_MD5.jpg",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/cb4dec03b079468272f42b03d275c9ad_MD5.jpg",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/01e629419ad117ff26adfceb4bc7ebf8_MD5.jpg",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/“一问一答”第1期丨30个软件开发常见问题解决策略.md",
     "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md",
+    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
     "_posts/engineering/_教程/软件工程之美/原文/media/aff1d55fde3b483ddfe72ff5bb962dc2_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/6ac9356e218a072fb60d3af8fdc97e14_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/media/6251276efa2c8370e391cb510994c443_MD5.png",
@@ -683,22 +693,12 @@
     "_posts/读书笔记/健康/糖尿病/ma/目前的情况.md",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类/格列美脲-QW.md",
-    "_posts/读书笔记/健康/糖尿病/药物/磺脲类/格列本脲-QW.md",
     "_posts/methods/学习方法/media/24b9249f8928829eddfa87b20aedbd82_MD5.jpeg",
-    "_posts/methods/学习方法/media/Pasted image 20250623175506.png",
-    "_posts/methods/学习方法/media/56690bbbb6b0d2c53564756b0b3f4f07_MD5.jpeg",
-    "_posts/methods/学习方法/media/Pasted image 20250623175416.png",
-    "_posts/methods/学习方法/media/f6554447884ed23b9102d942c0be6fda_MD5.jpeg",
-    "_posts/methods/学习方法/media/Pasted image 20250623175244.png",
-    "_posts/methods/学习方法/media/5dc5df04c696d58b62d851279f54877a_MD5.jpeg",
-    "_posts/methods/要整理的.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-12.md",
     "_posts/读书笔记/健康/糖尿病/ma",
     "_posts/engineering/代码质量和规范/Prettier",
     "_posts/libraries/_my-libraries/number-input/源码",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境",
     "_posts/engineering/未命名.canvas",
-    "_posts/tools/obsidian/libraries/bubbles.excalidrawlib",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
 }
