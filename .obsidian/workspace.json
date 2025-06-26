@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04丨瀑布模型之外，还有哪些开发模型？"
+              "title": "02丨工程思维：把每件事都当作一个项目来推进"
             }
           },
           {
@@ -496,7 +496,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:从重复式学习到检索式学习",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -625,7 +625,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -650,8 +650,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c93b5db441854be9",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/1b5abbf4e36de62168c0b55e51767805_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/efc3fbdb90a5df3597799e4a633f06b1_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/2e900ae632b9399c580f1c6d4ae8b778_MD5.jpg",
@@ -659,11 +664,9 @@
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/6280dcf49115c90087a900df7b5a0ff2_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/54d738fb906a01cf8bf27568a5bf22c4_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/f6817b9ce0ccf62f0fdb6a6991a60c51_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/d184e5e63bc3105204964e48df790b5d_MD5.jpg",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/总结/软件项目里的各种角色：项目经理、产品经理、架构师、程序员、测试工程师、运维工程师.md",
     "_posts/engineering/_教程/软件工程之美/原文/12-结束语丨万事皆项目，软件工程无处不在.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)",
@@ -671,7 +674,6 @@
     "_posts/engineering/代码审查（Code Review）/代码审查（Code Review）",
     "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md",
     "_posts/engineering/代码审查（Code Review）",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-25.md",
     "_posts/读书笔记/Crypto.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
@@ -679,7 +681,6 @@
     "_posts/读书笔记/法律知识.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/39a4b18a15d3b4759110eb8c81d74df7_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/ff11dbabaa0518338cdda616a7b955da_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/a641e91cc74927f78cabcd42e62c5e81_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/“一问一答”第1期丨30个软件开发常见问题解决策略.md",
     "_posts/engineering/_教程/软件工程之美/原文/media",
@@ -694,7 +695,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/methods/学习方法/_马斯克的2条学习法则.md",
     "_posts/engineering/_教程/软件工程之美/总结",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
     "_posts/engineering/_教程/软件工程之美",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类",
     "_posts/读书笔记/健康/糖尿病/ma",
