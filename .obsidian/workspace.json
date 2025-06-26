@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-25.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-25"
+              "title": "2025-06-26"
             }
           },
           {
@@ -652,9 +652,20 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/39a4b18a15d3b4759110eb8c81d74df7_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/总结/软件项目里的各种角色：项目经理、产品经理、架构师、程序员、测试工程师、运维工程师.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
+    "_posts/engineering/代码审查（Code Review）/代码审查（Code Review）.md",
+    "_posts/engineering/代码审查（Code Review）/代码审查（Code Review）",
+    "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md",
+    "_posts/engineering/代码审查（Code Review）",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-25.md",
+    "_posts/读书笔记/Crypto.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
+    "_posts/读书笔记/法律知识.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/39a4b18a15d3b4759110eb8c81d74df7_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/ff11dbabaa0518338cdda616a7b955da_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/a641e91cc74927f78cabcd42e62c5e81_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/b7c9f066feba002ed09150931611756d_MD5.jpg",
@@ -662,8 +673,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/01e629419ad117ff26adfceb4bc7ebf8_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/“一问一答”第1期丨30个软件开发常见问题解决策略.md",
-    "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md",
-    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
     "_posts/engineering/_教程/软件工程之美/原文/media/aff1d55fde3b483ddfe72ff5bb962dc2_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/6ac9356e218a072fb60d3af8fdc97e14_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/media/6251276efa2c8370e391cb510994c443_MD5.png",
@@ -671,7 +680,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/02-从软件工程的角度解读任正非的新年公开信.md",
     "_posts/engineering/_教程/软件工程之美/总结/02.从软件工程的角度解读任正非的新年公开信.md",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/25丨有哪些方法可以提高开发效率？.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-25.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-24.md",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类/格列本脲、格列美脲、格列齐特、格列吡嗪、格列喹酮的对比-QW.md",
     "_posts/methods/学习方法/_SQ3R阅读法.md",
@@ -686,18 +694,10 @@
     "_posts/methods/学习方法/_从重复式学习到检索式学习.md",
     "_posts/methods/学习方法/《make it stick》的总结-QW.md",
     "_posts/methods/常看的.md",
-    "_posts/methods/大脑/对学习上瘾很简单（多巴胺 ）.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-23.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-DS.md",
-    "_posts/读书笔记/健康/糖尿病/ma/目前的情况.md",
     "_posts/读书笔记/健康/糖尿病/药物/磺脲类",
-    "_posts/读书笔记/健康/糖尿病/药物/磺脲类/格列美脲-QW.md",
     "_posts/methods/学习方法/media/24b9249f8928829eddfa87b20aedbd82_MD5.jpeg",
     "_posts/读书笔记/健康/糖尿病/ma",
     "_posts/engineering/代码质量和规范/Prettier",
-    "_posts/libraries/_my-libraries/number-input/源码",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
