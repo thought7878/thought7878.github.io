@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/思考、认知/思考方法.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "思考方法"
+              "title": "要整理的"
             }
           },
           {
@@ -128,30 +128,6 @@
             }
           },
           {
-            "id": "55f167823895e193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/methods/构建系统/建构系统.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "建构系统"
-            }
-          },
-          {
             "id": "a98ce650859d3fe4",
             "type": "leaf",
             "state": {
@@ -205,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-26"
+              "title": "2025-06-29"
             }
           },
           {
@@ -325,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02丨工程思维：把每件事都当作一个项目来推进"
+              "title": "03丨瀑布模型：像工厂流水线一样把软件开发分层化"
             }
           },
           {
@@ -464,7 +440,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -652,52 +628,52 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/08丨怎样平衡软件质量与时间成本范围的关系？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/09丨可行性研究：一个从一开始就注定失败的跨平台项目.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/10丨如果你想技术转管理，先来试试管好一个项目.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/11丨项目计划：代码未动，计划先行.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/12丨流程和规范：红绿灯不是约束，而是用来提高效率.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/13丨白天开会，加班写代码的节奏怎么破？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/14丨项目管理工具：一切管理问题，都应思考能否通过工具解决.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/16丨为什么你不爱写项目文档？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/“一问一答”第1期丨30个软件开发常见问题解决策略.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/“一问一答”第2期丨30个软件开发常见问题解决策略.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/93b83889fea167a0db869c7ed5a544b2_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/6d57c8b829cbc85aff3b8fa02a7585d6_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/246cba5c554081f304cac93736bf2f45_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/c36d9ed2bece081581d98d9990d33308_MD5.jpg",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/070eb34e9a2180d1981302fa492beca1_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/20丨如何应对让人头疼的需求变更问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/19丨作为程序员，你应该有产品意识.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/38d69e1a35e0902b2dfd7381c3d7c968_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/9c1dee44a7b74dbec77dc9c3b543fad1_MD5.jpg",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/85ece9ec77d6696337cda25a70498563_MD5.jpg",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/820bd31ab64c6ec27a299d1bcbb71acd_MD5.jpg",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/86688c8831ff67dbd1989a166668a9ad_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/254e6efaf8a8cfe368b2932ad176d349_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/ebb2032a9246203ac9438d4bd4ffa196_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/12b82f0585f7cf4ed14bd76bf1105c64_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/f5d3e7a740f6a3babb75198106cf4e9a_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media/a8c5df29e2a81331e72bbb88ea94e4f1_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/1b0088fbf2e74c370d9c6ed2682f0586_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/c7c3fe54b4f2007fe653a3582acea1b1_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/6f299d4bb6bf1f79278d0223032a7d98_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/3c7066f388aa9a82509bef5c47310d90_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/bc2a660d78bb5ad226690f02a303cc87_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/思考、认知/思考方法.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/media",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
     "images",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)",
     "_posts/engineering/代码审查（Code Review）/代码审查（Code Review）",
     "_posts/engineering/代码审查（Code Review）",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/media",
     "_posts/methods/大脑/认知觉醒.pdf",
-    "_posts/engineering/_教程/软件工程之美/总结",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
