@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
+                "file": "DailyNote/Journal/01 Daily/2025/06/2025-06-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-29"
+              "title": "2025-06-30"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
+                "file": "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03丨瀑布模型：像工厂流水线一样把软件开发分层化"
+              "title": "05丨敏捷开发到底是想解决什么问题？"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/记录/6月.md",
+                "file": "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6月"
+              "title": "杂粮组合"
             }
           }
         ],
@@ -601,7 +601,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -626,12 +626,32 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "c93b5db441854be9",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/“一问一答”第3期丨18个软件开发常见问题解决策略.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/27丨软件工程师的核心竞争力是什么？（上）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/28丨软件工程师的核心竞争力是什么？（下）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/29丨自动化测试：如何把Bug杀死在摇篮里？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/30丨用好源代码管理工具，让你的协作更高效.md",
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/16丨为什么你不爱写项目文档？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/08丨怎样平衡软件质量与时间成本范围的关系？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-30.md",
+    "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员.md",
-    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/93b83889fea167a0db869c7ed5a544b2_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/6d57c8b829cbc85aff3b8fa02a7585d6_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/246cba5c554081f304cac93736bf2f45_MD5.png",
@@ -644,27 +664,7 @@
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/3c7066f388aa9a82509bef5c47310d90_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/bc2a660d78bb5ad226690f02a303cc87_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-26.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/思考、认知/思考方法.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/media",
     "images",
