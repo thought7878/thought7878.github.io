@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05丨敏捷开发到底是想解决什么问题？"
+              "title": "04丨瀑布模型之外，还有哪些开发模型？"
             }
           },
           {
@@ -601,7 +601,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -626,14 +626,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "c93b5db441854be9",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/“一问一答”第3期丨18个软件开发常见问题解决策略.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/“一问一答”第3期丨18个软件开发常见问题解决策略.md",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/27丨软件工程师的核心竞争力是什么？（上）.md",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/28丨软件工程师的核心竞争力是什么？（下）.md",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/29丨自动化测试：如何把Bug杀死在摇篮里？.md",
@@ -657,14 +659,12 @@
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/246cba5c554081f304cac93736bf2f45_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/c36d9ed2bece081581d98d9990d33308_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/070eb34e9a2180d1981302fa492beca1_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/20丨如何应对让人头疼的需求变更问题？.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/1b0088fbf2e74c370d9c6ed2682f0586_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/c7c3fe54b4f2007fe653a3582acea1b1_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/6f299d4bb6bf1f79278d0223032a7d98_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/3c7066f388aa9a82509bef5c47310d90_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/bc2a660d78bb5ad226690f02a303cc87_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/media",
     "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/media",
     "images",
