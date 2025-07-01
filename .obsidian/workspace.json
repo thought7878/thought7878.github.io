@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "2ec0c28f2cb0200e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-01.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-01"
-            }
-          },
-          {
             "id": "b1c37b60c4bb8263",
             "type": "leaf",
             "state": {
@@ -221,6 +197,30 @@
               },
               "icon": "lucide-file",
               "title": "提问模版"
+            }
+          },
+          {
+            "id": "2ec0c28f2cb0200e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-02.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-02"
             }
           },
           {
@@ -601,7 +601,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -628,14 +628,21 @@
   },
   "active": "c93b5db441854be9",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
     "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/agile.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-02.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-01.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
+    "_posts/methods/常看的.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/读书笔记/经济、金融/知识点.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
     "_posts/English/单词/sprint.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-01.md",
     "DailyNote/Journal/01 Daily/2025/06/2025-06-30.md",
     "DailyNote/Journal/01 Daily/2025/07",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
@@ -648,13 +655,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
     "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/16丨为什么你不爱写项目文档？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/08丨怎样平衡软件质量与时间成本范围的关系？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
-    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
-    "DailyNote/Journal/01 Daily/2025/06/2025-06-29.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
-    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/93b83889fea167a0db869c7ed5a544b2_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/6d57c8b829cbc85aff3b8fa02a7585d6_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/media/246cba5c554081f304cac93736bf2f45_MD5.png",
