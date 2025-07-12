@@ -1,9 +1,11 @@
+参考：[[_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/29丨自动化测试：如何把Bug杀死在摇篮里？|29丨自动化测试：如何把Bug杀死在摇篮里？]]
+
 前端开发中的自动化测试是**确保代码质量、提高开发效率**的重要手段。它通过编写脚本和工具来自动执行测试用例，验证应用程序的功能、性能和兼容性是否符合预期。以下是前端开发中自动化测试的核心知识点和工具。
 
 ---
 
 ### 1. 自动化测试的类型
-#### (1) 单元测试（Unit Testing）
+#### 1. 单元测试（Unit Testing）
 - **定义**：  
   针对代码的*最小单元（如函数、组件）* 进行测试，确保每个模块的功能正确。
 - **特点**：
@@ -14,7 +16,7 @@
   - [Mocha](https://mochajs.org/) + [Chai](https://www.chaijs.com/)
   - [Sinon](https://sinonjs.org/)（用于模拟行为）
 
-#### (2) 集成测试（Integration Testing）
+#### 2. 集成测试（Integration Testing）
 - **定义**：  
   测试*多个模块之间的交互*是否正常。
 - **特点**：
@@ -24,7 +26,7 @@
   - Cypress
   - Supertest（用于测试后端 API）
 
-#### (3) 端到端测试（E2E Testing）
+#### 3. 端到端测试（E2E Testing）
 - **定义**：  
   *模拟用户操作，测试整个应用的流程是否正常*。
 - **特点**：
@@ -35,7 +37,7 @@
   - [Playwright](https://playwright.dev/)
   - [Selenium](https://www.selenium.dev/)
 
-#### (4) 可视化测试（Visual Regression Testing）
+#### 4. 可视化测试（Visual Regression Testing）
 - **定义**：  
   *测试页面的视觉效果是否一致*，捕获 UI 的变化。
 - **特点**：
@@ -45,7 +47,7 @@
   - [Applitools](https://applitools.com/)
   - [BackstopJS](https://github.com/garris/BackstopJS)
 
-#### (5) 性能测试（Performance Testing）
+#### 5. 性能测试（Performance Testing）
 - **定义**：  
   测试应用的*加载时间、响应速度*等性能指标。
 - **特点**：
@@ -55,7 +57,7 @@
   - WebPageTest
   - [k6](https://k6.io/)
 
-#### (6) 兼容性测试（Cross-Browser Testing）
+#### 6. 兼容性测试（Cross-Browser Testing）
 - **定义**：  
   测试应用在不同浏览器和设备上的表现。
 - **特点**：
@@ -68,7 +70,7 @@
 ---
 
 ### 2. 常用测试工具
-#### (1) Jest
+#### 1. Jest
 - **特点**：
   - Facebook 开源，广泛用于 React 项目。
   - 支持快照测试（Snapshot Testing）、异步测试。
@@ -80,7 +82,7 @@
   });
   ```
 
-#### (2) Cypress
+#### 2. Cypress
 - **特点**：
   - 强大的端到端测试框架。
   - 提供直观的调试界面。
@@ -95,7 +97,7 @@
   });
   ```
 
-#### (3) Playwright
+#### 3. Playwright
 - **特点**：
   - 支持多浏览器（Chromium、Firefox、WebKit）。
   - 提供强大的自动化能力，支持移动端仿真。
@@ -112,7 +114,7 @@
   })();
   ```
 
-#### (4) Selenium
+#### 4. Selenium
 - **特点**：
   - 成熟的跨浏览器测试工具。
   - 支持多种编程语言（Java、Python、JavaScript 等）。
