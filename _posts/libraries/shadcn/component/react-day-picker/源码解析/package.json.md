@@ -258,17 +258,23 @@
 # scripts
 
 
-## build 命令
+## build 
 
 以下是 package.json 中 `build` 脚本的详细解释：
+
+---
+### 1. build 命令详解
 
 ```json
 "build": "pnpm build:cjs && pnpm build:esm && pnpm build:css"
 ```
 
----
+通过此命令，项目能同时支持：
+- **Node.js**（CJS）
+- **现代浏览器**（ESM）
+- **样式直接导入**（CSS 文件）
 
-### 1. 构建顺序解析
+#### 1. 构建顺序
 
 该命令*通过 `&&` 按顺序执行*以下三个子命令：
 
@@ -277,13 +283,48 @@
 3. `pnpm build:css`
 
 **含义：**
-
 - `pnpm`：使用 pnpm 包管理器运行脚本。
-- `&&`：表示*顺序执行*（前一个命令成功完成后才执行下一个）。
+- `&&`：表示*顺序执行*（前一个命令成功完成后才执行下一个）。参考 `&` 的含义：[[_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json#5. 潜在优化点|package.json]]
+
+**构建顺序的意义：**
+- **顺序执行**：确保所有构建步骤按预期完成。例如，*CSS 构建可能依赖 ESM/CJS 构建完成后的目录结构*。
+- **错误中断**：若任意步骤失败（如 TypeScript 编译错误），*后续步骤不会执行*（符合 `&&` 行为）。
 
 ---
 
+#### 2. 构建目的
+
+该命令*完整实现了项目的多目标输出：*
+
+1. **兼容性**：生成 CommonJS（`dist/cjs`）和 ESM（`dist/esm`）双版本，适配不同环境。
+2. **样式支持**：将 CSS 文件复制到构建目录，确保样式可直接通过包导入。
+3. **模块类型声明**：为 CommonJS 目录生成 package.json，显式声明 `"type": "commonjs"`。
+
+---
+
+#### 3. 实际使用
+
+```bash
+# 执行完整构建流程 
+pnpm build
+```
+
+**输出结果：**
+
+```
+dist/
+├── cjs/          # CommonJS 模块（Node.js 环境使用）
+│   ├── index.js
+│   └── package.json
+├── esm/          # ESM 模块（浏览器环境使用）
+│   └── index.js
+├── style.css     # 全局样式文件
+└── style.module.css  # CSS Modules 样式文件
+```
+---
+
 ### 2. 子命令详解
+参考：[[tsc]]
 
 #### (1) `pnpm build:cjs`
 
@@ -309,34 +350,25 @@
 ```
 
 - **作用**：
-    - 使用 tsconfig-esm.json 配置文件编译 TypeScript 代码为 **ES Module (ESM)**（适用于现代浏览器或支持 ESM 的环境）。
+    - *使用 tsconfig-esm.json 配置文件编译 TypeScript 代码*为 **ES Module (ESM)**（适用于现代浏览器或支持 ESM 的环境）。
     - 输出到 `dist/esm` 目录。
 
 #### (3) `pnpm build:css`
 
-json
-
-`// package.json 中的定义 "build:css": "./scripts/build-css.sh ./src/style.css ./src/style.module.css"`
+```json
+// package.json 中的定义 
+"build:css": "./scripts/build-css.sh ./src/style.css ./src/style.module.css"
+```
 
 - **作用**：
-    - 运行 scripts/build-css.sh 脚本，将 ./src/style.css 和 ./src/style.module.css 复制到 `dist/` 目录。
+    - *运行 scripts/build-css.sh 脚本*，将 ./src/style.css 和 ./src/style.module.css *复制到 `dist/` 目录*。
     - 该脚本通常用于将样式文件打包供用户直接导入（例如 `import 'react-day-picker/style.css'`）。
 
 ---
 
-### 3. **构建流程目的**
+### 3. 配置文件关联
 
-该命令完整实现了项目的多目标输出：
-
-1. **兼容性**：生成 CommonJS（`dist/cjs`）和 ESM（`dist/esm`）双版本，适配不同环境。
-2. **样式支持**：将 CSS 文件复制到构建目录，确保样式可直接通过包导入。
-3. **模块类型声明**：为 CommonJS 目录生成 package.json，显式声明 `"type": "commonjs"`。
-
----
-
-### 4. **配置文件关联**
-
-各子命令依赖的配置文件：
+各子命令*依赖的配置文件：*
 
 |子命令|配置文件|输出目录|
 |---|---|---|
@@ -346,26 +378,7 @@ json
 
 ---
 
-### 5. **构建顺序的意义**
-
-- **顺序执行**：确保所有构建步骤按预期完成。例如，CSS 构建可能依赖 ESM/CJS 构建完成后的目录结构。
-- **错误中断**：若任意步骤失败（如 TypeScript 编译错误），后续步骤不会执行（符合 `&&` 行为）。
-
----
-
-### 6. **实际使用场景**
-
-bash
-
-`# 执行完整构建流程 pnpm build`
-
-**输出结果：**
-
-`dist/ ├── cjs/          # CommonJS 模块（Node.js 环境使用） │   ├── index.js │   └── package.json ├── esm/          # ESM 模块（浏览器环境使用） │   └── index.js ├── style.css     # 全局样式文件 └── style.module.css  # CSS Modules 样式文件`
-
----
-
-### 7. **对比其他构建方式**
+### 4. build 命令的对比
 
 |方式|特点|适用场景|
 |---|---|---|
@@ -376,16 +389,10 @@ bash
 
 ---
 
-### 8. **潜在优化点**
+### 5. 潜在优化点
 
-- **并行化构建**：若构建步骤无依赖关系，可通过 `&` 并行执行（但当前顺序可能有隐含依赖）。
+- **并行化构建**：若构建步骤无依赖关系，可*通过 `&` 并行执行（但当前顺序可能有隐含依赖）*。
 - **清理缓存**：添加 `rimraf dist/*` 清理旧构建产物。
 - **验证输出**：在构建后添加 `typecheck` 或 `lint` 步骤确保质量。
 
 ---
-
-通过此命令，项目能同时支持：
-
-- **Node.js**（CJS）
-- **现代浏览器**（ESM）
-- **样式直接导入**（CSS 文件）
