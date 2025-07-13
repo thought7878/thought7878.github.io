@@ -326,7 +326,7 @@ dist/
 ### 2. 子命令详解
 参考：[[tsc]]
 
-#### (1) `pnpm build:cjs`
+#### 1 `pnpm build:cjs`
 
 ```json
 // package.json 中的定义 
@@ -342,7 +342,7 @@ dist/
 	    - `>`：重定向操作符，表示*将左侧命令的输出写入右侧文件*。若文件已存在，则覆盖内容；若不存在，则创建新文件。
 	    - `dist/cjs/package.json`：目标文件路径，表示将 JSON 写入 `dist/cjs` 目录下的 package.json 文件。
 
-#### (2) `pnpm build:esm`
+#### 2 `pnpm build:esm`
 
 ```json
 // package.json 中的定义 
@@ -353,7 +353,7 @@ dist/
     - *使用 tsconfig-esm.json 配置文件编译 TypeScript 代码*为 **ES Module (ESM)**（适用于现代浏览器或支持 ESM 的环境）。
     - 输出到 `dist/esm` 目录。
 
-#### (3) `pnpm build:css`
+#### 3 `pnpm build:css`
 
 ```json
 // package.json 中的定义 
@@ -363,6 +363,14 @@ dist/
 - **作用**：
     - *运行 scripts/build-css.sh 脚本*，将 ./src/style.css 和 ./src/style.module.css *复制到 `dist/` 目录*。
     - 该脚本通常用于将样式文件打包供用户直接导入（例如 `import 'react-day-picker/style.css'`）。
+
+#### 4 类型检查
+
+```json
+"typecheck": "tsc --project ./tsconfig.json --noEmit",
+
+"typecheck-watch": "tsc --project ./tsconfig.json --noEmit --watch"
+```
 
 ---
 
@@ -396,3 +404,217 @@ dist/
 - **验证输出**：在构建后添加 `typecheck` 或 `lint` 步骤确保质量。
 
 ---
+
+## **prepublish**
+
+```json
+"prepublish": "pnpm build",
+```
+
+以下是 package.json 中 `"prepublish": "pnpm build"` 的详细解释：
+
+---
+
+### 1. 命令含义
+
+```json
+"prepublish": "pnpm build"
+```
+
+- **`prepublish`** 是 npm 的*生命周期钩子*（hook），**在以下场景自动触发：**
+    - 执行 `npm publish` 发布包到 npm 之前。
+    - 执行 `pnpm publish`（项目实际使用的包管理器）。
+- **`pnpm build`** 是调用项目的构建命令，定义如下：
+```json
+"build": "pnpm build:cjs && pnpm build:esm && pnpm build:css"
+```
+
+---
+
+### 2. 完整构建流程
+
+*当执行 `pnpm publish` 或 `npm publish` 时，会按顺序执行：*
+
+1. **触发 `prepublish` 钩子** → 运行 `pnpm build`
+2. **执行构建命令**：
+    - **`build:cjs`**：使用 tsconfig-cjs.json 编译 TypeScript 为 CommonJS 模块，输出到 `dist/cjs`，并生成 dist/cjs/package.json 声明模块类型。
+    - **`build:esm`**：使用 tsconfig-esm.json 编译 TypeScript 为 ESM 模块，输出到 `dist/esm`。
+    - **`build:css`**：执行 scripts/build-css.sh 脚本，将样式文件复制到 `dist/` 目录。
+
+---
+
+### 3. 为何需要 `prepublish`？
+
+#### (1) 确保发布前的完整性
+
+- **自动构建**：*防止开发者忘记手动运行* `pnpm build`，避免发布未构建的代码。
+- **兼容性保障**：确保 `dist/` 目录包含：    
+```
+dist/
+├── cjs/          # CommonJS 模块（Node.js 使用）
+│   ├── index.js
+│   └── package.json
+├── esm/          # ESM 模块（现代浏览器使用）
+│   └── index.js
+├── style.css     # 全局样式
+└── style.module.css  # CSS Modules 样式
+```
+
+
+#### (2) 模块类型声明
+
+- **CommonJS 兼容性**：通过 dist/cjs/package.json 显式声明 `"type": "commonjs"`，确保 Node.js 正确解析模块。
+- **ESM 支持**：`dist/esm` 输出现代模块格式，适配浏览器环境。
+
+#### (3) 样式文件分发
+
+- 通过 `build:css` 确保样式文件（如 style.css）可被用户直接导入：
+```ts
+import 'react-day-picker/style.css'; // 用户使用方式
+```
+
+---
+
+### 4. 技术背景：npm 生命周期钩子
+
+- **生命周期钩子机制**：npm/pnpm 在执行某些操作（如 `install`、`publish`）时，*会自动运行对应的脚本*。
+- **`prepublish` 的作用**：
+    - 在发布前执行清理、构建、测试等操作。
+    - 确保发布的包是最新且完整的版本。
+
+**对比其他钩子：**
+
+|钩子|触发时机|用途|
+|---|---|---|
+|`prepublish`|发布前|构建、验证|
+|`postinstall`|安装后|自动化配置|
+|`prestart`|启动前|构建生产环境代码|
+
+---
+
+### 5. 实际使用场景
+
+#### (1) 发布 npm 包
+
+```bash
+# 发布前自动运行 pnpm build 
+pnpm publish
+```
+
+- **输出验证**：确保 `dist/` 目录包含所有构建产物。
+- **错误中断**：若构建失败（如 TypeScript 编译错误），发布流程终止。
+
+#### (2) 开发者本地测试
+
+```bash
+# 手动执行构建（通常用于调试） 
+pnpm build
+```
+
+- **验证构建结果**：
+    - 检查 `dist/cjs` 和 `dist/esm` 是否存在。
+    - 验证样式文件是否正确复制。
+
+---
+
+### 6. 潜在问题与解决方案
+
+#### (1) 构建缓存问题
+
+- **现象**：旧文件残留导致发布内容不一致。
+- **解决**：发布前手动清理 `dist/` 目录：
+    
+    json
+    
+    `"prepublish": "rimraf dist/* && pnpm build"`
+    
+
+#### (2) 权限不足
+
+- **现象**：dist/cjs/package.json 写入失败。
+- **解决**：确保目录权限正确：
+    
+    bash
+    
+    `chmod 755 dist dist/cjs`
+    
+
+#### (3) 依赖未安装
+
+- **现象**：构建时提示 `tsc` 或 build-css.sh 不存在。
+- **解决**：发布前确保依赖已安装：
+    
+    bash
+    
+    `pnpm install`
+    
+
+---
+
+### 7. 对比其他构建方式
+
+|方式|特点|适用场景|
+|---|---|---|
+|`pnpm prepublish`|发布前自动构建|发布 npm 包|
+|`pnpm build`|手动执行完整构建|本地调试、CI/CD|
+|`pnpm build:cjs && pnpm build:esm`|仅构建代码|快速验证模块输出|
+|`sh scripts/build-css.sh`|仅构建样式|调试 CSS 修改|
+
+---
+
+### 8. 最佳实践建议
+
+- **显式声明构建顺序**：保持 `build` 脚本的清晰顺序（CJS → ESM → CSS）。
+- **添加类型检查**：在发布前运行 `pnpm typecheck` 确保类型安全：
+    
+    json
+    
+    `"prepublish": "pnpm typecheck && pnpm build"`
+    
+- **自动化测试**：结合 `pnpm test` 确保发布代码的稳定性：
+    
+    json
+    
+    `"prepublish": "pnpm test && pnpm build"`
+    
+
+---
+
+### 9. 验证构建结果
+
+bash
+
+`# 查看 dist/ 目录结构 ls -R dist/`
+
+**预期输出**：
+
+`dist/ ├── cjs/ │   ├── index.js │   └── package.json ├── esm/ │   └── index.js ├── style.css └── style.module.css`
+
+---
+
+### 10. 总结
+
+- **核心作用**：在发布 npm 包前确保代码和样式已正确构建。
+- **技术价值**：通过自动化流程避免人为疏漏，保证发布的包符合多模块兼容性要求（CJS + ESM + CSS）。
+- **项目意义**：react-day-picker 作为多环境兼容的组件库，依赖此脚本确保不同用户（Node.js、浏览器）获取正确的构建产物。
+
+通过此配置，项目实现了从源码到可发布包的无缝衔接，是标准化发布流程的关键步骤。
+
+---
+
+## lint
+
+```json
+"lint": "eslint .",
+```
+
+## test
+
+```json
+"test": "jest --selectProjects examples --selectProjects src",
+
+"test:build": "jest --selectProjects examples/built",
+
+"test-watch": "jest --watch",
+```
+
