@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+                "file": "_posts/typescript/总结/Install、Configure、run/tsc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "package.json"
+              "title": "tsc"
             }
           },
           {
@@ -626,16 +626,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "d0cacc102221c0d0",
   "lastOpenFiles": [
+    "_posts/typescript/总结/Install、Configure、run/noEmit.md",
+    "_posts/typescript/总结/Install、Configure、run/tsc.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-13.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "_posts/base/知识目录、路线图/TypeScript.md",
-    "_posts/typescript/总结/Install、Configure、run/tsc.md",
     "_posts/engineering/package-manager/peerDependencies.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig.json.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/typescript.md",
@@ -655,7 +656,6 @@
     "_posts/engineering/_教程/软件工程之美/总结/08-开发编码篇 (7讲)/30丨用好源代码管理工具，让你的协作更高效.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/engineering/代码审查（Code Review）/代码审查（Code Review）.md",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/e6a4ed95386e32fa594d8a47caed003d_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/84d56ade3acfebc9134985831d568ec4_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/bb4434832754d7aaedede00d6698bf97_MD5.png",
