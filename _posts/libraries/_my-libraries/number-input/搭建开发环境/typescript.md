@@ -2,7 +2,7 @@
 
 ---
 
-## ✅ 1. 安装依赖
+## 1. 安装依赖
 
 在 [package.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/package.json) 中定义了 TypeScript 的核心依赖：
 
@@ -20,7 +20,7 @@
 
 ---
 
-## ✅ 2. 配置文件：[tsconfig.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/tsconfig.json)
+## 2. 配置文件：[tsconfig.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/tsconfig.json)
 
 项目中提供了多个 [tsconfig.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/tsconfig.json) 文件以适配不同构建目标，如 ESM、CJS 和文档网站等。以下是主配置文件的典型结构（从检索结果推测）：
 
@@ -65,7 +65,7 @@
 
 ---
 
-## ✅ 3. 编译脚本命令（`package.json`）
+## 3. 编译脚本命令（`package.json`）
 
 项目提供了多种 TypeScript 编译方式，定义在 `scripts` 字段中：
 
@@ -85,7 +85,7 @@
 
 ---
 
-## ✅ 4. 与构建工具集成
+## 4. 与构建工具集成
 
 ### 构建工具支持
 
@@ -95,7 +95,7 @@
 
 ---
 
-## ✅ 5. 类型定义支持
+## 5. 类型定义支持
 
 ### 类型定义文件
 - 所有导出模块都带有类型定义文件（`.d.ts`）。
@@ -107,7 +107,7 @@
 
 ---
 
-## ✅ 6. 与 ESLint / Prettier 集成
+## 6. 与 ESLint / Prettier 集成
 
 项目中还集成了 TypeScript 的 Lint 工具链：
 - [@typescript-eslint/eslint-plugin](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/node_modules/@typescript-eslint/eslint-plugin): 提供 TypeScript 特定规则。
@@ -123,7 +123,7 @@ ESLint 配置中引用了 TypeScript 解析器和插件，确保类型安全性�
 
 ---
 
-## ✅ 7. IDE 支持建议
+## 7. IDE 支持建议
 
 推荐使用 VS Code，并打开 `.code-workspace` 文件以获得最佳开发体验：
 - 自动启用 TypeScript Watch Mode。
@@ -132,7 +132,7 @@ ESLint 配置中引用了 TypeScript 解析器和插件，确保类型安全性�
 
 ---
 
-## ✅ 8. 开发流程建议
+## 8. 开发流程建议
 
 根据 [CONTRIBUTING.md](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/CONTRIBUTING.md) 的指引，开发者可以执行以下命令来快速启动开发：
 
@@ -148,7 +148,7 @@ pnpm tsc --project tsconfig-esm.json --watch
 
 ---
 
-## ✅ 9. 示例应用中的 TypeScript 配置（[examples-app/tsconfig.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/examples-app/tsconfig.json)）
+## 9. 示例应用中的 TypeScript 配置（[examples-app/tsconfig.json](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/examples-app/tsconfig.json)）
 
 ```json
 {
@@ -176,7 +176,7 @@ pnpm tsc --project tsconfig-esm.json --watch
 
 ---
 
-## ✅ 10. TypeScript + React 支持
+## 10. TypeScript + React 支持
 
 - 使用 React 19.x（从 package.json 推断）。
 - 所有组件均使用 `.tsx` 扩展名。
@@ -185,7 +185,7 @@ pnpm tsc --project tsconfig-esm.json --watch
 
 ---
 
-## ✅ 11. 类型发布
+## 11. 类型发布
 
 最终构建输出包含类型定义文件：
 ```json
@@ -201,7 +201,7 @@ pnpm tsc --project tsconfig-esm.json --watch
 
 ---
 
-## ✅ 总结
+## 总结
 
 | 功能 | 实现方式 |
 |------|----------|
