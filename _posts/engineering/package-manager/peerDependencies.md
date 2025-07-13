@@ -1,4 +1,4 @@
-在前端开发中，`peerDependencies` 是 `package.json` 文件中的一个字段，用于声明包的“对等依赖”（peer dependencies）。**对等依赖**是指**当前包依赖于其他包，但这些包应该由项目的顶级依赖来管理，而不是由当前包自动安装**。
+在前端开发中，`peerDependencies` 是 `package.json` 文件中的一个字段，用于声明包的“对等依赖”（peer dependencies）。`对等依赖`是指**当前包依赖于其他包，但这些包应该由项目的顶级依赖来管理，而不是由当前包自动安装**。
 
 ### 什么是 `peerDependencies`？
 
