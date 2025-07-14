@@ -22,7 +22,7 @@ yarn add lint-staged --dev
 
 #### 3.2 配置
 
-`lint-staged` *通常与 Husky 配合使用，借助 Husky 的 Git 钩子在代码提交前触发 `lint-staged` 执行代码检查*。参考 [[Husky]]
+`lint-staged` *通常与 Husky 配合使用，借助 Husky 的 Git 钩子在代码提交前触发 `lint-staged` 执行代码检查*。参考 [[Husky_2]]
 
 首先，确保已经安装并配置了 Husky（具体配置方法可参考前文关于 Husky 的介绍）。
 

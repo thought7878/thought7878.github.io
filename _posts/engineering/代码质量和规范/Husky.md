@@ -1,71 +1,192 @@
-### 1. 什么是 Husky
+**Husky** 是一个用于*在 Git 提交流程中运行自定义脚本*的工具，它可以帮助你*在代码提交前或推送前自动执行一些任务*，如：
 
-`Husky` 是*一个 Git 钩子工具*，在前端开发中应用广泛。`Git 钩子`是*在 Git 执行特定事件（如提交代码 `commit`、推送代码 `push` 等）前后执行脚本的机制*。**Husky 简化了 Git 钩子的使用和配置**，让开发者能够方便地在这些关键节点执行自定义脚本，从而保障代码质量、实施代码规范等。
+- ✅ 代码格式化（Prettier）
+- ✅ 代码检查（ESLint）
+- ✅ 单元测试（Jest）
+- ✅ 提交信息校验（Commitlint）
+- ✅ 构建/编译验证
+- ✅ 防止敏感文件提交
 
-### 2. 为什么要使用 Husky
+---
 
-- **保障代码质量**：在代码提交或推送前，可以通过 Husky 触发代码检查工具（如 ESLint、Stylelint）和测试脚本的运行。若代码不符合规范或测试不通过，就阻止代码提交或推送，避免有问题的代码进入版本控制系统。
-- **强制执行代码规范**：借助 Husky 能够确保团队成员提交的代码都遵循统一的代码规范，维持代码风格的一致性，提升代码的可读性和可维护性。
-- **自动化流程**：在代码提交或推送的关键节点自动执行特定任务，实现流程的自动化，减少人工干预，提高开发效率。
+## 一、为什么使用 Husky？
 
-### 3. 如何使用 Husky
+### 核心目的：**提升代码质量 & 统一团队协作规范**
 
-#### 3.1 安装 Husky
+| 优点         | 描述                            |
+| ---------- | ----------------------------- |
+| 自动化校验      | 每次提交都经过 Lint 或测试，防止低级错误合并到主分支 |
+| 统一风格       | 避免因个人编码风格不同造成代码混乱             |
+| 防止非法提交     | 如提交了 `.env` 文件、未通过测试就提交等      |
+| 支持 CI 更好集成 | 减少 CI 因风格问题失败的概率              |
 
-在项目根目录下，使用 npm 或 yarn 进行安装：
+---
+
+## 二、Husky 的核心功能：Git Hooks 管理
+
+*Git 原生支持 `hooks`（钩子）机制*，可以监听 Git 操作事件（如 commit、push），并触发脚本。
+
+*但原生 Git Hooks 不会随项目一起提交到仓库，也不方便管理*。**Husky 就是用来简化这个过程的工具**。
+
+### 支持的 Git Hooks（常用）
+
+| Hook 名称 | 触发时机 | 推荐用途 |
+|-----------|----------|----------|
+| `pre-commit` | 提交前 | 运行 Linter / 测试 |
+| `commit-msg` | 提交信息时 | 校验 Commit Message 是否符合规范 |
+| `prepare-commit-msg` | 准备提交信息时 | 自动修改默认提交信息 |
+| `pre-push` | 推送前 | 运行完整测试套件 |
+| `post-checkout` | 切换分支后 | 自动安装依赖或清理缓存 |
+| `post-merge` | 合并后 | 重新构建或安装依赖 |
+
+---
+
+## 三、快速上手 Husky
+
+### 1. 安装 Husky
 
 ```bash
 npm install husky --save-dev
-# 或者使用 yarn
-yarn add husky --dev
 ```
 
-#### 3.2 启用 Git 钩子
-
-安装完成后，执行以下命令来启用 Git 钩子：
+或使用 `npx` 快速初始化：
 
 ```bash
-npx husky install
+npx husky-init && npm install
 ```
 
-此命令会在项目根目录下创建一个 `.husky` 文件夹，用于存放 Git 钩子脚本。
+> ⚠️ 注意：如果你用的是 Yarn，请使用：
+```bash
+yarn add husky --dev
+npx husky-init
+```
 
-*为了在每次安装依赖后自动启用 Husky*，可以在 `package.json` 中添加如下脚本：
+这会自动创建 `.husky` 目录，并在 `package.json` 中添加 `"prepare"` 脚本（*确保每次安装依赖后 hooks 生效*）。
+
+---
+
+### 2. 添加 Git Hook 示例
+
+#### 示例 1：添加 `pre-commit` hook（执行 ESLint）
+
+```bash
+npx husky add .husky/pre-commit "npm run lint"
+```
+
+此时 `.husky/pre-commit` 文件内容为：
+
+```sh
+#!/bin/sh
+. "$(dirname "$0")/_/husky-init.sh"
+npm run lint
+```
+
+如果 `npm run lint` 返回非 0 状态码（表示出错），提交将被中断。
+
+---
+
+#### 示例 2：添加 `commit-msg` hook（校验提交信息）
+
+先安装 [commitlint](https://commitlint.js.org/)：
+
+```bash
+npm install @commitlint/config-conventional @commitlint/cli --save-dev
+```
+
+然后创建配置文件 `.commitlintrc.cjs`：
+
+```js
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+};
+```
+
+接着添加 hook：
+
+```bash
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
+```
+
+这样每次提交都会检查是否符合 [Conventional Commits](https://www.conventionalcommits.org/) 规范。
+
+---
+
+#### 示例 3：添加 `pre-push` hook（运行测试）
+
+```bash
+npx husky add .husky/pre-push "npm test"
+```
+
+这样在推送前会运行测试，避免未通过测试的代码被推送到远程仓库。
+
+---
+
+## 四、推荐搭配工具（与 Husky 结合使用）
+
+| 工具 | 作用 | 推荐场景 |
+|------|------|----------|
+| **ESLint** | 代码规范 | `pre-commit` |
+| **Prettier** | 代码格式化 | `pre-commit` |
+| **Stylelint** | CSS/Sass/Less 样式检查 | `pre-commit` |
+| **Jest / Vitest** | 单元测试 | `pre-commit` / `pre-push` |
+| **commitlint** | 提交信息规范 | `commit-msg` |
+| **lint-staged** | 只对暂存区文件进行 lint | 性能优化 + 更细粒度控制 |
+
+---
+
+## 五、进阶：配合 `lint-staged` 使用（推荐）
+
+`lint-staged` 可以只对 Git 暂存区的文件进行 lint 或格式化，而不是整个项目。
+
+### 安装：
+
+```bash
+npm install lint-staged --save-dev
+```
+
+### 配置 `package.json`：
 
 ```json
 {
-  "scripts": {
-    "prepare": "husky install"
+  "lint-staged": {
+    "*.js": ["eslint --fix", "prettier --write"],
+    "*.css": ["stylelint --fix"]
   }
 }
 ```
 
-#### 3.3 添加钩子
-
-可以使用 `husky add` 命令来添加钩子。以下是几个常见的钩子配置示例：
-
-##### pre-commit 钩子
-
-**在代码提交前执行 ESLint 检查**，确保代码符合规范。在终端执行以下命令**添加 `pre-commit` 钩子**：
+### 修改 `pre-commit` hook：
 
 ```bash
-npx husky add .husky/pre-commit "npx eslint src"
+npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
-*上述命令会在 `.husky` 文件夹下创建一个 `pre-commit` 文件，文件内容为执行 `npx eslint src` 命令*，即对 `src` 目录下的代码进行 ESLint 检查。*如果检查不通过，提交操作将被阻止*。
+这样只会对即将提交的文件进行处理，速度快，体验好。
 
-##### pre-push 钩子
+---
 
-*在代码推送前执行测试脚本*，确保代码的功能正常。添加 `pre-push` 钩子的命令如下：
+## 六、常见问题与注意事项
 
-```bash
-npx husky add .husky/pre-push "npx jest"
-```
+| 问题 | 解决方法 |
+|------|----------|
+| 新人 clone 项目后 hooks 不生效 | 执行 `npm install` 自动触发 `prepare` 脚本 |
+| 想跳过某个 hook | 使用 `git commit --no-verify`（慎用） |
+| Husky 报错：`cannot find module husky/init` | 更新 husky 版本或重装依赖 |
+| 在 CI 环境中不需要执行某些 hook | 可以加环境判断逻辑，例如：`process.env.CI !== 'true'` |
 
-该命令会在 `.husky` 文件夹下创建 `pre-push` 文件，其中的脚本会执行 `npx jest` 命令运行测试用例。若测试不通过，代码将无法推送。
+---
 
-### 4. 注意事项
+## 七、总结：推荐实践
 
-- **脚本路径和依赖**：确保在钩子脚本中使用的命令和工具路径正确，并且相关依赖已经安装。例如，若要使用 ESLint 进行代码检查，需要在项目中安装 ESLint 及其相关配置。
-- **错误处理**：当钩子脚本执行失败时，Git 操作会被阻止。要确保在脚本中正确处理错误，并给出清晰的错误信息，方便开发者定位和解决问题。
-- **与其他工具集成**：Husky 可以和多种前端工具集成，如 ESLint、Prettier、Jest 等，根据项目需求合理配置钩子，以实现更全面的代码质量保障。
+| 场景 | 推荐 hook |
+|------|------------|
+| 代码格式化 & Lint | `pre-commit` + `lint-staged` |
+| 提交信息规范 | `commit-msg` + `commitlint` |
+| 提交前跑单元测试 | `pre-commit` |
+| 推送前跑完整测试套件 | `pre-push` |
+| 切换分支后自动安装依赖 | `post-checkout` |
+| 防止敏感文件提交 | `pre-commit` + 自定义脚本 |
+
+---
+
+如果你正在使用 Vue、React、Vite、Next.js、Monorepo（如 Nx、Lerna、pnpm）、TypeScript 等技术栈，我也可以为你提供一套完整的 Husky + Linting + Testing 的自动化开发规范方案。欢迎继续提问！
