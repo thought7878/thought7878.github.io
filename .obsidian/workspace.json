@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
+                "file": "_posts/engineering/代码质量和规范/ESLint.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "eslint prettier husky lint-staged commitlint commitizen"
+              "title": "ESLint"
             }
           },
           {
@@ -602,16 +602,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "d0cacc102221c0d0",
   "lastOpenFiles": [
-    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
+    "_posts/engineering/代码质量和规范/ESLint.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
+    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
+    "_posts/engineering/代码质量和规范/ESLint_2.md",
+    "_posts/engineering/package-manager/npx.md",
+    "_posts/engineering/代码质量和规范/Lint-staged.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
+    "_posts/engineering/代码质量和规范/Commitlint.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-14.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/engineering/代码质量和规范/Lint-staged.md",
-    "_posts/engineering/代码质量和规范/Commitlint.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/代码质量和规范/Husky.md",
     "_posts/engineering/代码质量和规范/Husky_2.md",
@@ -620,16 +624,12 @@
     "_posts/engineering/package-manager/npm 生命周期钩子.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
-    "_posts/engineering/代码质量和规范/ESLint.md",
     "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs(我的).md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
     "_posts/engineering/版本控制与协作/Git/Git 提交规范.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/chore.md",
     "_posts/English/单词/flow.md",
-    "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
-    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
-    "_posts/engineering/_教程/软件工程之美/总结/08-开发编码篇 (7讲)/29丨自动化测试：如何把Bug杀死在摇篮里？.md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
