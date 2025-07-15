@@ -99,12 +99,12 @@ overrides部分针对测试文件（如spec或test文件）进行了特殊配置
 
 ---
 
-### **文件作用**
+### 文件作用
 这是项目的 **ESLint 配置文件**，用于定义 JavaScript/TypeScript 代码规范，确保代码质量、类型安全和一致性。它适用于 Node.js 环境，且支持 TypeScript 类型检查。
 
 ---
 
-### **代码详解**
+### 代码详解
 ```javascript
 /* eslint-env node */
 // 指定运行环境为 Node.js，启用 Node.js 全局变量（如 `process`）
@@ -120,7 +120,7 @@ overrides部分针对测试文件（如spec或test文件）进行了特殊配置
 // 类型注解，告诉 IDE 这个对象的类型是 ESLint 的 Config 接口
 ```
 
-#### **核心配置对象**
+#### 核心配置对象
 ```javascript
 const config = {
   // 使用 TypeScript 解析器（支持 JSX 和 TypeScript 语法）
@@ -144,7 +144,7 @@ const config = {
   ],
 ```
 
-#### **React 特定配置**
+#### React 特定配置
 ```javascript
   settings: {
     react: {
@@ -154,7 +154,7 @@ const config = {
   },
 ```
 
-#### **自定义规则**
+#### 自定义规则
 ```javascript
   rules: {
     // 关闭 React 的 JSX 使用 React 检查（由 Babel/JSX 自动处理）
@@ -179,7 +179,7 @@ const config = {
   },
 ```
 
-#### **测试文件专属配置**
+#### 测试文件专属配置
 ```javascript
   overrides: [
     {
@@ -209,14 +209,14 @@ const config = {
 };
 ```
 
-#### **导出配置**
+#### 导出配置
 ```javascript
 module.exports = config;
 ```
 
 ---
 
-### **配置特点总结**
+### 配置特点总结
 1. **多插件集成**：结合 React、TypeScript、Jest 和 Prettier，覆盖全栈开发需求。
 2. **渐进式严格性**：
    - 关键规则（如类型检查）设为警告而非错误，避免过度限制开发。
