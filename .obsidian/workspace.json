@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "2025-07-15"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/代码质量和规范/Lint-staged.md",
+                "file": "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lint-staged"
+              "title": "eslint prettier husky lint-staged commitlint commitizen"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -602,17 +602,22 @@
       "media-extended:Open media": false
     }
   },
-  "active": "69328233e9ab688e",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-14.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/代码质量和规范/Lint-staged.md",
     "_posts/engineering/代码质量和规范/Commitlint.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/代码质量和规范/Husky.md",
     "_posts/engineering/代码质量和规范/Husky_2.md",
-    "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/engineering/代码质量和规范/Commitizen.md",
     "_posts/English/方法.md",
     "_posts/engineering/package-manager/npm 生命周期钩子.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/engineering/代码质量和规范/ESLint.md",
@@ -624,12 +629,7 @@
     "_posts/English/单词/flow.md",
     "_posts/libraries/_my-libraries/number-input/源码/prettierrc.md",
     "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/_教程/软件工程之美/总结/08-开发编码篇 (7讲)/29丨自动化测试：如何把Bug杀死在摇篮里？.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/methods/构建系统/_如何制定计划、目标？.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-14.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/tsconfig-base.json.md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
