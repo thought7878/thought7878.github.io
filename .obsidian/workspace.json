@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-15"
+              "title": "2025-07-16"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/代码质量和规范/ESLint.md",
+                "file": "_posts/engineering/代码质量和规范/Commitizen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESLint"
+              "title": "Commitizen"
             }
           },
           {
@@ -397,7 +397,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/记录/7月.md",
+                "file": "_posts/English/方法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -412,11 +412,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7月"
+              "title": "方法"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -602,10 +602,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d0cacc102221c0d0",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
+    "_posts/engineering/代码质量和规范/Prettier/Prettier_2.md",
     "_posts/engineering/代码质量和规范/ESLint.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-16.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
+    "_posts/English/方法.md",
+    "_posts/English/语法.md",
+    "_posts/读书笔记/健康/糖尿病/记录/7月.md",
     "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs.md",
     "_posts/engineering/代码质量和规范/ESLint_2.md",
     "_posts/engineering/package-manager/npx.md",
@@ -614,22 +621,15 @@
     "_posts/engineering/代码质量和规范/eslint prettier husky lint-staged commitlint commitizen.md",
     "_posts/engineering/代码质量和规范/Commitlint.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-14.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/代码质量和规范/Husky.md",
     "_posts/engineering/代码质量和规范/Husky_2.md",
     "_posts/engineering/代码质量和规范/Commitizen.md",
-    "_posts/English/方法.md",
     "_posts/engineering/package-manager/npm 生命周期钩子.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs(我的).md",
-    "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
-    "_posts/engineering/版本控制与协作/Git/Git 提交规范.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/单词/chore.md",
-    "_posts/English/单词/flow.md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",

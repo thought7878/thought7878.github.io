@@ -1,109 +1,156 @@
-### Prettier 是什么
+Prettier 是一个流行的**代码格式化工具**，专注于通过统一的代码风格（如缩进、引号、分号等）提升代码可读性。它与 ESLint 的定位不同：**ESLint 用于检测代码错误和规范**，而 **Prettier 专注于代码格式化**。两者结合使用可以实现**代码质量和风格的双重统一**。
 
-`Prettier` 是一个强大的**代码格式化工具**，秉持“固执己见”（Opinionated）的理念，旨在*为多种编程语言*提供统一、标准化的*代码格式化方案*。它可以自动分析代码的结构，*按照预设或自定义的规则对代码进行格式化*，调整代码的*缩进、换行、空格、引号*使用等方面，*让代码具有一致的外观和风格*。
+---
 
-#### 核心特点
+### **1. 核心特性**
+- **支持语言**：JavaScript、TypeScript、CSS、HTML、Vue、React、JSON、Markdown 等。
+- **零配置**：开箱即用，默认风格已标准化。
+- **高度可配置**：通过配置文件自定义代码风格。
+- **插件生态**：支持扩展（如 Tailwind CSS、GraphQL 等）。
+- **编辑器集成**：VSCode、WebStorm、Sublime 等主流编辑器支持。
 
-1. **自动化格式化**：Prettier 可以自动分析代码结构，并根据预设规则对代码进行格式化，如调整缩进、换行、空格等，使代码具有一致的外观。
-2. **零配置理念**：Prettier 内置了一套默认的格式化规则，开发者无需进行复杂的配置就能开始使用，极大地降低了使用门槛。不过，它也支持一定程度的自定义配置。
-3. **多语言支持**：能够处理多种前端和后端编程语言，涵盖 JavaScript、TypeScript、CSS、SCSS、Less、HTML、JSON、Markdown 等，满足不同项目的需求。
-4. **集成性强**：可以与多种代码编辑器（如 VS Code、WebStorm 等）和构建工具（如 Webpack、Gulp 等）集成，方便在开发流程中自动执行格式化操作。
+---
 
-#### 优点
-
-1. **提升代码可读性**：通过统一的代码风格，使代码更易阅读和理解，降低开发者的认知负担，特别是在团队协作开发中，能减少因代码风格不一致导致的沟通成本。
-2. **提高开发效率**：自动格式化代码，节省开发者手动调整代码风格的时间，让开发者专注于功能实现和逻辑优化。
-3. **减少代码审查工作量**：由于代码风格统一，在代码审查过程中，审查人员可以将更多精力放在代码逻辑和功能正确性上，而不是纠结于代码风格问题。
-
-#### 缺点
-
-1. **规则定制受限**：尽管支持一定程度的自定义配置，但 Prettier 的核心设计理念是保持规则的简洁和一致性，因此在某些特定场景下，*可能无法满足过于个性化的代码风格需求*。
-2. **可能覆盖手动调整**：自动格式化可能会覆盖开发者手动进行的一些代码布局调整，在某些特殊情况下，可能会与开发者的预期不符。
-
-
-### 为什么使用 Prettier
-
-#### 提升代码可读性
-
-- **统一风格**：在团队开发中，不同开发者可能有*不同的代码编写习惯*，这会导致*代码风格参差不齐*，*增加代码阅读和理解的难度*。Prettier 可以*强制执行统一的代码风格*，**无论代码由谁编写，最终呈现出的格式都是一致的，使代码更易于阅读和维护**。
-- **优化布局**：它会对代码的布局进行优化，例如*合理的缩进、换行和空格*使用，使代码结构更加清晰。比如在处理嵌套的代码块时，能清晰地展示层级关系，让开发者更容易把握代码的逻辑结构。
-
-#### 提高开发效率
-
-- **自动化操作**：Prettier 能够*自动完成代码格式化*的工作，开发者无需手动调整代码的格式，*节省了大量时间和精力*，可以将更多的注意力放在代码的功能实现和逻辑设计上。
-- **避免风格争议**：在代码审查过程中，常常会因为代码风格问题产生争论。使用 Prettier 可以消除这些不必要的争议，审查人员可以将更多的精力放在代码的逻辑正确性和功能完整性上，提高代码审查的效率。
-
-#### 减少人为错误
-
-- **一致性保障**：手动格式化代码容易出现疏漏，导致代码风格不一致。Prettier 可以确保每次格式化的结果都是一致的，避免因人为疏忽而引入的格式错误，保证代码质量的稳定性。
-
-### 如何使用 Prettier
-
-#### 安装
-
-Prettier 基于 Node.js 和 npm，你可以将它*作为开发依赖*安装到项目中。在项目根目录下打开终端，执行以下命令：
-
+### **2. 安装与配置**
+#### **基础安装**
 ```bash
-npm install prettier --save-dev
+# 本地安装（推荐）
+npm install --save-dev prettier
+
+# 全局安装（不推荐）
+npm install -g prettier
 ```
 
-#### 配置文件
+#### **创建配置文件**
+在项目根目录创建 `.prettierrc` 文件（JSON 格式）：
+```json
+{
+  "printWidth": 80,        // 每行最大字符数
+  "tabWidth": 2,           // 缩进空格数
+  "useTabs": false,        // 使用空格代替 Tab
+  "semi": true,            // 末尾加分号
+  "singleQuote": true,     // 使用单引号
+  "trailingComma": "es5",  // 末尾逗号（es5: 仅对象/数组）
+  "bracketSpacing": true,  // 对象字面量括号空格 { foo: bar }
+  "arrowParens": "always", // 箭头函数参数始终带括号
+  "endOfLine": "auto"      // 自动换行符（Windows/Linux/Mac 兼容）
+}
+```
 
-虽然 Prettier 有一套默认的格式化规则，零配置即可使用，但你也可以*根据项目需求创建自定义的配置文件*。常见的配置文件格式有 `.prettierrc.js`、`.prettierrc.json` 等。以下是一个简单的 `.prettierrc.js` 配置文件示例：
+#### **忽略文件**
+创建 `.prettierignore` 文件：
+```
+/dist/
+/node_modules/
+*.min.js
+```
 
-```javascript
+---
+
+### **3. 与 ESLint 协作**
+#### **安装依赖**
+```bash
+npm install --save-dev eslint-config-prettier eslint-plugin-prettier prettier
+```
+
+#### **修改 ESLint 配置**
+在 `.eslintrc.js` 中添加 Prettier 支持（确保 `prettier` 放在 `extends` 最后）：
+```js
 module.exports = {
-  printWidth: 80, // 每行代码的最大字符数，超过则换行
-  tabWidth: 4, // 缩进的空格数
-  useTabs: false, // 是否使用制表符（Tab）进行缩进
-  semi: true, // 是否在语句末尾添加分号
-  singleQuote: true, // 是否使用单引号
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier" // 关闭与 Prettier 冲突的 ESLint 规则
+  ],
+  rules: {
+    // 可选：覆盖 Prettier 的默认规则
+  }
 };
 ```
 
-#### 格式化代码
+---
 
-- **格式化单个文件**：在项目根目录下，使用以下命令对指定的文件进行格式化：
+### **4. 编辑器集成**
+#### **VSCode 配置**
+1. 安装插件：[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=Prettier.prettier-vscode)
+2. 设置保存时自动格式化：
+   ```json
+   // VSCode settings.json
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.formatOnSave": true,
+   "[javascript]": {
+     "editor.formatOnSave": true
+   },
+   "[typescript]": {
+     "editor.formatOnSave": true
+   },
+   "[vue]": {
+     "editor.formatOnSave": true
+   }
+   ```
 
+#### **WebStorm 配置**
+1. 安装插件：`Settings > Plugins > Prettier`
+2. 设置默认格式化工具：`Settings > Languages & Frameworks > JavaScript > Prettier`
+
+---
+
+### **5. 命令行使用**
+#### **格式化所有文件**
 ```bash
-npx prettier --write your-file.js
+npx prettier --write .
 ```
 
-`--write` 选项表示直接修改源文件。
+#### **检查格式问题**
+```bash
+npx prettier --check .
+```
 
-- **格式化整个目录**：如果要格式化某个目录下的所有文件，可以使用通配符。例如，格式化 `src` 目录下的所有 JavaScript 文件：
-
+#### **格式化指定文件**
 ```bash
 npx prettier --write src/**/*.js
 ```
 
-#### 与开发工具集成
+---
 
-- **VS Code 集成**：
-  - 打开 VS Code，在扩展市场中搜索并安装 “Prettier - Code formatter” 插件。
-  - 安装完成后，你可以在 VS Code 的设置中配置默认的代码格式化工具为 Prettier。在 `settings.json` 中添加以下配置：
+### **6. 常见问题解决**
+#### **问题 1：保存时未自动格式化**
+- **原因**：编辑器未正确设置默认格式化工具。
+- **解决**：检查 VSCode 的 `settings.json` 或 WebStorm 的格式化配置。
 
-```json
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true // 保存文件时自动格式化
-}
-```
+#### **问题 2：Prettier 与 ESLint 规则冲突**
+- **原因**：未正确禁用冲突规则。
+- **解决**：确保 `eslint-config-prettier` 已安装且 `extends` 中包含 `"prettier"`。
 
-- **与 Webpack 集成**：如果项目使用 Webpack 作为构建工具，可以使用 `prettier-webpack-plugin` 插件*将 Prettier 集成到构建流程中*。首先安装插件：
+#### **问题 3：格式化后代码逻辑错误**
+- **原因**：Prettier 仅处理格式，不保证逻辑安全。
+- **解决**：格式化前确保代码逻辑正确，或使用 `--no-semi` 等参数调整规则。
 
-```bash
-npm install prettier-webpack-plugin --save-dev
-```
+#### **问题 4：Vue/JSX 文件格式化异常**
+- **解决**：安装额外插件：
+  ```bash
+  npm install --save-dev @prettier/plugin-xml prettier-plugin-tailwindcss
+  ```
 
-然后在 Webpack 配置文件中添加以下配置：
+---
 
-```javascript
-const PrettierPlugin = require("prettier-webpack-plugin");
+### **7. 最佳实践**
+- **团队协作**：将 `.prettierrc` 和 `.prettierignore` 提交到 Git，确保团队风格统一。
+- **CI 检查**：在 CI 流程中添加格式化检查：
+  ```bash
+  npx prettier --check .
+  ```
+- **Git Hook**：使用 `husky` 在提交前自动格式化：
+  ```bash
+  npx husky add .husky/pre-commit "npx prettier --write ."
+  ```
 
-module.exports = {
-  // ...其他配置
-  plugins: [new PrettierPlugin()],
-};
-```
+---
 
+### **8. 参考文档**
+- [Prettier 官方文档](https://prettier.io/docs/en/)
+- [与 ESLint 集成指南](https://prettier.io/docs/en/integrating-with-linters.html)
+- [Tailwind CSS 插件](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
+通过合理配置 Prettier，可以大幅减少代码风格争议，提升开发效率。如果遇到具体问题，建议结合官方文档和社区资源进一步排查。
