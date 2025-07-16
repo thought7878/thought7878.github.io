@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,8 +602,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "69328233e9ab688e",
   "lastOpenFiles": [
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-QW.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DS.md",
+    "_posts/engineering/代码质量和规范/Commitizen.md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
     "_posts/engineering/代码质量和规范/Prettier/Prettier_2.md",
     "_posts/engineering/代码质量和规范/ESLint.md",
@@ -625,11 +628,8 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/engineering/代码质量和规范/Husky.md",
     "_posts/engineering/代码质量和规范/Husky_2.md",
-    "_posts/engineering/代码质量和规范/Commitizen.md",
     "_posts/engineering/package-manager/npm 生命周期钩子.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
-    "_posts/libraries/_my-libraries/number-input/源码/eslintrc.cjs(我的).md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
