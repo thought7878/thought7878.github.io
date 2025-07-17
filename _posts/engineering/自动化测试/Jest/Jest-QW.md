@@ -1,8 +1,8 @@
-Jest 是一个功能强大且流行的 JavaScript 测试框架，广泛用于前端开发中的*单元测试、集成测试和快照测试*。它由 Facebook 开源，特别适合 React 项目，但也支持其他框架（如 Vue、Angular）和纯 JavaScript 项目。以下是关于 Jest 的核心知识点和使用方法。
+`Jest` 是一个功能强大且流行的 JavaScript 测试框架，广泛用于前端开发中的**单元测试、集成测试、快照测试**。它由 Facebook 开源，特别适合 React 项目，但也支持其他框架（如 Vue、Angular）和纯 JavaScript 项目。以下是关于 Jest 的核心知识点和使用方法。
 
 ---
 
-### **1. Jest 的特点**
+### 1. Jest 的特点
 - **零配置**：  
   Jest 提供开箱即用的默认配置，适合快速上手。
 - **快照测试**：  
@@ -18,8 +18,8 @@ Jest 是一个功能强大且流行的 JavaScript 测试框架，广泛用于前
 
 ---
 
-### **2. 安装与配置**
-#### **(1) 安装 Jest**
+### 2. 安装与配置
+#### 1) 安装 Jest
 通过 npm 或 yarn 安装 Jest：
 ```bash
 npm install --save-dev jest
@@ -27,7 +27,7 @@ npm install --save-dev jest
 yarn add --dev jest
 ```
 
-#### **(2) 配置 Jest**
+#### 2) 配置 Jest
 Jest 默认不需要额外配置，但可以通过 `jest.config.js` 文件进行自定义：
 ```javascript
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
 };
 ```
 
-#### **(3) 配置脚本**
+#### 3) 配置脚本
 在 `package.json` 中添加测试脚本：
 ```json
 "scripts": {
@@ -50,8 +50,8 @@ module.exports = {
 
 ---
 
-### **3. 核心功能**
-#### **(1) 单元测试**
+### 3. 核心功能
+#### 1) 单元测试
 测试*单个函数或模块*的功能是否正确。
 ```javascript
 // sum.js
@@ -68,7 +68,7 @@ test('adds 1 + 2 to equal 3', () => {
 });
 ```
 
-#### **(2) 快照测试**
+#### 2) 快照测试
 参考：[[快照测试-QW]]
 *捕获组件或数据结构的状态*，并在后续测试中比较是否有变化。
 ```javascript
@@ -85,7 +85,7 @@ test('snapshot matches', () => {
 ```
 如果快照发生变化，Jest 会提示差异，并允许更新快照。
 
-#### **(3) 异步测试**
+#### 3) 异步测试
 测试异步代码（如 Promises 或 async/await）。
 ```javascript
 // fetchData.js
@@ -103,8 +103,8 @@ test('fetchData returns correct data', async () => {
 });
 ```
 
-#### **(4) Mock 功能**
-模拟外部依赖或函数行为。
+#### 4) Mock 功能
+*模拟外部依赖*或函数行为。
 ```javascript
 // api.js
 function fetchData() {
@@ -127,8 +127,8 @@ test('fetchData is mocked', async () => {
 
 ---
 
-### **4. 常用匹配器**
-Jest 提供了丰富的匹配器（Matchers），用于验证测试结果。
+### 4. 常用匹配器
+Jest 提供了丰富的匹配器（Matchers），用于*验证测试结果*。
 - **基本匹配器**：
   ```javascript
   expect(value).toBe(42); // 精确匹配
@@ -153,7 +153,7 @@ Jest 提供了丰富的匹配器（Matchers），用于验证测试结果。
 
 ---
 
-### **5. 代码覆盖率**
+### 5. 代码覆盖率
 Jest 内置代码覆盖率工具，可以通过以下命令生成覆盖率报告：
 ```bash
 jest --coverage
@@ -164,15 +164,16 @@ jest --coverage
 
 ---
 
-### **6. 集成 React 测试**
+### 6. 集成 React 测试
 参考：[[React Testing Library-QW]]
-Jest 与 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) 结合，是 React 项目的最佳实践。
-#### **(1) 安装依赖**
+
+Jest 与 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) 结合，*是 React 项目的最佳实践*。
+#### 1) 安装依赖
 ```bash
 npm install --save-dev @testing-library/react @testing-library/jest-dom
 ```
 
-#### **(2) 示例**
+#### (2) 示例
 ```javascript
 // App.js
 import React from 'react';
@@ -197,25 +198,25 @@ test('renders hello world', () => {
 
 ---
 
-### **7. 最佳实践**
-#### **(1) 遵循 AAA 模式**
+### 7. 最佳实践
+#### (1) 遵循 AAA 模式
 - **Arrange**：准备测试数据和环境。
 - **Act**：执行被测试的功能。
 - **Assert**：验证结果是否符合预期。
 
-#### **(2) 使用描述性测试名称**
-测试名称应清晰描述测试内容：
+#### (2) 使用描述性测试名称
+测试名称应*清晰描述测试内容*：
 ```javascript
 test('should return true when input is valid', () => {});
 ```
 
-#### **(3) 避免测试实现细节**
+#### (3) 避免测试实现细节
 专注于测试行为，而不是具体实现。
 
-#### **(4) 保持测试独立**
+#### (4) 保持测试独立
 每个测试用例应独立运行，避免相互依赖。
 
 ---
 
-### **8. 总结**
+### 8. 总结
 Jest 是一个功能全面、易于使用的测试框架，适合前端开发中的各种测试需求。通过结合 React Testing Library 等工具，可以高效地测试组件和逻辑代码。合理使用 Jest 的快照测试、Mock 功能和代码覆盖率工具，能够显著提升代码质量和开发效率。
