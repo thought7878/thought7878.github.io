@@ -241,11 +241,11 @@ const sharedConfig: Config.InitialOptions = {
   // 使用 JSDOM 模拟浏览器环境（支持 DOM 操作）
   testEnvironment: "jsdom",
 ```
-- **作用**：允许测试 React 组件时模拟浏览器 DOM 环境，支持 `document`、`window` 等全局对象。
+- **作用**：允许*测试 React 组件时模拟浏览器 DOM 环境*，支持 `document`、`window` 等全局对象。
 - **适用场景**：组件测试、DOM 操作验证。
 
 ```ts
-  // 测试前自动加载的初始化文件（如 MockDate、全局样式等）
+  // 测试前，自动加载的初始化文件（如 MockDate、全局样式等）
   setupFilesAfterEnv: ["<rootDir>/test/setup.ts"],
 ```
 - **作用**：在测试文件执行前加载指定脚本（如 [setup.ts](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-day-picker/test/setup.ts) 中的 `MockDate.set(...)` 固定时间）。
@@ -255,7 +255,7 @@ const sharedConfig: Config.InitialOptions = {
   // 启用全局定时器模拟（用于测试 setTimeout/setInterval）
   fakeTimers: { enableGlobally: true },
 ```
-- **作用**：允许在测试中控制时间流逝（如 `jest.advanceTimersByTime(...)`）。
+- **作用**：允许在测试中*控制时间流逝*（如 `jest.advanceTimersByTime(...)`）。
 - **适用场景**：测试动画、防抖、节流等依赖时间逻辑的代码。
 
 ```ts
@@ -272,7 +272,7 @@ const sharedConfig: Config.InitialOptions = {
       }
     ],
 ```
-- **作用**：使用 SWC 替代 Babel 提升编译速度，且支持 React 17+ 的自动 JSX 转换。
+- **作用**：使用 SWC *替代 Babel 提升编译速度*，且支持 React 17+ 的自动 JSX 转换。
 - **优势**：比 `ts-jest` 快 10-100 倍，适合大型项目。
 
 ```ts
