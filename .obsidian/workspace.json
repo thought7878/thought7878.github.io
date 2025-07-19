@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/自动化测试/Jest/Jest-QW.md",
+                "file": "_posts/engineering/自动化测试/React Testing Library/React Testing Library-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Jest-QW"
+              "title": "React Testing Library-QW"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,16 +602,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "d0cacc102221c0d0",
   "lastOpenFiles": [
-    "_posts/engineering/自动化测试/自动化测试-QW.md",
-    "_posts/engineering/自动化测试/Jest/Jest-QW.md",
+    "_posts/AI/搞钱/方法.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/jest.config.ts.md",
     "_posts/engineering/自动化测试/React Testing Library/React Testing Library-QW.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json/测试.md",
+    "_posts/engineering/自动化测试/Jest/Jest-QW.md",
+    "_posts/engineering/自动化测试/自动化测试-QW.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-19.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-17.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/jest.config.ts.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json/测试.md",
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/搭建测试环境.md",
     "_posts/engineering/自动化测试/Jest/快照测试-QW.md",
@@ -630,7 +631,6 @@
     "_posts/engineering/代码质量和规范/Prettier/Prettier.md",
     "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-QW.md",
     "_posts/读书笔记/男女.md",
-    "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DS.md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
