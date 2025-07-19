@@ -173,7 +173,7 @@ Jest 与 [React Testing Library](https://testing-library.com/docs/react-testing-
 npm install --save-dev @testing-library/react @testing-library/jest-dom
 ```
 
-#### (2) 示例
+#### 2) 示例
 ```javascript
 // App.js
 import React from 'react';
@@ -199,21 +199,21 @@ test('renders hello world', () => {
 ---
 
 ### 7. 最佳实践
-#### (1) 遵循 AAA 模式
+#### 1) 遵循 AAA 模式
 - **Arrange**：准备测试数据和环境。
 - **Act**：执行被测试的功能。
 - **Assert**：验证结果是否符合预期。
 
-#### (2) 使用描述性测试名称
+#### 2) 使用描述性测试名称
 测试名称应*清晰描述测试内容*：
 ```javascript
 test('should return true when input is valid', () => {});
 ```
 
-#### (3) 避免测试实现细节
+#### 3) 避免测试实现细节
 专注于测试行为，而不是具体实现。
 
-#### (4) 保持测试独立
+#### 4) 保持测试独立
 每个测试用例应独立运行，避免相互依赖。
 
 ---

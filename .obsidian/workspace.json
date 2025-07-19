@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-17.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-17"
+              "title": "2025-07-19"
             }
           },
           {
@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/搭建测试环境.md",
+                "file": "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/jest.config.ts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "搭建测试环境"
+              "title": "jest.config.ts"
             }
           },
           {
@@ -604,19 +604,20 @@
   },
   "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/engineering/自动化测试/Jest/快照测试-QW.md",
+    "_posts/engineering/自动化测试/自动化测试-QW.md",
     "_posts/engineering/自动化测试/Jest/Jest-QW.md",
     "_posts/engineering/自动化测试/React Testing Library/React Testing Library-QW.md",
-    "_posts/engineering/自动化测试/自动化测试-QW.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
-    "_posts/engineering/代码质量和规范/Commitizen.md",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/搭建测试环境.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-19.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-17.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/jest.config.ts.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json/测试.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
+    "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试/搭建测试环境.md",
+    "_posts/engineering/自动化测试/Jest/快照测试-QW.md",
+    "_posts/engineering/代码质量和规范/Commitizen.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/eslintrc.cjs.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-17.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-16.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/engineering/代码质量和规范/Husky_2.md",
@@ -630,7 +631,6 @@
     "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-QW.md",
     "_posts/读书笔记/男女.md",
     "_posts/engineering/package-manager/pnpm & monorepo/pnpm/pnpm-DS.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-15.md",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
