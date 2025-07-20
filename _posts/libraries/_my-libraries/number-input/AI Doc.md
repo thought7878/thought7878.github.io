@@ -14,21 +14,25 @@
 
 确保已经安装了 `react-aria` 和 `react-stately` 相关依赖。
 
-bash
 
-`npm install react-aria react-stately`
+```bash
+npm install react-aria react-stately
+```
 
 然后在你的组件文件中导入所需的模块：
 
-typescript
 
-`import { NumberField, NumberFieldInput, NumberFieldLabel, NumberFieldGroup, NumberFieldIncrement, NumberFieldDecrement } from 'your-component-library';`
+```typescript
+
+import { NumberField, NumberFieldInput, NumberFieldLabel, NumberFieldGroup, NumberFieldIncrement, NumberFieldDecrement } from 'your-component-library';
+
+```
 
 ### 基本用法
 
-typescript
-
-`<NumberField name="myNumber" defaultValue={1}>   <NumberFieldInput />   <NumberFieldLabel>My Number</NumberFieldLabel>   <NumberFieldGroup>     <NumberFieldIncrement>+</NumberFieldIncrement>     <NumberFieldDecrement>-</NumberFieldDecrement>   </NumberFieldGroup> </NumberField>`
+```typescript
+<NumberField name="myNumber" defaultValue={1}>   <NumberFieldInput />   <NumberFieldLabel>My Number</NumberFieldLabel>   <NumberFieldGroup>     <NumberFieldIncrement>+</NumberFieldIncrement>     <NumberFieldDecrement>-</NumberFieldDecrement>   </NumberFieldGroup> </NumberField>
+```
 
 ### 组件特性
 
