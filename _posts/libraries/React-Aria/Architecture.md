@@ -51,27 +51,26 @@ let state = useNumberFieldState({ ...props, locale });
 ```
 
 Not all components have a state hook. For example, many components are read-only — they display something to the user but don't allow them to change it. State hooks are found in interactive components that allow data entry, or have some kind of visual state that the user can update (e.g. expanding/collapsing).  
-*并非所有组件都有状态勾子*。例如，许多组件都是只读的--它们向用户显示某些内容，但不允许用户更改它。状态钩子出现在允许数据输入的交互式组件中，或者具有某种用户可以更新的可视状态（例如展开/折叠）。
-*并非所有组件都有状态钩子*。例如，许多组件是只读的——它们向用户显示某些内容，但允许用户更改。状态钩子存在于允许数据输入的交互式组件中，或具有用户可以更新的某种视觉状态（例如展开/折叠）。
+*并非所有组件都有状态钩子*。例如，*许多组件是只读的*——它们向用户显示某些内容，但不允许用户更改。状态钩子存在于**允许数据输入的交互式组件**中，或具有**用户可以更新的某种视觉状态**（例如*展开/折叠*）。
 
 ### Behavior hook
 
 In the middle is the behavior hook. This hook is platform specific, and depends on the platform API (e.g. the DOM or react-native). It also has no theme or design system specific logic. It implements event handling, accessibility, internationalization, etc. — all the parts of a component that could be shared across multiple design systems.  
-中间是行为钩子。**这个钩子是特定于平台的，并且依赖于平台API**（例如DOM或react-native）。**它也没有主题或设计系统特定的逻辑**。**它实现了事件处理、可访问性、国际化等**--一个组件的所有部分都可以在多个设计系统中共享。
+中间是行为钩子。**这个钩子是特定于平台的，并且依赖于平台API**（例如DOM或react-native）。**它也没有主题或设计系统特定的逻辑**。***它实现了事件处理、可访问性、国际化等***--一个组件的所有部分都可以在多个设计系统中共享。
 
 The behavior hook uses the state hook in order to implement component behavior. It returns one or more sets of platform specific props (e.g. DOM props) that can be spread onto the elements rendered by the component. These include semantic properties like [ARIA](https://www.w3.org/TR/wai-aria-1.2/), and event handlers. The event handlers in turn call methods on the state interface to implement the behavior for the component.  
-**行为钩子使用状态钩子来实现组件行为**。*它返回一组或多组平台特定的prop*（例如DOM prop），这些prop可以扩展到组件渲染的元素上。这些包括像[ARIA](https://www.w3.org/TR/wai-aria-1.2/)这样的语义属性和事件处理程序。事件处理程序依次调用状态接口上的方法来实现组件的行为。
+***行为钩子使用状态钩子来实现组件行为***。***它返回一组或多组平台特定的prop***（例如DOM prop），这些prop可以扩展到组件渲染的元素上。这些包括**像[ARIA](https://www.w3.org/TR/wai-aria-1.2/)这样的语义属性、事件处理程序**。**事件处理程序依次调用状态接口上的方法来实现组件的行为**。
 
-Some components may not have any user interactions, but still have a behavior hook. Most components have some kind of semantics that they need to expose for accessibility (a form of behavior). The only components that won't have a behavior hook of their own are those that only compose together other components.  
-有些组件可能没有任何用户交互，但仍然有一个行为挂钩。大多数组件都有某种语义，它们需要为可访问性（一种行为形式）而公开这些语义。唯一没有自己的行为钩子的组件是那些只将其他组件组合在一起的组件。
+Some components may not have any user interactions, but still have a behavior hook. Most components have some kind of semantics that they need to expose for accessibility (a form of behavior). The only components that won't have a behavior hook of their own are those that only compose together other components. 
+有些组件*可能没有任何用户交互，但仍然有一个行为钩子*。大多数组件都*有某种语义，它们需要为可访问性（一种行为形式）而公开这些语义*。唯一没有自己的行为钩子的组件是那些*只将其他组件组合在一起的组件*。
 
 ### Component
 
 At the top is the component, which lives in each design system and composes all of these pieces together. It provides the theme and design system specific logic, and renders the actual platform elements. It applies styles, which could be implemented in many different ways (e.g. CSS classes, CSS-in-JS, etc.).  
-最上面的是组件，它存在于每个设计系统中，并将所有这些部分组合在一起。它提供了主题和设计系统的特定逻辑，并呈现了实际的平台元素。它应用样式，可以以许多不同的方式实现（例如CSS类，CSS-in-JS等）。
+*最上面的是组件*，它存在于每个设计系统中，*并将所有这些部分组合在一起*。它*提供了主题和设计系统的特定逻辑*，并呈现了实际的平台元素。*它应用样式，可以以许多不同的方式实现*（例如CSS类，CSS-in-JS等）。
 
 The component uses props returned by the behavior hook and state from the state hook to implement the visual appearance. It spreads props returned from the behavior hook onto elements that it renders to apply semantics and interactions, and can use the state from the state hook to adjust its visual appearance. This allows complete control over the rendering of the component, including things like adding extra elements as needed for styling or layout control.  
-组件使用行为钩子返回的属性和状态钩子返回的状态来实现可视外观。它将从行为钩子返回的props传播到它呈现的元素上，以应用语义和交互，并可以使用状态钩子的状态来调整其视觉外观。这允许对组件的呈现进行完全控制，包括添加样式或布局控制所需的额外元素。
+***组件使用行为钩子返回的属性、状态钩子返回的状态，来实现可视外观***。**它将从行为钩子返回的props传播到它渲染的元素上，来应用语义和交互**，并可以**使用状态钩子的状态来调整其视觉外观**。这允许**对组件的呈现进行完全控制，包括添加样式或布局控制所需的额外元素**。
 
 The component itself may be split into unstyled and styled parts. Unstyled components compose together hooks and abstract away the glue code necessary to connect them together by providing reusable contexts, DOM structure, and styling APIs. This simplifies design system components while retaining the flexibility to drop down to lower-level APIs when needed.  
 组件本身可以拆分为未设置样式和已设置样式的部分。无样式的组件通过提供可重用的上下文、DOM结构和样式化API将钩子组合在一起，并抽象出将它们连接在一起所需的粘合代码。这简化了设计系统组件，同时保留了在需要时下拉到较低级别API的灵活性。
