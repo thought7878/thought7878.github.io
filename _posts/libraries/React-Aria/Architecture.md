@@ -73,34 +73,30 @@ The component uses props returned by the behavior hook and state from the state 
 ***组件使用行为钩子返回的属性、状态钩子返回的状态，来实现可视外观***。**它将从行为钩子返回的props传播到它渲染的元素上，来应用语义和交互**，并可以**使用状态钩子的状态来调整其视觉外观**。这允许**对组件的呈现进行完全控制，包括添加样式或布局控制所需的额外元素**。
 
 The component itself may be split into unstyled and styled parts. Unstyled components compose together hooks and abstract away the glue code necessary to connect them together by providing reusable contexts, DOM structure, and styling APIs. This simplifies design system components while retaining the flexibility to drop down to lower-level APIs when needed.  
-组件本身可以拆分为未设置样式和已设置样式的部分。无样式的组件通过提供可重用的上下文、DOM结构和样式化API将钩子组合在一起，并抽象出将它们连接在一起所需的粘合代码。这简化了设计系统组件，同时保留了在需要时下拉到较低级别API的灵活性。
+组件本身可以拆分为未设置样式和已设置样式的部分。*无样式的组件通过提供可重用的上下文、DOM结构和样式化API将钩子组合在一起，并抽象出将它们连接在一起所需的粘合代码*。*这简化了设计系统组件，同时保留了在需要时下拉到较低级别API的灵活性*。
 
 ## Implementation
 
 ---
 
-React Spectrum 反应光谱
-
-React Aria
-
-React Stately React庄严
+![[_posts/libraries/React-Aria/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg]]
 
 Our implementation of this architecture splits each piece into three npm scopes, with individually versioned packages for each component. This allows you **incrementally adopt** this approach in your own design system and reuse as much or as little as makes sense for your usecases.  
-我们对这个架构的实现将每个部分分成三个npm作用域，每个组件都有单独的版本化包。这允许您在自己的设计系统中**逐步采用**这种方法，并根据您的用例尽可能多或少地重用。
+*我们对该架构的实现将每个部分分成三个 npm 范围*，每个组件都有单独的版本化包。这允许您在自己的设计系统中**逐步采用**这种方法，并根据您的用例尽可能多或少地重用。
 
 Within a component, the hooks are designed to be **highly composable**, with individual features split into many hooks. This allows you to combine them together and achieve your design with only the features you need in your design system.  
-在一个组件中，钩子被设计成**高度可组合的**，单个功能被分成许多钩子。这使您可以将它们联合收割机组合在一起，并仅使用设计系统中所需的功能实现设计。
+*在一个组件中，钩子被设计成**高度可组合的**，单个功能被分成许多钩子*。这使您可以*将它们组合在一起*，并*仅使用设计系统中所需的功能实现设计*。
 
 The overall goal for the project is to make reusing behavior across design systems as easy as possible, while allowing full design customizability and avoiding code bloat.  
-该项目的总体目标是使跨设计系统的重用行为尽可能容易，同时允许完全的设计可定制性并避免代码膨胀。
+**该项目的总体目标**是使跨设计系统的重用行为尽可能容易，同时允许完全的设计可定制性并避免代码膨胀。
 
 ### React Stately
 
 [React Stately](https://react-spectrum.adobe.com/react-stately/index.html) implements state management and core logic for each component. It handles complex logic for things like [collections](https://react-spectrum.adobe.com/react-stately/collections.html) and [selection](https://react-spectrum.adobe.com/react-stately/selection.html) in a fully cross-platform way that you could reuse on the web, in react-native, etc.  
-[React Stately](https://react-spectrum.adobe.com/react-stately/index.html)为每个组件实现状态管理和核心逻辑。它以完全跨平台的方式处理[集合](https://react-spectrum.adobe.com/react-stately/collections.html)和[选择](https://react-spectrum.adobe.com/react-stately/selection.html)等复杂逻辑，您可以在Web上，在react-native等中重用。
+[React Stately](https://react-spectrum.adobe.com/react-stately/index.html)**为每个组件实现状态管理和核心逻辑**。它以完全跨平台的方式处理[集合](https://react-spectrum.adobe.com/react-stately/collections.html)和[选择](https://react-spectrum.adobe.com/react-stately/selection.html)等复杂逻辑，您可以在Web上，在react-native等中重用。
 
 React Stately hooks can be used independently in your own components, or paired with React Aria hooks to get more of the behavior and user interactions for web applications out of the box. We do not yet have behavior hooks for other platforms however, so if you're working in react-native or another view system, you'll need to use React Stately directly.  
-React Stately钩子可以在你自己的组件中独立使用，也可以与React Aria钩子配对使用，以获得更多的Web应用程序的行为和用户交互。但是，我们还没有针对其他平台的行为钩子，所以如果你在react-native或其他视图系统中工作，你需要直接使用React Stately。
+*React Stately钩子可以在你自己的组件中独立使用，也可以与React Aria钩子配对使用，以获得更多的Web应用程序的行为和用户交互*。但是，我们还没有针对其他平台的行为钩子，所以如果你在react-native或其他视图系统中工作，你需要直接使用React Stately。
 
 Read more about React Stately and [get started](https://react-spectrum.adobe.com/react-stately/getting-started.html) by reading the docs.  
 阅读更多关于React Stately的内容，[并](https://react-spectrum.adobe.com/react-stately/getting-started.html)从阅读文档开始。
@@ -108,7 +104,7 @@ Read more about React Stately and [get started](https://react-spectrum.adobe.co
 ### React Aria
 
 [React Aria](https://react-spectrum.adobe.com/react-aria/index.html) implements behavior and [accessibility](https://react-spectrum.adobe.com/react-aria/accessibility.html) for the web according to the W3C's [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/). It includes full screen reader and keyboard navigation support, along with mouse and touch [interactions](https://react-spectrum.adobe.com/react-aria/interactions.html) that have been tested across a wide variety of devices and browsers. It also implements [internationalization](https://react-spectrum.adobe.com/react-aria/internationalization.html) for over 30 languages, including right-to-left specific behavior, localized date and number formatting, and more.  
-*[React Aria](https://react-spectrum.adobe.com/react-aria/index.html)根据W3C的[ARIA创作实践指南](https://www.w3.org/WAI/ARIA/apg/)实现Web的行为和[可访问性](https://react-spectrum.adobe.com/react-aria/accessibility.html)*。它包括*全屏阅读器和键盘导航支持，鼠标和触摸[交互](https://react-spectrum.adobe.com/react-aria/interactions.html)*，这些交互已经在各种设备和浏览器上进行了测试。它还*实现了30多种语言的[国际化](https://react-spectrum.adobe.com/react-aria/internationalization.html)*，包括从右到左的特定行为，本地化的日期和数字格式等等。
+*[React Aria](https://react-spectrum.adobe.com/react-aria/index.html)根据W3C的[ARIA创作实践指南](https://www.w3.org/WAI/ARIA/apg/)实现Web的行为和[可访问性](https://react-spectrum.adobe.com/react-aria/accessibility.html)*。它包括*全屏阅读器、键盘导航支持，鼠标和触摸[交互](https://react-spectrum.adobe.com/react-aria/interactions.html)*，这些交互已经在各种设备和浏览器上进行了测试。它还*实现了30多种语言的[国际化](https://react-spectrum.adobe.com/react-aria/internationalization.html)*，包括从右到左的特定行为，本地化的日期、数字格式等等。
 
 Most importantly, React Aria is **fully customizable**. It offers both high-level unstyled components and low-level hooks depending on the level of customization you need. The components provide a default DOM structure and styling API, and handle all of the glue code necessary to connect the hooks together on your behalf. If you need even more control, you can drop down to the lower-level hook-based API, which enables [advanced customization](https://react-spectrum.adobe.com/react-aria/advanced.html) use cases such as overriding DOM elements, intercepting events, customizing behavior, and more.  
 最重要的是，React Aria**完全可定制**。**它根据您需要的定制级别提供高级未样式化组件和低级挂钩**。*这些组件提供默认的DOM结构和样式化API*，并处理代表您将挂钩连接在一起所需的所有粘合代码。*如果您需要更多的控制，您可以下拉到较低级别的基于钩子的API，它支持[高级定制](https://react-spectrum.adobe.com/react-aria/advanced.html)用例，例如覆盖DOM元素、拦截事件、定制行为等*。
