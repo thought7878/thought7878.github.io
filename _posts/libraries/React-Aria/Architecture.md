@@ -10,21 +10,21 @@ This page discusses the architecture of React Spectrum, and how behavior and cor
 
 
 Today, many companies are implementing their own component libraries for their design systems from scratch. On the web, the primitives are very low level. There are very few built-in browser controls that are fully styleable, so each company needs to reimplement many of the same components from scratch. This has become easier to do with React and other modern view libraries, but implementing full support for accessibility, internationalization, keyboard, mouse, and touch interactions, and other features is still extraordinarily difficult.  
-如今，许多公司都在从头开始为自己的设计系统实现自己的组件库。在Web上，原语是非常低级的。很少有内置的浏览器控件是完全可样式化的，因此每个公司都需要从头开始重新实现许多相同的组件。使用React和其他现代视图库，这变得更容易，但实现对可访问性，国际化，键盘，鼠标和触摸交互以及其他功能的完全支持仍然非常困难。
+如今，许多公司都在从头开始为自己的设计系统实现自己的组件库。*在Web上，原语是非常低级的。很少有内置的浏览器控件是完全可样式化的，因此每个公司都需要从头开始重新实现许多相同的组件*。使用React和其他现代视图库，这变得更容易，*但实现对可访问性，国际化，键盘，鼠标和触摸交互以及其他功能的完全支持仍然非常困难*。
 
 In addition, JavaScript has spread beyond only the web platform. Platforms like React Native allow React to render native widgets across mobile and desktop operating systems as well. This will continue to expand in the future as new platforms and interaction models are developed.  
 此外，JavaScript已经不仅仅局限于Web平台。像React Native这样的平台允许React在移动的和桌面操作系统上渲染原生小部件。随着新的平台和交互模式的开发，这将在未来继续扩大。
 
 While each design system is unique, there is often more in common between components than different. Most components typically found in a design system, like buttons, checkboxes, selects, and even tables, usually have very similar behavior and logic. There are even specifications that describe how many of the most common components should behave in terms of [accessibility semantics](https://www.w3.org/TR/wai-aria-1.2/) and [keyboard interactions](https://www.w3.org/TR/wai-aria-practices-1.2/). The main difference between design systems is the styling.  
-虽然每个设计系统都是独特的，但组件之间的共同点往往多于不同点。设计系统中的大多数组件，如按钮、复选框、选择，甚至表格，通常具有非常相似的行为和逻辑。甚至还有规范描述了有多少最常见的组件应该在[可访问性语义](https://www.w3.org/TR/wai-aria-1.2/)和[键盘交互](https://www.w3.org/TR/wai-aria-practices-1.2/)方面表现出来。设计系统之间的主要区别是样式。
+虽然每个设计系统都是独特的，但组件之间的共同点往往多于不同点。*设计系统中的大多数组件，如按钮、复选框、选择，甚至表格，通常具有非常相似的行为和逻辑*。甚至还有规范描述了有多少最常见的组件应该在[可访问性语义](https://www.w3.org/TR/wai-aria-1.2/)和[键盘交互](https://www.w3.org/TR/wai-aria-practices-1.2/)方面表现出来。*设计系统之间的主要区别是样式*。
 
 This opens up to the possibility of sharing much of the behavior and component logic between design systems and across platforms. For example, user interactions, accessibility, internationalization, and behavior can be reused, while allowing custom styling and rendering to live within individual design systems. This has the potential to improve the overall quality of applications, while saving companies money and time, and reducing duplicated effort across the industry.  
-这为在设计系统之间和跨平台共享大部分行为和组件逻辑提供了可能性。例如，用户交互、可访问性、国际化和行为可以重用，同时允许在各个设计系统中使用自定义样式和呈现。这有可能提高应用程序的整体质量，同时节省公司的资金和时间，并减少整个行业的重复工作。
+这为在设计系统之间和跨平台，共享大部分行为和组件逻辑提供了可能性。例如，**用户交互、可访问性、国际化和行为可以重用**，同时*允许在各个设计系统中使用自定义样式*和呈现。这有可能***提高应用程序的整体质量，同时节省公司的资金和时间，并减少整个行业的重复工作***。
 
 ## Architecture
 
 In order to allow reusing component behavior between design systems, React Spectrum splits each component into three parts: state, behavior, and the rendered component.  
-**为了允许在设计系统之间重用组件行为，React Spectrum将每个组件分为三个部分：状态、行为和渲染组件**
+**为了允许在设计系统之间*重用组件行为*，React Spectrum*将每个组件分为三个部分*：*状态、行为、渲染组件***
 
 - Component 
 - Behavior Hook 
@@ -34,17 +34,17 @@ Some components don't have all of these pieces. For example, some simple compone
 *有些组件没有所有这些部件*。例如，一些简单的组件不需要任何状态，而其他组件只是其他组件的组合，因此每个组件都具有该架构中对其目的有意义的部分。
 
 This architecture is made possible by [React Hooks](https://react.dev/reference/react/hooks), which enable the ability to reuse behavior between multiple components. Hooks allow accessing React features like state and effects from functions which can be called from any component. If you're unfamiliar with hooks, we recommend reading the documentation linked above first.  
-*这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间重用行为*。Hooks允许从任何组件调用的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
+*这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间**重用行为***。Hooks允许在任何组件的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
 
 ![[libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png]]
 
 
 ### State hook
 At the bottom is the state hook. This hook is shared across platforms — it could work on the web, react-native, or any other platform, and makes no assumptions about the view system it is running on. It also has no theme or design system specific logic.  
-*如上图所示的最底部是state钩子*。*这个钩子是跨平台共享的*-它可以在web、react-native或任何其他平台上工作，并且不假设它运行的视图系统。它也没有主题或设计系统特定的逻辑。
+*如上图所示的最底部是state钩子*。**这个钩子是跨平台共享的**---它可以在网页、react-native 或其他任何平台上运行，并且不依赖于它所运行的视图系统。*它也没有主题或设计系统特定的逻辑*。
 
 The state hook accepts common props from the component and provides state management. It implements the core logic for the component and returns an interface for reading and updating the component state.  
-**状态钩子接受来自组件的公共属性并提供状态管理。它实现组件的核心逻辑，并返回用于阅读和更新组件状态的接口。**
+**状态钩子*接受组件的常见属性*并*提供状态管理*。它*实现了组件的核心逻辑*，并*返回一个用于读取和更新组件状态的接口*。**
 
 ```ts
 let state = useNumberFieldState({ ...props, locale });
@@ -52,6 +52,7 @@ let state = useNumberFieldState({ ...props, locale });
 
 Not all components have a state hook. For example, many components are read-only — they display something to the user but don't allow them to change it. State hooks are found in interactive components that allow data entry, or have some kind of visual state that the user can update (e.g. expanding/collapsing).  
 *并非所有组件都有状态勾子*。例如，许多组件都是只读的--它们向用户显示某些内容，但不允许用户更改它。状态钩子出现在允许数据输入的交互式组件中，或者具有某种用户可以更新的可视状态（例如展开/折叠）。
+*并非所有组件都有状态钩子*。例如，许多组件是只读的——它们向用户显示某些内容，但允许用户更改。状态钩子存在于允许数据输入的交互式组件中，或具有用户可以更新的某种视觉状态（例如展开/折叠）。
 
 ### Behavior hook
 
