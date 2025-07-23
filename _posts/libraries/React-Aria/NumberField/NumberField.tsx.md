@@ -35,9 +35,48 @@ NumberFieldInput是一个使用React.forwardRef定义的子组件，负责渲染
 
 最后，总结代码的结构和功能，确保解释清晰易懂，涵盖主要部分，如状态管理、表单处理、国际化、验证和UI渲染等。
 </think>
+
 这是React Spectrum库中的[NumberField](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-spectrum/numberfield/src/NumberField.tsx#L46-L141)组件实现，用于创建符合Spectrum设计规范的数字输入框组件。以
 
 下是关键部分的解析：
+
+### 关键注释说明：
+
+1. **组件结构**：
+    
+    - 使用`Field`组件包裹输入区域，提供标签、描述等基础表单功能
+    - `NumberFieldInput`实现具体UI渲染，包含输入框和步进按钮
+2. **核心钩子**：
+    
+    - `useNumberFieldState`：管理数字输入的核心状态逻辑（数值、验证、递增/递减等）
+    - `useNumberField`：处理ARIA属性和交互行为（键盘、按钮、验证等）
+3. **状态处理**：
+    
+    - `state`对象包含完整的输入状态（数值、有效性、按钮状态等）
+    - `inputRef`实现输入框与状态的同步
+4. **样式处理**：
+    
+    - 使用`classNames`动态生成类名
+    - 支持多种状态样式（禁用、只读、无效等）
+5. **交互增强**：
+    
+    - `FocusRing`处理焦点状态
+    - `useHover`提供悬停反馈
+    - `StepButton`实现递增/递减按钮
+6. **表单集成**：
+    
+    - 隐藏的`<input>`元素用于表单提交
+    - 支持无障碍属性和验证状态同步
+
+这个实现完整封装了数字输入框的所有功能，包括：
+
+- 数值输入与格式化
+- 步进按钮交互
+- 表单验证
+- 国际化支持
+- 可访问性属性
+- 动态样式处理
+- 移动端适配
 
 ### 1. 组件结构
 ```tsx
