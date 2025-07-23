@@ -48,8 +48,8 @@ NumberFieldInput是一个使用React.forwardRef定义的子组件，负责渲染
     - `NumberFieldInput`实现具体UI渲染，包含输入框和步进按钮
 2. **核心钩子**：
     
-    - `useNumberFieldState`：管理数字输入的核心状态逻辑（数值、验证、递增/递减等）
-    - `useNumberField`：处理ARIA属性和交互行为（键盘、按钮、验证等）
+    - `useNumberFieldState`：管理数字输入的*核心状态逻辑（数值、验证、递增/递减等）*
+    - `useNumberField`：*处理ARIA属性和交互行为（键盘、按钮、验证等）*
 3. **状态处理**：
     
     - `state`对象包含完整的输入状态（数值、有效性、按钮状态等）
