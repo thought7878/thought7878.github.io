@@ -33,15 +33,17 @@ const value = useContext(MyContext);
 
 总结一下，React的Context主要解决了组件树中跨层级数据传递的问题，通过Provider提供数据，Consumer或useContext消费数据。适用于全局数据的共享，但需要注意性能优化和合理拆分Context。
 
+---
+
 ### React Context 知识点总结
 
-#### **1. 核心概念**
-- **定义**：Context 是 React 提供的跨层级组件数据传递机制，避免通过 Props 逐层传递。
-- **作用**：在组件树中**全局共享数据**（如主题、用户信息、语言配置）。
+#### 1. 核心概念
+- **定义**：Context 是 React 提供的*跨层级*组件*数据传递*机制，*避免通过 Props 逐层传递*。
+- **作用**：在组件树中**全局共享数据**（如*主题、用户信息、语言配置*）。
 
 ---
 
-#### **2. 基本结构**
+#### 2. 基本结构
 - **创建 Context**  
   ```jsx
   const MyContext = React.createContext(defaultValue);
@@ -54,7 +56,7 @@ const value = useContext(MyContext);
     {/* 子组件 */}
   </MyContext.Provider>
   ```
-  - 通过 `value` 属性传递数据，值变化时触发子组件更新。
+  - 通过 `value` 属性传递数据，*值变化时触发子组件更新*。
 
 - **Consumer 组件（传统方式）**  
   ```jsx
@@ -70,7 +72,7 @@ const value = useContext(MyContext);
 
 ---
 
-#### **3. 使用步骤**
+#### 3. 使用步骤
 1. **定义 Context**  
    ```jsx
    // ThemeContext.js
@@ -107,14 +109,14 @@ const value = useContext(MyContext);
 
 ---
 
-#### **4. 应用场景**
-- **全局配置**：主题、语言、用户权限。
+#### 4. 应用场景
+- **全局配置**：*主题、语言、用户权限*。
 - **避免 Props Drilling**：跨多层组件传递数据。
 - **高频更新场景**：结合 `useReducer` 管理复杂状态。
 
 ---
 
-#### **5. 性能优化**
+#### 5. 性能优化
 - **拆分 Context**：按功能将数据分散到多个 Context，*减少不必要的渲染*。
   ```jsx
   const UserContext = createContext();
@@ -133,14 +135,15 @@ const value = useContext(MyContext);
 
 ---
 
-#### **6. 注意事项**
+#### 6. 注意事项
 - **默认值限制**：默认值仅在无匹配 Provider 时生效。
-- **嵌套 Provider**：内层 Provider 会覆盖外层相同 Context 的值。
+- **嵌套 Provider**：内层 Provider *会覆盖*外层相同 Context 的值。
 - **非响应式更新**：*Context 的值变化不会自动触发深层组件更新，需依赖 React 渲染机制*。
 
 ---
 
-#### **7. 与状态管理库对比**
+#### 7. 与状态管理库对比
+
 | **方案**      | **适用场景**           | **特点**       |
 | ----------- | ------------------ | ------------ |
 | **Context** | *低频*全局数据（如主题、用户信息） | 轻量、内置于 React |
@@ -149,8 +152,8 @@ const value = useContext(MyContext);
 
 ---
 
-#### **8. 最佳实践**
-- **合理分层**：将 Provider 放置在组件树尽可能高的位置。
+#### 8. 最佳实践
+- **合理分层**：将 Provider 放置*在组件树尽可能高的位置*。
 - **避免滥用**：优先通过 Props 传递简单数据，Context 仅*用于跨层级共享*。
 - **类型安全**：结合 TypeScript 定义 Context 类型：
   ```ts
@@ -163,7 +166,7 @@ const value = useContext(MyContext);
 
 ---
 
-### **总结**
+### 总结
 - **核心价值**：Context 是 React 生态中*解决跨层级数据传递*的核心工具，简化全局状态管理。
 - **适用场景**：主题切换、用户认证、多语言等*低频全局数据共享*。
 - **优化策略**：拆分 Context、使用 `memo` 缓存、稳定 `value` 引用。
