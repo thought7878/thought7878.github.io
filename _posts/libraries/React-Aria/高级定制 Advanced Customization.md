@@ -70,10 +70,10 @@ The contexts consumed by each component are listed in the Advanced Customization
 插槽
 
 Some patterns include multiple instances of the same component. These use the `slot` prop to distinguish each instance. Slots are named children within a component that can receive separate behaviors and [styles](https://react-spectrum.adobe.com/react-aria/styling.html#slots). Separate props can be sent to slots by providing an object with keys for each slot name to the component's context provider.  
-某些模式包括同一组件的多个实例。它们使用 `slot`prop 来区分每个实例。插槽是组件中的命名子项，可以接收单独的行为和[样式](https://react-spectrum.adobe.com/react-aria/styling.html#slots) 。通过向组件的上下文提供者提供一个对象，该对象带有每个插槽名称的键，可以将单独的 prop 发送到插槽。
+某些模式包括*同一组件的多个实例*。它们*使用 `slot`prop 来区分每个实例*。**`插槽`是组件中的命名子组件，可以*接收单独的行为、样式，向子组件提供 props***。**通过向组件的上下文 provider 提供一个对象，该对象带有每个插槽名称的键，可以将单独的 prop 发送到插槽**。
 
 This example shows a `Stepper` component with slots for its increment and decrement buttons.  
-此示例显示了一个 `Stepper` 组件，该组件具有用于其递增和递减按钮的插槽。
+此示例显示了一个 `Stepper` 组件，该组件具有*用于其递增和递减按钮*的插槽。
 
 ```tsx
 function Stepper({children}) {
@@ -109,10 +109,10 @@ The slots provided by each built-in React Aria component are shown in the Anatom
 默认插槽
 
 The default slot is used to provide props to a component without specifying a slot name. This approach allows you to assign a default slot to a component for its default use case and enables you to specify a slot name for a specific use case.  
-默认插槽用于向组件提供 props，而无需指定插槽名称。这种方法允许您为组件的默认用例分配一个默认插槽，并允许您为特定用例指定插槽名称。
+`默认插槽`用于**向子组件提供 props，而无需指定插槽名称**。这种方法允许您为组件的默认用例分配一个默认插槽，并允许您为特定用例指定插槽名称。
 
 This example shows a custom component that passes a specific class name to a standard button child and to a button child with a slot named "end".  
-此示例显示了一个自定义组件，该组件将特定的类名传递给标准按钮子级和具有名为“end”的槽的按钮子级。
+此示例显示了一个自定义组件，该组件*将特定的类名传递给标准子按钮和具有名为“end”的槽的子按钮*。
 
 ```tsx
 import {Button, ButtonContext, DEFAULT_SLOT} from 'react-aria-components';
@@ -122,6 +122,7 @@ function MyCustomComponent({children}) {
     <ButtonContext.Provider
       value={{
         slots: {
+	      // 默认 slot
           [DEFAULT_SLOT]: {
             className: "left-button"
           },
@@ -149,7 +150,7 @@ function MyCustomComponent({children}) {
 ### Provider
 
 In complex components, you may need to provide many contexts. The `Provider` component is a utility that makes it easier to provide multiple React contexts without manually nesting them. This can be achieved by passing pairs of contexts and values as an array to the `values` prop.  
-在复杂的组件中，您可能需要提供许多上下文。`Provider` 组件是一个实用程序，可以更轻松地提供多个 React 上下文，而无需手动嵌套它们。这可以通过将上下文和值对作为数组传递给`值` prop 来实现。
+在复杂的组件中，您可能需要提供许多上下文。`Provider` 组件是一个实用程序，可以**更轻松地提供多个 React 上下文，而无需手动嵌套它们**。这可以通过*将一对上下文和值，作为数组，传递给 Provider 的 value prop 来实现*。
 
 ```tsx
 import {Provider, ButtonContext, InputContext} from 'react-aria-components';
@@ -172,6 +173,18 @@ This is equivalent to:
     {/* ... */}
   </InputContext.Provider>
 </ButtonContext.Provider>
+```
+
+源代码：
+```tsx
+export function Provider<A, B, C, D, E, F, G, H, I, J, K>({values, children}: ProviderProps<A, B, C, D, E, F, G, H, I, J, K>): JSX.Element {
+  for (let [Context, value] of values) {
+    // @ts-ignore
+    children = <Context.Provider value={value}>{children}</Context.Provider>;
+  }
+
+  return children as JSX.Element;
+}
 ```
 
 ### Consuming contexts
