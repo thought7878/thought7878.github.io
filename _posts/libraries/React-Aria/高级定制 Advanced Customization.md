@@ -190,16 +190,12 @@ export function Provider<A, B, C, D, E, F, G, H, I, J, K>({values, children}: Pr
 ### Consuming contexts
 
 You can also consume from contexts provided by React Aria Components in your own custom components. This allows you to replace a component used as part of a larger pattern with a custom implementation. For example, you could consume from `LabelContext` in an existing styled label component to make it compatible with React Aria Components.  
-您还可以在自己的自定义组件中使用 React Aria Components 提供的上下文。这使您可以用自定义实现替换作为较大模式一部分使用的组件。例如，你可以在现有的样式标签组件中使用 `LabelContext`，使其与 React Aria 组件兼容。
+您还可以*在自己的自定义组件中使用 React Aria Components 提供的上下文*。这使您可以用自定义实现替换作为较大模式一部分使用的组件。例如，你可以在现有的样式标签组件中使用 `LabelContext`，使其与 React Aria 组件兼容。
 
 #### useContextProps
 
-The 
-
-`useContextProps`
-
- hook merges the local props and ref with the ones provided via context by a parent component. The local props always take precedence over the context values (following the rules documented in [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html)). `useContextProps` supports the [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots) prop to indicate which value to consume from context.  
-`   useContextProps   ` 钩子将本地 props 和 ref 与父组件通过上下文提供的 props 和 ref 合并。本地 props 总是优先于上下文值（遵循 [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html) 中记录的规则）。`useContextProps` 支持 [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots)prop 来指示从上下文中使用哪个值。
+The `useContextProps` hook merges the local props and ref with the ones provided via context by a parent component. The local props always take precedence over the context values (following the rules documented in [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html)). `useContextProps` supports the [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots) prop to indicate which value to consume from context.  
+`useContextProps` 钩子*将本地 props 和 ref 与父组件通过上下文提供的 props 和 ref 合并*。本地 props 总是*优先于context*的值（遵循 [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html) 中记录的规则）。`useContextProps` 支持 [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots)prop 来指示从上下文中使用哪个值。
 
 ```tsx
 import type {LabelProps} from 'react-aria-components';
@@ -216,22 +212,19 @@ const MyCustomLabel = React.forwardRef(
 ```
 
 Since it consumes from `LabelContext`, `MyCustomLabel` can be used within any React Aria component instead of the built-in `Label`.  
-由于它从 `LabelContext 中`消耗，`MyCustomLabel` 可以在任何 React Aria 组件中使用，而不是内置的 `Label`。
+由于它从 `LabelContext` 中消耗，`MyCustomLabel` 可以在任何 React Aria 组件中使用，而不是内置的 `Label`。
 
 ```tsx
 <TextField>
-  <MyCustomLabel>Name</MyCustomLabel>  <Input />
+  <MyCustomLabel>Name</MyCustomLabel>  
+  <Input />
 </TextField>
 ```
 
 #### useSlottedContext
 
-To consume a context without merging with existing props, use the 
-
-`useSlottedContext`
-
- hook. This works like React's `useContext`, and also accepts an optional slot argument to identify which slot name to consume.  
-要使用上下文而不与现有 props 合并，请使用 `   useSlottedContext   ` 钩子。它的工作方式类似于 React 的 `useContext`，也接受一个可选的 slot 参数来标识要使用的 slot 名称。
+To consume a context without merging with existing props, use the `useSlottedContext` hook. This works like React's `useContext`, and also accepts an optional slot argument to identify which slot name to consume.  
+要*使用上下文而不与现有 props 合并*，请使用 `useSlottedContext` 钩子。它的工作方式类似于 React 的 `useContext`，也接受一个可选的 slot 参数来标识要使用的 slot 名称。
 
 ```tsx
 import {useSlottedContext} from 'react-aria-components';
@@ -247,7 +240,7 @@ let incrementButtonContext = useSlottedContext(ButtonContext, 'increment');
 访问状态
 
 Most React Aria Components compose other standalone components in their children to build larger patterns. However, some components are made up of more tightly coupled children. For example, [Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) includes children such as `CalendarGrid` and `CalendarCell` that cannot be used standalone, and must appear within a `Calendar` or `RangeCalendar`. These components access the state from their parent via context.  
-大多数 React Aria 组件在其子组件中组合其他独立组件以构建更大的模式。但是，某些组件由更紧密耦合的子级组成。例如，[Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) 包括不能单独使用的子项（如 `CalendarGrid` 和 `CalendarCell）`，并且必须出现在 `Calendar` 或 `RangeCalendar` 中。这些组件通过上下文从父组件访问状态。
+大多数 React Aria 组件在其子组件中*组合其他独立组件*以构建更大的模式。但是，*某些组件由更紧密耦合的子级组成*。*例如*，[Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) 包括不能单独使用的子项（如 `CalendarGrid` 和 `CalendarCell）`，并且必须出现在 `Calendar` 或 `RangeCalendar` 中。*这些组件通过上下文从父组件访问状态*。
 
 You can access the state from a parent component via the same contexts in order to build your own custom children. This example shows a `CalendarValue` component that displays the currently selected date from a calendar as a formatted string.  
 您可以通过相同的上下文从父组件访问状态，以便构建自己的自定义子组件。此示例显示一个 `CalendarValue` 组件，该组件将日历中当前选定的日期显示为格式化字符串。
@@ -258,7 +251,8 @@ import {useDateFormatter} from 'react-aria';
 import {getLocalTimeZone} from '@internationalized/date';
 
 function CalendarValue() {
-  let state = React.useContext(CalendarStateContext)!;  let date = state.value?.toDate(getLocalTimeZone());
+  let state = React.useContext(CalendarStateContext)!;  
+  let date = state.value?.toDate(getLocalTimeZone());
   let {format} = useDateFormatter();
   let formatted = date ? format(date) : 'None';
   return `Selected date: ${formatted}`;
@@ -271,7 +265,8 @@ This enables a `<CalendarValue>` to be placed inside a `<Calendar>` to displ
 ```tsx
 <Calendar>
   {/* ... */}
-  <CalendarValue /></Calendar>
+  <CalendarValue />
+</Calendar>
 ```
 
 The state interfaces and their associated contexts supported by each component are listed in the Advanced Customization section of their documentation.  
@@ -305,11 +300,7 @@ Hooks 的一些潜在用例是：
 
 ### Setup
 
-As described [above](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts), each React Aria component exports a corresponding context. You can build a custom implementation of a component using Hooks by consuming from the relevant context with 
-
-`useContextProps`
-
-.  
+As described [above](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts), each React Aria component exports a corresponding context. You can build a custom implementation of a component using Hooks by consuming from the relevant context with `useContextProps`.  
 [如上](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts)所述，每个 React Aria 组件都导出相应的上下文。您可以通过使用 `   useContextProps   ` 从相关上下文进行消费，使用 Hooks 构建组件的自定义实现。
 
 This example shows how a custom checkbox could be set up using `CheckboxContext` from `react-aria-components` and the [useCheckbox](https://react-spectrum.adobe.com/react-aria/useCheckbox.html) hook from `react-aria`.  
