@@ -277,16 +277,16 @@ The state interfaces and their associated contexts supported by each component a
 ---
 
 If you need to customize things even further, such as overriding behavior, intercepting events, or customizing DOM structure, you can drop down to the lower level Hook-based API. Hooks only provide behavior and leave all rendering to you. This gives you more control and flexibility, but requires additional glue code to set up.  
-如果您需要进一步自定义，例如重写行为、拦截事件或自定义 DOM 结构，则可以下拉到较低级别的基于 Hook 的 API。钩子只提供行为，而将所有渲染留给您。这为您提供了更多的控制和灵活性，但需要额外的粘合代码来设置。
+如果您**需要进一步自定义，例如，重写行为、拦截事件或自定义 DOM 结构**，则可以下拉到较低级别的基于 Hook 的 API。*钩子只提供行为*，而将所有渲染留给您。*这为您提供了更多的控制和灵活性*，但*需要额外的粘合代码来设置*。
 
 React Aria Components and Hooks can be used together, allowing you to mix and match depending on the level of customization you require. We recommend starting with the component API by default, and only dropping down to hooks when you need to customize something that the component API does not allow.  
-React Aria 组件和 Hooks 可以一起使用，允许您根据所需的自定义级别进行混合和匹配。我们建议默认情况下从组件 API 开始，只有当您需要自定义组件 API 不允许的内容时，才下拉到钩子。
+*React Aria 组件和 Hooks 可以一起使用*，允许您*根据所需的自定义级别进行混合*和匹配。我们*建议默认情况下从组件 API 开始，只有当您需要自定义组件 API 不允许的内容时，才下拉到钩子*。
 
 Some potential use cases for Hooks are:  
-Hooks 的一些潜在用例是：
+**Hooks 的一些潜在用例是：**
 
 - Overriding which DOM element a component renders  
-    重写组件呈现的 DOM 元素
+    重写组件渲染的 DOM 元素
 - Rendering a subset of the children (e.g. virtualized scrolling)  
     渲染子项的子集（例如虚拟滚动）
 - Intercepting a DOM event to apply conditional logic  
@@ -301,10 +301,10 @@ Hooks 的一些潜在用例是：
 ### Setup
 
 As described [above](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts), each React Aria component exports a corresponding context. You can build a custom implementation of a component using Hooks by consuming from the relevant context with `useContextProps`.  
-[如上](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts)所述，每个 React Aria 组件都导出相应的上下文。您可以通过使用 `   useContextProps   ` 从相关上下文进行消费，使用 Hooks 构建组件的自定义实现。
+[如上](https://react-spectrum.adobe.com/react-aria/advanced.html#contexts)所述，每个 React Aria 组件都导出相应的上下文。您可以通过使用 `useContextProps` 从相关上下文进行消费，使用 Hooks 构建组件的自定义实现。
 
 This example shows how a custom checkbox could be set up using `CheckboxContext` from `react-aria-components` and the [useCheckbox](https://react-spectrum.adobe.com/react-aria/useCheckbox.html) hook from `react-aria`.  
-这个例子展示了如何使用 `react-aria-components` 中`的 CheckboxContext` 和 `react-aria` 中的 [useCheckbox](https://react-spectrum.adobe.com/react-aria/useCheckbox.html) 钩子来设置自定义复选框。
+这个例子展示了如何使用 `react-aria-components` 中的 `CheckboxContext` 和 `react-aria` 中的 [useCheckbox](https://react-spectrum.adobe.com/react-aria/useCheckbox.html) 钩子来*设置自定义复选框*。
 
 ```tsx
 import type {CheckboxProps} from 'react-aria-components';
