@@ -21,7 +21,7 @@ React Aria Components API 是**围绕合成而设计的**。**组件在模式之
 ```
 
 React Aria Components automatically provide behavior to their children by passing event handlers and other attributes via context. For example, the increment and decrement buttons in a `NumberField` receive `onPress` handlers that update the value. Keeping each element of a component separate enables full styling, layout, and DOM structure control, and contexts ensure that accessibility and behavior are taken care of on your behalf.  
-**React Aria 组件通过 context 传递事件处理程序和其他属性，自动为其子组件提供行为**。*例如，`NumberField` 中的递增、递减按钮，接收更新值的 `onPress`*。**保持组件的每个元素独立，可以实现完整的样式、布局和 DOM 结构控制**，*上下文 context 可以确保可访问性和行为得到妥善处理*。
+***React Aria 组件通过 context 传递事件处理程序、其他属性，自动为其子组件提供行为***。*例如，`NumberField` 中的递增、递减按钮，接收更新值的 `onPress`*。**保持组件的每个元素独立，可以实现完整的样式、布局和 DOM 结构控制**，*上下文 context 可以确保可访问性、行为得到妥善处理*。
 
 This architecture also enables you to reuse React Aria Components in your own custom patterns, or even replace one part of a component with your own custom implementation without rebuilding the whole pattern from scratch.  
 **这种架构**还使您能够*在自己的自定义模式中重用 React Aria 组件，甚至可以使用自己的自定义实现替换组件的一部分，而无需从头开始重建整个模式*。
@@ -30,10 +30,10 @@ This architecture also enables you to reuse React Aria Components in your own cu
 自定义模式
 
 Each React Aria Component exports a corresponding context that you can use to build your own compositional APIs similar to the built-in components. You can send any prop or ref via context that you could pass to the corresponding component. The local props and ref on the component are merged with the ones passed via context, with the local props taking precedence (following the rules documented in [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html)).  
-**每个 React Aria 组件都导出一个对应的上下文，您可以使用它来构建自己的组合 API，类似于内置组件**。您可以通过上下文发送任何 prop 或 ref，并将其传递给相应的组件。**组件上的本地 props 和 ref 与通过上下文传递的 props 和 ref 合并，本地 props 优先**（遵循 mergeProps 中记录的规则）。
+**每个 React Aria 组件都导出一个对应的上下文，您可以使用它来构建自己的组合 API，类似于内置组件**。您可以**通过上下文发送任何 prop 或 ref，并将其传递给相应的组件**。*组件上的本地 props 和 ref 与通过上下文传递的 props 和 ref 合并，本地 props 优先*（遵循 mergeProps 中记录的规则）。
 
 This example shows a `FieldGroup` component that renders a group of text fields. The entire group can be marked as disabled via the `isDisabled` prop, which is passed to all child text fields via the `TextFieldContext` provider.  
-此示例显示一个呈现一组文本字段的 `FieldGroup` 组件。可以*通过 `isDisabled` 属性将整个组标记为禁用*，该属性通过 `TextFieldContext` provider *传递给所有子文本字段*。
+此示例显示一个渲染一组文本字段的 `FieldGroup` 组件。可以*通过 `isDisabled` 属性将整个组标记为禁用*，该属性通过 `TextFieldContext` provider *传递给所有子文本字段*。
 
 ```tsx
 import {TextFieldContext} from 'react-aria-components';
@@ -195,7 +195,7 @@ You can also consume from contexts provided by React Aria Components in your own
 #### useContextProps
 
 The `useContextProps` hook merges the local props and ref with the ones provided via context by a parent component. The local props always take precedence over the context values (following the rules documented in [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html)). `useContextProps` supports the [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots) prop to indicate which value to consume from context.  
-`useContextProps` 钩子*将本地 props 和 ref 与父组件通过上下文提供的 props 和 ref 合并*。本地 props 总是*优先于context*的值（遵循 [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html) 中记录的规则）。`useContextProps` 支持 [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots)prop 来指示从上下文中使用哪个值。
+`useContextProps` 钩子**将本地 props 和 ref 与父组件通过context提供的 props 和 ref 合并**。本地 props 总是*优先于context*的值（遵循 [mergeProps](https://react-spectrum.adobe.com/react-aria/mergeProps.html) 中记录的规则）。`useContextProps` 支持 [slot](https://react-spectrum.adobe.com/react-aria/advanced.html#slots)prop 来指示使用上下文中的哪个值。
 
 ```tsx
 import type {LabelProps} from 'react-aria-components';
@@ -212,7 +212,7 @@ const MyCustomLabel = React.forwardRef(
 ```
 
 Since it consumes from `LabelContext`, `MyCustomLabel` can be used within any React Aria component instead of the built-in `Label`.  
-由于它从 `LabelContext` 中消耗，`MyCustomLabel` 可以在任何 React Aria 组件中使用，而不是内置的 `Label`。
+*由于它内部使用 `LabelContext`，`MyCustomLabel` 可以在任何 React Aria 组件中使用，代替内置的 `Label`。*
 
 ```tsx
 <TextField>
@@ -277,7 +277,7 @@ The state interfaces and their associated contexts supported by each component a
 ---
 
 If you need to customize things even further, such as overriding behavior, intercepting events, or customizing DOM structure, you can drop down to the lower level Hook-based API. Hooks only provide behavior and leave all rendering to you. This gives you more control and flexibility, but requires additional glue code to set up.  
-如果您**需要进一步自定义，例如，重写行为、拦截事件或自定义 DOM 结构**，则可以下拉到较低级别的基于 Hook 的 API。*钩子只提供行为*，而将所有渲染留给您。*这为您提供了更多的控制和灵活性*，但*需要额外的粘合代码来设置*。
+如果您**需要进一步自定义，例如，重写行为、拦截事件、自定义 DOM 结构**，则可以下拉到较低级别的基于 Hook 的 API。*钩子只提供行为*，而将所有渲染留给您。*这为您提供了更多的控制和灵活性*，但*需要额外的粘合代码来设置*。
 
 React Aria Components and Hooks can be used together, allowing you to mix and match depending on the level of customization you require. We recommend starting with the component API by default, and only dropping down to hooks when you need to customize something that the component API does not allow.  
 *React Aria 组件和 Hooks 可以一起使用*，允许您*根据所需的自定义级别进行混合*和匹配。我们*建议默认情况下从组件 API 开始，只有当您需要自定义组件 API 不允许的内容时，才下拉到钩子*。
@@ -325,7 +325,7 @@ const MyCheckbox = React.forwardRef(
 ```
 
 Since `MyCheckbox` consumes from `CheckboxContext` it can be used within other React Aria Components in place of the built-in `Checkbox`, such as within a [Table](https://react-spectrum.adobe.com/react-aria/Table.html) or [GridList](https://react-spectrum.adobe.com/react-aria/GridList.html). This lets you provide a custom checkbox implementation without rewriting all other React Aria Components you might use it in.  
-由于 `MyCheckbox` 从 `CheckboxContext` 消耗，因此可以在其他 React Aria 组件中使用它来代替内置的 `Checkbox`，例如在 [Table](https://react-spectrum.adobe.com/react-aria/Table.html) 或 [GridList](https://react-spectrum.adobe.com/react-aria/GridList.html) 中。这允许您提供自定义复选框实现，而无需重写您可能使用它的所有其他 React Aria 组件。
+由于 `MyCheckbox` 使用 `CheckboxContext`，*因此可以在其他 React Aria 组件中使用它来代替内置的 `Checkbox`*，*例如*在 [Table](https://react-spectrum.adobe.com/react-aria/Table.html) 或 [GridList](https://react-spectrum.adobe.com/react-aria/GridList.html) 中。这允许您提供*自定义复选框实现*，而*无需重写可能使用它的所有其他 React Aria 组件*。
 
 ```tsx
 <GridList>

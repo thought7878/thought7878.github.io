@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-24.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-24"
+              "title": "2025-07-25"
             }
           },
           {
@@ -553,7 +553,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -578,19 +578,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "d95d63bd88fec27f",
   "lastOpenFiles": [
-    "_posts/react/总结/Context/Context.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-24.md",
     "_posts/libraries/React-Aria/高级定制 Advanced Customization.md",
+    "_posts/react/总结/Context/Context.md",
+    "_posts/读书笔记/宗教.md",
+    "_posts/读书笔记/穷人.md",
+    "_posts/读书笔记/人性.md",
     "_posts/libraries/React-Aria/NumberField/useNumberField.ts.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/libraries/React-Aria/NumberField/useNumberFieldState.ts.md",
     "_posts/libraries/React-Aria/NumberField/NumberField.tsx.md",
     "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
     "_posts/methods/学习方法/_刻意练习-DS.md",
-    "_posts/读书笔记/宗教.md",
     "_posts/methods/大脑/抑郁症.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-24.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-23.md",
     "_posts/libraries/React-Aria/NumberField",
     "_posts/libraries/React-Aria/NumberField/Number Field & Number Input.md",
@@ -604,11 +609,6 @@
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-QW.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-DS.md",
     "_posts/libraries/_my-libraries/number-input/AI Doc.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-21.md",
-    "_posts/engineering/前端工程化的定义、目标和意义.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-20.md",
-    "_posts/读书笔记/男女.md",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试",
     "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json",
