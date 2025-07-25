@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-25"
+              "title": "2025-07-26"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
+                "file": "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Styling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why React Aria?"
+              "title": "Styling"
             }
           },
           {
@@ -578,17 +578,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d95d63bd88fec27f",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/React-Aria Getting Started.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/Architecture.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Styling.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/React-Aria Getting Started.md",
     "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-DS.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
-    "_posts/libraries/React Spectrum、Aria、Stately/Architecture.md",
     "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-DS.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-QW.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/高级定制 Advanced Customization.md",
     "_posts/react/总结/Context/Context.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberField.ts.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberFieldState.ts.md",
@@ -601,13 +604,10 @@
     "_posts/读书笔记/富人.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-24.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/世界趋势/美国.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx.md",
-    "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",

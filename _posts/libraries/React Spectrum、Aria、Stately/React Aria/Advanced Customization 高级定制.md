@@ -1,3 +1,70 @@
+
+# React Aria 高级定制总结
+
+React Aria Components 采用灵活且可组合的 API 构建，具备高度可定制性。
+
+- **组件组合与上下文**：通过上下文传递事件处理程序和属性，为子组件提供行为。组件可复用，如`NumberField`复用`Button`和`Popover`组件，减少重复代码。开发者能在自定义模式中复用 React Aria Components，或替换部分组件实现。每个组件导出对应上下文，可用于构建自定义 API ，如`FieldGroup`组件通过`TextFieldContext`传递`isDisabled`属性给子`TextField`组件。
+- **插槽（Slots）**：用于区分同一组件的多个实例，可接收不同行为和样式。通过`slot`属性指定，如`Stepper`组件通过`ButtonContext`为`increment`和`decrement`插槽的按钮提供不同`onPress`行为。还存在默认插槽，可在不指定插槽名时为组件提供属性。
+- **Provider 组件**：用于在复杂组件中便捷地提供多个 React 上下文，通过`values`属性传递上下文和值的数组，功能等同于手动嵌套上下文。
+- **上下文消费**：自定义组件可通过`useContextProps`和`useSlottedContext`钩子消费 React Aria Components 提供的上下文。`useContextProps`合并本地和上下文的属性与引用，`useSlottedContext`用于不合并现有属性时消费上下文。
+- **访问状态**：部分紧密耦合的子组件通过上下文访问父组件状态，开发者可利用相同上下文构建自定义子组件，如`CalendarValue`组件获取`Calendar`的当前选中日期。
+- **钩子（Hooks）**：如需更深度定制，可使用基于钩子的 API ，其仅提供行为，渲染由开发者控制。可与组件 API 结合使用，如通过`useContextProps`和相关钩子构建自定义`Checkbox`或`NumberField`组件，在复用 React Aria Components 部分功能的同时实现定制。
+
+## 核心定制理念
+React Aria Components 基于灵活的组合式API构建，支持通过扩展现有模式或使用更低级别的钩子API实现高度定制，可根据需求混合搭配两种方式。
+
+
+## 一、上下文（Contexts）
+### 1. 组件组合设计
+- **组件通过复用，构建复杂的组合的组件**（如`NumberField`复用`Button`，`Select`复用`Popover`），*减少重复代码*，增强组合能力。
+- 示例：`NumberField`中通过`<Button slot="increment">`和`<Button slot="decrement">`复用按钮组件，**自动通过上下文接收`onPress`等行为**。
+
+### 2. 自定义模式
+- *每个组件导出对应上下文*（如`TextFieldContext`），可**通过上下文向子组件传递props**，本地props优先级*高于上下文props*（遵循`mergeProps`规则）。
+- 示例：`FieldGroup`组件通过`TextFieldContext.Provider`传递`isDisabled`，*使内部所有`TextField`自动继承该属性*。
+
+### 3. 插槽（Slots）
+- 用于*区分同一组件的多个实例*，通过`slot`属性指定，可*通过上下文的`slots`对象为不同插槽（子组件）传递专属props*。
+- `默认插槽`：通过`DEFAULT_SLOT`为未指定插槽名的组件提供默认props。
+- *示例*：Stepper组件，通过ButtonContext.Provider的slots对象，*为increment和decrement插槽的按钮分别提供增减值的onPress*。
+
+### 4. 上下文管理工具
+- `Provider`组件：**简化多上下文嵌套**，通过`values`属性*传递上下文与值的数组*（如`[[ButtonContext, ...], [InputContext, ...]]`），*等效于多层上下文嵌套*。
+
+### 5. 消费上下文
+- `useContextProps`：*合并本地props、ref与上下文props，本地props优先*，支持通过`slot`指定消费的上下文。
+- `useSlottedContext`：*直接消费指定插槽的上下文，不进行props合并*。
+- *访问父组件状态*：通过父组件上下文（如`CalendarStateContext`）获取状态，构建自定义子组件（如`CalendarValue`显示日历选中日期）。
+
+
+## 二、钩子（Hooks）
+### 1. 适用场景
+当组件API无法满足需求时，可使用低级别的钩子API，提供更细粒度的行为控制（如覆盖DOM元素、拦截事件、自定义状态管理等），且可与组件API混合使用。
+
+### 2. 基本设置
+通过组件对应上下文与钩子结合创建自定义组件，示例：使用`CheckboxContext`和`useCheckbox`钩子构建自定义复选框，可替换内置`Checkbox`用于`Table`、`GridList`等组件中。
+
+### 3. 复用子组件
+通过`Provider`将钩子返回的值传递给子组件上下文，实现父组件定制的同时复用现有子组件。示例：`CustomNumberField`通过`Provider`传递`groupProps`、`inputProps`等，复用`Group`、`Input`、`Label`等组件。
+
+### 4. 参考资源
+- 各组件的上下文、状态接口及对应钩子可参考其“高级定制”文档。
+- 可复制React Aria Components源码作为定制起点，理解钩子与上下文的协作逻辑。
+
+
+## 关键工具与API
+| 工具/API                     | 作用             |
+| -------------------------- | -------------- |
+| 组件上下文（如`TextFieldContext`） | 传递props与行为给子组件 |
+| `slot`属性                   | 区分组件实例，关联上下文插槽 |
+| `Provider`                 | 简化多上下文管理       |
+| `useContextProps`          | 合并本地与上下文props  |
+| `useSlottedContext`        | 消费指定插槽的上下文     |
+| 低级钩子（如`useCheckbox`）       | 提供行为控制，支持深度定制  |
+
+---
+# 原文
+
 [原文](https://react-spectrum.adobe.com/react-aria/advanced.html)
 
 React Aria Components is built using a flexible and composable API that you can extend to build new patterns. If you need even more customizability, drop down to the lower level Hook-based API for even more control over rendering and behavior. Mix and match as needed.  
