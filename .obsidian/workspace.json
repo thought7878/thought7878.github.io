@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/React-Aria/详解 React Spectrum、React Aria、React Stately.md",
+                "file": "_posts/libraries/React-Aria/React-Aria Getting Started.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "详解 React Spectrum、React Aria、React Stately"
+              "title": "React-Aria Getting Started"
             }
           },
           {
@@ -578,10 +578,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d95d63bd88fec27f",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/libraries/React-Aria/Architecture.md",
+    "_posts/libraries/React-Aria/React-Aria Getting Started.md",
+    "_posts/libraries/React-Aria/详解 React Spectrum、React Aria、React Stately-DS.md",
+    "_posts/libraries/React-Aria/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-DS.md",
-    "_posts/libraries/React-Aria/详解 React Spectrum、React Aria、React Stately.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-QW.md",
     "_posts/libraries/React-Aria/高级定制 Advanced Customization.md",
     "_posts/react/总结/Context/Context.md",
@@ -604,10 +607,7 @@
     "_posts/libraries/React-Aria/NumberField/NumberField.tsx.md",
     "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
     "_posts/methods/学习方法/_刻意练习-DS.md",
-    "_posts/methods/大脑/抑郁症.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-23.md",
     "_posts/libraries/React-Aria/NumberField",
-    "_posts/libraries/React-Aria/NumberField/Number Field & Number Input.md",
     "_posts/libraries/React-Aria/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试",
