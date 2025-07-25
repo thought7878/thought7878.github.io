@@ -116,7 +116,7 @@ Some components don't have all of these pieces. For example, some simple compone
 This architecture is made possible by [React Hooks](https://react.dev/reference/react/hooks), which enable the ability to reuse behavior between multiple components. Hooks allow accessing React features like state and effects from functions which can be called from any component. If you're unfamiliar with hooks, we recommend reading the documentation linked above first.  
 *这种架构是通过[React Hooks](https://react.dev/reference/react/hooks)实现的，它能够在多个组件之间**重用行为***。Hooks允许在任何组件的函数中访问React特性，如状态和效果。如果您不熟悉钩子，我们建议您先阅读上面链接的文档。
 
-![[libraries/React-Aria/media/f63b4c5431b415817350572245547d1e_MD5.png]]
+![[f63b4c5431b415817350572245547d1e_MD5.png]]
 
 
 ### State hook
@@ -159,7 +159,7 @@ The component itself may be split into unstyled and styled parts. Unstyled compo
 
 ---
 
-![[_posts/libraries/React-Aria/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg]]
+![[40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg]]
 
 Our implementation of this architecture splits each piece into three npm scopes, with individually versioned packages for each component. This allows you **incrementally adopt** this approach in your own design system and reuse as much or as little as makes sense for your usecases.  
 *我们对该架构的实现将每个部分分成三个 npm 范围*，每个组件都有单独的版本化包。这允许您在自己的设计系统中**逐步采用**这种方法，并根据您的用例尽可能多或少地重用。
