@@ -87,13 +87,13 @@ export function CounterProvider({ children }) {
 
 ### 流行的 Headless 库
 
-| 库名                  | 功能                     |
-|-----------------------|--------------------------|
-| [React Hook Form](https://react-hook-form.com/) | 表单验证               |
-| [React Aria](https://react-spectrum.adobe.com/react-aria/) | 无障碍组件逻辑         |
-| [Downshift](https://github.com/downshift-js/downshift) | 交互式输入（如自动补全） |
-| [Headless UI](https://headlessui.dev/) | Tailwind CSS 官方无头组件 |
-| [React Table](https://tanstack.com/table) | 数据表格               |
+| 库名                                                         | 功能                  |
+| ---------------------------------------------------------- | ------------------- |
+| [React Hook Form](https://react-hook-form.com/)            | 表单验证                |
+| [React Aria](https://react-spectrum.adobe.com/react-aria/) | 无障碍组件逻辑             |
+| [Downshift](https://github.com/downshift-js/downshift)     | 交互式输入（如自动补全）        |
+| [Headless UI](https://headlessui.dev/)                     | Tailwind CSS 官方无头组件 |
+| [React Table](https://tanstack.com/table)                  | 数据表格                |
 
 ---
 
