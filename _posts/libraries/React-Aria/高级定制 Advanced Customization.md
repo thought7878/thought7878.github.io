@@ -341,7 +341,7 @@ You can also provide values for React Aria Components from a Hook-based implemen
 您还可以从基于 Hook 的实现中为 React Aria Components 提供值。这允许您自定义更大模式的父组件，同时重用 React Aria 组件中子元素的现有实现。
 
 This example shows how a custom number field could be set up. First, follow the docs for [useNumberField](https://react-spectrum.adobe.com/react-aria/useNumberField.html), and then use [Provider](https://react-spectrum.adobe.com/react-aria/advanced.html#provider) to send values returned by the hook to each of the child elements via their corresponding contexts.  
-此示例显示如何设置自定义数字字段。首先，遵循 [useNumberField](https://react-spectrum.adobe.com/react-aria/useNumberField.html) 的文档，然后使用 [Provider](https://react-spectrum.adobe.com/react-aria/advanced.html#provider) 将钩子返回的值通过它们对应的上下文发送到每个子元素。
+此示例显示*如何设置自定义数字字段*。首先，遵循 [useNumberField](https://react-spectrum.adobe.com/react-aria/useNumberField.html) 的文档，然后使用 [Provider](https://react-spectrum.adobe.com/react-aria/advanced.html#provider) 将钩子返回的值通过它们对应的上下文发送到每个子元素。
 
 ```tsx
 import type {NumberFieldProps} from 'react-aria-components';
@@ -402,4 +402,4 @@ The contexts provided and consumed by each component, along with the correspondi
 每个组件提供和使用的上下文以及相应的挂钩沿着在其文档的高级自定义部分中列出。相应的 hook 文档详细介绍了每个组件的实现和 API。
 
 The [source code](https://github.com/adobe/react-spectrum/tree/main/packages/react-aria-components/src) of React Aria Components can also be a good resource when building a custom implementation of a component. This may help you understand how all of the hooks and contexts fit together. You can also start by copy and pasting the source for a component from React Aria Components into your project, using this as a starting point to make your customizations.  
-在构建组件的自定义实现时，React Aria Components 的[源代码](https://github.com/adobe/react-spectrum/tree/main/packages/react-aria-components/src)也是一个很好的资源。这可以帮助你理解所有的钩子和上下文是如何组合在一起的。您还可以从 React Aria Components 中复制并粘贴组件的源代码到您的项目中，以此为起点进行自定义。
+在构建组件的自定义实现时，React Aria Components 的[源代码](https://github.com/adobe/react-spectrum/tree/main/packages/react-aria-components/src)也是一个很好的资源。*这可以帮助你理解所有的钩子和上下文是如何组合在一起的*。您还可以从 React Aria Components 中复制并粘贴组件的源代码到您的项目中，以此为起点进行自定义。
