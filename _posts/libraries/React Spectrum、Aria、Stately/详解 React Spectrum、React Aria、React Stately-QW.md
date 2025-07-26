@@ -39,12 +39,13 @@ D --> C
 > 专注于解决复杂组件的状态逻辑问题，**不涉及任何 UI 渲染或无障碍处理**
 
 ### 为什么需要它？
-传统 React 组件的状态管理痛点：
+*传统 React 组件的状态管理痛点：*
 - 复杂交互状态难以维护（如树形选择器的展开/折叠）
 - 选择逻辑重复实现（单选/多选/范围选择）
 - 无法跨平台复用（Web 与 React Native 状态逻辑不同）
 
 ### 核心架构
+
 ```mermaid
 graph TB
 A[应用状态] --> B(React Stately Hooks)
@@ -187,13 +188,14 @@ function FileTree({ items }) {
 > 解决**最复杂**的无障碍问题，让开发者无需成为 a11y 专家
 
 ### 为什么需要它？
-WAI-ARIA 规范的复杂性：
+*WAI-ARIA 规范的复杂性：*
 - 500+ 页的官方文档
 - 键盘导航规则因组件类型而异
 - 屏幕阅读器行为差异巨大（VoiceOver vs NVDA）
 - RTL（从右到左）布局的特殊处理
 
 ### 核心架构
+
 ```mermaid
 graph LR
 A[组件状态] --> B(React Aria Hooks)
@@ -414,8 +416,8 @@ function DatePicker(props) {
 
 ### 技术亮点
 1. **ARIA 属性智能生成**  
-   - 自动计算 `aria-activedescendant` 用于列表导航
-   - 根据组件状态动态更新 `aria-expanded`, `aria-selected`
+   - *自动计算* `aria-activedescendant` 用于列表导航
+   - *根据组件状态动态更新* `aria-expanded`, `aria-selected`
    - 处理 `aria-live` 区域更新（如搜索建议）
 
 2. **键盘导航系统**  
@@ -806,4 +808,4 @@ npm install react-aria
 - 与 Figma 的实时同步
 - AI 辅助无障碍检测
 
-随着 Web 应用对**可访问性**和**设计系统一致性**的要求不断提高，React Spectrum 生态系统*代表了 UI 开发的未来方向*：**逻辑与 UI 的彻底分离**，让开发者*既能享受开箱即用的便利，又能保留完全的控制权*。对于需要构建企业级、全球化、高合规性应用的团队，*这是一套值得深入掌握的技术栈*。
+随着 Web 应用对**可访问性**和**设计系统一致性**的要求不断提高，React Spectrum 生态系统*代表了 UI 开发的未来方向*：**逻辑与 UI 的彻底分离**，让开发者*既能享受开箱即用的便利，又能保留完全的控制权*。对于需要构建企业级、全球化、高合规性应用的团队，**这是一套值得深入掌握的技术栈**。
