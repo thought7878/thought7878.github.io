@@ -7,9 +7,9 @@
 #### 2. 核心内容分类
 - **基础板块**：包含介绍（Introduction）、概念（Concepts，如可访问性、交互、国际化等）、指南（Guides，如样式、表单、客户端路由等）。
 - **组件（Components）**：按功能分类，包括按钮（Buttons）、集合（Collections）、颜色（Color）、日期时间（Date and Time）、拖放（Drag and drop）、表单（Forms）、导航（Navigation）等13类，每类下有具体组件（如Buttons包含Button、ToggleButton等）。
-- **钩子（Hooks）**：与组件对应，提供各组件的钩子函数，如按钮类有useButton、useToggleButton等；集合类有useGridList、useListBox等，支持组件的行为与可访问性实现。
-- **交互（Interactions）**：包含焦点管理（如useFocus、useFocusVisible）、拖放（如useDrag、useDrop）等钩子。
-- **工具（Utilities）**：含国际化（如I18nProvider、useLocale）、服务端渲染（如SSRProvider）、通用工具（如mergeProps、useId）等功能。
+- **钩子（Hooks）**：*与组件对应，提供各组件的钩子函数*，如*按钮类*有useButton、useToggleButton等；*集合类*有useGridList、useListBox等，支持组件的行为与可访问性实现。
+- **交互（Interactions）**：包含*焦点*管理（如useFocus、useFocusVisible）、*拖放*（如useDrag、useDrop）等钩子。
+- **工具（Utilities）**：含*国际化*（如I18nProvider、useLocale）、*服务端渲染*（如SSRProvider）、*通用工具*（如mergeProps、useId）等功能。
 
 
 #### 3. 安装方法
@@ -20,12 +20,12 @@
 
 #### 4. 使用方法
 - **构建基础组件**：
-  - React Aria 钩子提供行为与可访问性支持，不负责渲染，需用户自定义DOM结构，并将钩子返回的DOM props传递给对应元素（通过属性展开实现）。
-  - 示例：用`useButton`构建按钮组件，通过`buttonProps`实现交互，结合自定义样式即可得到支持鼠标、触摸、键盘等多端交互的可访问性按钮。
+  - React Aria 钩子提供**行为、可访问性**支持，不负责渲染，**需用户自定义DOM结构，并将钩子返回的DOM props传递给对应元素**（通过属性展开实现）。
+  - 示例：用`useButton`构建按钮组件，*通过`buttonProps`实现交互，结合自定义样式即可得到支持鼠标、触摸、键盘等多端交互的可访问性按钮*。
 
 - **构建有状态组件**：
-  - 状态管理逻辑位于`react-stately`库，需导入对应状态钩子（如`useNumberFieldState`），并将状态对象传递给React Aria钩子（如`useNumberField`）。
-  - 示例：数字字段组件结合`useNumberFieldState`（状态管理）和`useNumberField`（行为与可访问性），实现带输入验证、国际化格式的交互功能。
+  - 状态管理逻辑位于`react-stately`库，需导入对应状态钩子（如`useNumberFieldState`），并*将状态对象传递给React Aria钩子*（如`useNumberField`）。
+  - 示例：数字字段组件结合`useNumberFieldState`（*状态管理*）和`useNumberField`（*行为与可访问性*），实现带输入验证、国际化格式的交互功能。
 
 
 #### 5. 特点
@@ -40,9 +40,9 @@
 This page describes how to get started with React Aria hooks.
 本页面介绍如何开始使用 React Aria 钩子。
 
-## Installation
-
 ---
+
+## Installation
 
 React Aria can be installed using a package manager like [npm](https://docs.npmjs.com/cli/npm) or [yarn](https://classic.yarnpkg.com/lang/en/).
 可以使用诸如 [npm](https://docs.npmjs.com/cli/npm) 或 [yarn](https://classic.yarnpkg.com/lang/en/) 之类的包管理器来安装 React Aria。
@@ -71,9 +71,9 @@ import {useButton} from 'react-aria';
 import {useButton} from '@react-aria/button';
 ```
 
-## Building a component
-
 ---
+
+## Building a component
 
 React Aria provides behavior and accessibility through React Hooks. Since it does not provide any rendering, you are responsible for defining the DOM structure for your component and passing the DOM props returned by each React Aria hook to the appropriate elements. This is powerful because it allows you to be in complete control over the DOM structure that you render. For example, you may need to add extra elements for styling or layout control. You also get complete control over how you style your components: you could use CSS classes, inline styles, CSS-in-JS, etc.
 React Aria 通过 React Hook 提供行为和可访问性。由于它不提供任何渲染，因此你需要负责为组件定义 DOM 结构，并将每个 React Aria Hook 返回的 DOM 属性传递给相应的元素。这非常强大，因为它让你能够完全控制所渲染的 DOM 结构。例如，你可能需要添加额外的元素来进行样式设置或布局控制。你还可以完全控制组件的样式设置方式：你可以使用 CSS 类、内联样式、CSS-in-JS 等。
@@ -114,9 +114,9 @@ function Button(props) {
 Now you just need to add your own styling, and you have a fully accessible button component that works consistently across mouse, touch, keyboard, and screen readers with [high quality interactions](https://react-spectrum.adobe.com/blog/building-a-button-part-1.html)! See the [useButton](https://react-spectrum.adobe.com/react-aria/useButton.html) docs more examples.
 现在你只需要添加自己的样式，就能拥有一个完全可访问的按钮组件，它在鼠标、触摸、键盘和屏幕阅读器上都能一致工作，且具有[高质量的交互效果](https://react-spectrum.adobe.com/blog/building-a-button-part-1.html)！查看[useButton](https://react-spectrum.adobe.com/react-aria/useButton.html)文档以获取更多示例。
 
-## Stateful components
-
 ---
+
+## Stateful components
 
 Many components are **stateless** — they display information to a user. Examples of stateless components include buttons, progress bars, and links. These components don't update as the user interacts with them.
 许多组件是**无状态的**——它们向用户显示信息。无状态组件的示例包括按钮、进度条和链接。这些组件在用户与之交互时不会更新。

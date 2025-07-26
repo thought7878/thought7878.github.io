@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks/Hooks.md",
+                "file": "_posts/architect/关注点分离（Separation of Concerns）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hooks"
+              "title": "关注点分离（Separation of Concerns）"
             }
           },
           {
@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
+                "file": "_posts/methods/学习方法/_刻意练习-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "搭建测试的环境"
+              "title": "_刻意练习-DS"
             }
           }
         ],
@@ -553,7 +553,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -578,22 +578,29 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberFieldState.ts.md",
+    "_posts/architect/前端架构-QW.md",
+    "_posts/architect/关注点分离（Separation of Concerns）.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks/Hooks.md",
+    "_posts/读书笔记/健康/老爹/胃病.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
+    "_posts/methods/常看的.md",
+    "_posts/methods/学习方法/_刻意练习-DS.md",
+    "_posts/读书笔记/宗教.md",
+    "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberFieldState.ts.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Interactions.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Styling.md",
     "_posts/libraries/React Spectrum、Aria、Stately/Architecture.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-25.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/React-Aria Getting Started.md",
     "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-DS.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
-    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-DS.md",
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-QW.md",
     "_posts/react/总结/Context/Context.md",
@@ -602,12 +609,6 @@
     "_posts/计算机原理/0和1是如何构成画面和音频的？.md",
     "_posts/计算机原理",
     "_posts/读书笔记/常看的警示.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/读书笔记/富人.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-24.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
