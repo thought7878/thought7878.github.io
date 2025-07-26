@@ -296,6 +296,30 @@
             }
           },
           {
+            "id": "aa1d12fd22621a9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/前端架构-QW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "前端架构-QW"
+            }
+          },
+          {
             "id": "b6994b4a5ec355a1",
             "type": "leaf",
             "state": {
@@ -392,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -578,19 +602,21 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d95d63bd88fec27f",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/AI/编程/待整理的.md",
-    "_posts/architect/关注点分离（Separation of Concerns）.md",
-    "_posts/architect/前端架构-QW.md",
     "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
+    "_posts/architect/前端架构-QW.md",
+    "_posts/architect/关注点分离（Separation of Concerns）.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks/Hooks.md",
+    "_posts/AI/编程/待整理的.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "_posts/methods/学习方法/_刻意练习-DS.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/宗教.md",
     "_posts/读书笔记/健康/老爹/胃病.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
-    "_posts/methods/常看的.md",
-    "_posts/methods/学习方法/_刻意练习-DS.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberFieldState.ts.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Interactions.md",
@@ -606,8 +632,6 @@
     "_posts/libraries/_my-libraries/number-input/无头（headless）React 组件-QW.md",
     "_posts/react/总结/Context/Context.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/useNumberField.ts.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/计算机原理/0和1是如何构成画面和音频的？.md",
     "_posts/计算机原理",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",

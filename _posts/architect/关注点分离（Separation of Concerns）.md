@@ -113,7 +113,7 @@ A -->|提供| F[视觉表现]
 
 ### 1. 第一层：React Stately（状态管理层）
 
-**关注点**：*纯粹的数据状态管理，不涉及 UI 或无障碍*
+**关注点**：*纯粹的数据、状态管理，不涉及 UI 或无障碍*
 
 **解决的问题**：
 - 组件内部状态的复杂管理（如树形结构的展开/折叠）
@@ -122,11 +122,11 @@ A -->|提供| F[视觉表现]
 - 表单验证
 
 **关键特征**：
-- **平台无关**：同一套状态逻辑可用于 Web、React Native、Electron
+- **平台无关**：同一套状态逻辑*可用于 Web、React Native、Electron*
 - **纯函数**：不依赖 React 生命周期
 - **事务性更新**：保证状态一致性
 
-**示例：`useListState` 的实现**
+*示例*：`useListState` 的实现
 ```jsx
 // react-stately/src/useListState.ts
 export function useListState<T extends object>(props: ListStateProps<T>): ListState<T> {
@@ -174,21 +174,22 @@ export function useListState<T extends object>(props: ListStateProps<T>): ListSt
 
 ### 2. 第二层：React Aria（无障碍逻辑层）
 
-**关注点**：*将状态转化为无障碍交互，不涉及具体 UI 渲染*
+**关注点**：*将状态转化为无障碍交互、组件行为，不涉及具体 UI 渲染*
 
 **解决的问题**：
-- WAI-ARIA 属性的正确生成
+- *WAI-ARIA 属性的正确生成*
+- *组件行为的正确生成*
 - 键盘导航逻辑
 - 焦点管理
 - 屏幕阅读器支持
 - 国际化处理
 
 **关键特征**：
-- **状态驱动**：接收状态，输出 props
+- **状态驱动**：接收状态，输出 props（WAI-ARIA 属性、事件属性）
 - **平台适配**：Web 和 React Native 的不同实现
 - **符合标准**：严格遵循 WAI-ARIA 1.2 规范
 
-**示例：`useButton` 的实现**
+*示例*：`useButton` 的实现
 ```jsx
 // react-aria/src/useButton.ts
 export function useButton(props: AriaButtonProps, ref: RefObject<HTMLElement>) {
@@ -243,9 +244,9 @@ export function useButton(props: AriaButtonProps, ref: RefObject<HTMLElement>) {
 ```
 
 **关键洞察**：  
-- 不知道按钮长什么样
-- 不知道如何渲染
-- 只关心**交互逻辑和无障碍属性**
+- *不知道按钮长什么样*
+- *不知道如何渲染*
+- *只关心**交互逻辑、无障碍属性***
 - 输出的是**纯 props 对象**
 
 ### 3. 第三层：React Spectrum（UI 渲染层）
@@ -263,7 +264,7 @@ export function useButton(props: AriaButtonProps, ref: RefObject<HTMLElement>) {
 - **平台特定实现**：Web 与 React Native 的不同组件
 - **设计系统绑定**：严格遵循 Spectrum 规范
 
-**示例：`Button` 组件的实现**
+*示例*：`Button` 组件的实现
 ```jsx
 // react-spectrum/src/Button.tsx
 import { 
@@ -288,7 +289,7 @@ export function Button(props: SpectrumButtonProps) {
   // 3. 处理样式 props
   let { styleProps } = useStyleProps(props);
   
-  // 4. 根据主题和状态计算样式
+  // 4. 根据主题、状态，计算样式
   let styles = useProviderProps({
     variant,
     size,
@@ -313,10 +314,10 @@ export function Button(props: SpectrumButtonProps) {
 ```
 
 **关键洞察**：  
-- 不知道无障碍逻辑如何工作
-- 不管理内部状态
-- 只负责**视觉呈现**
-- 可以完全替换实现而不影响逻辑
+- *不知道无障碍逻辑如何工作*
+- *不管理内部状态*
+- *只负责**视觉呈现***
+- *可以完全替换实现，而不影响状态、无障碍与行为的逻辑*
 
 ---
 
@@ -355,7 +356,7 @@ const { buttonProps } = useButton({
 ```
 
 **价值**：  
-- 无障碍实现从**应用层**转移到**基础设施层**
+- *无障碍的实现，从**应用层**转移到**基础设施层***
 - 普通开发者也能构建合规应用
 - 无障碍质量得到**系统性保障**
 
