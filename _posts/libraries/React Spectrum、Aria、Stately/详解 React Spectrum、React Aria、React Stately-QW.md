@@ -16,7 +16,7 @@ D --> B
 D --> C
 ```
 
-### 核心理念：关注点分离（Separation of Concerns）
+### **核心理念：关注点分离（Separation of Concerns）**
 参考：[[关注点分离（Separation of Concerns）]]
 
 | 层级         | 库              | 职责               | 类比       |
