@@ -3,7 +3,7 @@
 
 React Aria Components 采用灵活且可组合的 API 构建，具备高度可定制性。
 
-- **组件组合与上下文**：通过上下文传递事件处理程序和属性，为子组件提供行为。组件可复用，如`NumberField`复用`Button`和`Popover`组件，减少重复代码。开发者能在自定义模式中复用 React Aria Components，或替换部分组件实现。每个组件导出对应上下文，可用于构建自定义 API ，如`FieldGroup`组件通过`TextFieldContext`传递`isDisabled`属性给子`TextField`组件。
+- **组件组合与上下文**：通过上下文**传递事件处理程序、属性，为子组件提供行为**。*组件可复用*，如`NumberField`复用`Button`和`Popover`组件，减少重复代码。开发者能在自定义模式中*复用 React Aria Components，或替换部分组件实现*。*每个组件导出对应上下文，可用于构建自定义 API*，如`FieldGroup`组件*通过TextFieldContext传递isDisabled属性给子TextField组件*。
 - **插槽（Slots）**：用于区分同一组件的多个实例，可接收不同行为和样式。通过`slot`属性指定，如`Stepper`组件通过`ButtonContext`为`increment`和`decrement`插槽的按钮提供不同`onPress`行为。还存在默认插槽，可在不指定插槽名时为组件提供属性。
 - **Provider 组件**：用于在复杂组件中便捷地提供多个 React 上下文，通过`values`属性传递上下文和值的数组，功能等同于手动嵌套上下文。
 - **上下文消费**：自定义组件可通过`useContextProps`和`useSlottedContext`钩子消费 React Aria Components 提供的上下文。`useContextProps`合并本地和上下文的属性与引用，`useSlottedContext`用于不合并现有属性时消费上下文。
