@@ -4,11 +4,11 @@
 React Aria Components 采用灵活且可组合的 API 构建，具备高度可定制性。
 
 - **组件组合与上下文**：通过上下文**传递事件处理程序、属性，为子组件提供行为**。*组件可复用*，如`NumberField`复用`Button`和`Popover`组件，减少重复代码。开发者能在自定义模式中*复用 React Aria Components，或替换部分组件实现*。*每个组件导出对应上下文，可用于构建自定义 API*，如`FieldGroup`组件*通过TextFieldContext传递isDisabled属性给子TextField组件*。
-- **插槽（Slots）**：用于区分同一组件的多个实例，可接收不同行为和样式。通过`slot`属性指定，如`Stepper`组件通过`ButtonContext`为`increment`和`decrement`插槽的按钮提供不同`onPress`行为。还存在默认插槽，可在不指定插槽名时为组件提供属性。
-- **Provider 组件**：用于在复杂组件中便捷地提供多个 React 上下文，通过`values`属性传递上下文和值的数组，功能等同于手动嵌套上下文。
-- **上下文消费**：自定义组件可通过`useContextProps`和`useSlottedContext`钩子消费 React Aria Components 提供的上下文。`useContextProps`合并本地和上下文的属性与引用，`useSlottedContext`用于不合并现有属性时消费上下文。
-- **访问状态**：部分紧密耦合的子组件通过上下文访问父组件状态，开发者可利用相同上下文构建自定义子组件，如`CalendarValue`组件获取`Calendar`的当前选中日期。
-- **钩子（Hooks）**：如需更深度定制，可使用基于钩子的 API ，其仅提供行为，渲染由开发者控制。可与组件 API 结合使用，如通过`useContextProps`和相关钩子构建自定义`Checkbox`或`NumberField`组件，在复用 React Aria Components 部分功能的同时实现定制。
+- **插槽（Slots）**：用于*区分同一组件的多个实例*，可**接收不同行为和样式**。通过`slot`属性指定，如`Stepper`组件通过`ButtonContext`为`increment`和`decrement`插槽的按钮*提供不同`onPress`行为*。还存在默认插槽，可在不指定插槽名时为组件提供属性。
+- **Provider 组件**：用于在复杂组件中**便捷地提供多个 React 上下文**，通过`values`属性*传递上下文和值的数组*，功能*等同于手动嵌套上下文*。
+- **上下文消费**：自定义组件可通过`useContextProps`和`useSlottedContext`钩子消费 React Aria Components 提供的上下文。`useContextProps`*合并本地和上下文的属性与引用*，`useSlottedContext`用于*不合并现有属性*时消费上下文。
+- **访问状态**：*部分紧密耦合的子组件通过上下文访问父组件状态*，开发者可*利用相同上下文构建自定义子组件*。*如*，`CalendarValue`组件获取`Calendar`的当前选中日期。
+- **钩子（Hooks）**：如需*更深度定制*，可使用基于钩子的 API ，其仅提供行为，渲染由开发者控制。可与组件 API 结合使用，如，通过`useContextProps`和相关钩子构建自定义`Checkbox`或`NumberField`组件，*在复用 React Aria Components 部分功能的同时实现定制*。
 
 ## 核心定制理念
 React Aria Components 基于灵活的组合式API构建，支持通过扩展现有模式或使用更低级别的钩子API实现高度定制，可根据需求混合搭配两种方式。
@@ -307,7 +307,7 @@ let incrementButtonContext = useSlottedContext(ButtonContext, 'increment');
 访问状态
 
 Most React Aria Components compose other standalone components in their children to build larger patterns. However, some components are made up of more tightly coupled children. For example, [Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) includes children such as `CalendarGrid` and `CalendarCell` that cannot be used standalone, and must appear within a `Calendar` or `RangeCalendar`. These components access the state from their parent via context.  
-大多数 React Aria 组件在其子组件中*组合其他独立组件*以构建更大的模式。但是，*某些组件由更紧密耦合的子级组成*。*例如*，[Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) 包括不能单独使用的子项（如 `CalendarGrid` 和 `CalendarCell）`，并且必须出现在 `Calendar` 或 `RangeCalendar` 中。*这些组件通过上下文从父组件访问状态*。
+大多数 React Aria 组件在其子组件中*组合其他独立组件*以构建更大的模式。但是，*某些组件由更紧密耦合的子级组成*。*例如*，[Calendar](https://react-spectrum.adobe.com/react-aria/Calendar.html) 包括不能单独使用的子项（如 `CalendarGrid` 和 `CalendarCell）`，并且必须出现在 `Calendar` 或 `RangeCalendar` 中。**这些组件通过上下文访问父组件的状态**。
 
 You can access the state from a parent component via the same contexts in order to build your own custom children. This example shows a `CalendarValue` component that displays the currently selected date from a calendar as a formatted string.  
 您可以通过相同的上下文从父组件访问状态，以便构建自己的自定义子组件。此示例显示一个 `CalendarValue` 组件，该组件将日历中当前选定的日期显示为格式化字符串。
