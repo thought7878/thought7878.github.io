@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
+                "file": "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx(Component).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced Customization 高级定制"
+              "title": "NumberField.tsx(Component)"
             }
           },
           {
@@ -577,7 +577,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,11 +602,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d95d63bd88fec27f",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx(Component).md",
     "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx(Spectrum).md",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
     "_posts/architect/关注点分离（Separation of Concerns）.md",
     "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-27.md",

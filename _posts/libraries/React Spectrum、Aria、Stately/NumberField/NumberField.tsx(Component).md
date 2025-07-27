@@ -93,8 +93,8 @@ let {
 } = useNumberField({...removeDataAttributes(props), label, validationBehavior}, state, inputRef);
 ```
 - **ARIA行为与属性**：
-  - 使用`useNumberField`（来自`react-aria`）生成符合无障碍规范的属性（如`inputProps`、`incrementButtonProps`）。
-  - `removeDataAttributes`过滤掉非DOM属性，避免传递给原生元素。
+  - 使用`useNumberField`（来自`react-aria`）生成符合*无障碍规范的属性*（如`inputProps`、`incrementButtonProps`）。
+  - `removeDataAttributes`*过滤掉非DOM属性*，避免传递给原生元素。
   - `useSlot`处理`label`插槽，允许自定义标签内容。
 
 ```ts
