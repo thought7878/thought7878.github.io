@@ -76,7 +76,7 @@ function NumberField(props: NumberFieldProps, ref: ForwardedRef<HTMLDivElement>)
   - **上下文属性合并**：通过`useContextProps`将组件的props和ref注入到上下文中，供子组件使用。
   - **验证行为**：优先使用props中的[validationBehavior](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/NumberField.tsx#L51-L51)，其次从[FormContext](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-spectrum/form/src/Form.tsx#L25-L25)继承，最后回退到`native`（浏览器原生验证）。
   - **国际化**：通过[useLocale](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-aria/i18n/src/context.tsx#L53-L57)获取当前区域设置，传递给[useNumberFieldState](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-stately/numberfield/src/useNumberFieldState.ts#L83-L349)以支持本地化格式化。
-  - **状态管理**：调用[useNumberFieldState](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-stately/numberfield/src/useNumberFieldState.ts#L83-L349)（来自`react-stately`）管理数值、验证、步进逻辑等核心状态。
+  - **状态管理**：调用[useNumberFieldState](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-stately/numberfield/src/useNumberFieldState.ts#L83-L349)（来自`react-stately`）管理*数值、验证、步进逻辑*等核心状态。
 
 ```ts
 let inputRef = useRef<HTMLInputElement>(null);
@@ -92,8 +92,8 @@ let {
   ...validation
 } = useNumberField({...removeDataAttributes(props), label, validationBehavior}, state, inputRef);
 ```
-- **ARIA行为与属性**：
-  - 使用`useNumberField`（来自`react-aria`）生成符合*无障碍规范的属性*（如`inputProps`、`incrementButtonProps`）。
+- **ARIA行为、事件的属性**：
+  - 使用`useNumberField`（来自`react-aria`）生成符合*无障碍规范、事件的属性*（如`inputProps`、`incrementButtonProps`）。
   - `removeDataAttributes`*过滤掉非DOM属性*，避免传递给原生元素。
   - `useSlot`处理`label`插槽，允许自定义标签内容。
 
@@ -109,20 +109,20 @@ let renderProps = useRenderProps({
 });
 ```
 - **渲染属性**：
-  - `useRenderProps`处理`renderProps`逻辑，合并组件状态（如`isDisabled`、`isInvalid`）到最终渲染属性中。
-  - `defaultClassName`为组件提供默认CSS类名（`react-aria-NumberField`）。
+  - `useRenderProps`处理`renderProps`逻辑，*合并组件状态（如`isDisabled`、`isInvalid`）到最终渲染属性中*。
+  - `defaultClassName`为组件提供*默认CSS类名*（`react-aria-NumberField`）。
 
 ```ts
 let DOMProps = filterDOMProps(props);
 delete DOMProps.id;
 ```
 - **DOM属性处理**：
-  - `filterDOMProps`过滤掉非DOM属性（如`onChange`、`value`），避免传递给原生元素。
+  - `filterDOMProps`*过滤掉非DOM属性*（如`onChange`、`value`），避免传递给原生元素。
   - 删除`id`属性，由`labelProps`动态管理。
 
 ---
 
-### 4. **渲染与上下文传递**
+### 4. 渲染与上下文传递
 ```tsx
 return (
   <Provider
@@ -163,29 +163,29 @@ return (
 );
 ```
 - **上下文传递**：
-  - 使用`Provider`将状态和属性分发给子组件：
-    - `NumberFieldStateContext`：传递状态（如`numberValue`）。
-    - `InputContext`：传递输入框属性和`inputRef`。
-    - `ButtonContext`：传递步进按钮的props（`incrementButtonProps`、`decrementButtonProps`）。
-    - `TextContext`：传递描述和错误信息的props。
-    - `FieldErrorContext`：传递验证错误信息。
+  - 使用`Provider`*将状态和属性分发给子组件：*
+    - `NumberFieldStateContext`：*传递状态*（如`numberValue`）。
+    - `InputContext`：传递*输入框属性、`inputRef`*。
+    - `ButtonContext`：传递*步进按钮的props*（`incrementButtonProps`、`decrementButtonProps`）。
+    - `TextContext`：传递*描述、错误信息的props*。
+    - `FieldErrorContext`：传递*验证错误信息*。
   - **子组件可通过上下文访问属性**，例如：
     ```tsx
-    // 示例：子组件中获取输入框的props
+    // 示例：子组件中，获取输入框的props
     const inputProps = useContext(InputContext);
     <input {...inputProps} />
     ```
 
 - **根元素与状态属性**：
-  - `<div>`作为根容器，合并`DOMProps`和`renderProps`，并通过`data-disabled`、`data-invalid`暴露状态到CSS选择器。
-  - `slot`属性用于支持插槽（如`<NumberField.Label>`）。
+  - `<div>`作为*根容器*，合并`DOMProps`和`renderProps`，并通过`data-disabled`、`data-invalid`*暴露状态到CSS选择器*。
+  - `slot`属性用于支持插槽（*如*`<NumberField.Label>`）。
 
 - **隐藏的`<input>`**：
-  - 当组件有`name`属性时，渲染一个隐藏的`<input>`，用于表单提交时传递数值（`value={state.numberValue}`）。
+  - 当组件*有`name`属性*时，渲染一个隐藏的`<input>`，用于*表单提交时传递数值*（`value={state.numberValue}`）。
 
 ---
 
-### 5. **组件导出**
+### 5. 组件导出
 ```ts
 const _NumberField = /*#__PURE__*/ (forwardRef as forwardRefType)(NumberField);
 export {_NumberField as NumberField};
@@ -195,7 +195,7 @@ export {_NumberField as NumberField};
 
 ---
 
-### 6. **功能总结**
+### 6. 功能总结
 该组件实现了以下核心功能：
 1. **状态管理**：通过`useNumberFieldState`处理数值、验证、步进操作。
 2. **无障碍支持**：通过`useNumberField`生成符合ARIA规范的属性（如`aria-label`、`aria-valuemin`）。
@@ -206,34 +206,34 @@ export {_NumberField as NumberField};
 
 ---
 
-### 7. **与React Spectrum架构的关联**
+### 7. 与React Spectrum架构的关联
 根据用户提供的项目架构信息：
 - **Monorepo结构**：组件属于`react-aria-components`，与`react-spectrum`、`react-aria`、`react-stately`协同工作。
 - **技术选型**：
   - 使用React Hooks（如[useContextProps](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L179-L210)、[useRenderProps](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L90-L133)）。
   - 支持TypeScript类型安全。
 - **设计模式**：
-  - **钩子模式**：通过[useNumberFieldState](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-stately/numberfield/src/useNumberFieldState.ts#L83-L349)和[useNumberField](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-aria/numberfield/src/useNumberField.ts#L57-L324)分离状态与行为。
-  - **上下文模式**：通过[Provider](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L629-L629)和[useContext](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L1648-L1648)实现组件间通信。
-  - **插槽模式**：通过[useSlot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L212-L232)支持灵活的子元素定制。
+  - **钩子模式**：通过[useNumberFieldState](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-stately/numberfield/src/useNumberFieldState.ts#L83-L349)和[useNumberField](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-aria/numberfield/src/useNumberField.ts#L57-L324)*分离状态与行为*。
+  - **上下文模式**：通过[Provider](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L629-L629)和[useContext](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L1648-L1648)*实现组件间通信*。
+  - **插槽模式**：通过[useSlot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L212-L232)*支持灵活的子元素定制*。
 
 ---
 
-### 8. **关键抽象与可扩展性**
-- **无样式设计**：组件本身不包含CSS，通过[renderProps](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/NumberField.tsx#L76-L84)和插槽支持完全自定义样式。
-- **可组合性**：子组件（如[Label](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-spectrum/label/src/Label.tsx#L24-L78)、[StepButton](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-spectrum/numberfield/src/StepButton.tsx#L32-L77)）通过上下文访问状态和props，无需显式传递。
+### 8. 关键抽象与可扩展性
+- **无样式设计**：组件本身*不包含CSS*，通过renderProps、插槽*支持完全自定义样式*。
+- **可组合性**：子组件（如Label）**通过上下文访问状态、props，*无需显式传递***。
 - **验证与表单集成**：支持[validationBehavior](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/NumberField.tsx#L51-L51)（native或aria），并通过隐藏的`<input>`确保表单兼容性。
 
 ---
 
-### 9. **与React Spectrum项目的兼容性**
+### 9. 与React Spectrum项目的兼容性
 - **国际化**：继承`react-aria`的[useLocale](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-aria/i18n/src/context.tsx#L53-L57)，支持多语言。
 - **无障碍**：通过[useNumberField](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/@react-aria/numberfield/src/useNumberField.ts#L57-L324)生成ARIA属性，符合WAI-ARIA标准。
 - **状态共享**：与`react-stately`的状态管理无缝集成，确保跨平台一致性。
 
 ---
 
-### 10. **典型用法示例**
+### 10. 典型用法示例
 ```tsx
 <NumberField label="数量" minValue={0} maxValue={100} step={1}>
   <Label>数量</Label>
@@ -251,25 +251,25 @@ export {_NumberField as NumberField};
 
 ---
 
-### 11. **与`react-spectrum`的对比**
+### 11. 与`react-spectrum`的对比
 - **`react-spectrum/NumberField`**：
-  - 包含预定义样式（基于Spectrum设计系统）。
+  - *包含预定义样式*（基于Spectrum设计系统）。
   - 直接渲染`TextFieldBase`、`StepButton`等具体UI组件。
 - **`react-aria-components/NumberField`**：
-  - 无样式，仅提供行为和状态管理。
-  - 通过上下文和插槽支持完全自定义UI。
+  - *无样式，仅提供行为和状态管理*。
+  - *通过上下文、插槽支持完全自定义UI*。
 
 ---
 
-### 12. **代码亮点**
-1. **上下文驱动的组件通信**：通过多个上下文（如[NumberFieldStateContext](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/NumberField.tsx#L46-L46)、`InputContext`）解耦组件层级。
-2. **插槽模式**：通过[useSlot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L212-L232)和[slot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L2684-L2684)属性支持灵活的子元素定制。
+### 12. 代码亮点
+1. **上下文驱动的组件通信**：*通过多个上下文，解耦组件层级*。
+2. **插槽模式**：通过[useSlot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/packages/react-aria-components/src/utils.tsx#L212-L232)和[slot](file:///Users/ll/Desktop/learn-notes/frontend/react/3rd/react-spectrum/node_modules/@types/react/index.d.ts#L2684-L2684)属性*支持灵活的子元素定制*。
 3. **无样式设计**：组件本身不绑定样式，依赖用户自定义，符合Headless UI设计原则。
 4. **渐进增强**：隐藏的`<input>`确保基础功能（表单提交）在无JavaScript时仍可用。
 
 ---
 
-### 13. **关键依赖关系**
+### 13. 关键依赖关系
 ```
 NumberField
 ├── useNumberFieldState (react-stately) → 状态管理
@@ -278,4 +278,4 @@ NumberField
 ├── useRenderProps → 自定义渲染
 └── useSlot → 插槽支持
 ```
-通过组合这些钩子，组件实现了高可定制性和可访问性。
+通过组合这些钩子，组件实现了高可定制性、可访问性。
