@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-29.md",
+                "file": "DailyNote/Journal/01 Daily/2025/07/2025-07-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-29"
+              "title": "2025-07-30"
             }
           },
           {
@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端高级工程师的简历-QW"
+              "title": "前端高级工程师的简历-DS"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -479,7 +479,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -602,35 +603,35 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/如何在前端高级工程师简历中专业介绍京东商智.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/什么组件合适？.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/AccessibleForm —— 企业级无障碍表单系统.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/7个能让你简历脱颖而出的高价值组件项目.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/6个.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx(Component).md",
-    "_posts/libraries/_my-libraries/什么组件合适？",
-    "_posts/libraries/React Spectrum、Aria、Stately/NumberField/NumberField.tsx(Spectrum).md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-29.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-28.md",
-    "_posts/methods/学习方法/_刻意练习-DS.md",
-    "_posts/AI/趋势.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-27.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Advanced Customization 高级定制.md",
-    "_posts/architect/关注点分离（Separation of Concerns）.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-26.md",
-    "_posts/architect/前端架构-QW.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks/Hooks.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
+    "_posts/performance/overview-需要整理.md",
+    "_posts/要整理的.md",
     "_posts/AI/编程/待整理的.md",
+    "_posts/engineering/webpack/构建性能/**实际案例**.md",
+    "_posts/methods/学习方法/_刻意练习-DS.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/engineering/自动化测试/Jest/搭建测试的环境.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/architect/前端架构-QW.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-30.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
+    "_posts/methods/学习方法/_SQ3R阅读法.md",
+    "_posts/methods/构建系统/_如何制定计划、目标？.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/宗教.md",
+    "_posts/AI/使用方法.md",
+    "_posts/methods/学习方法/Overview.md",
+    "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
+    "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
+    "DailyNote/Journal/01 Daily/2025/07/2025-07-29.md",
+    "_posts/libraries/_my-libraries/什么组件合适？",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
     "_posts/计算机原理",

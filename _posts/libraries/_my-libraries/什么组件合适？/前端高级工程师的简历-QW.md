@@ -1,7 +1,7 @@
 # 张明 | 前端高级工程师
 
-**电话**: +86 138-XXXX-XXXX | **邮箱**: zhangming@email.com  
-**GitHub**: github.com/zhangming-dev | **个人网站**: zhangming.dev  
+**电话**: +86 138-XXXX-XXXX                    | **邮箱**: zhangming@email.com  
+**GitHub**: github.com/zhangming-dev   | **个人网站**: zhangming.dev  
 **所在地**: 上海
 
 ---

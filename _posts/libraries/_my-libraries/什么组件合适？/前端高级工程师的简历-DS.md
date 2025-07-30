@@ -88,7 +88,7 @@
 
 ### 姓名：张明  
 **电话**：+86 138-XXXX-XXXX  
-**邮箱**：zhangming@example.com  
+**邮箱**： zhangming@example.com  
 **GitHub**：github.com/zhangming (附技术项目)  
 **技术博客**：zhangming.tech (可选)  
 **求职意向**：前端高级工程师  
