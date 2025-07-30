@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
+                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端高级工程师的简历-DS"
+              "title": "前端高级工程师的简历-QW"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -479,8 +479,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -603,10 +602,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/libraries/shadcn/issues 记录.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/什么组件合适？.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
+    "_posts/读书笔记/旅居、旅行.md",
     "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
     "_posts/performance/overview-需要整理.md",
     "_posts/要整理的.md",
@@ -614,7 +618,6 @@
     "_posts/engineering/webpack/构建性能/**实际案例**.md",
     "_posts/methods/学习方法/_刻意练习-DS.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/architect/前端架构-QW.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-30.md",
@@ -627,10 +630,6 @@
     "_posts/AI/使用方法.md",
     "_posts/methods/学习方法/Overview.md",
     "_posts/interview/教程/Interviewing for Front-End Engineers/3. Initial Call/3.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
-    "_posts/algorithm & 数据结构/算法题/链表/4.快慢指针—删除链表的倒数第 N 个结点.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-29.md",
     "_posts/libraries/_my-libraries/什么组件合适？",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
