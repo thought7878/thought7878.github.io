@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端工程化的知识点-待整理"
+              "title": "_现代前端开发工具链"
             }
           },
           {
@@ -604,19 +604,23 @@
   },
   "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "_posts/architect/前端架构-QW.md",
-    "_posts/methods/常看的.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/webpack/Why、What.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Vite-DS.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
+    "_posts/读书笔记/权力.md",
+    "_posts/读书笔记/社会 & 资本主义.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/糖尿病/记录/6月.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-01.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-31.md",
     "DailyNote/Journal/01 Daily/2025/08",
-    "_posts/读书笔记/健康/老爹/支气管哮喘.md",
-    "_posts/读书笔记/权力.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
     "_posts/读书笔记/media",
     "_posts/methods/学习方法/_刻意练习-DS.md",
     "DailyNote/Journal/01 Daily/2025/07/2025-07-30.md",
@@ -626,12 +630,8 @@
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/methods/要整理的.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
     "_posts/performance/overview-需要整理.md",
     "_posts/要整理的.md",
-    "_posts/AI/编程/待整理的.md",
-    "_posts/engineering/webpack/构建性能/**实际案例**.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "_posts/libraries/_my-libraries/什么组件合适？",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",

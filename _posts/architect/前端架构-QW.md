@@ -48,7 +48,7 @@ src/
 
 - 使用组件驱动开发（Component-Driven Development）
 - 分层设计：原子 → 分子 → 有机体（Atomic Design）
-- 提取高内聚低耦合的组件库或设计系统（Design System）
+- 提取高内聚低耦合的*组件库*或*设计系统*（Design System）
 
 ### 4. 状态管理（State Management）
 
