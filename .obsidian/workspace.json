@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "经典书籍《原子习惯》精读，帮你摧毁99%的无效努力"
+              "title": "_面试官的提问"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/病/肺心病.md",
+                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "肺心病"
+              "title": "糖尿病"
+            }
+          },
+          {
+            "id": "6c475467fa710099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经典书籍《原子习惯》精读，帮你摧毁99%的无效努力"
             }
           }
         ],
@@ -626,18 +650,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
+    "_posts/architect/前端架构-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/architect/前端架构-DS.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-02.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-01.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/健康/老爹/病/肺心病.md",
+    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
+    "_posts/methods/常看的.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-01.md",
     "_posts/读书笔记/男女.md",
     "_posts/engineering/webpack/Why、What.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
-    "_posts/architect/前端架构-QW.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘.md",
     "_posts/读书笔记/健康/老爹/病/胃病.md",
     "_posts/读书笔记/健康/老爹/氨茶碱.md",
@@ -645,18 +678,9 @@
     "_posts/读书笔记/健康/老爹/病/支气管哮喘.md",
     "_posts/读书笔记/健康/老爹/病/慢性阻塞性肺疾病（COPD）.md",
     "_posts/读书笔记/权力.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Vite-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "_posts/读书笔记/健康/糖尿病/记录/6月.md",
-    "DailyNote/Journal/01 Daily/2025/07/2025-07-31.md",
     "DailyNote/Journal/01 Daily/2025/08",
     "_posts/读书笔记/media",
-    "_posts/methods/学习方法/_刻意练习-DS.md",
     "_posts/libraries/_my-libraries/什么组件合适？",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
