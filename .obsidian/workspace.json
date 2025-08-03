@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_高级前端开发面试准备指南-DS"
+              "title": "_现代前端开发工具链"
             }
           },
           {
@@ -680,13 +680,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
-    "_posts/architect/前端架构-QW.md",
+    "_posts/engineering/打包工具（Module Bundler）",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/architect/前端架构-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "DailyNote/Journal/01 Daily/2025/08/media",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/interview/简历/商智/简历中的京东商智-DS.md",
     "_posts/interview/简历/商智/商智.md",
@@ -694,7 +697,6 @@
     "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/interview/简历/商智/技术架构.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
     "DailyNote/Journal/01 Daily/未完成 & 计划的任务.md",
     "_posts/interview/简历/商智/简历中的京东商智-QW.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
@@ -708,7 +710,6 @@
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/读书笔记/常看的警示.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/architect/前端架构-DS.md",
     "_posts/读书笔记/健康/老爹/病",
     "DailyNote/Journal/01 Daily/2025/08",
     "_posts/读书笔记/media",
@@ -716,10 +717,8 @@
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
     "_posts/计算机原理",
-    "_posts/libraries/React Spectrum、Aria、Stately/NumberField",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
-    "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/Pasted image 20250712151116.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/e6a4ed95386e32fa594d8a47caed003d_MD5.png",
