@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-02.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-02"
+              "title": "2025-08-03"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/简历中的京东商智-QW.md",
+                "file": "_posts/interview/简历/商智/技术架构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "简历中的京东商智-QW"
+              "title": "技术架构"
             }
           },
           {
@@ -652,32 +652,33 @@
   },
   "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/interview/简历/简历中的京东商智-DS.md",
-    "_posts/interview/简历中的京东商智-QW.md",
+    "_posts/interview/简历/商智/商智.md",
+    "_posts/interview/简历/商智/简历中的京东商智-QW.md",
+    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/interview/简历/商智/简历中的京东商智-DS.md",
     "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
-    "_posts/读书笔记/旅居、旅行.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
     "_posts/architect/前端架构-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-02.md",
+    "_posts/interview/简历/商智/技术架构.md",
+    "_posts/interview/简历/商智/业务模块.md",
+    "_posts/interview/简历/商智/业务模块操作指南.md",
+    "_posts/interview/简历/商智/《京东商智技术方案脱敏模板》（含架构图、性能数据）.md",
+    "_posts/interview/简历/商智",
+    "_posts/读书笔记/旅居、旅行.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/读书笔记/常看的警示.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
     "_posts/architect/前端架构-DS.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-02.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/健康/老爹/病/肺心病.md",
-    "_posts/methods/构建系统/《原子习惯》/《原子习惯》.md",
-    "_posts/methods/常看的.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-01.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/engineering/webpack/Why、What.md",
-    "_posts/读书笔记/健康/老爹/病/心源性哮喘.md",
-    "_posts/读书笔记/健康/老爹/病/胃病.md",
-    "_posts/读书笔记/健康/老爹/氨茶碱.md",
     "_posts/读书笔记/健康/老爹/病",
     "DailyNote/Journal/01 Daily/2025/08",
     "_posts/读书笔记/media",
@@ -689,7 +690,6 @@
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
     "_posts/libraries/shadcn/component/react-day-picker/源码解析/测试",
-    "DailyNote/Journal/01 Daily/2025/07/media",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/Pasted image 20250712151116.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/e6a4ed95386e32fa594d8a47caed003d_MD5.png",
