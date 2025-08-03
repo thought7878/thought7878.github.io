@@ -120,7 +120,7 @@
 | `output`  | 输出文件配置（路径、文件名、公共路径等） |
 | `context` | 基础上下文路径（默认 `process.cwd()`）   |
 
-参考：[[entry]]、[[output]]、[[_posts/engineering/打包工具（Module Bundler）/webpack/配置项/context|context]]
+参考：[[entry]]、[[output]]、[[_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/context|context]]
 
 ### 2. 模块处理
 
@@ -166,7 +166,7 @@
 | `stats`       | 控制构建输出信息（日志级别）             |
 | `experiments` | 实验性功能（如 WebAssembly、异步模块等） |
 
-参考：[[_posts/engineering/打包工具（Module Bundler）/webpack/配置项/performance|performance]]、[[stats]]
+参考：[[_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/performance|performance]]、[[stats]]
 
 ---
 

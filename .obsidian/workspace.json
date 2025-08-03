@@ -476,7 +476,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+                "file": "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -491,7 +491,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端工程化"
+              "title": "Babel"
             }
           }
         ]
@@ -680,11 +680,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "001564ef253507a6",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/engineering/打包工具（Module Bundler）",
+    "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
+    "_posts/engineering/module/模块化-DS.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/engineering/2.编译与语言转换工具/Babel",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "_posts/engineering/2.编译与语言转换工具",
+    "_posts/engineering/1.打包工具（Module Bundler）",
     "_posts/architect/前端架构-QW.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
     "DailyNote/Journal/01 Daily/2025/08/media",
@@ -707,16 +713,11 @@
     "_posts/interview/简历/商智/业务模块操作指南.md",
     "_posts/interview/简历/商智/《京东商智技术方案脱敏模板》（含架构图、性能数据）.md",
     "_posts/interview/简历/商智",
-    "_posts/读书笔记/旅居、旅行.md",
-    "_posts/读书笔记/常看的警示.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/读书笔记/健康/老爹/病",
     "DailyNote/Journal/01 Daily/2025/08",
     "_posts/读书笔记/media",
     "_posts/libraries/_my-libraries/什么组件合适？",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria",
-    "_posts/计算机原理",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
