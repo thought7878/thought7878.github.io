@@ -1,4 +1,12 @@
 # Introduction
+## 为什么使用 TypeScript？
+[[为什么使用 TypeScript？]]
+
+## 与打包工具的关系
+Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
+
+[[与打包工具的关系]]、[[TypeScript 在前端构建生态中的角色与优化策略]]
+
 ## TypeScript vs JavaScript
 参考 [[TypeScript vs JavaScript]]
 

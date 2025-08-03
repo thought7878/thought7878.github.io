@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-03"
+              "title": "2025-08-04"
             }
           },
           {
@@ -464,7 +464,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 5
       },
       {
         "id": "48ae957890d46c31",
@@ -476,7 +476,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
+                "file": "_posts/typescript/总结/为什么使用 TypeScript？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -491,7 +491,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Babel"
+              "title": "为什么使用 TypeScript？"
             }
           }
         ]
@@ -561,7 +561,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -680,11 +681,29 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "001564ef253507a6",
   "lastOpenFiles": [
+    "_posts/typescript/总结/为什么使用 TypeScript？.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/engineering/package-manager/pnpm & monorepo/Monorepo.md",
+    "_posts/engineering/package-manager/package.json/package.json.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
+    "_posts/AI/趋势.md",
+    "_posts/读书笔记/社会 & 资本主义.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/与打包工具的关系.md",
+    "_posts/typescript/总结/TypeScript 在前端构建生态中的角色与优化策略.md",
+    "_posts/typescript/总结/TypeScript vs JavaScript.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/engineering/2.编译与语言转换工具/SWC/SWC.md",
+    "_posts/engineering/2.编译与语言转换工具/SWC",
+    "_posts/engineering/2.编译与语言转换工具/Esbuild/Esbuild.md",
+    "_posts/engineering/2.编译与语言转换工具/Esbuild",
     "_posts/engineering/自动化构建.md",
     "_posts/engineering/module/模块化-DS.md",
     "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md",
@@ -695,29 +714,11 @@
     "_posts/architect/前端架构-QW.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
     "DailyNote/Journal/01 Daily/2025/08/media",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
     "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/interview/简历/商智/简历中的京东商智-DS.md",
-    "_posts/interview/简历/商智/商智.md",
-    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-    "_posts/libraries/_my-libraries/number-input/搭建开发环境/搭建开发环境.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/interview/简历/商智/技术架构.md",
-    "DailyNote/Journal/01 Daily/未完成 & 计划的任务.md",
-    "_posts/interview/简历/商智/简历中的京东商智-QW.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-02.md",
-    "_posts/interview/简历/商智/业务模块.md",
-    "_posts/interview/简历/商智/业务模块操作指南.md",
     "_posts/interview/简历/商智",
     "_posts/读书笔记/健康/老爹/病",
     "DailyNote/Journal/01 Daily/2025/08",
     "_posts/读书笔记/media",
-    "_posts/libraries/_my-libraries/什么组件合适？",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Hooks",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
