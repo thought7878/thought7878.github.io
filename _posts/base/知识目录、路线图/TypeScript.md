@@ -1,3 +1,8 @@
+
+# 相关资料
+[[TypeScript-DS]]
+[TypeScript Roadmap](https://roadmap.sh/typescript)
+
 # Introduction
 ## 为什么使用 TypeScript？
 [[为什么使用 TypeScript？]]
@@ -19,11 +24,19 @@ Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
 参考 [[_posts/typescript/总结/Install、Configure、run/tsconfig.json|tsconfig.json]]
 ### Compiler Options
 
-## Running TypeScript
+## 编译
+Running TypeScript
+参考：[[TypeScript的编译]]
+
 ### tsc
 参考 [[tsc]]
+
+### `.d.ts` 文件
+[[`.d.ts` 文件]]
+
 ### ts-node
 参考 [[ts-node]]
+
 
 # Typescript Types
 ## Primitive Types 
@@ -169,7 +182,4 @@ Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
 ## Useful Packages
 ## Build Tools
 
-
-# 相关资料
-[TypeScript Roadmap](https://roadmap.sh/typescript)
 
