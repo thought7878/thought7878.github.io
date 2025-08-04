@@ -476,7 +476,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -491,7 +491,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why、What"
+              "title": "前端工程化"
             }
           }
         ]
@@ -682,11 +682,13 @@
   },
   "active": "001564ef253507a6",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
     "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
     "_posts/engineering/2.编译与语言转换工具/CSS 预处理器/CSS 预处理器.md",
     "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md",
     "_posts/engineering/2.编译与语言转换工具/Postcss/Postcss.md",
@@ -703,12 +705,10 @@
     "_posts/typescript/总结/TypeScript vs JavaScript.md",
     "_posts/typescript/总结/为什么使用 TypeScript？.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/engineering/package-manager/pnpm & monorepo/Monorepo.md",
-    "_posts/engineering/package-manager/package.json/package.json.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/Monorepo.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
-    "_posts/AI/趋势.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
     "_posts/engineering/2.编译与语言转换工具/SWC",
     "_posts/engineering/2.编译与语言转换工具/Esbuild",
     "_posts/engineering/2.编译与语言转换工具/Babel",
