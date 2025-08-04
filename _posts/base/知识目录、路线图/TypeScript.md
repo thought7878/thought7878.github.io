@@ -32,7 +32,7 @@ Running TypeScript
 参考 [[tsc]]
 
 ### `.d.ts` 文件
-[[`.d.ts` 文件]]
+参考：[[`.d.ts` 文件]]
 
 ### ts-node
 参考 [[ts-node]]

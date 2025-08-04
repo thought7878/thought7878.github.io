@@ -476,7 +476,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/typescript/总结/TypeScript的编译.md",
+                "file": "_posts/base/知识目录、路线图/TypeScript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -491,7 +491,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TypeScript的编译"
+              "title": "TypeScript"
             }
           }
         ]
@@ -680,12 +680,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/TypeScript.md",
+    "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/typescript/总结/Install、Configure、run/tsc.md",
     "_posts/typescript/总结/`.d.ts` 文件.md",
-    "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/typescript/总结/与打包工具的关系.md",
     "_posts/typescript/总结/Install、Configure、run/ts-node.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
