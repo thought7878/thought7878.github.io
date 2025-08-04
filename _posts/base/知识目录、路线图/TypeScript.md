@@ -25,7 +25,7 @@ Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
 ### Compiler Options
 
 ## 编译
-Running TypeScript
+**TypeScript 编译 = 类型检查 + 代码转换**
 参考：[[TypeScript的编译]]
 
 ### tsc
