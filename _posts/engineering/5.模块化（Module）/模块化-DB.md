@@ -126,7 +126,7 @@ define(function (require, exports, module) {
 });
 ```
 
-    - **加载模块（main.js）**：
+- **加载模块（main.js）**：
 
 ```javascript
 seajs.use(["math"], function (math) {

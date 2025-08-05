@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-04"
+              "title": "2025-08-05"
             }
           },
           {
@@ -464,7 +464,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       },
       {
         "id": "48ae957890d46c31",
@@ -476,7 +476,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+                "file": "_posts/engineering/5.模块化（Module）/模块化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -491,7 +491,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端工程化"
+              "title": "模块化"
             }
           }
         ]
@@ -682,8 +682,19 @@
   },
   "active": "001564ef253507a6",
   "lastOpenFiles": [
-    "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/engineering/5.模块化（Module）/模块化-DB.md",
+    "_posts/engineering/5.模块化（Module）/CommonJS、ESM的加载方式.md",
+    "_posts/engineering/_前端开发的DevOps.md",
+    "_posts/engineering/5.模块化（Module）/模块化-DS.md",
+    "_posts/engineering/5.模块化（Module）/模块化.md",
+    "_posts/engineering/JS 运行时环境/JS 运行时环境.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
+    "_posts/engineering/JS 运行时环境/Bun.md",
+    "_posts/engineering/概述.excalidraw.md",
+    "_posts/engineering/JS 运行时环境",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
     "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具.md",
@@ -699,16 +710,6 @@
     "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/typescript/总结/Install、Configure、run/tsc.md",
     "_posts/typescript/总结/`.d.ts` 文件.md",
-    "_posts/typescript/总结/与打包工具的关系.md",
-    "_posts/typescript/总结/Install、Configure、run/ts-node.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md",
-    "_posts/typescript/总结/TypeScript vs JavaScript.md",
-    "_posts/typescript/总结/为什么使用 TypeScript？.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/Monorepo.md",
-    "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-03.md",
     "_posts/engineering/2.编译与语言转换工具/SWC",
     "_posts/engineering/2.编译与语言转换工具/Esbuild",
     "_posts/engineering/2.编译与语言转换工具/Babel",
@@ -717,7 +718,6 @@
     "DailyNote/Journal/01 Daily/2025/08/media",
     "_posts/interview/简历/商智",
     "_posts/读书笔记/健康/老爹/病",
-    "DailyNote/Journal/01 Daily/2025/08",
     "_posts/libraries/React Spectrum、Aria、Stately/media/40ae633ac5c843cc7c0001bbb4e9e9c9_MD5.jpeg",
     "_posts/libraries/React-Aria/media/Pasted image 20250722163019.png",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/bbd29ad033e4becb137266893a2d8d5d_MD5.jpeg",
