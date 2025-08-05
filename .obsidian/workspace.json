@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/【干货】浏览器是如何运作的？.md",
+                "file": "_posts/browser/【干货】浏览器是如何运作的？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,6 +101,30 @@
               },
               "icon": "lucide-file",
               "title": "【干货】浏览器是如何运作的？"
+            }
+          },
+          {
+            "id": "931a79599acff8ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/网络/互联网是如何运作的？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "互联网是如何运作的？"
             }
           },
           {
@@ -488,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -649,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -674,11 +698,25 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "931a79599acff8ba",
   "lastOpenFiles": [
+    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/【干货】浏览器是如何运作的？.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
+    "_posts/网络/互联网是如何运作的？.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/CSS.md",
+    "_posts/browser/网络/Fetch-QW.md",
+    "_posts/browser/网络/WebSocket.md",
+    "_posts/网络/IP.md",
+    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
+    "_posts/base/js/知识点总结/Memory Management/内存管理：栈空间、堆空间、代码空间.md",
+    "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/base/知识目录、路线图/知识目录/网络",
     "_posts/browser/浏览器的工作流程.md",
@@ -689,21 +727,7 @@
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/engineering/5.模块化（Module）/模块化-DB.md",
     "_posts/engineering/5.模块化（Module）/CommonJS、ESM的加载方式.md",
-    "_posts/engineering/_前端开发的DevOps.md",
-    "_posts/engineering/5.模块化（Module）/模块化-DS.md",
-    "_posts/engineering/JS 运行时环境/JS 运行时环境.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-04.md",
-    "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
-    "_posts/engineering/JS 运行时环境/Bun.md",
-    "_posts/engineering/概述.excalidraw.md",
     "_posts/engineering/JS 运行时环境",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
-    "_posts/engineering/2.编译与语言转换工具/CSS 预处理器/CSS 预处理器.md",
     "_posts/engineering/2.编译与语言转换工具/CSS 预处理器",
     "_posts/engineering/2.编译与语言转换工具/SWC",
     "_posts/engineering/2.编译与语言转换工具/Esbuild",
