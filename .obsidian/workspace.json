@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/【干货】浏览器是如何运作的？.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/_面试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,31 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "【干货】浏览器是如何运作的？"
-            }
-          },
-          {
-            "id": "931a79599acff8ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/网络/互联网是如何运作的？.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "互联网是如何运作的？"
+              "title": "_面试"
             }
           },
           {
@@ -296,54 +272,6 @@
             }
           },
           {
-            "id": "2ec0c28f2cb0200e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-05"
-            }
-          },
-          {
-            "id": "aa1d12fd22621a9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_现代前端开发工具链"
-            }
-          },
-          {
             "id": "0c548d87e5805ea3",
             "type": "leaf",
             "state": {
@@ -365,54 +293,6 @@
               },
               "icon": "lucide-file",
               "title": "01-为什么应该学好软件工程？"
-            }
-          },
-          {
-            "id": "b6994b4a5ec355a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "高级前端工程师的面试题 总结_DS"
-            }
-          },
-          {
-            "id": "d95d63bd88fec27f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "前端高级工程师的简历-QW"
             }
           },
           {
@@ -440,12 +320,12 @@
             }
           },
           {
-            "id": "d0cacc102221c0d0",
+            "id": "2ec0c28f2cb0200e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,7 +340,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "糖尿病"
+              "title": "2025-08-06"
+            }
+          },
+          {
+            "id": "b6994b4a5ec355a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "高级前端工程师的面试题 总结_DS"
+            }
+          },
+          {
+            "id": "aa1d12fd22621a9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_现代前端开发工具链"
+            }
+          },
+          {
+            "id": "d95d63bd88fec27f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "前端高级工程师的简历-QW"
+            }
+          },
+          {
+            "id": "b5db9e69f4332db5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/网络/互联网是如何运作的？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "互联网是如何运作的？"
             }
           },
           {
@@ -488,12 +464,12 @@
             }
           },
           {
-            "id": "001564ef253507a6",
+            "id": "d0cacc102221c0d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/5.模块化（Module）/模块化.md",
+                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,11 +484,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "模块化"
+              "title": "糖尿病"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -673,7 +649,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -698,35 +674,38 @@
       "media-extended:Open media": false
     }
   },
-  "active": "931a79599acff8ba",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/browser/【干货】浏览器是如何运作的？.md",
+    "_posts/网络/media/817dc1464c6ad3c46971cec4a31e84de_MD5.jpeg",
+    "_posts/网络/互联网是如何运作的？.md",
+    "_posts/网络/media/49b3f36a9b84bdf0de16fe1416ef907f_MD5.jpeg",
+    "_posts/网络/media/Pasted image 20250806074706.png",
+    "_posts/网络/media/Pasted image 20250806074518.png",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "DailyNote/Templates/Daily Note.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/architect/前端架构-QW.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/engineering/5.模块化（Module）/模块化.md",
+    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
-    "_posts/网络/互联网是如何运作的？.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/CSS.md",
-    "_posts/browser/网络/Fetch-QW.md",
-    "_posts/browser/网络/WebSocket.md",
-    "_posts/网络/IP.md",
-    "_posts/base/js/Advanced Web Development Quiz/7-q7-网络请求的流程 & 浏览器渲染的流程.md",
-    "_posts/base/js/知识点总结/Memory Management/内存管理：栈空间、堆空间、代码空间.md",
-    "_posts/base/js/知识点总结/JS 执行机制/变量环境（Variable Environment）.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/base/知识目录、路线图/知识目录/网络",
-    "_posts/browser/浏览器的工作流程.md",
-    "_posts/base/知识目录、路线图/浏览器.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/5.模块化（Module）/模块化.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
-    "_posts/engineering/5.模块化（Module）/模块化-DB.md",
-    "_posts/engineering/5.模块化（Module）/CommonJS、ESM的加载方式.md",
     "_posts/engineering/JS 运行时环境",
     "_posts/engineering/2.编译与语言转换工具/CSS 预处理器",
     "_posts/engineering/2.编译与语言转换工具/SWC",
@@ -742,10 +721,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/media/Pasted image 20250712151116.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/e6a4ed95386e32fa594d8a47caed003d_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/84d56ade3acfebc9134985831d568ec4_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/bb4434832754d7aaedede00d6698bf97_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/b3ebb013b6678dc4bc0749e830b63c42_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/9dd37c5353dc2da2cb7ed241cafc6ce8_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/11-经典案例解析篇 (6讲)/media/11c356a1bf49e97e129c5bc1dd8e12d1_MD5.jpg",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
