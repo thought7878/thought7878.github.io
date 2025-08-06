@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/互联网是如何运作的？.md",
+                "file": "_posts/browser/【干货】浏览器是如何运作的？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "互联网是如何运作的？"
+              "title": "【干货】浏览器是如何运作的？"
             }
           },
           {
@@ -676,8 +676,16 @@
   },
   "active": "b5db9e69f4332db5",
   "lastOpenFiles": [
-    "_posts/网络/media/accca24846439763c23e3e9f357c78da_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
+    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "_posts/网络/互联网是如何运作的？.md",
+    "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+    "_posts/读书笔记/教育.md",
+    "_posts/读书笔记/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
+    "_posts/网络/media/accca24846439763c23e3e9f357c78da_MD5.jpeg",
     "_posts/网络/media/4966c9c9857edde7a2b07a2f588a92f9_MD5.jpeg",
     "_posts/网络/media/aca2e6d48ca38395e7d094c27670b093_MD5.jpeg",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
@@ -702,9 +710,6 @@
     "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "_posts/architect/前端架构-QW.md",
@@ -715,12 +720,8 @@
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/engineering/5.模块化（Module）/模块化.md",
-    "_posts/browser/【干货】浏览器是如何运作的？.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
     "_posts/base/知识目录、路线图/知识目录/网络",
     "_posts/engineering/JS 运行时环境",
-    "_posts/engineering/2.编译与语言转换工具/CSS 预处理器",
-    "_posts/engineering/2.编译与语言转换工具/SWC",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
