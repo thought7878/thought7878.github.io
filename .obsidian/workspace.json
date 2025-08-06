@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-06"
+              "title": "2025-08-07"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+                "file": "_posts/读书笔记/世界趋势/趋势.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "糖尿病"
+              "title": "趋势"
             }
           }
         ],
@@ -676,20 +676,24 @@
   },
   "active": "b5db9e69f4332db5",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/社会 & 资本主义.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+    "_posts/browser/【干货】浏览器是如何运作的？.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
     "_posts/browser/media/a65e6908d3a07dfe815026ed8aac225d_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806175337.png",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/常看的警示.md",
-    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "_posts/browser/media/405bffcba5c4f691bb1517a9d9333db9_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806164340.png",
     "_posts/browser/media/4a39ed49e9b34f5a190e9f365f51c683_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163630.png",
     "_posts/browser/media/fc58bb72bcd7152d7e2a210b40015967_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163354.png",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
     "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
@@ -711,17 +715,13 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "_posts/architect/前端架构-QW.md",
     "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
     "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/base/知识目录、路线图/知识目录/网络",
-    "_posts/engineering/JS 运行时环境",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
