@@ -649,7 +649,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -674,15 +674,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b5db9e69f4332db5",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/读书笔记/人性.md",
+    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/社会 & 资本主义.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/browser/【干货】浏览器是如何运作的？.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
     "_posts/browser/media/a65e6908d3a07dfe815026ed8aac225d_MD5.jpeg",
@@ -720,7 +721,6 @@
     "_posts/architect/前端架构-QW.md",
     "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
     "_posts/base/知识目录、路线图/知识目录/网络",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
