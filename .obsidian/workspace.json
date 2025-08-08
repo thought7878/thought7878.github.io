@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-07"
+              "title": "2025-08-08"
             }
           },
           {
@@ -416,7 +416,7 @@
             }
           },
           {
-            "id": "b5db9e69f4332db5",
+            "id": "95d4a5551271ebce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/世界趋势/趋势.md",
+                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "趋势"
+              "title": "糖尿病"
             }
           }
         ],
@@ -676,18 +676,23 @@
   },
   "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/English/查询单词的提示词模版.md",
+    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/browser/【干货】浏览器是如何运作的？.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/browser/media/d0d7c5206598a46a57efbb55c2e36cf1_MD5.mp4",
+    "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
+    "_posts/English/查询单词的提示词模版.md",
     "DailyNote/Templates/Daily Note.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
     "_posts/browser/media/a65e6908d3a07dfe815026ed8aac225d_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806175337.png",
     "_posts/读书笔记/常看的警示.md",
@@ -713,15 +718,10 @@
     "_posts/网络/media/15861581a9fc3722b160ffe95a50ae6f_MD5.mp4",
     "_posts/网络/media/331ed5429b2a8d4804c0bd6de98b65bd_MD5.mp4",
     "_posts/网络/media/e075d4d424a9aad92f76abaea6dd20ab_MD5.webm",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "_posts/architect/前端架构-QW.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/网络",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
