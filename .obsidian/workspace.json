@@ -649,7 +649,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -674,8 +674,9 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "95d4a5551271ebce",
   "lastOpenFiles": [
+    "_posts/browser/media/669e48a72e3703dd7e7c91d00b6bfed5_MD5.mp4",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/browser/【干货】浏览器是如何运作的？.md",
@@ -721,7 +722,6 @@
     "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
-    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
