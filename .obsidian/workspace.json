@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-08"
+              "title": "2025-08-09"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/【干货】浏览器是如何运作的？.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "【干货】浏览器是如何运作的？"
+              "title": "JS运行原理1_JS是如何被运行的？"
             }
           },
           {
@@ -676,21 +676,28 @@
   },
   "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
+    "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
+    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/渲染/【干货】浏览器是如何运作的？.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-09.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
+    "_posts/browser/浏览器的工作流程.md",
     "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
     "_posts/browser/media/669e48a72e3703dd7e7c91d00b6bfed5_MD5.mp4",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/browser/【干货】浏览器是如何运作的？.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/browser/media/d0d7c5206598a46a57efbb55c2e36cf1_MD5.mp4",
     "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
     "_posts/English/查询单词的提示词模版.md",
     "DailyNote/Templates/Daily Note.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
@@ -711,17 +718,10 @@
     "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
     "_posts/读书笔记/教育.md",
     "_posts/读书笔记/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
-    "_posts/网络/media/accca24846439763c23e3e9f357c78da_MD5.jpeg",
-    "_posts/网络/media/4966c9c9857edde7a2b07a2f588a92f9_MD5.jpeg",
     "_posts/网络/media/bcbe1776dfd31972197c1ae6395c089d_MD5.mp4",
     "_posts/网络/media/9d882ad690e43f01a454cb3dc6a8dca7_MD5.mp4",
     "_posts/网络/media/b283626777b557230017a643a8c8bbfa_MD5.mp4",
-    "_posts/methods/要整理的.md",
     "_posts/网络/media/15861581a9fc3722b160ffe95a50ae6f_MD5.mp4",
-    "_posts/网络/media/331ed5429b2a8d4804c0bd6de98b65bd_MD5.mp4",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-05.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
