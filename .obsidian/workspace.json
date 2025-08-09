@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS运行原理1_JS是如何被运行的？"
+              "title": "JS运行原理2_V8引擎是如何运行JS的?"
             }
           },
           {
@@ -676,8 +676,8 @@
   },
   "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
