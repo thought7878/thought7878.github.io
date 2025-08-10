@@ -1,3 +1,6 @@
+【前端面试已读不回的真正原因？项目没有难点亮点】 https://www.bilibili.com/video/BV1zF1bYvEMm/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 # 张明 | 前端高级工程师
 
 **电话**: +86 138-XXXX-XXXX                    | **邮箱**: zhangming@email.com  

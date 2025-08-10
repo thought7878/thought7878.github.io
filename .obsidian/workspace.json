@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-10"
+              "title": "2025-08-11"
             }
           },
           {
@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/数据可视化/AntV/AntV.md",
+                "file": "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AntV"
+              "title": "03：企业项目性能优化方案"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS运行原理3_JS调用栈"
+              "title": "JS运行原理2_V8引擎是如何运行JS的?"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -698,37 +698,38 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "a98ce650859d3fe4",
   "lastOpenFiles": [
-    "_posts/数据可视化/canvas、SVG对比.md",
+    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/数据可视化/数据可视化.md",
+    "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
+    "_posts/performance/教程/性能优化实战/02：为什么要进行性能优化，性能优化的标准是什么？.md",
+    "_posts/performance/教程/性能优化实战/01：前言.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
+    "_posts/performance/tools/前端性能测试工具.md",
+    "_posts/performance/教程/性能优化实战",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/性能优化.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
     "_posts/数据可视化/AntV/AntV.md",
     "_posts/数据可视化/面试题.md",
-    "_posts/数据可视化/AntV/Antv的实现原理.md",
+    "_posts/数据可视化/canvas、SVG对比.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
+    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
+    "_posts/数据可视化/AntV/Antv的实现原理.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "_posts/数据可视化/数据可视化.md",
     "_posts/数据可视化/AntV",
-    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
     "_posts/数据可视化",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/base/知识目录、路线图/知识目录/数据可视化",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
     "_posts/读书笔记/健康/老爹/病/_检查心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘.md",
-    "_posts/读书笔记/健康/老爹/病/_AI问诊-QW.md",
-    "_posts/读书笔记/健康/老爹/病/_检查费用-DS.md",
-    "_posts/读书笔记/健康/老爹/病/_检查费用-QW.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-09.md",
-    "_posts/读书笔记/健康/老爹/病/_AI问诊-DS.md",
-    "_posts/读书笔记/健康/老爹/阿司匹林.md",
-    "_posts/读书笔记/健康/老爹/硝酸甘油.md",
-    "_posts/读书笔记/健康/老爹/病/肺心病.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
     "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
@@ -745,7 +746,6 @@
     "_posts/browser/media/Pasted image 20250806163354.png",
     "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
     "_posts/读书笔记/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
-    "_posts/网络/media/bcbe1776dfd31972197c1ae6395c089d_MD5.mp4",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
