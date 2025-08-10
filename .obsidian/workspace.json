@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-09.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-09"
+              "title": "2025-08-10"
             }
           },
           {
@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+                "file": "_posts/数据可视化/AntV/AntV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_现代前端开发工具链"
+              "title": "AntV"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS运行原理2_V8引擎是如何运行JS的?"
+              "title": "JS运行原理3_JS调用栈"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/糖尿病.md",
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,11 +484,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "糖尿病"
+              "title": "_心源性哮喘-DS"
+            }
+          },
+          {
+            "id": "ef6901e01e841603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_心源性哮喘-QW"
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -674,54 +698,54 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
-    "_posts/methods/学习方法/编程/提问模版.md",
-    "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
-    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/browser/渲染/【干货】浏览器是如何运作的？.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/数据可视化/有了解过Echarts或Antv原理吗，请简单说说.md",
+    "_posts/数据可视化/AntV/AntV.md",
+    "_posts/数据可视化/AntV/Antv的实现原理.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/数据可视化/canvas、SVG对比.md",
+    "_posts/数据可视化/数据可视化.md",
+    "_posts/数据可视化/AntV",
+    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
+    "_posts/数据可视化",
     "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/base/知识目录、路线图/知识目录/数据可视化",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
+    "_posts/读书笔记/健康/老爹/病/_检查心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘.md",
+    "_posts/读书笔记/健康/老爹/病/_AI问诊-QW.md",
+    "_posts/读书笔记/健康/老爹/病/_检查费用-DS.md",
+    "_posts/读书笔记/健康/老爹/病/_检查费用-QW.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-09.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-08.md",
-    "_posts/browser/浏览器的工作流程.md",
-    "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
-    "_posts/browser/media/669e48a72e3703dd7e7c91d00b6bfed5_MD5.mp4",
+    "_posts/读书笔记/健康/老爹/病/_AI问诊-DS.md",
+    "_posts/读书笔记/健康/老爹/阿司匹林.md",
+    "_posts/读书笔记/健康/老爹/硝酸甘油.md",
+    "_posts/读书笔记/健康/老爹/病/肺心病.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
+    "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
+    "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
+    "_posts/browser/media/669e48a72e3703dd7e7c91d00b6bfed5_MD5.mp4",
     "_posts/browser/media/d0d7c5206598a46a57efbb55c2e36cf1_MD5.mp4",
     "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-07.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "DailyNote/Templates/Daily Note.md",
-    "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-06.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
     "_posts/browser/media/a65e6908d3a07dfe815026ed8aac225d_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806175337.png",
-    "_posts/读书笔记/常看的警示.md",
     "_posts/browser/media/405bffcba5c4f691bb1517a9d9333db9_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806164340.png",
     "_posts/browser/media/4a39ed49e9b34f5a190e9f365f51c683_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163630.png",
     "_posts/browser/media/fc58bb72bcd7152d7e2a210b40015967_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163354.png",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/网络.md",
-    "_posts/网络/互联网是如何运作的？.md",
     "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
-    "_posts/读书笔记/教育.md",
     "_posts/读书笔记/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
     "_posts/网络/media/bcbe1776dfd31972197c1ae6395c089d_MD5.mp4",
-    "_posts/网络/media/9d882ad690e43f01a454cb3dc6a8dca7_MD5.mp4",
-    "_posts/网络/media/b283626777b557230017a643a8c8bbfa_MD5.mp4",
-    "_posts/网络/media/15861581a9fc3722b160ffe95a50ae6f_MD5.mp4",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
