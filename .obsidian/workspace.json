@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
+                "file": "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03：企业项目性能优化方案"
+              "title": "IntersectionObserver"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -698,12 +698,28 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a98ce650859d3fe4",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/数据可视化/数据可视化.md",
+    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
+    "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
+    "_posts/performance/教程/性能优化实战/06：数据懒加载业务场景分析.md",
+    "_posts/performance/optimization-methods/数据懒加载.md",
+    "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
+    "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
+    "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
+    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
+    "_posts/performance/教程/性能优化实战/16：总结.md",
+    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
+    "_posts/performance/教程/性能优化实战/07：实现数据懒加载解决方案.md",
+    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
+    "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
+    "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
+    "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
+    "_posts/performance/教程/性能优化实战/04：创建待优化项目.md",
     "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
+    "_posts/数据可视化/数据可视化.md",
     "_posts/performance/教程/性能优化实战/02：为什么要进行性能优化，性能优化的标准是什么？.md",
     "_posts/performance/教程/性能优化实战/01：前言.md",
     "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
@@ -711,25 +727,9 @@
     "DailyNote/Journal/01 Daily/2025/08/2025-08-10.md",
     "_posts/performance/tools/前端性能测试工具.md",
     "_posts/performance/教程/性能优化实战",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/性能优化.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/数据可视化/AntV/AntV.md",
-    "_posts/数据可视化/面试题.md",
-    "_posts/数据可视化/canvas、SVG对比.md",
-    "_posts/methods/要整理的.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理3_JS调用栈.md",
-    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
-    "_posts/数据可视化/AntV/Antv的实现原理.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
     "_posts/base/知识目录、路线图/知识目录/数据可视化",
-    "_posts/读书笔记/健康/老爹/病/_检查心源性哮喘-QW.md",
-    "_posts/读书笔记/健康/老爹/病/心源性哮喘.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/34ad7e4f1e9e15154806d9061f11dfb2_MD5.jpeg",
     "_posts/base/js/知识点总结/JS 执行机制/media/Pasted image 20250809095615.png",
     "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
