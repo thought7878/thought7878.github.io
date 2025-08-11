@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
+                "file": "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10：实现图片懒加载解决方案"
+              "title": "15：其他优化方案"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -698,34 +698,35 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/performance/optimization-methods/图片懒加载、按需加载.md",
+    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
+    "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
+    "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
+    "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
     "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
     "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
+    "_posts/performance/optimization-methods/图片懒加载、按需加载/图片懒加载、按需加载.md",
+    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
+    "_posts/performance/optimization-methods/图片懒加载、按需加载/IntersectionObserver 懒加载 vs HTML 原生 loading=\"lazy\".md",
+    "_posts/performance/optimization-methods/图片懒加载、按需加载",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/performance/optimization-methods/数据懒加载、按需加载.md",
     "_posts/performance/optimization-methods/按需加载 CSS.md",
     "_posts/browser/渲染/优化/按需加载、懒加载 CSS.md",
-    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
     "_posts/performance/教程/性能优化实战/07：实现数据懒加载解决方案.md",
     "_posts/performance/教程/性能优化实战/06：数据懒加载业务场景分析.md",
     "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
     "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
     "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
-    "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
-    "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
     "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
     "_posts/performance/教程/性能优化实战/16：总结.md",
-    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
-    "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
     "_posts/performance/教程/性能优化实战/04：创建待优化项目.md",
     "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
     "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
     "_posts/数据可视化/数据可视化.md",
     "_posts/performance/教程/性能优化实战/02：为什么要进行性能优化，性能优化的标准是什么？.md",
-    "_posts/performance/教程/性能优化实战/01：前言.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
@@ -745,7 +746,6 @@
     "_posts/browser/media/fc58bb72bcd7152d7e2a210b40015967_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163354.png",
     "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
-    "_posts/读书笔记/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
