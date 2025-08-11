@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-11"
+              "title": "2025-08-12"
             }
           },
           {
@@ -700,10 +700,13 @@
   },
   "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
+    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
     "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
     "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
     "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
     "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
     "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
@@ -711,7 +714,6 @@
     "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
     "_posts/performance/optimization-methods/图片懒加载、按需加载/IntersectionObserver 懒加载 vs HTML 原生 loading=\"lazy\".md",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/performance/optimization-methods/数据懒加载、按需加载.md",
     "_posts/performance/optimization-methods/按需加载 CSS.md",
     "_posts/browser/渲染/优化/按需加载、懒加载 CSS.md",
@@ -720,13 +722,11 @@
     "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
     "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
     "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
-    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
     "_posts/performance/教程/性能优化实战/16：总结.md",
     "_posts/performance/教程/性能优化实战/04：创建待优化项目.md",
     "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
     "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
     "_posts/数据可视化/数据可视化.md",
-    "_posts/performance/教程/性能优化实战/02：为什么要进行性能优化，性能优化的标准是什么？.md",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
