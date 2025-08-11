@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
+                "file": "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IntersectionObserver"
+              "title": "09：图片懒加载业务场景分析"
             }
           },
           {
@@ -698,20 +698,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
-    "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
+    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
+    "_posts/performance/教程/性能优化实战/07：实现数据懒加载解决方案.md",
     "_posts/performance/教程/性能优化实战/06：数据懒加载业务场景分析.md",
     "_posts/performance/optimization-methods/数据懒加载.md",
+    "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
     "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
+    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
     "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
     "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
     "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
     "_posts/performance/教程/性能优化实战/16：总结.md",
     "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
-    "_posts/performance/教程/性能优化实战/07：实现数据懒加载解决方案.md",
-    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
     "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
     "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
     "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
