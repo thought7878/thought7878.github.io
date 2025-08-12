@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
+                "file": "_posts/libraries/真实前端开源项目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15：其他优化方案"
+              "title": "真实前端开源项目"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -698,11 +698,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/engineering/Tokei：高效代码统计工具.md",
+    "_posts/libraries/真实前端开源项目.md",
+    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
-    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
     "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
@@ -725,8 +727,6 @@
     "_posts/performance/教程/性能优化实战/16：总结.md",
     "_posts/performance/教程/性能优化实战/04：创建待优化项目.md",
     "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
-    "_posts/base/知识目录、路线图/知识目录/数据可视化/数据可视化.md",
-    "_posts/数据可视化/数据可视化.md",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
