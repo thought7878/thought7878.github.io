@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/_面试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.上期回顾 & 章节概览"
+              "title": "_面试"
             }
           },
           {
@@ -700,6 +700,16 @@
   },
   "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
+    "_posts/业务类型/中后台系统.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
+    "_posts/业务类型",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/知识目录/media/2209e8e2e9a0a3376aa231ac1b906b25_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/media/Pasted image 20250812152730.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/网络/互联网是如何运作的？.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/16.总结篇：我心目中的前端大厦.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/15.可观测性.md",
@@ -715,18 +725,11 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/5.编程语言、ES 标准、JS 引擎和运行时.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/1.如何成为现代前端六边形战士.md",
     "_posts/devops/nginx/nginx.md",
     "_posts/devops/overview.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
     "_posts/devops/nginx/nginx配置指南.md",
-    "_posts/devops/CI&CD Overview.md",
-    "_posts/devops/自动化部署1.md",
-    "_posts/devops/手动部署：前端轻量化部署脚手架实践.md",
-    "_posts/devops/全栈项目 CI&CD 初学者指南：第一部分 — 部署前端.md",
-    "_posts/devops/前端部署.md",
-    "_posts/devops/前端部署-参考资料.md",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
@@ -737,15 +740,12 @@
     "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
     "_posts/browser/media/669e48a72e3703dd7e7c91d00b6bfed5_MD5.mp4",
     "_posts/browser/media/d0d7c5206598a46a57efbb55c2e36cf1_MD5.mp4",
-    "_posts/browser/media/ce63630a02685372f4122ac22e9e627e_MD5.mp4",
     "_posts/browser/media/a65e6908d3a07dfe815026ed8aac225d_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806175337.png",
     "_posts/browser/media/405bffcba5c4f691bb1517a9d9333db9_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806164340.png",
     "_posts/browser/media/4a39ed49e9b34f5a190e9f365f51c683_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163630.png",
-    "_posts/browser/media/fc58bb72bcd7152d7e2a210b40015967_MD5.jpeg",
-    "_posts/browser/media/Pasted image 20250806163354.png",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
