@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/devops/overview.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "0.可能是最全最科学的前端学习路线"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -700,33 +700,34 @@
   },
   "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/16.总结篇：我心目中的前端大厦.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/15.可观测性.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/14.云基础设施.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/13.持续集成和部署.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/12.质量和安全.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/11.前端要掌握的服务端技术栈.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/10.用户体验.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/8.应用框架.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/7.解锁构建用户界面的新姿势.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/6.工具链.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/5.编程语言、ES 标准、JS 引擎和运行时.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/1.如何成为现代前端六边形战士.md",
+    "_posts/devops/nginx/nginx.md",
+    "_posts/devops/overview.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
+    "_posts/devops/nginx/nginx配置指南.md",
     "_posts/devops/CI&CD Overview.md",
     "_posts/devops/自动化部署1.md",
     "_posts/devops/手动部署：前端轻量化部署脚手架实践.md",
     "_posts/devops/全栈项目 CI&CD 初学者指南：第一部分 — 部署前端.md",
     "_posts/devops/前端部署.md",
     "_posts/devops/前端部署-参考资料.md",
-    "_posts/libraries/真实前端开源项目.md",
-    "_posts/devops/后端部署-参考资料.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/engineering/Tokei：高效代码统计工具.md",
-    "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
-    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
-    "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
-    "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
-    "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
-    "_posts/performance/教程/性能优化实战/10：实现图片懒加载解决方案.md",
-    "_posts/performance/教程/性能优化实战/09：图片懒加载业务场景分析.md",
-    "_posts/performance/optimization-methods/图片懒加载、按需加载/图片懒加载、按需加载.md",
-    "_posts/performance/教程/性能优化实战/08：构建图片懒加载业务场景.md",
-    "_posts/performance/optimization-methods/图片懒加载、按需加载/IntersectionObserver 懒加载 vs HTML 原生 loading=\"lazy\".md",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
-    "_posts/performance/optimization-methods/数据懒加载、按需加载.md",
-    "_posts/performance/optimization-methods/按需加载 CSS.md",
-    "_posts/browser/渲染/优化/按需加载、懒加载 CSS.md",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
@@ -745,7 +746,6 @@
     "_posts/browser/media/Pasted image 20250806163630.png",
     "_posts/browser/media/fc58bb72bcd7152d7e2a210b40015967_MD5.jpeg",
     "_posts/browser/media/Pasted image 20250806163354.png",
-    "_posts/网络/media/32fdd5a83a987b803bbda8dc8c783dd7_MD5.mp4",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
