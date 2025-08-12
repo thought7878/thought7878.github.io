@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/真实前端开源项目.md",
+                "file": "_posts/devops/overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "真实前端开源项目"
+              "title": "overview"
             }
           },
           {
@@ -698,15 +698,23 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/engineering/Tokei：高效代码统计工具.md",
+    "_posts/devops/CI&CD Overview.md",
+    "_posts/devops/自动化部署1.md",
+    "_posts/devops/手动部署：前端轻量化部署脚手架实践.md",
+    "_posts/devops/全栈项目 CI&CD 初学者指南：第一部分 — 部署前端.md",
+    "_posts/devops/前端部署.md",
+    "_posts/devops/前端部署-参考资料.md",
     "_posts/libraries/真实前端开源项目.md",
+    "_posts/devops/后端部署-参考资料.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/engineering/Tokei：高效代码统计工具.md",
     "_posts/performance/教程/性能优化实战/15：其他优化方案.md",
+    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-11.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/performance/教程/性能优化实战/14：CDN 优化处理解决方案.md",
     "_posts/performance/教程/性能优化实战/13：实现打包体积过大解决方案.md",
     "_posts/performance/教程/性能优化实战/12：打包体积过大的业务场景分析.md",
     "_posts/performance/教程/性能优化实战/11：构建打包体积过大的业务场景.md",
@@ -719,14 +727,6 @@
     "_posts/performance/optimization-methods/数据懒加载、按需加载.md",
     "_posts/performance/optimization-methods/按需加载 CSS.md",
     "_posts/browser/渲染/优化/按需加载、懒加载 CSS.md",
-    "_posts/performance/教程/性能优化实战/07：实现数据懒加载解决方案.md",
-    "_posts/performance/教程/性能优化实战/06：数据懒加载业务场景分析.md",
-    "_posts/base/js/知识点总结/Web APIs/IntersectionObserver.md",
-    "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
-    "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
-    "_posts/performance/教程/性能优化实战/16：总结.md",
-    "_posts/performance/教程/性能优化实战/04：创建待优化项目.md",
-    "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
