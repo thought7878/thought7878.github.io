@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/7.解锁构建用户界面的新姿势.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/8.应用框架.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7.解锁构建用户界面的新姿势"
+              "title": "8.应用框架"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,11 +484,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_心源性哮喘-DS"
+              "title": "_心源性哮喘-QW2"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -674,11 +674,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "d0cacc102221c0d0",
   "lastOpenFiles": [
-    "_posts/网络/HTTP/客户端应用中的HTTP变体.md",
-    "_posts/react/总结/基础组件、模版组件、业务组件.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/8.应用框架.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/7.解锁构建用户界面的新姿势.md",
+    "_posts/react/总结/基础组件、模版组件、业务组件.md",
+    "_posts/网络/HTTP/客户端应用中的HTTP变体.md",
+    "_posts/网络/HTTP/HTTP 1.0.md",
+    "_posts/网络/HTTP/HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/472ebfa95cb866db3d811fe9571a7137_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814171347.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/0f25779ee732c7be1568582f90f432e5_MD5.jpeg",
@@ -701,20 +708,13 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
     "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/读书笔记/健康/糖尿病/记录/7月.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/业务类型/中后台系统.md",
     "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
     "_posts/业务类型",
-    "_posts/methods/要整理的.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/网络/互联网是如何运作的？.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/16.总结篇：我心目中的前端大厦.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/15.可观测性.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
     "_posts/performance/教程/性能优化实战",
