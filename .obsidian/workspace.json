@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
+                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.计算机网络(上)"
+              "title": "4.HTTP 协议"
             }
           },
           {
@@ -674,8 +674,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/b33c25b4781fc8032b7b649507883843_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814094143.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/f66a62b4a60b9660b7916cd02cb2cc6e_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814093826.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/8fc0a270e8b80b344e313e5d07f9cfe1_MD5.jpeg",
@@ -683,14 +686,10 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/779f17e9c486e5599128b749f7efa127_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814090656.png",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack/Rspack.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/7c8dd15e3c0097cfb8e1d1917975b5f9_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814084813.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/8f340b12ce58a5bb012e5eb07e5ce9a1_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814084016.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/eeeafe63f7a8d01538a7e5c030f753d4_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-14.md",
