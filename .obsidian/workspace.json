@@ -649,7 +649,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -674,21 +674,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
+    "_posts/网络/网络协议概述.md",
+    "_posts/网络/HTTP/客户端应用中的HTTP变体.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/fa7253944b368d89b219fa815232e1ce_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814101729.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/1f806c7dc4563c01f6afa114142f6233_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814101707.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/1c07c4599df8617f775642d378d2296c_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814100833.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/08b6cb152f903288765df6804f890a41_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814100735.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/0481a41e92048059f0df3feafd295ccc_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814100614.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/b33c25b4781fc8032b7b649507883843_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814094143.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/f66a62b4a60b9660b7916cd02cb2cc6e_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814093826.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/8fc0a270e8b80b344e313e5d07f9cfe1_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814091035.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/779f17e9c486e5599128b749f7efa127_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814090656.png",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack/Rspack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/7c8dd15e3c0097cfb8e1d1917975b5f9_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814084813.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
@@ -712,8 +715,6 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/13.持续集成和部署.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/12.质量和安全.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/11.前端要掌握的服务端技术栈.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/10.用户体验.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
     "_posts/performance/教程/性能优化实战",
