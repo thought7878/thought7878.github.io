@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-14"
+              "title": "2025-08-15"
             }
           },
           {
@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/8.应用框架.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8.应用框架"
+              "title": "9.性能优化"
             }
           },
           {
@@ -488,7 +488,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -674,30 +674,36 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d0cacc102221c0d0",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/856a9806129907cfd934f7626cd5d6e3_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815075153.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/79c6430faf20f62c7f8254676cbab302_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815074925.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/45103eee3087da89383ce1c7fd45fda8_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815074353.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/6fa079fd0da61a10063071e6fe0cafd7_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815073731.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/6e2b0ed51d7dbc28b6fde3745fddd2c4_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815073100.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/8.应用框架.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/7.解锁构建用户界面的新姿势.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/6.工具链.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md",
+    "_posts/engineering/2.编译与语言转换工具/Postcss/Postcss.md",
+    "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-15.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-14.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/7.解锁构建用户界面的新姿势.md",
     "_posts/react/总结/基础组件、模版组件、业务组件.md",
     "_posts/网络/HTTP/客户端应用中的HTTP变体.md",
     "_posts/网络/HTTP/HTTP 1.0.md",
     "_posts/网络/HTTP/HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/472ebfa95cb866db3d811fe9571a7137_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814171347.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/0f25779ee732c7be1568582f90f432e5_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814170418.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/db8d8005ba0cbcc430720111d26e27d4_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814164143.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/532dfe0b4897ee1b8a87fa2465f9e33f_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814164131.png",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-14.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/a13d472deafc32223c04e1375b12d16c_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250814162036.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/6.工具链.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/5.编程语言、ES 标准、JS 引擎和运行时.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
@@ -708,12 +714,6 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/2.上期回顾 & 章节概览.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-12.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-    "_posts/读书笔记/健康/糖尿病/记录/7月.md",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/业务类型/中后台系统.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
     "_posts/业务类型",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
