@@ -486,14 +486,21 @@
               "icon": "lucide-file",
               "title": "_心源性哮喘-QW"
             }
-          },
+          }
+        ],
+        "currentTab": 19
+      },
+      {
+        "id": "7204fa820f88a34c",
+        "type": "tabs",
+        "children": [
           {
             "id": "7d3648fa0d4824b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/病/冠心病.md",
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,11 +515,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "冠心病"
+              "title": "_心源性哮喘-QW2"
             }
           }
-        ],
-        "currentTab": 15
+        ]
       }
     ],
     "direction": "vertical"
@@ -698,8 +704,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "7d3648fa0d4824b9",
   "lastOpenFiles": [
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/病/瓣膜病.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/fe69a9ec7a40fa987d08d72e05c68c68_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815164439.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/061ada1464e561be3810ccd479e4ef9c_MD5.jpeg",
@@ -710,14 +721,8 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815143720.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/9c1cfd3619cd265bf69067caee8bb4e7_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815142609.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/86b2b69e4a45ac77835469d9b81247a8_MD5.jpeg",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
-    "_posts/读书笔记/健康/老爹/病/瓣膜病.md",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/男女.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/browser/Chrome 开发者工具/performance、性能面板.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
