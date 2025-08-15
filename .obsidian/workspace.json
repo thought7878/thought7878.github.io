@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_心源性哮喘-QW2"
+              "title": "_心源性哮喘-QW"
+            }
+          },
+          {
+            "id": "7d3648fa0d4824b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/读书笔记/健康/老爹/病/冠心病.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "冠心病"
             }
           }
         ],
@@ -649,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -674,21 +698,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "aa1d12fd22621a9e",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/71b48d449996ed909c02f8a93346411c_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815092707.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/39182ab07508628271cbcc6641fe9595_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815092125.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/f22243c9983c7dba9ee354d6fd16f6ed_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815092002.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/b85c97865cfba29e083585ef6958793d_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815091511.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/152ef06f4b628bd98d0f787ffac5a46f_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815091255.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/9de9cf3924ce93ab836b2a924390945e_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/37c1f7b16bb90ebe5d91664e2944d485_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815143720.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/9c1cfd3619cd265bf69067caee8bb4e7_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815142609.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/86b2b69e4a45ac77835469d9b81247a8_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815142024.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/57f9247c4427d566010a297aca11335f_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815141807.png",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/96ed97284b49845ac8f6a04917304ca5_MD5.jpeg",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815141541.png",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/病/瓣膜病.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/b57d15f51ad28b8861f1f8badab3bc2a_MD5.jpeg",
     "_posts/browser/Chrome 开发者工具/performance、性能面板.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/debug/前端调试通关秘籍/25 会用 Performance 工具，就能深入理解 Event Loop.md",
@@ -703,15 +733,9 @@
     "_posts/engineering/2.编译与语言转换工具/Babel/Babel.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-15.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-14.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-DS.md",
     "_posts/react/总结/基础组件、模版组件、业务组件.md",
     "_posts/网络/HTTP/客户端应用中的HTTP变体.md",
-    "_posts/网络/HTTP/HTTP 1.0.md",
-    "_posts/网络/HTTP/HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/5.编程语言、ES 标准、JS 引擎和运行时.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/3.计算机网络(上).md",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/业务类型",
