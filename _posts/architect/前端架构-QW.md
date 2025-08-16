@@ -87,7 +87,7 @@ src/
 - CSP（内容安全策略）
 - 输入验证与输出转义
 
-### 9. 开发规范与协作
+### 9. 开发规范与协作规范
 
 - **代码规范**：ESLint / Prettier / Stylelint
 - **Git 规范**：Commitizen / Conventional Commits / Git Hooks

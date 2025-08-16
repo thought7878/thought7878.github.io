@@ -416,6 +416,30 @@
             }
           },
           {
+            "id": "205a19677e524eef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/前端架构-QW2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "前端架构-QW2"
+            }
+          },
+          {
             "id": "d95d63bd88fec27f",
             "type": "leaf",
             "state": {
@@ -536,37 +560,7 @@
             }
           }
         ],
-        "currentTab": 16
-      },
-      {
-        "id": "b958309556279e13",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "205a19677e524eef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/前端架构-QW.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "前端架构-QW"
-            }
-          }
-        ]
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -633,8 +627,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -753,12 +746,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "205a19677e524eef",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/前端架构-目录.md",
     "_posts/architect/前端架构-QW.md",
-    "_posts/architect/业务架构/3分钟了解业务架构怎么设计.md",
+    "_posts/architect/前端架构-QW2.md",
+    "_posts/architect/前端架构-目录.md",
+    "_posts/architect/media/ac44d554eb84759ecfaf55f59450201b_MD5.jpeg",
+    "_posts/architect/media/Pasted image 20250816153552.png",
+    "_posts/architect/media",
+    "_posts/architect/前端架构-DS.md",
     "_posts/methods/要整理的.md",
+    "_posts/architect/业务架构/3分钟了解业务架构怎么设计.md",
     "_posts/tools/mac/Mac批量复制文件名.md",
     "_posts/tools/mac/录课、出境讲述的短视频.md",
     "_posts/architect/资料.md",
@@ -781,8 +779,6 @@
     "_posts/performance/教程/性能优化实战/05：构建数据懒加载业务场景.md",
     "_posts/performance/教程/性能优化实战/06：数据懒加载业务场景分析.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-16.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-15.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/c28fa25cf8819eacbb1e3312fb612e5b_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815194539.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/669d5d2746f791f9486d87b25888d972_MD5.jpeg",
@@ -791,8 +787,6 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815194313.png",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/fe69a9ec7a40fa987d08d72e05c68c68_MD5.jpeg",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815164439.png",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/061ada1464e561be3810ccd479e4ef9c_MD5.jpeg",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media/Pasted image 20250815162716.png",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/业务类型",
@@ -800,7 +794,6 @@
     "_posts/performance/optimization-methods/图片懒加载、按需加载",
     "_posts/performance/教程/性能优化实战",
     "_posts/数据可视化/AntV",
-    "_posts/数据可视化",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
