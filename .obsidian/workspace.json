@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/简历/商智/如果你是面试官，会如何考察我？.md",
+                "file": "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "如果你是面试官，会如何考察我？"
+              "title": "京东商智- 商智功能介绍（上）"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -698,16 +698,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "aa1d12fd22621a9e",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/interview/简历/商智/技术栈.md",
+    "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
+    "_posts/interview/简历/商智/业务逻辑/业务模块.md",
+    "_posts/interview/简历/商智/业务逻辑",
+    "_posts/interview/简历/商智/商智.md",
     "_posts/interview/简历/商智/如果你是面试官，会如何考察我？.md",
+    "_posts/methods/要整理的.md",
+    "_posts/interview/简历/商智/业务模块操作指南.md",
+    "_posts/interview/简历/商智/技术栈.md",
     "_posts/interview/简历/商智/京麦与商智的关系.md",
     "_posts/interview/简历/商智/技术架构.md",
     "_posts/interview/简历/自我介绍.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/methods/要整理的.md",
-    "_posts/interview/简历/商智/商智.md",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/9.性能优化.md",
     "_posts/browser/Chrome 开发者工具/performance、性能面板.md",
     "_posts/performance/教程/性能优化实战/03：企业项目性能优化方案.md",
@@ -733,9 +737,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/debug/前端调试通关秘籍/25 会用 Performance 工具，就能深入理解 Event Loop.md",
-    "_posts/debug/前端调试通关秘籍/31 Chrome DevTools 小功能集锦.md",
-    "_posts/browser/Chrome 开发者工具/performance、性能面板_2.md",
-    "_posts/libraries/shadcn/issues 记录.md",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/业务类型",
@@ -745,7 +746,6 @@
     "_posts/数据可视化/AntV",
     "_posts/数据可视化",
     "_posts/base/知识目录、路线图/知识目录/数据可视化",
-    "_posts/browser/media/1ee6d0f66be9deb344d5afb15f8f96b6_MD5.mp4",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
