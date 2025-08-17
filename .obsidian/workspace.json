@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/前端架构/90天架构师能力提升计划模板-QW.md",
+                "file": "_posts/architect/前端架构/前端架构师的职责-WQ.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "90天架构师能力提升计划模板-QW"
+              "title": "前端架构师的职责-WQ"
             }
           },
           {
@@ -748,9 +748,11 @@
   },
   "active": "205a19677e524eef",
   "lastOpenFiles": [
+    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
+    "_posts/architect/前端架构/前端架构师的职责-WQ.md",
+    "_posts/architect/前端架构/工程化体系构建",
     "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
     "_posts/architect/前端架构/90天架构师能力提升计划模板-QW.md",
-    "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/architect/前端架构/前端架构师的职责-DS.md",
     "_posts/architect/前端架构-QW2.md",
     "_posts/architect/前端架构",
@@ -788,12 +790,10 @@
     "_posts/architect/业务架构",
     "_posts/读书笔记/男女.md",
     "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
-    "_posts/interview/简历/商智/业务逻辑/业务模块.md",
     "_posts/interview/简历/商智/业务逻辑",
     "_posts/engineering/1.打包工具（Module Bundler）/rspack",
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
     "_posts/业务类型",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
