@@ -43,7 +43,7 @@ import { appendHTML } from './common.js'
 import('https://cdn.jsdelivr.net/npm/lodash-es@4.17.15/slice.js').then((module) => {...})
 ```
 
-![Drawing 0.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9yo46AYuszAANDvM6jRMk647.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/8ec2c914daf59a3f1f4416f6da6a0cbb_MD5.png]]
 
 从示例中可以看到，在没有任何构建工具处理的情况下，在页面中引入带有 type=“module” 属性的 script，浏览器就会在加载入口模块时依次加载了所有被依赖的模块。下面我们就来深入了解一下这种基于浏览器加载 JS 模块的技术的细节。
 
@@ -51,7 +51,7 @@ import('https://cdn.jsdelivr.net/npm/lodash-es@4.17.15/slice.js').then((module) 
 
 从 caniuse 网站中可以看到，目前大部分主流的浏览器都已支持 JavaScript modules 这一特性，如下图所示：
 
-![Drawing 1.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9yo5aADhYKAAMTR4GJTG8708.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e980df81cb68caa58e269c73c93b39b4_MD5.png]]
 
 [图片来源：[JavaScript modules via script tag | Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/es6-module)]
 
@@ -94,11 +94,11 @@ npm install
 npm run dev
 ```
 
-![Drawing 2.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9yo-mAWrIzAAOaSZguuaM643.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/ccb5d7e78849bac1f4e5da55d176b7d0_MD5.png]]
 
 可以看到，运行示例代码后，在浏览器中只引入了 src/main.js 这一个入口模块，但是在网络面板中却依次加载了若干依赖模块，包括外部模块 vue 和 css。依赖图如下：
 
-![Drawing 4.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9yo_GAWATTAACYUvrJKL4148.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/41553416b45059311de37f3400bd2531_MD5.png]]
 
 可以看到，经过 Vite 处理后，浏览器中加载的模块与源代码中导入的模块相比发生了变化，这些变化包括对外部依赖包的处理，对 vue 文件的处理，对 css 文件的处理等。下面我们就来逐个分析其中的变化。
 

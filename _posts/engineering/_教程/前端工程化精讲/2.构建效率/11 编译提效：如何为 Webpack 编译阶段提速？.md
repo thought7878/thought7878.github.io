@@ -27,11 +27,11 @@
 
 有的依赖包，除了项目所需的模块内容外，还会附带一些多余的模块。典型的例子是 [moment](https://www.npmjs.com/package/moment) 这个包，一般情况下在构建时会自动引入其 locale 目录下的多国语言包，如下面的图片所示：
 
-![Drawing 0.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIKaAFpvlAAFYNtxZyV0507.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/f432f243bfadbbe1914c44076506cfb2_MD5.png]]
 
 但对于大多数情况而言，项目中只需要引入本国语言包即可。而 Webpack 提供的 IgnorePlugin 即可在构建模块时直接剔除那些需要被排除的模块，从而提升构建模块的速度，并减少产物体积，如下面的图片所示。
 
-![Drawing 1.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fILCATdbnAABZJ_SBA-k160.png)![Drawing 2.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fILaAS4hfAAEWkKJEE7E961.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/cc73fd7b8faf02cd4f4c31aba6b92570_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/f136560a76c6ffe8cd8b6f7769a6f3c0_MD5.png]]
 
 除了 moment 包以外，其他一些带有国际化模块的依赖包，例如之前介绍 Mock 工具中提到的 Faker.js 等都可以应用这一优化方式。
 
@@ -39,11 +39,11 @@
 
 第二种典型的减少执行模块的方式是按需引入。这种方式一般适用于工具类库性质的依赖包的优化，典型例子是 [lodash](https://www.npmjs.com/package/lodash) 依赖包。通常在项目里我们只用到了少数几个 lodash 的方法，但是构建时却发现构建时引入了整个依赖包，如下图所示：
 
-![Drawing 3.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIMWAfBHWAAD0TYKbsl8944.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/08b08674bf8cf98866da04b55cea05e1_MD5.png]]
 
 要解决这个问题，效果最佳的方式是在导入声明时只导入依赖包内的特定模块，这样就可以大大减少构建时间，以及产物的体积，如下图所示。
 
-![Drawing 4.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIMyAfUzpAADukgQoyfw559.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/4944dce703183c5f4bcc1e6e6df78067_MD5.png]]
 
 除了在导入时声明特定模块之外，还可以使用 babel-plugin-lodash 或 babel-plugin-import 等插件达到同样的效果。
 
@@ -56,9 +56,9 @@
 
 DllPlugin 是另一类减少构建模块的方式，它的核心思想是将项目依赖的框架等模块单独构建打包，与普通构建流程区分开。例如，原先一个依赖 React 与 react-dom 的文件，在构建时，会如下图般处理：
 
-![Drawing 5.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIOSAYnmjAAFH8Ofyt34986.png)而在通过 DllPlugin 和 DllReferencePlugin 分别配置后的构建时间就变成如下图所示，由于构建时减少了最耗时的模块，构建效率瞬间提升十倍。
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/a59607e9d812df7f7b81f8ff80d09e8c_MD5.png]]而在通过 DllPlugin 和 DllReferencePlugin 分别配置后的构建时间就变成如下图所示，由于构建时减少了最耗时的模块，构建效率瞬间提升十倍。
 
-![Drawing 6.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIPOALYMeAAFQB_4TuTU987.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/2bedb342de5e2ce8b8175f1738827dcd_MD5.png]]
 
 #### Externals
 
@@ -71,7 +71,7 @@ Webpack 配置中的 externals 和 DllPlugin 解决的是同一类问题：将�
 
 externals 的示例如下面两张图，可以看到经过 externals 配置后，构建速度有了很大提升。
 
-![Drawing 7.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fIPiAJx62AAEEeJ5yROI594.png)![Drawing 8.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fIQSAAB3_AAD6KAV5S6M930.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/f3f4fdbac2963ef16063d948961aedfa_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/cf001f583329b82229b06b0c9a12b405_MD5.png]]
 
 ### 提升单个模块构建的速度
 
@@ -83,7 +83,7 @@ Webpack 加载器配置中的 include/exclude，是常用的优化特定模块�
 
 include 的用途是只对符合条件的模块使用指定 Loader 进行转换处理。而 exclude 则相反，不对特定条件的模块使用该 Loader（例如不使用 babel-loader 处理 node_modules 中的模块）。如下面两张图片所示。
 
-![Drawing 9.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIQmAVCu5AAH_1DmTw5Q884.png)![Drawing 10.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIRmAYw1PAAG8nEHHA1k680.png)这里有两点需要注意：
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/d2be4a6c5c7f3deefcd2403659bff9b3_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/c8a8ac1d7bc9411136993bfbbad79fcf_MD5.png]]这里有两点需要注意：
 
 1. 从上面的第二张图中可以看到，jquery 和 lodash 的编译过程仍然花费了数百毫秒，说明通过 include/exclude 排除的模块，并非不进行编译，而是使用 Webpack 默认的 js 模块编译器进行编译（例如推断依赖包的模块类型，加上装饰代码等）。
 2. 在一个 loader 中的 include 与 exclude 配置存在冲突的情况下，优先使用 exclude 的配置，而忽略冲突的 include 部分的配置，具体可以参照示例代码中的 webpack.inexclude.config.js。
@@ -92,7 +92,7 @@ include 的用途是只对符合条件的模块使用指定 Loader 进行转换�
 
 Webpack 配置中的 module.noParse 则是在上述 include/exclude 的基础上，进一步省略了使用默认 js 模块编译器进行编译的时间，如下面两张图片所示。
 
-![Drawing 11.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIR-AABfPAAGe7gdO_nc998.png)![Drawing 12.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIS2ARrYXAAFGpNGygsY433.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/ce08c1575a9d936d274c80fa6c330520_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/ca1c92e35c3ad46cf22b4d1a3a7046d5_MD5.png]]
 
 #### Source Map
 
@@ -102,11 +102,11 @@ Source Map 对于构建时间的影响在第三课中已经展开讨论过，这
 
 Webpack 中编译 TS 有两种方式：使用 ts-loader 或使用 babel-loader。其中，在使用 ts-loader 时，由于 ts-loader 默认在编译前进行类型检查，因此编译时间往往比较慢，如下面的图片所示。
 
-![Drawing 13.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fITOAXQGlAAEcMk0PqdY814.png)通过加上配置项 transpileOnly: true，可以在编译时忽略类型检查，从而大大提升 TS 模块的编译速度，如下面的图片所示。
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/135a8036c1f0b2fddce7e4e82a1d6c10_MD5.png]]通过加上配置项 transpileOnly: true，可以在编译时忽略类型检查，从而大大提升 TS 模块的编译速度，如下面的图片所示。
 
-![Drawing 14.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fITqAO9uoAAEDJx7jQcA803.png)而 babel-loader 则需要单独安装 @babel/preset-typescript 来支持编译 TS（Babel 7 之前的版本则还是需要使用 ts-loader）。babel-loader 的编译效率与上述 ts-loader 优化后的效率相当，如下面的图片所示。
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/1134c2508b74ed72a3cfdad7693384bf_MD5.png]]而 babel-loader 则需要单独安装 @babel/preset-typescript 来支持编译 TS（Babel 7 之前的版本则还是需要使用 ts-loader）。babel-loader 的编译效率与上述 ts-loader 优化后的效率相当，如下面的图片所示。
 
-![Drawing 15.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIUqAGSCpAAD9Llg28C8211.png)不过单独使用这一功能就丧失了 TS 中重要的类型检查功能，因此在许多脚手架中往往配合 ForkTsCheckerWebpackPlugin 一同使用。
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/a8abf75d986981b7710e4a2d5535c186_MD5.png]]不过单独使用这一功能就丧失了 TS 中重要的类型检查功能，因此在许多脚手架中往往配合 ForkTsCheckerWebpackPlugin 一同使用。
 
 #### Resolve
 
@@ -119,7 +119,7 @@ Webpack 中的 resolve 配置制定的是在构建时指定查找模块文件的
 
 这些规则在处理每个模块时都会有所应用，因此尽管对小型项目的构建速度来说影响不大，但对于大型的模块众多的项目而言，这些配置的变化就可能产生客观的构建时长区别。例如下面的示例就展示了使用默认配置和增加了大量无效范围后，构建时长的变化情况：
 
-![Drawing 16.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIU-AGs1fAAErO09KCQg428.png)![Drawing 17.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fIWCAKxMyAAErVYo_MgQ418.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/7975f53a9509277b48eb94f3e6fcb849_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/739526de76994d34c1059285de25a097_MD5.png]]
 
 ### 并行构建以提升总体效率
 
@@ -129,13 +129,13 @@ Webpack 中的 resolve 配置制定的是在构建时指定查找模块文件的
 
 这两种工具的本质作用相同，都作用于模块编译的 Loader 上，用于在特定 Loader 的编译过程中，以开启多进程的方式加速编译。HappyPack 诞生较早，而 thread-loader 参照它的效果实现了更符合 Webpack 中 Loader 的编写方式。下面就以 thread-loader 为例，来看下应用前后的构建时长对比，如下面的两张图所示。
 
-![Drawing 18.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIWaAKvjDAAGxNVse3m4379.png)![Drawing 19.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fIXOAHx6XAAIyabhj3_g078.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/2fd40739d4578cd0012ffa89ca7f8309_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/d8b882229db5483edfaa5257f319b927_MD5.png]]
 
 #### parallel-webpack
 
 并发构建的第二种场景是针对与多配置构建。Webpack 的配置文件可以是一个包含多个子配置对象的数组，在执行这类多配置构建时，默认串行执行，而通过 parallel-webpack，就能实现相关配置的并行处理。从下图的示例中可以看到，通过不同配置的并行构建，构建时长缩短了 30%：
 
-![Drawing 20.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9fIXuARXhnAADx6PzQuE0879.png)![Drawing 21.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9fIbCAL6knAAEbXZ1tRpw256.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/63d91e3b290d3d0d137cf4587bb0649b_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/9eeab7b7127bd7b17b28d004a9648845_MD5.png]]
 
 ### 总结
 

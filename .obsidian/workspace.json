@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端工程化精讲/1.开发效率/08 无代码工具：如何做到不写代码就能高效交付？.md",
+                "file": "_posts/engineering/_教程/前端工程化精讲/2.构建效率/16 无包构建：盘点那些 No-bundle 的构建方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08 无代码工具：如何做到不写代码就能高效交付？"
+              "title": "16 无包构建：盘点那些 No-bundle 的构建方案"
             }
           }
         ],
@@ -651,7 +651,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 313.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -772,22 +772,31 @@
   },
   "active": "a3adf1f366ae1083",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/be912c9a8617c7a2cc1e1a79145e4042_MD5.png",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/9a7afd3bd6bdd1e95e1ed6b0e07d680a_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/41553416b45059311de37f3400bd2531_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/ccb5d7e78849bac1f4e5da55d176b7d0_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e980df81cb68caa58e269c73c93b39b4_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/8ec2c914daf59a3f1f4416f6da6a0cbb_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/15 版本特性：Webpack 5 中的优化细节.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/5825692d55d6ed35495a523258485267_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/2d6b06d6bd7b20258642e4632611a83e_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e723c6cce98150e870a3dcc353503583_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/54d6194a5206bd0de0d6a37d0c0c237b_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e52f5a19487c32c17b804ff6ec2a9bee_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/14 增量构建：Webpack 中的增量构建.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/aa90e5d082362f30e42ba63e0da35146_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e5d2a226ea96cf01d991525a5e9434b8_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/13 缓存优化：那些基于缓存的优化方案.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/12 打包提效：如何为 Webpack 打包阶段提速？.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/11 编译提效：如何为 Webpack 编译阶段提速？.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/10 流程分解：Webpack 的完整构建流程.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/09 构建总览：前端构建工具的演进.md",
+    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/08 无代码工具：如何做到不写代码就能高效交付？.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/07 低代码工具：如何用更少的代码实现更灵活的需求.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/49ae71f2d833854710f1e3f1a2f324ea_MD5.png",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/3ef4fe84981f9e1be1efac44a1972831_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/06 团队工具：如何利用云开发提升团队开发效率？.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/05 编码效率：如何提高编写代码的效率？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/6946927bfc3fc3bf4485055924197e86_MD5.png",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/b2781880dd6116f13b3c7d0bfdf03c23_MD5.gif",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/6e03ded4184ced2ade3ef85be2c3c0bd_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/c74a5cda36a281d9c26d9da89446bd11_MD5.png",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/d54ef56bf9d16c716ff1197f77710408_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/03 构建提速：如何正确使用 SourceMap？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/654719a41f85489548de3a9962a748bf_MD5.png",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/10628999d1f9da9c1eef453d7bff776c_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/02 界面调试：热更新技术如何开着飞机修引擎？.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media",
@@ -802,22 +811,13 @@
     "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
     "_posts/读书笔记/健康/老爹/药价.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/健康/老爹/病/胃病.md",
-    "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
-    "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
-    "_posts/devops/docker/未整理/why.md",
     "_posts/devops/docker/未整理",
-    "_posts/devops/docker/Docker核心概念总结.md",
-    "_posts/devops/docker/未整理/总结.md",
-    "_posts/methods/常看的.md",
     "_posts/architect/前端架构/开发体验优化",
     "_posts/architect/前端架构/设计可扩展的代码结构",
     "_posts/architect/前端架构/工程化体系构建",
     "_posts/architect/前端架构",
     "_posts/architect/网站架构",
     "_posts/architect/业务架构/media",
-    "_posts/architect/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]

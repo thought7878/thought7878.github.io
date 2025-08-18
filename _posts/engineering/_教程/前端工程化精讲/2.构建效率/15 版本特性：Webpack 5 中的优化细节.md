@@ -48,7 +48,7 @@ module.exports = {
 }
 ```
 
-![Drawing 0.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9sT2WAI_vnAAGUeALmmZo570.png)![Drawing 1.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sT2qAexnjAADgsW9ijYU168.png)![Drawing 2.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9sT26AIkKYAAEVjcm9aeY144.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e52f5a19487c32c17b804ff6ec2a9bee_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/54d6194a5206bd0de0d6a37d0c0c237b_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e723c6cce98150e870a3dcc353503583_MD5.png]]
 
 可以看到，初次构建完整花费了 3282ms，而在不修改代码进行再次构建的情况下，只花费了不到原先时间的 1/10。在修改代码文件的新情况下也只花费了 628ms，多花费的时间体现在构建被修改的文件的编译上，这就实现了上一课时所寻求的**生产环境下的增量构建**。
 
@@ -210,7 +210,7 @@ console.log(a)
 
 第三个要提到的 Webpack 5 的效率优化点是，它增加了许多内部处理过程的日志，可以通过 stats.logging 来访问。下面两张图是使用相同配置*stats: {logging: “verbose”}*的情况下，Webpack 4 和 Webpack 5 构建输出的日志：
 
-![Drawing 3.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sT6WAWzGiAACp4k0mjjw366.png)![Drawing 4.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9sT6qAeQs4AAMWioPCn4s820.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/2d6b06d6bd7b20258642e4632611a83e_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/5825692d55d6ed35495a523258485267_MD5.png]]
 
 可以看到，Webpack 5 构建输出的日志要丰富完整得多。通过这些日志能够很好地反映构建各阶段的处理过程、耗费时间，以及缓存使用的情况。在大多数情况下，它已经能够代替之前人工编写的统计插件功能了。
 

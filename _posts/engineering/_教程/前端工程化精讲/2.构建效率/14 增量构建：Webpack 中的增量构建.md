@@ -14,7 +14,7 @@
 
 上述只构建改动文件的处理过程在 Webpack 中是实际存在的，你可能也很熟悉，那就是在**开启 devServer**的时候，当我们执行 webpack-dev-server 命令后，Webpack 会进行一次初始化的构建，构建完成后启动服务并进入到等待更新的状态。当本地文件有变更时，Webpack 几乎瞬间将变更的文件进行编译，并将编译后的代码内容推送到浏览器端。你会发现，这个文件变更后的处理过程就符合上面所说的只编译打包改动的文件的操作，这就称为“**增量构建”**。我们通过示例代码进行验证（*npm run dev*），如下面的图片：
 
-![Drawing 0.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTsWAbetxAAGoldlDrIw704.png)![Drawing 1.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9sTsmAJc8YAADz9x_Zsvo780.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e71529c97c991d0d9016d5071c90fcb7_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/7879fd559a7aaa632f72c0ed5f799451_MD5.png]]
 
 可以看到，在开发服务模式下，初次构建编译了 47 个模块，完整的构建时间为 3306ms。当我们改动其中一个源码文件后，日志显示 Webpack 只再次构建了这一个模块，因此再次构建的时间非常短（24ms）。那么为什么在开发服务模式下可以实现增量构建的效果，而在生产环境下不行呢？下面我们来分析影响结果的因素。
 
@@ -24,7 +24,7 @@
 
 在上面的增量构建过程中，第一个想到的就是**需要监控文件的变化**。显然，只有得知变更的是哪个文件后，才能进行后续的针对性处理。要实现这一点也很简单，在“第 2 课时|界面调试：热更新技术如何开着飞机修引擎？”中已经介绍过，在 Webpack 中**启用 watch 配置**即可，此外在使用 devServer 的情况下，该选项会**默认开启**。那么，如果在生产模式下开启 watch 配置，是不是再次构建时，就会按增量的方式执行呢？我们仍然通过示例验证（*npm run build:watch*），如下面的图片所示：
 
-![Drawing 2.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTtOAPzPRAAHMQJnGHlo474.png)![Drawing 3.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTtiAB2seAAG0v0B0ORQ594.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/d700529bef2a644caf74f6f78701da9e_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/fa2cbea4615fff3ce9ce8c9f08c8fcac_MD5.png]]
 
 从结果中可以发现，在生产模式下开启 watch 配置后，相比初次构建，再次构建所编译的模块数量并未减少，即使只改动了一个文件，也仍然会对所有模块进行编译。因此可以得出结论，在生产环境下只开启 watch 配置后的再次构建**并不能**实现增量构建。
 
@@ -34,7 +34,7 @@
 
 下面我们就来看一下，在生产模式下，如果watch 和 cache 都为 true，结果会如何（npm run build:watch-cache）？如下面的图片所示：
 
-![Drawing 4.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTuuAc0_4AAHBe2Lt3do732.png)![Drawing 5.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9sTvCAY2NvAAEtJYxCA_8121.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/972d216f366c1e0bc4fbed7b9dc7dc2c_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/da8b0f6f0afe66f1a8bbd41c6e5ccf01_MD5.png]]
 
 正如我们所期望的，再次构建时，在编译模块阶段只对有变化的文件进行了重新编译，实现了**增量编译**的效果。
 
@@ -42,7 +42,7 @@
 
 体积最大的 react、react-dom 等模块和入口模块打入了同一个 Chunk 中，即使修改的模块是单独分离的 bar.js，但它的产物名称的变化仍然需要反映在入口 Chunk 的 runtime 模块中。因此入口 Chunk 也需要跟着重新压缩而无法复用压缩缓存数据。根据前面几节课的知识点，我们对配置再做一些优化，将 vendor 分离后再来看看效果，如下面的图片所示：
 
-![Drawing 6.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTvqAP1oIAAG2kbb-DGY688.png)![Drawing 7.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9sTv6AYxTKAAFAsmUEZMg953.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/e5d2a226ea96cf01d991525a5e9434b8_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/aa90e5d082362f30e42ba63e0da35146_MD5.png]]
 
 可以看到，通过上面这一系列的配置后（**watch + cache**），在生产模式下，最终呈现出了我们期望的**增量构建**效果：有文件发生变化时会自动编译变更的模块，并只对该模块影响到的少量 Chunk 进行优化并更新产物文件版本，而其他产物文件则保持之前的版本。如此，整个构建过程的速度大大提升。
 

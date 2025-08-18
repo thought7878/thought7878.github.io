@@ -54,7 +54,7 @@ compilation.hooks[end].tap(PluginName, () => {
 
 使用后的效果如下图所示：
 
-![Drawing 0.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9kV6KAd5qDAACDxSy2vds191.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/be6851fe1b2d5660d475bb282909c5d6_MD5.png]]
 
 通过这样的插件，我们可以分析目前项目中的效率瓶颈，从而进一步为选取优化方案及评估方案效果提供依据。
 
@@ -62,7 +62,7 @@ compilation.hooks[end].tap(PluginName, () => {
 
 在“第 10 课时|流程分解：Webpack 的完整构建流程”中，我们提到了下面的这张图。如图所示，整个优化阶段可以细分为 12 个子任务，每个任务依次对数据进行一定的处理，并将结果传递给下一任务：
 
-![Drawing 2.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9kV6qAUBvfAABnYGwsyYs441.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/3f14495b35b3a2215e3da4c905ae61e3_MD5.png]]
 
 因此，这一阶段的优化也可以分为两个不同的方向：
 
@@ -85,7 +85,7 @@ Webpack 4 中内置了 [TerserWebpackPlugin](https://www.npmjs.com/package/ters
 
 从本节课示例代码的运行结果（npm run build:jscomp）来看，如下面的表格所示，在不带任何优化配置的情况下，3 个测试文件的构建结果都是 Terser 效果更好。
 
-![Lark20200918-161929.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9kbd6AZL4AAAA8akSVxH8499.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/5ffb8a875ba9113cadacfd8f077e3d5f_MD5.png]]
 
 **Terser 和 UglifyJS 插件中的效率优化**
 
@@ -134,7 +134,7 @@ function(module,exports){function HelloWorld(){var foo="1234";console.log(HelloW
 
 在了解了两个参数对压缩质量的影响之后，我们再来看下它们对效率的影响。以上面表格中的 example-antd 为例，我制作了下面的表格进行对比：
 
-![Lark20200918-161934.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9kbdCALcuwAABCdtCwxuY965.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/4087ba34bcc91c9e0fe1ccb73de991ca_MD5.png]]
 
 从结果中可以看到，当**compress**参数为 false 时，压缩阶段的效率有明显提升，同时对压缩的质量影响较小。在需要对压缩阶段的效率进行优化的情况下，**可以优先选择设置该参数**。
 
@@ -146,7 +146,7 @@ CSS 同样有几种压缩工具可供选择：[OptimizeCSSAssetsPlugin](https://
 
 在压缩效率方面，首先值得一提的是最新发布的 CSSMinimizerWebpackPlugin，它**支持缓存和多进程**，这是另外两个工具不具备的。而在非缓存的普通压缩过程方面，整体上 3 个工具相差不大，不同的参数结果略有不同，如下面的表格所示（下面结果为示例代码中 example-css 的执行构建结果）。
 
-![Lark20200918-161938.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9kbb6AI7F5AABRRdbprbU989.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/c0bbc4b9887ba69c652849ff63dbd930_MD5.png]]
 
 > 注：CSSMinimizerWebpackPlugin 中默认开启多进程选项 parallel，但是在测试示例较小的情况下，多进程的通信时间反而可能导致效率的降低。测试中关闭多进程选项后，构建时间明显缩短。
 
@@ -196,7 +196,7 @@ optimization: {
 
 在这个示例中，有两个入口文件引入了相同的依赖包 lodash，在没有额外设置分包的情况下， lodash 被同时打入到两个产物文件中，在后续的压缩代码阶段耗时 1740ms。**而在设置分包规则为 chunks:‘all’ 的情况下**，通过分离公共依赖到单独的 Chunk，使得在后续压缩代码阶段，只需要压缩一次 lodash 的依赖包代码，从而减少了压缩时长，总耗时为 1036ms。通过下面两张图片也可以看出这样的变化。
 
-![Drawing 3.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9kWAWANNLZAAGM4v1icLA197.png)![Drawing 4.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/CgqCHl9kWAqAELXZAAG5xisRryc225.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/4dfac9126838a57aa0abe7999f88e262_MD5.png]]![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/b33e30f5a8d1bfeadcaa7618d9f2c777_MD5.png]]
 
 这里起作用的是 Webpack 4 中内置的 SplitChunksPlugin，该插件在 production 模式下默认启用。其默认的分包规则为 chunks: ‘**async**‘，作用是分离动态引入的模块 (import(’…‘))，在处理动态引入的模块时能够自动分离其中的公共依赖。
 
@@ -206,7 +206,7 @@ optimization: {
 
 [Tree Shaking（摇树）](https://webpack.js.org/guides/tree-shaking/)是指在构建打包过程中，移除那些引入但未被使用的无效代码（Dead-code elimination）。这种优化手段最早应用于在 Rollup 工具中，而在 Webpack 2 之后的版本中， Webpack 开始内置这一功能。下面我们先来看一下 Tree Shaking 的例子，如下面的表格所示：
 
-![Lark20200918-161943.png](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%89%8d%e7%ab%af%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%b2%be%e8%ae%b2-%e5%ae%8c/assets/Ciqc1F9kbaqAUkjGAACmMR1PvL4711.png)
+![[_posts/engineering/_教程/前端工程化精讲/2.构建效率/media/9d8178d72e1ab5d801b895f0f482beb6_MD5.png]]
 
 可以看到，引入不同的依赖包（lodash vs lodash-es）、不同的引入方式，以及是否使用 babel 等，都会对 Tree Shaking 的效果产生影响。下面我们就来分析具体原因。
 
