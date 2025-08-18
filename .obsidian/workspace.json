@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-18"
+              "title": "2025-08-19"
             }
           },
           {
@@ -558,8 +558,33 @@
               "icon": "lucide-file",
               "title": "药价"
             }
+          },
+          {
+            "id": "a3adf1f366ae1083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/_教程/前端工程化精讲/1.开发效率/08 无代码工具：如何做到不写代码就能高效交付？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "08 无代码工具：如何做到不写代码就能高效交付？"
+            }
           }
-        ]
+        ],
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -745,54 +770,54 @@
       "media-extended:Open media": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "a3adf1f366ae1083",
   "lastOpenFiles": [
-    "_posts/devops/docker/未整理/why.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/be912c9a8617c7a2cc1e1a79145e4042_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/9a7afd3bd6bdd1e95e1ed6b0e07d680a_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/07 低代码工具：如何用更少的代码实现更灵活的需求.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/49ae71f2d833854710f1e3f1a2f324ea_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/3ef4fe84981f9e1be1efac44a1972831_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/06 团队工具：如何利用云开发提升团队开发效率？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/05 编码效率：如何提高编写代码的效率？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/6946927bfc3fc3bf4485055924197e86_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/b2781880dd6116f13b3c7d0bfdf03c23_MD5.gif",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/6e03ded4184ced2ade3ef85be2c3c0bd_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/c74a5cda36a281d9c26d9da89446bd11_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/d54ef56bf9d16c716ff1197f77710408_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/03 构建提速：如何正确使用 SourceMap？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/654719a41f85489548de3a9962a748bf_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media/10628999d1f9da9c1eef453d7bff776c_MD5.png",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/02 界面调试：热更新技术如何开着飞机修引擎？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media",
+    "_posts/engineering/_教程/前端工程化精讲/开篇词  建立上帝视角，全面系统掌握前端效率工程化.md",
+    "_posts/engineering/_教程/前端工程化精讲/media",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/23 结束语 前端效率工程化的未来展望.md",
+    "_posts/courses/前端性能优化方法与实战/0.开篇词 开启刻意练习之路，进阶前端性能技术专家.md",
+    "_posts/courses/前端性能优化方法与实战/3.性能诊断及优化手段/09.优化手段：首屏秒开的 4 重保障.md",
+    "_posts/courses/前端性能优化方法与实战/2.性能优化指标采集及上报/06.工具实践：性能 SDK 及上报策略设计.md",
+    "_posts/courses/前端性能优化方法与实战/5.一线大厂性能优化体系演进/17.横向对比：百度、阿里云、美团性能方案对比.md",
+    "_posts/courses/前端性能优化方法与实战/1.性能优化方法论/01.体系总览：性能优化体系及关键指标设定.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
+    "_posts/读书笔记/健康/老爹/药价.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/健康/老爹/病/胃病.md",
+    "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
     "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+    "_posts/devops/docker/未整理/why.md",
     "_posts/devops/docker/未整理",
     "_posts/devops/docker/Docker核心概念总结.md",
     "_posts/devops/docker/未整理/总结.md",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/健康/老爹/药价.md",
-    "_posts/读书笔记/健康/老爹/media/ee42baa775e327f8b867ed02bba354bd_MD5.jpeg",
-    "_posts/读书笔记/健康/老爹/media/Pasted image 20250818083118.png",
-    "_posts/architect/前端架构/前端架构师的职责-WQ.md",
-    "_posts/libraries/真实前端开源项目.md",
-    "_posts/engineering/Tokei：高效代码统计工具.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-17.md",
-    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
-    "_posts/architect/前端架构/开发体验优化/实现一键 Mock：本地开发自动代理 API 请求到 Mock 服务.md",
-    "_posts/architect/前端架构/开发体验优化/定制脚手架.md",
-    "_posts/architect/前端架构/设计可扩展的代码结构/设计可扩展的代码结构（前端领域驱动设计(DDD)实战）.md",
-    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
-    "_posts/architect/前端架构/前端架构师的职责-DS.md",
     "_posts/architect/前端架构/开发体验优化",
-    "_posts/architect/前端架构-QW2.md",
-    "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
-    "_posts/读书笔记/健康/老爹/泼尼松.md",
     "_posts/architect/前端架构/设计可扩展的代码结构",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/architect/网站架构/宏观.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
-    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
     "_posts/architect/前端架构/工程化体系构建",
-    "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
     "_posts/architect/前端架构",
     "_posts/architect/网站架构",
-    "_posts/architect/业务架构/media/936b5357cb6c1285fd1c4a74301b57ab_MD5.jpeg",
-    "_posts/architect/业务架构/media/Pasted image 20250816174840.png",
-    "_posts/architect/业务架构/media/e5958c8cfdb16aee4d6ac37ef33b932b_MD5.jpeg",
-    "_posts/architect/业务架构/media/Pasted image 20250816174802.png",
-    "_posts/architect/业务架构/media/56ba28ba14731d3c58c52751b6e1b4b0_MD5.jpeg",
-    "_posts/architect/业务架构/media/Pasted image 20250816161823.png",
-    "_posts/architect/业务架构/media/29fcdd5161019e304722a889eabee5d8_MD5.jpeg",
-    "_posts/architect/业务架构/media/Pasted image 20250816161133.png",
     "_posts/architect/业务架构/media",
     "_posts/architect/media",
-    "_posts/architect/业务架构",
-    "_posts/interview/简历/商智/业务逻辑",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
