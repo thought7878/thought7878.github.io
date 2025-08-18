@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频)"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-17.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-17"
+              "title": "2025-08-18"
             }
           },
           {
@@ -445,7 +445,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+                "file": "_posts/libraries/真实前端开源项目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,7 +460,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端高级工程师的简历-QW"
+              "title": "真实前端开源项目"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
+                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SGLT2抑制剂（恩格列净、达格列净）"
+              "title": "_心源性哮喘-QW"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+                "file": "_posts/读书笔记/健康/老爹/药价.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,11 +556,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_心源性哮喘-QW2"
+              "title": "药价"
             }
           }
-        ],
-        "currentTab": 17
+        ]
       }
     ],
     "direction": "vertical"
@@ -746,29 +745,41 @@
       "media-extended:Open media": false
     }
   },
-  "active": "205a19677e524eef",
+  "active": "148c6846560e64c4",
   "lastOpenFiles": [
-    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
+    "_posts/devops/docker/未整理/why.md",
+    "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+    "_posts/devops/docker/未整理",
+    "_posts/devops/docker/Docker核心概念总结.md",
+    "_posts/devops/docker/未整理/总结.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/健康/老爹/药价.md",
+    "_posts/读书笔记/健康/老爹/media/ee42baa775e327f8b867ed02bba354bd_MD5.jpeg",
+    "_posts/读书笔记/健康/老爹/media/Pasted image 20250818083118.png",
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
-    "_posts/architect/前端架构/工程化体系构建",
-    "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
-    "_posts/architect/前端架构/90天架构师能力提升计划模板-QW.md",
-    "_posts/architect/前端架构/前端架构师的职责-DS.md",
-    "_posts/architect/前端架构-QW2.md",
-    "_posts/architect/前端架构",
-    "_posts/读书笔记/兴趣/歌曲.md",
-    "_posts/architect/网站架构/宏观.md",
-    "_posts/architect/业务架构/3分钟了解业务架构怎么设计.md",
+    "_posts/libraries/真实前端开源项目.md",
+    "_posts/engineering/Tokei：高效代码统计工具.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-18.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-17.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-16.md",
-    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
+    "_posts/libraries/_my-libraries/什么组件合适？/前端高级工程师的简历-QW.md",
+    "_posts/architect/前端架构/开发体验优化/实现一键 Mock：本地开发自动代理 API 请求到 Mock 服务.md",
+    "_posts/architect/前端架构/开发体验优化/定制脚手架.md",
+    "_posts/architect/前端架构/设计可扩展的代码结构/设计可扩展的代码结构（前端领域驱动设计(DDD)实战）.md",
+    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
+    "_posts/architect/前端架构/前端架构师的职责-DS.md",
+    "_posts/architect/前端架构/开发体验优化",
+    "_posts/architect/前端架构-QW2.md",
+    "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
+    "_posts/读书笔记/健康/老爹/泼尼松.md",
+    "_posts/architect/前端架构/设计可扩展的代码结构",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/网站架构/宏观.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
-    "_posts/读书笔记/健康/老爹/美托洛尔.md",
-    "_posts/读书笔记/健康/老爹/ARNI.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-    "_posts/architect/前端架构-目录.md",
-    "_posts/architect/前端架构-DS.md",
+    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
+    "_posts/architect/前端架构/工程化体系构建",
+    "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
+    "_posts/architect/前端架构",
     "_posts/architect/网站架构",
     "_posts/architect/业务架构/media/936b5357cb6c1285fd1c4a74301b57ab_MD5.jpeg",
     "_posts/architect/业务架构/media/Pasted image 20250816174840.png",
@@ -779,21 +790,9 @@
     "_posts/architect/业务架构/media/29fcdd5161019e304722a889eabee5d8_MD5.jpeg",
     "_posts/architect/业务架构/media/Pasted image 20250816161133.png",
     "_posts/architect/业务架构/media",
-    "_posts/architect/前端架构-QW.md",
-    "_posts/architect/media/ac44d554eb84759ecfaf55f59450201b_MD5.jpeg",
-    "_posts/architect/media/Pasted image 20250816153552.png",
     "_posts/architect/media",
-    "_posts/methods/要整理的.md",
-    "_posts/tools/mac/Mac批量复制文件名.md",
-    "_posts/tools/mac/录课、出境讲述的短视频.md",
-    "_posts/architect/资料.md",
     "_posts/architect/业务架构",
-    "_posts/读书笔记/男女.md",
-    "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
     "_posts/interview/简历/商智/业务逻辑",
-    "_posts/engineering/1.打包工具（Module Bundler）/rspack",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/media",
-    "_posts/业务类型",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
