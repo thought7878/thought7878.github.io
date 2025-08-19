@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 视频.md",
+                "file": "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17 视频"
+              "title": "18 视频"
             }
           }
         ],
@@ -772,11 +772,12 @@
   },
   "active": "a3adf1f366ae1083",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 视频.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 部署初探：为什么一般不在开发环境下部署代码？.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 安装提效：部署流程中的依赖安装效率优化.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 流程优化：部署流程中的构建流程策略优化.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 视频.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 部署初探：为什么一般不在开发环境下部署代码？.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/21 容器方案：从构建到部署，容器化方案的优势有哪些？.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/22 案例分析：搭建基本的前端高效部署系统.md",
@@ -810,7 +811,6 @@
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/02 界面调试：热更新技术如何开着飞机修引擎？.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media",
-    "_posts/engineering/_教程/前端工程化精讲/开篇词  建立上帝视角，全面系统掌握前端效率工程化.md",
     "_posts/engineering/_教程/前端工程化精讲/media",
     "_posts/devops/docker/未整理",
     "_posts/architect/前端架构/开发体验优化",
