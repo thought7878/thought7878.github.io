@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频)"
+              "title": "常看的"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
+                "file": "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "打造标准化开发流水线（从创建项目到上线）"
+              "title": "前端架构师的核心知识-QW"
             }
           },
           {
@@ -722,16 +722,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "205a19677e524eef",
   "lastOpenFiles": [
+    "_posts/architect/前端架构/前端架构师的核心知识-DS.md",
+    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
+    "_posts/architect/前端架构/资料.md",
+    "_posts/methods/要整理的.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
+    "_posts/methods/常看的.md",
+    "_posts/devops/docker/Docker核心概念总结.md",
+    "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+    "_posts/architect/关注点分离（Separation of Concerns）.md",
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
+    "_posts/architect/前端架构/前端架构-DS.md",
+    "_posts/architect/前端架构/前端架构-目录.md",
+    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
+    "_posts/architect/前端架构/前端架构师的职责-DS.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/21 容器方案：从构建到部署，容器化方案的优势有哪些？.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
     "_posts/architect/前端架构/开发体验优化/实现一键 Mock：本地开发自动代理 API 请求到 Mock 服务.md",
     "_posts/architect/网站架构/宏观.md",
     "_posts/server/Docker.md",
-    "_posts/methods/要整理的.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
     "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
@@ -739,17 +750,6 @@
     "_posts/读书笔记/健康/老爹/药价.md",
     "_posts/libraries/真实前端开源项目.md",
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/rspack/Rspack.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 安装提效：部署流程中的依赖安装效率优化.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 流程优化：部署流程中的构建流程策略优化.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/22 案例分析：搭建基本的前端高效部署系统.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 视频.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/708c1c24bb57d8e40b0bae5b9f27100c_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/60d2dd148e8ddc350afc50a95b0bbed0_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/3507242c7b783dbbe10c3b1c3b2713d8_MD5.png",
