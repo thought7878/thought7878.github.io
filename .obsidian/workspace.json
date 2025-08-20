@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-19"
+              "title": "2025-08-20"
             }
           },
           {
@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/前端架构/前端架构师的职责-WQ.md",
+                "file": "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,7 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端架构师的职责-WQ"
+              "title": "打造标准化开发流水线（从创建项目到上线）"
             }
           },
           {
@@ -461,30 +461,6 @@
               },
               "icon": "lucide-file",
               "title": "真实前端开源项目"
-            }
-          },
-          {
-            "id": "95d4a5551271ebce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JS运行原理2_V8引擎是如何运行JS的?"
             }
           },
           {
@@ -536,36 +512,12 @@
             }
           },
           {
-            "id": "7d3648fa0d4824b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/健康/老爹/药价.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "药价"
-            }
-          },
-          {
             "id": "a3adf1f366ae1083",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
+                "file": "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,11 +532,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "18 视频"
+              "title": "20 视频"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -770,18 +722,34 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a3adf1f366ae1083",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 视频.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/17 部署初探：为什么一般不在开发环境下部署代码？.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 安装提效：部署流程中的依赖安装效率优化.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 流程优化：部署流程中的构建流程策略优化.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/21 容器方案：从构建到部署，容器化方案的优势有哪些？.md",
+    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
+    "_posts/architect/前端架构/开发体验优化/实现一键 Mock：本地开发自动代理 API 请求到 Mock 服务.md",
+    "_posts/architect/网站架构/宏观.md",
+    "_posts/server/Docker.md",
+    "_posts/methods/要整理的.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
+    "_posts/读书笔记/健康/老爹/β受体阻滞剂.md",
+    "_posts/读书笔记/健康/老爹/药价.md",
+    "_posts/libraries/真实前端开源项目.md",
+    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-19.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/rspack/Rspack.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 安装提效：部署流程中的依赖安装效率优化.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 流程优化：部署流程中的构建流程策略优化.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/22 案例分析：搭建基本的前端高效部署系统.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/23 结束语 前端效率工程化的未来展望.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/19 视频.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 视频.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/708c1c24bb57d8e40b0bae5b9f27100c_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/60d2dd148e8ddc350afc50a95b0bbed0_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/3507242c7b783dbbe10c3b1c3b2713d8_MD5.png",
@@ -793,23 +761,7 @@
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/48b16105b89466f3a4f05c91d454c1c8_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/544a17fd88c32c7824afce94284f93c0_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/16 无包构建：盘点那些 No-bundle 的构建方案.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/15 版本特性：Webpack 5 中的优化细节.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/14 增量构建：Webpack 中的增量构建.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/13 缓存优化：那些基于缓存的优化方案.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/12 打包提效：如何为 Webpack 打包阶段提速？.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/11 编译提效：如何为 Webpack 编译阶段提速？.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/10 流程分解：Webpack 的完整构建流程.md",
-    "_posts/engineering/_教程/前端工程化精讲/2.构建效率/09 构建总览：前端构建工具的演进.md",
     "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/08 无代码工具：如何做到不写代码就能高效交付？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/07 低代码工具：如何用更少的代码实现更灵活的需求.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/06 团队工具：如何利用云开发提升团队开发效率？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/05 编码效率：如何提高编写代码的效率？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/03 构建提速：如何正确使用 SourceMap？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/02 界面调试：热更新技术如何开着飞机修引擎？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/01 项目基石：前端脚手架工具探秘.md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media",
     "_posts/engineering/_教程/前端工程化精讲/media",
     "_posts/devops/docker/未整理",

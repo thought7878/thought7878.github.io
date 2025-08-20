@@ -306,7 +306,7 @@ module.exports = {
 
 ---
 
-## 💡 总结：Rspack 是 Webpack 的未来吗？
+## 总结：Rspack 是 Webpack 的未来吗？
 
 | 维度         | Webpack                          | Rspack                            |
 |--------------|----------------------------------|-----------------------------------|
@@ -327,3 +327,7 @@ module.exports = {
 npm create rspack@latest
 ```  
 体验 **10 倍速**的前端构建 workflow！ 🚀
+
+
+## 参考资料
+[2-杨健-字节跳动Rspack的原理与实践](https://www.bilibili.com/video/BV1qc41137nA/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
