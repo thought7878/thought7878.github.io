@@ -421,7 +421,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
+                "file": "_posts/architect/前端架构/前端架构师的核心知识-DS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -436,31 +436,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端架构师的核心知识-QW"
-            }
-          },
-          {
-            "id": "d95d63bd88fec27f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/libraries/真实前端开源项目.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "真实前端开源项目"
+              "title": "前端架构师的核心知识-DS"
             }
           },
           {
@@ -534,9 +510,33 @@
               "icon": "lucide-file",
               "title": "20 视频"
             }
+          },
+          {
+            "id": "92964f84ec8a3700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/3. Integrating Webpack Into The Application.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3. Integrating Webpack Into The Application"
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -697,7 +697,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -722,12 +722,31 @@
       "media-extended:Open media": false
     }
   },
-  "active": "205a19677e524eef",
+  "active": "92964f84ec8a3700",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/1. Setting Up Application.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/3. Integrating Webpack Into The Application.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction/2. What you need for this course.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction/1. Introduction.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程",
     "_posts/architect/前端架构/前端架构师的核心知识-DS.md",
+    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
+    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
+    "_posts/methods/要整理的.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/ESModule的工作原理.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/导出的是引用.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/循环依赖.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/ES Module.md",
+    "_posts/libraries/真实前端开源项目.md",
+    "_posts/engineering/Tokei：高效代码统计工具.md",
+    "_posts/读书笔记/男女.md",
     "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
     "_posts/architect/前端架构/资料.md",
-    "_posts/methods/要整理的.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
     "_posts/methods/常看的.md",
     "_posts/devops/docker/Docker核心概念总结.md",
@@ -735,21 +754,6 @@
     "_posts/architect/关注点分离（Separation of Concerns）.md",
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/architect/前端架构/前端架构-DS.md",
-    "_posts/architect/前端架构/前端架构-目录.md",
-    "_posts/architect/前端架构/工程化体系构建/打造标准化开发流水线（从创建项目到上线）.md",
-    "_posts/architect/前端架构/前端架构师的职责-DS.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/21 容器方案：从构建到部署，容器化方案的优势有哪些？.md",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
-    "_posts/architect/前端架构/开发体验优化/实现一键 Mock：本地开发自动代理 API 请求到 Mock 服务.md",
-    "_posts/architect/网站架构/宏观.md",
-    "_posts/server/Docker.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW2.md",
-    "_posts/读书笔记/健康/老爹/SGLT2抑制剂（恩格列净、达格列净）.md",
-    "_posts/读书笔记/健康/老爹/β受体阻滞剂.md",
-    "_posts/读书笔记/健康/老爹/药价.md",
-    "_posts/libraries/真实前端开源项目.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理2_V8引擎是如何运行JS的?.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/708c1c24bb57d8e40b0bae5b9f27100c_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/60d2dd148e8ddc350afc50a95b0bbed0_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/3507242c7b783dbbe10c3b1c3b2713d8_MD5.png",
@@ -766,10 +770,6 @@
     "_posts/engineering/_教程/前端工程化精讲/media",
     "_posts/devops/docker/未整理",
     "_posts/architect/前端架构/开发体验优化",
-    "_posts/architect/前端架构/设计可扩展的代码结构",
-    "_posts/architect/前端架构/工程化体系构建",
-    "_posts/architect/前端架构",
-    "_posts/architect/网站架构",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
