@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/5. Understanding Build-Time Integration.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/11. Some Background on Webpack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. Understanding Build-Time Integration"
+              "title": "11. Some Background on Webpack"
             }
           }
         ],
@@ -748,21 +748,24 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/10. Generating Products.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/11. Some Background on Webpack.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/8. Project Setup.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/d9cc15af5b8259a8ae8476e2d0c6aa35_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821144018.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/6. A Run-Time Integration.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/62e5fcfd9741390090260f34d0275d31_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821142935.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/5. Understanding Build-Time Integration.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/eb263bf9037df6be46764b67ce1c8d83_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821133413.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/62fc242e920f654c15f38b5083079891_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821132248.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/4. Application Overview.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/5. Understanding Build-Time Integration.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/3. What is a Microfrontend.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/75581a9fd162dfdfdb22bd6ede64699d_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821104622.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/e99071e602a6ade7501d1322ba8b9b1d_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821104239.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/de449b68ed761bf2ebfe94c044d136c3_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821104119.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/913a0fe0b2d369df08b2ebc77bd28357_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/前端架构/前端架构-目录.md",
@@ -786,9 +789,6 @@
     "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 核心原理-QW.md",
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
-    "_posts/architect/前端架构/前端架构师的职责-DS.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
