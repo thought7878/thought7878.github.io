@@ -17,11 +17,11 @@
 
 ---
 
-Webpack 的 **Runtime（运行时代码）** 是一段由 Webpack 自动生成的代码，负责管理模块的加载、依赖解析和执行逻辑。它是打包后的代码能够正确运行的核心机制。以下是关于 Webpack Runtime 的详细解析：
+Webpack 的 **Runtime（运行时代码）** 是一段由 Webpack *自动生成的代码*，负责管理模块的加载、依赖解析和执行逻辑。**它是打包后的代码能够正确运行的核心机制**。以下是关于 Webpack Runtime 的详细解析：
 
 ---
 
-### **一、Runtime 的作用**
+### 一、Runtime 的作用
 1. **模块管理**：
    - 维护模块的注册表（`__webpack_modules__`），存储所有模块的代码。
    - 通过 `__webpack_require__` 函数加载和执行模块。
@@ -29,13 +29,13 @@ Webpack 的 **Runtime（运行时代码）** 是一段由 Webpack 自动生成�
    - 解析模块间的依赖关系（如 `import` 和 `require`）。
    - 处理异步模块加载（如 `import()` 动态导入）。
 3. **作用域隔离**：
-   - 将每个模块包裹在函数作用域中，避免全局污染。
+   - *将每个模块包裹在函数作用域中*，避免全局污染。
 4. **错误处理**：
    - 捕获模块加载和执行过程中的错误。
 
 ---
 
-### **二、Runtime 的代码结构**
+### 二、Runtime 的代码结构
 以下是一个简化的 Runtime 示例，展示其核心逻辑：
 ```javascript
 // 模块注册表，存储所有模块的代码
@@ -74,7 +74,7 @@ __webpack_require__('./src/index.js');
 
 ---
 
-### **三、Runtime 的关键组成部分**
+### 三、Runtime 的关键组成部分
 1. **`__webpack_modules__`**  
    - 存储所有模块的代码，键为模块 ID（如文件路径），值为模块函数。
 2. **`__webpack_require__`**  
@@ -86,9 +86,9 @@ __webpack_require__('./src/index.js');
 
 ---
 
-### **四、Runtime 的配置优化**
+### 四、Runtime 的配置优化
 #### **1. 提取 Runtime 为独立文件**
-- **问题**：默认情况下，Runtime 代码内嵌在每个入口文件中，导致多入口应用重复加载。
+- **问题**：默认情况下，Runtime 代码内嵌在每个入口文件中，*导致多入口应用重复加载*。
 - **解决**：通过 `optimization.runtimeChunk` 提取 Runtime 为单独文件：
   ```javascript
   // webpack.config.js
@@ -99,8 +99,8 @@ __webpack_require__('./src/index.js');
   };
   ```
 
-#### **2. 优化模块 ID 与 Chunk ID**
-- **问题**：默认的数字 ID 会导致文件哈希随模块顺序变化而波动，影响缓存。
+#### 2. 优化模块 ID 与 Chunk ID
+- **问题**：默认的数字 ID *会导致文件哈希随模块顺序变化而波动，影响缓存*。
 - **解决**：使用 `HashedModuleIdsPlugin` 或 `deterministic` 选项：
   ```javascript
   // webpack.config.js
@@ -115,7 +115,7 @@ __webpack_require__('./src/index.js');
   };
   ```
 
-#### **3. 减少 Runtime 体积**
+#### 3. 减少 Runtime 体积
 - **问题**：复杂项目可能导致 Runtime 代码膨胀。
 - **解决**：避免滥用动态导入和非必要的代码分割。
 

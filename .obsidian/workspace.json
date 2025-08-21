@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-QW.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "运行时代码的原理-QW"
+              "title": "7. Setting Up Webpack-Dev-Server"
             }
           }
         ],
@@ -724,18 +724,23 @@
   },
   "active": "92964f84ec8a3700",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer详解.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. Different Configurations for Production and Development Builds.md",
+    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/基于依赖图全量打包.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Chunk-DS.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 核心原理-DS.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-QW.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
+    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 核心原理-QW.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Chunk-DS.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/基于依赖图全量打包.md",
-    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/architect/前端架构/前端架构师的职责-DS.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. Different Configurations for Production and Development Builds.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/architect/前端架构/前端架构-目录.md",
     "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/architect/前端架构/前端架构-QW2.md",
@@ -745,11 +750,6 @@
     "_posts/architect/前端架构/资料.md",
     "_posts/methods/常看的.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/5. Separating Code Into Multiple Files.md",
-    "_posts/读书笔记/健康/老爹/病/_心源性哮喘-QW.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/4. Default Webpack Configuration.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/3. Integrating Webpack Into The Application.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/1. Setting Up Application.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
