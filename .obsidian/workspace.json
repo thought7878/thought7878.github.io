@@ -697,7 +697,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -722,11 +722,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "92964f84ec8a3700",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/读书笔记/权力.md",
+    "_posts/读书笔记/穷人.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer详解.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. Different Configurations for Production and Development Builds.md",
     "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/基于依赖图全量打包.md",
@@ -747,9 +750,6 @@
     "_posts/architect/前端架构/前端架构师的核心知识-DS.md",
     "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
     "_posts/读书笔记/健康/老爹/药价.md",
-    "_posts/architect/前端架构/资料.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/5. Separating Code Into Multiple Files.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
