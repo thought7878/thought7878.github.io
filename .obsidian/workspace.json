@@ -746,10 +746,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9338b20a9d0cb1dd",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/14. 搭建容器项目（Scaffolding the Container）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW2.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. Implementing Module Federation.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/14. 搭建容器项目（Scaffolding the Container）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/12. A Touch More on Webpack.md",
@@ -787,9 +790,6 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/基于依赖图全量打包.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Chunk-DS.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 核心原理-DS.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-QW.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
