@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/11. Some Background on Webpack.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. Implementing Module Federation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11. Some Background on Webpack"
+              "title": "1. Implementing Module Federation"
             }
           }
         ],
@@ -748,8 +748,15 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/10. Generating Products.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/14. 搭建容器项目（Scaffolding the Container）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. Implementing Module Federation.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/12. A Touch More on Webpack.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/11. Some Background on Webpack.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/eb8c8fb0e5e9ecc8212bc9fc38c5b7fb_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821150751.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/10. Generating Products.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/8. Project Setup.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/d9cc15af5b8259a8ae8476e2d0c6aa35_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821144018.png",
@@ -764,10 +771,7 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/4. Application Overview.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/3. What is a Microfrontend.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/75581a9fd162dfdfdb22bd6ede64699d_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821104622.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/前端架构/前端架构-目录.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
@@ -786,14 +790,10 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-QW.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 核心原理-QW.md",
-    "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
