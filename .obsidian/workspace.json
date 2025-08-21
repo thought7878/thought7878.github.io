@@ -534,9 +534,33 @@
               "icon": "lucide-file",
               "title": "7. Setting Up Webpack-Dev-Server"
             }
+          },
+          {
+            "id": "9338b20a9d0cb1dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/3. What is a Microfrontend.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3. What is a Microfrontend"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -722,12 +746,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/3. What is a Microfrontend.md",
+    "_posts/architect/前端架构/前端架构-目录.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
+    "_posts/architect/微前端/教程",
+    "_posts/architect/微前端",
     "_posts/读书笔记/权力.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/人性.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer详解.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. Different Configurations for Production and Development Builds.md",
@@ -744,12 +774,10 @@
     "_posts/architect/前端架构/前端架构师的职责-WQ.md",
     "_posts/architect/前端架构/前端架构师的职责-DS.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-20.md",
-    "_posts/architect/前端架构/前端架构-目录.md",
     "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/architect/前端架构/前端架构-QW2.md",
     "_posts/architect/前端架构/前端架构师的核心知识-DS.md",
     "_posts/读书笔记/健康/糖尿病/药物/二甲双胍-DS.md",
-    "_posts/读书笔记/健康/老爹/药价.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
@@ -766,10 +794,6 @@
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media/544a17fd88c32c7824afce94284f93c0_MD5.png",
     "_posts/engineering/_教程/前端工程化精讲/3.部署效率/media",
     "_posts/engineering/_教程/前端工程化精讲/2.构建效率/media",
-    "_posts/engineering/_教程/前端工程化精讲/1.开发效率/media",
-    "_posts/engineering/_教程/前端工程化精讲/media",
-    "_posts/devops/docker/未整理",
-    "_posts/architect/前端架构/开发体验优化",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
