@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/3. 模块联邦在主项目中的作用（More on Module Federation）.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-例子.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 模块联邦在主项目中的作用（More on Module Federation）"
+              "title": "运行时代码的原理-例子"
             }
           }
         ],
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -748,11 +748,14 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-例子.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack的构建流程.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/3. 模块联邦在主项目中的作用（More on Module Federation）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. 模块联邦插件实现 主项目调用远程项目代码的步骤（Implementing Module Federation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/2981826a13808fabc46f3868db79c417_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822100131.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/2. 模块联邦在远程项目中的作用（Understanding Module Federation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/3. 模块联邦在主项目中的作用（More on Module Federation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. 模块联邦插件实现 主项目调用远程项目代码的步骤（Implementing Module Federation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/3e41a151ff71f2a2446971474b7888e6_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822084717.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/e55c2f7f61f6bce2870d63d83114b07a_MD5.jpeg",
@@ -776,7 +779,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/d9cc15af5b8259a8ae8476e2d0c6aa35_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/Pasted image 20250821144018.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/6. A Run-Time Integration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media/62e5fcfd9741390090260f34d0275d31_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/5. Understanding Build-Time Integration.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/4. Application Overview.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/3. What is a Microfrontend.md",
@@ -789,8 +791,6 @@
     "_posts/读书笔记/权力.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/人性.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer详解.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
