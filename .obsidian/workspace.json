@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-22.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-22"
+              "title": "2025-08-23"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/8. The Development Process.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/1. Using Shared Modules.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. The Development Process"
+              "title": "1. Using Shared Modules"
             }
           }
         ],
@@ -748,34 +748,38 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/a05fdcb4ee982f181dc9785777f435d7_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/Pasted image 20250823071103.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/88c21938520412892b3e91c85cf19517_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/Pasted image 20250823070525.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/4ac7d812734f969e4e915fe5e9f6269d_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media/Pasted image 20250823065900.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/1. Using Shared Modules.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW2.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/8. The Development Process.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-22.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/c3ad79576162d7ea44aba1560a120852_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822204224.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/5b0f0f18faca6e69da99e88f33d6a721_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/8. The Development Process.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822204041.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/5e1be0a4dc96661e586c50798a2f16f1_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822203826.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/5. Understanding Configuration Options.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/6. Scaffolding the Cart.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/7. Cart Integration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/e4b6b2c383f428d9e41ec8dc7722919f_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822165446.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/6fc17ffb56520483966017f0b3c30243_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/Pasted image 20250822160429.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/3. 模块联邦在主项目中的作用（More on Module Federation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media/cfe9110f8802e75be8b8fef0ebb3b206_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack的构建流程.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理-例子.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. 模块联邦插件实现 主项目调用远程项目代码的步骤（Implementing Module Federation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/2. 模块联邦在远程项目中的作用（Understanding Module Federation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-22.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
     "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW2.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/14. 搭建容器项目（Scaffolding the Container）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
@@ -784,16 +788,12 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/10. Generating Products.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/8. Project Setup.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/6. A Run-Time Integration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/5. Understanding Build-Time Integration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/4. Application Overview.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
     "_posts/architect/微前端/教程",
     "_posts/architect/微前端",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
