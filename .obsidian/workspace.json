@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/6. Refactoring Products.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/9. 一个有趣陷阱（Optional A Funny Gotcha）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. Refactoring Products"
+              "title": "9. 一个有趣陷阱（Optional A Funny Gotcha）"
             }
           }
         ],
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -748,8 +748,14 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/8. Refactoring Cart.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/9. 一个有趣陷阱（Optional A Funny Gotcha）.md",
+    "_posts/engineering/_前端开发的工程化.md",
+    "_posts/engineering/环境变量.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/7. 导入并调用远程模块的导出函数（Consuming Remote Modules）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/6. Refactoring Products.md",
+    "_posts/读书笔记/健康/淋巴结.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/4. 共享依赖时的单例加载（Singleton Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/3. 共享模块的版本控制（Shared Module Versioning）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/2. 异步加载解决依赖未加载的错误（Async Script Loading）.md",
@@ -781,13 +787,7 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/2. 模块联邦在远程项目中的作用（Understanding Module Federation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-21.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/14. 搭建容器项目（Scaffolding the Container）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/12. A Touch More on Webpack.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
