@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/6. Refactoring Products.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 子应用执行上下文（Sub-App Execution Context）"
+              "title": "6. Refactoring Products"
             }
           }
         ],
@@ -748,8 +748,9 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/4. 共享依赖时的单例加载（Singleton Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/6. Refactoring Products.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/4. 共享依赖时的单例加载（Singleton Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/3. 共享模块的版本控制（Shared Module Versioning）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/2. 异步加载解决依赖未加载的错误（Async Script Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/1. 子项目间的依赖共享（Using Shared Modules）.md",
@@ -787,7 +788,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/12. A Touch More on Webpack.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/11. Some Background on Webpack.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
