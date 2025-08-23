@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-23"
+              "title": "2025-08-24"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/5. 依赖安装（Dependency Installation）.md",
+                "file": "_posts/architect/架构模式/微前端架构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 依赖安装（Dependency Installation）"
+              "title": "微前端架构"
             }
           }
         ],
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -746,10 +746,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9338b20a9d0cb1dd",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/3. 驱动架构选择的相关需求（Requirements That Drive Architecture Choices）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. 模块联邦插件实现 主项目调用远程项目代码的步骤（Implementing Module Federation）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/6. Initial Webpack Config.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW2.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/ba5e8ed6c6678a6846c1e0057fa63a89_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250824073141.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/1. Application Overview.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/5. 依赖安装（Dependency Installation）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/3. 驱动架构选择的相关需求（Requirements That Drive Architecture Choices）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/b03c708a4e6f453706f2b416026dd920_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173759.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/00ab8c12c821e5f525b0850cd5ff065a_MD5.jpeg",
@@ -758,11 +766,7 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173513.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/a9931a629c729d29a08aaf88676ba609_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173158.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/c512ad1b78436fce2a9bc4ef1fa9946a_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823172417.png",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/2. Tech Stack.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/1. Application Overview.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/9. （Optional A Funny Gotcha）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together",
@@ -778,16 +782,12 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/2. 异步加载解决依赖未加载的错误（Async Script Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/1. 子项目间的依赖共享（Using Shared Modules）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Module Federation/模块联邦（Module Federation）-QW2.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/8. The Development Process.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-22.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/5. Understanding Configuration Options.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/6. Scaffolding the Cart.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/7. Cart Integration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/3. 模块联邦在主项目中的作用（More on Module Federation）.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack的构建流程.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/运行时代码的原理（Webpack的Runtime）-DS.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
