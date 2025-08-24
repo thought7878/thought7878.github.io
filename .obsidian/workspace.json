@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/1. 部署相关的核心需求和要点（Requirements Around Deployment）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/2. 应用程序部署到生产环境的整体流程（The Path to Production）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 部署相关的核心需求和要点（Requirements Around Deployment）"
+              "title": "2. 应用程序部署到生产环境的整体流程（The Path to Production）"
             }
           }
         ],
@@ -748,8 +748,15 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/7. 自动处理共享模块（Delegating Shared Module Selection）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/4f037c51b98f8e11362edbccd287d797_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250824212431.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/1. 部署相关的核心需求和要点（Requirements Around Deployment）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/2. 应用程序部署到生产环境的整体流程（The Path to Production）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/96654fc4830e87d5488165f44de0910e_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250824203424.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
+    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/7. 自动处理共享模块（Delegating Shared Module Selection）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/6. 减少重复依赖（Reminder on Shared Modules）.md",
     "_posts/读书笔记/旅居、旅行.md",
@@ -780,20 +787,13 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/00ab8c12c821e5f525b0850cd5ff065a_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173609.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/eb0adfa6319f7a11fc0061089d93c66f_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173513.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/a9931a629c729d29a08aaf88676ba609_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173158.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/2. Tech Stack.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/9. （Optional A Funny Gotcha）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/8. Refactoring Cart.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
