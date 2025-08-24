@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-24"
+              "title": "2025-08-25"
             }
           },
           {
@@ -748,10 +748,16 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/e64f7809efadf211dcde2cdcb6c3c649_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250825055624.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/2. 应用程序部署到生产环境的整体流程（The Path to Production）.svg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/2. 应用程序部署到生产环境的整体流程（The Path to Production）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/4f037c51b98f8e11362edbccd287d797_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250824212431.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/1. 部署相关的核心需求和要点（Requirements Around Deployment）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/2. 应用程序部署到生产环境的整体流程（The Path to Production）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/96654fc4830e87d5488165f44de0910e_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250824203424.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
@@ -779,14 +785,8 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/ba5e8ed6c6678a6846c1e0057fa63a89_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250824073141.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/1. Application Overview.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/3. 驱动架构选择的相关需求（Requirements That Drive Architecture Choices）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/b03c708a4e6f453706f2b416026dd920_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173759.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/00ab8c12c821e5f525b0850cd5ff065a_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173609.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/eb0adfa6319f7a11fc0061089d93c66f_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
