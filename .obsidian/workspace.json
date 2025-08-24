@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/8. Running Marketing in Isolation.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects/1. Assembling the App Component.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. Running Marketing in Isolation"
+              "title": "1. Assembling the App Component"
             }
           }
         ],
@@ -748,9 +748,14 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/7. 创建Webpack开发配置文件（Creating and Merging Development Config）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/11. Adding the Pricing and Landing Pages.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects/1. Assembling the App Component.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/9. 连接React（Wiring Up React）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/8. Running Marketing in Isolation.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/7. 创建Webpack开发配置文件（Creating and Merging Development Config）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/6. 创建营销项目的Webpack配置文件（Initial Webpack Config）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/5. 依赖安装（Dependency Installation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/1. 模块联邦插件实现 主项目调用远程项目代码的步骤（Implementing Module Federation）.md",
     "_posts/architect/架构模式/微前端架构.md",
     "_posts/architect/架构模式/微前端架构-QW.md",
@@ -760,7 +765,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/1. Application Overview.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-23.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/5. 依赖安装（Dependency Installation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/3. 驱动架构选择的相关需求（Requirements That Drive Architecture Choices）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/b03c708a4e6f453706f2b416026dd920_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media/Pasted image 20250823173759.png",
@@ -783,17 +787,13 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/4. 共享依赖时的单例加载（Singleton Loading）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/3. 共享模块的版本控制（Shared Module Versioning）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/2. 异步加载解决依赖未加载的错误（Async Script Loading）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/1. 子项目间的依赖共享（Using Shared Modules）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/8. The Development Process.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/01. The Basics of Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南",
-    "_posts/architect/微前端/教程",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
