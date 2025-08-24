@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects/1. Assembling the App Component.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/3. 集成Container应用与Marketing应用（Integration of the Container and Marketing）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Assembling the App Component"
+              "title": "3. 集成Container应用与Marketing应用（Integration of the Container and Marketing）"
             }
           }
         ],
@@ -748,9 +748,11 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/2. 搭建Container应用（Assembling the Container）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/3. 集成Container应用与Marketing应用（Integration of the Container and Marketing）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/1. 搭建App组件（Assembling the App Component）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/11. Adding the Pricing and Landing Pages.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects/1. Assembling the App Component.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. Generic Ties Between Projects",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/9. 连接React（Wiring Up React）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/8. Running Marketing in Isolation.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/7. 创建Webpack开发配置文件（Creating and Merging Development Config）.md",
@@ -785,8 +787,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/6. Refactoring Products.md",
     "_posts/读书笔记/健康/淋巴结.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/5. 子应用执行上下文（Sub-App Execution Context）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/4. 共享依赖时的单例加载（Singleton Loading）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/3. 共享模块的版本控制（Shared Module Versioning）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/03. Sharing Dependencies Between Apps",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/02. The Basics of Module Federation/media",
