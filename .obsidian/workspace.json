@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/6. 设置CICD流水线（Understanding CICD Pipelines）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/8. 创建部署容器应用的GitHub工作流（Creating the Container Action）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. 设置CICD流水线（Understanding CICD Pipelines）"
+              "title": "8. 创建部署容器应用的GitHub工作流（Creating the Container Action）"
             }
           }
         ],
@@ -748,10 +748,13 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/6. 设置CICD流水线（Understanding CICD Pipelines）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/8. 创建部署容器应用的GitHub工作流（Creating the Container Action）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/eb5daf5d184b8de74a95758e6ae77275_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250825095049.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/21211eca0baf54e73ecc39ef1b3937a2_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250825091703.png",
     "_posts/engineering/3.持续集成 & 持续部署/GitHub Actions/GitHub Actions-QW.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/6. 设置CICD流水线（Understanding CICD Pipelines）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/5. Production Webpack Config for Marketing.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/4. 容器应用的Webpack生产环境配置（Production Webpack Config for Container）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/3085d783f4c0ccc1d555c1574b355a1a_MD5.jpeg",
@@ -767,11 +770,8 @@
     "_posts/devops/前端部署.md",
     "_posts/devops/云服务",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/e64f7809efadf211dcde2cdcb6c3c649_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250825055624.png",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/4f037c51b98f8e11362edbccd287d797_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media/Pasted image 20250824212431.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/1. 部署相关的核心需求和要点（Requirements Around Deployment）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
     "_posts/读书笔记/健康/糖尿病/记录/8月.md",
