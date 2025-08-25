@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-25"
+              "title": "2025-08-26"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/7. Creating and Assigning Access Keys.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/8. Rerunning the Build.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7. Creating and Assigning Access Keys"
+              "title": "8. Rerunning the Build"
             }
           }
         ],
@@ -748,8 +748,12 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/7. CICD中设置环境变量，实现与AWS S3同步（Creating and Assigning Access Keys）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/8. Rerunning the Build.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/2. 允许CDN访问S3中的文件（Authoring a Bucket Policy）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/5. A Bit More Cloudfront Configuration.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/7. Creating and Assigning Access Keys.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/29d624649b1fec03170b56e05fa8a962_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/Pasted image 20250825210436.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/e6722bf920f64ff23cb0cf03277be3b1_MD5.jpeg",
@@ -761,10 +765,8 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/Pasted image 20250825205133.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/9537c93956a75aa664068f734d8e1a11_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media/Pasted image 20250825204527.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/2. 允许CDN访问S3中的文件（Authoring a Bucket Policy）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/1. 在亚马逊AWS上创建S3存储桶并进行相关配置（S3 Bucket Setup）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/9. Testing the Pipeline.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/8. 创建部署容器应用的GitHub工作流（Creating the Container Action）.md",
     "_posts/engineering/3.持续集成 & 持续部署/GitHub Actions/配置.md",
@@ -786,9 +788,7 @@
     "DailyNote/Journal/01 Daily/2025/08/2025-08-24.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/1. 部署相关的核心需求和要点（Requirements Around Deployment）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/7. 自动处理共享模块（Delegating Shared Module Selection）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/6. 减少重复依赖（Reminder on Shared Modules）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together",
