@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 生产级工作流程（Optional A Production-Style Workflow）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）"
+              "title": "9. 生产级工作流程（Optional A Production-Style Workflow）"
             }
           }
         ],
@@ -748,8 +748,12 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/510c753b165d18e9c549a3b53d1bafd8_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/Pasted image 20250826173629.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/AWS 配置步骤的速查表.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 生产级工作流程（Optional A Production-Style Workflow）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/8. 验证网站部署情况（Verifying Deployment）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）.md",
     "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/7. Running the Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/11e1200727ade437bed076326e7f041a_MD5.jpeg",
@@ -767,7 +771,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/1. CDN缓存问题及解决方法（Manual Cache Invalidations）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/10. 设置publicPath生成正确URL（Webpacks PublicPath Setting）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/33080d9c09b7b53ea1b9a2798c5bc70e_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/Pasted image 20250826093911.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/9. src路径问题（A Small Error）.md",
@@ -785,15 +788,12 @@
     "_posts/engineering/3.持续集成 & 持续部署/GitHub Actions/配置.md",
     "_posts/engineering/3.持续集成 & 持续部署/GitHub Actions/GitHub Actions-QW.md",
     "_posts/engineering/3.持续集成 & 持续部署/GitHub Actions/GitHub Actions-QW2.md",
-    "_posts/engineering/3.持续集成 & 持续部署/yaml（yml）文件格式.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services",
     "_posts/devops/云服务",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/04. Linking Multiple Apps Together",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
