@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/8. 验证网站部署情况（Verifying Deployment）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. 验证网站部署情况（Verifying Deployment）"
+              "title": "9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）"
             }
           }
         ],
@@ -748,8 +748,10 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/7. Running the Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/8. 验证网站部署情况（Verifying Deployment）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/9. 一种适用于专业项目的生产级工作流程（Optional A Production-Style Workflow）.md",
+    "_posts/methods/学习方法/编程/提问模版.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/7. Running the Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/11e1200727ade437bed076326e7f041a_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media/Pasted image 20250826150528.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/6. 设置部署所需的域名（Reminder on the Production Domain）.md",
@@ -786,8 +788,6 @@
     "_posts/engineering/3.持续集成 & 持续部署/yaml（yml）文件格式.md",
     "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/6. 设置CICD流水线（Understanding CICD Pipelines）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/5. Production Webpack Config for Marketing.md",
     "_posts/devops/云服务",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline",
