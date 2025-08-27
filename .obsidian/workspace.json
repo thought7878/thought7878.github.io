@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-26"
+              "title": "2025-08-27"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/4. CSS作用域技术（CSS Scoping Techniques）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/6. 开发环境和生产环境中的样式冲突问题及原因（So Whats the Bug）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. CSS作用域技术（CSS Scoping Techniques）"
+              "title": "6. 开发环境和生产环境中的样式冲突问题及原因（So Whats the Bug）"
             }
           }
         ],
@@ -748,19 +748,22 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/6. 开发环境和生产环境中的样式冲突问题及原因（So Whats the Bug）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/501ec59a9be285481ba28cf50ab205e9_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250827090352.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/2dbcd9ba202576a9ecffa5967cd77b34_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/48b9ba4799ca59abadc617d8131fac00_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250827085909.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250827083852.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/430a982b3735be9e81632e87b6ffe359_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250827082414.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/4. CSS作用域技术（CSS Scoping Techniques）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/3. 微前端中CSS处理存在的问题（Issues with CSS in Microfrontends）.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-27.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/07e583bb57571d401e14bf4f6b4a1285_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250826214351.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/4a1a7e9c2951bb306a5cdd542e813d21_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250826213848.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/5207c651eb2ee46e13dd7badc448bf2a_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250826213433.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/3. 微前端中CSS处理存在的问题（Issues with CSS in Microfrontends）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/4. CSS作用域技术（CSS Scoping Techniques）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/a2268b41f0a3981c2f82b77ac1c677f5_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250826204851.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/dc30321a0014cc6df8c278f5b8dfd4bd_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250826203853.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/f3ec18fae2ae17797d01b6dfb53f8f97_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/4. 微前端架构的低耦合思想：为何引入mount函数（Why Import the Mount Function）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/2. Adding a Header.md",
@@ -781,14 +784,11 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/9. src路径问题（A Small Error）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/8. Rerunning the Build.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/7. CICD中设置环境变量，实现与AWS S3同步（Creating and Assigning Access Keys）.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/2. 允许CDN访问S3中的文件（Authoring a Bucket Policy）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/5. A Bit More Cloudfront Configuration.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/4. 在AWS中创建CDN（Cloudfront Distribution Setup）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/1. 在亚马逊AWS上创建S3存储桶并进行相关配置（S3 Bucket Setup）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/9. Testing the Pipeline.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services",
     "_posts/devops/云服务",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/06. Implementing a CICD Pipeline/media",
