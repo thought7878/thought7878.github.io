@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-27.md",
+                "file": "DailyNote/Journal/01 Daily/2025/08/2025-08-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-27"
+              "title": "2025-08-28"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/4. 路由库中历史对象（Which History Implementation）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/4. 路由库的工作原理（Which History Implementation）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 路由库中历史对象（Which History Implementation）"
+              "title": "4. 路由库的工作原理（Which History Implementation）"
             }
           },
           {
@@ -745,7 +745,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -772,19 +772,22 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/1e3697b603c2ccc5d022698434154862_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250828065943.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/5c9b6e7a738d1596e6bf9f726590b643_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250828065855.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/8b78cad1da8d65ae4401a64345c8406e_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250828065712.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/110cea7cd96674a8f352e1aee84bd439_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250828064934.png",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-28.md",
+    "DailyNote/Journal/01 Daily/2025/08/2025-08-27.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/4. 路由库的工作原理（Which History Implementation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/3. 前三项需求的解决方案（A Few Solutions）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/4. 路由库中历史对象（Which History Implementation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/5a18a22c3fbfa7e572dd48a64b9345e0_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250827202520.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/c3398590697ede0b0b80354af305f47f_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250827201852.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/c66684b25d5d88bf5a28cc0bff024be7_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250827201759.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/4712bab6eb973e3b6d1b2dc7ec82f70e_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250827201547.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/2. 导航存在的问题及相关需求（Inflexible Requirements Around Navigation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/af7ae05f025159d491b3051342767068_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media/Pasted image 20250827175258.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation/media",
     "_posts/base/css/样式方案.md",
     "_posts/base/css/样式方案/原子化CSS/原子化CSS.md",
@@ -803,7 +806,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/4. CSS作用域技术（CSS Scoping Techniques）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/3. 微前端中CSS处理存在的问题（Issues with CSS in Microfrontends）.md",
-    "DailyNote/Journal/01 Daily/2025/08/2025-08-27.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-26.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/05. 项目间的通用关联（Generic Ties Between Projects）/4. 微前端架构的低耦合思想：为何引入mount函数（Why Import the Mount Function）.md",
@@ -813,8 +815,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/AWS 配置步骤的速查表.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/8. 验证网站部署情况（Verifying Deployment）.md",
     "_posts/methods/学习方法/编程/提问模版.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/7. Running the Deployment.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/6. 设置部署所需的域名（Reminder on the Production Domain）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/08. Microfrontend-Specific AWS Config",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media",
