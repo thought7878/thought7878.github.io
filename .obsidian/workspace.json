@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/8. Verifying the Fix.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/8. 修复类名冲突问题的验证过程（Verifying the Fix）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. Verifying the Fix"
+              "title": "8. 修复类名冲突问题的验证过程（Verifying the Fix）"
             }
           }
         ],
@@ -748,8 +748,9 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. Implementing Multi-Tier Navigation",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/7. 解决微前端开发中类名冲突（Fixing Class Name Collisions）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/8. Verifying the Fix.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/8. 修复类名冲突问题的验证过程（Verifying the Fix）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/6. 开发环境和生产环境中的样式冲突问题及原因（So Whats the Bug）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/29f5fe85db8ddc146419c7b298483b89_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media/Pasted image 20250827094959.png",
@@ -787,7 +788,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/8. Rerunning the Build.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/7. CICD中设置环境变量，实现与AWS S3同步（Creating and Assigning Access Keys）.md",
     "DailyNote/Journal/01 Daily/2025/08/2025-08-25.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/2. 允许CDN访问S3中的文件（Authoring a Bucket Policy）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/07. Deployment to Amazon Web Services",
     "_posts/devops/云服务",
