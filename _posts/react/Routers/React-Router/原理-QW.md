@@ -738,4 +738,7 @@ React Router 不仅是导航工具，更是**前端架构的骨架**。作为架
 🚀 **开发效率**：减少50%的数据流胶水代码  
 💡 **系统可维护性**：清晰的路由边界提升可测试性  
 
-如果需要具体场景的实施方案（如"从React Router v5到v6.4+的完整迁移指南"或"微前端架构下的路由集成最佳实践"），我可以提供可落地的模板和工具链！ 💻
+如果需要具体场景的实施方案（如"从React Router v5到v6.4+的完整迁移指南"或"微前端架构下的路由集成最佳实践"），我可以提供可落地的模板和工具链！ 
+
+## 参考资料
+[React Router 入门讲解](https://www.bilibili.com/video/BV1kKjzzzEmt/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
