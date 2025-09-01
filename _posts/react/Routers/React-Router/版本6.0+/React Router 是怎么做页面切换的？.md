@@ -1,0 +1,16 @@
+【React Router 是怎么做页面切换的？】 https://www.bilibili.com/video/BV1Wt7AzkEbG/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+视频讲述了React Router实现单页应用（SPA）页面切换的*核心原理、关键组件及使用场景*，帮助开发者理解如何通过React Router实现流畅的客户端路由导航，具体如下：
+
+
+- **客户端路由核心价值与React Router定位**：[00:21]客户端路由是SPA实现“URL变化但页面不刷新”的核心技术，能避免传统多页应用（MPA）点击链接后整页刷新的卡顿感，提升用户体验。React Router作为React生态的关键库，可通过JavaScript监听URL变化，找到对应页面组件并局部更新内容，扮演“协调者”角色。
+- **React Router核心概念：Router与createBrowserRouter**：[01:47]Router类似“交通指挥中心”，时刻监听浏览器地址栏URL变化，匹配对应页面组件并渲染。在React Router V6及以上版本，推荐使用`createBrowserRouter`函数创建Router实例，其基于现代浏览器的History API，支持操作浏览器历史记录、修改URL且不触发服务器请求，能生成干净无“#”的标准URL，还具备灵活性高、便于管理路由规则及支持数据预加载、路由级错误处理等高级功能的优势。
+- **路由规则配置：path与element**：[05:03]`createBrowserRouter`需接收一个路由规则数组参数，数组中每个对象代表一条路由规则，核心且必需的属性为`path`和`element`。`path`是字符串类型，定义URL路径匹配规则（如“/”代表根路径即首页，“/about”代表关于页）；`element`需传入React组件实例（如`<HomePage />`），指定`path`与URL匹配时渲染的组件。
+- **404页面处理机制**：[06:57]当用户访问未定义路径时，React Router默认不会让应用崩溃或显示空白页，而是展示内置的简单错误提示页面（类似404页面）；若需自定义404页面，可通过配置通配符路由或专门的错误处理路由实现（属进阶内容，视频暂未深入）。
+- **Router激活：RouterProvider组件**：[08:18]创建Router实例后，需通过`RouterProvider`组件将其接入React应用。将Router实例（如命名为`myRouter`）通过`router`属性传递给`RouterProvider`，再用`RouterProvider`包裹应用根组件，该操作通常在项目入口文件（如`main.jsx`、`index.js`）完成。`RouterProvider`类似“系统接入点”，能让应用内所有层级组件感知路由状态、使用React Router其他功能。
+- **页面跳转组件：Link与普通A标签的区别**：[10:15]React Router提供`Link`组件创建应用内部导航链接，其最终在DOM中渲染为标准HTML的`<a>`标签，但与普通`<a>`标签差异显著。普通`<a>`标签点击后会触发浏览器向服务器请求新页面并整页刷新；`Link`组件点击时会捕获事件，调用`preventDefault()`阻止默认刷新行为，通过History API的`pushState`方法修改URL且不触发服务器请求，Router实例监测到URL变化后，匹配对应路由规则并局部渲染组件，保障SPA流畅体验。
+- **Link组件的核心属性与适用场景**：[13:52]`Link`组件的核心属性是`to`，需传入字符串类型的目标页面路径（如`<Link to="/products/123">查看产品</Link>`），点击后地址栏更新为目标路径，React Router渲染对应组件。`Link`适用于应用内部仅需基础跳转功能、无需高亮当前导航项的场景，如博客文章列表的文章标题链接、网站底部“联系我们”“隐私政策”链接、个人资料页“编辑资料”链接等。
+- **导航高亮组件：NavLink**：[17:11]`NavLink`是`Link`的增强版，继承`Link`所有基础跳转功能（需`to`属性指定路径、不刷新页面等），核心增强点是能感知自身`to`属性指向路径与当前URL是否一致。若一致，`NavLink`判定自身处于“活跃（active）”状态，并通过`isActive`布尔值（作为参数传递给`className`或`style`的函数）将活跃状态传递给开发者。
+- **NavLink的样式配置与适用场景**：[18:46]`NavLink`可通过函数式`className`或`style`实现活跃状态样式切换。`className`函数接收含`isActive`的参数对象，根据`isActive`返回不同类名（如`className={(isActive) => isActive ? "active-link" : "normal-link"}`）；`style`函数同理，根据`isActive`返回不同内联样式（如`style={(isActive) => ({ fontWeight: isActive ? "bold" : "normal", color: isActive ? "red" : "black" })}`）。推荐团队协作或大型项目使用`className`结合外部CSS，便于样式与逻辑分离。`NavLink`适用于需高亮当前导航项的场景，如网站顶部/侧边主导航栏、面包屑导航、选项卡（Tabs）切换界面等。
+- **Link与NavLink的对比总结**：[22:20]两者共同点是均为React Router实现应用内部页面跳转的核心组件，最终渲染为可点击链接，点击后均通过客户端路由更新URL且不整页刷新，保障SPA流畅体验。核心区别在于活跃状态感知能力：`Link`仅负责基础跳转，不感知自身是否指向当前页面，不提供活跃状态信息；`NavLink`可判断`to`属性路径与当前URL是否一致，能通过`isActive`传递活跃状态信息。选择建议为：需高亮当前导航项用`NavLink`，仅需基础跳转用`Link`，该选择能让代码意图清晰、提升可读性与可维护性。
+- **URL承载应用状态的延伸思考**：[26:59]URL不仅能定义页面路径，还可承载更复杂的应用状态（如电商商品列表页的筛选条件、排序方式，页面弹窗的打开/关闭状态），将这些状态编码为URL查询参数（如`/products?brand=apple&priceMin=5000&priceMax=8000&sort=salesDesc`），可实现URL可分享、可收藏，让他人打开链接或用户下次通过书签访问时恢复相同视图状态。但该方式也存在挑战，如URL可能过长复杂、可读性下降，管理URL参数解析与更新逻辑可能增加代码复杂度，需平衡其利弊（属进阶探索方向）。
