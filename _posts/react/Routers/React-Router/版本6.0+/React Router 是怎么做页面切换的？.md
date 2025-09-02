@@ -4,7 +4,7 @@
 
 
 - **客户端路由核心价值与React Router定位**：[00:21]客户端路由是SPA实现“URL变化但页面不刷新”的核心技术，能避免传统多页应用（MPA）点击链接后整页刷新的卡顿感，提升用户体验。React Router作为React生态的关键库，可通过JavaScript监听URL变化，找到对应页面组件并局部更新内容，扮演“协调者”角色。
-- **React Router核心概念：Router与createBrowserRouter**：[01:47]Router类似“交通指挥中心”，时刻监听浏览器地址栏URL变化，匹配对应页面组件并渲染。在React Router V6及以上版本，推荐使用`createBrowserRouter`函数创建Router实例，其基于现代浏览器的History API，支持操作浏览器历史记录、修改URL且不触发服务器请求，能生成干净无“#”的标准URL，还具备灵活性高、便于管理路由规则及支持数据预加载、路由级错误处理等高级功能的优势。
+- **React Router核心概念：Router与createBrowserRouter**：[01:47]Router类似“交通指挥中心”，时刻监听浏览器地址栏URL变化，匹配对应页面组件并渲染。在React Router V6及以上版本，*推荐使用`createBrowserRouter`函数创建Router实例*，其基于现代浏览器的History API，支持操作浏览器历史记录、修改URL且不触发服务器请求，能生成干净无“#”的标准URL，还具备灵活性高、便于管理路由规则及支持数据预加载、路由级错误处理等高级功能的优势。
 - **路由规则配置：path与element**：[05:03]`createBrowserRouter`需接收一个路由规则数组参数，数组中每个对象代表一条路由规则，核心且必需的属性为`path`和`element`。`path`是字符串类型，定义URL路径匹配规则（如“/”代表根路径即首页，“/about”代表关于页）；`element`需传入React组件实例（如`<HomePage />`），指定`path`与URL匹配时渲染的组件。
 - **404页面处理机制**：[06:57]当用户访问未定义路径时，React Router默认不会让应用崩溃或显示空白页，而是展示内置的简单错误提示页面（类似404页面）；若需自定义404页面，可通过配置通配符路由或专门的错误处理路由实现（属进阶内容，视频暂未深入）。
 - **Router激活：RouterProvider组件**：[08:18]创建Router实例后，需通过`RouterProvider`组件将其接入React应用。将Router实例（如命名为`myRouter`）通过`router`属性传递给`RouterProvider`，再用`RouterProvider`包裹应用根组件，该操作通常在项目入口文件（如`main.jsx`、`index.js`）完成。`RouterProvider`类似“系统接入点”，能让应用内所有层级组件感知路由状态、使用React Router其他功能。
