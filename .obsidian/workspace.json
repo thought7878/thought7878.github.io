@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/微前端.md",
+                "file": "_posts/architect/微前端/模块联邦/模块联邦.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "微前端"
+              "title": "模块联邦"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -746,11 +746,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/微前端.md",
+    "_posts/architect/微前端/模块联邦/模块联邦.md",
+    "_posts/architect/微前端/模块联邦",
+    "_posts/architect/微前端/Qiankun/Qiankun.md",
+    "_posts/architect/微前端/Qiankun",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-03.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-02.md",
-    "_posts/architect/微前端/微前端.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/3. 前三项需求的解决方案（A Few Solutions）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/2. 导航存在的问题及相关需求（Inflexible Requirements Around Navigation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
@@ -781,8 +785,6 @@
     "_posts/react/GraphQL/media/842dd35aa3140664236ce5baeb078c30_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902102133.png",
     "_posts/react/GraphQL/media",
-    "_posts/react/Routers/React-Router/版本6.0+/React Router 入门讲解.md",
-    "_posts/react/教程/深入浅出搞定 React/21_从 React-Router 切入，系统学习前端路由解决方案.md",
     "_posts/react/Routers/React-Router/版本6.0+",
     "DailyNote/Journal/01 Daily/2025/09/media",
     "DailyNote/Journal/01 Daily/2025/09",
@@ -792,8 +794,6 @@
     "_posts/base/css/样式方案",
     "_posts/base/css/样式方案/原子化CSS",
     "_posts/base/css/样式方案/CSS in JS",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
