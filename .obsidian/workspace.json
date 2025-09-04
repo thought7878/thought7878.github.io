@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/7. 路由逻辑出错的原因（Why the Strange Results）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/10. 同步History对象（Syncing History Objects）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7. 路由逻辑出错的原因（Why the Strange Results）"
+              "title": "10. 同步History对象（Syncing History Objects）"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/css/样式方案.md",
+                "file": "_posts/读书笔记/常看的警示.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "样式方案"
+              "title": "常看的警示"
             }
           }
         ],
@@ -748,6 +748,16 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/9. 通过回调函数进行通信（Communicating Through Callbacks）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/10. 同步History对象（Syncing History Objects）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/3f7f180e9709a99253a5df1fa427060a_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/Pasted image 20250904210523.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/8. 容器与子应用之间的通信及历史对象同步（Communication Between Apps）.md",
+    "_posts/读书笔记/常看的警示.md",
+    "_posts/base/css/样式方案.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/5b08f5ce561c418a23488204db7dc929_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/Pasted image 20250904180759.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/7. 路由逻辑出错的原因（Why the Strange Results）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/6. 使用内存历史对象（Using Memory History）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/5. Surveying Our Current History Setup.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/4. 路由库的工作原理（Which History Implementation）.md",
@@ -758,8 +768,6 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-03.md",
-    "_posts/base/css/样式方案.md",
-    "_posts/读书笔记/常看的警示.md",
     "_posts/读书笔记/权力.md",
     "_posts/读书笔记/宗教.md",
     "_posts/读书笔记/人性.md",
@@ -771,25 +779,17 @@
     "DailyNote/Journal/01 Daily/2025/09/2025-09-02.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
     "_posts/architect/架构模式/微前端架构-QW.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/8. 容器与子应用之间的通信及历史对象同步（Communication Between Apps）.md",
     "_posts/react/Routers/React-Router/原理-QW.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-01.md",
-    "DailyNote/Journal/01 Daily/2025-09-02.md",
-    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/react/GraphQL/media/f09e0a00acab49f4db2fa58c0a361da6_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902110127.png",
     "_posts/react/GraphQL/media/5799807c875d0dc75cf3a8d921de835f_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902102831.png",
     "_posts/react/GraphQL/media/45ea7f69990b047c6a41b6d32dfd4b1b_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902102530.png",
-    "_posts/react/GraphQL/media/842dd35aa3140664236ce5baeb078c30_MD5.jpeg",
-    "_posts/react/GraphQL/media/Pasted image 20250902102133.png",
     "_posts/react/GraphQL/media",
     "_posts/react/Routers/React-Router/版本6.0+",
     "DailyNote/Journal/01 Daily/2025/09/media",
     "DailyNote/Journal/01 Daily/2025/09",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/ad71d21aaa51bc9659c606ae30070ff5_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/Pasted image 20250828173928.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media",
     "_posts/base/css/样式方案",
     "_posts/base/css/样式方案/原子化CSS",
