@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/4. 路由库的工作原理（Which History Implementation）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/7. 路由逻辑出错的原因（Why the Strange Results）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 路由库的工作原理（Which History Implementation）"
+              "title": "7. 路由逻辑出错的原因（Why the Strange Results）"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -748,6 +748,9 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/6. 使用内存历史对象（Using Memory History）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/5. Surveying Our Current History Setup.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/4. 路由库的工作原理（Which History Implementation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/3. 前三项需求的解决方案（A Few Solutions）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/2. 导航存在的问题及相关需求（Inflexible Requirements Around Navigation）.md",
     "_posts/architect/微前端/模块联邦/模块联邦.md",
@@ -769,13 +772,10 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
     "_posts/architect/架构模式/微前端架构-QW.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/8. 容器与子应用之间的通信及历史对象同步（Communication Between Apps）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/4. 路由库的工作原理（Which History Implementation）.md",
     "_posts/react/Routers/React-Router/原理-QW.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-01.md",
     "DailyNote/Journal/01 Daily/2025-09-02.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/20 视频.md",
-    "_posts/react/GraphQL/GraphQL.md",
     "_posts/react/GraphQL/media/f09e0a00acab49f4db2fa58c0a361da6_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902110127.png",
     "_posts/react/GraphQL/media/5799807c875d0dc75cf3a8d921de835f_MD5.jpeg",
