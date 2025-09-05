@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-04"
+              "title": "2025-09-05"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/10. 同步History对象（Syncing History Objects）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/4. A Deeper Dive on PublicPath.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10. 同步History对象（Syncing History Objects）"
+              "title": "4. A Deeper Dive on PublicPath"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -748,8 +748,25 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/9. 通过回调函数进行通信（Communicating Through Callbacks）.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/4. A Deeper Dive on PublicPath.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/3. 集成登录和注册表单组件（Adding Signin and Signup Forms）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/1. 搭建认证项目（Starting the Auth Project）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/568ff227f4a50c13de11974d4da29287_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905092527.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/13. 开发环境使用浏览器历史（Using Browser History in Isolation）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/12. 实现容器应用到子应用的通信（Container to Child Communication）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/11. 独立运行子应用时的错误（Running Memory History in Isolation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/10. 同步History对象（Syncing History Objects）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/3c8f5b90a0c275900260a31c318bddb1_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/Pasted image 20250904212056.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/9. 通过回调函数进行通信（Communicating Through Callbacks）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/3f7f180e9709a99253a5df1fa427060a_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/Pasted image 20250904210523.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/8. 容器与子应用之间的通信及历史对象同步（Communication Between Apps）.md",
@@ -766,34 +783,17 @@
     "_posts/architect/微前端/模块联邦/模块联邦.md",
     "_posts/architect/微前端/微前端.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-03.md",
-    "_posts/读书笔记/权力.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/历史.md",
-    "_posts/读书笔记/生老病死.md",
     "_posts/architect/微前端/模块联邦",
-    "_posts/architect/微前端/Qiankun/Qiankun.md",
     "_posts/architect/微前端/Qiankun",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-02.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/09. Handling CSS in Microfrontends/5. CSS in JS库的工作原理（Understanding CSS in JS Libraries）.md",
-    "_posts/architect/架构模式/微前端架构-QW.md",
-    "_posts/react/Routers/React-Router/原理-QW.md",
     "_posts/react/GraphQL/media/f09e0a00acab49f4db2fa58c0a361da6_MD5.jpeg",
     "_posts/react/GraphQL/media/Pasted image 20250902110127.png",
-    "_posts/react/GraphQL/media/5799807c875d0dc75cf3a8d921de835f_MD5.jpeg",
-    "_posts/react/GraphQL/media/Pasted image 20250902102831.png",
-    "_posts/react/GraphQL/media/45ea7f69990b047c6a41b6d32dfd4b1b_MD5.jpeg",
-    "_posts/react/GraphQL/media/Pasted image 20250902102530.png",
     "_posts/react/GraphQL/media",
     "_posts/react/Routers/React-Router/版本6.0+",
     "DailyNote/Journal/01 Daily/2025/09/media",
     "DailyNote/Journal/01 Daily/2025/09",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media",
     "_posts/base/css/样式方案",
-    "_posts/base/css/样式方案/原子化CSS",
-    "_posts/base/css/样式方案/CSS in JS",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
