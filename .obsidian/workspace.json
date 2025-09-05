@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/常看的警示.md",
+                "file": "_posts/browser/解析路径.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的警示"
+              "title": "解析路径"
             }
           }
         ],
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -748,22 +748,26 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/305062fab53f6dde07cabfbfa256e28a_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905104145.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/4223f210bfe3323d56f57b4a80e06715_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905103728.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/d2d9b122a50eb83e80e63c396089fada_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905102636.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/018ee42050788e0f9c1aacc6c377d5b1_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905102331.png",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/e7bdf3994f0d74ae112971644626d099_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112929.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/120843d29bd87c4074a1e65247f4f283_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112157.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/a8dc43b7e2ed1a3aafc7f7c757c7eada_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905111754.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/5fdda1f532daab529c228cf469cd7471_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905111335.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/aafc1b52cd929c9de17112e29126279d_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905110714.png",
+    "_posts/browser/解析路径.md",
+    "_posts/browser/浏览器如何工作.md",
+    "_posts/读书笔记/常看的警示.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/4. Webpack中publicPath属性（A Deeper Dive on PublicPath）.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/305062fab53f6dde07cabfbfa256e28a_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/3. 集成登录和注册表单组件（Adding Signin and Signup Forms）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/1. 搭建认证项目（Starting the Auth Project）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/568ff227f4a50c13de11974d4da29287_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905092527.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/13. 开发环境使用浏览器历史（Using Browser History in Isolation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations",
@@ -772,10 +776,8 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/12. 实现容器应用到子应用的通信（Container to Child Communication）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/11. 独立运行子应用时的错误（Running Memory History in Isolation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/10. 同步History对象（Syncing History Objects）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media/3c8f5b90a0c275900260a31c318bddb1_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/9. 通过回调函数进行通信（Communicating Through Callbacks）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/8. 容器与子应用之间的通信及历史对象同步（Communication Between Apps）.md",
-    "_posts/读书笔记/常看的警示.md",
     "_posts/base/css/样式方案.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/7. 路由逻辑出错的原因（Why the Strange Results）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/6. 使用内存历史对象（Using Memory History）.md",
@@ -784,8 +786,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/3. 前三项需求的解决方案（A Few Solutions）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/2. 导航存在的问题及相关需求（Inflexible Requirements Around Navigation）.md",
     "_posts/architect/微前端/模块联邦/模块联邦.md",
-    "_posts/architect/微前端/微前端.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/微前端/模块联邦",
     "_posts/architect/微前端/Qiankun",
     "_posts/react/GraphQL/media",
