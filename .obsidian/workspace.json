@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/4. Webpack中publicPath属性（A Deeper Dive on PublicPath）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/8. Adding Initial State to Memory History.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. Webpack中publicPath属性（A Deeper Dive on PublicPath）"
+              "title": "8. Adding Initial State to Memory History"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/解析路径.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "解析路径"
+              "title": "path、publicPath"
             }
           }
         ],
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -748,29 +748,34 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/e7bdf3994f0d74ae112971644626d099_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112929.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/120843d29bd87c4074a1e65247f4f283_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112157.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/a8dc43b7e2ed1a3aafc7f7c757c7eada_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905111754.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/5fdda1f532daab529c228cf469cd7471_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905111335.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/aafc1b52cd929c9de17112e29126279d_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905110714.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/fca9e7cc22ea3115eee86cdbef30695c_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/Pasted image 20250905155733.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/a8efa6a0e78db0e340967e78a2e9068b_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/Pasted image 20250905155549.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/eb0981df57e31da0cfe928287afeb9f2_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/Pasted image 20250905154043.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/7. 将auth应用集成到容器（Integrating Auth into the Container）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/8. Adding Initial State to Memory History.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/6. Last Time for PublicPath.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/4. Webpack中publicPath属性（A Deeper Dive on PublicPath）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/browser/解析路径.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
     "_posts/browser/浏览器如何工作.md",
     "_posts/读书笔记/常看的警示.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/4. Webpack中publicPath属性（A Deeper Dive on PublicPath）.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/305062fab53f6dde07cabfbfa256e28a_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/3. 集成登录和注册表单组件（Adding Signin and Signup Forms）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/1. 搭建认证项目（Starting the Auth Project）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/e7bdf3994f0d74ae112971644626d099_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112929.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/120843d29bd87c4074a1e65247f4f283_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations/media/Pasted image 20250905112157.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media/a8dc43b7e2ed1a3aafc7f7c757c7eada_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/3. 集成登录和注册表单组件（Adding Signin and Signup Forms）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/1. 搭建认证项目（Starting the Auth Project）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/13. 开发环境使用浏览器历史（Using Browser History in Isolation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. Performance Considerations",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/12. 实现容器应用到子应用的通信（Container to Child Communication）.md",
@@ -782,10 +787,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/7. 路由逻辑出错的原因（Why the Strange Results）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/6. 使用内存历史对象（Using Memory History）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/5. Surveying Our Current History Setup.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/4. 路由库的工作原理（Which History Implementation）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/3. 前三项需求的解决方案（A Few Solutions）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/2. 导航存在的问题及相关需求（Inflexible Requirements Around Navigation）.md",
-    "_posts/architect/微前端/模块联邦/模块联邦.md",
     "_posts/architect/微前端/模块联邦",
     "_posts/architect/微前端/Qiankun",
     "_posts/react/GraphQL/media",
@@ -793,7 +794,6 @@
     "DailyNote/Journal/01 Daily/2025/09/media",
     "DailyNote/Journal/01 Daily/2025/09",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/media",
-    "_posts/base/css/样式方案",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
