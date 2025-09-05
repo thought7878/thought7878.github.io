@@ -30,7 +30,7 @@ module.exports = {
 #### 1. `path`
 
 - **类型**：`string`
-- **描述**：指定输出文件的绝对路径。
+- **描述**：指定*输出文件的绝对路径*。
 - **示例**：
   ```javascript
   path: path.resolve(__dirname, 'dist')
