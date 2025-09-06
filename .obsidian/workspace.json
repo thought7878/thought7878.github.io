@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 实现认证状态通信1（Communicating Auth Changes）"
+              "title": "4. 实现认证状态通信2（Communicating Authentication State）"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+                "file": "_posts/读书笔记/旅居、旅行.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "path、publicPath"
+              "title": "旅居、旅行"
             }
           }
         ],
@@ -748,28 +748,29 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/2. 通用认证策略（Implementation Strategies）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/fcc1178c1e2204be52760297dbcff6c7_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906165553.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/bcf575f39ba6e49a279a90d4e7b4db77_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906165103.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/8872fd706dd2ee603fac0a591732047a_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906164153.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/2. 通用认证策略（Implementation Strategies）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/48d8c174218d72dca42fc03c5d1a16c0_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906163913.png",
+    "_posts/读书笔记/旅居、旅行.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/宗教.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/f72d15e8e896f195aa74d07cd1128bba_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135615.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/fcb247fa2e2efbdee4b14e1a3d73dbe0_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135356.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/12f89a0d6e7a53279304f2d49025d070_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135028.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/旅居、旅行.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/1. Important Notes on Authentication.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/359ad8f17dc16acf964f04ddfa14ace3_MD5.jpeg",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906094241.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/ad3416b5fc10504391a32c6915b2f2f9_MD5.jpeg",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-06.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
     "_posts/methods/常看的.md",
-    "_posts/methods/media/968537a119892f5c9687b0c1f37b7a8e_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/10. Adding a Loading Bar.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
