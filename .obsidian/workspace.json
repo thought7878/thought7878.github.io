@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 实现认证状态通信2（Communicating Authentication State）"
+              "title": "3. 实现认证状态通信1（Communicating Auth Changes）"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/男女.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "男女"
+              "title": "path、publicPath"
             }
           }
         ],
@@ -748,30 +748,33 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/2. 通用认证策略（Implementation Strategies）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/f72d15e8e896f195aa74d07cd1128bba_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135615.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/fcb247fa2e2efbdee4b14e1a3d73dbe0_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135356.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/12f89a0d6e7a53279304f2d49025d070_MD5.jpeg",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906135028.png",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/宗教.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/旅居、旅行.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/1. Important Notes on Authentication.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/359ad8f17dc16acf964f04ddfa14ace3_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906094241.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/ad3416b5fc10504391a32c6915b2f2f9_MD5.jpeg",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-06.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
-    "_posts/读书笔记/男女.md",
     "_posts/methods/常看的.md",
     "_posts/methods/media/968537a119892f5c9687b0c1f37b7a8e_MD5.jpeg",
-    "_posts/methods/media/Pasted image 20250906081008.png",
-    "_posts/methods/media/d143d1f4630979349302ad883f822baa_MD5.jpeg",
-    "_posts/methods/media/Pasted image 20250906080930.png",
-    "_posts/methods/media/9ebb632fcdae2ab745c82655216df8ca_MD5.jpeg",
-    "_posts/methods/media/Pasted image 20250906080834.png",
-    "_posts/methods/media/e4113c6d95dbc72007ade88889d1a924_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/10. Adding a Loading Bar.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/9. 懒加载子应用（Lazily Loading SubApps）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/8. Adding Initial State to Memory History.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/7. 将auth应用集成到容器（Integrating Auth into the Container）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/6. Last Time for PublicPath.md",
@@ -783,12 +786,8 @@
     "_posts/browser/浏览器如何工作.md",
     "_posts/读书笔记/常看的警示.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/3. 集成登录和注册表单组件（Adding Signin and Signup Forms）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/1. 搭建认证项目（Starting the Auth Project）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/13. 开发环境使用浏览器历史（Using Browser History in Isolation）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-04.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/10. 多层级导航（Implementing Multi-Tier Navigation）/12. 实现容器应用到子应用的通信（Container to Child Communication）.md",
     "_posts/architect/微前端/模块联邦",
     "_posts/architect/微前端/Qiankun",
     "_posts/react/GraphQL/media",
