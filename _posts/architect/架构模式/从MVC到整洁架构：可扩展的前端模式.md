@@ -28,10 +28,16 @@ MVC中`Model`是*数据+业务逻辑（增删改查数据的逻辑）*，`View`�
 
 ![[_posts/architect/架构模式/media/8423b44f96e7041c6fc6f07ec36a046f_MD5.jpeg]]
 
+![[_posts/architect/架构模式/media/ac4bba325e43787e2e32b6fcbab00e19_MD5.jpeg]]
+
 
 ## ViewModel的作用与应用
 [07:00]
-针对客户端UI逻辑（如弹窗开关、颜色变化）和临时数据（如未提交的表单数据），需ViewModel存储。虽React不支持双向绑定，不能严格称为MVVM，但ViewModel概念仍适用，例如将未提交表单数据存到localStorage，避免浏览器关闭后数据丢失。同时强调无需严格遵循前端模式，需根据项目调整，因通用模式难以适配所有独特项目。
+针对客户端*UI逻辑*（如弹窗开关、颜色变化）和*临时数据*（如未提交的表单数据），**需ViewModel存储**。虽React不支持双向绑定，不能严格称为MVVM，但ViewModel概念仍适用，例如将未提交表单数据存到localStorage，避免浏览器关闭后数据丢失。同时强调*无需严格遵循前端模式，需根据项目调整，因通用模式难以适配所有独特项目*。
+
+![[_posts/architect/架构模式/media/e07db84e618056ac610289b1f3f30607_MD5.jpeg]]
+
+![[_posts/architect/架构模式/media/3741acf9ec1e76bfee2c0526cbb7cffc_MD5.jpeg]]
 
 
 ## 整洁架构在前端的应用
