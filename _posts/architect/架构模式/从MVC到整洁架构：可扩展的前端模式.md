@@ -83,3 +83,6 @@ MVC中`Model`是*数据+业务逻辑（增删改查数据的逻辑）*，`View`�
 ## 视频总结与建议
 [17:49]
 掌握前端模式并非要严格套用，而是让开发者拥有共同技术语言，便于沟通（如代码审查时提及View逻辑、Controller等）；模式的核心是明确边界和分离关注点；每个项目独特，需基于模式提供的工具和思维模型，灵活调整应用模式，以适配现代前端技术和项目需求。
+
+## 参考资料
+【简述5种最常用的架构模式】 https://www.bilibili.com/video/BV1RapMeYEoQ/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

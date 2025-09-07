@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-07.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-07"
+              "title": "2025-09-08"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
+                "file": "_posts/architect/架构模式/前端架构模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "从MVC到整洁架构：可扩展的前端模式"
+              "title": "前端架构模式"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+                "file": "_posts/读书笔记/男女.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "path、publicPath"
+              "title": "男女"
             }
           }
         ],
@@ -748,21 +748,31 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/architect/架构模式/media/feaed7ce669eaada96cf28c37117bbdc_MD5.jpeg",
+    "_posts/architect/架构模式/media/Pasted image 20250908070926.png",
+    "_posts/architect/架构模式/media/c1101a9e72605e8a78582173fe8f0489_MD5.jpeg",
+    "_posts/architect/架构模式/media/Pasted image 20250908070224.png",
+    "_posts/English/查询单词的提示词模版.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/架构模式/前端架构模式.md",
+    "_posts/English/isolate.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+    "_posts/读书笔记/健康/糖尿病/记录/9月.md",
+    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-07.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
+    "DailyNote/Journal/01 Daily/2025-09-08.md",
+    "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/architect/架构模式/media/fc3253ea7594e07c296cd9e09fc994be_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250907175618.png",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/present.md",
-    "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/architect/架构模式/media/b5fb58a216e1183a509c1bf1b89ebaa9_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250907174310.png",
     "_posts/architect/架构模式/media/178a6b154d72e0144e773fc7da22d71e_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250907173039.png",
     "_posts/architect/架构模式/media/7908dc5093ff9c4aa472cfc52dede4e5_MD5.jpeg",
-    "_posts/architect/架构模式/media/Pasted image 20250907172859.png",
-    "_posts/architect/架构模式/media/5928d616d0df4fe6661d5214e8c06fd4_MD5.jpeg",
-    "_posts/architect/架构模式/media/Pasted image 20250907172325.png",
-    "_posts/architect/架构模式/media/20d1188ae39c0ca540cefe539205f635_MD5.jpeg",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/architect/架构模式/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/2. A Touch More Config.md",
@@ -770,24 +780,14 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/7. Verifying Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/6. 为Auth App添加部署配置（Adding an Auth Deploy Config）.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
-    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/宗教.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/5. 实现注销功能（Allowing Signout）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/2. 通用认证策略（Implementation Strategies）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/1. Important Notes on Authentication.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-07.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-06.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
-    "_posts/methods/常看的.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/10. Adding a Loading Bar.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/9. 懒加载子应用（Lazily Loading SubApps）.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
