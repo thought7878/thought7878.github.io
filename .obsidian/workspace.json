@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/5. 实现注销功能（Allowing Signout）.md",
+                "file": "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/2. A Touch More Config.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 实现注销功能（Allowing Signout）"
+              "title": "2. A Touch More Config"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/旅居、旅行.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "旅居、旅行"
+              "title": "path、publicPath"
             }
           }
         ],
@@ -748,10 +748,20 @@
   },
   "active": "9338b20a9d0cb1dd",
   "lastOpenFiles": [
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/1. 初步搭建使用Vue框架的仪表盘页面的相关操作（Initial Dashboard Setup）.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/2. A Touch More Config.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/7. Verifying Deployment.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/6. 为Auth App添加部署配置（Adding an Auth Deploy Config）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/宗教.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/旅居、旅行.md",
+    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/5. 实现注销功能（Allowing Signout）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/d031c04169a7e87a156c802ec863e79d_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250907090501.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/4. 实现认证状态通信2（Communicating Authentication State）.md",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/5. 实现注销功能（Allowing Signout）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/6de982f2f56a9c6cdf610f6535bcd1a3_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250907085349.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/3. 实现认证状态通信1（Communicating Auth Changes）.md",
@@ -765,12 +775,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906165103.png",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/8872fd706dd2ee603fac0a591732047a_MD5.jpeg",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/Pasted image 20250906164153.png",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media/48d8c174218d72dca42fc03c5d1a16c0_MD5.jpeg",
-    "_posts/读书笔记/旅居、旅行.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-05.md",
     "_posts/methods/常看的.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
@@ -784,16 +788,12 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/4. Webpack中publicPath属性（A Deeper Dive on PublicPath）.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
-    "_posts/browser/解析路径.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/Webpack 目录.md",
-    "_posts/browser/浏览器如何工作.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
     "_posts/architect/微前端/模块联邦",
     "_posts/architect/微前端/Qiankun",
     "_posts/react/GraphQL/media",
     "_posts/react/Routers/React-Router/版本6.0+",
-    "DailyNote/Journal/01 Daily/2025/09/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
