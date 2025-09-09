@@ -61,7 +61,7 @@
         {
           "type": "file",
           "ctime": 1757402740191,
-          "path": "_posts/architect/架构模式/Frontend System Design.md"
+          "path": "_posts/architect/System Design/Frontend System Design.md"
         }
       ],
       "title": "防止忘记"
@@ -242,17 +242,27 @@
         {
           "type": "file",
           "ctime": 1757299411374,
-          "path": "_posts/architect/架构模式/System Design-QW.md"
+          "path": "_posts/architect/System Design/System Design-QW.md"
         },
         {
           "type": "file",
           "ctime": 1757402785571,
-          "path": "_posts/architect/架构模式/System Design-面试.md"
+          "path": "_posts/architect/System Design/System Design-面试.md"
         },
         {
           "type": "file",
           "ctime": 1757422889980,
-          "path": "_posts/architect/架构模式/Front End System Design Fundamentals (All In One Comprehensive Guide).md"
+          "path": "_posts/architect/System Design/Front End System Design Fundamentals (All In One Comprehensive Guide).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1757456828419,
+          "path": "_posts/architect/架构模式/前端架构模式.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1757456985717,
+          "path": "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md"
         }
       ],
       "title": "面试"

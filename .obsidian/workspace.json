@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-08"
+              "title": "2025-09-10"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/架构模式/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
+                "file": "_posts/architect/System Design/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -745,7 +745,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -772,14 +772,18 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/architect/架构模式/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
-    "_posts/architect/架构模式/14 Front End System Design Concepts Explained in 10 Minutes.md",
-    "_posts/architect/架构模式/System Design-QW.md",
-    "_posts/architect/架构模式/System Design-面试.md",
-    "_posts/architect/架构模式/Frontend System Design.md",
-    "DailyNote/Journal/01 Daily/2025-09-09.md",
+    "_posts/architect/System Design/Frontend System Design.md",
+    "_posts/architect/System Design/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/architect/架构模式/前端架构模式.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-10.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
+    "_posts/architect/System Design",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/System Design/14 Front End System Design Concepts Explained in 10 Minutes.md",
+    "_posts/architect/System Design/System Design-QW.md",
+    "_posts/architect/System Design/System Design-面试.md",
+    "DailyNote/Journal/01 Daily/2025-09-09.md",
     "_posts/architect/架构模式/media/1c1f79a40e199a4d96e61b8a7acff1ac_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250908153332.png",
     "_posts/architect/架构模式/media/2be37d34543be8a03cc65d2a987b6c49_MD5.jpeg",
@@ -793,7 +797,6 @@
     "_posts/architect/架构模式/media/e66b4fcd677292e2b46f92642637afd2_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250908134252.png",
     "_posts/architect/架构模式/React的组件化架构.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
     "_posts/English/isolate.md",
     "_posts/读书笔记/男女.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
@@ -802,14 +805,12 @@
     "DailyNote/Journal/01 Daily/2025/09/2025-09-07.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
     "DailyNote/Journal/01 Daily/2025-09-08.md",
-    "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/English/单词/present.md",
     "_posts/architect/架构模式/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/2. A Touch More Config.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks/1. 初步搭建使用Vue框架的仪表盘页面的相关操作（Initial Dashboard Setup）.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/7. Verifying Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
@@ -817,7 +818,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
     "_posts/architect/微前端/模块联邦",
     "_posts/architect/微前端/Qiankun",
-    "_posts/react/GraphQL/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]

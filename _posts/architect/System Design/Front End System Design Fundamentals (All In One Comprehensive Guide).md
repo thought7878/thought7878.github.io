@@ -1,5 +1,6 @@
 [Front End System Design Fundamentals (All In One Comprehensive Guide)](https://www.youtube.com/watch?v=NEzu4FD25KM&ab_channel=ShivamBhalla)
 
+[收费课程](https://frontendlead.com/system-design/frontend-system-design-interview-guide)
 
 视频围绕**前端系统设计基础知识**展开，旨在帮助观众*应对前端系统设计面试*，介绍了*R.A.D.I.O框架*及相关核心内容，具体如下：
 
