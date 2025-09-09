@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/架构模式/System Design-面试.md",
+                "file": "_posts/architect/架构模式/未命名.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Design-面试"
+              "title": "未命名"
             }
           },
           {
@@ -558,9 +558,33 @@
               "icon": "lucide-file",
               "title": "男女"
             }
+          },
+          {
+            "id": "659f08390d74c5c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/架构模式/Frontend System Design.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Frontend System Design"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -623,11 +647,13 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -721,7 +747,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -746,8 +772,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/architect/架构模式/未命名.md",
+    "_posts/architect/架构模式/Frontend System Design.md",
+    "DailyNote/Journal/01 Daily/2025-09-09.md",
+    "_posts/architect/架构模式/System Design-QW.md",
+    "_posts/architect/架构模式/System Design-面试.md",
     "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/架构模式/media/1c1f79a40e199a4d96e61b8a7acff1ac_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250908153332.png",
@@ -761,8 +792,6 @@
     "_posts/architect/架构模式/media/Pasted image 20250908134634.png",
     "_posts/architect/架构模式/media/e66b4fcd677292e2b46f92642637afd2_MD5.jpeg",
     "_posts/architect/架构模式/media/Pasted image 20250908134252.png",
-    "_posts/architect/架构模式/System Design-面试.md",
-    "_posts/architect/架构模式/System Design-QW.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/architect/架构模式/React的组件化架构.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
@@ -783,8 +812,6 @@
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/7. Verifying Deployment.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/6. 为Auth App添加部署配置（Adding an Auth Deploy Config）.md",
-    "_posts/读书笔记/宗教.md",
-    "_posts/读书笔记/人性.md",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
