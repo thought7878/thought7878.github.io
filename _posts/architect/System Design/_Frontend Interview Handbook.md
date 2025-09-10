@@ -12,31 +12,32 @@ tags:
 Frontend Interview Handbook  
 前端面试手册
 
-## The Front End Interview Handbook – 2025前端面试手册-2025
+## 前端面试手册-2025
+The Front End Interview Handbook – 2025
 
-![all in one frontend interview prep](https://api.frontendlead.com/wp-content/uploads/2024/03/Blue-Modern-Debit-Card-Promotion-Facebook-Ad-5.png)
+![[_posts/architect/System Design/media/d8b747ebae4b6269ec8bb7dab7f47eb3_MD5.png]]
 
 If you’ve landed on this platform, there’s a good chance you have a front-end interview coming up, or you’re thinking about diving into the interview process and have been bouncing around the internet looking for some structured guidance and resources.  
-如果你已经登陆了这个平台，那么你很有可能会有一个前端面试，或者你正在考虑进入面试过程，并且一直在互联网上寻找一些结构化的指导和资源。
+如果你已经登陆了这个平台，那么你很有可能会有一个前端面试，或者你正在考虑进入面试过程，并且一直在互联网上寻找*一些结构化的指导和资源*。
 
 Unlike traditional software engineering interviews that lean heavily on Leetcode-style algorithm problems, front-end interviews are a different beast altogether.  
 与传统的软件工程面试严重依赖 Leetcode 风格的算法问题不同，前端面试完全是另一回事。
 
 You might be asked domain-specific questions, such as how the CSS box model works or the role of semantic HTML, or be asked to build a small React app that fetches data. At the same time, you could just as easily be asked to reverse a linked list, invert a binary tree, or design a full-scale frontend system. In short, anything’s fair game, and that unpredictability can be overwhelming.  
-你可能会被问到特定领域的问题，比如 CSS 框模型是如何工作的，或者语义 HTML 的作用，或者被要求构建一个获取数据的小型 React 应用。与此同时，你可以很容易地被要求反转一个链表，反转一个二叉树，或者设计一个完整的前端系统。简而言之，任何事情都是公平的，这种不可预测性可能是压倒性的。
+你可能会被问到特定领域的问题，*比如 CSS 框模型是如何工作的，或者语义 HTML 的作用，或者被要求构建一个获取数据的小型 React 应用*。与此同时，你可以很容易地*被要求反转一个链表，反转一个二叉树，或者设计一个完整的前端系统*。简而言之，任何事情都是公平的，**这种不可预测性可能是压倒性的**。
 
 ---
 
 ## Our Purpose 我们的目的
 
 This platform was created to provide engineers with a structured, no-nonsense roadmap for navigating the front-end interview process.  
-这个平台的创建是为了为工程师提供一个结构化的，没有废话的路线图，用于导航前端面试过程。
+这个平台的创建是为了为工程师***提供一个结构化的，没有废话的路线图，用于导航前端面试过程***。
 
 I’ve personally conducted hundreds of front-end interviews for top tech companies and been on the other side of the table interviewing for roles myself. Additionally, the FrontendLead [community](https://discuss.frontendlead.com/) contains thousands of engineers who have shared their interview experiences, patterns, and preparation strategies.  
-我亲自为顶级科技公司进行了数百次前端面试，并亲自参加了面试。此外，FrontendLead [社区](https://discuss.frontendlead.com/) 包含数千名工程师，他们分享了他们的面试经验，模式和准备策略。
+*我亲自为顶级科技公司进行了数百次前端面试*，并亲自参加了面试。此外，FrontendLead [社区](https://discuss.frontendlead.com/) 包含数千名工程师，他们分享了他们的面试经验，模式和准备策略。
 
 This handbook is built from all of that collective insight. Whether you’re a new grad, a mid-level engineer looking to level up, or a principal preparing for senior loops, this guide is here to help you walk into interviews with clarity and confidence.  
-这本手册是建立在所有的集体见解。无论你是一个新的格拉德，一个中级工程师希望升级，或主要准备高级循环，本指南在这里帮助你走到面试清晰和自信。
+*这本手册是建立在所有的集体见解*。无论你是一个新的格拉德，一个中级工程师希望升级，或主要准备高级循环，*本指南在这里帮助你走到面试清晰和自信*。
 
 ---
 
@@ -44,17 +45,17 @@ The Frontend Interview Handbook is designed to help **existing frontend engineer
 前端面试手册旨在帮助 **现有的前端工程师** （无论您是新格拉德还是首席工程师）准备前端面试。所以，你应该有一些前端工程方面的经验。
 
 Before jumping into interview preparation, it is essential to be familiar with the core building blocks of frontend development.  
-在进入面试准备之前，熟悉前端开发的核心构建块是至关重要的。
+*在进入面试准备之前，熟悉前端开发的核心构建块是至关重要的*。
 
 Here’s a quick checklist of what you’re expected to know walking in:  
 这里有一个快速的清单，你应该知道走进去：
 
-| Category 类别 | What You Should Know   你应该知道的 |
-| --- | --- |
-| **HTML** | Basic understanding html tags like `<p>` `<div>` `<section>`   基本了解 HTML 标记，如 `<p>` `<div>` `<section>`   How HTML layout works   HTML 布局的工作原理   Attributes like `id`, `class`, `alt`, `href`, and custom data attributes   属性，如 `id` 、 `class` 、 `alt` 、 `href` 和自定义数据属性 |
-| **CSS** | Basic alignment items using Flexbox and Grid   使用 Flexbox 和 Grid 的基本对齐项目   Casic styling elements using CSS   使用 CSS 的 Casic 样式元素 |
+| Category 类别    | What You Should Know   你应该知道的                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HTML**       | Basic understanding html tags like `<p>` `<div>` `<section>`   基本了解 HTML 标记，如 `<p>` `<div>` `<section>`   How HTML layout works   HTML 布局的工作原理   Attributes like `id`, `class`, `alt`, `href`, and custom data attributes   属性，如 `id` 、 `class` 、 `alt` 、 `href` 和自定义数据属性                                                                                                                      |
+| **CSS**        | Basic alignment items using Flexbox and Grid   使用 Flexbox 和 Grid 的基本对齐项目   Casic styling elements using CSS   使用 CSS 的 Casic 样式元素                                                                                                                                                                                                                                                              |
 | **JavaScript** | Basic knowledge of writing functions and using variables   编写函数和使用变量的基本知识   Basic understanding of DOM manipulation and event handling   基本了解 DOM 操作和事件处理   Nice to have: standard array methods like `map` `filter` `reduce`   很高兴有：标准数组方法，如 `map` `filter` `reduce`   Nice to have: working with async code using Promises and async/await   很高兴拥有：使用 Promises 和 Promisc/await 处理 promisc 代码 |
-| **React 反应** | Basic React knowledge, building functional components   基本的 React 知识，构建功能组件   Using hooks like `useState` and `useEffect`   使用像 `useState` 和 `useEffect 这样的` 钩子   Understanding props, state, and component hierarchy   理解属性、状态和组件层次结构   Basic JSX and component composition   基本 JSX 和组件组成 |
+| **React 反应**   | Basic React knowledge, building functional components   基本的 React 知识，构建功能组件   Using hooks like `useState` and `useEffect`   使用像 `useState` 和 `useEffect 这样的` 钩子   Understanding props, state, and component hierarchy   理解属性、状态和组件层次结构   Basic JSX and component composition   基本 JSX 和组件组成                                                                                                    |
 
 **Consider this example:请考虑以下示例：**
 
@@ -94,7 +95,7 @@ export default Counter;
 ```
 
 **Quiz yourself on the example above:** Do you understand this code? If the answer is no, don’t worry – we’ve got you covered with free beginner guides to learn [HTML](https://frontendlead.com/handbook/learn-html-for-beginners), [CSS](https://frontendlead.com/handbook/learn-css-for-beginners), [JavaScript](https://frontendlead.com/handbook/javascript-fundamentals), [React JS](https://frontendlead.com/handbook/learn-react-js-for-beginners), and [Data Structures and Algorithms](https://frontendlead.com/handbook/data-structure-and-algorithms) knowledge required for Frontend Interviews.  
-**测试一下上面的例子：** 你理解这段代码吗？nbsp; 如果答案是否定的，不要担心-我们为您提供免费的初学者指南，以学习前端面试所需的 [HTML](https://frontendlead.com/handbook/learn-html-for-beginners) ，  [CSS](https://frontendlead.com/handbook/learn-css-for-beginners) ，  [JavaScript](https://frontendlead.com/handbook/javascript-fundamentals) ，  [React JS](https://frontendlead.com/handbook/learn-react-js-for-beginners) 以及 [数据结构和算法](https://frontendlead.com/handbook/data-structure-and-algorithms) 知识。
+**测试一下上面的例子：** 你理解这段代码吗？ 如果答案是否定的，不要担心-我们为您提供免费的初学者指南，以学习前端面试所需的 [HTML](https://frontendlead.com/handbook/learn-html-for-beginners) ，  [CSS](https://frontendlead.com/handbook/learn-css-for-beginners) ，  [JavaScript](https://frontendlead.com/handbook/javascript-fundamentals) ，  [React JS](https://frontendlead.com/handbook/learn-react-js-for-beginners) 以及 [数据结构和算法](https://frontendlead.com/handbook/data-structure-and-algorithms) 知识。
 
 **Otherwise, you are ready to continue preparing using the Front-End Interview Handbook.  
 否则，您可以继续使用前端面试手册进行准备。**
@@ -104,50 +105,37 @@ export default Counter;
 ## Table of Contents 目录
 
 1. **Overview 概述**
-	1. [Role of a Frontend Engineer  
-		前端工程师的角色](https://frontendlead.com/handbook/what-does-a-frontend-developer-do)
+	1. [Role of a Frontend Engineer  前端工程师的角色](https://frontendlead.com/handbook/what-does-a-frontend-developer-do)
 	2. [Salary Expectations 薪资期望](https://frontendlead.com/handbook/salary-expectations)
 2. **Fundamental Knowlege 基础知识**
 	1. [HTML Fundamentals HTML 基础](https://frontendlead.com/handbook/learn-html-for-beginners)
 	2. [CSS Fundamentals CSS 基础](https://frontendlead.com/handbook/learn-css-for-beginners)
 	3. [Javascript Fundamentals JavaScript 基础](https://frontendlead.com/handbook/javascript-fundamentals)
 	4. [React JS Fundamentals React JS 基础](https://frontendlead.com/handbook/learn-react-js-for-beginners)
-	5. [Data Structure and Algorithms for Frontend Interviews  
-		前端面试的数据结构和算法](https://frontendlead.com/handbook/data-structure-and-algorithms)
+	5. [Data Structure and Algorithms for Frontend Interviews](https://frontendlead.com/handbook/data-structure-and-algorithms)
 3. **Frontend Interview Playbook  
 	前端面试攻略**
-	1. [Frontend Interview Process Explained  
-		前端面试流程说明](https://frontendlead.com/handbook/interview-process)
-	2. [Frontend Interview Question Type by Company  
-		前端面试问题类型（按公司）](https://frontendlead.com/handbook/frontend-interview-questions-by-company)
+	1. [Frontend Interview Process Explained 前端面试流程说明](https://frontendlead.com/handbook/interview-process)
+	2. [Frontend Interview Question Type by Company  前端面试问题类型（按公司）](https://frontendlead.com/handbook/frontend-interview-questions-by-company)
 	3. [Recommended Study Plan 推荐的学习计划](https://frontendlead.com/handbook/study-plan)
 	4. [HTML Interview Questions](https://frontendlead.com/handbook/html-knowledge-and-best-practices) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
-		[HTML 面试问题](https://frontendlead.com/handbook/html-knowledge-and-best-practices) [&答案](https://frontendlead.com/handbook/react-interview-questions)
-	5. [CSS Interview Questions & Answers  
-		CSS 面试问答](https://frontendlead.com/handbook/css-knowledge-and-best-practices)
+	5. [CSS Interview Questions & Answers](https://frontendlead.com/handbook/css-knowledge-and-best-practices)
 	6. [JavaScript Interview Questions](https://frontendlead.com/handbook/javascript-interview-questions) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
-		[JavaScript 面试问题](https://frontendlead.com/handbook/javascript-interview-questions) [&答案](https://frontendlead.com/handbook/react-interview-questions)
-	7. [React JS Interview Questions & Answers  
-		React JS 面试问题与答案](https://frontendlead.com/handbook/react-interview-questions)
-	8. [Frontend Trivia Questions](https://frontendlead.com/handbook/frontend-trivia-questions) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
-		[前端琐事](https://frontendlead.com/handbook/frontend-trivia-questions) [&问答](https://frontendlead.com/handbook/react-interview-questions)
-	9. [Build a Small Frontend App: Style Questions & Answers  
-		构建小型前端应用程序：风格问题和答案](https://frontendlead.com/handbook/app-design-questions)
-	10. [Frontend System Design Questions  
-		前端系统设计问题](https://frontendlead.com/handbook/frontend-system-design-questions)
-	11. [Design Patterns in React  
-		React 中的设计模式](https://frontendlead.com/handbook/mvvm-in-react)
-	12. [Behavioral Questions](https://frontendlead.com/handbook/behavioral-questions) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
-		[行为问题](https://frontendlead.com/handbook/behavioral-questions) [&答案](https://frontendlead.com/handbook/react-interview-questions)
+	7. [React JS Interview Questions & Answers](https://frontendlead.com/handbook/react-interview-questions)
+	8. [Frontend Trivia Questions 前端琐事](https://frontendlead.com/handbook/frontend-trivia-questions) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
+	9. [Build a Small Frontend App: Style Questions & Answers  构建小型前端应用程序：风格问题和答案](https://frontendlead.com/handbook/app-design-questions)
+	10. [Frontend System Design Questions  前端系统设计问题](https://frontendlead.com/handbook/frontend-system-design-questions)
+	11. [Design Patterns in React  React 中的设计模式](https://frontendlead.com/handbook/mvvm-in-react)
+	12. [Behavioral Questions 行为问题](https://frontendlead.com/handbook/behavioral-questions) [& Answers](https://frontendlead.com/handbook/react-interview-questions)  
 	13. [Salary Negotiation 薪资谈判](https://frontendlead.com/handbook/salary-negotiation)
-	14. [How to not screw up the negotiation  
-		如何不搞砸谈判](https://frontendlead.com/handbook/offer-negotiating-mistakes-to-avoid)
+	14. [How to not screw up the negotiation  如何不搞砸谈判](https://frontendlead.com/handbook/offer-negotiating-mistakes-to-avoid)
 
 ---
 
-## What does a frontend engineer do?前端工程师是做什么的？
+## 前端工程师是做什么的？
+What does a frontend engineer do?
 
-![](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-4.png)
+![[_posts/architect/System Design/media/af7b72e35db491b6108e4f0348791f17_MD5.png]]
 
 Front-end engineers, also known as front-end developers, create the visual elements of an app or website. They design the user-facing content that users see and interact with.  
 前端工程师，也称为前端开发人员，创建应用程序或网站的视觉元素。他们设计面向用户的内容，用户可以看到并与之交互。
@@ -155,7 +143,8 @@ Front-end engineers, also known as front-end developers, create the visual eleme
 They’re the ones behind the layout of a landing page, the feel of a button when you hover over it, and how smoothly a mobile nav menu slides open. Their work is where code meets design. It’s about making things look good, feel good, and work.  
 它们决定着着陆页的布局，鼠标悬停在上面时按钮的感觉，以及移动的导航菜单滑动打开的流畅程度。他们的工作是代码满足设计的地方。这是关于让事情看起来很好，感觉很好，工作。
 
-### Do you need a degree in computer science?你需要计算机科学学位吗？
+### 你需要计算机科学学位吗？
+Do you need a degree in computer science?
 
 Not at all.一点也不.
 
@@ -165,7 +154,8 @@ Many frontend engineers come from traditional computer science backgrounds, but 
 The one thing they all have in common is this: they built projects. They got their hands dirty. In frontend, what matters is your ability to ship clean, usable interfaces, not where you went to school.  
 他们都有一个共同点：他们建立了项目。他们弄脏了手。在前端，重要的是你有能力提供干净、可用的界面，而不是你在哪里上学。
 
-### The core tools you’ll use您将使用的核心工具
+### 您将使用的核心工具
+The core tools you’ll use
 
 Most frontend engineers today work with **React**, a JavaScript framework that enables the easy development of fast and interactive web applications. It is especially common at more prominent tech companies.  
 如今，大多数前端工程师都使用 **React** ，这是一个 JavaScript 框架，可以轻松开发快速和交互式的 Web 应用程序。这在一些知名的科技公司尤其常见。
@@ -186,7 +176,8 @@ That’s why the fundamental foundation for any frontend engineer is what I call
 Frameworks come and go. These three never change.  
 框架来来去去。这三个永远不会改变。
 
-### What are the differences between the frontend and the backend?前端和后端有什么区别？
+### 前端和后端有什么区别？
+What are the differences between the frontend and the backend?
 
 | Frontend Engineer 前端工程师 | Common Skills 通用技能 | Backend Engineer 后台工程师 |
 | --- | --- | --- |
@@ -208,7 +199,8 @@ Frontend is about layout, responsiveness, polish, and design systems. Backend is
 They both require strong problem-solving skills, but the flavor of those problems is different. Frontend is about the user experience. Backend is about what happens under the hood.  
 它们都需要很强的解决问题的能力，但这些问题的味道是不同的。Frontend 是关于用户体验的。后端是关于引擎盖下发生的事情。
 
-### Is frontend engineering right for you?前端工程是否适合您？
+### 前端工程是否适合您
+Is frontend engineering right for you?
 
 If you’ve got a creative eye and enjoy design as much as development, frontend might be your sweet spot.  
 如果你有一双创造性的眼睛，喜欢设计和开发，前端可能是你的最佳选择。
@@ -236,35 +228,35 @@ Next, let’s discuss the earnings of frontend engineers.
 
 ---
 
-## Front End Engineer Salary in the United States 20252025年美国前端工程师工资
+## **2025年美国前端工程师工资**
+Front End Engineer Salary in the United States 2025
 
-![](https://api.frontendlead.com/wp-content/uploads/2024/03/1.png)
+![[_posts/architect/System Design/media/415733a2f6c40471754e5afe1caf4923_MD5.png]]
 
 For front-end developers in the United States, the compensation varies based on experience, location, and the specific company.  
-对于美国的前端开发人员来说，薪酬根据经验、地点和具体公司而有所不同。
+对于美国的前端开发人员来说，薪酬*根据经验、地点和具体公司*而有所不同。
 
 Generally speaking, if you live in a tech hub, such as San Francisco, Seattle, or New York, your salary as a software engineer (frontend) will include:  
-一般来说，如果你住在科技中心，如旧金山弗朗西斯科、西雅图或纽约，你作为软件工程师（前端）的薪水将包括：
+一般来说，如果你住在*科技中心*，如旧金山弗朗西斯科、西雅图或纽约，你作为软件工程师（前端）的**薪水将包括：**
 
 1. Base salary 基薪
 2. Stock options 股票期权
 3. Possible signing bonus 可能的签约奖金
-4. Possible relocation bonus  
-	可能的搬迁奖金
-5. Other company perks (free lunches, 401k match, etc..)  
-	其他公司福利（免费午餐，401k 比赛等）
+4. Possible relocation bonus  可能的搬迁奖金
+5. Other company perks (free lunches, 401k match, etc..)  其他公司福利（免费午餐，401k 比赛等）
 
 Here are some key salary metrics (base salary only):  
-以下是一些关键的工资指标（仅限基本工资）：
+***以下是一些关键的工资指标（仅限基本工资）：***
 
 - **Median Salary**: Typically around $153,000 per year, indicating that half of all front-end developers earn more than this amount, and half earn less ([levels.fyi](https://www.levels.fyi/t/software-engineer/focus/web-development-front-end?countryId=254&country=254)).  
-	**薪资中位数：通常每年约为 153，000 美元，这表明一半的前端开发人员的收入高于此金额，另一半的收入低于此金额（www.example.com）。**
+	**薪资中位数**：通常每年约为 *153，000 美元*，这表明一半的前端开发人员的收入高于此金额，另一半的收入低于此金额。
 - **High Salary**: Salaries can reach as high as $210,000 per year for top earners in specific regions or with extensive experience ([levels.fyi](https://www.levels.fyi/t/software-engineer/focus/web-development-front-end?countryId=254&country=254)).  
-	**高薪：特定地区或具有丰富经验的高收入者的年薪可高达 21 万美元（www.example.com）。**
+	**高薪**：特定地区或具有丰富经验的高收入者的年薪可高达 21 万美元。
 - **Top 1% Salary**: At the 90th percentile, you can expect to earn as much as $270,000 per year ([levels.fyi](https://www.levels.fyi/t/software-engineer/focus/web-development-front-end?countryId=254&country=254)).  
-	**前 1%的薪资：在第 90 百分位，您的年薪预计高达 270，000 美元（www.example.com）。**
+	**前 1%的薪资**：在第 90 百分位，您的年薪预计高达 270，000 美元。
 
-### Stock Options 股票期权
+### 股票期权
+Stock Options 
 
 Stock options are a common component of compensation packages in tech companies, particularly in startups and large, publicly traded tech firms. The value of stock options can vary greatly:  
 股票期权是科技公司薪酬方案的一个常见组成部分，特别是在初创公司和大型上市科技公司。股票期权的价值可以有很大的不同：
@@ -274,7 +266,8 @@ Stock options are a common component of compensation packages in tech companies,
 - **Established** **companies,** such as those in the FAANG (Facebook, Apple, Amazon, Netflix, Google) group, typically provide RSUs (Restricted Stock Units) as part of their compensation packages. The value can range from $50,000 to over $200,000 annually, depending on the company’s stock performance and the seniority of the position.  
 	**知名公司，如 FAANG（Facebook、苹果、亚马逊、Netflix、谷歌）集团的公司，通常会提供限制性股票（RSU）作为其薪酬方案的一部分。** 根据公司的股票表现和职位的资历，每年的价值从 50，000 美元到 200，000 美元不等。
 
-### Signing Bonuses 签约奖金
+### 签约奖金
+Signing Bonuses 
 
 Signing bonuses are used to attract top talent and can make a significant impact on the total compensation package:  
 签约奖金用于吸引顶尖人才，并对总薪酬产生重大影响：
@@ -284,15 +277,17 @@ Signing bonuses are used to attract top talent and can make a significant impact
 - Higher bonuses are often offered to more experienced developers or those joining senior roles.  
 	更高的奖金通常提供给更有经验的开发人员或那些加入高级角色的人。
 
-### Relocation Bonuses 搬迁奖金
+### 搬迁奖金
+Relocation Bonuses 
 
 Relocation bonuses are provided when candidates need to move geographically to take up the new role. This type of bonus covers moving expenses and can range:  
-当候选人需要在地理上移动以担任新角色时，将提供搬迁奖金。这种类型的奖金包括搬家费用，范围可以是：
+当候选人需要在地理上移动以担任新角色时，将提供搬迁奖金。这种类型的奖金包括*搬家费用*，范围可以是：
 
 - From $5,000 for moves within the same region to upwards of $20,000 for international relocations, depending on the distance and the company’s policies.  
 	从同一地区内的5，000美元到国际搬迁的20，000美元以上，具体取决于距离和公司的政策。
 
-### Other Perks 其它津贴
+### 其它津贴
+Other Perks 
 
 Tech companies are also famous for their generous perks, which can enhance the overall value of working with them:  
 科技公司也以其慷慨的津贴而闻名，这可以提高与他们合作的整体价值：
@@ -312,10 +307,11 @@ Tech companies are also famous for their generous perks, which can enhance the o
 - **Work-from-Home Stipends**: Especially relevant in the post-COVID era, companies may offer stipends to help set up a home office.  
 	**在家工作津贴** ：尤其是在后 COVID 时代，公司可能会提供津贴，以帮助建立一个家庭办公室。
 
-### Total Compensation 总薪酬
+### 总薪酬
+Total Compensation 
 
 When you add up the base salary, stock options, bonuses, and perks, the total annual compensation for a front-end developer in a tech hub can easily exceed the base salary by a significant margin. For example, a front-end developer with a base salary of $150,000 could realistically expect total compensation to exceed $250,000, including stock options and bonuses.  
-当你把基本工资、股票期权、奖金和津贴加起来时，技术中心前端开发人员的总年薪很容易超过基本工资。例如，一个基本工资为15万美元的前端开发人员实际上可以期望总薪酬超过25万美元，包括股票期权和奖金。
+*当你把基本工资、股票期权、奖金和津贴加起来时，前端开发人员的总年薪很容易超过基本工资*。例如，**一个*基本工资为15万美元*的前端开发人员实际上可以期望*总薪酬超过25万美元*，包括股票期权和奖金**。
 
 Understanding these components helps to evaluate job offers comprehensively and recognize the full potential of a tech career in terms of financial rewards and lifestyle benefits. This holistic view of compensation is crucial for both job seekers in the tech industry and those looking to advance in their current roles.  
 了解这些组成部分有助于全面评估工作机会，并认识到技术职业在经济回报和生活方式方面的全部潜力。这种整体薪酬观对于科技行业的求职者和那些希望在当前职位上取得进步的人都至关重要。
@@ -334,7 +330,7 @@ If you’re applying for frontend roles, especially at mid to large tech compani
 
 Here is a high-level representation of the average frontend interview process:  
 以下是前端面试过程的高级表示：  
-![](https://api.frontendlead.com/wp-content/uploads/2024/03/Screenshot-2025-04-18-at-8.23.08-AM-1.png)
+![[_posts/architect/System Design/media/00002da5b852ea68d0211be0d0e2b5b6_MD5.png]]
 
 Let’s walk through the process using the exact flow most companies follow, from recruiter screen to final offer.  
 让我们使用大多数公司遵循的确切流程来完成这个过程，从招聘人员筛选到最终报价。
@@ -534,7 +530,7 @@ Feeling overwhelmed? Don’t worry, the following [guide](https://frontendlead.c
 
 ## Frontend Interview Question Type By Company前端面试问题类型（按公司）
 
-![Frontend Interview Question Types by top tech companies like Google, Microsoft, Facebook](https://api.frontendlead.com/wp-content/uploads/2025/04/FrontendLead-14.png)
+![[_posts/architect/System Design/media/552d86b9c3ee9cec12049751285f30e6_MD5.png]]
 
 Here is a simple cheat sheet you can reference to understand the types of questions to expect at major top tech companies. You can go a step further and find company-specific questions by clicking [here](https://frontendlead.com/company-specific-questions).  
 这里有一个简单的小抄，你可以参考，以了解在主要的顶级科技公司期望的问题类型。您可以更进一步，通过单击 [此处](https://frontendlead.com/company-specific-questions) 查找公司特定的问题。
@@ -573,12 +569,12 @@ Knowing the kind of questions to expect is only half the battle. Next, we will d
 
 ## Frontend Interview Study Plan Guide前端面试学习计划指南
 
-![](https://api.frontendlead.com/wp-content/uploads/2024/03/1-1.png)
+![[_posts/architect/System Design/media/5bc50459deccd094c120bb6cb5fa0c66_MD5.png]]
 
 This guide outlines a suggested four-month plan for preparing for your front-end interviews. However, if you’re crunched for time, don’t worry – we also offer shorter plans, ranging from two weeks to three months. You can find them [here](https://frontendlead.com/study-plans). Front-end interview preparation is crucial, and this study plan addresses it by providing a structured approach to help you succeed.  
 本指南概述了一个建议的四个月计划，为您的前端面试做准备。但是，如果您的时间紧迫，请不要担心-我们也提供较短的计划 ，从两周到三个月不等。你可以 [在这里](https://frontendlead.com/study-plans) 找到他们。前端 面试准备是至关重要的，这个学习计划通过提供一个结构化的方法来帮助你成功解决它。
 
-High-level overview of the study plan:研究计划的高级别概述： ![](https://api.frontendlead.com/wp-content/uploads/2024/03/Screenshot-2025-04-18-at-9.45.34-AM.png)
+High-level overview of the study plan:研究计划的高级别概述： ![[_posts/architect/System Design/media/5074dc9b9f2d4a0e856d467b6c7eaf30_MD5.png]]
 
 ### Week 1: Data Structures and Algorithms第1周：数据结构和算法
 
@@ -773,7 +769,7 @@ I highly recommend following this guide, as it successfully helped me land sever
 
 ## HTML Interview Questions GuideHTML 面试问题指南
 
-![Frontend Interview HTML questions](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-12.png)
+![[_posts/architect/System Design/media/113eef7e964ff648bd0c2361d8970f58_MD5.png]]
 
 In most frontend interviews, you’re unlikely to be asked only HTML questions. Usually, the questions combine HTML, CSS, and JavaScript, especially when you’re asked to build or explain a React component. That said, interviewers often sprinkle in specific HTML-related questions within these broader challenges.  
 在大多数前端面试中，你不太可能只被问到 HTML 问题。通常，这些问题结合了联合收割机 HTML、CSS 和 JavaScript，特别是当你被要求构建或解释一个 React 组件时。也就是说，面试官经常在这些更广泛的挑战中加入与 HTML 相关的具体问题。
@@ -940,7 +936,7 @@ Next, let’s move on to CSS interview questions.
 
 ## CSS Interview Questions & AnswersCSS 面试问答
 
-![CSS frontend interview questions with answers](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-13.png)
+![[_posts/architect/System Design/media/1480178997b5a07a015462f06fed4cca_MD5.png]]
 
 In most frontend interviews, you’re unlikely to get only CSS questions. Like HTML, CSS is often mixed into broader coding challenges that combine HTML, CSS, and JavaScript, especially when building or debugging a React component.  
 在大多数前端面试中，你不太可能只得到 CSS 问题。与 HTML 一样，CSS 通常会混合到更广泛的编码挑战中，这些挑战将联合收割机 HTML、CSS 和 JavaScript 结合起来，尤其是在构建或调试 React 组件时。
@@ -1124,7 +1120,7 @@ Next, we will delve into the Data Structures and algorithms required for Fronten
 
 ## Data Structure and Algorithmic Fundamentals数据结构与数学基础
 
-![Data Structures And Algorithms For Frontend Interviews Guide](https://api.frontendlead.com/wp-content/uploads/2024/04/FrontendLead-16.png)
+![[_posts/architect/System Design/media/9b72ec3cce3dede618ea0110fc6410f8_MD5.png]]
 
 In front-end interviews, a strong understanding of data structures and algorithms is crucial, as it demonstrates your ability to solve problems efficiently and optimize web applications. Key concepts include:  
 在前端面试中，对数据结构和算法的深刻理解至关重要，因为它展示了您有效解决问题和优化 Web 应用程序的能力。主要概念包括：
@@ -1154,7 +1150,7 @@ Below is a curated list of the most frequently encountered questions across real
 
 ## Frontend Trivia Questions前端琐事问题
 
-![Frontend Trivia Questions](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-26.png)
+![[_posts/architect/System Design/media/f27f3bfc8795f7b25e32ef1b2b288de6_MD5.png]]
 
 In frontend interviews, you’re expected to do more than just code. You’re expected to understand how the frontend works, from the browser’s rendering engine to how JavaScript handles async behavior. The questions can range from semantic HTML to CSS layout strategies, from JavaScript quirks to React-specific lifecycle methods. Sometimes you’re debugging. Sometimes you’re designing. And sometimes, you’re just expected to explain.  
 在前端面试中，您需要做的不仅仅是代码。您需要了解前端是如何工作的，从浏览器的呈现引擎到 JavaScript 如何处理 JavaScript 行为。这些问题可以从语义 HTML 到 CSS 布局策略，从 JavaScript 怪癖到特定于 React 的生命周期方法。有时候你在调试。有时候你在设计。有时候，你只需要解释一下。
@@ -1253,7 +1249,7 @@ These questions cover a range of topics, from HTML and CSS fundamentals to moder
 
 ## JavaScript interview questionsJavaScript 面试问题
 
-![Javascript Interview Questions With Solutions](https://api.frontendlead.com/wp-content/uploads/2024/04/FrontendLead-24.png)
+![[_posts/architect/System Design/media/83fa651b2a34182c1739f77fdb234309_MD5.png]]
 
 Let’s showcase the 75 most commonly asked Frontend interview questions in JavaScript.  
 让我们展示一下 JavaScript 中最常见的 75 个前端面试问题。
@@ -1366,7 +1362,7 @@ Remember, understanding the question is just as crucial as knowing the answer. I
 
 ## App Design Questions (Machine Coding) in Front-End Interviews (2025 Guide)前端面试中的应用程序设计问题（机器编码）（2025指南）
 
-![Frontend Interview React Questions Guide](https://api.frontendlead.com/wp-content/uploads/2024/04/FrontendLead-27.png)
+![[_posts/architect/System Design/media/33454472faf953ea1622e6308b8928ee_MD5.png]]
 
 If you’re preparing for frontend interviews, you’ve likely already encountered questions about app design. But what are they exactly?  
 如果你正在准备前端面试，你可能已经遇到了关于应用程序设计的问题。但它们到底是什么？
@@ -1390,7 +1386,7 @@ Things to think about:
 	**数据流：您的应用程序是否可以干净地处理更新和道具，而无需不必要的重新渲染？**
 
 Yes, even in a 45-minute interview, it might make sense to use Redux depending on the problem. In most cases, you’ll use `useState` and then discuss how the app could evolve using `useContext` Or Redux as it grows in complexity. Ensure you can clearly explain the **advantages and disadvantages** **of each approach**.  
-是的，即使是在 45 分钟的面试中，根据问题的不同使用 Redux 也是有意义的。在大多数情况下，您将使用 useState，然后讨论随着复杂性的增长，应用程序如何使用 useContext 或 Redux 进行演进。nbsp;确保您能够清楚地解释每种方法的优缺点。
+是的，即使是在 45 分钟的面试中，根据问题的不同使用 Redux 也是有意义的。在大多数情况下，您将使用 useState，然后讨论随着复杂性的增长，应用程序如何使用 useContext 或 Redux 进行演进。确保您能够清楚地解释每种方法的优缺点。
 
 I recommend using the **MVVM (Model-View-ViewModel)** design pattern for structuring your React components. I wrote an in-depth article about it here: [MVVM Pattern in React](https://frontendlead.com/handbook/mvvm-in-react)  
 我建议使用 MVVM（Model-View-ViewModel）设计模式来构建 React 组件。 我在这里写了一篇关于它的深入文章：React 中的 MVVM 模式
@@ -1487,7 +1483,7 @@ You can get started with app design questions here: [Start Practicing
 
 ## React JS Interview Questions with SolutionsReact JS 面试问题及解决方案
 
-![React JS Interview Questions](https://api.frontendlead.com/wp-content/uploads/2024/04/FrontendLead-25.png)
+![[_posts/architect/System Design/media/70024cde7881a60ba9d1f87bb24d7075_MD5.png]]
 
 Before diving into React interview questions, your fundamentals must be solid. If you’re shaky on HTML, CSS, or JavaScript, you’re going to struggle with real-world React code, let alone interviews. Ensure you spend time mastering the core building blocks of the frontend before delving into React-specific concepts.  
 在深入研究 React 面试问题之前，你的基础必须扎实。如果你对 HTML、CSS 或 JavaScript 不太熟悉，你将在现实世界的 React 代码中苦苦挣扎，更不用说面试了。在深入研究 React 特定的概念之前，确保你花时间掌握前端的核心构建块。
@@ -2348,7 +2344,7 @@ The questions above would cover a majority of React JS interview questions. Now,
 
 ## Frontend System Design Questions Guide前端系统设计问题指南
 
-![Frontend System Design ](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-28.png)
+![[_posts/architect/System Design/media/005c61174f15d46261a78250131fe66a_MD5.png]]
 
 Understanding Front-End System Design involves a comprehensive evaluation of how components interact within the client side of a web application and the API design between the client and the server. This section explores the critical elements and processes that candidates must master for front-end system design interviews.  
 了解前端系统设计包括全面评估组件如何在 Web 应用程序的客户端进行交互，以及客户端和服务器之间的 API 设计。本节探讨了候选人在前端系统设计面试中必须掌握的关键要素和流程。
@@ -2360,7 +2356,7 @@ If you’re looking for a more in-depth, free guide, we recommend exploring our 
 
 ## Build React Components Using MVVM Design Pattern使用 MVVM 设计模式构建 React 组件
 
-![MVVM in React](https://api.frontendlead.com/wp-content/uploads/2025/02/FrontendLead-3-1.png)
+![[_posts/architect/System Design/media/69265c822df6e769fda3005b662280e7_MD5.png]]
 
 React is well-known for its component-based architecture, which allows developers to break interfaces into smaller, reusable parts. Yet, as applications grow, it’s common to see “monolithic” components that try to manage fetching data, handling state, performing side effects, and rendering UI in one place. This often leads to code that is difficult to maintain, test, and scale.  
 React 以其基于组件的架构而闻名，该架构允许开发人员将接口分解为更小的可重用部分。然而，随着应用程序的增长，通常会看到“单片”组件试图在一个地方管理获取数据、处理状态、执行副作用和呈现 UI。这通常会导致代码难以维护、测试和扩展。
@@ -2431,7 +2427,7 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 
 ### MVC (Model-View-Controller)MVC（模型-视图-控制器）
 
-![](https://api.frontendlead.com/wp-content/uploads/2025/02/MVC-Process.svg_.png)
+![[_posts/architect/System Design/media/45ec4a5e07e86b04f161a62f2c5446c6_MD5.png]]
 
 - **Model:** Data structures, domain logic, persistence.  
 	**模型：** 数据结构，域逻辑，持久性。
@@ -2442,7 +2438,7 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 
 ### MVP (Model-View-Presenter)MVP（模型-视图-表示器）
 
-![](https://api.frontendlead.com/wp-content/uploads/2025/02/Model_View_Presenter_GUI_Design_Pattern.png)
+![[_posts/architect/System Design/media/aa9ea38ca5e8b55a07d2c7abb394a349_MD5.png]]
 
 - **Model:** Data and business logic.  
 	**模型：** 数据和业务逻辑。
@@ -2453,7 +2449,7 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 
 ### MVVM (Model-View-ViewModel)MVVM（模型-视图-视图模型）
 
-![](https://api.frontendlead.com/wp-content/uploads/2025/02/MVVMPattern.svg_.png)
+![[_posts/architect/System Design/media/e3ac6381ad9c2b9167cbd65cf9eeda82_MD5.png]]
 
 - **Model:** Data source (e.g., API, local storage).  
 	**模型：** 数据源（例如，API、本地存储）。
@@ -2539,7 +2535,7 @@ Applying MVVM to React components provides clear separation of concerns, improve
 
 ## Behavioral questions 行为问题
 
-![Frontend Interview Behavioral Questions](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-34.png)
+![[_posts/architect/System Design/media/feffb09e05763f300e8ac4bbf9ca48cf_MD5.png]]
 
 [Behavioral interviews](https://frontendlead.com/behavioral-questions) for software engineers are not just about assessing technical prowess; they delve deeper into a candidate’s soft skills, such as leadership, communication, collaboration, and problem-solving abilities. These interviews employ behavioral questions to unearth the candidate’s past behavior in specific scenarios, effectively predicting their future behavior in similar circumstances. This emphasis on past experiences and behaviors acknowledges that soft skills are equally pivotal as technical capabilities in software engineering roles, ensuring a comprehensive evaluation of a candidate’s suitability for a position.  
 软件工程师的 [行为面试](https://frontendlead.com/behavioral-questions) 不仅仅是评估技术能力;他们更深入地研究候选人的软技能，如领导力，沟通，协作和解决问题的能力。这些面试采用行为问题来挖掘候选人在特定场景中的过去行为，有效地预测他们在类似情况下的未来行为。这种对过去经验和行为的强调承认软技能与软件工程角色中的技术能力同样重要，确保对候选人是否适合职位进行全面评估。
@@ -2551,7 +2547,7 @@ Explore our free, [in-depth guide](https://frontendlead.com/behavioral-questions
 
 ## Salary Negotiation 薪资谈判
 
-![Salary Negotiation ](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-31.png)
+![[_posts/architect/System Design/media/4b78b4e7094a18f137f06e46b2ed2859_MD5.png]]
 
 Negotiating a job offer is a crucial skill for software engineers. It reflects their understanding of their worth and ability to secure favorable terms. This is especially important in a high-demand field where options are plentiful, and each decision impacts career trajectory.  
 谈判工作机会是软件工程师的一项重要技能。这反映了他们对自己价值的理解和获得有利条件的能力。这在一个高需求的领域尤其重要，因为在这个领域，选择很多，每个决定都会影响职业轨迹。
@@ -2576,7 +2572,7 @@ Check out our free article [here](https://frontendlead.com/handbook/salary-negot
 
 ## How to not screw up the negotiation如何不搞砸谈判
 
-![Salary Negotiation Mistakes To Avoid](https://api.frontendlead.com/wp-content/uploads/2024/03/FrontendLead-33.png)
+![[_posts/architect/System Design/media/6a939fc0e63c1a8a7bbd49f141cd5060_MD5.png]]
 
 Navigating job offer negotiations can be challenging, and even seasoned software engineers can make common mistakes that compromise their potential job terms. Understanding what to avoid can significantly enhance your ability to secure a favorable outcome.  
 工作机会谈判可能具有挑战性，即使是经验丰富的软件工程师也会犯一些常见的错误，从而影响他们的潜在工作条件。了解要避免什么可以显著提高你获得有利结果的能力。
@@ -2603,7 +2599,7 @@ Navigating job offer negotiations can be challenging, and even seasoned software
 - **Evaluate the Entire Package**: Consider all aspects of the offer, not just the salary. Evaluate how other benefits contribute to your overall job satisfaction and long-term career goals.  
 	**评估整个方案** ：考虑报价的各个方面，而不仅仅是薪水。评估其他福利对你整体工作满意度和长期职业目标的贡献。
 - **Communicate Effectively**: Practice your negotiation points, focusing on clear and concise communication to ensure effective outcomes. Express enthusiasm for the position while stating your case for a better offer.  
-	**有效沟通** ：练习你的谈判要点，专注于清晰简洁的沟通，以确保有效的结果。nbsp;表达对该职位的热情，同时说明您希望获得更好的职位。
+	**有效沟通** ：练习你的谈判要点，专注于清晰简洁的沟通，以确保有效的结果。表达对该职位的热情，同时说明您希望获得更好的职位。
 - **Know Your Worth**: Be confident in your skills and experience. Demonstrating awareness of your value can influence the negotiation in your favor.  
 	**了解自己的价值** ：对自己的技能和经验充满信心。展示你的价值意识可以影响谈判对你有利。
 
@@ -2623,14 +2619,3 @@ Additionally, the guide emphasizes the importance of community within the front-
 
 Best of luck with your interviews!  
 祝你面试顺利！
-
-Up Next 下一
-
-[2\. Role of Front-End Engineer  
-2.前端工程师的角色](https://frontendlead.com/handbook/what-does-a-frontend-developer-do)
-
-[
-
-Someone from **United States** subscribed to Annual 12 hours ago
-
-](https://frontendlead.com/pricing)
