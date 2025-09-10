@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_Frontend Interview Handbook.md",
+                "file": "_posts/architect/System Design/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Frontend Interview Handbook"
+              "title": "Frontend System Design Fundamentals (All In One Comprehensive Guide)"
             }
           },
           {
@@ -770,11 +770,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/architect/System Design/Frontend System Design Guide.md",
+    "_posts/architect/System Design/_Frontend Interview Handbook.md",
     "_posts/methods/常看的.md",
     "_posts/methods/编程/程序员十年顿悟：8分钟掌握开发核心法则！.md",
-    "_posts/architect/System Design/_Frontend Interview Handbook.md",
     "_posts/architect/System Design/media/6a939fc0e63c1a8a7bbd49f141cd5060_MD5.png",
     "_posts/architect/System Design/media/4b78b4e7094a18f137f06e46b2ed2859_MD5.png",
     "_posts/architect/System Design/media/feffb09e05763f300e8ac4bbf9ca48cf_MD5.png",
@@ -786,8 +787,7 @@
     "_posts/architect/System Design/media/70024cde7881a60ba9d1f87bb24d7075_MD5.png",
     "_posts/architect/System Design/media/33454472faf953ea1622e6308b8928ee_MD5.png",
     "_posts/architect/System Design/media",
-    "_posts/architect/System Design/Frontend System Design Guide.md",
-    "_posts/architect/System Design/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/System Design/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/Frontend System Design.md",
     "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/architect/架构模式/前端架构模式.md",
