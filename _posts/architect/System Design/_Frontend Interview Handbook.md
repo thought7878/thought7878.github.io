@@ -321,8 +321,8 @@ Next, let’s examine the frontend interview process and how it operates.
 
 ---
 
-## The Frontend Interview Process Explained前端面试流程解释
-
+## 前端面试流程解释
+The Frontend Interview Process Explained
 ![](https://www.youtube.com/watch?v=MdUiBktSgVs)
 
 If you’re applying for frontend roles, especially at mid to large tech companies, the interview process tends to follow a predictable structure. Once you understand how it’s designed and what each round is testing, it becomes a lot easier to prep intentionally instead of randomly grinding Leetcode.  
@@ -335,7 +335,8 @@ Here is a high-level representation of the average frontend interview process:
 Let’s walk through the process using the exact flow most companies follow, from recruiter screen to final offer.  
 让我们使用大多数公司遵循的确切流程来完成这个过程，从招聘人员筛选到最终报价。
 
-### 1\. Recruiter Screen 1.招聘人员屏幕
+### 1.招聘人员屏幕
+1\. Recruiter Screen 
 
 This is your first point of contact. It’s not technical (for the most part, Meta recruiters quiz frontend trivia questions).  
 这是你的第一个接触点。这不是技术性的（在大多数情况下，Meta 招聘人员会测试前端的琐事问题）。
@@ -353,12 +354,14 @@ The recruiter wants to confirm a few basics:
 This round is all about communication and clarity. Be honest, concise, and make it easy for them to move you to the next step.  
 这一轮是关于沟通和清晰度。要诚实，简洁，让他们很容易把你带到下一步。
 
-### 2\. Phone Screen or Take-Home Test2.电话屏幕或带回家测试
+### 2.电话屏幕或带回家测试
+2\. Phone Screen or Take-Home Test
 
 After the recruiter screen, companies usually go one of two ways depending on the size and structure of their team:  
 在招聘人员筛选之后，公司通常会根据团队的规模和结构选择两种方式之一：
 
-#### Option A: Take-Home Test (common in startups and mid-size companies)选项 A：带回家测试（常见于初创公司和中型公司）
+#### 选项 A：带回家测试（常见于初创公司和中型公司）
+Option A: Take-Home Test (common in startups and mid-size companies)
 
 You’ll be given a minor feature or mini-app to build, usually with React, and asked to complete it over a few days.  
 你会得到一个小功能或迷你应用程序来构建，通常使用 React，并要求在几天内完成。
@@ -379,7 +382,8 @@ What they’re looking for:
 Tip: Keep it scoped. Don’t overbuild. Write a short README and explain your thought process if you can.  
 提示：保持范围。不要过度建设。写一个简短的 README，如果可以的话，解释一下你的思考过程。
 
-#### Option B: Technical Phone Screen (standard in big tech)选项 B：技术电话屏幕（大型技术标准）
+#### 选项 B：技术电话屏幕（大型技术标准）
+Option B: Technical Phone Screen (standard in big tech)
 
 This typically involves a 45- to 60-minute live coding round using a tool like CoderPad or HackerRank.  
 这通常需要使用 CoderPad 或 HackerRank 等工具进行 45 到 60 分钟的实时编码。
@@ -409,12 +413,14 @@ What they’re looking for:
 If you pass this, you will move on to the onsite round.  
 如果你通过了，你就可以进入现场环节了。
 
-### 3\. Onsite (3 to 5 Rounds Total)3.现场（共3至5轮）
+### 3.现场（共3至5轮）
+3\. Onsite (3 to 5 Rounds Total)
 
 The onsite is where most of the objective evaluation happens. Depending on the company, you’ll typically go through a mix of the following rounds:  
 现场是大多数客观评估发生的地方。根据公司的不同，你通常会经历以下几轮的混合：
 
-#### Round 1: Coding Interview第一轮：编程面试
+#### 第一轮：编程面试
+Round 1: Coding Interview
 
 You’ll solve one or two problems using JavaScript, usually frontend-relevant, but still testing your ability to break down logic, write clean code, and test edge cases.  
 您将使用 JavaScript 解决一个或两个问题，通常与前端相关，但仍然测试您分解逻辑、编写干净代码和测试边缘情况的能力。
@@ -430,7 +436,8 @@ Expect:预期：
 - The top 90 coding round questions can be found [here](https://frontendlead.com/coding-questions)  
 	排名前 90 的编码问题可以在 [这里](https://frontendlead.com/coding-questions) 找到
 
-#### Round 2: Frontend System Design第2轮：前端系统设计
+#### 第2轮：前端系统设计
+Round 2: Frontend System Design
 
 Especially at senior levels, you’ll be asked to design a scalable frontend architecture.  
 特别是在高级级别，你会被要求设计一个可扩展的前端架构。
@@ -456,7 +463,8 @@ They want to see:
 - How do you think about modularity, testing, and scalability  
 	您如何看待模块化、测试和可伸缩性
 
-#### Round 3: App Design or Live Coding第3轮：应用程序设计或实时编码
+#### 第3轮：应用程序设计或实时编码
+Round 3: App Design or Live Coding
 
 You may be asked to build a real UI component or app live.  
 您可能会被要求构建一个真实的 UI 组件或应用程序。
@@ -476,7 +484,8 @@ This round evaluates:本轮评估：
 Keep things structured and talk out loud. Interviewers care as much about your thought process as the final result.  
 保持结构化，大声说话。面试官关心你的思考过程和最终结果一样多。
 
-#### Round 4: Behavioral or Hiring Manager Round第四轮：行为或招聘经理轮
+#### 第四轮：行为或招聘经理轮
+Round 4: Behavioral or Hiring Manager Round
 
 This round is often underrated but extremely important. It’s where they assess whether you’re a strong communicator, teammate, and a good cultural fit.  
 这一轮往往被低估，但极其重要。这是他们评估你是否是一个强大的沟通者，团队合作者，以及良好的文化适应。
@@ -498,12 +507,14 @@ Use the STAR format:
 Situation, Task, Action, Result. Keep it clear and structured.  
 情境、任务、行动、结果。保持清晰和结构化。
 
-#### Optional Round 5: Second Coding Round可选第5轮：第二轮编码
+#### 可选第5轮：第二轮编码
+Optional Round 5: Second Coding Round
 
 Some on-site interviews include a [second technical round](https://frontendlead.com/handbook/javascript-interview-questions), either focusing on a different type of problem or delving deeper into your strengths or areas for improvement from the earlier round.  
 一些现场面试包括 [第二轮技术面试](https://frontendlead.com/handbook/javascript-interview-questions) ，要么关注不同类型的问题，要么深入研究你的优势或上一轮需要改进的地方。
 
-### 4\. Offer Stage 4.提供阶段
+### 4\. Offer Stage
+ 4.提供阶段
 
 If you’ve made it this far, congratulations. You’ve done the hard part.  
 如果你能走到这一步，恭喜你。你已经完成了最难的部分。
@@ -528,7 +539,8 @@ Feeling overwhelmed? Don’t worry, the following [guide](https://frontendlead.c
 
 ---
 
-## Frontend Interview Question Type By Company前端面试问题类型（按公司）
+## 前端面试问题类型（按公司）
+Frontend Interview Question Type By Company
 
 ![[_posts/architect/System Design/media/552d86b9c3ee9cec12049751285f30e6_MD5.png]]
 
@@ -567,7 +579,8 @@ Knowing the kind of questions to expect is only half the battle. Next, we will d
 
 ---
 
-## Frontend Interview Study Plan Guide前端面试学习计划指南
+## 前端面试学习计划指南
+Frontend Interview Study Plan Guide
 
 ![[_posts/architect/System Design/media/5bc50459deccd094c120bb6cb5fa0c66_MD5.png]]
 
@@ -576,7 +589,8 @@ This guide outlines a suggested four-month plan for preparing for your front-end
 
 High-level overview of the study plan:研究计划的高级别概述： ![[_posts/architect/System Design/media/5074dc9b9f2d4a0e856d467b6c7eaf30_MD5.png]]
 
-### Week 1: Data Structures and Algorithms第1周：数据结构和算法
+### 第1周：数据结构和算法
+Week 1: Data Structures and Algorithms
 
 Focus on:重点关注：
 
@@ -596,7 +610,8 @@ The goal isn’t to become an algorithm wizard. It’s to become fluent with the
 You can use this [guide](https://frontendlead.com/handbook/data-structure-and-algorithms) to prepare for frontend data structures and algorithms, specifically for frontend interviews.  
 您可以使用本 [指南](https://frontendlead.com/handbook/data-structure-and-algorithms) 来准备前端数据结构和算法，特别是前端面试。
 
-### Week 2: JavaScript, HTML, and CSS Fundamentals第 2 周：JavaScript、HTML 和 CSS 基础
+### 第 2 周：JavaScript、HTML 和 CSS 基础
+Week 2: JavaScript, HTML, and CSS Fundamentals
 
 Once your DSA foundation is in place, shift your focus to the building blocks of the web.  
 一旦你的 DSA 基础就位，把你的重点转移到网络的构建块。
@@ -621,7 +636,8 @@ Learn and revisit:学习并重温：
 If you don’t fully understand the language or the browser, frameworks won’t help you.  
 如果你不完全理解语言或浏览器，框架不会帮助你。
 
-### Weeks 3-4: JavaScript Trivia Questions第 3-4 周：JavaScript 琐事问题
+### 第 3-4 周：JavaScript 琐事问题
+Weeks 3-4: JavaScript Trivia Questions
 
 Now that you’ve got a solid technical base, it’s time to prepare for explaining what you know.  
 现在你已经有了坚实的技术基础，是时候准备解释你所知道的了。
@@ -644,7 +660,8 @@ These types of questions don’t just test your memory; they test how well you u
 You can find a complete list of expected JavaScript trivia questions [here](https://frontendlead.com/trivia-questions).  
 您可以 [在这里](https://frontendlead.com/trivia-questions) 找到预期的 JavaScript 琐事问题的完整列表。
 
-### Weeks 5-10: JavaScript Coding Problems第 5-10 周：JavaScript 编码问题
+### 第 5-10 周：JavaScript 编码问题
+Weeks 5-10: JavaScript Coding Problems
 
 Start applying everything you’ve learned. These next few weeks are all about writing code, debugging, and improving your problem-solving speed.  
 开始运用你所学的一切。接下来的几周都是关于编写代码，调试和提高解决问题的速度。
@@ -666,7 +683,8 @@ Balance your practice between UI-focused tasks and pure logic problems.
 The complete list of JavaScript coding problems can be found [here](https://frontendlead.com/coding-questions).  
 JavaScript 编码问题的完整列表可以在 [这里](https://frontendlead.com/coding-questions) 找到。
 
-### Weeks 11-12: App Design with Vanilla JS and React第 11-12 周：使用 Vanilla JS 和 React 进行 App 设计
+### 第 11-12 周：使用 Vanilla JS 和 React 进行 App 设计
+Weeks 11-12: App Design with Vanilla JS and React
 
 You’ve learned the concepts. Now, show you can build real things.  
 您已经了解了这些概念。现在，展示你可以建造真实的东西。
@@ -690,7 +708,8 @@ Build them in both vanilla JS and React. You’ll gain deeper insights and be re
 The complete list of JavaScript app design problems can be found [here](https://frontendlead.com/coding-questions?type=react&type=vanilla).  
 JavaScript 应用程序设计问题的完整列表可以在 [这里](https://frontendlead.com/coding-questions?type=react&type=vanilla) 找到。
 
-### Weeks 13-16: Frontend System Design第13-16周：前端系统设计
+### 第13-16周：前端系统设计
+Weeks 13-16: Frontend System Design
 
 This is where senior and staff interviews start to shine.  
 这就是高级和员工面试开始发光的地方。
@@ -716,7 +735,8 @@ Be prepared to discuss trade-offs and justify your decisions.
 The complete list of Frontend System Design problems can be found [here](https://frontendlead.com/system-design).  
 前端系统设计问题的完整列表可以在 [这里](https://frontendlead.com/system-design) 找到。
 
-### Week 16+: Behavioral Interview Prep第16周+：行为面试准备
+### 第16周+：行为面试准备
+Week 16+: Behavioral Interview Prep
 
 Don’t let this be an afterthought. Behavioral rounds carry significant weight.  
 不要让这成为一个事后的想法。行为回合具有很大的分量。
@@ -739,7 +759,8 @@ Focus on stories that show ownership, communication, and growth. This is your ch
 The complete list of behavioral questions can be found [here](https://frontendlead.com/behavioral-questions).  
 行为问题的完整列表可以在 [这里](https://frontendlead.com/behavioral-questions) 找到。
 
-### Offer Negotiation 报价谈判
+### 报价谈判
+Offer Negotiation 
 
 Once you’re done with interviews, the final step is just as important: know your worth and be ready to negotiate.  
 一旦你完成了面试，最后一步同样重要：了解你的价值并准备好谈判。
@@ -759,7 +780,8 @@ Negotiation isn’t about being aggressive. It’s about advocating for your val
 A free negotiation guide for offer negotiations can be found [here](https://frontendlead.com/handbook/salary-negotiation).  
 报价谈判的免费谈判指南可以在 [这里](https://frontendlead.com/handbook/salary-negotiation) 找到。
 
-### Final Thoughts 最后的想法
+### 最后的想法
+Final Thoughts 
 
 Prepping for frontend interviews is no joke. It requires consistency, focus, and a well-planned approach. But the upside is enormous: top roles, better compensation, more fulfilling work.  
 为前端面试做准备可不是开玩笑的。它需要一致性，重点和精心策划的方法。但好处是巨大的：高层职位，更好的薪酬，更充实的工作。
@@ -767,7 +789,8 @@ Prepping for frontend interviews is no joke. It requires consistency, focus, and
 I highly recommend following this guide, as it successfully helped me land several top-of-the-line job offers when I prepared. My journey led me to build this platform to help others. If this is something you’d like to learn more about, you can read more about it [here](https://frontendlead.com/blog/what-i-learned-from-getting-7-offers-from-faang-frontend-interviews-in-2024).  
 我强烈推荐遵循这份指南，因为它成功地帮助我在准备时获得了几份顶级工作。我的旅程让我建立了这个平台来帮助别人。如果你想了解更多，你可以在 [这里](https://frontendlead.com/blog/what-i-learned-from-getting-7-offers-from-faang-frontend-interviews-in-2024) 阅读更多。
 
-## HTML Interview Questions GuideHTML 面试问题指南
+## HTML 面试问题指南
+HTML Interview Questions Guide
 
 ![[_posts/architect/System Design/media/113eef7e964ff648bd0c2361d8970f58_MD5.png]]
 
@@ -777,7 +800,8 @@ In most frontend interviews, you’re unlikely to be asked only HTML questions. 
 This guide walks you through the most common HTML interview questions you might encounter, along with high-level answers to help you prep with confidence.  
 本指南将引导您了解您可能遇到的最常见的 HTML 面试问题，沿着高级答案，以帮助您自信地准备。
 
-## 1\. What is an attribute in HTML?1.什么是 HTML 中的属性？
+### 1.什么是 HTML 中的属性？
+1\. What is an attribute in HTML?
 
 Attributes provide additional information about an element. They modify the behavior or provide metadata about the tag.  
 属性提供有关元素的附加信息。它们修改行为或提供有关标记的元数据。
@@ -789,7 +813,8 @@ Attributes provide additional information about an element. They modify the beha
 In this example, `src` and `alt` are attributes of the `img` tag.  
 在这个例子中， `src` 和 `alt` 是 `img` 标签的属性。
 
-## 2\. What are IDs and classes in HTML, and when should you use each?2.什么是 HTML 中的 ID 和类，什么时候应该使用它们？
+### 2.什么是 HTML 中的 ID 和类，什么时候应该使用它们？
+2\. What are IDs and classes in HTML, and when should you use each?
 
 **ID:** A unique identifier. Should only be used once per page.  
 **ID：** 唯一标识符。每页只能使用一次。
@@ -804,7 +829,8 @@ In this example, `src` and `alt` are attributes of the `img` tag.
 Use classes for styling and layout. Use IDs when you need to reference a single, unique element.  
 使用类进行样式和布局。当需要引用单个唯一元素时，请使用 ID。
 
-## 3\. What is semantic HTML?3.什么是 Semantic HTML？
+### 3.什么是 Semantic HTML？
+3\. What is semantic HTML?
 
 Semantic HTML uses elements that convey meaning. These tags inform both the browser and the developer about the type of content contained within.  
 语义 HTML 使用传达含义的元素。这些标签通知浏览器和开发人员有关其中包含的内容类型。
@@ -818,7 +844,8 @@ Semantic HTML uses elements that convey meaning. These tags inform both the brow
 Semantic tags improve accessibility, maintainability, and sometimes SEO.  
 语义标签提高了可访问性、可维护性，有时还提高了 SEO。
 
-## 4\. What are some HTML tags that improve accessibility?4.哪些 HTML 标签可以提高可访问性？
+### 4.哪些 HTML 标签可以提高可访问性？
+4\. What are some HTML tags that improve accessibility?
 
 - `<label>` with `<input>`  
 	`<label>` 与 `<input>`
@@ -831,7 +858,8 @@ Semantic tags improve accessibility, maintainability, and sometimes SEO.
 - `aria-*` attributes for added context  
 	`aria-*` 用于添加上下文的属性
 
-## 5\. How do you display a table in HTML?5.如何在 HTML 中显示表格？
+### 5.如何在 HTML 中显示表格？
+5\. How do you display a table in HTML?
 
 ```
 <table>
@@ -847,7 +875,8 @@ Semantic tags improve accessibility, maintainability, and sometimes SEO.
 Use `<thead>`, `<tbody>`, and `<tfoot>` to keep your tables organized and accessible.  
 使用 `<head>` 、 `<tbody>` 和 `<tfoot>` 使表保持有序和可访问。
 
-## 6\. How do you separate sections of text in HTML?6.如何在 HTML 中分隔文本的各个部分？
+### 6.如何在 HTML 中分隔文本的各个部分？
+6\. How do you separate sections of text in HTML?
 
 - `<section>` for grouped content  
 	`<section>` 用于分组内容
@@ -860,7 +889,8 @@ Use `<thead>`, `<tbody>`, and `<tfoot>` to keep your tables organized and access
 - Headings like `<h2>`, `<h3>` to structure content  
 	标题如 `<h2>` 、 `<h3>` ，用于结构化内容
 
-## 7\. What is an iframe, and when would you use it?7.什么是 iframe，什么时候使用它？
+### 7.什么是 iframe，什么时候使用它？
+7\. What is an iframe, and when would you use it?
 
 ```
 <iframe src="https://example.com" width="600" height="400"></iframe>
@@ -869,12 +899,14 @@ Use `<thead>`, `<tbody>`, and `<tfoot>` to keep your tables organized and access
 Everyday use cases include embedding maps, videos, or other third-party content. Use with caution due to performance and security implications.  
 日常用例包括嵌入地图、视频或其他第三方内容。由于性能和安全问题，请谨慎使用。
 
-## 8\. What are HTML tags and attributes?8.什么是 HTML 标签和属性？
+### 8.什么是 HTML 标签和属性？
+8\. What are HTML tags and attributes?
 
 Tags define the structure, like `<p>`, `<img>`, and `<a>`. Attributes add details or modify how the tag behaves, like `href`, `alt`, or `class`.  
 标签定义结构，如 `<p>` 、 `<img>` 和 `<a>` 。属性添加细节或修改标记的行为方式，如 `href` 、 `alt` 或 `class` 。
 
-## 9\. What does a general HTML layout structure look like?9.一般的 HTML 布局结构是什么样的？
+### 9.一般的 HTML 布局结构是什么样的？
+9\. What does a general HTML layout structure look like?
 
 ```
 <!DOCTYPE html>
@@ -895,7 +927,8 @@ Tags define the structure, like `<p>`, `<img>`, and `<a>`. Attributes add detail
 This is the baseline structure of any semantic HTML document.  
 这是任何语义 HTML 文档的基线结构。
 
-## 10\. What are some HTML techniques for performance?10.有哪些 HTML 技术可以提高性能？
+### 10.有哪些 HTML 技术可以提高性能？
+10\. What are some HTML techniques for performance?
 
 - Use `loading="lazy"` on images and iframes  
 	在图像和 iframe 上使用 `loading=“lazy”`
@@ -908,7 +941,8 @@ This is the baseline structure of any semantic HTML document.
 - Compress images and scripts  
 	压缩图像和脚本
 
-## 11\. How do you detect if an image has loaded or failed?11.如何检测映像是否已加载或失败？
+### 11.如何检测映像是否已加载或失败？
+11\. How do you detect if an image has loaded or failed?
 
 ```
 const img = document.querySelector('img');
@@ -934,7 +968,8 @@ The key is to understand how HTML fits into the larger frontend puzzle. Nail the
 Next, let’s move on to CSS interview questions.  
 接下来，让我们转向 CSS 面试问题。
 
-## CSS Interview Questions & AnswersCSS 面试问答
+## CSS 面试问题
+CSS Interview Questions & Answers
 
 ![[_posts/architect/System Design/media/1480178997b5a07a015462f06fed4cca_MD5.png]]
 
@@ -1118,7 +1153,8 @@ Understanding core concepts, such as the box model, positioning, flex vs. grid, 
 Next, we will delve into the Data Structures and algorithms required for Frontend Interviews.  
 接下来，我们将深入研究前端面试所需的数据结构和算法。
 
-## Data Structure and Algorithmic Fundamentals数据结构与数学基础
+## 数据结构与算法的基础
+Data Structure and Algorithmic Fundamentals
 
 ![[_posts/architect/System Design/media/9b72ec3cce3dede618ea0110fc6410f8_MD5.png]]
 
@@ -1148,7 +1184,8 @@ In frontend interviews, you’re expected to do more than just code. You’re ex
 Below is a curated list of the most frequently encountered questions across real frontend interviews. Each one links to a focused breakdown designed to help you solidify your understanding and walk into your following interview with confidence.  
 以下是真实的前端面试中最常见的问题列表。每一个链接到一个重点细分，旨在帮助你巩固你的理解和自信地走进你接下来的面试。
 
-## Frontend Trivia Questions前端琐事问题
+## 前端琐事问题
+Frontend Trivia Questions
 
 ![[_posts/architect/System Design/media/f27f3bfc8795f7b25e32ef1b2b288de6_MD5.png]]
 
@@ -1168,8 +1205,7 @@ Below is a high-signal list of frequently asked frontend interview questions. Ea
 
 1. [**Event Loop 事件循环**](https://frontendlead.com/trivia-questions/understanding-javascript-event-loop)
 2. [**Propagation 传播**](https://frontendlead.com/trivia-questions/understanding-event-propagation-javascript)
-3. [**Progressive enhancement vs Graceful degradation  
-	渐进增强与优雅降级**](https://frontendlead.com/trivia-questions/progressive-enhancement-vs-graceful-degradation)
+3. [**Progressive enhancement vs Graceful degradation  渐进增强与优雅降级**](https://frontendlead.com/trivia-questions/progressive-enhancement-vs-graceful-degradation)
 4. [**Explain “this” 解释一下“这个”**](https://frontendlead.com/trivia-questions/understanding-this-in-javascript)
 5. [**Prototypal Inheritance 原型继承**](https://frontendlead.com/trivia-questions/understanding-prototypal-inheritance-javascript)
 6. [**null vs undefined vs undeclared**](https://frontendlead.com/trivia-questions/null-undefined-undeclared-variables-javascript)
@@ -1182,37 +1218,28 @@ Below is a high-signal list of frequently asked frontend interview questions. Ea
 13. [**CORS**](https://frontendlead.com/trivia-questions/understanding-cors-cross-origin-resource-sharing)
 14. [**Props and State Props 和 State**](https://frontendlead.com/trivia-questions/props-vs-state-in-react-differences)
 15. [**Lifecycle Methods 生命周期方法**](https://frontendlead.com/trivia-questions/react-component-lifecycle-methods-guide)
-16. [**Differences between various Instantiations  
-	各种实例化之间的差异**](https://frontendlead.com/trivia-questions/functions-vs-object-instantiation-javascript)
+16. [**Differences between various Instantiations  各种实例化之间的差异**](https://frontendlead.com/trivia-questions/functions-vs-object-instantiation-javascript)
 17. [**let, var, and const let、var 和 const**](https://frontendlead.com/trivia-questions/let-var-const-differences-javascript)
 18. [**Rest vs Spread Operators Rest 与 Spread 运算符**](https://frontendlead.com/trivia-questions/rest-vs-spread-operators-javascript)
-19. [**Resetting vs Normalizing CSS  
-	重置与规范化 CSS**](https://frontendlead.com/trivia-questions/resetting-vs-normalizing-css-explained)
+19. [**Resetting vs Normalizing CSS  重置与规范化 CSS**](https://frontendlead.com/trivia-questions/resetting-vs-normalizing-css-explained)
 20. [**Block Formatting Context 块上下文**](https://frontendlead.com/trivia-questions/understanding-block-formatting-context-bfc-in-css)
 21. [**Anonymous Functions 匿名函数**](https://frontendlead.com/trivia-questions/exploring-use-anonymous-functions)
-22. [**“Attribute” VS “Property”  
-	“属性”VS“属性”**](https://frontendlead.com/trivia-questions/attributes-vs-properties-web-development)
-23. [**Host Objects vs Native Objects  
-	主机对象与本机对象**](https://frontendlead.com/trivia-questions/host-objects-vs-native-objects-javascript)
+22. [**“Attribute” VS “Property”  “属性”VS“属性”**](https://frontendlead.com/trivia-questions/attributes-vs-properties-web-development)
+23. [**Host Objects vs Native Objects  主机对象与本机对象**](https://frontendlead.com/trivia-questions/host-objects-vs-native-objects-javascript)
 24. [**Mutable VS Immutable 可变 VS 不可变**](https://frontendlead.com/trivia-questions/immutable-vs-mutable-objects-javascript-guide)
 25. [**Tag attributes 标记属性**](https://frontendlead.com/trivia-questions/mastering-html-tag-attributes)
-26. [**Synchronous VS Asynchronous  
-	同步 VS 异步**](https://frontendlead.com/trivia-questions/synchronous-vs-asynchronous-functions-javascript)
+26. [**Synchronous VS Asynchronous  同步 VS 异步**](https://frontendlead.com/trivia-questions/synchronous-vs-asynchronous-functions-javascript)
 27. [**Higher-Order Function 高阶函数**](https://frontendlead.com/trivia-questions/higher-order-functions-javascript-examples)
-28. [**Classical Inheritance VS Prototypal Inheritance  
-	经典继承 VS 原型继承**](https://frontendlead.com/trivia-questions/web-accessibility-best-practices-guide)
-29. [**Functional programming vs object-oriented programming  
-	函数式编程与面向对象编程**](https://frontendlead.com/trivia-questions/functional-vs-object-oriented-programming-comparison)
+28. [**Classical Inheritance VS Prototypal Inheritance  经典继承 VS 原型继承**](https://frontendlead.com/trivia-questions/web-accessibility-best-practices-guide)
+29. [**Functional programming vs object-oriented programming  函数式编程与面向对象编程**](https://frontendlead.com/trivia-questions/functional-vs-object-oriented-programming-comparison)
 30. [**Lexical 词汇**](https://frontendlead.com/trivia-questions/understanding-lexical-scope-javascript)
 31. [**ES6 maps over objects ES6 映射到对象**](https://frontendlead.com/trivia-questions/es6-maps-sets-advantages)
 32. [**Sets vs Arrays 集合与数组**](https://frontendlead.com/trivia-questions/sets-vs-arrays-differences)
-33. [**Destructuring an object or an array  
-	解构对象或数组**](https://frontendlead.com/trivia-questions/javascript-destructuring-examples)
+33. [**Destructuring an object or an array  解构对象或数组**](https://frontendlead.com/trivia-questions/javascript-destructuring-examples)
 34. [**ES6 Template Literals ES6 模板文字**](https://frontendlead.com/trivia-questions/es6-template-literals-string-generation)
 35. [**Curry functions 咖喱函数**](https://frontendlead.com/trivia-questions/javascript-currying-function-flexibility)
 36. [**ES2015**](https://frontendlead.com/trivia-questions/es6-vs-es2015-javascript-versioning)
-37. [**Functional/integration test  
-	功能/集成测试**](https://frontendlead.com/trivia-questions/unit-tests-vs-functional-integration-tests)
+37. [**Functional/integration test  功能/集成测试**](https://frontendlead.com/trivia-questions/unit-tests-vs-functional-integration-tests)
 38. [**Linting**](https://frontendlead.com/trivia-questions/maximizing-code-quality-linting-tools)
 39. [**Web Request Lifecycle Web 请求服务**](https://frontendlead.com/trivia-questions/web-request-lifecycle-url-to-screen)
 40. [**Programming paradigms 编程范式**](https://frontendlead.com/trivia-questions/procedural-object-oriented-programming-javascript)
@@ -1225,39 +1252,34 @@ Below is a high-signal list of frequently asked frontend interview questions. Ea
 47. [**Polyfill**](https://frontendlead.com/trivia-questions/bridging-browser-gaps-javascript-polyfills)
 48. [**“use strict” “使用严格”**](https://frontendlead.com/trivia-questions/leveraging-use-strict-javascript)
 49. [**Block vs inline elements 块与内联元素**](https://frontendlead.com/trivia-questions/block-vs-inline-elements-html)
-50. [**typeof, instanceof, and Object.prototype.toString  
-	typeof、instanceof 和 Object.prototype.toString**](https://frontendlead.com/trivia-questions/mastering-type-coercion-javascript)
+50. [**typeof, instanceof, and Object.prototype.toString**](https://frontendlead.com/trivia-questions/mastering-type-coercion-javascript)
 51. [**Reflow vs repaint 回流与重绘**](https://frontendlead.com/trivia-questions/reflow-vs-repaint-web-rendering)
 52. [**Critical Rendering Path 关键渲染路径**](https://frontendlead.com/trivia-questions/understanding-critical-rendering-path-web-performance)
 53. [**Inserting DOM Elements 插入 DOM 元素**](https://frontendlead.com/trivia-questions/adding-span-to-div-javascript)
 54. [**SASS/LESS**](https://frontendlead.com/trivia-questions/elevating-web-design-css-preprocessors)
 55. [**Micro vs Macro tasks 微观与宏观任务**](https://frontendlead.com/trivia-questions/mastering-event-loop-micro-macro-tasks-javascript)
 56. [**Handling Memory Leaks 处理内存泄漏**](https://frontendlead.com/trivia-questions/identifying-memory-leaks-browser-applications)
-57. [**HTTP GET and POST requests  
-	HTTP GET 和 POST 请求**](https://frontendlead.com/trivia-questions/http-get-vs-post-differences)
+57. [**HTTP GET and POST requests**](https://frontendlead.com/trivia-questions/http-get-vs-post-differences)
 58. [**Classical inheritance 经典遗传**](https://frontendlead.com/trivia-questions/navigating-classical-inheritance-oop)
 59. [**Prototypal inheritance 原型继承**](https://frontendlead.com/trivia-questions/harnessing-prototypal-inheritance-javascript)
 60. [**Asynchronous calls 异步调用**](https://frontendlead.com/trivia-questions/mastering-asynchronous-javascript)
-61. [**Function declarations and expressions  
-	函数声明和表达式**](https://frontendlead.com/trivia-questions/function-declarations-vs-expressions-javascript)
-62. [**What is Semantic markup in frontend?  
-	什么是前端的语义标记？**](https://frontendlead.com/trivia-questions/leveraging-semantic-markup-web-development)
+61. [**Function declarations and expressions  函数声明和表达式**](https://frontendlead.com/trivia-questions/function-declarations-vs-expressions-javascript)
+62. [**What is Semantic markup in frontend?  什么是前端的语义标记？**](https://frontendlead.com/trivia-questions/leveraging-semantic-markup-web-development)
 63. [**Object.create vs new**](https://frontendlead.com/trivia-questions/object-create-vs-new-javascript)
 
 These questions cover a range of topics, from HTML and CSS fundamentals to modern web technologies and performance optimization. Preparing for these questions will help you ace the interview and solidify your understanding of front-end development concepts.  
 这些问题涵盖了一系列主题，从 HTML 和 CSS 基础知识到现代 Web 技术和性能优化。准备好这些问题将帮助你在面试中取得好成绩，并巩固你对前端开发概念的理解。
 
-## JavaScript interview questionsJavaScript 面试问题
+## JavaScript 面试问题
+JavaScript interview questions
 
 ![[_posts/architect/System Design/media/83fa651b2a34182c1739f77fdb234309_MD5.png]]
 
 Let’s showcase the 75 most commonly asked Frontend interview questions in JavaScript.  
 让我们展示一下 JavaScript 中最常见的 75 个前端面试问题。
 
-- [1\. Find Corresponding Node  
-	1.查找对应节点](https://frontendlead.com/coding-questions/find-corresponding-node)
-- [2\. Improve a function  
-	2.改善功能](https://frontendlead.com/coding-questions/improve-a-function)
+- [1\. Find Corresponding Node  1.查找对应节点](https://frontendlead.com/coding-questions/find-corresponding-node)
+- [2\. Improve a function  2.改善功能](https://frontendlead.com/coding-questions/improve-a-function)
 - [3\. Flatten I 3.平坦的我](https://frontendlead.com/coding-questions/flatten-arrays-recursively-and-iteratively)
 - [4\. Debounce I 4.德邦岛](https://frontendlead.com/coding-questions/debounce-i)
 - [5\. Throttle 5.节流](https://frontendlead.com/coding-questions/throttle)
@@ -1267,8 +1289,7 @@ Let’s showcase the 75 most commonly asked Frontend interview questions in Java
 - [9\. Build Promise 9.建立承诺](https://frontendlead.com/coding-questions/build-custom-promise-javascript)
 - [10\. ClassNames 10.类名](https://frontendlead.com/coding-questions/classnames)
 - [11\. Create DOM 11.创建 DOM](https://frontendlead.com/coding-questions/create-dom)
-- [12\. Phone Number Parser  
-	12.电话号码解析器](https://frontendlead.com/coding-questions/build-phone-number-parser)
+- [12\. Phone Number Parser  12.电话号码解析器](https://frontendlead.com/coding-questions/build-phone-number-parser)
 - [13.Deep Clone 13.深度克隆](https://frontendlead.com/coding-questions/javascript-deep-clone-frontend-interview-question)
 - [14\. Event Emitter 14.事件发射器](https://frontendlead.com/coding-questions/javascript-event-emitter-guide)
 - [15\. EventTarget 15\. EventTarget 事件](https://frontendlead.com/coding-questions/eventtarget)
@@ -1360,7 +1381,8 @@ Remember, understanding the question is just as crucial as knowing the answer. I
 
 ---
 
-## App Design Questions (Machine Coding) in Front-End Interviews (2025 Guide)前端面试中的应用程序设计问题（机器编码）（2025指南）
+## 前端面试中的应用程序设计问题（机器编码）
+App Design Questions (Machine Coding) in Front-End Interviews (2025 Guide)
 
 ![[_posts/architect/System Design/media/33454472faf953ea1622e6308b8928ee_MD5.png]]
 
@@ -1370,7 +1392,8 @@ If you’re preparing for frontend interviews, you’ve likely already encounter
 App design questions are practical questions that ask you to build a small application. That could mean creating a to-do list, a photo gallery, a tic-tac-toe game, or an autocomplete search box. These aren’t theoretical; they test your real-world engineering ability to build, organize, and scale UI applications. You will most likely be asked to make these using React or vanilla JavaScript.  
 应用程序设计问题是要求您构建一个小型应用程序的实际问题。这可能意味着创建一个待办事项列表，一个照片库，一个井字游戏，或者一个自动完成的搜索框。这些都不是理论上的;它们测试您构建、组织和扩展 UI 应用程序的实际工程能力。你很可能会被要求使用 React 或 vanilla JavaScript 来创建这些。
 
-### How to Prepare for App Design Rounds如何准备 App 设计回合
+### 如何准备 App 设计回合
+How to Prepare for App Design Rounds
 
 The most significant piece of advice: **don’t just focus on building the feature**. You also need to  demonstrate that you can scale it **effectively**.  
 最重要的一条建议是： **不要只专注于构建功能** 。你还需要 证明你可以 **有效地** 扩展它 。
@@ -1391,7 +1414,8 @@ Yes, even in a 45-minute interview, it might make sense to use Redux depending o
 I recommend using the **MVVM (Model-View-ViewModel)** design pattern for structuring your React components. I wrote an in-depth article about it here: [MVVM Pattern in React](https://frontendlead.com/handbook/mvvm-in-react)  
 我建议使用 MVVM（Model-View-ViewModel）设计模式来构建 React 组件。 我在这里写了一篇关于它的深入文章：React 中的 MVVM 模式
 
-### Performance Tips to Call Out性能提示呼叫
+### 性能提示呼叫
+Performance Tips to Call Out
 
 Interviewers love hearing you think about performance, especially if you mention it before they do.  
 面试官喜欢听你思考工作表现，特别是如果你在他们之前提到这一点。
@@ -1408,7 +1432,8 @@ Interviewers love hearing you think about performance, especially if you mention
 Even if you can’t implement all of this in the interview, talking about these patterns shows senior-level thinking.  
 即使你不能在面试中实现所有这些，谈论这些模式也会显示出高级思维。
 
-### Expect to Fetch & Render期待获取和渲染
+### 期待获取和渲染
+Expect to Fetch & Render
 
 Many app design questions involve fetching data from an API, rendering it in the DOM, and applying styling, including hover effects or transitions.  
 许多应用程序设计问题涉及从 API 获取数据，在 DOM 中呈现数据，以及应用样式，包括悬停效果或过渡。
@@ -1459,7 +1484,8 @@ Below is a table showcasing typical app design questions you might encounter, wi
 | Tic Tac Toe 井字游戏 | Design a game with a minimal user interface   设计一个具有最小用户界面的游戏 | Use React state for storing the game board   使用 React state 存储游戏板 | Track clicks and check for win conditions   跟踪点击并检查获胜条件 |
 | Small Game 小游戏 | Develop a simple interactive game like Snake   开发一个简单的互动游戏，比如贪吃蛇 | Leverage React effects for game logic   利用 React 效果实现游戏逻辑 | Use Canvas API for rendering   使用 Canvas API 进行渲染 |
 
-### What About React vs. Vanilla JavaScript?React vs. Vanilla JavaScript 怎么样？
+### React vs. Vanilla JavaScript 怎么样？
+What About React vs. Vanilla JavaScript?
 
 Most companies will expect you to use React. However, some platforms, such as Google, may require you to use only HTML, CSS, and JavaScript. So it’s worth being ready for both.  
 大多数公司都希望您使用 React。但是，某些平台（如 Google）可能要求您仅使用 HTML、CSS 和 JavaScript。所以值得为两者做好准备。
@@ -1467,7 +1493,8 @@ Most companies will expect you to use React. However, some platforms, such as Go
 That said, Google typically doesn’t ask full-blown app design questions. They may instead request minor variations, such as adding an accessible checkbox, a toggle button, or a dropdown.  
 也就是说，谷歌通常不会问完整的应用程序设计问题。他们可能会要求一些小的变化，比如添加一个可访问的复选框、一个切换按钮或一个按钮。
 
-### Final Thoughts 最后的想法
+### 最后的想法
+Final Thoughts 
 
 If you’re serious about front-end interviews, app design questions are a must-practice category. They reflect the kind of work you’ll be doing, and they’re the most fun to solve, too.  
 如果你对前端面试是认真的，应用程序设计问题是必须练习的类别。它们反映了你将要做的工作类型，而且它们也是最有趣的解决方法。
@@ -1475,9 +1502,7 @@ If you’re serious about front-end interviews, app design questions are a must-
 Try building 5–10 small apps before your interviews. Learn to structure your code, manage state, and discuss trade-offs as you create. That’s how you’ll stand out.  
 试着在面试前建立5-10个小应用程序。学习构建代码、管理状态，并在创建时讨论权衡。这样你才能脱颖而出
 
-You can get started with app design questions here: [Start Practicing  
-您可以在此处开始了解应用程序设计问题：开始练习  
-](https://frontendlead.com/coding-questions?type=react&type=vanilla)
+You can get started with app design questions here: [Start Practicing 您可以在此处开始了解应用程序设计问题：开始练习](https://frontendlead.com/coding-questions?type=react&type=vanilla)
 
 ---
 
