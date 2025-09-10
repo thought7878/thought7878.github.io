@@ -1506,7 +1506,8 @@ You can get started with app design questions here: [Start Practicing 您可以�
 
 ---
 
-## React JS Interview Questions with SolutionsReact JS 面试问题及解决方案
+## React JS 面试问题及解决方案
+React JS Interview Questions with Solutions
 
 ![[_posts/architect/System Design/media/70024cde7881a60ba9d1f87bb24d7075_MD5.png]]
 
@@ -1530,9 +1531,11 @@ At a high level, we will cover:
 
 Let’s begin!我们开始吧！
 
-### React JS Specific QuestionsReact JS 的问题
+### React 的问题
+React JS Specific Questions
 
-### What are props and state in React, and what’s the difference?React 中的 props 和 state 是什么，有什么区别？
+### React 中的 props 和 state 是什么，有什么区别？
+What are props and state in React, and what’s the difference?
 
 Props are read-only values passed from a parent component to a child. State is local data managed within an element itself. Props are immutable from the child’s perspective, while state can be updated via hooks like `useState`.  
 属性是从父组件传递给子组件的只读值。状态是在元素本身内管理的本地数据。prop 从孩子的角度来看是不可变的，而 state 可以通过像 `useState 这样的` 钩子来更新。
@@ -1554,17 +1557,20 @@ function Counter({ title }) {
 }
 ```
 
-### What is the Virtual DOM, and how does it work?什么是虚拟 DOM，它是如何工作的？
+### 什么是虚拟 DOM，它是如何工作的？
+What is the Virtual DOM, and how does it work?
 
 The Virtual DOM is an in-memory representation of the actual Document Object Model (DOM). When state or props change, React creates a new virtual DOM tree, compares it with the previous one (diffing), and updates only the parts of the real DOM that changed, minimizing expensive DOM operations.  
 虚拟 DOM 是实际文档对象模型（DOM）的内存表示。当状态或属性发生变化时，React 会创建一个新的虚拟 DOM 树，将其与之前的 DOM 树进行比较（diff），并仅更新真实的 DOM 中发生变化的部分，从而最大限度地减少昂贵的 DOM 操作。
 
-### What is React Fiber, and what are its main goals?什么是 React Fiber，它的主要目标是什么？
+### 什么是 React Fiber，它的主要目标是什么？
+What is React Fiber, and what are its main goals?
 
 React Fiber is the internal engine behind React’s rendering. It allows React to break rendering work into small units and pause or resume it, improving responsiveness for complex UI updates. Its primary goals are concurrency, interruptible rendering, and better scheduling.  
 React Fiber 是 React 渲染背后的内部引擎。它允许 React 将渲染工作分解为小单元并暂停或恢复，从而提高复杂 UI 更新的响应能力。它的主要目标是并发性、可中断呈现和更好的调度。
 
-### What are Higher-Order Components (HOCs) in React?React 中的高阶组件（HOC）是什么？
+### React 中的高阶组件（HOC）是什么？
+What are Higher-Order Components (HOCs) in React?
 
 A Higher-Order Component is a function that takes a component and returns a new element with enhanced behavior. It’s a typical pattern for code reuse.  
 高阶组件是一个函数，它接受一个组件并返回一个具有增强行为的新元素。这是代码重用的典型模式。
@@ -1583,7 +1589,8 @@ function Button(props) {
 const ThemedButton = withTheme(Button);
 ```
 
-### What’s the difference between useMemo and useCallback?useMemo 和 useCallback 有什么区别？
+### useMemo 和 useCallback 有什么区别？
+What’s the difference between useMemo and useCallback?
 
 `useMemo` caches a \*\*computed value\*\*; `useCallback` caches a \*\*function\*\*. Use `useMemo` when you want to avoid expensive recalculations. Use `useCallback` when you want to avoid re-creating a function on every render.  
 `useMemo` 缓存 \*\* 计算值 \*\*;`useCallback` 缓存 \*\* 函数 \*\*。当你想避免昂贵的重新计算时，使用 `useMemo` 。当你想避免在每次渲染时重新创建一个函数时，使用 `useCallback` 。
@@ -1613,10 +1620,11 @@ function Example({ items }) {
 }
 ```
 
-### How do you memoize a component and why?如何记忆一个组件，为什么？
+### 如何记忆一个组件，为什么？
+How do you memoize a component and why?
 
 Use `React.memo` to memoize functional components. It prevents unnecessary re-renders when props haven’t changed. This is useful for optimizing performance, especially in large lists or deeply nested UIs.  
-使用 `React.memo` 来记忆功能组件。它可以防止不必要的重新渲染时，道具没有改变。这对于优化性能非常有用，特别是在大型列表或深度嵌套的 UI 中。
+使用 `React.memo` 来记忆功能组件。它可以*props没有改变时，防止不必要的重新渲染*。这对于优化性能非常有用，特别是在大型列表或深度嵌套的 UI 中。
 
 ```
 const Greeting = React.memo(function Greeting({ name }) {
@@ -1626,7 +1634,8 @@ const Greeting = React.memo(function Greeting({ name }) {
 // Will only re-render if \`name\` changes
 ```
 
-### How do you loop inside JSX to create elements?如何在 JSX 中循环创建元素？
+### 如何在 JSX 中循环创建元素？
+How do you loop inside JSX to create elements?
 
 You can loop using JavaScript’s `map()` function to generate JSX dynamically. This is commonly used to render lists.  
 可以使用 JavaScript 的 `map（）` 函数循环以动态生成 JSX。这通常用于呈现列表。
@@ -1643,7 +1652,8 @@ function List({ items }) {
 }
 ```
 
-### Why should you not update props in React?为什么不应该在 React 中更新 props？
+### 为什么不应该在 React 中更新 props？
+Why should you not update props in React?
 
 Props are meant to be immutable — the parent component controls them. Updating props inside a child breaks the unidirectional data flow in React and can cause unpredictable bugs.  
 道具是不可变的--父组件控制它们。在子对象中更新 props 会破坏 React 中的单向数据流，并可能导致不可预测的 bug。
@@ -1655,7 +1665,8 @@ function MyComponent(props) {
 }
 ```
 
-### Can you use async/await In React?你可以在 React 中使用 react/await 吗？
+### 你可以在 React 中使用 async/await 吗？
+Can you use async/await In React?
 
 Yes. You can use `async/await` inside event handlers, or inside `useEffect` (just not directly in the effect function — you must define an async function inside it).  
 是的您可以在事件处理程序或 useEffect 内部使用 `Awatch/await` （只是不能直接在 effect 函数中使用-您必须在其中定义一个 Awatch 函数）。
@@ -1680,7 +1691,8 @@ function UserProfile() {
 }
 ```
 
-### What are the most commonly used hooks in React?React 中最常用的钩子是什么？
+### React 中最常用的钩子是什么？
+What are the most commonly used hooks in React?
 
 React provides a number of built-in hooks to manage state, side effects, and performance. Some of the most commonly used ones include:  
 React 提供了许多内置钩子来管理状态、副作用和性能。一些最常用的方法包括：
@@ -1698,7 +1710,8 @@ React 提供了许多内置钩子来管理状态、副作用和性能。一些�
 - `useContext` – For accessing context across your component tree  
 	`useContext` -用于跨组件树访问上下文
 
-### What are custom hooks and when should you use them?什么是自定义挂钩，什么时候应该使用它们？
+### 什么是自定义挂钩，什么时候应该使用它们？
+What are custom hooks and when should you use them?
 
 Custom hooks let you extract reusable logic from components into separate functions that can be reused across your app. They follow the same rules as built-in hooks and start with the word `use`.  
 自定义钩子允许您将可重用逻辑从组件中提取到可在应用程序中重用的单独函数中。它们遵循与内置钩子相同的规则，并从 `使用` 一词开始。
@@ -1726,7 +1739,8 @@ function App() {
 }
 ```
 
-### What’s the difference between functional and class-based components?函数式组件和基于类的组件有什么区别？
+### 函数式组件和基于类的组件有什么区别？
+What’s the difference between functional and class-based components?
 
 Class components use `class` syntax and require you to use `this`, while functional components are simpler, more concise, and use hooks for state and lifecycle logic. As of today, functional components are the standard in modern React.  
 类组件使用 `类` 语法，并要求您使用 `它 ` ，而函数组件更简单，更简洁，并使用状态和生命周期逻辑的钩子。到目前为止，函数组件是现代 React 的标准。
@@ -1745,7 +1759,8 @@ function Greeting({ name }) {
 }
 ```
 
-### Why does the virtual DOM exist?为什么会有虚拟 DOM？
+### 为什么会有虚拟 DOM？
+Why does the virtual DOM exist?
 
 The virtual DOM exists to improve performance and simplify UI updates. Manipulating the real DOM is slow. React batches updates in a virtual DOM (a lightweight JS object), then figures out the minimal set of changes needed, and updates the real DOM efficiently.  
 虚拟 DOM 的存在是为了提高性能和简化 UI 更新。操作真实的 DOM 很慢。React 在虚拟 DOM（一个轻量级的 JS 对象）中批量更新，然后计算出所需的最小更改集，并有效地更新真实的 DOM。
@@ -1777,7 +1792,8 @@ class ErrorBoundary extends React.Component {
 }
 ```
 
-### What are React lifecycle methods (or hook equivalents)?什么是 React 生命周期方法（或钩子等价物）？
+### 什么是 React 生命周期方法（或钩子等价物）？
+What are React lifecycle methods (or hook equivalents)?
 
 In class components, lifecycle methods include:  
 在类组件中，生命周期方法包括：
@@ -1796,12 +1812,14 @@ useEffect(() => {
 }, []);
 ```
 
-### What happens if the dependency array in useEffect is empty?如果 useEffect 中的依赖数组为空，会发生什么？
+### 如果 useEffect 中的依赖数组为空，会发生什么？
+What happens if the dependency array in useEffect is empty?
 
 If the dependency array is empty `[]`, the effect runs only once after the first render — like `componentDidMount`. If you omit the dependency array entirely, the effect runs on every render, which can lead to performance issues.  
 如果依赖数组为空 `[]` ，则效果仅在第一个类似渲染的 `组件 DidMount` 之后运行一次.如果完全省略依赖数组，则效果将在每次渲染时运行，这可能会导致性能问题。
 
-### What is a ref in React, and why is it useful?React 中的 ref 是什么，为什么有用？
+### React 中的 ref 是什么，为什么有用？
+What is a ref in React, and why is it useful?
 
 A `ref` is a way to access and interact with DOM elements or store a mutable value without triggering a re-render. Useful for focusing inputs, measuring layout, or storing timeouts.  
 `ref` 是一种访问 DOM 元素并与之交互的方式，或者是一种存储可变值而不触发重新呈现的方式。用于聚焦输入、测量布局或存储超时。
@@ -1820,7 +1838,8 @@ function InputFocus() {
 }
 ```
 
-### What is useContext and when would you use it?什么是 useContext，什么时候使用它？
+### 什么是 useContext，什么时候使用它？
+What is useContext and when would you use it?
 
 `useContext` gives you access to values provided by a React Context provider without the need for prop drilling. Use it when you need to share state across multiple components (such as themes or authentication).  
 `useContext` 让你可以访问 React Context 提供者提供的值，而不需要 prop drilling。当您需要在多个组件之间共享状态（例如主题或身份验证）时，请使用它。
@@ -1841,7 +1860,8 @@ function ThemeLabel() {
 </ThemeContext.Provider>
 ```
 
-### What are the different phases of a React component’s lifecycle?React 组件生命周期的不同阶段是什么？
+### React 组件生命周期的不同阶段是什么？
+What are the different phases of a React component’s lifecycle?
 
 React components go through these phases:  
 React 组件会经历这些阶段：
@@ -1868,9 +1888,11 @@ useEffect(() => {
 }, []);
 ```
 
-## React Router Interview QuestionsReact Router 面试问题
+## React Router 面试问题
+React Router Interview Questions
 
-### What is the purpose of push and replace in React Router history?在 React Router 历史中 ，push 和 replace 的目的是什么？
+### 在 React Router 历史中 ，push 和 replace 的目的是什么？
+What is the purpose of push and replace in React Router history?
 
 The `history.push()` and `history.replace()` methods let you navigate programmatically in React Router. The difference is:  
 history`.push（）` 和 `history.replace（）` 方法允许您在 React Router 中以编程方式导航。区别在于：
@@ -1884,7 +1906,8 @@ history.push("/dashboard");   // Navigate to dashboard, keep history
 history.replace("/login");    // Navigate to login, replace current entry
 ```
 
-### How do you programmatically navigate using React Router 4+?如何使用 React Router 4+编程导航？
+### 如何使用 React Router 4+编程导航？
+How do you programmatically navigate using React Router 4+?
 
 You can use the `useNavigate` hook in React Router v6+ or the `useHistory` hook in v5 to navigate programmatically.  
 你可以使用 React Router v6+中的 `useNavigate` 钩子或 v5 中的 `useHistory` 钩子来编程导航。
@@ -1914,7 +1937,8 @@ function RedirectButton() {
 }
 ```
 
-### How do you get query parameters from React Router?如何从 React Router 获取查询参数？
+### 如何从 React Router 获取查询参数？
+How do you get query parameters from React Router?
 
 In React Router v6, use `useSearchParams()`. In React Router v5, use `useLocation()` with the browser’s `URLSearchParams` API.  
 在 React Router v6 中，使用 `useSearchParams（）` 。在 React Router v5 中，使用 `useLocation（）` 和浏览器的 `URLSearchParams` API。
@@ -1941,7 +1965,8 @@ function Page() {
 }
 ```
 
-### How do you pass parameters with history.push() in React Router 4?如何在 React Router 4 中使用 history.push（） 传递参数？
+### 如何在 React Router 4 中使用 history.push（） 传递参数？
+How do you pass parameters with history.push() in React Router 4?
 
 You can pass route parameters using the URL or state object.  
 您可以使用 URL 或状态对象传递路由参数。
@@ -1957,9 +1982,11 @@ history.push({
 });
 ```
 
-## React Testing Interview QuestionsReact 测试面试问题
+## React 测试面试问题
+React Testing Interview Questions
 
-### What is shallow rendering in React testing?什么是 React 测试中的浅渲染？
+### 什么是 React 测试中的浅渲染？
+What is shallow rendering in React testing?
 
 Shallow rendering is a technique where only the component itself is rendered, not its children. It’s useful when testing a component in isolation without worrying about its descendants.  
 浅渲染是一种只渲染组件本身而不渲染其子组件的技术。当单独测试一个组件而不用担心它的后代时，它很有用。
@@ -1971,7 +1998,8 @@ import MyComponent from "./MyComponent";
 const wrapper = shallow(<MyComponent />);
 ```
 
-### What is the react-test-renderer package?什么是 react-test-renderer 包？
+### 什么是 react-test-renderer 包？
+What is the react-test-renderer package?
 
 `react-test-renderer` is a package from React that allows you to render components to pure JavaScript objects without depending on the DOM. It’s useful for snapshot testing.  
 `react-test-renderer` 是 React 的一个包，它允许你将组件渲染成纯 JavaScript 对象，而不依赖于 DOM。这对快照测试很有用。
@@ -1984,12 +2012,14 @@ const tree = renderer.create(<MyComponent />).toJSON();
 expect(tree).toMatchSnapshot();
 ```
 
-### What is Jest? 什么是 Jest？
+### 什么是 Jest？
+What is Jest? 
 
 Jest is a JavaScript testing framework maintained by Meta. It’s used to write unit tests, mock functions, and create snapshots. Jest is the default test runner for most React apps (like those created with Create React App).  
 Jest 是一个由 Meta 维护的 JavaScript 测试框架。它用于编写单元测试、模拟函数和创建快照。Jest 是大多数 React 应用程序的默认测试运行器（例如使用 Create React App 创建的应用程序）。
 
-### What are the advantages of Jest over Jasmine?Jest 比 Jasmine 有什么优势？
+### Jest 比 Jasmine 有什么优势？
+What are the advantages of Jest over Jasmine?
 
 Jest builds on top of Jasmine but adds powerful features like:  
 Jest 建立在 Jasmine 之上，但增加了强大的功能，如：
@@ -2003,7 +2033,8 @@ Jest 建立在 Jasmine 之上，但增加了强大的功能，如：
 - Better DX with watch mode and rich assertions  
 	通过监视模式和丰富的断言实现更好的 DX
 
-### Can you show a simple Jest test case using React?你能用 React 展示一个简单的 Jest 测试用例吗？
+### 你能用 React 展示一个简单的 Jest 测试用例吗？
+Can you show a simple Jest test case using React?
 
 ```
 // Counter.js
@@ -2021,9 +2052,11 @@ test("renders count", () => {
 });
 ```
 
-## State Management Interview Questions状态管理面试问题
+## 状态管理面试问题
+State Management Interview Questions
 
-### What are the pros and cons of using Redux?使用 Redux 的优点和缺点是什么？
+### 使用 Redux 的优点和缺点是什么？
+What are the pros and cons of using Redux?
 
 **Pros:优点：**
 
@@ -2045,7 +2078,8 @@ test("renders count", () => {
 - Steeper learning curve for new developers  
 	新开发人员的学习曲线更陡峭
 
-### What’s the difference between mapStateToProps and mapDispatchToProps?mapStateToProps 和 mapDispatchToProps 有什么区别？
+### mapStateToProps 和 mapDispatchToProps 有什么区别？
+What’s the difference between mapStateToProps and mapDispatchToProps?
 
 `mapStateToProps` connects Redux state to your component’s props, while `mapDispatchToProps` connects action dispatchers to your props so you can trigger state changes.  
 `mapStateToProps` 将 Redux 状态连接到组件的 props，而 `mapDispatchToProps` 将动作调度器连接到你的 props，这样你就可以触发状态更改。
@@ -2061,7 +2095,8 @@ const mapDispatchToProps = (dispatch) => ({
 });
 ```
 
-### At a high level, how do Redux patterns work?在高层次上，Redux 模式是如何工作的？
+### 在高层次上，Redux 模式是如何工作的？
+At a high level, how do Redux patterns work?
 
 Redux follows a unidirectional data flow:  
 Redux 遵循单向数据流：
@@ -2088,7 +2123,8 @@ function counterReducer(state = 0, action) {
 dispatch(incrementAction);
 ```
 
-### What’s the difference between React Context and React Redux?React Context 和 React Redux 有什么区别？
+### React Context 和 React Redux 有什么区别？
+What’s the difference between React Context and React Redux?
 
 Both allow you to share state across your app, but they serve different purposes:  
 两者都允许您在应用程序中共享状态，但它们用于不同的目的：
@@ -2101,17 +2137,20 @@ Both allow you to share state across your app, but they serve different purposes
 If you’re passing values deeply and only need read/write access in a few places, it `useContext` works well. If you’re managing complex app-wide state with multiple async flows, Redux might be a better fit.  
 如果你深入地传递值，并且只需要在几个地方进行读/写访问，那么 `useContext 就` 可以很好地工作。如果您正在使用多个 JavaScript 流管理复杂的应用程序范围的状态，Redux 可能更适合。
 
-### What are the downsides of using Redux?使用 Redux 的缺点是什么？
+### 使用 Redux 的缺点是什么？
+What are the downsides of using Redux?
 
 The most significant downsides are complexity and boilerplate. For simple apps, Redux can feel like too much work to wire up. It also introduces more abstraction, which can confuse newer devs if not well-documented. Performance isn’t always better unless it is carefully optimized.  
 最大的缺点是复杂性和样板。对于简单的应用程序来说，Redux 可能会让人感觉工作量太大而无法连接。它还引入了更多的抽象，如果没有很好的文档记录，这可能会使新的开发人员感到困惑。性能并不总是更好，除非它被仔细优化。
 
-### Should you keep all your component state in the Redux store?你应该把所有的组件状态都保存在 Redux 商店里吗？
+### 你应该把所有的组件状态都保存在 Redux 商店里吗？
+Should you keep all your component state in the Redux store?
 
 No. Only keep \*\*shared state\*\* that multiple components rely on in Redux. UI-specific or temporary state (like modals, inputs, animations) should stay local in the element using `useState`.  
 否。仅保留 Redux 中多个组件依赖的 \*\* 共享状态 \*\*。特定于 UI 的或临时的状态（如模态、输入、动画）应该使用 `useState` 在元素中保持本地状态。
 
-### What’s the proper way to access the Redux store?访问 Redux 商店的正确方法是什么？
+### 访问 Redux 商店的正确方法是什么？
+What’s the proper way to access the Redux store?
 
 In React-Redux, use the `useSelector` hook to read the state and `useDispatch` to send actions. This is the recommended approach in functional components.  
 在 React-Redux 中，使用 `useBook` 钩子来读取状态，使用 `usDispatch` 来发送动作。这是功能组件中推荐的方法。
@@ -2132,7 +2171,8 @@ function Counter() {
 }
 ```
 
-### What is a Redux Thunk?什么是 Redux Thunk？
+### 什么是 Redux Thunk？
+What is a Redux Thunk?
 
 A Redux Thunk is a middleware that lets you write action creators that return a function instead of an object. It’s commonly used to handle asynchronous logic, such as fetching data.  
 Redux Thunk 是一个中间件，允许您编写返回函数而不是对象的操作创建器。它通常用于处理异步逻辑，例如获取数据。
@@ -2148,12 +2188,14 @@ export const fetchUser = () => {
 };
 ```
 
-### How do you measure Redux performance?如何衡量 Redux 的性能？
+### 如何衡量 Redux 的性能？
+How do you measure Redux performance?
 
 Use the **Redux DevTools** extension. It allows you to inspect every dispatched action, see how state changes over time, and track slow reducers or significant updates.  
 使用 **Redux DevTools** 扩展它允许您检查每个已调度的操作，查看状态如何随时间变化，并跟踪缓慢的缩减程序或重要更新。
 
-### How do you improve Redux performance?如何提高 Redux 性能？
+### 如何提高 Redux 性能？
+How do you improve Redux performance?
 
 Some key ways to improve Redux performance:  
 提高 Redux 性能的一些关键方法：
@@ -2167,7 +2209,8 @@ Some key ways to improve Redux performance:
 - Keep your store flat and normalized  
 	让你的店铺保持扁平化和规范化
 
-### When should you use Redux over useContext or useState?什么时候应该使用 Redux 而不是 useContext 或 useState？
+### 什么时候应该使用 Redux 而不是 useContext 或 useState？
+When should you use Redux over useContext or useState?
 
 Use `useState` for the local state. Use `useContext` for a lightweight global state (themes, authentication user, etc.). Use Redux when:  
 使用 `useState` 表示本地状态。将 `useContext` 用于轻量级全局状态（主题、身份验证用户等）。在以下情况下使用 Redux：
@@ -2182,9 +2225,11 @@ Use `useState` for the local state. Use `useContext` for a lightweight global st
 That said, if your app doesn’t have complex global state, stick to `useState` and `useContext` — They’re lighter and easier to work with.  
 也就是说，如果你的应用没有复杂的全局状态，坚持使用 `useState` 和 `useContext` --它们更轻便，更容易使用。
 
-## React Performance Optimization Interview QuestionsReact 性能优化面试问题
+## React 性能优化面试问题
+React Performance Optimization Interview Questions
 
-### How do you solve performance corner cases with React?如何用 React 解决性能瓶颈问题？
+### 如何用 React 解决性能瓶颈问题？
+How do you solve performance corner cases with React?
 
 It depends on the root cause, but in general:  
 这取决于根本原因，但总的来说：
@@ -2200,7 +2245,8 @@ It depends on the root cause, but in general:
 - Throttle or debounce expensive state updates (like scroll listeners)  
 	限制或消除昂贵的状态更新（如滚动侦听器）
 
-### How do you audit your React app to find performance bottlenecks?如何审计你的 React 应用以发现性能瓶颈？
+### 如何审计你的 React 应用以发现性能瓶颈？
+How do you audit your React app to find performance bottlenecks?
 
 Use React DevTools Profiler to record a render pass and inspect which components are re-rendering too often or taking too long. You can also:  
 使用 React DevTools Profiler 记录渲染过程，并检查哪些组件重新渲染太频繁或耗时太长。您还可以：
@@ -2212,7 +2258,8 @@ Use React DevTools Profiler to record a render pass and inspect which components
 - Inspect slow components with the Flamegraph view in Profiler  
 	使用 Profiler 中的 Flamegraph 视图检查速度较慢的组件
 
-### Are there any online tools available to help with performance auditing?是否有任何在线工具可以帮助进行绩效审计？
+### 是否有任何在线工具可以帮助进行绩效审计？
+Are there any online tools available to help with performance auditing?
 
 Yes. These tools help audit your bundle size, load times, and runtime performance:  
 是的这些工具可以帮助审核包大小、加载时间和运行时性能：
@@ -2226,7 +2273,8 @@ Yes. These tools help audit your bundle size, load times, and runtime performanc
 - **SpeedCurve** – Continuous front-end performance monitoring  
 	**SpeedCurve** -持续的前端性能监控
 
-### If Redux is a bottleneck, how can it be optimized?如果 Redux 是一个瓶颈，如何优化它？
+### 如果 Redux 是一个瓶颈，如何优化它？
+If Redux is a bottleneck, how can it be optimized?
 
 A few things to try:  
 有几件事可以尝试：
@@ -2242,7 +2290,8 @@ A few things to try:
 - Avoid dispatching actions on every keystroke — debounce or batch them  
 	避免在每个事件上分派操作-去抖动或批处理它们
 
-### If your initial page load is slow, how would you optimize it?如果你的初始页面加载速度很慢，你会如何优化它？
+### 如果你的初始页面加载速度很慢，你会如何优化它？
+If your initial page load is slow, how would you optimize it?
 
 Some ways to speed up your initial load:  
 一些方法来加快您的初始负载：
@@ -2258,7 +2307,8 @@ Some ways to speed up your initial load:
 - Inline critical CSS and defer non-essential JS  
 	内联关键的 CSS 并推迟不重要的 JS
 
-### How do you measure page load time?如何测量页面加载时间？
+### 如何测量页面加载时间？
+How do you measure page load time?
 
 You can use:您可以用途：
 
@@ -2271,7 +2321,8 @@ You can use:您可以用途：
 - Third-party tools like SpeedCurve or New Relic  
 	第三方工具，如 SpeedCurve 或 New Relic
 
-### You want to run a performance experiment. How would you measure improvements?你想做一个性能实验。您如何衡量改进？
+### 你想做一个性能实验。您如何衡量改进？
+You want to run a performance experiment. How would you measure improvements?
 
 Use A/B testing or feature flags:  
 使用 A/B 测试或功能标志：
@@ -2286,7 +2337,8 @@ Use A/B testing or feature flags:
 Compare metrics across real user sessions to validate gains.  
 跨真实的用户会话比较指标以验证收益。
 
-### Scrolling feels janky and stutters. How would you fix it?滚动感觉 janky 和口吃。你要怎么解决？
+### 滚动感觉 janky 和口吃。你要怎么解决？
+Scrolling feels janky and stutters. How would you fix it?
 
 Common fixes:常见修复：
 
@@ -2299,7 +2351,8 @@ Common fixes:常见修复：
 - Avoid triggering layout thrashing (e.g., calling `getBoundingClientRect` repeatedly)  
 	避免触发布局颠簸（例如，重复调用 getBoundingClientRect）
 
-### How do you measure scroll performance?如何衡量滚动性能？
+### 如何衡量滚动性能？
+How do you measure scroll performance?
 
 Use the Chrome DevTools Performance tab:  
 使用 Chrome DevTools 性能选项卡：
@@ -2314,7 +2367,8 @@ Use the Chrome DevTools Performance tab:
 You can also track scroll FPS using Chrome’s rendering tab or \`fps-meter\` overlays.  
 你也可以使用 Chrome 的渲染标签或“fps-meter”覆盖来跟踪滚动 FPS。
 
-### How do you detect memory leaks in React?如何检测 React 中的内存泄漏？
+### 如何检测 React 中的内存泄漏？
+How do you detect memory leaks in React?
 
 Memory leaks in React usually happen when components retain references after unmounting — like open subscriptions, timeouts, or event listeners that were never cleaned up.  
 React 中的内存泄漏通常发生在组件在卸载后保留引用时-例如打开订阅，超时或事件侦听器从未清理。
@@ -2341,7 +2395,8 @@ useEffect(() => {
 }, []);
 ```
 
-### How do you add security to a React application?如何为 React 应用程序添加安全性？
+### 如何为 React 应用程序添加安全性？
+How do you add security to a React application?
 
 While React handles UI, it’s still your job to secure the app from common threats:  
 虽然 React 处理 UI，但您的工作仍然是保护应用程序免受常见威胁：
@@ -2367,7 +2422,8 @@ The questions above would cover a majority of React JS interview questions. Now,
 
 ---
 
-## Frontend System Design Questions Guide前端系统设计问题指南
+## **前端系统设计问题指南**
+Frontend System Design Questions Guide
 
 ![[_posts/architect/System Design/media/005c61174f15d46261a78250131fe66a_MD5.png]]
 
@@ -2379,7 +2435,8 @@ If you’re looking for a more in-depth, free guide, we recommend exploring our 
 
 ---
 
-## Build React Components Using MVVM Design Pattern使用 MVVM 设计模式构建 React 组件
+## 使用 MVVM 设计模式构建 React 组件
+Build React Components Using MVVM Design Pattern
 
 ![[_posts/architect/System Design/media/69265c822df6e769fda3005b662280e7_MD5.png]]
 
@@ -2389,7 +2446,8 @@ React 以其基于组件的架构而闻名，该架构允许开发人员将接�
 Design patterns offer a robust way to address these issues by formally separating responsibilities. One of the most effective patterns for structuring React applications is **MVVM (Model-View-ViewModel)**. By adhering to MVVM principles, developers can keep their components (Views) focused on rendering and delegate data logic to dedicated ViewModels. This guide explores applying MVVM in React, what belongs in a ViewModel (and what doesn’t), and how to structure your code to maximize clarity, testability, and scalability.  
 设计模式提供了一种健壮的方法，通过正式分离职责来解决这些问题。构建 React 应用程序最有效的模式之一是 **MVVM（模型-视图-视图模型）** 。通过遵守 MVVM 原则，开发人员可以让他们的组件（视图）专注于渲染，并将数据逻辑委托给专用的 ViewModel。本指南探讨了在 React 中应用 MVVM，什么属于 ViewModel（什么不属于），以及如何构建代码以最大限度地提高清晰度，可测试性和可扩展性。
 
-### The Problem with Monolithic React ComponentsMonolithic React 组件的问题
+### React 单体组件的问题
+The Problem with Monolithic React Components
 
 A typical React component can quickly become bloated. Consider a user profile component that fetches user data, manages form state for searching, applies side effects (like scrolling or analytics), and renders the final UI. Below is an example of how quickly logic can accumulate:  
 一个典型的 React 组件会很快变得臃肿。考虑一个用户配置文件组件，它获取用户数据，管理表单状态以进行搜索，应用副作用（如滚动或分析），并呈现最终的 UI。下面是一个逻辑可以积累得多快的例子：
@@ -2445,12 +2503,14 @@ function UserProfile() {
 export default UserProfile;
 ```
 
-### The Power of Design Patterns in React设计模式在 React 中的力量
+### 设计模式在 React 中的力量
+The Power of Design Patterns in React
 
 Design patterns provide a structured way of thinking about state, logic, and UI. Below are three widely used patterns:  
-设计模式提供了一种思考状态、逻辑和 UI 的结构化方法。下面是三种广泛使用的模式：
+设计模式提供了一种思考状态、逻辑和 UI 的结构化方法。*下面是三种广泛使用的模式：*
 
-### MVC (Model-View-Controller)MVC（模型-视图-控制器）
+#### MVC (Model-View-Controller)
+MVC（模型-视图-控制器）
 
 ![[_posts/architect/System Design/media/45ec4a5e07e86b04f161a62f2c5446c6_MD5.png]]
 
@@ -2461,7 +2521,8 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 - **Controller:** Handles user input and updates the View.  
 	**控制器：** 处理用户输入并更新视图。
 
-### MVP (Model-View-Presenter)MVP（模型-视图-表示器）
+#### MVP (Model-View-Presenter)
+MVP（模型-视图-表示器）
 
 ![[_posts/architect/System Design/media/aa9ea38ca5e8b55a07d2c7abb394a349_MD5.png]]
 
@@ -2472,7 +2533,8 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 - **View:** A “dumb” UI that delegates actions to the Presenter.  
 	**视图：** 将操作委托给演示者的“哑”UI。
 
-### MVVM (Model-View-ViewModel)MVVM（模型-视图-视图模型）
+#### MVVM (Model-View-ViewModel)
+MVVM（模型-视图-视图模型）
 
 ![[_posts/architect/System Design/media/e3ac6381ad9c2b9167cbd65cf9eeda82_MD5.png]]
 
@@ -2483,7 +2545,8 @@ Design patterns provide a structured way of thinking about state, logic, and UI.
 - **View:** A React component that consumes ViewModel data.  
 	**View：** 一个使用 ViewModel 数据的 React 组件。
 
-### Implementing MVVM in React在 React 中实现 MVVM
+### 在 React 中实现 MVVM
+Implementing MVVM in React
 
 **The Model (userService.js)  
 模型（userService.js）**
@@ -2551,14 +2614,16 @@ function UserProfile() {
 export default UserProfile;
 ```
 
-### Final Thoughts 最后的想法
+### 最后的想法
+Final Thoughts 
 
 Applying MVVM to React components provides clear separation of concerns, improves maintainability, and enhances testability. By structuring your app around Models, ViewModels, and Views, you ensure a scalable, organized, and testable architecture.  
 将 MVVM 应用于 React 组件可以提供清晰的关注点分离，提高可维护性并增强可测试性。通过围绕模型、视图模型和视图构建应用，您可以确保可扩展、有组织和可测试的架构。
 
 ---
 
-## Behavioral questions 行为问题
+## Behavioral questions 
+行为问题
 
 ![[_posts/architect/System Design/media/feffb09e05763f300e8ac4bbf9ca48cf_MD5.png]]
 
@@ -2570,7 +2635,8 @@ Explore our free, [in-depth guide](https://frontendlead.com/behavioral-questions
 
 ---
 
-## Salary Negotiation 薪资谈判
+## 薪资谈判
+Salary Negotiation 
 
 ![[_posts/architect/System Design/media/4b78b4e7094a18f137f06e46b2ed2859_MD5.png]]
 
@@ -2595,7 +2661,8 @@ A successful negotiation extends beyond salary discussions to include bonuses, r
 Check out our free article [here](https://frontendlead.com/handbook/salary-negotiation) for a more in-depth guide on negotiating as a software engineer and how this can enhance your interview preparation.  
 [在这里](https://frontendlead.com/handbook/salary-negotiation) 查看我们的免费文章，以获得关于作为软件工程师进行谈判的更深入的指南，以及这如何增强您的面试准备。
 
-## How to not screw up the negotiation如何不搞砸谈判
+### 如何不搞砸谈判
+How to not screw up the negotiation
 
 ![[_posts/architect/System Design/media/6a939fc0e63c1a8a7bbd49f141cd5060_MD5.png]]
 
@@ -2631,7 +2698,8 @@ Navigating job offer negotiations can be challenging, and even seasoned software
 For a deeper understanding of negotiation strategies and to avoid common mistakes, check out our comprehensive guide on job offer negotiation for software engineers [here](https://frontendlead.com/handbook/offer-negotiating-mistakes-to-avoid). This guide provides detailed insights to help you navigate this critical aspect of your career development effectively.  
 为了更深入地了解谈判策略并避免常见错误，请查看我们为软件工程师 [提供的](https://frontendlead.com/handbook/offer-negotiating-mistakes-to-avoid) 工作机会谈判综合指南。本指南提供了详细的见解，以帮助您有效地驾驭职业发展的这一关键方面。
 
-## Conclusion 结论
+## 结论
+Conclusion 
 
 Recognizing that preparing for these interviews is not always the most exciting task, the guide aims to provide a comprehensive toolkit for success. It focuses on real-world questions specific to frontend technologies, such as HTML, CSS, and JavaScript, differing from the typical software engineering interviews that often focus more on algorithms.  
 认识到准备这些面试并不总是最令人兴奋的任务，该指南旨在提供一个全面的工具包，以取得成功。它侧重于前端技术（如 HTML、CSS 和 JavaScript）的实际问题，与通常更关注算法的典型软件工程面试不同。
