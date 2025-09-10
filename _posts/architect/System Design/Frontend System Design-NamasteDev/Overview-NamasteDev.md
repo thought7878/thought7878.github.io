@@ -1,3 +1,8 @@
+[Frontend System Design - B站](https://www.bilibili.com/video/BV1kNh8zJEaU/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+[原网址](https://namastedev.com/learn/namaste-frontend-system-design)
+
+---
 
 # Networking
 

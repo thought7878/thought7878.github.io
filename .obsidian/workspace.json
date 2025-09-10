@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-10.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-10"
+              "title": "2025-09-11"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+                "file": "_posts/architect/System Design/前端系统设计：入门基础.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,55 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Frontend System Design Fundamentals (All In One Comprehensive Guide)"
-            }
-          },
-          {
-            "id": "24eb8bce5a9e4ea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/男女.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "男女"
-            }
-          },
-          {
-            "id": "659f08390d74c5c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/架构模式/Frontend System Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Frontend System Design"
+              "title": "前端系统设计：入门基础"
             }
           }
         ],
@@ -770,28 +722,34 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/System Design/Frontend System Design Guide.md",
+    "_posts/architect/System Design/media/206b42a7c013357424f6aae87d90ca68_MD5.png",
+    "_posts/architect/System Design/前端系统设计：入门基础.md",
+    "_posts/architect/System Design/media/d76b6093b0e39329635e6ae3d7c5099c_MD5.webp",
+    "_posts/architect/System Design/media/a64d0e9254a7ffda821d358a12d9faa8_MD5.webp",
+    "_posts/architect/System Design/media/9dfd45817c3a6107122b8456c79319b0_MD5.webp",
+    "_posts/architect/System Design/media/7583eab019e24cb85374dba91a6955de_MD5.webp",
+    "_posts/architect/System Design/media/9994452efd446e1b8a7f98fdec187a8e_MD5.webp",
+    "_posts/architect/System Design/media/9764fa94a8cb285cd99b8760ccab1605_MD5.webp",
+    "_posts/architect/System Design/media/58a4cfbd94a6c31bb93feba090c3bce6_MD5.webp",
+    "_posts/architect/System Design/media/5748e291ac82a16d9a71a2181319849b_MD5.jpg",
+    "_posts/architect/System Design/Frontend System Design-NamasteDev/Networking/1.Networking - Akshay & Chirag's Experience.md",
+    "_posts/architect/System Design/Frontend System Design-NamasteDev/Overview-NamasteDev.md",
     "_posts/architect/System Design/_Frontend Interview Handbook.md",
+    "_posts/读书笔记/男女.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-11.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-10.md",
+    "_posts/architect/System Design/Frontend System Design-NamasteDev/Networking",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/architect/System Design/Frontend System Design-NamasteDev",
+    "_posts/architect/System Design/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/methods/常看的.md",
     "_posts/methods/编程/程序员十年顿悟：8分钟掌握开发核心法则！.md",
     "_posts/architect/System Design/media/6a939fc0e63c1a8a7bbd49f141cd5060_MD5.png",
-    "_posts/architect/System Design/media/4b78b4e7094a18f137f06e46b2ed2859_MD5.png",
-    "_posts/architect/System Design/media/feffb09e05763f300e8ac4bbf9ca48cf_MD5.png",
-    "_posts/architect/System Design/media/e3ac6381ad9c2b9167cbd65cf9eeda82_MD5.png",
-    "_posts/architect/System Design/media/aa9ea38ca5e8b55a07d2c7abb394a349_MD5.png",
-    "_posts/architect/System Design/media/45ec4a5e07e86b04f161a62f2c5446c6_MD5.png",
-    "_posts/architect/System Design/media/69265c822df6e769fda3005b662280e7_MD5.png",
-    "_posts/architect/System Design/media/005c61174f15d46261a78250131fe66a_MD5.png",
-    "_posts/architect/System Design/media/70024cde7881a60ba9d1f87bb24d7075_MD5.png",
-    "_posts/architect/System Design/media/33454472faf953ea1622e6308b8928ee_MD5.png",
     "_posts/architect/System Design/media",
-    "_posts/architect/System Design/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
-    "_posts/architect/System Design/Frontend System Design.md",
     "_posts/architect/架构模式/从MVC到整洁架构：可扩展的前端模式.md",
     "_posts/architect/架构模式/前端架构模式.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-10.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-08.md",
     "_posts/architect/System Design",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
@@ -803,21 +761,14 @@
     "_posts/English/单词/pro & con.md",
     "_posts/architect/架构模式/React的组件化架构.md",
     "_posts/English/isolate.md",
-    "_posts/读书笔记/男女.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/path、publicPath.md",
     "_posts/读书笔记/健康/糖尿病/记录/9月.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-07.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
-    "DailyNote/Journal/01 Daily/2025-09-08.md",
     "_posts/architect/架构模式/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/11. 性能考量（Performance Considerations）",
-    "_posts/architect/微前端/模块联邦",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
