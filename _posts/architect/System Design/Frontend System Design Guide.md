@@ -1,7 +1,7 @@
 [Frontend System Design Guide](https://github.com/devkodeio/frontend-system-design?tab=readme-ov-file)
 
 
-### What is this Frontend System Design guide about?  
+# What is this Frontend System Design guide about?  
 这个前端系统设计指南是关于什么的？
 
 Frontend System Design guide attempts to cover the various factors to be considered while architecting a complex large-scale frontend application from scratch. Also the guide acts like a checklist that can be used as a reference for frontend system design. The guide aims to contain the breadth of the frontend systems while giving the directions to explore in depth for both individual contributors and system architects.  
@@ -18,7 +18,7 @@ Guide is generic and not biased towards any library or framework
 
 ---
 
-### Engineering Design  工程设计
+# Engineering Design  工程设计
 
 - Team size  团队规模
 - User base  用户群
@@ -31,11 +31,11 @@ Guide is generic and not biased towards any library or framework
 
 ---
 
-### High Level Design  高级设计
+# High Level Design  高级设计
 
 - Platform identification  平台标识
 - SPA vs MPA
-- SSR, SSG, CSR  SSR、SSG、CSR
+- SSR, SSG, CSR
 - Tech stack  
 - Search Engine Optimization 
 - CI/CD
@@ -52,43 +52,12 @@ Guide is generic and not biased towards any library or framework
 - Quality Assurance & Control  质量保证与控制
 - User role management  用户角色管理
 
----
 
-### Low Level Design  低级设计
+noSelect
 
-- Code/Folder architecture  代码/文件夹架构
-- Desktop/Mobile first approach  桌面/移动的优先方法
-- System breakdown  系统故障
-- Component Design  组件设计
-- Form development  表单开发
-- Storage management  存储管理
-- API Design  API 设计
-- Instrumentation  仪表
-- Design system  设计系统
-- Routing management  路由管理
-- [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS)
-- [Lazy loading of modules  模块的延迟加载](https://web.dev/fast/#lazy-load-images-and-video)
-- [Accessibility   无障碍](https://www.w3.org/WAI/tips/developing/)
-- [Image optimizations   图像优化](https://web.dev/fast/#optimize-your-images)
-- Pagination, Debouncing, Throttling  分页、去弹跳、调节
-- [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS  
-- Versioning  版本控制
-- Unit testing  单元测试
+## 产品需求文档（PRD）/设计文档
+Product Requirement Document (PRD) / Design Document  
 
----
-
-### Architecture Considerations  
-体系结构注意事项
-
-- [Client-side Architecture Basics  客户端架构基础](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
-- [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
-
-### High Level Design details  
-高级设计细节
-
-
-**Product Requirement Document (PRD) / Design Document  
-产品需求文档（PRD）/设计文档**
 
 - Identify Scope/Requirement  
     确定范围/要求
@@ -97,8 +66,8 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Discuss about Design/Wireframe  
-关于设计/线框的讨论**
+## 关于设计/线框的讨论
+Discuss about Design/Wireframe  
 
 - Think like an architect.  
     像建筑师一样思考。
@@ -111,7 +80,7 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify Business  确定业务**
+## Identify Business  确定业务
 
 - Is it B2B (business-to-business)?  
     B2B（企业对企业）？
@@ -124,7 +93,7 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify Platform  识别平台**
+## Identify Platform  识别平台
 
 - Desktop  桌面
 - Mobile  移动的
@@ -132,8 +101,8 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify Users (Know your audience)  
-识别用户（了解您的受众）**
+## 识别用户（了解您的受众）
+Identify Users (Know your audience)  
 
 - Conduct surveys  进行调查
 - Discuss about Location and Devices  
@@ -146,7 +115,8 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify Design Approach  确定设计方法**
+## 确定设计方法
+Identify Design Approach  
 
 - Responsive vs Adaptive design  
     响应式设计 vs 自适应设计
@@ -155,7 +125,8 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify APIs  识别 API**
+## 确定 API
+Identify APIs  
 
 - Rest APIs / Graph APIs / RPC  
     
@@ -163,7 +134,8 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Role based management  角色管理**
+##  角色管理
+Role based management 
 
 - Large system needs roles based access and permissions  
     大型系统需要基于角色的访问和权限
@@ -176,8 +148,9 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify Right Platform (compare frameworks based on the use case)  
-确定合适的平台（根据用例比较框架）**
+
+## 确定合适的平台（根据用例比较框架）
+Identify Right Platform (compare frameworks based on the use case)  
 
 - Single Page Applications (Unsuitable for Blogs/News based products)  
     单页应用程序（不适合基于博客/新闻的产品）
@@ -215,7 +188,7 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Identify User Flow  识别用户流**
+## Identify User Flow  识别用户流
 
 - Discuss vision of a product.  
     讨论产品的愿景。
@@ -232,9 +205,8 @@ Guide is generic and not biased towards any library or framework
     讨论失败场景
 
   
-
-**Identify MVP (Minimum Viable Product)  
-确定MVP（最小可行产品）**
+## 确定MVP（最小可行产品）
+Identify MVP (Minimum Viable Product)  
 
 - Problem -> Solution -> Build MVP -> MVP to Customers  
     问题->解决方案->构建 MVP ->客户 MVP
@@ -247,7 +219,7 @@ Guide is generic and not biased towards any library or framework
 
   
 
-**Volume of Operations  业务量**
+## Volume of Operations  业务量
 
 - Discuss about the end users of the product  
     讨论产品的最终用户
@@ -261,9 +233,8 @@ Guide is generic and not biased towards any library or framework
     分析数据帮助我们扩展系统
 
   
-
-**SEO (Search Engine Optimization)  
-SEO（搜索引擎优化）**
+## SEO（搜索引擎优化）
+SEO (Search Engine Optimization)  
 
 - Crawling  爬行
 - Use of Heading tags  
@@ -283,15 +254,14 @@ SEO（搜索引擎优化）**
     用于社交图[的开放图协议](https://ogp.me/)
 
   
-
-**Component Based Design  基于组件的设计**
+## 基于组件的设计
+Component Based Design  
 
 - Component wise deployment cycle (CI/CD)  
     组件部署周期（CI/CD）
 - Monolith vs Microservice architecture  
     Monolith vs 微服务架构
-- [Micro Frontend (independent dev & deployment for scalability)  
-    微前端（独立开发和部署可扩展性）](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
+- [Micro Frontend (independent dev & deployment for scalability)  微前端（独立开发、部署）](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
 - Static components vs Dynamic components  
     静态组件 vs 动态组件
 - IFrame/[Shell](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo) approach  
@@ -299,7 +269,8 @@ SEO（搜索引擎优化）**
 
   
 
-**State Management  状态管理**
+## 状态管理
+State Management  
 
 - How to maintain state through the application?  
     如何通过应用程序维护状态？
@@ -310,7 +281,8 @@ SEO（搜索引擎优化）**
 
   
 
-**Handling APIs  处理 API**
+## 处理 API
+Handling APIs  
 
 - Polling (Short and Long)  
     轮询（短和长）
@@ -325,7 +297,8 @@ SEO（搜索引擎优化）**
 
   
 
-**Optimizing Images  优化图像**
+## 优化图像
+Optimizing Images  
 
 - Add alt attributes (Images should be descriptive for SEO)  
     添加 alt 属性（图像应该是 SEO 的描述性）
@@ -343,7 +316,7 @@ SEO（搜索引擎优化）**
 
   
 
-**Instrumentation  仪表**
+## Instrumentation  仪表
 
 - Measurement and tracking are key for a stable system  
     测量和跟踪是稳定系统的关键
@@ -352,7 +325,7 @@ SEO（搜索引擎优化）**
     错误日志记录（用于跟踪）
 - Debugging  调试
 - Logs/Track all events happened in the application  
-    跟踪/跟踪应用程序中发生的所有事件
+    记录/跟踪应用程序中发生的所有事件
 - Implement Analytics (GA)  
     实施分析（GA）
 - Sentry (to capture errors)  
@@ -362,7 +335,8 @@ SEO（搜索引擎优化）**
 
   
 
-**Versioning of artifacts  工件的版本控制**
+## 版本控制
+Versioning of artifacts  
 
 - Artifacts tracking (ex: Confluence)  
     伪影跟踪（例如：Confluence）
@@ -371,25 +345,22 @@ SEO（搜索引擎优化）**
 
   
 
-**Performance Optimization Techniques  
-性能优化技术**
+## Performance Optimization Techniques  
+性能优化技术
 
 - Webpack to optimized/compressed pages (Code splitting, [Brotli Compression](https://www.fastfwd.com/improve-http-compression-with-brotli/), [Gzip Compression](https://www.keycdn.com/support/enable-gzip-compression))  
-    Webpack 到优化/压缩页面（代码分割，[Brotli 压缩](https://www.fastfwd.com/improve-http-compression-with-brotli/) ，[Gzip 压缩](https://www.keycdn.com/support/enable-gzip-compression) ）
-- [Web Vitals (FP, LCP, CLS, etc)  
-    网络生命体征（FP、LCP、CLS 等）](https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals)
+    Webpack 优化/压缩页面（代码分割，[Brotli 压缩](https://www.fastfwd.com/improve-http-compression-with-brotli/) ，[Gzip 压缩](https://www.keycdn.com/support/enable-gzip-compression) ）
+- [Web Vitals (FP, LCP, CLS, etc)  ](https://10up.github.io/Engineering-Best-Practices/performance/#core-web-vitals)
 - Lighthouse / PageSpeed Insights  
     Lighthouse / PageSpeed 洞察
-- [Fast Loading (Initial load should be fast)  
-    快速加载（初始加载应快速）](https://web.dev/fast/)
+- [Fast Loading (Initial load should be fast)](https://web.dev/fast/)
 - Smooth Operations (Loading indicators / Light/Smooth/Meaningful animations (to avoid jerks in transitions) / Splash screens) - (dialog with light animations)  
     平滑操作（加载指示器/灯光/平滑/有意义的动画（以避免过渡中的抖动）/启动画面）-（带有灯光动画的对话框）
 - Animation directions should be the same (dialog coming from bottom should close in bottom) - (smooth animation should be added in sidebars for better UX)  
     动画方向应该是相同的（对话框来自底部应关闭底部）-（平滑动画应添加在侧边栏更好的用户体验）
 - Animation between data fetching(APIs request) - Skeletal Loaders, Blurhash etc  
     数据获取之间的动画（API 请求）-骨架加载器、Blurhash 等
-- [Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)  
-    讨论缓存-例如：API、资源缓存（浏览器缓存/内存/ CDN /磁盘缓存）](https://roadmap.sh/guides/http-caching)
+- [Discuss about Caching - ex: API, resource cache (Browser cache / Memory / CDN / Disk Cache)](https://roadmap.sh/guides/http-caching)
 - Pagination vs Infinite Scroll  
     分页与无限滚动
 - Meaningful animation  有意义的动画
@@ -397,8 +368,8 @@ SEO（搜索引擎优化）**
 
   
 
-**Internationalization (i18n) / Localization (i10n)  
-国际化（i18 n）/本地化（i10 n）**
+## Internationalization (i18n) / Localization (i10n)  
+国际化（i18 n）/本地化（i10 n）
 
 - Localization  定位
 - Numeric, date and time formats  
@@ -415,7 +386,8 @@ SEO（搜索引擎优化）**
 
   
 
-**Accessibility  无障碍**
+## Accessibility  
+无障碍
 
 - Alt attributes  Alt 属性
 - Aria-labels
@@ -424,38 +396,30 @@ SEO（搜索引擎优化）**
 - Color contrast, semantics tags  
     颜色对比，语义标签
 
-  
 
-**Security  安全**
+## Security  
 
 - MITM
 - [XSS](https://auth0.com/blog/cross-site-scripting-xss/)
 - CSRF
 - Clickjacking  点击劫持
-- [Content Security Policy (CSP)  
-    内容安全策略（CSP）](https://ponyfoo.com/articles/content-security-policy-in-express-apps#to-get-started-let-s-use-report-only)
+- [Content Security Policy (CSP) 内容安全策略（CSP）](https://ponyfoo.com/articles/content-security-policy-in-express-apps#to-get-started-let-s-use-report-only)
 - CORS
 - [Security headers   安全性报头](https://securityheaders.com/)
 - Helpful Tools   有用的工具
-    - [Testing your SSL web server  
-        测试 SSL Web 服务器](https://www.ssllabs.com/ssltest/analyze.html)
-    - [HTTP/2 Test   HTTP/2 测试](https://tools.keycdn.com/http2-test)
-    - [HTTP Header Checker   HTTP Header Checker 头](https://tools.keycdn.com/curl)
-    - [Website Speed Test   网站速度测试](https://tools.keycdn.com/speed)
-    - [Performance Test   性能测试](https://tools.keycdn.com/performance)
-    - [What Does my site cost?  
-        我的网站费用是多少？](https://whatdoesmysitecost.com/)
-    - [HTML5 Security Cheat Sheet  
-        HTML5 安全备忘录](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
-    - [Production Best Practices : Security  
-        生产最佳实践：安全性](https://expressjs.com/en/advanced/best-practice-security.html)
-    - [Web Application Vulnerabiliies Index  
-        Web 应用程序漏洞索引](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/)
+    - [Testing your SSL web server](https://www.ssllabs.com/ssltest/analyze.html)
+    - [HTTP/2 Test](https://tools.keycdn.com/http2-test)
+    - [HTTP Header Checker](https://tools.keycdn.com/curl)
+    - [Website Speed Test](https://tools.keycdn.com/speed)
+    - [Performance Test](https://tools.keycdn.com/performance)
+    - [What Does my site cost?我的网站费用是多少？](https://whatdoesmysitecost.com/)
+    - [HTML5 Security Cheat Sheet  HTML5 安全备忘录](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
+    - [Production Best Practices : Security  生产最佳实践：安全性](https://expressjs.com/en/advanced/best-practice-security.html)
+    - [Web Application Vulnerabiliies Index  Web 应用程序漏洞索引](https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/)
 
   
-
-**Quality assurance and control  
-质量保证和控制**
+## 质量保证和控制
+Quality assurance and control  
 
 - Stable products are successful  
     稳定的产品是成功的
@@ -475,7 +439,7 @@ SEO（搜索引擎优化）**
 
   
 
-**Governance  治理**
+## Governance  治理
 
 - Controlling the workflows and protecting the assets  
     控制工作流程并保护资产
@@ -489,17 +453,46 @@ SEO（搜索引擎优化）**
     如产品经理批准、利益相关者批准
 
   
-
-**Experiment based release cycle  
-基于实验的释放周期**
+## 基于实验的释放周期
+Experiment based release cycle  
 
 - Experiment flag, which can help in the release cycle  
     实验标志，这可以帮助在发布周期
 
   
-
-**NFR (Non Functional Requirement)  
-NFR（非功能需求）**
+## 非功能性需求（NFR）
+NFR (Non Functional Requirement)  
 
 - Discuss about CI/CD (Docker, Pipeline)  
-    CI/CD（Docker，Pipeline）
+
+
+---
+
+# Low Level Design  低级设计
+
+- Code/Folder architecture  代码/文件夹架构
+- Desktop/Mobile first approach  桌面/移动的优先方法
+- System breakdown  系统故障
+- Component Design  组件设计
+- Form development  表单开发
+- Storage management  存储管理
+- API Design  API 设计
+- Instrumentation  仪表
+- Design system  设计系统
+- Routing management  路由管理
+- [CSS optimizations](https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS)
+- [Lazy loading of modules  模块的延迟加载](https://web.dev/fast/#lazy-load-images-and-video)
+- [Accessibility   无障碍](https://www.w3.org/WAI/tips/developing/)
+- [Image optimizations   图像优化](https://web.dev/fast/#optimize-your-images)
+- Pagination, Debouncing, Throttling  分页、去弹跳、调节
+- [Performance](https://developer.mozilla.org/en-US/docs/Web/Performance): FCP, LCP, TTI, CLS  
+- Versioning  版本控制
+- Unit testing  单元测试
+
+---
+
+# Architecture Considerations  
+体系结构注意事项
+
+- [Client-side Architecture Basics  客户端架构基础](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
+- [idiomatic.js](https://github.com/rwaldron/idiomatic.js)
