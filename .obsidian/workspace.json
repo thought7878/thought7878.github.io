@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/深入浅出微前端/9.方案了解：Ajax Cookie.md",
+                "file": "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,11 +556,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9.方案了解：Ajax Cookie"
+              "title": "3.方案了解：引言"
+            }
+          },
+          {
+            "id": "f71d13da02a41621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5. 应避免的常见错误"
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -746,8 +770,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "97262081d19a6189",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
+    "_posts/architect/System Design/greatfrontend.com/1. An Introduction.md",
+    "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
+    "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
+    "Clippings/Front End System Design Playbook.md",
+    "Clippings",
+    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
+    "_posts/architect/System Design/greatfrontend.com",
+    "_posts/architect/微前端/教程/深入浅出微前端/2.开篇：微前端到底解决了哪些业务问题？.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/1.前言：阅读指南.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/9.方案了解：Ajax Cookie.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/15.原理解析：CSS 隔离.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/16.原理解析：性能优化.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/24.框架解析：qiankun 使用示例.md",
     "_posts/architect/微前端/教程/深入浅出微前端/media/6daeeb7591c9eeaf7867e4504a5daeac_MD5.gif",
     "_posts/architect/微前端/教程/深入浅出微前端/media/c192acdc0aca03e1d3cf463884ffa24f_MD5.gif",
     "_posts/architect/微前端/教程/深入浅出微前端/media/75cfce53f473f59787ad6851e25b5fc6_MD5.png",
@@ -759,32 +799,18 @@
     "_posts/architect/微前端/教程/深入浅出微前端/media/2926fc4ee9639cf1dc4d5af52f295380_MD5.gif",
     "_posts/architect/微前端/教程/深入浅出微前端/media/4d65b777826bf3f722450c4d74fb76fa_MD5.gif",
     "_posts/architect/微前端/教程/深入浅出微前端/media/afa4bc70f2726bd3dff0a9ebe20a3d49_MD5.gif",
-    "_posts/architect/微前端/教程/深入浅出微前端/media/bab8d638e59ebb0ab7b9539692249328_MD5.gif",
     "_posts/architect/微前端/教程/深入浅出微前端/7.方案了解：Web Components 方案.md",
     "_posts/architect/微前端/教程/深入浅出微前端/6.方案了解：动态 Script 方案.md",
     "_posts/architect/微前端/教程/深入浅出微前端/5.方案了解：NPM 方案.md",
     "_posts/architect/微前端/教程/深入浅出微前端/4.方案了解：iframe 方案.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/2.开篇：微前端到底解决了哪些业务问题？.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/1.前言：阅读指南.md",
     "_posts/architect/微前端/教程/深入浅出微前端/media",
     "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
     "_posts/architect/System Design/前端系统设计：入门基础.md",
     "_posts/architect/微前端/教程/深入浅出微前端/55.FAQ.md",
     "_posts/architect/微前端/教程/深入浅出微前端/36.工程设计：文档设计.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/9.方案了解：Ajax Cookie.md",
     "_posts/architect/微前端/教程/深入浅出微前端/11.原理解析：V8 隔离.md",
     "_posts/architect/微前端/教程/深入浅出微前端/12.原理解析：iframe 隔离.md",
     "_posts/architect/微前端/教程/深入浅出微前端/50.原理进阶：V8 的嵌入实践.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/10.原理解析：引言.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/35.工程设计：单元测试.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/56.分享视频.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/34.工程设计：变更日志.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/30.工程设计：版本发布.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/51.原理进阶：V8 的概念说明.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/24.框架解析：qiankun 使用示例.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/18.框架解析：引言.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/29.工程设计：按需加载.md",
     "_posts/architect/微前端/教程/深入浅出微前端",
     "_posts/architect/System Design/Frontend System Design-NamasteDev/Networking",
     "_posts/architect/System Design/Frontend System Design-NamasteDev",
@@ -792,8 +818,6 @@
     "_posts/architect/System Design",
     "_posts/architect/架构模式/media",
     "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/13. Using Other Frontend Frameworks",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends/media",
-    "_posts/architect/微前端/教程/使用React开发微前端：开发者完全指南/12. Authentication in Microfrontends",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
