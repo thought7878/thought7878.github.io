@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+                "file": "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. The RADIO Framework"
+              "title": "5. 应避免的常见错误"
             }
           }
         ],
@@ -772,6 +772,9 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
+    "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/System Design/greatfrontend.com/media",
     "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
     "_posts/architect/System Design/greatfrontend.com/1. An Introduction.md",
@@ -789,10 +792,7 @@
     "_posts/architect/System Design/greatfrontend.com/questions/media/c4e86df5ee3bcebb60f3c09d331a63ac_MD5.jpeg",
     "_posts/architect/System Design/greatfrontend.com/questions/media/Pasted image 20250912065339.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media",
-    "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
     "_posts/architect/System Design/greatfrontend.com/questions",
-    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
     "Clippings/Front End System Design Playbook.md",
     "Clippings",
@@ -817,7 +817,6 @@
     "_posts/architect/System Design/Frontend System Design-NamasteDev/Networking",
     "_posts/architect/System Design/Frontend System Design-NamasteDev",
     "_posts/architect/System Design/media",
-    "_posts/architect/System Design",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
