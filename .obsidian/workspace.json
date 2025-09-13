@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "01 - 架构设计的宏观视角"
             }
           },
           {
@@ -675,7 +675,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 285.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -769,7 +769,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -794,10 +794,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 怎样成长为优秀的软件架构师？.md",
     "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 总结.md",
     "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md",
