@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-13.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-13"
+              "title": "2025-09-14"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - 架构设计的宏观视角"
+              "title": "02 - 大厦基石：无生有，有生万物"
             }
           },
           {
@@ -794,10 +794,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "2f57cb6476de3070",
   "lastOpenFiles": [
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03 - 汇编：编程语言的诞生.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/48bc9772c3e8005b120f544e81d0eb9a_MD5.webp",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-13.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/bcc6de1ed55dd5cc44e734dd4151c8fb_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/c19329a7d5cedec3cec1c0962734a508_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01.md",
     "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 怎样成长为优秀的软件架构师？.md",
     "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 总结.md",
     "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md",
@@ -825,23 +835,13 @@
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/_答疑解惑 - 想当架构师，我需要成为“全才”吗？.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/11 - 多任务：进程、线程与协程.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23 - Web开发：浏览器、小程序与PWA.md",
     "_posts/architect/_教程/许式伟的架构课/docs/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media/6b1659a77d47edc4faf70d6b83ec91e7_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media",
-    "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)/46 - 服务端开发篇：回顾与总结.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/18 - 架构：需求分析 (下) · 实战案例.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)/38  - 文件系统与对象存储.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/30  - 实战（五）：怎么设计一个“画图”程序？.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/05 - 思考题解读：如何实现可自我迭代的计算机？.md",
-    "_posts/architect/_教程/许式伟的架构课/docs",
     "_posts/architect/System Design/greatfrontend.com/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/42feb94a75f0e6a72d52e728646d29c4_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/11cd4b0a6c14c8c78e18881e31097f32_MD5.jpg",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/d266eddcc2ee42bcbbdc5e14a407201d_MD5.png",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/907b77e52e7b8dc9e87570ff2e0b0b81_MD5.png",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/9677a3368ab294f7003501da61fd3d72_MD5.webp",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
