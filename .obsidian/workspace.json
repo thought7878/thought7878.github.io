@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-12.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-12"
+              "title": "2025-09-13"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/01 - 架构设计的宏观视角.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.方案了解：引言"
+              "title": "01 - 架构设计的宏观视角"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
+                "file": "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,11 +580,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 应避免的常见错误"
+              "title": "3. The RADIO Framework"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -770,53 +770,54 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "97262081d19a6189",
   "lastOpenFiles": [
-    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
-    "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/01 - 架构设计的宏观视角.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/11 - 多任务：进程、线程与协程.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/23 - Web开发：浏览器、小程序与PWA.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/media/6b1659a77d47edc4faf70d6b83ec91e7_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/media",
+    "_posts/architect/_教程/许式伟的架构课/docs/46 - 服务端开发篇：回顾与总结.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/18 - 架构：需求分析 (下) · 实战案例.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/38  - 文件系统与对象存储.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/30  - 实战（五）：怎么设计一个“画图”程序？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/05 - 思考题解读：如何实现可自我迭代的计算机？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/51 - 故障域与故障预案.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/74 - 开源、云服务与外包管理.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/71 - 如何阅读别人的代码？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/22 - 桌面程序的架构建议.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/06 - 操作系统进场.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/用户故事 - 站在更高的视角看架构.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/52 - 故障排查与根因分析.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/40 - 服务端的业务架构建议.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/27 - 实战（二）：怎么设计一个“画图”程序？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/58 - 如何判断架构设计的优劣？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/02 - 大厦基石：无生有，有生万物.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/08 - 操作系统内核与编程接口.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/19 - 基础平台篇：回顾与总结.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/17 - 架构：需求分析 (上).md",
+    "_posts/architect/_教程/许式伟的架构课/docs/62 - 重新认识开闭原则 (OCP).md",
+    "_posts/architect/_教程/许式伟的架构课/docs/13 - 进程间的同步互斥、资源共享与通讯.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/加餐 - 怎么保障发布的效率与质量？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs",
+    "_posts/architect/_教程/许式伟的架构课/mkdocs.yml",
+    "_posts/architect/_教程/许式伟的架构课",
+    "_posts/architect/_教程",
+    "_posts/architect/System Design/greatfrontend.com/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/media",
-    "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
-    "_posts/architect/System Design/greatfrontend.com/1. An Introduction.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-12.md",
-    "_posts/architect/System Design/greatfrontend.com/questions/News Feed (e.g. Facebook) 新闻推送（例如：脸书）.md",
     "_posts/architect/System Design/greatfrontend.com/questions/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/42feb94a75f0e6a72d52e728646d29c4_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/11cd4b0a6c14c8c78e18881e31097f32_MD5.jpg",
     "_posts/architect/System Design/greatfrontend.com/questions/media/d266eddcc2ee42bcbbdc5e14a407201d_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/907b77e52e7b8dc9e87570ff2e0b0b81_MD5.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media/9677a3368ab294f7003501da61fd3d72_MD5.webp",
-    "_posts/architect/System Design/greatfrontend.com/questions/Autocomplete.md",
     "_posts/architect/System Design/greatfrontend.com/questions/media/3d979ef23634fe47c228ae589e10f28f_MD5.png",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-11.md",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/c4e86df5ee3bcebb60f3c09d331a63ac_MD5.jpeg",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/Pasted image 20250912065339.png",
     "_posts/architect/System Design/greatfrontend.com/questions/media",
     "_posts/architect/System Design/greatfrontend.com/questions",
-    "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
-    "Clippings/Front End System Design Playbook.md",
     "Clippings",
-    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
     "_posts/architect/System Design/greatfrontend.com",
-    "_posts/architect/微前端/教程/深入浅出微前端/2.开篇：微前端到底解决了哪些业务问题？.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/1.前言：阅读指南.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/9.方案了解：Ajax Cookie.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/15.原理解析：CSS 隔离.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/16.原理解析：性能优化.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/24.框架解析：qiankun 使用示例.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/media/6daeeb7591c9eeaf7867e4504a5daeac_MD5.gif",
-    "_posts/architect/微前端/教程/深入浅出微前端/8.方案了解：iframe Cookie.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/7.方案了解：Web Components 方案.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/6.方案了解：动态 Script 方案.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/5.方案了解：NPM 方案.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/4.方案了解：iframe 方案.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/media",
-    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
-    "_posts/architect/System Design/前端系统设计：入门基础.md",
-    "_posts/architect/微前端/教程/深入浅出微前端",
-    "_posts/architect/System Design/Frontend System Design-NamasteDev/Networking",
-    "_posts/architect/System Design/Frontend System Design-NamasteDev",
-    "_posts/architect/System Design/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
