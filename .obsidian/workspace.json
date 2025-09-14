@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04 - 编程语言的进化.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04 - 编程语言的进化"
+              "title": "06"
             }
           },
           {
@@ -769,7 +769,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -794,17 +794,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/05.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/05 - 思考题解读：如何实现可自我迭代的计算机？.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06 - 操作系统进场.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/7da67d2a6dea46229c77ec8513ee0e3d_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/4115e797365f91fa415b0d46a1e36948_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/4d2e034e87187efee0b01b0826390fcc_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04 - 编程语言的进化.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03 - 汇编：编程语言的诞生.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04 - 编程语言的进化.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/14 - IP 网络：连接世界的桥梁.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/7fba1194bce95f7eb8ccf16275d73847_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/世界趋势/世界趋势记录.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
@@ -823,10 +830,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20 - 桌面开发的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)/34 - 服务端开发的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/4.服务治理篇 (11讲)/47 - 服务治理的宏观视角.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/5.架构思维篇 (12讲)/57 - 心性：架构师的修炼之道.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/6.软件工程篇 (10讲)/68 - 软件工程的宏观视角.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/7.结束语 (3讲)/结课问卷获奖用户名单.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/8.延展阅读 (5讲)/热点观察 - 我看Facebook发币（上）：区块链、比特币与Libra币.md",
     "_posts/architect/_教程/许式伟的架构课/docs/8.延展阅读 (5讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/7.结束语 (3讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/media/0e3b483b91936f1e07e32553c02426ee_MD5.webp",
@@ -839,9 +842,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media/6b1659a77d47edc4faf70d6b83ec91e7_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media",
-    "_posts/architect/System Design/greatfrontend.com/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/723a835cb5c3d712820cb2b36ef3c016_MD5.png",
-    "_posts/architect/System Design/greatfrontend.com/questions/media/42feb94a75f0e6a72d52e728646d29c4_MD5.png",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
