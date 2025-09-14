@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03 - 汇编：编程语言的诞生.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 - 大厦基石：无生有，有生万物"
+              "title": "03 - 汇编：编程语言的诞生"
             }
           },
           {
@@ -794,15 +794,17 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "2f57cb6476de3070",
   "lastOpenFiles": [
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03 - 汇编：编程语言的诞生.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/世界趋势/世界趋势记录.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/48bc9772c3e8005b120f544e81d0eb9a_MD5.webp",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-13.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/bcc6de1ed55dd5cc44e734dd4151c8fb_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/c19329a7d5cedec3cec1c0962734a508_MD5.webp",
@@ -833,8 +835,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)",
-    "_posts/architect/_教程/许式伟的架构课/docs/_答疑解惑 - 想当架构师，我需要成为“全才”吗？.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/11 - 多任务：进程、线程与协程.md",
     "_posts/architect/_教程/许式伟的架构课/docs/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media/6b1659a77d47edc4faf70d6b83ec91e7_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/media",
