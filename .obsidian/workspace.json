@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-14"
+              "title": "2025-09-18"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/21 - 图形界面程序的框架.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06"
+              "title": "21 - 图形界面程序的框架"
             }
           },
           {
@@ -675,7 +675,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 300.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -794,54 +794,54 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "2f57cb6476de3070",
   "lastOpenFiles": [
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/21 - 图形界面程序的框架.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20 - 桌面开发的宏观视角.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/21.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/26 - 实战（一）：怎么设计一个“画图”程序？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/07 - 软件运行机制及内存管理.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/22 - 桌面程序的架构建议.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-17.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
+    "_posts/methods/常看的.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/33 - 桌面开发篇：回顾与总结.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23 - Web开发：浏览器、小程序与PWA.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24 - 跨平台与 Web 开发的建议.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/25 - 桌面开发的未来.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/27 - 实战（二）：怎么设计一个“画图”程序？.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/61b84fc427189ff8bfbe790862234609_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/226ee58b85b6b96ecf04a39c39f72f0b_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/72626ad4108ba64af67cbde804329907_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/b889b1bbecb7799b44ded463b397bea0_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/794ed7ba685c2fb9562c977d887c0e44_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/627df250c73c089e586bbcd43fa8beca_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/ba82dfa002297fd25c08fd57dc85f690_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/d1eac1a726718df7f7e9006da906a949_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/8ec4d0b820eafe5c7bc55c5d307ccde1_MD5.webp",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/07.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/14 - IP 网络：连接世界的桥梁.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/11 - 多任务：进程、线程与协程.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06 - 操作系统进场.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/05.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/05 - 思考题解读：如何实现可自我迭代的计算机？.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06 - 操作系统进场.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/7da67d2a6dea46229c77ec8513ee0e3d_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/4115e797365f91fa415b0d46a1e36948_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/4d2e034e87187efee0b01b0826390fcc_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04 - 编程语言的进化.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/04.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03 - 汇编：编程语言的诞生.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/14 - IP 网络：连接世界的桥梁.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/7fba1194bce95f7eb8ccf16275d73847_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/03.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/02 - 大厦基石：无生有，有生万物.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/世界趋势/世界趋势记录.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01 - 架构设计的宏观视角.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/48bc9772c3e8005b120f544e81d0eb9a_MD5.webp",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-13.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/bcc6de1ed55dd5cc44e734dd4151c8fb_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media/c19329a7d5cedec3cec1c0962734a508_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/01.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 怎样成长为优秀的软件架构师？.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/开篇词 - 总结.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/00 - 开篇词丨怎样成长为优秀的软件架构师？.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/7.结束语 (3讲)/结束语 - 放下技术人的身段，用极限思维提升架构能力.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20 - 桌面开发的宏观视角.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)/34 - 服务端开发的宏观视角.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/4.服务治理篇 (11讲)/47 - 服务治理的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/8.延展阅读 (5讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/7.结束语 (3讲)",
-    "_posts/architect/_教程/许式伟的架构课/docs/media/0e3b483b91936f1e07e32553c02426ee_MD5.webp",
     "_posts/architect/_教程/许式伟的架构课/docs/6.软件工程篇 (10讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/5.架构思维篇 (12讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/4.服务治理篇 (11讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)",
-    "_posts/architect/_教程/许式伟的架构课/docs/media/97ca5ac5baedbbbfd259079a8efa9f98_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/media/6b1659a77d47edc4faf70d6b83ec91e7_MD5.webp",
-    "_posts/architect/_教程/许式伟的架构课/docs/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
