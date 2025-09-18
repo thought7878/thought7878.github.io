@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
+                "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-18"
+              "title": "2025-09-19"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/26 - 实战（一）：怎么设计一个“画图”程序？.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24 - 跨平台与 Web 开发的建议.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "26 - 实战（一）：怎么设计一个“画图”程序？"
+              "title": "24 - 跨平台与 Web 开发的建议"
             }
           },
           {
@@ -796,10 +796,14 @@
   },
   "active": "2f57cb6476de3070",
   "lastOpenFiles": [
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/25 - 桌面开发的未来.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24 - 跨平台与 Web 开发的建议.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23 - Web开发：浏览器、小程序与PWA.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24 - 跨平台与 Web 开发的建议.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/25 - 桌面开发的未来.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/26 - 实战（一）：怎么设计一个“画图”程序？.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-19.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/22.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/22 - 桌面程序的架构建议.md",
     "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
@@ -808,9 +812,7 @@
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/20 - 桌面开发的宏观视角.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/11 - 多任务：进程、线程与协程.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/26 - 实战（一）：怎么设计一个“画图”程序？.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/07 - 软件运行机制及内存管理.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-17.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-14.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
@@ -831,8 +833,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/07.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/14 - IP 网络：连接世界的桥梁.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06 - 操作系统进场.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/06.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media",
     "_posts/architect/_教程/许式伟的架构课/docs/8.延展阅读 (5讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/7.结束语 (3讲)",
