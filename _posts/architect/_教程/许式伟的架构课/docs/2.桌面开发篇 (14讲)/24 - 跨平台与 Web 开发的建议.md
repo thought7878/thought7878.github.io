@@ -47,39 +47,39 @@
 
 聊完了跨平台，我们来聊聊浏览器带来的另一面：Web 开发。
 
-*Web 的 B/S 架构意味着编写软件有了更高的复杂性*。这主要表现在以下几个方面。
+**Web 的 B/S 架构意味着编写软件有了更高的复杂性**。这主要表现在以下几个方面：
 
-**其一，多用户。** 有了 Server 端，意味着用户的数据不再是保存在 Client（Browser）端，而是存储在 Server 端。
+**其一，多用户。** 有了 Server 端，意味着*用户的数据不再是保存在 Client（Browser）端，而是存储在 Server 端*。
 
-**其二，更高的数据可靠性要求。** 数据在 Client 端，客户自己对数据的可靠性负责。硬盘坏了，数据丢了，用户会后悔没有对数据进行备份。
+**其二，更高的数据可靠性要求。** *数据在 Client 端，客户自己对数据的可靠性负责*。硬盘坏了，数据丢了，用户会后悔没有对数据进行备份。
+但是一旦*数据在 Server 端，数据可靠性的责任方就到了软件厂商这边。如果厂商不小心把数据搞丢了，用户就会跳起来*。
 
-但是一旦数据在 Server 端，数据可靠性的责任方就到了软件厂商这边。如果厂商不小心把数据搞丢了，用户就会跳起来。
+**其三，更多可能的分工安排。** 详细来说，**Web 应用从流派来说，分为两大类：** `胖前端`与`胖后端`。
 
-**其三，更多可能的分工安排。** 详细来说，Web 应用从流派来说，分为两大类：胖前端与胖后端。
+所谓`胖前端`，是指*把尽可能多的业务逻辑放在前端*。极端情况下，*整个网站就是一个单页的应用*。胖前端无论开发体验还是用户体验，都*更接近于本地应用*（Native App）。
 
-所谓胖前端，是指把尽可能多的业务逻辑放在前端。极端情况下，整个网站就是一个单页的应用。胖前端无论开发体验还是用户体验，都更接近于本地应用（Native App）。
+所谓`胖后端`，是指*主要逻辑都在后端*，包括*界面交互的事件响应，也通过网络调用交给了后端来实现*。
 
-所谓胖后端，是指主要逻辑都在后端，包括界面交互的事件响应，也通过网络调用交给了后端来实现。
-
-我们先看客户端（Client），也就是浏览器端（Browser）。上一讲我们提到，浏览器的界面框架并没有窗口系统，它通过 HTML+CSS 来描述界面。
-
-HTML+CSS 与其理解为 View 层，不如理解为 ViewModel 层，因为 HTML DOM 从数据角度完整描述了界面的样子。而 View 层已经被浏览器自己实现了。
-
+我们先看客户端（Client），也就是浏览器端（Browser）。上一讲我们提到，*浏览器的界面框架并没有窗口系统，它通过 HTML+CSS 来描述界面*。
+***HTML+CSS 与其理解为 View 层，不如理解为** `ViewModel 层`，因为 HTML DOM 从数据角度完整描述了界面的样子。而 View 层已经被浏览器自己实现了*。
 这极大简化了界面开发的复杂性，因为界面的局部更新是一个复杂的话题，今天浏览器通过引入 HTML+CSS 这样的 ViewModel 层把它解决了。
 
-这个时候我们重新看 MVC 框架在浏览器下的样子，你会发现它变成了 MVMP 模式，全称为 “Model-ViewModel-Presenter”。
+### Browser 端的架构：MVMP 模式
+
+这个时候我们**重新看 MVC 框架在浏览器下的样子**，你会发现它变成了 `MVMP 模式`，全称为 “Model-ViewModel-Presenter”。
 
 ![[_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/61b84fc427189ff8bfbe790862234609_MD5.webp]]
 
-**首先，我们看事件响应过程。** 浏览器的 View 收到了用户的交互事件，它把这些事件委托（delegate）给了 ViewModel 层，并且通过 HTML DOM 暴露出来。通过修改 HTML 元素的事件响应属性，一般名字叫 onXXX（比如 onclick），可以获得事件的响应机会。
+**首先，我们看*事件响应过程*。** 浏览器的 View 收到了用户的交互事件，它把这些事件委托（delegate）给了 ViewModel 层，并且通过 HTML DOM 暴露出来（捕获、目标、冒泡阶段）。通过 HTML 元素的事件响应属性，可以获得事件的响应机会，一般名字叫 onXXX（比如 onclick）。
 
 **然后我们看 Model 层的数据变化（DataChanged）事件。** 在标准的 MVC 模式中，Model 层的数据变化是通知到 View 层，但是在浏览器下 View 是由浏览器实现的，要想让它接受 DataChanged 事件并且去处理是不太可能了。
-
 所以解决思路自然是让 Controlller 层来做，这样就变成了 MVP 模式。 但是我们又不是标准的 MVP，因为 Presenter 层更新界面（Update View）并不是操作 View，而是 ViewModel。
 
 **综上，浏览器下的 MVC，最终实际上是 MVMP（Model-ViewModel-Presenter）。**
 
-聊完了浏览器端，我们在来看下服务端（Server）。虽然这一章我们的重点不是聊服务端，但是为了有个完整的认识，我们还是要概要地梳理一下 Server 端的架构。
+### Server 端的架构
+
+聊完了浏览器端，我们在来看下服务端（Server）。虽然这一章我们的重点不是聊服务端，但是为了有个完整的认识，我们还是要*概要地梳理一下 Server 端的架构*。
 
 ![[_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media/226ee58b85b6b96ecf04a39c39f72f0b_MD5.webp]]
 
@@ -87,23 +87,23 @@ HTML+CSS 与其理解为 View 层，不如理解为 ViewModel 层，因为 HTML 
 
 到了 Web 开发，我们同样需要二次开发接口，只不过这个二次开发接口不再是在 Client 端完成的，而是在 Server 端完成。Server 端支持直接的 API 调用，以支持自动化（Automation）方面的需求。
 
-所以，对 Server 端来说，最底层的是一个多租户的 Model 层（Multi-User Model），它实现了自动化（Automation）所需的 API。
+所以，*对 Server 端来说，最底层的是一个多租户的 `Model 层（Multi-User Model）`，它实现了自动化（Automation）所需的 API*。
 
-在 Multi-User Model 层之上，有一个 Web 层。Web 层和 Model 层的假设不同，Web 层是基于会话的（Session-based），因为它负责用户的接入，每个用户登录后，会形成一个个会话（Session）。
+在 Multi-User Model 层之上，有一个 `Web 层`。Web 层和 Model 层的假设不同，*Web 层是基于会话的（Session-based），因为它负责用户的接入，每个用户登录后，会形成一个个`会话（Session）`。*
 
-如果我们对Web 层细究的话，又分为 Model 层和 ViewModel 层。为了区分，Web 这边的 Model 层我们叫它 Session-based Model。相应地，ViewModel 层我们叫它 Session-based ViewModel。
+如果我们*对Web 层细究的话，又分为 Model 层和 ViewModel 层*。为了区分，Web 这边的 Model 层我们叫它 `Session-based Model`。相应地，ViewModel 层我们叫它 `Session-based ViewModel`。
 
-在服务端，Session-based Model 和 Session-based ViewModel 并不发生直接关联，它们通过自己网络遥控浏览器这一侧的 Model 和 ViewModel，从而响应用户的交互。
+*在服务端，Session-based Model 和 Session-based ViewModel 并不发生直接关联，它们通过自己网络遥控浏览器这一侧的 Model 和 ViewModel，从而响应用户的交互。*
 
-Session-based Model 是什么样的呢？它其实是 Multi-User Model 层的转译。把多租户的 API 转译成单租户的场景。所以这一层并不需要太多的代码，甚至理论上自动实现也是有可能的。
+`Session-based Model` 是什么样的呢？*它其实是 Multi-User Model 层的转译。把多租户的 API 转译成单租户的场景*。所以这一层并不需要太多的代码，甚至理论上自动实现也是有可能的。
 
-Session-based ViewModel 是一些 HTML+JavaScript+CSS 文件。它是真正的 Web 业务入口。它通过互联网把自己的数据返回给浏览器，浏览器基于 ViewModel 渲染出 View，这样整个系统就运转起来了。
+`Session-based ViewModel` 是*一些 HTML+JavaScript+CSS 文件。它是真正的 Web 业务入口。它通过互联网把自己的数据返回给浏览器，浏览器基于 ViewModel 渲染出 View，这样整个系统就运转起来了*。
 
 ## 结语
 
 今天我们聊了 Web 带来的两个重要改变。一个是跨平台，一个是 Web 开发，即 B/S 架构下的新型应用到底应该怎么实现。
 
-从跨平台来说，这个话题是桌面程序员（也叫“大前端”）永远的痛。计划赶不上变化，用来形容大前端程序员面临的窘境是一点都不过分的。一个玩意还没搞熟悉了，另一个东西又出来了，变化太快，要跟上实属不易。
+从跨平台来说，这个话题是`桌面程序员`（也叫“`大前端`”）永远的痛。计划赶不上变化，用来形容大前端程序员面临的窘境是一点都不过分的。一个玩意还没搞熟悉了，另一个东西又出来了，变化太快，要跟上实属不易。
 
 从 Web 开发来说，MVC 变成了 MVMP（Model-ViewModel-Presenter）。我们和单机的桌面软件一样的建议，认真对待 Model 层，认真思考它的使用接口是什么样的，把 Model 层做厚。
 
