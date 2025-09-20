@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d3a3c173b657a47b",
+        "id": "76838d4af95edce3",
         "type": "split",
         "children": [
           {
             "id": "a4fd01e385f78a05",
             "type": "tabs",
-            "dimension": 61.55555555555555,
             "children": [
               {
                 "id": "148c6846560e64c4",
@@ -330,7 +329,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-20.md",
+                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-21.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -345,7 +344,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2025-09-20"
+                  "title": "2025-09-21"
                 }
               },
               {
@@ -613,30 +612,6 @@
                 }
               },
               {
-                "id": "c86027e73756fe4a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "第一章 前端架构"
-                }
-              },
-              {
                 "id": "42ac3390d7b966e6",
                 "type": "leaf",
                 "state": {
@@ -664,12 +639,11 @@
             "currentTab": 25
           },
           {
-            "id": "2461e75dcc0e467a",
+            "id": "73a54b1f81024063",
             "type": "tabs",
-            "dimension": 38.44444444444444,
             "children": [
               {
-                "id": "08b209fa82550c9f",
+                "id": "9daa833e3f781303",
                 "type": "leaf",
                 "state": {
                   "type": "mindmap-nextgen-plugin",
@@ -871,19 +845,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c86027e73756fe4a",
+  "active": "9daa833e3f781303",
   "lastOpenFiles": [
-    "_posts/读书笔记/权力.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-21.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-20.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-level.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-process.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-level.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/adm.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/4+1.jpg",
+    "_posts/读书笔记/权力.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/Untitled Diagram.svg",
     "_posts/architect/_教程/前端架构：从入门到微前端/Drawing 2025-09-20 16.59.08.excalidraw.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/Drawing 2025-09-20 16.55.40.excalidraw.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/4+1.jpg",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/adm.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/web-components-dili-demo.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/tabs-app.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/mfeapp-loader.jpg",
@@ -899,7 +877,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch03/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09",
@@ -916,9 +893,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch06/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch05/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch04/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch03/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch02/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch01/README.md",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
