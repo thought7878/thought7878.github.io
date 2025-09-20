@@ -691,12 +691,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/Templates/Daily Note Template.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily Note Template 的出链列表"
+              "title": "32 - 架构：系统的概要设计 的出链列表"
             }
           },
           {
@@ -745,7 +745,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/browser/教程/浏览器工作原理与实践/04-V8工作原理 (3讲)/12.栈空间和堆空间：数据是如何存储的？.md",
+                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -755,7 +755,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "12.栈空间和堆空间：数据是如何存储的？ 的反向链接列表"
+              "title": "32 - 架构：系统的概要设计 的反向链接列表"
             }
           },
           {
@@ -769,7 +769,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -777,6 +777,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "callout-manager:Insert Callout": false,
       "switcher:打开快速切换": false,
@@ -791,17 +792,25 @@
       "audio-recorder:开始/结束录音": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "media-extended:Open media": false
+      "media-extended:Open media": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "2f57cb6476de3070",
   "lastOpenFiles": [
-    "_posts/architect/_教程/前端架构 _ 从入门到微前端.pdf",
+    "_posts/architect/_教程/未命名.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
-    "_posts/tools/资源.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/architect/_教程/前端架构 _ 从入门到微前端.epub",
+    "_posts/architect/_教程/前端架构 _ 从入门到微前端 -- 黄峰达 -- Di 1 ban, Beijing, 2019 -- 电子工业出版社 -- 9787121365348 -- f472a8e0f97fa00fb05a567a1e1ca2f7 -- Anna’s Archive.epub",
+    "_posts/architect/_教程/前端架构 _ 从入门到微前端.pdf",
     "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
-    "_posts/tools/Apifox.md",
+    "_posts/methods/常看的.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-20.md",
+    "_posts/tools/资源.md",
+    "_posts/tools/Apifox.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-19.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/18 - 架构：需求分析 (下) · 实战案例.md",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/14 - IP 网络：连接世界的桥梁.md",
@@ -830,8 +839,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/24 - 跨平台与 Web 开发的建议.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23 - Web开发：浏览器、小程序与PWA.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/23.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-18.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/media",
     "_posts/architect/_教程/许式伟的架构课/docs/1.基础平台篇 (19讲)/media",
     "_posts/architect/_教程/许式伟的架构课/docs/8.延展阅读 (5讲)",
@@ -839,8 +846,6 @@
     "_posts/architect/_教程/许式伟的架构课/docs/6.软件工程篇 (10讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/5.架构思维篇 (12讲)",
     "_posts/architect/_教程/许式伟的架构课/docs/4.服务治理篇 (11讲)",
-    "_posts/architect/_教程/许式伟的架构课/docs/3.服务端开发篇 (14讲)",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
