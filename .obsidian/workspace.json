@@ -816,7 +816,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -847,13 +847,19 @@
   },
   "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/methods/学习方法/_马斯克的2条学习法则.md",
+    "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/4+1.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/stakeholder.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-process.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-level.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/adm.jpg",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
     "_posts/architect/软件生命周期中的角色.md",
     "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-21.md",
@@ -869,7 +875,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/mfeapp-loader.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/mfe-wc.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09/route-mfe.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch08/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
@@ -888,11 +893,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch05",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch10/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch09/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch08/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch07/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch06/README.md",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
