@@ -816,7 +816,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -845,17 +845,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9daa833e3f781303",
+  "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-21.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-20.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/4+1.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/stakeholder.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-process.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-level.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/adm.jpg",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/4+1.jpg",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/第一章 前端架构.md",
+    "_posts/architect/软件生命周期中的角色.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-21.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-20.md",
     "_posts/读书笔记/权力.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/Untitled Diagram.svg",
@@ -891,8 +893,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch08/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch07/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch06/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch05/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/aofe.images/ch04/README.md",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
