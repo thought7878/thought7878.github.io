@@ -617,7 +617,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
+                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2.-QW.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -632,7 +632,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2. 项目中的技术架构实施"
+                  "title": "2.-QW"
                 }
               }
             ],
@@ -738,12 +738,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2.-QW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2. 项目中的技术架构实施 的出链列表"
+              "title": "2.-QW 的出链列表"
             }
           },
           {
@@ -792,7 +792,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2.-QW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -802,7 +802,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2. 项目中的技术架构实施 的反向链接列表"
+              "title": "2.-QW 的反向链接列表"
             }
           },
           {
@@ -816,7 +816,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -845,10 +845,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
-    "_posts/读书笔记/男女.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2.-QW.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3.-QW.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1.-QW.md",
+    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/project-workflow.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
@@ -881,10 +884,7 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/web-components-dili-demo.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/tabs-app.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09/README.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch08/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09",
