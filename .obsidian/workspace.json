@@ -634,48 +634,14 @@
                   "icon": "lucide-file",
                   "title": "2. 项目中的技术架构实施"
                 }
-              },
-              {
-                "id": "c40c27d0955f383a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "1. 前端架构"
-                }
               }
             ],
-            "currentTab": 26
+            "currentTab": 25
           },
           {
             "id": "e891fe1c5e2bd6be",
             "type": "tabs",
             "children": [
-              {
-                "id": "12127e594b785ba8",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap-nextgen-plugin",
-                  "state": {},
-                  "icon": "dot-network",
-                  "title": "2. 项目中的技术架构实施"
-                }
-              },
               {
                 "id": "6c64e9a33afdcfd9",
                 "type": "leaf",
@@ -684,6 +650,16 @@
                   "state": {},
                   "icon": "dot-network",
                   "title": "1. 前端架构"
+                }
+              },
+              {
+                "id": "b9748bf7b8c5d81b",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap-nextgen-plugin",
+                  "state": {},
+                  "icon": "dot-network",
+                  "title": "2. 项目中的技术架构实施"
                 }
               }
             ],
@@ -773,12 +749,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1. 前端架构 的出链列表"
+              "title": "2. 项目中的技术架构实施 的出链列表"
             }
           },
           {
@@ -827,7 +803,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -837,7 +813,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1. 前端架构 的反向链接列表"
+              "title": "2. 项目中的技术架构实施 的反向链接列表"
             }
           },
           {
@@ -880,14 +856,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c64e9a33afdcfd9",
+  "active": "b9748bf7b8c5d81b",
   "lastOpenFiles": [
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2.-QW.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-24.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-23.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/architecture-in-team.jpg",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/project-workflow.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3.-QW.md",
