@@ -329,7 +329,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-24.md",
+                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-25.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -344,7 +344,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2025-09-24"
+                  "title": "2025-09-25"
                 }
               },
               {
@@ -617,7 +617,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
+                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -632,7 +632,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "6. 架构设计：单页面应用"
+                  "title": "3. 架构基础：工作流设计"
                 }
               }
             ],
@@ -650,6 +650,16 @@
                   "state": {},
                   "icon": "dot-network",
                   "title": "3. 架构基础：工作流设计"
+                }
+              },
+              {
+                "id": "f79a8f705f9e2b80",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap-nextgen-plugin",
+                  "state": {},
+                  "icon": "dot-network",
+                  "title": "6. 架构设计：单页面应用"
                 }
               }
             ]
@@ -738,12 +748,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "6. 架构设计：单页面应用 的出链列表"
+              "title": "3. 架构基础：工作流设计 的出链列表"
             }
           },
           {
@@ -792,7 +802,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -802,7 +812,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "6. 架构设计：单页面应用 的反向链接列表"
+              "title": "3. 架构基础：工作流设计 的反向链接列表"
             }
           },
           {
@@ -816,7 +826,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -847,9 +857,14 @@
   },
   "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-25.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-24.md",
+    "_posts/读书笔记/人性.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+    "_posts/读书笔记/生老病死.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3..md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1. 前端架构.md",
@@ -860,7 +875,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3.-QW.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4..md",
     "_posts/methods/常看的.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-24.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-23.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/architecture-in-team.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch02/README.md",
@@ -868,7 +882,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/1.-QW.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/老爹/沙库巴曲缬沙坦钠片.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-22.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/adm.jpg",
@@ -877,12 +890,9 @@
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/methods/学习方法/_马斯克的2条学习法则.md",
-    "_posts/methods/要整理的.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/stakeholder.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-process.jpg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch01/architecture-level.jpg",
-    "_posts/architect/软件生命周期中的角色.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/Untitled Diagram.svg",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
