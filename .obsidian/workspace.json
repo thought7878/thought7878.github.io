@@ -618,7 +618,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+                    "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -633,7 +633,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "3. 架构基础：工作流设计"
+                  "title": "4. 架构基础：设计构建流"
                 }
               },
               {
@@ -774,12 +774,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "3. 架构基础：工作流设计 的出链列表"
+              "title": "4. 架构基础：设计构建流 的出链列表"
             }
           },
           {
@@ -828,7 +828,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -838,7 +838,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3. 架构基础：工作流设计 的反向链接列表"
+              "title": "4. 架构基础：设计构建流 的反向链接列表"
             }
           },
           {
@@ -883,6 +883,8 @@
   },
   "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
+    "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/5ada8185fc6c3a6b27fd05bf45aaa6ab_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250925205824.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/f0424bdc56eff6ace302d670c548dacf_MD5.jpeg",
@@ -890,15 +892,12 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250925205457.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/c3bd05dc87ff27c2b41a6423ec195368_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250925205320.png",
-    "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/前端架构/前端架构-QW.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch03/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/7c5d19fe0667d4654b838fb51dcb7a16_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250925160456.png",
     "_posts/methods/常看的.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/5f359184c20d5220ebb1dfd66c63ff4d_MD5.jpeg",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250925134919.png",
     "_posts/architect/前端架构/设计可扩展的代码结构/设计可扩展的代码结构（前端领域驱动设计(DDD)实战）.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-25.md",
