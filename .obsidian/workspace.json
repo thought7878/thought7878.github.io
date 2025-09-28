@@ -330,7 +330,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-27.md",
+                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -345,7 +345,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2025-09-27"
+                  "title": "2025-09-28"
                 }
               },
               {
@@ -642,7 +642,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/architect/前端架构/前端架构-QW.md",
+                    "file": "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -657,7 +657,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "前端架构-QW"
+                  "title": "如何设计前端开发的构建流程？"
                 }
               },
               {
@@ -685,7 +685,7 @@
                 }
               }
             ],
-            "currentTab": 25
+            "currentTab": 26
           },
           {
             "id": "51844ce75987d061",
@@ -809,12 +809,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+                "file": "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "4. 架构基础：设计构建流 的出链列表"
+              "title": "如何设计前端开发的构建流程？ 的出链列表"
             }
           },
           {
@@ -863,7 +863,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+                "file": "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -873,7 +873,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "4. 架构基础：设计构建流 的反向链接列表"
+              "title": "如何设计前端开发的构建流程？ 的反向链接列表"
             }
           },
           {
@@ -916,8 +916,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "42ac3390d7b966e6",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
+    "_posts/architect/前端架构/设计构建流程",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-27.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/28b3c64a1ee2364578b799bfa52f803a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175111.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/34c434860ba3c4ea2fb7d186184c54a1_MD5.jpeg",
@@ -928,13 +934,10 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927174956.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/3d54bbaaa5ae7890bbde4227db0ae957_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927174926.png",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/fb60e07944bb7cb01f38cddbd6c0fb21_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4.-notebooklm.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-27.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-26.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04/README.md",
     "_posts/methods/编程/AI与编程.md",
@@ -942,7 +945,6 @@
     "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-25.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病的治疗-QW.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3. 架构基础：工作流设计.md",
@@ -953,7 +955,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
     "_posts/读书笔记/生老病死.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/3..md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
@@ -963,7 +964,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch08",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch06",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch05",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
