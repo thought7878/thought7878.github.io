@@ -330,7 +330,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
+                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -345,7 +345,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2025-09-28"
+                  "title": "2025-09-29"
                 }
               },
               {
@@ -685,7 +685,7 @@
                 }
               }
             ],
-            "currentTab": 26
+            "currentTab": 27
           },
           {
             "id": "51844ce75987d061",
@@ -809,12 +809,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
+                "file": "_posts/methods/编程/AI与编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "如何设计前端开发的构建流程？ 的出链列表"
+              "title": "AI与编程 的出链列表"
             }
           },
           {
@@ -863,7 +863,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
+                "file": "_posts/methods/编程/AI与编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -873,7 +873,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "如何设计前端开发的构建流程？ 的反向链接列表"
+              "title": "AI与编程 的反向链接列表"
             }
           },
           {
@@ -916,13 +916,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "2904a96f368217ad",
   "lastOpenFiles": [
-    "_posts/architect/前端架构/前端架构-QW.md",
-    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
-    "_posts/architect/前端架构/设计构建流程",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
+    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
+    "_posts/methods/编程/AI与编程.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/前端架构/设计构建流程",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-27.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/28b3c64a1ee2364578b799bfa52f803a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175111.png",
@@ -940,7 +944,6 @@
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-26.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04/README.md",
-    "_posts/methods/编程/AI与编程.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
@@ -952,9 +955,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch03/README.md",
     "_posts/architect/前端架构/设计可扩展的代码结构/设计可扩展的代码结构（前端领域驱动设计(DDD)实战）.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-24.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/6. 架构设计：单页面应用.md",
-    "_posts/读书笔记/生老病死.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/2. 项目中的技术架构实施.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
