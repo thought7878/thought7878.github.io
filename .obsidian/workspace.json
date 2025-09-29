@@ -685,7 +685,7 @@
                 }
               }
             ],
-            "currentTab": 27
+            "currentTab": 25
           },
           {
             "id": "51844ce75987d061",
@@ -809,12 +809,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/methods/编程/AI与编程.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AI与编程 的出链列表"
+              "title": "4. 架构基础：设计构建流 的出链列表"
             }
           },
           {
@@ -863,7 +863,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/methods/编程/AI与编程.md",
+                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -873,7 +873,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AI与编程 的反向链接列表"
+              "title": "4. 架构基础：设计构建流 的反向链接列表"
             }
           },
           {
@@ -916,10 +916,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2904a96f368217ad",
+  "active": "42ac3390d7b966e6",
   "lastOpenFiles": [
-    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
     "_posts/methods/编程/AI与编程.md",
+    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
