@@ -330,7 +330,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DailyNote/Journal/01 Daily/2025/09/2025-09-30.md",
+                    "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -345,7 +345,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2025-09-30"
+                  "title": "2025-10-01"
                 }
               },
               {
@@ -666,7 +666,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/AI/编程/待整理的.md",
+                    "file": "_posts/AI/编程/Trae/Trae的基础.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -681,7 +681,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "待整理的"
+                  "title": "Trae的基础"
                 }
               }
             ],
@@ -809,12 +809,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/AI/编程/待整理的.md",
+                "file": "_posts/AI/编程/Trae/Trae的基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "待整理的 的出链列表"
+              "title": "Trae的基础 的出链列表"
             }
           },
           {
@@ -863,7 +863,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/AI/编程/待整理的.md",
+                "file": "_posts/AI/编程/Trae/Trae的基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -873,7 +873,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "待整理的 的反向链接列表"
+              "title": "Trae的基础 的反向链接列表"
             }
           },
           {
@@ -916,20 +916,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "2904a96f368217ad",
   "lastOpenFiles": [
+    "_posts/AI/编程/Trae",
     "_posts/methods/编程/AI与编程.md",
-    "_posts/AI/阿里.md",
+    "_posts/AI/编程/Trae/Trae的基础.md",
     "_posts/AI/编程/待整理的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
+    "DailyNote/Journal/01 Daily/2025/09/2025-09-30.md",
+    "DailyNote/Journal/01 Daily/2025/10",
+    "_posts/AI/阿里.md",
     "_posts/AI/编程/AI编程工具的对比.md",
     "_posts/读书笔记/别人的生活.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/旅居、旅行.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-30.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
-    "_posts/读书笔记/男女.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
@@ -952,9 +956,6 @@
     "DailyNote/Journal/01 Daily/2025/09/2025-09-26.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04/README.md",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/健康/糖尿病/糖尿病-QW.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-25.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
@@ -963,7 +964,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch08",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch06",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
