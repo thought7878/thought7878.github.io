@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "野心勃勃却又怂又懒，本质是情绪问题没解决"
+              "title": "常看的"
             }
           },
           {
@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-01"
+              "title": "2025-10-02"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/男女.md",
+                "file": "_posts/AI/编程/Trae/官方文档.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,10 +676,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "男女"
+              "title": "官方文档"
             }
           }
-        ]
+        ],
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -866,15 +867,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "2904a96f368217ad",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
-    "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/media",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-02.md",
+    "_posts/AI/编程/Trae/官方文档.md",
     "_posts/AI/编程/Trae/Trae的基础.md",
     "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/生老病死.md",
+    "_posts/methods/常看的.md",
+    "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
+    "_posts/读书笔记/宇宙、物理.md",
+    "_posts/读书笔记/media",
     "_posts/AI/编程/Trae",
     "_posts/methods/编程/AI与编程.md",
     "_posts/AI/编程/待整理的.md",
@@ -887,7 +893,6 @@
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
@@ -904,10 +909,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/3d54bbaaa5ae7890bbde4227db0ae957_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927174926.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4.-notebooklm.md",
-    "_posts/读书笔记/移民.md",
-    "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-26.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch04/README.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
