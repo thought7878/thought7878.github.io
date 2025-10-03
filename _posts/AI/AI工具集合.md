@@ -1,3 +1,6 @@
+![[_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg]]
+
+
 [测试100多款AI工具后，2024年好用+低门槛的](https://www.douyin.com/video/7461434027480861986)
 
 

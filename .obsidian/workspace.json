@@ -678,14 +678,7 @@
               "icon": "lucide-file",
               "title": "男女"
             }
-          }
-        ],
-        "currentTab": 26
-      },
-      {
-        "id": "9f0de0cb5abc27df",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "376b1b468a5eaed3",
             "type": "leaf",
@@ -710,7 +703,8 @@
               "title": "灵感"
             }
           }
-        ]
+        ],
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -897,14 +891,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "376b1b468a5eaed3",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
+    "_posts/AI/搞钱/工具.md",
+    "_posts/AI/AI工具集合.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
     "_posts/AI/搞钱/方法.md",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg",
-    "_posts/AI/搞钱/工具.md",
     "_posts/AI/搞钱/media/Pasted image 20251003082414.png",
     "_posts/AI/搞钱/media",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
@@ -931,7 +926,6 @@
     "DailyNote/Journal/01 Daily/2025/09/2025-09-30.md",
     "DailyNote/Journal/01 Daily/2025/10",
     "_posts/AI/阿里.md",
-    "_posts/AI/编程/AI编程工具的对比.md",
     "_posts/architect/前端架构/设计构建流程",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/28b3c64a1ee2364578b799bfa52f803a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175111.png",
