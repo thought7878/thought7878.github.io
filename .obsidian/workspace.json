@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-02.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-02"
+              "title": "2025-10-03"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/Trae/官方文档.md",
+                "file": "_posts/读书笔记/男女.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,11 +676,41 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "官方文档"
+              "title": "男女"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 26
+      },
+      {
+        "id": "9f0de0cb5abc27df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "376b1b468a5eaed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/「动力飞轮」APP/灵感.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "灵感"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -841,7 +871,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -867,15 +897,29 @@
       "media-extended:Open media": false
     }
   },
-  "active": "2904a96f368217ad",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
+    "_posts/AI/「动力飞轮」APP/灵感.md",
+    "_posts/AI/搞钱/方法.md",
+    "_posts/AI/「动力飞轮」APP",
+    "_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg",
+    "_posts/AI/搞钱/工具.md",
+    "_posts/AI/搞钱/media/Pasted image 20251003082414.png",
+    "_posts/AI/搞钱/media",
+    "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md",
+    "_posts/architect/前端架构/90天架构师能力提升计划模板-QW.md",
+    "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
+    "_posts/architect/前端架构/前端架构-目录.md",
+    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-02.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "_posts/读书笔记/男女.md",
     "_posts/AI/编程/Trae/官方文档.md",
     "_posts/AI/编程/Trae/Trae的基础.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-01.md",
-    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/生老病死.md",
     "_posts/methods/常看的.md",
     "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
@@ -888,16 +932,7 @@
     "DailyNote/Journal/01 Daily/2025/10",
     "_posts/AI/阿里.md",
     "_posts/AI/编程/AI编程工具的对比.md",
-    "_posts/读书笔记/别人的生活.md",
-    "_posts/读书笔记/穷人.md",
-    "_posts/读书笔记/旅居、旅行.md",
-    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-29.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-28.md",
-    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/前端架构/设计构建流程",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-27.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/28b3c64a1ee2364578b799bfa52f803a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175111.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/34c434860ba3c4ea2fb7d186184c54a1_MD5.jpeg",
@@ -906,15 +941,10 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175015.png",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/6624c1c8bd34b171dac62bff6df39f2a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927174956.png",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/3d54bbaaa5ae7890bbde4227db0ae957_MD5.jpeg",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927174926.png",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4.-notebooklm.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/media",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch10",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/ch09",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
