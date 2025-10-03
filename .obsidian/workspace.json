@@ -685,6 +685,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "_posts/AI/编程/Trae/官方文档.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "官方文档"
+            }
+          },
+          {
+            "id": "79b16fd48c1cddc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "_posts/AI/「动力飞轮」APP/灵感.md",
                 "mode": "source",
                 "source": false,
@@ -865,7 +889,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -893,9 +917,13 @@
   },
   "active": "376b1b468a5eaed3",
   "lastOpenFiles": [
-    "_posts/AI/搞钱/工具.md",
-    "_posts/AI/AI工具集合.md",
+    "_posts/AI/编程/工具对比/别人的对比.md",
+    "_posts/AI/编程/待整理的.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
+    "_posts/AI/编程/工具对比/AI编程工具的对比.md",
+    "_posts/AI/搞钱/工具.md",
+    "_posts/AI/编程/工具对比",
+    "_posts/AI/AI工具集合.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
     "_posts/AI/搞钱/方法.md",
     "_posts/AI/「动力飞轮」APP",
@@ -922,10 +950,7 @@
     "_posts/读书笔记/media",
     "_posts/AI/编程/Trae",
     "_posts/methods/编程/AI与编程.md",
-    "_posts/AI/编程/待整理的.md",
-    "DailyNote/Journal/01 Daily/2025/09/2025-09-30.md",
     "DailyNote/Journal/01 Daily/2025/10",
-    "_posts/AI/阿里.md",
     "_posts/architect/前端架构/设计构建流程",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/28b3c64a1ee2364578b799bfa52f803a_MD5.jpeg",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media/Pasted image 20250927175111.png",
@@ -938,7 +963,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/architect/_教程/前端架构：从入门到微前端/images/ch07/components-mvc.sketch",
-    "_posts/architect/_教程/前端架构：从入门到微前端/images/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
