@@ -524,7 +524,7 @@ Before you say yes:
 - Try to time your interviews so offers land around the same week  
 	试着安排你的面试时间，这样你就可以在同一周左右得到面试机会。
 - Never give a salary number first. Ask for their range  
-	永远不要先给出工资数字。询问他们的射程
+	**永远不要先给出工资数字。询问他们的范围**
 - Use offers as leverage if you’re interviewing at multiple places  
 	如果你要在多个地方面试，
 - Don’t lie about other offers, but do advocate for yourself  
@@ -604,7 +604,7 @@ Focus on:重点关注：
 	用于分析时间和空间复杂度的大 O 符号
 
 The goal isn’t to become an algorithm wizard. It’s to become fluent with the patterns that appear repeatedly. Frontend interviews generally tend not to focus on heavy DSA questions. However, it’s still crucial to know the fundamentals because even those frontend-oriented questions will come with a DSA twist.  
-我们的目标不是成为一个算法奇才。就是要熟练掌握反复出现的模式。前端面试通常不会关注繁重的 DSA 问题。然而，了解基本原理仍然至关重要，因为即使是那些面向前端的问题也会伴随着 DSA 的扭曲。
+*我们的目标不是成为一个算法奇才。就是要熟练掌握反复出现的模式。前端面试通常不会关注繁重的 DSA 问题*。然而，*了解基本原理仍然至关重要*，因为即使是那些面向前端的问题也会伴随着 DSA 的扭曲。
 
 You can use this [guide](https://frontendlead.com/handbook/data-structure-and-algorithms) to prepare for frontend data structures and algorithms, specifically for frontend interviews.  
 您可以使用本 [指南](https://frontendlead.com/handbook/data-structure-and-algorithms) 来准备前端数据结构和算法，特别是前端面试。
