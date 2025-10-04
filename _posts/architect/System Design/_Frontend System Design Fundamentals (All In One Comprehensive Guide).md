@@ -6,19 +6,19 @@
 
 根据您提供的视频摘录，该视频内容是对**前端系统设计基础知识（Front End System Design Fundamentals）** 的全面指导，旨在帮助观看者通过任何前端系统设计面试。
 
-该视频的核心是介绍一个名为 **RADIO** 的框架，用于简化面试流程、指导如何开始以及如何构建答案。
+该视频的核心是介绍一个名为 **RADIO** 的框架，用于*简化面试流程、指导如何开始以及如何构建答案*。
 
-以下是视频内容的详细总结，按照 RADIO 框架的步骤组织：
+以下是视频内容的详细总结，*按照 RADIO 框架的步骤组织：*
 
 ---
 
 ## 前端系统设计面试指南总结 (RADIO 框架)
 
-### I. 框架总览与目标
+### 1. 框架总览与目标
 
 该视频旨在涵盖通过任何前端系统设计面试所需的所有材料。除了核心概念外，还讨论了各种 HTTP 协议（如 GraphQL、WebSockets、REST API）的优缺点，以及 HTTP/1 和 HTTP/2 之间的区别。
 
-**RADIO 框架**是一个首字母缩写词，代表了进行系统设计面试的各个步骤：
+**RADIO 框架**是一个首字母缩写词，代表了*进行系统设计面试的各个步骤：*
 
 1. **R**equirements (需求)
 2. High Level **A**rchitecture (高层架构)
@@ -26,28 +26,28 @@
 4. **I**mplementation / **A**PI Model (API 模型)
 5. **O**ptimizations and Performance (优化与性能)
 
-### II. R - Requirements (需求) (占面试时间的 10%)
+### 2. R - Requirements (需求) (占面试时间的 10%)
 
-这一步是询问功能性 (functional) 和非功能性 (non-functional) 需求，以了解需要构建平台的核心功能。
+这一步是询问`功能性 (functional)` 和`非功能性 (non-functional) 需求`，以**了解需要构建平台的核心功能**。
 
-- **功能性需求 (Functional)**：关注产品核心特性。例如，设计 Facebook 新闻推送时，核心功能可能包括：显示包含评论的列表、仅关注用户帖子类型（文本/图像）、以及支持无限滚动加载更多内容。
-- **非功能性需求 (Non-functional)**：
-    - **用户定位**: 针对移动端、网页端还是两者兼有。
-    - **离线支持**: 是否需要在离线状态下持久化数据（通常是加分项，但非必需）。
+- `功能性需求 (Functional)`：关注**产品核心功能、特性**。*例如*，设计 Facebook 新闻推送时，核心功能可能包括：显示包含评论的列表、仅关注用户帖子类型（文本/图像）、以及支持无限滚动加载更多内容。
+- `非功能性需求 (Non-functional)`：
+    - **用户定位**: 针对*移动端、网页端*还是两者兼有。
+    - **离线支持**: *是否需要在离线状态下持久化数据*（通常是加分项，但非必需）。
     - **可访问性 (Accessibility)**：大多数应用都应友好，但某些应用可能需要更高对比度或特定支持。
     - **国际化 (Internationalization)**：确保全球用户界面的字符串翻译符合预期。
     - **性能**: 确保良好的延迟表现。
     - **草稿计算 (Napkin Math)**：估算预期的用户量（例如每周 5 万用户），这对于后续的可观测性 (observability) 估算和日志成本控制非常有用。
 
-### III. A - High Level Architecture (高层架构) (占面试时间的 10%-15%)
+### 3. A - High Level Architecture (高层架构) (占面试时间的 10%-15%)
 
-在此阶段，需要设计所有构建组件和子组件的整体架构。
+在此阶段，需要*设计所有构建组件和子组件的整体架构*。
 
-- **UI 设计**: 从简单的用户界面草图开始，帮助理解组件设计。
-- **组件架构**: 描述数据流，例如：黑盒服务器 (Blackbox server) 与客户端 (Client) 通信。客户端通过 API 获取 JSON 数据，数据发送给**控制器 (Controller)**进行操作和解析，然后存储到**数据模型存储 (Data Model Store)**，最终更新**视图应用层 (View application layer)**进行渲染。
-- **设计模式**: 需要讨论并选择一个设计模式，例如 **MVC (Model-View-Controller)** 模式。选择 MVC 的理由是它能清晰地分离职责：控制器处理所有业务逻辑，模型存储数据，视图负责渲染。
+- **UI 设计**: 从简单的用户界面草图开始，*帮助理解组件设计*。
+- **组件架构**: 描述数据流，例如：黑盒服务器 (Blackbox server) 与客户端 (Client) 通信。客户端通过 API 获取 JSON 数据，数据发送给 **控制器 (Controller)** 进行操作和解析，然后存储到**数据模型存储 (Data Model Store)**，最终更新**视图应用层 (View application layer)** 进行渲染。
+- **设计模式**: 需要讨论并选择一个设计模式，例如 **MVC (Model-View-Controller)** 模式。选择 MVC 的理由是它能*清晰地分离职责：* 控制器处理所有业务逻辑，模型存储数据，视图负责渲染。
 
-### IV. D - Data Model (数据模型) (占面试时间的 15%-20%)
+### 4. D - Data Model (数据模型) (占面试时间的 15%-20%)
 
 这部分主要构建客户端驱动的数据类型，这些类型将被用于渲染用户界面。
 
@@ -55,7 +55,7 @@
 - **Feed Item 结构**: Feed 本身包含 `items` 列表、以及用于分页的 `page` 和 `size`。
 - **Rich Text 支持**: 建议使用 `style text` 类型，而不是常规静态字符串。这使得数据成为**服务器驱动 UI (Server Driven UI)**，允许内容（如标题、正文）包含富文本、@提及或链接，客户端能够智能地解析并渲染。
 
-### V. I - API Model (API 模型与 HTTP 协议)
+### 5. I - API Model (API 模型与 HTTP 协议)
 
 在选择 API 协议之前，首先讨论 HTTP 版本差异。
 
@@ -86,7 +86,7 @@
     - **优点**: 高效，遵循 HTTP/2 协议，易于负载均衡。
     - **缺点**: **单向通信**（只能从服务器到客户端），数据类型有限（主要返回纯文本）。
 
-### VI. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)
+### 6. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)
 
 这一部分应该花费面试中的大部分时间。它涵盖了网络性能、渲染性能、安全性和可访问性。
 
@@ -154,12 +154,12 @@
 
 ## 需求分析（Requirements）
 [04:38]
-建议用10%时间讨论功能需求与非功能需求。以设计Facebook新闻动态为例，功能需求可聚焦展示动态项列表（含评论，仅关注用户文本和图片动态）、支持无限滚动，还可提及动态创建器（作为可选功能）；非功能需求需明确目标用户设备（移动、网页或两者）、是否需离线工作（示例中为可选）、是否需无障碍支持（多数应用需，特定人群可能需更高对比度）、是否支持国际化（全球用户需文本翻译）、性能要求（低延迟）、预估用户量（如周活5万用户，据此估算月活、年活，助力可观测性设计，避免日志过多导致平台过载和成本过高）。
+建议用10%时间讨论功能需求与非功能需求。以设计Facebook新闻动态为例，`功能需求`可聚焦展示动态项列表（含评论，仅关注用户文本和图片动态）、支持无限滚动，还可提及动态创建器（作为可选功能）；`非功能需求`需明确*目标用户设备*（移动、网页或两者）、*是否需离线工作*（示例中为可选）、*是否需无障碍支持*（多数应用需，特定人群可能需更高对比度）、*是否支持国际化*（全球用户需文本翻译）、*性能要求*（低延迟）、*预估用户量*（如周活5万用户，据此估算月活、年活，助力可观测性设计，避免日志过多导致平台过载和成本过高）。
 
 
 ## 高层架构（High-Level Architecture）
 [08:52]
-建议用10%-15%时间设计，先简单设计最终产品UI（如Facebook新闻动态的头部、动态创建器、多个动态项，每个动态项含头像、名称、文本等），再设计组件架构。以示例架构为例，客户端入口文件index.js与API交互获取JSON数据，将数据传给控制器处理（解析、操作等）后存入数据模型存储，存储再将数据发送到视图应用层（含动态容器、动态创建器、动态项等，视图层可含子组件），子组件可与控制器交互，控制器与API通信更新数据模型，API返回数据后经控制器存入存储并更新客户端，还可采用MVC设计模式（模型存数据、视图负责渲染、控制器处理业务和交互逻辑，便于代码组织和职责分离），同时需说明数据流向和交互方式。
+建议用10%-15%时间设计，*先简单设计最终产品UI*（如Facebook新闻动态的头部、动态创建器、多个动态项，每个动态项含头像、名称、文本等），*再设计组件架构*。以示例架构为例，客户端入口文件index.js与API交互获取JSON数据，将数据传给控制器处理（解析、操作等）后存入数据模型存储，存储再将数据发送到视图应用层（含动态容器、动态创建器、动态项等，视图层可含子组件），子组件可与控制器交互，控制器与API通信更新数据模型，API返回数据后经控制器存入存储并更新客户端，还可采用MVC设计模式（模型存数据、视图负责渲染、控制器处理业务和交互逻辑，便于代码组织和职责分离），同时需说明数据流向和交互方式。
 
 
 ## 数据模型（Data Flow Model）
@@ -354,7 +354,7 @@ Interviewers typically grade frontend system design interviews across five main 
 <table><colgroup><col> <col> <col></colgroup><tbody><tr><th colspan="1" rowspan="1">Category <font><font><font>类别</font></font></font></th><th colspan="1" rowspan="1">Description <font><font><font>描述</font></font></font></th><th colspan="1" rowspan="1">Example <font><font><font>例如</font></font></font></th></tr><tr><td colspan="1" rowspan="1"><strong>Scope &amp; Requirements <font><font><font>范围和要求</font></font></font></strong></td><td colspan="1" rowspan="1">Did you clearly understand and clarify the problem?<font><br><font><font>你是否清楚地理解并澄清了问题？</font></font></font></td><td colspan="1" rowspan="1">Asked clarifying questions about the user base and platforms<font><br><font><font>要求澄清有关用户群和平台的问题</font></font></font></td></tr><tr><td colspan="1" rowspan="1"><strong>Architecture &amp; State Management<font><br><font><font>架构和状态管理</font></font></font></strong></td><td colspan="1" rowspan="1">Did you choose an appropriate architecture?<font><br><font><font>您是否选择了合适的架构？</font></font></font></td><td colspan="1" rowspan="1">Explained clearly why you chose React Context vs. Redux<font><br><font><font>清楚地解释了为什么选择 React Context vs. Redux</font></font></font></td></tr><tr><td colspan="1" rowspan="1"><strong>Data Handling &amp; API Design<font><br><font><font>数据处理和 API 设计</font></font></font></strong></td><td colspan="1" rowspan="1">How well did you plan your data flow and API interactions?<font><br><font><font>您对数据流和 API 交互的规划如何？</font></font></font></td><td colspan="1" rowspan="1">Clearly outlined caching strategies and API data structures<font><br><font><font>清楚地概述了缓存策略和 API 数据结构</font></font></font></td></tr><tr><td colspan="1" rowspan="1"><strong>Performance &amp; Optimization<font><br><font><font>性能和优化</font></font></font></strong></td><td colspan="1" rowspan="1">Did you address performance, accessibility, and production readiness?<font><br><font><font>您是否解决了性能、可访问性和生产就绪性问题？</font></font></font></td><td colspan="1" rowspan="1">Mentioned lazy loading, Core Web Vitals, and accessibility<font><br><font><font>提到了延迟加载、核心 Web Vitals 和可访问性</font></font></font></td></tr><tr><td colspan="1" rowspan="1"><strong>Communication &amp; Trade-offs<font><br><font><font>沟通与权衡</font></font></font></strong></td><td colspan="1" rowspan="1">Could you clearly explain your reasoning and handle trade-offs effectively?<font><br><font><font>你能清楚地解释你的推理并有效地处理权衡吗？</font></font></font></td><td colspan="1" rowspan="1">Clearly stated why SSR was chosen for SEO despite the complexity.<font><br><font><font>清楚地说明了为什么选择 SSR 进行 SEO，尽管它很复杂。</font></font></font></td></tr></tbody></table>
 
 Your goal isn’t just to come up with the “right” answer but to demonstrate your thought process and rationale behind each choice. Interviewers will look for key points in your responses, such as clarity, structure, and decision-making.  
-你的目标不仅仅是想出“正确”的答案，而是展示你的思维过程和每个选择背后的理由。面试官会在你的回答中寻找关键点，比如清晰度、结构和决策。
+`你的目标`**不仅仅是想出“正确”的答案，而是展示你的思维过程和每个选择背后的理由**。面试官会在你的回答中寻找关键点，比如清晰度、结构和决策。
 
 ---
 
@@ -366,16 +366,16 @@ How to Approach the Interview Strategically
 Always start by clarifying:  
 总是从澄清开始：
 
-- User requirements 用户需求
-- Platforms and devices 平台和设备
+- User requirements *用户需求*
+- Platforms and devices *平台和设备*
 - Need for offline support  
-	需要离线支持
-- Real-time requirements 实时性要求
+	*需要离线支持*
+- Real-time requirements *实时性要求*
 
 **Manage Your Time Wisely 明智地管理你的时间**
 
 Aim to split your interview time like this:  
-你可以这样分配面试时间：
+*你可以这样分配面试时间：*
 
 - **20%** Clarifying requirements  
 	**20%** 明确要求
@@ -389,13 +389,13 @@ Aim to split your interview time like this:
 **Communicate Trade-Offs 沟通权衡**
 
 Interviewers expect clear reasoning behind your choices:  
-面试官希望你的选择背后有清晰的理由：
+*面试官希望你的选择背后有清晰的理由：*
 
 > “I chose React Query over Redux because it simplifies data fetching and reduces unnecessary re-renders. The trade-off is slightly less centralized state management, but it fits this app’s use case.”  
 > “我选择 React Query 而不是 Redux，因为它简化了数据获取并减少了不必要的重新渲染。权衡是稍微不那么集中的状态管理，但它适合这个应用程序的用例。
 
 When discussing high-level architecture, emphasize how developers utilize component-based and modular architectures to develop modular, reusable, and optimized software for complex applications. This approach ensures that the software can handle complex requirements efficiently and is easier to maintain and extend.  
-在讨论高层体系结构时，强调开发人员如何利用基于组件和模块化的体系结构来为复杂的应用程序开发模块化、可重用和优化的软件。这种方法确保软件可以有效地处理复杂的需求，并且更容易维护和扩展。
+*在讨论高层体系结构时*，强调开发人员如何利用基于组件和模块化的体系结构来为复杂的应用程序开发模块化、可重用和优化的软件。这种方法确保软件可以有效地处理复杂的需求，并且更容易维护和扩展。
 
 ---
 
@@ -403,7 +403,7 @@ When discussing high-level architecture, emphasize how developers utilize compon
 Introducing the RADIO Framework
 
 RADIO provides a clear, straightforward way to handle front-end system design interviews. Yangshun Tay is credited with making it popular. It covers Requirements, Architecture, Dataflow, Interface, and Optimizations. This isn’t about memorizing steps or processes. Instead, RADIO helps you organize your thoughts, break down complex problems, and communicate your solutions.  
-RADIO 提供了一种清晰、直接的方式来处理前端系统设计面试。Yangshun Tay 被认为是使它受欢迎的原因。它涵盖了需求、架构、数据流、接口和优化。这不是关于记住步骤或过程。相反，RADIO可以帮助你组织你的想法，分解复杂的问题，并传达你的解决方案。
+`RADIO` **提供了一种清晰、直接的方式来处理**前端系统设计面试。Yangshun Tay 被认为是使它受欢迎的原因。它涵盖了**需求、架构、数据流、接口和优化**。这不是关于记住步骤或过程。相反，RADIO可以**帮助你组织你的想法，分解复杂的问题，并传达你的解决方案**。
 
 <table><colgroup><col> <col> <col></colgroup><tbody><tr><th colspan="1" rowspan="1">Letter <font><font><font>信</font></font></font></th><th colspan="1" rowspan="1">Meaning <font><font><font>意义</font></font></font></th><th colspan="1" rowspan="1">What it Covers <font><font><font>它所涵盖的内容</font></font></font></th></tr><tr><td colspan="1" rowspan="1">R</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/defining-frontend-requirements-system-design">Requirements <font><font><font>要求</font></font></font></a></td><td colspan="1" rowspan="1">Clarify the scope and ask questions<font><br><font><font>明确范围并提出问题</font></font></font></td></tr><tr><td colspan="1" rowspan="1">A</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/mastering-frontend-architecture-design-insights">Architecture <font><font><font>架构</font></font></font></a></td><td colspan="1" rowspan="1">Component structure, state, and routing<font><br><font><font>组件结构、状态和路由</font></font></font></td></tr><tr><td colspan="1" rowspan="1">D</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/client-only-data-management-frontend-design">Dataflow <font><font><font>数据流</font></font></font></a></td><td colspan="1" rowspan="1">How data moves, storage, and caching, including unidirectional data flow, which simplifies application state management by enforcing a single direction of data flow<font><br><font><font>数据如何移动、存储和缓存，包括单向数据流，通过强制单向数据流简化应用程序状态管理</font></font></font></td></tr><tr><td colspan="1" rowspan="1">I</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/api-design-best-practices">Interface <font><font><font>接口</font></font></font></a></td><td colspan="1" rowspan="1">UX, interactions, edge cases<font><br><font><font>用户体验、交互、边缘案例</font></font></font></td></tr><tr><td colspan="1" rowspan="1">O</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/performace-frontend-system-design">Optimizations <font><font><font>优化</font></font></font></a></td><td colspan="1" rowspan="1">Performance, accessibility, and production-readiness<font><br><font><font>性能、可访问性和生产就绪性</font></font></font></td></tr></tbody></table>
 

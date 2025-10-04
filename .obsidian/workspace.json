@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/English/查询单词的提示词模版.md",
+                "file": "_posts/English/单词/pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "查询单词的提示词模版"
+              "title": "pattern"
             }
           },
           {
@@ -725,6 +725,7 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/English/单词/pattern.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/architect/System Design/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
@@ -751,7 +752,6 @@
     "_posts/AI/搞钱/方法.md",
     "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/architect/前端架构/前端架构师的职责-QW.md",
-    "_posts/AI/「动力飞轮」APP/灵感.md",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg",
