@@ -321,7 +321,7 @@ Next, let’s examine the frontend interview process and how it operates.
 
 ---
 
-## 前端面试流程解释
+## **前端面试流程解释**
 The Frontend Interview Process Explained
 ![](https://www.youtube.com/watch?v=MdUiBktSgVs)
 
@@ -333,7 +333,7 @@ Here is a high-level representation of the average frontend interview process:
 ![[_posts/architect/System Design/media/00002da5b852ea68d0211be0d0e2b5b6_MD5.png]]
 
 Let’s walk through the process using the exact flow most companies follow, from recruiter screen to final offer.  
-让我们使用大多数公司遵循的确切流程来完成这个过程，从招聘人员筛选到最终报价。
+让我们**使用大多数公司遵循的确切流程**来完成这个过程，从招聘人员筛选到最终报价。
 
 ### 1.招聘人员屏幕
 1\. Recruiter Screen 
@@ -342,17 +342,17 @@ This is your first point of contact. It’s not technical (for the most part, Me
 这是你的第一个接触点。这不是技术性的（在大多数情况下，Meta 招聘人员会测试前端的琐事问题）。
 
 The recruiter wants to confirm a few basics:  
-招聘人员想确认几个基本问题：
+**招聘人员想确认几个基本问题：**
 
 - Are you actively looking?  
 	你在积极寻找吗？
 - Do you meet the minimum role requirements?  
-	您是否符合最低角色要求？
+	*您是否符合最低角色要求？*
 - What’s your timeline and salary expectations?  
-	你的时间轴和薪水期望是多少？
+	*你的时间轴和薪水期望是多少？*
 
 This round is all about communication and clarity. Be honest, concise, and make it easy for them to move you to the next step.  
-这一轮是关于沟通和清晰度。要诚实，简洁，让他们很容易把你带到下一步。
+这一轮是关于沟通和清晰度。要*诚实，简洁*，让他们很容易把你带到下一步。
 
 ### 2.电话屏幕或带回家测试
 2\. Phone Screen or Take-Home Test
@@ -367,7 +367,7 @@ You’ll be given a minor feature or mini-app to build, usually with React, and 
 你会得到一个小功能或迷你应用程序来构建，通常使用 React，并要求在几天内完成。
 
 What they’re looking for:  
-他们在寻找什么：
+**他们在寻找什么：**
 
 - Code quality and structure  
 	代码质量和结构
@@ -386,12 +386,12 @@ Tip: Keep it scoped. Don’t overbuild. Write a short README and explain your th
 Option B: Technical Phone Screen (standard in big tech)
 
 This typically involves a 45- to 60-minute live coding round using a tool like CoderPad or HackerRank.  
-这通常需要使用 CoderPad 或 HackerRank 等工具进行 45 到 60 分钟的实时编码。
+**这通常需要使用 CoderPad 或 HackerRank 等工具进行 45 到 60 分钟的实时编码。**
 
 You’ll be asked a frontend-focused coding question, often with a light algorithmic twist.  
 你会被问到一个以前端为中心的编码问题，通常带有轻微的算法扭曲。
 
-Examples:示例如下：
+**Examples:示例如下：**
 
 - Implement debounce or throttle in JavaScript  
 	在 JavaScript 中实现去抖动或节流
@@ -401,14 +401,14 @@ Examples:示例如下：
 	使用映射、集合或递归解决问题
 
 What they’re looking for:  
-他们在寻找什么：
+**他们在寻找什么：**
 
 - Can you code fluently under pressure?  
-	你能在压力下流利地写代码吗？
+	你能*在压力下流利地写代码*吗？
 - Do you understand JS fundamentals?  
-	你了解 JS 的基本原理吗？
+	你了解 *JS 的基本原理*吗？
 - Can you explain your thought process clearly?  
-	你能清楚地解释你的思维过程吗？
+	你能*清楚地解释你的思维过程*吗？
 
 If you pass this, you will move on to the onsite round.  
 如果你通过了，你就可以进入现场环节了。
@@ -423,14 +423,14 @@ The onsite is where most of the objective evaluation happens. Depending on the c
 Round 1: Coding Interview
 
 You’ll solve one or two problems using JavaScript, usually frontend-relevant, but still testing your ability to break down logic, write clean code, and test edge cases.  
-您将使用 JavaScript 解决一个或两个问题，通常与前端相关，但仍然测试您分解逻辑、编写干净代码和测试边缘情况的能力。
+您将*使用 JavaScript 解决一个或两个问题*，通常与前端相关，但仍然测试您*分解逻辑、编写干净代码和测试边缘情况*的能力。
 
 Expect:预期：
 
 - DOM or UI logic problems  
 	DOM 或 UI 逻辑问题
 - Array or string-based algorithm challenges  
-	基于数组或字符串的算法挑战
+	基于数组或字符串的*算法挑战*
 - Utility functions or stateful logic  
 	实用函数或有状态逻辑
 - The top 90 coding round questions can be found [here](https://frontendlead.com/coding-questions)  
@@ -440,16 +440,16 @@ Expect:预期：
 Round 2: Frontend System Design
 
 Especially at senior levels, you’ll be asked to design a scalable frontend architecture.  
-特别是在高级级别，你会被要求设计一个可扩展的前端架构。
+**特别是在高级级别，你会被要求设计一个可扩展的前端架构。**
 
 Examples:示例如下：
 
 - Design a newsfeed for Facebook  
-	为 Facebook 设计新闻源
+	*为 Facebook 设计新闻源*
 - Architect a dashboard app with filters and pagination  
-	使用过滤器和分页构建仪表板应用程序
+	使用过滤器和分页*构建仪表板应用程序*
 - Handle optimistic UI updates and error states  
-	处理乐观 UI 更新和错误状态
+	*处理乐观 UI 更新和错误状态*
 - A comprehensive, free, and in-depth guide to preparing for frontend system design interviews is available [here](https://frontendlead.com/system-design).  
 	一个全面的，免费的，深入的指南，以准备前端系统设计面试可 [在这里](https://frontendlead.com/system-design) 。
 
@@ -457,61 +457,60 @@ They want to see:
 他们想看到：
 
 - Your ability to break down complex apps  
-	您分解复杂应用程序的能力
+	您*分解复杂应用程序*的能力
 - Tradeoffs you consider between frameworks, state management, and performance  
-	在框架、状态管理和性能之间进行权衡
+	*在框架、状态管理和性能之间进行权衡*
 - How do you think about modularity, testing, and scalability  
-	您如何看待模块化、测试和可伸缩性
+	*您如何看待模块化、测试和可伸缩性*
 
 #### 第3轮：应用程序设计或实时编码
 Round 3: App Design or Live Coding
 
 You may be asked to build a real UI component or app live.  
-您可能会被要求构建一个真实的 UI 组件或应用程序。
+您可能会*被要求构建一个真实的 UI 组件或应用程序*。
 
 This round evaluates:本轮评估：
 
-- Component design 组件设计
+- *Component design 组件设计*
 - React or vanilla JS fluency  
 	React 或 vanilla JS 流畅度
 - Layout, styling, and rendering logic  
 	布局、样式和呈现逻辑
 - Clear thinking under time pressure  
-	在时间压力下清晰思考
+	*在时间压力下清晰思考*
 - Live coding round questions can be found [here.](https://frontendlead.com/coding-questions?type=react&type=vanilla)  
 	现场编码回合问题可以在这里找到 [。](https://frontendlead.com/coding-questions?type=react&type=vanilla)
 
 Keep things structured and talk out loud. Interviewers care as much about your thought process as the final result.  
-保持结构化，大声说话。面试官关心你的思考过程和最终结果一样多。
+**保持结构化，大声说话。面试官关心你的思考过程和最终结果一样多。**
 
 #### 第四轮：行为或招聘经理轮
 Round 4: Behavioral or Hiring Manager Round
 
 This round is often underrated but extremely important. It’s where they assess whether you’re a strong communicator, teammate, and a good cultural fit.  
-这一轮往往被低估，但极其重要。这是他们评估你是否是一个强大的沟通者，团队合作者，以及良好的文化适应。
+**这一轮往往被低估，但极其重要**。这是他们**评估你是否是一个强大的沟通者，团队合作者，以及良好的文化适应**。
 
 Expect:预期：
 
 - “Tell me about a time you…” questions  
 	“告诉我一次你...”问题
 - Questions about your resume or recent projects  
-	关于你的简历或最近的项目的问题
+	*关于你的简历或最近的项目的问题*
 - Team conflict, ownership, or leadership examples  
-	团队冲突、所有权或领导力示例
+	*团队冲突、所有权或领导力*示例
 - Behavioral questions can be found [here](https://frontendlead.com/behavioral-questions).  
 	行为问题可以在 [这里](https://frontendlead.com/behavioral-questions) 找到。
 
-Use the STAR format:  
+**Use the STAR format:**  
 使用星星格式：
-
 Situation, Task, Action, Result. Keep it clear and structured.  
-情境、任务、行动、结果。保持清晰和结构化。
+**情境、任务、行动、结果。保持清晰和结构化。**
 
 #### 可选第5轮：第二轮编码
 Optional Round 5: Second Coding Round
 
 Some on-site interviews include a [second technical round](https://frontendlead.com/handbook/javascript-interview-questions), either focusing on a different type of problem or delving deeper into your strengths or areas for improvement from the earlier round.  
-一些现场面试包括 [第二轮技术面试](https://frontendlead.com/handbook/javascript-interview-questions) ，要么关注不同类型的问题，要么深入研究你的优势或上一轮需要改进的地方。
+一些现场面试包括 [第二轮技术面试](https://frontendlead.com/handbook/javascript-interview-questions) ，要么关注不同类型的问题，*要么深入研究你的优势或上一轮需要改进的地方*。
 
 ### 4\. Offer Stage
  4.提供阶段

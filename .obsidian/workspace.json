@@ -296,30 +296,6 @@
             }
           },
           {
-            "id": "89040fa133085550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/System Design/_Frontend Interview Handbook.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_Frontend Interview Handbook"
-            }
-          },
-          {
             "id": "97262081d19a6189",
             "type": "leaf",
             "state": {
@@ -512,6 +488,30 @@
             }
           },
           {
+            "id": "89040fa133085550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/_Frontend Interview Handbook.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_Frontend Interview Handbook"
+            }
+          },
+          {
             "id": "6c475467fa710099",
             "type": "leaf",
             "state": {
@@ -536,7 +536,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -697,7 +697,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -723,9 +723,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
     "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+    "_posts/architect/System Design/_Frontend Interview Handbook.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/architect/网站架构/宏观.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-04.md",
@@ -750,7 +751,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg",
