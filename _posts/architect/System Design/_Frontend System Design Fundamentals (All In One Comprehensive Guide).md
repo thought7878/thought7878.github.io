@@ -39,7 +39,7 @@
     - **性能**: 确保良好的延迟表现。
     - **草稿计算 (Napkin Math)**：估算预期的用户量（例如每周 5 万用户），这对于后续的可观测性 (observability) 估算和日志成本控制非常有用。
 
-### **III. A - High Level Architecture (高层架构) (占面试时间的 10%-15%)**
+### III. A - High Level Architecture (高层架构) (占面试时间的 10%-15%)
 
 在此阶段，需要设计所有构建组件和子组件的整体架构。
 
@@ -47,7 +47,7 @@
 - **组件架构**: 描述数据流，例如：黑盒服务器 (Blackbox server) 与客户端 (Client) 通信。客户端通过 API 获取 JSON 数据，数据发送给**控制器 (Controller)**进行操作和解析，然后存储到**数据模型存储 (Data Model Store)**，最终更新**视图应用层 (View application layer)**进行渲染。
 - **设计模式**: 需要讨论并选择一个设计模式，例如 **MVC (Model-View-Controller)** 模式。选择 MVC 的理由是它能清晰地分离职责：控制器处理所有业务逻辑，模型存储数据，视图负责渲染。
 
-### **IV. D - Data Model (数据模型) (占面试时间的 15%-20%)**
+### IV. D - Data Model (数据模型) (占面试时间的 15%-20%)
 
 这部分主要构建客户端驱动的数据类型，这些类型将被用于渲染用户界面。
 
@@ -55,11 +55,11 @@
 - **Feed Item 结构**: Feed 本身包含 `items` 列表、以及用于分页的 `page` 和 `size`。
 - **Rich Text 支持**: 建议使用 `style text` 类型，而不是常规静态字符串。这使得数据成为**服务器驱动 UI (Server Driven UI)**，允许内容（如标题、正文）包含富文本、@提及或链接，客户端能够智能地解析并渲染。
 
-### **V. I - API Model (API 模型与 HTTP 协议)**
+### V. I - API Model (API 模型与 HTTP 协议)
 
 在选择 API 协议之前，首先讨论 HTTP 版本差异。
 
-#### **HTTP/1 与 HTTP/2 的区别**
+#### HTTP/1 与 HTTP/2 的区别
 
 |特性|HTTP/1|HTTP/2|
 |:--|:--|:--|
@@ -69,7 +69,7 @@
 |**连接管理**|需要明确关闭连接|N/A|
 |**压缩**|压缩效果一般|使用 **Hpack 算法**，压缩效果更好，连接更快|
 
-#### **API 协议的权衡**
+#### API 协议的权衡
 
 需要讨论多种 API 选项，并选择一个继续推进设计（例如，GraphQL 在该案例中被认为是好的解决方案）。
 
@@ -86,11 +86,11 @@
     - **优点**: 高效，遵循 HTTP/2 协议，易于负载均衡。
     - **缺点**: **单向通信**（只能从服务器到客户端），数据类型有限（主要返回纯文本）。
 
-### **VI. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)**
+### VI. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)
 
 这一部分应该花费面试中的大部分时间。它涵盖了网络性能、渲染性能、安全性和可访问性。
 
-#### **1. 网络性能 (Network Performance)**
+#### 1. 网络性能 (Network Performance)
 
 - **协议选择**: 尽可能使用 HTTP/2（除非是实时聊天应用，可能需要混合使用 WebSockets）。
 - **压缩**: 使用现代压缩算法如 **Brotli**（优于 Gzip）来压缩头部，加快数据传输。
@@ -102,7 +102,7 @@
 - **代码分割 (Bundle Splitting)**：使用 Webpack 等工具实现**懒加载 (lazy load)**，将代码分割成多个包（如 App Bundle 和 Vendor Bundle），按需加载。
 - **通用压缩**: 压缩所有 HTML、CSS 和 JavaScript。
 
-#### **2. 渲染性能 (Rendering Performance)**
+#### 2. 渲染性能 (Rendering Performance)
 
 - **避免竞态条件 (Race Conditions)**：确保 API 返回的数据顺序与请求的顺序一致。
 - **应用缓存**: 使用智能缓存策略（LocalStorage, SessionStorage, Cookie Storage）。
@@ -119,7 +119,7 @@
     - **防抖 (Debounce)**：例如在搜索输入时，在特定时间间隔发送请求。
     - **节流 (Throttle)**：例如在调整窗口大小时，在特定间隔触发昂贵的函数。
 
-#### **3. 可访问性 (Accessibility)**
+#### 3. 可访问性 (Accessibility)
 
 - **字体大小**: 使用 **REM 字体大小**，以便浏览器字体设置更改时自动调整。
 - **兼容性测试**: 进行跨设备兼容性测试。
@@ -128,7 +128,7 @@
 - **语义化标签**: 使用 HTML5 语义化标签。
 - **ARIA Roles**: **支持不同的 ARIA 角色**，这被认为是提升可访问性最重要的一点。
 
-#### **4. 安全性 (Security)**
+#### 4. 安全性 (Security)
 
 - **CORS (Cross-Origin Resource Sharing)**：设置策略，限制来自其他域名的资源访问，防止其他网站访问你的内容。
 - **速率限制**: 用于防止 **DDOS 攻击**。
@@ -136,7 +136,6 @@
 
 ---
 
-_(请注意，该视频的作者还推广了他的平台 `frontendlead.com`，该平台提供了系统设计课程和超过 100 个带有解决方案的问题，并提供 10% 的年度计划折扣)。_
 
 # 豆包总结
 
@@ -251,15 +250,16 @@ Welcome to the **Frontend System Design Handbook**.
 欢迎阅读 **前端系统设计手册** 。
 
 This frontend system design playbook explains exactly what a frontend system design interview is, why companies use them, and how to ace yours.  
-这本前端系统设计剧本解释了什么是前端系统设计面试，为什么公司使用它们，以及如何获得你的。
+这本前端系统设计剧本解释了*什么是前端系统设计面试，为什么公司使用它们，以及如何获得你的*。
 
 You’ll learn how frontend interviews differ from backend interviews, what interviewers care about, how you’ll be graded, and a simple framework (**RADIO**) to structure your responses.  
-您将了解前端面试与后端面试的不同之处，面试官关心什么，如何评分，以及一个简单的框架（ **Radio** ）来构建您的回答。
+您将了解*前端面试与后端面试的不同之处，面试官关心什么，如何评分，以及一个简单的框架（ **Radio** ）来构建您的回答*。
 
 This **Frontend System Design Handbook** provides a concise overview of the topics we’ll cover in this series, including real-world interview questions and key frontend concepts. The handbook will cover both fundamental and advanced topics in frontend system design.  
-这本 **前端系统设计手册** 提供了我们将在本系列中涵盖的主题的简要概述，包括真实世界的面试问题和关键的前端概念。该手册将涵盖前端系统设计中的基础和高级主题。
+这本 **前端系统设计手册** 提供了我们*将在本系列中涵盖的主题的简要概述*，包括*真实世界的面试问题*和关键的前端概念。该手册将涵盖*前端系统设计中的基础和高级主题*。
 
-## What to Expect 该期待什么
+## 目录
+What to Expect 该期待什么
 
 In this first article, we’ll cover:  
 在第一篇文章中，我们将介绍：
@@ -275,10 +275,10 @@ In this first article, we’ll cover:
 - How to Approach the Interview Strategically  
 	如何战略性地进行面试
 - Introducing the RADIO Framework  
-	介绍无线电框架
+	介绍RADIO框架
 - Topics Covered in This Series  
 	本系列涵盖的主题
-	- Core Framework (RADIO) 核心框架（无线电）
+	- Core Framework (RADIO) 核心框架（RADIO）
 	- Real-World Design Questions  
 		现实世界的设计问题
 	- Frontend Fundamentals & Deep Dives  
@@ -290,30 +290,32 @@ In this first article, we’ll cover:
 
 ---
 
-## What Is a Frontend System Design Interview?什么是前端系统设计面试？
+## 什么是前端系统设计面试？
+What Is a Frontend System Design Interview?
 
 Frontend system design interviews test your ability to architect large, scalable UI systems, not just individual components, but entire frontend architectures.  
-前端系统设计面试测试您构建大型可扩展 UI 系统的能力，不仅仅是单个组件，而是整个前端架构。
+`前端系统设计面试`测试您*构建大型可扩展 UI 系统的能力，不仅仅是单个组件，而是整个前端架构*。
 
 Based on your architectural decisions, companies use these interviews to see whether you’re at a junior, mid-level, or senior level.  
-根据您的架构决策，公司使用这些面试来确定您是否处于初级、中级或高级级别。
+根据您的架构决策，*公司使用这些面试来**确定您是否处于初级、中级或高级级别***。
 
 Interviewers want to see if you can design frontends that scale across:  
-面试官想看看你是否能设计出跨平台的前端：
+面试官想看看你*是否能设计出跨平台的前端：*
 
 - User 用户
 - Teams 团队
 - Feature complexity 特征复杂度
 
 Instead of just building buttons or styling pages, you’ll discuss state management, data flow, routing, performance, and UX at scale. Effective application state management is crucial in handling data flow and state within complex, component-based applications, often utilizing architectural patterns and libraries like Flux and Redux.  
-您将讨论状态管理、数据流、路由、性能和大规模用户体验，而不仅仅是构建按钮或样式化页面。有效的应用程序状态管理对于处理复杂的基于组件的应用程序中的数据流和状态至关重要，通常使用 Flux 和 Redux 等架构模式和库。
+您将讨论**状态管理、数据流、路由、性能和大规模用户体验**，而不仅仅是构建按钮或样式化页面。有效的应用程序状态管理对于处理复杂的基于组件的应用程序中的数据流和状态至关重要，通常使用 Flux 和 Redux 等架构模式和库。
 
 ---
 
-## Frontend vs Backend System Design Interviews前端与后端系统设计访谈
+## 前端与后端系统设计面试
+Frontend vs Backend System Design Interviews
 
 If you’ve done system design interviews before, they probably focused on [backend](https://frontendlead.com/system-design/general-system-design-funamentals) systems: databases, distributed architecture, and API design. Frontend interviews have similarities, but their emphasis is different.  
-如果你以前做过系统设计面试，他们可能会关注 [后端](https://frontendlead.com/system-design/general-system-design-funamentals) 系统：数据库、分布式架构和 API 设计。前端访谈有相似之处，但侧重点不同。
+如果你以前做过系统设计面试，他们可能会关注 [后端](https://frontendlead.com/system-design/general-system-design-funamentals) 系统：数据库、分布式架构和 API 设计。*前端面试有相似之处，但侧重点不同*。
 
 Here’s a comparison:以下是比较：
 
@@ -321,28 +323,30 @@ Here’s a comparison:以下是比较：
 
 ---
 
-## What Interviewers Look For面试官寻找什么
+## 面试官寻找什么
+What Interviewers Look For
 
 Interviewers want clarity, structure, and transparent decision-making. They’re grading you on:  
-面试官想要清晰，结构和透明的决策。他们在给你打分：
+面试官想要清晰，结构和透明的决策。**他们在给你打分：**
 
 - How do you clarify the scope and requirements  
-	如何明确范围和要求
+	*如何明确范围和需求*
 - Choices in state management and architecture, including how components or micro frontends are responsible for specific features or aspects of an application  
-	状态管理和体系结构的选择，包括组件或微前端如何负责应用程序的特定功能或方面
+	*状态管理和体系结构的选择*，包括组件或微前端如何负责应用程序的特定功能或方面
 - How you handle performance, UX, and scalability trade-offs  
-	如何处理性能、UX 和可扩展性的权衡
+	*如何处理性能、UX 和可扩展性的权衡*
 - Your understanding of modern frontend concepts (SSR vs CSR, caching strategies, etc.)  
-	您对现代前端概念的理解（SSR 与 CSR，缓存策略等）
+	*您对现代前端概念的理解*（SSR 与 CSR，缓存策略等）
 
 The difference between junior and senior answers:  
-初级和高级答案的区别：
+**初级和高级答案的区别：**
 
 <table><colgroup><col> <col></colgroup><tbody><tr><th colspan="1" rowspan="1">Junior Answers <font><font><font>初级答案</font></font></font></th><th colspan="1" rowspan="1">Senior Answers <font><font><font>高级答案</font></font></font></th></tr><tr><td colspan="1" rowspan="1">Only mention familiar tech<font><br><font><font>只提到熟悉的技术</font></font></font></td><td colspan="1" rowspan="1">Discuss trade-offs between tech choices<font><br><font><font>讨论技术选择之间的权衡</font></font></font></td></tr><tr><td colspan="1" rowspan="1">Focus solely on UI details<font><br><font><font>专注于 UI 细节</font></font></font></td><td colspan="1" rowspan="1">Address architecture, scalability, and maintainability<font><br><font><font>解决架构、可扩展性和可维护性问题</font></font></font></td></tr><tr><td colspan="1" rowspan="1">Skip clarifying questions<font><br><font><font>跳过澄清问题</font></font></font></td><td colspan="1" rowspan="1">Clarify requirements, scope, and edge cases early<font><br><font><font>尽早阐明需求、范围和边缘案例</font></font></font></td></tr></tbody></table>
 
 ---
 
-## How You’ll Be Graded你将如何被评分
+## 你将如何被评分
+How You’ll Be Graded
 
 Interviewers typically grade frontend system design interviews across five main categories:  
 面试官通常将前端系统设计面试分为五个主要类别：
@@ -354,7 +358,8 @@ Your goal isn’t just to come up with the “right” answer but to demonstrate
 
 ---
 
-## How to Approach the Interview Strategically如何战略性地进行面试
+## 如何战略性地进行面试
+How to Approach the Interview Strategically
 
 **Clarify the Scope First 首先明确范围**
 
@@ -394,10 +399,11 @@ When discussing high-level architecture, emphasize how developers utilize compon
 
 ---
 
-## Introducing the RADIO Framework介绍无线电框架
+## 介绍RADIO框架
+Introducing the RADIO Framework
 
 RADIO provides a clear, straightforward way to handle front-end system design interviews. Yangshun Tay is credited with making it popular. It covers Requirements, Architecture, Dataflow, Interface, and Optimizations. This isn’t about memorizing steps or processes. Instead, RADIO helps you organize your thoughts, break down complex problems, and communicate your solutions.  
-RADIO 提供了一种清晰、直接的方式来处理前端系统设计面试。Yangshun Tay 被认为是使它受欢迎的原因。它涵盖了需求、架构、数据流、接口和优化。这不是关于记住步骤或过程。相反，无线电可以帮助你组织你的想法，分解复杂的问题，并传达你的解决方案。
+RADIO 提供了一种清晰、直接的方式来处理前端系统设计面试。Yangshun Tay 被认为是使它受欢迎的原因。它涵盖了需求、架构、数据流、接口和优化。这不是关于记住步骤或过程。相反，RADIO可以帮助你组织你的想法，分解复杂的问题，并传达你的解决方案。
 
 <table><colgroup><col> <col> <col></colgroup><tbody><tr><th colspan="1" rowspan="1">Letter <font><font><font>信</font></font></font></th><th colspan="1" rowspan="1">Meaning <font><font><font>意义</font></font></font></th><th colspan="1" rowspan="1">What it Covers <font><font><font>它所涵盖的内容</font></font></font></th></tr><tr><td colspan="1" rowspan="1">R</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/defining-frontend-requirements-system-design">Requirements <font><font><font>要求</font></font></font></a></td><td colspan="1" rowspan="1">Clarify the scope and ask questions<font><br><font><font>明确范围并提出问题</font></font></font></td></tr><tr><td colspan="1" rowspan="1">A</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/mastering-frontend-architecture-design-insights">Architecture <font><font><font>架构</font></font></font></a></td><td colspan="1" rowspan="1">Component structure, state, and routing<font><br><font><font>组件结构、状态和路由</font></font></font></td></tr><tr><td colspan="1" rowspan="1">D</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/client-only-data-management-frontend-design">Dataflow <font><font><font>数据流</font></font></font></a></td><td colspan="1" rowspan="1">How data moves, storage, and caching, including unidirectional data flow, which simplifies application state management by enforcing a single direction of data flow<font><br><font><font>数据如何移动、存储和缓存，包括单向数据流，通过强制单向数据流简化应用程序状态管理</font></font></font></td></tr><tr><td colspan="1" rowspan="1">I</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/api-design-best-practices">Interface <font><font><font>接口</font></font></font></a></td><td colspan="1" rowspan="1">UX, interactions, edge cases<font><br><font><font>用户体验、交互、边缘案例</font></font></font></td></tr><tr><td colspan="1" rowspan="1">O</td><td colspan="1" rowspan="1"><a href="https://frontendlead.com/system-design/performace-frontend-system-design">Optimizations <font><font><font>优化</font></font></font></a></td><td colspan="1" rowspan="1">Performance, accessibility, and production-readiness<font><br><font><font>性能、可访问性和生产就绪性</font></font></font></td></tr></tbody></table>
 
@@ -406,7 +412,8 @@ It’s a practical roadmap, not a strict rulebook, to keep your response clear a
 
 ---
 
-## Frontend System Design Handbook Topics前端系统设计手册主题
+## 前端系统设计手册主题
+Frontend System Design Handbook Topics
 
 Here’s what’s coming up in this series:  
 以下是本系列的内容：
@@ -416,7 +423,8 @@ Understanding how large systems are built can benefit early engineers as part of
 
 ---
 
-### Core Framework (RADIO) In Depth核心框架（无线电）深入
+### 核心框架（RADIO）深入
+Core Framework (RADIO) In Depth
 
 - [Requirements](https://frontendlead.com/system-design/defining-frontend-requirements-system-design) gathering and scope definition  
 	[需求](https://frontendlead.com/system-design/defining-frontend-requirements-system-design) 收集和范围定义
@@ -433,7 +441,8 @@ Understanding how large systems are built can benefit early engineers as part of
 
 ---
 
-### Real-World Design Questions现实世界的设计问题
+### 现实世界的设计问题
+Real-World Design Questions
 
 After covering the fundamentals, we’ll walk through realistic frontend design scenarios you might see in actual interviews. These include building a Facebook-style newsfeed, real-time chat apps, rich text editors, Pinterest-like layouts, Google Calendar, and Jira-style boards. Practicing these real-world examples will give you confidence in tackling your interviews.  
 在介绍了基础知识之后，我们将介绍您可能在实际采访中看到的真实前端设计场景。这些包括构建 Facebook 风格的新闻源，实时聊天应用程序，富文本编辑器，类似 Pinterest 的布局，Google 日历和 Jira 风格的董事会。实践这些真实世界的例子会给你信心，在处理你的面试。
@@ -442,7 +451,8 @@ After covering the fundamentals, we’ll walk through realistic frontend design 
 
 ---
 
-### Frontend Fundamentals & Deep Dives前端基础知识和深度潜水
+### 前端基础知识和深度潜水
+Frontend Fundamentals & Deep Dives
 
 This section goes deeper into specific frontend topics you’ll need to know well. We’ll discuss server-side vs client-side rendering, browser security issues like XSS and CORS, caching with IndexedDB and Apollo, optimizing images, Core Web Vitals, accessibility best practices, network request patterns, web protocols, and data normalization. These deep dives will help solidify your understanding so you can apply these concepts in your interviews.  
 本节将深入介绍您需要了解的特定前端主题。我们将讨论服务器端与客户端渲染，浏览器安全问题，如 XSS 和 CORS，使用 IndexedDB 和 Apollo 进行缓存，优化图像，Core Web Vitals，可访问性最佳实践，网络请求模式，Web 协议和数据规范化。这些深入的探讨将有助于巩固你的理解，这样你就可以在面试中应用这些概念。
@@ -451,7 +461,8 @@ This section goes deeper into specific frontend topics you’ll need to know wel
 
 ---
 
-### Bonus: General System Design Fundamentals主条目：General System Design Fundamentals
+### 主条目：General System Design Fundamentals
+Bonus: General System Design Fundamentals
 
 We’ll also discuss [general system design](https://frontendlead.com/system-design/general-system-design-fundamentals) topics, such as rate limiting, load balancing, and high-level scalability principles. You might be asking why, if this is a front-end system design guide. There are times when you may be participating in a full-stack interview, and the interviewer may ask questions about full-stack concepts, so it’s beneficial to have a high-level overview to be prepared.  
 我们还将讨论 [一般的系统设计](https://frontendlead.com/system-design/general-system-design-fundamentals) 主题，例如速率限制、负载平衡和高级可伸缩性原则。你可能会问为什么，如果这是一个前端系统设计指南。有些时候，你可能会参加一个全栈面试，面试官可能会问关于全栈概念的问题，所以准备一个高层次的概述是有益的。
@@ -463,7 +474,8 @@ Here is a high-level overview of general system design fundamentals we will cove
 
 ---
 
-## Preparation Material 准备材料
+## 准备材料
+Preparation Material 
 
 This series assumes you’re familiar with frontend basics.  
 本系列假设您熟悉前端基础知识。
