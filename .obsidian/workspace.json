@@ -272,54 +272,6 @@
             }
           },
           {
-            "id": "0c548d87e5805ea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01-为什么应该学好软件工程？"
-            }
-          },
-          {
-            "id": "69328233e9ab688e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "目录、文件的功能"
-            }
-          },
-          {
             "id": "2ec0c28f2cb0200e",
             "type": "leaf",
             "state": {
@@ -344,180 +296,12 @@
             }
           },
           {
-            "id": "b6994b4a5ec355a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "高级前端工程师的面试题 总结_DS"
-            }
-          },
-          {
-            "id": "aa1d12fd22621a9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "京东商智- 商智功能介绍（上）"
-            }
-          },
-          {
-            "id": "3e5d0db3ae3ff8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/网站架构/宏观.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "宏观"
-            }
-          },
-          {
-            "id": "205a19677e524eef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "前端架构师的核心知识-QW"
-            }
-          },
-          {
-            "id": "6c475467fa710099",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "经典书籍《原子习惯》精读，帮你摧毁99%的无效努力"
-            }
-          },
-          {
-            "id": "d0cacc102221c0d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/记录/8月.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "8月"
-            }
-          },
-          {
-            "id": "92964f84ec8a3700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "7. Setting Up Webpack-Dev-Server"
-            }
-          },
-          {
             "id": "89040fa133085550",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+                "file": "_posts/architect/System Design/_Frontend Interview Handbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Clean Frontend Architecture：整洁前端架构"
+              "title": "_Frontend Interview Handbook"
             }
           },
           {
@@ -656,36 +440,12 @@
             }
           },
           {
-            "id": "2904a96f368217ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/男女.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "男女"
-            }
-          },
-          {
             "id": "376b1b468a5eaed3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/Trae/Trae的基础.md",
+                "file": "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +460,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trae的基础"
+              "title": "_前端架构师的职责、知识点"
             }
           },
           {
@@ -750,9 +510,33 @@
               "icon": "lucide-file",
               "title": "Why React Aria?"
             }
+          },
+          {
+            "id": "6c475467fa710099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经典书籍《原子习惯》精读，帮你摧毁99%的无效努力"
+            }
           }
         ],
-        "currentTab": 30
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -939,39 +723,39 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a4d230bca1e3ec1d",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-DS.md",
+    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/architect/网站架构/宏观.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-04.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-03.md",
-    "_posts/AI/「动力飞轮」APP/灵感.md",
+    "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
+    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
+    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
+    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
+    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
+    "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
     "_posts/AI/搞钱/方法.md",
-    "_posts/AI/AI工具集合.md",
-    "_posts/AI/编程/Trae/Trae的基础.md",
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/前端架构/前端架构师的职责-QW.md",
+    "_posts/AI/「动力飞轮」APP/灵感.md",
     "_posts/AI/编程/工具对比/别人的对比.md",
+    "_posts/AI/编程/Trae/Trae的基础.md",
     "_posts/AI/编程/Trae/官方文档.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/世界趋势/正经龙凤配 新川普主义：战争与和平！中国还能有什么选择？.md",
-    "_posts/AI/编程/待整理的.md",
-    "_posts/AI/编程/工具对比/AI编程工具的对比.md",
-    "_posts/AI/搞钱/工具.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/详解 React Spectrum、React Aria、React Stately-QW.md",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media/0293e0618b17b9d4ba5856944983642e_MD5.jpeg",
     "_posts/AI/搞钱/media/Pasted image 20251003082414.png",
     "_posts/AI/搞钱/media",
-    "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
-    "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md",
-    "_posts/architect/前端架构/90天架构师能力提升计划模板-QW.md",
-    "_posts/architect/前端架构/《前端架构师能力模型》详细清单（含技术、软技能）-QW.md",
-    "_posts/architect/前端架构/前端架构-目录.md",
-    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-02.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "_posts/读书笔记/media",
     "_posts/AI/编程/Trae",
     "DailyNote/Journal/01 Daily/2025/10",
