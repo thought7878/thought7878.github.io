@@ -2440,10 +2440,10 @@ Build React Components Using MVVM Design Pattern
 ![[_posts/architect/System Design/media/69265c822df6e769fda3005b662280e7_MD5.png]]
 
 React is well-known for its component-based architecture, which allows developers to break interfaces into smaller, reusable parts. Yet, as applications grow, it’s common to see “monolithic” components that try to manage fetching data, handling state, performing side effects, and rendering UI in one place. This often leads to code that is difficult to maintain, test, and scale.  
-React 以其基于组件的架构而闻名，该架构允许开发人员将接口分解为更小的可重用部分。然而，随着应用程序的增长，通常会看到“单片”组件试图在一个地方管理获取数据、处理状态、执行副作用和呈现 UI。这通常会导致代码难以维护、测试和扩展。
+*React 以其基于组件的架构而闻名，该架构允许开发人员将接口分解为更小的可重用部分*。然而，随着应用程序的增长，通常会看到 *“单片”组件试图在一个地方管理获取数据、处理状态、执行副作用和呈现 UI*。**这通常会导致代码难以维护、测试和扩展**。
 
 Design patterns offer a robust way to address these issues by formally separating responsibilities. One of the most effective patterns for structuring React applications is **MVVM (Model-View-ViewModel)**. By adhering to MVVM principles, developers can keep their components (Views) focused on rendering and delegate data logic to dedicated ViewModels. This guide explores applying MVVM in React, what belongs in a ViewModel (and what doesn’t), and how to structure your code to maximize clarity, testability, and scalability.  
-设计模式提供了一种健壮的方法，通过正式分离职责来解决这些问题。构建 React 应用程序最有效的模式之一是 **MVVM（模型-视图-视图模型）** 。通过遵守 MVVM 原则，开发人员可以让他们的组件（视图）专注于渲染，并将数据逻辑委托给专用的 ViewModel。本指南探讨了在 React 中应用 MVVM，什么属于 ViewModel（什么不属于），以及如何构建代码以最大限度地提高清晰度，可测试性和可扩展性。
+**设计模式提供了一种健壮的方法，通过正式分离职责来解决这些问题**。*构建 React 应用程序最有效的模式之一*是 `MVVM（模型-视图-视图模型）` 。通过遵守 MVVM 原则，开发人员可以让他们的组件（视图）专注于渲染，并将数据逻辑委托给专用的 ViewModel。本指南探讨了在 React 中应用 MVVM，什么属于 ViewModel（什么不属于），以及如何构建代码以最大限度地提高清晰度，可测试性和可扩展性。
 
 ### React 单体组件的问题
 The Problem with Monolithic React Components
