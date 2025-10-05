@@ -2449,7 +2449,7 @@ Design patterns offer a robust way to address these issues by formally separatin
 The Problem with Monolithic React Components
 
 A typical React component can quickly become bloated. Consider a user profile component that fetches user data, manages form state for searching, applies side effects (like scrolling or analytics), and renders the final UI. Below is an example of how quickly logic can accumulate:  
-一个典型的 React 组件会很快变得臃肿。考虑一个用户配置文件组件，它获取用户数据，管理表单状态以进行搜索，应用副作用（如滚动或分析），并呈现最终的 UI。下面是一个逻辑可以积累得多快的例子：
+**一个典型的 React 组件会很快变得臃肿**。考虑一个用户配置文件组件，它*获取用户数据*，*管理表单状态*以进行搜索，*应用副作用*（如滚动或分析），并*渲染最终的 UI*。下面是一个逻辑可以积累得多快的例子：
 
 ```jsx
 function UserProfile() {
@@ -2506,7 +2506,7 @@ export default UserProfile;
 The Power of Design Patterns in React
 
 Design patterns provide a structured way of thinking about state, logic, and UI. Below are three widely used patterns:  
-设计模式提供了一种思考状态、逻辑和 UI 的结构化方法。*下面是三种广泛使用的模式：*
+`设计模式`提供了一种思考状态、逻辑和 UI 的结构化方法。*下面是三种广泛使用的模式：*
 
 #### MVC (Model-View-Controller)
 MVC（模型-视图-控制器）
@@ -2617,7 +2617,7 @@ export default UserProfile;
 Final Thoughts 
 
 Applying MVVM to React components provides clear separation of concerns, improves maintainability, and enhances testability. By structuring your app around Models, ViewModels, and Views, you ensure a scalable, organized, and testable architecture.  
-将 MVVM 应用于 React 组件可以提供清晰的关注点分离，提高可维护性并增强可测试性。通过围绕模型、视图模型和视图构建应用，您可以确保可扩展、有组织和可测试的架构。
+**将 MVVM 应用于 React 组件可以提供清晰的关注点分离**，提高可维护性并增强可测试性。通过围绕模型、视图模型和视图构建应用，您可以确保可扩展、有组织和可测试的架构。
 
 ---
 

@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_Frontend Interview Handbook.md",
+                "file": "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Frontend Interview Handbook"
+              "title": "_System Design Explained for Frontend Engineers"
+            }
+          },
+          {
+            "id": "5c32e1c9dc2a3035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/设计模式/设计模式.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "设计模式"
             }
           },
           {
@@ -725,15 +749,21 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
-    "_posts/architect/System Design/frontendlead.com/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/_Frontend Interview Handbook.md",
+    "_posts/architect/System Design/14 Front End System Design Concepts Explained in 10 Minutes.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-05.md",
+    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
+    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/architect/System Design/frontendlead.com/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+    "_posts/architect/System Design/设计模式",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/frontendlead.com/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/browser/网络/WebSocket.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/architect/System Design/media/e529f45c7c69a6230df2d91466139371_MD5.jpeg",
     "_posts/architect/System Design/media/Pasted image 20251005142052.png",
-    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/读书笔记/男女.md",
     "_posts/methods/常看的.md",
     "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
@@ -749,19 +779,14 @@
     "_posts/architect/System Design/media/Pasted image 20251005081634.png",
     "_posts/English/单词/pattern.md",
     "_posts/react/GraphQL/GraphQL.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-05.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-04.md",
     "_posts/architect/System Design/frontendlead.com",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
     "_posts/architect/网站架构/宏观.md",
     "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
     "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
     "_posts/base/知识目录、路线图/_总结知识点的模版-QW.md",
     "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-    "_posts/libraries/shadcn/component/react-day-picker/目录、文件的功能.md",
-    "_posts/architect/前端架构/前端架构师的核心知识-QW.md",
-    "_posts/读书笔记/健康/糖尿病/记录/8月.md",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media",
@@ -770,7 +795,6 @@
     "DailyNote/Journal/01 Daily/2025/10",
     "_posts/architect/前端架构/设计构建流程",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
