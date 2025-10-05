@@ -64,6 +64,10 @@
 - **数据结构示例**: 核心 App 模型可能包含用户 (User) 信息（如偏好设置）、设置 (Settings) 和 Feed（新闻推送）。
 - **Feed Item 结构**: Feed 本身包含 `items` 列表、以及用于分页的 `page` 和 `size`。
 - **Rich Text 支持**: 建议使用 `style text` 类型，而不是常规静态字符串。这使得数据成为**服务器驱动 UI (Server Driven UI)**，允许内容（如标题、正文）包含富文本、@提及或链接，客户端能够智能地解析并渲染。
+![[_posts/architect/System Design/media/39c58e42dbecbae7c4568f9f7cc0d50e_MD5.jpeg]]
+
+![[_posts/architect/System Design/media/ce7e8156c0292e1eafcbf96f1ea91320_MD5.jpeg]]
+
 
 ### 5. I - API Model (API 模型与 HTTP 协议)
 
@@ -95,6 +99,9 @@
 4. **Server Side Events (SSE)**：
     - **优点**: 高效，遵循 HTTP/2 协议，易于负载均衡。
     - **缺点**: **单向通信**（只能从服务器到客户端），数据类型有限（主要返回纯文本）。
+
+![[_posts/architect/System Design/media/e78fef6aee12285a80891f05de47400c_MD5.jpeg]]
+
 
 ### 6. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)
 
