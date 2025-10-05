@@ -38,14 +38,24 @@
     - **国际化 (Internationalization)**：确保全球用户界面的字符串翻译符合预期。
     - **性能**: 确保良好的延迟表现。
     - **草稿计算 (Napkin Math)**：估算预期的用户量（例如每周 5 万用户），这对于后续的可观测性 (observability) 估算和日志成本控制非常有用。
+![[_posts/architect/System Design/media/af397bf931625e67b9e00fae7654cc73_MD5.jpeg]]
+
+
 
 ### 3. A - High Level Architecture (高层架构) (占面试时间的 10%-15%)
 
 在此阶段，需要*设计所有构建组件和子组件的整体架构*。
 
 - **UI 设计**: 从简单的用户界面草图开始，*帮助理解组件设计*。
-- **组件架构**: 描述数据流，例如：黑盒服务器 (Blackbox server) 与客户端 (Client) 通信。客户端通过 API 获取 JSON 数据，数据发送给 **控制器 (Controller)** 进行操作和解析，然后存储到**数据模型存储 (Data Model Store)**，最终更新**视图应用层 (View application layer)** 进行渲染。
+- **组件架构**: 描述*数据流*，例如：黑盒服务器 (Blackbox server) 与客户端 (Client) 通信。客户端通过 API 获取 JSON 数据，数据发送给 **控制器 (Controller)** 进行操作和解析，然后存储到**数据模型存储 (Data Model Store)**，最终更新**视图应用层 (View application layer)** 进行渲染。
 - **设计模式**: 需要讨论并选择一个设计模式，例如 **MVC (Model-View-Controller)** 模式。选择 MVC 的理由是它能*清晰地分离职责：* 控制器处理所有业务逻辑，模型存储数据，视图负责渲染。
+
+![[_posts/architect/System Design/media/af397bf931625e67b9e00fae7654cc73_MD5.jpeg]]
+
+![[_posts/architect/System Design/media/15d7a7976f8ad1818fceba5bfa989bd6_MD5.jpeg]]
+
+![[_posts/architect/System Design/media/3ad880fac39be9e5a75a7d8bccf85e3f_MD5.jpeg]]
+
 
 ### 4. D - Data Model (数据模型) (占面试时间的 15%-20%)
 
