@@ -102,6 +102,13 @@
 
 ![[_posts/architect/System Design/media/e78fef6aee12285a80891f05de47400c_MD5.jpeg]]
 
+![[_posts/architect/System Design/media/2766a290d90585dc8a0ca9b5c00fd0ae_MD5.jpeg]]
+
+![[_posts/architect/System Design/media/916c09442682eb1b0ecf41fdf5836f68_MD5.jpeg]]
+
+![[_posts/architect/System Design/media/e529f45c7c69a6230df2d91466139371_MD5.jpeg]]
+
+
 
 ### 6. O - Optimizations and Performance (优化与性能) (占面试时间的重点部分)
 
@@ -121,7 +128,7 @@
 
 #### 2. 渲染性能 (Rendering Performance)
 
-- **避免竞态条件 (Race Conditions)**：确保 API 返回的数据顺序与请求的顺序一致。
+- **避免竞态条件 (Race Conditions)**：*确保 API 返回的数据顺序与请求的顺序一致*。
 - **应用缓存**: 使用智能缓存策略（LocalStorage, SessionStorage, Cookie Storage）。
 - **状态处理**: 处理加载 (Loading)、成功 (Success) 和错误 (Error) 状态，使用预加载器 (pre-loader) 提高用户留存率。
 - **服务器端渲染 (SSR)**：考虑使用 Next.js 等框架实现 SSR，有助于 SEO 和降低整体延迟。
