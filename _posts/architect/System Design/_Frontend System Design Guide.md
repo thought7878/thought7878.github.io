@@ -5,7 +5,7 @@
 这个前端系统设计指南是关于什么的？
 
 Frontend System Design guide attempts to cover the various factors to be considered while architecting a complex large-scale frontend application from scratch. Also the guide acts like a checklist that can be used as a reference for frontend system design. The guide aims to contain the breadth of the frontend systems while giving the directions to explore in depth for both individual contributors and system architects.  
-前端系统设计指南试图涵盖从头开始构建复杂的大型前端应用程序时要考虑的各种因素。此外，该指南就像一个检查表，可以用作前端系统设计的参考。该指南旨在包含前端系统的广度，同时为个人贡献者和系统架构师提供深入探索的方向。
+`前端系统设计指南`试图涵盖**从头开始构建复杂的大型前端应用程序时要考虑的各种因素**。此外，*该指南就像一个检查表，可以用作前端系统设计的参考*。该指南旨在*包含前端系统的广度*，同时*为个人贡献者和系统架构师提供深入探索的方向*。
 
 ```
 Guide is generic and not biased towards any library or framework
@@ -80,7 +80,8 @@ Discuss about Design/Wireframe
 
   
 
-## Identify Business  确定业务
+## 确定业务
+Identify Business  
 
 - Is it B2B (business-to-business)?  
     B2B（企业对企业）？
@@ -93,7 +94,8 @@ Discuss about Design/Wireframe
 
   
 
-## Identify Platform  识别平台
+## 识别平台
+Identify Platform  
 
 - Desktop  桌面
 - Mobile  移动的
@@ -188,7 +190,8 @@ Identify Right Platform (compare frameworks based on the use case)
 
   
 
-## Identify User Flow  识别用户流
+## 识别用户流
+Identify User Flow  
 
 - Discuss vision of a product.  
     讨论产品的愿景。
@@ -219,7 +222,8 @@ Identify MVP (Minimum Viable Product)
 
   
 
-## Volume of Operations  业务量
+## 业务量
+Volume of Operations  
 
 - Discuss about the end users of the product  
     讨论产品的最终用户
@@ -261,7 +265,7 @@ Component Based Design  
     组件部署周期（CI/CD）
 - Monolith vs Microservice architecture  
     Monolith vs 微服务架构
-- [Micro Frontend (independent dev & deployment for scalability)  微前端（独立开发、部署）](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
+- [Micro Frontend (independent dev & deployment for scalability) ](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc) 微前端（独立开发、部署）
 - Static components vs Dynamic components  
     静态组件 vs 动态组件
 - IFrame/[Shell](https://github.com/GoogleChromeLabs/sw-precache/tree/master/app-shell-demo) approach  
@@ -293,7 +297,7 @@ Handling APIs  
 - Caching GET APIs (Middleware concepts to cache response)  
     缓存 GET API（缓存响应的中间件概念）
 - [Server-Sent Events (SSE)  
-    服务器发送事件（SSE）](https://germano.dev/sse-websockets/)
+    服务器发送事件（SSE）
 
   
 
@@ -345,8 +349,9 @@ Versioning of artifacts  
 
   
 
-## Performance Optimization Techniques  
-性能优化技术
+## 性能优化技术
+Performance Optimization Techniques  
+
 
 - Webpack to optimized/compressed pages (Code splitting, [Brotli Compression](https://www.fastfwd.com/improve-http-compression-with-brotli/), [Gzip Compression](https://www.keycdn.com/support/enable-gzip-compression))  
     Webpack 优化/压缩页面（代码分割，[Brotli 压缩](https://www.fastfwd.com/improve-http-compression-with-brotli/) ，[Gzip 压缩](https://www.keycdn.com/support/enable-gzip-compression) ）
@@ -368,10 +373,11 @@ Versioning of artifacts  
 
   
 
-## Internationalization (i18n) / Localization (i10n)  
-国际化（i18 n）/本地化（i10 n）
+## 国际化（i18 n）/本地化（i10 n）
+Internationalization (i18n) / Localization (i10n)  
 
-- Localization  定位
+
+- Localization  本地化
 - Numeric, date and time formats  
     数字、日期和时间格式
 - Singular & Plurals  单数与复数

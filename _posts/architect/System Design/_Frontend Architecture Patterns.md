@@ -1,4 +1,5 @@
 [Frontend Architecture Patterns You Need to Know in 2025 ](https://www.youtube.com/watch?v=ixee55xm_d8)
+[[前端架构模式]]
 
 摘要：
 前端应用复杂到足以需要我们认真对待其架构。在这篇深入探讨中，我们研究了 9 种以上的架构模式（MVC、MVP、MVVM、Clean Architecture、Hexagonal、VIPER 等），并提供了每种模式的使用时机实用指南。非常适合希望构建可扩展、可维护应用并掌握技术面试的开发者。
@@ -44,7 +45,7 @@ Timecodes
 #### 2. 客户端类型：Thin Client vs. Thick Client
 
 - **Thin Client（瘦客户端）**: 大部分处理在服务器端完成，客户端只处理 UI；依赖服务器（响应慢）。
-- **Thick Client（厚客户端/胖客户端）**: 在客户端处理大量逻辑，管理状态，有时可离线工作；常见于 SPA 和本地优先应用。
+- **Thick Client（厚客户端/胖客户端）**: *在客户端处理大量逻辑，管理状态*，有时可离线工作；*常见于 SPA 和本地优先应用*。
 
 #### 3. MVP (Model-View-Presenter)
 

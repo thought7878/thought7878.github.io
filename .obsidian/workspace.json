@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+                "file": "_posts/architect/System Design/_Frontend System Design Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Frontend Architecture Patterns"
+              "title": "_Frontend System Design Guide"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -747,23 +747,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/architect/架构模式/前端架构模式.md",
+    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
+    "_posts/architect/System Design/frontendlead.com/_Frontend Interview Handbook.md",
+    "_posts/architect/System Design/案例",
+    "_posts/architect/前端架构/资料.md",
     "_posts/architect/System Design/System Design-QW.md",
-    "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-05.md",
     "_posts/architect/System Design/前端系统设计：入门基础.md",
-    "_posts/architect/System Design/_Frontend Interview Handbook.md",
     "_posts/architect/System Design/14 Front End System Design Concepts Explained in 10 Minutes.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "_posts/architect/System Design/frontendlead.com/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
-    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
     "_posts/architect/System Design/设计模式",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/frontendlead.com/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/browser/网络/WebSocket.md",
     "_posts/English/查询单词的提示词模版.md",
@@ -783,10 +787,7 @@
     "_posts/architect/System Design/media/ce7e8156c0292e1eafcbf96f1ea91320_MD5.jpeg",
     "_posts/architect/System Design/media/Pasted image 20251005081634.png",
     "_posts/English/单词/pattern.md",
-    "_posts/react/GraphQL/GraphQL.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-04.md",
     "_posts/architect/System Design/frontendlead.com",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media",
@@ -794,7 +795,6 @@
     "_posts/AI/编程/Trae",
     "DailyNote/Journal/01 Daily/2025/10",
     "_posts/architect/前端架构/设计构建流程",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
