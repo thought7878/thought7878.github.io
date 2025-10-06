@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
+                "file": "_posts/architect/System Design/_Frontend Architecture Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_System Design Explained for Frontend Engineers"
+              "title": "_Frontend Architecture Patterns"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -747,11 +747,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/_Frontend Architecture Patterns.md",
     "_posts/architect/System Design/System Design-QW.md",
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
