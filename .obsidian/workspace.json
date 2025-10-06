@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
+                "file": "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. introduction"
+              "title": "2. Architecture"
             }
           },
           {
@@ -749,12 +749,13 @@
   },
   "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/cf2488342b13d4dd72d587e149cc17da_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/9d9df61c12209120479dccdf3188ac9d_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/157cbdc64735dbe8b8a5313d21369d55_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/43afb088e23d8d680fe383536a5f5822_MD5.png",
@@ -763,7 +764,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/media/d9ad71c71a140be7893a6e05447dcc19_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/a0cf746175dba3d05d65c596cab30605_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/_教程/Client-Side Architecture Basics",
     "_posts/architect/System Design/_Frontend Architecture Patterns.md",
     "_posts/architect/架构模式/前端架构模式.md",
