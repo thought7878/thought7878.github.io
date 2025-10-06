@@ -38,8 +38,8 @@ Timecodes
 #### 1. MVC (Model-View-Controller)
 
 - **结构**: Model（数据/业务逻辑），View（UI），Controller（模型与视图之间的*桥梁*，处理输入）。
-- **前端应用**: 在现代前端中，Model 通常是状态管理系统（如 Redux），View 是组件，Controller 可能是 Hooks 或中间件。
-- **缺点**: 易出现 **“臃肿的控制器” (Fat Controller)** 问题，控制器承担过多职责（如 API 响应、缓存、同步）。边界模糊，且不适合具有复杂客户端逻辑的现代 Web 应用。
+- **前端应用**: 在现代前端中，*Model 通常是状态管理系统（如 Redux），View 是组件，Controller 可能是 Hooks 或中间件*。
+- **缺点**: 易出现 **“臃肿的控制器” (Fat Controller)** 问题，控制器*承担过多职责*（如 API 响应、缓存、同步）。边界模糊，且**不适合具有复杂客户端逻辑的现代 Web 应用**。
 
 #### 2. 客户端类型：Thin Client vs. Thick Client
 
