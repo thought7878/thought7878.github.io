@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_Frontend System Design Guide.md",
+                "file": "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Frontend System Design Guide"
+              "title": "1. introduction"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -747,10 +747,25 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/cf2488342b13d4dd72d587e149cc17da_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/9d9df61c12209120479dccdf3188ac9d_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/157cbdc64735dbe8b8a5313d21369d55_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/43afb088e23d8d680fe383536a5f5822_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/627f3599f3956086c53b8b1353f51839_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/67d14cf25c4dc6b294b8fbe8451e6cb0_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/d9ad71c71a140be7893a6e05447dcc19_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media/a0cf746175dba3d05d65c596cab30605_MD5.png",
+    "_posts/architect/_教程/Client-Side Architecture Basics/media",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics",
+    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
     "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
     "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
@@ -760,8 +775,6 @@
     "_posts/architect/System Design/System Design-QW.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/读书笔记/人性.md",
-    "_posts/architect/System Design/设计模式/设计模式.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-05.md",
     "_posts/architect/System Design/前端系统设计：入门基础.md",
     "_posts/architect/System Design/14 Front End System Design Concepts Explained in 10 Minutes.md",
@@ -770,31 +783,17 @@
     "_posts/architect/System Design/设计模式",
     "_posts/architect/System Design/frontendlead.com/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/browser/网络/WebSocket.md",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/architect/System Design/media/e529f45c7c69a6230df2d91466139371_MD5.jpeg",
     "_posts/architect/System Design/media/Pasted image 20251005142052.png",
     "_posts/读书笔记/男女.md",
     "_posts/methods/常看的.md",
     "_posts/methods/大脑/野心勃勃却又怂又懒，本质是情绪问题没解决.md",
-    "_posts/AI/学习资料.md",
-    "_posts/architect/System Design/media/916c09442682eb1b0ecf41fdf5836f68_MD5.jpeg",
-    "_posts/architect/System Design/media/Pasted image 20251005084825.png",
-    "_posts/architect/System Design/media/2766a290d90585dc8a0ca9b5c00fd0ae_MD5.jpeg",
-    "_posts/architect/System Design/media/Pasted image 20251005084429.png",
-    "_posts/English/单词/infinite.md",
-    "_posts/architect/System Design/media/e78fef6aee12285a80891f05de47400c_MD5.jpeg",
-    "_posts/architect/System Design/media/Pasted image 20251005083411.png",
-    "_posts/architect/System Design/media/ce7e8156c0292e1eafcbf96f1ea91320_MD5.jpeg",
-    "_posts/architect/System Design/media/Pasted image 20251005081634.png",
-    "_posts/English/单词/pattern.md",
     "_posts/architect/System Design/frontendlead.com",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media",
     "_posts/读书笔记/media",
     "_posts/AI/编程/Trae",
-    "DailyNote/Journal/01 Daily/2025/10",
-    "_posts/architect/前端架构/设计构建流程",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
