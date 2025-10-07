@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-07.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-07"
+              "title": "2025-10-08"
             }
           },
           {
@@ -747,10 +747,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-08.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-07.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/3. Principles.md",
     "_posts/methods/常看的.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
@@ -764,7 +766,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/media/7a6cfed60379bca03b1f4d0912259531_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/e01c8cf447f002c29d09f38d61629da3_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/7244ce7c16e57f4450c90680ee75ab37_MD5.png",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-07.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
@@ -788,7 +789,6 @@
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "_posts/architect/System Design/frontendlead.com/_Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/设计模式",
-    "_posts/architect/System Design/frontendlead.com/Front End System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/frontendlead.com",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
