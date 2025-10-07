@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Client-Side Architecture Basics/3. Principles.md",
+                "file": "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. Principles"
+              "title": "4. Layers"
             }
           },
           {
@@ -747,13 +747,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "89040fa133085550",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/3. Principles.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/3. Principles.md",
+    "_posts/methods/常看的.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/b2b86e61c87686226d1945c0400cc986_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
