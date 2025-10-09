@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-09.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-09"
+              "title": "2025-10-10"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
+                "file": "_posts/architect/架构模式/整洁架构/使用整洁架构组织应用逻辑（附示例）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. Layers"
+              "title": "使用整洁架构组织应用逻辑（附示例）"
             }
           },
           {
@@ -749,17 +749,21 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
-    "_posts/English/查询单词的提示词模版.md",
+    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
+    "_posts/architect/架构模式/整洁架构/使用整洁架构组织应用逻辑（附示例）.md",
+    "_posts/architect/架构模式/整洁架构",
+    "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-10.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-09.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
+    "_posts/English/查询单词的提示词模版.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/穷人.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-09.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-08.md",
     "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-07.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/3. Principles.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
@@ -773,7 +777,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/media/e01c8cf447f002c29d09f38d61629da3_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/7244ce7c16e57f4450c90680ee75ab37_MD5.png",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media",
@@ -786,15 +789,12 @@
     "_posts/architect/System Design/案例",
     "_posts/architect/前端架构/资料.md",
     "_posts/architect/System Design/System Design-QW.md",
-    "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-05.md",
     "_posts/architect/System Design/设计模式",
     "_posts/architect/System Design/frontendlead.com",
     "_posts/AI/编程/工具对比",
     "_posts/AI/「动力飞轮」APP",
     "_posts/AI/搞钱/media",
     "_posts/读书笔记/media",
-    "_posts/AI/编程/Trae",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
