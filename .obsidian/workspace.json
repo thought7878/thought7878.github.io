@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/网站架构/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
+                "file": "_posts/methods/心智模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "如何学习软件设计与架构、全栈软件设计与架构图谱"
+              "title": "心智模型"
             }
           },
           {
@@ -747,15 +747,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "_posts/methods/心智模型.md",
+    "_posts/architect/网站架构/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
+    "_posts/architect/网站架构/media/260e84a6cce3e50d74469e4b388262c2_MD5.png",
     "_posts/architect/网站架构/media/622d496c5a8c838f618da0ac62695585_MD5.svg",
     "_posts/architect/网站架构/media/d69587d334fb8b4bdd53f11291318e04_MD5.png",
     "_posts/architect/网站架构/media/b66e66c0509e8ed0fbec3c1c085fbb96_MD5.svg",
     "_posts/architect/网站架构/media/504b84e2a4e3b3a9d1cc9be6cbcae614_MD5.png",
     "_posts/architect/网站架构/media",
     "_posts/architect/架构模式/整洁架构/使用整洁架构组织应用逻辑（附示例）.md",
-    "_posts/architect/网站架构/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/architect/网站架构/宏观.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
     "_posts/architect/架构模式/整洁架构",
@@ -764,7 +767,6 @@
     "DailyNote/Journal/01 Daily/2025/10/2025-10-09.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/methods/常看的.md",
     "_posts/读书笔记/穷人.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "_posts/读书笔记/男女.md",
@@ -778,8 +780,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/6a23ca46ddca9660ecbbb3f1c0e674e6_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f986e1537c231dfadb646c93c6acf8b9_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media/e5138906bb8c7d37898dc6f6ab45197b_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media/58c6dfdefd8c3d968ceea2fd157f1518_MD5.png",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-06.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
