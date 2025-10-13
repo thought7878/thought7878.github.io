@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计原则（Design Principles）.md",
+                "file": "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "设计原则（Design Principles）"
+              "title": "如何学习软件设计与架构、全栈软件设计与架构图谱"
             }
           },
           {
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -747,18 +747,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计原则（Design Principles）.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/编程的范式.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/函数式编程（Functional Programming, FP）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/面向对象编程（Object-Oriented Programming, OOP）.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/_宏观.md",
+    "_posts/English/查询单词的提示词模版.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/编程的范式.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/_宏观.md",
     "_posts/base/js/知识点总结/函数/函数式编程.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何编写 整洁代码？.md",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/读书笔记/穷人.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
@@ -782,7 +783,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
     "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-08.md",
-    "_posts/libraries/React Spectrum、Aria、Stately/React Aria/Why React Aria?.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/b2b86e61c87686226d1945c0400cc986_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
