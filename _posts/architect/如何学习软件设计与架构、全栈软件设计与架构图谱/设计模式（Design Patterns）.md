@@ -74,7 +74,7 @@ class AppState {
 const appState = AppState.getInstance();
 ```
 
-⚠️ **替代方案**：现代前端更推荐使用 **ES 模块单例**（模块天然单例）或 **状态管理库（如 Zustand）**。
+⚠️ **替代方案**：现代前端*更推荐使用 **ES 模块单例**（模块天然单例）* 或 **状态管理库（如 Zustand）**。
 
 ```js
 // utils/state.js
@@ -88,8 +88,8 @@ export const setUser = (user) => { state.user = user; };
 ## 二、结构型模式（Structural Patterns）  
 > 关注**类或对象的组合**，构建更灵活的结构。
 
-### 3. **装饰器模式（Decorator Pattern）**
-- **问题**：动态地给对象添加职责，避免子类爆炸。
+### 3. 装饰器模式（Decorator Pattern）
+- **问题**：***动态**地给对象**添加职责、功能***，避免子类爆炸。
 - **前端天然支持**：JavaScript 的高阶函数、React 的高阶组件（HOC）、Vue 的 mixin（已不推荐）。
 
 ```jsx
@@ -120,8 +120,8 @@ function useLoading() {
 
 ---
 
-### 4. **适配器模式（Adapter Pattern）**
-- **问题**：让不兼容的接口协同工作。
+### 4. 适配器模式（Adapter Pattern）
+- **问题**：***让不兼容的接口协同工作***。
 - **前端典型场景**：封装第三方库 API，统一调用方式。
 
 ```ts

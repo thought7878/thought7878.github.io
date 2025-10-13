@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
+                "file": "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "如何学习软件设计与架构、全栈软件设计与架构图谱"
+              "title": "设计模式（Design Patterns）"
             }
           },
           {
@@ -749,6 +749,9 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/engineering/5.模块化（Module）/模块化.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/ESModule的工作原理.md",
+    "_posts/engineering/5.模块化（Module）/ES Module/原理.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计原则（Design Principles）.md",
@@ -780,9 +783,6 @@
     "_posts/architect/架构模式/整洁架构",
     "_posts/architect/_教程/Client-Side Architecture Basics/5. Conclusion.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-09.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/4. Layers.md",
-    "_posts/methods/构建系统/《原子习惯》/经典书籍《原子习惯》精读，帮你摧毁99%的无效努力.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-08.md",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/b2b86e61c87686226d1945c0400cc986_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
