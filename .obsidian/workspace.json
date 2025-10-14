@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -747,11 +747,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/encapsulate.md",
     "_posts/English/单词/adapter.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-13.md",
@@ -762,7 +765,6 @@
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计原则（Design Principles）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/函数式编程（Functional Programming, FP）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/面向对象编程（Object-Oriented Programming, OOP）.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/编程的范式.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/_宏观.md",
     "_posts/base/js/知识点总结/函数/函数式编程.md",
@@ -780,8 +782,6 @@
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/b66e66c0509e8ed0fbec3c1c085fbb96_MD5.svg",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/504b84e2a4e3b3a9d1cc9be6cbcae614_MD5.png",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media",
-    "_posts/architect/架构模式/整洁架构/使用整洁架构组织应用逻辑（附示例）.md",
-    "_posts/architect/_教程/Client-Side Architecture Basics/1. introduction.md",
     "_posts/architect/架构模式/整洁架构",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/b2b86e61c87686226d1945c0400cc986_MD5.png",
