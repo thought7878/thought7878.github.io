@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/English/词根、词缀/前缀、词根、后缀.md",
+                "file": "_posts/English/_高效记忆英语单词的方法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前缀、词根、后缀"
+              "title": "_高效记忆英语单词的方法"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-14"
+              "title": "2025-10-15"
             }
           },
           {
@@ -560,7 +560,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -747,12 +747,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "59ad096364f8e6ff",
+  "active": "89040fa133085550",
   "lastOpenFiles": [
-    "_posts/English/别人的方法.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-15.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/English/_高效记忆英语单词的方法.md",
-    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/别人的方法.md",
     "_posts/English/词根、词缀/前缀、词根、后缀.md",
+    "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/adapter.md",
     "_posts/English/词根、词缀/ob-.md",
     "_posts/English/词根、词缀/serv.md",
@@ -764,18 +767,15 @@
     "_posts/English/词根、词缀",
     "_posts/English/单词/observer.md",
     "_posts/English/单词/decorate.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/English/学习复习模版.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/English/单词/encapsulate.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-13.md",
     "_posts/methods/常看的.md",
     "_posts/engineering/5.模块化（Module）/模块化.md",
     "_posts/engineering/5.模块化（Module）/ES Module/ESModule的工作原理.md",
-    "_posts/engineering/5.模块化（Module）/ES Module/原理.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/260e84a6cce3e50d74469e4b388262c2_MD5.png",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/622d496c5a8c838f618da0ac62695585_MD5.svg",

@@ -191,7 +191,7 @@ bus.emit('user:login', { name: 'Alice' });
 
 ---
 
-### 6. **策略模式（Strategy Pattern）**
+### 6. 策略模式（Strategy Pattern）
 - **问题**：在运行时选择算法或行为。
 - **前端高频场景**：表单验证、支付方式、主题切换。
 
@@ -237,7 +237,7 @@ const validate = (type, value) => validators[type](value);
 
 ---
 
-### 7. **命令模式（Command Pattern）**
+### 7. 命令模式（Command Pattern）
 - **问题**：将请求封装为对象，支持撤销、重做、队列。
 - **前端场景**：编辑器操作（如富文本）、撤销/重做功能。
 
