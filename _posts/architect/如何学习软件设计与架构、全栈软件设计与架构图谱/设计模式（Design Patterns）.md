@@ -86,16 +86,17 @@ export const setUser = (user) => { state.user = user; };
 ---
 
 ## 二、结构型模式（Structural Patterns）  
-> 关注**类或对象的组合**，构建更灵活的结构。
+> *关注**类或对象的组合**，构建更灵活的结构。*
 
 ### 3. 装饰器模式（Decorator Pattern）
 - **问题**：***动态**地给对象**添加职责、功能***，避免子类爆炸。
-- **前端天然支持**：JavaScript 的高阶函数、React 的高阶组件（HOC）、Vue 的 mixin（已不推荐）。
+- **前端天然支持**：JavaScript 的*高阶函数*、React 的*高阶组件*（HOC）、Vue 的 mixin（已不推荐）。
 
 ```jsx
 // React HOC 示例：添加 loading 状态
 function withLoading(WrappedComponent) {
   return function WithLoading(props) {
+    // 
     const [loading, setLoading] = useState(false);
     return (
       <WrappedComponent {...props} loading={loading} setLoading={setLoading} />
@@ -121,7 +122,7 @@ function useLoading() {
 ---
 
 ### 4. 适配器模式（Adapter Pattern）
-- **问题**：***让不兼容的接口协同工作***。
+- **问题**：***让不兼容的接口协同工作（第三方接口改变时，只需修改适配器代码，业务代码依赖适配器）***。
 - **前端典型场景**：封装第三方库 API，统一调用方式。
 
 ```ts
@@ -135,7 +136,7 @@ class NewAnalytics {
   log(event: { name: string }) { /* ... */ }
 }
 
-// 适配器：统一为新接口
+// 适配器：统一为新接口（第三方接口改变时，只需修改适配器代码，业务代码依赖适配器）
 class AnalyticsAdapter {
   private analytics: NewAnalytics;
   constructor() {
@@ -156,11 +157,11 @@ tracker.trackEvent('button_click');
 ---
 
 ## 三、行为型模式（Behavioral Patterns）  
-> 关注**对象之间的职责分配和通信**。
+> *关注**对象之间的职责分配和通信**。*
 
-### 5. **观察者模式（Observer Pattern）**
-- **问题**：对象状态变化时，自动通知依赖它的对象。
-- **前端基石**：Vue/React 响应式系统、事件总线、RxJS 的核心。
+### 5. 观察者模式（Observer Pattern）
+- **问题**：***对象状态变化时，自动通知依赖它的对象。***
+- **前端基石**：Vue/React `响应式系统`、`事件总线`、RxJS 的核心。
 
 ```js
 // 简易实现
