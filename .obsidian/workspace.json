@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/趋势.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/2. Fiber.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,11 +556,41 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "趋势"
+              "title": "2. Fiber"
             }
           }
         ],
         "currentTab": 22
+      },
+      {
+        "id": "d28438b43b83693c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "227f5a09faf9bb53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/3. 创建一个 Fiber 节点.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3. 创建一个 Fiber 节点"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -721,11 +751,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -747,12 +778,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "6c475467fa710099",
+  "active": "227f5a09faf9bb53",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/2. Fiber.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理2.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/参考资料.md",
+    "_posts/react/总结/核心概念、原理、源码/React 的原理1.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/读书笔记/穷人.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/1. JSX 、createElement.md",
+    "_posts/AI/趋势.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/b站-赛博重工/5. 事件绑定.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/React的渲染流程-DS.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-15.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
@@ -767,15 +806,7 @@
     "_posts/English/词根、词缀/pro-.md",
     "_posts/English/单词/observe.md",
     "_posts/English/每日记录（复习）.md",
-    "_posts/methods/学习方法/编程/提问模版.md",
     "_posts/English/词根、词缀",
-    "_posts/English/单词/observer.md",
-    "_posts/English/单词/decorate.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
-    "_posts/English/学习复习模版.md",
-    "_posts/architect/System Design/设计模式/设计模式.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/English/单词/encapsulate.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/260e84a6cce3e50d74469e4b388262c2_MD5.png",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/622d496c5a8c838f618da0ac62695585_MD5.svg",
