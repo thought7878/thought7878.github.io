@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/穷人.md",
+                "file": "_posts/AI/趋势.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,11 +556,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "穷人"
+              "title": "趋势"
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -721,7 +721,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -747,11 +747,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "6c475467fa710099",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
+    "_posts/react/总结/核心概念、原理、源码/React 的原理2.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/读书笔记/穷人.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-15.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-14.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/English/_高效记忆英语单词的方法.md",
     "_posts/English/别人的方法.md",
     "_posts/English/词根、词缀/前缀、词根、后缀.md",
@@ -772,10 +776,6 @@
     "_posts/architect/System Design/设计模式/设计模式.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/English/单词/encapsulate.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-13.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/5.模块化（Module）/模块化.md",
-    "_posts/engineering/5.模块化（Module）/ES Module/ESModule的工作原理.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/260e84a6cce3e50d74469e4b388262c2_MD5.png",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/622d496c5a8c838f618da0ac62695585_MD5.svg",
