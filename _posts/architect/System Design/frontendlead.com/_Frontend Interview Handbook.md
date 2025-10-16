@@ -394,11 +394,11 @@ You’ll be asked a frontend-focused coding question, often with a light algorit
 **Examples:示例如下：**
 
 - Implement debounce or throttle in JavaScript  
-	在 JavaScript 中实现去抖动或节流
+	**在 JavaScript 中实现去抖动或节流**
 - Build a simple search box with filtering  
-	建立一个简单的搜索框与过滤
+	建立一个简单的**搜索框与过滤**
 - Solve a problem that uses maps, sets, or recursion  
-	使用映射、集合或递归解决问题
+	使用**映射、集合或递归**解决问题
 
 What they’re looking for:  
 **他们在寻找什么：**
