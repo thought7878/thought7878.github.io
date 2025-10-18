@@ -586,12 +586,14 @@ Frontend Interview Study Plan Guide
 This guide outlines a suggested four-month plan for preparing for your front-end interviews. However, if you’re crunched for time, don’t worry – we also offer shorter plans, ranging from two weeks to three months. You can find them [here](https://frontendlead.com/study-plans). Front-end interview preparation is crucial, and this study plan addresses it by providing a structured approach to help you succeed.  
 本指南概述了一个建议的四个月计划，为您的前端面试做准备。但是，如果您的时间紧迫，请不要担心-我们也提供较短的计划 ，从两周到三个月不等。你可以 [在这里](https://frontendlead.com/study-plans) 找到他们。前端 面试准备是至关重要的，这个学习计划通过提供一个结构化的方法来帮助你成功解决它。
 
-High-level overview of the study plan:研究计划的高级别概述： ![[_posts/architect/System Design/media/5074dc9b9f2d4a0e856d467b6c7eaf30_MD5.png]]
+High-level overview of the study plan:
+研究计划的高级别概述： ![[_posts/architect/System Design/media/5074dc9b9f2d4a0e856d467b6c7eaf30_MD5.png]]
 
 ### 第1周：数据结构和算法
 Week 1: Data Structures and Algorithms
 
-Focus on:重点关注：
+Focus on:
+**重点关注：**
 
 - Stacks and queues 栈和队列
 - Basic tree traversal (in-order, pre-order, post-order)  

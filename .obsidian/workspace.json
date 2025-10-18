@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/读书笔记/健康/如何补钙？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "如何补钙？"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/English/_高效记忆英语单词的方法.md",
+                "file": "_posts/English/查询单词的提示词模版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_高效记忆英语单词的方法"
+              "title": "查询单词的提示词模版"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-16.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-16"
+              "title": "2025-10-18"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
+                "file": "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 前端系统设计：简介"
+              "title": "Frontend Interview Handbook"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/博主.md",
+                "file": "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,11 +508,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "博主"
+              "title": "AI + 动物搞笑"
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -699,38 +699,40 @@
       "media-extended:Open media": false
     }
   },
-  "active": "4cadab280e4611b8",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/AI/短视频/AI工具总结（中国）.md",
-    "_posts/AI/短视频/AI工具总结.md",
-    "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
-    "_posts/AI/短视频/博主.md",
-    "_posts/AI/短视频/参考视频.md",
-    "_posts/AI/短视频/搞笑类/AI + 已有动物搞笑的视频.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/AI/短视频/搞笑类/宠物搞笑.md",
-    "_posts/AI/短视频/视频内容搬运，如何做？.md",
-    "_posts/AI/短视频/搞笑类/搞笑类的视频，在国外流量如何？.md",
-    "_posts/AI/短视频/搞笑类/AI + 搞笑 = 新蓝海：低成本生成高创意内容.md",
-    "_posts/AI/短视频/搞笑类",
-    "_posts/AI/短视频/AI驱动的短视频.md",
-    "_posts/AI/短视频/影视解说类/在国外流量如何？.md",
-    "_posts/AI/短视频/影视解说类",
-    "_posts/AI/短视频/国外的视频平台、对比.md",
-    "_posts/AI/短视频/如何注册TikTok？.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-16.md",
-    "_posts/AI/短视频/如何寻找有趣的短视频？.md",
-    "_posts/AI/短视频",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/_高效记忆英语单词的方法.md",
+    "_posts/English/每日记录（复习）.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "_posts/English/单词/feed.md",
     "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
-    "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
-    "_posts/architect/System Design/frontendlead.com/_Frontend Interview Handbook.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-15.md",
-    "_posts/architect/System Design/frontendlead.com/media",
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
-    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
-    "_posts/architect/前端架构/前端架构-QW.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-16.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
+    "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/AI/短视频/AI工具总结.md",
+    "_posts/读书笔记/健康/如何补钙？.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/长期规范治疗.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/4种药，该分别服用多少剂量？.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘",
+    "_posts/读书笔记/健康/老爹/病/未命名.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-DS.md",
+    "_posts/读书笔记/健康/成年人需要补充什么？.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/短视频/AI工具总结（中国）.md",
+    "_posts/AI/短视频/博主.md",
+    "_posts/AI/短视频/搞笑类",
+    "_posts/AI/短视频/影视解说类",
+    "_posts/AI/短视频",
+    "_posts/architect/System Design/frontendlead.com/media",
     "_posts/English/词根、词缀",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/260e84a6cce3e50d74469e4b388262c2_MD5.png",
@@ -745,8 +747,6 @@
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/6a23ca46ddca9660ecbbb3f1c0e674e6_MD5.png",
     "_posts/architect/_教程/Client-Side Architecture Basics/media/f986e1537c231dfadb646c93c6acf8b9_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media",
-    "_posts/architect/_教程/Client-Side Architecture Basics",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
