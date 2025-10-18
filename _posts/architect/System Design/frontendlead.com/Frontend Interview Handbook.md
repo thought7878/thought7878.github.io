@@ -617,7 +617,8 @@ Week 2: JavaScript, HTML, and CSS Fundamentals
 Once your DSA foundation is in place, shift your focus to the building blocks of the web.  
 一旦你的 DSA 基础就位，把你的重点转移到网络的构建块。
 
-Learn and revisit:学习并重温：
+Learn and revisit:
+**学习并重温：**
 
 - JavaScript array and object methods `.map()`, `.reduce()`, `.filter()`  
 	JavaScript 数组和对象方法 `.map（）` ，`.reduce（）` ，`.filter（）`
@@ -667,7 +668,8 @@ Weeks 5-10: JavaScript Coding Problems
 Start applying everything you’ve learned. These next few weeks are all about writing code, debugging, and improving your problem-solving speed.  
 开始运用你所学的一切。接下来的几周都是关于编写代码，调试和提高解决问题的速度。
 
-Tackle problems like:解决以下问题：
+Tackle problems like:
+**解决以下问题：**
 
 - Debounce and throttle implementations  
 	去抖动和节流实现
@@ -715,7 +717,8 @@ Weeks 13-16: Frontend System Design
 This is where senior and staff interviews start to shine.  
 这就是高级和员工面试开始发光的地方。
 
-Study how to:学习如何：
+Study how to:
+**学习如何：**
 
 - Gather requirements effectively  
 	有效收集需求
@@ -760,7 +763,7 @@ Focus on stories that show ownership, communication, and growth. This is your ch
 The complete list of behavioral questions can be found [here](https://frontendlead.com/behavioral-questions).  
 行为问题的完整列表可以在 [这里](https://frontendlead.com/behavioral-questions) 找到。
 
-### 报价谈判
+### **报价谈判**
 Offer Negotiation 
 
 Once you’re done with interviews, the final step is just as important: know your worth and be ready to negotiate.  
@@ -1160,27 +1163,27 @@ Data Structure and Algorithmic Fundamentals
 ![[_posts/architect/System Design/media/9b72ec3cce3dede618ea0110fc6410f8_MD5.png]]
 
 In front-end interviews, a strong understanding of data structures and algorithms is crucial, as it demonstrates your ability to solve problems efficiently and optimize web applications. Key concepts include:  
-在前端面试中，对数据结构和算法的深刻理解至关重要，因为它展示了您有效解决问题和优化 Web 应用程序的能力。主要概念包括：
+在前端面试中，对数据结构和算法的*深刻理解至关重要*，因为**它展示了您有效解决问题和优化 Web 应用程序的能力**。主要概念包括：
 
 1. **Arrays and Strings**: Arrays and strings are often used in front-end development for data management and manipulation. They are essential for tasks like sorting data or managing user inputs.  
-	**数组和字符串** ：数组和字符串通常用于前端开发中的数据管理和操作。它们对于排序数据或管理用户输入等任务至关重要。
+	**数组和字符串** ：数组和字符串通常用于前端开发中的*数据管理和操作*。它们*对于排序数据或管理用户输入*等任务至关重要。
 2. **Objects and Hash Tables**: JavaScript objects, often used as hash tables, are vital for quick data retrieval and storage operations. Understanding how to leverage key-value pairs efficiently can significantly enhance the performance of web applications.  
-	**对象和哈希表** ：JavaScript 对象通常用作哈希表，对于快速数据检索和存储操作至关重要。了解如何有效地利用键值对可以显著提高 Web 应用程序的性能。
+	**对象和哈希表** ：**`JavaScript 对象`通常用作哈希表**，对于**快速数据检索和存储操作**至关重要。了解如何*有效地利用`键值对`可以显著提高 Web 应用程序的性能*。
 3. **Stacks and Queues**: These can be used in UI developments, such as undo mechanisms in text editors or handling asynchronous tasks like AJAX requests in a controlled sequence.  
-	**堆栈和堆栈** ：这些可以在 UI 开发中使用，例如文本编辑器中的撤销机制或处理异步任务，如按受控顺序处理 AJAX 请求。
+	**堆栈和堆栈** ：这些可以在 UI 开发中使用，例如*文本编辑器中的撤销机制*或处理异步任务，如*按受控顺序处理 AJAX 请求*。
 4. **Trees and Graphs**: While more common in backend development, front-end developers may encounter them in scenarios such as DOM manipulations or when implementing features that require hierarchical data structures, like menu systems.  
-	**树和图** ：虽然在后端开发中更常见，但前端开发人员可能会在 DOM 操作或实现需要分层数据结构的功能（如菜单系统）时遇到它们。
+	**树和图** ：虽然在后端开发中更常见，但前端开发人员可能会*在 DOM 操作*或*实现需要分层数据结构的功能（如菜单系统）时*遇到它们。
 5. **Algorithms**: Sorting algorithms (such as quicksort and mergesort) and searching algorithms (like binary search) are crucial, particularly in optimizing performance-critical applications that handle large datasets.  
-	**算法** ：排序算法（如快速排序和合并排序）和搜索算法（如二进制搜索）至关重要，特别是在优化处理大型数据集的性能关键型应用程序时。
+	**算法** ：`排序算法`（如快速排序和合并排序）和`搜索算法`（如二进制搜索）至关重要，特别是*在优化处理大型数据集的性能*关键型应用程序时。
 
 Understanding these data structures and algorithms is crucial for acing technical interviews and plays a significant role in writing efficient and scalable frontend code. Mastering these areas will better equip you to tackle common front-end challenges, leading to more optimal and practical solutions in your projects.  
-理解这些数据结构和算法对于技术面试至关重要，并且在编写高效和可扩展的前端代码方面发挥着重要作用。掌握这些领域将使您更好地应对常见的前端挑战，从而为您的项目提供更优化和实用的解决方案。
+理解这些数据结构和算法*对于技术面试至关重要*，并且*在编写高效和可扩展的前端代码方面*发挥着重要作用。掌握这些领域将使您*更好地应对常见的前端挑战*，从而*为您的项目提供更优化和实用的解决方案*。
 
 Check out our free article [here](https://frontendlead.com/handbook/data-structure-and-algorithms) for more detailed insights on data structures and algorithms tailored for front-end interviews.  
 查看我们的免费文章，了解为前端面试量身定制的数据结构和算法的更详细见解。
 
 In frontend interviews, you’re expected to do more than just code. You’re expected to understand how the frontend works—from the browser’s rendering engine to how JavaScript handles async behavior. The questions can range from semantic HTML to CSS layout strategies, from JavaScript quirks to React-specific lifecycle methods. Sometimes you’re debugging. Sometimes you’re designing. And sometimes, you’re just expected to explain.  
-在前端面试中，您需要做的不仅仅是代码。您需要了解前端是如何工作的--从浏览器的呈现引擎到 JavaScript 如何处理 JavaScript 行为。这些问题可以从语义 HTML 到 CSS 布局策略，从 JavaScript 怪癖到特定于 React 的生命周期方法。有时候你在调试。有时候你在设计。有时候，你只需要解释一下。
+在前端面试中，您需要做的不仅仅是代码。您**需要了解前端是如何工作的**--*从浏览器的呈现引擎到 JavaScript 如何处理 JavaScript 行为*。这些问题可以从语义 HTML 到 CSS 布局策略，从 JavaScript 怪癖到特定于 React 的生命周期方法。有时候你在调试。有时候你在设计。有时候，你只需要解释一下。
 
 Below is a curated list of the most frequently encountered questions across real frontend interviews. Each one links to a focused breakdown designed to help you solidify your understanding and walk into your following interview with confidence.  
 以下是真实的前端面试中最常见的问题列表。每一个链接到一个重点细分，旨在帮助你巩固你的理解和自信地走进你接下来的面试。
