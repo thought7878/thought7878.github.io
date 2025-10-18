@@ -711,7 +711,7 @@ Build them in both vanilla JS and React. You’ll gain deeper insights and be re
 The complete list of JavaScript app design problems can be found [here](https://frontendlead.com/coding-questions?type=react&type=vanilla).  
 JavaScript 应用程序设计问题的完整列表可以在 [这里](https://frontendlead.com/coding-questions?type=react&type=vanilla) 找到。
 
-### 第13-16周：前端系统设计
+### 第13-16周：**前端系统设计**
 Weeks 13-16: Frontend System Design
 
 This is where senior and staff interviews start to shine.  
@@ -721,17 +721,17 @@ Study how to:
 **学习如何：**
 
 - Gather requirements effectively  
-	有效收集需求
+	**有效收集需求**
 - Break down the frontend architecture into modules and components  
-	将前端架构分解为模块和组件
+	**将前端架构*分解为模块和组件***
 - Design data flow and state management  
-	设计数据流和状态管理
+	**设计数据流和状态管理**
 - Compare REST vs GraphQL for API needs  
-	比较 REST 与 GraphQL 的 API 需求
+	**比较 REST 与 GraphQL 的 API 需求**
 - Optimize performance (lazy loading, caching, etc.)  
-	优化性能（延迟加载、缓存等）
+	**优化性能**（延迟加载、缓存等）
 - Design for accessibility and responsiveness  
-	无障碍和响应性设计
+	**无障碍和响应性设计**
 
 Be prepared to discuss trade-offs and justify your decisions.  
 准备好讨论权衡并证明你的决定是正确的。
