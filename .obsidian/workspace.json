@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-18"
+              "title": "2025-10-19"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
+                "file": "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 前端系统设计：简介"
+              "title": "3. The RADIO Framework"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,17 +699,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
-    "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
     "_posts/English/每日记录（复习）.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
+    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-19.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/_高效记忆英语单词的方法.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/English/单词/feed.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-16.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
@@ -726,9 +729,6 @@
     "_posts/读书笔记/健康/老爹/病/未命名.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-DS.md",
     "_posts/读书笔记/健康/成年人需要补充什么？.md",
-    "_posts/methods/常看的.md",
-    "_posts/AI/短视频/AI工具总结（中国）.md",
-    "_posts/AI/短视频/博主.md",
     "_posts/AI/短视频/搞笑类",
     "_posts/AI/短视频/影视解说类",
     "_posts/AI/短视频",
