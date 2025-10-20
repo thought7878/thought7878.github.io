@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-20.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-20"
+              "title": "2025-10-21"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+                "file": "_posts/architect/System Design/greatfrontend.com/别人总结.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_要整理的"
+              "title": "别人总结"
             }
           },
           {
@@ -575,8 +575,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -674,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -700,14 +699,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/architect/System Design/greatfrontend.com/别人总结.md",
+    "_posts/architect/System Design/greatfrontend.com/media/72fde3583f61e3a8e060b68cabe62608_MD5.jpeg",
+    "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021073604.png",
+    "_posts/architect/System Design/greatfrontend.com/media/7f620be0f8e1d4bb9fa14d788ebe9d6b_MD5.jpeg",
+    "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021072948.png",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-20.md",
+    "_posts/architect/System Design/greatfrontend.com/别人总结.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/architect/System Design/greatfrontend.com/media/0657b7deae16938b49a52437a57247be_MD5.jpeg",
     "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251020091228.png",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/健康/如何补钙？.md",
     "_posts/methods/常看的.md",
@@ -728,7 +732,6 @@
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/English/_高效记忆英语单词的方法.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘",
     "_posts/AI/短视频/搞笑类",
@@ -744,9 +747,6 @@
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media/504b84e2a4e3b3a9d1cc9be6cbcae614_MD5.png",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media",
     "_posts/architect/架构模式/整洁架构",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media/ed2d4b1760078a65fffedb652abf0e6c_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media/b2b86e61c87686226d1945c0400cc986_MD5.png",
-    "_posts/architect/_教程/Client-Side Architecture Basics/media/f3bc522726fde79b7d01ed2718b52a9c_MD5.png",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
