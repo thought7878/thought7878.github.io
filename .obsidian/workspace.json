@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/如何补钙？.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "如何补钙？"
+              "title": "常看的"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-21"
+              "title": "2025-10-22"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/别人总结.md",
+                "file": "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "别人总结"
+              "title": "_前端系统设计：工程师的实用指南"
             }
           },
           {
@@ -699,11 +699,32 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-22.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
+    "_posts/读书笔记/健康/性.md",
+    "_posts/读书笔记/健康/抗衰.md",
+    "_posts/读书笔记/旅居、旅行.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
+    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
+    "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
+    "_posts/读书笔记/穷人.md",
     "_posts/architect/System Design/greatfrontend.com/别人总结.md",
+    "_posts/architect/System Design/greatfrontend.com/media/65ca9ae06e63868674ddce6390a6f3f2_MD5.jpeg",
+    "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021094554.png",
+    "_posts/methods/要整理的.md",
+    "_posts/AI/AI工具集合.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/健康/如何补钙？.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW2.md",
+    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/System Design/greatfrontend.com/media/8293daad48e9a9ed6c5419a802f00b03_MD5.jpeg",
     "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021081817.png",
     "_posts/architect/System Design/greatfrontend.com/media/9cabb792e43e82d586dd83ef71f7374f_MD5.jpeg",
@@ -712,30 +733,10 @@
     "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021080709.png",
     "_posts/architect/System Design/greatfrontend.com/media/72fde3583f61e3a8e060b68cabe62608_MD5.jpeg",
     "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021073604.png",
-    "_posts/architect/System Design/greatfrontend.com/media/7f620be0f8e1d4bb9fa14d788ebe9d6b_MD5.jpeg",
-    "_posts/architect/System Design/greatfrontend.com/media/Pasted image 20251021072948.png",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-20.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/健康/如何补钙？.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW2.md",
     "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
-    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
-    "_posts/AI/AI工具集合.md",
     "_posts/AI/学习资料.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-19.md",
-    "_posts/architect/System Design/greatfrontend.com/2. 前端系统设计问题的类型.md",
-    "_posts/architect/System Design/greatfrontend.com/5. 应避免的常见错误.md",
-    "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
-    "_posts/English/每日记录（复习）.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-18.md",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘",
     "_posts/AI/短视频/搞笑类",

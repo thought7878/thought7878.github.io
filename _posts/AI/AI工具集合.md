@@ -1,6 +1,8 @@
 
 项目地址：https://github.com/liuzhao1225/YouDub-webui YouDub 是一个开创性的开源工具，旨在将 YouTube 和其他平台上的高质量视频翻译和配音成中文版本。该工具结合了最新的 AI 技术，包括语音识别、大型语言模型翻译，以及 AI 声音克隆技术，提供与原视频相似的中文配音，为中文用户提供卓越的观看体验。
 
+【更猛了！B站开源AI语音天花板【附本地安装包】】 https://www.bilibili.com/video/BV1HeJQzSEHW/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 ---
 
 
