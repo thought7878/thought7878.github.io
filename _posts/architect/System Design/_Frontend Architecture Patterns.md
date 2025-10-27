@@ -2,7 +2,7 @@
 [[前端架构模式]]
 
 摘要：
-前端应用复杂到足以需要我们认真对待其架构。在这篇深入探讨中，我们研究了 9 种以上的架构模式（MVC、MVP、MVVM、Clean Architecture、Hexagonal、VIPER 等），并提供了每种模式的使用时机实用指南。非常适合希望构建可扩展、可维护应用并掌握技术面试的开发者。
+前端应用复杂到足以需要我们认真对待其架构。在这篇深入探讨中，我们研究了 9 种以上的架构模式（MVC、MVP、MVVM、Clean Architecture、Hexagonal、VIPER 等），并提供了每种模式的使用时机实用指南。非常适合希望构建**可扩展、可维护**应用并掌握技术面试的开发者。
 
 Timecodes
 0:00 Introduction & Why Architecture Matters
