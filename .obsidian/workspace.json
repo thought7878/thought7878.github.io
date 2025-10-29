@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "_要整理的"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/男女.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "男女"
+              "title": "2025-10-29"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+                "file": "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Frontend Architecture Patterns"
+              "title": "_前端系统设计：工程师的实用指南"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -699,17 +699,22 @@
       "media-extended:Open media": false
     }
   },
-  "active": "2ec0c28f2cb0200e",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-28.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-27.md",
-    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
-    "_posts/architect/System Design/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
+    "_posts/architect/System Design/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-28.md",
+    "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
+    "_posts/methods/常看的.md",
+    "_posts/要整理的.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
     "_posts/读书笔记/男女.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-27.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-26.md",
     "DailyNote/Journal/01 Daily/2025/10/media",
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
@@ -732,11 +737,6 @@
     "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
     "_posts/读书笔记/健康/性.md",
     "_posts/读书笔记/健康/抗衰.md",
-    "_posts/读书笔记/旅居、旅行.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
-    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
-    "_posts/architect/System Design/greatfrontend.com/4. 前端系统设计面试的评估标准.md",
-    "_posts/architect/System Design/greatfrontend.com/6. 备忘录.md",
     "_posts/architect/System Design/greatfrontend.com/media/65ca9ae06e63868674ddce6390a6f3f2_MD5.jpeg",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘",
