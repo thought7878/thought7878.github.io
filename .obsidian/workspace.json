@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
+                "file": "_posts/architect/System Design/前端系统设计：入门基础.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_前端系统设计：工程师的实用指南"
+              "title": "前端系统设计：入门基础"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,12 +699,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
-    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
-    "_posts/architect/System Design/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/System Design/Frontend System Design-NamasteDev/Overview-NamasteDev.md",
+    "_posts/architect/System Design/System Design-QW.md",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "_posts/architect/System Design/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
+    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
+    "_posts/architect/System Design/前端系统设计：入门基础.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-28.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
@@ -715,14 +722,12 @@
     "DailyNote/Journal/01 Daily/2025/10/2025-10-27.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-26.md",
     "DailyNote/Journal/01 Daily/2025/10/media",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-25.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/English/查询单词的提示词模版.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-24.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-22.md",
     "_posts/architect/System Design/media/a213179908f4b73888edbeefed5d8d29_MD5.jpg",
     "_posts/architect/System Design/media/ecc8643a9ca430413b247e3ecba271c2_MD5.jpg",
     "_posts/architect/System Design/media/c21f8e63c30844e690755b28316b8e5e_MD5.jpg",
@@ -732,11 +737,6 @@
     "_posts/architect/System Design/media/8f53ea8b2d65efc47b4a810254570f98_MD5.jpg",
     "_posts/architect/System Design/media/9f36c2ae2e5e225d48d1c6b36e263147_MD5.jpg",
     "_posts/architect/System Design/media/9dc688883fda7388a5fccaa5ee96cf61_MD5.jpg",
-    "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-21.md",
-    "_posts/读书笔记/健康/性.md",
-    "_posts/读书笔记/健康/抗衰.md",
     "_posts/architect/System Design/greatfrontend.com/media/65ca9ae06e63868674ddce6390a6f3f2_MD5.jpeg",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘",
