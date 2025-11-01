@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-30"
+              "title": "2025-11-01"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. The RADIO Framework"
+              "title": "02. Box Model"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -699,14 +699,27 @@
       "media-extended:Open media": false
     }
   },
-  "active": "4cadab280e4611b8",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/architect/System Design/课程：Front-End System Design/01.Introduction/01. Introduction.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
+    "_posts/architect/System Design/课程：Front-End System Design/01.Introduction",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识",
+    "_posts/architect/System Design/课程：Front-End System Design/media/0cf9a9e38ce25e0fc48556dbe1fb3f26_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/media/Pasted image 20251101095630.png",
+    "_posts/architect/System Design/课程：Front-End System Design/media/f1af3c435c989b20de3d103b35a7e025_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/media/Pasted image 20251101095136.png",
+    "_posts/architect/System Design/课程：Front-End System Design/media",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/System Design/课程：Front-End System Design",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-01.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
+    "DailyNote/Journal/01 Daily/2025/11",
+    "_posts/读书笔记/男女.md",
     "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
     "_posts/AI/短视频/参考视频.md",
     "_posts/读书笔记/健康/糖尿病/测量.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
     "_posts/architect/System Design/前端系统设计：入门基础.md",
-    "_posts/读书笔记/男女.md",
     "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/tools/资源.md",
@@ -715,7 +728,6 @@
     "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md",
     "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
     "_posts/网络/网络协议概述.md",
     "_posts/architect/System Design/frontendgeek.com",
@@ -725,9 +737,6 @@
     "_posts/methods/常看的.md",
     "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/Frontend System Design-NamasteDev/Overview-NamasteDev.md",
-    "_posts/architect/System Design/System Design-QW.md",
-    "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-28.md",
     "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/architect/System Design/media/a213179908f4b73888edbeefed5d8d29_MD5.jpg",
     "_posts/architect/System Design/media/ecc8643a9ca430413b247e3ecba271c2_MD5.jpg",
@@ -735,18 +744,9 @@
     "_posts/architect/System Design/media/684db9bd6325ab1333b4cec41d64249e_MD5.jpg",
     "_posts/architect/System Design/media/cfe945d158840d902e931ed1911060a4_MD5.jpg",
     "_posts/architect/System Design/media/2ad9745e63ef6255be96c99918db745c_MD5.jpg",
-    "_posts/architect/System Design/media/8f53ea8b2d65efc47b4a810254570f98_MD5.jpg",
-    "_posts/architect/System Design/media/9f36c2ae2e5e225d48d1c6b36e263147_MD5.jpg",
-    "_posts/architect/System Design/media/9dc688883fda7388a5fccaa5ee96cf61_MD5.jpg",
-    "_posts/architect/System Design/greatfrontend.com/media/65ca9ae06e63868674ddce6390a6f3f2_MD5.jpeg",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘",
     "_posts/AI/短视频/搞笑类",
-    "_posts/AI/短视频/影视解说类",
-    "_posts/AI/短视频",
-    "_posts/architect/System Design/frontendlead.com/media",
-    "_posts/English/词根、词缀",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
