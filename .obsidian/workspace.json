@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
+                "file": "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-10-29"
+              "title": "2025-10-30"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/前端系统设计：入门基础.md",
+                "file": "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端系统设计：入门基础"
+              "title": "3. The RADIO Framework"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
+                "file": "_posts/读书笔记/男女.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,11 +508,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI + 动物搞笑"
+              "title": "男女"
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,34 +699,35 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "4cadab280e4611b8",
   "lastOpenFiles": [
-    "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
-    "_posts/architect/System Design/前端系统设计：入门基础.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
+    "_posts/AI/短视频/参考视频.md",
+    "_posts/读书笔记/健康/糖尿病/测量.md",
+    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
+    "_posts/architect/System Design/前端系统设计：入门基础.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/tools/资源.md",
+    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
+    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
+    "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
+    "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
     "_posts/网络/网络协议概述.md",
+    "_posts/architect/System Design/frontendgeek.com",
     "_posts/网络/互联网是如何运作的？.md",
     "_posts/interview/面试题/网络/网络.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/常看的.md",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
     "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
     "_posts/architect/System Design/Frontend System Design-NamasteDev/Overview-NamasteDev.md",
     "_posts/architect/System Design/System Design-QW.md",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
-    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
-    "_posts/architect/System Design/_前端系统设计面试速查表.md",
-    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
     "_posts/architect/System Design/Clean Frontend Architecture：整洁前端架构.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
     "DailyNote/Journal/01 Daily/2025/10/2025-10-28.md",
-    "_posts/要整理的.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/如何学习软件设计与架构、全栈软件设计与架构图谱.md",
-    "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-27.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-26.md",
     "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/architect/System Design/media/a213179908f4b73888edbeefed5d8d29_MD5.jpg",
     "_posts/architect/System Design/media/ecc8643a9ca430413b247e3ecba271c2_MD5.jpg",
@@ -746,7 +747,6 @@
     "_posts/architect/System Design/frontendlead.com/media",
     "_posts/English/词根、词缀",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/未命名",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
