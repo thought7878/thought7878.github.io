@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04. Positioning"
+              "title": "05. Reflow"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,21 +699,21 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2217590f42de62ce62dfd146b5d14179_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101202807.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/6be80ac6b2f067dc86de820afe601a63_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101202013.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/b6c7dc2e57423dcbdc70a476769478d5_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101201731.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/c0cacd101c02a5951e72de303d77c1db_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101180402.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/b3c3804fa1ae36d60a745681ec6f846c_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101175822.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2191667232b8f40ec7ed33924ed12531_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101174708.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/72737f048ef47fe8fb4bfd4234cf964a_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101173550.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/5825d9bf2a85669c7ee96af81e3b14ec_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101172500.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/db1934f785b9392f8b890718bdf34f62_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Formatting Context.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
     "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
