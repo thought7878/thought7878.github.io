@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Browser Formatting Context.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03. Browser Formatting Context"
+              "title": "04. Positioning"
             }
           },
           {
@@ -701,22 +701,23 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/72737f048ef47fe8fb4bfd4234cf964a_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101173550.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/5825d9bf2a85669c7ee96af81e3b14ec_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101172500.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/db1934f785b9392f8b890718bdf34f62_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101172016.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/3d4916edd54babf9b50ac375bff4fd34_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101171528.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/6cfb58af44d90016ffd8dc8c0a3da2f1_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101171345.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Formatting Context.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/f48c0cceb19cfa2c82c11c78738fc1d3_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101165251.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/15ff8ac16fc97efc69212f99c99d6c29_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101164534.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/58e03568d57b582e28555bbf2ea4b025_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101164343.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/5adf44efb64725fbb4cbaa8c01af0077_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101164051.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/86327b9848058d4f1c363fd5252bae3a_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101163720.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101104107.png",
     "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Browser Formatting Context.md",
     "_posts/architect/System Design/课程：Front-End System Design/01.Introduction/01. Introduction.md",
     "_posts/architect/System Design/课程：Front-End System Design/01.Introduction",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识",
@@ -744,7 +745,6 @@
     "_posts/网络/互联网是如何运作的？.md",
     "_posts/interview/面试题/网络/网络.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "_posts/methods/常看的.md",
     "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/engineering/未命名.canvas",
