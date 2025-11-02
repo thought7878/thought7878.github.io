@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05. Reflow"
+              "title": "06. Composition Layers"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,16 +699,23 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/单词/reflow.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/3b473c31e6f760b23faa685d742c925f_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102093542.png",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/methods/构建系统/如何建立系统？.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/English/每日记录（复习）.md",
+    "_posts/English/单词/composite.md",
+    "_posts/English/单词/flow.md",
+    "_posts/English/单词/reflow.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-01.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/5c11feb581d90f794513e91619529f3d_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101212403.png",
-    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2217590f42de62ce62dfd146b5d14179_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101202807.png",
@@ -716,8 +723,6 @@
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101202013.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/b6c7dc2e57423dcbdc70a476769478d5_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101201731.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/c0cacd101c02a5951e72de303d77c1db_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251101180402.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Formatting Context.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
     "_posts/读书笔记/男女.md",
@@ -739,11 +744,6 @@
     "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/tools/资源.md",
     "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
-    "_posts/architect/System Design/_Frontend Architecture Patterns.md",
-    "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md",
-    "_posts/architect/System Design/_前端系统设计：工程师的实用指南.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-29.md",
     "_posts/architect/System Design/frontendgeek.com",
     "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
