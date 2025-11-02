@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06. Composition Layers"
+              "title": "07. Browser Rendering"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -701,19 +701,20 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/b713970dda850a776d1ba80a4282cecc_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102134806.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/0c0b23a284a120e71650615c70a80ab4_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102134636.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2120d6792ab1627e8da3a6c6d0759cde_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102133940.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/ded31b59314e39c74dcd3a528a347448_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102133346.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/ba55034814de0ca8ca1d616af0f30e84_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102133130.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/80e11e4982bf91207268437e6cca2e50_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/d44b503d7171af3cdf9b07b414172fc9_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102143056.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/70d99ec8c4711b4c19f69c2969a9a40d_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102142617.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/7af916ee8c8d3f5a058e2ab98b472e2b_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102142000.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/d7dd459c24794125cfcf7bfdf7ad0dc1_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102141744.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/010f239f92d998c05ab9a1036d35c1ed_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102141610.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2326f1a056592188fb52b426c77c6b0e_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
@@ -743,7 +744,6 @@
     "_posts/architect/System Design/前端系统设计：入门基础.md",
     "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
     "_posts/architect/System Design/_Frontend System Design Guide.md",
-    "_posts/tools/资源.md",
     "_posts/architect/System Design/frontendgeek.com",
     "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
