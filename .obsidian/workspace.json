@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08. DOM & Querying"
+              "title": "28. REST & GraphQL"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,14 +699,41 @@
       "media-extended:Open media": false
     }
   },
-  "active": "a16c9704b5e7fa50",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/26. Server-Sent Events.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/25. Network Connectivity.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/23. Handle Top Virtualization.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/22. Virtualization Pool Q&A.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/21. Recycling Elements.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/20. Creating a Virtualization Pool.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/19. Loading New Data.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/18. Coding Virtualization from Scratch.md",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization/17. Virtualization Technique.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/16. ResizeObserver Exercise.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/15. ResizeObserver.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/14. MutationObserver Exercise.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/13. MutationObserver.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/12. Infinite Scroll with IntersectionObserver.md",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/11. Observer API.md",
+    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
+    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/09. DOM Performance Best Practices.md",
+    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/10. DOM Templating Exercise.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
+    "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
+    "_posts/architect/System Design/课程：Front-End System Design/07.Web Application Performance",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity",
+    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization",
+    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2d71c0287d97d24b2488b4b62e902e84_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/74328e158b284bcb2c0ce4ba1c5fdeff_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102164410.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102163738.png",
-    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
     "_posts/architect/System Design/课程：Front-End System Design/03.DOM API",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/d44b503d7171af3cdf9b07b414172fc9_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102143056.png",
@@ -717,35 +744,9 @@
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/methods/构建系统/如何建立系统？.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/English/每日记录（复习）.md",
-    "_posts/English/单词/composite.md",
-    "_posts/English/单词/flow.md",
-    "_posts/English/单词/reflow.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-01.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/04. Positioning.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/03. Formatting Context.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
-    "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media",
-    "_posts/architect/System Design/课程：Front-End System Design/01.Introduction/01. Introduction.md",
     "_posts/architect/System Design/课程：Front-End System Design/01.Introduction",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识",
-    "_posts/architect/System Design/课程：Front-End System Design/media",
-    "_posts/architect/System Design/greatfrontend.com/3. The RADIO Framework.md",
-    "_posts/architect/System Design/课程：Front-End System Design",
-    "DailyNote/Journal/01 Daily/2025/10/2025-10-30.md",
-    "DailyNote/Journal/01 Daily/2025/11",
-    "_posts/AI/短视频/搞笑类/AI + 动物搞笑.md",
-    "_posts/AI/短视频/参考视频.md",
-    "_posts/读书笔记/健康/糖尿病/测量.md",
-    "_posts/architect/System Design/前端系统设计：入门基础.md",
-    "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
-    "_posts/architect/System Design/frontendgeek.com",
-    "DailyNote/Journal/01 Daily/2025/10/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
