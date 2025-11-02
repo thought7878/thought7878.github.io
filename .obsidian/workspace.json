@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "07. Browser Rendering"
+              "title": "08. DOM & Querying"
             }
           },
           {
@@ -699,21 +699,22 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2d71c0287d97d24b2488b4b62e902e84_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/74328e158b284bcb2c0ce4ba1c5fdeff_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102164410.png",
+    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102163738.png",
+    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
+    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/d44b503d7171af3cdf9b07b414172fc9_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102143056.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/70d99ec8c4711b4c19f69c2969a9a40d_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102142617.png",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/7af916ee8c8d3f5a058e2ab98b472e2b_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102142000.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/d7dd459c24794125cfcf7bfdf7ad0dc1_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102141744.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/010f239f92d998c05ab9a1036d35c1ed_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/Pasted image 20251102141610.png",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media/2326f1a056592188fb52b426c77c6b0e_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/methods/构建系统/如何建立系统？.md",
@@ -743,10 +744,8 @@
     "_posts/读书笔记/健康/糖尿病/测量.md",
     "_posts/architect/System Design/前端系统设计：入门基础.md",
     "_posts/architect/System Design/Client-Side Architecture Basics/2. Architecture.md",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
     "_posts/architect/System Design/frontendgeek.com",
     "DailyNote/Journal/01 Daily/2025/10/media",
-    "_posts/读书笔记/健康/老爹/病/心源性哮喘/药",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
