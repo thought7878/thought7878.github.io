@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/26. Server-Sent Events.md",
+                "file": "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "26. Server-Sent Events"
+              "title": "27. Web Sockets"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -699,13 +699,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d927b23034a32649",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/English/每日记录（复习）.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/5da423e20eeb564dabc2fd359ca3264c_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211632.png",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/1454673c7adcde97d30c3d606dc00276_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211219.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/26. Server-Sent Events.md",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/c11d65e8fe3689d5bb2be2943cd78db3_MD5.jpeg",
+    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103210108.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/6c17ce25c4cfa44cc0a316a0d6d6cd53_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103200915.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/25. Network Connectivity.md",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/父母.md",
@@ -713,14 +720,7 @@
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/f6be50e3e1f796ee88d6f9c4e797bd7a_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103162753.png",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/596fa72fe435a3b2d7fe115af4dd6bf3_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103162418.png",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/8643973092538c435b39b501b576a6ed_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103161625.png",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/3e59f1bcdbca09aa4c940b4ec8f5e3c6_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103155106.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
-    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
