@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/English/查询单词的提示词模版.md",
+                "file": "_posts/English/单词/notation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "查询单词的提示词模版"
+              "title": "notation"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/4. 我是如何运行代码的.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 我是如何运行代码的"
+              "title": "1. 大O表示法入门"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -701,12 +701,18 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/2efe5bc781caa877124c16f20333dd49_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104100918.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media",
+    "_posts/English/单词/notation.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
+    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/4. 我是如何运行代码的.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/1. 课程概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/3. 计算操作次数.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/2. 为我们的代码计时.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction",
@@ -717,7 +723,6 @@
     "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/5da423e20eeb564dabc2fd359ca3264c_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211632.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/1454673c7adcde97d30c3d606dc00276_MD5.jpeg",
@@ -733,20 +738,15 @@
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/f6be50e3e1f796ee88d6f9c4e797bd7a_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103162753.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
-    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
-    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/09. DOM Performance Best Practices.md",
     "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
     "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
     "_posts/architect/System Design/课程：Front-End System Design/07.Web Application Performance",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity",
-    "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
