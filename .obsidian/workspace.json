@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/4. 我是如何运行代码的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 你应该按什么顺序观看"
+              "title": "4. 我是如何运行代码的"
             }
           },
           {
@@ -699,11 +699,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/1. 课程概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/4. 我是如何运行代码的.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/1. 课程概述.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/3. 计算操作次数.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/2. 为我们的代码计时.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction",
     "_posts/algorithm & 数据结构/算法是什么？为什么？-DS.md",
     "_posts/algorithm & 数据结构/教程",
@@ -737,16 +742,11 @@
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/07. Browser Rendering.md",
     "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/08. DOM & Querying.md",
     "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/09. DOM Performance Best Practices.md",
-    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API/10. DOM Templating Exercise.md",
-    "_posts/architect/System Design/课程：Front-End System Design/01.Introduction/01. Introduction.md",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/11. Observer API.md",
     "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
     "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
     "_posts/architect/System Design/课程：Front-End System Design/07.Web Application Performance",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity",
     "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
