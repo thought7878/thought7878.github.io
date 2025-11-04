@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-03"
+              "title": "2025-11-04"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27. Web Sockets"
+              "title": "3. 你应该按什么顺序观看"
             }
           },
           {
@@ -699,10 +699,20 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/English/每日记录（复习）.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/1. 课程概述.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction",
+    "_posts/algorithm & 数据结构/算法是什么？为什么？-DS.md",
+    "_posts/algorithm & 数据结构/教程",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/5da423e20eeb564dabc2fd359ca3264c_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211632.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/1454673c7adcde97d30c3d606dc00276_MD5.jpeg",
@@ -714,7 +724,6 @@
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103200915.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/25. Network Connectivity.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
-    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/父母.md",
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
@@ -722,7 +731,6 @@
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103162753.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/05. Reflow.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/06. Composition Layers.md",
@@ -733,19 +741,12 @@
     "_posts/architect/System Design/课程：Front-End System Design/01.Introduction/01. Introduction.md",
     "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/02. Box Model.md",
     "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/11. Observer API.md",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/12. Infinite Scroll with IntersectionObserver.md",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/13. MutationObserver.md",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/14. MutationObserver Exercise.md",
-    "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns/15. ResizeObserver.md",
     "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
     "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
     "_posts/architect/System Design/课程：Front-End System Design/07.Web Application Performance",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity",
     "_posts/architect/System Design/课程：Front-End System Design/05.Virtualization",
     "_posts/architect/System Design/课程：Front-End System Design/04.Web APIs for Complex UI Patterns",
-    "_posts/architect/System Design/课程：Front-End System Design/03.DOM API",
-    "DailyNote/Journal/01 Daily/2025/11/media",
-    "_posts/architect/System Design/课程：Front-End System Design/02.核心基础知识/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
