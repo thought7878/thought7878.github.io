@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-04"
+              "title": "2025-11-05"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/5. 大O表示法正式介绍.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/6. 简化大O表达式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 大O表示法正式介绍"
+              "title": "6. 简化大O表达式"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -701,6 +701,17 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/bcf2eaa6336af7c171f2fff9a61169c0_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251105074542.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/8852b52e8d3dc42edc749eebf4de5230_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251105074302.png",
+    "_posts/English/每日记录（复习）.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/6. 简化大O表达式.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/5. 大O表示法正式介绍.md",
+    "DailyNote/Journal/01 Daily/学习、复习记录.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/0f2c3a2f3bdcc25d2f7ecae648f6389b_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104210338.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/39ef35864905d20672483eacb0181d8e_MD5.jpeg",
@@ -708,19 +719,12 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/75acab2186fe39d50db86c7d7239cb53_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104205624.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/cb3abde2deabaa9ca8900aec5cb0d35b_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104205114.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/d00a7faca5dbfa62773c6db3be52e8d1_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104204911.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/38ceb2b0683c09cbdaa48a1b9706e28b_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/4. 可视化时间复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/3. 统计操作次数.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/5. 大O表示法正式介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/2. 为我们的代码计时.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media",
     "_posts/English/单词/notation.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/4. 我是如何运行代码的.md",
@@ -730,7 +734,6 @@
     "_posts/algorithm & 数据结构/算法是什么？为什么？-DS.md",
     "_posts/algorithm & 数据结构/教程",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-03.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -739,10 +742,7 @@
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
     "_posts/读书笔记/父母.md",
     "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
     "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
     "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
     "_posts/architect/System Design/课程：Front-End System Design/07.Web Application Performance",
