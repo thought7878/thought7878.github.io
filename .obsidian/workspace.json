@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/2. 为我们的代码计时.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 大O表示法入门"
+              "title": "2. 为我们的代码计时"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -701,12 +701,18 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/bf865f3295504b8db81795b8e15f33ab_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104104216.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/39fc62233ad1049b7cfd27efa42bfe04_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104104044.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/86eda42632b604d142e30f4513d4d314_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104103526.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/2efe5bc781caa877124c16f20333dd49_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media/Pasted image 20251104100918.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media",
     "_posts/English/单词/notation.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/27. Web Sockets.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/3. 你应该按什么顺序观看.md",
@@ -725,19 +731,12 @@
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/5da423e20eeb564dabc2fd359ca3264c_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211632.png",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/1454673c7adcde97d30c3d606dc00276_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103211219.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/26. Server-Sent Events.md",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/c11d65e8fe3689d5bb2be2943cd78db3_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103210108.png",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/6c17ce25c4cfa44cc0a316a0d6d6cd53_MD5.jpeg",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/Pasted image 20251103200915.png",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/25. Network Connectivity.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/28. REST & GraphQL.md",
     "_posts/读书笔记/父母.md",
     "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media/f6be50e3e1f796ee88d6f9c4e797bd7a_MD5.jpeg",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/24. Application State Design.md",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-02.md",
