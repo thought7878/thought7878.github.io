@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-05"
+              "title": "2025-11-06"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/6. 数组方法的大O表示法.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/2. 问题解决入门.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. 数组方法的大O表示法"
+              "title": "2. 问题解决入门"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -699,12 +699,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/6. 数组方法的大O表示法.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/2. 问题解决入门.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-06.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/324c42dec6dd644230ee0d40c688e8e8_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/Pasted image 20251105175911.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/5. 数组何时变慢.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/6. 数组方法的大O表示法.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/66a68e0d3f192dc128be80db7a824c30_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/Pasted image 20251105171015.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/8d2afff0f3a50da132924a78a0e29c27_MD5.jpeg",
@@ -716,7 +720,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/Pasted image 20251105145556.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/b354ad2c96e35f48612ab3925057a731_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/Pasted image 20251105142040.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media/5f166b1b62eee9db880af19dbe5f7e3c_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/2. 章节介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media",
     "_posts/English/每日记录（复习）.md",
@@ -727,7 +730,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/5. 大O表示法正式介绍.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/1. 大O表示法入门.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-04.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/4. 可视化时间复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/3. 统计操作次数.md",
@@ -741,12 +743,10 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction/1. 课程概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction",
-    "_posts/algorithm & 数据结构/算法是什么？为什么？-DS.md",
     "_posts/algorithm & 数据结构/教程",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass",
     "_posts/architect/System Design/课程：Front-End System Design/06.Application State & Network Connectivity/media",
     "_posts/architect/System Design/课程：Front-End System Design/09.Wrapping Up",
-    "_posts/architect/System Design/课程：Front-End System Design/08.Systems Design Interview-Social Media News Feed",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
