@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/3. 频率计数器模式.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/4. 频率计数器变位词挑战.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 频率计数器模式"
+              "title": "4. 频率计数器变位词挑战"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/男女.md",
+                "file": "_posts/读书笔记/世界趋势/趋势.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "男女"
+              "title": "趋势"
             }
           }
         ],
@@ -701,23 +701,24 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/3. 频率计数器模式.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/4. 频率计数器变位词挑战.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/2952baf4be9a136f051fce26b6335ee2_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_17-02-44.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/3. Objects的大O表示法.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/6. 数组方法的大O表示法.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/男女.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/021d3da55af5b7d008374945e1a11b49_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_14-42-55.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/882efe019e8048011b8d4165f1df3a91_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_14-35-13.png",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/3. 频率计数器模式.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/ac0859ec834f1c766a97ef60f3074be6_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_13-51-06.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/939595917d4f7b673823a0a35ddcabaa_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_13-49-26.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/7375d7a211b55c08d2df2f18e99a14f9_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-09_13-43-03.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/4. 频率计数器变位词挑战.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/2. 问题解决模式入门.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/c6ebd914b2c2084eb8e8063ed08dc84d_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/8. 总结.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns",
@@ -736,11 +737,9 @@
     "_posts/读书笔记/人性.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/3. 步骤1：理解问题.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/6. 数组方法的大O表示法.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-05.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/5. 数组何时变慢.md",
-    "_posts/读书笔记/旅居、旅行.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media",
