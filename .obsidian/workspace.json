@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/2. 故事时间：马丁与龙.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/3. 为什么使用递归.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. 故事时间：马丁与龙"
+              "title": "3. 为什么使用递归"
             }
           },
           {
@@ -701,24 +701,26 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/12. 分治法模式.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/2. 故事时间：马丁与龙.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/3. 为什么使用递归.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/25d04b5bea624db3bd9d28b2a7ac9df9_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-11_14-50-11.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/a3629cc905d24a9e02b88d9a5d1cb03c_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-11_14-48-05.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/b4200531389232f441a70dc494807ba7_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-11_14-46-38.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/86faa5bb9c9d0bb71959e45fbed0b796_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-11_14-45-39.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/ebbbd64408df67a83675c61e784b1b75_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-11_14-44-51.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/12. 分治法模式.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/eab0b7d99b4b62702751dad6d5340b27_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-11_10-52-40.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/b79913431a3a13d78b35c2cd1e075c10_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-11_10-52-03.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/6a2c77398f38d034f07f5958ab823226_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-11_10-49-17.png",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/男女.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/5fd4a561499c6782477ff37a8242b494_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-11_10-27-19.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/11. 滑动窗口模式.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/60b525468dca43c7dd4435254f4d555e_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media/PixPin_2025-11-11_08-40-22.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/10. 计数唯一值的解决方案.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/8. 多指针计数唯一值挑战.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/7. 多指针模式.md",
@@ -739,14 +741,12 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/7. 步骤5：回顾与重构.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-08.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-07.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/03. Analyzing Performance of Arrays and Objects",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/01. Introduction",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
