@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/11. 辅助方法递归.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/12. 纯递归.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11. 辅助方法递归"
+              "title": "12. 纯递归"
             }
           },
           {
@@ -673,7 +673,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -701,14 +701,22 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/10. 常见的递归陷阱.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/4ddf01f3b3611b0426c8aeaf95f5905a_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_10-24-49.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/28791e8b623887541b085af138d2a5e3_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_10-20-23.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/14cd89bfae779d05e6e2d2477903a156_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_10-11-28.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/11. 辅助方法递归.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/712652b2ee9af77d280cb83fdf8d6968_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_08-25-56.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/0c4edc1c2c29a5dba5bb0b87988533a0_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_09-34-18.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/12. 纯递归.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/e048caffb33fc6d37527c8a4655c254a_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_09-30-22.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/f03aa92649287063d02dd67fd491aaa9_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/10. 常见的递归陷阱.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/4. 调用栈.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/9. 递归编写阶乘.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/1731dc2b2e1d344ef578d86aa9951b0a_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-13_08-18-12.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/8. 迭代法编写阶乘.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/7. Our Second Recursive Function.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/5. Our First Recursive Function.md",
@@ -718,8 +726,6 @@
     "DailyNote/Journal/01 Daily/2025/11/2025-11-12.md",
     "_posts/methods/常看的.md",
     "_posts/methods/熟练，才会上瘾.md",
-    "_posts/methods/media/d37659e82ff4131d622d72d61be375fd_MD5.jpeg",
-    "_posts/methods/media/PixPin_2025-11-13_07-29-20.png",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/读书笔记/博主.md",
@@ -727,18 +733,12 @@
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/旅居、旅行.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/99c64f5a7e6873e570f1eba38751bd98_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-12_10-48-05.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/fda878ecf1c10b264c00c4284f028b14_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media/PixPin_2025-11-12_10-17-37.png",
     "_posts/English/每日记录（复习）.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-11.md",
     "_posts/base/知识目录、路线图/学习计划/_要整理的.md",
     "_posts/methods/要整理的.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/12. 分治法模式.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/11. 滑动窗口模式.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/media",
