@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/12. 朴素字符串搜索.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/13. 朴素字符串搜索实现.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. 朴素字符串搜索"
+              "title": "13. 朴素字符串搜索实现"
             }
           },
           {
@@ -699,12 +699,21 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "a16c9704b5e7fa50",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/13971bec26d1ebe5163b83173c233848_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-03-32.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/11. 二分查找的时间复杂度（BIG O）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/12. 朴素字符串搜索.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/13. 朴素字符串搜索实现.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/a995910a12e94b871ecef7c2d1ee84c0_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-28-54.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/5e1cf69f8f3c37ca5a49c73d4edc75bf_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-25-20.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/a5b66f7a266e8f52aa95d6ed56a1b057_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-24-57.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/e0c2646b2d96c05de804060025461b16_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-22-12.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/9da87e5d7bf94534b2f5e44e6d145134_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-15_09-21-38.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/11. 二分查找的时间复杂度（BIG O）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/6. 简化大O表达式.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/5. 大O表示法正式介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/4. 可视化时间复杂度.md",
@@ -715,19 +724,10 @@
     "DailyNote/Journal/01 Daily/2025/11/2025-11-15.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-14.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/68aee72103229937e28b6868bb1f7b34_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-14_21-50-43.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/fce9090864bafa703eab375661dfa0e0_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-14_21-48-23.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/ade4a0f3de1544c92eaf9eff159959bf_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-14_21-45-15.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/c0f7b64d0571001d591a95479ad154ea_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/PixPin_2025-11-14_21-44-50.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/10. 二分查找解决方案.md",
     "_posts/读书笔记/男女.md",
     "_posts/methods/常看的.md",
     "_posts/methods/熟练，才会上瘾.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media/b3bce0f833ad5f2b9b78b8dfca49b8fd_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/8. 二分查找伪代码.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/7. 二分查找入门.md",
