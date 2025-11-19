@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-16"
+              "title": "2025-11-19"
             }
           },
           {
@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -595,22 +595,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/AI/编程/Trae/Trae的基础.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Trae的基础 的出链列表"
-            }
-          },
-          {
-            "id": "7d3db5aebf49ddcb",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "title": "2025-11-19 的出链列表"
             }
           },
           {
@@ -626,15 +616,17 @@
           {
             "id": "9b6b9e6d91bf8833",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "timer-view",
               "state": {},
+              "pinned": true,
               "icon": "timer",
               "title": "Timer"
             }
           },
           {
-            "id": "84b44971c74947c5",
+            "id": "4c4a5a68cbf2dd1f",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -642,38 +634,9 @@
               "icon": "calendar-days",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "3215013a7da1b2d3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_posts/AI/编程/Trae/Trae的基础.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Trae的基础 的反向链接列表"
-            }
-          },
-          {
-            "id": "509635561c5b16bc",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -683,24 +646,28 @@
     "hiddenItems": {
       "bases:创建新数据库": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "callout-manager:Insert Callout": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
       "pomodoro-timer:Toggle timer panel": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "audio-recorder:开始/结束录音": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
+    "DailyNote/Journal/01 Daily/2025/11/media",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/d7ddf9558ec16fa84b1f464b715fea6c_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_09-23-57.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/5cf3108f1648f5d6dc087059eb58c8db_MD5.jpeg",
@@ -710,15 +677,12 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/3b1b6ddd5747bc9c4efc4cf5813e64f8_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_08-00-45.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3. 内置JavaScript排序.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/2. 排序算法入门（简介）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3.1 sort().md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-15.md",
     "_posts/methods/常看的.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/27524f7186eef18baf86a5e10464fd50_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-15_21-24-09.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/9091c1b877c3766643657b8f4b70be76_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/13. 朴素字符串搜索实现.md",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/健康/其他类别.md",
@@ -746,7 +710,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
