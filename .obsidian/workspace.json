@@ -512,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -595,12 +595,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-11-19 的出链列表"
+              "title": "4. 冒泡排序概述 的出链列表"
             }
           },
           {
@@ -662,10 +662,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/d7ddf9558ec16fa84b1f464b715fea6c_MD5.jpeg",
