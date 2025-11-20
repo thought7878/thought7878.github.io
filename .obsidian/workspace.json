@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-19"
+              "title": "2025-11-20"
             }
           },
           {
@@ -634,9 +634,48 @@
               "icon": "calendar-days",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "c0c6cd73ac3e5201",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "4. 冒泡排序概述 的反向链接列表"
+            }
+          },
+          {
+            "id": "c06cb97536a4bcbb",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "eef0aa3674992332",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -664,10 +703,16 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3. 内置JavaScript排序.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/2. 排序算法入门（简介）.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
+    "_posts/读书笔记/media",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/权力.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/d7ddf9558ec16fa84b1f464b715fea6c_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_09-23-57.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/5cf3108f1648f5d6dc087059eb58c8db_MD5.jpeg",
@@ -676,8 +721,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_09-09-18.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/3b1b6ddd5747bc9c4efc4cf5813e64f8_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_08-00-45.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3. 内置JavaScript排序.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/2. 排序算法入门（简介）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3.1 sort().md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-15.md",
     "_posts/methods/常看的.md",
@@ -688,7 +731,6 @@
     "_posts/读书笔记/健康/其他类别.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/KMP String Search.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media",
-    "_posts/读书笔记/人性.md",
     "_posts/读书笔记/穷人.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/读书笔记/男女.md",
@@ -699,17 +741,14 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/10. 二分查找解决方案.md",
     "_posts/读书笔记/富人.md",
     "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/读书笔记/权力.md",
     "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/12. 朴素字符串搜索.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/11. 二分查找的时间复杂度（BIG O）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
