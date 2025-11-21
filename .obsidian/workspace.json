@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-20"
+              "title": "2025-11-21"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/人性.md",
+                "file": "_posts/读书笔记/生老病死.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "人性"
+              "title": "生老病死"
             }
           }
         ],
@@ -683,13 +683,19 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/5. 冒泡排序实现.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
+    "_posts/读书笔记/生老病死.md",
+    "_posts/读书笔记/人生.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/健康/性.md",
     "_posts/读书笔记/健康/其他类别.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3. 内置JavaScript排序.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/2. 排序算法入门（简介）.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
     "_posts/读书笔记/media",
     "_posts/读书笔记/权力.md",
@@ -705,7 +711,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_08-00-45.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3.1 sort().md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-15.md",
-    "_posts/methods/常看的.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/27524f7186eef18baf86a5e10464fd50_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-15_21-24-09.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/13. 朴素字符串搜索实现.md",
@@ -718,11 +723,6 @@
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/04. Problem Solving Approach/8. 总结.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/10. 二分查找解决方案.md",
-    "_posts/读书笔记/富人.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media",
