@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-21"
+              "title": "2025-11-22"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/生老病死.md",
+                "file": "_posts/读书笔记/健康/老爹/病/冠心病.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "生老病死"
+              "title": "冠心病"
             }
           }
         ],
@@ -683,8 +683,17 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/7. 冒泡排序的大O复杂度.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-22.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/2. 选择排序简介.md",
+    "DailyNote/Journal/01 Daily/2025-11-22.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/读书笔记/健康/资料.md",
+    "_posts/读书笔记/生老病死.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media/b852411f8dfa55049810b47705847a0a_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media/PixPin_2025-11-21_17-31-37.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/7. 冒泡排序的大O复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/6. 冒泡排序优化.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/e13ba7b4d454aade3f9cc9fb260d09b0_MD5.jpeg",
@@ -698,9 +707,7 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/methods/常看的.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-20.md",
-    "_posts/读书笔记/生老病死.md",
     "_posts/读书笔记/人生.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/健康/性.md",
@@ -713,22 +720,15 @@
     "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/d7ddf9558ec16fa84b1f464b715fea6c_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-16_09-23-57.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/5cf3108f1648f5d6dc087059eb58c8db_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/3.1 sort().md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-15.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/13. 朴素字符串搜索实现.md",
-    "_posts/读书笔记/健康/资料.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/KMP String Search.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media",
-    "_posts/读书笔记/穷人.md",
-    "_posts/读书笔记/世界趋势/美国.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/10. Searching Algorithms",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/07. Recursion",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/05. Problem Solving Patterns/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
