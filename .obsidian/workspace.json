@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/3. 数据结构：Class 关键字.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/4. 实例方法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 数据结构：Class 关键字"
+              "title": "4. 实例方法"
             }
           },
           {
@@ -641,7 +641,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/3. 数据结构：Class 关键字.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/4. 实例方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -651,7 +651,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "3. 数据结构：Class 关键字 的反向链接列表"
+              "title": "4. 实例方法 的反向链接列表"
             }
           }
         ],
@@ -683,15 +683,21 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/2. ES2015 Class Syntax Overview.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/8ae22fe08d6224e3ee0af2a3dc83c4f6_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_16-59-58.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/3. 数据结构：Class 关键字.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/4. 实例方法.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/9c03a76e43e1ea65e62d78e794cdbfde_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_16-41-03.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/bcf7cc9836b39d83ce3b49a5a5b192bb_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_16-38-45.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/2. ES2015 Class Syntax Overview.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/172710a2eec76181b66d9d17162f3c02_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_14-34-36.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/1. 哪种数据结构最好？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/3ef649fcc24e4a45920981db94144bbe_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_13-56-10.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/98890eb11512cd57e517b4527a8326e1_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media/PixPin_2025-11-22_13-49-03.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/2. 选择排序简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction",
@@ -701,14 +707,10 @@
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/生老病死.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media/b852411f8dfa55049810b47705847a0a_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media/PixPin_2025-11-21_17-31-37.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/7. 冒泡排序的大O复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/6. 冒泡排序优化.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/e13ba7b4d454aade3f9cc9fb260d09b0_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media/PixPin_2025-11-21_17-01-30.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/5. 冒泡排序实现.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
     "_posts/methods/常看的.md",
@@ -722,8 +724,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/2. 排序算法入门（简介）.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-19.md",
     "_posts/读书笔记/media",
-    "_posts/读书笔记/权力.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-16.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort",
