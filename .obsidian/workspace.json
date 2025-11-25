@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/配置/配置git 和 github.md",
+                "file": "_posts/tools/mac/Homebrew.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "配置git 和 github"
+              "title": "Homebrew"
             }
           },
           {
@@ -590,17 +590,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89a6b54ce21e8655",
+            "id": "c0c6cd73ac3e5201",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "backlink",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/4. 冒泡排序概述.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "_posts/tools/mac/Homebrew.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               },
-              "icon": "links-going-out",
-              "title": "4. 冒泡排序概述 的出链列表"
+              "icon": "links-coming-in",
+              "title": "Backlinks for Homebrew"
             }
           },
           {
@@ -616,6 +621,18 @@
             }
           },
           {
+            "id": "687a79329fbe7b11",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "pinned": true,
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
             "id": "e8dc50d2b18b22a3",
             "type": "leaf",
             "state": {
@@ -626,30 +643,35 @@
             }
           },
           {
-            "id": "c0c6cd73ac3e5201",
+            "id": "8420a071453fa634",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/配置/配置git 和 github.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/11. get()介绍.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 配置git 和 github"
+              "icon": "links-going-out",
+              "title": "Outgoing links from 11. get()介绍"
+            }
+          },
+          {
+            "id": "da1b8ee59b8d17b1",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -673,11 +695,14 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/tools/mac/media",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/11. get()介绍.md",
+    "_posts/tools/mac/Homebrew.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/配置/在shell中配置 git 命令的快捷方式.md",
     "_posts/engineering/版本控制与协作/Git/配置/配置git 和 github.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "Brewfile",
     "_posts/engineering/版本控制与协作/Git/配置",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/11. get()介绍.md",
     "_posts/methods/学习方法/_马斯克的2条学习法则.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/10. unshift()实现.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/04b1b6bcc6393dce14925caabec964a9_MD5.jpeg",
@@ -711,14 +736,11 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/2. ES2015 Class Syntax Overview.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/1. 哪种数据结构最好？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/2. 选择排序简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-21.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort",
     "_posts/读书笔记/media",
     "DailyNote/Journal/01 Daily/2025/11/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/11. Bubble Sort/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]

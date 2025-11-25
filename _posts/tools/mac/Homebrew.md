@@ -187,3 +187,67 @@ brew bundle install # 在新机器上恢复环境
 3. **避免混用系统包**：优先使用 Homebrew 而非 `pip`/`npm` 安装全局依赖。
 
 如果需要更具体的命令或场景示例（如安装开发工具链、配置代理等），请进一步说明！
+
+# 软件恢复
+
+Homebrew 提供了强大的备份和恢复功能，主要通过 `brew bundle` 命令实现。以下是完整的恢复方法：
+
+## 1. 使用 Brewfile 恢复软件包
+
+### 基本恢复命令
+```bash
+brew bundle
+```
+这个命令会从当前目录的 `Brewfile` 文件中读取配置，自动恢复所有定义的软件包。
+
+### 指定特定的 Brewfile
+```bash
+brew bundle --file=/path/to/your/Brewfile
+```
+如果备份文件不在当前目录，可以使用 `--file` 参数指定路径。
+
+## 2. 恢复内容范围
+
+Brewfile 可以恢复多种类型的软件：
+- **brew tap** 中的软件库 
+- **brew 安装的命令行工具** 
+- **brew cask 安装的图形应用** 
+- **Mac App Store 安装的应用** 
+
+## 3. 完整恢复流程
+
+### 步骤1：安装 Homebrew（如果尚未安装）
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 步骤2：安装 bundle 扩展
+```bash
+brew tap homebrew/bundle
+```
+
+### 步骤3：恢复软件包
+```bash
+brew bundle --file=/path/to/backup/Brewfile
+```
+
+## 4. 高级恢复选项
+
+### 从标准位置恢复
+默认情况下，brew bundle 会从 `~/Brewfile` 位置恢复配置。
+
+### 从 stdin 恢复
+```bash
+cat Brewfile | brew bundle --file=-
+```
+使用 `--file=-` 参数可以从标准输入读取配置。
+
+## 5. 备份建议
+
+为了能够有效恢复，建议先创建备份：
+```bash
+brew bundle dump --file=Brewfile.backup
+```
+这个命令会导出当前所有已安装的包、cask 应用以及 tap 仓库到指定文件。
+
+通过这种方式，你可以在新系统或重装系统后，快速恢复完整的 Homebrew 开发环境，无需手动重新安装每个软件包。

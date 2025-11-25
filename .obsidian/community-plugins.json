@@ -1,6 +1,5 @@
 [
   "obsidian-local-images-plus",
-  "obsidian-quiet-outline",
   "dataview",
   "templater-obsidian",
   "obsidian-tracker",
@@ -9,7 +8,6 @@
   "journals",
   "obsidian-style-settings",
   "pomodoro-timer",
-  "obsidian-reminder-plugin",
   "obsidian-day-planner",
   "number-headings-obsidian",
   "obsidian-excalidraw-plugin",
@@ -17,5 +15,6 @@
   "media-extended",
   "drawio-obsidian",
   "obsidian-mindmap-nextgen",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-quiet-outline"
 ]
