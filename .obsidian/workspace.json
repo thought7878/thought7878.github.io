@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-24.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-24"
+              "title": "2025-11-26"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/mac/Homebrew.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/12. get()实现.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Homebrew"
+              "title": "12. get()实现"
             }
           },
           {
@@ -667,7 +667,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -695,9 +695,18 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/tools/mac/media",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/3d0463e5a5b667c206f49f6e42781e86_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251126073057.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/11. get()介绍.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/12. get()实现.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-26.md",
+    "DailyNote/Journal/01 Daily/2025-03-25.md",
+    "DailyNote/Journal/01 Daily/2025-11-22.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-24.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-25.md",
+    "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/tools/mac/Homebrew.md",
+    "_posts/tools/mac/media",
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/配置/在shell中配置 git 命令的快捷方式.md",
     "_posts/engineering/版本控制与协作/Git/配置/配置git 和 github.md",
@@ -720,27 +729,18 @@
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/读书笔记/社会 & 资本主义.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/59906e6d1a1ba1b9260a7265928e36b1_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251124091450.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/5. pop()介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/4. push()实现.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-24.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-23.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/3. 节点类与链表类的定义.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/2. 单向链表入门.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/5. 类方法.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/4. 实例方法.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-22.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/3. 数据结构：Class 关键字.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/2. ES2015 Class Syntax Overview.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/1. 哪种数据结构最好？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/12. Selection Sort",
-    "_posts/读书笔记/media",
-    "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
