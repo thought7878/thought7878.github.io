@@ -115,11 +115,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 35
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 35
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -195,7 +195,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/16. insert()实现.md": {
-    "scroll": 30.86521700197003,
+    "scroll": 30.087711181422005,
     "cursor": {
       "from": {
         "line": 34,
@@ -204,6 +204,76 @@
       "to": {
         "line": 34,
         "ch": 125
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/17..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 32
+      },
+      "to": {
+        "line": 0,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/17. remove()介绍.md": {
+    "scroll": 7.102213541666667,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 0
+      },
+      "to": {
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/18. remove()实现.md": {
+    "scroll": 9.638020833333334,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 23
+      },
+      "to": {
+        "line": 31,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/19. reverse()介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 74
+      },
+      "to": {
+        "line": 5,
+        "ch": 74
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/20. reverse()实现.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
