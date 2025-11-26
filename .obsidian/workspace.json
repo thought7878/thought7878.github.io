@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/12. get()实现.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/15. insert()介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. get()实现"
+              "title": "15. insert()介绍"
             }
           },
           {
@@ -695,10 +695,16 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/16. insert()实现.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/15. insert()介绍.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/14. set()实现.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/30b9de9b8f10c3bbd8fbb74bfdde7270_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251126084521.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/13. set()介绍.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/12. get()实现.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/3d0463e5a5b667c206f49f6e42781e86_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251126073057.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/11. get()介绍.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/12. get()实现.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-26.md",
     "DailyNote/Journal/01 Daily/2025-03-25.md",
     "DailyNote/Journal/01 Daily/2025-11-22.md",
@@ -722,20 +728,14 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251124100819.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/eff8a09e921ff652fecad4e50253c190_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251124100538.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/2403f919c431790498cfa42d138bd3ad_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/Pasted image 20251124100443.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/7. shift()介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/6. pop()实现.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media/59906e6d1a1ba1b9260a7265928e36b1_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/5. pop()介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/4. push()实现.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-23.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/3. 节点类与链表类的定义.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/2. 单向链表入门.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/media",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/5. 类方法.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/18. Data Structures Introduction",

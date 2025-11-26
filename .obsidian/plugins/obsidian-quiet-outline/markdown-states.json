@@ -115,11 +115,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 35
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 35
       }
     },
     "expandedKeys": []
@@ -148,6 +148,62 @@
       "to": {
         "line": 17,
         "ch": 146
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/13. set()介绍.md": {
+    "scroll": 5.340184266477675,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 0
+      },
+      "to": {
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/14. set()实现.md": {
+    "scroll": 13.55811580647904,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 7
+      },
+      "to": {
+        "line": 10,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/15. insert()介绍.md": {
+    "scroll": 11.12109375,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 113
+      },
+      "to": {
+        "line": 26,
+        "ch": 113
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/16. insert()实现.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
