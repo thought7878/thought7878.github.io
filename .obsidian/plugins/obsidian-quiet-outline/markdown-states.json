@@ -323,29 +323,33 @@
     "scroll": 82.28455431252256,
     "cursor": {
       "from": {
-        "line": 92,
-        "ch": 0
+        "line": 89,
+        "ch": 19
       },
       "to": {
-        "line": 92,
-        "ch": 0
+        "line": 89,
+        "ch": 19
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-14"
+    ]
   },
   "_posts/读书笔记/健康/老爹/病/冠心病.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-14"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/21. 复杂度.md": {
     "scroll": 30.571614583333332,
@@ -390,14 +394,86 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/2. 双向链表简介.md": {
-    "scroll": 14.513020833333334,
+    "scroll": 22.773619208827032,
     "cursor": {
       "from": {
-        "line": 21,
+        "line": 29,
         "ch": 0
       },
       "to": {
-        "line": 21,
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/男女.md": {
+    "scroll": 175.96028645833334,
+    "cursor": {
+      "from": {
+        "line": 184,
+        "ch": 0
+      },
+      "to": {
+        "line": 184,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-14"
+    ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 25
+      },
+      "to": {
+        "line": 0,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3. 设置Node类.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 29
+      },
+      "to": {
+        "line": 8,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3. 设置Node、List类.md": {
+    "scroll": 9.37109375,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 0
+      },
+      "to": {
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/4. push().md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
         "ch": 0
       }
     },
