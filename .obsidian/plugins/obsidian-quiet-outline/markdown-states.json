@@ -67,15 +67,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-26.md": {
-    "scroll": 10.636363636363637,
+    "scroll": 19.716631194892063,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 6
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 26,
-        "ch": 6
+        "line": 27,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -251,15 +251,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/19. reverse()介绍.md": {
-    "scroll": 0,
+    "scroll": 17.29932756964457,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 74
+        "line": 34,
+        "ch": 55
       },
       "to": {
-        "line": 5,
-        "ch": 74
+        "line": 26,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -277,5 +277,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/11/2025-11-27.md": {
+    "scroll": 24.292643229166668,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
