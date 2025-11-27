@@ -251,15 +251,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/19. reverse()介绍.md": {
-    "scroll": 17.29932756964457,
+    "scroll": 17.631316042267052,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 55
+        "line": 28,
+        "ch": 22
       },
       "to": {
-        "line": 26,
-        "ch": 0
+        "line": 28,
+        "ch": 22
       }
     },
     "expandedKeys": []
@@ -293,5 +293,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/3. 节点类与链表类的定义.md": {
+    "scroll": 16.692948263642805,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 66
+      },
+      "to": {
+        "line": 19,
+        "ch": 66
+      }
+    },
+    "expandedKeys": []
   }
 }
