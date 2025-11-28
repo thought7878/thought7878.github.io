@@ -274,14 +274,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-27.md": {
-    "scroll": 24.292643229166668,
+    "scroll": 19.716631194892063,
     "cursor": {
       "from": {
-        "line": 37,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 37,
+        "line": 27,
         "ch": 0
       }
     },
@@ -370,11 +370,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 13
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -394,14 +394,14 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/2. 双向链表简介.md": {
-    "scroll": 22.773619208827032,
+    "scroll": 22.81106722671515,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 35,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 35,
         "ch": 0
       }
     },
@@ -452,7 +452,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3. 设置Node、List类.md": {
-    "scroll": 9.37109375,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 25,
@@ -466,6 +466,64 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/4. push().md": {
+    "scroll": 28.172770714080677,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 19
+      },
+      "to": {
+        "line": 26,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/世界趋势/趋势.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md": {
+    "scroll": 19.599878382487077,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 6
+      },
+      "to": {
+        "line": 26,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/读书笔记/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/摄影.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -475,6 +533,34 @@
       "to": {
         "line": 2,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/兴趣/摄影.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/5. push()实现.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 26
+      },
+      "to": {
+        "line": 10,
+        "ch": 26
       }
     },
     "expandedKeys": []
