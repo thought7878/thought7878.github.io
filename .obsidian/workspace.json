@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md",
+                "file": "DailyNote/Journal/01 Daily/2025/11/2025-11-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-11-28"
+              "title": "2025-11-29"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/14. set().md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/16. insert().md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14. set()"
+              "title": "16. insert()"
             }
           },
           {
@@ -695,8 +695,12 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/13. get()实现.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/14. set().md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/16. insert().md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-29.md",
+    "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/13. get()实现.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/media/93fa7dcc19ff46b22b826a2c2f8987bb_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/media/Pasted image 20251128210900.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/12. get().md",
@@ -719,11 +723,9 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/4. push().md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/5. push()实现.md",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3. 设置Node、List类.md",
     "_posts/读书笔记/兴趣/摄影.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/2. 双向链表简介.md",
-    "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-27.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/tools/mac/MacPorts.md",
@@ -731,8 +733,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/21. 复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/20. reverse()实现.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/19. reverse()介绍.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/19. Singly Linked Lists/3. 节点类与链表类的定义.md",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/tools/mac/media",
     "Brewfile",
