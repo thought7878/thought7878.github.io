@@ -408,15 +408,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 175.96028645833334,
+    "scroll": 30.5,
     "cursor": {
       "from": {
-        "line": 184,
-        "ch": 0
+        "line": 50,
+        "ch": 3
       },
       "to": {
-        "line": 184,
-        "ch": 0
+        "line": 50,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -580,7 +580,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
-    "scroll": 9.625,
+    "scroll": 12.520833333333334,
     "cursor": {
       "from": {
         "line": 7,
@@ -594,15 +594,43 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/7. pop()实现.md": {
-    "scroll": 2.25,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 141
+        "line": 5,
+        "ch": 107
       },
       "to": {
-        "line": 8,
-        "ch": 141
+        "line": 5,
+        "ch": 107
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/权力.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/8. shift().md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 136
+      },
+      "to": {
+        "line": 3,
+        "ch": 136
       }
     },
     "expandedKeys": []
