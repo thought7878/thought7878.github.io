@@ -681,12 +681,40 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 118
+        "line": 6,
+        "ch": 41
       },
       "to": {
-        "line": 5,
-        "ch": 118
+        "line": 6,
+        "ch": 41
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/13. get()实现.md": {
+    "scroll": 45.416666666666664,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 123
+      },
+      "to": {
+        "line": 56,
+        "ch": 123
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/14. set().md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 47
+      },
+      "to": {
+        "line": 3,
+        "ch": 47
       }
     },
     "expandedKeys": []
