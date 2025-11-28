@@ -466,15 +466,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/4. push().md": {
-    "scroll": 28.172770714080677,
+    "scroll": 17.692708333333332,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 19
+        "line": 23,
+        "ch": 0
       },
       "to": {
-        "line": 26,
-        "ch": 19
+        "line": 23,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -580,15 +580,29 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
-    "scroll": 0,
+    "scroll": 9.625,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 39
+        "line": 7,
+        "ch": 16
       },
       "to": {
-        "line": 2,
-        "ch": 39
+        "line": 7,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/7. pop()实现.md": {
+    "scroll": 2.25,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 141
+      },
+      "to": {
+        "line": 8,
+        "ch": 141
       }
     },
     "expandedKeys": []
