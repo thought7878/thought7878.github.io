@@ -748,15 +748,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/18. remove().md": {
-    "scroll": 0,
+    "scroll": 0.36363636363636365,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 27
+        "line": 5,
+        "ch": 31
       },
       "to": {
-        "line": 4,
-        "ch": 27
+        "line": 5,
+        "ch": 31
       }
     },
     "expandedKeys": []
@@ -776,7 +776,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/17. insert()实现.md": {
-    "scroll": 20.1875,
+    "scroll": 20.958333333333332,
     "cursor": {
       "from": {
         "line": 57,
@@ -785,6 +785,48 @@
       "to": {
         "line": 57,
         "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/19. remove()实现.md": {
+    "scroll": 15.645833333333334,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 68
+      },
+      "to": {
+        "line": 54,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/20..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 38
+      },
+      "to": {
+        "line": 0,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/20. 单向与双向链表的对比.md": {
+    "scroll": 12.8327025396303,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
       }
     },
     "expandedKeys": []
