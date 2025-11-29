@@ -408,15 +408,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 30.5,
+    "scroll": 126.04264322916667,
     "cursor": {
       "from": {
-        "line": 50,
-        "ch": 3
+        "line": 138,
+        "ch": 0
       },
       "to": {
-        "line": 50,
-        "ch": 3
+        "line": 138,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -692,7 +692,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/13. get()实现.md": {
-    "scroll": 45.416666666666664,
+    "scroll": 53.645833333333336,
     "cursor": {
       "from": {
         "line": 56,
@@ -709,12 +709,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 35
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 35
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -729,6 +729,62 @@
       "to": {
         "line": 23,
         "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/16. insert().md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 73
+      },
+      "to": {
+        "line": 6,
+        "ch": 73
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/18. remove().md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 27
+      },
+      "to": {
+        "line": 4,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/15. set()实现.md": {
+    "scroll": 4.583333333333333,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 39
+      },
+      "to": {
+        "line": 12,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/17. insert()实现.md": {
+    "scroll": 20.1875,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 32
+      },
+      "to": {
+        "line": 57,
+        "ch": 32
       }
     },
     "expandedKeys": []
