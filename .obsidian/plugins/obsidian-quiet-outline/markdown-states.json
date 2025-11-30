@@ -570,11 +570,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       }
     },
@@ -875,18 +875,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-30.md": {
-    "scroll": 19.599878382487077,
+    "scroll": 12.343434343434344,
     "cursor": {
       "from": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/4. 创建栈（链表）.md": {
     "scroll": 34.28295749351427,
@@ -1071,15 +1073,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/3. 将 Webpack 集成到应用程序中.md": {
-    "scroll": 0,
+    "scroll": 2.0833333333333335,
     "cursor": {
       "from": {
         "line": 8,
-        "ch": 84
+        "ch": 105
       },
       "to": {
         "line": 8,
-        "ch": 84
+        "ch": 105
       }
     },
     "expandedKeys": [
@@ -1155,21 +1157,29 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-0",
+      "item-3-1"
+    ]
   },
   "_posts/engineering/前端工程化的定义、目标和意义.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 8,
+        "ch": 11
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 8,
+        "ch": 11
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-0",
+      "item-3-1"
+    ]
   },
   "_posts/engineering/Untitled.md": {
     "scroll": 0,
@@ -1198,7 +1208,8 @@
       }
     },
     "expandedKeys": [
-      "item-3-1"
+      "item-3-2",
+      "item-2-0"
     ]
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md": {
@@ -1214,8 +1225,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-3"
+      "item-3-2",
+      "item-2-0"
     ]
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/Untitled.md": {
@@ -1247,5 +1258,119 @@
     "expandedKeys": [
       "item-3-2"
     ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/4. Default Webpack Configuration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/4. 默认 Webpack 配置.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/4. Webpack默认配置.md": {
+    "scroll": 16.029947916666668,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-01.md": {
+    "scroll": 19.599878382487077,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/5. Separating Code Into Multiple Files.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/5. 将代码分离到多个文件.md": {
+    "scroll": 10.671045452637763,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 35
+      },
+      "to": {
+        "line": 7,
+        "ch": 35
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. Different Configurations for Production and Development Builds.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. 生产构建和开发构建的不同配置.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 91
+      },
+      "to": {
+        "line": 11,
+        "ch": 91
+      }
+    },
+    "expandedKeys": []
   }
 }
