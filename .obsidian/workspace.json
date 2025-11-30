@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md",
+                "file": "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/安装pnpm有哪些方式？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9. 队列的时间复杂度"
+              "title": "安装pnpm有哪些方式？"
             }
           },
           {
@@ -691,7 +691,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -717,12 +717,18 @@
       "media-extended:Open media": false
     }
   },
-  "active": "f71d13da02a41621",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
+    "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/安装pnpm有哪些方式？.md",
+    "_posts/engineering/fnm.md",
+    "_posts/engineering/前端工程化的定义、目标和意义.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media/2bf2e7d5d6d400fee2cc49e12f89ade7_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media/Pasted image 20251130160748.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/8. 创建队列（链表）.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/3. 将 Webpack 集成到应用程序中.md",
     "_posts/tools/mac/Homebrew.md",
@@ -747,7 +753,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media/ea4f56140ca0f64662b9d4d5b87fc684_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media/Pasted image 20251130083711.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/4. 创建栈（链表）.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media/dce8ba132259bec616d5d8a3b5302652_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/3. 创建栈（数组）.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-30.md",
     "DailyNote/Journal/01 Daily/2025/11/2025-11-29.md",
@@ -755,16 +760,11 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/20. 单向与双向链表的对比.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/19. remove()实现.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/18. remove().md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/17. insert()实现.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/16. insert().md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists",
     "DailyNote/Journal/01 Daily/2025/11/media",
     "_posts/tools/mac/media",
     "Brewfile",
-    "_posts/engineering/版本控制与协作/Git/配置",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
