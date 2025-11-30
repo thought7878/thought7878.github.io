@@ -837,11 +837,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 34
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 34
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -959,15 +959,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/8. 创建队列（链表）.md": {
-    "scroll": 37.397135416666664,
+    "scroll": 40.147135416666664,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 44
+        "line": 45,
+        "ch": 0
       },
       "to": {
-        "line": 54,
-        "ch": 44
+        "line": 45,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1096,6 +1096,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md": {
+    "scroll": 11.055960577831781,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
         "ch": 0
       }
     },
