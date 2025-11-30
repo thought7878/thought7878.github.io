@@ -720,15 +720,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-29.md": {
-    "scroll": 13.902173913043478,
+    "scroll": 16.011857707509883,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 4
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 23,
-        "ch": 4
+        "line": 27,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -836,11 +836,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 34
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 34
       }
     },
     "expandedKeys": []
@@ -860,15 +860,43 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/3. 创建栈（数组）.md": {
-    "scroll": 19.509114583333332,
+    "scroll": 12.055338541666666,
     "cursor": {
       "from": {
-        "line": 18,
+        "line": 25,
         "ch": 0
       },
       "to": {
-        "line": 18,
+        "line": 25,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/11/2025-11-30.md": {
+    "scroll": 19.599878382487077,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/4. 创建栈（链表）.md": {
+    "scroll": 34.28295749351427,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 72
+      },
+      "to": {
+        "line": 39,
+        "ch": 72
       }
     },
     "expandedKeys": []
