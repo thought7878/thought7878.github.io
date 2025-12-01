@@ -570,11 +570,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 8,
         "ch": 0
       }
     },
@@ -847,15 +847,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/2. 栈的简介.md": {
-    "scroll": 9.109152340256385,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 66
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 66
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1157,11 +1157,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-2",
-      "item-2-0",
-      "item-3-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/前端工程化的定义、目标和意义.md": {
     "scroll": 0,
@@ -1434,11 +1430,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 10
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -1547,19 +1543,18 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/5. 生成新包之前移除旧包.md": {
-    "scroll": 37.34273993598702,
+    "scroll": 11.077250177179305,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 125
+        "line": 51,
+        "ch": 27
       },
       "to": {
-        "line": 33,
-        "ch": 125
+        "line": 51,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-3-0",
       "item-2-1"
     ]
   },
@@ -1594,5 +1589,35 @@
     "expandedKeys": [
       "item-3-0"
     ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/6. 另一种移除旧包的方法.md": {
+    "scroll": 25.901041666666668,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/7. CSS Module.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
