@@ -48,7 +48,7 @@ devServer: {
 ```
 
 **架构价值**：
-- **多目录支持**：分离公共资源与mock数据，避免`public`目录臃肿
+- **多目录支持**：*分离公共资源与mock数据*，避免`public`目录臃肿
 - **`writeToDisk: true`**：解决SPA应用在服务端渲染(SSR)开发时的调试难题
 - **`publicPath`精准控制**：模拟生产环境路径结构（如`/static/`前缀）
 
