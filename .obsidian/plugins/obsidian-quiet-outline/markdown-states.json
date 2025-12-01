@@ -1360,15 +1360,43 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/6. 生产构建和开发构建的不同配置.md": {
+    "scroll": 34.303059895833336,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. Setting Up Webpack-Dev-Server.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 91
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 91
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/7. 设置 Webpack-Dev-Server.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 123
+      },
+      "to": {
+        "line": 8,
+        "ch": 123
       }
     },
     "expandedKeys": []
