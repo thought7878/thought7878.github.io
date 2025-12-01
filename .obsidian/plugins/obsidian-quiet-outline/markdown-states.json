@@ -1514,15 +1514,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/4. 根据自定义模板生成 HTML.md": {
-    "scroll": 36.936099547305446,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 5
+        "line": 7,
+        "ch": 56
       },
       "to": {
-        "line": 38,
-        "ch": 5
+        "line": 7,
+        "ch": 56
       }
     },
     "expandedKeys": []
@@ -1544,6 +1544,55 @@
       "item-2-4",
       "item-2-11",
       "item-2-17"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/5. 生成新包之前移除旧包.md": {
+    "scroll": 37.34273993598702,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 125
+      },
+      "to": {
+        "line": 33,
+        "ch": 125
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-2-1"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack的构建流程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/配置项、完整配置文件.md": {
+    "scroll": 70.55859375,
+    "cursor": {
+      "from": {
+        "line": 79,
+        "ch": 14
+      },
+      "to": {
+        "line": 79,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
     ]
   }
 }

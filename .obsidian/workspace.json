@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/4. 根据自定义模板生成 HTML.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/5. 生成新包之前移除旧包.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 根据自定义模板生成 HTML"
+              "title": "5. 生成新包之前移除旧包"
             }
           },
           {
@@ -717,18 +717,21 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/7afaf974a64f0a7331ad487628851d7a_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201164038.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/f478d2ad7c7090365962aca654a41d33_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201163951.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/2476df3252823b368495ace8d59607c4_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201163346.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack的构建流程.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/配置项、完整配置文件.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/5. 生成新包之前移除旧包.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/8ef0597cce934b15adaa8510d7049a52_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201163110.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/4. 根据自定义模板生成 HTML.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/28d3ffc4b3d1d6530dead8140fcb2d75_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201142936.png",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/05914d4928e3bfdbc8cbbcf2a387a405_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201142912.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/be3a72f0b781d073ddad00b0e872f87a_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201142800.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/eb05920043d1978b1f3a3b5695b351fa_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201142145.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/ccc79199fba457d44a743ad33cb792c3_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/Pasted image 20251201141814.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media/9693bab412ce5841162b7d1fefab8216_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/4. 根据自定义模板生成 HTML.md",
     "_posts/base/js/知识点总结/正则表达式/正则表达式.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/3. 提取生成的 CSS 到一个单独的包中.md",
@@ -755,9 +758,6 @@
     "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/安装pnpm有哪些方式？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/8. 创建队列（链表）.md",
-    "_posts/English/每日记录（复习）.md",
-    "_posts/tools/mac/Homebrew.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/01. Introduction/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Untitled",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/media",
