@@ -1458,14 +1458,28 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/2. 使用常规 CSS 与 Webpack.md": {
+    "scroll": 41.147135416666664,
+    "cursor": {
+      "from": {
+        "line": 52,
+        "ch": 136
+      },
+      "to": {
+        "line": 52,
+        "ch": 136
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/3. 提取生成的 CSS 到一个单独的包中.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 4,
         "ch": 0
       }
     },
