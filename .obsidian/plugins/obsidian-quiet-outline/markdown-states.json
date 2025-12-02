@@ -1623,15 +1623,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-02.md": {
-    "scroll": 17.796223958333332,
+    "scroll": 19.210702341137125,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 4
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 23,
-        "ch": 4
+        "line": 27,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1763,15 +1763,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/14. CSS-in-JS 简介.md": {
-    "scroll": 30.580729166666668,
+    "scroll": 0.8888888888888888,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 30
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 30
+        "line": 14,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1794,12 +1794,82 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 121
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 121
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/趋势.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/AI工具集合.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-03.md": {
+    "scroll": 26.318036853295535,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 28
+      },
+      "to": {
+        "line": 36,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/1. 树摇(Tree Shaking)的工作原理。简单示例.md": {
+    "scroll": 44.7021484375,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 0
+      },
+      "to": {
+        "line": 48,
+        "ch": 0
       }
     },
     "expandedKeys": []
