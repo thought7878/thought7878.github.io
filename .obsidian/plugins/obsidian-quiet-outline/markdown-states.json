@@ -1298,7 +1298,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-01.md": {
-    "scroll": 19.599878382487077,
+    "scroll": 18.957737914259653,
     "cursor": {
       "from": {
         "line": 27,
@@ -1430,11 +1430,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1591,7 +1591,7 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/6. 另一种移除旧包的方法.md": {
-    "scroll": 25.901041666666668,
+    "scroll": 5.350260416666667,
     "cursor": {
       "from": {
         "line": 33,
@@ -1607,19 +1607,47 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/7. CSS Module.md": {
-    "scroll": 45.10437220526652,
+    "scroll": 46.673828125,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 178
+        "line": 49,
+        "ch": 0
       },
       "to": {
-        "line": 47,
-        "ch": 178
+        "line": 49,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-1"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-02.md": {
+    "scroll": 17.796223958333332,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 4
+      },
+      "to": {
+        "line": 23,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/8. 优化 CSS 以用于生产环境.md": {
+    "scroll": 47.7033388402782,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 34
+      },
+      "to": {
+        "line": 53,
+        "ch": 34
+      }
+    },
+    "expandedKeys": []
   }
 }
