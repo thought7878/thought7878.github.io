@@ -1987,7 +1987,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md": {
-    "scroll": 39.0701595793746,
+    "scroll": 11.575520833333334,
     "cursor": {
       "from": {
         "line": 45,
@@ -2015,15 +2015,29 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md": {
-    "scroll": 33.1120201259855,
+    "scroll": 33.84352838635553,
     "cursor": {
       "from": {
-        "line": 43,
-        "ch": 0
+        "line": 39,
+        "ch": 7
       },
       "to": {
-        "line": 43,
-        "ch": 0
+        "line": 39,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md": {
+    "scroll": 31.18728298611111,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 20
+      },
+      "to": {
+        "line": 31,
+        "ch": 20
       }
     },
     "expandedKeys": []
