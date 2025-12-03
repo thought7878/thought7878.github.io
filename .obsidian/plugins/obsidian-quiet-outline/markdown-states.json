@@ -2001,7 +2001,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md": {
-    "scroll": 19.2744140625,
+    "scroll": 18.665315421478514,
     "cursor": {
       "from": {
         "line": 30,
@@ -2015,14 +2015,14 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md": {
-    "scroll": 2.4583333333333335,
+    "scroll": 33.1120201259855,
     "cursor": {
       "from": {
-        "line": 14,
+        "line": 43,
         "ch": 0
       },
       "to": {
-        "line": 14,
+        "line": 43,
         "ch": 0
       }
     },
