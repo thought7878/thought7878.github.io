@@ -1906,11 +1906,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 4,
         "ch": 0
       }
     },
@@ -1959,15 +1959,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md": {
-    "scroll": 31.44181166672047,
+    "scroll": 34.164713541666664,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 153
+        "line": 38,
+        "ch": 136
       },
       "to": {
-        "line": 36,
-        "ch": 153
+        "line": 38,
+        "ch": 136
       }
     },
     "expandedKeys": []
@@ -1981,6 +1981,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md": {
+    "scroll": 6.454427083333333,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
         "ch": 0
       }
     },
