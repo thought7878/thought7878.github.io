@@ -1945,7 +1945,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md": {
-    "scroll": 29.205967152894946,
+    "scroll": 39.502604166666664,
     "cursor": {
       "from": {
         "line": 45,
@@ -1959,15 +1959,29 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md": {
-    "scroll": 7.457356770833333,
+    "scroll": 31.44181166672047,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 2
+        "line": 36,
+        "ch": 153
       },
       "to": {
-        "line": 6,
-        "ch": 2
+        "line": 36,
+        "ch": 153
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/移民.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
