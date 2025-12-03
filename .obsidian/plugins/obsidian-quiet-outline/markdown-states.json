@@ -2029,15 +2029,29 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md": {
-    "scroll": 31.18728298611111,
+    "scroll": 32.228515625,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 20
+        "line": 34,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 20
+        "line": 34,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md": {
+    "scroll": 21.27861805444993,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 89
+      },
+      "to": {
+        "line": 28,
+        "ch": 89
       }
     },
     "expandedKeys": []

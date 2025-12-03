@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "07. 定义自己的代码分割策略"
+              "title": "08. Lazy Loading"
             }
           },
           {
@@ -717,6 +717,12 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/8d641a90dca5b479d13aedb24aee109e_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203212427.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/02859d1fe0edaddcfbd6056f92b8fda1_MD5.jpeg",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203212251.png",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/67318416b66c46249a75ba8810af532b_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203174905.png",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/b7622e19a5851cdad0118baa85b460dc_MD5.jpeg",
@@ -724,13 +730,8 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/9e4f45ca0d6cbe381895f606ba00bfa8_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203174232.png",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/61dbe1ad19b35854d13f09a17550bc33_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203165143.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/c3246d0c3768ad50a8c789ef14709ceb_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251203164741.png",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/902355fb834e01e3d1e199c4294d6fc2_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md",
@@ -756,7 +757,6 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/10. 将 Sass 与 Webpack 一起使用.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/9. 使用 Less 预处理器编写样式.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/3. 提取生成的 CSS 到一个单独的包中.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/8. 优化 CSS 以用于生产环境.md",
     "DailyNote/Journal/01 Daily/2025/12/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack",
