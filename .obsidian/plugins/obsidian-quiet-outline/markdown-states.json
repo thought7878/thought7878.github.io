@@ -1833,15 +1833,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-03.md": {
-    "scroll": 26.318036853295535,
+    "scroll": 23.141813858695652,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 28
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 28
+        "line": 46,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2043,17 +2043,91 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md": {
-    "scroll": 21.27861805444993,
+    "scroll": 23.96912527068705,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 89
+        "line": 35,
+        "ch": 0
       },
       "to": {
-        "line": 28,
-        "ch": 89
+        "line": 35,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-5",
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-04.md": {
+    "scroll": 26.340715804394048,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 31
+      },
+      "to": {
+        "line": 35,
+        "ch": 31
       }
     },
     "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
+    "scroll": 99.3708527131783,
+    "cursor": {
+      "from": {
+        "line": 105,
+        "ch": 43
+      },
+      "to": {
+        "line": 105,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-5",
+      "item-1-1",
+      "item-2-13"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
+    "scroll": 92.44744186046512,
+    "cursor": {
+      "from": {
+        "line": 81,
+        "ch": 39
+      },
+      "to": {
+        "line": 81,
+        "ch": 39
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-3-6"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/SplitChunks-DS.md": {
+    "scroll": 95.16023107327455,
+    "cursor": {
+      "from": {
+        "line": 110,
+        "ch": 0
+      },
+      "to": {
+        "line": 110,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-5",
+      "item-1-1",
+      "item-2-13",
+      "item-3-3"
+    ]
   }
 }

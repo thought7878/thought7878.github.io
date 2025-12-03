@@ -64,9 +64,9 @@ module.exports = {
 1.  **`chunks` (string | function):**
 
     *   **`'all'` (默认值):**  *对所有类型的 chunk 都进行分割*，包括同步和异步的。
-    *   **`'async'`:**  只对异步加载的 chunk 进行分割（例如通过 `import()` 动态导入的模块）。
-    *   **`'initial'`:**  只对初始加载的 chunk 进行分割（同步导入的模块）。
-    *   **`function(chunk)`:**  自定义函数，根据 chunk 信息决定是否进行分割。
+    *   **`'async'`:**  *只对异步加载的 chunk 进行分割*（例如通过 `import()` 动态导入的模块）。
+    *   **`'initial'`:**  *只对初始加载的 chunk 进行分割*（同步导入的模块）。
+    *   **`function(chunk)`:**  自定义函数，*根据 chunk 信息决定是否进行分割*。
 
 2.  **`minSize` (number):**
 
@@ -104,19 +104,19 @@ module.exports = {
 
 9.  **`cacheGroups` (object):**
 
-    *   缓存组，用于自定义分割规则。可以定义多个缓存组，每个缓存组可以有自己的配置。
-    *   **优先级:**  `cacheGroups` 中的规则优先级高于 `splitChunks` 中的全局规则。
+    *   缓存组，*用于自定义分割规则*。可以定义多个缓存组，每个缓存组可以有自己的配置。
+    *   **优先级:**  `cacheGroups` 中的规则*优先级高于* `splitChunks` 中的全局规则。
     *   **常用缓存组:**
         *   **`vendors`:**  将 node_modules 中的第三方库提取到一个单独的 chunk 中。
         *   **`default`:**  默认的缓存组，用于处理没有被其他缓存组匹配到的模块。
 
     **`cacheGroups` 中的常用配置项:**
 
-    *   **`test` (RegExp | string | function):**  匹配模块的规则。
+    *   **`test` (RegExp | string | function):**  *匹配模块的规则*。
         *   **`RegExp`:**  正则表达式，匹配模块的路径。
         *   **`string`:**  字符串，匹配模块的路径（可以是绝对路径或相对于 context 的路径）。
         *   **`function(module, chunks)`:**  自定义函数，根据模块和 chunks 信息决定是否匹配。
-    *   **`priority` (number):**  缓存组的优先级，数值越大优先级越高。默认值是 0。
+    *   **`priority` (number):**  *缓存组的优先级*，数值越大优先级越高。默认值是 0。
     *   **`reuseExistingChunk` (boolean):**  如果当前 chunk 已经包含来自其他入口点的模块，是否重用已有的 chunk，而不是创建一个新的。默认值是 `true`。
     *   **`enforce` (boolean):**  强制创建一个新的 chunk，即使它的大小小于 `minSize` 或大于 `maxSize`。默认值是 `false`。
     *   `chunks`, `minSize`, `maxSize`, `minChunks`, `maxAsyncRequests`, `maxInitialRequests`, `name` 这些配置项与 `splitChunks` 中的含义相同，但作用范围仅限于当前缓存组。
