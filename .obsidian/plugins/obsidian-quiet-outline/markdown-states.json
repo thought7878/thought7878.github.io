@@ -2043,15 +2043,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md": {
-    "scroll": 48.40998668442077,
+    "scroll": 55.572265625,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 182
+        "line": 32,
+        "ch": 0
       },
       "to": {
-        "line": 54,
-        "ch": 182
+        "line": 32,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -2129,5 +2129,33 @@
       "item-2-13",
       "item-3-3"
     ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/09..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/09. 并行延迟加载多个模块.md": {
+    "scroll": 16.84114513981358,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 77
+      },
+      "to": {
+        "line": 29,
+        "ch": 77
+      }
+    },
+    "expandedKeys": []
   }
 }
