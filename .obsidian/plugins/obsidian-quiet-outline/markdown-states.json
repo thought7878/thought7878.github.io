@@ -2145,15 +2145,29 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/09. 并行延迟加载多个模块.md": {
-    "scroll": 16.84114513981358,
+    "scroll": 9.62109375,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 77
+        "line": 16,
+        "ch": 0
       },
       "to": {
-        "line": 29,
-        "ch": 77
+        "line": 16,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md": {
+    "scroll": 17.92619439331498,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 11
+      },
+      "to": {
+        "line": 32,
+        "ch": 11
       }
     },
     "expandedKeys": []
