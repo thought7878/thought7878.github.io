@@ -1454,7 +1454,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/2. 使用常规 CSS 与 Webpack.md": {
-    "scroll": 41.147135416666664,
+    "scroll": 24.48046875,
     "cursor": {
       "from": {
         "line": 52,
@@ -1468,15 +1468,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/3. 提取生成的 CSS 到一个单独的包中.md": {
-    "scroll": 9.920862643465384,
+    "scroll": 9.949000370233247,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 77
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 77
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1931,43 +1931,43 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/01. 添加 Bootstrap.md": {
-    "scroll": 0,
+    "scroll": 10.329427083333334,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 21,
+        "ch": 16
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 21,
+        "ch": 16
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md": {
-    "scroll": 39.502604166666664,
+    "scroll": 46.654035605571444,
     "cursor": {
       "from": {
-        "line": 45,
+        "line": 53,
         "ch": 0
       },
       "to": {
-        "line": 45,
+        "line": 53,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md": {
-    "scroll": 34.164713541666664,
+    "scroll": 33.682310618590805,
     "cursor": {
       "from": {
         "line": 38,
-        "ch": 136
+        "ch": 89
       },
       "to": {
         "line": 38,
-        "ch": 136
+        "ch": 89
       }
     },
     "expandedKeys": []
@@ -1987,57 +1987,57 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md": {
-    "scroll": 11.575520833333334,
+    "scroll": 39.07842449958491,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 0
+        "line": 27,
+        "ch": 83
       },
       "to": {
-        "line": 45,
-        "ch": 0
+        "line": 27,
+        "ch": 83
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md": {
-    "scroll": 18.665315421478514,
+    "scroll": 27.654090951019278,
     "cursor": {
       "from": {
-        "line": 30,
+        "line": 34,
         "ch": 0
       },
       "to": {
-        "line": 30,
+        "line": 34,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md": {
-    "scroll": 33.84352838635553,
+    "scroll": 35.74334470989761,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 7
+        "line": 46,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 7
+        "line": 46,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md": {
-    "scroll": 32.228515625,
+    "scroll": 26.912812471174245,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 0
+        "line": 31,
+        "ch": 71
       },
       "to": {
-        "line": 34,
-        "ch": 0
+        "line": 31,
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -2061,18 +2061,20 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-04.md": {
-    "scroll": 26.340715804394048,
+    "scroll": 23.163552989130434,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 31
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 35,
-        "ch": 31
+        "line": 27,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
     "scroll": 99.3708527131783,
@@ -2159,15 +2161,101 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md": {
-    "scroll": 17.92619439331498,
+    "scroll": 17.851655780163217,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 11
+        "line": 25,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 11
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-06.md": {
+    "scroll": 28.28030183933344,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 25
+      },
+      "to": {
+        "line": 34,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/课程概览.md": {
+    "scroll": 7.0411542480508,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 28
+      },
+      "to": {
+        "line": 16,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/为上线准备文件（第一部分）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/58. 为上线准备文件（第一部分）.md": {
+    "scroll": 2.1666666666666665,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []

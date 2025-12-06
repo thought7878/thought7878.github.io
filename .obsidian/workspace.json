@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-04.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-04"
+              "title": "2025-12-06"
             }
           },
           {
@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/58. 为上线准备文件（第一部分）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10. 懒加载模块使用async await"
+              "title": "58. 为上线准备文件（第一部分）"
             }
           },
           {
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -741,9 +741,24 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/课程概览.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/58. 为上线准备文件（第一部分）.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/01. 添加 Bootstrap.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-06.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-04.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/2. 使用常规 CSS 与 Webpack.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/3. 提取生成的 CSS 到一个单独的包中.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/09. 并行延迟加载多个模块.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/fb1a6207b959adf828c4dd529e8aaf83_MD5.jpeg",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251204102458.png",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/3bbc10631b612c9e36beba3dc27932aa_MD5.jpeg",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media/Pasted image 20251204101554.png",
@@ -758,34 +773,20 @@
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-04.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-03.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md",
     "_posts/读书笔记/移民.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/01. 添加 Bootstrap.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/2. 应用树摇优化.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/1. 树摇(Tree Shaking)的工作原理。简单示例.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/16. 使用 Emotion（另一种 CSS-in-JS 库）.md",
-    "_posts/AI/AI工具集合.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-02.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking",
-    "_posts/AI/趋势.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/15. 使用 JSS.md",
     "DailyNote/Journal/01 Daily/2025/12/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/02. Setting Up Webpack/media",
-    "DailyNote/Journal/01 Daily/2025/12",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
