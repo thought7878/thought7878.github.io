@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4. 二叉树简介.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/6. Searching A Binary Search Tree.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. 二叉树简介"
+              "title": "6. Searching A Binary Search Tree"
             }
           },
           {
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -739,22 +739,24 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/565e2d0dcb88920b0b2aafa85996a200_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207133955.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/5. 小测验！.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/6. Searching A Binary Search Tree.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/9cad8619d73dcdb0d19b2811deda0fed_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207110531.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/ef4d98b42c07d826b8d9a09afc6acecb_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207110351.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/6ed098ab4646270f91b2fa3097245fc1_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207110255.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4. 二叉树简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/6a1129daa9f80cdd23715ca0d61482da_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207101004.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/b214c288ada22f675f7913c08122a5be_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207100714.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/3. 树的实际应用场景.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4. 二叉树简介.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/c2dc9922bed3ac6bc48024e9fc558000_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207100457.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/d702e7890cad6c56ec043bd231f6cd07_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207093901.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/a55104b6d5c0260781b398b65ce70caa_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207093655.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/565e8381c979e1c7378109394ae9deb8_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/9. 队列的时间复杂度.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/8. 创建队列（链表）.md",
@@ -779,8 +781,6 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/01. 添加 Bootstrap.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/10. 懒加载模块使用async await.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading",
