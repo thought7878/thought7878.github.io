@@ -1146,18 +1146,20 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md": {
-    "scroll": 55.0604587980944,
+    "scroll": 10.102864583333334,
     "cursor": {
       "from": {
-        "line": 53,
-        "ch": 12
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 53,
-        "ch": 12
+        "line": 18,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/engineering/前端工程化的定义、目标和意义.md": {
     "scroll": 0,
@@ -2333,7 +2335,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/3. 树的实际应用场景.md": {
-    "scroll": 34.74987681765575,
+    "scroll": 41.31856190780961,
     "cursor": {
       "from": {
         "line": 40,
@@ -2344,6 +2346,38 @@
         "ch": 0
       }
     },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
     "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4. 二叉树简介.md": {
+    "scroll": 26.74499587937031,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
