@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/8. BST：Insert.md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/9. BST：Insert Solution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. BST：Insert"
+              "title": "9. BST：Insert Solution"
             }
           },
           {
@@ -717,6 +717,10 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/0e76d31a051dcb8f5b0eaf2b1be31d4b_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208093150.png",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/8. BST：Insert.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/9. BST：Insert Solution.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading/56. 使用 Webpack 进行代码分割.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
@@ -724,7 +728,6 @@
     "DailyNote/Journal/01 Daily/2025/12/2025-12-08.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-07.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/8. BST：Insert.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/English/单词/notation.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/cd4459d2a713726b67592306633fab15_MD5.jpeg",
@@ -737,7 +740,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207150941.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/7. Our Tree Classes.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/de0000d11afb4a86d4e307d85f90a3fd_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251207145805.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/6. Searching A Binary Search Tree.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/5. 小测验！.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/4. 二叉树简介.md",
@@ -752,8 +754,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/3. 创建栈（数组）.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/2. 栈的简介.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-06.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署/58. 为上线准备文件（第一部分）.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow",
