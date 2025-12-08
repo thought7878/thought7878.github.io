@@ -1949,7 +1949,7 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md": {
-    "scroll": 46.37302831842081,
+    "scroll": 18.393229166666668,
     "cursor": {
       "from": {
         "line": 57,
@@ -1963,15 +1963,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md": {
-    "scroll": 6.74609375,
+    "scroll": 25.908528645833332,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 38,
+        "ch": 143
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 38,
+        "ch": 143
       }
     },
     "expandedKeys": []
@@ -1991,35 +1991,35 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md": {
-    "scroll": 39.07842449958491,
+    "scroll": 29.24209943732128,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 83
+        "line": 31,
+        "ch": 18
       },
       "to": {
-        "line": 27,
-        "ch": 83
+        "line": 31,
+        "ch": 18
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md": {
-    "scroll": 27.654090951019278,
+    "scroll": 27.500599575684898,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 36,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 36,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md": {
-    "scroll": 35.74334470989761,
+    "scroll": 35.42744516800429,
     "cursor": {
       "from": {
         "line": 46,
@@ -2594,6 +2594,20 @@
       "to": {
         "line": 48,
         "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：自动拆分、指定代码拆分标准.md": {
+    "scroll": 19.515954627371993,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
