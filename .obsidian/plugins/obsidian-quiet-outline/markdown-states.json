@@ -1146,14 +1146,14 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md": {
-    "scroll": 10.102864583333334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 18,
+        "line": 5,
         "ch": 0
       }
     },
@@ -2115,15 +2115,15 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/SplitChunks-DS.md": {
-    "scroll": 95.16023107327455,
+    "scroll": 30.722005208333332,
     "cursor": {
       "from": {
-        "line": 110,
-        "ch": 0
+        "line": 41,
+        "ch": 34
       },
       "to": {
-        "line": 110,
-        "ch": 0
+        "line": 41,
+        "ch": 34
       }
     },
     "expandedKeys": [
@@ -2291,28 +2291,28 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading/56. 使用 Webpack 进行代码分割.md": {
-    "scroll": 0,
+    "scroll": 22.46746575342466,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 28,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 28,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-07.md": {
-    "scroll": 19.599878382487077,
+    "scroll": 20.11328125,
     "cursor": {
       "from": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       }
     },
@@ -2451,17 +2451,63 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/8. BST：Insert.md": {
-    "scroll": 43.49609196755818,
+    "scroll": 29.04447200566974,
     "cursor": {
       "from": {
-        "line": 49,
+        "line": 42,
+        "ch": 28
+      },
+      "to": {
+        "line": 42,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/English/单词/notation.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 49,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/学习、复习记录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-08.md": {
+    "scroll": 23.587466032608695,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
