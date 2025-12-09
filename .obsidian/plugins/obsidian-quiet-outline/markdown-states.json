@@ -481,15 +481,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 0,
+    "scroll": 66.33919270833333,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 80,
+        "ch": 20
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 80,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -570,11 +570,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       }
     },
@@ -2005,7 +2005,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md": {
-    "scroll": 27.500599575684898,
+    "scroll": 15.408854166666666,
     "cursor": {
       "from": {
         "line": 36,
@@ -2019,43 +2019,43 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md": {
-    "scroll": 35.42744516800429,
+    "scroll": 33.82197614991482,
     "cursor": {
       "from": {
-        "line": 46,
+        "line": 38,
         "ch": 0
       },
       "to": {
-        "line": 46,
+        "line": 38,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 定义自己的代码分割策略.md": {
-    "scroll": 26.912812471174245,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 71
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 71
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md": {
-    "scroll": 55.572265625,
+    "scroll": 35.07270306258322,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 0
+        "line": 60,
+        "ch": 186
       },
       "to": {
-        "line": 32,
-        "ch": 0
+        "line": 60,
+        "ch": 186
       }
     },
     "expandedKeys": [
@@ -2497,7 +2497,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-08.md": {
-    "scroll": 23.587466032608695,
+    "scroll": 14.36734693877551,
     "cursor": {
       "from": {
         "line": 27,
@@ -2608,6 +2608,146 @@
       "to": {
         "line": 5,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/兴趣/歌曲.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/思考、认知/思考方法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/07. 自定义代码分割策略.md": {
+    "scroll": 24.04145374042985,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 100
+      },
+      "to": {
+        "line": 29,
+        "ch": 100
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md": {
+    "scroll": 20.821614583333332,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 0
+      },
+      "to": {
+        "line": 25,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/(5905) 开篇词  像架构师一样思考，突破技术成长瓶颈.md": {
+    "scroll": 49.978841145833336,
+    "cursor": {
+      "from": {
+        "line": 52,
+        "ch": 15
+      },
+      "to": {
+        "line": 52,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/(5906) 01  npm 安装机制及企业级部署私服原理.md": {
+    "scroll": 78.75324799085162,
+    "cursor": {
+      "from": {
+        "line": 89,
+        "ch": 93
+      },
+      "to": {
+        "line": 89,
+        "ch": 93
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/(5915) 10  代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md": {
+    "scroll": 36.774088541666664,
+    "cursor": {
+      "from": {
+        "line": 554,
+        "ch": 0
+      },
+      "to": {
+        "line": 554,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/Untitled.md": {
+    "scroll": 549.9116279069767,
+    "cursor": {
+      "from": {
+        "line": 80,
+        "ch": 0
+      },
+      "to": {
+        "line": 80,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/10..md": {
+    "scroll": 487.0267857142857,
+    "cursor": {
+      "from": {
+        "line": 499,
+        "ch": 6
+      },
+      "to": {
+        "line": 499,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构30讲/10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md": {
+    "scroll": 209.93212890625,
+    "cursor": {
+      "from": {
+        "line": 163,
+        "ch": 28
+      },
+      "to": {
+        "line": 163,
+        "ch": 28
       }
     },
     "expandedKeys": []

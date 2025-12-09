@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-08.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-08"
+              "title": "2025-12-09"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md",
+                "file": "_posts/engineering/_教程/前端基础建设与架构30讲/10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06. 策略4：为每个依赖项创建一个 JS Bundle"
+              "title": "10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致"
             }
           },
           {
@@ -576,7 +576,7 @@
                 "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -717,52 +717,51 @@
   },
   "active": "f71d13da02a41621",
   "lastOpenFiles": [
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/05. 策略3：将 node_modules 放入独立包中.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/06. 策略4：为每个依赖项创建一个 JS Bundle.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：自动拆分、指定代码拆分标准.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/03. 策略1：将重型依赖提取到单独的包中.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/02. 如何分析 Webpack 生成的包.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading/56. 使用 Webpack 进行代码分割.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/01. 添加 Bootstrap.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/12. 二叉搜索树的 Big O 复杂度.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/02. Big O Notation/6. 简化大O表达式.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/media/9daca0157255f7f9b5d667932ccba574_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/media/25bca1fcb45e86bb6f271af8f2304a85_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/media/769d77ade2ec699b2143b15f3c702856_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/media/fefe660ced977a6159d3d12081af5bce_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/media",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5915) 10  代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/10..md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5906) 01  npm 安装机制及企业级部署私服原理.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5905) 开篇词  像架构师一样思考，突破技术成长瓶颈.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/08. Lazy Loading.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5952) 23  npm cript：打造一体化的构建和部署流程.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5958) 29  实践打造网关：改造企业 BFF 方案.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5909) 04  横向对比主流构建工具，了解构建工具的设计考量.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5925) 20  如何理解前端中面向对象的思想？.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5912) 07  梳理混乱的 Babel，不再被编译报错困扰.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5951) 22  剖析前端中的数据结构应用场景.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5953) 24  自动化代码检查：剖析 Lint 工具和工程化接入&优化方案.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5907) 02  Yarn 的安装理念及如何破解依赖管理困境.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5950) 21  如何利用 JavaScript 实现经典数据结构？.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5914) 09  从实战出发，从 0 到 1 构建一个符合标准的公共库.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5911) 06  core-j 及垫片理念：设计一个“最完美”的 Polyfill 方案.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5924) 19  如何理解软件开发灵活性和高定制性？.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5954) 25  如何设计一个前端 + 移动端离线包方案？.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5922) 17  学习 axio：封装一个结构清晰的 Fetch 库.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5913) 08  探索前端工具链生态，制定一个统一标准化 babel-preet.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5923) 18  对比 Koa 和 Redux：分析前端中的中间件理念.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5918) 13  工程化思维处理方案：如何实现应用主题切换功能？.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5920) 15  从编译到运行，跨端解析小程序多端方案.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲/(5921) 16  原生跨平台技术：移动端跨平台到 Flutter 的技术变革.md",
+    "_posts/engineering/_教程/前端基础建设与架构30讲",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/3eca98548f5ba9bd528a0aa2b2e8efbf_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208150722.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/c2071a931303e2ff7046189b0c609907_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208145957.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/9c5b979f7a06ea51f5d26ab4297e940f_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208145630.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208145445.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/91938506c05e906c21bb82a1694e9f0a_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/Pasted image 20251208140732.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/11. BST：Find Solution.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/10. BST：Find.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media/82bc87b4dcce99be2757bea87ad073de_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/9. BST：Insert Solution.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/8. BST：Insert.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/2. 树的简介.md",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/SplitChunks-DS.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-08.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-07.md",
-    "DailyNote/Journal/01 Daily/学习、复习记录.md",
-    "_posts/English/每日记录（复习）.md",
-    "_posts/English/单词/notation.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/7. Our Tree Classes.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/6. Searching A Binary Search Tree.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/5. 小测验！.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/22. Binary Search Trees/media",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Git a Web Developer Job：Mastering the Modern Workflow",
+    "_posts/engineering/_教程/Git a Web Developer Job：Mastering the Modern Workflow/18. Code Splitting & Lazy Loading",
+    "_posts/engineering/_教程/Git a Web Developer Job：Mastering the Modern Workflow/19. 构建和部署",
+    "_posts/engineering/_教程/Git a Web Developer Job：Mastering the Modern Workflow",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking/media",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/07. Tree Shaking",
-    "DailyNote/Journal/01 Daily/2025/12/media",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/media",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
