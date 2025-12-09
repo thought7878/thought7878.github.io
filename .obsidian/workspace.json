@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/读书笔记/移民.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "移民"
             }
           },
           {
@@ -562,7 +562,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
             }
           },
           {
@@ -665,7 +665,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -693,6 +693,22 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/30 - 实现高可用：使用 Puppeteer 生成性能最优的海报系统.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md",
+    "_posts/读书笔记/移民.md",
+    "_posts/读书笔记/穷人.md",
+    "_posts/methods/常看的.md",
+    "_posts/architect/System Design/_Frontend System Design Guide.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+    "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
+    "_posts/interview/面试过程.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/2fcb0cdfa672c4ab715781e45bd480b7_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/ab14fcdf3f3a2c339a8fd7f982d9307c_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/24fbce7a11903fdaee5ea0ad73c7e4ba_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/01967427478823641a2ea18f895df61c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/471386789656192ccb161a3327c1ef1b_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/53a03e55b5353deec550f23f9a2435d0_MD5.png",
@@ -700,8 +716,6 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/aa7d8d700cf3be5acd5d7598f8b00841_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/21bf8ef522d5dd60aea03a2f2b96f198_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/b780d041cb1585f3d6b7c90ec053bc7d_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/c29a8da6d9fbf2cdfed8702670b207ad_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/c01b08ccb2c27790ee02d292417d18a2_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media",
     "_posts/engineering/_教程/前端基础建设与架构30讲/10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/16 - 原生跨平台技术：移动端跨平台到 Flutter 的技术变革.md",
@@ -718,27 +732,13 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语/结束语 - 再谈项目的基建和架构，个人的价值和方向.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/30 - 实现高可用：使用 Puppeteer 生成性能最优的海报系统.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/29 - 实践打造网关：改造企业 BFF 方案.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/27 - 同构渲染架构：实现一个 SSR 应用.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇/26 - 如何设计一个“万能”项目脚手架？.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇/25 - 如何设计一个前端 + 移动端离线包方案？.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇/24 - 自动化代码检查：剖析 Lint 工具和工程化接入&优化方案.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇/23 - npm script：打造一体化的构建和部署流程.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/03 - CI 环境上的 npm 优化及更多工程化问题解析.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/02 - Yarn 的安装理念及如何破解依赖管理困境.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/03.核心框架原理与代码设计模式篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲",
     "_posts/engineering/_教程/前端基础建设与架构30讲",
-    "_posts/engineering/_教程/前端基础建设与架构30讲/media/9daca0157255f7f9b5d667932ccba574_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构30讲/media/25bca1fcb45e86bb6f271af8f2304a85_MD5.png",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]

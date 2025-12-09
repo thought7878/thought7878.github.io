@@ -570,15 +570,19 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 18,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 18,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-1-2"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -1980,11 +1984,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 7,
         "ch": 0
       }
     },
@@ -2759,14 +2763,173 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 74
+        "line": 27,
+        "ch": 6
       },
       "to": {
-        "line": 4,
-        "ch": 74
+        "line": 27,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 65
+      },
+      "to": {
+        "line": 2,
+        "ch": 65
       }
     },
     "expandedKeys": []
+  },
+  "_posts/interview/面试过程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 17
+      },
+      "to": {
+        "line": 7,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/_面试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 81
+      },
+      "to": {
+        "line": 8,
+        "ch": 81
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/System Design/_Frontend System Design Guide.md": {
+    "scroll": 111.37736434108527,
+    "cursor": {
+      "from": {
+        "line": 122,
+        "ch": 17
+      },
+      "to": {
+        "line": 122,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-1-2"
+    ]
+  },
+  "_posts/architect/前端架构/_前端架构师的职责、知识点.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 7
+      },
+      "to": {
+        "line": 12,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md": {
+    "scroll": 50.94775289820549,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 14
+      },
+      "to": {
+        "line": 4,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/读书笔记/穷人.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 95
+      },
+      "to": {
+        "line": 7,
+        "ch": 95
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/30 - 实现高可用：使用 Puppeteer 生成性能最优的海报系统.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 237
+      },
+      "to": {
+        "line": 0,
+        "ch": 237
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md": {
+    "scroll": 157.95951318061847,
+    "cursor": {
+      "from": {
+        "line": 122,
+        "ch": 0
+      },
+      "to": {
+        "line": 122,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
   }
 }
