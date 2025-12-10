@@ -481,18 +481,20 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 66.33919270833333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 80,
-        "ch": 20
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 80,
-        "ch": 20
+        "line": 3,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md": {
     "scroll": 22.6259765625,
@@ -567,22 +569,18 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 6.270833333333333,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 0
+        "line": 13,
+        "ch": 8
       },
       "to": {
-        "line": 18,
-        "ch": 0
+        "line": 13,
+        "ch": 8
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-1-0",
-      "item-1-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -613,14 +611,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/权力.md": {
-    "scroll": 0,
+    "scroll": 2.8541666666666665,
     "cursor": {
       "from": {
-        "line": 23,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 23,
+        "line": 7,
         "ch": 0
       }
     },
@@ -937,14 +935,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 57.11474609375,
+    "scroll": 65.94807942708333,
     "cursor": {
       "from": {
-        "line": 71,
+        "line": 73,
         "ch": 0
       },
       "to": {
-        "line": 71,
+        "line": 73,
         "ch": 0
       }
     },
@@ -2659,18 +2657,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md": {
-    "scroll": 20.821614583333332,
+    "scroll": 18.04317421708726,
     "cursor": {
       "from": {
-        "line": 25,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 25,
+        "line": 27,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/engineering/_教程/前端基础建设与架构30讲/(5905) 开篇词  像架构师一样思考，突破技术成长瓶颈.md": {
     "scroll": 49.978841145833336,
@@ -2760,19 +2760,20 @@
     ]
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md": {
-    "scroll": 0,
+    "scroll": 113.46210754240346,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 6
+        "line": 137,
+        "ch": 81
       },
       "to": {
-        "line": 27,
-        "ch": 6
+        "line": 137,
+        "ch": 81
       }
     },
     "expandedKeys": [
-      "item-3-2"
+      "item-3-0",
+      "item-3-8"
     ]
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md": {
@@ -2892,12 +2893,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 95
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 95
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2930,6 +2931,228 @@
     },
     "expandedKeys": [
       "item-3-2"
+    ]
+  },
+  "_posts/读书笔记/教育.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/构建系统/_如何制定计划、目标？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-47"
+    ]
+  },
+  "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md": {
+    "scroll": 22.0625,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/框架/React.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md": {
+    "scroll": 589.7529425612053,
+    "cursor": {
+      "from": {
+        "line": 601,
+        "ch": 14
+      },
+      "to": {
+        "line": 601,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-27"
+    ]
+  },
+  "_posts/AI/「动力飞轮」APP/灵感.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/要整理的.md": {
+    "scroll": 59.291666666666664,
+    "cursor": {
+      "from": {
+        "line": 72,
+        "ch": 0
+      },
+      "to": {
+        "line": 72,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 31
+      },
+      "to": {
+        "line": 35,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/English/查询单词的提示词模版.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-7"
+    ]
+  },
+  "_posts/English/单词/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/English/单词/hydration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 174,
+        "ch": 0
+      },
+      "to": {
+        "line": 174,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-7"
     ]
   }
 }

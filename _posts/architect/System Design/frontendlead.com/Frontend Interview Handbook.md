@@ -179,16 +179,16 @@ Frameworks come and go. These three never change.
 ### 前端和后端有什么区别？
 What are the differences between the frontend and the backend?
 
-| Frontend Engineer 前端工程师 | Common Skills 通用技能 | Backend Engineer 后台工程师 |
-| --- | --- | --- |
-| Builds user interfaces with HTML, CSS, JavaScript, and React   使用 HTML、CSS、JavaScript 和 React 构建用户界面 | Writes clean, maintainable, and testable code   编写干净、可维护和可测试的代码 | Builds scalable APIs and services using Node.js, Go, Java, or Python   使用 Node.js、Go、Java 或 Python 构建可扩展的 API 和服务 |
-| Focuses on responsive design and performance   专注于响应式设计和性能 | Understands computer science fundamentals (DS & Algos)   了解计算机科学基础（DS 和 Algos） | Optimizes database queries and system performance   优化数据库查询和系统性能 |
-| Implements animations, state management, and accessibility   实现动画、状态管理和可访问性 | Uses Git and CI/CD pipelines   使用 Git 和 CI/CD 管道 | Handles authentication, authorization, and data security   处理身份验证、授权和数据安全 |
-| Works closely with design and product teams   与设计和产品团队紧密合作 | Participates in code reviews and architecture discussions   参与代码审查和架构讨论 | Integrates third-party APIs and manages cloud services   集成第三方 API 并管理云服务 |
-| Uses browser dev tools and performance profiling   使用浏览器开发工具和性能分析 | Follows Agile or Scrum development processes   遵循敏捷或敏捷开发流程 | Monitors and logs backend errors and metrics   检查并记录后端错误和指标 |
+| Frontend Engineer 前端工程师                                                                                  | Common Skills 通用技能                                                             | Backend Engineer 后台工程师                                                                                                |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Builds user interfaces with HTML, CSS, JavaScript, and React   <br>使用 HTML、CSS、JavaScript 和 React 构建用户界面 | Writes clean, maintainable, and testable code   <br>编写干净、可维护和可测试的代码            | Builds scalable APIs and services using Node.js, Go, Java, or Python   <br>使用 Node.js、Go、Java 或 Python 构建可扩展的 API 和服务 |
+| Focuses on responsive design and performance   专注于响应式设计和性能                                               | Understands computer science fundamentals (DS & Algos)   了解计算机科学基础（DS 和 Algos） | Optimizes database queries and system performance   优化数据库查询和系统性能                                                      |
+| Implements animations, state management, and accessibility   实现动画、状态管理和可访问性                              | Uses Git and CI/CD pipelines   使用 Git 和 CI/CD 管道                               | Handles authentication, authorization, and data security   处理身份验证、授权和数据安全                                             |
+| Works closely with design and product teams   与设计和产品团队紧密合作                                               | Participates in code reviews and architecture discussions   参与代码审查和架构讨论        | Integrates third-party APIs and manages cloud services   集成第三方 API 并管理云服务                                             |
+| Uses browser dev tools and performance profiling   <br>使用浏览器开发工具和性能分析                                    | Follows Agile or Scrum development processes   <br>遵循敏捷或敏捷开发流程                 | Monitors and logs backend errors and metrics   <br>检查并记录后端错误和指标                                                       |
 
 Frontend engineers build everything the user sees and touches. Backend engineers build what powers all of that behind the scenes.  
-前端工程师构建用户看到和触摸到的一切。后端工程师在幕后构建所有这些功能。
+*前端工程师构建用户看到和触摸到的一切。后端工程师在幕后构建所有这些功能。*
 
 A frontend engineer might build the form. A backend engineer handles what happens after you submit it.  
 前端工程师可以构建表单。后端工程师处理您提交后发生的事情。
@@ -197,7 +197,7 @@ Frontend is about layout, responsiveness, polish, and design systems. Backend is
 前端是关于布局，响应，抛光和设计系统。后端是关于数据库、API、基础设施和数据流的。
 
 They both require strong problem-solving skills, but the flavor of those problems is different. Frontend is about the user experience. Backend is about what happens under the hood.  
-它们都需要很强的解决问题的能力，但这些问题的味道是不同的。Frontend 是关于用户体验的。后端是关于引擎盖下发生的事情。
+它们*都需要很强的解决问题的能力*，但这些问题的味道是不同的。Frontend 是关于用户体验的。后端是关于引擎盖下发生的事情。
 
 ### 前端工程是否适合您
 Is frontend engineering right for you?

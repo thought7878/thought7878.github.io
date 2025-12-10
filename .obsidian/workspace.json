@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/移民.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "移民"
+              "title": "常看的"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/English/单词/notation.md",
+                "file": "_posts/English/查询单词的提示词模版.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "notation"
+              "title": "查询单词的提示词模版"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-09"
+              "title": "2025-12-10"
             }
           },
           {
@@ -488,6 +488,30 @@
             }
           },
           {
+            "id": "c60328e19ceef934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Frontend Interview Handbook"
+            }
+          },
+          {
             "id": "4cadab280e4611b8",
             "type": "leaf",
             "state": {
@@ -665,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -693,19 +717,32 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/hydration.md",
+    "_posts/English/单词/notation.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/30 - 实现高可用：使用 Puppeteer 生成性能最优的海报系统.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md",
-    "_posts/读书笔记/移民.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "_posts/读书笔记/权力.md",
+    "_posts/读书笔记/人性.md",
     "_posts/读书笔记/穷人.md",
-    "_posts/methods/常看的.md",
-    "_posts/architect/System Design/_Frontend System Design Guide.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/architect/System Design/_System Design Explained for Frontend Engineers.md",
-    "_posts/architect/System Design/frontendlead.com/Frontend System Design Fundamentals (All In One Comprehensive Guide).md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md",
+    "_posts/methods/要整理的.md",
+    "_posts/AI/「动力飞轮」APP/灵感.md",
+    "_posts/architect/前端架构/设计构建流程/如何设计前端开发的构建流程？.md",
+    "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
-    "_posts/interview/面试过程.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md",
+    "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/methods/构建系统/_如何制定计划、目标？.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/移民.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/教育.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/2fcb0cdfa672c4ab715781e45bd480b7_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/ab14fcdf3f3a2c339a8fd7f982d9307c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/24fbce7a11903fdaee5ea0ad73c7e4ba_MD5.png",
@@ -717,20 +754,7 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/21bf8ef522d5dd60aea03a2f2b96f198_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/b780d041cb1585f3d6b7c90ec053bc7d_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media",
-    "_posts/engineering/_教程/前端基础建设与架构30讲/10.代码拆分和按需加载：缩减 bundle ize，把性能做到极致.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/16 - 原生跨平台技术：移动端跨平台到 Flutter 的技术变革.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/15 - 从编译到运行，跨端解析小程序多端方案.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/14 - 解析 Webpack 源码，实现自己的构建工具.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/13 - 工程化思维处理方案：如何实现应用主题切换功能？.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/12 - 如何理解 AST 实现和编译原理？.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/11 - Tree Shaking：移除 JavaScript 上下文中的未引用代码.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/10 - 代码拆分和按需加载：缩减 bundle size，把性能做到极致.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/09 - 从实战出发，从 0 到 1 构建一个符合标准的公共库.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/08 - 探索前端工具链生态，制定一个统一标准化 babel-preset.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/07 - 梳理混乱的 Babel，不再被编译报错困扰.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇/06 - core-js 及垫片理念：设计一个“最完美”的 Polyfill 方案.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语/结束语 - 再谈项目的基建和架构，个人的价值和方向.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇",
