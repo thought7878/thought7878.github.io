@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -717,8 +717,18 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+    "_posts/English/每日记录（复习）.md",
     "_posts/architect/_教程/渲染架构.md",
+    "_posts/architect/_教程/media/84b0f1f34660cb263d693c80e2cfc884_MD5.png",
+    "_posts/architect/_教程/media/e8031509f5b0a9ddd91fe39f45636e3c_MD5.png",
+    "_posts/architect/_教程/media/a45d9f0d73e7ab6a82a9b933c8dc2907_MD5.png",
+    "_posts/architect/_教程/media/fed96421230f1bf815b8d1c00717ddde_MD5.png",
+    "_posts/architect/_教程/media/a158278f2bf1d9b2311d4da6e3e8b797_MD5.png",
+    "_posts/architect/_教程/media/030e2af007b5c41b086e34c45953dc42_MD5.png",
+    "_posts/architect/_教程/media/7366be32000cd021087f143f1b1ac72b_MD5.png",
+    "_posts/architect/_教程/media/b9c6fce49922b551461fdfcfc012fd82_MD5.png",
+    "_posts/architect/_教程/media",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/hydration.md",
     "_posts/English/单词/notation.md",
@@ -742,17 +752,8 @@
     "_posts/methods/常看的.md",
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/教育.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/2fcb0cdfa672c4ab715781e45bd480b7_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/ab14fcdf3f3a2c339a8fd7f982d9307c_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/24fbce7a11903fdaee5ea0ad73c7e4ba_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/01967427478823641a2ea18f895df61c_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/471386789656192ccb161a3327c1ef1b_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/53a03e55b5353deec550f23f9a2435d0_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/9571bd5414101d05437ce53fa2172050_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/aa7d8d700cf3be5acd5d7598f8b00841_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/21bf8ef522d5dd60aea03a2f2b96f198_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/b780d041cb1585f3d6b7c90ec053bc7d_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语",
@@ -762,7 +763,6 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/03.核心框架原理与代码设计模式篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲",
-    "_posts/engineering/_教程/前端基础建设与架构30讲",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
