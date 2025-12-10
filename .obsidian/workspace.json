@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+                "file": "_posts/architect/_教程/渲染架构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "导读 - 前端技术发展回顾和架构升级之路"
+              "title": "渲染架构"
             }
           },
           {
@@ -717,10 +717,11 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+    "_posts/architect/_教程/渲染架构.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/hydration.md",
     "_posts/English/单词/notation.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/读书笔记/权力.md",
@@ -742,7 +743,6 @@
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/教育.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇/28 - 设计性能守卫系统：完善 CI-CD 流程.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/2fcb0cdfa672c4ab715781e45bd480b7_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/ab14fcdf3f3a2c339a8fd7f982d9307c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/24fbce7a11903fdaee5ea0ad73c7e4ba_MD5.png",

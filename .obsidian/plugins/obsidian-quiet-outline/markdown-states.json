@@ -2760,15 +2760,15 @@
     ]
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md": {
-    "scroll": 113.46210754240346,
+    "scroll": 197.68615498291308,
     "cursor": {
       "from": {
-        "line": 137,
-        "ch": 81
+        "line": 201,
+        "ch": 88
       },
       "to": {
-        "line": 137,
-        "ch": 81
+        "line": 201,
+        "ch": 88
       }
     },
     "expandedKeys": [
@@ -3153,6 +3153,38 @@
     },
     "expandedKeys": [
       "item-3-7"
+    ]
+  },
+  "_posts/architect/_教程/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 266,
+        "ch": 22
+      },
+      "to": {
+        "line": 266,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/architect/_教程/渲染架构.md": {
+    "scroll": 134.5608791493776,
+    "cursor": {
+      "from": {
+        "line": 116,
+        "ch": 24
+      },
+      "to": {
+        "line": 116,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
