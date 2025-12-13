@@ -92,3 +92,20 @@
 ![[_posts/architect/渲染架构/media/63a1a524bd81f6fd7a93c1e307277451_MD5.jpeg]]
 
 ![[_posts/architect/渲染架构/media/b47880adccbcbb534ad4092ff4eb6435_MD5.jpeg]]
+
+### RSC
+`React服务器组件（React Server Component）`是React框架特有的一种组件，可以**在服务端和客户端之间传输特定格式的数据（非HTML代码）**，看起来如下图。
+相比直接传输HTML，*RSC可以实现更高效的服务端渲染和网络传输*。
+
+![[_posts/architect/渲染架构/media/2ce7d563a99c76ee0d70b421e7325afe_MD5.jpeg]]
+
+和它对应的是`客户端组件（CSC Client Side Component）`。
+
+
+### PPR
+还有一种更先进的服务端渲染方案。
+`部分预渲染（PPR，Partial PreRendering）`**把动静结合发挥到了极致，整合了ISR、RSC、流式渲染的特性，最大程度保证了用户体验**。
+当前只有Next.js。
+图中*紫色部分*即为ISR渲染好的静态内容，*蓝色部分*则为用户请求到来时才渲染的动态内容。
+
+![[_posts/architect/渲染架构/media/22066f3ea862cc571eb8f841e9982d8c_MD5.jpeg]]
