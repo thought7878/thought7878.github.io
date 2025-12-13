@@ -12,13 +12,57 @@
 
 
 ## 模版渲染
+早期的服务端渲染
 
 ![[_posts/architect/渲染架构/media/653cef2be8aaa4a2c96bfe5d4366c316_MD5.jpeg]]
 
 
 ## 客户端渲染
-将服务端MVC中的V，独立到前端：
+将服务端MVC中的V，独立到前端。前端使用JS直接在浏览器中渲染更复杂的页面。
 ![[_posts/architect/渲染架构/media/b0a7944c30a2ee959c216c92639f9220_MD5.jpeg]]
 
-
+### 单页应用架构
+**单页应用架构（客户端渲染的常见做法）：**
+- 服务端只提供带有JS引用的基本HTML骨架
+- 浏览器只在App初始时加载HTML，再加载JS，再执行JS，获取数据、渲染页面
+- 前后端通信，使用异步HTTP接口（REST API、GraphQL）
+- 后续所有路由切换、交互处理，均由前端负责
 ![[_posts/architect/渲染架构/media/9ea840a73fc05bfaee971ab840972b7e_MD5.jpeg]]
+
+### 框架、库
+
+![[_posts/architect/渲染架构/media/667e857d3494312dd91d2631f3b45888_MD5.jpeg]]
+
+
+### 客户端渲染的好处
+![[_posts/architect/渲染架构/media/f237af7a4c65bcd5327c210e33492c6e_MD5.jpeg]]
+
+
+### 客户端渲染的坏处
+
+![[_posts/architect/渲染架构/media/10c1c1241615d2495064daaa493f9ca1_MD5.jpeg]]
+
+## 新一代的服务端渲染
+**因为客户端渲染的缺点，是否可以结合客户端渲染、服务端渲染的优点？**
+**可以只让服务端做首屏渲染，客户端接管后续的渲染**
+
+### 服务端渲染的核心做法
+**服务端渲染的核心做法：**
+- 服务端将数据和页面结构一起渲染到HTML主文档中，随即发送到客户端。
+- 浏览器将立即渲染HTML页面，但此时页面尚不能进行交互。
+- 直到通过JS为页面元素绑定交互事件（`hydrate 水合/补水`）
+
+![[_posts/architect/渲染架构/media/e734c250d7975a7e5ec1734d36f9502b_MD5.jpeg]]
+
+![[_posts/architect/渲染架构/media/ea69edcf6a5e25b01421b72a6778365e_MD5.jpeg]]
+
+![[_posts/architect/渲染架构/media/0113db656c60040d4d4e8a993b67296c_MD5.jpeg]]
+
+### 同构设计
+`同构设计 （Isomorphic Architecture）`，前端框架，既要能运行在客户端，还要能运行在服务端
+
+![[_posts/architect/渲染架构/media/c829b4bc3107a0406fd3ebca7d51df16_MD5.jpeg]]
+
+以React+Express为例，
+
+![[_posts/architect/渲染架构/media/1041deffba3f45871dc9f914e6be7870_MD5.jpeg]]
