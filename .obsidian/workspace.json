@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-12.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-12"
+              "title": "2025-12-13"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/渲染架构.md",
+                "file": "_posts/architect/渲染架构/渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "渲染架构"
+              "title": "渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）"
             }
           },
           {
@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -715,21 +715,28 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/architect/渲染架构/media/9ea840a73fc05bfaee971ab840972b7e_MD5.jpeg",
+    "_posts/architect/渲染架构/media/Pasted image 20251213095055.png",
+    "_posts/architect/渲染架构/media/b0a7944c30a2ee959c216c92639f9220_MD5.jpeg",
+    "_posts/architect/渲染架构/media/Pasted image 20251213094918.png",
+    "_posts/architect/渲染架构/media/653cef2be8aaa4a2c96bfe5d4366c316_MD5.jpeg",
+    "_posts/architect/渲染架构/media/Pasted image 20251213094741.png",
+    "_posts/architect/渲染架构/media/a71db297e17f8e527efcacbb77783522_MD5.jpeg",
+    "_posts/architect/渲染架构/media/Pasted image 20251213093947.png",
+    "_posts/architect/渲染架构/media/15cab83d093572d5a5021cf0a4b53b49_MD5.jpeg",
+    "_posts/architect/渲染架构/media/Pasted image 20251213093345.png",
+    "_posts/architect/渲染架构/media",
+    "_posts/architect/渲染架构/渲染架构.md",
+    "_posts/architect/渲染架构/渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）.md",
+    "_posts/architect/渲染架构",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-13.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-12.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md",
-    "_posts/architect/_教程/渲染架构.md",
     "_posts/读书笔记/男女.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/architect/_教程/media/84b0f1f34660cb263d693c80e2cfc884_MD5.png",
-    "_posts/architect/_教程/media/e8031509f5b0a9ddd91fe39f45636e3c_MD5.png",
-    "_posts/architect/_教程/media/a45d9f0d73e7ab6a82a9b933c8dc2907_MD5.png",
-    "_posts/architect/_教程/media/fed96421230f1bf815b8d1c00717ddde_MD5.png",
-    "_posts/architect/_教程/media/a158278f2bf1d9b2311d4da6e3e8b797_MD5.png",
-    "_posts/architect/_教程/media/030e2af007b5c41b086e34c45953dc42_MD5.png",
-    "_posts/architect/_教程/media/7366be32000cd021087f143f1b1ac72b_MD5.png",
-    "_posts/architect/_教程/media/b9c6fce49922b551461fdfcfc012fd82_MD5.png",
     "_posts/architect/_教程/media",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "_posts/English/查询单词的提示词模版.md",
@@ -749,11 +756,6 @@
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/architect/System Design/frontendgeek.com/_前端系统设计面试速查表.md",
     "_posts/architect/System Design/greatfrontend.com/1. 前端系统设计：简介.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/methods/构建系统/_如何制定计划、目标？.md",
-    "_posts/methods/常看的.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/2fcb0cdfa672c4ab715781e45bd480b7_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/ab14fcdf3f3a2c339a8fd7f982d9307c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语",
@@ -761,8 +763,6 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/03.核心框架原理与代码设计模式篇",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
