@@ -66,3 +66,29 @@
 以React+Express为例，
 
 ![[_posts/architect/渲染架构/media/1041deffba3f45871dc9f914e6be7870_MD5.jpeg]]
+
+## 服务端渲染的变体
+为了进一步提升服务端渲染的效率和终端用户体验，服务端渲染技术又演化出了许多变体
+
+### SSG
+`静态站点生成（Static Site Generation）`是一种服务端***在构建时*预先生成多个静态页面的方案**。
+适用于内容固定的博客、资讯、CMS系统。
+它减少了服务端运行时的资源消耗。
+典型框架有Gatesby、Hugo、Hexo。
+
+![[_posts/architect/渲染架构/media/69919abf3ca9009c0064f02ad8358b4f_MD5.jpeg]]
+
+### ISR
+`增量静态再生（ISR，Incremental Static Regeneration）`是一种**对SSG的改进**，相比于SSG在构建阶段生成页面，ISR可以在内容发生变化时重新渲染，而不需要跑一次构建发布流程。
+支持ISR的典型框架有Next.js、Nuxt.js等。
+
+![[_posts/architect/渲染架构/media/1c34ba37c3d67417efcb1e86d5c120e1_MD5.jpeg]]
+
+
+### 流式渲染
+`流式渲染（SSR with Streaming）`是先将渲染好的部分发送给客户端，再将后渲染的发送给客户端。一种对传统SSR的改进，传统SSR会渲染整个HTML，而使用Suspense组件可以转变成流式渲染
+
+例子，服务端可以*先将渲染好的文章组件*发送给客户端，*评论组件*则进行**异步渲染、流式传输**
+![[_posts/architect/渲染架构/media/63a1a524bd81f6fd7a93c1e307277451_MD5.jpeg]]
+
+![[_posts/architect/渲染架构/media/b47880adccbcbb534ad4092ff4eb6435_MD5.jpeg]]
