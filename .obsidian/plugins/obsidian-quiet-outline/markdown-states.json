@@ -3381,11 +3381,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -3406,17 +3406,33 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md": {
-    "scroll": 30.528207680185783,
+    "scroll": 27.38507430997877,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 152
+        "line": 29,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 152
+        "line": 30,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md": {
+    "scroll": 39.876384757711314,
+    "cursor": {
+      "from": {
+        "line": 43,
+        "ch": 0
+      },
+      "to": {
+        "line": 43,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
   }
 }
