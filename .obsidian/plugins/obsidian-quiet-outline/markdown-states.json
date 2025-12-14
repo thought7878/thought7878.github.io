@@ -3121,31 +3121,33 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 12,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-7"
+      "item-3-1"
     ]
   },
   "_posts/English/单词/Untitled.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1"
+    ]
   },
   "_posts/English/单词/hydration.md": {
     "scroll": 0,
@@ -3381,11 +3383,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       }
     },
@@ -3420,19 +3422,63 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md": {
-    "scroll": 39.876384757711314,
+    "scroll": 42.455591218986484,
     "cursor": {
       "from": {
-        "line": 43,
-        "ch": 0
+        "line": 49,
+        "ch": 7
       },
       "to": {
-        "line": 43,
-        "ch": 0
+        "line": 49,
+        "ch": 7
       }
     },
     "expandedKeys": [
       "item-2-2"
     ]
+  },
+  "_posts/English/单词/breadth.md": {
+    "scroll": 58.61674418604651,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1"
+    ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 118
+      },
+      "to": {
+        "line": 5,
+        "ch": 118
+      }
+    },
+    "expandedKeys": []
   }
 }
