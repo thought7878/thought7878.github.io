@@ -63,7 +63,7 @@
 
 ![[_posts/architect/渲染架构/media/c829b4bc3107a0406fd3ebca7d51df16_MD5.jpeg]]
 
-以React+Express为例，
+以React+Express为例：
 
 ![[_posts/architect/渲染架构/media/1041deffba3f45871dc9f914e6be7870_MD5.jpeg]]
 
@@ -86,7 +86,7 @@
 
 
 ### 流式渲染
-`流式渲染（SSR with Streaming）`是先将渲染好的部分发送给客户端，再将后渲染的发送给客户端。一种对传统SSR的改进，传统SSR会渲染整个HTML，而使用Suspense组件可以转变成流式渲染
+`流式渲染（SSR with Streaming）`是*先将渲染好的部分发送给客户端，再将后渲染的发送给客户端*。一种**对传统SSR的改进**，传统SSR会渲染整个HTML，而使用Suspense组件可以转变成流式渲染
 
 例子，服务端可以*先将渲染好的文章组件*发送给客户端，*评论组件*则进行**异步渲染、流式传输**
 ![[_posts/architect/渲染架构/media/63a1a524bd81f6fd7a93c1e307277451_MD5.jpeg]]
@@ -103,7 +103,7 @@
 
 
 ### PPR
-还有一种更先进的服务端渲染方案。
+还有一种**更先进的服务端渲染方案**。
 `部分预渲染（PPR，Partial PreRendering）`**把动静结合发挥到了极致，整合了ISR、RSC、流式渲染的特性，最大程度保证了用户体验**。
 当前只有Next.js。
 图中*紫色部分*即为ISR渲染好的静态内容，*蓝色部分*则为用户请求到来时才渲染的动态内容。

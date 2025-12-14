@@ -940,7 +940,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 62.98974609375,
+    "scroll": 54.021158854166664,
     "cursor": {
       "from": {
         "line": 73,
@@ -952,7 +952,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-27"
+      "item-2-11",
+      "item-1-0"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/7. 创建队列（数组）.md": {
@@ -3043,15 +3044,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md": {
-    "scroll": 605.6715494791666,
+    "scroll": 620.9091796875,
     "cursor": {
       "from": {
-        "line": 601,
-        "ch": 14
+        "line": 633,
+        "ch": 35
       },
       "to": {
-        "line": 601,
-        "ch": 14
+        "line": 633,
+        "ch": 35
       }
     },
     "expandedKeys": [
@@ -3214,14 +3215,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-13.md": {
-    "scroll": 19.599878382487077,
+    "scroll": 17.879557291666668,
     "cursor": {
       "from": {
-        "line": 25,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 25,
+        "line": 27,
         "ch": 0
       }
     },
@@ -3230,15 +3231,15 @@
     ]
   },
   "_posts/architect/渲染架构/渲染架构.md": {
-    "scroll": 215.828125,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 219,
-        "ch": 166
+        "line": 14,
+        "ch": 65
       },
       "to": {
-        "line": 219,
-        "ch": 166
+        "line": 14,
+        "ch": 65
       }
     },
     "expandedKeys": [
@@ -3263,22 +3264,116 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）.md": {
-    "scroll": 99.90723396969437,
+    "scroll": 67.72643205753917,
     "cursor": {
       "from": {
-        "line": 108,
-        "ch": 36
+        "line": 76,
+        "ch": 13
       },
       "to": {
-        "line": 108,
-        "ch": 36
+        "line": 76,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-2-11",
+      "item-1-0",
+      "item-2-3",
+      "item-2-8"
+    ]
+  },
+  "_posts/读书笔记/人际关系.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-11",
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/编程/待整理的.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-14.md": {
+    "scroll": 28.602263795000788,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/渲染架构/Rendering on the Web.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 65
+      },
+      "to": {
+        "line": 14,
+        "ch": 65
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-3",
-      "item-2-8",
-      "item-2-11"
+      "item-1-14",
+      "item-1-12",
+      "item-2-1"
     ]
+  },
+  "_posts/architect/渲染架构/渲染方式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/渲染方式-QW.md": {
+    "scroll": 0.6802721088435374,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
