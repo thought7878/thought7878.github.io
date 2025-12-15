@@ -3047,12 +3047,12 @@
     "scroll": 620.9091796875,
     "cursor": {
       "from": {
-        "line": 633,
-        "ch": 35
+        "line": 629,
+        "ch": 8
       },
       "to": {
-        "line": 633,
-        "ch": 35
+        "line": 629,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -3806,15 +3806,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md": {
-    "scroll": 92.04058159722223,
+    "scroll": 120.97267100715376,
     "cursor": {
       "from": {
-        "line": 98,
-        "ch": 120
+        "line": 128,
+        "ch": 80
       },
       "to": {
-        "line": 98,
-        "ch": 120
+        "line": 128,
+        "ch": 80
       }
     },
     "expandedKeys": [
@@ -3851,6 +3851,36 @@
     },
     "expandedKeys": [
       "item-2-0"
+    ]
+  },
+  "_posts/architect/渲染架构/patterns.dev/2..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 27
+      },
+      "to": {
+        "line": 28,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
     ]
   }
 }
