@@ -3806,35 +3806,51 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md": {
-    "scroll": 65.6553862508859,
+    "scroll": 92.04058159722223,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 67
+        "line": 98,
+        "ch": 120
       },
       "to": {
-        "line": 72,
-        "ch": 67
+        "line": 98,
+        "ch": 120
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-0"
     ]
   },
   "_posts/performance/indicators/TTI.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 14
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 14
+        "line": 7,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-0"
+    ]
+  },
+  "_posts/performance/indicators/FP & FCP.md": {
+    "scroll": 5.24609375,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 78
+      },
+      "to": {
+        "line": 8,
+        "ch": 78
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
