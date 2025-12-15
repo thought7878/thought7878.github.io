@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -715,16 +715,16 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9b6b9e6d91bf8833",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
+    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/4.Incremental Static Generation.md",
     "_posts/architect/渲染架构/patterns.dev/5.Progressive Hydration.md",
     "_posts/architect/渲染架构/patterns.dev/6.Streaming.md",
     "_posts/architect/渲染架构/patterns.dev/7.React Server Components.md",
     "_posts/architect/渲染架构/patterns.dev/8.Selective Hydration.md",
-    "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
-    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/architect/渲染架构/patterns.dev/media/serverside-rendering-1.webm",
     "_posts/architect/渲染架构/patterns.dev/media/3aba044def90991aa4284d1e963b1665_MD5.png",

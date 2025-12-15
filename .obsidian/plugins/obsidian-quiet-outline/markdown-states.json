@@ -3806,20 +3806,18 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md": {
-    "scroll": 51.513020833333336,
+    "scroll": 117.87640086206896,
     "cursor": {
       "from": {
-        "line": 59,
-        "ch": 0
+        "line": 124,
+        "ch": 217
       },
       "to": {
-        "line": 59,
-        "ch": 0
+        "line": 124,
+        "ch": 217
       }
     },
-    "expandedKeys": [
-      "item-2-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/performance/indicators/TTI.md": {
     "scroll": 0,
@@ -3868,18 +3866,20 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 0,
+    "scroll": 84.17665102850957,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 221
+        "line": 94,
+        "ch": 25
       },
       "to": {
-        "line": 10,
-        "ch": 221
+        "line": 94,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/architect/渲染架构/patterns.dev/3..md": {
     "scroll": 0,
