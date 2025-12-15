@@ -4,7 +4,7 @@
 
 ![](https://lf3-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_bf1f73dc0b8a1771ebf0afb7bf6855db)
 
-TTI（Time To Interactive），即**从页面加载开始到页面处于完全可交互状态所花费的时间**。<u>页面处于完全可交互状态时，满足以下 3 个条件：</u>
+`TTI（Time To Interactive）`，即**从页面加载开始到页面处于*完全可交互状态*所花费的时间**。<u>页面处于完全可交互状态时，满足以下 3 个条件：</u>
 
 1. 页面已经显示有用内容。
 2. 页面上的可见元素关联的事件响应函数已经完成注册。
