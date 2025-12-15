@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-14.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-14"
+              "title": "2025-12-15"
             }
           },
           {
@@ -536,7 +536,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -715,13 +715,32 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-14.md",
+    "_posts/architect/渲染架构/渲染方式-QW.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/常看的.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md",
+    "_posts/读书笔记/书/罗织经/2.卷二　事上.md",
+    "_posts/tools/资源.md",
+    "_posts/读书笔记/书/罗织经/1.卷一　阅人.md",
+    "_posts/读书笔记/书/罗织经/3.卷三　治下.md",
+    "_posts/读书笔记/书/罗织经/4.卷四　控权.md",
+    "_posts/读书笔记/书/罗织经/5.卷五　制敌.md",
+    "_posts/读书笔记/书/罗织经/6.卷六　固荣.md",
+    "_posts/读书笔记/书/罗织经/7.卷七　保身.md",
+    "_posts/读书笔记/书/罗织经/8.卷八　察姦.md",
+    "_posts/读书笔记/书/罗织经/9.卷九　谋划.md",
+    "_posts/读书笔记/书/罗织经/10.卷十　问罪.md",
+    "_posts/读书笔记/书/罗织经/11.卷十一　刑罚.md",
+    "_posts/读书笔记/书/罗织经/12.卷十二　瓜蔓.md",
+    "_posts/读书笔记/书/罗织经",
+    "_posts/读书笔记/书",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/db02738efc8847cf63af23c7ffd815d3_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251214133312.png",
-    "_posts/architect/渲染架构/渲染方式-QW.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/cecda3072abe3d8f09dbb7c7bae37961_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/53adcb36eaca5cd2eceb3d7acf15e6b8_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251214132917.png",
@@ -738,31 +757,12 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal",
     "_posts/architect/渲染架构/渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/architect/渲染架构/Rendering on the Web.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-14.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-13.md",
-    "_posts/AI/编程/待整理的.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/人际关系.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/权力.md",
     "_posts/architect/渲染架构/media",
     "_posts/architect/渲染架构",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-12.md",
-    "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md",
-    "_posts/English/每日记录（复习）.md",
     "_posts/architect/_教程/media",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
-    "_posts/English/单词/hydration.md",
-    "_posts/English/单词/notation.md",
-    "_posts/读书笔记/穷人.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-09.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/02.现代化前端开发和架构生态篇",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/06.结束语",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/05.前端全链路——Node.js 全栈开发篇",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/04.前端架构设计实战篇",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]

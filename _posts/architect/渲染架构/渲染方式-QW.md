@@ -1,3 +1,6 @@
+参考资料：
+- [Streaming Server-Side Rendering](https://www.patterns.dev/react/streaming-ssr/)
+
 作为全知全能的 Web 应用架构师，我很高兴为你*系统性地梳理 Web 应用的渲染方式*。现代 Web 应用的渲染策略**不仅影响用户体验**（如首屏加载速度、SEO 能力、交互响应等），**还决定了开发模式、部署架构和运维复杂度**。
 
 以下是目前主流的 Web 渲染方式，按时间线和技术演进顺序分类介绍：
