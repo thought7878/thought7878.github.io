@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+                "file": "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.Client-side Rendering"
+              "title": "2.Server-side Rendering"
             }
           },
           {
@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -715,13 +715,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
+    "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/4.Incremental Static Generation.md",
+    "_posts/architect/渲染架构/patterns.dev/5.Progressive Hydration.md",
+    "_posts/architect/渲染架构/patterns.dev/6.Streaming.md",
+    "_posts/architect/渲染架构/patterns.dev/7.React Server Components.md",
+    "_posts/architect/渲染架构/patterns.dev/8.Selective Hydration.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/architect/渲染架构/patterns.dev/media/serverside-rendering-1.webm",
     "_posts/architect/渲染架构/patterns.dev/media/3aba044def90991aa4284d1e963b1665_MD5.png",
-    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
     "_posts/performance/indicators/TTI.md",
     "_posts/performance/indicators/FP & FCP.md",
     "_posts/architect/渲染架构/patterns.dev/media/0e642d67841c37ef095e463c6c4634a9_MD5.png",
@@ -742,13 +748,8 @@
     "_posts/读书笔记/书/罗织经/6.卷六　固荣.md",
     "_posts/读书笔记/书/罗织经/7.卷七　保身.md",
     "_posts/读书笔记/书/罗织经/8.卷八　察姦.md",
-    "_posts/读书笔记/书/罗织经/9.卷九　谋划.md",
-    "_posts/读书笔记/书/罗织经/10.卷十　问罪.md",
-    "_posts/读书笔记/书/罗织经/11.卷十一　刑罚.md",
-    "_posts/读书笔记/书/罗织经/12.卷十二　瓜蔓.md",
     "_posts/读书笔记/书/罗织经",
     "_posts/读书笔记/书",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/db02738efc8847cf63af23c7ffd815d3_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251214133312.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/cecda3072abe3d8f09dbb7c7bae37961_MD5.jpeg",
@@ -757,7 +758,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/f7092f7fd2caa8abb4634bd7290b70f7_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251214132622.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/a52cb8008d21eadf4e5f4ccb38336353_MD5.jpeg",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal",
     "_posts/architect/渲染架构/media",

@@ -3806,15 +3806,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md": {
-    "scroll": 120.97267100715376,
+    "scroll": 51.513020833333336,
     "cursor": {
       "from": {
-        "line": 128,
-        "ch": 80
+        "line": 59,
+        "ch": 0
       },
       "to": {
-        "line": 128,
-        "ch": 80
+        "line": 59,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -3871,16 +3871,142 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 27
+        "line": 10,
+        "ch": 221
       },
       "to": {
-        "line": 28,
-        "ch": 27
+        "line": 10,
+        "ch": 221
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/3..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md": {
+    "scroll": 10.541666666666666,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 21
+      },
+      "to": {
+        "line": 11,
+        "ch": 21
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-0"
     ]
+  },
+  "_posts/architect/渲染架构/patterns.dev/4.Incremental Static Generation.md": {
+    "scroll": 16.71875,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/5.Progressive Hydration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 279,
+        "ch": 88
+      },
+      "to": {
+        "line": 279,
+        "ch": 88
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/6.Streaming.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 327
+      },
+      "to": {
+        "line": 10,
+        "ch": 327
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/7.React Server Components.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 334
+      },
+      "to": {
+        "line": 13,
+        "ch": 334
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/8..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 264
+      },
+      "to": {
+        "line": 10,
+        "ch": 264
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/渲染架构/patterns.dev/8.Selective Hydration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 453
+      },
+      "to": {
+        "line": 10,
+        "ch": 453
+      }
+    },
+    "expandedKeys": []
   }
 }
