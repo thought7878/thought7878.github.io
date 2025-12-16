@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-15"
+              "title": "2025-12-16"
             }
           },
           {
@@ -715,10 +715,19 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+    "_posts/react/总结/Components/<Suspense>.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/suspense.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+    "_posts/读书笔记/兴趣/杂.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-16.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
+    "_posts/读书笔记/健康/老爹/病/冠心病.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/4.Incremental Static Generation.md",
     "_posts/architect/渲染架构/patterns.dev/5.Progressive Hydration.md",
@@ -734,20 +743,11 @@
     "_posts/architect/渲染架构/patterns.dev/media",
     "_posts/architect/渲染架构/渲染方式-QW.md",
     "_posts/architect/渲染架构/patterns.dev",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md",
     "_posts/methods/要整理的.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-14.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/书/罗织经/2.卷二　事上.md",
     "_posts/tools/资源.md",
-    "_posts/读书笔记/书/罗织经/1.卷一　阅人.md",
-    "_posts/读书笔记/书/罗织经/3.卷三　治下.md",
-    "_posts/读书笔记/书/罗织经/4.卷四　控权.md",
-    "_posts/读书笔记/书/罗织经/5.卷五　制敌.md",
-    "_posts/读书笔记/书/罗织经/6.卷六　固荣.md",
-    "_posts/读书笔记/书/罗织经/7.卷七　保身.md",
-    "_posts/读书笔记/书/罗织经/8.卷八　察姦.md",
     "_posts/读书笔记/书/罗织经",
     "_posts/读书笔记/书",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/db02738efc8847cf63af23c7ffd815d3_MD5.jpeg",
