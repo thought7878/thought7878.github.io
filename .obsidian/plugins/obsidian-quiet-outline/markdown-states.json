@@ -1101,12 +1101,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 43
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 51
       }
     },
     "expandedKeys": []
@@ -3119,36 +3119,35 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 12,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-53",
-      "item-3-1",
-      "item-3-7",
-      "item-3-9"
+      "item-3-79",
+      "item-3-27",
+      "item-3-1"
     ]
   },
   "_posts/English/单词/Untitled.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-53",
-      "item-3-1"
+      "item-3-79",
+      "item-3-27"
     ]
   },
   "_posts/English/单词/hydration.md": {
@@ -3386,12 +3385,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 24
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 24
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -3411,14 +3410,14 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md": {
-    "scroll": 31.695765985965465,
+    "scroll": 33.66240647909798,
     "cursor": {
       "from": {
-        "line": 33,
+        "line": 35,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 36,
         "ch": 0
       }
     },
@@ -4192,17 +4191,67 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6..md": {
-    "scroll": 40.29014554998807,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 0
+        "line": 1,
+        "ch": 31
       },
       "to": {
-        "line": 45,
-        "ch": 0
+        "line": 1,
+        "ch": 31
       }
     },
     "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6.深度优先前序解决方案.md": {
+    "scroll": 42.943359375,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 7
+      },
+      "to": {
+        "line": 31,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "_posts/English/单词/recurse.md": {
+    "scroll": 19.8310546875,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 11
+      },
+      "to": {
+        "line": 34,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-3-79",
+      "item-3-27",
+      "item-3-1"
+    ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/7.深度优先后序介绍.md": {
+    "scroll": 12.533854166666666,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6"
+    ]
   }
 }

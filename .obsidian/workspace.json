@@ -445,7 +445,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6..md",
+                "file": "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/7.深度优先后序介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -460,7 +460,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6."
+              "title": "7.深度优先后序介绍"
             }
           },
           {
@@ -717,14 +717,18 @@
   },
   "active": "89040fa133085550",
   "lastOpenFiles": [
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6.深度优先前序解决方案.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/7.深度优先后序介绍.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/recurse.md",
+    "_posts/English/每日记录（复习）.md",
+    "_posts/methods/构建系统/_如何制定计划、目标？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/5.深度优先前序遍历介绍.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/af42832cc1334fea138b7913271474b2_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251217151208.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6..md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/e51964a296532bcf39332905da84b429_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/Pasted image 20251217150900.png",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/media/957056008b09e9971bdc52af0e209971_MD5.jpeg",
@@ -746,9 +750,6 @@
     "_posts/architect/渲染架构/patterns.dev/media/3f29a113c889cd14715b3dd1107ff252_MD5.png",
     "_posts/react/总结/Components/<Suspense>.md",
     "_posts/English/单词/suspense.md",
-    "_posts/读书笔记/兴趣/杂.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-15.md",
-    "_posts/读书笔记/人性.md",
     "_posts/architect/渲染架构/patterns.dev/media/serverside-rendering-1.webm",
     "_posts/architect/渲染架构/patterns.dev/media/3aba044def90991aa4284d1e963b1665_MD5.png",
     "_posts/architect/渲染架构/patterns.dev/media/0e642d67841c37ef095e463c6c4634a9_MD5.png",
