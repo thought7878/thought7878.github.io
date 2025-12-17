@@ -3386,11 +3386,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -3411,15 +3411,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md": {
-    "scroll": 33.67365016173177,
+    "scroll": 31.695765985965465,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 113
+        "line": 33,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 113
+        "line": 34,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -3427,15 +3427,15 @@
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/3.广度优先搜索简介.md": {
-    "scroll": 30.170507882044475,
+    "scroll": 51.782090860583885,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 12
+        "line": 47,
+        "ch": 74
       },
       "to": {
-        "line": 41,
-        "ch": 12
+        "line": 47,
+        "ch": 74
       }
     },
     "expandedKeys": [
@@ -3473,15 +3473,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md": {
-    "scroll": 2.8541666666666665,
+    "scroll": 40.67947474813877,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 26
+        "line": 51,
+        "ch": 21
       },
       "to": {
-        "line": 21,
-        "ch": 26
+        "line": 51,
+        "ch": 21
       }
     },
     "expandedKeys": []
@@ -4175,6 +4175,22 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/5.深度优先前序遍历介绍.md": {
+    "scroll": 4.208333333333333,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 66
+      },
+      "to": {
+        "line": 10,
+        "ch": 66
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
     ]
   }
 }
