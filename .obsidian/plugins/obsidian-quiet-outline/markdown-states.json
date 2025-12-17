@@ -3119,11 +3119,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 12,
         "ch": 0
       }
     },
@@ -4178,15 +4178,15 @@
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/5.深度优先前序遍历介绍.md": {
-    "scroll": 4.208333333333333,
+    "scroll": 10.904296875,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 66
+        "line": 22,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 66
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": [
