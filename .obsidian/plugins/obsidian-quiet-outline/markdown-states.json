@@ -3386,12 +3386,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 6,
+        "ch": 24
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 6,
+        "ch": 24
       }
     },
     "expandedKeys": []
@@ -4178,19 +4178,31 @@
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/5.深度优先前序遍历介绍.md": {
-    "scroll": 10.904296875,
+    "scroll": 25.023356119791668,
     "cursor": {
       "from": {
-        "line": 22,
+        "line": 31,
+        "ch": 24
+      },
+      "to": {
+        "line": 31,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6..md": {
+    "scroll": 40.29014554998807,
+    "cursor": {
+      "from": {
+        "line": 45,
         "ch": 0
       },
       "to": {
-        "line": 15,
+        "line": 45,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-2"
-    ]
+    "expandedKeys": []
   }
 }
