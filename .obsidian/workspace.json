@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+                "file": "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.Client-side Rendering"
+              "title": "3.Static Rendering"
             }
           },
           {
@@ -717,9 +717,9 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/architect/渲染架构/patterns.dev/Untitled Diagram.svg",
-    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/Untitled Diagram.svg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/7762373fe53482fbe6302fa613cf8181_MD5.jpeg",
