@@ -2491,15 +2491,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/学习、复习记录.md": {
-    "scroll": 0,
+    "scroll": 5.625,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 19,
+        "ch": 47
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 19,
+        "ch": 47
       }
     },
     "expandedKeys": []
@@ -3410,15 +3410,15 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md": {
-    "scroll": 29.533692262338832,
+    "scroll": 5.4375,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 0
+        "line": 40,
+        "ch": 104
       },
       "to": {
-        "line": 32,
-        "ch": 0
+        "line": 40,
+        "ch": 104
       }
     },
     "expandedKeys": []
@@ -4159,14 +4159,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-17.md": {
-    "scroll": 18.626938279112192,
+    "scroll": 7.642424242424243,
     "cursor": {
       "from": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 27,
         "ch": 0
       }
     },
@@ -4335,15 +4335,71 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/11.何时使用 BFS 和 DFS.md": {
-    "scroll": 37.617115520907156,
+    "scroll": 35.737955729166664,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 7
+        "line": 45,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 7
+        "line": 45,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Templates/Daily Note.md": {
+    "scroll": 7.882488479262673,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-18.md": {
+    "scroll": 16.70051687442992,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 16
+      },
+      "to": {
+        "line": 0,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md": {
+    "scroll": 4.623671155209071,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
