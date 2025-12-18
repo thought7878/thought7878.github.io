@@ -79,7 +79,7 @@
 ![[_posts/architect/渲染架构/media/69919abf3ca9009c0064f02ad8358b4f_MD5.jpeg]]
 
 ### ISR
-`增量静态再生（ISR，Incremental Static Regeneration）`是一种**对SSG的改进**，相比于SSG在构建阶段生成页面，ISR可以在内容发生变化时重新渲染，而不需要跑一次构建发布流程。
+`增量静态再生（ISR，Incremental Static Regeneration）`是一种**对SSG的改进**，相比于SSG在构建阶段生成页面，ISR可以**在内容发生变化时重新渲染，而不需要跑一次构建发布流程**。
 支持ISR的典型框架有Next.js、Nuxt.js等。
 
 ![[_posts/architect/渲染架构/media/1c34ba37c3d67417efcb1e86d5c120e1_MD5.jpeg]]
