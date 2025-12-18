@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+                "file": "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.Server-side Rendering"
+              "title": "1.Client-side Rendering"
             }
           },
           {
@@ -536,7 +536,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -715,8 +715,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "89040fa133085550",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/architect/渲染架构/patterns.dev/Untitled Diagram.svg",
+    "_posts/architect/渲染架构/patterns.dev/1.Client-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
+    "_posts/读书笔记/世界趋势/美国.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/7762373fe53482fbe6302fa613cf8181_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/Pasted image 20251218095847.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/c5445a1f7b4219fea16d30aee2d3aef9_MD5.jpeg",
@@ -726,14 +731,10 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/b5355ec724eb797890c5427f5b33c8a2_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/Pasted image 20251218095016.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/4ac39ca75a63e786e3e8a8793439f1e3_MD5.jpeg",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/Pasted image 20251218094747.png",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media/1333ba898eb34c70bef96efb9d643e66_MD5.jpeg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media",
     "_posts/English/每日记录（复习）.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/heap.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
-    "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
     "_posts/English/单词/traverse.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/2.树遍历简介.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps",
@@ -755,8 +756,6 @@
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6.深度优先前序解决方案.md",
     "_posts/English/单词/recurse.md",
     "_posts/methods/构建系统/_如何制定计划、目标？.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/5.深度优先前序遍历介绍.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/4.广度优先搜索解决方案.md",
     "_posts/architect/渲染架构/patterns.dev/media/serverside-rendering-1.webm",
     "_posts/architect/渲染架构/patterns.dev/media",
     "_posts/architect/渲染架构/patterns.dev",
