@@ -689,7 +689,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -715,7 +715,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9ee2db9c39980552",
+  "active": "9b6b9e6d91bf8833",
   "lastOpenFiles": [
     "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
