@@ -3873,15 +3873,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 124.63530815972223,
+    "scroll": 129.65184266477675,
     "cursor": {
       "from": {
         "line": 136,
-        "ch": 30
+        "ch": 22
       },
       "to": {
         "line": 136,
-        "ch": 30
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -4546,6 +4546,37 @@
       "item-1-0",
       "item-2-8",
       "item-3-2"
+    ]
+  },
+  "_posts/react/nextJS/文档/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/nextJS/文档/服务器端和客户端组件.md": {
+    "scroll": 87.34375,
+    "cursor": {
+      "from": {
+        "line": 92,
+        "ch": 43
+      },
+      "to": {
+        "line": 92,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-6"
     ]
   }
 }
