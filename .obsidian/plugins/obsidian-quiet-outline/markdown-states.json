@@ -1101,12 +1101,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 7
+        "line": 3,
+        "ch": 9
       },
       "to": {
-        "line": 2,
-        "ch": 7
+        "line": 3,
+        "ch": 9
       }
     },
     "expandedKeys": []
@@ -3867,15 +3867,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 192.11588541666666,
+    "scroll": 106.9482421875,
     "cursor": {
       "from": {
-        "line": 202,
-        "ch": 116
+        "line": 121,
+        "ch": 222
       },
       "to": {
-        "line": 202,
-        "ch": 116
+        "line": 121,
+        "ch": 222
       }
     },
     "expandedKeys": [
@@ -3901,15 +3901,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md": {
-    "scroll": 164.17220052083334,
+    "scroll": 160.1943359375,
     "cursor": {
       "from": {
-        "line": 171,
-        "ch": 150
+        "line": 164,
+        "ch": 313
       },
       "to": {
-        "line": 171,
-        "ch": 150
+        "line": 164,
+        "ch": 313
       }
     },
     "expandedKeys": [
@@ -4365,18 +4365,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-18.md": {
-    "scroll": 16.70051687442992,
+    "scroll": 10.754545454545454,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/Untitled.md": {
     "scroll": 0,
@@ -4455,5 +4457,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-19.md": {
+    "scroll": 20.269078747339616,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
