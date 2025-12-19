@@ -21,9 +21,11 @@
 ### 2. React Server Component 是什么？
 
 一句话概括：`Server Component` 是**只在服务端运行、不会被打包到客户端的 React 组件** 。  
-它**返回的*不是 HTML*，而是一种 *React 定义的序列化格式（类似 JSON）*，客户端 React *通过该格式重建 UI 树*，同时保留组件语义（如 props、嵌套关系等）**。
+它**返回的*不是 HTML*，而是一种 *React 定义的序列化格式（类似 JSON）*，客户端 *React 通过该格式重建 UI 树*，同时保留组件语义（如 props、嵌套关系等）**。
 
 与传统的 SSR（服务端渲染）不同，RSC 是**增量、流式、可组合**的，支持*在同一个页面中混合使用 Server Component 和 Client Component*。
+
+参考：[[渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）#RSC]]
 
 ---
 
@@ -65,9 +67,9 @@ export default function UserProfileClient({ user }) {
 ```
 
 #### 注意事项：
-- Server Component 不能使用 `useState`、`useEffect`、`useContext`（除了某些服务端可用的 Context）等 hooks。
-- props 从 Server Component 传递给 Client Component 必须是可序列化的（不能传函数、类实例等）。
-- Server Component 可以直接访问后端资源（数据库、文件系统、环境变量等）。
+- Server Component *不能使用* `useState`、`useEffect`、`useContext`（除了某些服务端可用的 Context）等 hooks。
+- props 从 Server Component 传递给 Client Component *必须是可序列化的*（*不能传函数、类实例等*）。
+- Server Component 可以*直接访问后端资源*（数据库、文件系统、环境变量等）。
 
 ---
 

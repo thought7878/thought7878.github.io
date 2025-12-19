@@ -3015,7 +3015,8 @@
       "item-3-2",
       "item-1-3",
       "item-2-5",
-      "item-1-10"
+      "item-1-10",
+      "item-3-0"
     ]
   },
   "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
@@ -3271,15 +3272,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/渲染页面的 N 种姿势（从模板引擎到新式服务端渲染）.md": {
-    "scroll": 78.32561766212935,
+    "scroll": 93.94251736391536,
     "cursor": {
       "from": {
-        "line": 82,
-        "ch": 28
+        "line": 95,
+        "ch": 0
       },
       "to": {
-        "line": 82,
-        "ch": 28
+        "line": 95,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -3872,21 +3873,22 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 89.00846354166667,
+    "scroll": 192.56868489583334,
     "cursor": {
       "from": {
-        "line": 96,
-        "ch": 207
+        "line": 203,
+        "ch": 0
       },
       "to": {
-        "line": 96,
-        "ch": 207
+        "line": 203,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-11",
       "item-1-0",
       "item-2-8",
+      "item-3-2",
       "item-2-1",
       "item-2-5"
     ]
@@ -4493,7 +4495,10 @@
       }
     },
     "expandedKeys": [
-      "item-3-0"
+      "item-2-11",
+      "item-1-0",
+      "item-2-8",
+      "item-3-2"
     ]
   },
   "_posts/react/总结/Untitled.md": {
@@ -4525,22 +4530,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/RSC-QW1.md": {
-    "scroll": 5.591796875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 39,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 39,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-1-3",
-      "item-2-5",
-      "item-1-10"
+      "item-2-11",
+      "item-1-0",
+      "item-2-8",
+      "item-3-2"
     ]
   }
 }
