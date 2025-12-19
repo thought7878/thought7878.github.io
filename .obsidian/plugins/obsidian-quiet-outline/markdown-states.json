@@ -3867,21 +3867,21 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 106.9482421875,
+    "scroll": 115.63937984496124,
     "cursor": {
       "from": {
-        "line": 121,
-        "ch": 222
+        "line": 123,
+        "ch": 246
       },
       "to": {
-        "line": 121,
-        "ch": 222
+        "line": 123,
+        "ch": 246
       }
     },
     "expandedKeys": [
-      "item-2-12",
+      "item-2-11",
       "item-1-0",
-      "item-2-9",
+      "item-2-8",
       "item-2-1",
       "item-2-5"
     ]
@@ -3901,21 +3901,22 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md": {
-    "scroll": 160.1943359375,
+    "scroll": 109.48708767361111,
     "cursor": {
       "from": {
-        "line": 164,
-        "ch": 313
+        "line": 124,
+        "ch": 31
       },
       "to": {
-        "line": 164,
-        "ch": 313
+        "line": 124,
+        "ch": 31
       }
     },
     "expandedKeys": [
       "item-2-11",
       "item-1-0",
-      "item-2-8"
+      "item-2-8",
+      "item-2-1"
     ]
   },
   "_posts/architect/渲染架构/patterns.dev/4..md": {
