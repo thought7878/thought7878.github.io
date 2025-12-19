@@ -8,6 +8,9 @@
 # Component
 参考 [[Component]]
 
+## React Server Component
+参考 [[RSC-QW1]]
+
 ## Functional Component
 参考 [[函数组件]]
 

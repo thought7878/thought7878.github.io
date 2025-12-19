@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+                "file": "_posts/react/总结/RSC-QW1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.Server-side Rendering"
+              "title": "RSC-QW1"
             }
           },
           {
@@ -715,10 +715,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/react/总结/RSC-QW1.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/React的渲染流程-DS.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
+    "_posts/architect/渲染架构/patterns.dev/3.Static Rendering.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/English/每日记录（复习）.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-19.md",
@@ -756,9 +759,6 @@
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/读书笔记/历史.md",
     "_posts/读书笔记/人性.md",
-    "_posts/AI/「动力飞轮」APP/灵感.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/7.深度优先后序介绍.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/23. Tree Traversal/6.深度优先前序解决方案.md",
     "_posts/architect/渲染架构/patterns.dev/media/serverside-rendering-1.webm",
     "_posts/architect/渲染架构/patterns.dev/media",
     "_posts/architect/渲染架构/patterns.dev",
