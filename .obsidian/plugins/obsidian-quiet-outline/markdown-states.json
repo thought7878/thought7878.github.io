@@ -620,19 +620,25 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/权力.md": {
-    "scroll": 2.8541666666666665,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 6,
+        "ch": 56
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 6,
+        "ch": 56
       }
     },
     "expandedKeys": [
-      "item-2-27"
+      "item-2-2",
+      "item-2-6",
+      "item-1-20",
+      "item-2-25",
+      "item-2-21",
+      "item-3-14",
+      "item-2-29"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/8. shift().md": {
@@ -946,7 +952,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 62.521158854166664,
+    "scroll": 61.8515625,
     "cursor": {
       "from": {
         "line": 38,
@@ -3891,15 +3897,15 @@
     "expandedKeys": []
   },
   "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md": {
-    "scroll": 129.65184266477675,
+    "scroll": 93.72819010416667,
     "cursor": {
       "from": {
-        "line": 136,
-        "ch": 22
+        "line": 99,
+        "ch": 404
       },
       "to": {
-        "line": 136,
-        "ch": 22
+        "line": 99,
+        "ch": 404
       }
     },
     "expandedKeys": [
@@ -4581,25 +4587,26 @@
     "expandedKeys": []
   },
   "_posts/react/nextJS/文档/服务器端和客户端组件.md": {
-    "scroll": 117.54036458333333,
+    "scroll": 389.2532552083333,
     "cursor": {
       "from": {
-        "line": 133,
-        "ch": 43
+        "line": 399,
+        "ch": 41
       },
       "to": {
-        "line": 133,
-        "ch": 43
+        "line": 399,
+        "ch": 41
       }
     },
     "expandedKeys": [
+      "item-2-11",
+      "item-1-0",
+      "item-2-8",
+      "item-3-2",
+      "item-2-1",
+      "item-2-5",
       "item-2-2",
-      "item-2-6",
-      "item-1-20",
-      "item-2-25",
-      "item-2-21",
-      "item-3-14",
-      "item-2-29"
+      "item-2-6"
     ]
   },
   "_posts/react/nextJS/overview.md": {
