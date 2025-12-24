@@ -4587,15 +4587,15 @@
     "expandedKeys": []
   },
   "_posts/react/nextJS/文档/服务器端和客户端组件.md": {
-    "scroll": 389.2532552083333,
+    "scroll": 166.67415364583334,
     "cursor": {
       "from": {
-        "line": 399,
-        "ch": 41
+        "line": 176,
+        "ch": 48
       },
       "to": {
-        "line": 399,
-        "ch": 41
+        "line": 176,
+        "ch": 48
       }
     },
     "expandedKeys": [
@@ -4687,19 +4687,107 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-23.md": {
-    "scroll": 33.08046692607004,
+    "scroll": 26.576171875,
     "cursor": {
       "from": {
-        "line": 42,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 42,
+        "line": 31,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-24.md": {
+    "scroll": 18.140468227424748,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 135
+      },
+      "to": {
+        "line": 0,
+        "ch": 135
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/0.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 137
+      },
+      "to": {
+        "line": 0,
+        "ch": 137
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/【现代前端开发必知01】如何成为现代前端六边形战士.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 137
+      },
+      "to": {
+        "line": 0,
+        "ch": 137
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/【现代前端开发必知02】上期回顾 & 章节概览.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 135
+      },
+      "to": {
+        "line": 0,
+        "ch": 135
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 5
+      },
+      "to": {
+        "line": 14,
+        "ch": 5
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
