@@ -4723,11 +4723,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 135
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 135
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4775,20 +4775,52 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md": {
-    "scroll": 41.922526041666664,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 51,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 51,
+        "line": 3,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2",
       "item-2-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
+    "scroll": 2.6874183901267847,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md": {
+    "scroll": 10.162760416666666,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 12
+      },
+      "to": {
+        "line": 15,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-0",
+      "item-3-1"
     ]
   }
 }

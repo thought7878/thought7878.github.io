@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01.如何成为现代前端六边形战士"
+              "title": "03.计算机网络(上)"
             }
           },
           {
@@ -709,20 +709,21 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/ad53fa0d276a3dd27238eaa4a510db3c_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224104659.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/76f9b0d1a7ff6a891ae9d9d2f4d45d90_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224103352.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/ec45ec0b9e972a5fc358dcb63f9fb4a3_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224103145.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/902cd8bcbbea7d31d17042f4258ebe61_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224100147.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/1d48b3d8a5b08061eb476489dc47cc1c_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224100015.png",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/794d0148f9ff6ce17b9489788069d71b_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/17119c776282350e66c520ce18e2d5d9_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224095456.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224095148.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/ebef60eae611222ac0095051cd1306fa_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251224094705.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media",
-    "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md",
     "_posts/react/nextJS/文档/服务器端和客户端组件.md",
     "_posts/base/知识目录、路线图/现代前端开发必知",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-24.md",
@@ -747,10 +748,8 @@
     "_posts/react/nextJS/文档",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/react/总结/核心概念、原理、源码/源码/React的渲染流程-DS.md",
-    "_posts/react/总结/RSC-QW1.md",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-2.webm",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-1.webm",
-    "_posts/architect/渲染架构/patterns.dev/Untitled Diagram.svg",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/media",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps",
     "DailyNote/Templates/media",
