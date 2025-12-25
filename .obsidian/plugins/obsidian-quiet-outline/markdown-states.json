@@ -4839,17 +4839,22 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/04.你需要知道的 HTTP 协议.md": {
-    "scroll": 0,
+    "scroll": 24.343366311516995,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 28,
+        "ch": 29
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 28,
+        "ch": 29
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-5"
+    ]
   }
 }
