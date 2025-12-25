@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/04.你需要知道的 HTTP 协议.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/05.编程语言、ES 标准、JS 引擎和运行时.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04.你需要知道的 HTTP 协议"
+              "title": "05.编程语言、ES 标准、JS 引擎和运行时"
             }
           },
           {
@@ -719,19 +719,20 @@
   },
   "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/9bc990e50c90ef4f893965a053ef290c_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225110611.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/a40e2e8a84fcd7d327557d42ddb0bf58_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225105314.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/0f49094c6a53b1728880bfd335460eee_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225104733.png",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/b30ad20de5aaf90038cf4fd12333a5e5_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/6382f2d914830da6645507abc465b845_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225135508.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/3da132be1afa1f9605f746fc96712cd0_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225135018.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/04.你需要知道的 HTTP 协议.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225101521.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/9bd2496e45dac9e30d491cd1ceb4b915_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225101306.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/ae50efa837cae08e7cd8a33858595e13_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/05.编程语言、ES 标准、JS 引擎和运行时.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/949d66cdb19883f0b1655f194a8eb943_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225133905.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/b9fdc334b2678b063d47d3673d2700cc_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225133601.png",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/a5c03a1ac651b1e872b4dc59ae372471_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251225133517.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/af9e0c90aad4c914c34cdeb24b779aa8_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/domain.md",
@@ -757,7 +758,6 @@
     "DailyNote/Journal/01 Daily/2025/12/media",
     "_posts/English/单词/payload.md",
     "_posts/English/单词/heap.md",
-    "_posts/react/nextJS/oAuth.md",
     "_posts/react/nextJS/文档",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-2.webm",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-1.webm",
