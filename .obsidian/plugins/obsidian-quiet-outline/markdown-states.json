@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 33
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4858,15 +4858,45 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/05.编程语言、ES 标准、JS 引擎和运行时.md": {
-    "scroll": 93.31754692565269,
+    "scroll": 93.62747635374005,
     "cursor": {
       "from": {
-        "line": 95,
-        "ch": 87
+        "line": 101,
+        "ch": 74
       },
       "to": {
-        "line": 95,
-        "ch": 87
+        "line": 101,
+        "ch": 74
+      }
+    },
+    "expandedKeys": [
+      "item-2-5"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/06..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 136
+      },
+      "to": {
+        "line": 0,
+        "ch": 136
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/06.那些简单而又复杂的工具链.md": {
+    "scroll": 43.25301893696825,
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 220
+      },
+      "to": {
+        "line": 49,
+        "ch": 220
       }
     },
     "expandedKeys": []
