@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 13
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -4888,15 +4888,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/06.那些简单而又复杂的工具链.md": {
-    "scroll": 107.60683157377854,
+    "scroll": 116.20389875805691,
     "cursor": {
       "from": {
         "line": 122,
-        "ch": 137
+        "ch": 25
       },
       "to": {
         "line": 122,
-        "ch": 137
+        "ch": 25
       }
     },
     "expandedKeys": [
@@ -4919,5 +4919,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/07.解锁构建用户界面的新姿势.md": {
+    "scroll": 13.89111819712658,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 173
+      },
+      "to": {
+        "line": 22,
+        "ch": 173
+      }
+    },
+    "expandedKeys": []
   }
 }
