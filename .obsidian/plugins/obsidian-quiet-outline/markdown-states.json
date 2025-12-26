@@ -4427,12 +4427,12 @@
     "scroll": 5.55859375,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 14,
+        "ch": 11
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 14,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -4823,14 +4823,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-25.md": {
-    "scroll": 5.108080808080808,
+    "scroll": 13.141304347826088,
     "cursor": {
       "from": {
-        "line": 41,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 41,
+        "line": 31,
         "ch": 0
       }
     },
@@ -4888,17 +4888,36 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/06.那些简单而又复杂的工具链.md": {
-    "scroll": 43.25301893696825,
+    "scroll": 74.50037483537635,
     "cursor": {
       "from": {
-        "line": 49,
-        "ch": 220
+        "line": 83,
+        "ch": 65
       },
       "to": {
-        "line": 49,
-        "ch": 220
+        "line": 83,
+        "ch": 65
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-5"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 0
+      },
+      "to": {
+        "line": 39,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
