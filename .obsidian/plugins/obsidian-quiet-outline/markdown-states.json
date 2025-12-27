@@ -4427,12 +4427,12 @@
     "scroll": 5.55859375,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 11
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 11
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 13
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 29
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4904,14 +4904,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md": {
-    "scroll": 0,
+    "scroll": 19.6630859375,
     "cursor": {
       "from": {
-        "line": 39,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 39,
+        "line": 31,
         "ch": 0
       }
     },
@@ -4920,7 +4920,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/07.解锁构建用户界面的新姿势.md": {
-    "scroll": 47.39693775890095,
+    "scroll": 49.89936215450035,
     "cursor": {
       "from": {
         "line": 51,
@@ -4932,7 +4932,6 @@
       }
     },
     "expandedKeys": [
-      "item-2-2",
       "item-2-7"
     ]
   },
@@ -4954,5 +4953,50 @@
       "item-2-1",
       "item-2-9"
     ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/09..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 139
+      },
+      "to": {
+        "line": 0,
+        "ch": 139
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md": {
+    "scroll": 27.94223418573351,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 164
+      },
+      "to": {
+        "line": 34,
+        "ch": 164
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-3-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md": {
+    "scroll": 25.367838541666668,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

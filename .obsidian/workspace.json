@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-26"
+              "title": "2025-12-27"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/08.应用框架何其多，但核心要素不会变.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08.应用框架何其多，但核心要素不会变"
+              "title": "09.你想要的性能优化方案都在这里了"
             }
           },
           {
@@ -717,26 +717,28 @@
       "media-extended:Open media": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/6700ffdf5a36cb5a5dbfb77117d0ef90_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251226173540.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/d5ea722e7720edc4bd08ff8eec73decd_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251226173033.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/d50e92984c8c72d8f3f94e06494d909c_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251226172712.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/0259c326c2583f089634cedf9a52c10d_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251226172443.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/76a15e356825e2748098099c49496c85_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251226171636.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/78a0633a1f3d7530800dd77e1ed8fcc6_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/41f78a3812b44d0af31114510d20ae13_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227090723.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/c76a7377b959ced81e729c9caef51f4b_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227090339.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/5d2706fbcbe158c74e9219b5660929ff_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227090156.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/74c1259402eeecb7757598e03e48e818_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227085823.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/8e400a27c1d7999d4dd32ad6ac9e2336_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227085411.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/98aaba697382e6a1092f996d4a51f9af_MD5.jpeg",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/07.解锁构建用户界面的新姿势.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/08.应用框架何其多，但核心要素不会变.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/06.那些简单而又复杂的工具链.md",
     "_posts/methods/常看的.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-25.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/05.编程语言、ES 标准、JS 引擎和运行时.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/04.你需要知道的 HTTP 协议.md",
@@ -755,8 +757,6 @@
     "DailyNote/Journal/01 Daily/2025/12/2025-12-23.md",
     "DailyNote/Journal/01 Daily/2025-12-24.md",
     "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
-    "_posts/读书笔记/权力.md",
-    "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2025/12/media",
     "_posts/react/nextJS/文档",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-2.webm",
