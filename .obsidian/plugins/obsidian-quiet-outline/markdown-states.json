@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 26
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -4969,29 +4969,20 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md": {
-    "scroll": 208.2367612013607,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 216,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 216,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-1-0",
-      "item-3-19",
-      "item-4-8",
-      "item-3-3",
-      "item-4-4",
-      "item-3-25",
-      "item-3-30",
-      "item-3-33",
-      "item-3-35",
-      "item-2-39"
+      "item-2-39",
+      "item-1-1"
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md": {
@@ -5007,5 +4998,58 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/10.惊了，用户体验还能这么做？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-39",
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/09.性能优化（用户体验）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-39",
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md": {
+    "scroll": 31.70950942054746,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 23
+      },
+      "to": {
+        "line": 35,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-2-50",
+      "item-1-12",
+      "item-1-0",
+      "item-2-1"
+    ]
   }
 }

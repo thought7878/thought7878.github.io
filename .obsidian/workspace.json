@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "09.你想要的性能优化方案都在这里了"
+              "title": "10.用户体验（下）"
             }
           },
           {
@@ -717,21 +717,22 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9ee2db9c39980552",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/6271f47744b2a30c68a83508d4adacfa_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227173627.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/288eabe653805e929826ff32389d2fef_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227173130.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/99c718072e489fb852b39031bd50ce1b_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227172605.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/74a4f137c65232d744efab4f8d166f01_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227172529.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/bb038ffd4668926f512f96bd34f271f0_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227171207.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/57fe7ee4cd36588d820e3235fce94173_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/e67136651eb980cc29696ec667992d71_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227182019.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/691e506210658ad3c5ac04152fb97f5a_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227181748.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/7e4f128bd895619afcdc182085745430_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227181156.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/61137ea16ea6f9d735057fa56d2b9f6c_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227181056.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/c4d201fb83dd4746117c8932e20d61ec_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251227180648.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/a81e9dc8d2617f79eb72ae16d80a2670_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/09.性能优化（用户体验（上））.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/09.你想要的性能优化方案都在这里了.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md",
@@ -756,7 +757,6 @@
     "_posts/base/知识目录、路线图/现代前端开发必知",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-23.md",
     "DailyNote/Journal/01 Daily/2025-12-24.md",
-    "_posts/architect/渲染架构/patterns.dev/2.Server-side Rendering.md",
     "DailyNote/Journal/01 Daily/2025/12/media",
     "_posts/react/nextJS/文档",
     "_posts/architect/渲染架构/patterns.dev/media/static-generation-2.webm",
