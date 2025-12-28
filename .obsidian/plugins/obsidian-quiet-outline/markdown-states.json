@@ -5100,15 +5100,15 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/11.前端的服务端.md": {
-    "scroll": 83.95658969631104,
+    "scroll": 92.19355767155157,
     "cursor": {
       "from": {
-        "line": 91,
-        "ch": 31
+        "line": 96,
+        "ch": 54
       },
       "to": {
-        "line": 91,
-        "ch": 31
+        "line": 96,
+        "ch": 54
       }
     },
     "expandedKeys": [
@@ -5116,6 +5116,36 @@
       "item-1-1",
       "item-1-5",
       "item-1-8"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/12..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/12.质量和安全.md": {
+    "scroll": 36.059711724380385,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 57
+      },
+      "to": {
+        "line": 40,
+        "ch": 57
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
