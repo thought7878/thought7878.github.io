@@ -5133,15 +5133,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/12.质量和安全.md": {
-    "scroll": 92.66667810569663,
+    "scroll": 92.9492679020819,
     "cursor": {
       "from": {
-        "line": 93,
-        "ch": 75
+        "line": 98,
+        "ch": 23
       },
       "to": {
-        "line": 93,
-        "ch": 75
+        "line": 98,
+        "ch": 23
       }
     },
     "expandedKeys": [
@@ -5156,5 +5156,33 @@
       "item-1-10",
       "item-1-13"
     ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/13..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 17
+      },
+      "to": {
+        "line": 6,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md": {
+    "scroll": 39.49733683926645,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 124
+      },
+      "to": {
+        "line": 46,
+        "ch": 124
+      }
+    },
+    "expandedKeys": []
   }
 }
