@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 26
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4986,18 +4986,20 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md": {
-    "scroll": 25.367838541666668,
+    "scroll": 20.560960778352083,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/10.惊了，用户体验还能这么做？.md": {
     "scroll": 0,
@@ -5034,23 +5036,83 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md": {
-    "scroll": 90.82299244246936,
+    "scroll": 57.84560253135603,
     "cursor": {
       "from": {
-        "line": 102,
-        "ch": 16
+        "line": 110,
+        "ch": 101
       },
       "to": {
-        "line": 102,
-        "ch": 16
+        "line": 110,
+        "ch": 101
       }
     },
     "expandedKeys": [
-      "item-2-56",
-      "item-1-18",
-      "item-1-0",
-      "item-1-9",
-      "item-1-13"
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-28.md": {
+    "scroll": 14.959183673469388,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/09.性能优化（用户体验（上））.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/11..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/11.前端的服务端.md": {
+    "scroll": 19.05480249920576,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 182
+      },
+      "to": {
+        "line": 21,
+        "ch": 182
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
