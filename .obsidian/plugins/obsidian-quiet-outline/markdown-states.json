@@ -4720,11 +4720,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 137
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 137
       }
     },
     "expandedKeys": []
@@ -5172,19 +5172,20 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md": {
-    "scroll": 72.43248741073715,
+    "scroll": 80.72870423693954,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 21
+        "line": 87,
+        "ch": 51
       },
       "to": {
-        "line": 74,
-        "ch": 21
+        "line": 87,
+        "ch": 51
       }
     },
     "expandedKeys": [
-      "item-1-1"
+      "item-1-1",
+      "item-1-3"
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-29.md": {
@@ -5202,5 +5203,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 75
+      },
+      "to": {
+        "line": 7,
+        "ch": 75
+      }
+    },
+    "expandedKeys": []
   }
 }
