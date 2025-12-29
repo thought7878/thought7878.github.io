@@ -5052,14 +5052,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-28.md": {
-    "scroll": 14.959183673469388,
+    "scroll": 18.743691091517178,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -5172,17 +5172,35 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md": {
-    "scroll": 39.49733683926645,
+    "scroll": 72.43248741073715,
     "cursor": {
       "from": {
-        "line": 46,
-        "ch": 124
+        "line": 74,
+        "ch": 21
       },
       "to": {
-        "line": 46,
-        "ch": 124
+        "line": 74,
+        "ch": 21
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-29.md": {
+    "scroll": 25.076171875,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 0
+      },
+      "to": {
+        "line": 41,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
