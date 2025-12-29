@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14.利用云基础设施加速前端开发"
+              "title": "15.可观测性是什么？"
             }
           },
           {
@@ -691,7 +691,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -717,21 +717,22 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "9ee2db9c39980552",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/e30e87f05007ec6b83a6078637e194e6_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229135522.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/fe59d927dfbf627df4752668c71264f3_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229135424.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/d51465778d9342b0a3ca7508b5da6c7a_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229135134.png",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/8b9adcdb2fc05d3137ee71df18009a54_MD5.jpeg",
+    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229134647.png",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/101a0ee0a97f0742eb83550758b5dbc8_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229110608.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/b020c0a794ef47262b22146bc523429f_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229110340.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/fea5cc5cb9ae6db93cc74792d9009812_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229105747.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/38fcb894085387b2917445f81d8128b4_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229104920.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/c48484b0bc65d71dab48a0224f5ebf18_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251229104512.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/9605efc47e9b0b63a345ec59b3b03cf3_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-29.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-28.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/12.质量和安全.md",
@@ -740,7 +741,6 @@
     "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/09.性能优化（用户体验（上））.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-27.md",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-26.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/07.解锁构建用户界面的新姿势.md",
