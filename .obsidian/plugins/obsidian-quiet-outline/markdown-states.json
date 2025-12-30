@@ -581,12 +581,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 23
+        "line": 10,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 23
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -952,25 +952,19 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 35.092936197916664,
+    "scroll": 21.455813953488374,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 4
+        "line": 39,
+        "ch": 28
       },
       "to": {
-        "line": 40,
-        "ch": 4
+        "line": 39,
+        "ch": 28
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-2-6",
-      "item-1-20",
-      "item-2-25",
-      "item-2-21",
-      "item-3-14",
-      "item-2-29"
+      "item-1-0"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/21. Stacks + Queues/7. 创建队列（数组）.md": {
@@ -2007,12 +2001,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 8,
+        "ch": 159
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 8,
+        "ch": 159
       }
     },
     "expandedKeys": []
@@ -3097,15 +3091,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 0.48484848484848486,
+    "scroll": 73.66666666666667,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 75,
+        "ch": 4
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 75,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -5189,14 +5183,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-29.md": {
-    "scroll": 25.076171875,
+    "scroll": 22.027972027972027,
     "cursor": {
       "from": {
-        "line": 41,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 41,
+        "line": 31,
         "ch": 0
       }
     },
@@ -5237,19 +5231,37 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md": {
-    "scroll": 40.81563876916427,
+    "scroll": 84.69500188482604,
     "cursor": {
       "from": {
-        "line": 43,
-        "ch": 118
+        "line": 89,
+        "ch": 20
       },
       "to": {
-        "line": 43,
-        "ch": 118
+        "line": 89,
+        "ch": 20
       }
     },
     "expandedKeys": [
+      "item-1-1",
+      "item-2-2",
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2025/12/2025-12-30.md": {
+    "scroll": 29.201171875,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 31
+      },
+      "to": {
+        "line": 39,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
