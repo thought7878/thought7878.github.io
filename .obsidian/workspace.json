@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-30.md",
+                "file": "DailyNote/Journal/01 Daily/2025/12/2025-12-31.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-30"
+              "title": "2025-12-31"
             }
           },
           {
@@ -469,7 +469,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md",
+                "file": "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -484,7 +484,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15.可观测性是什么？"
+              "title": "13.持续集成和部署"
             }
           },
           {
@@ -715,8 +715,13 @@
       "media-extended:Open media": false
     }
   },
-  "active": "9ee2db9c39980552",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/现代前端开发必知/12.质量和安全.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md",
+    "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-31.md",
+    "DailyNote/Journal/01 Daily/2025/12/2025-12-30.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/39468fda6de7a153f1c4ad116418e89f_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251230100802.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/0c690f0b5dbaaab72956e22366d73aeb_MD5.jpeg",
@@ -727,9 +732,6 @@
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251230100111.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/37a3ae81f2a508cbaefa078e24ccc509_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20251230100000.png",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/7df77b54a373704d434789fb4819157f_MD5.jpeg",
-    "DailyNote/Journal/01 Daily/2025/12/2025-12-30.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/15.可观测性是什么？.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-29.md",
     "_posts/methods/要整理的.md",
@@ -738,9 +740,7 @@
     "_posts/读书笔记/人性.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-28.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/12.质量和安全.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/11.前端的服务端.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/10.用户体验（下）.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/09.性能优化（用户体验（上））.md",
