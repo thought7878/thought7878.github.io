@@ -40,6 +40,7 @@
 
 #### React 17：过渡版本 
 [03:32](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=212)
+[React 17 的那些变更](https://juejin.cn/post/7212529038875443259?searchId=2026010420403583E87791C3A64C0E83EE)
 
 - *整体变化较小*
     - 官方称为 *“垫脚石”版本，为18铺路*。
@@ -56,6 +57,7 @@
 
 #### React 18：**引入Concurrent模式**及相关新特性 
 [11:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=736)
+[React18正式版源码级剖析](https://juejin.cn/post/7080854114141208612)
 
 - `Concurrent模式`概述
     - *不是具体API*，而是**支持异步可中断渲染**的理念。
@@ -72,9 +74,9 @@
         *实现非紧急更新*，用于*区分高优先级和低优先级更新*。
         - 示例：输入框即时响应 vs 下拉列表延迟渲染。
     - useDeferredValue [18:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1111)  
-        参数化形式的transition，用于延迟渲染某些值。
+        *参数化形式的transition，用于延迟渲染某些值*。
     - useId [18:53](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1133)  
-        支持服务端渲染（SSR）生成唯一ID。
+        支持*服务端渲染（SSR）生成唯一ID*。
     - useSyncExternalStore [19:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1149)  
         用于外部状态管理库（如Redux）。
     - useInsertionEffect [19:53](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1193)  
