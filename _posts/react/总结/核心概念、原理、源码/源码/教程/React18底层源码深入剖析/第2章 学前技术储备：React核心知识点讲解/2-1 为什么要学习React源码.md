@@ -5,7 +5,7 @@
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/8497e047e80ec7eed3ed2d74529a468b_MD5.jpeg]]
 
 ---
-
+## 为了重新写一个React？
 - 前端三大框架概述 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=0)
     - 前端主流三大框架为 React、Vue、Angular。
     - 国内主要使用 React 和 Vue。
@@ -40,13 +40,13 @@
     - *例如*错误使用index作为key，在某些场景下虽无明显bug，但影响组件复用效率。
 
 ## 学习编程技巧，提升个人代码水平
-- 提升编程技巧的方式 [07:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=462)
+- *提升编程技巧的方式* [07:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=462)
     - 业务代码难以带来技术突破。
-    - 学习高质量开源项目源码是有效方法，如React、Vue、Node.js、Angular等。
+    - *学习高质量开源项目源码是有效方法*，如React、Vue、Node.js、Angular等。
 - 源码中的二分查找实现 [08:21](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=501)
     - 普通开发者取中位数常用除法运算。
-    - 开源框架多采用位运算（如`start + ((end - start) >> 1)`）提高效率。
-- 源码涉及的基础知识点 [09:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=557)
+    - *开源框架多采用位运算*（如`start + ((end - start) >> 1)`）提高效率。
+- *源码涉及的基础知识点* [09:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=557)
     - 包括但不限于：
         - 数据结构：链表、循环链表、Fiber树。
         - 算法：调度算法、diff算法。
