@@ -5414,20 +5414,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-3 Thinking in React，即用React的方式写React-1.md": {
-    "scroll": 30.525271317829457,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 63,
-        "ch": 9
+        "line": 1,
+        "ch": 6
       },
       "to": {
-        "line": 63,
-        "ch": 9
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-9",
-      "item-1-7",
+      "item-2-4",
       "item-1-0"
     ]
   },
@@ -5445,6 +5444,24 @@
     },
     "expandedKeys": [
       "item-3-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-4 Thinking in React，即用React的方式写React-2.md": {
+    "scroll": 5.962281833616299,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 11
+      },
+      "to": {
+        "line": 13,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-2-5",
+      "item-1-1",
       "item-1-0"
     ]
   }

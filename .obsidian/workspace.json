@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-3 Thinking in React，即用React的方式写React-1.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-4 Thinking in React，即用React的方式写React-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2-3 Thinking in React，即用React的方式写React-1"
+              "title": "2-4 Thinking in React，即用React的方式写React-2"
             }
           },
           {
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -739,10 +739,12 @@
       "media-extended:Open media": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "583c86e053d6ad58",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-2 React的迭代历史：那些标志性的变革，如类组件、Fiber、Hooks、Concurrent等.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-3 Thinking in React，即用React的方式写React-1.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-4 Thinking in React，即用React的方式写React-2.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/be2355e92cae62ba491bb5ce98a2ce4e_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-2 React的迭代历史：那些标志性的变革，如类组件、Fiber、Hooks、Concurrent等.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/7905de20019db3639dcd9ed4fa673844_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/fdbf570622560466b0f88ff8f671495a_MD5.jpeg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/Pasted image 20260104175404.png",
@@ -763,7 +765,6 @@
     "_posts/react/总结/核心概念、原理、源码/自动批处理.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/e4e893182bb1c09566daefb68add9628_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md",
@@ -782,7 +783,6 @@
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/移民.md",
-    "_posts/读书笔记/人性.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/media",
     "_posts/base/知识目录、路线图/现代前端开发必知",
     "DailyNote/Journal/01 Daily/2025/12/media",
