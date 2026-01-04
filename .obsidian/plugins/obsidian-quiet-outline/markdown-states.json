@@ -412,14 +412,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 34.6875,
+    "scroll": 8.271739130434783,
     "cursor": {
       "from": {
-        "line": 59,
+        "line": 14,
         "ch": 0
       },
       "to": {
-        "line": 59,
+        "line": 14,
         "ch": 0
       }
     },
@@ -4766,46 +4766,57 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md": {
+    "scroll": 39.85547701213403,
+    "cursor": {
+      "from": {
+        "line": 55,
+        "ch": 421
+      },
+      "to": {
+        "line": 55,
+        "ch": 421
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-1",
+      "item-2-8",
+      "item-2-0",
+      "item-2-4",
+      "item-2-3",
+      "item-2-7"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-2-0"
+      "item-3-2",
+      "item-2-1",
+      "item-2-7",
+      "item-2-0",
+      "item-2-4"
     ]
   },
-  "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
-    "scroll": 2.6874183901267847,
-    "cursor": {
-      "from": {
-        "line": 7,
-        "ch": 0
-      },
-      "to": {
-        "line": 7,
-        "ch": 0
-      }
-    },
-    "expandedKeys": []
-  },
   "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md": {
-    "scroll": 58.89852542050582,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 80,
-        "ch": 31
+        "line": 9,
+        "ch": 12
       },
       "to": {
-        "line": 80,
-        "ch": 31
+        "line": 9,
+        "ch": 12
       }
     },
     "expandedKeys": [
@@ -4882,15 +4893,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/06.那些简单而又复杂的工具链.md": {
-    "scroll": 0,
+    "scroll": 24.394949976179134,
     "cursor": {
       "from": {
-        "line": 122,
-        "ch": 25
+        "line": 31,
+        "ch": 20
       },
       "to": {
-        "line": 122,
-        "ch": 25
+        "line": 31,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -5166,15 +5177,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/13.持续集成和部署.md": {
-    "scroll": 79.64761826408885,
+    "scroll": 76.85157983453448,
     "cursor": {
       "from": {
-        "line": 86,
-        "ch": 51
+        "line": 75,
+        "ch": 81
       },
       "to": {
-        "line": 86,
-        "ch": 51
+        "line": 75,
+        "ch": 81
       }
     },
     "expandedKeys": [
@@ -5268,15 +5279,31 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-31.md": {
-    "scroll": 26.992838541666668,
+    "scroll": 21.134114583333332,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-04.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
       }
     },
     "expandedKeys": [
