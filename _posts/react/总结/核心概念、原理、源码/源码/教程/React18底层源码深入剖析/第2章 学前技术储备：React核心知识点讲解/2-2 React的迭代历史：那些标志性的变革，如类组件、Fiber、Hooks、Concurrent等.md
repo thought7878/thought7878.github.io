@@ -33,10 +33,10 @@
 
 - Hooks的意义
     - *标志着React进入函数式编程时代*。
-    - 提供useEffect、useState等核心API，取代类组件生命周期和状态管理。
+    - *提供useEffect、useState等核心API*，取代类组件生命周期和状态管理。
 - 版本重要性
     - 是当前React开发的主要方式。
-    - 必须掌握该版本引入的API及其使用场景。
+    - *必须掌握该版本引入的API及其使用场景*。
 
 #### React 17：过渡版本 
 [03:32](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=212)
@@ -46,27 +46,30 @@
 - JSX**无需显式import React** [05:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=399)
     - JSX转换不再依赖`React.createElement`。
     - 新版自动从react包中调用入口函数。
-- 事件委托机制变更 [08:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=647)
-    - 从document层改为container层，避免与其他非React模块冲突。
+- **事件委托机制变更** [08:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=647)
+    - 从document层改为container层，避免与其他非React模块（如纯JS、Vue）冲突。
+    - ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/fdbf570622560466b0f88ff8f671495a_MD5.jpeg]]
 - 其他变更
     - 副作用清理时间调整。
     - 错误信息翻译优化。
     - 算法改进。
 
-#### React 18：引入Concurrent模式及相关新特性 
-[12:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=736)
+#### React 18：**引入Concurrent模式**及相关新特性 
+[11:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=736)
 
-- Concurrent模式概述
-    - 不是具体API，而是支持异步可中断渲染的理念。
-- 主要新增API与功能
-    - createRoot API [12:33](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=753)  
-        替代ReactDOM.render，提供root变量复用能力。
-    - 自动批量更新（Automatic Batching）[13:39](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=819)  
-        默认将多个状态更新合并处理，提升性能。
-        - 黑科技如setTimeout失效。
-        - 同步更新可通过flushSync API实现。
-    - startTransition / useTransition [18:04](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1084)  
-        实现非紧急更新，用于区分高优先级和低优先级更新。
+- `Concurrent模式`概述
+    - *不是具体API*，而是**支持异步可中断渲染**的理念。
+- **主要新增API与功能**
+    - `createRoot` API [12:33](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=753)  
+        *替代ReactDOM.render，提供root变量复用能力*。
+    - `自动批量更新（Automatic Batching）`[13:39](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=819)  
+        *默认将多个状态更新合并处理，提升性能*。
+        - 黑科技如*setTimeout失效*。
+        - *同步更新*可通过flushSync API实现。
+    - Suspense [15:40]
+
+	- startTransition / useTransition [16:22](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1084)  
+        *实现非紧急更新*，用于*区分高优先级和低优先级更新*。
         - 示例：输入框即时响应 vs 下拉列表延迟渲染。
     - useDeferredValue [18:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=1111)  
         参数化形式的transition，用于延迟渲染某些值。
