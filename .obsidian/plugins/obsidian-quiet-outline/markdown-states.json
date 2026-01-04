@@ -4471,15 +4471,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 3,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3"
+    ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-19.md": {
     "scroll": 11.857575757575757,
@@ -4766,45 +4769,41 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md": {
-    "scroll": 39.85547701213403,
-    "cursor": {
-      "from": {
-        "line": 55,
-        "ch": 421
-      },
-      "to": {
-        "line": 55,
-        "ch": 421
-      }
-    },
-    "expandedKeys": [
-      "item-3-2",
-      "item-2-1",
-      "item-2-8",
-      "item-2-0",
-      "item-2-4",
-      "item-2-3",
-      "item-2-7"
-    ]
-  },
-  "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 47,
+        "ch": 56
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 47,
+        "ch": 56
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-2-1",
-      "item-2-7",
       "item-2-0",
-      "item-2-4"
+      "item-2-3"
+    ]
+  },
+  "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
+    "scroll": 47.3759765625,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 63
+      },
+      "to": {
+        "line": 59,
+        "ch": 63
+      }
+    },
+    "expandedKeys": [
+      "item-3-15",
+      "item-2-14",
+      "item-2-20",
+      "item-2-13",
+      "item-2-17",
+      "item-2-2"
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md": {
