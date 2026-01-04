@@ -42,10 +42,10 @@
 
 - **辅助学习材料 [07:53](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=473)**
     
-    - **React源码文件指引图** [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=478)
-        - 列出React源码中重要文件及其功能。
-        - 帮助初学者快速定位学习路径，避免陷入大量源码中不知所措。
-    - **React原理图** [08:36](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=516)
+    - `React源码文件指引图` [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=478)
+        - *列出React源码中重要文件及其功能*。
+        - *帮助初学者快速定位学习路径，避免陷入大量源码中不知所措*。
+    - `React原理图` [08:36](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=516)
         - 展示React*初次渲染与更新流程*。
         - 包括diff算法、context机制等核心概念。
         - 图文结合，帮助理解函数调用链及其作用。

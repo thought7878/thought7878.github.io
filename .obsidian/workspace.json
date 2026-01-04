@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第1章 课程介绍/1-1 React18源码实战课程导学.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-1 为什么要学习React源码.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1-1 React18源码实战课程导学"
+              "title": "2-1 为什么要学习React源码"
             }
           },
           {
@@ -739,10 +739,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "583c86e053d6ad58",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-1 为什么要学习React源码.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第1章 课程介绍/1-1 React18源码实战课程导学.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-1 为什么要学习React源码.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/8497e047e80ec7eed3ed2d74529a468b_MD5.jpeg",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/Pasted image 20260104161729.png",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第1章 课程介绍/1-1 React18源码实战课程导学.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-2 React的迭代历史：那些标志性的变革，如类组件、Fiber、Hooks、Concurrent等.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-3 Thinking in React，即用React的方式写React-1.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解",
@@ -760,12 +764,9 @@
     "_posts/base/知识目录、路线图/现代前端开发必知/media/be663a5ab099ef620eaa708a7f42f7fa_MD5.jpeg",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20260104133426.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/media/a3ad685ff6d29ea5e36bafcde3195f12_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20260104133258.png",
     "_posts/base/知识目录、路线图/现代前端开发必知/01.如何成为现代前端六边形战士.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/03.计算机网络(上).md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/2fb3527dba3cd1cda1fc5884343b0b7f_MD5.jpeg",
-    "_posts/base/知识目录、路线图/现代前端开发必知/media/Pasted image 20260104101950.png",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-04.md",
     "DailyNote/Journal/01 Daily/2025/12/2025-12-31.md",
@@ -782,11 +783,9 @@
     "_posts/methods/常看的.md",
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/人性.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/14.利用云基础设施加速前端开发.md",
     "_posts/base/知识目录、路线图/现代前端开发必知/media",
     "_posts/base/知识目录、路线图/现代前端开发必知",
     "DailyNote/Journal/01 Daily/2025/12/media",
-    "_posts/react/nextJS/文档",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
