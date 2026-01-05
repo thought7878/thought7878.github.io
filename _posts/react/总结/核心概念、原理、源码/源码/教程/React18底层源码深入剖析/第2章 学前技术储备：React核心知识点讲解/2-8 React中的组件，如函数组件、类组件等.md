@@ -13,11 +13,11 @@
 
 #### 核心概念
 
-- 定义：React DOM 组件是指那些有对应 DOM 节点的组件，例如 `<div>`、`<input>`、`<img>`等。
+- 定义：`React DOM 组件`是指那些*有对应 DOM 节点的组件*，例如 `<div>`、`<input>`、`<img>`等。
 - 特点：
-    - 与真实 DOM 节点一一对应
+    - *与真实 DOM 节点一一对应*
     - 是 React 虚拟 DOM 的最终渲染目标
-    - 通常用于构建 UI 的基础结构
+    - 通常*用于构建 UI 的基础结构*
 
 #### 示例代码
 
@@ -33,11 +33,11 @@ function Profile() {
 
 #### 常见误区
 
-- 函数组件是否有 DOM 节点？
+- *函数组件是否有 DOM 节点？*
     - 函数组件本身没有对应的 DOM 节点
     - 其子元素（如 `<img>`）才是真正的 DOM 节点
     - 在虚拟 DOM 树中，函数组件是其子节点的父节点
-- 类组件是否有 DOM 节点？
+- *类组件是否有 DOM 节点？*
     - 类组件本身也没有对应的 DOM 节点
     - 只有类组件的 `render()` 方法返回的元素才可能生成 DOM 节点
 
@@ -80,7 +80,7 @@ class Greeting extends Component {
 
 #### 定义
 
-- React 函数组件是一个返回 JSX 的 JavaScript 函数
+- React `函数组件`是**一个返回 JSX 的 JavaScript *函数***
 - 示例代码：
 
 ```jsx
@@ -115,7 +115,7 @@ function Profile() {
 
 #### Fragment
 
-- 用途：包裹多个 JSX 节点，但不添加额外 DOM 节点
+- 用途：*包裹多个 JSX 节点，但不添加额外 DOM 节点*
 - 两种写法：
     
     ```jsx
@@ -125,11 +125,11 @@ function Profile() {
     </>
     ```
     
-- 注意：如果需要添加 `key`，必须使用 `<Fragment>` 显式写法
+- 注意：如果*需要添加 `key`*，必须使用 `<Fragment>` 显式写法
 
 #### Profiler
 
-- 用途：衡量组件树的渲染性能
+- 用途：*衡量组件树的渲染性能*
 - 示例：
     
     ```jsx
@@ -141,7 +141,7 @@ function Profile() {
 
 #### Suspense
 
-- 用途：在子组件加载时显示后备方案（如加载状态）
+- 用途：*在子组件加载时显示后备方案（如加载状态）*
 - 常见用法：
     
     ```jsx
@@ -153,7 +153,7 @@ function Profile() {
 
 #### StrictMode
 
-- 用途：开启开发环境下的额外检查，帮助发现潜在问题
+- 用途：*开启开发环境下的额外检查，帮助发现潜在问题*
 - 示例：
     
     ```jsx
@@ -170,7 +170,7 @@ function Profile() {
 
 #### 定义
 
-- Context：用于跨层级传递数据，避免 props 逐层传递
+- Context：用于*跨层级传递数据，避免 props 逐层传递*
 - 三个核心步骤：
     1. 创建 Context 对象：`const MyContext = React.createContext(defaultValue);`
     2. 使用 `Provider` 分发值：`<MyContext.Provider value={value}>...</MyContext.Provider>`
@@ -208,7 +208,7 @@ function Toolbar() {
 
 #### forwardRef
 
-- 用途：允许父组件通过 `ref` 访问子组件的 DOM 节点
+- 用途：*允许父组件通过 `ref` 访问子组件的 DOM 节点*
 - 示例：
     
     ```jsx
@@ -220,7 +220,7 @@ function Toolbar() {
 
 #### lazy
 
-- 用途：延迟加载组件，结合 `Suspense` 实现代码分割
+- 用途：*延迟加载组件，结合 `Suspense` 实现代码分割*
 - 示例：
     
     ```jsx
@@ -230,7 +230,7 @@ function Toolbar() {
 
 #### memo
 
-- 用途：优化性能，避免不必要的重新渲染
+- 用途：*优化性能，避免不必要的重新渲染*
 - 示例：
     
     ```jsx
@@ -240,7 +240,7 @@ function Toolbar() {
 
 #### createPortal
 
-- 用途：将子节点渲染到 DOM 的不同位置
+- 用途：*将子节点渲染到 DOM 的不同位置*
 - 示例：
     
     ```jsx
