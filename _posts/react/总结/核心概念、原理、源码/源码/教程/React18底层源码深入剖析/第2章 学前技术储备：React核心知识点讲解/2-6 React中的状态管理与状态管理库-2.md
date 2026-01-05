@@ -10,16 +10,14 @@
 - 状态的类型分析 [00:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=26)
     - input框的状态*需要被多个组件访问*，因此不能仅作为其内部状态。
     - 组件间关系为“表兄弟”结构，无法通过后代通信获取状态。
-- 状态提升方案解析 [01:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=91)
+- **状态提升方案**解析 [01:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=91)
     - 状态提升是将状态定义在公共父组件中，供多个子组件共享。
-    - ANT Design v3采用此方法，将状态定义在form层级。
-    - 缺点是当状态变化时，整个form组件都会重新渲染，影响性能。
-- 第三方状态管理方案引入 [03:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=197)
-    
-    - 针对复杂表单场景，ANT Design v4/v5改用外部状态管理。
-    - 类似Redux思想，定义一个全局可读写且支持订阅的状态管理库。
-- 自定义FormStore类实现 [03:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=239)
-    
+    - ANT Design *v3*采用此方法，*将状态定义在form层级*。
+    - **缺点**是*当状态变化时，整个form组件都会重新渲染*，影响性能。
+- **第三方状态管理方案**引入 [03:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=197)
+    - 针对复杂表单场景，ANT Design *v4/v5改用外部状态管理*。
+    - 类似Redux思想，*定义一个全局可读写且支持订阅的状态管理库*。
+- **自定义FormStore类实现** [03:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=239)
     - 定义`class FormStore`用于统一管理表单状态。
     - 使用对象存储状态值，结构为name-value形式。
     - 实现get方法：
@@ -30,17 +28,14 @@
         - 注册组件实例到`filterEntities`数组中。
         - 状态更新时仅触发相关组件的`forceUpdate`。
 - 组件更新优化策略 [05:10](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=310)
-    
     - 不再使用状态提升后，避免了全量更新的问题。
     - 每个组件只在自身关联的状态发生变化时才更新。
     - 利用name字段匹配机制精准触发对应组件更新。
 - useForm自定义Hook的应用 [07:39](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=459)
-    
     - `useForm`用于创建并维护`FormStore`实例。
     - 使用`useRef`保存状态管理库实例，确保跨渲染保持一致。
     - 实现组件更新时基于已有状态进行更新，而非重新初始化。
 - 总结与归纳 [08:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=509)
-    
     - 状态的本质是一个变量，其变化会触发组件更新。
     - 状态管理分为内部状态和外部状态：
         - 内部状态适用于组件自身使用。
