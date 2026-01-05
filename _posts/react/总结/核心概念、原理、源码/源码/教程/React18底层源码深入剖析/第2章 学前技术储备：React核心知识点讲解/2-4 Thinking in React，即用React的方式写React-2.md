@@ -23,10 +23,13 @@
     - 不能直接修改状态值。
     - 必须使用 `setState` 或类似方法进行更新。
 
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/7f0f613eb00916f0641aa70653e0edf5_MD5.webp]]
+
 ### React 的单向数据流模型 
 [00:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=42)
+[[单项数据流]]
 
-- 不可变数据原则
+- **不可变数据原则**
     - 状态值是不可变的。
     - 修改必须通过指定方法（如 `setInput`）。
 - Redux 的类比说明 [01:13](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=73)

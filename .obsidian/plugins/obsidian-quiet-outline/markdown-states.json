@@ -4418,7 +4418,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md": {
-    "scroll": 5.55859375,
+    "scroll": 6.55859375,
     "cursor": {
       "from": {
         "line": 15,
@@ -4786,7 +4786,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md": {
-    "scroll": 47.3759765625,
+    "scroll": 47.37890625,
     "cursor": {
       "from": {
         "line": 59,
@@ -5294,15 +5294,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-04.md": {
-    "scroll": 0,
+    "scroll": 22.903618121009426,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -5397,37 +5397,39 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-2 React的迭代历史：那些标志性的变革，如类组件、Fiber、Hooks、Concurrent等.md": {
-    "scroll": 0,
+    "scroll": 66.80024323502585,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 6
+        "line": 89,
+        "ch": 14
       },
       "to": {
-        "line": 2,
-        "ch": 0
+        "line": 89,
+        "ch": 14
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-1-0"
+      "item-2-0",
+      "item-1-0",
+      "item-3-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-3 Thinking in React，即用React的方式写React-1.md": {
-    "scroll": 0,
+    "scroll": 51.159379844961244,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 6
+        "line": 18,
+        "ch": 16
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 18,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-4",
-      "item-1-0"
+      "item-3-0",
+      "item-1-0",
+      "item-2-4"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-1 为什么要学习React源码.md": {
@@ -5448,21 +5450,100 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-4 Thinking in React，即用React的方式写React-2.md": {
-    "scroll": 5.962281833616299,
+    "scroll": 25.817455564931,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 11
+        "line": 36,
+        "ch": 9
       },
       "to": {
-        "line": 13,
-        "ch": 11
+        "line": 36,
+        "ch": 9
       }
     },
     "expandedKeys": [
-      "item-2-5",
-      "item-1-1",
+      "item-2-0",
       "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/React 的原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 1
+      },
+      "to": {
+        "line": 10,
+        "ch": 1
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/React 的原理1.md": {
+    "scroll": 62.537760416666664,
+    "cursor": {
+      "from": {
+        "line": 79,
+        "ch": 0
+      },
+      "to": {
+        "line": 79,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-3"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-05.md": {
+    "scroll": 20.638795986622075,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 76
+      },
+      "to": {
+        "line": 41,
+        "ch": 76
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/核心概念/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/核心概念/单项数据流.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 13
+      },
+      "to": {
+        "line": 2,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
     ]
   }
 }

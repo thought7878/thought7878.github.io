@@ -14,9 +14,9 @@
 ## React的三大核心规则概述 
 [01:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=114)
     
-- 第一条：组件化。
-- 第二条：状态。
-- 第三条：单项数据流。
+- 第一条：**组件化**。
+- 第二条：**状态**。
+- 第三条：**单项数据流**。
 
 ## 第一条规则：组件化 
 [02:12](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=132)
