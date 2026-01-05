@@ -40,7 +40,7 @@
     - 若组件层级较深，props 传递复杂且容易出错。
     - 需要修改中间层级 props 的结构。
 
-### 4. 在 React 外部定义状态 
+### 4. **在 React 组件外部**定义状态 
 [06:14](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=374)
 
 - 基本思路
@@ -49,8 +49,8 @@
 - **缺点**
     - 容易造成全局污染。
     - 控制状态更新逻辑复杂。
-- 推荐方案：使用第三方状态管理库 [06:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=419)
-    - 如 Redux、MobX、Zustand 等。
+- 推荐方案：使用*第三方状态管理库* [06:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=419)
+    - 如 Redux、MobX、Zustand、Recoil、xState、Valtio 等。
 
 ### 5. Redux 简版源码解析 
 [07:45](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=465)
@@ -78,11 +78,12 @@
     - 表单包含大量 input 字段。
     - 每个字段需绑定 value 和 onChange。
 - 简化实践
-    - 使用 ANTD 表单组件无需手动编写大量 onChange。
-    - 内部自动处理状态管理和联动更新。
+    - 使用 ANTD 表单组件*无需手动编写大量 onChange*。
+    - *内部自动处理状态管理和联动更新*。
 - 思考题
-    - 如何实现类似 ANTD 表单的状态管理？
+    - *如何实现类似 ANTD 表单的状态管理？*
     - 提示：可参考 Redux 源码设计表单状态中心化管理机制。
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/84c03180d484718b37dc89827d8420e3_MD5.webp]]
 
 ### 7. 总结与预告 
 [15:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=952)
