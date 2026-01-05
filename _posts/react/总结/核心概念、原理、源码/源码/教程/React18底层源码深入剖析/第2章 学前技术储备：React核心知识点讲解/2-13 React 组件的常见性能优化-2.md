@@ -8,19 +8,20 @@
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=0)
 
 - **组件更新有时并不需要重新渲染**，若强行渲染会造成资源浪费。
-- 示例：点击按钮添加新元素时，旧元素未发生任何变化，理论上不应重新渲染。
 
 ### 示例演示：不拦截的情况 
 [00:32](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=32)
-    
+
+- 示例：点击按钮添加新元素时，*旧元素未发生任何变化，理论上不应重新渲染*。
 - 点击按钮添加一个节点时，原有节点如0、1、2、3均会重新render。
 - 实际上*这些节点的props、state、context均未改变，无需更新*。
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/4eaf8dcf5429355e91692bdc66bb6915_MD5.webp]]
 
 ## 解决方案一：使用memo函数 
 [01:33](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=93)
     
-- `memo`是一个高阶组件函数，接收组件作为参数返回新组件。
-- 默认比较props是否发生变化，若未变则跳过渲染。
+- `memo`是一个高阶组件函数，*接收组件作为参数返回新组件*。
+- 默认*比较props是否发生变化，若未变则跳过渲染*。
 - 支持传入第二个比较函数自定义判断逻辑（浅比较）：
 	
 	```js
@@ -31,13 +32,46 @@
         
 ### memo源码解析 
 [04:34](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=274)
-    
-- 浅比较函数（shallowEqual）用于判断props是否相等。
+
+### 浅比较函数（shallowEqual）
+- `浅比较函数（shallowEqual）`用于判断props是否相等。
 - 比较过程包括：
 	- 判断是否为对象；
 	- 属性个数是否一致；
 	- 所有属性值是否一一对应。
 - 若全部通过则返回true，阻止组件更新。
+
+```js
+function shallowEqual(objA: mixed, objB: mixed): boolean {
+  if (is(objA, objB)) {
+    return true;
+  }
+  if (
+    typeof objA !== 'object' ||
+    objA === null ||
+    typeof objB !== 'object' ||
+    objB === null
+  ) {
+    return false;
+  }
+  const keysA = Object.keys(objA);
+  const keysB = Object.keys(objB);
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+  // 检查 A 的键在 B 中是否存在且值是否相同
+  for (let i = 0; i < keysA.length; i++) {
+    const currentKey = keysA[i];
+    if (
+      !hasOwnProperty.call(objB, currentKey) ||
+      !is(objA[currentKey], objB[currentKey])
+    ) {
+      return false;
+    }
+  }
+  return true;
+}
+```
 
 ## 解决方案二：shouldComponentUpdate 
 [07:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=462)

@@ -3138,12 +3138,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 19
+        "line": 11,
+        "ch": 17
       },
       "to": {
-        "line": 14,
-        "ch": 19
+        "line": 11,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -5726,15 +5726,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/2-13 React 组件的常见性能优化-2.md": {
-    "scroll": 4.925729230605001,
+    "scroll": 17.42961099932931,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 0
+        "line": 27,
+        "ch": 26
       },
       "to": {
-        "line": 17,
-        "ch": 0
+        "line": 27,
+        "ch": 26
       }
     },
     "expandedKeys": [
