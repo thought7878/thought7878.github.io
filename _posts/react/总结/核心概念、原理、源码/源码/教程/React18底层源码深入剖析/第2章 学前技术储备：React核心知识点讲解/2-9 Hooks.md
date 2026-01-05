@@ -17,9 +17,9 @@
 - **函数组件状态管理**限制  
     *在 Hooks 出现之前，函数组件无法在内部定义状态值*（state）。
 - 类组件与函数组件对比  
-    *类组件通过实例保存状态*，而函数组件每次调用都会重新执行，状态难以持久化。
+    *类组件通过实例保存状态*，而**函数组件每次调用都会重新执行，状态难以持久化**。
 - Hooks解决方案  
-    React 引入如 `useState`、`useReducer` 等 API，*将状态值绑定到 Fiber Node 上*，实现函数组件的状态管理。
+    React 引入如 `useState`、`useReducer` 等 API，**将状态值存到（绑定） 函数组件对应的Fiber Node 上，后续更新、查询在Fiber Node上执行即可，解决了函数组件的状态难以持久化的问题**，实现函数组件的状态管理。
 
 ### Hooks带来的变革与优势 
 [01:43](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=103)
@@ -27,32 +27,32 @@
 - 函数组件可完全替代类组件  
     Hooks 让函数组件具备状态管理、副作用处理等能力。
 - Hooks并非凭空出现  
-    它为了解决类组件存在的若干问题而设计。
+    *它为了解决类组件存在的若干问题而设计*。
 
 ### Hooks解决的问题一：状态逻辑复用困难 
 [02:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=136)
 
 - 传统方式：HOC 与 Render Props
-    - 高阶组件（HOC）如 `connect`、`withRouter`、`createForm`广泛用于状态逻辑复用。
-- 存在问题：嵌套地狱（Callback Hell）
+    - 高阶组件（HOC）如 `connect`、`withRouter`、`createForm`广泛*用于状态逻辑复用*。
+- **存在问题**：嵌套地狱（Callback Hell）
     - 如同时使用 `createForm` 和 `connect`，造成四层括号嵌套，不易维护。
-- Hooks解决方案：自定义 Hook
+- **Hooks解决方案**：自定义 Hook
     - 替代 HOC，如 `useForm` 替代 `createForm`，`useDispatch`、`useSelector`替代 `connect`。
-    - 不修改组件结构即可复用状态逻辑。
+    - *不修改组件结构即可复用状态逻辑*。
 
 ### Hooks解决的问题二：复杂组件难以维护 
 [04:32](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=272)
 
 - 生命周期合并问题  
     类组件中一个生命周期方法需包含多个不相关逻辑，维护困难。
-- Hooks拆分逻辑的能力
-    - 使用多个 `useEffect` 拆分副作用逻辑。
-    - 可进一步封装至自定义 Hook 中，提高复用性与清晰度。
+- **Hooks拆分逻辑的能力**
+    - *使用多个 `useEffect` 拆分副作用逻辑*。
+    - *可进一步封装至自定义 Hook 中，提高复用性与清晰度*。
 
 ### Hooks解决的问题三：类组件理解门槛高 
 [05:11](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=311)
 
-- 初学者常见问题：this 的指向问题
+- 初学者常见问题：*this 的指向问题*
     - 类组件中频繁遇到 `this` 丢失问题，需手动绑定或使用箭头函数。
 - 对机器和开发者均友好
     - 函数是 JavaScript 的一等公民，不存在兼容性问题。
