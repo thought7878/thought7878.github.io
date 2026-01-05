@@ -6,7 +6,7 @@
 
 ## React 中的组件分类与源码解析
 
-### React DOM 组件 
+### React DOM 组件（Host Component）
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=0)
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第2章 学前技术储备：React核心知识点讲解/media/bbf7b18765de16b949aad2109c12d6a9_MD5.webp]]
@@ -261,7 +261,7 @@ export const ClassComponent = 1;
 export const IndeterminateComponent = 2;
 export const HostRoot = 3;
 export const HostPortal = 4;
-export const HostContainer = 5;
+export const HostComponent = 5;//HostContainer
 export const HostText = 6;
 export const Mode = 8;
 export const ContextConsumer = 9;
@@ -302,12 +302,11 @@ export const HostSingleton = 27;
     - 查看 `fiber.tag` 字段判断组件类型
     - 查看 `fiber.stateNode` 获取组件实例或 DOM 节点
 - 源码分析：
-    - React 源码中通过 `tag` 字段区分不同类型的组件
-    - 每种组件类型对应不同的渲染逻辑
-    - 例如：函数组件需要执行函数，类组件需要实例化并调用 `render()`
+    - React 源码中*通过 `tag` 字段区分不同类型的组件*
+    - 每种组件类型*对应不同的渲染逻辑*，例如：函数组件需要执行函数，类组件需要实例化并调用 `render()`
 
-#### 总结
+### 总结
 
-- 组件分类：React 中的组件分为六类：DOM 组件、类组件、函数组件、内置组件、Context 组件、函数型组件（如 `forwardRef`、`memo` 等）
+- 组件分类：*React 中的组件分为六类：* DOM 组件、类组件、函数组件、内置组件、Context 组件、函数型组件（如 `forwardRef`、`memo` 等）
 - 源码机制：React 通过 `fiber.tag` 字段区分不同类型的组件，确保正确的渲染逻辑
 - 调试建议：使用 React DevTools 结合源码理解组件树结构和渲染流程
