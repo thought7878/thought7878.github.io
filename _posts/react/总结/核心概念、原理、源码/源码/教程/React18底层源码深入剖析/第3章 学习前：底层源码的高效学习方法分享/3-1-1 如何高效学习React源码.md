@@ -32,7 +32,7 @@
     - **入口文件**主要为导出逻辑，实际定义多来自其他文件夹（如shared、react-reconciler）。
 - react-dom文件夹
     - 包含**与DOM操作相关的API**，如createRoot、createPortal、render等。
-    - 新版本中部分核心代码已移至`react-dom-bindings`。
+    - *新版本中部分核心代码已移至*`react-dom-bindings`。
 - shared文件夹
     - 存放*React通用数据类型与方法*。
     - 例如：
@@ -63,12 +63,12 @@
 [10:51](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=651)
 
 - client文件夹
-    - 包含与浏览器端相关的核心逻辑。
-    - 如合成事件处理、原生事件绑定等。
+    - *包含与浏览器端相关的核心逻辑*。
+    - 如*合成事件处理、原生事件绑定*等。
 - server文件夹
-    - 用于服务端渲染（SSR）相关逻辑。
+    - 用于*服务端渲染（SSR）相关逻辑*。
 - legacy文件
-    - 包含旧版API，如`ReactDOM.render()`。
+    - 包含*旧版API*，如`ReactDOM.render()`。
 - react-dom-root文件
     - 包含新版API如`createRoot()`及其配置参数。
 
