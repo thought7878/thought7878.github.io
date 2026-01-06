@@ -18,10 +18,9 @@
     - 展示log路径是否指向本地源码目录。
     - 可在源码中打印fiber结构，查看其具体属性。
 - 项目**配置注意事项** [04:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=245)
-    - 修改配置项技术难度不高但较繁琐。
-    - React源码频繁更新导致配置易失效。
-    - 推荐使用讲师提供的压缩包，内含最新React 18.2版本及已完成配置。
-    - 压缩包可避免手动修改配置带来的变动性问题。
+    - 修改配置项技术难度不高但较繁琐。推荐使用讲师提供的压缩包，内含最新React 18.2.0版本及已完成配置。压缩包可避免手动修改配置带来的变动性问题。
+    - *React源码频繁更新导致配置易失效*。
+    - *配置方法*：https://github.com/bubucuo/DebugReact
 - 推荐调试工具 [08:11](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=491)
     - Bookmarks：
         - 用于标记源码阅读位置。
