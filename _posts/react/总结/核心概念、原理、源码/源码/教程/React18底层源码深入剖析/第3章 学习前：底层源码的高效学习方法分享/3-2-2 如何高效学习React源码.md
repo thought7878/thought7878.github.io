@@ -7,21 +7,21 @@
 ## 核心文件结构概述 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=0)
     
-    - client端包含create root等核心初始化逻辑。
-    - SSR相关核心文件未展开说明。
-    - 源码中原先与“世界”相关的部分已移至return binding损耗模块。
+- client端包含create root等核心初始化逻辑。
+- SSR相关核心文件未展开说明。
+- 源码中原先与“世界”相关的部分已移至return binding损耗模块。
 
-## red dom迁移至binding模块 
+## react-dom迁移至react-dom-bindings
 [00:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=17)
     
-    - 原先核心文件在red dom中，现已迁移到binding模块。
-    - 文件结构保持一致，主要包含client和events相关文件。
+- 原先核心文件在react-dom中，现已迁移到react-dom-bindings模块。
+- 文件结构保持一致，*主要包含client和events相关文件*。
 
-## react reconciler核心逻辑 
+## react-reconciler核心逻辑 
 [00:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=58)
     
-    - hooks逻辑如useState、useReducer等来自react包，但核心实现在reconciler中。
-    - Pure Component等基础组件也在此模块中处理。
+- hooks逻辑如useState、useReducer等来自react包，但核心实现在reconciler中。
+- Pure Component等基础组件也在此模块中处理。
 
 ## vdom diff算法核心机制 
 [01:39](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=99)

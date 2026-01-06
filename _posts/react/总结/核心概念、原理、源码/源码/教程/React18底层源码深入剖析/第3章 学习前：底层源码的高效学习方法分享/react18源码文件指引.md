@@ -35,6 +35,19 @@
 ## react-dom-bindings
 
 ## react-reconciler/src：协调 
+### ReactChildFiber.js 
+- 定义子节点协调方法reconcileChildFiber（React的diff重点在于数组情况下的协调方法reconcileChildrenArray）
+
+### ReactFiber.js 
+- 定义Fiber(转移到ReactInternalTypes.js)、FiberNode数据结构
+- 定义创建fiber方法createFiber()
+
+### ReactFiberBeginWork.js 
+- 不同节点的更新方法与子节点协调方法reconcileChildren，节点更新方法如updateFunctionComponent、updateClassComponent、updateFragment等。
+- 其实**节点的更新就是更新自身和协调子节点**，如函数组件就是处理context、检查自身props、处理hook等，然后执行本函数，再协调子节点。
+
+### ReactFiberHooks.js（面试考hooks源码都在这里）
+- hooks的处理，如执行函数组件里的renderWithHooks等
 
 ## scheduler/src：调度 
 
