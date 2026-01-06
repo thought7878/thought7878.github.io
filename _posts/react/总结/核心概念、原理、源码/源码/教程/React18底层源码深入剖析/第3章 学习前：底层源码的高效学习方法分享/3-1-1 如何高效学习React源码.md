@@ -31,16 +31,16 @@
     - 包含**React核心API**，如Hooks、Component、Context、Fragment、Children、forwardRef等。
     - **入口文件**主要为导出逻辑，实际定义多来自其他文件夹（如shared、react-reconciler）。
 - react-dom文件夹
-    - 包含与DOM操作相关的API，如createRoot、createPortal、render等。
+    - 包含**与DOM操作相关的API**，如createRoot、createPortal、render等。
     - 新版本中部分核心代码已移至`react-dom-bindings`。
 - shared文件夹
-    - 存放React通用数据类型与方法。
+    - 存放*React通用数据类型与方法*。
     - 例如：
         - `react-version.js`：用于查看React版本号，比通过`package.json`更准确。
         - `react-element-type.js`：定义React Element的数据结构。
         - `shallowEqual.js`：浅比较函数，用于PureComponent和组件更新判断。
         - `objectIs.js`：对象比较方法。
-    - 使用Flow进行类型标注，虽非TypeScript，但语法相似，便于理解。
+    - *使用Flow进行类型标注*，虽非TypeScript，但语法相似，便于理解。
 
 ### React源码中的类型系统 
 [05:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=352)
