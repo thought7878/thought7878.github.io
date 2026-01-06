@@ -17,7 +17,7 @@
     - 在example page页面渲染时添加log输出。
     - 展示log路径是否指向本地源码目录。
     - 可在源码中打印fiber结构，查看其具体属性。
-- 项目配置注意事项 [04:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=245)
+- 项目**配置注意事项** [04:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=245)
     - 修改配置项技术难度不高但较繁琐。
     - React源码频繁更新导致配置易失效。
     - 推荐使用讲师提供的压缩包，内含最新React 18.2版本及已完成配置。
@@ -27,9 +27,9 @@
         - 用于标记源码阅读位置。
         - 支持快速跳转至特定函数或逻辑段。
         - 快捷键：Command + Option + K（Mac）。
-    - Better Command：
+    - Better Comments：
         - 支持添加注释并高亮显示。
         - 可记录学习过程中的理解与疑问。
-    - 小机器人（AI代码助手）：
+    - Github Copilot（AI代码助手）：
         - 智能补全代码和注释。
         - 当前阶段免费使用，未来可能收费。
