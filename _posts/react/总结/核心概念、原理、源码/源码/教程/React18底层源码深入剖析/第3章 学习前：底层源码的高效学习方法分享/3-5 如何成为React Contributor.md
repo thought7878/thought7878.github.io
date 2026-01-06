@@ -49,14 +49,18 @@ PR未被接受的实例分析：
 - **第六步：创建PR（Pull Request）** [05:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=323)
     - 刷新个人项目页面，点击“Compare & pull request”按钮。
     - *填写详细的PR描述*，包括*变更目的、影响范围、是否包含breaking change等*。
+    - ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/media/804709bf3dfc8448bbb2c87f8d6980d1_MD5.webp]]
 - **第七步：等待CI自动化检查** [06:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=379)  
-    系统自动运行CI流水线进行代码检查和测试验证。
-    - 若检查失败，可根据日志排查问题。
-    - 有时失败非本人责任，可能是CI环境临时故障，由团队修复后可自动通过。
+    系统自动运行CI流水线，*进行`代码检查`（格式检查、语法检查、类型检查）和`测试验证`*。
+    - 若检查*失败*，可根据日志排查问题。
+    - 有时失败非本人责任，可能是*CI环境临时故障*，由团队修复后可自动通过。
+    - ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/media/bce417fa6863ec108f4dbe54d4717826_MD5.webp]]
+    - 检查通过后（状态由黄变绿）：
+    - ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/media/7fcd73ffdd05e4e8c6f0a8a300b5c3f0_MD5.webp]]
 - **第八步：等待维护者审核与合并** [07:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=429)
-    - 检查通过后（状态由黄变绿），进入人工审核阶段。
+    - 检查通过后（状态由黄变绿），*进入人工审核阶段*。
     - 可能被合并（merge），也可能被拒绝（close）。
-    - 合并后会收到邮件通知，可在主仓库commit记录中查到贡献。
+    - 合并后会收到邮件通知，*可在主仓库commit记录中查到贡献*。
 
 ### 查看贡献记录的方式 
 [08:01](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=481)
@@ -73,15 +77,15 @@ PR未被接受的实例分析：
 ### 管理多个提交与分支 
 [09:14](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=554)
 
-- 在同一PR中追加提交 [09:37](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=577)
-    - 只需在原分支继续提交新commit，这些将自动附加到同一PR中。
+- **在同一PR中追加提交，是同一个PR** [09:37](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=577)
+    - 只需在原分支继续提交新commit，这些**将自动附加到同一PR中**。
     - 即使原PR已close，也可通过打开新PR复用分支。
-- 创建多个独立PR [10:43](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=643)
-    - 不同问题应使用不同分支分别提交，便于维护者审查与合并。
+- **创建多个独立PR** [10:43](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=643)
+    - 不同问题应**使用不同分支分别提交**，便于维护者审查与合并。
     - 创建新分支方法：
         - 使用命令行：`git checkout -b feature/new-fix`
         - 使用GUI工具切换分支。
-    - 每个分支对应一个独立PR，实现职责分离。
+    - **每个分支对应一个独立PR**，实现职责分离。
 
 ### 课程总结与鼓励 
 [11:34](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=694)
@@ -89,6 +93,6 @@ PR未被接受的实例分析：
 - 回顾重点  
     全面讲解了成为React contributor的意义与具体操作流程。
 - 鼓励实践  
-    鼓励学员主动寻找React项目中的可改进点（“找找茬”），提交有意义的PR来检验学习成果。
+    鼓励学员*主动寻找React项目中的可改进点（“找找茬”），提交有意义的PR来检验学习成果*。
 - 提供支持  
     学员在过程中遇到问题可联系讲师寻求帮助。
