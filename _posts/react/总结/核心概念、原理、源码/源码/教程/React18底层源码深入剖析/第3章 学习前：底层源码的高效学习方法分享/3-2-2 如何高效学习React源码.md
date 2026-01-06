@@ -26,9 +26,9 @@
 ## vdom diff算法核心机制 
 [01:39](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=99)
     
-    - reconciler负责虚拟DOM的diff算法。
-    - 目标是尽可能复用已有节点，提高性能。
-    - 核心在于比较新旧vdom并决定如何更新真实DOM。
+- reconciler负责虚拟DOM的diff算法。
+- 目标是尽可能复用已有节点，提高性能。
+- 核心在于比较新旧vdom并决定如何更新真实DOM。
 
 ## fiber结构定义与构建 
 [02:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=137)
@@ -74,38 +74,42 @@
 ## hooks源码位置与实现概览 
 [10:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=642)
     
-    - hooks核心实现在`read fiber hooks`目录下。
-    - useState、useReducer等API分别对应mount和update阶段的处理函数。
-    - mount阶段使用mountState，update阶段使用updateState。
+- hooks核心实现在`ReactFiberHooks.js`下。
+- useState、useReducer有mount和update阶段，分别有对应的处理函数。
+- *mount阶段*使用mountState，*update阶段*使用updateState。
 
-## useState源码分析 
+### useState源码分析 
 [11:36](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=696)
     
-    - 初次渲染调用mountState，接受初始值或函数。
-    - 更新阶段调用updateState，基于现有状态更新。
-    - 初始值若为函数则取其返回值作为状态。
+- *初次渲染*调用mountState，接受初始值或函数。
+- *更新阶段*调用updateState，基于现有状态更新。
+- 初始值若为函数则取其返回值作为状态。
 
-## useReducer与useState共用更新逻辑 
+### useReducer与useState共用更新逻辑 
 [13:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=822)
     
-    - useReducer的updateReducer与useState的updateState共享部分更新逻辑。
-    - 区别在于后续处理方式不同。
+- useReducer的updateReducer与useState的updateState*共享部分更新逻辑*。
+- 区别在于后续处理方式不同。
 
-## schedule调度机制简介 
+---
+
+schedule调度机制简介：
 [14:46](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=886)
     
-    - 调度器负责任务优先级与执行时机控制。
-    - 后续课程会重点讲解该模块。
+- 调度器负责任务优先级与执行时机控制。
+- 后续课程会重点讲解该模块。
 
-## 元素类型判断工具函数 
+元素类型判断工具函数：
 [15:07](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=907)
     
-    - 提供isContextConsumer等函数用于判断元素类型。
-    - 可用于上下文消费组件识别。
+- 提供isContextConsumer等函数用于判断元素类型。
+- 可用于上下文消费组件识别。
+
+---
 
 ## 高效学习React源码方法总结 
 [15:33](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=933)
     
-    - 熟悉主干文件路径与结构。
-    - 阅读核心逻辑文件如fiber、reconciler等。
-    - 结合调试与测试用例验证源码行为。
+- **熟悉主干文件路径与结构**。
+- 阅读核心逻辑文件如fiber、reconciler等。
+- 结合调试与测试用例验证源码行为。
