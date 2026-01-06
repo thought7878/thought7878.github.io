@@ -41,15 +41,41 @@ nvm --version     # 应输出 0.39.7
 
 ### 常用命令
 
-| 命令                     | 说明                        |
-| ---------------------- | ------------------------- |
-| `nvm install 18`       | 安装 Node.js 18             |
-| `nvm install --lts`    | 安装最新 LTS 版本               |
-| `nvm use 18`           | 临时切换到 Node 18             |
-| `nvm alias default 18` | 设置默认版本（新终端自动生效）           |
-| `nvm list`             | 列出*本地*已安装版本               |
-| `nvm list available`   | 查看可安装的*远程版本*（Windows 不支持） |
-| `nvm uninstall 16`     | 卸载 Node 16                |
+#### 基础命令
+
+- **查看帮助**: `nvm --help` 1
+- **查看nvm版本**: `nvm --version` 7
+
+#### 版本查看
+
+- **列出已安装的Node.js版本**: `nvm list` 或 `nvm ls` 10
+- **列出远程可用的Node.js版本**: `nvm ls-remote` 8
+- **查看最新LTS版本**: `nvm ls-remote --lts` 3
+
+#### 安装版本
+
+- **安装指定版本**: `nvm install <version>` 3
+- **安装最新版本**: `nvm install node` 或 `nvm install latest` 6
+- **安装最新LTS版本**: `nvm install --lts` 6
+- **安装指定主版本的最新版**: `nvm install <major_version>` 7
+
+#### 版本切换
+
+- **使用指定版本**: `nvm use <version>` 5
+- **使用最新版本**: `nvm use node` 6
+- **使用默认版本**: `nvm use default` 3
+
+#### 版本管理
+
+- **卸载指定版本**: `nvm uninstall <version>` 10
+- **设置默认版本**: `nvm alias default <version>` 8
+- **创建版本别名**: `nvm alias <name> <version>` 8
+- **删除版本别名**: `nvm unalias <name>` 8
+
+#### 高级命令
+
+- **迁移全局包**: `nvm migrate` - 将全局包从一个Node.js版本迁移到另一个版本 9
+- **清理缓存**: `nvm cache clear` 3
 
 ---
 

@@ -26,9 +26,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-29",
-      "item-1-20",
-      "item-2-25",
+      "item-3-10",
+      "item-2-8",
+      "item-3-2",
       "item-3-1"
     ]
   },
@@ -1262,14 +1262,14 @@
     "expandedKeys": []
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/安装pnpm有哪些方式？.md": {
-    "scroll": 49.951171875,
+    "scroll": 2.625,
     "cursor": {
       "from": {
-        "line": 68,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 68,
+        "line": 10,
         "ch": 0
       }
     },
@@ -5931,22 +5931,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第4章 代码实践：打造轮子，自己的mini react框架/4-2 搭建自己的mini react项目.md": {
-    "scroll": 34.15896788163118,
+    "scroll": 50.085286458333336,
     "cursor": {
       "from": {
-        "line": 49,
-        "ch": 20
+        "line": 57,
+        "ch": 8
       },
       "to": {
-        "line": 49,
-        "ch": 20
+        "line": 57,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-2-29",
-      "item-1-20",
-      "item-2-25",
-      "item-3-1"
+      "item-3-2"
     ]
   },
   "_posts/读书笔记/动力.md": {
@@ -5976,26 +5973,44 @@
       }
     },
     "expandedKeys": [
-      "item-2-29",
-      "item-1-20",
-      "item-2-25",
+      "item-3-10",
+      "item-2-8",
+      "item-3-2",
       "item-3-1"
     ]
   },
   "_posts/engineering/nvm.md": {
-    "scroll": 34.001627604166664,
+    "scroll": 58.100942535725146,
     "cursor": {
       "from": {
-        "line": 46,
-        "ch": 20
+        "line": 42,
+        "ch": 0
       },
       "to": {
-        "line": 46,
-        "ch": 3
+        "line": 42,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-4"
+      "item-3-10",
+      "item-2-8",
+      "item-3-2"
+    ]
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/Pnpm2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
     ]
   }
 }

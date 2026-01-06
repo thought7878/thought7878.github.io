@@ -13,7 +13,7 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 wget -qO- https://get.pnpm.io/install.sh | sh -
 ```
 
-> 优点：自动安装最新稳定版，不依赖 Node.js 版本管理器，独立于 npm。  
+> **优点**：自动安装最新稳定版，不依赖 Node.js 版本管理器，独立于 npm。  
 > 📁 安装位置：通常在 `~/.local/share/pnpm`（Linux/macOS）或 `%APPDATA%\pnpm`（Windows）。
 
 安装后确保 `~/.local/share/pnpm`（或对应路径）已加入 `PATH`。大多数情况下脚本会自动处理。

@@ -44,7 +44,7 @@
     - 在 `packages` 下创建以下子项目并分别`pnpm init`初始化：
         - `react`
         - `react-dom`
-        - `reconciler`
+        - `react-reconciler`
         - `scheduler`
         - `shared`
     - 注意执行顺序和路径切换问题。
@@ -52,26 +52,22 @@
 ### 安装公共依赖 
 [03:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=239)
 
-- 安装测试框架 v-test
+- 安装测试框架 vitest
     - 全局安装命令：
-        
         ```
         pnpm add -Dw vitest
         ```
-        
-    - `-Dw` 表示在 workspace 根目录下安装开发依赖。
+    - `-Dw` 表示*在 workspace 根目录下*安装*开发依赖*。
 - 测试 shared 模块
     - 在 `shared` 中编写类型定义和工具函数（如 `isString`, `isArray`, `isFunction`）。
     - 在 `scheduler/__tests__/scheduler.test.ts`中引用并测试这些函数。
 - 运行测试用例
     - 修改 `package.json` 添加测试脚本：
-        
         ```json
         "scripts": {
           "test": "vitest"
         }
         ```
-        
     - 执行命令：`pnpm test`
     - 成功运行两个测试用例，验证环境配置正确。
 
