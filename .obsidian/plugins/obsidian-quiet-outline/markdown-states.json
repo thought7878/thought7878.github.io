@@ -14,25 +14,22 @@
     "expandedKeys": []
   },
   "_posts/tools/mac/Homebrew.md": {
-    "scroll": 225.47786458333334,
+    "scroll": 107.07291666666667,
     "cursor": {
       "from": {
-        "line": 176,
+        "line": 121,
         "ch": 16
       },
       "to": {
-        "line": 176,
-        "ch": 0
+        "line": 121,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-2-6",
+      "item-2-29",
       "item-1-20",
       "item-2-25",
-      "item-2-21",
-      "item-3-14",
-      "item-2-29"
+      "item-3-1"
     ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-24.md": {
@@ -1204,31 +1201,33 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 28
+        "line": 114,
+        "ch": 7
       },
       "to": {
-        "line": 2,
-        "ch": 28
+        "line": 114,
+        "ch": 7
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/fnm.md": {
-    "scroll": 2.5463917525773194,
+    "scroll": 33.65234375,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 3
+        "line": 28,
+        "ch": 24
       },
       "to": {
-        "line": 24,
-        "ch": 3
+        "line": 28,
+        "ch": 24
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-2-0"
+      "item-2-29",
+      "item-1-20",
+      "item-2-25",
+      "item-3-1"
     ]
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md": {
@@ -5932,17 +5931,71 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第4章 代码实践：打造轮子，自己的mini react框架/4-2 搭建自己的mini react项目.md": {
-    "scroll": 26.398905442383704,
+    "scroll": 34.15896788163118,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 17
+        "line": 49,
+        "ch": 20
       },
       "to": {
-        "line": 41,
-        "ch": 17
+        "line": 49,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-29",
+      "item-1-20",
+      "item-2-25",
+      "item-3-1"
+    ]
+  },
+  "_posts/读书笔记/动力.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/fnm（node管理）.md": {
+    "scroll": 16.155598958333332,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 24
+      },
+      "to": {
+        "line": 28,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-2-29",
+      "item-1-20",
+      "item-2-25",
+      "item-3-1"
+    ]
+  },
+  "_posts/engineering/nvm.md": {
+    "scroll": 34.001627604166664,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 20
+      },
+      "to": {
+        "line": 46,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-3-4"
+    ]
   }
 }
