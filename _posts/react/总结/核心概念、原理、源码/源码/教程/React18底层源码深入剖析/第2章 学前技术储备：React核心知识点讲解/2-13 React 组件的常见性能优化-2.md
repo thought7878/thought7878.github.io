@@ -76,7 +76,7 @@ function shallowEqual(objA: mixed, objB: mixed): boolean {
 ## 解决方案二：shouldComponentUpdate 
 [07:42](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=462)
     
-- 类组件生命周期函数，决定组件是否应更新。
+- *类组件*生命周期函数，决定组件是否应更新。
 - 接收nextProps和nextState两个参数，返回布尔值。
 - 示例代码：
 	
@@ -98,7 +98,7 @@ function shallowEqual(objA: mixed, objB: mixed): boolean {
 ## 注意事项：Context的影响 
 [10:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ba7f518fec334a9cb194637e1574ea0f#?seek_t=626)
     
-- Context用于祖先组件与后代组件通信。
-- 当Context的value变化时，所有依赖该Context的组件都会重新渲染。
-- 建议项目中仅使用少量Context（如2~3个），避免影响性能。
-- 频繁使用Context可能导致大范围不必要的更新。
+- *Context用于祖先组件与后代组件通信*。
+- *当Context的value变化时，所有依赖该Context的组件都会重新渲染*。
+- 建议项目中仅**使用少量Context（如2~3个），避免影响性能**。
+- *频繁使用Context可能导致大范围不必要的更新*。
