@@ -49,27 +49,30 @@
 [06:41](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=401)
 
 - `scheduleCallback`函数  
-    **某个任务进入调度器，等待调度**。*任务调度器的入口函数*，接收两个参数：
-    - 回调函数（callback）
-    - 优先级（priorityLevel）
-    - 返回值类型为可选回调（用于未完成任务继续执行）
-- `cancelCallback`函数：取消某个任务，由于最小堆没法直接删除，因此只能初步把task.callback设置为null
-    取消指定任务的执行，通过将任务回调置为`null`标记为无效。
+	- **某个任务进入调度器，等待调度**。
+	- *任务调度器的入口函数*，接收两个参数：
+	    - 回调函数（callback）
+	    - 优先级（priorityLevel）
+    - *返回值类型*为可选回调（用于未完成任务继续执行）
+
+- `cancelCallback`函数：
+	- *取消指定任务的执行*，由于最小堆没法直接删除，因此只能初步把task.callback设置为null。取消指定任务的执行，通过将任务回调置为`null`标记为无效。
+	- *调度过程中，当这个任务位于堆顶时，task.callback为null，无效任务，删掉*
     
-- getCurrentPriorityLevel函数：获取当前正在执行任务的优先级
-    获取当前正在执行任务的优先级，需维护全局变量`currentPriorityLevel`。
+- `getCurrentPriorityLevel`函数：
+	- *获取当前正在执行任务的优先级*，需维护全局变量`currentPriorityLevel`。
     
-- shouldYield函数（暂未实现）  
-    用于判断是否让出主线程控制权，把控制权交还给主线程。
+- `shouldYield`函数（暂未实现）  
+	- 用于判断是否让出主线程控制权，*把控制权交还给主线程*。
     
 
 ### 全局变量定义 
 [10:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=623)
 
 - currentTask  
-    全局变量，记录当前正在执行的任务。
+    全局变量，记录*当前正在执行的任务*。
 - currentPriorityLevel  
-    当前任务的优先级，取值与`priorityLevel`一致。
+    *当前任务的优先级*，取值与`priorityLevel`一致。
 
 ### 测试用例说明 
 [12:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=760)
