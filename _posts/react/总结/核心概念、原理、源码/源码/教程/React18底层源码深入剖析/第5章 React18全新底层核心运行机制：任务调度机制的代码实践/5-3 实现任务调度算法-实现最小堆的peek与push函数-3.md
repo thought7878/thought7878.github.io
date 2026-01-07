@@ -65,15 +65,17 @@ it("empty heap returns null", () => {
 
 ### 插入流程
 
-1. 尾部插入：将新元素添加到数组末尾
-2. 从下往上调整：通过`siftUp`维护最小堆性质
+1. **尾部插入**：将新元素添加到数组末尾（数组模拟最小二叉堆），即插入到最小二叉堆的最后
+2. **从下往上调整**：通过`siftUp`维护最小堆的父子节点的关系
 
 ### 函数实现
 
 ```typescript
 export function push<T extends Node>(heap: Heap<T>, node: T): void {
   const index = heap.length;
+  // 尾部插入
   heap.push(node);
+  // 从下往上调整
   siftUp(heap, node, index);
 }
 ```
@@ -93,6 +95,7 @@ export function push<T extends Node>(heap: Heap<T>, node: T): void {
  10   12 9   6
  / \
 15 14
+
 插入5：
         3
       /   \
@@ -101,6 +104,7 @@ export function push<T extends Node>(heap: Heap<T>, node: T): void {
  10   12 9   6
  / \  /
 15 14 5
+
 第一次交换：
         3
       /   \
@@ -109,6 +113,7 @@ export function push<T extends Node>(heap: Heap<T>, node: T): void {
  10   5 9   6
  / \  /
 15 14 12
+
 第二次交换：
         3
       /   \
@@ -128,16 +133,16 @@ export function push<T extends Node>(heap: Heap<T>, node: T): void {
 
 ```typescript
 function siftUp<T extends Node>(heap: Heap<T>, node: T, i: number): void {
-  let index = i;
-  while (index > 0) {
-    const parentIndex = (index - 1) >> 1; // 位运算获取父节点索引
-    const parent = heap[parentIndex];
+  let currentIndex = i;
+  while (currentIndex > 0) {
+    const parentIndex = (currentIndex - 1) >>> 1; // 位运算获取父节点索引
+    const parentNode = heap[parentIndex];
     
-    if (compare(parent, node) > 0) {
-      // 父节点大于子节点，交换位置
+    // 父节点大于子节点，交换位置
+    if (compare(parentNode, node) > 0) {
       heap[parentIndex] = node;
-      heap[index] = parent;
-      index = parentIndex;
+      heap[currentIndex] = parentNode;
+      currentIndex = parentIndex;
     } else {
       return; // 调整完成
     }
@@ -175,6 +180,7 @@ function compare(a: Node, b: Node): number {
  10   12 9   6
  / \
 15 14
+
 插入5：
         3
       /   \
@@ -183,6 +189,7 @@ function compare(a: Node, b: Node): number {
  10   12 9   6
  / \  /
 15 14 5
+
 比较5和12：
         3
       /   \
@@ -191,6 +198,7 @@ function compare(a: Node, b: Node): number {
  10   5 9   6
  / \  /
 15 14 12
+
 比较5和7：
         3
       /   \
@@ -199,6 +207,7 @@ function compare(a: Node, b: Node): number {
  10   7 9   6
  / \  /
 15 14 12
+
 比较5和3：
 停止调整
 ```
