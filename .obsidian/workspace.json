@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-07.md",
+                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-07"
+              "title": "2026-01-08"
             }
           },
           {
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -741,10 +741,14 @@
   },
   "active": "583c86e053d6ad58",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/4b0d12ab3a2744aa73a791cd431a0498_MD5.webp",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-08.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-07.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-6 如何实现时间切片.md",
+    "_posts/读书笔记/动力.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-5 任务调度器scheduler.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-4 实现任务调度算法-实现最小堆的pop函数-4.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-3 实现任务调度算法-实现最小堆的peek与push函数-3.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-6 如何实现时间切片.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/f572944d57f800bfce5cd43c4148ef88_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/b342315c3985e8ed1b5de45b88159863_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/3ed5d40562de20cf442649a9d7fd3ede_MD5.webp",
@@ -760,7 +764,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-2 实现任务调度算法-什么是最小堆-2.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-1 实现任务调度算法-1.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-07.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-06.md",
     "DailyNote/Journal/01 Daily/2026/01/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-7 如何实现任务调度函数入口.md",
@@ -776,10 +779,8 @@
     "_posts/tools/mac/Homebrew.md",
     "_posts/engineering/fnm（node管理）.md",
     "_posts/engineering/nvm.md",
-    "_posts/读书笔记/动力.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第4章 代码实践：打造轮子，自己的mini react框架/4-1 造轮子的优势以及步骤.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第4章 代码实践：打造轮子，自己的mini react框架/media",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/3-5 如何成为React Contributor.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第4章 代码实践：打造轮子，自己的mini react框架",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享",
