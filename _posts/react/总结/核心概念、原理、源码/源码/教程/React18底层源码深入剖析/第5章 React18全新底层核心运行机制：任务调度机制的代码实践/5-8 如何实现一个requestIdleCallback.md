@@ -1,12 +1,10 @@
 
 
-本视频讲述了**如何使用MessageChannel模拟实现requestIdleCallback以构建异步任务队列**，*实现高效的任务调度与批量更新，避免主线程长时间占用，提升页面性能*，并*对比了setTimeout等替代方案的局限性*。
+本视频讲述了**如何使用MessageChannel模拟实现requestIdleCallback以构建异步任务队列**，**实现高效的任务调度与批量更新，避免主线程长时间占用，提升页面性能**，并*对比了setTimeout等替代方案的局限性*。
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/eb9fc9c847158c6bbeada4a99fdb497e_MD5.webp]]
 
 
-React使用MessageChannel创建宏任务，来实现异步任务队列，以实现异步更新，确保React*在执行更新时能够合并多个更新操作*，并在下一个宏任务中一次性更
-新，以提高性能并减少不必要的重复渲染，从而提高页面性能和用户体验。
 
 ### 为何需要实现 requestIdleCallback 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=0)
@@ -21,6 +19,9 @@ React使用MessageChannel创建宏任务，来实现异步任务队列，以实�
 ### 核心机制：使用 MessageChannel **创建宏任务** 
 [01:12](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=72)
 
+React使用MessageChannel创建宏任务，来实现异步任务队列，以实现异步更新，确保React*在执行更新时能够合并多个更新操作*，并在下一个宏任务中一次性更
+新，以提高性能并减少不必要的重复渲染，从而提高页面性能和用户体验。
+
 - ***目标*：实现异步任务队列** [01:20](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=80)  
     **通过创建宏任务实现异步更新，达到*批量处理状态变更、减少重复渲染*的目的**。
 - **MessageChannel 的优势** [01:49](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=109)  
@@ -28,53 +29,54 @@ React使用MessageChannel创建宏任务，来实现异步任务队列，以实�
 - 选择 MessageChannel 的原因 [02:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=139)  
     React 最终选用 `MessageChannel` 而非 `setTimeout`，*因其时间精度更高，更适合高频调度场景*。
 
-### 任务调度流程设计 
+#### 任务调度流程设计 
 [02:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=160)
 
 - work loop 的执行前提 [02:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=160)  
     **执行前需确保没有其他异步任务正在运行，防止重复创建宏任务**。
 - 锁机制的引入：isMessageLoopRunning [02:53](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=173)  
     使用布尔变量 `isMessageLoopRunning` *作为锁，防止重复调度*。
-- 调度入口函数 schedule [03:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=203)  
-    若无任务运行，则设置 `isMessageLoopRunning = true`，并启动 `performWorkUntilDeadline`。
+- 调度入口函数 `schedulePerformWorkUntilDeadline` [03:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=203)  
+    若无任务运行，则设置 isMessageLoopRunning = true，并启动 performWorkUntilDeadline。
 
-### MessageChannel 具体实现 
+#### MessageChannel 具体实现 
 [04:13](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=253)
 
 - 创建 MessageChannel 实例 [04:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=257)  
-    初始化 `const channel = new MessageChannel()`，获取两个端口 `port1` 和 `port2`。
+    初始化 const channel = new MessageChannel()，获取两个端口 `port1` 和 `port2`。
 - 监听与触发机制 [04:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=269)
     - `port1.onmessage` 监听消息，触发 `performWorkUntilDeadline`。
     - `port2.postMessage()` **发送消息，激活监听，形成宏任务**。
 - ***宏任务的创建过程*** [04:56](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=296)  
-    *调用 `schedule` 时通过 `port2.postMessage()` 触发 `port1` 的 `onmessage` 回调，从而创建一个可执行的宏任务*。
+    *调用 schedulePerformWorkUntilDeadline 时通过 port2.postMessage() 触发 `port1` 的 `onmessage` 回调，从而创建一个可执行的宏任务*。
 
 ### performWorkUntilDeadline 函数实现 
 [05:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=302)
 
 - 函数结构初始化 [05:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=318)  
-    检查 `isMessageLoopRunning` 是否为真，决定是否继续执行。
-- 记录起始时间戳 [05:35](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=335)  
-    使用 `startTime = performance.now()` 记录当前时间戳，用于后续时间切片判断。
-- 执行工作循环 flashWork [06:25](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=385)  
-    调用 `flashWork(startTime)` 开始执行任务队列。
+    检查 `isMessageLoopRunning` 是否为真，*决定是否继续执行*。
+- **记录当前的时间切片（Work）的起始时间戳** [05:35](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=335)  
+    使用 startTime = performance.now() 记录当前时间戳，*用于后续时间切片判断*。
+- 执行工作循环 flushWork [06:25](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=385)  
+    调用 flushWork(startTime) 开始执行任务队列。
 - 返回值处理：hasMoreWork [06:46](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=406)  
-    获取 `flashWork` 返回值 `hasMoreWork`，判断是否还有待处理任务。
+    获取 flushWork 返回值 `hasMoreWork`，*判断是否还有待处理任务*。
 - 后续调度决策 [07:08](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=428)
-    - 若 `hasMoreWork` 为真，再次调用 `schedule()` 继续调度。
-    - 否则设置 `isMessageLoopRunning = false`，结束本轮调度。
+    - 若 `hasMoreWork` 为真，再次调用 schedulePerformWorkUntilDeadline() *继续调度*。
+    - 否则设置 isMessageLoopRunning = false，*结束本轮调度*。
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/4c58419c91c5dec4d7f3f0512e4c0ffc_MD5.webp]]
 
-### flashWork 函数实现 
+### flushWork 函数实现 
 [07:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=449)
 
 - 参数接收：initialTime [07:35](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=455)  
-    接收时间切片起始时间戳 `initialTime`。
+    *接收时间切片起始时间戳* `initialTime`。
 - 开关设置：isPerformingWork [08:07](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=487)  
-    设置 `isPerformingWork = true` 表示当前正在执行任务。
+    设置 isPerformingWork = true *表示当前正在执行任务、正在执行时间切片*。
 - 优先级管理 [08:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=506)  
-    记录当前优先级 `previousPriorityLevel = currentPriorityLevel`，执行完后恢复。
-- 执行 workLoop [08:11](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=491)  
-    在 `flashWork` 内部调用 `workLoop(initialTime)` 执行具体任务。
+    *记录当前优先级* previousPriorityLevel = currentPriorityLevel，执行完后恢复。
+- **执行 workLoop** [08:11](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=491)  
+    在 flushWork 内部调用 `workLoop(initialTime)` 执行具体任务。
 - 清理操作 [08:20](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=500)  
     执行完成后将 `currentTask = null`，并还原优先级与执行状态。
 
