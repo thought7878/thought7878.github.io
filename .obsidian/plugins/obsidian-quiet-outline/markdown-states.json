@@ -3137,12 +3137,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 16
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 5,
-        "ch": 16
+        "line": 6,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -6117,28 +6117,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-10 总结：源码实践React底层任务调度机制.md": {
-    "scroll": 13.225127551020408,
+    "scroll": 12.247441860465116,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 12
+        "line": 33,
+        "ch": 31
       },
       "to": {
-        "line": 32,
-        "ch": 12
+        "line": 33,
+        "ch": 31
       }
     },
-    "expandedKeys": [
-      "item-2-16",
-      "item-2-20",
-      "item-2-24",
-      "item-2-28",
-      "item-2-34",
-      "item-2-31",
-      "item-2-14",
-      "item-1-5",
-      "item-2-7"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-9 如何调度延迟任务.md": {
     "scroll": 101.63465627214741,
@@ -6330,5 +6320,61 @@
       "item-2-17",
       "item-2-0"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-1 剖析React中的任务调度器场景：合作式调度器 & 抢占式调度器__ev-金狮.md": {
+    "scroll": 2.971356297894502,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析Reac...任务调度源码.mp4等1个文件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析React任务调度源码.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
