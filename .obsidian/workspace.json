@@ -592,7 +592,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "目前任职于某互联网独角兽公司，带领 6 条业务线前端团队，负责架构设计和核心开发、工程方案调研和选型",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -741,6 +741,9 @@
   },
   "active": "583c86e053d6ad58",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/9233c83af0d2129aba453ec0f5a5b541_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/f63202d5eb99b23a3ad3631483bdeaa2_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/16c89424d9f8b7e5910711494f2e9a7b_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/4c58419c91c5dec4d7f3f0512e4c0ffc_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-09.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-08.md",
@@ -760,9 +763,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-4 实现任务调度算法-实现最小堆的pop函数-4.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-3 实现任务调度算法-实现最小堆的peek与push函数-3.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/f572944d57f800bfce5cd43c4148ef88_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/b342315c3985e8ed1b5de45b88159863_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/3ed5d40562de20cf442649a9d7fd3ede_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/bdc612234ea10d60cbc5ebcd05a596e6_MD5.webp",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/读书笔记/人性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-2 实现任务调度算法-什么是最小堆-2.md",
