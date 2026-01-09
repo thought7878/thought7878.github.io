@@ -48,9 +48,11 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
 
 ### 优先级系统对比分析 
 [03:33](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=213)
+```
+packages/scheduler/src/SchedulerPriorities.js
+```
 
-
-- 定义的**优先级类型**  packages/scheduler/src/SchedulerPriorities.js
+- 定义的**优先级类型**  
     包括：
     - ImmediatePriority
     - UserBlockingPriority
@@ -65,15 +67,15 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
 	    - 源码中初始值为 NormalPriority。
 - getCurrentPriorityLevel 函数用途
     - *返回当前任务优先级*。
-    - 在合成事件系统中被 getEventPriority(domEventName) 调用。
-    - 根据不同 DOM 事件（如 click、message）返回对应优先级。
+    - 在*合成事件*系统中被 getEventPriority(domEventName) 调用。
+    - *根据不同 DOM 事件（如 click、message）返回对应优先级*。
 - noPriority 的缺失问题
     - 全局搜索 NoPriority，仅在 Fiber 相关代码中有使用，在 schedule 包内部未使用。
     - 即使无任务执行，getCurrentPriorityLevel() 仍返回 NormalPriority。
-- 作者个人理解与 PR 尝试
-    - 认为无任务时应为 NoPriority 更合理。
-    - 提交过 PR 建议修改，但未被采纳，官方未给出详细解释。
-    - 实际影响有限：无论返回 Normal 或 NoPriority，最终都会进入默认分支，不会导致 bug。
+	- 作者个人理解与 PR 尝试
+	    - 认为无任务时应为 NoPriority 更合理。
+	    - 提交过 PR 建议修改，但未被采纳，官方未给出详细解释。
+	    - 实际影响有限：无论返回 Normal 或 NoPriority，最终都会进入默认分支，不会导致 bug。
 
 ### 核心调度逻辑一致性验证 
 [08:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=499)
@@ -86,7 +88,9 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
     - 利用时间片控制单次执行时长，避免主线程阻塞。
     - 每个时间片通常为 5ms 左右。
 
-### 任务调度入口函数实现细节 
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/d51462c28ac251a0f271985b70ebdb9e_MD5.webp]]
+
+### 任务调度入口函数
 [08:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=509)
 
 - 函数名称  
@@ -101,13 +105,11 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
 [09:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=559)
 
 - 等待时间（expirationTime）计算
-    
-    expirationTime=startTime+timeoutexpirationTime=startTime+timeout
-    
+    expirationTime=startTime+timeout
 - 不同优先级的 timeout 设置
     - 立即执行任务（Immediate）：timeout 为 `-1`，类比 VIP 用户负等待时间。
     - 其他任务根据优先级设定不同的超时时间。
-- 延迟任务处理流程
+- *延迟任务处理流程*
     - 若任务有 delay，则先放入 `timerQueue`。
     - 到达指定时间后，由 `requestHostCallback` 触发转移至 `taskQueue`。
 - 防止重复定时器设置
@@ -141,11 +143,11 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
 [12:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=743)
 
 - performWorkUntilDeadline 函数作用  
-    在时间切片内执行尽可能多的任务。
-- 时间切片结束判断依据
+    *在时间切片内执行尽可能多的任务*。
+- **时间切片结束判断依据**
     - 记录起始时间 `startTime`。
     - 当前时间减去 `startTime` 是否大于等于帧间隔（frame interval，约 5ms）。
-    - 若超过，则退出当前循环，让出主线程控制权。
+    - *若超过，则退出当前循环，让出主线程控制权*。
 
 ### 工作循环核心：workLoop 实现 
 [12:56](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=776)
@@ -154,8 +156,8 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
     - 返回 `true`：表示仍有任务需继续调度。
     - 返回 `false`：表示当前无更多任务。
 - hasMoreWork 判断与后续调度
-    - 若有更多任务，则再次调用 `requestHostCallback` 启动下一轮。
-    - 否则本轮调度结束。
+    - *若有更多任务，则再次调用 `requestHostCallback` 启动下一轮*。
+    - *否则本轮调度结束*。
 
 ### 任务执行流程详解 
 [13:24](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=804)
