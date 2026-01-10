@@ -6,6 +6,7 @@
       {
         "id": "a4fd01e385f78a05",
         "type": "tabs",
+        "dimension": 29.441260744985676,
         "children": [
           {
             "id": "148c6846560e64c4",
@@ -561,6 +562,25 @@
           }
         ],
         "currentTab": 20
+      },
+      {
+        "id": "3b3360dc8d5e87cc",
+        "type": "tabs",
+        "dimension": 70.55873925501433,
+        "children": [
+          {
+            "id": "60f8d3557ca74f17",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/流程图.svg"
+              },
+              "icon": "lucide-file",
+              "title": "流程图.svg"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -627,7 +647,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -694,12 +715,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/流程图.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 调度器的执行流程"
+              "title": "Outgoing links from 流程图"
             }
           },
           {
@@ -717,7 +738,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -739,12 +761,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "583c86e053d6ad58",
+  "active": "60f8d3557ca74f17",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/流程图.svg",
+    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/Untitled Diagram.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/schedule.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析React任务调度源码.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度",
@@ -773,13 +798,9 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/1e18767ba0847c9e0afe7ee167355991_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-8 如何实现一个requestIdleCallback.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/9233c83af0d2129aba453ec0f5a5b541_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/f63202d5eb99b23a3ad3631483bdeaa2_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/16c89424d9f8b7e5910711494f2e9a7b_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-08.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-7 如何实现任务调度函数入口.md",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-07.md",
-    "_posts/读书笔记/动力.md",
     "DailyNote/Journal/01 Daily/2026/01/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践",
