@@ -15,7 +15,7 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
     源码位于`packages/scheduler/src/forks/Scheduler.js`下，共六百余行代码。
 - 历史维护状态
     - `README.md`最后一次修改为六年前。
-    - 曾计划将`schedule`做成通用包，但后续未持续维护。
+    - 曾计划将`scheduler`做成通用包，但后续未持续维护。
     - 当前代码虽不够严谨，但无重大bug，仍可正常使用。
 
 #### 代码量差异原因分析 

@@ -1,6 +1,6 @@
 
 
-本视频讲述了**React中`任务调度器（schedule）`的实现原理与基本框架搭建**，包括*任务优先级划分、最小堆数据结构的应用、关键函数*如`scheduleCallback`和`cancelCallback`的设计思路。
+本视频讲述了**React中`任务调度器（scheduler）`的实现原理与基本框架搭建**，包括*任务优先级划分、最小堆数据结构的应用、关键函数*如`scheduleCallback`和`cancelCallback`的设计思路。
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/db68845054646a2485993bd78ff07a69_MD5.webp]]
 
