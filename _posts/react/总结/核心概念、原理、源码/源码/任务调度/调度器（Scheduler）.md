@@ -143,6 +143,8 @@ function workLoop(hasTimeRemaining, initialTime) {
     }
     
     advanceTimers(currentTime);
+    
+    // 获取下一个任务，继续下一个循环
     currentTask = peek(taskQueue);
   }
   
