@@ -22,8 +22,26 @@ var IDLE_PRIORITY_TIMEOUT = maxSigned31BitInt; // 空闲时执行
 
 ## 主要功能函数
 
-### 任务调度：unstable_scheduleCallback
-[unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
+### 任务调度入口：unstable_scheduleCallback
+scheduleCallback（安排、调度一个任务回调函数）
+
+[unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数，对外接口函数，任务调度器与外界交互的核心函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
+
+- 创建一个新任务：
+	- 任务的id：id: taskIdCounter++
+	- 任务的callback：入参参数callback，将任务回调函数封装成任务的callback
+	- 任务的优先级：入参参数priorityLevel
+	- 任务的开始时间（不是执行时间）：
+	    - 处理延迟选项，有delay，startTime = currentTime + delay
+	    - 其他情况：startTime = currentTime
+    - 任务的过期时间：expirationTime = startTime + timeout
+	    - timeout，根据优先级设置超时时间
+    - 任务的排序索引 sortIndex：
+	    - 如果是延迟任务，newTask.sortIndex = startTime
+	    - 如果是一个立即执行的任务，设置任务的排序索引为过期时间（最小二叉堆排序使用）
+- 将新任务添加到适当的队列中
+	- 如果是延迟任务，放入 timerQueue；
+    - 否则，是一个立即执行的任务，放入 taskQueue；安排执行任务。
 
 ```javascript
 function unstable_scheduleCallback(priorityLevel, callback, options) {
