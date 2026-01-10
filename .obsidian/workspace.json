@@ -493,7 +493,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -508,7 +508,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "每一行代码的注释"
+              "title": "调度器的执行流程"
             }
           },
           {
@@ -694,12 +694,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 每一行代码的注释"
+              "title": "Outgoing links from 调度器的执行流程"
             }
           },
           {
@@ -713,7 +713,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -741,8 +741,10 @@
   },
   "active": "583c86e053d6ad58",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/schedule.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析React任务调度源码.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度",
@@ -758,7 +760,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/6870313bb835dfcb85e5808bf71bd795_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/c2a1557098ca1412b0ed87f0c3c41b72_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/a8d84243913887d388eb78b19c0c0b6a_MD5.webp",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/English/每日记录（复习）.md",
     "DailyNote/Journal/01 Daily/学习、复习记录.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/8defa4ccbe7b711845375a4d4e020860_MD5.webp",
@@ -779,7 +780,6 @@
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-07.md",
     "_posts/读书笔记/动力.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-4 实现任务调度算法-实现最小堆的pop函数-4.md",
     "DailyNote/Journal/01 Daily/2026/01/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践",
