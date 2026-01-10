@@ -36,7 +36,7 @@ React源码：https://github.dev/facebook/react/tree/v18.2.0
 
 - **主要对外接口函数**
     - `unstable_scheduleCallback`：任务调度器**与外界交互的核心函数**。
-    - 手写实现也从该函数入手。
+    - *手写实现也从该函数入手*。
 - 其他暴露函数的存在性分析
     - 如 `unstable_runWithPriority` 可能被用到。
     - 但如 `unstable_next` 等函数*在当前 React 中并未实际调用*。
