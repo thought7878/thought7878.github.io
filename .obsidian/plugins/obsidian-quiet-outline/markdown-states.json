@@ -6365,20 +6365,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析React任务调度源码.md": {
-    "scroll": 90.80070089204442,
+    "scroll": 90.37461314400146,
     "cursor": {
       "from": {
-        "line": 107,
-        "ch": 26
+        "line": 101,
+        "ch": 23
       },
       "to": {
-        "line": 107,
-        "ch": 26
+        "line": 101,
+        "ch": 23
       }
     },
     "expandedKeys": [
       "item-2-4",
-      "item-3-0"
+      "item-2-1",
+      "item-3-5"
     ]
   },
   "_posts/English/单词/slice.md": {
@@ -6428,19 +6429,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md": {
-    "scroll": 65.93619791666667,
+    "scroll": 49.768229166666664,
     "cursor": {
       "from": {
-        "line": 174,
-        "ch": 187
+        "line": 61,
+        "ch": 10
       },
       "to": {
-        "line": 174,
-        "ch": 187
+        "line": 61,
+        "ch": 10
       }
     },
     "expandedKeys": [
-      "item-2-4"
+      "item-2-4",
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md": {
@@ -6455,7 +6457,11 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-4",
+      "item-2-1",
+      "item-3-5"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md": {
     "scroll": 514.25,

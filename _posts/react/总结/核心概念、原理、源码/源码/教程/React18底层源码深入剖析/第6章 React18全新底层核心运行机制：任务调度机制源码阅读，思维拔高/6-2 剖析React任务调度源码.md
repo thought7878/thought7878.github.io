@@ -95,13 +95,16 @@ packages/scheduler/src/SchedulerPriorities.js
 
 - 函数名称  
     `unstable_scheduleCallback`，至今仍标记为 unstable，表明其 API 不稳定。
+- **主要对外接口函数**
+    - `unstable_scheduleCallback`：**任务调度器与外界交互的核心函数**。
+    - *手写实现也从该函数入手*。
 - delay 参数处理
     - 支持传入 delay 控制延迟执行。
     - 手写实现保留此逻辑以保持与源码一致。
     - 但在 React 主体代码中实际未使用 delay 功能。
     - 所有任务均走 else 分支，直接进入 taskQueue。
 
-### 新任务创建与插入逻辑 
+#### 新任务创建与插入逻辑 
 [09:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=559)
 
 - 等待时间（expirationTime）计算

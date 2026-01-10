@@ -22,7 +22,7 @@ var IDLE_PRIORITY_TIMEOUT = maxSigned31BitInt; // 空闲时执行
 
 ## 主要功能函数
 
-### 任务调度
+### 任务调度：unstable_scheduleCallback
 [unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
 
 ```javascript
@@ -46,9 +46,10 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
     // ... 其他优先级
   }
 
+  // 计算任务的过期时间（设置任务的排序索引为过期时间，最小二叉堆排序使用）
   var expirationTime = startTime + timeout;
 
-  // 构建任务对象
+  // 构建任务对象，创建新任务对象
   var newTask = {
     id: taskIdCounter++,
     callback,
@@ -58,7 +59,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
     sortIndex: -1,
   };
 
-  // 如果是延迟任务，放入 timerQueue
+  // 如果是延迟任务，放入 timerQueue；否则放入 taskQueue
   if (startTime > currentTime) {
     newTask.sortIndex = startTime;
     push(timerQueue, newTask);
