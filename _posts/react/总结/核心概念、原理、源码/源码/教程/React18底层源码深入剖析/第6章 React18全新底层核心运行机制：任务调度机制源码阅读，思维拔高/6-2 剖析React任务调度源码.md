@@ -77,7 +77,7 @@ packages/scheduler/src/SchedulerPriorities.js
 	    - 提交过 PR 建议修改，但未被采纳，官方未给出详细解释。
 	    - 实际影响有限：无论返回 Normal 或 NoPriority，最终都会进入默认分支，不会导致 bug。
 
-### 核心调度逻辑一致性验证 
+### 关键全局变量：保证调度逻辑一致性
 [08:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=499)
 
 - 关键全局变量
@@ -90,7 +90,7 @@ packages/scheduler/src/SchedulerPriorities.js
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/d51462c28ac251a0f271985b70ebdb9e_MD5.webp]]
 
-### 任务调度入口函数
+### 任务调度**入口函数**
 [08:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=509)
 
 - 函数名称  
