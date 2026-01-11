@@ -106,7 +106,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 [workLoop](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L208-L268) 函数**负责实际执行任务**：
 
 - 获取任务队列（最小二叉堆）中的第一个任务，currentTask = peek(taskQueue);
-- 进入循环：
+- **进入执行任务的循环：**
 	- 条件：还有当前任务、当前任务不为空，且不处于调试暂停状态
 	- 检查是否需要让出主线程的控制权（控制权给浏览器）：
 		- 当前任务未过期，且（没有剩余时间或应该让出给主机），跳出循环。
@@ -116,11 +116,16 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 			- 清空任务回调，防止重复执行
 			- 设置当前优先级为任务优先级
 			- *执行任务的回调函数*，参数为任务是否已过期
-				- 如果返回了延续回调，任务还没完成
-				- 
+				- *如果任务还没完成*（返回了延续回调），将延续回调保存到任务，continuationCallback由scheduler的使用者（外部使用者）控制
+				- *如果任务完成了*（没有延续回调），如果当前任务仍是队列中的第一个（任务队列是动态的，可能不是第一个），从队列中弹出任务
 		- 如果任务是无效的（回调函数不存在）
 			- 弹出任务，从任务队列，pop(taskQueue);
 	- 获取下一个任务，继续下一个循环，currentTask = peek(taskQueue);
+- 跳出任务循环后，任务队列taskQueue中是否还有任务：
+	- **还有任务，返回true，等下一个时间切片继续执行（flushWork-->workLoop）**
+	- 没有任务了：
+		- 返回false
+		- 处理计时器队列timerQueue中的任务
 
 ```javascript
 function workLoop(hasTimeRemaining, initialTime) {
