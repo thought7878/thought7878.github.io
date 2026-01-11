@@ -16,9 +16,9 @@
 [00:38](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=38)
 
 - 独立模块  
-    Scheduler是*一个独立的任务调度器*，不直接依赖于React，*可应用于其他单线程任务调度场景*。
+    `Scheduler`是**一个独立的任务调度器**，不直接依赖于React，**可应用于其他`单线程任务调度`场景**。
 - **源码位置**  
-    源码位于`react/packages/scheduler`文件夹下。
+    源码位于react/packages/scheduler文件夹下。
 - **目标功能**  
     实现一个*基于优先级、到达时间*的*单线程任务调度机制*。
 
@@ -53,10 +53,10 @@
 	- *任务调度器的入口函数*，接收两个参数：
 	    - 回调函数（callback）
 	    - 优先级（priorityLevel）
-    - *返回值类型*为可选回调（用于未完成任务继续执行）
+    - *返回值类型*为可选回调（*用于未完成任务继续执行*），**源码中是newTask**
 
 - `cancelCallback`函数：
-	- *取消指定任务的执行*，由于最小堆没法直接删除，因此只能初步把task.callback设置为null。取消指定任务的执行，通过将任务回调置为`null`标记为无效。
+	- **取消指定任务的执行**，由于最小堆没法直接删除，*因此只能初步把task.callback设置为null*。取消指定任务的执行，通过将任务回调置为`null`标记为无效。
 	- *调度过程中，当这个任务位于堆顶时，task.callback为null，无效任务，删掉*
     
 - `getCurrentPriorityLevel`函数：
