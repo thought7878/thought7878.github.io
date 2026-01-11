@@ -105,6 +105,23 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 ### 任务执行循环
 [workLoop](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L208-L268) 函数**负责实际执行任务**：
 
+- 获取任务队列（最小二叉堆）中的第一个任务，currentTask = peek(taskQueue);
+- 进入循环：
+	- 条件：还有当前任务、当前任务不为空，且不处于调试暂停状态
+	- 检查是否需要让出主线程的控制权（控制权给浏览器）：
+		- 当前任务未过期，且（没有剩余时间或应该让出给主机），跳出循环。
+		- 当前任务已过期，赶紧执行下面的逻辑
+	- 执行任务的回调，或弹出任务：
+		- 如果任务是有效的（回调函数存在）
+			- 清空任务回调，防止重复执行
+			- 设置当前优先级为任务优先级
+			- *执行任务的回调函数*，参数为任务是否已过期
+				- 如果返回了延续回调，任务还没完成
+				- 
+		- 如果任务是无效的（回调函数不存在）
+			- 弹出任务，从任务队列，pop(taskQueue);
+	- 获取下一个任务，继续下一个循环，currentTask = peek(taskQueue);
+
 ```javascript
 function workLoop(hasTimeRemaining, initialTime) {
   let currentTime = initialTime;
@@ -115,7 +132,7 @@ function workLoop(hasTimeRemaining, initialTime) {
     currentTask !== null &&
     !(enableSchedulerDebugging && isSchedulerPaused)
   ) {
-    // 检查是否需要让出控制权给浏览器
+    // 检查是否需要让出主线程的控制权（控制权给浏览器）
     // 当前任务未过期，且（没有剩余时间或应该让出给主机），跳出循环
     if (
       currentTask.expirationTime > currentTime &&
