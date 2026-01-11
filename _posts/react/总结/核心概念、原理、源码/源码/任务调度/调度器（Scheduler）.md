@@ -41,7 +41,9 @@ scheduleCallback（安排、调度一个任务回调函数）
 	    - 如果是一个立即执行的任务，设置任务的排序索引为过期时间（最小二叉堆排序使用）
 - 将新任务添加到适当的队列中
 	- 如果是延迟任务，放入 timerQueue；
-    - 否则，是一个立即执行的任务，放入 taskQueue；*安排执行任务*。
+    - 否则，是一个立即执行的任务，
+	    - 放入 taskQueue
+	    - *安排执行任务*
 
 ```javascript
 function unstable_scheduleCallback(priorityLevel, callback, options) {
