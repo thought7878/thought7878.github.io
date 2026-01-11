@@ -39,11 +39,11 @@ Promise.resolve().then(() => console.log('4. 微任务2'));
 
 // MessageChannel
 const { port1, port2 } = new MessageChannel();
-port1.onmessage = () => console.log('5. MessageChannel 回调');
+port1.onmessage = () => console.log('6. MessageChannel 回调');
 port2.postMessage(null);
 
 // rAF
-requestAnimationFrame(() => console.log('6. rAF 回调'));
+requestAnimationFrame(() => console.log('5. rAF 回调'));
 
 // setTimeout
 setTimeout(() => console.log('8. setTimeout 回调'), 0);
@@ -64,9 +64,10 @@ console.log('2. 同步代码结束');
 2. 同步代码结束
 3. 微任务1
 4. 微任务2
-5. MessageChannel 回调  // ⭐ 关键位置：微任务后，rAF 前
-6. rAF 回调
-7. 渲染后：DOM 变更检测  // 触发于 Layout 之后
+5. rAF 回调
+6. MessageChannel 回调  // ⭐ 关键位置：微任务后，rAF 后
+
+7. 渲染后：DOM 变更检测  // 触发于 Layout 之后（测试有问题）
 8. setTimeout 回调
 ```
 
@@ -179,7 +180,9 @@ function workLoop() {
   }
 }
 ```
+
 **为什么 MessageChannel 比 setTimeout 更精准？**
+
 | 指标                | MessageChannel       | setTimeout(0)       |
 |---------------------|----------------------|---------------------|
 | 平均延迟            | 0.08ms               | 4.2ms               |

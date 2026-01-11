@@ -16,7 +16,7 @@
 [00:38](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=38)
 
 - 独立模块  
-    Scheduler是一个独立的任务调度器，不直接依赖于React，*可应用于其他单线程任务调度场景*。
+    Scheduler是*一个独立的任务调度器*，不直接依赖于React，*可应用于其他单线程任务调度场景*。
 - **源码位置**  
     源码位于`react/packages/scheduler`文件夹下。
 - **目标功能**  
@@ -33,7 +33,7 @@
     - Low: 4
     - Idle: 5
 - 导出定义  
-    优先级常量在`schedulePractice.ts`中定义并导出供其他模块使用。
+    优先级常量在`packages/scheduler/src/SchedulerPriorities.js`中定义并导出供其他模块使用。
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/media/bdc612234ea10d60cbc5ebcd05a596e6_MD5.webp]]
 
