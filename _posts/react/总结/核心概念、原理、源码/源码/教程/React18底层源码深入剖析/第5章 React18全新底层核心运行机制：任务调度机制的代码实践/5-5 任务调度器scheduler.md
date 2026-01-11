@@ -8,9 +8,9 @@
 [00:15](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=15)
 
 - **多任务执行场景**  
-    React项目运行过程中*会遇到多个更新任务*，*如*effect触发或用户交互导致的任务。
+    React项目运行过程中**会遇到多个更新任务**，*如*状态更新任务、effect触发的任务、用户交互导致的任务。
 - **单线程执行限制**  
-    *React每次只能执行一个任务*，**因此需要调度策略决定任务的执行顺序**。
+    **React每次只能执行一个任务**，**因此需要调度策略决定任务的执行顺序**。
 
 ### Scheduler调度器简介 
 [00:38](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=38)
@@ -49,7 +49,7 @@
 [06:41](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=649abdd1fba04df493057be1e8facc1d#?seek_t=401)
 
 - `scheduleCallback`函数  
-	- **某个任务进入调度器，等待调度**。
+	- **某个函数/任务进入调度器，等待调度**。
 	- *任务调度器的入口函数*，接收两个参数：
 	    - 回调函数（callback）
 	    - 优先级（priorityLevel）
