@@ -22,7 +22,7 @@ var IDLE_PRIORITY_TIMEOUT = maxSigned31BitInt; // 空闲时执行
 
 ## 主要功能函数
 
-### 任务调度入口：unstable_scheduleCallback
+### unstable_scheduleCallback：任务调度入口
 scheduleCallback（安排、调度一个任务回调函数）
 
 [unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数，对外接口函数，任务调度器与外界交互的核心函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
@@ -43,7 +43,7 @@ scheduleCallback（安排、调度一个任务回调函数）
 	- 如果是延迟任务，放入 timerQueue；
     - 否则，是一个立即执行的任务，
 	    - 放入 taskQueue
-	    - *安排执行任务*
+	    - *安排执行任务，requestHostCallback(flushWork);*
 
 ```javascript
 function unstable_scheduleCallback(priorityLevel, callback, options) {
@@ -94,6 +94,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
     // 安排执行
     if (!isHostCallbackScheduled && !isPerformingWork) {
       isHostCallbackScheduled = true;
+      // 下一个
       requestHostCallback(flushWork);
     }
   }
@@ -102,7 +103,10 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 }
 ```
 
-### 任务执行循环
+### requestHostCallback(flushWork)
+
+
+### workLoop：任务执行循环
 [workLoop](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L208-L268) 函数**负责实际执行任务**：
 
 - 获取任务队列（最小二叉堆）中的第一个任务，currentTask = peek(taskQueue);
@@ -117,10 +121,10 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 			- 设置当前优先级为任务优先级
 			- *执行任务的回调函数*，参数为任务是否已过期
 				- *如果任务还没完成*（返回了延续回调），将延续回调保存到任务，continuationCallback由scheduler的使用者（外部使用者）控制
-				- *如果任务完成了*（没有延续回调），如果当前任务仍是队列中的第一个（任务队列是动态的，可能不是第一个），从队列中弹出任务
+				- *如果任务完成了*（没有延续回调），如果当前任务仍是队列中的第一个（任务队列是动态的，可能不是第一个），*从队列中弹出任务*
 		- 如果任务是无效的（回调函数不存在）
-			- 弹出任务，从任务队列，pop(taskQueue);
-	- 获取下一个任务，继续下一个循环，currentTask = peek(taskQueue);
+			- 从任务队列，*弹出任务*，pop(taskQueue);
+	- *获取下一个任务，继续下一个循环*，currentTask = peek(taskQueue);
 - 跳出任务循环后，任务队列taskQueue中是否还有任务：
 	- **还有任务，返回true，等下一个时间切片继续执行（flushWork-->workLoop）**
 	- 没有任务了：
