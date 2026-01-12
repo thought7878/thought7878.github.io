@@ -25,7 +25,10 @@ var IDLE_PRIORITY_TIMEOUT = maxSigned31BitInt; // 空闲时执行
 ### unstable_scheduleCallback：任务调度入口
 scheduleCallback（安排、调度一个任务回调函数）
 
-[unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数，对外接口函数，任务调度器与外界交互的核心函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
+[unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数，对外接口函数，任务调度器与外界交互的核心函数**：
+- **创建一个新任务**
+- **将其添加到适当的队列中**
+- **安排执行任务**
 
 **伪代码：**
 - *创建一个新任务：*
@@ -106,6 +109,102 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 
 ### requestHostCallback(flushWork)
 
+```js
+
+// 请求主回调
+// scheduledHostCallback = callback = flushWork
+function requestHostCallback(callback) {
+  scheduledHostCallback = callback;  // 设置计划的主回调，即flushWork
+  if (!isMessageLoopRunning) {      // 如果消息循环未运行
+    isMessageLoopRunning = true;    // 启动消息循环
+    schedulePerformWorkUntilDeadline();  // 安排执行work、任务，直到截止时间
+  }
+}
+
+```
+
+### schedulePerformWorkUntilDeadline
+触发、安排、启动，下一个时间切片
+
+```js
+let schedulePerformWorkUntilDeadline;
+if (typeof localSetImmediate === 'function') {
+  // Node.js 和旧版 IE。
+  // 有几个原因使我们更喜欢 setImmediate。
+  //
+  // 与 MessageChannel 不同，它不会阻止 Node.js 进程退出。
+  // （即使这是 DOM 的调度器分支，你可能会在这里
+  // 使用 Node.js 15+ 和 jsdom 的混合。）
+  // https://github.com/facebook/react/issues/20756
+  //
+  // 但也是，它运行得更早，这是我们想要的语义。
+  // 如果其他浏览器实现了它，最好使用它。
+  // 尽管这些都比原生调度要差。
+  schedulePerformWorkUntilDeadline = () => {
+    localSetImmediate(performWorkUntilDeadline);
+  };
+} else if (typeof MessageChannel !== 'undefined') {
+  // DOM 和 Worker 环境。
+  // 我们更喜欢 MessageChannel 是因为 4ms 的 setTimeout 限制。
+  const channel = new MessageChannel();
+  const port = channel.port2;
+  channel.port1.onmessage = performWorkUntilDeadline;
+  schedulePerformWorkUntilDeadline = () => {
+    // 触发 performWorkUntilDeadline
+    port.postMessage(null);
+  };
+} else {
+  // 我们只应在非浏览器环境中回退到这里。
+  schedulePerformWorkUntilDeadline = () => {
+    localSetTimeout(performWorkUntilDeadline, 0);
+  };
+}
+```
+
+### performWorkUntilDeadline
+
+```js
+
+// 执行work（执行多个task）直到时间切片结束
+// 直到截止时间的工作执行函数
+const performWorkUntilDeadline = () => {
+  if (scheduledHostCallback !== null) {
+    const currentTime = getCurrentTime();
+    // 跟踪开始时间，以测量主线程被阻塞了多长时间
+    startTime = currentTime;
+    const hasTimeRemaining = true;
+
+    // 如果调度程序任务抛出异常，退出当前浏览器任务，
+    // 以便错误可以被观察到。
+    //
+    // 故意不使用 try-catch，因为这会使某些调试技术更困难。
+    // 相反，如果 scheduledHostCallback 出错，则
+    // hasMoreWork 将保持为 true，我们将继续工作循环。
+    let hasMoreWork = true;
+    try {
+      // scheduledHostCallback = callback = flushWork; flushWork --> workLoop;
+      // 开始 flushWork(hasTimeRemaining, initialTime)
+      // hasMoreWork，来自flushWork的返回值，来自workLoop的放回值，true：currentTask !== null，任务队列中还有task；false：没有task了
+      hasMoreWork = scheduledHostCallback(hasTimeRemaining, currentTime);
+    } finally {
+      if (hasMoreWork) {
+        // 如果还有更多task，在前一个（当前）消息事件结束时安排下一个消息事件（安排下一个微任务）
+        schedulePerformWorkUntilDeadline();
+      } else {//任务队列中，没有任务了
+        isMessageLoopRunning = false;  // 消息循环停止
+        scheduledHostCallback = null;  // 清空计划的主机回调
+      }
+    }
+  } else {
+    isMessageLoopRunning = false;  // 消息循环停止
+  }
+  // 让出给浏览器将给它绘制的机会，因此我们可以重置这个值
+  needsPaint = false;
+};
+
+```
+
+### flushWork
 
 ### workLoop：任务执行循环
 [workLoop](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L208-L268) 函数**负责实际执行任务**：
