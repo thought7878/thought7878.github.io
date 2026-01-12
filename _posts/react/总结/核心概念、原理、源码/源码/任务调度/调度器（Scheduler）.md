@@ -108,6 +108,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 ```
 
 ### requestHostCallback(flushWork)
+如果消息循环（时间切片）未运行；触发、安排、启动，下一个时间切片（安排执行work、任务，直到截止时间）
 
 ```js
 
@@ -115,16 +116,16 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 // scheduledHostCallback = callback = flushWork
 function requestHostCallback(callback) {
   scheduledHostCallback = callback;  // 设置计划的主回调，即flushWork
-  if (!isMessageLoopRunning) {      // 如果消息循环未运行
+  if (!isMessageLoopRunning) {      // 如果消息循环（时间切片）未运行
     isMessageLoopRunning = true;    // 启动消息循环
-    schedulePerformWorkUntilDeadline();  // 安排执行work、任务，直到截止时间
+    schedulePerformWorkUntilDeadline();  // ！！！触发、安排、启动，下一个时间切片（安排执行work、任务，直到截止时间）
   }
 }
 
 ```
 
 ### schedulePerformWorkUntilDeadline
-触发、安排、启动，下一个时间切片
+触发、安排、启动，下一个时间切片（安排执行work、任务）
 
 ```js
 let schedulePerformWorkUntilDeadline;
@@ -149,6 +150,7 @@ if (typeof localSetImmediate === 'function') {
   const channel = new MessageChannel();
   const port = channel.port2;
   channel.port1.onmessage = performWorkUntilDeadline;
+  // ！！！触发、安排、启动，下一个时间切片（安排执行work、任务）
   schedulePerformWorkUntilDeadline = () => {
     // 触发 performWorkUntilDeadline
     port.postMessage(null);
@@ -162,6 +164,8 @@ if (typeof localSetImmediate === 'function') {
 ```
 
 ### performWorkUntilDeadline
+新的时间切片开始执行
+执行work（执行多个task）直到时间切片结束
 
 ```js
 
@@ -182,13 +186,15 @@ const performWorkUntilDeadline = () => {
     // hasMoreWork 将保持为 true，我们将继续工作循环。
     let hasMoreWork = true;
     try {
-      // scheduledHostCallback = callback = flushWork; flushWork --> workLoop;
+      // ！！！scheduledHostCallback = callback = flushWork; flushWork --> workLoop;
       // 开始 flushWork(hasTimeRemaining, initialTime)
       // hasMoreWork，来自flushWork的返回值，来自workLoop的放回值，true：currentTask !== null，任务队列中还有task；false：没有task了
       hasMoreWork = scheduledHostCallback(hasTimeRemaining, currentTime);
     } finally {
+	  // 如果还有更多task
       if (hasMoreWork) {
-        // 如果还有更多task，在前一个（当前）消息事件结束时安排下一个消息事件（安排下一个微任务）
+        // ！！！当前的时间切片结束时，安排下一个时间切片，安排执行work、任务，直到截止时间
+        // 在前一个（当前）消息事件结束时，安排下一个消息事件（安排下一个微任务）
         schedulePerformWorkUntilDeadline();
       } else {//任务队列中，没有任务了
         isMessageLoopRunning = false;  // 消息循环停止
@@ -205,6 +211,58 @@ const performWorkUntilDeadline = () => {
 ```
 
 ### flushWork
+
+```js
+
+/**
+ * 刷新工作的主函数
+ * @param {*} hasTimeRemaining
+ * @param {*} initialTime
+ * @returns workLoop的返回值：true：currentTask !== null，仍有工作要做；false：没有更多工作
+ */
+function flushWork(hasTimeRemaining, initialTime) {
+  if (enableProfiling) {
+    markSchedulerUnsuspended(initialTime); // 标记调度器恢复
+  }
+
+  // 下次调度工作时需要主机回调
+  isHostCallbackScheduled = false;
+  if (isHostTimeoutScheduled) {
+    // 我们计划了一个超时，但它不再需要了，取消它
+    isHostTimeoutScheduled = false;
+    cancelHostTimeout();
+  }
+
+  isPerformingWork = true;  // 标记正在进行工作
+  const previousPriorityLevel = currentPriorityLevel; // 保存之前的优先级
+  try {
+    if (enableProfiling) {
+      try {
+        return workLoop(hasTimeRemaining, initialTime); // 执行工作循环
+      } catch (error) {
+        if (currentTask !== null) {
+          const currentTime = getCurrentTime();
+          markTaskErrored(currentTask, currentTime);  // 标记任务错误
+          currentTask.isQueued = false;
+        }
+        throw error;
+      }
+    } else {
+      // 生产环境中不捕获异常
+      return workLoop(hasTimeRemaining, initialTime);
+    }
+  } finally {
+    currentTask = null;  // 清除当前任务
+    currentPriorityLevel = previousPriorityLevel; // 恢复之前的优先级
+    isPerformingWork = false;  // 标记工作完成
+    if (enableProfiling) {
+      const currentTime = getCurrentTime();
+      markSchedulerSuspended(currentTime);  // 标记调度器暂停
+    }
+  }
+}
+
+```
 
 ### workLoop：任务执行循环
 [workLoop](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L208-L268) 函数**负责实际执行任务**：

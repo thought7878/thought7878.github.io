@@ -572,7 +572,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -706,16 +706,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
+                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 调度器（Scheduler）"
+              "title": "Outgoing links from 2026-01-12"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -742,10 +742,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c65f224858f05f9",
+  "active": "2ec0c28f2cb0200e",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/流程图.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/流程图.svg",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-11.md",
