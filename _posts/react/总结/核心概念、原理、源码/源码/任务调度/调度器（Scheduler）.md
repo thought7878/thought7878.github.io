@@ -174,6 +174,7 @@ if (typeof localSetImmediate === 'function') {
 const performWorkUntilDeadline = () => {
   if (scheduledHostCallback !== null) {
     const currentTime = getCurrentTime();
+    // 时间切片的起始时间
     // 跟踪开始时间，以测量主线程被阻塞了多长时间
     startTime = currentTime;
     const hasTimeRemaining = true;

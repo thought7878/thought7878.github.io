@@ -6432,15 +6432,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md": {
-    "scroll": 158.87239583333334,
+    "scroll": 162.74739583333334,
     "cursor": {
       "from": {
-        "line": 195,
-        "ch": 53
+        "line": 177,
+        "ch": 17
       },
       "to": {
-        "line": 195,
-        "ch": 53
+        "line": 177,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -6560,17 +6560,45 @@
     "scroll": 136.00618489583334,
     "cursor": {
       "from": {
-        "line": 146,
-        "ch": 197
+        "line": 142,
+        "ch": 6
       },
       "to": {
-        "line": 146,
-        "ch": 197
+        "line": 142,
+        "ch": 6
       }
     },
     "expandedKeys": [
       "item-1-1",
       "item-1-7"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-1 VDOM的四大问题：what、why、where、how.md": {
+    "scroll": 4.810417003954946,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 39
+      },
+      "to": {
+        "line": 10,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
   }
 }
