@@ -24,6 +24,8 @@
     - Update表示*一次状态变更引发的重新渲染*。
     - React和Vue都*围绕高效的Update设计核心API*。
 
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/4a78c63ed6339ddcf516eddb60e2aa8d_MD5.webp]]
+
 ### 引入Fiber的原因 
 [05:25](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=325)
 
