@@ -44,17 +44,25 @@
 - Fiber是工作单元（Unit of Work）[08:29](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=509)
     - **每个Fiber代表一个将要执行或已完成的工作单元**。
     - **一个组件有一个或多个Fiber**（如current和workInProgress）。
-    - work：工作单元
+    - `work`：工作单元
     - `workInProgress`：正在执行的工作单元，*源码中对于正在执行的fiber，命名为workInProgress*
     - `current`：源码中使用current命名*旧的fiber，即已经执行完成了的work*
     - ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/8aa515916ad14980e881887710ddaf26_MD5.webp]]
-- Fiber的类型tag [11:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=669)
-    - tag用于标记Fiber对应的组件类型，如函数组件（0）、类组件（1）、Fragment、Portal等。
-    - tag值定义在`react-work-tags.js`中，当前范围为0到27。
-- key的作用 [12:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=736)
-    - key用于在协调阶段唯一标识组件。
-    - 复用组件需满足三个条件：相同层级、相同类型、相同key。
-    - key应具备稳定性和唯一性，不建议使用index作为key值。
+#### Fiber的类型
+[11:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=669)
+`packages/react-reconciler/src/ReactInternalTypes.js`
+
+##### tag 
+
+- tag用于标记Fiber对应的组件类型，如函数组件（0）、类组件（1）、Fragment、Portal等。
+- tag值定义在`react-work-tags.js`中，当前范围为0到27。
+
+##### key
+[12:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=736)
+
+- key用于在协调阶段唯一标识组件。
+- 复用组件需满足三个条件：相同层级、相同类型、相同key。
+- key应具备稳定性和唯一性，不建议使用index作为key值。
 
 ### 总结与注意事项 
 [15:04](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=904)
