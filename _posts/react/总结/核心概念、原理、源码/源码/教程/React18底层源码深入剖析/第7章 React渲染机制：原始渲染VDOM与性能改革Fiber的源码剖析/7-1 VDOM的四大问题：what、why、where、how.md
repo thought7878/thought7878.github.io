@@ -45,6 +45,8 @@
 
 
 ### JSX到ReactElement的转换
+JSX --编译时的Babel-> jsx() --运行时-> ReactElement
+
 - 在React 17之前，*JSX通过Babel转译成`createElement()`*。
 - React 17之后，*使用`jsx()`函数替代，无需手动导入React*。
 
@@ -62,32 +64,31 @@
 包含以下关键字段：
 - `type`：表示元素类型（字符串表示*原生标签*，函数表示*组件*）。
 - `key` 和 `ref`：特殊属性。
-- `props`：传递给组件的属性。
-- `$$typeof`：标识该对象为React Element，防止JSON注入攻击。
+- `props`：*传递给组件的属性*。
+- `$$typeof`：*标识该对象为ReactElement*，防止JSON注入攻击。
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/4111290932139c8da8108fa89100844e_MD5.webp]]
 
 ## 四、Fiber架构与虚拟DOM更新 
 [20:28](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1228)
 
-- Fiber结构简介  
-    Fiber是React内部用于管理组件树的数据结构，存储在内存中，用于协调更新过程。
-    
-- Fiber与React Element的关系
-    
-    - 新的React Element用于构建新的Fiber。
-    - 老Fiber与新Fiber进行Diff比较，确定最小更新范围。
-- Fiber关键属性
-    
-    - `key`：与React Element一致。
-    - `type`：元素类型。
-    - `stateNode`：指向真实DOM节点（原生标签）或组件实例（类组件）。
+### Fiber简介
+- Fiber简介  
+    `Fiber`是**React内部用于管理组件树的数据结构，存储在内存中，用于协调更新过程**。
 - Fiber源码位置  
-    定义在`react-reconciler/src/ReactInternalTypes.js`中。
+    *定义*在`packages/react-reconciler/src/ReactInternalTypes.js`中。
+
+### ReactElement到Fiber的转换
     
-- 打印查看Fiber结构  
-    可通过`createRoot().root`获取根Fiber并展开查看其结构，观察其与真实DOM的对应关系。
+- **新的ReactElement用于构建新的Fiber**。
+- **老Fiber与新Fiber进行Diff比较，确定最小更新范围**。
+
+### Fiber关键属性
     
+- `key`：与React Element一致。
+- `type`：元素类型。
+- `stateNode`：指向真实DOM节点（HostElement/原生标签）或组件实例（类组件）。
+
 
 ## 五、总结与常见问题 
 [24:04](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1444)
@@ -96,7 +97,6 @@
     提升页面更新性能，减少不必要的DOM重排重绘，优化用户体验。
     
 - React中虚拟DOM的表现形式
-    
     - JSX：语法扩展。
     - React Element：描述UI的对象。
     - Fiber：协调过程中使用的内存结构。
@@ -105,7 +105,6 @@
     
 - 面试题准备要点  
     需掌握：
-    
     - 虚拟DOM定义与作用。
     - 与真实DOM的差异。
     - 在React中的实现路径（JSX → Element → Fiber）。
