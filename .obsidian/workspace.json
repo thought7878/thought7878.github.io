@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-3 -2 Fiber详解.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7-2 -1 Fiber详解"
+              "title": "7-3 -2 Fiber详解"
             }
           },
           {
@@ -706,16 +706,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-3 -2 Fiber详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 7-2 -1 Fiber详解"
+              "title": "Outgoing links from 7-3 -2 Fiber详解"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -742,8 +742,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "3c65f224858f05f9",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/8aa515916ad14980e881887710ddaf26_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/99b6ca0ca8ba164644893a36864979dc_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/98f37336ccf996f9a73b1f7b8cf1d8e6_MD5.webp",
@@ -755,7 +756,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/5a8a01c71b7744c56a93544123a9e69e_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/9becfab142306de8643d7157715ecd9b_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
@@ -782,7 +782,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-09.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/d51462c28ac251a0f271985b70ebdb9e_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media/6870313bb835dfcb85e5808bf71bd795_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高",
     "DailyNote/Journal/01 Daily/2026/01/media",
