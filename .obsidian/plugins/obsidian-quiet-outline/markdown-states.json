@@ -5616,7 +5616,7 @@
     ]
   },
   "_posts/English/单词/tag.md": {
-    "scroll": 17.138997395833332,
+    "scroll": 10.230697674418604,
     "cursor": {
       "from": {
         "line": 2,
@@ -5628,10 +5628,7 @@
       }
     },
     "expandedKeys": [
-      "item-3-185",
-      "item-3-133",
-      "item-1-52",
-      "item-3-1"
+      "item-3-8"
     ]
   },
   "_posts/English/单词/state.md": {
@@ -6618,18 +6615,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-4 掌握不同类型组件的Fiber：查看并调试.md": {
-    "scroll": 0.6060606060606061,
+    "scroll": 86.06506536941319,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 138
+        "line": 55,
+        "ch": 8
       },
       "to": {
-        "line": 2,
-        "ch": 138
+        "line": 55,
+        "ch": 8
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-8"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md": {
     "scroll": 0,
@@ -6660,6 +6659,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot -1.md": {
+    "scroll": 4.468032331180773,
+    "cursor": {
+      "from": {
+        "line": 113,
+        "ch": 0
+      },
+      "to": {
+        "line": 113,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md": {
     "scroll": 0,
     "cursor": {
       "from": {
