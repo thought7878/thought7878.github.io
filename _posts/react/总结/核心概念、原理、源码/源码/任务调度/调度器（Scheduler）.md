@@ -27,7 +27,8 @@ scheduleCallback（安排、调度一个任务回调函数）
 
 [unstable_scheduleCallback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/scheduler/src/forks/Scheduler.js#L425-L499) 是**主要的调度函数，对外接口函数，任务调度器与外界交互的核心函数**，它**创建一个新任务**并**将其添加到适当的队列中**：
 
-- 创建一个新任务：
+**伪代码：**
+- *创建一个新任务：*
 	- 任务的id：id: taskIdCounter++
 	- 任务的callback：入参参数callback，将任务回调函数封装成任务的callback
 	- 任务的优先级：入参参数priorityLevel
@@ -39,7 +40,7 @@ scheduleCallback（安排、调度一个任务回调函数）
     - 任务的排序索引 sortIndex：
 	    - 如果是延迟任务，newTask.sortIndex = startTime
 	    - 如果是一个立即执行的任务，设置任务的排序索引为过期时间（最小二叉堆排序使用）
-- 将新任务添加到适当的队列中
+- *将新任务添加到适当的队列中*
 	- 如果是延迟任务，放入 timerQueue；
     - 否则，是一个立即执行的任务，
 	    - 放入 taskQueue
@@ -112,7 +113,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 - 获取任务队列（最小二叉堆）中的第一个任务，currentTask = peek(taskQueue);
 - **进入执行任务的循环：**
 	- 条件：还有当前任务、当前任务不为空，且不处于调试暂停状态
-	- 检查是否需要让出主线程的控制权（控制权给浏览器）：
+	- *检查是否需要让出主线程的控制权*（控制权给浏览器）：
 		- 当前任务未过期，且（没有剩余时间或应该让出给主机），跳出循环。
 		- 当前任务已过期，赶紧执行下面的逻辑
 	- 执行任务的回调，或弹出任务：
@@ -120,7 +121,7 @@ function unstable_scheduleCallback(priorityLevel, callback, options) {
 			- 清空任务回调，防止重复执行
 			- 设置当前优先级为任务优先级
 			- *执行任务的回调函数*，参数为任务是否已过期
-				- *如果任务还没完成*（返回了延续回调），将延续回调保存到任务，continuationCallback由scheduler的使用者（外部使用者）控制
+				- *如果任务还没完成*（返回了延续回调），将延续回调保存到任务，continuationCallback由scheduler的*使用者（外部使用者）控制*
 				- *如果任务完成了*（没有延续回调），如果当前任务仍是队列中的第一个（任务队列是动态的，可能不是第一个），*从队列中弹出任务*
 		- 如果任务是无效的（回调函数不存在）
 			- 从任务队列，*弹出任务*，pop(taskQueue);
