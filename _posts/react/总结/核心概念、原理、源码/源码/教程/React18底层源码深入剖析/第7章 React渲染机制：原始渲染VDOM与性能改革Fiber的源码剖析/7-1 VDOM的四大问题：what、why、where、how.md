@@ -8,29 +8,28 @@
 [00:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=23)
 
 - 什么是虚拟DOM  
-    `虚拟DOM（Virtual DOM、vDOM）`是一种编程概念，用于将UI以理想化形式存入内存中，并通过库如React与真实DOM同步。
+    `虚拟DOM（Virtual DOM、vDOM）`是一种编程概念，是**内存中的UI数据**（用于*将UI以理想化形式存入内存中*），并通过库如React与真实DOM同步。
     
 - 虚拟DOM的作用  
-    vDOM是中间过程产物，最终目标是生成真实DOM。页面动态变化时，先更新vDOM，再根据新vDOM更新真实DOM，实现高效更新。
+    vDOM是**中间过程产物，最终目标是生成真实DOM**。**页面动态变化时，先更新vDOM，再根据新vDOM更新真实DOM，实现高效更新**。
     
 - 虚拟DOM的历史  
     最早由React提出，后被其他框架采用，如Vue早期未使用，后来引入。
     
 - 虚拟DOM与Diff算法的关系  
-    Diff算法对比的是新旧vDOM，而非直接对比真实DOM，提高了性能效率。
+    `Diff算法`**对比的是新旧vDOM**，而非直接对比真实DOM，提高了性能效率。
     
 
 ### 二、虚拟DOM的微观实现 
 [03:14](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=194)
 
-- 数据结构  
-    虚拟DOM本质上是一个JavaScript对象（JS对象），用于描述DOM节点及其属性。
+- **数据结构**  
+    `虚拟DOM`***本质上是一个JavaScript对象***，用于***描述DOM的信息（属性）、结构（子节点）***。
     
-- 状态变更处理流程
-    
-    - 状态变化时，先更新vDOM（JS对象）。
-    - 再根据新的JS对象更新真实DOM。
-- 为何不直接Diff真实DOM？  
+- **状态变更处理流程**
+    - *状态变化时，先更新vDOM（JS对象）。*
+    - *再根据新的JS对象更新真实DOM。*
+- **为何不直接Diff真实DOM？**  
     真实DOM节点属性繁多，操作成本高；而vDOM只保留必要属性，简化了Diff过程，提高效率。
     
 
@@ -38,15 +37,13 @@
 [09:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=559)
 
 - JSX语法介绍  
-    JSX是React中用于描述UI的语法扩展，本质是语法糖，背后会转换为`React.createElement`或`jsx()`函数调用。
+    `JSX`是React中用于**描述UI的语法扩展**，本质是语法糖，背后**会转换为`React.createElement()`或`jsx()`函数调用**。
     
-- JSX到React Element的转换
-    
-    - 在React 17之前，JSX通过Babel转译成`createElemen`t。
-    - React 17之后，使用`jsx()`函数替代，无需手动导入React。
+- **JSX到React Element的转换**
+    - 在React 17之前，*JSX通过Babel转译成`createElement()`*。
+    - React 17之后，*使用`jsx()`函数替代，无需手动导入React*。
 - React Element的结构  
     包含以下关键字段：
-    
     - `type`：表示元素类型（字符串表示原生标签，函数表示组件）。
     - `key` 和 `ref`：特殊属性。
     - `props`：传递给组件的属性。
