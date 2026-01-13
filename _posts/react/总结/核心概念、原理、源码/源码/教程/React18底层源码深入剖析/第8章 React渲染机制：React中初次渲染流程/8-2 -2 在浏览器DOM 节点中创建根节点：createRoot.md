@@ -120,26 +120,21 @@ type OpaqueRoot = FiberRoot;
 - 其他字段如 `alternate`, `memoizedState`, `updateQueue` 均初始化为 null。
 - 效果相关字段如 `flags`, `subtreeFlags`, `deletions` 初始为0。
 
-## 循环引用构造 
+## 创建完成后，建立双向引用关系
 [16:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1019)
     
-- 创建完成后建立双向引用关系：
+- **创建完成后，建立双向引用关系：**
 	- `FiberRoot.current = hostFiber`
 	- `hostFiber.stateNode = FiberRoot`
-- 形成循环引用结构，便于后续从任一节点访问全局状态。
+- 形成循环引用结构，**便于后续从任一节点访问全局状态**。
 
-## 调试验证与截图说明 
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/f9fce25d3c388fcc9f665b31cb599259_MD5.webp]]
+
+### 调试验证 
 [17:22](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1042)
     
-    - 可通过在代码中添加 `console.log(FiberRoot)` 验证结构。
-    - 输出显示：
-        - `FiberRoot.current` 指向一个 `Fiber` 实例。
-        - 该 `Fiber` 的 `tag` 值为 33，对应 `HostRoot`。
-        - 其 `stateNode` 指回 `FiberRoot`，确认循环构造完成。
-
-## 课件与源码展示规范 
-[15:48](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=948)
-    
-    - 教学材料中标注源码路径以方便定位。
-    - 删除开发环境（DEV）、Profiler等非核心代码以简化篇幅。
-    - 保留主干逻辑，确保理解完整性。
+- 可通过在代码中添加 `console.log(FiberRoot)` 验证结构。
+- 输出显示：
+	- `FiberRoot.current` 指向一个 `Fiber` 实例。
+	- 该 `Fiber` 的 `tag` 值为 33，对应 `HostRoot`。
+	- 其 `stateNode` 指回 `FiberRoot`，确认循环构造完成。
