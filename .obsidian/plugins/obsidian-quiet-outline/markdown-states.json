@@ -6770,12 +6770,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 54
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 54
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -6824,24 +6824,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述1.md": {
-    "scroll": 0,
+    "scroll": 23.506666666666668,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 12
+        "line": 36,
+        "ch": 16
       },
       "to": {
-        "line": 8,
-        "ch": 12
+        "line": 36,
+        "ch": 16
       }
     },
     "expandedKeys": [
       "item-2-22",
       "item-1-15",
-      "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-15"
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程1.md": {
@@ -6897,15 +6894,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
-    "scroll": 123.8305665824612,
+    "scroll": 323.7835286458333,
     "cursor": {
       "from": {
-        "line": 188,
-        "ch": 0
+        "line": 343,
+        "ch": 33
       },
       "to": {
-        "line": 188,
-        "ch": 0
+        "line": 343,
+        "ch": 33
       }
     },
     "expandedKeys": [
@@ -7100,7 +7097,11 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-22",
+      "item-1-15",
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md": {
     "scroll": 0,
@@ -7114,6 +7115,85 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-22",
+      "item-1-15",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2. 更新调度阶段.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 3
+      },
+      "to": {
+        "line": 7,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-2-37",
+      "item-1-30",
+      "item-1-15",
+      "item-1-0",
+      "item-2-8",
+      "item-2-2"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 32
+      },
+      "to": {
+        "line": 14,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/3. Render阶段（协调、Reconciliation）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 29
+      },
+      "to": {
+        "line": 12,
+        "ch": 29
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/4. 提交阶段（Commit，不可中断）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 21
+      },
+      "to": {
+        "line": 0,
+        "ch": 49
+      }
+    },
+    "expandedKeys": [
+      "item-2-22",
+      "item-1-15",
+      "item-1-0"
+    ]
   }
 }
