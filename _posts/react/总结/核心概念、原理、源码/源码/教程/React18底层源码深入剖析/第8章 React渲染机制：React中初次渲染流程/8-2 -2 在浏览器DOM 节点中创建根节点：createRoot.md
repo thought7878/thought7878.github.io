@@ -4,7 +4,7 @@
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/2aac2c497d3fe6861fbe0240c48562db_MD5.webp]]
 
-## createContainer源码
+## createContainer()
 新旧两个版本：
 `packages/react-reconciler/src/ReactFiberReconciler.new.js`
 `packages/react-reconciler/src/ReactFiberReconciler.old.js`
@@ -52,7 +52,7 @@
 type OpaqueRoot = FiberRoot;
 ```
 
-## createFiberRoot源码
+## createFiberRoot()
 ### 定位与文件路径 
 [06:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=365)
     
@@ -68,14 +68,14 @@ type OpaqueRoot = FiberRoot;
 	- `current`: **指向当前工作/活跃的 fiber树根节点**。
 	- 支持双缓存机制，包含 `finishedWork`, `pendingLanes`等调度相关字段。
 
-### FiberRoot实例化
+### new FiberRootNode()：FiberRoot实例化
 [08:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=489)
     
 - 通过 `new FiberRootNode(containerInfo, tag)` 构造实例。
 - 初始化时对 containerInfo、tag 等关键字段赋值。
 - 其余字段如 pendingLanes, suspendedLanes, eventTimes 等均*初始化为默认值*（多数为 NoLanes 或 null）。
 
-### createHostRootFiber：创建根 fiber 节点
+### createHostRootFiber()：创建根 fiber 节点
 [10:01](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=601)
     
 - 调用 `createHostRootFiber(tag)` **创建与 FiberRoot 关联的根 fiber 节点**。
@@ -87,19 +87,19 @@ type OpaqueRoot = FiberRoot;
 #### tag值转换逻辑 
 [11:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=678)
     
-- `FiberRoot.tag` 使用 `RootTag`（如 `ConcurrentRoot`）。
+- `FiberRoot.tag` 使用 `RootTag`（如 ConcurrentRoot）。
 - `HostRoot Fiber.tag` 使用 `WorkTag`，需进行映射：
-	- 若 `FiberRoot.tag === ConcurrentRoot`，则 `fiber.tag = HostRoot`（值为3）。
-	- 否则根据模式设置对应 `WorkTag`。
+	- 若 FiberRoot.tag === ConcurrentRoot，则 fiber.tag = HostRoot（值为3）。
+	- 否则根据模式设置对应 WorkTag。
 
 #### mode模式确定 
 [11:27](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=687)
     
-- 根据 `RootTag` 确定 `fiber.mode`：
+- 根据 `RootTag` 确定 fiber.mode：
 	- `ConcurrentRoot` → `ConcurrentMode | StrictLegacyMode | StrictEffectsMode`
-	- `LegacyRoot` → `NoMode`
+	- `LegacyRoot` → NoMode
 
-### createFiber函数调用 
+### createFiber()
 [12:37](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=757)
     
 - 实际通过 `createFiber(HostRoot, null, null, mode)` **创建fiber节点**。
@@ -112,21 +112,21 @@ type OpaqueRoot = FiberRoot;
 ### new FiberNode()
 [13:21](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=801)
     
-- `new FiberNode(tag, pendingProps, key, mode)` 完成创建。
-- 所有子指针初始化为 `null`：
-	- `return` = `null`
-	- `child` = `null`
-	- `sibling` = `null`
-- 其他字段如 `alternate`, `memoizedState`, `updateQueue` 均初始化为 `null`。
+- new FiberNode(tag, pendingProps, key, mode) 完成创建。
+- 所有子指针初始化为 null：
+	- `return` = null
+	- `child` = null
+	- `sibling` = null
+- 其他字段如 `alternate`, `memoizedState`, `updateQueue` 均初始化为 null。
 - 效果相关字段如 `flags`, `subtreeFlags`, `deletions` 初始为0。
 
 ## 循环引用构造 
 [16:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1019)
     
-    - 创建完成后建立双向引用关系：
-        - `FiberRoot.current = hostFiber`
-        - `hostFiber.stateNode = FiberRoot`
-    - 形成循环引用结构，便于后续从任一节点访问全局状态。
+- 创建完成后建立双向引用关系：
+	- `FiberRoot.current = hostFiber`
+	- `hostFiber.stateNode = FiberRoot`
+- 形成循环引用结构，便于后续从任一节点访问全局状态。
 
 ## 调试验证与截图说明 
 [17:22](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1042)
