@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
+                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-13"
+              "title": "2026-01-14"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 渲染后处理"
+              "title": "1. 创建根节点与初始化"
             }
           },
           {
@@ -706,12 +706,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 5. 渲染后处理"
+              "title": "Outgoing links from 1. 创建根节点与初始化"
             }
           }
         ],
@@ -745,14 +745,16 @@
   "active": "3c65f224858f05f9",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述1.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/4. 提交阶段（Commit，不可中断）.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/3. Render阶段（协调、Reconciliation）.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2. 更新调度阶段.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-14.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-5 -1 root.render与unmount函数的流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/4. 提交阶段（Commit，不可中断）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-4-4 createRoot：markContainerAsRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-3-3 createRoot：initializeUpdateQueue.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2-2 createRoot：createContainer、createFiberRoot.md",
@@ -772,14 +774,12 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/createRoot的流程.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/1.任务调度/流程图.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-4 掌握不同类型组件的Fiber：查看并调试.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-1 VDOM的四大问题：what、why、where、how.md",
     "DailyNote/Journal/01 Daily/2025_学习、复习记录.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-15 commit阶段.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-14 render阶段-renderRootConcurrent.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/61109a327cdc86c9a1d4ae2273a7d6b4_MD5.webp",

@@ -6751,15 +6751,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md": {
-    "scroll": 22.08634843417452,
+    "scroll": 114.0390625,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 0
+        "line": 120,
+        "ch": 6
       },
       "to": {
-        "line": 28,
-        "ch": 0
+        "line": 120,
+        "ch": 6
       }
     },
     "expandedKeys": [
@@ -6824,21 +6824,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述1.md": {
-    "scroll": 23.506666666666668,
+    "scroll": 0.24242424242424243,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 16
+        "line": 5,
+        "ch": 10
       },
       "to": {
-        "line": 36,
-        "ch": 16
+        "line": 5,
+        "ch": 10
       }
     },
     "expandedKeys": [
-      "item-2-22",
-      "item-1-15",
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程1.md": {
@@ -6894,20 +6893,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
-    "scroll": 323.7835286458333,
+    "scroll": 142.48763020833334,
     "cursor": {
       "from": {
-        "line": 343,
-        "ch": 33
+        "line": 134,
+        "ch": 36
       },
       "to": {
-        "line": 343,
-        "ch": 33
+        "line": 134,
+        "ch": 36
       }
     },
     "expandedKeys": [
-      "item-2-22",
-      "item-1-15",
       "item-1-0",
       "item-2-2",
       "item-2-10"
@@ -7083,7 +7080,12 @@
         "ch": 33
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md": {
     "scroll": 0,
@@ -7098,8 +7100,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-22",
-      "item-1-15",
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
       "item-1-0"
     ]
   },
@@ -7116,8 +7119,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-22",
-      "item-1-15",
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
       "item-1-0"
     ]
   },
@@ -7146,12 +7150,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 32
+        "line": 9,
+        "ch": 16
       },
       "to": {
-        "line": 14,
-        "ch": 32
+        "line": 9,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -7165,12 +7169,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 29
+        "line": 0,
+        "ch": 59
       },
       "to": {
-        "line": 12,
-        "ch": 29
+        "line": 0,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -7194,6 +7198,22 @@
       "item-2-22",
       "item-1-15",
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-14.md": {
+    "scroll": 18.957737914259653,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 4
+      },
+      "to": {
+        "line": 27,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
