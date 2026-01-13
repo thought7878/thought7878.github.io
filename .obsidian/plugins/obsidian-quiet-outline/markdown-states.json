@@ -6661,11 +6661,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 0,
         "ch": 0
       }
     },
@@ -6674,7 +6674,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md": {
-    "scroll": 130.76638456062642,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 124,
@@ -6945,15 +6945,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-4 -4 在浏览器DOM 节点中创建根节点：createRoot.md": {
-    "scroll": 9.264518090605048,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 36
+        "line": 2,
+        "ch": 43
       },
       "to": {
-        "line": 9,
-        "ch": 36
+        "line": 2,
+        "ch": 62
       }
     },
     "expandedKeys": []
@@ -6962,12 +6962,114 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-3"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2-2 在浏览器DOM 节点中创建根节点：createRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 25
+      },
+      "to": {
+        "line": 2,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2-2 createRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 32
+      },
+      "to": {
+        "line": 2,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2-2 createRoot：createContainer.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2-2 createRoot：createContainer、createFiberRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-3-3 createRoot：initializeUpdateQueue.md": {
+    "scroll": 32.49619945272119,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 18
+      },
+      "to": {
+        "line": 41,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-4-4 createRoot：markContainerAsRoot.md": {
+    "scroll": 0.32323232323232326,
+    "cursor": {
+      "from": {
         "line": 1,
-        "ch": 111
+        "ch": 0
       },
       "to": {
         "line": 1,
-        "ch": 111
+        "ch": 0
       }
     },
     "expandedKeys": []
