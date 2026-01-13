@@ -6658,15 +6658,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot -1.md": {
-    "scroll": 86.51505016722408,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 97,
-        "ch": 35
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 97,
-        "ch": 35
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -6674,18 +6674,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md": {
-    "scroll": 0,
+    "scroll": 20.268508863399376,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 21,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 21,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-19"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-3 -3 在浏览器DOM 节点中创建根节点：createRoot.md": {
     "scroll": 0,

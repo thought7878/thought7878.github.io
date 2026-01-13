@@ -70,7 +70,7 @@
     - 包含一个私有属性：
         - `\_internalRoot`: *内部使用的根对象*，开发者不应直接访问。
 
-### 校验 container 参数合法性 
+### 校验 container 参数是否有效
 [07:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=451)
 
 - 类型检查机制 [07:31](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=451)
@@ -87,7 +87,7 @@
     - `DOCUMENT_NODE = 9`（document对象）
     - `DOCUMENT_FRAGMENT_NODE = 11`（DocumentFragment）
 
-### 检验 options 参数
+### 处理 options 参数
 [10:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=605)
 
 - 可选性判断 [10:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=605)
@@ -99,7 +99,7 @@
         - `identifierPrefix`: 设置自动ID前缀。
     - 提取后的值将在后续创建根节点时使用。
 
-## 创建根节点（第三步）
+### 创建FiberRoot（根节点）
 [10:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=652)
 
 - 核心步骤说明 [10:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=652)
