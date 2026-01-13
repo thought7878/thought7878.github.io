@@ -5632,15 +5632,15 @@
     ]
   },
   "_posts/English/单词/state.md": {
-    "scroll": 45.12651162790698,
+    "scroll": 50.071317829457364,
     "cursor": {
       "from": {
         "line": 62,
-        "ch": 9
+        "ch": 15
       },
       "to": {
         "line": 62,
-        "ch": 9
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -6674,22 +6674,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md": {
-    "scroll": 117.71176649437518,
+    "scroll": 110.017578125,
     "cursor": {
       "from": {
-        "line": 135,
-        "ch": 7
+        "line": 129,
+        "ch": 0
       },
       "to": {
-        "line": 135,
-        "ch": 7
+        "line": 129,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-20",
-      "item-2-0",
-      "item-2-6",
-      "item-3-10",
       "item-2-15"
     ]
   },
@@ -6769,16 +6765,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 47
+        "line": 2,
+        "ch": 54
       },
       "to": {
-        "line": 1,
-        "ch": 47
+        "line": 2,
+        "ch": 54
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-22",
+      "item-1-15",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React初次渲染流程概述.md": {
@@ -6794,10 +6792,132 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
+      "item-4-4",
       "item-3-3",
-      "item-3-6",
-      "item-2-11"
+      "item-4-9",
+      "item-4-13",
+      "item-3-16",
+      "item-3-20",
+      "item-2-0"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React 18初次渲染流程2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-7",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 22
+      },
+      "to": {
+        "line": 1,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-2-15"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-7",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 33
+      },
+      "to": {
+        "line": 1,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-6"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述2.md": {
+    "scroll": 0.3181818181818182,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 47
+      },
+      "to": {
+        "line": 1,
+        "ch": 47
+      }
+    },
+    "expandedKeys": [
+      "item-2-22",
+      "item-1-15",
+      "item-1-0",
+      "item-2-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 21
+      },
+      "to": {
+        "line": 12,
+        "ch": 21
+      }
+    },
+    "expandedKeys": [
+      "item-2-22",
+      "item-1-15",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

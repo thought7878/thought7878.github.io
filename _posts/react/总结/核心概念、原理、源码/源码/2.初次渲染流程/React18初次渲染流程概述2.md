@@ -6,8 +6,8 @@ React的初次渲染流程是一个复杂但有序的过程，涉及多个组件
 ### 1. 初始化阶段
 当调用[createRoot(container).render(element)](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-dom/src/client/ReactDOM.js#L149-L162)或旧版的`ReactDOM.render(element, container)`时，渲染流程开始：
 
-- 创建一个Fiber Root ([FiberRoot](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactInternalTypes.js#L233-L242))，它代表整个React应用的根节点
-- 创建Host Root Fiber，作为Fiber树的根节点
+- 创建一个Fiber Root ([FiberRoot](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactInternalTypes.js#L233-L242))，**它代表整个React应用的根节点**
+- 创建Host Root Fiber，**作为Fiber树的根节点**
 - 初始化更新队列
 - 将Fiber Root与DOM容器关联
 
