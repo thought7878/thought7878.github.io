@@ -4,13 +4,19 @@
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/2aac2c497d3fe6861fbe0240c48562db_MD5.webp]]
 
-## 核心功能概述 
+## createContainer源码
+新旧两个版本：
+`packages/react-reconciler/src/ReactFiberReconciler.new.js`
+`packages/react-reconciler/src/ReactFiberReconciler.old.js`
+
+### 核心功能概述 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=0)
     
 - `createContainer` 函数用于创建 `fiber root`，是*React渲染流程的起点之一*。
 - *该函数主要作为入口，实际逻辑委托给其他函数处理*。
 
-## 参数解析：container与命名不一致问题 
+
+### 入参containerInfo与命名不一致问题 
 [00:17](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=17)
     
 - 参数 container 指代DOM容器节点，在示例中为ID为root的`<div>`元素。
@@ -22,64 +28,68 @@
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/53b711d4eaad9b61cac59f61b6b5d2c6_MD5.webp]]
 
-## tag参数与模式设置 
+### tag入参与模式设置 
 [03:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=206)
     
-- `tag` 参数默认使用 `ConcurrentRoot`，表示当前为并发模式。
-- 此值来自调用方传入，决定后续创建的 `fiber root` 和 `fiber` 的行为模式。
+- `tag` 参数默认使用 `ConcurrentRoot`，表示当前为*并发模式*。
+- 此值来自调用方传入，*决定后续创建的 `fiber root` 和 `fiber` 的行为模式*。
 
-## 函数结构与历史代码组织方式 
+### 函数结构与历史代码组织方式 
 [04:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=242)
     
-    - `create container` 函数本身不做实质操作，仅封装并调用 `createFiberRoot`。
-    - React源码中常见此类多层函数嵌套结构，源于长期演进形成的历史包袱。
-    - 虽有利于复用，但增加了阅读难度。
+- `createContainer` 函数本身不做实质操作，仅封装并*调用 `createFiberRoot`*。
+- React源码中*常见此类多层函数嵌套结构*，源于**长期演进形成的历史包袱**。
+- **虽有利于复用，但增加了阅读难度**。
 
-## 返回值命名差异：fiberRoot vs. apRoot 
+### 返回值命名差异：FiberRoot vs. OpaqueRoot 
 [04:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=292)
     
-    - 函数最终返回一个 `fiberRoot` 对象，但在局部变量中被命名为 `apRoot`。
-    - 实际两者指向同一对象，命名差异仅为局部变量命名习惯所致。
-    - 已有PR提议统一为 `fiberRoot`，尚未合并。
+- 函数最终返回一个 `FiberRoot` 对象，但在局部变量中被命名为 `OpaqueRoot`。
+- 实际两者指向同一对象，*命名差异仅为局部变量命名习惯所致*。
+- 已有PR提议统一为 `FiberRoot`，尚未合并。
 
-## createFiberRoot函数定位与文件路径 
+```ts
+type OpaqueRoot = FiberRoot;
+```
+
+## createFiberRoot源码
+### 定位与文件路径 
 [06:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=365)
     
-    - 真正创建逻辑位于 `createFiberRoot` 函数，定义于独立文件 `ReactFiberRoot.new.js` 中。
-    - 区别于 `createContainer` 所在文件，体现模块分离。
+- *真正创建逻辑*位于 `createFiberRoot` 函数，定义于独立文件 `packages/react-reconciler/src/ReactFiberRoot.new.js` 中。
 
-## fiberRoot类型结构 
+### FiberRoot类型
 [06:46](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=406)
     
-    - `fiberRoot` 是一个特殊对象，非普通 `fiber` 节点，代表整个应用的根管理器。
-    - 其基础属性包括：
-        - `tag`: 根类型，取值为 `LegacyRoot`或 `ConcurrentRoot`。
-        - `containerInfo`: 指向宿主容器（即DOM节点）。
-        - `current`: 指向当前工作的 `fiber`树根节点。
-        - 支持双缓存机制，包含 `finishedWork`, `pendingLanes`等调度相关字段。
+- `FiberRoot` 是**一个特殊对象，非普通 fiber 节点，代表整个应用的根管理器**。
+- 其基础属性包括：
+	- `tag`: RootTag，根类型，取值为 LegacyRoot或 ConcurrentRoot。
+	- `containerInfo`: 指向宿主容器（即DOM节点）。
+	- `current`: 指向当前工作的 fiber树根节点。
+	- 支持双缓存机制，包含 `finishedWork`, `pendingLanes`等调度相关字段。
 
-## fiberRoot实例化过程 
+## FiberRoot实例化过程 
 [08:09](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=489)
     
-    - 通过 `new FiberRootNode(containerInfo, tag)` 构造实例。
-    - 初始化时对 `containerInfo`、`tag` 等关键字段赋值。
-    - 其余字段如 `pendingLanes`, `suspendedLanes`, `eventTimes` 等均初始化为默认值（多数为 `NoLanes` 或 `null`）。
+- 通过 `new FiberRootNode(containerInfo, tag)` 构造实例。
+- 初始化时对 `containerInfo`、`tag` 等关键字段赋值。
+- 其余字段如 `pendingLanes`, `suspendedLanes`, `eventTimes` 等均初始化为默认值（多数为 `NoLanes` 或 `null`）。
 
 ## 创建Host Root Fiber 
 [10:01](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=601)
     
-    - 调用 `createHostRootFiber(tag)` 创建与 `fiberRoot` 关联的根 `fiber` 节点。
+    - 调用 `createHostRootFiber(tag)` 创建与 `FiberRoot` 关联的根 `fiber` 节点。
     - 此 `fiber` 类型为 `HostRoot`，属于原生宿主环境下的根fiber。
     - 注意区分：
-        - `fiberRoot`: 管理对象，非fiber树一部分。
+        - `FiberRoot`: 管理对象，非fiber树一部分。
         - `HostRoot Fiber`: fiber树的真正根节点，类型为 `Fiber`。
 
 ## tag值转换逻辑 
 [11:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=678)
     
-    - `fiberRoot.tag` 使用 `RootTag`（如 `ConcurrentRoot`）。
+    - `FiberRoot.tag` 使用 `RootTag`（如 `ConcurrentRoot`）。
     - `HostRoot Fiber.tag` 使用 `WorkTag`，需进行映射：
-        - 若 `fiberRoot.tag === ConcurrentRoot`，则 `fiber.tag = HostRoot`（值为3）。
+        - 若 `FiberRoot.tag === ConcurrentRoot`，则 `fiber.tag = HostRoot`（值为3）。
         - 否则根据模式设置对应 `WorkTag`。
 
 ## mode模式确定 
@@ -114,18 +124,18 @@
 [16:59](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1019)
     
     - 创建完成后建立双向引用关系：
-        - `fiberRoot.current = hostFiber`
-        - `hostFiber.stateNode = fiberRoot`
+        - `FiberRoot.current = hostFiber`
+        - `hostFiber.stateNode = FiberRoot`
     - 形成循环引用结构，便于后续从任一节点访问全局状态。
 
 ## 调试验证与截图说明 
 [17:22](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1042)
     
-    - 可通过在代码中添加 `console.log(fiberRoot)` 验证结构。
+    - 可通过在代码中添加 `console.log(FiberRoot)` 验证结构。
     - 输出显示：
-        - `fiberRoot.current` 指向一个 `Fiber` 实例。
+        - `FiberRoot.current` 指向一个 `Fiber` 实例。
         - 该 `Fiber` 的 `tag` 值为 33，对应 `HostRoot`。
-        - 其 `stateNode` 指回 `fiberRoot`，确认循环构造完成。
+        - 其 `stateNode` 指回 `FiberRoot`，确认循环构造完成。
 
 ## 课件与源码展示规范 
 [15:48](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=948)
