@@ -44,12 +44,13 @@
     - `props`存储当前生效的属性值。
     - `pendingProps`存储待更新的新属性值。
     - `memoizedProps`缓存上一次已完成更新的`props`，用于比较变化。
-- update queue更新队列机制 [05:49](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=349)
+
+- `updateQueue`更新队列机制 [05:49](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=349)
     
-    - 更新操作（如`setState`、`render`）不会立即执行，而是加入`update queue`批量处理。
+    - *更新操作（如setState、render）不会立即执行，而是保存在updateQueue*，然后批量处理。
     - 批量更新提升性能，避免频繁渲染。
     - 类比钓鱼：钓到鱼后不立刻售卖，而是积累一定数量再统一出售，节省往返成本。
-    - `update queue`专门存储待处理的更新对象，包含回调函数和更新数据。
+    - updateQueue专门存储待处理的更新对象，包含回调函数和更新数据。
 - memoizedState状态存储 [07:25](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=445)
     
     - 不同组件类型下`memoizedState`存储内容不同：
