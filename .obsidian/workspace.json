@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/学习、复习记录.md",
+                "file": "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "学习、复习记录"
+              "title": "2026_学习、复习记录"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
+                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-12"
+              "title": "2026-01-13"
             }
           },
           {
@@ -742,13 +742,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c65f224858f05f9",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-4 掌握不同类型组件的Fiber：查看并调试.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot -1.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-1 VDOM的四大问题：what、why、where、how.md",
+    "DailyNote/Journal/01 Daily/2025_学习、复习记录.md",
+    "_posts/English/每日记录（复习）.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-15 commit阶段.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-14 render阶段-renderRootConcurrent.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-13 render阶段-beginWork.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-12 render阶段.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-11 -3 scheduleUpdateOnFiber调度更新.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-10 -2 scheduleUpdateOnFiber调度更新.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-9 -1 scheduleUpdateOnFiber调度更新.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8 -2update的数据结构与算法.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-5 -1 root.render与unmount函数的流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-4 -4 在浏览器DOM 节点中创建根节点：createRoot.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-3 -3 在浏览器DOM 节点中创建根节点：createRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/08ef969c372f7283880da6fae26e5958_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot -1.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-4 掌握不同类型组件的Fiber：查看并调试.md",
     "_posts/English/单词/tag.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-3 -2 Fiber详解.md",
@@ -759,31 +778,12 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/8aa515916ad14980e881887710ddaf26_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/99b6ca0ca8ba164644893a36864979dc_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/98f37336ccf996f9a73b1f7b8cf1d8e6_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-1 VDOM的四大问题：what、why、where、how.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/4111290932139c8da8108fa89100844e_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/452a2291b10b3533522703540110323d_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/5a8a01c71b7744c56a93544123a9e69e_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media/9becfab142306de8643d7157715ecd9b_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/media",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器（Scheduler）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析",
-    "_posts/读书笔记/健康/老爹/病/冠心病.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md",
-    "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-11.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-10.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-6 如何实现时间切片.md",
-    "_posts/读书笔记/世界趋势/美国.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/5-5 任务调度器scheduler.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/05.编程语言、ES 标准、JS 引擎和运行时.md",
-    "_posts/base/知识目录、路线图/现代前端开发必知/02.上期回顾 & 章节概览.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/MessageChannel 在事件循环中的精准卡位.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/MessageChannel.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/6-2 剖析React任务调度源码.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/调度器的执行流程.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/任务调度/每一行代码的注释.md",
     "_posts/react/总结/核心概念、原理、源码/源码/任务调度",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第6章 React18全新底层核心运行机制：任务调度机制源码阅读，思维拔高",

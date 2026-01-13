@@ -6554,15 +6554,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-12.md": {
-    "scroll": 136.00618489583334,
+    "scroll": 13.41304347826087,
     "cursor": {
       "from": {
-        "line": 142,
-        "ch": 6
+        "line": 26,
+        "ch": 0
       },
       "to": {
-        "line": 142,
-        "ch": 6
+        "line": 26,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -6585,7 +6585,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-1 VDOM的四大问题：what、why、where、how.md": {
-    "scroll": 72.40299479166667,
+    "scroll": 38.518861829025845,
     "cursor": {
       "from": {
         "line": 103,
@@ -6597,7 +6597,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-9"
+      "item-2-9",
+      "item-2-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-3 -2 Fiber详解.md": {
@@ -6615,20 +6616,18 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-4 掌握不同类型组件的Fiber：查看并调试.md": {
-    "scroll": 86.06506536941319,
+    "scroll": 75.04783841247342,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 8
+        "line": 100,
+        "ch": 0
       },
       "to": {
-        "line": 55,
-        "ch": 8
+        "line": 100,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-8"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第7章 React渲染机制：原始渲染VDOM与性能改革Fiber的源码剖析/7-2 -1 Fiber详解.md": {
     "scroll": 0,
@@ -6659,18 +6658,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-1 在浏览器DOM 节点中创建根节点：createRoot -1.md": {
-    "scroll": 4.468032331180773,
+    "scroll": 86.51505016722408,
     "cursor": {
       "from": {
-        "line": 113,
-        "ch": 0
+        "line": 97,
+        "ch": 35
       },
       "to": {
-        "line": 113,
-        "ch": 0
+        "line": 97,
+        "ch": 35
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-2 -2 在浏览器DOM 节点中创建根节点：createRoot.md": {
     "scroll": 0,
@@ -6685,5 +6686,77 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-3 -3 在浏览器DOM 节点中创建根节点：createRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 87
+      },
+      "to": {
+        "line": 5,
+        "ch": 87
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2025_学习、复习记录.md": {
+    "scroll": 8.625,
+    "cursor": {
+      "from": {
+        "line": 117,
+        "ch": 0
+      },
+      "to": {
+        "line": 104,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md": {
+    "scroll": 22.08634843417452,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
