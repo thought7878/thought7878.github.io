@@ -2,7 +2,7 @@
 
 参考：[[createUpdate()]]
 
-### 课程前提与范围说明 
+## 课程前提与范围说明 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=0)
 
 - 讲解范围限定  
@@ -10,7 +10,7 @@
 - *函数组件的排除*  
     函数组件通过 Hooks 产生的 update 将在其他章节单独讲解，不包含在本次内容中。
 
-### Update 的类型定义 
+## Update 的类型定义 
 [00:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=40)
 
 - Update 对象结构  
@@ -54,8 +54,46 @@ export type Update<State> = {|
 ```
 
 
-### UpdateQueue 的数据结构 
+## UpdateQueue 
+### 数据结构 
 [02:30](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=150)
+
+`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
+
+这段代码定义了 *React 更新队列系统中的两种关键数据结构*：[SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 和 [UpdateQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L142-L148)。让我详细解释：
+
+```javascript
+// 共享队列类型定义，用于跟踪等待中的更新
+export type SharedQueue<State> = {|
+  pending: Update<State> | null,  // 指向等待处理的最新更新，形成一个循环链表
+  lanes: Lanes,                   // 表示当前等待的更新所处的优先级车道
+|};
+
+// 更新队列类型定义，完整描述了一个组件的更新状态
+export type UpdateQueue<State> = {|
+  baseState: State,                                    // 计算更新时的基准状态
+  firstBaseUpdate: Update<State> | null,               // 第一个待处理的基准更新
+  lastBaseUpdate: Update<State> | null,                // 最后一个待处理的基准更新
+  shared: SharedQueue<State>,                          // 共享队列，包含待处理的更新
+  effects: Array<Update<State>> | null,                // 存储产生副作用的更新数组，主要用于DevTools调试
+|};
+```
+
+这两个类型是 React 状态更新机制的核心组成部分：
+
+1. **[SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140)** 是一个简化的队列，包含：
+   - `pending`：指向*最新的待处理更新，所有更新构成一个循环链表*
+   - [lanes](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L151-L151)：表示*更新的优先级车道，用于并发处理和优先级调度*
+
+2. **[UpdateQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L142-L148)** 是完整的队列结构，包含：
+   - `baseState`：计算新状态的基准状态
+   - `firstBaseUpdate` 和 `lastBaseUpdate`：定义了当前处理批次的起始和结束更新
+   - `shared`：指向共享队列
+   - [effects](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/fixtures/fiber-debugger/src/describeFibers.js#L40-L49)：用于调试的副作用数组
+
+这种设计*允许 React 在渲染过程中处理新的状态更新，同时保持状态的一致性*。**当有新更新到达时，它们会被添加到 [SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 中，然后在适当的时候与基准状态合并，形成最终的新状态**。
+
+---
 
 - **为何需要 UpdateQueue？**
     *避免每个 update 单独提交带来的高开销，采用合并提交策略*。
@@ -67,25 +105,16 @@ export type Update<State> = {|
     - lastBaseUpdate：指向最后一个待处理的 update。
     - shared.pending：当前正在收集的 update 链表头。
         - shared.pending 构成单向循环链表：尾节点的 `next` 指向头节点。
-- basicState 与 shared 状态 [05:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=323)
-    - `basicState`：基础状态（如初始 state 或 element）。
-    - `shared`：新进入的 update 先暂存于此，后续合并至主队列。
+- baseState 与 shared 状态 [05:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=323)
+    - `baseState`：基础状态（如初始 state 或 element）。
+    - `shared`：*新进入的 update 先暂存于此，后续合并至主队列*。
 
-`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
-```ts
 
-export type UpdateQueue<State> = {|
-  baseState: State,
-  firstBaseUpdate: Update<State> | null,
-  lastBaseUpdate: Update<State> | null,
-  shared: SharedQueue<State>,
-  effects: Array<Update<State>> | null,
-|};
 
-```
-
-### UpdateQueue 初始化 
+### 初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
+
+**初次渲染页面**和**类组件初次挂载**的时候，**调用函数initializeUpdateQueue来初始化 fiber.updateQueue**。
 
 - 初始化时机 [08:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=498)  
     在 `createRoot` 执行或类组件初次挂载时进行。
@@ -98,7 +127,13 @@ export type UpdateQueue<State> = {|
     - `shared.pending`、`firstBaseUpdate`、`lastBaseUpdate`等均为 `null`。
     - `callbacks` 为空数组。
 
-### Update 的创建过程 
+初次渲染页面（createRoot流程）：
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/127e2140bbc13f91dc014e8aa2b4e4a7_MD5.webp]]
+
+类组件初次挂载：
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp]]
+
+## Update 的创建过程 
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
 - 触发创建的场景
@@ -122,7 +157,7 @@ export type UpdateQueue<State> = {|
     - `setState` 的参数赋给 `payload`。
     - 回调函数赋给 `callback`。
 
-### Update 入队机制 
+## Update 入队机制 
 [12:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=746)
 
 - 入队函数调用链
@@ -139,7 +174,7 @@ export type UpdateQueue<State> = {|
 - 位运算合并优先级 [17:10](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1030)  
     使用按位或 (`|`) 运算合并所有 update 的 `lane`，得出整体优先级。
 
-### 更新队列的管理与消费 
+## 更新队列的管理与消费 
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
 
 - 消费时机  
@@ -152,7 +187,7 @@ export type UpdateQueue<State> = {|
     - 将暂存的 update 从 `shared.pending`移至 `updateQueue` 的 `baseUpdate` 队列。
     - 建立 `firstBaseUpdate` 和 `lastBaseUpdate` 链表结构，供 `reconcile` 阶段使用。
 
-### 补充说明与跳过内容 
+## 补充说明与跳过内容 
 [07:07](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=427)
 
 - hiddenCallbacks 与 Activity [07:07](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=427)
