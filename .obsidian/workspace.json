@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/requestUpdateLane().md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "requestUpdateLane()"
+              "title": "8-7 -1 update的数据结构与算法"
             }
           },
           {
@@ -706,16 +706,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/requestUpdateLane().md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from requestUpdateLane()"
+              "title": "Outgoing links from 8-7 -1 update的数据结构与算法"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -744,9 +744,11 @@
   },
   "active": "3c65f224858f05f9",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/getCurrentEventPriority().md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/requestUpdateLane().md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/requestUpdateLane().md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/getCurrentUpdatePriority().md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/Lane：更新优先级.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性2.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
@@ -757,8 +759,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2. 更新调度阶段.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-14.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-13.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-6 -1 root.render与unmount函数的流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-5 -1 root.render与unmount函数的流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/5. 渲染后处理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/4. 提交阶段（Commit，不可中断）.md",
