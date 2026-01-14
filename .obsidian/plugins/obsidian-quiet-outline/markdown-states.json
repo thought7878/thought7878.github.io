@@ -6775,20 +6775,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/Untitled.md": {
-    "scroll": 0,
+    "scroll": 363.70234113712377,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 368,
+        "ch": 15
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 368,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-2-22",
-      "item-1-15",
+      "item-2-54",
+      "item-1-47",
+      "item-1-32",
       "item-1-0"
     ]
   },
@@ -6901,21 +6902,23 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
-    "scroll": 258.95561169252977,
+    "scroll": 256.8186046511628,
     "cursor": {
       "from": {
-        "line": 277,
-        "ch": 31
+        "line": 274,
+        "ch": 2
       },
       "to": {
-        "line": 277,
-        "ch": 31
+        "line": 274,
+        "ch": 2
       }
     },
     "expandedKeys": [
-      "item-3-10",
-      "item-2-2",
+      "item-2-54",
+      "item-1-47",
+      "item-1-32",
       "item-1-0",
+      "item-2-1",
       "item-2-10"
     ]
   },
@@ -7271,6 +7274,66 @@
     },
     "expandedKeys": [
       "item-3-10"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/Lane.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 102
+      },
+      "to": {
+        "line": 2,
+        "ch": 107
+      }
+    },
+    "expandedKeys": [
+      "item-2-54",
+      "item-1-47",
+      "item-1-32",
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/Lane-更新优先级.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 124
+      },
+      "to": {
+        "line": 2,
+        "ch": 124
+      }
+    },
+    "expandedKeys": [
+      "item-2-54",
+      "item-1-47",
+      "item-1-32",
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/Lane：更新优先级.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 124
+      },
+      "to": {
+        "line": 2,
+        "ch": 124
+      }
+    },
+    "expandedKeys": [
+      "item-2-54",
+      "item-1-47",
+      "item-1-32",
+      "item-1-0",
+      "item-2-1"
     ]
   }
 }
