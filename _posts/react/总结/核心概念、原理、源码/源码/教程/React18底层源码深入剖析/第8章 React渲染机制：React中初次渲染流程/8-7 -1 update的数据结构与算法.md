@@ -1,5 +1,6 @@
 本视频讲述了React中**类组件和createRoot(rootDOM).render()渲染产生的update的数据结构与算法**，详细解析了*update的类型定义、创建过程、入队机制及更新队列的管理流程*，并介绍了*其在Fiber架构下的链表存储与调度机制*。
 
+参考：[[createUpdate()]]
 
 ### 课程前提与范围说明 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=0)
@@ -32,26 +33,58 @@
     - 旧版 render 支持 callback，但在 React 18 中已不再支持。
     - setState 等方法仍可携带 callback。
 - next 属性 [02:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=136)  
-    指向下一个 update，构成单链表结构，用于形成 update 队列。
+    **指向下一个 update**，构成单链表结构，用于形成 update 队列。
 
-### Update Queue 的设计与数据结构 
+`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
+
+```ts
+export type Update<State> = {|
+  // TODO: Temporary field. Will remove this by storing a map of
+  // transition -> event time on the root.
+  eventTime: number,
+  lane: Lane,
+
+  tag: 0 | 1 | 2 | 3,
+  payload: any,
+  callback: (() => mixed) | null,
+
+  next: Update<State> | null,
+|};
+
+```
+
+
+### UpdateQueue 的数据结构 
 [02:30](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=150)
 
-- 为何需要 Update Queue  
-    避免每个 update 单独提交带来的高开销，采用合并提交策略。
+- **为何需要 UpdateQueue？**
+    *避免每个 update 单独提交带来的高开销，采用合并提交策略*。
 - 类比：打鱼与集市  
-    多个 update 如同捕获的鱼，需暂存“池塘”（即 `update queue`），积累后统一处理。
-- UpdateQueue 结构 [05:03](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=303)  
+    多个 update 如同捕获的鱼，需暂存“池塘”（即 `UpdateQueue`），积累后统一处理。
+- *UpdateQueue 结构* [05:03](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=303)  
     使用单向循环链表存储 update，关键字段包括：
-    - `firstBaseUpdate`：指向第一个待处理的 update。
-    - `lastBaseUpdate`：指向最后一个待处理的 update。
-    - `shared.pending`：当前正在收集的 update 链表头。
-        - `shared.pending` 构成单向循环链表：尾节点的 `next` 指向头节点。
+    - firstBaseUpdate：指向第一个待处理的 update。
+    - lastBaseUpdate：指向最后一个待处理的 update。
+    - shared.pending：当前正在收集的 update 链表头。
+        - shared.pending 构成单向循环链表：尾节点的 `next` 指向头节点。
 - basicState 与 shared 状态 [05:23](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=323)
     - `basicState`：基础状态（如初始 state 或 element）。
     - `shared`：新进入的 update 先暂存于此，后续合并至主队列。
 
-### Update Queue 初始化 
+`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
+```ts
+
+export type UpdateQueue<State> = {|
+  baseState: State,
+  firstBaseUpdate: Update<State> | null,
+  lastBaseUpdate: Update<State> | null,
+  shared: SharedQueue<State>,
+  effects: Array<Update<State>> | null,
+|};
+
+```
+
+### UpdateQueue 初始化 
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
 - 初始化时机 [08:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=498)  
