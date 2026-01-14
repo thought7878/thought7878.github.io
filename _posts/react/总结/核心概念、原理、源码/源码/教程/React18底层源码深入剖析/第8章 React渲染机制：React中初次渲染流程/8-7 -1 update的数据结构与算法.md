@@ -134,7 +134,7 @@ export type UpdateQueue<State> = {|
 
 
 
-## initializeUpdateQueue()：初始化 fiber.updateQueue  
+## initializeUpdateQueue：初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
 这段代码定义了 `initializeUpdateQueue` 函数，用于**初始化 Fiber 节点的更新队列updateQueue**。详细解释：
@@ -202,8 +202,10 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 类组件初次挂载：
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp]]
 
-## createUpdate()：创建Update
+## createUpdate：创建Update
 [09:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
+调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`
+实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
 ### 触发创建的场景
 - `root.render()-->updateContainer()`：创建初次渲染的 update。
@@ -263,8 +265,10 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 - `setState` 的参数赋给 `payload`。
     - 回调函数赋给 `callback`。
 
-## enqueueUpdate()：Update 入队
+## enqueueUpdate：Update 入队
 [12:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=746)
+调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`的updateContainer()
+实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
 ### 调用的场景
 - `root.render()-->updateContainer()`：初次渲染，调用enqueueUpdate。
@@ -275,19 +279,19 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 
 ---
 
-- 入队函数调用链
-    - 外层调用 `enqueueUpdate(fiber, update)`。
-    - 最终执行 `enqueueConcurrentClassUpdate(fiber, update, lane)`。
-- 全局缓存结构 ConcurrentQueues [15:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=940)  
-    使用全局数组 `concurrentQueues` 暂存 update，避免过早操作 Fiber 树。
-    - 结构为 `[fiber, queue, update, ...]`。
+- **入队函数调用链**
+    - 外层调用 enqueueUpdate(fiber, update)。
+    - 最终执行 enqueueConcurrentClassUpdate(fiber, update, lane)。
+- **全局缓存结构 ConcurrentQueues** [15:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=940)  
+    *使用全局数组 concurrentQueues 暂存 update，避免过早操作 Fiber 树*。
+    - 结构为 \[fiber, queue, update, ...\]。
     - 记录当前下标，便于批量处理。
-- 入队核心逻辑 [16:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1010)
-    - 将 update 添加到 `shared.pending` 循环链表中。
-    - 若 `shared.pending` 为空，`update.next = update` 自循环。
+- **入队核心逻辑** [16:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1010)
+    - 将 update 添加到 shared.pending 循环链表中。
+    - 若 shared.pending 为空，update.next = update 自循环。
     - 否则插入链表末尾，保持循环结构。
 - 位运算合并优先级 [17:10](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1030)  
-    使用按位或 (`|`) 运算合并所有 update 的 `lane`，得出整体优先级。
+    使用按位或 (`|`) 运算合并所有 update 的 lane，得出整体优先级。
 
 ---
 
@@ -371,6 +375,8 @@ export function enqueueUpdate<State>(
 - 返回根节点以进行进一步的调度处理
 
 ### enqueueConcurrentClassUpdate
+调用：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`的enqueueUpdate()
+实现：`packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js`
 
 这段代码定义了 `enqueueConcurrentClassUpdate` 函数，用于**在类组件中将更新添加到并发更新队列**。让我详细解释：
 
@@ -406,7 +412,7 @@ export function enqueueConcurrentClassUpdate<State>(
 
 这个函数是一个包装器，将类组件的更新转换为并发更新格式，并将其传递给底层的 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数进行处理。这样可以确保类组件的更新遵循并发更新的规则和优先级系统。
 
-## 更新队列的管理与消费 
+## 管理、消费更新队列
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
 
 - 消费时机  

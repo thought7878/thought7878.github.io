@@ -6845,8 +6845,15 @@
       }
     },
     "expandedKeys": [
+      "item-2-55",
+      "item-1-48",
+      "item-1-33",
       "item-1-0",
-      "item-2-2"
+      "item-2-2",
+      "item-2-5",
+      "item-2-1",
+      "item-2-8",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程1.md": {
@@ -6902,24 +6909,27 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
-    "scroll": 252.23111979166666,
+    "scroll": 266.2184244791667,
     "cursor": {
       "from": {
-        "line": 234,
-        "ch": 6
+        "line": 259,
+        "ch": 96
       },
       "to": {
-        "line": 234,
-        "ch": 19
+        "line": 259,
+        "ch": 123
       }
     },
     "expandedKeys": [
-      "item-2-54",
-      "item-1-47",
-      "item-1-32",
+      "item-2-55",
+      "item-1-48",
+      "item-1-33",
       "item-1-0",
-      "item-2-10",
-      "item-2-2"
+      "item-2-2",
+      "item-2-5",
+      "item-2-1",
+      "item-2-8",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述21.md": {
@@ -7119,15 +7129,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md": {
-    "scroll": 404.46050347222223,
+    "scroll": 275.6311848958333,
     "cursor": {
       "from": {
-        "line": 417,
-        "ch": 33
+        "line": 291,
+        "ch": 17
       },
       "to": {
-        "line": 417,
-        "ch": 33
+        "line": 291,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -7138,7 +7148,8 @@
       "item-2-2",
       "item-2-5",
       "item-2-1",
-      "item-2-8"
+      "item-2-8",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2. 更新调度阶段.md": {
@@ -7217,15 +7228,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-14.md": {
-    "scroll": 18.957737914259653,
+    "scroll": 19.6630859375,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -7405,6 +7416,22 @@
       "item-2-10",
       "item-2-14",
       "item-2-17"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md": {
+    "scroll": 27.431046195652176,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
