@@ -10,7 +10,8 @@
 - *函数组件的排除*  
     函数组件通过 Hooks 产生的 update 将在其他章节单独讲解，不包含在本次内容中。
 
-## Update 的数据结构（类型定义 ）
+## Update、SharedQueue、Update Queue类型定义
+### Update 类型定义 
 [00:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=40)
 
 `packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
@@ -77,8 +78,7 @@ export type Update<State> = {|
     **指向下一个 update**，构成单链表结构，用于形成 update 队列。
 
 
-## UpdateQueue 
-### 数据结构 
+### SharedQueue、UpdateQueue 类型定义
 [02:30](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=150)
 
 `packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
@@ -134,10 +134,10 @@ export type UpdateQueue<State> = {|
 
 
 
-### initializeUpdateQueue：初始化 fiber.updateQueue  
+## initializeUpdateQueue()：初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
-这段代码定义了 `initializeUpdateQueue` 函数，用于*初始化 Fiber 节点的更新队列*。让我详细解释：
+这段代码定义了 `initializeUpdateQueue` 函数，用于**初始化 Fiber 节点的更新队列updateQueue**。详细解释：
 
 ```javascript
 // 这里初始化fiber.updateQueue。在beginWork阶段，updateHostRoot中使用processUpdateQueue函数来再具体赋值
@@ -202,15 +202,24 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 类组件初次挂载：
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp]]
 
-## createUpdate(lane)：创建Update
-[07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
+## createUpdate()：创建Update
+[09:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
-- 触发创建的场景
-    - `createRoot(rootNode).render(element)`：产生初次渲染的 update。
-    - 类组件调用 `this.setState()`：产生状态更新的 update。
-- 创建函数  
-    `createUpdate(lane)`，返回一个 update 对象。
-- Update 创建逻辑 [10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
+### 触发创建的场景
+- `root.render()-->updateContainer()`：创建初次渲染的 update。
+- 类组件调用 `this.setState()`、`forceUpdate()`：创建状态更新的 update。
+
+初次渲染（root.render()-->updateContainer()）：
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/be6fb979131861b44c2c6667b0db3b1b_MD5.webp]]
+
+类组件调用 `this.setState()`、`forceUpdate()`：
+![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/dcd4a1107cddc35d4dc471b1b1c87a97_MD5.webp]]
+
+### 创建函数  
+`createUpdate(lane)`，返回一个 update 对象。
+
+### Update 创建逻辑 [10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
+
     
     ```js
     const update = {
