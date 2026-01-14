@@ -216,27 +216,64 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/dcd4a1107cddc35d4dc471b1b1c87a97_MD5.webp]]
 
 ### 创建函数  
-`createUpdate(lane)`，返回一个 update 对象。
+[10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
 
-### Update 创建逻辑 [10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
+`createUpdate(lane)`，用于*创建一个新的更新对象，返回一个 update 对象*。
 
+```javascript
+// 创建一个新的更新对象的函数
+// eventTime: 事件发生的时间戳
+// lane: 更新的优先级车道
+export function createUpdate(eventTime: number, lane: Lane): Update<*> {
+  // 创建一个 Update 对象，包含所有必要的更新信息
+  const update: Update<*> = {
+    // 设置事件发生的时间戳，用于优先级计算和调度决策
+    eventTime,
     
-    ```js
-    const update = {
-      lane,
-      tag: UpdateState, // 默认类型
-      payload: null,
-      callback: null,
-      next: null
-    };
-    ```
+    // 设置更新的优先级车道，决定更新的执行顺序
+    lane,
+
+    // 设置更新标签为 UpdateState (值为0)，表示这是一个状态更新
+    // 这是最常见的更新类型，用于常规的状态变更
+    tag: UpdateState,
     
-    - `forceUpdate` 会将 `tag` 设为 `ForceUpdate`。
-    - `setState` 的参数赋给 `payload`。
+    // 初始时没有负载数据，payload 会在后续被赋予实际的状态值或函数
+    // payload 可以是新的状态值或一个返回新状态的函数
+    payload: null,
+    
+    // 初始时没有回调函数，callback 会在后续被设置（如 setState 的回调）
+    // 回调函数会在更新提交后执行
+    callback: null,
+
+    // 初始时没有下一个更新，next 为 null，当需要形成更新队列时会指向下一个更新
+    // 这允许将多个更新链接成一个链表结构
+    next: null,
+  };
+  
+  // 返回创建的更新对象
+  return update;
+}
+```
+
+这个函数是 React 更新机制的基础构建块之一，*它创建一个基本的更新对象，后续可以根据具体情况进行扩展和定制*。**创建的更新对象会被添加到组件的更新队列中，等待被处理**。`UpdateState` 标签表明这是一个常规的状态更新，而不是强制更新或错误捕获更新。
+
+---
+
+- `forceUpdate` 会将 `tag` 设为 `ForceUpdate`。
+- `setState` 的参数赋给 `payload`。
     - 回调函数赋给 `callback`。
 
-## Update 入队机制 
+## enqueueUpdate()：Update 入队
 [12:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=746)
+
+### 调用的场景
+- `root.render()-->updateContainer()`：初次渲染，调用enqueueUpdate。
+- 类组件调用 `this.setState()`、`forceUpdate()`：调用enqueueUpdate。
+
+参考截图：[[8-7 -1 update的数据结构与算法#createUpdate()：创建Update]]
+
+
+---
 
 - 入队函数调用链
     - 外层调用 `enqueueUpdate(fiber, update)`。
@@ -251,6 +288,88 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
     - 否则插入链表末尾，保持循环结构。
 - 位运算合并优先级 [17:10](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1030)  
     使用按位或 (`|`) 运算合并所有 update 的 `lane`，得出整体优先级。
+
+---
+
+这段代码定义了 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数，用于将更新添加到 Fiber 节点的更新队列中。让我详细解释：
+
+```javascript
+// 将更新添加到 Fiber 节点的更新队列中的函数
+// fiber: 要更新的 Fiber 节点
+// update: 要添加的更新对象
+// lane: 更新的优先级车道
+export function enqueueUpdate<State>(
+  fiber: Fiber,
+  update: Update<State>,
+  lane: Lane,
+): FiberRoot | null {
+  // 获取 Fiber 节点的更新队列
+  const updateQueue = fiber.updateQueue;
+  if (updateQueue === null) {
+    // 如果更新队列不存在，说明该 fiber 已经被卸载
+    return null;
+  }
+
+  // 获取共享队列部分，这是可以跨 Fiber 实例共享的部分
+  const sharedQueue: SharedQueue<State> = (updateQueue: any).shared;
+
+  if (__DEV__) {
+    // 在开发环境中，检测是否在更新函数内部调度了更新
+    if (
+      currentlyProcessingQueue === sharedQueue &&  // 检查是否在处理相同的队列
+      !didWarnUpdateInsideUpdate  // 检查是否已经警告过
+    ) {
+      // 发出警告：从更新函数内部调度了更新，更新函数应该是纯函数，不应该有副作用
+      console.error(
+        'An update (setState, replaceState, or forceUpdate) was scheduled ' +
+          'from inside an update function. Update functions should be pure, ' +
+          'with zero side-effects. Consider using componentDidUpdate or a ' +
+          'callback.',
+      );
+      // 标记已警告，避免重复警告
+      didWarnUpdateInsideUpdate = true;
+    }
+  }
+
+  // 类组件的旧的生命周期相关的update，这里不再展开详解
+  // 检查是否是不安全的渲染阶段更新（在类组件中）
+  if (isUnsafeClassRenderPhaseUpdate(fiber)) {
+    // 这是一个不安全的渲染阶段更新。直接添加到更新队列，
+    // 以便我们可以在当前渲染期间立即处理它
+    
+    // 获取当前等待处理的更新
+    const pending = sharedQueue.pending;
+    if (pending === null) {
+      // 如果没有等待处理的更新，这是第一个更新，创建一个循环链表
+      update.next = update;  // 将更新的 next 指向自己，形成循环
+    } else {
+      // 如果已有等待处理的更新，将新更新插入到链表中
+      update.next = pending.next;  // 新更新的 next 指向原来第一个更新
+      pending.next = update;       // 原来的最后一个更新指向新更新
+    }
+    // 将新更新设为等待处理的更新（最新的更新）
+    sharedQueue.pending = update;
+
+    // 即使我们很可能已经在渲染这个 fiber，也要更新 childLanes
+    // 这是为了向后兼容，以防你在渲染阶段更新了与当前渲染组件
+    // 不同的组件（这种模式会伴随一个警告）
+    return unsafe_markUpdateLaneFromFiberToRoot(fiber, lane);
+  } else {
+    // 对于非渲染阶段的更新，使用并发更新队列
+    return enqueueConcurrentClassUpdate(fiber, sharedQueue, update, lane);
+  }
+}
+```
+
+这个函数*处理了两种不同类型的更新：*
+1. **渲染阶段更新**：如果在渲染阶段发生更新，需要立即处理，因为它可能影响当前渲染的结果。这种更新会直接添加到共享队列的循环链表中。
+2. **常规更新**：对于不在渲染阶段的更新，会使用并发更新机制（`enqueueConcurrentClassUpdate`），*这样可以支持优先级调度和并发处理*。
+
+函数还包含了一些重要的功能：
+- 检测并警告不安全的更新模式（在更新函数内部再次发起更新）
+- 处理循环链表结构以维护更新的顺序
+- 返回根节点以进行进一步的调度处理
+
 
 ## 更新队列的管理与消费 
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
