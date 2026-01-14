@@ -294,7 +294,7 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 这段代码定义了 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数，用于将更新添加到 Fiber 节点的更新队列中。让我详细解释：
 
 ```javascript
-// 将更新添加到 Fiber 节点的更新队列中的函数
+// 将更新对象添加到 Fiber 节点的更新队列中的函数
 // fiber: 要更新的 Fiber 节点
 // update: 要添加的更新对象
 // lane: 更新的优先级车道
@@ -370,6 +370,41 @@ export function enqueueUpdate<State>(
 - 处理循环链表结构以维护更新的顺序
 - 返回根节点以进行进一步的调度处理
 
+### enqueueConcurrentClassUpdate
+
+这段代码定义了 `enqueueConcurrentClassUpdate` 函数，用于**在类组件中将更新添加到并发更新队列**。让我详细解释：
+
+```javascript
+// 在类组件中将更新添加到并发更新队列的函数
+// fiber: 要更新的 Fiber 节点
+// queue: 类组件的更新队列
+// update: 要添加的更新对象
+// lane: 更新的优先级车道
+export function enqueueConcurrentClassUpdate<State>(
+  fiber: Fiber,
+  queue: ClassQueue<State>,
+  update: ClassUpdate<State>,
+  lane: Lane,
+): FiberRoot | null {
+  // 将队列转换为并发队列类型
+  const concurrentQueue: ConcurrentQueue = (queue: any);
+  
+  // 将更新转换为并发更新类型
+  const concurrentUpdate: ConcurrentUpdate = (update: any);
+  
+  // 调用通用的 enqueueUpdate 函数将更新添加到队列中
+  // 这里使用类型转换是因为参数类型名称不同，但实际结构兼容
+  enqueueUpdate(fiber, concurrentQueue, concurrentUpdate, lane);
+  
+  // 获取并返回与更新的 Fiber 相关的根节点
+  // 这个根节点将用于后续的调度和渲染过程
+  return getRootForUpdatedFiber(fiber);
+}
+```
+
+这个函数是 React 并发更新机制的一部分，专门用于处理类组件的更新。它将更新添加到并发队列中，这样 React 可以在并发模式下正确地调度和处理这些更新。函数最终返回与更新的 Fiber 相关的根节点，以便 React 知道哪个应用需要重新渲染。
+
+这个函数是一个包装器，将类组件的更新转换为并发更新格式，并将其传递给底层的 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数进行处理。这样可以确保类组件的更新遵循并发更新的规则和优先级系统。
 
 ## 更新队列的管理与消费 
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
