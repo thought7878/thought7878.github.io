@@ -10,8 +10,49 @@
 - *函数组件的排除*  
     函数组件通过 Hooks 产生的 update 将在其他章节单独讲解，不包含在本次内容中。
 
-## Update 的类型定义 
+## Update 的数据结构（类型定义 ）
 [00:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=40)
+
+`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
+
+这段代码定义了 *React 更新队列系统中的 Update 类型*，它是 React 状态更新机制的核心数据结构。让我详细解释：
+
+```javascript
+// 定义更新类型，描述一次状态或属性的更改
+export type Update<State> = {|
+  // TODO: 临时字段。将通过在根节点上存储 transition -> event time 映射来移除此字段
+  eventTime: number,           // 事件发生的时间戳，用于优先级计算和调度
+  
+  lane: Lane,                 // 该更新所属的优先级车道，决定更新的执行顺序
+  
+  tag: 0 | 1 | 2 | 3,        // 更新标签，区分不同类型的更新操作：
+                              // 0 = UpdateState (状态更新)
+                              // 1 = ReplaceState (替换状态) 
+                              // 2 = ForceUpdate (强制更新)
+                              // 3 = CaptureUpdate (捕获更新，用于错误处理)
+  
+  payload: any,               // 更新的负载数据，根据更新类型不同而不同：
+                              // - 对于状态更新，是新的状态值或状态计算函数
+                              // - 对于属性更新，是新的属性对象
+                              
+  callback: (() => mixed) | null,  // 更新完成后的回调函数，通常用于 componentDidUpdate 
+                                   // 或 setState 的回调参数
+  
+  next: Update<State> | null,      // 指向下一个更新的指针，形成链表结构，用于连接同一队列中的多个更新
+|};
+```
+
+这个 Update 类型是 React 更新机制的核心组成部分，**它使得 React 能够：**
+
+1. **追踪状态变化**：通过 [payload](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L131-L131) 字段*保存新的状态值或计算函数*
+2. **实现优先级调度**：通过 [lane](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L127-L127) 字段*确定更新的优先级*
+3. **形成更新队列**：通过 [next](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L134-L134) 字段*将多个更新链接成链表*
+4. 支持不同类型的操作：通过 [tag](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L129-L129) 字段*区分不同的更新类型*
+5. 提供回调机制：通过 [callback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L132-L132) 字段*在更新完成后执行指定函数*
+
+这个设计允许 React 有效地管理和调度组件状态的变更，支持并发更新和优先级排序。
+
+---
 
 - Update 对象结构  
     update 是一个对象，包含多个属性用于描述更新的元信息。
@@ -34,24 +75,6 @@
     - setState 等方法仍可携带 callback。
 - next 属性 [02:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=136)  
     **指向下一个 update**，构成单链表结构，用于形成 update 队列。
-
-`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
-
-```ts
-export type Update<State> = {|
-  // TODO: Temporary field. Will remove this by storing a map of
-  // transition -> event time on the root.
-  eventTime: number,
-  lane: Lane,
-
-  tag: 0 | 1 | 2 | 3,
-  payload: any,
-  callback: (() => mixed) | null,
-
-  next: Update<State> | null,
-|};
-
-```
 
 
 ## UpdateQueue 
@@ -86,7 +109,7 @@ export type UpdateQueue<State> = {|
    - [lanes](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L151-L151)：表示*更新的优先级车道，用于并发处理和优先级调度*
 
 2. **[UpdateQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L142-L148)** 是完整的队列结构，包含：
-   - `baseState`：计算新状态的基准状态
+   - `baseState`：*计算新状态的基准状态*
    - `firstBaseUpdate` 和 `lastBaseUpdate`：定义了当前处理批次的起始和结束更新
    - `shared`：指向共享队列
    - [effects](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/fixtures/fiber-debugger/src/describeFibers.js#L40-L49)：用于调试的副作用数组
@@ -111,21 +134,67 @@ export type UpdateQueue<State> = {|
 
 
 
-### 初始化 fiber.updateQueue  
+### initializeUpdateQueue：初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
+
+这段代码定义了 `initializeUpdateQueue` 函数，用于*初始化 Fiber 节点的更新队列*。让我详细解释：
+
+```javascript
+// 这里初始化fiber.updateQueue。在beginWork阶段，updateHostRoot中使用processUpdateQueue函数来再具体赋值
+// 初始化更新队列的函数，为给定的 Fiber 创建一个全新的、空的更新队列
+export function initializeUpdateQueue<State>(fiber: Fiber): void {
+  // 创建一个新的更新队列对象
+  const queue: UpdateQueue<State> = {
+    // 设置基准状态为当前 Fiber 的记忆化状态
+    // 基准状态是计算新状态的起点，后续的更新会基于此状态进行计算
+    baseState: fiber.memoizedState,
+    
+    // 初始化时没有基准更新，firstBaseUpdate 指向第一批待处理的更新中的第一个
+    // 在队列刚创建时为 null，随着更新的加入而改变
+    firstBaseUpdate: null,
+    
+    // 初始化时没有基准更新，lastBaseUpdate 指向第一批待处理的更新中的最后一个
+    // 在队列刚创建时为 null，随着更新的加入而改变
+    lastBaseUpdate: null,
+    
+    // 创建共享队列部分，这部分可以在多个 Fiber 之间共享（如 current 与 workInProgress 之间）
+    shared: {
+      // 刚开始时没有等待处理的更新，pending 指向最新的等待处理的更新
+      // pending 形成一个循环链表，存储所有待处理的更新
+      pending: null,
+      
+      // 表示当前没有任何优先级车道有待处理的更新
+      // NoLanes 表示空的车道集合
+      lanes: NoLanes,
+    },
+    
+    // 用于存储产生副作用的更新，主要用于 DevTools 调试
+    // 在初始化时为空，后续可能被填充
+    effects: null,
+  };
+  
+  // 将创建的更新队列赋值给 Fiber 节点的 updateQueue 属性
+  // 这样该 Fiber 节点就有了自己的更新队列，可以用来处理状态更新
+  fiber.updateQueue = queue;
+}
+```
+
+这个函数是 React 更新机制的关键入口点之一，*它确保每个 Fiber 节点在创建时都有一个正确初始化的更新队列*。这个队列**随后会被用于处理组件的状态更新**（如 setState 或 useState 调度的更新），允许 React 在渲染过程中管理和排序多个状态更新，从而实现一致的状态转换。
+
+---
 
 **初次渲染页面**和**类组件初次挂载**的时候，**调用函数initializeUpdateQueue来初始化 fiber.updateQueue**。
 
-- 初始化时机 [08:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=498)  
-    在 `createRoot` 执行或类组件初次挂载时进行。
+- **初始化时机** [08:18](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=498)  
+    *在 createRoot 执行*或*类组件初次挂载时*进行。
 - 初始化函数  
-    `initializeUpdateQueue(fiber)`，为 Fiber 节点创建空的 `updateQueue`。
-- 初始化内容 [09:12](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=552)
-    - `baseState` 赋初值：
-        - 初次渲染：赋值为传入的 `element`。
-        - 类组件：赋值为初始 `state`。
-    - `shared.pending`、`firstBaseUpdate`、`lastBaseUpdate`等均为 `null`。
-    - `callbacks` 为空数组。
+    initializeUpdateQueue(fiber)，*为 Fiber 节点创建空的 updateQueue*。
+- **初始化内容** [09:12](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=552)
+    - baseState 赋初值：
+        - **初次渲染**：赋值为传入的 element。
+        - 类组件：赋值为初始 state。
+    - shared.pending、firstBaseUpdate、lastBaseUpdate等均为 null。
+    - callbacks 为空数组。
 
 初次渲染页面（createRoot流程）：
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/127e2140bbc13f91dc014e8aa2b4e4a7_MD5.webp]]
@@ -133,7 +202,7 @@ export type UpdateQueue<State> = {|
 类组件初次挂载：
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp]]
 
-## Update 的创建过程 
+## createUpdate(lane)：创建Update
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
 - 触发创建的场景
