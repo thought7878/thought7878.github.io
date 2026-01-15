@@ -27,6 +27,7 @@ export function processUpdateQueue<State>(
   let firstBaseUpdate = queue.firstBaseUpdate;
   let lastBaseUpdate = queue.lastBaseUpdate;
 
+  // 这里注意pending update不同于baseQueue，pending update只记录了尾节点
   // 检查是否有待处理的更新。如果有，将它们转移到基础队列。
   let pendingQueue = queue.shared.pending;
   if (pendingQueue !== null) {
@@ -38,6 +39,8 @@ export function processUpdateQueue<State>(
     const firstPendingUpdate = lastPendingUpdate.next; // 第一个待处理更新
     lastPendingUpdate.next = null;                  // 断开循环链接
     
+    // 把pending update转移到base queue上
+    // 接下来构建单链表：firstBaseUpdate-->...-->lastBaseUpdate
     // 将待处理更新追加到基础队列
     if (lastBaseUpdate === null) {
       // 如果基础队列为空，直接设置第一个基础更新
@@ -52,7 +55,9 @@ export function processUpdateQueue<State>(
     // 如果存在当前队列（current）且与基础队列不同，则需要将更新也转移到那个队列
     // 由于基础队列是无循环的单链表，我们可以同时追加到两个列表并利用结构共享
     const current = workInProgress.alternate;  // 获取对应的工作进程 Fiber
+    // 如果有current queue，并且它和base queue不同，那么我们也需要把更新转移到那个queue上
     if (current !== null) {
+      // 类组件和HostRoot的updateQueue都初始化过，所以这里不会是null
       // 这在类组件或宿主根节点上始终非空
       const currentQueue: UpdateQueue<State> = (current.updateQueue: any);
       const currentLastBaseUpdate = currentQueue.lastBaseUpdate;
@@ -227,13 +232,13 @@ export function processUpdateQueue<State>(
 }
 ```
 
-这个函数是 React 更新处理的核心部分，它负责：
+这个函数是。**React 更新处理的核心部分，*它负责：***
 
-1. 将待处理的更新从共享队列转移到基础更新队列
-2. 同步当前(current)和工作进程(workInProgress)Fiber的更新队列
+1. **将待处理的更新从共享队列转移到基础更新队列**
+2. **同步当前(current)和工作进程(workInProgress)Fiber的更新队列**
 3. 按优先级处理更新，跳过当前渲染车道无法处理的更新
-4. 计算新的组件状态
-5. 收集需要执行的回调函数
-6. 更新 Fiber 节点的状态和优先级信息
+4. **计算新的组件状态**
+5. **收集需要执行的回调函数**
+6. **更新 Fiber 节点的状态和优先级信息**
 
-这是 React 实现状态更新和优先级调度的关键函数之一。
+这是 **React 实现状态更新和优先级调度**的关键函数之一。
