@@ -6909,15 +6909,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md": {
-    "scroll": 251.65104166666666,
+    "scroll": 251.38411458333334,
     "cursor": {
       "from": {
-        "line": 273,
-        "ch": 2
+        "line": 261,
+        "ch": 8
       },
       "to": {
-        "line": 273,
-        "ch": 2
+        "line": 261,
+        "ch": 23
       }
     },
     "expandedKeys": [
@@ -7094,12 +7094,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 33
+        "line": 9,
+        "ch": 23
       },
       "to": {
-        "line": 1,
-        "ch": 33
+        "line": 9,
+        "ch": 23
       }
     },
     "expandedKeys": [
@@ -7389,7 +7389,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md": {
-    "scroll": 15.954427083333334,
+    "scroll": 15.037760416666666,
     "cursor": {
       "from": {
         "line": 34,
@@ -7437,15 +7437,34 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7-1 update的数据结构与算法.md": {
-    "scroll": 406.4485677083333,
+    "scroll": 406.4606119791667,
     "cursor": {
       "from": {
-        "line": 412,
-        "ch": 15
+        "line": 416,
+        "ch": 162
       },
       "to": {
-        "line": 412,
-        "ch": 15
+        "line": 416,
+        "ch": 162
+      }
+    },
+    "expandedKeys": [
+      "item-2-5",
+      "item-2-2",
+      "item-1-0",
+      "item-2-8"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 113
+      },
+      "to": {
+        "line": 1,
+        "ch": 113
       }
     },
     "expandedKeys": [
@@ -7458,24 +7477,6 @@
       "item-2-1",
       "item-2-8",
       "item-2-10"
-    ]
-  },
-  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
-    "scroll": 118.7626953125,
-    "cursor": {
-      "from": {
-        "line": 85,
-        "ch": 72
-      },
-      "to": {
-        "line": 85,
-        "ch": 72
-      }
-    },
-    "expandedKeys": [
-      "item-2-5",
-      "item-2-2",
-      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/Untitled.md": {
@@ -7524,15 +7525,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/processUpdateQueue.md": {
-    "scroll": 212.33333333333334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 239,
-        "ch": 18
+        "line": 222,
+        "ch": 23
       },
       "to": {
-        "line": 239,
-        "ch": 18
+        "line": 222,
+        "ch": 23
       }
     },
     "expandedKeys": [
@@ -7540,5 +7541,89 @@
       "item-2-2",
       "item-1-0"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/render.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/1.render.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 12
+      },
+      "to": {
+        "line": 57,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.updateContainer.md": {
+    "scroll": 62.791666666666664,
+    "cursor": {
+      "from": {
+        "line": 93,
+        "ch": 16
+      },
+      "to": {
+        "line": 93,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/createUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.0 updateContainer.md": {
+    "scroll": 63.697916666666664,
+    "cursor": {
+      "from": {
+        "line": 67,
+        "ch": 5
+      },
+      "to": {
+        "line": 67,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.1 createUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -147,7 +147,7 @@
 - V DOM层面操作 [16:24](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=984)  
     整个过程属于虚拟DOM更新，尚未涉及真实DOM操作。
 
-### 调试与验证方法 
+## 调试与验证方法 
 [16:51](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1011)
 
 - 打印调试技巧 [16:51](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1011)  
@@ -157,7 +157,7 @@
 - 示例组件说明 [20:52](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1252)  
     推荐使用类组件的ExamplePage进行测试，重点关注多次setState后的状态合并结果。
 
-### 课程总结与重点回顾 
+## 课程总结与重点回顾 
 [21:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1260)
 
 - 核心知识点归纳 [21:05](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1265)  

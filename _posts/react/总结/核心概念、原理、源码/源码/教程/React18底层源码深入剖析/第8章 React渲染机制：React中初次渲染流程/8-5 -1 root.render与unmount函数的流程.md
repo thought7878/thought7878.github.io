@@ -1,7 +1,6 @@
 
 本视频讲述了React 18中root对象的render与unmount函数实现原理，重点解析了updateContainer的调用流程及更新优先级（lane）的获取机制，包括外部更新默认优先级的确定过程。
 
-![](https://img-view-c-sz.drive.quark.cn/PUflgQcF/3062111611/d9c6589cef294304b6beeee644cc7f076868eaf3/6868eaf38110279be1974a0d85168c20d38d9a8f/preview?auth_key=1768318891-1-10800-cd766cc9922db8f3b7acee5eb05730b4&sp=100&token=5-c958601b5eb547522c489024c079a75a-0-3-1024-5624f0a52ffb4c37adf861b5a86f92f1-0-0-0-0-1768308091831-03a72542fcc1947c39321ecf0345a87a&ork=k334Q1epk77455X5151VrPI4N6PqUd7nNbA9b1qWj&ud=24-0-3-N-N-N-11-N-1-N-0-N-12-N-N&dfi=152)
 
 ### root对象的属性结构 [00:19](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=19)
 

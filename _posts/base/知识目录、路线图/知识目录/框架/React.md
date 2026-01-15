@@ -25,7 +25,7 @@
 参考 [[Composition & Inheritance]]
 
 # Rendering
-参考 [[Render]]
+参考 [[_posts/react/总结/Render/Render]]
 ## Component Lifecycle 
 参考 [[生命周期]]
 ## List and Key
