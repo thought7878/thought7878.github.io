@@ -1,0 +1,72 @@
+这段代码定义了 [markUpdateLaneFromFiberToRoot](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js#L141-L183) 函数，用于**从 Fiber 节点到根节点标记更新的优先级**车道。
+
+```javascript
+// 从 Fiber 节点到根节点标记更新的优先级车道
+// sourceFiber: 源 Fiber 节点
+// update: 并发更新对象，可能为空
+// lane: 更新的优先级车道
+function markUpdateLaneFromFiberToRoot(
+  sourceFiber: Fiber,
+  update: ConcurrentUpdate | null,
+  lane: Lane,
+): void {
+  // 更新源 Fiber 节点的车道，将新的车道合并到现有车道中
+  sourceFiber.lanes = mergeLanes(sourceFiber.lanes, lane);
+  
+  // 如果存在备选 Fiber（工作进程中的 Fiber），也需要更新其车道
+  let alternate = sourceFiber.alternate;
+  if (alternate !== null) {
+    // 同样将新的车道合并到备选 Fiber 的车道中
+    alternate.lanes = mergeLanes(alternate.lanes, lane);
+  }
+  
+  // 沿着父路径向根节点遍历，并更新子车道
+  let isHidden = false; // 标记是否存在隐藏的离屏组件
+  let parent = sourceFiber.return; // 获取父 Fiber 节点
+  let node = sourceFiber; // 当前处理的节点
+  
+  // 向上遍历到根节点
+  while (parent !== null) {
+    // 将车道合并到父节点的子车道中
+    parent.childLanes = mergeLanes(parent.childLanes, lane);
+    
+    // 同样更新备选 Fiber 的子车道
+    alternate = parent.alternate;
+    if (alternate !== null) {
+      alternate.childLanes = mergeLanes(alternate.childLanes, lane);
+    }
+
+    // 检查父节点是否是离屏组件（Offscreen component）
+    if (parent.tag === OffscreenComponent) {
+      // 获取离屏组件实例
+      const offscreenInstance: OffscreenInstance = parent.stateNode;
+      // 检查该离屏组件是否被隐藏
+      if (offscreenInstance.isHidden) {
+        // 如果是隐藏的，设置隐藏标记
+        isHidden = true;
+      }
+    }
+
+    // 移动到父节点继续遍历
+    node = parent;
+    parent = parent.return;
+  }
+
+  // 如果存在隐藏的离屏组件，且更新和节点有效，且节点是宿主根节点
+  if (isHidden && update !== null && node.tag === HostRoot) {
+    // 获取 Fiber 根节点
+    const root: FiberRoot = node.stateNode;
+    // 标记隐藏的更新
+    markHiddenUpdate(root, update, lane);
+  }
+}
+```
+
+这个函数的主要作用是：
+
+1. 更新源 Fiber 节点及其备选节点的车道信息
+2. 沿着父路径向根节点遍历，更新路径上所有节点的子车道
+3. 检测是否存在隐藏的离屏组件（Offscreen component）
+4. 如果存在隐藏的离屏组件且当前节点是宿主根节点，则标记隐藏更新
+
+这样做的目的是确保更新的优先级车道信息能正确传播到根节点，让 React 知道哪些部分需要重新渲染，并特别处理隐藏的离屏组件的情况。这是 React 并发更新机制的关键部分，确保了更新能正确地在 Fiber 树中传播。

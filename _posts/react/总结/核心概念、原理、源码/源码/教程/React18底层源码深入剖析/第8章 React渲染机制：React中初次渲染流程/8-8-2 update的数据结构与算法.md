@@ -3,6 +3,9 @@
 
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/eb346bfbe2a95ec83fa9d0409ccce625_MD5.webp]]
 
+## finishQueueingConcurrentUpdates
+参考：[[finishQueueingConcurrentUpdates]]
+
 ### 分类式函数与更新队列初始化 
 [00:03](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=3)
 
@@ -12,8 +15,6 @@
     从索引0开始循环遍历数组，按`fire QE up deal`顺序存取。每次取出后将原位置置空，以便下次更新复用全局变量。
 - 初始化必要性 [00:56](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=56)  
     多次渲染共用同一全局变量，因此每次更新前需进行初始化，防止旧数据干扰。
-
-参考：[[finishQueueingConcurrentUpdates]]
 
 ### 单向循环链表的构建 
 [02:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=120)
@@ -29,8 +30,10 @@
 - 尾节点标记 [02:37](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=157)  
     `q.pending`始终指向尾节点，便于后续追加操作。
 
-### 向上遍历更新child list 
+## markUpdateLaneFromFiberToRoot：向上遍历更新childLanes 
 [02:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=170)
+
+参考：[[markUpdateLaneFromFiberToRoot]]
 
 - max函数作用 [02:44](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=164)  
     从当前fiber节点向上追溯至根节点，目的是更新路径上所有父节点的`childLanes`。
@@ -41,7 +44,8 @@
 - alternate链同步 [04:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=240)  
     对应的`alternate`树上的节点也需同步更新`childLanes`。
 
-### finish函数执行时机与次数 
+
+### finishQueueingConcurrentUpdates执行时机与次数 
 [04:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=256)
 
 - 执行场景分析 [04:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=256)  
@@ -52,13 +56,15 @@
     - 前期如`create`、`NQ`等处理单项update。
     - `finish`处理的是已整合的`update queue`。
 
-### 管理更新队列：从全局到fiber 
+
+## processUpdateQueue：处理更新队列
 [05:27](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=327)
 
+**管理更新队列：update从全局暂存变量到fiber.updateQueue**
 - 队列转移目标 [05:27](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=327)  
-    将全局暂存的`update`转移到对应fiber节点的`update queue`中。
-- 第四步完成队列构建 [05:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=340)  
-    在进入`render`阶段前，确保所有更新已挂载至fiber结构。
+    将全局暂存的update转移到对应fiber节点的`update queue`中。
+- 管理更新队列，完成队列构建 [05:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=340)  
+    在进入render阶段前，确保所有更新已挂载至fiber结构。
 
 ### 处理更新队列：begin work阶段 
 [05:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=354)

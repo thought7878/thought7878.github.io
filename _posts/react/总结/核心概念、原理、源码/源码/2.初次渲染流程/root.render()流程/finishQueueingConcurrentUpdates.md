@@ -1,4 +1,4 @@
-这段代码定义了 [finishQueueingConcurrentUpdates](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js#L43-L67) 函数，用于**处理并发更新队列中的所有更新**。**这个函数会在批量处理阶段*将所有暂存的更新添加到相应的队列中***。**把concurrentQueues的内容添加到fiber的queue中**
+这段代码定义了 [finishQueueingConcurrentUpdates](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js#L43-L67) 函数，用于**处理并发更新队列中的所有更新**。**这个函数会在批量处理阶段*将所有暂存的更新添加到相应的队列中***，**把concurrentQueues的内容添加到fiber的queue中**
 
 ```javascript
 // 处理并发更新队列中的所有更新
@@ -52,6 +52,9 @@ export function finishQueueingConcurrentUpdates(): void {
 
     // 如果更新有优先级车道，则标记从 Fiber 到根节点的更新车道
     if (lane !== NoLane) {
+      // 更新fiber.lanes
+      // 从当前节点开始,往上找到根节点,更新childLanes
+      
       // 这个函数会标记从当前 Fiber 到根节点的路径上的车道
       // 以便知道哪些部分需要重新渲染
       markUpdateLaneFromFiberToRoot(fiber, update, lane);
@@ -61,3 +64,5 @@ export function finishQueueingConcurrentUpdates(): void {
 ```
 
 这个函数是 React 并发更新机制的关键部分，负责**批量处理在并发更新过程中暂存的所有更新。它将暂存的更新添加到各自的队列中，并标记需要更新的车道，确保 React 知道哪些部分需要重新渲染**。这是 React 实现高效并发更新的核心机制之一。
+
+参考：[[markUpdateLaneFromFiberToRoot]]
