@@ -60,7 +60,7 @@
 ## processUpdateQueue：处理更新队列
 [05:27](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=327)
 
-**管理更新队列：update从全局暂存变量到fiber.updateQueue**
+**前一阶段的管理更新队列：update从全局暂存变量到fiber.updateQueue**
 - 队列转移目标 [05:27](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=327)  
     将全局暂存的update转移到对应fiber节点的`update queue`中。
 - 管理更新队列，完成队列构建 [05:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=340)  
@@ -76,8 +76,18 @@
 - 适用节点类型 [07:16](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=436)  
     主要应用于`HostRoot`和`ClassComponent`，函数组件因无实例暂不涉及。
 
-### processUpdateQueue函数详解 
+### 函数解析
 [07:46](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=466)
+
+参考：[[processUpdateQueue]]
+
+这个函数**用来处理更新队列**。`processUpdateQueue`**在beginWork阶段会被两个地方调用：**
+- updateHostRoot()中，packages/react-reconciler/src/ReactFiberBeginWork.new.js
+- updateClassInstance()中，packages/react-reconciler/src/ReactFiberClassComponent.new.js
+
+
+源码：packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js
+
 
 - 函数调用位置 [08:04](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=484)  
     被`updateHostRoot`和类组件的`updateClassComponent`调用，参数分别为：
