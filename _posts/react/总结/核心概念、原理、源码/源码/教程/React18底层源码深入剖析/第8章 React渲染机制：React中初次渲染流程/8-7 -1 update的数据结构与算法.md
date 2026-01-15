@@ -282,7 +282,7 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 - **入队函数调用链**
     - 外层调用 enqueueUpdate(fiber, update)。
     - 最终执行 enqueueConcurrentClassUpdate(fiber, update, lane)。
-- **全局缓存结构 ConcurrentQueues** [15:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=940)  
+- ***全局缓存结构 ConcurrentQueues*** [15:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=940)  
     *使用全局数组 concurrentQueues 暂存 update，避免过早操作 Fiber 树*。
     - 结构为 \[fiber, queue, update, ...\]。
     - 记录当前下标，便于批量处理。
@@ -412,8 +412,15 @@ export function enqueueConcurrentClassUpdate<State>(
 
 这个函数是一个包装器，将类组件的更新转换为并发更新格式，并将其传递给底层的 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数进行处理。这样可以确保类组件的更新遵循并发更新的规则和优先级系统。
 
-## 管理、消费更新队列
+## finishQueueingConcurrentUpdates：管理、消费更新队列
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
+initializeUpdateQueue--->createUpdate--->enqueueUpdate--->scheduleUpdateOnFiber--->performConcurrentWorkOnRoot--->render--->*finishQueueingConcurrentUpdates*--->workLoopSync--开始循环->performUnitOfWork--->beginWork--->processUpdateQueue--->reconcile--循环结束->*finishQueueingConcurrentUpdates*--->commitRootImpl
+
+finishQueueingConcurrentUpdates 把 concurrentQueues的内容添加到fiber的updateQueue中。在render阶段，有两处调用 finishQueueingConcurrentUpdates，分别是：
+- 1.render开始的时候，在 prepareFreshStack 函数中。packages/react-reconciler/src/ReactFiberWorkLoop.new.js：prepareFreshStack
+- ~~2.在renderRootSync()结束的时候，最后再调用一遍。~~*18.2.0中只有上面的没有这个*
+
+---
 
 - 消费时机  
     在 `render` 阶段开始时调用 `finishQueueingConcurrentUpdates()`。

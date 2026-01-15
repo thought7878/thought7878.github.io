@@ -949,14 +949,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 20.928537398761314,
+    "scroll": 65.34244791666667,
     "cursor": {
       "from": {
-        "line": 38,
+        "line": 81,
         "ch": 0
       },
       "to": {
-        "line": 38,
+        "line": 81,
         "ch": 0
       }
     },
@@ -7129,27 +7129,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7 -1 update的数据结构与算法.md": {
-    "scroll": 275.6311848958333,
+    "scroll": 412.9134114583333,
     "cursor": {
       "from": {
-        "line": 291,
-        "ch": 17
+        "line": 428,
+        "ch": 36
       },
       "to": {
-        "line": 291,
-        "ch": 17
+        "line": 428,
+        "ch": 36
       }
     },
     "expandedKeys": [
-      "item-2-55",
-      "item-1-48",
-      "item-1-33",
       "item-1-0",
-      "item-2-2",
-      "item-2-5",
-      "item-2-1",
-      "item-2-8",
-      "item-2-10"
+      "item-2-8"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2. 更新调度阶段.md": {
