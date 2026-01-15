@@ -158,6 +158,7 @@ export function processUpdateQueue<State>(
           instance,
         );
         
+        // 类组件的setState会在这里存储
         // 获取更新的回调函数
         const callback = update.callback;
         if (

@@ -7401,11 +7401,9 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
+      "item-2-5",
       "item-2-2",
-      "item-2-10",
-      "item-2-14",
-      "item-2-17"
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md": {
@@ -7463,19 +7461,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
-    "scroll": 67.45670572916667,
+    "scroll": 118.7626953125,
     "cursor": {
       "from": {
-        "line": 81,
-        "ch": 17
+        "line": 85,
+        "ch": 72
       },
       "to": {
-        "line": 81,
-        "ch": 17
+        "line": 85,
+        "ch": 72
       }
     },
     "expandedKeys": [
-      "item-2-5"
+      "item-2-5",
+      "item-2-2",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/Untitled.md": {
@@ -7524,19 +7524,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/processUpdateQueue.md": {
-    "scroll": 185.85416666666666,
+    "scroll": 212.33333333333334,
     "cursor": {
       "from": {
-        "line": 200,
-        "ch": 19
+        "line": 239,
+        "ch": 18
       },
       "to": {
-        "line": 200,
-        "ch": 19
+        "line": 239,
+        "ch": 18
       }
     },
     "expandedKeys": [
-      "item-2-5"
+      "item-2-5",
+      "item-2-2",
+      "item-1-0"
     ]
   }
 }
