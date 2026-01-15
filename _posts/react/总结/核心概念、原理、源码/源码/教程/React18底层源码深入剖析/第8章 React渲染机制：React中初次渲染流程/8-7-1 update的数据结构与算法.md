@@ -204,6 +204,7 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 
 ## createUpdate：创建Update
 [09:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
+
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
@@ -267,6 +268,7 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 
 ## enqueueUpdate：Update 入队
 [12:26](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=746)
+
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`的updateContainer()
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
