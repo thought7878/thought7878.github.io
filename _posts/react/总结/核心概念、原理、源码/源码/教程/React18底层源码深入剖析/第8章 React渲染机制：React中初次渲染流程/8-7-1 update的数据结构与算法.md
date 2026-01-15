@@ -274,7 +274,7 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
 - `root.render()-->updateContainer()`：初次渲染，调用enqueueUpdate。
 - 类组件调用 `this.setState()`、`forceUpdate()`：调用enqueueUpdate。
 
-参考截图：[[8-7 -1 update的数据结构与算法#createUpdate()：创建Update]]
+参考截图：[[8-7-1 update的数据结构与算法#createUpdate()：创建Update]]
 
 
 ---
@@ -431,6 +431,8 @@ finishQueueingConcurrentUpdates 把 concurrentQueues的内容添加到fiber的up
     - 遍历 `concurrentQueues` 全局数组。
     - 将暂存的 update 从 `shared.pending`移至 `updateQueue` 的 `baseUpdate` 队列。
     - 建立 `firstBaseUpdate` 和 `lastBaseUpdate` 链表结构，供 `reconcile` 阶段使用。
+
+参考：[[finishQueueingConcurrentUpdates]]
 
 ## 补充说明与跳过内容 
 [07:07](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=427)
