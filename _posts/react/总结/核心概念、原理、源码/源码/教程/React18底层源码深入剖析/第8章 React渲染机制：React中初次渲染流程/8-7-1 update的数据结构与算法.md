@@ -16,42 +16,7 @@
 
 `packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
-这段代码定义了 *React 更新队列系统中的 Update 类型*，它是 React 状态更新机制的核心数据结构。让我详细解释：
-
-```javascript
-// 定义更新类型，描述一次状态或属性的更改
-export type Update<State> = {|
-  // TODO: 临时字段。将通过在根节点上存储 transition -> event time 映射来移除此字段
-  eventTime: number,           // 事件发生的时间戳，用于优先级计算和调度
-  
-  lane: Lane,                 // 该更新所属的优先级车道，决定更新的执行顺序
-  
-  tag: 0 | 1 | 2 | 3,        // 更新标签，区分不同类型的更新操作：
-                              // 0 = UpdateState (状态更新)
-                              // 1 = ReplaceState (替换状态) 
-                              // 2 = ForceUpdate (强制更新)
-                              // 3 = CaptureUpdate (捕获更新，用于错误处理)
-  
-  payload: any,               // 更新的负载数据，根据更新类型不同而不同：
-                              // - 对于状态更新，是新的状态值或状态计算函数
-                              // - 对于属性更新，是新的属性对象
-                              
-  callback: (() => mixed) | null,  // 更新完成后的回调函数，通常用于 componentDidUpdate 
-                                   // 或 setState 的回调参数
-  
-  next: Update<State> | null,      // 指向下一个更新的指针，形成链表结构，用于连接同一队列中的多个更新
-|};
-```
-
-这个 Update 类型是 React 更新机制的核心组成部分，**它使得 React 能够：**
-
-1. **追踪状态变化**：通过 [payload](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L131-L131) 字段*保存新的状态值或计算函数*
-2. **实现优先级调度**：通过 [lane](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L127-L127) 字段*确定更新的优先级*
-3. **形成更新队列**：通过 [next](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L134-L134) 字段*将多个更新链接成链表*
-4. 支持不同类型的操作：通过 [tag](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L129-L129) 字段*区分不同的更新类型*
-5. 提供回调机制：通过 [callback](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L132-L132) 字段*在更新完成后执行指定函数*
-
-这个设计允许 React 有效地管理和调度组件状态的变更，支持并发更新和优先级排序。
+[[Update 类型定义]]
 
 ---
 
@@ -83,38 +48,7 @@ export type Update<State> = {|
 
 `packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
-这段代码定义了 *React 更新队列系统中的两种关键数据结构*：[SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 和 [UpdateQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L142-L148)。让我详细解释：
-
-```javascript
-// 共享队列类型定义，用于跟踪等待中的更新
-export type SharedQueue<State> = {|
-  pending: Update<State> | null,  // 指向等待处理的最新更新，形成一个循环链表
-  lanes: Lanes,                   // 表示当前等待的更新所处的优先级车道
-|};
-
-// 更新队列类型定义，完整描述了一个组件的更新状态
-export type UpdateQueue<State> = {|
-  baseState: State,                                    // 计算更新时的基准状态
-  firstBaseUpdate: Update<State> | null,               // 第一个待处理的基准更新
-  lastBaseUpdate: Update<State> | null,                // 最后一个待处理的基准更新
-  shared: SharedQueue<State>,                          // 共享队列，包含待处理的更新
-  effects: Array<Update<State>> | null,                // 存储产生副作用的更新数组，主要用于DevTools调试
-|};
-```
-
-这两个类型是 React 状态更新机制的核心组成部分：
-
-1. **[SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140)** 是一个简化的队列，包含：
-   - `pending`：指向*最新的待处理更新，所有更新构成一个循环链表*
-   - [lanes](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L151-L151)：表示*更新的优先级车道，用于并发处理和优先级调度*
-
-2. **[UpdateQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L142-L148)** 是完整的队列结构，包含：
-   - `baseState`：*计算新状态的基准状态*
-   - `firstBaseUpdate` 和 `lastBaseUpdate`：定义了当前处理批次的起始和结束更新
-   - `shared`：指向共享队列
-   - [effects](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/fixtures/fiber-debugger/src/describeFibers.js#L40-L49)：用于调试的副作用数组
-
-这种设计*允许 React 在渲染过程中处理新的状态更新，同时保持状态的一致性*。**当有新更新到达时，它们会被添加到 [SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 中，然后在适当的时候与基准状态合并，形成最终的新状态**。
+参考：[[SharedQueue、UpdateQueue 类型定义]]
 
 ---
 
@@ -137,51 +71,7 @@ export type UpdateQueue<State> = {|
 ## initializeUpdateQueue：初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
-参考：
-
-这段代码定义了 `initializeUpdateQueue` 函数，用于**初始化 Fiber 节点的更新队列updateQueue**。详细解释：
-
-```javascript
-// 这里初始化fiber.updateQueue。在beginWork阶段，updateHostRoot中使用processUpdateQueue函数来再具体赋值
-// 初始化更新队列的函数，为给定的 Fiber 创建一个全新的、空的更新队列
-export function initializeUpdateQueue<State>(fiber: Fiber): void {
-  // 创建一个新的更新队列对象
-  const queue: UpdateQueue<State> = {
-    // 设置基准状态为当前 Fiber 的记忆化状态
-    // 基准状态是计算新状态的起点，后续的更新会基于此状态进行计算
-    baseState: fiber.memoizedState,
-    
-    // 初始化时没有基准更新，firstBaseUpdate 指向第一批待处理的更新中的第一个
-    // 在队列刚创建时为 null，随着更新的加入而改变
-    firstBaseUpdate: null,
-    
-    // 初始化时没有基准更新，lastBaseUpdate 指向第一批待处理的更新中的最后一个
-    // 在队列刚创建时为 null，随着更新的加入而改变
-    lastBaseUpdate: null,
-    
-    // 创建共享队列部分，这部分可以在多个 Fiber 之间共享（如 current 与 workInProgress 之间）
-    shared: {
-      // 刚开始时没有等待处理的更新，pending 指向最新的等待处理的更新
-      // pending 形成一个循环链表，存储所有待处理的更新
-      pending: null,
-      
-      // 表示当前没有任何优先级车道有待处理的更新
-      // NoLanes 表示空的车道集合
-      lanes: NoLanes,
-    },
-    
-    // 用于存储产生副作用的更新，主要用于 DevTools 调试
-    // 在初始化时为空，后续可能被填充
-    effects: null,
-  };
-  
-  // 将创建的更新队列赋值给 Fiber 节点的 updateQueue 属性
-  // 这样该 Fiber 节点就有了自己的更新队列，可以用来处理状态更新
-  fiber.updateQueue = queue;
-}
-```
-
-这个函数是 React 更新机制的关键入口点之一，*它确保每个 Fiber 节点在创建时都有一个正确初始化的更新队列*。这个队列**随后会被用于处理组件的状态更新**（如 setState 或 useState 调度的更新），允许 React 在渲染过程中管理和排序多个状态更新，从而实现一致的状态转换。
+参考：[[initializeUpdateQueue]]
 
 ---
 
@@ -199,9 +89,11 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
     - callbacks 为空数组。
 
 初次渲染页面（createRoot流程）：
+`packages/react-reconciler/src/ReactFiberRoot.new.js`
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/127e2140bbc13f91dc014e8aa2b4e4a7_MD5.webp]]
 
 类组件初次挂载：
+`packages/react-reconciler/src/ReactFiberClassComponent.new.js`
 ![[_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp]]
 
 ## createUpdate：创建Update
@@ -269,7 +161,7 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 
 参考：[[2.2.1 enqueueConcurrentClassUpdate]]
 
-## finishQueueingConcurrentUpdates：管理、消费更新队列
+## finishQueueingConcurrentUpdates：管理更新队列
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
 initializeUpdateQueue--->createUpdate--->enqueueUpdate--->scheduleUpdateOnFiber--->performConcurrentWorkOnRoot--->renderRootSync--->*finishQueueingConcurrentUpdates*--->workLoopSync--开始循环->performUnitOfWork--->beginWork--->processUpdateQueue--->reconcile--循环结束->*finishQueueingConcurrentUpdates*--->commitRootImpl
 
