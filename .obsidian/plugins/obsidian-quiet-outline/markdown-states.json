@@ -7758,15 +7758,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-16.md": {
-    "scroll": 30.948618001417433,
+    "scroll": 18.29613864396473,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -8019,29 +8019,29 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-9 -1 scheduleUpdateOnFiber调度更新.md": {
-    "scroll": 6.585889570552148,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 18
+        "line": 14,
+        "ch": 44
       },
       "to": {
-        "line": 23,
-        "ch": 18
+        "line": 14,
+        "ch": 44
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md": {
-    "scroll": 0.6565656565656566,
+    "scroll": 0.6464646464646465,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 17
+        "line": 12,
+        "ch": 27
       },
       "to": {
-        "line": 20,
-        "ch": 17
+        "line": 12,
+        "ch": 31
       }
     },
     "expandedKeys": []
@@ -8070,6 +8070,48 @@
       "to": {
         "line": 34,
         "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-17.md": {
+    "scroll": 25.659505208333332,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/ensureRootIsScheduled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 ensureRootIsScheduled.md": {
+    "scroll": 124.03385416666667,
+    "cursor": {
+      "from": {
+        "line": 133,
+        "ch": 0
+      },
+      "to": {
+        "line": 133,
+        "ch": 0
       }
     },
     "expandedKeys": []
