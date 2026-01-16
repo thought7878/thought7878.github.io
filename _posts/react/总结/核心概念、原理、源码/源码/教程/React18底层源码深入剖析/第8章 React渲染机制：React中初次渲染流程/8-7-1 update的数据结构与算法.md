@@ -1,7 +1,5 @@
 本视频讲述了React中**类组件和createRoot(rootDOM).render()渲染产生的update的数据结构与算法**，详细解析了*update的类型定义、创建过程、入队机制及更新队列的管理流程*，并介绍了*其在Fiber架构下的链表存储与调度机制*。
 
-参考：[[createUpdate()]]
-
 ## 课程前提与范围说明 
 [00:00](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=0)
 
@@ -101,6 +99,8 @@
 
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
+
+参考：[[createUpdate()]]
 
 ### 触发创建的场景
 - `root.render()-->updateContainer()`：创建初次渲染的 update。

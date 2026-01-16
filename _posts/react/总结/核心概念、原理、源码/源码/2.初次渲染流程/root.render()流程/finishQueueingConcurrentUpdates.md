@@ -6,8 +6,9 @@ finishQueueingConcurrentUpdates 把 concurrentQueues的内容添加到fiber的up
 
 ---
 ## finishQueueingConcurrentUpdates
+`packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js`
 
-这段代码定义了 [finishQueueingConcurrentUpdates](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js#L43-L67) 函数，用于**处理并发更新队列中的所有更新**。**这个函数会在批量处理阶段*将所有暂存的更新添加到相应的队列中***，***把concurrentQueues的内容添加到fiber的queue中***
+这段代码定义了 [finishQueueingConcurrentUpdates](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js#L43-L67) 函数，用于**处理并发更新队列中的所有更新**。**这个函数会在批量处理阶段*将所有暂存的更新添加到相应的队列中***，***把concurrentQueues的内容添加到fiber的updateQueue中***
 
 ```javascript
 // 处理并发更新队列中的所有更新

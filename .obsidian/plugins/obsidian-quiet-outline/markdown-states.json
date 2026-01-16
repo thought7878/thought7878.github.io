@@ -7389,7 +7389,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md": {
-    "scroll": 72.61581395348837,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 109,
@@ -7401,11 +7401,17 @@
       }
     },
     "expandedKeys": [
-      "item-2-12",
-      "item-2-8",
-      "item-2-5",
+      "item-2-55",
+      "item-1-48",
+      "item-1-33",
       "item-1-0",
-      "item-2-2"
+      "item-2-2",
+      "item-2-5",
+      "item-2-1",
+      "item-2-8",
+      "item-2-10",
+      "item-2-0",
+      "item-2-3"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md": {
@@ -7439,33 +7445,41 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7-1 update的数据结构与算法.md": {
-    "scroll": 168.63824043195171,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 177,
-        "ch": 37
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 177,
-        "ch": 37
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
+      "item-2-55",
+      "item-1-48",
+      "item-1-33",
+      "item-1-0",
+      "item-2-2",
       "item-2-5",
-      "item-2-8"
+      "item-2-1",
+      "item-2-8",
+      "item-2-10",
+      "item-2-0",
+      "item-2-3"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
-    "scroll": 3.508573465158335,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 12,
-        "ch": 22
+        "ch": 60
       },
       "to": {
         "line": 12,
-        "ch": 22
+        "ch": 60
       }
     },
     "expandedKeys": [
@@ -7497,21 +7511,29 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/finishQueueingConcurrentUpdates.md": {
-    "scroll": 0,
+    "scroll": 10.152994791666666,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 17
+        "line": 15,
+        "ch": 14
       },
       "to": {
-        "line": 12,
-        "ch": 17
+        "line": 15,
+        "ch": 14
       }
     },
     "expandedKeys": [
-      "item-2-1",
+      "item-2-55",
+      "item-1-48",
+      "item-1-33",
+      "item-1-0",
+      "item-2-2",
       "item-2-5",
-      "item-2-8"
+      "item-2-1",
+      "item-2-8",
+      "item-2-10",
+      "item-2-0",
+      "item-2-3"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/markUpdateLaneFromFiberToRoot.md": {
