@@ -7500,7 +7500,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
-    "scroll": 61.272786458333336,
+    "scroll": 58.422526041666664,
     "cursor": {
       "from": {
         "line": 81,
@@ -7512,6 +7512,7 @@
       }
     },
     "expandedKeys": [
+      "item-2-0",
       "item-2-5"
     ]
   },
@@ -7929,15 +7930,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/finishQueueingConcurrentUpdates.md": {
-    "scroll": 0.9435897435897436,
+    "scroll": 9.125651041666666,
     "cursor": {
       "from": {
         "line": 15,
-        "ch": 16
+        "ch": 33
       },
       "to": {
         "line": 15,
-        "ch": 16
+        "ch": 33
       }
     },
     "expandedKeys": [
@@ -7959,18 +7960,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/processUpdateQueue.md": {
-    "scroll": 0,
+    "scroll": 236.0625,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 20,
+        "ch": 17
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 20,
+        "ch": 17
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/SharedQueue、UpdateQueue 类型定义.md": {
     "scroll": 0.8282828282828283,
@@ -8004,12 +8008,40 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 13,
+        "ch": 30
+      },
+      "to": {
+        "line": 13,
+        "ch": 30
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-9 -1 scheduleUpdateOnFiber调度更新.md": {
+    "scroll": 6.585889570552148,
+    "cursor": {
+      "from": {
+        "line": 23,
         "ch": 18
       },
       "to": {
-        "line": 17,
+        "line": 23,
         "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md": {
+    "scroll": 0.9494949494949495,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 23
+      },
+      "to": {
+        "line": 19,
+        "ch": 23
       }
     },
     "expandedKeys": []
