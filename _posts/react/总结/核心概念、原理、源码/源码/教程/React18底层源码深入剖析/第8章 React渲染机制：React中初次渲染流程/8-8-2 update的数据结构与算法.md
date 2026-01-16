@@ -81,9 +81,7 @@
 
 参考：[[processUpdateQueue]]
 
-这个函数**用来处理更新队列**。`processUpdateQueue`**在beginWork阶段会被两个地方调用：**
-- updateHostRoot()中，packages/react-reconciler/src/ReactFiberBeginWork.new.js
-- updateClassInstance()中，packages/react-reconciler/src/ReactFiberClassComponent.new.js
+
 
 
 源码：packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js

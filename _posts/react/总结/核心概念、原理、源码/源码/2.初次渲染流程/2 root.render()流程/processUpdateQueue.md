@@ -1,4 +1,19 @@
-这段代码定义了 [processUpdateQueue](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L524-L729) 函数，它负责**处理类组件的更新队列**。让我详细解释：
+这个函数**用来处理更新队列**。`processUpdateQueue`**在beginWork阶段会被两个地方调用：**
+- updateHostRoot()中，packages/react-reconciler/src/ReactFiberBeginWork.new.js
+- updateClassInstance()中，packages/react-reconciler/src/ReactFiberClassComponent.new.js
+
+这段代码定义了 [processUpdateQueue](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L524-L729) 函数，它负责处理类组件的更新队列。
+
+这个函数是。**React 更新处理的核心部分，*它负责：***
+
+1. **将待处理的更新从共享队列shared.pending转移到基础更新队列firstBaseUpdate/lastBaseUpdate**
+2. **同步当前(current)和工作进程(workInProgress)Fiber的更新队列**
+3. 按优先级处理更新，跳过当前渲染车道无法处理的更新
+4. **计算新的组件状态：** 遍历updateQueue，根据这些update计算出新的组件状态
+5. **收集需要执行的回调函数**
+6. **更新 Fiber 节点的状态和优先级信息**
+
+这是 **React 实现状态更新和优先级调度**的关键函数之一。
 
 ```javascript
 // 处理更新队列的函数
@@ -233,13 +248,3 @@ export function processUpdateQueue<State>(
 }
 ```
 
-这个函数是。**React 更新处理的核心部分，*它负责：***
-
-1. **将待处理的更新从共享队列转移到基础更新队列**
-2. **同步当前(current)和工作进程(workInProgress)Fiber的更新队列**
-3. 按优先级处理更新，跳过当前渲染车道无法处理的更新
-4. **计算新的组件状态**
-5. **收集需要执行的回调函数**
-6. **更新 Fiber 节点的状态和优先级信息**
-
-这是 **React 实现状态更新和优先级调度**的关键函数之一。

@@ -7500,15 +7500,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
-    "scroll": 66.68434108527131,
+    "scroll": 61.272786458333336,
     "cursor": {
       "from": {
-        "line": 85,
-        "ch": 29
+        "line": 81,
+        "ch": 15
       },
       "to": {
-        "line": 85,
-        "ch": 29
+        "line": 81,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -7929,15 +7929,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/finishQueueingConcurrentUpdates.md": {
-    "scroll": 21.917317708333332,
+    "scroll": 0.9435897435897436,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 15,
+        "ch": 16
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 15,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -7962,16 +7962,56 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 42
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 42
+        "line": 14,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-5"
-    ]
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/SharedQueue、UpdateQueue 类型定义.md": {
+    "scroll": 0.8282828282828283,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 13
+      },
+      "to": {
+        "line": 13,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/getStateFromUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 18
+      },
+      "to": {
+        "line": 17,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
   }
 }
