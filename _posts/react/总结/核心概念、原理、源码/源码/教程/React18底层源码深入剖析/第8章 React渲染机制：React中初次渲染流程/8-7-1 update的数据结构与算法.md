@@ -159,7 +159,7 @@
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
 initializeUpdateQueue--->createUpdate--->enqueueUpdate--->scheduleUpdateOnFiber--->performConcurrentWorkOnRoot--->renderRootSync--->*finishQueueingConcurrentUpdates*--->workLoopSync--开始循环->performUnitOfWork--->beginWork--->processUpdateQueue--->reconcile--循环结束->*finishQueueingConcurrentUpdates*--->commitRootImpl
 
-finishQueueingConcurrentUpdates 把 concurrentQueues的内容添加到fiber的updateQueue中。在render阶段，有两处调用 finishQueueingConcurrentUpdates，分别是：
+finishQueueingConcurrentUpdates **把 concurrentQueues的内容添加到fiber的updateQueue中**。在render阶段，有两处调用 finishQueueingConcurrentUpdates，分别是：
 - 1.render开始的时候，在 prepareFreshStack 函数中。packages/react-reconciler/src/ReactFiberWorkLoop.new.js：prepareFreshStack
 - ~~2.在renderRootSync()结束的时候，最后再调用一遍。~~*18.2.0中只有上面的没有这个*
 

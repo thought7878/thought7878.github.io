@@ -66,7 +66,7 @@
 - 管理更新队列，完成队列构建 [05:40](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=340)  
     在进入render阶段前，确保所有更新已挂载至fiber结构。
 
-### 处理更新队列：begin work阶段 
+### 执行时机：begin work阶段 
 [05:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=354)
 
 - 处理入口函数 [05:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=354)  
