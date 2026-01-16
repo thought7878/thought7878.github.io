@@ -100,7 +100,7 @@
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
-参考：[[createUpdate()]]
+参考：[[createUpdate()]]、[[2.1 createUpdate]]
 
 ### 触发创建的场景
 - `root.render()-->updateContainer()`：创建初次渲染的 update。
@@ -115,11 +115,6 @@
 ### 创建函数  
 [10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
 
-参考：[[createUpdate()]]、[[2.1 createUpdate]]
-
-
----
-
 - `forceUpdate` 会将 `tag` 设为 `ForceUpdate`。
 - `setState` 的参数赋给 `payload`。
     - 回调函数赋给 `callback`。
@@ -130,11 +125,13 @@
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`的updateContainer()
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
+参考：[[2.2 enqueueUpdate]]
+
 ### 调用的场景
 - `root.render()-->updateContainer()`：初次渲染，调用enqueueUpdate。
 - 类组件调用 `this.setState()`、`forceUpdate()`：调用enqueueUpdate。
 
-参考截图：[[8-7-1 update的数据结构与算法#createUpdate()：创建Update]]
+参考上面的截图
 
 
 ---
@@ -152,9 +149,6 @@
     - 否则插入链表末尾，保持循环结构。
 - 位运算合并优先级 [17:10](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1030)  
     使用按位或 (`|`) 运算合并所有 update 的 lane，得出整体优先级。
-
----
-参考：[[2.2 enqueueUpdate]]
 
 
 ### enqueueConcurrentClassUpdate

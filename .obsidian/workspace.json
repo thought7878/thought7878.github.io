@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createRoot()流程/initializeUpdateQueue.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2.1 enqueueConcurrentClassUpdate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "initializeUpdateQueue"
+              "title": "2.2.1 enqueueConcurrentClassUpdate"
             }
           },
           {
@@ -706,12 +706,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createRoot()流程/initializeUpdateQueue.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2.1 enqueueConcurrentClassUpdate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from initializeUpdateQueue"
+              "title": "Outgoing links from 2.2.1 enqueueConcurrentClassUpdate"
             }
           }
         ],
@@ -745,31 +745,31 @@
   "active": "3c65f224858f05f9",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7-1 update的数据结构与算法.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createRoot()流程/initializeUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2 enqueueUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/root.render的流程.svg",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/SharedQueue、UpdateQueue 类型定义.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/Update 类型定义.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.0 updateContainer.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 createUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/initializeUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/SharedQueue、UpdateQueue 类型定义.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/finishQueueingConcurrentUpdates.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.1 createUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.2 enqueueUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.2.1 enqueueConcurrentClassUpdate.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/finishQueueingConcurrentUpdates.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2.1 enqueueConcurrentClassUpdate.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-16.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.3 scheduleUpdateOnFiber.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/1 render.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/1 render.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-5 -1 root.render与unmount函数的流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/createRoot的流程.svg",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/processUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/processUpdateQueue.md",
     "_posts/读书笔记/穷人.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/markUpdateLaneFromFiberToRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createRoot()流程",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/markUpdateLaneFromFiberToRoot.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/eb346bfbe2a95ec83fa9d0409ccce625_MD5.webp",
     "_posts/读书笔记/人性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React18初次渲染流程概述1.md",

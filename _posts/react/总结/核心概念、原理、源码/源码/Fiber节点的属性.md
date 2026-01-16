@@ -83,7 +83,7 @@
 
 12. **`updateQueue`**  
     - **类型**: `UpdateQueue | null`  
-    - **作用**: 存储待处理的更新（`setState`、`useState` 触发的更新）。  
+    - **作用**: *存储待处理的更新*（`setState`、`useState` 触发的更新）。  
     - **结构**: 链表形式，包含 `action`（更新内容）和优先级信息。
 
 13. **`dependencies`**  
