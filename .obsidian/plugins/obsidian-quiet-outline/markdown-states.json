@@ -8033,15 +8033,43 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md": {
-    "scroll": 0.9494949494949495,
+    "scroll": 0.6565656565656566,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 23
+        "line": 20,
+        "ch": 17
       },
       "to": {
-        "line": 19,
-        "ch": 23
+        "line": 20,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/markRootUpdated.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 markRootUpdated.md": {
+    "scroll": 22.017252604166668,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 19
+      },
+      "to": {
+        "line": 34,
+        "ch": 19
       }
     },
     "expandedKeys": []
