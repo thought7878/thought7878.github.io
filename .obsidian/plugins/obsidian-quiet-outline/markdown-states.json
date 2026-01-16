@@ -7445,29 +7445,19 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-7-1 update的数据结构与算法.md": {
-    "scroll": 0,
+    "scroll": 29.2768992248062,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 48,
+        "ch": 19
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 48,
+        "ch": 19
       }
     },
     "expandedKeys": [
-      "item-2-55",
-      "item-1-48",
-      "item-1-33",
-      "item-1-0",
-      "item-2-2",
-      "item-2-5",
-      "item-2-1",
-      "item-2-8",
-      "item-2-10",
-      "item-2-0",
-      "item-2-3"
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-8-2 update的数据结构与算法.md": {
@@ -7628,7 +7618,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/2.0 updateContainer.md": {
-    "scroll": 71.89583333333333,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 78,
@@ -7787,15 +7777,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/SharedQueue、UpdateQueue 类型定义.md": {
-    "scroll": 8.71875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 71
+        "line": 9,
+        "ch": 46
       },
       "to": {
-        "line": 17,
-        "ch": 71
+        "line": 9,
+        "ch": 46
       }
     },
     "expandedKeys": [
@@ -7803,15 +7793,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/root.render()流程/Update 类型定义.md": {
-    "scroll": 6.3125,
+    "scroll": 14.0625,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 70
+        "line": 16,
+        "ch": 42
       },
       "to": {
-        "line": 26,
-        "ch": 70
+        "line": 16,
+        "ch": 42
       }
     },
     "expandedKeys": [

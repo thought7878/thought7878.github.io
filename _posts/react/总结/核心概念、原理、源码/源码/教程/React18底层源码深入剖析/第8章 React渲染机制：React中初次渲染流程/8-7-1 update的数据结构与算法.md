@@ -51,7 +51,7 @@
 ---
 
 - **为何需要 UpdateQueue？**
-    *避免每个 update 单独提交带来的高开销，采用合并提交策略*。
+    *避免每个 update 单独提交带来的高开销，采用批量更新、合并提交策略*。
 - 类比：打鱼与集市  
     多个 update 如同捕获的鱼，需暂存“池塘”（即 `UpdateQueue`），积累后统一处理。
 - *UpdateQueue 结构* [05:03](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=303)  

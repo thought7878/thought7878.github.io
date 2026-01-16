@@ -13,11 +13,13 @@ export type Update<State> = {|
   
   tag: 0 | 1 | 2 | 3,        // 更新标签，区分不同类型的更新操作：
                               // 0 = UpdateState (状态更新)
-                              // 1 = ReplaceState (替换状态) 
-                              // 2 = ForceUpdate (强制更新)
+                              // 1 = ReplaceState (类组件的替换状态) 
+                              // 2 = ForceUpdate (类组件的强制更新)
                               // 3 = CaptureUpdate (捕获更新，用于错误处理)
   
   payload: any,               // 更新的负载数据，根据更新类型不同而不同：
+							  // - 初次渲染时，payload 为子节点（如 React Element）
+							  // - 类组件调用 setState 时，payload 为状态修改值或函数
                               // - 对于状态更新，是新的状态值或状态计算函数
                               // - 对于属性更新，是新的属性对象
                               

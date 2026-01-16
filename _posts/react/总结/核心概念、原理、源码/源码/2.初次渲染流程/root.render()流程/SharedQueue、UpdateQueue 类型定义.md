@@ -7,7 +7,7 @@
 // 共享队列类型定义，用于跟踪等待中的更新
 export type SharedQueue<State> = {|
   pending: Update<State> | null,  // 指向等待处理的最新更新，形成一个循环链表
-  lanes: Lanes,                   // 表示当前等待的更新所处的优先级车道
+  lanes: Lanes,                   // 表示当前等待的多个更新所处的优先级车道
 |};
 
 // 更新队列类型定义，完整描述了一个组件的更新状态
@@ -32,4 +32,4 @@ export type UpdateQueue<State> = {|
    - `shared`：指向共享队列
    - [effects](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/fixtures/fiber-debugger/src/describeFibers.js#L40-L49)：用于调试的副作用数组
 
-这种设计*允许 React 在渲染过程中处理新的状态更新，同时保持状态的一致性*。**当有新更新到达时，它们会被添加到 [SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 中，然后在适当的时候与基准状态合并，形成最终的新状态**。
+这种设计*允许 React **在渲染过程中**处理新的状态更新，同时保持状态的一致性*。**当有新更新到达时，它们会被添加到 [SharedQueue](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%99/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L137-L140) 中，然后在适当的时候与基准状态合并，形成最终的新状态**。
