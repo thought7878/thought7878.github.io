@@ -8033,15 +8033,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md": {
-    "scroll": 0.6464646464646465,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 27
+        "line": 58,
+        "ch": 67
       },
       "to": {
-        "line": 12,
-        "ch": 31
+        "line": 58,
+        "ch": 67
       }
     },
     "expandedKeys": []
@@ -8103,15 +8103,29 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 ensureRootIsScheduled.md": {
-    "scroll": 124.03385416666667,
+    "scroll": 16.8515625,
     "cursor": {
       "from": {
-        "line": 133,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 133,
+        "line": 27,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/生老病死.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 9
+      },
+      "to": {
+        "line": 1,
+        "ch": 9
       }
     },
     "expandedKeys": []
