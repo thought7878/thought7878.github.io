@@ -137,6 +137,8 @@ export type UpdateQueue<State> = {|
 ## initializeUpdateQueue：初始化 fiber.updateQueue  
 [07:58](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=478)
 
+参考：
+
 这段代码定义了 `initializeUpdateQueue` 函数，用于**初始化 Fiber 节点的更新队列updateQueue**。详细解释：
 
 ```javascript
@@ -221,44 +223,8 @@ export function initializeUpdateQueue<State>(fiber: Fiber): void {
 ### 创建函数  
 [10:54](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=654)
 
-`createUpdate(lane)`，用于*创建一个新的更新对象，返回一个 update 对象*。
+参考：[[createUpdate()]]、[[2.1 createUpdate]]
 
-```javascript
-// 创建一个新的更新对象的函数
-// eventTime: 事件发生的时间戳
-// lane: 更新的优先级车道
-export function createUpdate(eventTime: number, lane: Lane): Update<*> {
-  // 创建一个 Update 对象，包含所有必要的更新信息
-  const update: Update<*> = {
-    // 设置事件发生的时间戳，用于优先级计算和调度决策
-    eventTime,
-    
-    // 设置更新的优先级车道，决定更新的执行顺序
-    lane,
-
-    // 设置更新标签为 UpdateState (值为0)，表示这是一个状态更新
-    // 这是最常见的更新类型，用于常规的状态变更
-    tag: UpdateState,
-    
-    // 初始时没有负载数据，payload 会在后续被赋予实际的状态值或函数
-    // payload 可以是新的状态值或一个返回新状态的函数
-    payload: null,
-    
-    // 初始时没有回调函数，callback 会在后续被设置（如 setState 的回调）
-    // 回调函数会在更新提交后执行
-    callback: null,
-
-    // 初始时没有下一个更新，next 为 null，当需要形成更新队列时会指向下一个更新
-    // 这允许将多个更新链接成一个链表结构
-    next: null,
-  };
-  
-  // 返回创建的更新对象
-  return update;
-}
-```
-
-这个函数是 React 更新机制的基础构建块之一，*它创建一个基本的更新对象，后续可以根据具体情况进行扩展和定制*。**创建的更新对象会被添加到组件的更新队列中，等待被处理**。`UpdateState` 标签表明这是一个常规的状态更新，而不是强制更新或错误捕获更新。
 
 ---
 
@@ -296,127 +262,16 @@ export function createUpdate(eventTime: number, lane: Lane): Update<*> {
     使用按位或 (`|`) 运算合并所有 update 的 lane，得出整体优先级。
 
 ---
+参考：[[2.2 enqueueUpdate]]
 
-这段代码定义了 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数，用于将更新添加到 Fiber 节点的更新队列中。让我详细解释：
-
-```javascript
-// 将更新对象添加到 Fiber 节点的更新队列中的函数
-// fiber: 要更新的 Fiber 节点
-// update: 要添加的更新对象
-// lane: 更新的优先级车道
-export function enqueueUpdate<State>(
-  fiber: Fiber,
-  update: Update<State>,
-  lane: Lane,
-): FiberRoot | null {
-  // 获取 Fiber 节点的更新队列
-  const updateQueue = fiber.updateQueue;
-  if (updateQueue === null) {
-    // 如果更新队列不存在，说明该 fiber 已经被卸载
-    return null;
-  }
-
-  // 获取共享队列部分，这是可以跨 Fiber 实例共享的部分
-  const sharedQueue: SharedQueue<State> = (updateQueue: any).shared;
-
-  if (__DEV__) {
-    // 在开发环境中，检测是否在更新函数内部调度了更新
-    if (
-      currentlyProcessingQueue === sharedQueue &&  // 检查是否在处理相同的队列
-      !didWarnUpdateInsideUpdate  // 检查是否已经警告过
-    ) {
-      // 发出警告：从更新函数内部调度了更新，更新函数应该是纯函数，不应该有副作用
-      console.error(
-        'An update (setState, replaceState, or forceUpdate) was scheduled ' +
-          'from inside an update function. Update functions should be pure, ' +
-          'with zero side-effects. Consider using componentDidUpdate or a ' +
-          'callback.',
-      );
-      // 标记已警告，避免重复警告
-      didWarnUpdateInsideUpdate = true;
-    }
-  }
-
-  // 类组件的旧的生命周期相关的update，这里不再展开详解
-  // 检查是否是不安全的渲染阶段更新（在类组件中）
-  if (isUnsafeClassRenderPhaseUpdate(fiber)) {
-    // 这是一个不安全的渲染阶段更新。直接添加到更新队列，
-    // 以便我们可以在当前渲染期间立即处理它
-    
-    // 获取当前等待处理的更新
-    const pending = sharedQueue.pending;
-    if (pending === null) {
-      // 如果没有等待处理的更新，这是第一个更新，创建一个循环链表
-      update.next = update;  // 将更新的 next 指向自己，形成循环
-    } else {
-      // 如果已有等待处理的更新，将新更新插入到链表中
-      update.next = pending.next;  // 新更新的 next 指向原来第一个更新
-      pending.next = update;       // 原来的最后一个更新指向新更新
-    }
-    // 将新更新设为等待处理的更新（最新的更新）
-    sharedQueue.pending = update;
-
-    // 即使我们很可能已经在渲染这个 fiber，也要更新 childLanes
-    // 这是为了向后兼容，以防你在渲染阶段更新了与当前渲染组件
-    // 不同的组件（这种模式会伴随一个警告）
-    return unsafe_markUpdateLaneFromFiberToRoot(fiber, lane);
-  } else {
-    // 对于非渲染阶段的更新，使用并发更新队列
-    return enqueueConcurrentClassUpdate(fiber, sharedQueue, update, lane);
-  }
-}
-```
-
-这个函数*处理了两种不同类型的更新：*
-1. **渲染阶段更新**：如果在渲染阶段发生更新，需要立即处理，因为它可能影响当前渲染的结果。这种更新会直接添加到共享队列的循环链表中。
-2. **常规更新**：对于不在渲染阶段的更新，会使用并发更新机制（`enqueueConcurrentClassUpdate`），*这样可以支持优先级调度和并发处理*。
-
-函数还包含了一些重要的功能：
-- 检测并警告不安全的更新模式（在更新函数内部再次发起更新）
-- 处理循环链表结构以维护更新的顺序
-- 返回根节点以进行进一步的调度处理
 
 ### enqueueConcurrentClassUpdate
-调用：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`的enqueueUpdate()
-实现：`packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js`
 
-这段代码定义了 `enqueueConcurrentClassUpdate` 函数，用于**在类组件中将更新添加到并发更新队列**。让我详细解释：
-
-```javascript
-// 在类组件中将更新添加到并发更新队列的函数
-// fiber: 要更新的 Fiber 节点
-// queue: 类组件的更新队列
-// update: 要添加的更新对象
-// lane: 更新的优先级车道
-export function enqueueConcurrentClassUpdate<State>(
-  fiber: Fiber,
-  queue: ClassQueue<State>,
-  update: ClassUpdate<State>,
-  lane: Lane,
-): FiberRoot | null {
-  // 将队列转换为并发队列类型
-  const concurrentQueue: ConcurrentQueue = (queue: any);
-  
-  // 将更新转换为并发更新类型
-  const concurrentUpdate: ConcurrentUpdate = (update: any);
-  
-  // 调用通用的 enqueueUpdate 函数将更新添加到队列中
-  // 这里使用类型转换是因为参数类型名称不同，但实际结构兼容
-  enqueueUpdate(fiber, concurrentQueue, concurrentUpdate, lane);
-  
-  // 获取并返回与更新的 Fiber 相关的根节点
-  // 这个根节点将用于后续的调度和渲染过程
-  return getRootForUpdatedFiber(fiber);
-}
-```
-
-这个函数是 React 并发更新机制的一部分，专门用于处理类组件的更新。它将更新添加到并发队列中，这样 React 可以在并发模式下正确地调度和处理这些更新。函数最终返回与更新的 Fiber 相关的根节点，以便 React 知道哪个应用需要重新渲染。
-
-这个函数是一个包装器，将类组件的更新转换为并发更新格式，并将其传递给底层的 [enqueueUpdate](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberConcurrentUpdates.new.js#L88-L111) 函数进行处理。这样可以确保类组件的更新遵循并发更新的规则和优先级系统。
+参考：[[2.2.1 enqueueConcurrentClassUpdate]]
 
 ## finishQueueingConcurrentUpdates：管理、消费更新队列
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)
-initializeUpdateQueue--->createUpdate--->enqueueUpdate--->scheduleUpdateOnFiber--->performConcurrentWorkOnRoot--->render--->*finishQueueingConcurrentUpdates*--->workLoopSync--开始循环->performUnitOfWork--->beginWork--->processUpdateQueue--->reconcile--循环结束->*finishQueueingConcurrentUpdates*--->commitRootImpl
+initializeUpdateQueue--->createUpdate--->enqueueUpdate--->scheduleUpdateOnFiber--->performConcurrentWorkOnRoot--->renderRootSync--->*finishQueueingConcurrentUpdates*--->workLoopSync--开始循环->performUnitOfWork--->beginWork--->processUpdateQueue--->reconcile--循环结束->*finishQueueingConcurrentUpdates*--->commitRootImpl
 
 finishQueueingConcurrentUpdates 把 concurrentQueues的内容添加到fiber的updateQueue中。在render阶段，有两处调用 finishQueueingConcurrentUpdates，分别是：
 - 1.render开始的时候，在 prepareFreshStack 函数中。packages/react-reconciler/src/ReactFiberWorkLoop.new.js：prepareFreshStack
