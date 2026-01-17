@@ -6,15 +6,19 @@ React 18的初次渲染流程采用了全新的并发模式架构，主要分为
 参考：[[1.1 创建根节点与初始化]]
 
 - 通过`createRoot(container)` API**创建Fiber根节点（FiberRootNode）**
+	- **创建根Fiber节点（rootFiber）** 并**初始化更新队列**
 - **调用`root.render(<App/>)`触发渲染流程**
-- **创建根Fiber节点（rootFiber）** 并**初始化更新队列**
 
 ## 2. 更新调度阶段
+参考：[[1.2 更新调度阶段]]
+
 - 生成初始Update对象，放入UpdateQueue
 - 调用`scheduleUpdateOnFiber`**进行任务调度**
 - 确定优先级（初次渲染通常为SyncLane，同步优先级）
 
 ## 3. Render阶段（协调/Reconciliation）
+参考：[[1.3 Render阶段（协调、Reconciliation）]]
+
 - **beginWork流程**：深度优先遍历Fiber树
   - HostRoot: 处理根节点
   - 函数组件：执行函数获取children
@@ -28,12 +32,16 @@ React 18的初次渲染流程采用了全新的并发模式架构，主要分为
   - 为DOM节点设置props（如onClick等事件）
 
 ## 4. 提交阶段（Commit，不可中断）
+参考：[[1.4 提交阶段（Commit，不可中断）]]
+
 分为三个子阶段：
 - **before mutation**：读取DOM状态，触发getSnapshotBeforeUpdate
 - **mutation**：执行DOM变更（插入、更新、删除节点）
 - **layout**：执行useLayoutEffect和componentDidMount等同步生命周期
 
 ## 5. 渲染后处理
+参考：[[1.5 渲染后处理]]
+
 - 异步执行useEffect钩子
 - 触发onRender完成回调
 - 启用并发特性（如自动批处理）
