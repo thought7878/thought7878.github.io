@@ -8164,15 +8164,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 119.99441860465116,
+    "scroll": 122.8431007751938,
     "cursor": {
       "from": {
-        "line": 128,
-        "ch": 23
+        "line": 135,
+        "ch": 19
       },
       "to": {
-        "line": 128,
-        "ch": 23
+        "line": 135,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -8325,15 +8325,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md": {
-    "scroll": 131.47937984496124,
+    "scroll": 196.2744140625,
     "cursor": {
       "from": {
-        "line": 146,
-        "ch": 0
+        "line": 144,
+        "ch": 2
       },
       "to": {
-        "line": 146,
-        "ch": 0
+        "line": 144,
+        "ch": 2
       }
     },
     "expandedKeys": [
@@ -8354,14 +8354,14 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述.md": {
-    "scroll": 0,
+    "scroll": 0.7878787878787878,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       },
       "to": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       }
     },
@@ -8377,7 +8377,9 @@
       "item-2-14",
       "item-3-9",
       "item-2-7",
-      "item-2-5"
+      "item-2-5",
+      "item-2-6",
+      "item-2-12"
     ]
   }
 }

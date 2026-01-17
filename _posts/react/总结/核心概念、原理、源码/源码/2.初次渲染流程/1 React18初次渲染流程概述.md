@@ -26,17 +26,17 @@ React 18的`初次渲染流程`*采用了全新的并发模式架构，主要分
   - 原生DOM节点：准备创建DOM节点
 
 - **completeWork流程**：
-  - 为原生DOM节点创建真实DOM元素
-  - 构建Fiber节点间的父子/兄弟指针
-  - 收集副作用（effects）链表
-  - 为DOM节点设置props（如onClick等事件）
+  - 为原生DOM节点*创建真实DOM元素*
+  - *构建Fiber节点间的父子/兄弟指针*
+  - *收集副作用（effects）链表*
+  - *为DOM节点设置props*（如onClick等事件）
 
 ## 4. 提交阶段（Commit，不可中断）
 参考：[[1.4 提交阶段（Commit，不可中断）]]
 
 分为三个子阶段：
 - **before mutation**：读取DOM状态，触发getSnapshotBeforeUpdate
-- **mutation**：执行DOM变更（插入、更新、删除节点）
+- **mutation**：*执行DOM变更（插入、更新、删除节点）*
 - **layout**：执行useLayoutEffect和componentDidMount等同步生命周期
 
 ## 5. 渲染后处理
