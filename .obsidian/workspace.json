@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/Lane：更新优先级.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FiberRoot"
+              "title": "Lane：更新优先级"
             }
           },
           {
@@ -766,6 +766,8 @@
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 ensureRootIsScheduled.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/Lane：更新优先级.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md",
     "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 scheduleUpdateOnFiber.md",
     "_posts/读书笔记/生老病死.md",
@@ -791,8 +793,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1. 创建根节点与初始化.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/createRoot的流程.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程",

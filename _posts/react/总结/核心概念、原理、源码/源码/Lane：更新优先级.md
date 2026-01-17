@@ -1,6 +1,6 @@
 # React 中的 Lane 模型详解
 
-在 React 18 的并发渲染架构中，**Lane 模型**取代了旧版的 Expiration Time 模型，成为 React 调度系统的核心。Lane 模型使用`位掩码（bitmask）` **表示更新优先级**，解决了旧模型在批处理、优先级冲突等问题，是实现并发模式（Concurrent Mode）的关键基础设施。
+在 React 18 的并发渲染架构中，**Lane 模型**取代了旧版的 Expiration Time 模型，成为 React 调度系统的核心。Lane 模型使用`位掩码（bitmask）` **表示更新优先级**，解决了旧模型在批处理、优先级冲突等问题，*是实现并发模式（Concurrent Mode）的关键基础设施*。
 
 ---
 
@@ -155,11 +155,11 @@ function workLoop() {
 
 ### 5. **Fiber 树中的 Lane 属性**
 - **`pendingLanes`** (FiberRoot)：  
-  根节点上所有待处理更新的优先级集合
+  *根节点上所有待处理更新的优先级集合*
 - **`lanes`** (Fiber 节点)：  
-  当前 Fiber 节点自身更新的优先级
+  *当前 Fiber 节点自身更新的优先级*
 - **`childLanes`** (Fiber 节点)：  
-  **子树**中所有更新的优先级集合（用于快速跳过无更新的子树）
+  **子树**中所有更新的优先级集合（用于*快速跳过无更新的子树*）
   
 ```js
 // 跳过无更新子树的优化

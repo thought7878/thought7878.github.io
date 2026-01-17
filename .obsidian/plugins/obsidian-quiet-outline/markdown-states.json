@@ -8103,18 +8103,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 ensureRootIsScheduled.md": {
-    "scroll": 26.172526041666668,
+    "scroll": 26.797526041666668,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 35,
         "ch": 19
       },
       "to": {
-        "line": 29,
-        "ch": 19
+        "line": 35,
+        "ch": 15
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
   },
   "_posts/读书笔记/生老病死.md": {
     "scroll": 0,
@@ -8131,15 +8134,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 0,
+    "scroll": 45.44025539677713,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 37
+        "line": 57,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 37
+        "line": 57,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -8152,6 +8155,43 @@
       "item-2-15",
       "item-2-26",
       "item-2-31"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 124
+      },
+      "to": {
+        "line": 2,
+        "ch": 124
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/Lane：更新优先级.md": {
+    "scroll": 347.28467936678294,
+    "cursor": {
+      "from": {
+        "line": 357,
+        "ch": 0
+      },
+      "to": {
+        "line": 357,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-4",
+      "item-2-9",
+      "item-2-15",
+      "item-2-19",
+      "item-2-23",
+      "item-2-28"
     ]
   }
 }

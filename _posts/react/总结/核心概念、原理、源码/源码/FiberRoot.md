@@ -51,7 +51,7 @@ this.pendingChildren = null; // 挂起的子节点
 - **React 18改进**: 更高效地处理Suspense边界
 
 ## 2. 调度与优先级系统
-
+Lane源码：packages/react-reconciler/src/ReactFiberLane.new.js
 ### pendingLanes
 ```javascript
 this.pendingLanes = NoLanes; // 待处理的更新优先级车道
