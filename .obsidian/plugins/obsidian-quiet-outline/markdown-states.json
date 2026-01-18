@@ -8149,22 +8149,24 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 94.89612403100776,
+    "scroll": 124.33770375620128,
     "cursor": {
       "from": {
-        "line": 119,
-        "ch": 62
+        "line": 140,
+        "ch": 39
       },
       "to": {
-        "line": 119,
-        "ch": 62
+        "line": 140,
+        "ch": 39
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-1-0",
       "item-2-12",
-      "item-2-6"
+      "item-2-6",
+      "item-2-10",
+      "item-2-15"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
@@ -8205,20 +8207,23 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 329.0641276041667,
+    "scroll": 329.6881510416667,
     "cursor": {
       "from": {
-        "line": 331,
-        "ch": 22
+        "line": 338,
+        "ch": 13
       },
       "to": {
-        "line": 331,
-        "ch": 22
+        "line": 338,
+        "ch": 13
       }
     },
     "expandedKeys": [
-      "item-2-10",
-      "item-1-0"
+      "item-2-1",
+      "item-1-0",
+      "item-2-12",
+      "item-2-6",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8414,21 +8419,23 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md": {
-    "scroll": 8.778171509567683,
+    "scroll": 21.19314236111111,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 116
+        "line": 27,
+        "ch": 66
       },
       "to": {
-        "line": 18,
-        "ch": 116
+        "line": 27,
+        "ch": 66
       }
     },
     "expandedKeys": [
-      "item-2-8",
-      "item-2-10",
-      "item-1-0"
+      "item-2-1",
+      "item-1-0",
+      "item-2-12",
+      "item-2-6",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/Untitled.md": {
@@ -8555,7 +8562,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md": {
-    "scroll": 56.984700520833336,
+    "scroll": 52.596516927083336,
     "cursor": {
       "from": {
         "line": 47,
@@ -8568,7 +8575,10 @@
     },
     "expandedKeys": [
       "item-2-1",
-      "item-1-0"
+      "item-1-0",
+      "item-2-12",
+      "item-2-6",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md": {
@@ -8589,22 +8599,24 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md": {
-    "scroll": 26.005859375,
+    "scroll": 30.589192708333332,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 74
+        "line": 49,
+        "ch": 18
       },
       "to": {
-        "line": 40,
-        "ch": 74
+        "line": 49,
+        "ch": 18
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-1-0",
       "item-2-12",
-      "item-2-6"
+      "item-2-6",
+      "item-2-10",
+      "item-2-15"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md": {
