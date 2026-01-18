@@ -8075,12 +8075,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
       "item-2-2",
-      "item-2-10"
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/markRootUpdated.md": {
@@ -8239,20 +8235,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 194.97298177083334,
+    "scroll": 269.8110650510204,
     "cursor": {
       "from": {
-        "line": 203,
-        "ch": 22
+        "line": 295,
+        "ch": 8
       },
       "to": {
-        "line": 203,
-        "ch": 22
+        "line": 295,
+        "ch": 15
       }
     },
     "expandedKeys": [
       "item-2-2",
-      "item-1-0"
+      "item-1-0",
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8371,20 +8368,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
       "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12"
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-18.md": {
@@ -8460,17 +8445,52 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md": {
-    "scroll": 3.9778645833333335,
+    "scroll": 6.629340277777778,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 2
+        "line": 15,
+        "ch": 112
       },
       "to": {
-        "line": 10,
-        "ch": 2
+        "line": 15,
+        "ch": 112
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-10"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/listenToAllSupportedEvents.md": {
+    "scroll": 37.479166666666664,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 45
+      },
+      "to": {
+        "line": 11,
+        "ch": 45
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0"
+    ]
   }
 }
