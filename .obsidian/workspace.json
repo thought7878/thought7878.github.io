@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.1 创建根节点与初始化"
+              "title": "2.4 scheduleUpdateOnFiber"
             }
           },
           {
@@ -739,7 +739,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -765,23 +765,25 @@
   },
   "active": "3c65f224858f05f9",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
+    "_posts/AI/短视频/AI工具总结.md",
+    "_posts/AI/AI.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media/3a03f377b3c89a4359de8e25e93f52d4_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 enqueueConcurrentClassUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1.1 markUpdateLaneFromFiberToRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
     "_posts/读书笔记/人性.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2 createUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md",
     "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/jsx.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/ReactElement.md",
@@ -791,7 +793,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-18.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/1.整体流程解读.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/2.阅读源码的方法.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/root.render的流程.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/b22240950692036d1f85a791a382e78d_MD5.webp",
@@ -804,7 +805,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/cc8a7b8bb2ed5db48f24a5d9e43c7f27_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/127e2140bbc13f91dc014e8aa2b4e4a7_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/6b04c242d9281687cf799e9c5235399e_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/2aac2c497d3fe6861fbe0240c48562db_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程",
