@@ -8149,32 +8149,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 122.8431007751938,
+    "scroll": 94.89612403100776,
     "cursor": {
       "from": {
-        "line": 137,
-        "ch": 0
+        "line": 119,
+        "ch": 62
       },
       "to": {
-        "line": 137,
-        "ch": 0
+        "line": 119,
+        "ch": 62
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
+      "item-2-1",
       "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12"
+      "item-2-12",
+      "item-2-6"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
@@ -8565,14 +8555,14 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md": {
-    "scroll": 0.0707070707070707,
+    "scroll": 56.984700520833336,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 47,
         "ch": 26
       },
       "to": {
-        "line": 10,
+        "line": 47,
         "ch": 26
       }
     },
@@ -8599,20 +8589,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md": {
-    "scroll": 0,
+    "scroll": 26.005859375,
     "cursor": {
       "from": {
-        "line": 94,
-        "ch": 7
+        "line": 40,
+        "ch": 74
       },
       "to": {
-        "line": 94,
-        "ch": 7
+        "line": 40,
+        "ch": 74
       }
     },
     "expandedKeys": [
       "item-2-1",
-      "item-1-0"
+      "item-1-0",
+      "item-2-12",
+      "item-2-6"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md": {

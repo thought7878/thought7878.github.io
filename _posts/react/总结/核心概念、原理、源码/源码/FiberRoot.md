@@ -57,7 +57,7 @@ Lane源码：packages/react-reconciler/src/ReactFiberLane.new.js
 this.pendingLanes = NoLanes; // 待处理的更新优先级车道
 ```
 - **类型**: `Lanes`（31位bitmask）
-- **功能**: *标记所有挂起的更新优先级*
+- **功能**: *标记所有待处理的更新的优先级*
 - **计算方式**: 
   ```javascript
   root.pendingLanes = mergeLanes(root.pendingLanes, updateLane);
