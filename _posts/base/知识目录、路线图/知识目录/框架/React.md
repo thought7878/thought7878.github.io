@@ -15,7 +15,7 @@
 参考 [[函数组件]]
 
 ### JSX
-参考 [[JSX]]
+参考 [[_posts/react/总结/Components/JSX]]
 ### Props vs State
 参考 [[Props & State]]
 

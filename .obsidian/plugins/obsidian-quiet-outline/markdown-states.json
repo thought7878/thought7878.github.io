@@ -8235,21 +8235,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 269.8110650510204,
+    "scroll": 255.40733506944446,
     "cursor": {
       "from": {
-        "line": 295,
-        "ch": 8
+        "line": 281,
+        "ch": 28
       },
       "to": {
-        "line": 295,
-        "ch": 15
+        "line": 281,
+        "ch": 28
       }
     },
     "expandedKeys": [
-      "item-2-2",
+      "item-3-12",
+      "item-2-10",
       "item-1-0",
-      "item-2-10"
+      "item-2-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8492,5 +8493,33 @@
       "item-2-2",
       "item-1-0"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/jsx.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/ReactElement.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 109
+      },
+      "to": {
+        "line": 3,
+        "ch": 109
+      }
+    },
+    "expandedKeys": []
   }
 }

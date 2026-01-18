@@ -1,7 +1,7 @@
 # React 核心概念
 
 ## JSX
-参考 [[JSX]]
+参考 [[_posts/react/总结/Components/JSX]]
 
 - 语法扩展
 - 嵌入表达式
