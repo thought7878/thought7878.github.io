@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.1 requestUpdateLane()"
+              "title": "3.渲染前流程"
             }
           },
           {
@@ -739,7 +739,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -763,16 +763,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "3c65f224858f05f9",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 enqueueConcurrentClassUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2 createUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md",
     "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/jsx.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/ReactElement.md",
