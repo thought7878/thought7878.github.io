@@ -100,7 +100,7 @@
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
-参考：[[createUpdate()]]、[[2.1 createUpdate]]
+参考：[[createUpdate()]]、[[2.2 createUpdate]]
 
 ### 触发创建的场景
 - `root.render()-->updateContainer()`：创建初次渲染的 update。
@@ -125,7 +125,7 @@
 调用：`packages/react-reconciler/src/ReactFiberReconciler.new.js`的updateContainer()
 实现：`packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
-参考：[[2.2 enqueueUpdate]]
+参考：[[2.3 enqueueUpdate]]
 
 ### 调用的场景
 - `root.render()-->updateContainer()`：初次渲染，调用enqueueUpdate。
@@ -153,7 +153,7 @@
 
 ### enqueueConcurrentClassUpdate
 
-参考：[[2.2.1 enqueueConcurrentClassUpdate]]
+参考：[[2.3.1 enqueueConcurrentClassUpdate]]
 
 ## finishQueueingConcurrentUpdates：管理更新队列
 [18:02](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=1082)

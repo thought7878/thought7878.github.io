@@ -7403,7 +7403,12 @@
         "ch": 35
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-12",
+      "item-2-10",
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/getCurrentEventPriority().md": {
     "scroll": 363.70234113712377,
@@ -8235,22 +8240,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 255.40733506944446,
+    "scroll": 303.0263671875,
     "cursor": {
       "from": {
-        "line": 281,
-        "ch": 28
+        "line": 326,
+        "ch": 19
       },
       "to": {
-        "line": 281,
-        "ch": 28
+        "line": 326,
+        "ch": 19
       }
     },
     "expandedKeys": [
-      "item-3-12",
+      "item-2-8",
       "item-2-10",
-      "item-1-0",
-      "item-2-2"
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8521,5 +8525,148 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/requestUpdateLane().md": {
+    "scroll": 6.520833333333333,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 27
+      },
+      "to": {
+        "line": 22,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/表达式、运算符/位运算符.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 38
+      },
+      "to": {
+        "line": 35,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md": {
+    "scroll": 22.71875,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 9
+      },
+      "to": {
+        "line": 17,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-2-8",
+      "item-2-10",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2 createUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 14
+      },
+      "to": {
+        "line": 11,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 22
+      },
+      "to": {
+        "line": 18,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 19
+      },
+      "to": {
+        "line": 34,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md": {
+    "scroll": 88.32291666666667,
+    "cursor": {
+      "from": {
+        "line": 94,
+        "ch": 7
+      },
+      "to": {
+        "line": 94,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md": {
+    "scroll": 35.71875,
+    "cursor": {
+      "from": {
+        "line": 45,
+        "ch": 27
+      },
+      "to": {
+        "line": 45,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-2-8"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 enqueueConcurrentClassUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 27
+      },
+      "to": {
+        "line": 15,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-2-8"
+    ]
   }
 }
