@@ -33,7 +33,7 @@
 ## markUpdateLaneFromFiberToRoot：向上遍历更新childLanes 
 [02:50](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=170)
 
-参考：[[markUpdateLaneFromFiberToRoot]]
+参考：[[2.3.1.1 markUpdateLaneFromFiberToRoot]]
 
 - max函数作用 [02:44](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=164)  
     从当前fiber节点向上追溯至根节点，目的是更新路径上所有父节点的`childLanes`。

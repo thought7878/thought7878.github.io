@@ -7254,33 +7254,33 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 191.48567708333334,
+    "scroll": 104.93196614583333,
     "cursor": {
       "from": {
-        "line": 166,
-        "ch": 6
+        "line": 123,
+        "ch": 44
       },
       "to": {
-        "line": 166,
-        "ch": 6
+        "line": 123,
+        "ch": 44
       }
     },
     "expandedKeys": [
-      "item-2-56",
-      "item-1-49",
-      "item-1-34",
-      "item-1-1",
-      "item-2-3",
-      "item-2-6",
-      "item-2-2",
-      "item-2-9",
-      "item-2-11",
-      "item-2-8",
-      "item-2-0",
-      "item-2-10",
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
       "item-1-0",
-      "item-2-1",
-      "item-2-5"
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12",
+      "item-2-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md": {
@@ -7456,21 +7456,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-56",
-      "item-1-49",
-      "item-1-34",
-      "item-1-1",
-      "item-2-3",
-      "item-2-6",
-      "item-2-2",
-      "item-2-9",
-      "item-2-11",
       "item-2-8",
-      "item-2-0",
       "item-2-10",
-      "item-1-0",
-      "item-2-1",
-      "item-2-5"
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md": {
@@ -8240,21 +8228,32 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 313.2799479166667,
+    "scroll": 305.9173177083333,
     "cursor": {
       "from": {
-        "line": 333,
-        "ch": 13
+        "line": 327,
+        "ch": 106
       },
       "to": {
-        "line": 333,
-        "ch": 13
+        "line": 327,
+        "ch": 106
       }
     },
     "expandedKeys": [
-      "item-2-8",
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
       "item-2-10",
-      "item-1-0"
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8453,12 +8452,12 @@
     "scroll": 8.778171509567683,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 2
+        "line": 18,
+        "ch": 116
       },
       "to": {
-        "line": 19,
-        "ch": 2
+        "line": 18,
+        "ch": 116
       }
     },
     "expandedKeys": [
@@ -8584,7 +8583,11 @@
         "ch": 14
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-8",
+      "item-2-10",
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md": {
     "scroll": 0,
@@ -8638,35 +8641,151 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3 enqueueUpdate.md": {
-    "scroll": 35.71875,
+    "scroll": 26.542643229166668,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 27
+        "line": 86,
+        "ch": 22
       },
       "to": {
-        "line": 45,
-        "ch": 27
+        "line": 86,
+        "ch": 22
       }
     },
     "expandedKeys": [
-      "item-2-8"
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 enqueueConcurrentClassUpdate.md": {
-    "scroll": 0,
+    "scroll": 5.080541237113402,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 27
+        "line": 69,
+        "ch": 26
       },
       "to": {
-        "line": 15,
-        "ch": 27
+        "line": 69,
+        "ch": 26
       }
     },
     "expandedKeys": [
-      "item-2-8"
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md": {
+    "scroll": 22.010416666666668,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 41
+      },
+      "to": {
+        "line": 28,
+        "ch": 41
+      }
+    },
+    "expandedKeys": [
+      "item-2-10",
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 19
+      },
+      "to": {
+        "line": 11,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 markUpdateLaneFromFiberToRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 18
+      },
+      "to": {
+        "line": 7,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1.1 markUpdateLaneFromFiberToRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 12
+      },
+      "to": {
+        "line": 9,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12",
+      "item-2-0"
     ]
   }
 }

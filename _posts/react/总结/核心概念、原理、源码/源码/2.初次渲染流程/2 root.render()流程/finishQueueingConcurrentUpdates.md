@@ -75,7 +75,7 @@ export function finishQueueingConcurrentUpdates(): void {
 
 这个函数是 React 并发更新机制的关键部分，负责**批量处理在并发更新过程中暂存的所有更新。它将暂存的更新添加到各自的队列中，并标记需要更新的车道，确保 React 知道哪些部分需要重新渲染**。这是 React 实现高效并发更新的核心机制之一。
 
-参考：[[markUpdateLaneFromFiberToRoot]]
+参考：[[2.3.1.1 markUpdateLaneFromFiberToRoot]]
 
 ---
 
