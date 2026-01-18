@@ -8418,12 +8418,54 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 3,
+        "ch": 65
+      },
+      "to": {
+        "line": 3,
+        "ch": 65
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/1.整体流程解读.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 2
+      },
+      "to": {
+        "line": 7,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/2.阅读源码的方法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md": {
+    "scroll": 0.8888888888888888,
+    "cursor": {
+      "from": {
         "line": 6,
-        "ch": 25
+        "ch": 116
       },
       "to": {
         "line": 6,
-        "ch": 25
+        "ch": 116
       }
     },
     "expandedKeys": []
