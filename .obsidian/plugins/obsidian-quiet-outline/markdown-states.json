@@ -956,14 +956,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 64.92708333333333,
+    "scroll": 35.76318359375,
     "cursor": {
       "from": {
-        "line": 81,
+        "line": 50,
         "ch": 0
       },
       "to": {
-        "line": 81,
+        "line": 50,
         "ch": 0
       }
     },
@@ -7254,32 +7254,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 104.93196614583333,
+    "scroll": 99.36333231985405,
     "cursor": {
       "from": {
-        "line": 123,
-        "ch": 44
+        "line": 124,
+        "ch": 0
       },
       "to": {
-        "line": 123,
-        "ch": 44
+        "line": 124,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
       "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12",
       "item-2-0"
     ]
   },
@@ -8228,32 +8215,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md": {
-    "scroll": 305.9173177083333,
+    "scroll": 325.2682170542636,
     "cursor": {
       "from": {
-        "line": 327,
-        "ch": 106
+        "line": 344,
+        "ch": 17
       },
       "to": {
-        "line": 327,
-        "ch": 106
+        "line": 344,
+        "ch": 17
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
+      "item-2-1",
       "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12"
+      "item-2-10"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述1.md": {
@@ -8593,12 +8569,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 22
+        "line": 12,
+        "ch": 17
       },
       "to": {
-        "line": 18,
-        "ch": 22
+        "line": 12,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -8653,20 +8629,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12"
+      "item-2-1",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.1 enqueueConcurrentClassUpdate.md": {
@@ -8682,20 +8646,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12"
+      "item-2-1",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md": {
@@ -8762,30 +8714,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 12
+        "line": 63,
+        "ch": 23
       },
       "to": {
-        "line": 9,
-        "ch": 12
+        "line": 63,
+        "ch": 23
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12",
-      "item-2-0"
+      "item-2-1",
+      "item-1-0"
     ]
   }
 }
