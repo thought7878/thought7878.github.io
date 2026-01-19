@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-18.md",
+                "file": "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-18"
+              "title": "2026-01-19"
             }
           },
           {
@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/4..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FiberRoot"
+              "title": "4."
             }
           },
           {
@@ -596,7 +596,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -763,13 +763,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c65f224858f05f9",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/4..md",
+    "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
+    "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.2 ensureRootIsScheduled.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4 scheduleUpdateOnFiber.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/8-9 -1 scheduleUpdateOnFiber调度更新.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md",
+    "DailyNote/Journal/01 Daily/2026/01/2026-01-18.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.4.1 markRootUpdated.md",
     "_posts/AI/短视频/AI工具总结.md",
     "_posts/AI/AI.md",
@@ -785,14 +792,7 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.2 createUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md",
-    "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/jsx.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/ReactElement.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/listenToAllSupportedEvents.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 createRoot()流程/initializeUpdateQueue.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-18.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/1.整体流程解读.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/root.render的流程.svg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media/b22240950692036d1f85a791a382e78d_MD5.webp",

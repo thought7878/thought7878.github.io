@@ -86,7 +86,7 @@ this.pingedLanes = NoLanes; // 唤醒的车道
 - **类型**: `Lanes`
 - **功能**: 标记*已被唤醒（数据已解决）但尚未处理的更新*
 - **触发时机**: 
-  - Suspense数据Promise解决时
+  - *Suspense数据Promise解决时*
   - 调用`root.pingTransition()`
 - **处理流程**: 
   ```javascript
@@ -112,8 +112,8 @@ this.expirationTimes = createLaneMap(NoTimestamp);
 ```
 - **类型**: `LaneMap<number>`
 - **功能**:
-  - `eventTimes`: 存储每个lane的最后事件时间
-  - `expirationTimes`: 存储每个lane的过期时间
+  - `eventTimes`: 存储*每个lane的最后事件时间*
+  - `expirationTimes`: 存储*每个lane的过期时间*
 - **数据结构**: 
   ```javascript
   function createLaneMap(initial: T): LaneMap<T> {
