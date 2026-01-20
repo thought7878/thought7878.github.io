@@ -8886,15 +8886,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1 renderRootSync.md": {
-    "scroll": 49.030924479166664,
+    "scroll": 48.572591145833336,
     "cursor": {
       "from": {
         "line": 73,
-        "ch": 6
+        "ch": 14
       },
       "to": {
         "line": 73,
-        "ch": 18
+        "ch": 14
       }
     },
     "expandedKeys": []
@@ -8914,7 +8914,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.1 prepareFreshStack.md": {
-    "scroll": 20.017903645833332,
+    "scroll": 42.8095703125,
     "cursor": {
       "from": {
         "line": 37,
@@ -8923,6 +8923,34 @@
       "to": {
         "line": 37,
         "ch": 37
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md": {
+    "scroll": 16.883277751310146,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 45
+      },
+      "to": {
+        "line": 34,
+        "ch": 45
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
+    "scroll": 19.50894941634241,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
       }
     },
     "expandedKeys": []
