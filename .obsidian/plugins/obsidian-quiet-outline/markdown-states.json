@@ -8155,21 +8155,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 112.32228640924293,
+    "scroll": 18.721580656802598,
     "cursor": {
       "from": {
-        "line": 139,
+        "line": 44,
         "ch": 0
       },
       "to": {
-        "line": 139,
+        "line": 44,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-6",
       "item-1-0",
-      "item-2-12"
+      "item-2-12",
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
@@ -8877,21 +8878,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.0 performConcurrentWorkOnRoot.md": {
-    "scroll": 58.072591145833336,
+    "scroll": 104.4892578125,
     "cursor": {
       "from": {
-        "line": 71,
-        "ch": 16
+        "line": 145,
+        "ch": 54
       },
       "to": {
-        "line": 71,
-        "ch": 16
+        "line": 145,
+        "ch": 54
       }
     },
     "expandedKeys": [
       "item-2-6",
       "item-1-0",
-      "item-2-12"
+      "item-2-12",
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1 renderRootSync.md": {

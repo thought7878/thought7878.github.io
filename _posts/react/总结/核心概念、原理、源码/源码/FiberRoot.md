@@ -32,12 +32,12 @@ this.current = null; // 指向当前Fiber树
 this.finishedWork = null; // 已完成的workInProgress树
 ```
 - **类型**: `Fiber | null`
-- **功能**: 存储已完成渲染但尚未提交的Fiber树
+- **功能**: 存储*已完成渲染但尚未提交的Fiber树*
 - **生命周期**:
-  - 在render阶段结束时设置
-  - 在commit阶段被应用到DOM
+  - *在render阶段结束时设置*
+  - *在commit阶段被应用到DOM*
   - 提交完成后重置为null
-- **优化**: 使React能将渲染与提交分离，支持并发模式
+- **优化**: *使React能将渲染与提交分离，支持并发模式*
 
 ### pendingChildren
 ```javascript
