@@ -134,7 +134,7 @@ this.callbackNode = null; // 用于调度的回调节点
   - 创建: `root.callbackNode = scheduleCallback(priority, callback)`
   - 取消: `cancelCallback(root.callbackNode)`
   - 重置: 提交完成后设为null
-- **关键作用**: 支持任务中断和恢复
+- **关键作用**: ***支持任务中断和恢复***
 
 ### callbackPriority
 ```javascript
