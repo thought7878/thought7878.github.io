@@ -423,9 +423,9 @@ root.render(<App />);
    - 调度渲染任务
 
 4. **处理阶段**：
-   - 在render阶段，HostRoot fiber处理此update
-   - 提取payload.element作为子节点
-   - 开始协调\<App\>组件
+   - **在render阶段，HostRoot fiber处理此update**
+   - **提取payload.element作为子节点**
+   - *开始协调\<App\>组件*
 
 ## 9. 调试与性能分析
 
