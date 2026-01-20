@@ -8944,35 +8944,35 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 0,
+    "scroll": 23.38939177386057,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 3
+        "line": 67,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 3
+        "line": 67,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 0,
+    "scroll": 346.3870442708333,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 366,
+        "ch": 19
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 366,
+        "ch": 32
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-1",
+      "item-2-0",
+      "item-2-4"
     ]
   }
 }
