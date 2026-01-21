@@ -8835,15 +8835,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md": {
-    "scroll": 21.7744140625,
+    "scroll": 37.709635416666664,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 18
+        "line": 39,
+        "ch": 110
       },
       "to": {
-        "line": 34,
-        "ch": 18
+        "line": 39,
+        "ch": 110
       }
     },
     "expandedKeys": [
@@ -8931,54 +8931,47 @@
     "scroll": 19.070732587513533,
     "cursor": {
       "from": {
-        "line": 35,
+        "line": 34,
         "ch": 30
       },
       "to": {
-        "line": 35,
+        "line": 34,
         "ch": 30
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 23.38939177386057,
+    "scroll": 29.2275390625,
     "cursor": {
       "from": {
-        "line": 67,
-        "ch": 0
+        "line": 59,
+        "ch": 29
       },
       "to": {
-        "line": 67,
-        "ch": 0
+        "line": 59,
+        "ch": 29
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 986.7763671875,
+    "scroll": 680.7262369791666,
     "cursor": {
       "from": {
-        "line": 1003,
-        "ch": 38
+        "line": 688,
+        "ch": 0
       },
       "to": {
-        "line": 1003,
-        "ch": 38
+        "line": 688,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-0",
       "item-2-4",
-      "item-2-8",
+      "item-2-0",
       "item-2-12",
-      "item-3-22",
-      "item-3-25",
-      "item-3-13",
-      "item-3-27",
-      "item-3-29",
-      "item-4-19"
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
