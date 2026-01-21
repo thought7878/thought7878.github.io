@@ -739,10 +739,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "359e10fd8778e071",
+  "active": "687a79329fbe7b11",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/reconcile.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -766,8 +768,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/3.渲染前流程.md",
     "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.1 创建根节点与初始化.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media/3a03f377b3c89a4359de8e25e93f52d4_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读",

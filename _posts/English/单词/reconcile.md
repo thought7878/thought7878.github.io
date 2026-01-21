@@ -10,11 +10,11 @@
 ### 2. 词性与词义
 
 #### 动词（verb）
-1. **使和解、调和**：指让有分歧的双方恢复友好关系。  
+1. **使和解、调和**：指让有分歧的双方*恢复友好关系*。  
    - 例句：They tried to reconcile their differences and save the marriage.  
      - 翻译：他们试图弥合分歧以挽救婚姻。（来源：牛津词典）
 
-2. **协调、调和矛盾**：使看起来不兼容的事物达成一致。  
+1. **协调、调和矛盾**：*使看起来不兼容的事物达成一致*。  
    - 例句：How can we reconcile economic growth with environmental protection?  
      - 翻译：我们如何能在经济增长与环境保护之间取得平衡？（来源：柯林斯词典）
 
