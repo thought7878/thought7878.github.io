@@ -418,12 +418,12 @@ root.render(<App />);
    ```
 
 3. **入队后**：
-   - Update被添加到根Fiber的updateQueue.shared.pending
+   - Update被添加到rootFiber（根Fiber）的updateQueue.shared.pending
    - 标记根节点需要渲染
    - 调度渲染任务
 
 4. **处理阶段**：
-   - **在render阶段，HostRoot fiber处理此update**
+   - **在render阶段，HostRoot fiber处理此update**。参考：[[3.1.2.1.1 beginWork#updateHostRoot：根节点]]
    - **提取payload.element作为子节点**
    - *开始协调\<App\>组件*
 
