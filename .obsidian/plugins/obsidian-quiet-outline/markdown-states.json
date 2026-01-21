@@ -7250,20 +7250,28 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 99.36333231985405,
+    "scroll": 83.7187595013682,
     "cursor": {
       "from": {
-        "line": 124,
-        "ch": 0
+        "line": 99,
+        "ch": 31
       },
       "to": {
-        "line": 124,
-        "ch": 0
+        "line": 99,
+        "ch": 31
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-0"
+      "item-2-1",
+      "item-2-0",
+      "item-2-4",
+      "item-2-8",
+      "item-2-12",
+      "item-3-19",
+      "item-3-22",
+      "item-3-13",
+      "item-3-24",
+      "item-3-26"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md": {
@@ -8948,15 +8956,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 1135.857054263566,
+    "scroll": 986.7763671875,
     "cursor": {
       "from": {
-        "line": 1153,
-        "ch": 30
+        "line": 1003,
+        "ch": 26
       },
       "to": {
-        "line": 1153,
-        "ch": 30
+        "line": 1003,
+        "ch": 26
       }
     },
     "expandedKeys": [
@@ -8965,8 +8973,12 @@
       "item-2-4",
       "item-2-8",
       "item-2-12",
-      "item-3-18",
-      "item-3-21"
+      "item-3-22",
+      "item-3-25",
+      "item-3-13",
+      "item-3-27",
+      "item-3-29",
+      "item-4-19"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
