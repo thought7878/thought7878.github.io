@@ -497,12 +497,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 8
+        "line": 25,
+        "ch": 150
       },
       "to": {
-        "line": 14,
-        "ch": 8
+        "line": 25,
+        "ch": 150
       }
     },
     "expandedKeys": []
@@ -7429,7 +7429,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md": {
-    "scroll": 405.28868217054264,
+    "scroll": 405.3680620155039,
     "cursor": {
       "from": {
         "line": 425,
@@ -7441,13 +7441,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-8",
-      "item-2-10",
-      "item-1-0",
-      "item-3-9",
-      "item-2-7",
       "item-2-4",
-      "item-2-0"
+      "item-2-0",
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-15.md": {
@@ -8669,20 +8665,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md": {
-    "scroll": 64.58430989583333,
+    "scroll": 7.257984496124031,
     "cursor": {
       "from": {
-        "line": 85,
-        "ch": 35
+        "line": 73,
+        "ch": 73
       },
       "to": {
-        "line": 85,
-        "ch": 35
+        "line": 73,
+        "ch": 73
       }
     },
     "expandedKeys": [
       "item-2-4",
-      "item-2-0"
+      "item-2-0",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.3.2 markUpdateLaneFromFiberToRoot.md": {
@@ -8832,21 +8829,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md": {
-    "scroll": 0,
+    "scroll": 16.110514322916668,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 166
+        "line": 23,
+        "ch": 9
       },
       "to": {
-        "line": 21,
-        "ch": 166
+        "line": 23,
+        "ch": 26
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-2-0",
-      "item-2-4"
+      "item-2-4",
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-20.md": {
@@ -8952,20 +8950,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 390.4970703125,
+    "scroll": 711.4830729166666,
     "cursor": {
       "from": {
-        "line": 404,
-        "ch": 32
+        "line": 735,
+        "ch": 37
       },
       "to": {
-        "line": 404,
-        "ch": 32
+        "line": 735,
+        "ch": 37
       }
     },
     "expandedKeys": [
+      "item-2-1",
+      "item-2-0",
       "item-2-4",
-      "item-2-0"
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
