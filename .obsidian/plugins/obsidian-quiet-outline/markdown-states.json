@@ -8154,22 +8154,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 18.721580656802598,
+    "scroll": 119.29457364341086,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 0
+        "line": 128,
+        "ch": 33
       },
       "to": {
-        "line": 44,
-        "ch": 0
+        "line": 128,
+        "ch": 33
       }
     },
     "expandedKeys": [
-      "item-2-6",
+      "item-2-1",
       "item-1-0",
-      "item-2-12",
-      "item-2-1"
+      "item-2-12"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
@@ -8895,12 +8894,12 @@
     "scroll": 53.072591145833336,
     "cursor": {
       "from": {
-        "line": 69,
-        "ch": 26
+        "line": 68,
+        "ch": 0
       },
       "to": {
-        "line": 69,
-        "ch": 26
+        "line": 68,
+        "ch": 0
       }
     },
     "expandedKeys": []
