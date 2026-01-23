@@ -7256,14 +7256,15 @@
     "cursor": {
       "from": {
         "line": 16,
-        "ch": 33
+        "ch": 23
       },
       "to": {
         "line": 16,
-        "ch": 33
+        "ch": 32
       }
     },
     "expandedKeys": [
+      "item-2-4",
       "item-2-0"
     ]
   },
@@ -7958,15 +7959,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/processUpdateQueue.md": {
-    "scroll": 236.0625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 17
+        "line": 11,
+        "ch": 38
       },
       "to": {
-        "line": 20,
-        "ch": 17
+        "line": 11,
+        "ch": 38
       }
     },
     "expandedKeys": [
@@ -7992,11 +7993,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       }
     },
@@ -8271,25 +8272,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.3 Render阶段（协调、Reconciliation）.md": {
-    "scroll": 180.15494791666666,
+    "scroll": 0.8780487804878049,
     "cursor": {
       "from": {
-        "line": 189,
-        "ch": 31
+        "line": 14,
+        "ch": 32
       },
       "to": {
-        "line": 189,
-        "ch": 31
+        "line": 14,
+        "ch": 32
       }
     },
     "expandedKeys": [
-      "item-2-8",
-      "item-2-10",
-      "item-1-0",
-      "item-3-9",
-      "item-2-7",
-      "item-2-4",
-      "item-2-2"
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md": {
@@ -8969,20 +8964,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 2.934948979591837,
+    "scroll": 351.5361240310078,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 0
+        "line": 368,
+        "ch": 24
       },
       "to": {
-        "line": 18,
-        "ch": 0
+        "line": 368,
+        "ch": 24
       }
     },
     "expandedKeys": [
-      "item-2-4",
-      "item-2-0"
+      "item-2-0",
+      "item-2-5",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
@@ -9037,12 +9033,12 @@
     "scroll": 17.034505208333332,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 0
+        "line": 18,
+        "ch": 17
       },
       "to": {
-        "line": 12,
-        "ch": 0
+        "line": 18,
+        "ch": 17
       }
     },
     "expandedKeys": []
@@ -9100,6 +9096,54 @@
       "item-2-15",
       "item-2-2",
       "item-2-30"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md": {
+    "scroll": 17.034505208333332,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 17
+      },
+      "to": {
+        "line": 18,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md": {
+    "scroll": 14.4140625,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5",
+      "item-2-4"
     ]
   }
 }

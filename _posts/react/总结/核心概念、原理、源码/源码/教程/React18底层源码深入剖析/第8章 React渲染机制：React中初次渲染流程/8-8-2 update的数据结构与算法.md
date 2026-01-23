@@ -79,7 +79,7 @@
 ### 函数解析
 [07:46](https://b.quark.cn/apps/5AZ7aRopS/routes/quark-video-ai-summary/pc?debug=0&fid=ee07702ca0a74c808d527d89b526d87e#?seek_t=466)
 
-参考：[[processUpdateQueue]]
+参考：[[3.1.2.1.1.1 processUpdateQueue]]
 
 
 
