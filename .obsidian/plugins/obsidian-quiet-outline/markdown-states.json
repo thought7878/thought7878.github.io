@@ -8837,21 +8837,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md": {
-    "scroll": 15.6796875,
+    "scroll": 19.2421875,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 166
+        "line": 30,
+        "ch": 11
       },
       "to": {
-        "line": 21,
-        "ch": 166
+        "line": 30,
+        "ch": 31
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-2-5",
-      "item-2-4"
+      "item-2-4",
+      "item-3-6"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-20.md": {
@@ -8969,21 +8970,23 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 686.8876953125,
+    "scroll": 1142.6116536458333,
     "cursor": {
       "from": {
-        "line": 706,
-        "ch": 28
+        "line": 1153,
+        "ch": 0
       },
       "to": {
-        "line": 706,
-        "ch": 28
+        "line": 1153,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-2-5",
-      "item-2-4"
+      "item-2-4",
+      "item-3-6",
+      "item-2-12"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
