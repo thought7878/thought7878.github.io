@@ -8837,22 +8837,18 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md": {
-    "scroll": 0,
+    "scroll": 8.550130208333334,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 166
+        "line": 16,
+        "ch": 132
       },
       "to": {
-        "line": 21,
-        "ch": 166
+        "line": 16,
+        "ch": 132
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-3",
-      "item-2-4"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-20.md": {
     "scroll": 22.300395256916996,
@@ -8871,15 +8867,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.0 performConcurrentWorkOnRoot.md": {
-    "scroll": 0.542713567839196,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 17
+        "line": 17,
+        "ch": 19
       },
       "to": {
-        "line": 16,
-        "ch": 17
+        "line": 17,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -8892,19 +8888,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 31
+        "line": 12,
+        "ch": 20
       },
       "to": {
-        "line": 10,
-        "ch": 31
+        "line": 12,
+        "ch": 20
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-12",
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/methods/大脑/overview.md": {
     "scroll": 0,
@@ -8921,21 +8913,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.1 prepareFreshStack.md": {
-    "scroll": 42.8095703125,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 37
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 37,
-        "ch": 37
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md": {
-    "scroll": 0.8787878787878788,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 3,
