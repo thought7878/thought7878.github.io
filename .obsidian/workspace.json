@@ -715,7 +715,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -741,8 +741,11 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
+    "_posts/读书笔记/权力.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/SharedQueue、UpdateQueue 类型定义.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Untitled.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
@@ -764,9 +767,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md",
     "_posts/读书笔记/移民.md",
-    "_posts/读书笔记/世界趋势/美国.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/createUpdate().md",
-    "_posts/English/查询单词的提示词模版.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media/3a03f377b3c89a4359de8e25e93f52d4_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media",

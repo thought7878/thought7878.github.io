@@ -625,12 +625,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 56
+        "line": 14,
+        "ch": 137
       },
       "to": {
-        "line": 6,
-        "ch": 56
+        "line": 14,
+        "ch": 137
       }
     },
     "expandedKeys": [
@@ -7980,14 +7980,18 @@
     "cursor": {
       "from": {
         "line": 13,
-        "ch": 13
+        "ch": 12
       },
       "to": {
         "line": 13,
-        "ch": 13
+        "ch": 23
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-7",
+      "item-2-6"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Untitled.md": {
     "scroll": 0,
@@ -8651,7 +8655,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/Update 类型定义.md": {
-    "scroll": 22.010416666666668,
+    "scroll": 8.46875,
     "cursor": {
       "from": {
         "line": 28,
@@ -8663,8 +8667,9 @@
       }
     },
     "expandedKeys": [
-      "item-2-10",
-      "item-1-0"
+      "item-2-2",
+      "item-2-7",
+      "item-2-6"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.0 updateContainer.md": {
@@ -9129,21 +9134,25 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md": {
-    "scroll": 14.4140625,
+    "scroll": 269.8470052083333,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 259,
+        "ch": 20
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 259,
+        "ch": 20
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-5",
-      "item-2-4"
+      "item-2-2",
+      "item-2-6",
+      "item-1-20",
+      "item-2-25",
+      "item-2-21",
+      "item-3-14",
+      "item-2-29"
     ]
   }
 }
