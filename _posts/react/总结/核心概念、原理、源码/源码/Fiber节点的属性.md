@@ -13,14 +13,16 @@
    - **常见值**:  
      - `0`: `FunctionComponent`  
      - `1`: `ClassComponent`  
+     - `2`: `IndeterminateComponent`，**是一个关键的内部过渡状态**，它表示 React **尚未确定组件的具体类型**（函数组件或类组件）
+     - `3`: `HostRoot`（rootFiber，根节点）
      - `5`: `HostComponent`（原生 DOM 节点，如 `div`）  
      - `6`: `HostText`（文本节点）  
      - `7`: `Fragment`  
      - `10`: `ContextProvider`  
-     - `12`: `SuspenseComponent`  
-     - `13`: `MemoComponent`  
+     - `13`: `SuspenseComponent`  
+     - `14`: `MemoComponent`  
      - `16`: `LazyComponent`  
-     - `3`: `HostRoot`（根节点，`ReactDOM.render` 容器）
+
 
 2. **`type`**  
    - **类型**: `any`  

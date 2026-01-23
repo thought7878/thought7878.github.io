@@ -7252,28 +7252,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 83.7187595013682,
+    "scroll": 0.797979797979798,
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 31
+        "line": 16,
+        "ch": 33
       },
       "to": {
-        "line": 99,
-        "ch": 31
+        "line": 16,
+        "ch": 33
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-0",
-      "item-2-4",
-      "item-2-8",
-      "item-2-12",
-      "item-3-19",
-      "item-3-22",
-      "item-3-13",
-      "item-3-24",
-      "item-3-26"
+      "item-2-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md": {
@@ -8154,21 +8145,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md": {
-    "scroll": 119.29457364341086,
+    "scroll": 128.4638671875,
     "cursor": {
       "from": {
-        "line": 128,
-        "ch": 33
+        "line": 130,
+        "ch": 30
       },
       "to": {
-        "line": 128,
-        "ch": 33
+        "line": 130,
+        "ch": 30
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-1-0",
-      "item-2-12"
+      "item-2-0",
+      "item-2-12",
+      "item-1-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/双缓冲机制-QW.md": {
@@ -8891,18 +8882,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1 renderRootSync.md": {
-    "scroll": 53.072591145833336,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 68,
-        "ch": 0
+        "line": 10,
+        "ch": 31
       },
       "to": {
-        "line": 68,
-        "ch": 0
+        "line": 10,
+        "ch": 31
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-12",
+      "item-1-0"
+    ]
   },
   "_posts/methods/大脑/overview.md": {
     "scroll": 0,
@@ -8933,15 +8928,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md": {
-    "scroll": 19.070732587513533,
+    "scroll": 0.8787878787878788,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 30
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 34,
-        "ch": 30
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -8952,15 +8947,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 35.935872395833336,
+    "scroll": 4.404186214363046,
     "cursor": {
       "from": {
-        "line": 50,
-        "ch": 0
+        "line": 13,
+        "ch": 22
       },
       "to": {
-        "line": 50,
-        "ch": 0
+        "line": 13,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -8971,18 +8966,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 1516.8938802083333,
+    "scroll": 2.934948979591837,
     "cursor": {
       "from": {
-        "line": 1521,
-        "ch": 16
+        "line": 18,
+        "ch": 0
       },
       "to": {
-        "line": 1521,
-        "ch": 16
+        "line": 18,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-4",
+      "item-2-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
     "scroll": 14.16326530612245,
@@ -9047,7 +9045,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-22.md": {
-    "scroll": 27.865828804347824,
+    "scroll": 27.104959239130434,
     "cursor": {
       "from": {
         "line": 31,
@@ -9055,6 +9053,22 @@
       },
       "to": {
         "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-23.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 0
+      },
+      "to": {
+        "line": 41,
         "ch": 0
       }
     },
