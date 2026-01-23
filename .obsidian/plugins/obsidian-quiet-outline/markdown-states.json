@@ -7992,15 +7992,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/getStateFromUpdate.md": {
     "scroll": 0,
@@ -8269,15 +8271,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.3 Render阶段（协调、Reconciliation）.md": {
-    "scroll": 221.3974609375,
+    "scroll": 180.15494791666666,
     "cursor": {
       "from": {
-        "line": 236,
-        "ch": 32
+        "line": 189,
+        "ch": 31
       },
       "to": {
-        "line": 236,
-        "ch": 32
+        "line": 189,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -8286,19 +8288,20 @@
       "item-1-0",
       "item-3-9",
       "item-2-7",
-      "item-2-4"
+      "item-2-4",
+      "item-2-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md": {
-    "scroll": 196.2744140625,
+    "scroll": 375.0966796875,
     "cursor": {
       "from": {
-        "line": 144,
-        "ch": 2
+        "line": 398,
+        "ch": 20
       },
       "to": {
-        "line": 144,
-        "ch": 2
+        "line": 398,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -9074,6 +9077,29 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md": {
+    "scroll": 811.447265625,
+    "cursor": {
+      "from": {
+        "line": 838,
+        "ch": 0
+      },
+      "to": {
+        "line": 838,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-12",
+      "item-2-6",
+      "item-2-10",
+      "item-2-15",
+      "item-2-2",
+      "item-2-30"
     ]
   }
 }
