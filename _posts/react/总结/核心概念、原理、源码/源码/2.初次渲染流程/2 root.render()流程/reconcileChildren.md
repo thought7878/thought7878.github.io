@@ -9,19 +9,19 @@
 1. 参数解释：
    - [current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079): *当前已存在的 Fiber 节点，首次渲染时为 null*
    - [workInProgress](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3080-L3080): *正在处理的 Fiber 节点*，代表*未来要更新的 Fiber 节点*
-   - [nextChildren](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3081-L3081): *组件本次渲染产生的新 children*
+   - `nextChildren`: **组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）**
    - [renderLanes](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3082-L3082): *渲染优先级*
 
-1. 两种情况的处理：
+2. 两种情况的处理：
    - **首次渲染**（[current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079) 为 null）：使用 [mountChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1367-L1367) 函数***创建新的子节点，无需比较，因为没有先前的节点。首次渲染，rootFiber已经有两个，不走这个，走下面更新渲染***
 	   - ![[_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media/04e2f7f1431c7b7ea075cab9e9c3b075_MD5.webp]]
    - **更新渲染**（[current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079) 不为 null）：使用 [reconcileChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1369-L1369) 函数***比较新旧子节点，找出差异并应用必要的更新***
 
-1. 优化策略：
+3. 优化策略：
    - 首次渲染时，由于不存在之前的节点，因此可以跳过比较逻辑，直接创建子节点
    - 更新时，会进行完整的协调算法，包括 key 比较、节点复用等
 
-1. 重要性：
+4. 重要性：
    - 这个函数是 React 高效更新 UI 的关键所在，它确保只更新实际发生变化的部分
    - 通过避免不必要的 DOM 操作，提高了应用性能
 
@@ -31,7 +31,7 @@
 export function reconcileChildren(
   current: Fiber | null,        // 当前已存在的 Fiber 节点，如果是首次渲染则为 null
   workInProgress: Fiber,        // 正在处理的 Fiber 节点（将来的 Fiber）
-  nextChildren: any,            // ！！！组件函数本次执行，调用jsx()产生的新 children（ReactElement）
+  nextChildren: any,            // ！！！组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）
   renderLanes: Lanes,           // 渲染优先级
 ) {
   // ！！！首次渲染。rootFiber特殊，即使是首次渲染（首次渲染已有两个rootFiber），也不走首次渲染，走下面更新渲染；除了rootFiber，其他fiber正常
