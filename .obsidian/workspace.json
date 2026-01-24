@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.render阶段"
+              "title": "3.1.2.1.1.2 mountIndeterminateComponent"
             }
           },
           {
@@ -742,10 +742,10 @@
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media/1ddaae000d3a4eaca70450968390bef8_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-24.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-23.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media/04e2f7f1431c7b7ea075cab9e9c3b075_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md",

@@ -8837,15 +8837,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md": {
-    "scroll": 30.873807776962582,
+    "scroll": 30.75201760821717,
     "cursor": {
       "from": {
-        "line": 43,
-        "ch": 152
+        "line": 40,
+        "ch": 2
       },
       "to": {
-        "line": 43,
-        "ch": 152
+        "line": 40,
+        "ch": 2
       }
     },
     "expandedKeys": [
@@ -8853,11 +8853,11 @@
       "item-2-5",
       "item-2-4",
       "item-3-6",
-      "item-2-12",
-      "item-3-22",
-      "item-4-19",
-      "item-3-13",
-      "item-3-29",
+      "item-2-13",
+      "item-3-23",
+      "item-4-20",
+      "item-3-14",
+      "item-3-30",
       "item-2-8"
     ]
   },
@@ -8976,15 +8976,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 3.189455611142358,
+    "scroll": 1525.6438802083333,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 8
+        "line": 1544,
+        "ch": 35
       },
       "to": {
-        "line": 6,
-        "ch": 8
+        "line": 1544,
+        "ch": 35
       }
     },
     "expandedKeys": [
@@ -8992,11 +8992,12 @@
       "item-2-5",
       "item-2-4",
       "item-3-6",
-      "item-2-12",
-      "item-3-22",
-      "item-4-19",
-      "item-3-13",
-      "item-3-29"
+      "item-2-13",
+      "item-3-23",
+      "item-4-20",
+      "item-3-14",
+      "item-3-30",
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
@@ -9133,18 +9134,29 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md": {
-    "scroll": 17.034505208333332,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 17
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 18,
-        "ch": 17
+        "line": 15,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5",
+      "item-2-4",
+      "item-3-6",
+      "item-2-13",
+      "item-3-23",
+      "item-4-20",
+      "item-3-14",
+      "item-3-30",
+      "item-2-8"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md": {
     "scroll": 426.8515625,
