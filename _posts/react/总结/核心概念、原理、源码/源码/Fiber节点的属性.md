@@ -81,7 +81,8 @@
     - **作用**: **上一次渲染使用**的 state。  
     - **关键用途**:  
       - 类组件：存储实例的 `state`  
-      - 函数组件：存储 `useState`/`useReducer` 的状态链表
+      - 函数组件：*存储 `useState`/`useReducer` 的状态链表，指向hook链表的第一个*
+![[_posts/react/总结/核心概念、原理、源码/源码/media/52ba433e0c215170cecba3639c99e5e4_MD5.webp]]
 
 12. **`updateQueue`**  
     - **类型**: `UpdateQueue | null`  
