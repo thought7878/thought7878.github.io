@@ -7264,11 +7264,12 @@
       }
     },
     "expandedKeys": [
-      "item-1-5",
-      "item-3-29",
-      "item-2-12",
-      "item-2-8",
-      "item-2-0"
+      "item-1-6",
+      "item-3-30",
+      "item-2-13",
+      "item-2-9",
+      "item-2-0",
+      "item-1-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md": {
@@ -9125,15 +9126,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md": {
-    "scroll": 0,
+    "scroll": 69.201171875,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 3
+        "line": 80,
+        "ch": 20
       },
       "to": {
-        "line": 6,
-        "ch": 11
+        "line": 80,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -9194,23 +9195,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2.1 renderWithHooks.md": {
-    "scroll": 334.6905426356589,
+    "scroll": 7.9375,
     "cursor": {
       "from": {
-        "line": 341,
-        "ch": 34
+        "line": 14,
+        "ch": 55
       },
       "to": {
-        "line": 341,
-        "ch": 34
+        "line": 14,
+        "ch": 55
       }
     },
     "expandedKeys": [
-      "item-1-6",
-      "item-3-30",
-      "item-2-13",
-      "item-2-9",
-      "item-2-0"
+      "item-1-5",
+      "item-3-29",
+      "item-2-12",
+      "item-2-8"
     ]
   }
 }
