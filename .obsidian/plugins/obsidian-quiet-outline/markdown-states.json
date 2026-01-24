@@ -9138,15 +9138,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md": {
-    "scroll": 0.6859504132231405,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 20
+        "line": 6,
+        "ch": 5
       },
       "to": {
-        "line": 24,
-        "ch": 20
+        "line": 6,
+        "ch": 9
       }
     },
     "expandedKeys": [
@@ -9204,19 +9204,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2.1 renderWithHooks.md": {
-    "scroll": 0,
+    "scroll": 217.70930989583334,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 26
+        "line": 240,
+        "ch": 5
       },
       "to": {
-        "line": 9,
-        "ch": 26
+        "line": 240,
+        "ch": 5
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-5"
     ]
   }
 }
