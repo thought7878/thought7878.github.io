@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.render阶段"
+              "title": "Untitled"
             }
           },
           {
@@ -741,9 +741,12 @@
   },
   "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/1.整体流程解读.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/media/fe09034408c0ebda7ed8455d039ce19c_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读/5.render阶段.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-25.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-24.md",
@@ -773,8 +776,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/performUnitOfWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
-    "DailyNote/Journal/01 Daily/2026/01/2026-01-22.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media/3a03f377b3c89a4359de8e25e93f52d4_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media",
@@ -786,7 +787,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/media",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
   ]
