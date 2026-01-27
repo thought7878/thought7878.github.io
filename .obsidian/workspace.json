@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.4React新架构—Fiber.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.5Fiber架构工作原理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.4React新架构—Fiber"
+              "title": "1.5Fiber架构工作原理"
             }
           },
           {
@@ -741,10 +741,12 @@
   },
   "active": "687a79329fbe7b11",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/media/b1faef95428210e8c99e9fb2deca9f6a_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/media",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/cdf9b5c740a9899e7ff38ed9c837d70c_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.4React新架构—Fiber.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.5Fiber架构工作原理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.3架构的演进史.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.4React新架构—Fiber.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/b1faef95428210e8c99e9fb2deca9f6a_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/a947cf4d64a78dbea706f200f8c04309_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/142b616f5951bfc3aca6056891ab8e33_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/f47726edefb1505511d193204c6736f2_MD5.webp",
@@ -756,7 +758,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.1如何学习React源码.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/2ef99086a49f2f576eb32cba296eee09_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/6f76a608117eb3ecf19d7c1b08c94ccd_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media/f106b7aef178ede63a58de009bc9bab6_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/media",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-27.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-26.md",
@@ -784,7 +785,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1 renderRootSync.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.1 prepareFreshStack.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.0 performConcurrentWorkOnRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/1. React18源码解读",

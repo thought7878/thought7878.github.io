@@ -9459,15 +9459,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.3架构的演进史.md": {
-    "scroll": 47.90037078832823,
+    "scroll": 30.117838494231936,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 0
+        "line": 32,
+        "ch": 60
       },
       "to": {
-        "line": 55,
-        "ch": 0
+        "line": 32,
+        "ch": 53
       }
     },
     "expandedKeys": []
@@ -9476,12 +9476,42 @@
     "scroll": 1.2916666666666667,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 33
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 33
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.4React新架构—Fiber.md": {
+    "scroll": 34.488932291666664,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 14
+      },
+      "to": {
+        "line": 54,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/第一章理念篇/1.5Fiber架构工作原理.md": {
+    "scroll": 50.56339312861052,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 26
+      },
+      "to": {
+        "line": 12,
+        "ch": 26
       }
     },
     "expandedKeys": []
