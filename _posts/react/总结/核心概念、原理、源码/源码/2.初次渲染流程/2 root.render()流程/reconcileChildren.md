@@ -42,7 +42,7 @@ export function reconcileChildren(
     workInProgress.child = mountChildFibers(
       workInProgress,
       null,                     // 没有之前的兄弟节点
-      nextChildren,             // 新的ReactElement
+      nextChildren,             // ！！！新的ReactElement
       renderLanes,              // 渲染优先级
     );
   } else {

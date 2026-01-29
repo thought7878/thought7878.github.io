@@ -8939,7 +8939,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2 workLoopSync.md": {
-    "scroll": 0,
+    "scroll": 16.801969191678577,
     "cursor": {
       "from": {
         "line": 3,
@@ -8958,15 +8958,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 18.91015625,
+    "scroll": 33.479166666666664,
     "cursor": {
       "from": {
-        "line": 59,
-        "ch": 14
+        "line": 48,
+        "ch": 28
       },
       "to": {
-        "line": 59,
-        "ch": 14
+        "line": 48,
+        "ch": 28
       }
     },
     "expandedKeys": [
@@ -8977,14 +8977,14 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 20.4243955250812,
+    "scroll": 31.241536458333332,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 11,
         "ch": 0
       }
     },
@@ -8994,7 +8994,8 @@
       "item-2-31",
       "item-2-1",
       "item-2-8",
-      "item-2-0"
+      "item-2-0",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
@@ -9232,15 +9233,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 0,
+    "scroll": 1.8844790928419561,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 45,
+        "ch": 39
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 45,
+        "ch": 39
       }
     },
     "expandedKeys": [
@@ -9249,8 +9250,7 @@
       "item-2-31",
       "item-2-1",
       "item-2-8",
-      "item-3-2",
-      "item-3-6",
+      "item-2-0",
       "item-2-4"
     ]
   },
