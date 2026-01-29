@@ -715,7 +715,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -739,7 +739,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.2深入理解JSX.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-29.md",
