@@ -9,7 +9,7 @@
 1. 参数解释：
    - [current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079): *当前已存在的 Fiber 节点，首次渲染时为 null*
    - [workInProgress](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3080-L3080): *正在处理的 Fiber 节点*，代表*未来要更新的 Fiber 节点*
-   - `nextChildren`: **组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）**
+   - `nextChildren`: **当前workInProgress fiber的子ReactElement。如，组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）**
    - [renderLanes](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3082-L3082): *渲染优先级*
 
 2. 两种情况的处理：
