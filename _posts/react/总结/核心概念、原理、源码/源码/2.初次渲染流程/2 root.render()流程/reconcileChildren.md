@@ -5,11 +5,10 @@
 
 这段代码*是 React 协调算法的核心部分*，负责**比较新旧子节点并决定如何更新 DOM**。
 
-让我详细说明：
 1. 参数解释：
    - [current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079): *当前已存在的 Fiber 节点，首次渲染时为 null*
    - [workInProgress](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3080-L3080): *正在处理的 Fiber 节点*，代表*未来要更新的 Fiber 节点*
-   - `nextChildren`: **当前workInProgress fiber的子ReactElement。如，组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）**
+   - `nextChildren`: **当前workInProgress fiber的子ReactElement。如，rootFiber的<App/> ReactElement；组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）**
    - [renderLanes](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3082-L3082): *渲染优先级*
 
 2. 两种情况的处理：
@@ -78,7 +77,7 @@ export const mountChildFibers = ChildReconciler(false);
 ### ChildReconciler
 
 这段代码定义了一个叫 [ChildReconciler](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L259-L1365) 的工厂函数，*这是 React 协调算法的核心部分*。
-*它创建了两个具体的函数：*[reconcileChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1369-L1369) 和 [mountChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1367-L1367)，**用于处理 React 组件的子节点协调（reconciliation）**。
+*它创建了两个具体的函数：*[reconcileChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1369-L1369) 和 [mountChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1367-L1367)，用于*处理 React 组件的子节点协调（reconciliation）*。
 
 `协调`是 React 的核心概念之一，指的是**比较虚拟 DOM 树的变化并更新真实 DOM 的过程**。
 
@@ -329,7 +328,7 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 ```
 
 
-### reconcileChildFibers
+### **reconcileChildFibers**
 
 [reconcileChildFibers](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1269-L1348) 函数的代码，它是 React 协调算法的核心部分。
 
@@ -337,25 +336,25 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 
 1. **函数目的**：这个函数是 React 协调算法的核心，*用于比较新旧子节点，确定需要执行的最小更新集合*（如添加、删除、移动节点等）。
 
-2. **Fragment 处理**：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
+2. Fragment 处理：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
 
-3. **对象类型处理**：
+3. ReactElement类型处理：
    - **REACT_ELEMENT_TYPE**：单个 React 元素，如 `<div />`
    - **REACT_PORTAL_TYPE**：Portal 类型元素
    - **REACT_LAZY_TYPE**：懒加载组件，需要初始化后再处理
    - **数组**：多个子元素，需要进行 diff 算法
    - **迭代器**：可迭代对象，如 Map、Set 等
 
-4. **基本类型处理**：字符串和数字会被转换为文本节点。
+4. **基本类型处理**：*字符串和数字会被转换为文本节点*。
 
 5. **兜底处理**：如果新子节点为 null 或其他无效值，则删除所有现有的子节点。
 
 #### 关键特点：
 
-- **非递归**：此函数本身不是递归的，但会调用其他函数来处理子树
-- **类型判断**：通过 [$$typeof](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react/src/ReactElement.js#L150-L150) 属性判断 React 元素的类型
-- **性能优化**：通过 [placeSingleChild](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L358-L365) 等函数优化单子节点的处理
-- **错误处理**：对无效的子节点类型给出明确的错误提示
+- 非递归：此函数本身不是递归的，但会调用其他函数来处理子树
+- 类型判断：通过 [$$typeof](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react/src/ReactElement.js#L150-L150) 属性判断 React 元素的类型
+- 性能优化：通过 [placeSingleChild](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L358-L365) 等函数优化单子节点的处理
+- 错误处理：对无效的子节点类型给出明确的错误提示
 
 这个函数是 React 高效更新 UI 的关键部分，它实现了 React 的 diff 算法，确保只对必要的部分进行 DOM 操作。
 
@@ -478,7 +477,7 @@ function reconcileChildFibers(
 
 ### reconcileSingleElement
 
-[reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中*处理单个 React 元素*的核心部分。
+[reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中**处理单个 React 元素**的核心部分。
 
 #### 代码详解：
 1. **函数目的**：这个函数*处理单个 React 元素的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
@@ -487,9 +486,9 @@ function reconcileChildFibers(
 
 3. **类型匹配**：找到 key 匹配的节点后，*进一步检查元素类型是否相同，以确定是否可以复用节点*。
 
-4. **Fragment 特殊处理**：Fragment 类型需要特别处理，因为它不会创建实际的 DOM 节点。
+4. Fragment 特殊处理：Fragment 类型需要特别处理，因为它不会创建实际的 DOM 节点。
 
-5. **懒加载组件处理**：对于懒加载组件，需要解析其实际类型并与现有节点比较。
+5. 懒加载组件处理：对于懒加载组件，需要解析其实际类型并与现有节点比较。
 
 6. **节点复用 vs 创建**：
    - 如果找到匹配的节点，使用 [useFiber](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L335-L340) *复用现有节点并更新 props*
@@ -509,9 +508,9 @@ function reconcileSingleElement(
   ): Fiber {
     // 获取新元素的 key
     const key = element.key;
-    // 从当前的第一个子节点开始遍历
+    // 从current.child（workInProgress对应的current的第一个子节点）开始遍历
     let child = currentFirstChild;
-    // 遍历现有的子节点链表（首次渲染child、currentFirstChild为null）
+    // 遍历现有的子节点链表（更新渲染，首次渲染child、currentFirstChild为null）
     while (child !== null) {
       // TODO: If key === null and child.key === null, then this only applies to
       // the first item in the list.
@@ -577,7 +576,7 @@ function reconcileSingleElement(
       child = child.sibling;
     }
 
-    // 如果遍历完现有节点都没有找到匹配项，创建一个新的 Fiber 节点
+    // ！！！如果遍历完current上的兄弟节点都没有找到匹配项，创建一个新的 Fiber 节点
     if (element.type === REACT_FRAGMENT_TYPE) {
       // 如果是 Fragment 类型，创建 Fragment Fiber
       const created = createFiberFromFragment(
