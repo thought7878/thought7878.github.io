@@ -3067,7 +3067,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md": {
-    "scroll": 613.0052327679538,
+    "scroll": 613.6057380007218,
     "cursor": {
       "from": {
         "line": 616,
@@ -8278,23 +8278,27 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.3 Render阶段（协调、Reconciliation）.md": {
-    "scroll": 0.8780487804878049,
+    "scroll": 358.5758463541667,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 32
+        "line": 377,
+        "ch": 15
       },
       "to": {
-        "line": 14,
-        "ch": 32
+        "line": 377,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2",
+      "item-2-7",
+      "item-3-9",
+      "item-2-14"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1.2 更新调度阶段.md": {
-    "scroll": 375.0966796875,
+    "scroll": 346.958984375,
     "cursor": {
       "from": {
         "line": 398,
@@ -8312,7 +8316,8 @@
       "item-2-6",
       "item-2-10",
       "item-2-15",
-      "item-2-2"
+      "item-2-2",
+      "item-2-8"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/1 React18初次渲染流程概述.md": {
@@ -8977,15 +8982,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 9.01953125,
+    "scroll": 14.321428571428571,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 42
+        "line": 28,
+        "ch": 85
       },
       "to": {
-        "line": 23,
-        "ch": 42
+        "line": 28,
+        "ch": 85
       }
     },
     "expandedKeys": [
@@ -9608,15 +9613,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.3“递”阶段mount时流程.md": {
-    "scroll": 139.544496124031,
+    "scroll": 141.28519306780177,
     "cursor": {
       "from": {
-        "line": 155,
-        "ch": 32
+        "line": 164,
+        "ch": 0
       },
       "to": {
-        "line": 155,
-        "ch": 32
+        "line": 151,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -9629,15 +9634,31 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-29.md": {
-    "scroll": 27.13756793478261,
+    "scroll": 23.993311036789297,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-30.md": {
+    "scroll": 25.992838541666668,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": [
