@@ -366,7 +366,7 @@ function reconcileChildFibers(
   currentFirstChild: Fiber | null, // wip.alternate.child/current.child，当前第一个子 Fiber 节点，diff时使用
   newChild: any,                   // wip的子ReactElement，新的 React 元素，新的子节点（可能是 React 元素、字符串、数组等）
   lanes: Lanes,                    // 优先级相关的 lanes
-): Fiber | null {                  // ！！！新构建的fiber（新创建的fiber，或复用的fiber）
+): Fiber | null {                  // ！！！新构建的第一个子fiber（新创建的fiber，或复用的fiber）
 
   
   const isUnkeyedTopLevelFragment =

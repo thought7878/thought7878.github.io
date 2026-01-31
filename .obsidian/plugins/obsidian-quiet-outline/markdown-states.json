@@ -9143,7 +9143,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md": {
-    "scroll": 109.79720052083333,
+    "scroll": 135.50553385416666,
     "cursor": {
       "from": {
         "line": 242,
@@ -9244,15 +9244,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 67.58919270833333,
+    "scroll": 356.5156589147287,
     "cursor": {
       "from": {
-        "line": 89,
-        "ch": 31
+        "line": 368,
+        "ch": 45
       },
       "to": {
-        "line": 89,
-        "ch": 31
+        "line": 368,
+        "ch": 45
       }
     },
     "expandedKeys": [
@@ -9262,7 +9262,8 @@
       "item-2-12",
       "item-3-2",
       "item-2-1",
-      "item-2-35"
+      "item-2-35",
+      "item-3-11"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {
