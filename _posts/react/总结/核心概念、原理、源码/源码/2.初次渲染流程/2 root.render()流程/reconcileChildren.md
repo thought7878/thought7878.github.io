@@ -28,9 +28,9 @@
 
 ```javascript
 export function reconcileChildren(
-  current: Fiber | null,        // 当前已存在的 Fiber 节点，如果是首次渲染则为 null
+  current: Fiber | null,        // 当前屏幕显示的已存在的 Fiber 节点，如果是首次渲染则为 null
   workInProgress: Fiber,        // 正在处理的 Fiber 节点（将来的 Fiber）
-  nextChildren: any,            // ！！！组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）
+  nextChildren: any,            // ！！！新ReactElement，如，组件函数本次执行Component()，调用jsx()产生的新 children（ReactElement）
   renderLanes: Lanes,           // 渲染优先级
 ) {
   // ！！！首次渲染。rootFiber特殊，即使是首次渲染（首次渲染已有两个rootFiber），也不走首次渲染，走下面更新渲染；除了rootFiber，其他fiber正常
@@ -363,11 +363,11 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 // itself. They will be added to the side-effect list as we pass through the
 // children and the parent.
 function reconcileChildFibers(
-  returnFiber: Fiber,              // 父级 Fiber 节点
-  currentFirstChild: Fiber | null, // 当前的第一个子 Fiber 节点
-  newChild: any,                   // 新的子节点（可能是 React 元素、字符串、数组等）
+  returnFiber: Fiber,              // wip Fiber，父级 Fiber 节点
+  currentFirstChild: Fiber | null, // wip.alternate.child/current.child，当前第一个子 Fiber 节点
+  newChild: any,                   // wip的子ReactElement，新的 React 元素，新的子节点（可能是 React 元素、字符串、数组等）
   lanes: Lanes,                    // 优先级相关的 lanes
-): Fiber | null {
+): Fiber | null {                  // ！！！新创建的fiber，或复用的fiber 
   // This function is not recursive.
   // If the top level item is an array, we treat it as a set of children,
   // not as a fragment. Nested arrays on the other hand will be treated as
@@ -480,7 +480,7 @@ function reconcileChildFibers(
 [reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中**处理单个 React 元素**的核心部分。
 
 #### 代码详解：
-1. **函数目的**：这个函数*处理单个 React 元素的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
+1. **函数目的**：这个函数*处理单个 ReactElement 的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
 
 2. **Key 匹配**：首先通过*比较 key 值来寻找可复用的节点*，这是 React diff 算法的关键。
 
@@ -501,11 +501,11 @@ function reconcileChildFibers(
 
 ```javascript
 function reconcileSingleElement(
-    returnFiber: Fiber,               // 父级 Fiber 节点
-    currentFirstChild: Fiber | null,  // 当前第一个子 Fiber 节点
-    element: ReactElement,            // 新的 React 元素
+    returnFiber: Fiber,               // wip Fiber，父级 Fiber 节点
+    currentFirstChild: Fiber | null,  // wip.alternate.child/current.child，当前第一个子 Fiber 节点
+    element: ReactElement,            // wip的子ReactElement，新的 React 元素
     lanes: Lanes,                     // 优先级相关的 lanes
-  ): Fiber {
+  ): Fiber {                          // 新创建的fiber，或复用的fiber 
     // 获取新元素的 key
     const key = element.key;
     // 从current.child（workInProgress对应的current的第一个子节点）开始遍历
