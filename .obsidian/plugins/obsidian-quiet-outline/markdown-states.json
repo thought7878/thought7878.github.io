@@ -9245,15 +9245,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 485.5072868217054,
+    "scroll": 677.7023111979166,
     "cursor": {
       "from": {
-        "line": 504,
-        "ch": 17
+        "line": 699,
+        "ch": 13
       },
       "to": {
-        "line": 504,
-        "ch": 17
+        "line": 699,
+        "ch": 13
       }
     },
     "expandedKeys": [
@@ -9268,7 +9268,9 @@
       "item-4-8",
       "item-2-35",
       "item-2-8",
-      "item-3-2"
+      "item-3-2",
+      "item-3-16",
+      "item-3-18"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {

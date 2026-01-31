@@ -90,7 +90,7 @@ export const mountChildFibers = ChildReconciler(false);
 function ChildReconciler(shouldTrackSideEffects) {
 ```
 
-这个函数接收一个布尔参数 `shouldTrackSideEffects`，**用于控制是否需要追踪副作用（side effects），首次渲染为false，更新渲染为true**。副作用包括*插入、删除、移动节点*等操作。
+这个函数接收一个布尔参数 `shouldTrackSideEffects`，**用于控制是否需要追踪副作用（side effects），首次渲染为false，更新渲染为true**。`副作用`包括*插入、删除、移动节点*等操作。
 
 ---
 
@@ -335,7 +335,7 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 #### 代码详解：
 
 1. 参数解释：参考下面源码
-2. **函数目的**：这个函数是 React 协调算法的核心，用于**比较新的wip的子ReactElement与旧的current fiber（wip.alternate.child 、第一个子fiber），确定需要执行的最小更新集合**（如添加、删除、移动节点等）。
+2. **函数目的**：这个函数是 React 协调算法的核心，用于**比较新的wip的子ReactElement与旧的current.child/wip.alternate.child fiber（第一个子fiber），确定需要执行的最小更新集合**（如添加、删除、移动节点等）。
 
 3. Fragment 处理：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
 
@@ -470,12 +470,12 @@ function reconcileChildFibers(
 
 ### reconcileSingleElement
 
-[reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中**处理单个 React 元素**的核心部分。
+[reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中**处理单个 ReactElement 元素**的核心部分。
 
 #### 代码详解：
 1. 参数解释：参考下面源码
 
-2. **函数目的**：这个函数*处理单个 ReactElement 的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
+2. **函数目的**：这个函数*处理单个 ReactElement 的协调（如首次渲染的`<App/>`），尝试在现有fiber中找到匹配的fiber进行复用，如果没有找到则创建新fiber*。
 
 3. Key 匹配：首先通过*比较 key 值来寻找可复用的节点*，这是 React diff 算法的关键。
 
@@ -506,11 +506,11 @@ function reconcileSingleElement(
     const key = element.key;
     // 从current.child（workInProgress对应的current的第一个子节点）开始遍历
     let child = currentFirstChild;
-    // 遍历现有的子节点链表（更新渲染，首次渲染child、currentFirstChild为null）
+    // 遍历现有的子节点链表（这是更新渲染的流程，因为首次渲染child、currentFirstChild为null）
     while (child !== null) {
       // TODO: If key === null and child.key === null, then this only applies to
       // the first item in the list.
-      // 比较 key 是否匹配，这是 React diff 算法的关键一步
+      // ！！！比较 key 是否匹配，这是 React diff 算法的关键一步
       if (child.key === key) {
         // 获取新元素的类型
         const elementType = element.type;
@@ -533,7 +533,7 @@ function reconcileSingleElement(
         } else {
           // 非 Fragment 类型的元素
           if (
-            // 检查元素类型是否相同
+            // ！！！检查元素类型是否相同
             child.elementType === elementType ||
             // 在开发环境下，为了热重载功能做额外检查
             (__DEV__
@@ -547,7 +547,7 @@ function reconcileSingleElement(
           ) {
             // 匹配成功，删除该节点之后的所有兄弟节点
             deleteRemainingChildren(returnFiber, child.sibling);
-            // 复用现有节点，更新 props
+            // ！！！复用现有节点，更新 props
             const existing = useFiber(child, element.props);
             // 处理 ref 更新
             existing.ref = coerceRef(returnFiber, child, element);
@@ -584,7 +584,7 @@ function reconcileSingleElement(
       created.return = returnFiber;
       return created;
     } else {
-      // ！！！普通元素类型，创建 Element 对应的 Fiber（首次渲染走这里）
+      // ！！！普通元素类型，创建 ReactElement 对应的 Fiber
       const created = createFiberFromElement(element, returnFiber.mode, lanes);
       // 处理 ref
       created.ref = coerceRef(returnFiber, currentFirstChild, element);
@@ -601,18 +601,18 @@ function reconcileSingleElement(
 
 1. **函数目的**：这个函数的主要作用是**从一个 React 元素（ReactElement）创建一个对应的 Fiber 节点**，这是 React 协调算法中的关键步骤。
 
-2. **参数说明**：
+2. 参数说明：
    - [element](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react/src/ReactElement.js#L148-L160): *要转换为 Fiber 节点的 React 元素*
    - [mode](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L144-L144): 渲染模式，*决定 Fiber 如何处理并发*
    - [lanes](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L151-L151): 优先级车道，用于*确定更新的优先级*
 
-3. **开发环境处理**：在开发模式下，保存元素的所有者信息用于调试目的。
+1. 开发环境处理：在开发模式下，保存元素的所有者信息用于调试目的。
 
-4. **信息提取**：从 React 元素中提取关键信息（type、key、props）。
+2. 信息提取：从 React 元素中提取关键信息（type、key、props）。
 
-5. **Fiber 创建**：调用 [createFiberFromTypeAndProps](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L530-L592) 函数实际创建 Fiber 节点。
+3. Fiber 创建：调用 [createFiberFromTypeAndProps](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L530-L592) 函数实际创建 Fiber 节点。
 
-6. **调试信息**：在开发模式下，添加调试相关的信息以帮助开发者定位问题。
+4. 调试信息：在开发模式下，添加调试相关的信息以帮助开发者定位问题。
 
 这个函数体现了 React 的设计理念：将虚拟 DOM 元素转换为内部的 Fiber 数据结构，以便进行高效的协调和更新。Fiber 节点包含了足够的信息来执行更新、渲染和回收操作。
 
@@ -623,6 +623,7 @@ export function createFiberFromElement(
   mode: TypeOfMode,      // 渲染模式（如 ConcurrentMode、BatchedMode 等）
   lanes: Lanes,          // 优先级相关的 lanes，用于确定更新优先级
 ): Fiber {
+
   // 初始化 owner 为 null，默认情况下没有所有者信息
   let owner = null;
   // 在开发环境下，获取元素的所有者信息，用于调试
@@ -661,18 +662,18 @@ export function createFiberFromElement(
 #### 代码详解：
 1. **函数目的**：*根据组件类型和属性创建合适的 Fiber 节点*，这是 React 协调算法中的关键步骤。
 
-2. **类型判断**：函数通过检查 [type](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L166-L166) 的类型来确定 Fiber 的标签（tag）：
+2. 类型判断：函数通过检查 [type](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L166-L166) 的类型来确定 Fiber 的标签（tag）：
    - 函数类型：分为类组件和函数组件
    - 字符串类型：原生 DOM 元素
    - 特殊 React 类型：如 Fragment、Suspense、Context 等
 
-3. **特殊处理**：某些类型（如 Fragment、Suspense）会直接创建对应的 Fiber 并返回，而不是继续往下执行。
+1. 特殊处理：某些类型（如 Fragment、Suspense）会直接创建对应的 Fiber 并返回，而不是继续往下执行。
 
-4. **错误处理**：当遇到无效的组件类型时，会抛出清晰的错误信息，帮助开发者定位问题。
+2. 错误处理：当遇到无效的组件类型时，会抛出清晰的错误信息，帮助开发者定位问题。
 
-5. **Fiber 创建**：使用 [createFiber](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L468-L488) 函数创建基本的 Fiber 节点，并设置相应的属性。
+3. Fiber 创建：使用 [createFiber](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L468-L488) 函数创建基本的 Fiber 节点，并设置相应的属性。
 
-6. **开发环境增强**：在开发环境下，添加调试信息以帮助错误追踪。
+4. 开发环境增强：在开发环境下，添加调试信息以帮助错误追踪。
 
 这个函数是 React 渲染机制的核心部分，它确保了每种类型的组件都能被正确地映射到相应的 Fiber 标签，从而使得 React 能够正确地协调和更新 UI。
 
@@ -685,15 +686,16 @@ export function createFiberFromTypeAndProps(
   mode: TypeOfMode, // 渲染模式（如 ConcurrentMode、BatchedMode 等）
   lanes: Lanes, // 优先级相关的 lanes
 ): Fiber {
+
   // 初始化 Fiber 标签为不确定组件类型
   let fiberTag = IndeterminateComponent;
   // 解析后的类型，用于热重载等场景
   let resolvedType = type;
   
   // 根据组件类型确定 Fiber 标签
-  // 函数类型组件
+  // ！！！函数类型组件
   if (typeof type === 'function') {
-    // 类组件
+    // ！！！类组件
     if (shouldConstruct(type)) {
       // 如果函数具有构造函数特征（类组件），则标记为 ClassComponent
       fiberTag = ClassComponent;
@@ -702,7 +704,7 @@ export function createFiberFromTypeAndProps(
         resolvedType = resolveClassForHotReloading(resolvedType);
       }
     } else {
-      // 函数组件
+      // ！！！函数组件
       if (__DEV__) {
         // 开发环境下进行热重载处理
         resolvedType = resolveFunctionForHotReloading(resolvedType);
