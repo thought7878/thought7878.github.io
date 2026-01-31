@@ -8965,15 +8965,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 33.479166666666664,
+    "scroll": 33.1025390625,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 28
+        "line": 55,
+        "ch": 40
       },
       "to": {
-        "line": 48,
-        "ch": 28
+        "line": 55,
+        "ch": 40
       }
     },
     "expandedKeys": [
@@ -8984,15 +8984,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 696.3958333333334,
+    "scroll": 157.0576171875,
     "cursor": {
       "from": {
-        "line": 714,
-        "ch": 0
+        "line": 148,
+        "ch": 18
       },
       "to": {
-        "line": 714,
-        "ch": 0
+        "line": 148,
+        "ch": 18
       }
     },
     "expandedKeys": [
@@ -9000,12 +9000,8 @@
       "item-2-0",
       "item-1-0",
       "item-2-12",
-      "item-2-10",
-      "item-2-1",
-      "item-3-11",
-      "item-3-14",
-      "item-4-8",
       "item-3-2",
+      "item-2-1",
       "item-2-35",
       "item-2-8"
     ]
@@ -9245,15 +9241,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 677.7023111979166,
+    "scroll": 67.57845052083333,
     "cursor": {
       "from": {
-        "line": 699,
-        "ch": 13
+        "line": 89,
+        "ch": 31
       },
       "to": {
-        "line": 699,
-        "ch": 13
+        "line": 89,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -9261,16 +9257,8 @@
       "item-2-0",
       "item-1-0",
       "item-2-12",
-      "item-2-10",
-      "item-2-1",
-      "item-3-11",
-      "item-3-14",
-      "item-4-8",
-      "item-2-35",
-      "item-2-8",
       "item-3-2",
-      "item-3-16",
-      "item-3-18"
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {
@@ -9717,7 +9705,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/_React 的首次渲染流程.md": {
-    "scroll": 1501.576171875,
+    "scroll": 1501.580078125,
     "cursor": {
       "from": {
         "line": 1535,
@@ -9733,14 +9721,9 @@
       "item-2-0",
       "item-1-0",
       "item-2-12",
-      "item-2-10",
-      "item-2-1",
-      "item-3-11",
-      "item-3-14",
-      "item-4-8",
       "item-3-2",
-      "item-2-35",
-      "item-2-8"
+      "item-2-1",
+      "item-2-35"
     ]
   },
   "_posts/methods/熟练，才会上瘾.md": {

@@ -90,7 +90,7 @@ export const mountChildFibers = ChildReconciler(false);
 function ChildReconciler(shouldTrackSideEffects) {
 ```
 
-这个函数接收一个布尔参数 `shouldTrackSideEffects`，**用于控制是否需要追踪副作用（side effects），首次渲染为false，更新渲染为true**。`副作用`包括*插入、删除、移动节点*等操作。
+这个函数接收一个布尔参数 `shouldTrackSideEffects`，**用于控制是否需要追踪副作用（side effects），首次渲染为false？？？，更新渲染为true**。`副作用`包括*插入、删除、移动节点*等操作。
 
 ---
 
@@ -692,7 +692,7 @@ export function createFiberFromTypeAndProps(
   // 解析后的类型，用于热重载等场景
   let resolvedType = type;
   
-  // 根据组件类型确定 Fiber 标签
+  // ！！！根据组件类型type确定 Fiber 标签tag
   // ！！！函数类型组件
   if (typeof type === 'function') {
     // ！！！类组件
