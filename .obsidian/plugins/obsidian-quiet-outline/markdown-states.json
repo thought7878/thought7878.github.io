@@ -583,15 +583,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 10,
+        "line": 0,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -9243,15 +9245,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 21.6630859375,
+    "scroll": 485.5072868217054,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 68
+        "line": 504,
+        "ch": 17
       },
       "to": {
-        "line": 35,
-        "ch": 68
+        "line": 504,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -9264,9 +9266,9 @@
       "item-3-11",
       "item-3-14",
       "item-4-8",
-      "item-3-2",
       "item-2-35",
-      "item-2-8"
+      "item-2-8",
+      "item-3-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {
@@ -9738,5 +9740,49 @@
       "item-2-35",
       "item-2-8"
     ]
+  },
+  "_posts/methods/熟练，才会上瘾.md": {
+    "scroll": 0.050505050505050504,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 6
+      },
+      "to": {
+        "line": 1,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/methods/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/关于难与易的认知与习惯养成.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

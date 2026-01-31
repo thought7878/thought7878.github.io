@@ -3,7 +3,7 @@
 
 我来详细解释这段 [reconcileChildren](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L301-L309) 函数的代码，它位于 React 的 reconciler 中，*是 React 协调算法的关键部分*。
 
-这段代码*是 React 协调算法的核心部分*，负责**比较新旧子节点并决定如何更新 DOM**。
+这段代码*是 React 协调算法的核心部分*，负责**比较新ReactElement与旧fiber，并决定如何更新 DOM**。
 
 1. 参数解释：
    - [current](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberBeginWork.new.js#L3079-L3079): *当前已存在的 Fiber 节点，首次渲染时为 null*
@@ -41,7 +41,7 @@ export function reconcileChildren(
     workInProgress.child = mountChildFibers(
       workInProgress,
       null,                     // 没有之前的兄弟节点
-      nextChildren,             // ！！！新的ReactElement
+      nextChildren,             // ！！！新的子ReactElement
       renderLanes,              // 渲染优先级
     );
   } else {
@@ -53,7 +53,7 @@ export function reconcileChildren(
     workInProgress.child = reconcileChildFibers(
       workInProgress,           // 当前正在处理的 Fiber 节点
       current.child,            // 之前渲染的子节点
-      nextChildren,             // ！！！ReactELement，如<App/>的ReactELement
+      nextChildren,             // ！！！新的子ReactElement，如<App/>的ReactELement
       renderLanes,              // 渲染优先级
     );
   }
@@ -334,16 +334,17 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 
 #### 代码详解：
 
-1. **函数目的**：这个函数是 React 协调算法的核心，**用于比较新旧wip fiber的第一个子节点（旧的current fiber、新的ReactElement），确定需要执行的最小更新集合**（如添加、删除、移动节点等）。
+1. 参数解释：参考下面源码
+2. **函数目的**：这个函数是 React 协调算法的核心，用于**比较新的wip的子ReactElement与旧的current fiber（wip.alternate.child 、第一个子fiber），确定需要执行的最小更新集合**（如添加、删除、移动节点等）。
 
-2. Fragment 处理：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
+3. Fragment 处理：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
 
-3. ReactElement类型处理：
-   - **REACT_ELEMENT_TYPE**：单个 React 元素，如 `<div />`
-   - **REACT_PORTAL_TYPE**：Portal 类型元素
-   - **REACT_LAZY_TYPE**：懒加载组件，需要初始化后再处理
-   - **数组**：多个子元素，需要进行 diff 算法
-   - **迭代器**：可迭代对象，如 Map、Set 等
+4. **根据不同的ReactElement类型，走不同的处理流程**：
+   - REACT_ELEMENT_TYPE：单个 React 元素，如 `<div />`
+   - REACT_PORTAL_TYPE：Portal 类型元素
+   - REACT_LAZY_TYPE：懒加载组件，需要初始化后再处理
+   - 数组：多个子元素，需要进行 diff 算法
+   - 迭代器：可迭代对象，如 Map、Set 等
 
 4. **基本类型处理**：*字符串和数字会被转换为文本节点*。
 
@@ -359,23 +360,15 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 这个函数是 React 高效更新 UI 的关键部分，它实现了 React 的 diff 算法，确保只对必要的部分进行 DOM 操作。
 
 ```javascript
-// This API will tag the children with the side-effect of the reconciliation
-// itself. They will be added to the side-effect list as we pass through the
-// children and the parent.
+
 function reconcileChildFibers(
-  returnFiber: Fiber,              // wip Fiber，父级 Fiber 节点
-  currentFirstChild: Fiber | null, // wip.alternate.child/current.child，当前第一个子 Fiber 节点
+  returnFiber: Fiber,              // wip Fiber，要构建fiber的父级 Fiber 节点
+  currentFirstChild: Fiber | null, // wip.alternate.child/current.child，当前第一个子 Fiber 节点，diff时使用
   newChild: any,                   // wip的子ReactElement，新的 React 元素，新的子节点（可能是 React 元素、字符串、数组等）
   lanes: Lanes,                    // 优先级相关的 lanes
-): Fiber | null {                  // ！！！新创建的fiber，或复用的fiber 
-  // This function is not recursive.
-  // If the top level item is an array, we treat it as a set of children,
-  // not as a fragment. Nested arrays on the other hand will be treated as
-  // fragment nodes. Recursion happens at the normal flow.
+): Fiber | null {                  // ！！！新构建的fiber（新创建的fiber，或复用的fiber）
 
-  // Handle top level unkeyed fragments as if they were arrays.
-  // This leads to an ambiguity between <>{[...]}</> and <>...</>.
-  // We treat the ambiguous cases above the same.
+  
   const isUnkeyedTopLevelFragment =
     typeof newChild === 'object' &&
     newChild !== null &&
@@ -480,32 +473,35 @@ function reconcileChildFibers(
 [reconcileSingleElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L1129-L1204) 函数的代码，它是 React 协调算法中**处理单个 React 元素**的核心部分。
 
 #### 代码详解：
-1. **函数目的**：这个函数*处理单个 ReactElement 的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
+1. 参数解释：参考下面源码
 
-2. **Key 匹配**：首先通过*比较 key 值来寻找可复用的节点*，这是 React diff 算法的关键。
+2. **函数目的**：这个函数*处理单个 ReactElement 的协调（如首次渲染的`<App/>`），尝试在现有节点中找到匹配的节点进行复用，如果没有找到则创建新节点*。
 
-3. **类型匹配**：找到 key 匹配的节点后，*进一步检查元素类型是否相同，以确定是否可以复用节点*。
+3. Key 匹配：首先通过*比较 key 值来寻找可复用的节点*，这是 React diff 算法的关键。
 
-4. Fragment 特殊处理：Fragment 类型需要特别处理，因为它不会创建实际的 DOM 节点。
+4. 类型匹配：找到 key 匹配的节点后，*进一步检查元素类型是否相同，以确定是否可以复用节点*。
 
-5. 懒加载组件处理：对于懒加载组件，需要解析其实际类型并与现有节点比较。
+5. Fragment 特殊处理：Fragment 类型需要特别处理，因为它不会创建实际的 DOM 节点。
 
-6. **节点复用 vs 创建**：
+6. 懒加载组件处理：对于懒加载组件，需要解析其实际类型并与现有节点比较。
+
+7. 节点复用 vs 创建：
    - 如果找到匹配的节点，使用 [useFiber](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactChildFiber.new.js#L335-L340) *复用现有节点并更新 props*
    - 如果没找到匹配节点，则使用 [createFiberFromElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L436-L459) 或 [createFiberFromFragment](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L474-L479) 创建新节点
 
-7. **删除操作**：对于不匹配的节点或其后续节点，会执行删除操作。
+8. 删除操作：对于不匹配的节点或其后续节点，会执行删除操作。
 
 这个函数体现了 React 协调算法的核心思想：通过 key 和类型匹配来复用尽可能多的现有节点，减少不必要的创建和销毁操作，从而提升性能。
 
 
 ```javascript
 function reconcileSingleElement(
-    returnFiber: Fiber,               // wip Fiber，父级 Fiber 节点
-    currentFirstChild: Fiber | null,  // wip.alternate.child/current.child，当前第一个子 Fiber 节点
-    element: ReactElement,            // wip的子ReactElement，新的 React 元素
+    returnFiber: Fiber,               // wip Fiber，要构建fiber的父级 Fiber 节点
+    currentFirstChild: Fiber | null,  // wip.alternate.child/current.child，当前第一个子 Fiber 节点，diff时使用
+    element: ReactElement,            // wip的子ReactElement，新的 React 元素 
     lanes: Lanes,                     // 优先级相关的 lanes
-  ): Fiber {                          // 新创建的fiber，或复用的fiber 
+  ): Fiber {                          // 新构建的fiber（新创建的fiber，或复用的fiber）
+  
     // 获取新元素的 key
     const key = element.key;
     // 从current.child（workInProgress对应的current的第一个子节点）开始遍历
