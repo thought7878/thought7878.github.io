@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.1.2.1.1 beginWork"
+              "title": "3.1.2.1.1.2 mountIndeterminateComponent"
             }
           },
           {
@@ -741,7 +741,10 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2.1 renderWithHooks.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.2 mountIndeterminateComponent.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/_React 的首次渲染流程.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
@@ -749,7 +752,6 @@
     "_posts/methods/常看的.md",
     "_posts/methods/熟练，才会上瘾.md",
     "_posts/methods/关于难与易的认知与习惯养成.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-31.md",
     "DailyNote/Journal/01 Daily/2026/01/2026-01-30.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.3“递”阶段mount时流程.md",
@@ -777,14 +779,12 @@
     "DailyNote/Journal/01 Daily/2026/01/2026-01-27.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/cdf9b5c740a9899e7ff38ed9c837d70c_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.4React新架构—Fiber.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.3架构的演进史.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/b1faef95428210e8c99e9fb2deca9f6a_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/a947cf4d64a78dbea706f200f8c04309_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/142b616f5951bfc3aca6056891ab8e33_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/f47726edefb1505511d193204c6736f2_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/d7fa77c000c3782136e7e44519803215_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
