@@ -334,7 +334,7 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 
 #### 代码详解：
 
-1. **函数目的**：这个函数是 React 协调算法的核心，*用于比较新旧子节点，确定需要执行的最小更新集合*（如添加、删除、移动节点等）。
+1. **函数目的**：这个函数是 React 协调算法的核心，**用于比较新旧wip fiber的第一个子节点（旧的current fiber、新的ReactElement），确定需要执行的最小更新集合**（如添加、删除、移动节点等）。
 
 2. Fragment 处理：首先检查是否为未指定 key 的 Fragment，如果是，则直接获取其子元素进行处理。
 
@@ -347,7 +347,7 @@ function placeSingleChild(newFiber: Fiber): Fiber {
 
 4. **基本类型处理**：*字符串和数字会被转换为文本节点*。
 
-5. **兜底处理**：如果新子节点为 null 或其他无效值，则删除所有现有的子节点。
+5. 兜底处理：如果新子节点为 null 或其他无效值，则删除所有现有的子节点。
 
 #### 关键特点：
 

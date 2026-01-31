@@ -8982,30 +8982,24 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 322.7659505208333,
+    "scroll": 18.494791666666668,
     "cursor": {
       "from": {
-        "line": 359,
-        "ch": 0
+        "line": 332,
+        "ch": 19
       },
       "to": {
-        "line": 359,
-        "ch": 0
+        "line": 332,
+        "ch": 19
       }
     },
     "expandedKeys": [
+      "item-3-83",
       "item-1-0",
-      "item-2-2",
-      "item-2-7",
-      "item-3-9",
-      "item-2-47",
-      "item-2-0",
-      "item-2-10",
-      "item-1-13",
-      "item-3-17",
-      "item-2-16",
-      "item-2-8",
-      "item-2-4"
+      "item-3-75",
+      "item-2-35",
+      "item-2-45",
+      "item-2-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
@@ -9243,15 +9237,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 325.3297526041667,
+    "scroll": 367.9401041666667,
     "cursor": {
       "from": {
-        "line": 336,
-        "ch": 69
+        "line": 392,
+        "ch": 27
       },
       "to": {
-        "line": 336,
-        "ch": 69
+        "line": 392,
+        "ch": 56
       }
     },
     "expandedKeys": [
@@ -9262,7 +9256,9 @@
       "item-2-10",
       "item-2-1",
       "item-3-11",
-      "item-3-14"
+      "item-3-14",
+      "item-4-8",
+      "item-3-2"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {
@@ -9657,14 +9653,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-30.md": {
-    "scroll": 25.992838541666668,
+    "scroll": 18.335056248099725,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -9673,22 +9669,60 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/React 的首次渲染流程.md": {
-    "scroll": 1570.58984375,
+    "scroll": 1528.7496744791667,
     "cursor": {
       "from": {
-        "line": 1585,
-        "ch": 0
+        "line": 1536,
+        "ch": 1
       },
       "to": {
-        "line": 1585,
-        "ch": 0
+        "line": 1536,
+        "ch": 1
       }
     },
     "expandedKeys": [
       "item-3-83",
       "item-1-0",
       "item-3-75",
-      "item-2-35"
+      "item-2-35",
+      "item-2-45"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/01/2026-01-31.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 0
+      },
+      "to": {
+        "line": 42,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/_React 的首次渲染流程.md": {
+    "scroll": 1501.580078125,
+    "cursor": {
+      "from": {
+        "line": 1535,
+        "ch": 18
+      },
+      "to": {
+        "line": 1535,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-3-83",
+      "item-1-0",
+      "item-3-75",
+      "item-2-35",
+      "item-2-45",
+      "item-2-0"
     ]
   }
 }
