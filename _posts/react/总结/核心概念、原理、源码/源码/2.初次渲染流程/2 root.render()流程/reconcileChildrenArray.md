@@ -321,7 +321,7 @@ if (shouldTrackSideEffects) {
 
 ### 位置算法
 
-- [placeChild](file:///Users/ll/Desktop/资料/编程/仓库/react/debug-react/react/packages/react-reconciler/src/ReactChildFiber.old.js#490-L558) 函数决定节点的移动策略
+- [placeChild](file:///Users/ll/Desktop/资料/编程/仓库/react/debug-react/react/packages/react-reconciler/src/ReactChildFiber.old.js#490-L558) 函数*决定节点的移动策略*
 - 通过 `lastPlacedIndex` 防止不必要的节点移动
 
 ## 算法优化考虑
