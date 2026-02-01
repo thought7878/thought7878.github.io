@@ -594,6 +594,9 @@ function reconcileSingleElement(
   }
 ```
 
+### reconcileChildrenArray
+参考：[[reconcileChildrenArray]]
+
 ### createFiberFromElement
 我来详细解释这段 [createFiberFromElement](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiber.new.js#L604-L629) 函数的代码，它是 React 协调算法中创建 Fiber 节点的重要部分。
 
