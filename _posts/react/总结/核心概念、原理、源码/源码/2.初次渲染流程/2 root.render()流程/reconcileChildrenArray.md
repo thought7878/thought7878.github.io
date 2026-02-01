@@ -216,7 +216,7 @@ let resultingFirstChild: Fiber | null = null;  // 结果链表的第一个节点
 let previousNewFiber: Fiber | null = null;     // 结果链表的上一个节点
 let oldFiber = currentFirstChild;              // 当前正在处理的旧节点
 let lastPlacedIndex = 0;                       // 上次放置的索引
-let newIdx = 0;                                // 新数组的索引
+let newIdx = 0;                                // ReactElement新数组的索引
 let nextOldFiber = null;                       // 下一个待处理的旧节点
 ```
 
@@ -242,7 +242,7 @@ for (; oldFiber !== null && newIdx < newChildren.length; newIdx++) {
 
 这个循环逐个比较新旧节点：
 
-- [updateSlot](file:///Users/ll/Desktop/资料/编程/仓库/react/debug-react/react/packages/react-reconciler/src/ReactChildFiber.old.js#L563-L627) 函数*尝试复用现有的 Fiber 节点*，它会*比较新旧节点的类型和 key 是否相同*
+- [updateSlot](file:///Users/ll/Desktop/资料/编程/仓库/react/debug-react/react/packages/react-reconciler/src/ReactChildFiber.old.js#L563-L627) 函数**尝试复用现有的 Fiber 节点**，它会**比较新旧节点的类型和 key 是否相同**
 - 如果 `newFiber` 为 `null`，表示无法复用，跳出循环
 - 如果能复用，则更新节点的位置信息并添加到结果链表中
 
