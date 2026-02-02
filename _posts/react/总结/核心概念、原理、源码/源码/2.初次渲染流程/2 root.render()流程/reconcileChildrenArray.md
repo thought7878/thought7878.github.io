@@ -168,7 +168,7 @@ if (shouldTrackSideEffects) {
 
 ## 函数目的
 
-这个函数的**主要目的**是对当前 Fiber 节点的子节点进行协调（reconciliation），也就是比较虚拟 DOM 的差异并更新 Fiber 树。它专门处理子元素为数组类型的情况，例如：
+这个函数的**主要目的**是对当前 Fiber 节点的子节点进行协调（reconciliation），也就是比较虚拟 DOM 的差异并更新 Fiber 树。它专门*处理子元素为数组类型*的情况，例如：
 
 ```jsx
 function MyComponent() {
