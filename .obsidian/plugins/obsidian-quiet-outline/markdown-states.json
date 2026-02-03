@@ -5385,12 +5385,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 2
+        "line": 3,
+        "ch": 20
       },
       "to": {
-        "line": 2,
-        "ch": 6
+        "line": 3,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -5867,15 +5867,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第3章 学习前：底层源码的高效学习方法分享/3-3 如何debug React源码.md": {
-    "scroll": 6.675038759689922,
+    "scroll": 5.000325520833333,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 25
+        "line": 20,
+        "ch": 62
       },
       "to": {
-        "line": 18,
-        "ch": 25
+        "line": 20,
+        "ch": 62
       }
     },
     "expandedKeys": []
@@ -8968,7 +8968,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1 performUnitOfWork.md": {
-    "scroll": 38.145833333333336,
+    "scroll": 41.291666666666664,
     "cursor": {
       "from": {
         "line": 52,
@@ -8979,12 +8979,7 @@
         "ch": 32
       }
     },
-    "expandedKeys": [
-      "item-2-4",
-      "item-2-0",
-      "item-1-0",
-      "item-2-12"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
     "scroll": 157.0576171875,
@@ -9845,7 +9840,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.4“归”阶段mount时流程.md": {
-    "scroll": 93.72909698996655,
+    "scroll": 108.58697674418605,
     "cursor": {
       "from": {
         "line": 113,
@@ -9878,15 +9873,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.5“递”阶段update时流程.md": {
-    "scroll": 0,
+    "scroll": 13.968715610753026,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 27,
+        "ch": 65
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 27,
+        "ch": 65
       }
     },
     "expandedKeys": []
