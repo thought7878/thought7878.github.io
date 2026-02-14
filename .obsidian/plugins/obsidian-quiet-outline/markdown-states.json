@@ -409,35 +409,19 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 120.42708333333333,
+    "scroll": 168.42235030419468,
     "cursor": {
       "from": {
-        "line": 136,
-        "ch": 59
+        "line": 180,
+        "ch": 141
       },
       "to": {
-        "line": 136,
-        "ch": 59
+        "line": 180,
+        "ch": 141
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
-      "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12",
-      "item-3-18",
-      "item-1-11",
-      "item-2-22"
+      "item-1-0"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
@@ -500,15 +484,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 150
+        "line": 76,
+        "ch": 0
       },
       "to": {
-        "line": 25,
-        "ch": 150
+        "line": 76,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md": {
     "scroll": 22.6259765625,
@@ -959,14 +945,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 79.375,
+    "scroll": 71.39583333333333,
     "cursor": {
       "from": {
-        "line": 86,
+        "line": 88,
         "ch": 0
       },
       "to": {
-        "line": 86,
+        "line": 88,
         "ch": 0
       }
     },
@@ -3072,15 +3058,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md": {
-    "scroll": 613.6057380007218,
+    "scroll": 613.5826416456154,
     "cursor": {
       "from": {
-        "line": 616,
-        "ch": 54
+        "line": 626,
+        "ch": 31
       },
       "to": {
-        "line": 616,
-        "ch": 54
+        "line": 626,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -8148,12 +8134,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 9
+        "line": 2,
+        "ch": 73
       },
       "to": {
-        "line": 1,
-        "ch": 9
+        "line": 2,
+        "ch": 73
       }
     },
     "expandedKeys": []
@@ -9612,28 +9598,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.3“递”阶段mount时流程.md": {
-    "scroll": 142.28248062015504,
+    "scroll": 125.18077519379845,
     "cursor": {
       "from": {
-        "line": 172,
-        "ch": 55
+        "line": 139,
+        "ch": 4
       },
       "to": {
-        "line": 172,
-        "ch": 55
+        "line": 139,
+        "ch": 4
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-2",
-      "item-2-7",
-      "item-3-9",
-      "item-2-14",
-      "item-2-0",
-      "item-2-10",
-      "item-2-8",
-      "item-2-3",
-      "item-2-1"
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-29.md": {
@@ -9840,32 +9818,32 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.4“归”阶段mount时流程.md": {
-    "scroll": 108.58697674418605,
+    "scroll": 10.112248062015503,
     "cursor": {
       "from": {
-        "line": 113,
+        "line": 24,
         "ch": 0
       },
       "to": {
-        "line": 113,
+        "line": 24,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-8"
+      "item-2-1"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-03.md": {
-    "scroll": 24.659505208333332,
+    "scroll": 25.367838541666668,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -9876,14 +9854,95 @@
     "scroll": 13.968715610753026,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 65
+        "line": 30,
+        "ch": 4
       },
       "to": {
-        "line": 27,
-        "ch": 65
+        "line": 30,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-04.md": {
+    "scroll": 22.125266038309515,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-10.md": {
+    "scroll": 18.335056248099725,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/读书笔记/健康/抗衰.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-14.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1如何学习React源码.md": {
+    "scroll": 80.13216145833333,
+    "cursor": {
+      "from": {
+        "line": 99,
+        "ch": 8
+      },
+      "to": {
+        "line": 99,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
   }
 }
