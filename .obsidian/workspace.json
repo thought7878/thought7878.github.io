@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.3架构的演进史.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.2设计理念"
+              "title": "1.3架构的演进史"
             }
           },
           {
@@ -741,10 +741,12 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/823bdb908e5fab92bb8c3ec163b8437b_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/eb637c89a7f4e6799eb7003860558001_MD5.webp",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md",
     "_posts/browser/浏览器如何工作.md",
     "_posts/browser/浏览器的工作流程.md",
     "_posts/browser/浏览器的主线程.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理1.md",
     "_posts/react/总结/核心概念、原理、源码/源码/React的渲染流程-DS.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
@@ -771,7 +773,6 @@
     "DailyNote/Journal/01 Daily/2026/02/2026-02-04.md",
     "_posts/读书笔记/世界趋势/美国.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/media/c76e9cef4cb539ef18d2c54ed83e83b7_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/02/2026-02-03.md",
     "_posts/读书笔记/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/media/b2038dda8aab35f898ce5a5ee855a01b_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/media/fa7f8fbd3cffc3143bcd86da91792350_MD5.webp",
@@ -786,7 +787,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/media/5c00c28694b3ab146cc553f7cf8ff9d6_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/4f7d0b7ad9b324e683d4cbe0292e773f_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
