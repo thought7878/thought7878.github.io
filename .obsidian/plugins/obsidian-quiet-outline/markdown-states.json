@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 182.10971467391303,
+    "scroll": 154.34027777777777,
     "cursor": {
       "from": {
-        "line": 193,
+        "line": 256,
         "ch": 0
       },
       "to": {
-        "line": 193,
+        "line": 256,
         "ch": 0
       }
     },
@@ -571,11 +571,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 9,
         "ch": 0
       }
     },
@@ -9565,18 +9565,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.1架构工作流程概览.md": {
-    "scroll": 2.5779341751190232,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 18
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 18
+        "line": 1,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-8"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/2.2深入理解JSX.md": {
     "scroll": 18.062174479166668,
@@ -9931,39 +9934,47 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1如何学习React源码.md": {
-    "scroll": 73.31317829457365,
+    "scroll": 16.237955729166668,
     "cursor": {
       "from": {
-        "line": 91,
-        "ch": 18
+        "line": 32,
+        "ch": 17
       },
       "to": {
-        "line": 91,
-        "ch": 18
-      }
-    },
-    "expandedKeys": [
-      "item-2-2",
-      "item-2-8"
-    ]
-  },
-  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md": {
-    "scroll": 45.17736434108527,
-    "cursor": {
-      "from": {
-        "line": 62,
-        "ch": 8
-      },
-      "to": {
-        "line": 62,
-        "ch": 8
+        "line": 32,
+        "ch": 17
       }
     },
     "expandedKeys": [
       "item-2-1",
       "item-2-4",
       "item-2-8",
-      "item-2-13"
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md": {
+    "scroll": 7.902015503875969,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 25
+      },
+      "to": {
+        "line": 8,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
     ]
   },
   "_posts/browser/浏览器如何工作.md": {
@@ -10040,20 +10051,25 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.3架构的演进史.md": {
-    "scroll": 57.41462295416306,
+    "scroll": 45.96120534103212,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 14
+        "line": 53,
+        "ch": 10
       },
       "to": {
-        "line": 62,
-        "ch": 14
+        "line": 53,
+        "ch": 10
       }
     },
     "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
       "item-2-0",
-      "item-2-4"
+      "item-2-2",
+      "item-2-12"
     ]
   },
   "_posts/methods/思考、认知/Untitled.md": {
@@ -10085,19 +10101,25 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.4React新架构—Fiber.md": {
-    "scroll": 43.21484375,
+    "scroll": 35.134765625,
     "cursor": {
       "from": {
         "line": 54,
-        "ch": 19
+        "ch": 13
       },
       "to": {
         "line": 54,
-        "ch": 19
+        "ch": 13
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/代数效应（Algebraic Effects）.md": {
@@ -10133,15 +10155,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5Fiber架构工作原理.md": {
-    "scroll": 39.881465178431064,
+    "scroll": 69.5780725831046,
     "cursor": {
       "from": {
         "line": 78,
-        "ch": 24
+        "ch": 23
       },
       "to": {
         "line": 78,
-        "ch": 24
+        "ch": 23
       }
     },
     "expandedKeys": []
@@ -10175,15 +10197,31 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-16.md": {
-    "scroll": 0,
+    "scroll": 23.565217391304348,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 93
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 41,
-        "ch": 93
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-19.md": {
+    "scroll": 25.367838541666668,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
       }
     },
     "expandedKeys": [
