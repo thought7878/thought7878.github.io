@@ -1991,17 +1991,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 134
+        "line": 0,
+        "ch": 160
       },
       "to": {
-        "line": 2,
-        "ch": 134
+        "line": 0,
+        "ch": 160
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/08. Applying Code Splitting and Lazy Loading/04. 策略2：指定代码拆分标准.md": {
     "scroll": 29.24209943732128,
@@ -9537,18 +9535,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.7源码的目录结构.md": {
-    "scroll": 26.878923278116826,
+    "scroll": 61.51937984496124,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 62,
+        "ch": 25
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 62,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/Untitled.md": {
     "scroll": 0,
@@ -9568,12 +9568,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 112
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 112
       }
     },
     "expandedKeys": [
@@ -9934,15 +9934,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1如何学习React源码.md": {
-    "scroll": 16.237955729166668,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 17
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 17
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -10155,15 +10155,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5Fiber架构工作原理.md": {
-    "scroll": 71.29555420630102,
+    "scroll": 8.687626459143969,
     "cursor": {
       "from": {
-        "line": 78,
-        "ch": 24
+        "line": 19,
+        "ch": 8
       },
       "to": {
-        "line": 78,
-        "ch": 24
+        "line": 19,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -10226,6 +10226,22 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.7.md": {
+    "scroll": 11.60322286409243,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 0
+      },
+      "to": {
+        "line": 20,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
     ]
   }
 }
