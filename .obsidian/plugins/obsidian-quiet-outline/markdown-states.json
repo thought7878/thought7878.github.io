@@ -409,21 +409,18 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 105.25,
+    "scroll": 242.20652173913044,
     "cursor": {
       "from": {
-        "line": 123,
-        "ch": 129
+        "line": 252,
+        "ch": 0
       },
       "to": {
-        "line": 123,
-        "ch": 129
+        "line": 252,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-2",
-      "item-2-8"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
     "scroll": 0,
@@ -574,11 +571,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 9,
         "ch": 0
       }
     },
@@ -9536,7 +9533,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.7源码的目录结构.md": {
-    "scroll": 61.51937984496124,
+    "scroll": 58.48628826530612,
     "cursor": {
       "from": {
         "line": 62,
@@ -9548,7 +9545,13 @@
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段/Untitled.md": {
@@ -9935,7 +9938,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1如何学习React源码.md": {
-    "scroll": 46.5584496124031,
+    "scroll": 47.38418604651163,
     "cursor": {
       "from": {
         "line": 61,
@@ -10246,18 +10249,26 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1架构工作流程概览.md": {
-    "scroll": 33.10015503875969,
+    "scroll": 11.677408854166666,
     "cursor": {
       "from": {
-        "line": 53,
+        "line": 41,
         "ch": 0
       },
       "to": {
-        "line": 53,
+        "line": 41,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-20.md": {
     "scroll": 0,
@@ -10290,15 +10301,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1.md": {
-    "scroll": 11.793814432989691,
+    "scroll": 0.21634615384615385,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 3
+        "line": 12,
+        "ch": 0
       },
       "to": {
-        "line": 20,
-        "ch": 3
+        "line": 12,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -10315,10 +10326,18 @@
         "ch": 10
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.2深入理解JSX.md": {
-    "scroll": 0,
+    "scroll": 2.9791306413928744,
     "cursor": {
       "from": {
         "line": 19,
@@ -10329,18 +10348,26 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3.md": {
-    "scroll": 158.33626302083334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 170,
-        "ch": 17
+        "line": 125,
+        "ch": 21
       },
       "to": {
-        "line": 170,
-        "ch": 17
+        "line": 125,
+        "ch": 21
       }
     },
     "expandedKeys": [
@@ -10357,20 +10384,58 @@
     "scroll": 33.865234375,
     "cursor": {
       "from": {
-        "line": 101,
-        "ch": 23
+        "line": 44,
+        "ch": 29
       },
       "to": {
-        "line": 101,
-        "ch": 23
+        "line": 44,
+        "ch": 29
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-2-1",
-      "item-3-3",
+      "item-2-4",
       "item-2-8",
-      "item-2-10"
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md": {
+    "scroll": 6.555288461538462,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 24
+      },
+      "to": {
+        "line": 21,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1 流程概览.md": {
+    "scroll": 99.03743489583333,
+    "cursor": {
+      "from": {
+        "line": 119,
+        "ch": 0
+      },
+      "to": {
+        "line": 119,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
