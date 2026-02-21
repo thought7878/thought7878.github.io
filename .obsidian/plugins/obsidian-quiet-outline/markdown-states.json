@@ -10263,15 +10263,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-20.md": {
-    "scroll": 0,
+    "scroll": 18.06263301915476,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -10395,25 +10395,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md": {
-    "scroll": 194.1865234375,
+    "scroll": 210.79345703125,
     "cursor": {
       "from": {
-        "line": 212,
-        "ch": 15
+        "line": 196,
+        "ch": 26
       },
       "to": {
-        "line": 212,
-        "ch": 15
+        "line": 196,
+        "ch": 26
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-4",
-      "item-2-8",
-      "item-2-13",
-      "item-2-0",
-      "item-2-2",
-      "item-2-12"
+      "item-2-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1 流程概览.md": {
@@ -10429,5 +10423,93 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/读书笔记/健康/糖尿病/记录/9月.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 21
+      },
+      "to": {
+        "line": 9,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 33
+      },
+      "to": {
+        "line": 12,
+        "ch": 33
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 93
+      },
+      "to": {
+        "line": 41,
+        "ch": 93
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.6.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md": {
+    "scroll": 103.33072916666667,
+    "cursor": {
+      "from": {
+        "line": 118,
+        "ch": 0
+      },
+      "to": {
+        "line": 118,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }
