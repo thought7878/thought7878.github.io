@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.4 completeWork"
+              "title": "2.5“递”阶段update时流程"
             }
           },
           {
@@ -739,10 +739,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.6“归”阶段update时流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md",
     "DailyNote/Journal/01 Daily/2026/02/2026-02-21.md",
