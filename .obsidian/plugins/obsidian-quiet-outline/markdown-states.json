@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 242.20652173913044,
+    "scroll": 7.916666666666667,
     "cursor": {
       "from": {
-        "line": 252,
+        "line": 246,
         "ch": 0
       },
       "to": {
-        "line": 252,
+        "line": 246,
         "ch": 0
       }
     },
@@ -571,11 +571,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 12,
         "ch": 0
       }
     },
@@ -942,14 +942,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 47.458333333333336,
+    "scroll": 38.517252604166664,
     "cursor": {
       "from": {
-        "line": 53,
+        "line": 46,
         "ch": 0
       },
       "to": {
-        "line": 53,
+        "line": 46,
         "ch": 0
       }
     },
@@ -1991,12 +1991,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 160
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 160
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4311,12 +4311,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 9,
+        "ch": 11
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 9,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -7240,21 +7240,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 0,
+    "scroll": 144.9343265430222,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 157,
+        "ch": 38
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 157,
+        "ch": 38
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-2-3",
-      "item-2-1",
       "item-2-0"
     ]
   },
@@ -10395,15 +10392,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md": {
-    "scroll": 216.2421875,
+    "scroll": 103.1064453125,
     "cursor": {
       "from": {
-        "line": 196,
-        "ch": 26
+        "line": 123,
+        "ch": 30
       },
       "to": {
-        "line": 196,
-        "ch": 26
+        "line": 123,
+        "ch": 30
       }
     },
     "expandedKeys": [
@@ -10453,15 +10450,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-21.md": {
-    "scroll": 0,
+    "scroll": 23.27333536029188,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 93
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 41,
-        "ch": 93
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -10497,17 +10494,49 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md": {
-    "scroll": 17.40822111977321,
+    "scroll": 170.5577168367347,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 20
+        "line": 197,
+        "ch": 17
       },
       "to": {
-        "line": 34,
-        "ch": 20
+        "line": 197,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/读书笔记/别人的生活.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-24.md": {
+    "scroll": 24.659505208333332,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }

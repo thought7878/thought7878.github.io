@@ -153,7 +153,7 @@
     - **类型**: `any`  
     - **作用**: 原始组件类型（未被 `forwardRef`/`memo` 包装前的类型）。
 
-23. **`effectList`** 链表指针  
+23. **`effectList`** 链表指针（*18.2.0已没有该属性*）
     - **`firstEffect`/`lastEffect`**: 提交阶段遍历副作用链表的头尾指针。  
     - **`nextEffect`**: 副作用链表的下一个节点（提交阶段遍历用）。
 
