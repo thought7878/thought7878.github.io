@@ -9951,7 +9951,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1如何学习React源码.md": {
-    "scroll": 31.666185492601947,
+    "scroll": 9.45127569099929,
     "cursor": {
       "from": {
         "line": 61,
@@ -10389,12 +10389,12 @@
     "scroll": 93.43745570517363,
     "cursor": {
       "from": {
-        "line": 111,
-        "ch": 43
+        "line": 108,
+        "ch": 0
       },
       "to": {
-        "line": 111,
-        "ch": 43
+        "line": 108,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -10431,19 +10431,25 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1 流程概览.md": {
-    "scroll": 45.695193798449615,
+    "scroll": 25.645833333333332,
     "cursor": {
       "from": {
-        "line": 53,
+        "line": 40,
         "ch": 0
       },
       "to": {
-        "line": 53,
+        "line": 40,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-1",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13",
+      "item-2-0",
+      "item-2-2",
+      "item-2-12"
     ]
   },
   "_posts/读书笔记/健康/糖尿病/记录/9月.md": {
@@ -10947,14 +10953,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-26.md": {
-    "scroll": 0,
+    "scroll": 24.034505208333332,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -11053,6 +11059,22 @@
       "item-2-13",
       "item-2-18",
       "item-1-11",
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/02/2026-02-27.md": {
+    "scroll": 32.39315175097276,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 93
+      },
+      "to": {
+        "line": 41,
+        "ch": 93
+      }
+    },
+    "expandedKeys": [
       "item-1-1"
     ]
   }
