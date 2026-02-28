@@ -487,7 +487,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 73.40787760416667,
+    "scroll": 84.49934895833333,
     "cursor": {
       "from": {
         "line": 105,
@@ -499,7 +499,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-3"
+      "item-1-3",
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md": {
@@ -11393,19 +11394,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md": {
-    "scroll": 57.641276041666664,
+    "scroll": 61.818359375,
     "cursor": {
       "from": {
-        "line": 76,
-        "ch": 26
+        "line": 78,
+        "ch": 2
       },
       "to": {
-        "line": 76,
-        "ch": 26
+        "line": 78,
+        "ch": 2
       }
     },
     "expandedKeys": [
-      "item-1-3",
+      "item-3-1",
+      "item-3-6",
+      "item-3-9",
+      "item-3-14",
       "item-1-2"
     ]
   },
@@ -11438,5 +11442,24 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/English/单词/effect.md": {
+    "scroll": 1.2376302083333333,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 17
+      },
+      "to": {
+        "line": 22,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-3-6",
+      "item-3-9",
+      "item-3-14"
+    ]
   }
 }
