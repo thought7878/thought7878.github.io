@@ -715,7 +715,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -739,10 +739,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/6cbdbd10435b79eccb6611be6fb60b28_MD5.webp",
+    "_posts/读书笔记/男女.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/English/单词/effect.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/动力.md",
@@ -777,8 +779,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/media/2efd8a6f7b0577c1a3690d8117b6dc13_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.5 Fiber架构的工作原理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5Fiber架构工作原理.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.1 前言.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2设计理念.md",
     "_posts/读书笔记/健康/老妈",
     "DailyNote/Journal/01 Daily/2026/02/media",
     "_posts/读书笔记/世界趋势/media",
