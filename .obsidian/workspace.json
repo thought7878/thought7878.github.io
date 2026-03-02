@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-01.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-01"
+              "title": "2026-03-02"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.3 beginWork"
+              "title": "2.5“递”阶段update时流程"
             }
           },
           {
@@ -739,8 +739,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-02.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-01.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/fa890a35660335a63060550782acb078_MD5.webp",
@@ -749,10 +752,8 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/6d1fb3dda3c2e97ecaaf78623cb4bb0c_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/bc9058427dea696bd0bcd0cacfc3414e_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/748da75d5dc0d89d13fce122c632283e_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.3 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.1 流程概览.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md",
-    "DailyNote/Journal/01 Daily/2026/03/2026-03-01.md",
     "DailyNote/Journal/01 Daily/2026/02/2026-02-28.md",
     "DailyNote/Journal/01 Daily/2026/03",
     "_posts/读书笔记/男女.md",
@@ -779,7 +780,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5.2 Fiber架构的工作原理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5.3 总结.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.7.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.6.md",
     "_posts/读书笔记/健康/老妈",
     "DailyNote/Journal/01 Daily/2026/02/media",
     "_posts/读书笔记/世界趋势/media",
