@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.1 概览.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.1 概览"
+              "title": "4.2 单节点Diff"
             }
           },
           {
@@ -739,8 +739,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.1 概览.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media/c222b5f0e3cb4ecd8b926ad111a6b535_MD5.png",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md",
     "_posts/读书笔记/男女.md",
@@ -769,7 +773,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/971ba51befcf506e9ce3ab1f9994f81d_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/02/2026-02-27.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/5a6de6da7a75c52d5395cbf68ba32721_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/cb09ad8c6581d1664587c8bb19d71b5e_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.2 React理念.md",
@@ -778,15 +781,12 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.4React新架构—Fiber.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.4 Fiber架构的心智模型.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5.1 Fiber架构的实现原理.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5.2 Fiber架构的工作原理.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.5.3 总结.md",
     "_posts/读书笔记/健康/老妈",
     "DailyNote/Journal/01 Daily/2026/02/media",
     "_posts/读书笔记/世界趋势/media",
     "_posts/读书笔记/media",
     "DailyNote/Journal/01 Daily/2026/02",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
