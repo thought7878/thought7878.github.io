@@ -16,4 +16,14 @@
 	- key 不匹配：
 		- 删除该current fiber
 		- 并继续检查下一个兄弟节点。回到1，继续下一个循环
-- 2.如果遍历完current fiber都没有找到匹配项或key 匹配且类型不匹配，*创建一个新的 Fiber 节点*，根据ReactElement
+- 2.如果遍历完current fiber都没有找到匹配项 或 key 匹配且类型不匹配，*创建一个新的 Fiber 节点*，根据ReactElement
+	- 根据 ReactElement 元素类型创建对应的新fiber
+		- 普通元素类型：
+			- *创建 Fiber*，根据ReactElement，`createFiberFromElement`
+			- 建立与父fiber的关系
+			- 返回新fiber
+		- Fragment 类型：
+			- 创建 Fragment Fiber
+			- 建立与父fiber的关系
+			- 返回新fiber
+

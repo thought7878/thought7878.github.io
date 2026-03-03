@@ -10759,15 +10759,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md": {
-    "scroll": 28.875625590728088,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 0
+        "line": 9,
+        "ch": 3
       },
       "to": {
-        "line": 41,
-        "ch": 0
+        "line": 9,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -11545,15 +11545,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileSingleElement.md": {
-    "scroll": 0,
+    "scroll": 0.8383838383838383,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 76
+        "line": 29,
+        "ch": 0
       },
       "to": {
-        "line": 18,
-        "ch": 76
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": []
