@@ -10743,15 +10743,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.1 概览.md": {
-    "scroll": 0,
+    "scroll": 81.84602864583333,
     "cursor": {
       "from": {
-        "line": 108,
-        "ch": 17
+        "line": 88,
+        "ch": 3
       },
       "to": {
-        "line": 108,
-        "ch": 17
+        "line": 88,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -10759,20 +10759,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md": {
-    "scroll": 28.261163692785104,
+    "scroll": 28.875625590728088,
     "cursor": {
       "from": {
-        "line": 49,
-        "ch": 0
+        "line": 39,
+        "ch": 32
       },
       "to": {
-        "line": 49,
-        "ch": 0
+        "line": 39,
+        "ch": 32
       }
     },
-    "expandedKeys": [
-      "item-2-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.3 多节点Diff.md": {
     "scroll": 2.0985576923076925,
@@ -11487,19 +11485,49 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-02.md": {
-    "scroll": 23.993311036789297,
+    "scroll": 13.108695652173912,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-03.md": {
+    "scroll": 6.436399217221135,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 0
+      },
+      "to": {
+        "line": 42,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "reconcileSingleElement.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
