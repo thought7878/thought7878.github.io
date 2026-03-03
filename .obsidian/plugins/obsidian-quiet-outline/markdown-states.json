@@ -11545,15 +11545,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileSingleElement.md": {
-    "scroll": 0,
+    "scroll": 42.07958984375,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 14
+        "line": 55,
+        "ch": 16
       },
       "to": {
-        "line": 36,
-        "ch": 14
+        "line": 55,
+        "ch": 33
       }
     },
     "expandedKeys": []
