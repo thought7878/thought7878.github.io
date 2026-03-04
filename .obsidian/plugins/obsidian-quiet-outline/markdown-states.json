@@ -9241,20 +9241,23 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md": {
-    "scroll": 579.4563802083334,
+    "scroll": 21.310546875,
     "cursor": {
       "from": {
-        "line": 597,
-        "ch": 22
+        "line": 29,
+        "ch": 19
       },
       "to": {
-        "line": 597,
-        "ch": 22
+        "line": 29,
+        "ch": 19
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-1"
+      "item-1-1",
+      "item-2-2",
+      "item-3-18",
+      "item-3-12",
+      "item-3-3"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2 performUnitOfWork.md": {
@@ -10759,7 +10762,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md": {
-    "scroll": 30.675312601682702,
+    "scroll": 30.413517408078835,
     "cursor": {
       "from": {
         "line": 93,
@@ -10770,18 +10773,24 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1",
+      "item-2-2",
+      "item-3-18",
+      "item-3-12",
+      "item-3-3"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.3 多节点Diff.md": {
-    "scroll": 2.0985576923076925,
+    "scroll": 27.791666666666668,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 3
+        "line": 29,
+        "ch": 12
       },
       "to": {
-        "line": 20,
-        "ch": 3
+        "line": 29,
+        "ch": 12
       }
     },
     "expandedKeys": [
@@ -11545,35 +11554,23 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileSingleElement.md": {
-    "scroll": 18.994728682170543,
+    "scroll": 15.54170542635659,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 7
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 7
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-47",
-      "item-1-40",
-      "item-1-25",
-      "item-1-0",
+      "item-1-1",
       "item-2-2",
-      "item-2-10",
-      "item-2-8",
-      "item-2-20",
-      "item-2-14",
-      "item-3-9",
-      "item-2-7",
-      "item-2-5",
-      "item-2-6",
-      "item-2-12",
       "item-3-18",
-      "item-1-11",
-      "item-2-22"
+      "item-3-12",
+      "item-3-3"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-04.md": {
@@ -11590,6 +11587,45 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildFibers.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 51
+      },
+      "to": {
+        "line": 8,
+        "ch": 51
+      }
+    },
+    "expandedKeys": [
+      "item-1-1",
+      "item-2-2",
+      "item-3-18",
+      "item-3-12",
+      "item-3-3"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren2.md": {
+    "scroll": 69.01985677083333,
+    "cursor": {
+      "from": {
+        "line": 337,
+        "ch": 141
+      },
+      "to": {
+        "line": 337,
+        "ch": 141
+      }
+    },
+    "expandedKeys": [
+      "item-3-3",
+      "item-2-2",
+      "item-3-2",
+      "item-2-1"
     ]
   }
 }
