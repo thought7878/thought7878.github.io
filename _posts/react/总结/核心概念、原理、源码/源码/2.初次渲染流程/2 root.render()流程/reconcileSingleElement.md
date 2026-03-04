@@ -2,7 +2,7 @@
 该函数用于处理具有特定 key 的单个 React 元素，会尝试复用current fiber或创建新的 Fiber 节点。
 
 ## 算法
-**算法：** 能复用current fiber，就复用；不能复用，就创建新的fiber
+**算法：** 能复用current fiber，就复用；不能复用，就创建新的fiber；总之，要返回一个wip.child fiber
 
 - 1.*复用current fiber的逻辑*：遍历current fiber现有的子节点链表，*寻找可复用的fiber*
 	- 比较 current fiber 与 ReactElement 的key是否匹配？这是`diff 算法`的关键一步

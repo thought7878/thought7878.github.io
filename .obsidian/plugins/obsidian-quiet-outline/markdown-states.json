@@ -9797,15 +9797,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildrenArray.md": {
-    "scroll": 214.2841796875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 214,
-        "ch": 60
+        "line": 11,
+        "ch": 126
       },
       "to": {
-        "line": 214,
-        "ch": 60
+        "line": 11,
+        "ch": 126
       }
     },
     "expandedKeys": [
@@ -10759,15 +10759,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.2 单节点Diff.md": {
-    "scroll": 0,
+    "scroll": 30.675312601682702,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 3
+        "line": 93,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 3
+        "line": 93,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -11501,14 +11501,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-03.md": {
-    "scroll": 6.436399217221135,
+    "scroll": 11.880626223091976,
     "cursor": {
       "from": {
-        "line": 42,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 42,
+        "line": 31,
         "ch": 0
       }
     },
@@ -11545,17 +11545,51 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileSingleElement.md": {
-    "scroll": 42.07958984375,
+    "scroll": 18.994728682170543,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 16
+        "line": 27,
+        "ch": 7
       },
       "to": {
-        "line": 55,
-        "ch": 33
+        "line": 27,
+        "ch": 7
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-47",
+      "item-1-40",
+      "item-1-25",
+      "item-1-0",
+      "item-2-2",
+      "item-2-10",
+      "item-2-8",
+      "item-2-20",
+      "item-2-14",
+      "item-3-9",
+      "item-2-7",
+      "item-2-5",
+      "item-2-6",
+      "item-2-12",
+      "item-3-18",
+      "item-1-11",
+      "item-2-22"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-04.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
