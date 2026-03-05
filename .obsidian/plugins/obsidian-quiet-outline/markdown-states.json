@@ -8981,15 +8981,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 347.2607421875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 148,
-        "ch": 18
+        "line": 1,
+        "ch": 12
       },
       "to": {
-        "line": 148,
-        "ch": 18
+        "line": 1,
+        "ch": 12
       }
     },
     "expandedKeys": [
@@ -9003,7 +9003,11 @@
       "item-2-4",
       "item-2-35",
       "item-1-0",
-      "item-2-0"
+      "item-2-0",
+      "item-3-19",
+      "item-2-16",
+      "item-1-13",
+      "item-3-17"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-21.md": {
@@ -9104,25 +9108,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 1
+        "line": 2,
+        "ch": 137
       },
       "to": {
-        "line": 15,
-        "ch": 1
+        "line": 2,
+        "ch": 137
       }
     },
     "expandedKeys": [
+      "item-1-20",
+      "item-2-28",
+      "item-2-31",
       "item-2-1",
+      "item-2-8",
+      "item-3-2",
+      "item-3-6",
+      "item-2-4",
+      "item-2-35",
       "item-1-0",
-      "item-2-12",
-      "item-2-6",
-      "item-2-10",
-      "item-2-15",
-      "item-2-2",
-      "item-2-30",
-      "item-2-25",
-      "item-2-4"
+      "item-2-0",
+      "item-3-19",
+      "item-2-16",
+      "item-1-13",
+      "item-3-17"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2.md": {
@@ -9802,7 +9811,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildrenArray.md": {
-    "scroll": 14.268229166666666,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 14,
@@ -9813,7 +9822,18 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-12",
+      "item-2-6",
+      "item-2-10",
+      "item-2-15",
+      "item-2-2",
+      "item-2-30",
+      "item-2-25",
+      "item-2-4"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/02/2026-02-02.md": {
     "scroll": 24.867838541666668,
@@ -11551,17 +11571,16 @@
       }
     },
     "expandedKeys": [
-      "item-1-20",
-      "item-2-28",
-      "item-2-31",
       "item-2-1",
-      "item-2-8",
-      "item-3-2",
-      "item-3-6",
-      "item-2-4",
-      "item-2-35",
       "item-1-0",
-      "item-2-0"
+      "item-2-12",
+      "item-2-6",
+      "item-2-10",
+      "item-2-15",
+      "item-2-2",
+      "item-2-30",
+      "item-2-25",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-04.md": {
