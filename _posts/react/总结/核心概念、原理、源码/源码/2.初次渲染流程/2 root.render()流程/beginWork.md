@@ -3,8 +3,8 @@
 
 `beginWork` 的主要任务是**处理当前的 `workInProgress` Fiber 节点**，具体包括：
 
-1. **判断是否需要更新**：对比 `current` Fiber 和 `workInProgress` Fiber。
-2. **执行组件逻辑**：调用函数组件、类组件的 `render` 方法等。
+1. **判断是否需要更新**：对比 current Fiber 和 workInProgress Fiber。
+2. **执行组件逻辑**：调用函数组件、类组件的 render 方法等。
 3. **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
 4. **返回下一个工作单元**：返回当前workInProgress节点的第一个子 Fiber，以便工作循环继续向下遍历，继续构建fiber树。
 
