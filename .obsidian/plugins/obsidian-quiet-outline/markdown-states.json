@@ -9013,15 +9013,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md": {
-    "scroll": 14.136639030612244,
+    "scroll": 14.412149234693878,
     "cursor": {
       "from": {
         "line": 23,
-        "ch": 70
+        "ch": 107
       },
       "to": {
         "line": 23,
-        "ch": 70
+        "ch": 107
       }
     },
     "expandedKeys": [
@@ -9123,28 +9123,28 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md": {
-    "scroll": 0.8677685950413223,
+    "scroll": 72.9023738405911,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 6
+        "line": 90,
+        "ch": 10
       },
       "to": {
-        "line": 13,
-        "ch": 27
+        "line": 90,
+        "ch": 10
       }
     },
     "expandedKeys": [
       "item-2-1",
-      "item-2-4",
-      "item-2-8",
-      "item-2-13",
+      "item-2-3",
+      "item-2-7",
+      "item-2-12",
       "item-2-0",
       "item-2-2",
-      "item-2-12",
+      "item-2-11",
       "item-1-2",
       "item-1-0",
-      "item-1-6"
+      "item-1-5"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.2.md": {
@@ -11740,5 +11740,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/读书笔记/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/形象.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 140
+      },
+      "to": {
+        "line": 0,
+        "ch": 140
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }

@@ -3,40 +3,31 @@
 
 `beginWork` 的主要任务是**处理当前的 `workInProgress` Fiber 节点**，具体包括：
 
-- **判断是否需要更新**：
+- **判断是否需要更新，避免不必要的渲染工作，提升性能**：
 	- 需要更新：如果props不同（对比 current Fiber 和 workInProgress Fiber）、或legacy context改变、或类型改变(热重载)
 		- didReceiveUpdate = true
 	- 不需更新：*props和legacy context都没变化*
 		- 检查是否有待处理的更新或context变化：
 			- 没有：如果*没有计划的更新或上下文更改*，并且当前fiber没有被DidCapture标志标记
-				- 调用`attemptEarlyBailoutIfNoScheduledUpdate`函数，尝试**提前退出当前渲染过程，避免不必要的工作，从而提升性能，用于React的渲染流程优化。**
+				- 调用`attemptEarlyBailoutIfNoScheduledUpdate`函数，尝试**提前退出当前渲染过程，避免不必要的渲染工作，从而提升性能，用于React的渲染流程优化。**
 				- didReceiveUpdate = false
 				- 返回处理后的子fiber节点，退出后续流程
 		- 
-- **避免不必要的渲染工作**
-- **执行组件逻辑**：调用函数组件、类组件的 render 方法等。
-- **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
-- **返回下一个工作单元**：返回当前workInProgress节点的第一个子 Fiber，以便工作循环继续向下遍历，继续构建fiber树。
+- **执行组件逻辑**：调用updateXXX函数，调用函数组件、类组件的 render 方法等。
+	- **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
+- **返回下一个工作单元**：返回workInProgress的第一个子 Fiber，以便工作循环继续遍历，继续构建fiber树。
 
 ---
 
-主要添加的注释包括：
-
-1. 函数级别的块注释，描述了函数的作用、参数和返回值：
+概述不同部分的功能：
     
-    - current：当前已存在的 fiber 节点，如果是首次渲染则为 null
-    - workInProgress：正在处理的 fiber 节点，包含了待处理的工作
-    - renderLanes：渲染所处的优先级通道，决定哪些更新会被处理
-    - 返回值：下一个需要工作的 fiber 节点，如果当前子树已完成则返回 null
-2. 为重要代码块添加了总结注释，解释了不同部分的功能：
-    
-    - 处理开发环境下的调试逻辑（如需要重新挂载组件）
-    - 对比新旧 props 和上下文以确定是否需要更新
-    - 在没有更新的情况下提前退出优化
-    - hydration 过程中对多子节点的处理
-    - 根据不同 fiber 类型执行相应的协调逻辑（如函数组件、类组件、宿主组件、Suspense 等）
+- 处理开发环境下的调试逻辑（如需要重新挂载组件）
+- 对比新旧 props 和上下文以确定是否需要更新
+	- *在没有更新的情况下提前退出优化*
+- hydration 过程中对多子节点的处理
+- *根据不同 fiber 类型执行相应的协调逻辑*（如函数组件、类组件、宿主组件、Suspense 等）
 
-这些注释有助于理解 React 的协调算法是如何处理不同类型组件的更新逻辑的。
+理解 React 的协调算法是*如何处理不同类型组件的更新逻辑的*。
 
 ---
 
@@ -44,32 +35,22 @@
 
 `beginWork`函数的主要职责是根据传入的Fiber节点及其当前状态，决定如何处理该节点以及它的子节点。它会根据组件类型调用相应的处理函数，并对组件更新进行优化。
 
-### 参数说明
-
-- `current`: 与工作中的fiber对应的老fiber节点，首次渲染时为null
-- `workInProgress`: 当前正在处理的fiber节点，包含最新的props和配置
-- `renderLanes`: 渲染优先级相关的信息，决定哪些更新需要被处理
 
 ### 主要处理逻辑
 
 1. **开发环境特殊处理**
-    
     - 如果在开发环境中，需要重新挂载组件（remountFiber），则创建一个新的fiber并重新开始
 2. **更新检测逻辑**
-    
     - 如果存在current fiber（即组件已存在），比较新旧props
     - 如果props不同、或legacy context改变、或类型改变(热重载)，则标记`didReceiveUpdate = true`
     - 如果没有变化，但有计划的更新或上下文变化，也会继续处理
 3. **优化策略**
-    
-    - 如果没有计划的更新或上下文变化，且当前fiber没有被DidCapture标志标记，则会尝试提前退出（attemptEarlyBailoutIfNoScheduledUpdate），避免不必要的工作
-    - 这种优化能显著提升性能
+    - 如果没有计划的更新或上下文变化，且当前fiber没有被DidCapture标志标记，则会*尝试提前退出*（`attemptEarlyBailoutIfNoScheduledUpdate`），*避免不必要的工作*
+    - *这种优化能显著提升性能*
 4. **首次渲染处理**
-    
     - 如果是首次渲染（current为null），设置`didReceiveUpdate = false`
     - 在hydration过程中，如果此子节点属于多个子节点中的一个，会处理特殊的ID生成逻辑
 5. **基于fiber标签的分发处理** 根据fiber的tag属性，调用相应的处理函数：
-    
     - `IndeterminateComponent`: 调用mountIndeterminateComponent，处理初次渲染时尚未确定是函数组件还是类组件的情况
     - `LazyComponent`: 调用mountLazyComponent，处理懒加载组件
     - `FunctionComponent`: 调用updateFunctionComponent，处理函数组件
