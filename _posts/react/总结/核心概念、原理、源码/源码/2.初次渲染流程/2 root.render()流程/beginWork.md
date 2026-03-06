@@ -14,7 +14,8 @@
 				- 返回处理后的子fiber节点，退出后续流程
 		- 
 - **执行组件逻辑**：调用updateXXX函数，调用函数组件、类组件的 render 方法等。
-	- **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
+	- **在updateXXX函数中，获取wip fiber的子ReactElement；再调用reconcileChildren构建wip fiber的子fiber**
+	- 协调子节点（Diff）：调用 `reconcileChildFibers` 生成子 Fiber 链表。
 - **返回下一个工作单元**：返回workInProgress的第一个子 Fiber，以便工作循环继续遍历，继续构建fiber树。
 
 ---
