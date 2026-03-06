@@ -3,11 +3,20 @@
 
 `beginWork` 的主要任务是**处理当前的 `workInProgress` Fiber 节点**，具体包括：
 
-1. **避免不必要的渲染工作**
-2. **判断是否需要更新**：对比 current Fiber 和 workInProgress Fiber。
-3. **执行组件逻辑**：调用函数组件、类组件的 render 方法等。
-4. **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
-5. **返回下一个工作单元**：返回当前workInProgress节点的第一个子 Fiber，以便工作循环继续向下遍历，继续构建fiber树。
+- **判断是否需要更新**：
+	- 需要更新：如果props不同（对比 current Fiber 和 workInProgress Fiber）、或legacy context改变、或类型改变(热重载)
+		- didReceiveUpdate = true
+	- 不需更新：*props和legacy context都没变化*
+		- 检查是否有待处理的更新或context变化：
+			- 没有：如果*没有计划的更新或上下文更改*，并且当前fiber没有被DidCapture标志标记
+				- 调用`attemptEarlyBailoutIfNoScheduledUpdate`函数，尝试**提前退出当前渲染过程，避免不必要的工作，从而提升性能，用于React的渲染流程优化。**
+				- didReceiveUpdate = false
+				- 返回处理后的子fiber节点，退出后续流程
+		- 
+- **避免不必要的渲染工作**
+- **执行组件逻辑**：调用函数组件、类组件的 render 方法等。
+- **协调子节点（Diff）**：调用 `reconcileChildFibers` 生成子 Fiber 链表。
+- **返回下一个工作单元**：返回当前workInProgress节点的第一个子 Fiber，以便工作循环继续向下遍历，继续构建fiber树。
 
 ---
 
