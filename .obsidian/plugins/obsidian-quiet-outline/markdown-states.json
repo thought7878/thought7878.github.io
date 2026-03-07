@@ -11788,15 +11788,43 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateFunctionComponent.md": {
+    "scroll": 111.58854166666667,
+    "cursor": {
+      "from": {
+        "line": 178,
+        "ch": 0
+      },
+      "to": {
+        "line": 178,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateHostRoot.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 54
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 54
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateHostComponent.md": {
+    "scroll": 19.975260416666668,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 27
+      },
+      "to": {
+        "line": 30,
+        "ch": 27
       }
     },
     "expandedKeys": []
