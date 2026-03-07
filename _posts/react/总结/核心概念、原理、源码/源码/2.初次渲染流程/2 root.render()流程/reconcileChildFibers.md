@@ -1,6 +1,6 @@
 - 根据ReactElement的类型，调用不同的reconcileXXX函数。
 	- ReactElement是对象且是REACT_ELEMENT_TYPE类型，调用reconcileSingleElement；ReactElement是数组，调用reconcileChildrenArray。
-	- `reconcileXXX函数`，满足diff算法，就复用旧的fiber；不满足，就新建fiber
+	- `reconcileXXX函数`，diff算法就在这些函数中，满足diff算法，就复用旧的fiber；不满足，就新建fiber
 - 为新建的fiber添加flags
 - 返回构建的新fiber
 

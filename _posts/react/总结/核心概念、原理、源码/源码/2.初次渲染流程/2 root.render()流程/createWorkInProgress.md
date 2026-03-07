@@ -17,7 +17,7 @@
 
 ```ts
 /**
- * 创建一个工作中的fiber副本，用于执行更新操作
+ * 构建（新建或复用）一个current fiber的workInProgress/alternate fiber，
  * React使用双缓冲技术，同一时间最多只需要两个版本的fiber树：
  * 一个是当前渲染完成的树(current)，另一个是正在构建的工作树(workInProgress)
  * 
