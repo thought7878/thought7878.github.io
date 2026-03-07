@@ -2,15 +2,15 @@
 该函数用于处理具有特定 key 的单个 React 元素，会尝试复用current fiber或创建新的 Fiber 节点。
 
 ## 算法
-**算法：** 能复用current fiber，就复用；不能复用，就创建新的fiber；总之，要返回一个wip.child fiber，来构建fiber树。处理单个 ReactElement 的协调。
+**算法：** 能复用已存在的 fiber（workInProgress/current.alternate），就复用；不能复用，就创建新的fiber；总之，要返回一个wip.child fiber，来构建fiber树。处理单个 ReactElement 的协调。
 
-- 1.*复用current fiber的逻辑*：遍历current fiber现有的子节点链表，*寻找可复用的fiber*
+- 1.*复用workInProgress/current.alternate fiber的逻辑*：遍历current fiber现有的子节点链表，*寻找可复用的fiber*
 	- 比较 current fiber 与 ReactElement 的key是否匹配？这是`diff 算法`的关键一步
 	- key 匹配：
 		- 检查元素类型是否匹配？（非 Fragment 类型的元素）
 		- 类型匹配：
 			- 删除该节点之后的所有兄弟节点（单个ReactElement，找到了，就删除其他没用的）
-			- **复用current fiber**，*使用新元素的 props*。调用`useFiber`-->`createWorkInProgress`
+			- **复用workInProgress/current.alternate fiber**，*使用新元素的 props*。调用`useFiber`-->`createWorkInProgress`
 			- 返回复用的新fiber
 		- 类型不匹配：
 			- 删除整个子树
@@ -71,8 +71,8 @@
           if (child.tag === Fragment) {
             // 删除该节点之后的所有兄弟节点
             deleteRemainingChildren(returnFiber, child.sibling);
-            // 复用现有节点，使用新元素的 props.children
-            const existing = useFiber(child, element.props.children);
+            // 复用现有fiber节点，使用新元素的 props
+            const existing = useFiber(child, element.props);
             existing.return = returnFiber;
             // 开发环境下添加调试信息
             if (__DEV__) {

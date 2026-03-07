@@ -1,4 +1,11 @@
 
+构建（新建或复用）一个current fiber对应的workInProgress/alternate fiber。
+- 复用fiber：当workInProgress/current.alternate存在时，复用fiber；更新属性
+- 新建fiber：当workInProgress/current.alternate不存在时，新建fiber；建立双向链接
+- 返回构建的workInProgress fiber
+
+---
+
 这是一个关键的React内部函数，用于创建一个工作中的fiber副本，以便进行更新操作。React使用双缓冲技术，因此同一时间最多只需要两个版本的fiber树：一个当前渲染的树和一个正在构建的工作树。
 
 函数的主要功能包括：
@@ -17,7 +24,7 @@
 
 ```ts
 /**
- * 构建（新建或复用）一个current fiber的workInProgress/alternate fiber，
+ * 构建（新建或复用）一个current fiber对应的workInProgress/alternate fiber。
  * React使用双缓冲技术，同一时间最多只需要两个版本的fiber树：
  * 一个是当前渲染完成的树(current)，另一个是正在构建的工作树(workInProgress)
  * 
