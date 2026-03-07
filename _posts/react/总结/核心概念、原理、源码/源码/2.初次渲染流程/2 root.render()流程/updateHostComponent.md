@@ -1,3 +1,8 @@
+更新宿主组件（Host Component）：
+- 获取子ReactElement
+- **协调生成子 Fiber 节点**：基于新的 ReactElement和现有的current Fiber，创建或更新对应的 Fiber 节点，构建新的 work-in-progress Fiber 树
+- 对于直接文本子节点进行特殊处理
+- 返回生成的workInProgress.child子 Fiber 节点，继续下一个循环，构建fiber树
 
 
 ## 源码
@@ -46,7 +51,7 @@ function updateHostComponent(
   markRef(current, workInProgress);
   // ！！！协调子节点，构建或更新子节点的fiber树
   reconcileChildren(current, workInProgress, nextChildren, renderLanes);
-  // 返回子节点，用于后续工作单元处理
+  // ！！！返回生成的子 Fiber 节点，继续下一个循环，构建fiber树
   return workInProgress.child;
 }
 

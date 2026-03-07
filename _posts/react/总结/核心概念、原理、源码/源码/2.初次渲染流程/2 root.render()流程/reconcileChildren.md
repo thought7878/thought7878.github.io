@@ -1,4 +1,6 @@
-
+- 首次渲染时，使用mountChildFibers函数，创建子fiber（根据ReactElement），不会跟踪副作用
+- 更新渲染时，使用reconcileChildFibers函数，构建子fiber（复用旧的fiber，diff算法对比新的ReactElement与旧的current fiber；不能复用，就新建），跟踪副作用
+- 为workInProgress.child赋值
 
 ## 源码
 
@@ -23,7 +25,7 @@ export function reconcileChildren(
     // we will add them all to the child before it gets rendered. That means
     // we can optimize this reconciliation pass by not tracking side-effects.
     
-    // 首次渲染时，使用mountChildFibers函数创建子节点，不会跟踪副作用
+    // 首次渲染时，使用mountChildFibers函数，创建子fiber，不会跟踪副作用
     workInProgress.child = mountChildFibers(
       workInProgress,
       null,
@@ -38,7 +40,7 @@ export function reconcileChildren(
     // If we had any progressed work already, that is invalid at this point so
     // let's throw it out. 返回fiber，不论是复用或是重新创建。
     
-    // 更新阶段，使用reconcileChildFibers函数对比新旧节点，跟踪副作用
+    // 更新渲染时，使用reconcileChildFibers函数，构建子fiber（复用旧的fiber，diff算法对比新的ReactElement与旧的current fiber；不能复用，就新建），跟踪副作用
     workInProgress.child = reconcileChildFibers(
       workInProgress,
       current.child,
