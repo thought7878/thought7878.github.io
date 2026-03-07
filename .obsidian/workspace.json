@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-06.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-06"
+              "title": "2026-03-07"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateFunctionComponent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "beginWork"
+              "title": "updateFunctionComponent"
+            }
+          },
+          {
+            "id": "ff0dcefab118086b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3.1.2.1.1 beginWork"
             }
           },
           {
@@ -573,36 +597,6 @@
           }
         ],
         "currentTab": 21
-      },
-      {
-        "id": "b579e35484f8f91e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ff0dcefab118086b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3.1.2.1.1 beginWork"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -669,8 +663,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5,
-    "collapsed": true
+    "width": 397.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -770,14 +763,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff0dcefab118086b",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/attemptEarlyBailoutIfNoScheduledUpdate.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateFunctionComponent.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
-    "_posts/读书笔记/形象.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/attemptEarlyBailoutIfNoScheduledUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-07.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-06.md",
+    "_posts/读书笔记/形象.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-05.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileSingleElement.md",
     "_posts/读书笔记/人性.md",
@@ -799,8 +794,6 @@
     "_posts/读书笔记/健康/老爹/病/冠心病.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media/c222b5f0e3cb4ecd8b926ad111a6b535_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.4 completeWork.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/2.架构篇之render阶段（协调器的执行过程）/2.5“递”阶段update时流程.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/fa890a35660335a63060550782acb078_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/d93e1b87f49ca2c1891bd47ed5ba765c_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/6d1fb3dda3c2e97ecaaf78623cb4bb0c_MD5.webp",

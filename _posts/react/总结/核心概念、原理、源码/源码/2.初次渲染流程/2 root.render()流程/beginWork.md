@@ -9,14 +9,14 @@
 	- 不需更新：*props和legacy context都没变化*
 		- 检查是否有待处理的更新或context变化：
 			- 没有：如果*没有计划的更新或上下文更改*，并且当前fiber没有被DidCapture标志标记
-				- 调用`attemptEarlyBailoutIfNoScheduledUpdate`函数，尝试**提前退出当前渲染过程，避免不必要的渲染工作，从而提升性能，用于React的渲染流程优化。**
+				- **提升性能**：调用`attemptEarlyBailoutIfNoScheduledUpdate`函数，尝试**提前退出当前渲染过程，避免不必要的渲染工作，从而提升性能，用于React的渲染流程优化。**
 				- didReceiveUpdate = false
 				- 返回处理后的子fiber节点，退出后续流程
 		- 
-- **执行组件逻辑**：调用updateXXX函数，调用函数组件、类组件的 render 方法等。
-	- **在updateXXX函数中，获取wip fiber的子ReactElement；再调用reconcileChildren构建wip fiber的子fiber**
+- **构建wip的子fiber**：调用updateXXX函数，调用函数组件、类组件的 render 方法等。
+	- **在updateXXX函数中，执行组件逻辑，获取wip fiber的子ReactElement；再调用reconcileChildren构建wip fiber的子fiber**
 	- 协调子节点（Diff）：调用 `reconcileChildFibers` 生成子 Fiber 链表。
-- **返回下一个工作单元**：返回workInProgress的第一个子 Fiber，以便工作循环继续遍历，继续构建fiber树。
+- **返回下一个要处理的fiber/工作单元**：返回下一个要处理的workInProgress fiber，以便工作循环继续遍历，**继续构建fiber树**。
 
 ---
 
