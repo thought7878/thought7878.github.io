@@ -1,11 +1,15 @@
-
+- 根据ReactElement的类型，调用不同的reconcileXXX函数。
+	- ReactElement是对象且是REACT_ELEMENT_TYPE类型，调用reconcileSingleElement；ReactElement是数组，调用reconcileChildrenArray。
+	- `reconcileXXX函数`，满足diff算法，就复用旧的fiber；不满足，就新建fiber
+- 为新建的fiber添加flags
+- 返回构建的新fiber
 
 ## 源码
 `react/packages/react-reconciler/src/ReactChildFiber.old.js`
 
 ```ts
 /**
-   * ！！！协调子节点的函数，根据新React Element与旧current fiber的差异，创建或更新子Fiber节点
+   * ！！！协调子节点的函数，根据新的React Element与旧的current fiber的差异，创建或更新子Fiber节点
    * ！！！这个函数处理不同类型的React元素（单个元素、数组、迭代器等），并执行相应的协调逻辑
    *
    * @param {Fiber} returnFiber - 父级Fiber节点，当前正在处理的Fiber节点
@@ -35,7 +39,7 @@
       newChild = newChild.props.children;
     }
     
-    // 处理对象类型的节点
+    // 处理对象类型的ReactElement
     if (typeof newChild === 'object' && newChild !== null) {
       switch (newChild.$$typeof) {
         case REACT_ELEMENT_TYPE:
@@ -68,7 +72,7 @@
           );
       }
 
-      // 检查是否为数组类型
+      // 如果是数组类型的ReactElement，则使用数组协调逻辑
       if (isArray(newChild)) {
         return reconcileChildrenArray(
           returnFiber,
@@ -78,7 +82,7 @@
         );
       }
 
-      // 检查是否有迭代器接口
+      // 如果是可迭代对象（如Map、Set等）的ReactElement，则使用迭代器协调逻辑
       if (getIteratorFn(newChild)) {
         return reconcileChildrenIterator(
           returnFiber,
@@ -91,7 +95,7 @@
       throwOnInvalidObjectType(returnFiber, newChild);
     }
 
-    // 处理文本节点（字符串或数字）
+    // 处理文本节点（字符串或数字）类型的ReactElement
     if (
       (typeof newChild === 'string' && newChild !== '') ||
       typeof newChild === 'number'
