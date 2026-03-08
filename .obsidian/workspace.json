@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/createUpdate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.3 Update"
+              "title": "createUpdate"
             }
           },
           {
@@ -765,12 +765,14 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/createUpdate.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/3de2db3b44a1c661e1a84023c05d9d3d_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.2 心智模型.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-08.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-07.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/392ca044b1c3dae174356fb381eca704_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/f5896f663c0c3c7d5717cd2e9d3f888a_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/300168ab36bd6f3bfc29517db7d3a7e0_MD5.png",
@@ -804,13 +806,11 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/bc9058427dea696bd0bcd0cacfc3414e_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/748da75d5dc0d89d13fce122c632283e_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/03",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/2d3d772b17c9c16794bbf5e58afe29dc_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结",
     "_posts/读书笔记/健康/老妈",
     "DailyNote/Journal/01 Daily/2026/02/media",
     "_posts/读书笔记/世界趋势/media",
-    "_posts/读书笔记/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
