@@ -9187,27 +9187,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md": {
-    "scroll": 504.95013498491346,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 505,
-        "ch": 0
+        "line": 5,
+        "ch": 40
       },
       "to": {
-        "line": 505,
-        "ch": 0
+        "line": 5,
+        "ch": 40
       }
     },
-    "expandedKeys": [
-      "item-1-20",
-      "item-2-28",
-      "item-2-31",
-      "item-2-1",
-      "item-2-8",
-      "item-3-2",
-      "item-3-6",
-      "item-2-4"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-24.md": {
     "scroll": 12.300391389432486,
@@ -10870,7 +10861,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md": {
-    "scroll": 103.46675051092595,
+    "scroll": 156.43619791666666,
     "cursor": {
       "from": {
         "line": 103,
@@ -10898,18 +10889,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md": {
-    "scroll": 0,
+    "scroll": 85.45279947916667,
     "cursor": {
       "from": {
-        "line": 147,
-        "ch": 69
+        "line": 91,
+        "ch": 20
       },
       "to": {
-        "line": 147,
-        "ch": 69
+        "line": 91,
+        "ch": 20
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.5.md": {
     "scroll": 0,
@@ -11829,12 +11822,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 21,
+        "ch": 4
+      },
+      "to": {
+        "line": 21,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/processUpdateQueue.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
         "line": 6,
-        "ch": 2
+        "ch": 0
       },
       "to": {
         "line": 6,
-        "ch": 2
+        "ch": 0
       }
     },
     "expandedKeys": []

@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/createUpdate.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/processUpdateQueue.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "createUpdate"
+              "title": "processUpdateQueue"
             }
           },
           {
@@ -765,6 +765,10 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1.1 processUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/processUpdateQueue.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/77f137f2adea7bf2d1b44188acc2a225_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/createUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新",
@@ -794,9 +798,6 @@
     "_posts/读书笔记/形象.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-05.md",
     "_posts/读书笔记/人性.md",
-    "_posts/读书笔记/常看的警示.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/4.3 多节点Diff.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildrenArray2.md",
     "DailyNote/Journal/01 Daily/2026/03/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media/c222b5f0e3cb4ecd8b926ad111a6b535_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media",
@@ -804,7 +805,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/d93e1b87f49ca2c1891bd47ed5ba765c_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/6d1fb3dda3c2e97ecaaf78623cb4bb0c_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/bc9058427dea696bd0bcd0cacfc3414e_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media/748da75d5dc0d89d13fce122c632283e_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/03",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结",
