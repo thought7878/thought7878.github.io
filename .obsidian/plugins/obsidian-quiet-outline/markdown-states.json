@@ -11861,12 +11861,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 31
+        "line": 0,
+        "ch": 175
       },
       "to": {
-        "line": 4,
-        "ch": 31
+        "line": 0,
+        "ch": 175
       }
     },
     "expandedKeys": []
@@ -11948,15 +11948,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 0,
+    "scroll": 0.36363636363636365,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 22
+        "line": 9,
+        "ch": 3
       },
       "to": {
-        "line": 6,
-        "ch": 22
+        "line": 9,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -12015,6 +12015,20 @@
       "to": {
         "line": 37,
         "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
