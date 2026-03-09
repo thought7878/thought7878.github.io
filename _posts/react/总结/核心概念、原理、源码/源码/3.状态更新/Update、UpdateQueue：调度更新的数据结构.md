@@ -35,7 +35,7 @@ export type UpdateQueue<S, A> = {|
   lanes: Lanes,
   /** 分发新更新的函数，对应dispatch函数 */
   dispatch: ((A) => mixed) | null,
-  /** 最后一次渲染时使用的reducer函数 */
+  /** 最后一次渲染时使用的reducer函数（？状态更新函数） */
   lastRenderedReducer: ((S, A) => S) | null,
   /** 最后一次渲染时的状态值 */
   lastRenderedState: S | null,
