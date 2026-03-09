@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-08.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-08"
+              "title": "2026-03-09"
             }
           },
           {
@@ -766,10 +766,14 @@
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-08.md",
+    "DailyNote/Journal/01 Daily/2026-03-09.md",
+    "1",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/performConcurrentWorkOnRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildrenArray.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/commitRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结/流程概览.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.2 心智模型.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
@@ -781,7 +785,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/createUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/3de2db3b44a1c661e1a84023c05d9d3d_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/03/2026-03-08.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-07.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/392ca044b1c3dae174356fb381eca704_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/f5896f663c0c3c7d5717cd2e9d3f888a_MD5.png",
@@ -796,8 +799,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateHostRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateFunctionComponent.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/attemptEarlyBailoutIfNoScheduledUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/beginWork.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "DailyNote/Journal/01 Daily/2026/03/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media/c222b5f0e3cb4ecd8b926ad111a6b535_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media",
@@ -810,7 +811,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/0.总结",
     "_posts/读书笔记/健康/老妈",
     "DailyNote/Journal/01 Daily/2026/02/media",
-    "_posts/读书笔记/世界趋势/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
