@@ -12,7 +12,7 @@
 	- 正常阶段的更新：
 		- 检查当前 fiber 和其 alternate 是否都没有待处理的更新；是，都没有，意味着，更新队列当前为空：
 			- **状态预计算优化**：尝试预先计算新状态，如无变化则跳过渲染，return终止（实现提前状态计算优化，如果新旧状态相同则跳过渲染），`enqueueConcurrentHookUpdateAndEagerlyBailout`
-		- **队列管理**：将更新添加到并发队列，`enqueueConcurrentHookUpdate`
+		- **队列管理**：将更新添加到并发队列，[[enqueueConcurrentHookUpdate]]
 		- **调度渲染**：调度 fiber 上的更新，`scheduleUpdateOnFiber`
 - 开发者工具集成：标记更新供调试使用
 
@@ -93,7 +93,7 @@ function dispatchSetState<S, A>(
           update.eagerState = eagerState;
           // 检查新状态是否与当前状态相同
           if (is(eagerState, currentState)) {
-            // 快速路径：如果状态没有变化，我们可以跳过重新渲染
+            // ！！！快速路径：如果状态没有变化，我们可以跳过重新渲染
             // 但仍有可能在其他原因导致组件重新渲染时需要重新应用此更新
             enqueueConcurrentHookUpdateAndEagerlyBailout(
               fiber,
@@ -114,12 +114,12 @@ function dispatchSetState<S, A>(
       }
     }
 
-    // 将更新添加到队列中
+    // ！！！将更新添加到队列中
     const root = enqueueConcurrentHookUpdate(fiber, queue, update, lane);
     if (root !== null) {
       // 获取事件发生时间
       const eventTime = requestEventTime();
-      // 调度 fiber 上的更新
+      // ！！！调度 fiber 上的更新
       scheduleUpdateOnFiber(root, fiber, lane, eventTime);
       // 将过渡更新纠缠在一起
       entangleTransitionUpdate(root, queue, lane);

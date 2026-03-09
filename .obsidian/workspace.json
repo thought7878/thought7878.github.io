@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/未命名.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "enqueueConcurrentHookUpdate"
             }
           },
           {
@@ -765,9 +765,11 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/未命名.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mergeLanes.md",
+    "_posts/base/js/知识点总结/表达式、运算符/位运算符.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md",
@@ -797,8 +799,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/createWorkInProgress.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/useFiber.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildFibers.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildren.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/updateHostComponent.md",
     "DailyNote/Journal/01 Daily/2026/03/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media/c222b5f0e3cb4ecd8b926ad111a6b535_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/4.实现篇之Diff算法/media",

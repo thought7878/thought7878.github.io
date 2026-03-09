@@ -8555,26 +8555,18 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/表达式、运算符/位运算符.md": {
-    "scroll": 44.83131782945736,
+    "scroll": 2.080837242872609,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 26
+        "line": 24,
+        "ch": 43
       },
       "to": {
-        "line": 62,
-        "ch": 26
+        "line": 24,
+        "ch": 43
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-1-0",
-      "item-2-12",
-      "item-2-6",
-      "item-2-10",
-      "item-2-15",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/2.1 requestUpdateLane().md": {
     "scroll": 0,
@@ -11862,11 +11854,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 175
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 175
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -11948,15 +11940,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 0.36363636363636365,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 3
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 10
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -12020,15 +12012,43 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
-    "scroll": 0,
+    "scroll": 2.7622677465459744,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 9,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 25
+      },
+      "to": {
+        "line": 6,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mergeLanes.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 18
+      },
+      "to": {
+        "line": 14,
+        "ch": 18
       }
     },
     "expandedKeys": []
