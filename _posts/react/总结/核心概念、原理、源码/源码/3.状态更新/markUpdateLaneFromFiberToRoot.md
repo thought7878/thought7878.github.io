@@ -6,6 +6,8 @@
 	- 更新父fiber的alternate的childLanes
 - 到达rootFiber/HostRoot节点，返回root: FiberRoot
 
+参考：[[mergeLanes]]
+
 ## 源码
 `packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js`
 
