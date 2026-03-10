@@ -143,8 +143,8 @@ this.callbackPriority = NoLane; // 当前回调的优先级
 - **类型**: `Lane`
 - **功能**: 跟踪*当前调度回调的优先级*
 - **用途**:
-  - 避免重复调度相同优先级任务
-  - 决定是否需要取消现有回调
+  - *避免重复调度相同优先级任务*
+  - *决定是否需要取消现有回调*
 - **优化示例**:
   ```javascript
   if (existingCallbackPriority === newCallbackPriority) {
