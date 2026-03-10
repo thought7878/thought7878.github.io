@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.3 Update"
+              "title": "Update、UpdateQueue：调度更新的数据结构"
             }
           },
           {
@@ -765,8 +765,9 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.2 心智模型.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/ensureRootIsScheduled.md",
@@ -790,7 +791,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/performConcurrentWorkOnRoot.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/reconcileChildrenArray.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/commitRoot.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/processUpdateQueue.md",
     "_posts/读书笔记/人性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/media/77f137f2adea7bf2d1b44188acc2a225_MD5.png",
