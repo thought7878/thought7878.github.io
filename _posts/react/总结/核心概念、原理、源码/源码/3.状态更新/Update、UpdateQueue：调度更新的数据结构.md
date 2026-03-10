@@ -1,3 +1,4 @@
+**ClassComponent 与 HostRoot 共用一套 Update 结构， FunctionComponent 单独使用一种 Update 结构**。
 
 ## Function Component
 React调度更新的数据结构类型：
@@ -48,7 +49,7 @@ export type UpdateQueue<S, A> = {|
 ```
 
 
-## Class Component
+## Class Component、HostRoot
 `packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js`
 
 ```ts
@@ -86,9 +87,9 @@ export type SharedQueue<State> = {|
 // 更新队列类型定义，完整描述了一个组件的更新状态
 export type UpdateQueue<State> = {|
   baseState: State,                                    // 计算更新时的基准状态
-  firstBaseUpdate: Update<State> | null,               // 第一个待处理的基准更新
-  lastBaseUpdate: Update<State> | null,                // 最后一个待处理的基准更新
-  shared: SharedQueue<State>,                          // 共享队列，包含待处理的更新
+  firstBaseUpdate: Update<State> | null,               // 第一个待处理的基准更新，之前渲染剩下的，因为优先级不够
+  lastBaseUpdate: Update<State> | null,                // 最后一个待处理的基准更新，之前渲染剩下的，因为优先级不够
+  shared: SharedQueue<State>,                          // 共享队列，包含待处理的本次更新添加的新的更新
   effects: Array<Update<State>> | null,                // 存储产生副作用的更新数组，主要用于DevTools调试
 |};
 
