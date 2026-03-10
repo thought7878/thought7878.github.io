@@ -10851,15 +10851,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md": {
-    "scroll": 171.48079427083334,
+    "scroll": 104.59537760416667,
     "cursor": {
       "from": {
-        "line": 192,
-        "ch": 0
+        "line": 126,
+        "ch": 16
       },
       "to": {
-        "line": 192,
-        "ch": 0
+        "line": 126,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -10879,18 +10879,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md": {
-    "scroll": 74.38264973958333,
+    "scroll": 51.7861328125,
     "cursor": {
       "from": {
-        "line": 155,
-        "ch": 100
+        "line": 73,
+        "ch": 13
       },
       "to": {
-        "line": 155,
-        "ch": 100
+        "line": 73,
+        "ch": 13
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.5.md": {
     "scroll": 0,
