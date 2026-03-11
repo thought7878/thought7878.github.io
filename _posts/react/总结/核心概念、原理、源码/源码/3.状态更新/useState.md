@@ -44,7 +44,7 @@ function resolveDispatcher() {
   // 获取当前的 Hook 调度器，该调度器包含各种 Hook 的具体实现
   const dispatcher = ReactCurrentDispatcher.current;
   // 在开发模式下，如果当前没有有效的调度器（即 dispatcher 为 null），会输出一个错误信息，提示可能出现了无效的 Hook 调用情况
-  if (__DEV__) {
+  if (__DEV__) { 
     if (dispatcher === null) {
       // 错误信息中列举了可能导致问题的原因，如 React 和渲染器版本不匹配、违反了 Hooks 规则或应用中有多个 React 副本等
       console.error(
