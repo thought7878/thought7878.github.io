@@ -1,0 +1,3 @@
+这段代码定义了React的useState钩子函数。它接收初始状态参数，通过resolveDispatcher获取当前调度器，然后调用调度器的useState方法返回状态值和更新函数组成的数组。这是React函数组件中管理局部状态的核心API实现。
+
+
