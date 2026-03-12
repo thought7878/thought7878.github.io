@@ -13,7 +13,7 @@
 该函数还处理了交错更新队列，并确保正确标记 Fiber 节点已接收更新，这对于 React 的并发渲染机制至关重要。整个过程体现了 React 在处理状态更新时对性能和用户体验的深度优化考虑。
 
 **算法：**
-- 获取当前useState使用的hook
+- 获取当前useState使用的hook，[[updateWorkInProgressHook]]
 - 获取update队列
 - 有尚未处理的新更新，将它们添加到基础队列中
 
@@ -36,3 +36,32 @@
 
 
 ```
+
+## currentHook 与 workInProgressHook 的区别
+
+这两个变量都是 React 内部用来管理组件中 Hook 链表的指针，但它们分别指向不同的数据：
+
+### currentHook
+
+- **含义**: 指向当前已渲染完成的 Hook 链表
+- **来源**: 来自当前 Fiber 节点的 alternate（即上一次渲染的结果）
+- **作用**: 提供上一次渲染时的状态，用于比较和更新
+- **生命周期**: 在组件更新时使用，代表之前的 Hook 状态
+
+### workInProgressHook
+
+- **含义**: 指向正在进行渲染的 Hook 链表（工作进程）
+- **来源**: 存储在当前正在渲染的 Fiber 节点上
+- **作用**: 表示本次渲染过程中创建或更新的 Hook 状态
+- **生命周期**: 在当前渲染过程中使用，渲染完成后会成为下一次渲染的 currentHook
+
+### 关系
+
+在 React 的 Fiber 架构中，这两个变量的关系体现了双缓冲机制：
+
+1. 每次渲染开始时，currentHook 指向上一次渲染的结果
+2. 渲染过程中，新的 Hook 状态被构建到 workInProgressHook 链表中
+3. 渲染完成后，workInProgressHook 链表成为新的当前结果
+4. 下次渲染时，它又成为了 currentHook
+
+这种设计使得 React 能够在渲染过程中保持状态的一致性，并且能够有效地进行协调（reconciliation）算法。

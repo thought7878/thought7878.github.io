@@ -11829,12 +11829,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 5
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 5
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -12385,18 +12385,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 0.7864406779661017,
+    "scroll": 6.3517548038748615,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 23
+        "line": 12,
+        "ch": 61
       },
       "to": {
-        "line": 17,
-        "ch": 23
+        "line": 12,
+        "ch": 61
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-12.md": {
     "scroll": 18.938279112192156,
@@ -12427,5 +12429,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateWorkInProgressHook.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 12
+      },
+      "to": {
+        "line": 11,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
