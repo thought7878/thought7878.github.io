@@ -22,7 +22,7 @@ export type Hook = {|
   baseState: any,
 
   /**
-   * 存储未完成的更新队列，这些更新将在下一次渲染时被应用
+   * 存储未完成的更新的队列，这些更新将在下一次渲染时被应用
    * 当前渲染周期中调度的更新会被暂存在这里
    */
   baseQueue: Update<any, any> | null,
