@@ -45,7 +45,7 @@ function dispatchSetState<S, A>(
   // 请求一个更新优先级
   const lane = requestUpdateLane(fiber);
 
-  // 创建一个新的更新对象
+  // ！！！创建一个新的更新对象
   const update: Update<S, A> = {
     lane, // 更新的优先级
     action, // 更新动作
@@ -63,6 +63,7 @@ function dispatchSetState<S, A>(
     // ！！！正常阶段的更新
     // 不是渲染阶段更新，处理正常的异步更新
     const alternate = fiber.alternate;
+    // ！！！状态预计算优化
     // 检查当前 fiber 和其 alternate 是否都没有待处理的更新；都没有，意味着，更新队列当前为空
     if (
       fiber.lanes === NoLanes &&
@@ -84,7 +85,7 @@ function dispatchSetState<S, A>(
         try {
           // 获取当前状态
           const currentState: S = (queue.lastRenderedState: any);
-          // 执行 reducer 函数计算新状态
+          // ！！！执行 reducer 函数计算新状态
           const eagerState = lastRenderedReducer(currentState, action);
           // 将预先计算的状态和使用的 reducer 存储在更新对象上
           // 如果在进入渲染阶段时 reducer 没有改变，则可以使用预计算的状态
