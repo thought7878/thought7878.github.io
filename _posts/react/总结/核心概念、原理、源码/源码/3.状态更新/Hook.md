@@ -75,3 +75,56 @@ export type Hook = {|
 - `baseState` 会是*下次处理剩余更新时的起始点*
 
 这种设计允许React实现可中断渲染和优先级调度，使得高优先级更新（如用户输入）可以立即响应，而低优先级更新（如UI背景更新）可以在空闲时处理。
+
+## baseQueue 与 queue 的区别
+
+### queue
+
+- **定义**：*包含所有更新，包括新到达的更新*（**上次渲染后剩余的更新+本次新增的更新**）
+- **组成**：
+    - `pending`：指向最后一个入队的更新，其next指向第一个更新，为null时表示没有更新
+    - `interleaved`：交错更新队列，用于支持时间片打断机制
+    - `lanes`：当前队列中所有更新的lane（优先级）集合
+    - `dispatch`：分发新更新的函数，对应dispatch函数
+    - `lastRenderedReducer`：最后一次渲染时使用的reducer函数
+    - `lastRenderedState`：最后一次渲染时的状态值
+
+### baseQueue
+
+- **定义**：基础队列，存储*当前渲染周期开始时已存在的更新*（**上次渲染后剩余的更新**）
+- **作用**：作为本次渲染要处理的更新队列的基准，包含渲染开始时已知的待处理更新
+
+### 关键区别
+
+1. **处理优先级更新**：
+    - `queue` 包含所有更新，包括新到达的更新（**上次渲染后剩余的更新+本次新增的更新**）
+    - `baseQueue` 只包含当前渲染周期开始时已有的更新（**上次渲染后剩余的更新**）
+2. **渲染过程中的更新处理**：
+    - 当组件*正在渲染时*，如果*有新的更新*到达，这些更新会*先放在queue.pending中*
+    - *渲染结束后，这些新到达的更新会合并到baseQueue中，供下次渲染使用*
+3. **更新流程**：
+    
+```ts
+// 在更新开始时：
+let baseQueue = current.baseQueue;  // ！！！获取上次渲染后剩余的更新
+const pendingQueue = queue.pending; // ！！！获取新到达的更新
+
+if (pendingQueue !== null) {
+  // 将新更新合并到基础队列中
+  if (baseQueue !== null) {
+    const baseFirst = baseQueue.next;
+    const pendingFirst = pendingQueue.next;
+    baseQueue.next = pendingFirst;
+    pendingQueue.next = baseFirst;
+  }
+  current.baseQueue = baseQueue = pendingQueue;
+  queue.pending = null;  // 清空pending队列
+}    
+```
+    
+4. **并发渲染支持**：
+    - baseQueue 保证了在渲染过程中有一致的更新集合可以处理
+    - queue 的pending 属性接收*渲染过程中到达的新更新*
+    - 这种设计允许React*在渲染一个组件时接收新的更新*，而不会影响当前渲染的一致性
+
+这种机制是React并发渲染的关键部分，它允许React在渲染过程中接收新更新，同时保证当前渲染的结果是一致且可预测的。渲染完成后，未处理的更新和新接收的更新都会被适当地安排到下次渲染中。

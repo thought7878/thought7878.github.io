@@ -11907,15 +11907,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 51.864908854166664,
+    "scroll": 71.95328776041667,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 16
+        "line": 90,
+        "ch": 19
       },
       "to": {
-        "line": 16,
-        "ch": 16
+        "line": 90,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -11967,18 +11967,21 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md": {
-    "scroll": 9.592474489795919,
+    "scroll": 81.59212239583333,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 23
+        "line": 88,
+        "ch": 58
       },
       "to": {
-        "line": 24,
-        "ch": 23
+        "line": 88,
+        "ch": 68
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
     "scroll": 0,
@@ -12411,19 +12414,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Hook.md": {
-    "scroll": 50.627906976744185,
+    "scroll": 98.56217054263566,
     "cursor": {
       "from": {
-        "line": 60,
-        "ch": 0
+        "line": 113,
+        "ch": 27
       },
       "to": {
-        "line": 60,
-        "ch": 0
+        "line": 113,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateWorkInProgressHook.md": {
@@ -12470,7 +12474,9 @@
         "ch": 7
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountWorkInProgressHook.md": {
     "scroll": 3.2226356589147285,
