@@ -11907,15 +11907,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 6.190697674418605,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 117,
-        "ch": 10
+        "ch": 15
       },
       "to": {
         "line": 117,
-        "ch": 19
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -11984,15 +11984,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
-    "scroll": 0,
+    "scroll": 36.734375,
     "cursor": {
       "from": {
-        "line": 56,
-        "ch": 10
+        "line": 66,
+        "ch": 19
       },
       "to": {
-        "line": 56,
-        "ch": 10
+        "line": 66,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -12382,7 +12382,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 0.6033898305084746,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 9,
@@ -12414,15 +12414,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Hook.md": {
-    "scroll": 9.80859375,
+    "scroll": 3.4043367346938775,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 15
+        "line": 33,
+        "ch": 13
       },
       "to": {
-        "line": 31,
-        "ch": 15
+        "line": 33,
+        "ch": 13
       }
     },
     "expandedKeys": [
@@ -12463,20 +12463,19 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md": {
-    "scroll": 0.35175879396984927,
+    "scroll": 16.668294270833332,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 41
+        "line": 6,
+        "ch": 19
       },
       "to": {
-        "line": 22,
-        "ch": 41
+        "line": 6,
+        "ch": 32
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-5"
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountWorkInProgressHook.md": {
@@ -12495,5 +12494,33 @@
       "item-2-1",
       "item-2-5"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateState.md": {
+    "scroll": 0.32432432432432434,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 17
+      },
+      "to": {
+        "line": 17,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/basicStateReducer.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
