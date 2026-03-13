@@ -1,6 +1,10 @@
 首次渲染时（mount），调用`useState`，最终执行`mountState`
 
-参考：[[mountWorkInProgressHook]]
+
+**算法：**
+- 创建一个新的 hook 对象，并添加到当前正在渲染的 fiber 的 hooks 链表中，[[mountWorkInProgressHook]]
+- 如果初始状态是一个函数，则执行该函数获取实际的初始状态值
+- 将初始状态设置为 hook 的 memoizedState 和 baseState
 
 ## 源码
 `packages/react-reconciler/src/ReactFiberHooks.old.js`
@@ -11,7 +15,7 @@ function mountState<S>(
   initialState: (() => S) | S, // 初始状态，可以是值或返回值的函数
 ): [S, Dispatch<BasicStateAction<S>>] {// 返回状态值和更新函数的元组
   
-  // 创建一个新的 hook 对象并添加到当前正在渲染的 fiber 的 hooks 链表中
+  // 创建一个新的 hook 对象，并添加到当前正在渲染的 fiber 的 hooks 链表中
   const hook = mountWorkInProgressHook();
 
   // 如果初始状态是一个函数，则执行该函数获取实际的初始状态值
