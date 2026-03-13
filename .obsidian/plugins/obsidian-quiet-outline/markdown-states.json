@@ -11907,15 +11907,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 0,
+    "scroll": 55.1357421875,
     "cursor": {
       "from": {
         "line": 16,
-        "ch": 12
+        "ch": 16
       },
       "to": {
         "line": 16,
-        "ch": 12
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -11968,39 +11968,29 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 14
+        "line": 24,
+        "ch": 23
       },
       "to": {
-        "line": 40,
-        "ch": 14
+        "line": 24,
+        "ch": 23
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
-    "scroll": 10.36328125,
+    "scroll": 23.421875,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 25
+        "line": 50,
+        "ch": 8
       },
       "to": {
-        "line": 55,
-        "ch": 25
+        "line": 50,
+        "ch": 19
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-4",
-      "item-2-8",
-      "item-2-13",
-      "item-2-0",
-      "item-2-2",
-      "item-2-12",
-      "item-1-2",
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md": {
     "scroll": 34.5595703125,
@@ -12201,7 +12191,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/6.2 极简Hooks实现.md": {
-    "scroll": 194.85091145833334,
+    "scroll": 193.85091145833334,
     "cursor": {
       "from": {
         "line": 165,
@@ -12212,9 +12202,7 @@
         "ch": 10
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/6.3 Hooks数据结构.md": {
     "scroll": 0,
@@ -12387,15 +12375,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 0.23728813559322035,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 22
+        "line": 9,
+        "ch": 28
       },
       "to": {
-        "line": 8,
-        "ch": 22
+        "line": 9,
+        "ch": 28
       }
     },
     "expandedKeys": []
@@ -12417,7 +12405,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Hook.md": {
-    "scroll": 0,
+    "scroll": 0.2727272727272727,
     "cursor": {
       "from": {
         "line": 24,
