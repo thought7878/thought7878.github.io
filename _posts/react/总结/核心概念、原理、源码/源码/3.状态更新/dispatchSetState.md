@@ -1,5 +1,5 @@
 
-该函数是 React 内部用于*处理 useState 和 useReducer 钩子状态更新*的核心函数。
+该函数是 React 内部用于*处理 useState 和 useReducer 钩子状态更新*的核心函数。**触发/分发状态更新的函数**，用于实现useState和useReducer的更新机制
 
 **算法**/主要功能：
 
@@ -8,7 +8,7 @@
 - **创建更新对象**：生成包含优先级、动作（新的状态值、或状态更新函数）等信息的更新对象
 - **处理渲染阶段、正常阶段的更新**：区分渲染阶段和正常阶段的更新
 	- 渲染阶段的更新：
-		- 将新的更新对象，加入渲染阶段的更新队列，`enqueueRenderPhaseUpdate`
+		- 将新的更新对象，加入渲染阶段的更新队列，[[enqueueRenderPhaseUpdate]]
 	- 正常阶段的更新：
 		- 检查当前 fiber 和其 alternate 是否都没有待处理的更新；是，都没有，意味着，更新队列当前为空：
 			- **状态预计算优化**：尝试预先计算新状态，如无变化则跳过渲染，return终止（实现提前状态计算优化，如果新旧状态相同则跳过渲染），`enqueueConcurrentHookUpdateAndEagerlyBailout`
@@ -21,7 +21,7 @@
 
 ```ts
 /**
- * 分发状态更新的函数，用于实现useState和useReducer的更新机制
+ * 触发/分发状态更新的函数，用于实现useState和useReducer的更新机制
  * @param {Fiber} fiber - 当前组件的fiber节点
  * @param {UpdateQueue} queue - 状态更新队列
  * @param {A} action - 要执行的动作（新的状态值或状态更新函数）
