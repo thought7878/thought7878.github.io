@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Update、UpdateQueue：调度更新的数据结构"
+              "title": "mountState"
             }
           },
           {
@@ -739,7 +739,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -765,13 +765,15 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Hook.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountWorkInProgressHook.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/6.2 极简Hooks实现.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Update、UpdateQueue：调度更新的数据结构.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/Hook.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/6.2 极简Hooks实现.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateWorkInProgressHook.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-13.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-12.md",
@@ -791,8 +793,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/6.7 useMemo与useCallback.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/1. 概览.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/2. Scheduler的原理与实现.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/3. lane模型.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/4. 异步可中断更新.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/086bb274d7349e6984b5003cbe43a289_MD5.jpg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/cda7c4f102b99856f9587fc8573e67a2_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media",
