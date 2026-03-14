@@ -15,8 +15,8 @@
 **算法：**
 - 获取workInProgress hook，当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
-- 有尚未处理的新更新（wipFiber.workInProgressHook.queue.pending中的更新），将它们添加到基础队列中（currentFiber.currentHook.baseQueue的末尾）
-- 有尚未处理的更新（baseQueue有值），*遍历更新队列*，处理每个更新：
+- 有尚未处理的新更新（wipFiber.workInProgressHook.queue.*pending*中的更新），将它们添加到基础队列中（currentFiber.currentHook.*baseQueue*的末尾）
+- 有尚未处理的更新（baseQueue有值），*遍历更新队列，处理每个更新：*
 	- 如果update优先级不足，跳过此更新
 		- 克隆这个update
 		- 将克隆的update放入newBaseQueue中
@@ -28,6 +28,9 @@
 			- 将新克隆的更新，添加到新基础队列的末尾
 		- **处理此更新，计算新状态**
 	- 向后移动到下一个update，继续下一个循环
+- 标记fiber收到了更新/执行了工作，但仅当新状态与当前状态不同时，[[markWorkInProgressReceivedUpdate]]
+- 更新hook对象的属性（memoizedState、baseState、baseQueue）
+- 更新queue的lastRenderedState
 
 ---
 
@@ -146,3 +149,6 @@ if (newBaseQueueLast !== null) {
 ### 总结：
 
 这段代码是 React 并发更新机制的核心部分，确保了即使在渲染过程中有优先级更高的更新到来，较低优先级的更新也不会丢失，而是被妥善保存起来，在合适的时机重新进入更新队列，从而保证了状态更新的完整性。
+
+
+## 处理交错更新
