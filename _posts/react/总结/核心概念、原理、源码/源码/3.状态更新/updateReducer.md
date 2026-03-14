@@ -39,20 +39,32 @@
 
 ## currentHook 与 workInProgressHook 的区别
 
+```ts
+// Hooks are stored as a linked list on the fiber's memoizedState field. The
+// current hook list is the list that belongs to the current fiber. The
+// work-in-progress hook list is a new list that will be added to the
+// work-in-progress fiber.
+
+// 指向current fiber节点的hook链表，存储现有的hooks状态
+let currentHook: Hook | null = null;
+// 指向workInProgress fiber节点的新hook链表，用于记录更新过程中的hooks
+let workInProgressHook: Hook | null = null;
+```
+
 这两个变量都是 React 内部用来管理组件中 Hook 链表的指针，但它们分别指向不同的数据：
 
 ### currentHook
 
-- **含义**: 指向当前已渲染完成的 Hook 链表
-- **来源**: 来自当前 Fiber 节点的 alternate（即上一次渲染的结果）
-- **作用**: 提供上一次渲染时的状态，用于比较和更新
+- **含义**: 指向*当前已渲染完成的 Hook 链表（current fiber上的hook链表）*
+- **来源**: 来自wip Fiber 节点的 alternate（即上一次渲染的结果）
+- **作用**: *提供上一次渲染时的状态，用于比较和更新*
 - **生命周期**: 在组件更新时使用，代表之前的 Hook 状态
 
 ### workInProgressHook
 
-- **含义**: 指向正在进行渲染的 Hook 链表（工作进程）
-- **来源**: 存储在当前正在渲染的 Fiber 节点上
-- **作用**: 表示本次渲染过程中创建或更新的 Hook 状态
+- **含义**: 指向*正在进行渲染的 Hook 链表（workInProgress fiber上的hook链表）*
+- **来源**: 存储在当前正在渲染的 workInProgress Fiber 节点上
+- **作用**: 表示*本次渲染过程中创建或更新的 Hook 状态*
 - **生命周期**: 在当前渲染过程中使用，渲染完成后会成为下一次渲染的 currentHook
 
 ### 关系

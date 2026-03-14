@@ -11907,20 +11907,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 75.14078776041667,
+    "scroll": 1.8958333333333335,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 19
+        "line": 13,
+        "ch": 54
       },
       "to": {
-        "line": 14,
-        "ch": 19
+        "line": 13,
+        "ch": 54
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md": {
@@ -11995,7 +11996,8 @@
     },
     "expandedKeys": [
       "item-2-0",
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md": {
@@ -12381,15 +12383,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 0.17627118644067796,
+    "scroll": 53.0849609375,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 34
+        "line": 77,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 34
+        "line": 77,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -12572,20 +12574,21 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md": {
-    "scroll": 42.43359375,
+    "scroll": 63.61720887807844,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 16
+        "line": 115,
+        "ch": 10
       },
       "to": {
-        "line": 62,
-        "ch": 16
+        "line": 115,
+        "ch": 42
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   }
 }
