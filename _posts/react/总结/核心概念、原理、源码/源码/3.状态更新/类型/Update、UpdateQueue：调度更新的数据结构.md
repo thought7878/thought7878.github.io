@@ -7,6 +7,8 @@ React调度更新的数据结构类型：
 
 这两个类型用于React内部状态更新机制，确保组件状态*按正确顺序和优先级进行更新*。
 
+参考：[[basicStateReducer]]
+
 `packages/react-reconciler/src/ReactFiberHooks.old.js`
 
 ```ts
@@ -40,7 +42,7 @@ export type UpdateQueue<S, A> = {|
   lanes: Lanes,
   /** 分发新更新的函数，对应dispatch函数 */
   dispatch: ((A) => mixed) | null,
-  /** 最后一次渲染时使用的reducer函数（？状态更新函数） */
+  /** 最后一次渲染时使用的reducer函数（状态更新函数，如basicStateReducer） */
   lastRenderedReducer: ((S, A) => S) | null,
   /** 最后一次渲染时的状态值 */
   lastRenderedState: S | null,

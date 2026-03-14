@@ -8,11 +8,11 @@
 - **创建更新对象**：生成包含优先级、动作（新的状态值、或状态更新函数）等信息的更新对象
 - **处理渲染阶段、正常阶段的更新**：区分渲染阶段和正常阶段的更新
 	- 渲染阶段的更新：
-		- 将新的更新对象，加入渲染阶段的更新队列，[[enqueueRenderPhaseUpdate]]
+		- 将新的更新对象，加入渲染阶段的更新队列（*queue.pending*），[[enqueueRenderPhaseUpdate]]
 	- 正常阶段的更新：
 		- 检查当前 fiber 和其 alternate 是否都没有待处理的更新；是，都没有，意味着，更新队列当前为空：
 			- **状态预计算优化**：尝试预先计算新状态，如无变化则跳过渲染，return终止（实现提前状态计算优化，如果新旧状态相同则跳过渲染），`enqueueConcurrentHookUpdateAndEagerlyBailout`
-		- **队列管理**：将更新添加到并发队列，[[enqueueConcurrentHookUpdate]]
+		- **队列管理**：将更新添加到并发队列（*queue.interleaved*），[[enqueueConcurrentHookUpdate]]
 		- **调度渲染**：调度 fiber 上的更新，[[scheduleUpdateOnFiber]]
 - 开发者工具集成：标记更新供调试使用
 
@@ -73,7 +73,7 @@ function dispatchSetState<S, A>(
       // ！！！如果新状态与当前状态相同，可以完全跳过渲染
 
       const lastRenderedReducer = queue.lastRenderedReducer;
-      // 最后一次渲染时使用的reducer函数（？状态更新函数），存在
+      // 最后一次渲染时使用的reducer函数（状态更新函数，如basicStateReducer），存在
       if (lastRenderedReducer !== null) {
         let prevDispatcher;
         if (__DEV__) {
