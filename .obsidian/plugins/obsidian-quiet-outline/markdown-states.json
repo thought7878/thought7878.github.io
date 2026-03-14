@@ -11919,9 +11919,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-1",
-      "item-2-5"
+      "item-2-1"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md": {
@@ -11995,9 +11993,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-1",
-      "item-2-5"
+      "item-2-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md": {
@@ -12383,15 +12379,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 53.0849609375,
+    "scroll": 2.9791666666666665,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 0
+        "line": 15,
+        "ch": 14
       },
       "to": {
-        "line": 77,
-        "ch": 0
+        "line": 15,
+        "ch": 14
       }
     },
     "expandedKeys": [
@@ -12435,12 +12431,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 12
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 12
+        "line": 7,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -12574,7 +12570,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md": {
-    "scroll": 63.61720887807844,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 115,
@@ -12586,9 +12582,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-1",
-      "item-2-5"
+      "item-2-1"
     ]
   }
 }
