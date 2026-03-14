@@ -12379,20 +12379,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 8.155348837209303,
+    "scroll": 8.671317829457365,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 49
+        "line": 25,
+        "ch": 4
       },
       "to": {
-        "line": 22,
-        "ch": 49
+        "line": 25,
+        "ch": 4
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-12.md": {
     "scroll": 11.727984344422701,
@@ -12584,5 +12582,47 @@
     "expandedKeys": [
       "item-2-1"
     ]
+  },
+  "_posts/读书笔记/兴趣/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/兴趣/舞蹈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markSkippedUpdateLanes.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 13
+      },
+      "to": {
+        "line": 10,
+        "ch": 53
+      }
+    },
+    "expandedKeys": []
   }
 }

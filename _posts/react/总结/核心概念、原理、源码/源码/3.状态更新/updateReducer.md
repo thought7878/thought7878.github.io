@@ -21,7 +21,9 @@
 		- 克隆这个update
 		- 将克隆的update放入newBaseQueue中
 		- 将这个update的优先级保存到wipFiber.lanes中（标记下来，给下次渲染处理）
-	- 如果update优先级足
+		- 标记跳过的更新优先级，将其lane记录到workInProgressRootSkippedLanes中，[[markSkippedUpdateLanes]]
+	- 如果update优先级足够，
+		- 
 
 ---
 
