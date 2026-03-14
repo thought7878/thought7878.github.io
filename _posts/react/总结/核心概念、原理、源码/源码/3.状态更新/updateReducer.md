@@ -16,14 +16,18 @@
 - 获取workInProgress hook，当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
 - 有尚未处理的新更新（wipFiber.workInProgressHook.queue.pending中的更新），将它们添加到基础队列中（currentFiber.currentHook.baseQueue的末尾）
-- 有尚未处理的更新，遍历更新队列，处理每个更新：
+- 有尚未处理的更新（baseQueue有值），*遍历更新队列*，处理每个更新：
 	- 如果update优先级不足，跳过此更新
 		- 克隆这个update
 		- 将克隆的update放入newBaseQueue中
 		- 将这个update的优先级保存到wipFiber.lanes中（标记下来，给下次渲染处理）
 		- 标记跳过的更新优先级，将其lane记录到workInProgressRootSkippedLanes中，[[markSkippedUpdateLanes]]
 	- 如果update优先级足够，
-		- 
+		- 如果之前已经*有更新被跳过了*（即优先级不够，无法在此次渲染中处理），被跳过的更新后面的更新都需按顺序被添加进新的基础队列，保证顺序
+			- 创建一个新的 Update 对象，复制当前更新的关键属性
+			- 将新克隆的更新，添加到新基础队列的末尾
+		- **处理此更新，计算新状态**
+	- 向后移动到下一个update，继续下一个循环
 
 ---
 
@@ -85,3 +89,60 @@ let workInProgressHook: Hook | null = null;
 4. 下次渲染时，它又成为了 currentHook
 
 这种设计使得 React 能够在渲染过程中保持状态的一致性，并且能够有效地进行协调（reconciliation）算法。
+
+## 更新被跳过的处理逻辑
+
+### 源码：
+
+```ts
+// 之前已经有更新被跳过了（即优先级不够，无法在此次渲染中处理）
+if (newBaseQueueLast !== null) {
+  // 创建一个新的 Update 对象，复制当前更新的关键属性
+  const clone: Update<S, A> = {
+	// 将lane设置为 NoLane (值为 0)，这很重要，因为它确保这个更新永远不会被跳过，因为 0 是所有位掩码的子集
+	lane: NoLane,
+	action: update.action,
+	hasEagerState: update.hasEagerState,
+	eagerState: update.eagerState,
+	next: (null: any),
+  };
+  // 将新克隆的更新添加到新基础队列的末尾
+  // 将当前尾节点的 next 指针指向新克隆的更新
+  // 更新尾节点引用，使其指向新添加的节点
+  newBaseQueueLast = newBaseQueueLast.next = clone;
+}
+```
+
+### 详细解释：
+
+1. **条件判断** (`newBaseQueueLast !== null`)
+   - 这个条件检查是否已经有一个"基础更新队列"被建立
+   - `newBaseQueueLast` 是一个链表的尾节点引用，用于存储那些将在后续渲染中继续保留的更新
+   - 当 `newBaseQueueLast !== null` 时，意味着之前已经有更新被跳过了（即优先级不够，无法在此渲染中处理）
+
+2. **创建更新克隆** (`const clone: Update<S, A>`)
+   - 创建一个新的 [Update](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L243-L263) 对象，复制当前更新的关键属性
+   - `lane: NoLane` - 将车道设置为 `NoLane` (值为 0)，这很重要，因为它确保这个更新永远不会被跳过，因为 0 是所有位掩码的子集
+   - 其他属性（[action](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.new.js#L254-L254)、[hasEagerState](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactUpdateQueue.js#L31-L31)、[eagerState](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactUpdateQueue.js#L30-L30)）被保留，以维持更新的完整信息
+
+3. **链表操作** (`newBaseQueueLast = newBaseQueueLast.next = clone`)
+   - 这是一个链表追加操作，将新克隆的更新添加到基础队列的末尾
+   - `newBaseQueueLast.next = clone` - 将当前尾节点的 next 指针指向新克隆的更新
+   - `newBaseQueueLast = ...` - 更新尾节点引用，使其指向新添加的节点
+
+### 业务场景：
+
+*这段代码出现在处理高优先级更新的分支中，当一个更新有足够的优先级被处理时：*
+
+1. **如果已经有低优先级的更新被跳过**（`newBaseQueueLast !== null` 表示已经有跳过的更新），**那么当前处理的这个高优先级更新也需要被添加到基础队列中，因为它也将在未来的渲染中需要被处理**
+2. 将 [lane](file:///Users/ll/Desktop/资料/编程/仓库/react/react-18.2.0/packages/react-reconciler/src/ReactFiberReconciler.old.js#L502-L502) 设置为 `NoLane` 是*为了确保这个更新不会在未来被跳过，因为它已经被确认处理过了*
+
+### React 并发机制背景：
+
+- React 使用优先级系统来决定哪些更新应该被立即处理，哪些可以推迟
+- 当用户快速连续触发多次更新时，低优先级的更新（如滚动）可能被高优先级的更新（如点击响应）打断
+- 这段代码确保被跳过的更新能够被保留并在适当的时候重新处理，从而避免更新丢失
+
+### 总结：
+
+这段代码是 React 并发更新机制的核心部分，确保了即使在渲染过程中有优先级更高的更新到来，较低优先级的更新也不会丢失，而是被妥善保存起来，在合适的时机重新进入更新队列，从而保证了状态更新的完整性。
