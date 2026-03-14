@@ -16,6 +16,12 @@
 - 获取workInProgress hook，当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
 - 有尚未处理的新更新（wipFiber.workInProgressHook.queue.pending中的更新），将它们添加到基础队列中（currentFiber.currentHook.baseQueue的末尾）
+- 有尚未处理的更新，遍历更新队列，处理每个更新：
+	- 如果update优先级不足，跳过此更新
+		- 克隆这个update
+		- 将克隆的update放入newBaseQueue中
+		- 将这个update的优先级保存到wipFiber.lanes中（标记下来，给下次渲染处理）
+	- 如果update优先级足
 
 ---
 
