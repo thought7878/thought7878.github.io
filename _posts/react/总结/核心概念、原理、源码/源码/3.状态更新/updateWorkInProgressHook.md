@@ -1,7 +1,7 @@
 这段JavaScript代码是React内部用于更新工作进行中的Hook的函数。它通过*对比当前渲染和上次渲染的Hook链表，确保Hook的顺序一致性*。主要功能包括：
 
 1. **获取下一个Hook**：分别从current hook和work-in-progress hook中获取下一个待处理的Hook
-2. **复用或创建Hook**：如果work-in-progress Hook已存在则直接复用，否则从current Hook克隆创建新Hook
+2. **复用或创建Hook**：如果存在下一个work-in-progress Hook，则直接复用；否则，不存在下一个work-in-progress Hook，从current Hook克隆创建新Hook
 3. **维护链表结构**：保持Hook链表的正确连接关系
 4. **错误检查**：验证当前渲染的Hook数量是否超过上次渲染，防止违反React Hooks规则
 
