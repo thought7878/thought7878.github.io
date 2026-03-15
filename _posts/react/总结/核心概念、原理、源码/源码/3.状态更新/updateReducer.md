@@ -13,7 +13,7 @@
 该函数还处理了交错更新队列，并确保正确标记 Fiber 节点已接收更新，这对于 React 的并发渲染机制至关重要。整个过程体现了 React 在处理状态更新时对性能和用户体验的深度优化考虑。
 
 **算法：**
-- 获取workInProgress hook，当前useState对应的hook，[[updateWorkInProgressHook]]
+- 获取对应hook，获取workInProgress hook，如当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
 - 有尚未处理的新更新（wipFiber.workInProgressHook.queue.*pending*中的更新），将它们添加到基础队列中（currentFiber.currentHook.*baseQueue*的末尾）
 - 有尚未处理的更新（baseQueue有值），*遍历更新队列，处理每个更新：*
