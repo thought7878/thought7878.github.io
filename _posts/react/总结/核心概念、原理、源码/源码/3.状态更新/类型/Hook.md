@@ -89,7 +89,7 @@ export type Hook = {|
     - `lastRenderedReducer`：最后一次渲染时使用的reducer函数
     - `lastRenderedState`：最后一次渲染时的状态值
 
-pending属性和interleaved属性的区别：[[queue]]
+**pending和interleaved的区别**：[[queue]]
 
 ### baseQueue
 
