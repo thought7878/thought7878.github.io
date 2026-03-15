@@ -1,4 +1,4 @@
-`updateReducer` 是 React Fiber 架构中*用于处理 `useState`、`useReducer` Hook* 的核心函数，**它负责计算state，在组件渲染期间处理状态更新逻辑**。函数会*根据更新优先级决定是否处理特定更新，并维护基础状态与待处理更新队列之间的关系*。
+`updateReducer` 是 React Fiber 架构中*用于处理 `useState`、`useReducer` Hook* 的核心函数，**找到对应的 hook ，根据 update 计算该 hook 的新 state 并返回。它负责计算state，在组件渲染期间处理状态更新逻辑**。函数会*根据更新优先级决定是否处理特定更新，并维护基础状态与待处理更新队列之间的关系*。
 
 
 主要负责以下几个方面：
@@ -13,6 +13,7 @@
 该函数还处理了交错更新队列，并确保正确标记 Fiber 节点已接收更新，这对于 React 的并发渲染机制至关重要。整个过程体现了 React 在处理状态更新时对性能和用户体验的深度优化考虑。
 
 **算法：**
+*找到对应的 hook ，根据 update 计算该 hook 的新 state 并返回。*
 - 获取对应hook，获取workInProgress hook，如当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
 - 有尚未处理的新更新（wipFiber.workInProgressHook.queue.*pending*中的更新），将它们添加到基础队列中（currentFiber.currentHook.*baseQueue*的末尾）

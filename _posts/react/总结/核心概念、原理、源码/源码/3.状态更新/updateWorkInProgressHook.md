@@ -3,7 +3,7 @@
 1. **获取下一个Hook**：分别从current hook和work-in-progress hook中获取下一个待处理的Hook
 2. **复用或创建Hook**：如果存在下一个work-in-progress Hook，则直接复用；否则，不存在下一个work-in-progress Hook，从current Hook克隆创建新Hook
 3. **维护链表结构**：保持Hook链表的正确连接关系
-4. **错误检查**：验证当前渲染的Hook数量是否超过上次渲染，防止违反React Hooks规则
+4. **错误检查**：验证当前渲染的Hook数量是否超过上次渲染（渲染阶段的更新，导致无限循环 更新），防止违反React Hooks规则
 
 
 ## 源码
