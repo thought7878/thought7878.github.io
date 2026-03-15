@@ -152,3 +152,62 @@ if (newBaseQueueLast !== null) {
 
 
 ## 处理交错更新
+这段代码来自React的源码，位于[ReactFiberHooks.old.js](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberHooks.old.js)文件中，它*处理React Hooks中的交错更新(Interleaved Updates)机制*。
+
+```javascript
+// 获取队列中最后一次交错更新的引用
+const lastInterleaved = queue.interleaved;
+
+// 如果存在交错更新（在当前渲染过程中新加入的更新）
+if (lastInterleaved !== null) {
+  // 初始化遍历指针，从最后一个交错更新开始
+  let interleaved = lastInterleaved;
+  
+  // 循环遍历整个交错更新链表，直到回到起点
+  do {
+    // 获取当前交错更新的lane（优先级）
+    const interleavedLane = interleaved.lane;
+    
+    // 将这个更新的lane合并到当前正在渲染的fiber的lanes中
+    // ！！！这样做是为了追踪还有哪些更新需要处理
+    currentlyRenderingFiber.lanes = mergeLanes(
+      currentlyRenderingFiber.lanes,
+      interleavedLane,
+    );
+    
+    // ！！！标记这些lane的更新被跳过了，以便React知道这些优先级的更新并未完成
+    markSkippedUpdateLanes(interleavedLane);
+    
+    // 移动到链表中的下一个更新
+    interleaved = ((interleaved: any).next: Update<S, A>);
+  } while (interleaved !== lastInterleaved);  // 继续循环直到回到起始点
+} 
+else if (baseQueue === null) {
+  // 如果没有交错更新，且基础队列(baseQueue)为空
+  // `queue.lanes` 用于纠缠转换（entangling transitions）。一旦队列为空，我们可以将其设置回零
+  // 这里重置队列的lanes为NoLanes（表示没有优先级）
+  queue.lanes = NoLanes;
+}
+```
+
+
+### 1. 交错更新(Interleaved Updates)概念
+在React的并发特性中，**当一个组件正在渲染时，可能有新的状态更新被调度。这些在渲染过程中新加入的更新被存储在`queue.interleaved`中，而不是立即处理**。
+
+### 2. 代码第一部分 
+`lastInterleaved !== null`
+- 当前渲染过程中产生了新的更新，这些更新被存储在交错队列中
+- 循环遍历这些交错更新，将它们的优先级(lane)合并到当前fiber的lanes中
+- 调用`markSkippedUpdateLanes`标记这些更新被跳过了，以便后续处理
+
+### 3. 代码第二部分 
+`baseQueue === null`
+- 当没有交错更新且基础队列也为空时，意味着没有待处理的更新
+- 将队列的lanes重置为`NoLanes`，这是一种优化，避免不必要的追踪
+
+### 4. 为什么需要这种机制？
+- **并发渲染**: 在并发模式下，React可以中断渲染过程，交错更新机制**确保这些中断期间产生的更新不会丢失**
+- **优先级管理**: 确保高优先级的更新能够正确地影响渲染结果
+- **时间切片**: 允许React在长时间运行的渲染过程中接收新的更新
+
+这个机制是React并发特性的核心部分，它使得React能够在渲染过程中响应更高优先级的更新，同时确保所有更新最终都会被正确处理。
