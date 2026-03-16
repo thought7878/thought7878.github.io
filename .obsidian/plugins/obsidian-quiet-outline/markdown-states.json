@@ -12399,21 +12399,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 11.659505208333334,
+    "scroll": 4.4375,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 12
+        "line": 18,
+        "ch": 92
       },
       "to": {
-        "line": 20,
-        "ch": 12
+        "line": 18,
+        "ch": 92
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-2-5",
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-12.md": {
@@ -12594,21 +12593,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md": {
-    "scroll": 76.16471354166667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 86,
-        "ch": 31
+        "line": 96,
+        "ch": 56
       },
       "to": {
-        "line": 86,
-        "ch": 31
+        "line": 96,
+        "ch": 56
       }
     },
     "expandedKeys": [
       "item-2-1",
-      "item-2-5",
-      "item-2-2"
+      "item-2-5"
     ]
   },
   "_posts/读书笔记/兴趣/未命名.md": {
@@ -12729,21 +12727,20 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/queue.md": {
-    "scroll": 5.226666666666667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 18
+        "line": 12,
+        "ch": 17
       },
       "to": {
-        "line": 13,
-        "ch": 18
+        "line": 12,
+        "ch": 17
       }
     },
     "expandedKeys": [
       "item-2-1",
-      "item-2-5",
-      "item-2-2"
+      "item-2-5"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-16.md": {
@@ -12763,15 +12760,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Update、UpdateQueue：调度更新的数据结构.md": {
-    "scroll": 18.083984375,
+    "scroll": 80.080078125,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 3
+        "line": 91,
+        "ch": 70
       },
       "to": {
-        "line": 17,
-        "ch": 3
+        "line": 91,
+        "ch": 85
       }
     },
     "expandedKeys": [
