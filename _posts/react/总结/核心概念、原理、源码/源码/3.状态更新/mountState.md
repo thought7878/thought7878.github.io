@@ -2,12 +2,12 @@
 
 
 **算法：**
-- 创建一个新的 hook 对象，并添加到当前正在渲染的 fiber 的 memoizedState 保存的hook链表中，[[mountWorkInProgressHook]]
+- 创建一个新的 hook 对象，并链接到 Hook 链表末尾，即添加到当前正在渲染的 fiber 的 hooks 链表中，[[mountWorkInProgressHook]]
 	- 如果初始状态是一个函数，则执行该函数获取实际的初始状态值
 	- 将初始状态设置为 hook 的 memoizedState 和 baseState
-- 创建一个更新队列
+- 创建该 hook 的更新队列
 	- 将 update 队列赋值给 hook.queue
-- 创建 dispatch 函数，绑定当前 fiber 和队列
+- 生成 dispatch 函数（即 setState），绑定当前 fiber 和队列
 - 返回状态值和更新函数
 
 ## 源码
@@ -19,7 +19,7 @@ function mountState<S>(
   initialState: (() => S) | S, // 初始状态，可以是值或返回值的函数
 ): [S, Dispatch<BasicStateAction<S>>] {// 返回状态值和更新函数的元组
   
-  // 创建一个新的 hook 对象，并添加到当前正在渲染的 fiber 的 hooks 链表中
+  // 创建一个新的 hook 对象，并链接到 Hook 链表末尾，即添加到当前正在渲染的 fiber 的 hooks 链表中
   const hook = mountWorkInProgressHook();
 
   // 如果初始状态是一个函数，则执行该函数获取实际的初始状态值
@@ -44,7 +44,7 @@ function mountState<S>(
   // 将 update 队列赋值给 hook.queue
   hook.queue = queue;
 
-  // 创建 dispatch 函数，绑定当前 fiber 和队列
+  // ！！！生成 dispatch 函数（即 setState），绑定当前 fiber 和队列
   const dispatch: Dispatch<BasicStateAction<S>> = (queue.dispatch =
     (dispatchSetState.bind(null, currentlyRenderingFiber, queue): any));
 
@@ -52,3 +52,7 @@ function mountState<S>(
   return [hook.memoizedState, dispatch];
 }
 ```
+
+- `mountWorkInProgressHook` 负责创建新的 Hook 对象，并挂到当前 Fiber 的 memoizedState 链表尾部。
+- `basicStateReducer` 是内置的 reducer：如果 action 是函数则调用它，否则直接返回 action。参考：[[basicStateReducer]]
+- `dispatchSetState` 被绑定到当前 Fiber 和队列上，返回的就是我们熟知的 setState。

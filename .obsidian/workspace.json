@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hook"
+              "title": "updateReducer"
             }
           },
           {
@@ -761,10 +761,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "359e10fd8778e071",
   "lastOpenFiles": [
-    "_posts/读书笔记/男女.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateState.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
+    "_posts/读书笔记/男女.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/queue.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
@@ -786,10 +789,7 @@
     "_posts/读书笔记/兴趣/宇宙、物理.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markSkippedUpdateLanes.md",
     "_posts/读书笔记/兴趣/未命名.md",
-    "_posts/读书笔记/兴趣/舞蹈.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/FiberRoot类型.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/basicStateReducer.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/086bb274d7349e6984b5003cbe43a289_MD5.jpg",
