@@ -14,7 +14,9 @@
 3. **处理时机**：*在并发渲染期间，当组件正在渲染时新产生的更新会被放入这个队列*
 4. **特点**：这些更新*不会在当前渲染周期中处理，而是等待当前渲染完成后在下一次渲染中处理*
 
-## 主要区别
+在这里为interleaved添加update：[[dispatchSetState]]
+
+## pending与interleaved的区别
 
 ### 1. 产生场景不同
 - [pending](file:///Users/ll/Desktop/%E8%B5%84%E6%96%99/%E7%BC%96%E7%A8%8B/%E4%BB%93%E5%BA%93/react/react-18.2.0/packages/react-reconciler/src/ReactFiberClassUpdateQueue.old.js#L178-L178)：**在渲染开始前就已经存在的更新**
