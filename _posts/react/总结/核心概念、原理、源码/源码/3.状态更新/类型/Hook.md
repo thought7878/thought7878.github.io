@@ -25,13 +25,14 @@ export type Hook = {|
    * 存储未完成的更新的队列，这些更新将在下一次渲染时被应用
    * 当前渲染周期中调度的更新会被暂存在这里
    */
-  // 保存了之前渲染剩下的update（因为优先级不够） + 本次创建的queue.pending中的update
+  // 保存了之前渲染剩下的被跳过的update（因为优先级不够被跳过） + 本次创建的queue.pending中的update（在updateReducer中处理）
   baseQueue: Update<any, any> | null,
 
   /**
    * 存储hook关联的更新队列（updateQueue）
    * 不同类型的hook可能有不同的队列结构
    */
+  // 
   queue: any,
 
   /**

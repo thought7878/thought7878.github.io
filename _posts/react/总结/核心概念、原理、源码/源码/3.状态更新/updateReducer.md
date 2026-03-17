@@ -16,7 +16,7 @@
 *找到对应的 hook ，根据 update 计算该 hook 的新 state 并返回。*
 - 获取对应hook，获取workInProgress hook，如当前useState对应的hook，[[updateWorkInProgressHook]]
 - 获取 workInProgress hook的queue（update queue）
-- 有尚未处理的新更新（wipFiber workInProgressHook.queue.*pending*中的更新），将它们添加到基础队列中（currentFiber currentHook.*baseQueue*的末尾）
+- 有尚未处理的新更新（wipFiber workInProgressHook.*queue.pending*中的更新），将它们添加到基础队列后（currentFiber currentHook.*baseQueue*的末尾）
 - 有尚未处理的更新（baseQueue有值），*遍历更新队列，处理每个更新：*
 	- 如果update优先级不足，跳过此更新
 		- 克隆这个update

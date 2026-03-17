@@ -7279,15 +7279,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md": {
-    "scroll": 24.057291666666668,
+    "scroll": 134.77333333333334,
     "cursor": {
       "from": {
-        "line": 46,
-        "ch": 36
+        "line": 94,
+        "ch": 21
       },
       "to": {
-        "line": 46,
-        "ch": 36
+        "line": 94,
+        "ch": 21
       }
     },
     "expandedKeys": [
@@ -7310,15 +7310,10 @@
       }
     },
     "expandedKeys": [
-      "item-2-55",
-      "item-1-48",
-      "item-1-33",
-      "item-1-0",
-      "item-2-2",
-      "item-2-5",
       "item-2-1",
-      "item-2-8",
-      "item-2-10"
+      "item-2-5",
+      "item-2-2",
+      "item-2-0"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性2.md": {
@@ -12392,15 +12387,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md": {
-    "scroll": 39.11937984496124,
+    "scroll": 9.088062015503876,
     "cursor": {
       "from": {
         "line": 18,
-        "ch": 92
+        "ch": 67
       },
       "to": {
         "line": 18,
-        "ch": 92
+        "ch": 67
       }
     },
     "expandedKeys": [
@@ -12586,14 +12581,14 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md": {
-    "scroll": 6.225260416666667,
+    "scroll": 20.55859375,
     "cursor": {
       "from": {
-        "line": 20,
+        "line": 34,
         "ch": 5
       },
       "to": {
-        "line": 20,
+        "line": 34,
         "ch": 5
       }
     },
@@ -12721,7 +12716,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/queue.md": {
-    "scroll": 1.125,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 17,
@@ -12739,15 +12734,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-16.md": {
-    "scroll": 31.051432291666668,
+    "scroll": 11.626223091976517,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -12755,7 +12750,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Update、UpdateQueue：调度更新的数据结构.md": {
-    "scroll": 80.080078125,
+    "scroll": 17.667317708333332,
     "cursor": {
       "from": {
         "line": 91,
@@ -12768,6 +12763,22 @@
     },
     "expandedKeys": [
       "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-17.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 28
+      },
+      "to": {
+        "line": 40,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
