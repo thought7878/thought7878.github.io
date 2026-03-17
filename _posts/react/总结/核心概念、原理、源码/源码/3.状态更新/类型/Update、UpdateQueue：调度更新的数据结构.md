@@ -35,12 +35,14 @@ export type Update<S, A> = {|
  */
 export type UpdateQueue<S, A> = {|
   /** 指向最后一个入队的更新，其next指向第一个更新，为null时表示没有更新 */
+  // 本次更新添加的新的更新的环形链表
   pending: Update<S, A> | null,
   /** 交错更新队列，用于支持时间片打断机制 */
   interleaved: Update<S, A> | null,
   /** 当前队列中所有更新的lane集合 */
   lanes: Lanes,
   /** 分发新更新的函数，对应dispatch函数 */
+  // 触发更新的函数（即 setState 或 dispatch）
   dispatch: ((A) => mixed) | null,
   /** 最后一次渲染时使用的reducer函数（状态更新函数，如basicStateReducer） */
   lastRenderedReducer: ((S, A) => S) | null,
