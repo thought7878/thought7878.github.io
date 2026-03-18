@@ -12472,18 +12472,22 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md": {
-    "scroll": 35.2724609375,
+    "scroll": 18.605794270833332,
     "cursor": {
       "from": {
-        "line": 56,
-        "ch": 35
+        "line": 31,
+        "ch": 40
       },
       "to": {
-        "line": 56,
-        "ch": 35
+        "line": 31,
+        "ch": 52
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-5",
+      "item-3-9"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountWorkInProgressHook.md": {
     "scroll": 0,
@@ -12581,15 +12585,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md": {
-    "scroll": 10.100260416666666,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 2
+        "line": 26,
+        "ch": 5
       },
       "to": {
-        "line": 28,
-        "ch": 2
+        "line": 26,
+        "ch": 5
       }
     },
     "expandedKeys": [
@@ -12793,6 +12797,24 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/base/js/知识点总结/bind、apply、call.md": {
+    "scroll": 64.04524739583333,
+    "cursor": {
+      "from": {
+        "line": 72,
+        "ch": 78
+      },
+      "to": {
+        "line": 72,
+        "ch": 78
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-5",
+      "item-3-9"
     ]
   }
 }
