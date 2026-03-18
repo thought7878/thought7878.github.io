@@ -12764,15 +12764,31 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-17.md": {
-    "scroll": 0,
+    "scroll": 10.010763209393346,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 28
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-18.md": {
+    "scroll": 34.19610894941634,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 31
+      },
+      "to": {
+        "line": 39,
+        "ch": 31
       }
     },
     "expandedKeys": [
