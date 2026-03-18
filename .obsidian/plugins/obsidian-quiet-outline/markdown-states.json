@@ -11909,22 +11909,18 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md": {
-    "scroll": 0,
+    "scroll": 45.169270833333336,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 22
+        "line": 118,
+        "ch": 17
       },
       "to": {
-        "line": 13,
-        "ch": 22
+        "line": 118,
+        "ch": 44
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-5",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-09.md": {
     "scroll": 9.374755381604697,
@@ -11985,22 +11981,18 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md": {
-    "scroll": 0,
+    "scroll": 48.640299479166664,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 59
+        "line": 21,
+        "ch": 20
       },
       "to": {
-        "line": 2,
-        "ch": 59
+        "line": 21,
+        "ch": 20
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-5",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markUpdateLaneFromFiberToRoot.md": {
     "scroll": 34.5595703125,
@@ -12472,15 +12464,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md": {
-    "scroll": 18.605794270833332,
+    "scroll": 10.767131782945736,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 40
+        "line": 47,
+        "ch": 16
       },
       "to": {
-        "line": 31,
-        "ch": 52
+        "line": 47,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -12803,12 +12795,12 @@
     "scroll": 64.04524739583333,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 78
+        "line": 77,
+        "ch": 49
       },
       "to": {
-        "line": 72,
-        "ch": 78
+        "line": 77,
+        "ch": 49
       }
     },
     "expandedKeys": [
@@ -12816,5 +12808,19 @@
       "item-3-5",
       "item-3-9"
     ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/pushConcurrentUpdateQueue.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -9,6 +9,20 @@
 
 参考：[[markUpdateLaneFromFiberToRoot]]
 
+---
+**算法：**
+- 将新更新插入到queue.interleaved中
+	- 获取当前队列中的交错更新链表
+	- 如果queue.interleaved为空，这是第一个更新
+		- 创建一个循环链表
+		- 在当前渲染结束时，此队列的*交错更新将转移到待处理队列*，[[pushConcurrentUpdateQueue]]
+	- 如果queue.interleaved不为空，将新更新插入到循环链表中
+		- 设置新更新的下一个节点为交错队列的第一个节点
+		- 设置当前交错队列的最后节点的下一个节点为新更新
+	- 更新队列的交错指针指向新添加的更新
+	- 标记从fiber到root的childLanes并返回对应的FiberRoot，[[markUpdateLaneFromFiberToRoot]]
+
+
 ## 源码
 `packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js`
 
@@ -56,9 +70,9 @@ export function enqueueConcurrentHookUpdate<S, A>(
     pushConcurrentUpdateQueue(queue);
   } else {
     // 将新更新插入到循环链表中：
-    // 设置新更新的下一个节点为当前交错节点的下一个节点
+    // 设置新更新的下一个节点为交错队列的第一个节点
     update.next = interleaved.next;
-    // 将当前交错节点的下一个节点设置为新更新
+    // 设置当前交错队列的最后节点的下一个节点为新更新
     interleaved.next = update;
   }
   // 更新队列的交错指针指向新添加的更新

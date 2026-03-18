@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/bind、apply、call.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bind、apply、call"
+              "title": "dispatchSetState"
             }
           },
           {
@@ -737,7 +737,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -763,6 +763,9 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/pushConcurrentUpdateQueue.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md",
     "_posts/base/js/知识点总结/bind、apply、call.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Hook.md",
@@ -771,13 +774,11 @@
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/Update、UpdateQueue：调度更新的数据结构.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型/queue.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateReducer.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueConcurrentHookUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-16.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateState.md",
     "_posts/读书笔记/男女.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/enqueueRenderPhaseUpdate.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
@@ -788,7 +789,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateWorkInProgressHook.md",
     "_posts/读书笔记/人性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/markWorkInProgressReceivedUpdate.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media",
