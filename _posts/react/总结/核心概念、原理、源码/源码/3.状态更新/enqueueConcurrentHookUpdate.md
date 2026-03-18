@@ -26,7 +26,22 @@
 ## 源码
 `packages/react-reconciler/src/ReactFiberConcurrentUpdates.old.js`
 
+18.3.0
+```ts
+export function enqueueConcurrentHookUpdate<S, A>(
+  fiber: Fiber,
+  queue: HookQueue<S, A>,
+  update: HookUpdate<S, A>,
+  lane: Lane,
+): FiberRoot | null {
+  const concurrentQueue: ConcurrentQueue = (queue: any);
+  const concurrentUpdate: ConcurrentUpdate = (update: any);
+  enqueueUpdate(fiber, concurrentQueue, concurrentUpdate, lane);
+  return getRootForUpdatedFiber(fiber);
+}
+```
 
+18.2.0
 ```ts
 /**
  * 将一个 hook 更新加入到并发更新队列中。
