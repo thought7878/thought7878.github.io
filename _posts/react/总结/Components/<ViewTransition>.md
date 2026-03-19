@@ -1,19 +1,19 @@
-React 的 `<ViewTransition />` 是一个实验性的组件，它让你能轻松地为UI变化添加丝滑的动画效果。它基于现代浏览器提供的 [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)，但将其与 React 的并发特性（如 Transition）深度整合，解决了手动集成时可能遇到的复杂时序和性能问题。
+React 的 `<ViewTransition />` 是一个*实验性*的组件，它让你**能轻松地为UI变化添加丝滑的动画效果**。它*基于现代浏览器提供的 [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)，但将其与 React 的并发特性（如 Transition）深度整合*，**解决了手动集成时可能遇到的复杂时序和性能问题**。
 
-简单来说，它让你能以声明式的方式，告诉 React “当这个元素因为状态变化而更新时，请为它加上动画”。
+简单来说，它让你能**以声明式的方式，告诉 React “当这个元素因为状态变化而更新时，请为它加上动画”**。
 
 ### 为什么需要它？
 
-在 `<ViewTransition />` 出现之前，如果你想在 React 中使用 View Transitions API，通常需要手动调用 `document.startViewTransition`，但这会遇到两个棘手的问题：
+在 <ViewTransition /> 出现之前，如果你想在 React 中使用 View Transitions API，通常需要手动调用 document.startViewTransition，但这会遇到两个棘手的问题：
 
-1.  **时序问题**：你必须在 DOM 更新**之前**启动过渡，但 React 的状态更新是异步调度的，你很难精确控制 `startViewTransition` 的回调和 `setState` 发生的时机，这很容易导致动画失败或闪烁。
-2.  **性能问题**：为了强制同步更新，你可能会使用 `flushSync`，但这会阻塞主线程，让页面在动画期间无法响应用户输入，反而降低了体验。
+1.  **时序问题**：你必须在 DOM 更新**之前**启动过渡，但 React 的状态更新是异步调度的，你很难精确控制 startViewTransition 的回调和 setState 发生的时机，这很容易导致动画失败或闪烁。
+2.  **性能问题**：为了强制同步更新，你可能会使用 flushSync，但这会阻塞主线程，让页面在动画期间无法响应用户输入，反而降低了体验。
 
-`<ViewTransition />` 通过深入到 React 的渲染生命周期中解决了这些问题。它只在最合适的时机（即浏览器即将绘制新 UI 之前）启动过渡，从而**最大化地保持了页面的可交互性**，让你既能拥有流畅的动画，又不必担心破坏 React 的数据流和性能保障。
+<ViewTransition /> 通过深入到 React 的渲染生命周期中解决了这些问题。它只在最合适的时机（即浏览器即将绘制新 UI 之前）启动过渡，从而**最大化地保持了页面的可交互性**，让你既能拥有流畅的动画，又不必担心破坏 React 的数据流和性能保障。
 
 ### 核心概念与用法
 
-`<ViewTransition />` 的核心是“**何时**”触发动画与“**何物**”参与动画的解耦。
+<ViewTransition /> 的核心是“**何时**”触发动画与“**何物**”参与动画的解耦。
 
 #### 1. 何时触发？
 动画只会在由特定API触发的更新中激活。这确保了动画与 React 的并发特性完美协作：
@@ -54,7 +54,7 @@ function App() {
 ### 进阶用法：自定义与共享元素
 
 #### 1. 自定义动画
-你可以通过 CSS 的 View Transition 伪元素选择器来自定义动画，例如改变时长或添加滑动效果。通过给组件传递 `enter`、`exit`、`update` 等 `props`，你可以为不同的变化类型指定不同的 CSS 类名。
+你可以*通过 CSS 的 View Transition 伪元素选择器来自定义动画*，例如改变时长或添加滑动效果。通过*给组件传递 `enter`、`exit`、`update` 等 `props`，你可以为不同的变化类型指定不同的 CSS 类名*。
 ```css
 /* 为名为 "slide-from-right" 的过渡自定义进入动画 */
 ::view-transition-new(.slide-from-right) {
@@ -74,7 +74,7 @@ function App() {
 ```
 
 #### 2. 共享元素过渡
-这是最令人兴奋的功能之一，它能实现两个不同元素之间的无缝动画衔接。例如，从一个列表页点击图片跳转到详情页，让那张图片“飞”到新位置。
+这是最令人兴奋的功能之一，它*能实现两个不同元素之间的无缝动画衔接*。例如，从一个列表页点击图片跳转到详情页，让那张图片“飞”到新位置。
 
 你需要为两个地方的 `<ViewTransition>` 提供相同的 `name` 属性。
 ```jsx
