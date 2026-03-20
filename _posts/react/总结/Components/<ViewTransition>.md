@@ -105,5 +105,85 @@ function App() {
 
 你是在构思路由切换的动效，还是想做列表重排的动画？告诉我具体场景，我可以帮你写一段示例代码。
 
+## 属性
+`<ViewTransition />` 组件的*属性主要用于两方面*：一是**定义不同动画场景下应用的样式类名**，二是提供**动画生命周期的回调钩子**。下面为你梳理了它的核心属性。
+
+### 属性总览
+
+| 属性名 | 类型 | 描述 | 触发场景 |
+| :--- | :--- | :--- | :--- |
+| `enter` | `string` 或 `object` | 进入动画的样式类名 | 组件在 Transition 中被**插入**时。 |
+| `exit` | `string` 或 `object` | 退出动画的样式类名 | 组件在 Transition 中被**移除**时。 |
+| `update` | `string` 或 `object` | 更新动画的样式类名 | 组件自身内容或边界发生变化（如 props 改变）。 |
+| `share` | `string` 或 `object` | 共享元素过渡的样式类名 | 一个带有 `name` 的组件被移除，同时另一个同名的组件被插入。 |
+| `default` | `string` 或 `object` | 默认动画样式类名 | 当没有其他更具体的属性（如 `enter`）匹配时使用。 |
+| `name` | `string` | 共享元素的唯一标识符 | 用于将两个独立的组件关联起来，实现共享元素过渡。 |
+| `onEnter` | `function` | 进入动画完成后的回调 | `enter` 动画完成后。 |
+| `onExit` | `function` | 退出动画完成后的回调 | `exit` 动画完成后。 |
+| `onShare` | `function` | 共享元素动画完成后的回调 | `share` 动画完成后。 |
+| `onUpdate` | `function` | 更新动画完成后的回调 | `update` 动画完成后。 |
+
+---
+
+### 属性详解
+
+#### 1. 激活属性 (`enter`/`exit`/`update`/`share`/`default`)
+这些属性让你能够*为不同的动画类型指定不同的 CSS 类名*。*当相应的动画被触发时，React 会将你指定的类名添加到元素上*，然后你就可以*在 CSS 中利用 View Transitions API 的伪元素（如 `::view-transition-old()`、`::view-transition-new()`）来定义具体的动画效果*。
+
+例如，为*进入动画*指定一个类名 `"slide-in"`：
+```jsx
+<ViewTransition enter="slide-in">
+  <div>新内容</div>
+</ViewTransition>
+```
+然后在 CSS 中定义：
+```css
+::view-transition-old(slide-in) {
+  /* 定义旧视图的动画，例如淡出 */
+}
+::view-transition-new(slide-in) {
+  /* 定义新视图的动画，例如从右侧滑入 */
+}
+```
+
+#### 2. 共享标识属性 (`name`)
+`name` 是实现**共享元素过渡**的关键。当你希望*一个元素在两个不同的页面或组件之间*平滑地“动起来”时，可以*给它们设置相同的、全局唯一的 `name`*。
+
+```jsx
+// 在列表页
+<ViewTransition name={`poster-${movie.id}`}>
+  <img src={movie.poster} className="thumbnail" />
+</ViewTransition>
+
+// 在详情页
+<ViewTransition name={`poster-${movie.id}`}>
+  <img src={movie.poster} className="fullsize" />
+</ViewTransition>
+```
+当通过 `startTransition` 从列表页导航到详情页时，React 会自动识别出这两个同名的组件，并触发 `share` 动画，让缩略图平滑地过渡到完整尺寸的图片。
+
+#### 3. 生命周期回调 (`onEnter`/`onExit`/`onShare`/`onUpdate`)
+这些回调函数提供了对动画过程的**命令式控制**。每个回调函数都会接收到被动画的 DOM 元素 `element` 和当前的过渡类型 `types` 作为参数。你可以利用这些钩子，结合 Web Animations API 来创建更复杂、更精细的动画效果。
+
+```jsx
+<ViewTransition
+  onShare={(element, types) => {
+    // 在共享动画完成后，执行一些额外的 JavaScript 逻辑
+    console.log('共享动画完成', element, types);
+  }}
+>
+  {/* ... */}
+</ViewTransition>
+```
+
+### 重要注意事项
+
+*   **`name` 必须全局唯一**：当你手动设置 `name` 属性时，必须确保它在整个应用中唯一。如果两个正在参与过渡的同名组件同时出现在页面上，React 会抛出错误。最佳实践是使用动态生成的值，如 `poster-${movie.id}`。
+*   **必须与 Transition 配合**：`<ViewTransition />` 的动画**必须**在 `startTransition`、`useDeferredValue` 或 `<Suspense>` 引起的更新中才会被激活。普通的 `setState` 更新不会触发任何动画。
+*   **包裹直接的 DOM 节点**：`<ViewTransition>` 需要直接包裹一个会渲染出 DOM 节点的元素，以便 React 能够准确地为其应用 `view-transition-name` 样式。
+
+了解这些属性后，你是否想看看它们在实际的共享元素过渡中是如何组合使用的？我可以为你写一个具体的代码示例。
+
+
 ## 参考资料
 [React Labs：视图过渡、Activity 等功能](https://zh-hans.react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#view-transitions)
