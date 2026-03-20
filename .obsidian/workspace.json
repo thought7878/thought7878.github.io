@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md",
+                "file": "_posts/react/总结/Components/<ViewTransition>.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pnpm-QW"
+              "title": "<ViewTransition>"
             }
           },
           {
@@ -737,7 +737,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -761,8 +761,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "359e10fd8778e071",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md",
     "_posts/react/总结/Components/<ViewTransition>.md",
     "_posts/react/总结/核心概念、原理、源码/源码/2.初次渲染流程/2 root.render()流程/3.1.2.1.1 beginWork.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-20.md",
@@ -789,7 +790,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性.md",
     "_posts/react/总结/核心概念、原理、源码/源码/Fiber节点的属性1.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-16.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/updateState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media",
