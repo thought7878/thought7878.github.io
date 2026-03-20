@@ -1234,7 +1234,7 @@
     ]
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md": {
-    "scroll": 14.422200520833334,
+    "scroll": 90.9365234375,
     "cursor": {
       "from": {
         "line": 0,
@@ -1246,8 +1246,11 @@
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-2-0"
+      "item-3-1",
+      "item-3-4",
+      "item-2-0",
+      "item-2-3",
+      "item-3-5"
     ]
   },
   "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/Untitled.md": {
@@ -12787,14 +12790,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-19.md": {
-    "scroll": 21.071614583333332,
+    "scroll": 12.020547945205479,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -12881,20 +12884,36 @@
     "expandedKeys": []
   },
   "_posts/react/总结/Components/<ViewTransition>.md": {
-    "scroll": 0,
+    "scroll": 90.31475515463917,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 7
+        "line": 108,
+        "ch": 29
       },
       "to": {
-        "line": 37,
-        "ch": 7
+        "line": 108,
+        "ch": 29
       }
     },
     "expandedKeys": [
       "item-3-1",
       "item-3-4"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-20.md": {
+    "scroll": 20.4052903618121,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

@@ -104,3 +104,6 @@ function App() {
 *   **直接包裹 DOM 节点**：`<ViewTransition>` 组件需要直接包裹一个 DOM 节点（或一个最终会渲染出 DOM 节点的组件），不能在其内部第一个位置放置其他 React 组件而不产生任何 DOM 输出。
 
 你是在构思路由切换的动效，还是想做列表重排的动画？告诉我具体场景，我可以帮你写一段示例代码。
+
+## 参考资料
+[React Labs：视图过渡、Activity 等功能](https://zh-hans.react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more#view-transitions)
