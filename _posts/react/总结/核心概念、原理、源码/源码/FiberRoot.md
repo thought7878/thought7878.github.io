@@ -84,7 +84,7 @@ this.suspendedLanes = NoLanes; // 挂起的车道
 this.pingedLanes = NoLanes; // 唤醒的车道
 ```
 - **类型**: `Lanes`
-- **功能**: 标记*已被唤醒（数据已解决）但尚未处理的更新*
+- **功能**: 标记*异步数据准备好了可以执行了，已被唤醒（数据已解决）但尚未处理的更新*
 - **触发时机**: 
   - *Suspense数据Promise解决时*
   - 调用`root.pingTransition()`
