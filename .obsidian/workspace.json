@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.1 流程概览"
+              "title": "5.4 深入理解优先级"
             }
           },
           {
@@ -763,11 +763,12 @@
   },
   "active": "359e10fd8778e071",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.3 Update.md",
+    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
     "_posts/react/总结/核心概念、原理、源码/源码/FiberRoot.md",
     "_posts/react/总结/Components/<Suspense>.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-23.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-22.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.1 流程概览.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-21.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/mountState.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/dispatchSetState.md",
@@ -789,7 +790,6 @@
     "_posts/react/总结/核心概念、原理、源码/bugs",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-18.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/scheduleUpdateOnFiber.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/ensureRootIsScheduled.md",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media",
