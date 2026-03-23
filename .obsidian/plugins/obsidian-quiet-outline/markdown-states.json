@@ -13002,7 +13002,23 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-22.md": {
-    "scroll": 24.930338541666668,
+    "scroll": 13,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-23.md": {
+    "scroll": 18.5491030708422,
     "cursor": {
       "from": {
         "line": 31,
