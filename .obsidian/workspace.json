@@ -517,7 +517,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/interview/简历/商智/简历中的京东商智-QW.md",
+                "file": "_posts/interview/简历/简历.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -532,7 +532,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "简历中的京东商智-QW"
+              "title": "简历"
             }
           },
           {
@@ -737,7 +737,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -761,17 +761,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "359e10fd8778e071",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/interview/简历/商智/技术架构.md",
+    "_posts/interview/简历/商智/技术栈.md",
     "_posts/interview/简历/商智/简历中的京东商智-DS.md",
+    "_posts/interview/简历/商智/简历中的京东商智-QW.md",
     "_posts/interview/简历/商智/业务逻辑/业务模块.md",
     "_posts/interview/简历/商智/业务逻辑/京东商智- 商智功能介绍（上）.md",
-    "_posts/interview/简历/商智/技术栈.md",
-    "_posts/interview/简历/商智/技术架构.md",
     "_posts/interview/简历/简历.md",
     "_posts/interview/简历/参考案例.md",
     "_posts/interview/简历/1.正确介绍自己的项目经验，再也不为面试发愁了.md",
-    "_posts/interview/简历/商智/简历中的京东商智-QW.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-24.md",
