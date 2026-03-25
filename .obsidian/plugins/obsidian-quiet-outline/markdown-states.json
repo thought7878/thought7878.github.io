@@ -577,15 +577,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -13332,12 +13334,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 13
+        "line": 7,
+        "ch": 18
       },
       "to": {
-        "line": 9,
-        "ch": 13
+        "line": 7,
+        "ch": 18
       }
     },
     "expandedKeys": [
