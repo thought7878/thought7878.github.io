@@ -13146,15 +13146,15 @@
     "expandedKeys": []
   },
   "_posts/interview/简历/简历.md": {
-    "scroll": 60.333658854166664,
+    "scroll": 56.861395348837206,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 77
+        "line": 51,
+        "ch": 17
       },
       "to": {
-        "line": 73,
-        "ch": 77
+        "line": 51,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -13431,15 +13431,15 @@
     "expandedKeys": []
   },
   "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-1 前端可视化解决方案 (04：07).md": {
-    "scroll": 3.1944444444444446,
+    "scroll": 9.507772706224781,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 19,
+        "ch": 81
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 19,
+        "ch": 81
       }
     },
     "expandedKeys": []
@@ -13449,11 +13449,11 @@
     "cursor": {
       "from": {
         "line": 2,
-        "ch": 89
+        "ch": 115
       },
       "to": {
         "line": 2,
-        "ch": 89
+        "ch": 115
       }
     },
     "expandedKeys": [
@@ -13509,11 +13509,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 32
+        "ch": 73
       },
       "to": {
         "line": 0,
-        "ch": 32
+        "ch": 73
       }
     },
     "expandedKeys": []
@@ -13522,12 +13522,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 66
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 66
       }
     },
     "expandedKeys": []
@@ -13542,6 +13542,138 @@
       "to": {
         "line": 0,
         "ch": 60
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-4 WebGL.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 127
+      },
+      "to": {
+        "line": 0,
+        "ch": 127
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-9 canvas 高级应用：图片压缩算法实现（上） (20：31).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/简介.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-1 highcharts 介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-2 antv-g2 入门.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 22
+      },
+      "to": {
+        "line": 7,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-5 zrender 入门.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-5 ZRender 入门.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-3 SVG 入门.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 66
+      },
+      "to": {
+        "line": 0,
+        "ch": 66
       }
     },
     "expandedKeys": []
