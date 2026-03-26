@@ -607,7 +607,8 @@
               "title": "编程方法"
             }
           }
-        ]
+        ],
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -772,8 +773,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-11 echarts 坐标系.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/media/feff5ed41447224eb07514d2aaa238d9_MD5.webp",
@@ -808,7 +810,6 @@
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力",
     "_posts/数据可视化/教程",
-    "_posts/browser/教程/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/root.render的流程.svg",
     "_posts/methods/media/6215e1ec8d79fa40738a55da011a889f_MD5.webp",
     "_posts/methods/media/7025af8c4359bdd0068bde1b4aef1bb3_MD5.webp",
