@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
+                "file": "_posts/architect/System Design/设计模式/设计模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-架构师思维认知篇"
+              "title": "设计模式"
             }
           },
           {
@@ -775,10 +775,10 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
     "_posts/architect/_教程/奈学 P7大前端架构师/media/1d4bc7fd2ea698d986c81fbd362080e7_MD5.webp",
     "_posts/architect/_教程/奈学 P7大前端架构师/media",
     "_posts/architect/架构模式/前端架构模式.md",
-    "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
     "_posts/architect/_教程/奈学 P7大前端架构师",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md",
     "_posts/methods/常看的.md",
@@ -820,7 +820,6 @@
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/086bb274d7349e6984b5003cbe43a289_MD5.jpg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/cda7c4f102b99856f9587fc8573e67a2_MD5.png",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/media/ab8aecacb89ca4953cc14e1c114fc2bc_MD5.jpg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
