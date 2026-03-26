@@ -13361,15 +13361,15 @@
     "expandedKeys": []
   },
   "_posts/methods/编程/编程方法.md": {
-    "scroll": 0,
+    "scroll": 32.954427083333336,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 173
+        "line": 41,
+        "ch": 0
       },
       "to": {
-        "line": 44,
-        "ch": 173
+        "line": 41,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -13679,15 +13679,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-26.md": {
-    "scroll": 9.26027397260274,
+    "scroll": 10.341487279843443,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -13842,6 +13842,104 @@
       "item-2-5",
       "item-3-9",
       "item-2-8"
+    ]
+  },
+  "_posts/architect/System Design/设计模式、编程思想/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-4",
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/System Design/设计模式、编程思想/1.编程思想.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计模式、编程思想/1.编程思想介绍（重要）.md": {
+    "scroll": 21.442708333333332,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 101
+      },
+      "to": {
+        "line": 26,
+        "ch": 101
+      }
+    },
+    "expandedKeys": [
+      "item-1-4",
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md": {
+    "scroll": 28.805338541666668,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/System Design/设计模式、编程思想/他人未完成的总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 4
+      },
+      "to": {
+        "line": 11,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-4",
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/System Design/设计模式、编程思想/2.高内聚.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 18
+      },
+      "to": {
+        "line": 5,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-1-9",
+      "item-1-6"
     ]
   }
 }

@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-26.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-26"
+              "title": "2026-03-27"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/设计模式/设计模式.md",
+                "file": "_posts/architect/System Design/设计模式、编程思想/2.高内聚.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "设计模式"
+              "title": "2.高内聚"
             }
           },
           {
@@ -749,7 +749,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -775,6 +775,18 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/设计模式、编程思想/1.编程思想介绍（重要）.md",
+    "_posts/architect/System Design/设计模式、编程思想/2.高内聚.md",
+    "_posts/architect/System Design/设计模式、编程思想/media/e3084ed87870824474edbbd2da28574f_MD5.webp",
+    "_posts/architect/System Design/设计模式、编程思想/他人未完成的总结.md",
+    "_posts/architect/System Design/设计模式、编程思想/media/c544b20284fe689c1cf68a6702b365f4_MD5.webp",
+    "_posts/architect/System Design/设计模式、编程思想/media",
+    "_posts/methods/编程/编程方法.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-26.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
+    "_posts/architect/System Design/设计模式、编程思想",
     "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
     "_posts/architect/_教程/奈学 P7大前端架构师/media/1d4bc7fd2ea698d986c81fbd362080e7_MD5.webp",
     "_posts/architect/_教程/奈学 P7大前端架构师/media",
@@ -795,18 +807,11 @@
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-6 echarts 自定义主题和svg渲染.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-5 echarts 入门.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-2 antv-g2 入门.md",
-    "DailyNote/Journal/01 Daily/2026/03/2026-03-26.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-25.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-2 canvas 入门.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-3 SVG 入门.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-5 ZRender 入门.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-1 highcharts 介绍.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-0 简介.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-9 canvas 高级应用：图片压缩算法实现（上） (20：31).md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-1 前端可视化解决方案 (04：07).md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-4 WebGL.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-7 three.js 介绍.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/media/33336be5a1e54db24545ffb95b5bb4d3_MD5.webp",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/media",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）",
@@ -815,11 +820,7 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第8章 React渲染机制：React中初次渲染流程/root.render的流程.svg",
     "_posts/methods/media/6215e1ec8d79fa40738a55da011a889f_MD5.webp",
     "_posts/methods/media/7025af8c4359bdd0068bde1b4aef1bb3_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/bugs",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/086bb274d7349e6984b5003cbe43a289_MD5.jpg",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/cda7c4f102b99856f9587fc8573e67a2_MD5.png",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
