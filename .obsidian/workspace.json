@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md",
+                "file": "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4-14 antv、echarts、highcharts对比"
+              "title": "01-架构师思维认知篇"
             }
           },
           {
@@ -775,8 +775,13 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
+    "_posts/architect/_教程/奈学 P7大前端架构师/media/1d4bc7fd2ea698d986c81fbd362080e7_MD5.webp",
+    "_posts/architect/_教程/奈学 P7大前端架构师/media",
+    "_posts/architect/架构模式/前端架构模式.md",
+    "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
+    "_posts/architect/_教程/奈学 P7大前端架构师",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md",
+    "_posts/methods/常看的.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-11 echarts 坐标系.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/media/feff5ed41447224eb07514d2aaa238d9_MD5.webp",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-10 echarts 定位.md",
@@ -802,9 +807,6 @@
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-1 前端可视化解决方案 (04：07).md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-4 WebGL.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-7 three.js 介绍.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-4 webgl 技术分享 (03：03).md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/3-6 d3 入门 (09：16).md",
-    "_posts/数据可视化/数据可视化.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/media/33336be5a1e54db24545ffb95b5bb4d3_MD5.webp",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/media",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）",
@@ -816,10 +818,8 @@
     "_posts/react/总结/核心概念、原理、源码/bugs",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/类型",
     "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media/8e0e991ad1a0acc541997264d3c3d019_MD5.webp",
-    "_posts/react/总结/核心概念、原理、源码/源码/3.状态更新/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/086bb274d7349e6984b5003cbe43a289_MD5.jpg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media/cda7c4f102b99856f9587fc8573e67a2_MD5.png",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/7.实现篇之ConcurrentMode/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/6.实现篇之Hooks/media/ab8aecacb89ca4953cc14e1c114fc2bc_MD5.jpg",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
