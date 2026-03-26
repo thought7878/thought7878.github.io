@@ -13580,11 +13580,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       }
     },
@@ -13763,6 +13763,20 @@
       },
       "to": {
         "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
