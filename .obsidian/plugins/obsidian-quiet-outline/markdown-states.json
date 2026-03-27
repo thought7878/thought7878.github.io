@@ -13359,7 +13359,7 @@
     "expandedKeys": []
   },
   "_posts/methods/编程/编程方法.md": {
-    "scroll": 32.954427083333336,
+    "scroll": 8.129720052083334,
     "cursor": {
       "from": {
         "line": 41,
@@ -14037,7 +14037,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/编程思想、设计原则、设计模式/4、单一职责原则.md": {
-    "scroll": 27.962565104166668,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 35,
@@ -14049,13 +14049,26 @@
       }
     },
     "expandedKeys": [
-      "item-1-10",
-      "item-1-7",
-      "item-2-1",
-      "item-3-2"
+      "item-2-1"
     ]
   },
   "_posts/architect/System Design/编程思想、设计原则、设计模式/5、开放封闭原则(1).md": {
+    "scroll": 7.618191272695758,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 97
+      },
+      "to": {
+        "line": 13,
+        "ch": 97
+      }
+    },
+    "expandedKeys": [
+      "item-2-5"
+    ]
+  },
+  "_posts/architect/System Design/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
