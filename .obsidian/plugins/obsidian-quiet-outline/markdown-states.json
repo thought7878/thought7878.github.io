@@ -14163,13 +14163,15 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 42
+        "ch": 44
       },
       "to": {
         "line": 4,
-        "ch": 42
+        "ch": 44
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1"
+    ]
   }
 }
