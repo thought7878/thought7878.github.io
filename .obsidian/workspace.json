@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-27"
+              "title": "2026-03-28"
             }
           },
           {
@@ -608,7 +608,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -773,10 +773,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3e9eda0e837218d4",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "_posts/architect/System Design/设计原则/面向对象设计五大原则（SOLID）.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-28.md",
     "_posts/architect/System Design/设计原则/设计原则.md",
+    "_posts/读书笔记/健康/糖尿病/记录/2025/9月.md",
+    "_posts/读书笔记/健康/糖尿病/记录/2026/未命名.md",
+    "_posts/读书笔记/健康/糖尿病/记录/2026",
+    "_posts/读书笔记/健康/糖尿病/记录/2025",
+    "_posts/architect/System Design/设计原则/面向对象设计五大原则（SOLID）.md",
     "_posts/architect/System Design/设计原则/1.单一职责.md",
     "_posts/architect/System Design/教程",
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/4、单一职责原则.md",
@@ -805,7 +811,6 @@
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/他人未完成的总结.md",
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/media",
     "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
-    "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-26.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式",
@@ -814,13 +819,8 @@
     "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/_教程/奈学 P7大前端架构师",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-14 antv、echarts、highcharts对比.md",
-    "_posts/methods/常看的.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-11 echarts 坐标系.md",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/4-10 echarts 定位.md",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/media",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）/media",
-    "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第3章 数据可视化前端技术选型（上）",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
