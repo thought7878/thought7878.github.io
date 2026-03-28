@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-28.md",
+                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-28"
+              "title": "2026-03-29"
             }
           },
           {
@@ -608,7 +608,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -773,11 +773,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "_posts/methods/编程/编程方法.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-28.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-29.md",
     "_posts/interview/简历/_简历.md",
+    "_posts/methods/编程/编程方法.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
     "_posts/architect/System Design/设计原则/设计原则.md",
@@ -817,7 +818,6 @@
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式",
     "_posts/architect/_教程/奈学 P7大前端架构师/01-架构师思维认知篇.md",
     "_posts/architect/_教程/奈学 P7大前端架构师/media",
-    "_posts/architect/架构模式/前端架构模式.md",
     "_posts/architect/_教程/奈学 P7大前端架构师",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）/media",
     "_posts/数据可视化/教程/数据可视化，打造前端差异化竞争力/第4章 数据可视化前端技术选型（下）",
