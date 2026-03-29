@@ -589,7 +589,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/课程导学（快速了解课程）.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-1 职业线路：面对行业与职场双重冲击，应该如何发展？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,7 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程导学（快速了解课程）"
+              "title": "2-1 职业线路：面对行业与职场双重冲击，应该如何发展？"
             }
           }
         ],
@@ -749,7 +749,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -773,10 +773,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/interview/简历/_简历.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/课程导学（快速了解课程）.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-1 职业线路：面对行业与职场双重冲击，应该如何发展？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经",
+    "_posts/interview/简历/_简历.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经",
@@ -819,8 +821,6 @@
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/10、里式替换原则.md",
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/3.低耦合.md",
     "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/1.编程思想介绍（重要）.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/2.高内聚.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
