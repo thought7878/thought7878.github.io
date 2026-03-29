@@ -3110,15 +3110,20 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 51
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 51
+        "line": 1,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-8",
+      "item-1-1",
+      "item-2-2"
+    ]
   },
   "DailyNote/Journal/01 Daily/2025/12/2025-12-10.md": {
     "scroll": 20.48828125,
@@ -13819,23 +13824,22 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计模式/设计模式.md": {
-    "scroll": 99.41243489583333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 114,
-        "ch": 0
+        "line": 5,
+        "ch": 24
       },
       "to": {
-        "line": 114,
-        "ch": 0
+        "line": 5,
+        "ch": 24
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-1-1",
-      "item-2-5",
       "item-3-9",
-      "item-2-8"
+      "item-2-8",
+      "item-1-1",
+      "item-2-2"
     ]
   },
   "_posts/architect/System Design/设计模式、编程思想/未命名.md": {
@@ -14312,15 +14316,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/课程导学（快速了解课程）.md": {
-    "scroll": 113.47596899224806,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 129,
-        "ch": 8
+        "line": 2,
+        "ch": 61
       },
       "to": {
-        "line": 129,
-        "ch": 8
+        "line": 2,
+        "ch": 61
       }
     },
     "expandedKeys": []
@@ -14340,17 +14344,36 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-1 职业线路：面对行业与职场双重冲击，应该如何发展？.md": {
-    "scroll": 0,
+    "scroll": 39.73312883435583,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 58,
+        "ch": 86
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 58,
+        "ch": 86
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-2 JS 精通能力：前端技术进化史，深入JavaScript.md": {
+    "scroll": 31.5087890625,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 10
+      },
+      "to": {
+        "line": 37,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-8",
+      "item-1-1",
+      "item-2-2"
+    ]
   }
 }
