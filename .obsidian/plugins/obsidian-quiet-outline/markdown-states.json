@@ -575,12 +575,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 28
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 28
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -14141,7 +14141,7 @@
       }
     },
     "expandedKeys": [
-      "item-3-2"
+      "item-3-1"
     ]
   },
   "_posts/architect/System Design/设计原则/面向对象设计五大原则（SOLID）.md": {
@@ -14156,21 +14156,25 @@
         "ch": 29
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1"
+    ]
   },
   "_posts/architect/System Design/设计原则/设计原则.md": {
-    "scroll": 0,
+    "scroll": 41.3037109375,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 10,
+        "ch": 25
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 10,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1"
+    ]
   },
   "_posts/读书笔记/健康/糖尿病/记录/2025/9月.md": {
     "scroll": 12.306520198440822,
@@ -14320,14 +14324,19 @@
     "cursor": {
       "from": {
         "line": 2,
-        "ch": 61
+        "ch": 48
       },
       "to": {
         "line": 2,
-        "ch": 61
+        "ch": 48
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-8",
+      "item-1-1",
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/未命名.md": {
     "scroll": 0,
@@ -14344,7 +14353,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-1 职业线路：面对行业与职场双重冲击，应该如何发展？.md": {
-    "scroll": 39.73312883435583,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 58,
@@ -14358,22 +14367,147 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-2 JS 精通能力：前端技术进化史，深入JavaScript.md": {
-    "scroll": 31.5087890625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 10
+        "line": 0,
+        "ch": 195
       },
       "to": {
-        "line": 37,
-        "ch": 10
+        "line": 0,
+        "ch": 195
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/4、单一职责原则.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 139
+      },
+      "to": {
+        "line": 2,
+        "ch": 139
       }
     },
     "expandedKeys": [
-      "item-3-9",
-      "item-2-8",
-      "item-1-1",
-      "item-2-2"
+      "item-3-1"
     ]
+  },
+  "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 94
+      },
+      "to": {
+        "line": 16,
+        "ch": 94
+      }
+    },
+    "expandedKeys": [
+      "item-3-1"
+    ]
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-3 【扩展】法律知识普及：我不能访问github怎么办？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 51
+      },
+      "to": {
+        "line": 0,
+        "ch": 51
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/3.【扩展】法律知识普及：我不能访问github怎么办？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 51
+      },
+      "to": {
+        "line": 0,
+        "ch": 51
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2.JS 精通能力：前端技术进化史，深入JavaScript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 195
+      },
+      "to": {
+        "line": 0,
+        "ch": 195
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/1.职业线路：面对行业与职场双重冲击，应该如何发展？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 49
+      },
+      "to": {
+        "line": 0,
+        "ch": 49
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 58
+      },
+      "to": {
+        "line": 0,
+        "ch": 58
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/4.深度框架能力：核心技术如何综合深度运用.md": {
+    "scroll": 69.42728682170542,
+    "cursor": {
+      "from": {
+        "line": 83,
+        "ch": 16
+      },
+      "to": {
+        "line": 83,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/5.全栈能力：前端全栈能力Node.md": {
+    "scroll": 13.359851169383417,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 4
+      },
+      "to": {
+        "line": 21,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/设计原则/设计原则.md",
+                "file": "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "设计原则"
+              "title": "6、开放封闭原则（2）"
             }
           },
           {
@@ -589,7 +589,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-2 JS 精通能力：前端技术进化史，深入JavaScript.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/5.全栈能力：前端全栈能力Node.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,7 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2-2 JS 精通能力：前端技术进化史，深入JavaScript"
+              "title": "5.全栈能力：前端全栈能力Node"
             }
           }
         ],
@@ -775,12 +775,24 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/553a6d87550c16ea62469584c6de143e_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/4.深度框架能力：核心技术如何综合深度运用.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/5.全栈能力：前端全栈能力Node.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/3.【扩展】法律知识普及：我不能访问github怎么办？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2.JS 精通能力：前端技术进化史，深入JavaScript.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/1.职业线路：面对行业与职场双重冲击，应该如何发展？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/1c07fb3ca0acff6fd80e0f9fd94dd4d3_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/5ab6bc288ca8e019a4c6fc78ea4a0344_MD5.webp",
+    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md",
+    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/4、单一职责原则.md",
+    "_posts/architect/System Design/设计原则/1.单一职责.md",
+    "_posts/architect/System Design/设计原则/面向对象设计五大原则（SOLID）.md",
+    "_posts/architect/System Design/设计原则/设计原则.md",
+    "_posts/methods/常看的.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
-    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-2 JS 精通能力：前端技术进化史，深入JavaScript.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/d2995acb45a8469b780b23e82a9a3355_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-1 职业线路：面对行业与职场双重冲击，应该如何发展？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/课程导学（快速了解课程）.md",
+    "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/d2995acb45a8469b780b23e82a9a3355_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/media/35a9c49eb289a876800cc2930b2abe3f_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/media/82f04740e233ce0290a8012729daaf4a_MD5.webp",
@@ -792,7 +804,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian",
-    "_posts/architect/System Design/设计原则/设计原则.md",
     "_posts/methods/编程/编程方法.md",
     "_posts/architect/前端架构/前端架构-QW2.md",
     "_posts/architect/_教程/前端架构初识.md",
@@ -802,25 +813,14 @@
     "_posts/architect/_教程/media/e98006e0016289924b950202e8198ea8_MD5.png",
     "_posts/architect/_教程/media/94ab3eb491186c1d4a8c1dc7f50d74db_MD5.jpg",
     "_posts/architect/_教程/设计模式学习笔记.md",
-    "_posts/architect/_教程/media/8726b4e6d46ef70cca208cdca4b1e36f_MD5.png",
     "_posts/interview/简历/商智/技术架构.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-29.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-28.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/2026/03/2026-03-27.md",
     "_posts/读书笔记/健康/糖尿病/记录/2025/9月.md",
-    "_posts/读书笔记/健康/糖尿病/记录/2026/未命名.md",
     "_posts/读书笔记/健康/糖尿病/记录/2026",
     "_posts/读书笔记/健康/糖尿病/记录/2025",
-    "_posts/architect/System Design/设计原则/面向对象设计五大原则（SOLID）.md",
-    "_posts/architect/System Design/设计原则/1.单一职责.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/4、单一职责原则.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/5、开放封闭原则(1).md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/media/72a6b65235917b474895be6f6b55cc03_MD5.webp",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/9、依赖倒置原则(2).md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/7、开放封闭原则(3).md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/8、依赖倒置原则（1）.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
