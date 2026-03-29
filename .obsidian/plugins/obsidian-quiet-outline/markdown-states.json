@@ -13358,7 +13358,12 @@
         "ch": 302
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-3-4",
+      "item-1-0"
+    ]
   },
   "_posts/browser/教程/浏览器工作原理与实践/01-开篇词 (1讲)/00.开篇词  参透了浏览器的工作原理，你就能解决80%的前端难题.md": {
     "scroll": 0,
@@ -13725,18 +13730,21 @@
     "expandedKeys": []
   },
   "_posts/interview/简历/_简历.md": {
-    "scroll": 55.43255813953488,
+    "scroll": 49.04248062015504,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 77
+        "line": 50,
+        "ch": 25
       },
       "to": {
-        "line": 75,
-        "ch": 77
+        "line": 50,
+        "ch": 25
       }
     },
     "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-3-4",
       "item-1-0"
     ]
   },
@@ -14150,11 +14158,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 3,
         "ch": 0
       }
     },
@@ -14235,32 +14243,84 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-3-4",
+      "item-1-0"
+    ]
   },
   "_posts/architect/_教程/未命名.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/前端架构初识.md": {
-    "scroll": 5.813397129186603,
+    "scroll": 10.458333333333334,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 89
+        "line": 10,
+        "ch": 2
       },
       "to": {
-        "line": 13,
-        "ch": 89
+        "line": 10,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-3-4",
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/设计模式学习笔记.md": {
+    "scroll": 88.47800539939654,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 54
+      },
+      "to": {
+        "line": 0,
+        "ch": 54
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/1.课程导学：课程设计、核心价值体现、服务与资源/课程导学（快速了解课程）.md": {
+    "scroll": 81.93922480620155,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 131
+      },
+      "to": {
+        "line": 35,
+        "ch": 131
       }
     },
     "expandedKeys": []
