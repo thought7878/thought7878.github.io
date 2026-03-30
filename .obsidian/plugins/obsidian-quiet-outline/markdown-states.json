@@ -6053,27 +6053,37 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 142.72518946228797,
+    "scroll": 74.451171875,
     "cursor": {
       "from": {
-        "line": 168,
-        "ch": 11
+        "line": 89,
+        "ch": 0
       },
       "to": {
-        "line": 168,
+        "line": 89,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-1",
-      "item-3-6",
-      "item-3-9",
-      "item-3-14",
-      "item-1-2",
-      "item-2-44",
+      "item-1-264",
+      "item-1-269",
+      "item-2-270",
+      "item-3-271",
+      "item-3-273",
+      "item-3-277",
+      "item-2-288",
+      "item-3-292",
+      "item-3-296",
+      "item-3-299",
+      "item-3-304",
+      "item-3-307",
+      "item-3-289",
       "item-1-11",
-      "item-2-26",
-      "item-2-22"
+      "item-2-12",
+      "item-2-16",
+      "item-2-38",
+      "item-2-28",
+      "item-1-1"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/Untitled.md": {
@@ -14327,10 +14337,10 @@
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-9",
-      "item-3-4",
-      "item-1-0"
+      "item-1-264",
+      "item-3-238",
+      "item-2-193",
+      "item-1-71"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/未命名.md": {
@@ -14804,15 +14814,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-30.md": {
-    "scroll": 31.113932291666668,
+    "scroll": 13,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -14990,29 +15000,27 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 222.2461482024945,
+    "scroll": 307.54998195597256,
     "cursor": {
       "from": {
-        "line": 230,
-        "ch": 5
+        "line": 319,
+        "ch": 17
       },
       "to": {
-        "line": 230,
-        "ch": 5
+        "line": 319,
+        "ch": 17
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-1",
-      "item-2-42",
+      "item-1-291",
+      "item-1-264",
+      "item-3-329",
+      "item-2-310",
       "item-1-71",
-      "item-2-72",
-      "item-2-91",
-      "item-2-124",
-      "item-2-159",
-      "item-2-193",
-      "item-3-187",
-      "item-3-194"
+      "item-2-265",
+      "item-3-266",
+      "item-2-271",
+      "item-2-278"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -15487,6 +15495,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/03/2026-03-31.md": {
+    "scroll": 12.389432485322896,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 4
+      },
+      "to": {
+        "line": 27,
+        "ch": 4
       }
     },
     "expandedKeys": []
