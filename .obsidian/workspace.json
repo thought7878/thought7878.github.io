@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/03/2026-03-31.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-31"
+              "title": "2026-04-01"
             }
           },
           {
@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,11 +628,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03.分层思维：为什么要做代码分层架构？"
+              "title": "3.[重要]如何看职位描述（JD）？"
+            }
+          },
+          {
+            "id": "0632fda8f553cb40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/教程/趣学设计模式/04  工程思维：如何用软件工程方法解决开发难题？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "04  工程思维：如何用软件工程方法解决开发难题？"
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -797,13 +821,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "0632fda8f553cb40",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-01.md",
+    "DailyNote/Journal/01 Daily/2026/03/2026-03-31.md",
+    "DailyNote/Journal/01 Daily/2026/04",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
+    "_posts/architect/System Design/教程/趣学设计模式/media/fee77723743c9816e9367e785ef576bd_MD5.webp",
+    "_posts/architect/System Design/教程/趣学设计模式/media/95af6b798c99eb3150acc9400cc1bbcd_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/16a83c1e288daa4a6c9f329aee009362_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/2806f59b5d2a5feb54fe3c8cc1ecb635_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/04  工程思维：如何用软件工程方法解决开发难题？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/380ddff9b88f7be66fa1eed1de455914_MD5.webp",
-    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
     "_posts/architect/System Design/教程/趣学设计模式/05  对象思维：面向对象编程有哪些优势？.md",
     "_posts/architect/System Design/教程/趣学设计模式/06  迭代思维：如何高效编程？.md",
     "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md",
@@ -821,12 +855,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/19  抽象工厂模式：如何统一不同代码风格下的代码级别？.md",
     "_posts/architect/System Design/教程/趣学设计模式/20  工厂方法模式：如何解决生成对象时的不确定性？.md",
     "_posts/architect/System Design/教程/趣学设计模式/21  原型模式：什么场景下需要用到对象拷贝？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/22  适配器模式：如何处理不同 API 接口的兼容性？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/23  桥接模式：如何实现抽象协议与不同实现的绑定？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/24  组合模式：如何用树形结构处理对象之间的复杂关系？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/25  装饰模式：如何在基础组件上扩展新功能？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/26  门面模式：如何实现 API 网关的高可用性？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/27  享元模式：如何通过共享对象减少内存加载消耗？.md",
     "_posts/architect/System Design/教程/趣学设计模式/未命名",
     "_posts/architect/System Design/教程/趣学设计模式/media/f36b66cab1583d72e95af972f0afe776_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/c7a3210a3515915f64295966ebbb758c_MD5.webp",
@@ -835,16 +863,12 @@
     "_posts/architect/System Design/教程/趣学设计模式/media",
     "_posts/architect/System Design/教程/趣学设计模式",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/media/059ddc7fa43b6170798f2c4e556727b1_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/media/6dfd44b3103991570737f792b7707b82_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/media/d1a4290f39300f1b233ae96da5e29f2a_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路/media/db8fcd2c75c90a9a80e2dfce653458a8_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/1.大龄程序员的职场思考：心态与压力应对/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/2.AI加餐福利&新课体验",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/1.大龄程序员的职场思考：心态与压力应对",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"

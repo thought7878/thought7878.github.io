@@ -14408,12 +14408,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 94
+        "line": 0,
+        "ch": 183
       },
       "to": {
-        "line": 16,
-        "ch": 94
+        "line": 0,
+        "ch": 183
       }
     },
     "expandedKeys": []
@@ -15001,7 +15001,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 532.2245047688922,
+    "scroll": 533.2223037417461,
     "cursor": {
       "from": {
         "line": 4,
@@ -15015,7 +15015,9 @@
     "expandedKeys": [
       "item-3-466",
       "item-2-459",
-      "item-1-458"
+      "item-1-458",
+      "item-3-481",
+      "item-2-477"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -15495,18 +15497,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/03/2026-03-31.md": {
-    "scroll": 12.389432485322896,
+    "scroll": 18.237762237762237,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/1.大龄程序员的职场思考：心态与压力应对/未命名.md": {
     "scroll": 0,
@@ -15637,15 +15641,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md": {
-    "scroll": 27.707797363824042,
+    "scroll": 2.9986102337334177,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 99
+        "line": 8,
+        "ch": 71
       },
       "to": {
-        "line": 0,
-        "ch": 99
+        "line": 8,
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -15847,43 +15851,43 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？.md": {
-    "scroll": 56.358723958333336,
+    "scroll": 4.3473475279682425,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 16
+        "line": 0,
+        "ch": 90
       },
       "to": {
-        "line": 73,
-        "ch": 16
+        "line": 0,
+        "ch": 90
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md": {
-    "scroll": 29.655188666167625,
+    "scroll": 83.73114181356202,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 27
+        "line": 83,
+        "ch": 52
       },
       "to": {
-        "line": 42,
-        "ch": 27
+        "line": 83,
+        "ch": 52
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/04  工程思维：如何用软件工程方法解决开发难题？.md": {
-    "scroll": 2.8071514540535536,
+    "scroll": 61.91658914728682,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 12
+        "line": 74,
+        "ch": 24
       },
       "to": {
-        "line": 6,
-        "ch": 12
+        "line": 74,
+        "ch": 24
       }
     },
     "expandedKeys": []
@@ -16293,5 +16297,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-01.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
