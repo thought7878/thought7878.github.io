@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
+                "file": "_posts/architect/System Design/教程/趣学设计模式/02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00.开篇词  设计模式：程序员的基本功，你离及格还差多少？"
+              "title": "02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？"
             }
           }
         ],
@@ -799,9 +799,12 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/architect/System Design/教程/趣学设计模式/media/61dfafed67423ff7ee306a21cb3b927d_MD5.webp",
+    "_posts/architect/System Design/教程/趣学设计模式/media/c7a3210a3515915f64295966ebbb758c_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？.md",
+    "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/media/61dfafed67423ff7ee306a21cb3b927d_MD5.webp",
     "_posts/methods/常看的.md",
     "_posts/English/每日记录（复习）.md",
     "_posts/methods/构建系统/_如何制定计划、目标？.md",
@@ -814,7 +817,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/8c8375248380816e3821dd7763b4594f_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media",
-    "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md",
     "_posts/methods/编程/AI与编程.md",
@@ -831,7 +833,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/5.AI加持：写简历就是这么高效.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/6.如何提升收到面试的概率？做足准备工作？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/7.怎么选岗位？投简历的策略？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/8.[重要]如何看职位描述（JD）？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路/media/db8fcd2c75c90a9a80e2dfce653458a8_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路/media/5cd193eb4306d76a60f527de6b614b76_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/2.职场定位与方向选择：找到属于自己的路/media/3243367019d14be5f7eef23c0feb4a69_MD5.webp",
@@ -844,7 +845,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/1.大龄程序员的职场思考：心态与压力应对",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/media/c85da402b53e35780d6f65039a7973f7_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/media/5fbebcf64cead6d46c91331d7e74d7f6_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
