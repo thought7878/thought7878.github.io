@@ -1,3 +1,4 @@
+【技术人 AI 时代生存指南！】 https://www.bilibili.com/video/BV1kM2CYJER7/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 [AI时代，普通人该如何学编程/转码/迅速上手项目？为什么传统CS科班教育落伍了？小白用AI工具，真的能成为合格程序员吗？AI时代到底还有没有必要学编程？](https://youtu.be/j0tArdV9xec?si=TDd-M9crsZKjT0SR)

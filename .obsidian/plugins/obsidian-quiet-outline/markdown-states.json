@@ -13842,19 +13842,14 @@
     "cursor": {
       "from": {
         "line": 5,
-        "ch": 24
+        "ch": 0
       },
       "to": {
         "line": 5,
-        "ch": 24
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-9",
-      "item-2-8",
-      "item-1-1",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/设计模式、编程思想/未命名.md": {
     "scroll": 0,
@@ -14422,9 +14417,7 @@
         "ch": 94
       }
     },
-    "expandedKeys": [
-      "item-3-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/1.前端高级工程师成长心经/2.高级前端工程师成长心经/2-3 【扩展】法律知识普及：我不能访问github怎么办？.md": {
     "scroll": 0,
@@ -15009,27 +15002,18 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 529.8888888888889,
+    "scroll": 531.9932249322493,
     "cursor": {
       "from": {
-        "line": 540,
-        "ch": 22
+        "line": 2,
+        "ch": 16
       },
       "to": {
-        "line": 540,
-        "ch": 5
+        "line": 2,
+        "ch": 16
       }
     },
-    "expandedKeys": [
-      "item-3-438",
-      "item-2-428",
-      "item-1-362",
-      "item-2-459",
-      "item-1-458",
-      "item-3-462",
-      "item-3-460",
-      "item-3-466"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
     "scroll": 0,
@@ -15650,15 +15634,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md": {
-    "scroll": 30.12616074287544,
+    "scroll": 27.707797363824042,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 57
+        "line": 0,
+        "ch": 99
       },
       "to": {
-        "line": 39,
-        "ch": 57
+        "line": 0,
+        "ch": 99
       }
     },
     "expandedKeys": []
@@ -15771,6 +15755,90 @@
       "to": {
         "line": 49,
         "ch": 63
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/编程/AI与编程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md": {
+    "scroll": 10.464806201550388,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 17
+      },
+      "to": {
+        "line": 19,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构/前端架构-QW.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/学习方法/_SQ3R阅读法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md": {
+    "scroll": 9.967441860465117,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 26
+      },
+      "to": {
+        "line": 18,
+        "ch": 26
       }
     },
     "expandedKeys": []
