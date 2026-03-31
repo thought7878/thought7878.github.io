@@ -575,11 +575,11 @@
     "cursor": {
       "from": {
         "line": 3,
-        "ch": 0
+        "ch": 9
       },
       "to": {
         "line": 3,
-        "ch": 0
+        "ch": 9
       }
     },
     "expandedKeys": [
@@ -15847,15 +15847,449 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/02.组合思维：Unix 哲学到底给现代编程带来哪些重要启示？.md": {
-    "scroll": 3.5432942708333335,
+    "scroll": 56.358723958333336,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 20
+        "line": 73,
+        "ch": 16
       },
       "to": {
-        "line": 18,
-        "ch": 20
+        "line": 73,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md": {
+    "scroll": 29.655188666167625,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 27
+      },
+      "to": {
+        "line": 42,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/04  工程思维：如何用软件工程方法解决开发难题？.md": {
+    "scroll": 2.8071514540535536,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 12
+      },
+      "to": {
+        "line": 6,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/31  策略模式：如何解决不同活动策略的营销推荐场景？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/33  观察者模式：如何发送消息变化的通知？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/32  状态模式：如何通过有限状态机监控功能的“状态变化”？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/30  模板方法模式：如何实现同一模板框架下的算法扩展？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/29  访问者模式：如何实现对象级别的矩阵结构？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/28  代理模式：如何控制和管理对象的访问？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/27  享元模式：如何通过共享对象减少内存加载消耗？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/26  门面模式：如何实现 API 网关的高可用性？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/25  装饰模式：如何在基础组件上扩展新功能？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/24  组合模式：如何用树形结构处理对象之间的复杂关系？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/23  桥接模式：如何实现抽象协议与不同实现的绑定？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/22  适配器模式：如何处理不同 API 接口的兼容性？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/21  原型模式：什么场景下需要用到对象拷贝？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/20  工厂方法模式：如何解决生成对象时的不确定性？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/19  抽象工厂模式：如何统一不同代码风格下的代码级别？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/18  建造者模式：如何创建不同形式的复杂对象？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/17  单例模式：如何有效进行程序初始化？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/16  契约原则：如何做好 API 接口设计？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/15  分离原则：如何将复杂问题拆分成小问题？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/14  惯例原则：如何提升编程中的沟通效率？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/13  反转原则：如何减少代码间的相互影响？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/12  面向对象原则：面向对象编程框架到底长什么样？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/11  职责原则：如何在代码设计中实现职责分离？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/10  表达原则：如何让源代码成为一种逻辑线索？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/09  最少原则：如何实现“最少知识”代码？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/08  简单原则：如何写出“简单”代码？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/06  迭代思维：如何高效编程？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/05  对象思维：面向对象编程有哪些优势？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
