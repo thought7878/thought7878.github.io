@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/1.如何提升收到面试的概率？做足准备工作？.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.如何提升收到面试的概率？做足准备工作？"
+              "title": "4.简历怎么写？怎么排版才好？"
             }
           },
           {
@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/06  迭代思维：如何高效编程？.md",
+                "file": "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,11 +652,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06  迭代思维：如何高效编程？"
+              "title": "06.迭代思维：如何高效编程？"
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -739,7 +739,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/06  迭代思维：如何高效编程？.md",
+                "file": "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -749,7 +749,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "06  迭代思维：如何高效编程？ 的反向链接列表"
+              "title": "2026_学习、复习记录 的反向链接列表"
             }
           },
           {
@@ -821,17 +821,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0632fda8f553cb40",
+  "active": "a98ce650859d3fe4",
   "lastOpenFiles": [
+    "_posts/English/每日记录（复习）.md",
+    "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/1.如何提升收到面试的概率？做足准备工作？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/18e1721b9f6db6ab6451e5a601c7c6d3_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/05.对象思维：面向对象编程有哪些优势？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/06  迭代思维：如何高效编程？.md",
     "_posts/architect/System Design/教程/趣学设计模式/1968年软件危机：软件工程的起源.md",
     "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/f964c24cd3a534a80fc212ad5e9ba5b7_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/1.如何提升收到面试的概率？做足准备工作？.md",
     "_posts/methods/常看的.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/3.[重要]如何看职位描述（JD）？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/172ef997f3cda69cd2883d3d7f66e922_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/7dba0bd06b79bf53602c8cc0b214e8a1_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-01.md",
@@ -840,7 +842,6 @@
     "DailyNote/Journal/01 Daily/2026/03/2026-03-31.md",
     "DailyNote/Journal/01 Daily/2026/04",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/fee77723743c9816e9367e785ef576bd_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/95af6b798c99eb3150acc9400cc1bbcd_MD5.webp",
@@ -860,7 +861,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/17  单例模式：如何有效进行程序初始化？.md",
     "_posts/architect/System Design/教程/趣学设计模式/未命名",
     "_posts/architect/System Design/教程/趣学设计模式/media/f36b66cab1583d72e95af972f0afe776_MD5.webp",
-    "_posts/architect/System Design/教程/趣学设计模式/media/c7a3210a3515915f64295966ebbb758c_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media",
     "_posts/architect/System Design/教程/趣学设计模式",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/media",
