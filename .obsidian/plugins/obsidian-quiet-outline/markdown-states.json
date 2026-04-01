@@ -6794,18 +6794,21 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 0,
+    "scroll": 3.4583333333333335,
     "cursor": {
       "from": {
         "line": 7,
-        "ch": 40
+        "ch": 60
       },
       "to": {
         "line": 7,
-        "ch": 40
+        "ch": 60
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0",
+      "item-2-11"
+    ]
   },
   "DailyNote/Journal/01 Daily/2025_学习、复习记录.md": {
     "scroll": 8.625,
@@ -15152,21 +15155,19 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/4.工作流：技术栈更新与维护方案.md": {
-    "scroll": 112.2898535160445,
+    "scroll": 111.74040948275862,
     "cursor": {
       "from": {
-        "line": 123,
-        "ch": 20
+        "line": 131,
+        "ch": 21
       },
       "to": {
-        "line": 123,
-        "ch": 20
+        "line": 131,
+        "ch": 21
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-3",
-      "item-2-7",
+      "item-3-0",
       "item-2-11"
     ]
   },
@@ -15185,15 +15186,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/8.架构设计案例：小闭环项目架构设计.md": {
-    "scroll": 0,
+    "scroll": 2.999950977302491,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 48
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 48
       }
     },
     "expandedKeys": []
@@ -15203,11 +15204,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 22
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 22
       }
     },
     "expandedKeys": []
@@ -15283,29 +15284,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/7.可伸缩架构：微服务&kubernetes.md": {
-    "scroll": 0,
+    "scroll": 2.999110759806343,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 10,
+        "ch": 128
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 10,
+        "ch": 128
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/6.高安全架构：安全策略.md": {
-    "scroll": 0,
+    "scroll": 2.946513900537862,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 94
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 94
       }
     },
     "expandedKeys": []
@@ -15315,11 +15316,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 95
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 95
       }
     },
     "expandedKeys": []
@@ -15328,12 +15329,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 88,
+        "ch": 31
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 88,
+        "ch": 31
       }
     },
     "expandedKeys": []
@@ -15343,39 +15344,39 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 102
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 102
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/2.扩展架构：水平&垂直扩展.md": {
-    "scroll": 0,
+    "scroll": 2.961132955606889,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 130
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 130
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/1.架构师能力：架构设计是什么？深入理解架构设计.md": {
-    "scroll": 0,
+    "scroll": 95.7828306883347,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 109,
+        "ch": 41
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 109,
+        "ch": 41
       }
     },
     "expandedKeys": []
@@ -16311,15 +16312,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-01.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 23.759805411979325,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -16390,6 +16391,38 @@
     },
     "expandedKeys": [
       "item-2-1"
+    ]
+  },
+  "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md": {
+    "scroll": 0.0707070707070707,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 12
+      },
+      "to": {
+        "line": 11,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-02.md": {
+    "scroll": 27.354959239130434,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 89
+      },
+      "to": {
+        "line": 35,
+        "ch": 89
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
