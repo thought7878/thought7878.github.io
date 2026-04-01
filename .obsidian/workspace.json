@@ -797,7 +797,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -821,8 +821,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/4.工作流：技术栈更新与维护方案.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/media/396d22fec9e2671db37081d4a321c591_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/3.功能拆分的技巧：确定核心业务.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/2.折中的艺术：技术方案评估中需要注意的点.md",
@@ -830,7 +832,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/media/8bb66ccda232b15db453d197bde7a02e_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/3.项目技术选型：复杂业务中怎么快速完成闭环/media/054586aa0585aa6cb3f889b638f5e0ed_MD5.webp",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/11.阶段十一：职场指导/1.职业发展指导与AI在职场中应用/3.求职技巧全攻略：从简历到面试准备/4.简历怎么写？怎么排版才好？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/2.整体项目需求分析：从能力出发全面了解项目设计的前因后果/5.整体需求分析总结：项目需求及产出.md",
     "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
@@ -854,7 +855,6 @@
     "_posts/architect/System Design/设计模式/设计模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/fee77723743c9816e9367e785ef576bd_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/95af6b798c99eb3150acc9400cc1bbcd_MD5.webp",
-    "_posts/architect/System Design/教程/趣学设计模式/media/16a83c1e288daa4a6c9f329aee009362_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md",
     "_posts/architect/System Design/教程/趣学设计模式/08  简单原则：如何写出“简单”代码？.md",
     "_posts/architect/System Design/教程/趣学设计模式/09  最少原则：如何实现“最少知识”代码？.md",
