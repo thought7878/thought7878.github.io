@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-02.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-02"
+              "title": "2026-04-03"
             }
           },
           {
@@ -584,61 +584,6 @@
             }
           },
           {
-            "id": "0ee32f8dd5a642b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/5.技术栈选型：框架的生态考量，必逛的awesome项目.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "5.技术栈选型：框架的生态考量，必逛的awesome项目"
-            }
-          },
-          {
-            "id": "0632fda8f553cb40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "06.迭代思维：如何高效编程？"
-            }
-          }
-        ],
-        "currentTab": 24
-      },
-      {
-        "id": "8c27c06d1ff43365",
-        "type": "tabs",
-        "children": [
-          {
             "id": "65d6c1092e45792e",
             "type": "leaf",
             "state": {
@@ -661,8 +606,57 @@
               "icon": "lucide-file",
               "title": "目录"
             }
+          },
+          {
+            "id": "0ee32f8dd5a642b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/3.番外：Vue生态及发展，是否要放弃Vue2？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3.番外：Vue生态及发展，是否要放弃Vue2？"
+            }
+          },
+          {
+            "id": "0632fda8f553cb40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "03.分层思维：为什么要做代码分层架构？"
+            }
           }
-        ]
+        ],
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -745,7 +739,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/5.技术栈选型：框架的生态考量，必逛的awesome项目.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/3.番外：Vue生态及发展，是否要放弃Vue2？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -755,7 +749,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "5.技术栈选型：框架的生态考量，必逛的awesome项目 的反向链接列表"
+              "title": "3.番外：Vue生态及发展，是否要放弃Vue2？ 的反向链接列表"
             }
           },
           {
@@ -829,13 +823,29 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/5.技术栈选型：框架的生态考量，必逛的awesome项目.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/3.番外：Vue生态及发展，是否要放弃Vue2？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/4.技术栈选型：Vue与React如何选择？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/media/9d19f3f467bb4467968a382f9c8914ee_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/2.[作业]如何寻找合适的前端技术方案：package.js.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/4.业务原型图绘制技巧.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/1.前端UI库：跨端&移动端&大屏方案介绍.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/1.小闭环项目：项目技术栈选型.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/2.工作流详解：回顾开发工作流.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/3.[扩展]工作流：测试相关工作流及文档.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/4.[AI]项目接口设计&接口文档方案选型.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/4.业务原型图绘制技巧.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-03.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-02.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/3.番外：Vue生态及发展，是否要放弃Vue2？.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/5.技术栈选型：框架的生态考量，必逛的awesome项目.md",
+    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/05.对象思维：面向对象编程有哪些优势？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md",
+    "_posts/methods/常看的.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/4.技术栈选型：Vue与React如何选择？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/3.[扩展]figma中的AI设计插件wireframe-d.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/2.原型图绘制比较：基本流程和使用模板.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/1.小闭环项目章导学.md",
@@ -843,12 +853,8 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/media/e8093b5b69cc0ccaf66c96e0d4e01181_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/9.架构演进&微服务架构.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/8.架构设计案例：小闭环项目架构设计.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/de2f400bf6f8e3932b5adfbb9f0a40e8_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/c52a57e0865dfa6e1034fdc3b43c3488_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/7.可伸缩架构：微服务&kubernetes.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/5.[扩展]AI图片工具：配图&公众号首图&高保真素材.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/6.[扩展]AI编程：爽的飞起，Codeium写代码&Con.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率",
@@ -857,24 +863,12 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/3.？？？Vue3项目框架搭建及响应式开发方案",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/1.架构师能力：架构设计是什么？深入理解架构设计.md",
-    "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/2.扩展架构：水平&垂直扩展.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/d73366bbbb9c94fcd1d4ddbf99c7adde_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/6.高安全架构：安全策略.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/5.高可用架构：容灾多活.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/PixPin_2026-04-02_13-38-25.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/d7b700fac0b61d0189242020e97eab44_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/3f1fe6f468fdca96f2b389a086a59c5f_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/4.高可用架构：本地高可用架构&逻辑保护.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/63d5475dcb5f42a8a7c4d85c71f120a5_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/media/25528538474ca93db078ed4a834ec2ab_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/3.高性能架构：什么是TPS&QPS、如何设计高并发架构？.md",
-    "_posts/architect/System Design/教程/编程思想、设计原则、设计模式/6、开放封闭原则（2）.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"

@@ -483,15 +483,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 117.55013020833333,
+    "scroll": 106.84500555820232,
     "cursor": {
       "from": {
-        "line": 125,
-        "ch": 2
+        "line": 123,
+        "ch": 0
       },
       "to": {
-        "line": 125,
-        "ch": 2
+        "line": 123,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -6792,7 +6792,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 7.10173880873104,
+    "scroll": 3.1041666666666665,
     "cursor": {
       "from": {
         "line": 8,
@@ -14999,22 +14999,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 101.39453477868112,
+    "scroll": 98.55621956617972,
     "cursor": {
       "from": {
-        "line": 106,
-        "ch": 20
+        "line": 109,
+        "ch": 26
       },
       "to": {
-        "line": 106,
+        "line": 109,
         "ch": 5
       }
     },
     "expandedKeys": [
-      "item-3-73",
       "item-2-72",
       "item-1-71",
-      "item-3-80"
+      "item-3-86"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -15876,15 +15875,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md": {
-    "scroll": 83.73114181356202,
+    "scroll": 68.68391927083333,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 52
+        "line": 76,
+        "ch": 16
       },
       "to": {
-        "line": 83,
-        "ch": 52
+        "line": 76,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -16328,20 +16327,18 @@
     ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md": {
-    "scroll": 89.3388671875,
+    "scroll": 84.81953488372093,
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 28
+        "line": 77,
+        "ch": 26
       },
       "to": {
-        "line": 99,
-        "ch": 28
+        "line": 77,
+        "ch": 26
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-5",
       "item-2-1"
     ]
   },
@@ -16364,29 +16361,31 @@
     ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/05.对象思维：面向对象编程有哪些优势？.md": {
-    "scroll": 69.65488372093023,
+    "scroll": 90.10862504511007,
     "cursor": {
       "from": {
-        "line": 88,
-        "ch": 18
+        "line": 100,
+        "ch": 23
       },
       "to": {
-        "line": 88,
-        "ch": 18
+        "line": 100,
+        "ch": 23
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md": {
-    "scroll": 85.37612403100775,
+    "scroll": 83.37674418604651,
     "cursor": {
       "from": {
-        "line": 96,
-        "ch": 23
+        "line": 98,
+        "ch": 46
       },
       "to": {
-        "line": 96,
-        "ch": 23
+        "line": 98,
+        "ch": 46
       }
     },
     "expandedKeys": [
@@ -16410,15 +16409,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-02.md": {
-    "scroll": 27.354959239130434,
+    "scroll": 20.85284280936455,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 89
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 35,
-        "ch": 89
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -16496,7 +16495,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/4.业务原型图绘制技巧.md": {
-    "scroll": 18.355379359247085,
+    "scroll": 21.863875968992247,
     "cursor": {
       "from": {
         "line": 22,
@@ -16507,7 +16506,11 @@
         "ch": 58
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1",
+      "item-3-7",
+      "item-3-10"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/5.[扩展]AI图片工具：配图&公众号首图&高保真素材.md": {
     "scroll": 0,
@@ -16568,34 +16571,125 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/2.[作业]如何寻找合适的前端技术方案：package.js.md": {
-    "scroll": 0,
+    "scroll": 53.396589147286825,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 69,
+        "ch": 19
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 69,
+        "ch": 19
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3",
+      "item-2-4"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/3.番外：Vue生态及发展，是否要放弃Vue2？.md": {
-    "scroll": 0,
+    "scroll": 2.9142142168235017,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 10,
+        "ch": 27
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 10,
+        "ch": 27
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/5.技术栈选型：框架的生态考量，必逛的awesome项目.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/2.用什么：前端技术及UI组件库（学习资源推荐）/1.前端UI库：跨端&移动端&大屏方案介绍.md": {
+    "scroll": 87.21302325581395,
+    "cursor": {
+      "from": {
+        "line": 100,
+        "ch": 35
+      },
+      "to": {
+        "line": 100,
+        "ch": 35
+      }
+    },
+    "expandedKeys": [
+      "item-3-7"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-03.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 72
+      },
+      "to": {
+        "line": 38,
+        "ch": 72
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/1.小闭环项目：项目技术栈选型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/2.工作流详解：回顾开发工作流.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/3.[扩展]工作流：测试相关工作流及文档.md": {
     "scroll": 0,
     "cursor": {
       "from": {
