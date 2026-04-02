@@ -6792,21 +6792,18 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 3.4583333333333335,
+    "scroll": 7.10173880873104,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 60
+        "line": 8,
+        "ch": 68
       },
       "to": {
-        "line": 7,
-        "ch": 60
+        "line": 8,
+        "ch": 68
       }
     },
-    "expandedKeys": [
-      "item-3-0",
-      "item-2-11"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2025_学习、复习记录.md": {
     "scroll": 8.625,
@@ -15002,28 +14999,19 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 57.306640625,
+    "scroll": 16.48789435069699,
     "cursor": {
       "from": {
-        "line": 65,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 65,
+        "line": 10,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-478",
-      "item-2-477",
-      "item-1-458",
-      "item-3-462",
-      "item-2-459",
-      "item-1-0",
-      "item-2-42",
-      "item-3-51",
-      "item-3-45",
-      "item-3-56"
+      "item-1-71"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -15184,15 +15172,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/8.架构设计案例：小闭环项目架构设计.md": {
-    "scroll": 0,
+    "scroll": 51.848958333333336,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 65
+        "line": 68,
+        "ch": 64
       },
       "to": {
-        "line": 0,
-        "ch": 65
+        "line": 68,
+        "ch": 64
       }
     },
     "expandedKeys": []
@@ -15282,15 +15270,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/7.可伸缩架构：微服务&kubernetes.md": {
-    "scroll": 0,
+    "scroll": 38.75905982234101,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 21
+        "line": 40,
+        "ch": 25
       },
       "to": {
-        "line": 8,
-        "ch": 21
+        "line": 40,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -15372,7 +15360,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/1.阶段一：“技术成长&职业破局”双高体系/2.大型复杂项目需求分析及整体架构设计/4.整体架构设计：架构是什么？设计系统架构图/1.架构师能力：架构设计是什么？深入理解架构设计.md": {
-    "scroll": 92.22232558139535,
+    "scroll": 95.81563756215589,
     "cursor": {
       "from": {
         "line": 66,
@@ -16430,6 +16418,104 @@
     ]
   },
   "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/构建系统/如何建立系统？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/2.原型图绘制比较：基本流程和使用模板.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/3.[扩展]figma中的AI设计插件wireframe-d.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/4.业务原型图绘制技巧.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/5.[扩展]AI图片工具：配图&公众号首图&高保真素材.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/6.[扩展]AI编程：爽的飞起，Codeium写代码&Con.md": {
     "scroll": 0,
     "cursor": {
       "from": {
