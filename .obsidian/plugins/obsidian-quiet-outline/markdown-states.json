@@ -3087,15 +3087,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 73.66666666666667,
+    "scroll": 69.29166666666667,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 4
+        "line": 74,
+        "ch": 0
       },
       "to": {
-        "line": 75,
-        "ch": 4
+        "line": 74,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -14999,15 +14999,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 106.78173147468819,
+    "scroll": 112.30205701912666,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 0
+        "line": 123,
+        "ch": 16
       },
       "to": {
-        "line": 117,
-        "ch": 0
+        "line": 123,
+        "ch": 5
       }
     },
     "expandedKeys": [
@@ -16398,12 +16398,12 @@
     "scroll": 0.0707070707070707,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 18
+        "line": 13,
+        "ch": 22
       },
       "to": {
-        "line": 12,
-        "ch": 18
+        "line": 13,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -16814,15 +16814,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/4.npm发包注意事项：npm极简发包过程演示.md": {
-    "scroll": 52.410524450744155,
+    "scroll": 54.966796875,
     "cursor": {
       "from": {
-        "line": 65,
-        "ch": 56
+        "line": 63,
+        "ch": 8
       },
       "to": {
-        "line": 65,
-        "ch": 56
+        "line": 63,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -16859,5 +16859,89 @@
       "item-3-3",
       "item-3-1"
     ]
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/1.IDE配置：VSCode插件推荐&同步设置.md": {
+    "scroll": 45.930338541666664,
+    "cursor": {
+      "from": {
+        "line": 61,
+        "ch": 23
+      },
+      "to": {
+        "line": 61,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/2.IDE智能代码提示：Tabnine&Copilot&Co.md": {
+    "scroll": 15.874728682170543,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 12
+      },
+      "to": {
+        "line": 31,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/3.IDE编辑器大杀器：Cursor.so.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/4.开发调试技巧：前端web项目调试思路.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置调试及代码规范（VSCode插件推荐）/5.真机调试技巧.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
