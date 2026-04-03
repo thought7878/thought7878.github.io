@@ -14999,26 +14999,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 112.31107903284013,
+    "scroll": 106.78173147468819,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 28
+        "line": 117,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 28
+        "line": 117,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-72",
-      "item-1-71",
-      "item-3-86",
-      "item-3-92",
-      "item-2-91",
+      "item-3-0",
       "item-3-97",
-      "item-3-103",
-      "item-3-112"
+      "item-2-91",
+      "item-1-71",
+      "item-3-92"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -16401,12 +16398,12 @@
     "scroll": 0.0707070707070707,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 12
+        "line": 12,
+        "ch": 18
       },
       "to": {
-        "line": 11,
-        "ch": 12
+        "line": 12,
+        "ch": 18
       }
     },
     "expandedKeys": [
@@ -16768,32 +16765,39 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/1.node开发环境搭建：常见工作流介绍&yarn&pnpm.md": {
-    "scroll": 0,
+    "scroll": 102.94015503875968,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 114,
+        "ch": 36
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 114,
+        "ch": 36
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/2.Terminal终端工具推荐.md": {
-    "scroll": 0,
+    "scroll": 14.552558139534884,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 19
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 19
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5",
+      "item-2-8",
+      "item-2-12",
+      "item-2-16",
+      "item-2-19"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/3.番外：语义化的版本号&npm version命令.md": {
     "scroll": 0,
@@ -16819,6 +16823,34 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/3.语义化的版本号&npm version命令.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/3.语义化的版本号 & npm version命令.md": {
+    "scroll": 2.976359613369046,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 128
+      },
+      "to": {
+        "line": 8,
+        "ch": 128
       }
     },
     "expandedKeys": []
