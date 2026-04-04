@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-04.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-04"
+              "title": "2026-04-05"
             }
           },
           {
@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/5.any&never&void&unknown区别与应用场.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.基础类型&引用类型"
+              "title": "5.any&never&void&unknown区别与应用场"
             }
           },
           {
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/5.any&never&void&unknown区别与应用场.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "2.基础类型&引用类型 的反向链接列表"
+              "title": "5.any&never&void&unknown区别与应用场 的反向链接列表"
             }
           },
           {
@@ -845,8 +845,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "687a79329fbe7b11",
+  "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/5884151232120dd55c1b5a4b5551a8a0_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/4.函数重载.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/a8436d379d5d98eba641ee9d695d23ef_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/3.函数类型.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/36e2319675a17d02f944c00a5cc3c10d_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
+    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-05.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-04.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/92b9bb47f945786a69bd49f28619961e_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/1.TS导学.md",
     "DailyNote/Journal/01 Daily/2026/04/media",
@@ -865,30 +874,21 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/3.缺陷控制 最佳实践.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/d7ac9f5448d91957e638e68dbd60dffb_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/2.缺陷控制 概念.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/54916aa6299d039473eda82984e9c1a9_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/1.章导学：缺陷控制方法论+工作流.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/0c960471d80d8046a5d29d48d1fd6c14_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-04.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-03.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/5.真机调试技巧.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/4.开发调试技巧：前端web项目调试思路.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/3.函数类型.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/4.函数重载.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/5.any&never&void&unknown区别与应用场.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/6.tuple与enum.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/7.Interface.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/8.Class类（修饰符、构建函数、接口扩展）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/9.泛型.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media/2d9eaa70d311c862bfbcee4ede3beb52_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/3.IDE编辑器大杀器：Cursor.so.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/2.IDE智能代码提示：Tabnine&Copilot&Co.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）",
