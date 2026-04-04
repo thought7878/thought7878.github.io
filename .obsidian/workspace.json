@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/7.最佳实践：Prettier or ESLint如何选择与.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/1.TS导学.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7.最佳实践：Prettier or ESLint如何选择与"
+              "title": "1.TS导学"
             }
           },
           {
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/7.最佳实践：Prettier or ESLint如何选择与.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/1.TS导学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "7.最佳实践：Prettier or ESLint如何选择与 的反向链接列表"
+              "title": "1.TS导学 的反向链接列表"
             }
           },
           {
@@ -847,6 +847,12 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/04/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/d2031dcd79d3aee5fb9880211f6a9475_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/8.Prettier 与 ESLint 的协同配置.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/7.Prettier 与 ESLint.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/9f349041a93b71cb8f67e5eafb147f02_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/168c6885f26c791a8e7968c98fdcfa43_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/6.禅道&Jira&Redmine简介.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/d7c9e4ccef3d5b9bce3e43356f5793d9_MD5.webp",
@@ -869,8 +875,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/5.真机调试技巧.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/4.开发调试技巧：前端web项目调试思路.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/7.最佳实践：Prettier or ESLint如何选择与.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/8.ESLint配置及项目相关易混淆内容：config&pl.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/1.TS导学.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/3.函数类型.md",
@@ -882,17 +886,13 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/9.泛型.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media/2d9eaa70d311c862bfbcee4ede3beb52_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media/b6ee4783555d0784d0be903fd73bfc71_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/3.IDE编辑器大杀器：Cursor.so.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media/2103f74730a7fe7f6ffeed4b9babd477_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/2.IDE智能代码提示：Tabnine&Copilot&Co.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media/e89b664fba04917628649c1fac19f890_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
