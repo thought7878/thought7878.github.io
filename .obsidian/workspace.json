@@ -584,36 +584,12 @@
             }
           },
           {
-            "id": "65d6c1092e45792e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "目录"
-            }
-          },
-          {
             "id": "0ee32f8dd5a642b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/6.e2e测试：测试知识付费首页项目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10.声明文件&tsconfig配置文件"
+              "title": "6.e2e测试：测试知识付费首页项目"
             }
           },
           {
@@ -680,7 +656,37 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 24
+      },
+      {
+        "id": "2f106cef98d3d0cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65d6c1092e45792e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "目录"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -763,7 +769,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/6.e2e测试：测试知识付费首页项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +779,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "10.声明文件&tsconfig配置文件 的反向链接列表"
+              "title": "6.e2e测试：测试知识付费首页项目 的反向链接列表"
             }
           },
           {
@@ -847,47 +853,48 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/5.e2e测试：Cypress安装与核心概念.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/6.e2e测试：测试知识付费首页项目.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/4.单元测试进阶：计时器和v-model测试方法.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/3.单元测试：Card组件测试.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/2.单元测试：vitest单元测试配置（测试覆盖率&vite.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/5.bug修复-动态图标&defineModel打包bug.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/1.前端测试导学：相关概念&分类&工具.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/4.首页项目Mock开发工作流回顾.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/3.创建首页store：完成首页mock接口对接.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/2.Mock开发工作流（viteEnv&封装axios请求类.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/1.章导学：首页项目Mock接口介绍.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/1.首页：页角部分开发.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/9.泛型.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/2.vue3.3中的defineProps用法.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/3.首页：hover效果+深度选择器.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/4.首页：组件间4种传参方式+$attrs属性覆盖.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/5.Gird不完全手册学习.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/6.Gird单元格属性项学习及作业.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/7.首页项目详情页：集成vite-plugin-vue-ma.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/8.vite-plugin-vue-markdown更新.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/9.完成类慕课网的ImageSwiper组件-1.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/9.完成类慕课网的ImageSwiper组件-2.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/10.详情页：嵌套结构与路由.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/12.路由进阶：学习详情页&学习列表页路由.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/ec575a4b70bde5f11b84f82e879f8a84_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/1e8c9e8c153c1d1c55907e717f13d770_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/8.Class类（修饰符、构建函数、接口扩展）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/edb36a4a9b4ad4e4b379550567f95e70_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/7.Interface.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/8ad4d1115200461fb57f91be3c244a34_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/6.tuple与enum.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/129b2e9d9203f61bf35e345dd8088c6d_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/5.any&never&void&unknown区别与应用场.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/5884151232120dd55c1b5a4b5551a8a0_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/4.函数重载.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/a8436d379d5d98eba641ee9d695d23ef_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/3.函数类型.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/36e2319675a17d02f944c00a5cc3c10d_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/2.基础类型&引用类型.md",
-    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-05.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-04.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/92b9bb47f945786a69bd49f28619961e_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/1.TS导学.md",
     "DailyNote/Journal/01 Daily/2026/04/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/d2031dcd79d3aee5fb9880211f6a9475_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/8.Prettier 与 ESLint 的协同配置.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/7.Prettier 与 ESLint.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media/9f349041a93b71cb8f67e5eafb147f02_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/6.禅道&Jira&Redmine简介.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/5.Trello&Teambition使用介绍.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/4.缺陷控制 工具.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/3.缺陷控制 最佳实践.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/2.缺陷控制 概念.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/1.章导学：缺陷控制方法论+工作流.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/3.缺陷控制/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-03.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/5.真机调试技巧.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/4.开发调试技巧：前端web项目调试思路.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/10.声明文件&tsconfig配置文件.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/2.IDE配置、开发调试/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/1.Node.js开发环境初始化/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）",
