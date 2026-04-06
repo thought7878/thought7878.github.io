@@ -584,6 +584,30 @@
             }
           },
           {
+            "id": "65d6c1092e45792e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "目录"
+            }
+          },
+          {
             "id": "0ee32f8dd5a642b3",
             "type": "leaf",
             "state": {
@@ -657,36 +681,6 @@
           }
         ],
         "currentTab": 24
-      },
-      {
-        "id": "f3cc1a97844c0cff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "65d6c1092e45792e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "目录"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -853,9 +847,10 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/7.加餐：DTO，DAO是什么？MVC是什么架构？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/8.Nestjs中的DI系统&DI容器的概念.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/4.数据库设计与实践：从核心概念到详细设计",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/8.Nestjs中的DI系统&DI容器的概念.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/7.加餐：DTO，DAO是什么？MVC是什么架构？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/6.nestjs 架构篇：用模块来组织代码.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/5.nestjs 架构篇：控制器、服务、数据访问（非常重要）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/4.葵花宝典：什么是依赖注入(DI)&控制反转IoC.md",
@@ -881,7 +876,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/2.SSR实战1：vite-plugin-ssr改造首页项目.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/3.SSG方案：Vitepress&Hexo&Ast.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/1.服务端渲染Nuxt.js：简介+核心概念.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/2.Nuxt工程目录&集成ESLint、Prettier.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/5.Linux系统解析，掌握Linux文件系统和常见命令",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用",
