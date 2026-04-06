@@ -569,19 +569,20 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 205.28450520833334,
+    "scroll": 95.87880475425226,
     "cursor": {
       "from": {
-        "line": 225,
+        "line": 103,
         "ch": 0
       },
       "to": {
-        "line": 225,
+        "line": 103,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-27"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
@@ -14999,20 +15000,27 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 296.1346294937638,
+    "scroll": 411.5961115187087,
     "cursor": {
       "from": {
-        "line": 300,
-        "ch": 0
+        "line": 421,
+        "ch": 5
       },
       "to": {
-        "line": 300,
-        "ch": 0
+        "line": 421,
+        "ch": 35
       }
     },
     "expandedKeys": [
-      "item-3-318",
-      "item-1-264"
+      "item-3-337",
+      "item-2-324",
+      "item-1-356",
+      "item-2-357",
+      "item-3-358",
+      "item-3-349",
+      "item-1-264",
+      "item-3-363",
+      "item-3-367"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -18016,14 +18024,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-06.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 23.21495895408939,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -21002,6 +21010,288 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/6.gitlab集成docker-registry本.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-07.md": {
+    "scroll": 19.017252604166668,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/1.配置CICD的runners环境.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/2.产品背景语料准备：让GPT联网搜索总结背景内容.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/3.产品需求文档&核心开发链路.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/4.SSG方案大全Jamstack：自建文档库方案vitep.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/1.项目初始化.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/3.基础项目技术方案回顾.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/4.集成element-plus.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/1.Icon基础组件：iconify集成.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/2.SVG图标组件：svg类型图标Iconfont.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/3.网络图标组件：动态加载iconfont.css文件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/4.[作业]业务型组件：图标列表组件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/4.业务型组件：图标列表组件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/5.优化IconList图标组件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/6.IconPicker图标选择组件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/7.[作业]IconPicker图标选择组件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/7.IconPicker图标选择组件.md": {
     "scroll": 0,
     "cursor": {
       "from": {
