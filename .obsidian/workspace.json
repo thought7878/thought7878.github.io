@@ -584,12 +584,12 @@
             }
           },
           {
-            "id": "0ee32f8dd5a642b3",
+            "id": "65d6c1092e45792e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/5.项目如何配置electron-builder改图.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,7 +604,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.项目如何配置electron-builder改图"
+              "title": "目录"
+            }
+          },
+          {
+            "id": "0ee32f8dd5a642b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/1.章导学：首页项目Mock接口介绍.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "1.章导学：首页项目Mock接口介绍"
             }
           },
           {
@@ -656,37 +680,7 @@
             }
           }
         ],
-        "currentTab": 24
-      },
-      {
-        "id": "f68538a069c91c4e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "65d6c1092e45792e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "目录"
-            }
-          }
-        ]
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -851,34 +845,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65d6c1092e45792e",
+  "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/5.项目如何配置electron-builder改图.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/4.Electron应用自动更新配置.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media/78014562c6b5920c38d3776ed7d9e28f_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/4.首页：组件间4种传参方式+$attrs属性覆盖.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/1.章导学：首页项目Mock接口介绍.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/3.macos平台配置github actions(需要非常.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/2.实践github actions完成项目的打包&发布.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践/1.使用GithubActions自动化介绍&演示.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/7.Electron应用上架appStore（打包&签名&上.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/6.Electron应用上架appStore(前置准备).md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/5.MacOS应用公证(不上架AppStore的情况)).md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/4.MacOS证书配置(不上架AppStore的情况).md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/3.electron-builder配置(详解版本).md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/2.electron-builder打包配置（简化版本）.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore/1.Electron打包工具electron-builder.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战/4.实践-改造admin-template项目-2.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战/4.实践-改造admin-template项目-1.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战/3.场景3：react与Electron集成的两种方案.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战/2.场景2：vite-electron-builder集成.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战/1.场景1：vite快速集成electron两种方案.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/3.Electron界面交互：菜单定制与国际化/4.全局快捷键（如何全屏&退出全屏）.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/3.Electron界面交互：菜单定制与国际化/3.Electron主进程菜单国际化（i18n集成）.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/3.Electron界面交互：菜单定制与国际化/2.Dock菜单&右键菜单.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/3.Electron界面交互：菜单定制与国际化/1.Electron中的菜单：系统菜单设置.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/2.深入Electron：核心概念、进程通信与安全/10.Electron应用安全.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/2.深入Electron：核心概念、进程通信与安全/9.消息通信MessageChannel方式（2种案例）-2.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/2.深入Electron：核心概念、进程通信与安全/9.消息通信MessageChannel方式（2种案例）-1.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/2.深入Electron：核心概念、进程通信与安全/8.消息通信原理.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/1.首页项目从设计到实现：Vue开发实战及扩展技巧/3.首页：hover效果+深度选择器.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/2.工作流详解：回顾开发工作流.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/3.项目技术选型/1.小闭环项目：项目技术栈选型.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/3.编程思想与服务端架构：理解OOP, FP, FRP及依赖/8.Nestjs中的DI系统&DI容器的概念.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/2.产品背景语料准备：让GPT联网搜索总结背景内容.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/3.产品需求文档&核心开发链路.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/1.AI驱动的产品设计：从需求到组件库/4.SSG方案大全Jamstack：自建文档库方案vitep.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/1.项目初始化.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/3.基础项目技术方案回顾.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/4.集成element-plus.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/1.Icon基础组件：iconify集成.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/2.SVG图标组件：svg类型图标Iconfont.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/3.网络图标组件：动态加载iconfont.css文件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/4.业务型组件：图标列表组件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/5.优化IconList图标组件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/6.IconPicker图标选择组件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/7.IconPicker图标选择组件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/8.Iconify如何动态加载，与unplugin-.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/4.界面交互：暗黑模式与全屏操作/1.头部功能性组件：暗黑模式-1.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/4.界面交互：暗黑模式与全屏操作/1.头部功能性组件：暗黑模式-2.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/4.界面交互：暗黑模式与全屏操作/2.头部功能：全屏功能组件.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/5.多语言支持：vue-i18n集成与构建优化/1.国际化：协同翻译Crowdin&机翻API推荐（Deep.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战",
@@ -888,7 +883,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/4.组件库工程化：自动构建部署与测试/8.自动化部署：探索GitHub Actions与依赖管理",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/4.组件库工程化：自动构建部署与测试/7.打包与优化：提升组件库性能与效率",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/4.组件库工程化：自动构建部署与测试/6.功能性组件：集成ECharts图表、富文本编辑器、音视频",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/4.组件库工程化：自动构建部署与测试/5.动画组件实战：创建自定义折叠过渡",
     "_posts/methods/media/1a5a8d20f0709929b7b754f4bf3a7bd3_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/ec575a4b70bde5f11b84f82e879f8a84_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/1e8c9e8c153c1d1c55907e717f13d770_MD5.webp",
