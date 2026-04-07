@@ -15000,20 +15000,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 168.1008804108584,
+    "scroll": 172.8081438004402,
     "cursor": {
       "from": {
-        "line": 176,
-        "ch": 15
+        "line": 181,
+        "ch": 35
       },
       "to": {
-        "line": 176,
-        "ch": 15
+        "line": 181,
+        "ch": 35
       }
     },
     "expandedKeys": [
       "item-2-124",
-      "item-1-71"
+      "item-1-71",
+      "item-1-580"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -17880,7 +17881,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/2.Mock开发工作流（viteEnv&封装axios请求类.md": {
-    "scroll": 21.870460619399466,
+    "scroll": 21.87439081905361,
     "cursor": {
       "from": {
         "line": 9,
@@ -17894,15 +17895,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/3.创建首页store：完成首页mock接口对接.md": {
-    "scroll": 0,
+    "scroll": 2.726643417153945,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 33
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 33
       }
     },
     "expandedKeys": []
@@ -24307,6 +24308,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/2.Mock开发工作流（vite处理.env&封装axios请求类）.md": {
+    "scroll": 62.08756460930374,
+    "cursor": {
+      "from": {
+        "line": 84,
+        "ch": 14
+      },
+      "to": {
+        "line": 84,
+        "ch": 14
       }
     },
     "expandedKeys": []
