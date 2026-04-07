@@ -4158,12 +4158,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 9,
+        "ch": 131
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 9,
+        "ch": 131
       }
     },
     "expandedKeys": []
@@ -15000,15 +15000,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 176.41478530323153,
+    "scroll": 208.13389581804842,
     "cursor": {
       "from": {
-        "line": 182,
-        "ch": 0
+        "line": 229,
+        "ch": 34
       },
       "to": {
-        "line": 182,
-        "ch": 0
+        "line": 229,
+        "ch": 34
       }
     },
     "expandedKeys": [
@@ -17951,32 +17951,34 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/2.单元测试：vitest单元测试配置（测试覆盖率&vite.md": {
-    "scroll": 0,
+    "scroll": 6.428059895833333,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 12,
+        "ch": 31
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 12,
+        "ch": 31
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/3.单元测试：Card组件测试.md": {
-    "scroll": 0,
+    "scroll": 32.190755208333336,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 47,
+        "ch": 73
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 47,
+        "ch": 73
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/4.单元测试进阶：计时器和v-model测试方法.md": {
     "scroll": 0,
@@ -21021,14 +21023,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-07.md": {
-    "scroll": 19.017252604166668,
+    "scroll": 21.92578125,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -24327,15 +24329,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/1.前端测试导学：相关概念&分类&工具.md": {
-    "scroll": 10.25390625,
+    "scroll": 32.02480620155039,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 50
+        "line": 47,
+        "ch": 35
       },
       "to": {
-        "line": 25,
-        "ch": 50
+        "line": 47,
+        "ch": 35
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-08.md": {
+    "scroll": 32.482801556420235,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 28
+      },
+      "to": {
+        "line": 41,
+        "ch": 28
       }
     },
     "expandedKeys": []
