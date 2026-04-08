@@ -1,6 +1,5 @@
 [
   "settings-profiles",
-  "obsidian-quiet-outline",
   "media-extended",
   "obsidian-local-images-plus",
   "journals",
@@ -10,5 +9,6 @@
   "dataview",
   "callout-manager",
   "pomodoro-timer",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-quiet-outline"
 ]
