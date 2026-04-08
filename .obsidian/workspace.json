@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/2.代码篇：SSR工作原理.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/1.SSR方案：vite-plugin-ssr&vite-s.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.代码篇：SSR工作原理"
+              "title": "1.SSR方案：vite-plugin-ssr&vite-s"
             }
           },
           {
@@ -777,16 +777,6 @@
             }
           },
           {
-            "id": "b3f2d3953c35f9d1",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
             "id": "f5dde97a78656ae2",
             "type": "leaf",
             "pinned": true,
@@ -796,6 +786,16 @@
               "pinned": true,
               "icon": "lines-of-text",
               "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "b3f2d3953c35f9d1",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
             }
           },
           {
@@ -823,7 +823,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -849,10 +849,12 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/2.代码篇：SSR工作原理.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/media/3fd16094eca58e237fe329f00253795e_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/media/5db1fccc90b621bc119c7a782832a8a8_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/1.服务端渲染SSR对比CSR、SSG.md",
     "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-08.md",
     "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
@@ -884,9 +886,7 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/3.创建首页store：完成首页mock接口对接.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media/b5e705955699cfd2ec4368d6c3348c57_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/2.Mock开发工作流（vite处理.env&封装axios请求类）.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media/451e136b4a51708957d4d97162cd8e52_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/1.章导学：首页项目Mock接口介绍.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media/78014562c6b5920c38d3776ed7d9e28f_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore",
