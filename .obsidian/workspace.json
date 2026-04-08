@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/3.单元测试：Card组件测试.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/5.e2e测试：Cypress安装与核心概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.单元测试：Card组件测试"
+              "title": "5.e2e测试：Cypress安装与核心概念"
             }
           },
           {
@@ -845,12 +845,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/media/5ad891cb551e672ae10ff174376b7feb_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/4.单元测试进阶：计时器和v-model测试方法.md",
+    "_posts/methods/常看的.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/media/148e04fe3433435144468f12a2fb7c63_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/3.单元测试：Card组件测试.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-08.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-07.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/3.单元测试：Card组件测试.md",
     "_posts/读书笔记/人生.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/media/41bf7f4f325df4c7461e48a62e281fc8_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/2.单元测试：vitest单元测试配置（测试覆盖率&vite.md",
@@ -878,9 +882,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/1.项目初始化.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/3.基础项目技术方案回顾.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/2.项目起步：项目初始化与框架集成/4.集成element-plus.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/1.Icon基础组件：iconify集成.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/2.SVG图标组件：svg类型图标Iconfont.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/1.设计通用管理后台组件库：初始化模板+组件/3.图标组件进阶：从SVG到动态加载/3.网络图标组件：动态加载iconfont.css文件.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战",
@@ -892,7 +893,6 @@
     "_posts/methods/media/1a5a8d20f0709929b7b754f4bf3a7bd3_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/ec575a4b70bde5f11b84f82e879f8a84_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/1e8c9e8c153c1d1c55907e717f13d770_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/2.玩转Node.js：前端开发&调试双击破/4.TypeScript进阶语法与用法（JS超集，未来趋势）/media/edb36a4a9b4ad4e4b379550567f95e70_MD5.webp",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
