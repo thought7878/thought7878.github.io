@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/2.什么是nestjs？应用场景是什么？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.Java与Node.js：Node.js作为服务端的优势"
+              "title": "2.什么是nestjs？应用场景是什么？"
             }
           },
           {
@@ -823,7 +823,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -847,12 +847,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media/e69afb9046c3c1e103b26fb0ed0c7d96_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/2.什么是nestjs？应用场景是什么？.md",
+    "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+    "_posts/devops/docker/Docker核心概念总结.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media/81a37f9412bfd7136a4ac9f06f041e17_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media/6c6e33fdcff43eef148fef485e772536_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/4.配置Docker国内的加速.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/media/3a1aec6fabc45b686905ca8f8423d647_MD5.webp",
@@ -873,9 +878,7 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/4.SSR与CSR测试论证：LightHouse使用.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media/4012c151a96266479c24a063bf98b601_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/3.Nuxt应用中两种设置环境变量的方式.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media/19c08f4db0388a76ff797f32ff77e89c_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/2.SSR方案2：首页项目Nuxt改造2.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media/e7de6d1f5fb83fefc76b6f1dd61e8524_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/1.SSR方案2：首页项目Nuxt改造1.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/5.Nuxt核心技术：Pinia&PWA&Unocss集成.md",
@@ -886,9 +889,6 @@
     "DailyNote/Journal/01 Daily/2026/04/2026-04-09.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-08.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/3.SSG方案：Vitepress&Hexo&Ast.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/2.SSR实战1：vite-plugin-ssr改造首页项目.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/1.SSR方案：vite-plugin-ssr&vite-s.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/media",
