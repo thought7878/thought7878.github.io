@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.j/1.Java与Node.js：Node.js作为服务端的优势.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -847,8 +847,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media/6c6e33fdcff43eef148fef485e772536_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/4.配置Docker国内的加速.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/media/3a1aec6fabc45b686905ca8f8423d647_MD5.webp",
@@ -879,22 +883,18 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/3.解决Vue ESLint配置冲突问题.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/2.Nuxt工程目录&集成ESLint、Prettier.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/1.服务端渲染Nuxt.js：简介+核心概念.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-09.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-08.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/3.SSG方案：Vitepress&Hexo&Ast.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/2.SSR实战1：vite-plugin-ssr改造首页项目.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/1.SSR方案：vite-plugin-ssr&vite-s.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/2.代码篇：SSR工作原理.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/media",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/3.单元测试及e2e测试/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/4.首页开发、Mock接口及前端测试技巧/2.前端Mock开发实战：Vue项目中的API与数据处理/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/6.自动化构建：Github Actions实践",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/5.Electron打包与发布：从配置到上架AppStore",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/4.阶段四：【自研组件库能力-进阶提升】通用复杂管理后台高性能组件库/5.桌面端应用：丰富组件库应用场景/4.Electron与前端框架集成实战",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"

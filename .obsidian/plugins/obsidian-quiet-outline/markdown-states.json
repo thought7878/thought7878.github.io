@@ -14996,24 +14996,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 189.42920029347027,
+    "scroll": 222.39325018341893,
     "cursor": {
       "from": {
-        "line": 193,
-        "ch": 24
+        "line": 227,
+        "ch": 0
       },
       "to": {
-        "line": 193,
-        "ch": 24
+        "line": 227,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-124",
       "item-1-71",
       "item-1-580",
       "item-1-264",
-      "item-2-159",
-      "item-3-167"
+      "item-2-193"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -24410,5 +24408,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/1.Java与Node.js：Node.js作为服务端的优势.md": {
+    "scroll": 125.87937984496124,
+    "cursor": {
+      "from": {
+        "line": 138,
+        "ch": 24
+      },
+      "to": {
+        "line": 138,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-2-8"
+    ]
   }
 }
