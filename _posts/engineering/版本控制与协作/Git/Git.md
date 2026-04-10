@@ -209,13 +209,6 @@ git reset HEAD .            # 重置整个暂存区
    git init
    ```
 
-### 克隆远程仓库
-- 将远程仓库的代码复制到本地。
-
-   ```bash
-   git clone <远程仓库地址> 
-   git clone <远程仓库地址> <本地目录名> # 可以指定本地目录名
-   ```
 
 ### 本地仓库 → 暂存区
 场景：**回退最近一次提交（commit）到暂存区（Staging Area）** ，也就是，撤销提交但保留改动内容*以便再次修改或重新提交*
@@ -279,7 +272,9 @@ git reset --hard HEAD^
 ### 本地仓库 → 远程仓库	
 ```bash
 # 推送本地提交到远程仓库
-git push <remote> <branch>	
+git push <remote别名> <branch>	
+# 例子
+git push origin main
 ```
 
 ### 远程仓库 → 本地仓库	
@@ -287,19 +282,44 @@ git push <remote> <branch>
 # 下载远程更新到本地仓库（不自动合并）
 git fetch <remote>	
 ```
-[[_posts/engineering/版本控制与协作/Git/命令/fetch]]
+
+参考：[[_posts/engineering/版本控制与协作/Git/命令/fetch]]
 
 ### 远程仓库 → 工作区	
 ```bash
 # 下载远程更新并合并到工作区（= git fetch + git merge）
 git pull <remote> <branch>	
 ```
-[[pull]]
 
-### 添加远端仓库地址
+参考：[[pull]]
 
+### 克隆 远程仓库
+- 将远程仓库的代码复制到本地。
+
+   ```bash
+   git clone <远程仓库地址> 
+   git clone <远程仓库地址> <本地目录名> # 可以指定本地目录名
+   ```
 
 ## 远程仓库操作
+
+
+### 管理本地仓库与远程仓库连接关系
+参考：[[remote]]
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  Git Remote 速查                                     │
+├─────────────────────────────────────────────────────────┤
+│  查看远程      → git remote -v                          │
+│  添加远程      → git remote add <name> <url>            │
+│  删除远程      → git remote remove <name>               │
+│  修改 URL     → git remote set-url <name> <new-url>    │
+│  重命名        → git remote rename <old> <new>          │
+│  清理分支      → git remote prune <name>                │
+│  Fork 同步     → git fetch upstream → git merge         │
+└─────────────────────────────────────────────────────────┘
+```
 
 ### 查看 远程仓库信息
    ```bash
