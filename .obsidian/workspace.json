@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/1.情景一：个人开发者从0创建仓库及代码-2.md",
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.情景一：个人开发者从0创建仓库及代码-2"
+              "title": "Git"
             }
           },
           {
@@ -849,13 +849,14 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/engineering/版本控制与协作/Git/命令/reset.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/1.情景一：个人开发者从0创建仓库及代码-2.md",
     "_posts/engineering/版本控制与协作/Git/命令/stash.md",
     "_posts/engineering/版本控制与协作/Git/命令/revert.md",
     "_posts/engineering/版本控制与协作/Git/命令/rebase.md",
     "_posts/engineering/版本控制与协作/Git/命令/pull.md",
     "_posts/engineering/版本控制与协作/Git/命令/fetch.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/1.情景一：个人开发者从0创建仓库及代码-2.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media/6624784628b3762d1bd99a2ee34a892b_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/1.情景一：个人开发者从0创建仓库及代码-1.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media/e3477b628b373f4105e12be0be55cffa_MD5.webp",
@@ -888,7 +889,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/4.配置Docker国内的加速.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/media",
