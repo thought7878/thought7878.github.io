@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/3.前端工程化工具及应用场景（webpack&vite等）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.前端工程化世界：主流技术方案对比与应用场景介绍"
+              "title": "3.前端工程化工具及应用场景（webpack&vite等）"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+                "file": "_posts/engineering/1.打包工具（Module Bundler）/为什么使用前端模块打包工具（Module Bundler）？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "杂粮组合"
+              "title": "为什么使用前端模块打包工具（Module Bundler）？"
             }
           }
         ],
@@ -850,15 +850,19 @@
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/2.ES规范和模块规范：探寻ECMAScript发展史.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/为什么使用前端模块打包工具（Module Bundler）？.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md",
+    "_posts/engineering/前端工程化的定义、目标和意义.md",
+    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
+    "_posts/methods/常看的.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/3.前端工程化工具及应用场景（webpack&vite等）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/48565f4c0c3c9c19a1263978c0374e8f_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/a271784825875dbcc3db300a3d41bb04_MD5.svg",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/c6c680978bfe574e93fe5fdb72fb39d7_MD5.svg",
-    "_posts/读书笔记/健康/糖尿病/饮食/杂粮组合.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/c3ca7e5a9f759d6884abaf6ee3bc0917_MD5.svg",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/976a6e2936f373d4dd77c8ef2c53bfb6_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/85beb4aa9c1b8e8edbe6d37af2d10f6a_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/4.情景三：常见多人协同冲突处理办法（带GUI操作）.md",
@@ -883,11 +887,7 @@
     "_posts/engineering/版本控制与协作/Git/命令/fetch.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/1.情景一：个人开发者从0创建仓库及代码-1.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/2.深入探索Git：核心概念和本地、远程仓库管理/2.Git核心概念：本地版本仓库&远程版本仓库.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/2.深入探索Git：核心概念和本地、远程仓库管理/1.Git核心概念：快照、缓存区、版本库.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-09.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/2.深入探索Git：核心概念和本地、远程仓库管理/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/1.Git版本控制入门：理解Git与SVN的差异/2.Git vs SVN.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/1.Git版本控制入门：理解Git与SVN的差异/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/media",

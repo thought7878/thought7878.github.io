@@ -565,20 +565,18 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 205.5966796875,
+    "scroll": 225.69580078125,
     "cursor": {
       "from": {
-        "line": 220,
+        "line": 240,
         "ch": 0
       },
       "to": {
-        "line": 220,
+        "line": 240,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-27"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -1170,20 +1168,18 @@
     ]
   },
   "_posts/engineering/前端工程化的定义、目标和意义.md": {
-    "scroll": 0,
+    "scroll": 4.131721400216528,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 11
+        "line": 11,
+        "ch": 96
       },
       "to": {
-        "line": 8,
-        "ch": 11
+        "line": 11,
+        "ch": 96
       }
     },
     "expandedKeys": [
-      "item-3-2",
-      "item-2-0",
       "item-3-1"
     ]
   },
@@ -16371,9 +16367,7 @@
         "ch": 22
       }
     },
-    "expandedKeys": [
-      "item-3-0"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-02.md": {
     "scroll": 20.85284280936455,
@@ -20107,43 +20101,43 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md": {
-    "scroll": 67.88527131782946,
+    "scroll": 2.7967604246470397,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 26
+        "line": 10,
+        "ch": 0
       },
       "to": {
-        "line": 83,
-        "ch": 26
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/2.ES规范和模块规范：探寻ECMAScript发展史.md": {
-    "scroll": 2.9913613345248735,
+    "scroll": 2.748158346013574,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 131
+        "line": 12,
+        "ch": 84
       },
       "to": {
-        "line": 77,
-        "ch": 131
+        "line": 12,
+        "ch": 84
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/3.前端工程化工具及应用场景（webpack&vite等）.md": {
-    "scroll": 42.069940476190474,
+    "scroll": 2.8268733850129197,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 61
+        "line": 12,
+        "ch": 67
       },
       "to": {
-        "line": 47,
-        "ch": 61
+        "line": 12,
+        "ch": 67
       }
     },
     "expandedKeys": []
@@ -24661,5 +24655,49 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 77
+      },
+      "to": {
+        "line": 2,
+        "ch": 77
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/为什么使用前端模块打包工具（Module Bundler）？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 122
+      },
+      "to": {
+        "line": 1,
+        "ch": 122
+      }
+    },
+    "expandedKeys": []
   }
 }
