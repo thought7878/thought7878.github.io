@@ -479,14 +479,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 106.84500555820232,
+    "scroll": 105.6904296875,
     "cursor": {
       "from": {
-        "line": 123,
+        "line": 124,
         "ch": 0
       },
       "to": {
-        "line": 123,
+        "line": 124,
         "ch": 0
       }
     },
@@ -6043,15 +6043,15 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 299.71441860465114,
+    "scroll": 299.9280620155039,
     "cursor": {
       "from": {
-        "line": 316,
-        "ch": 21
+        "line": 313,
+        "ch": 36
       },
       "to": {
-        "line": 316,
-        "ch": 21
+        "line": 313,
+        "ch": 36
       }
     },
     "expandedKeys": [
@@ -14966,22 +14966,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 222.39325018341893,
+    "scroll": 305.79754601226995,
     "cursor": {
       "from": {
-        "line": 227,
-        "ch": 0
+        "line": 315,
+        "ch": 31
       },
       "to": {
-        "line": 227,
-        "ch": 0
+        "line": 315,
+        "ch": 31
       }
     },
     "expandedKeys": [
-      "item-1-71",
-      "item-1-580",
-      "item-1-264",
-      "item-2-193"
+      "item-3-272",
+      "item-2-265",
+      "item-1-264"
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录mu.md": {
@@ -19884,29 +19883,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/3.分支管理策略：分支管理最佳实践&常见命令.md": {
-    "scroll": 76.80501302083333,
+    "scroll": 72.49643410852713,
     "cursor": {
       "from": {
-        "line": 89,
-        "ch": 58
+        "line": 82,
+        "ch": 46
       },
       "to": {
-        "line": 89,
-        "ch": 58
+        "line": 82,
+        "ch": 46
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/4.情景三：常见多人协同冲突处理办法（带GUI操作）.md": {
-    "scroll": 0,
+    "scroll": 14.038270729978738,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 26,
+        "ch": 4
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 26,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -24458,18 +24457,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-10.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 24.826171875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/engineering/版本控制与协作/Git/命令/未命名.md": {
     "scroll": 0,
@@ -24644,5 +24645,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-11.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
