@@ -479,14 +479,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 105.6904296875,
+    "scroll": 111.13248697916667,
     "cursor": {
       "from": {
-        "line": 124,
+        "line": 125,
         "ch": 0
       },
       "to": {
-        "line": 124,
+        "line": 125,
         "ch": 0
       }
     },
@@ -20101,43 +20101,43 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md": {
-    "scroll": 2.7967604246470397,
+    "scroll": 68.1075968992248,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 84,
+        "ch": 18
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 84,
+        "ch": 18
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/2.ES规范和模块规范：探寻ECMAScript发展史.md": {
-    "scroll": 2.748158346013574,
+    "scroll": 2.998574982489192,
     "cursor": {
       "from": {
         "line": 12,
-        "ch": 84
+        "ch": 43
       },
       "to": {
         "line": 12,
-        "ch": 84
+        "ch": 43
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/3.前端工程化工具及应用场景（webpack&vite等）.md": {
-    "scroll": 2.8268733850129197,
+    "scroll": 17.78356589147287,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 67
+        "line": 30,
+        "ch": 54
       },
       "to": {
-        "line": 12,
-        "ch": 67
+        "line": 30,
+        "ch": 54
       }
     },
     "expandedKeys": []
@@ -24657,15 +24657,15 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比.md": {
-    "scroll": 0,
+    "scroll": 102.29054263565891,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 4
+        "line": 72,
+        "ch": 19
       },
       "to": {
-        "line": 0,
-        "ch": 4
+        "line": 72,
+        "ch": 19
       }
     },
     "expandedKeys": []
@@ -24674,12 +24674,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 77
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 77
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -24691,13 +24691,131 @@
     "cursor": {
       "from": {
         "line": 1,
-        "ch": 122
+        "ch": 78
       },
       "to": {
         "line": 1,
-        "ch": 122
+        "ch": 78
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具之对比1.md": {
+    "scroll": 71.89829457364341,
+    "cursor": {
+      "from": {
+        "line": 72,
+        "ch": 19
+      },
+      "to": {
+        "line": 72,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/前端打包工具深度对比.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具对比1.md": {
+    "scroll": 70.13643410852713,
+    "cursor": {
+      "from": {
+        "line": 72,
+        "ch": 19
+      },
+      "to": {
+        "line": 72,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/前端打包工具对比2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/为什么使用前端模块打包工具？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 83
+      },
+      "to": {
+        "line": 1,
+        "ch": 83
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用前端模块打包工具？.md": {
+    "scroll": 1.1944444444444444,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/为什么要使用 JS 模块化？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 27
+      },
+      "to": {
+        "line": 2,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
