@@ -20101,7 +20101,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/1.前端工程化世界：主流技术方案对比与应用场景介绍.md": {
-    "scroll": 68.1075968992248,
+    "scroll": 43.55782945736434,
     "cursor": {
       "from": {
         "line": 84,
@@ -20115,7 +20115,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/2.ES规范和模块规范：探寻ECMAScript发展史.md": {
-    "scroll": 2.998574982489192,
+    "scroll": 3.0055338541666665,
     "cursor": {
       "from": {
         "line": 12,
@@ -20143,7 +20143,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/4.[扩展]Turbopack真的比Vite快10倍吗？.md": {
-    "scroll": 82.96186046511627,
+    "scroll": 79.75100775193799,
     "cursor": {
       "from": {
         "line": 99,
@@ -20157,15 +20157,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/5.开发效率加倍：typescript运行时比较.md": {
-    "scroll": 0,
+    "scroll": 0.9115646258503401,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 33
+        "line": 11,
+        "ch": 35
       },
       "to": {
-        "line": 7,
-        "ch": 33
+        "line": 11,
+        "ch": 35
       }
     },
     "expandedKeys": []
@@ -24641,15 +24641,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-11.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 27.246263586956523,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -24731,7 +24731,7 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具对比1.md": {
-    "scroll": 70.13643410852713,
+    "scroll": 69.27534883720931,
     "cursor": {
       "from": {
         "line": 72,
@@ -24775,18 +24775,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用前端模块打包工具？.md": {
-    "scroll": 1.1944444444444444,
+    "scroll": 54.331380208333336,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 30,
+        "ch": 11
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 30,
+        "ch": 11
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/engineering/5.模块化（Module）/未命名.md": {
     "scroll": 0,
@@ -24817,6 +24819,74 @@
     "expandedKeys": [
       "item-2-1",
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-12.md": {
+    "scroll": 1.2211350293542074,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具.md": {
+    "scroll": 38.91868932038835,
+    "cursor": {
+      "from": {
+        "line": 45,
+        "ch": 33
+      },
+      "to": {
+        "line": 45,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-3-3",
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/前端打包工具对比.md": {
+    "scroll": 4.125,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 20
+      },
+      "to": {
+        "line": 5,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
+    "scroll": 39.334762585358106,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 46
+      },
+      "to": {
+        "line": 48,
+        "ch": 46
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-5",
+      "item-2-6",
+      "item-1-13",
+      "item-2-14"
     ]
   }
 }
