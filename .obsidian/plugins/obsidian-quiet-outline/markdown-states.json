@@ -24775,15 +24775,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用前端模块打包工具？.md": {
-    "scroll": 54.331380208333336,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 11
+        "line": 33,
+        "ch": 20
       },
       "to": {
-        "line": 30,
-        "ch": 11
+        "line": 33,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -24870,15 +24870,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 39.334762585358106,
+    "scroll": 39.761632523423856,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 46
+        "line": 40,
+        "ch": 0
       },
       "to": {
-        "line": 48,
-        "ch": 46
+        "line": 40,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -24886,7 +24886,86 @@
       "item-1-5",
       "item-2-6",
       "item-1-13",
-      "item-2-14"
+      "item-2-14",
+      "item-3-17",
+      "item-3-22"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/JS编译工具对比.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 32
+      },
+      "to": {
+        "line": 4,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-17"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具对比12.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md": {
+    "scroll": 13.632416868966295,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 201
+      },
+      "to": {
+        "line": 13,
+        "ch": 201
+      }
+    },
+    "expandedKeys": [
+      "item-1-17",
+      "item-1-0",
+      "item-2-19"
     ]
   }
 }
