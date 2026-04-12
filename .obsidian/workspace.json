@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/4.新手配置webpack的两种方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.Webpack核心概念及配置"
+              "title": "4.新手配置webpack的两种方案"
             }
           },
           {
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/1.服务端渲染SSR对比CSR、SSG.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/4.新手配置webpack的两种方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "1.服务端渲染SSR对比CSR、SSG 的反向链接列表"
+              "title": "4.新手配置webpack的两种方案 的反向链接列表"
             }
           },
           {
@@ -849,12 +849,15 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/media/70b58ac320005b0e71896a01f4898f37_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/3.[AI]解决webpack配置&打包问题5种思路.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/Loader Plugin 对比.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/配置项、完整配置文件.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/为什么使用 Loader？.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/为什么使用 Plugin？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/module.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/output/output.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/entry.md",
@@ -874,9 +877,6 @@
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
     "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
     "_posts/typescript/总结/为什么使用 TypeScript？-未整理.md",
-    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
-    "_posts/typescript/总结/Types/Object Types/Array/Array.md",
-    "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/505a555a29073a3afdb179300adc61cd_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/4c39f7d8b05555a01dfb8d96ede7f982_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/48565f4c0c3c9c19a1263978c0374e8f_MD5.webp",
