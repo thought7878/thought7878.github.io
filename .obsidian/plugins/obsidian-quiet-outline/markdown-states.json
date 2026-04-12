@@ -1584,19 +1584,19 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/配置项、完整配置文件.md": {
-    "scroll": 70.55859375,
+    "scroll": 188.97526041666666,
     "cursor": {
       "from": {
-        "line": 79,
-        "ch": 14
+        "line": 196,
+        "ch": 0
       },
       "to": {
-        "line": 79,
-        "ch": 14
+        "line": 196,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-0"
+      "item-1-0"
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/6. 另一种移除旧包的方法.md": {
@@ -2088,18 +2088,23 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 42.915690104166664,
+    "scroll": 195.88053385416666,
     "cursor": {
       "from": {
-        "line": 54,
+        "line": 266,
         "ch": 0
       },
       "to": {
-        "line": 54,
+        "line": 266,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-12"
+    ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
     "scroll": 92.44744186046512,
@@ -20194,15 +20199,15 @@
     ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md": {
-    "scroll": 2.916465242995855,
+    "scroll": 25.56248062015504,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 12,
+        "ch": 21
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 12,
+        "ch": 21
       }
     },
     "expandedKeys": []
@@ -25252,18 +25257,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/module.md": {
-    "scroll": 36.68910491562729,
+    "scroll": 108.12662760416667,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 33
+        "line": 124,
+        "ch": 24
       },
       "to": {
-        "line": 52,
-        "ch": 33
+        "line": 124,
+        "ch": 24
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-7"
+    ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/未命名.md": {
     "scroll": 0,
@@ -25283,12 +25290,56 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 42
+        "line": 0,
+        "ch": 25
       },
       "to": {
-        "line": 14,
-        "ch": 42
+        "line": 0,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/为什么使用 Plugin？.md": {
+    "scroll": 229.46445326596896,
+    "cursor": {
+      "from": {
+        "line": 252,
+        "ch": 0
+      },
+      "to": {
+        "line": 252,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-15"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/为什么使用 Loader？.md": {
+    "scroll": 0.12121212121212122,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 25
+      },
+      "to": {
+        "line": 0,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/Loader Plugin 对比.md": {
+    "scroll": 11.555860033726812,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
       }
     },
     "expandedKeys": []

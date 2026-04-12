@@ -48,10 +48,11 @@
 
 **Loader**
 - *编译JS、CSS；转换非 JS 资源*（如 CSS、图片、字体），将不同类型的模块转换为 Webpack 可以处理的 JavaScript 可以使用的模块
-参考：[[为什么使用Loader？]]
+参考：[[为什么使用 Loader？]]、[[module]]、[[Loader Plugin 对比]]
 
 **插件 (Plugins)**
 - 用于*扩展 Webpack 的功能*（打包优化、资源管理、环境注入等），可以在构建过程的不同阶段执行自定义的任务。
+参考：[[为什么使用 Plugin？]]
 
 **模式 (Mode)**
 - `development`、`production`、`none`  
