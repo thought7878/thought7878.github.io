@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/1.[技术栈选择]如今如何来学习Webpack？从应用场景出.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.[技术栈选择]如今如何来学习Webpack？从应用场景出"
+              "title": "2.Webpack核心概念及配置"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,11 +676,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TypeScript"
+              "title": "Webpack"
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -847,18 +847,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "d2c371d13f2d1019",
   "lastOpenFiles": [
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/5.开发效率加倍：typescript运行时比较.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/2.Webpack核心概念及配置.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/media/1194ab5cecaacb51ad5e8e2f48eced86_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/1.[技术栈选择]如今如何来学习Webpack？从应用场景出.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/5.开发效率加倍：typescript运行时比较.md",
     "_posts/typescript/总结/TypeScript 执行器.md",
     "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/engineering/5.模块化（Module）/ES Module/ES Module.md",
     "_posts/engineering/5.模块化（Module）/ES Module/ES Module的工作原理.md",
     "_posts/base/知识目录、路线图/Frontend Roadmap.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md",
     "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md",
     "_posts/typescript/总结/为什么使用 TypeScript？-未整理.md",
@@ -873,8 +877,6 @@
     "_posts/engineering/5.模块化（Module）/为什么要使用 模块化？.md",
     "_posts/engineering/1.打包工具（Module Bundler）/模块打包工具.md",
     "_posts/engineering/1.打包工具（Module Bundler）/前端打包工具对比.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/4.[扩展]Turbopack真的比Vite快10倍吗？.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/3.前端工程化工具及应用场景（webpack&vite等）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/505a555a29073a3afdb179300adc61cd_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/4c39f7d8b05555a01dfb8d96ede7f982_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/48565f4c0c3c9c19a1263978c0374e8f_MD5.webp",
@@ -885,7 +887,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media/85beb4aa9c1b8e8edbe6d37af2d10f6a_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media/aa5f2202ccfbc3df71c4359860028417_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media/2139377dd9af04687aff381185271da2_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/2.深入探索Git：核心概念和本地、远程仓库管理/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/1.Git版本控制入门：理解Git与SVN的差异/media",
@@ -894,7 +895,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/4.Nuxt项目改造与优化：深度探讨SSR在Nuxt中的应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/3.Nuxt.js入门与进阶：探索Nuxt的核心技术与工具/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/2.掌握SSR实战：应用vite-plugin-ssr项目改/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
