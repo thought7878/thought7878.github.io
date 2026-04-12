@@ -1,5 +1,8 @@
 > 生成TypeScript的所有知识点。以markdown格式，只要知识点，不要介绍
 
+## **为什么**使用TypeScript？
+参考：[[为什么使用 TypeScript？-未整理]]
+
 ## 基础类型
   - 原始类型：`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`。参考 [[Primitive]]
   - 数组：`T[]` / `Array<T>`。参考 [[_posts/typescript/总结/Types/Object Types/Array/Array|Array]]

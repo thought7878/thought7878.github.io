@@ -5,7 +5,7 @@
 
 # Introduction
 ## 为什么使用 TypeScript？
-[[为什么使用 TypeScript？]]
+[[为什么使用 TypeScript？-未整理]]
 
 ## 与打包工具的关系
 Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。

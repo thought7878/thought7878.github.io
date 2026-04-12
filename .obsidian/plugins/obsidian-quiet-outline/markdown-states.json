@@ -1179,9 +1179,7 @@
         "ch": 96
       }
     },
-    "expandedKeys": [
-      "item-3-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/Untitled.md": {
     "scroll": 0,
@@ -2090,23 +2088,18 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 99.3708527131783,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 105,
-        "ch": 43
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 105,
-        "ch": 43
+        "line": 7,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-9",
-      "item-2-5",
-      "item-1-1",
-      "item-2-13"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
     "scroll": 92.44744186046512,
@@ -20161,11 +20154,11 @@
     "cursor": {
       "from": {
         "line": 11,
-        "ch": 35
+        "ch": 38
       },
       "to": {
         "line": 11,
-        "ch": 35
+        "ch": 38
       }
     },
     "expandedKeys": []
@@ -24818,7 +24811,7 @@
     },
     "expandedKeys": [
       "item-2-1",
-      "item-1-0"
+      "item-1-13"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-12.md": {
@@ -24870,36 +24863,28 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 39.761632523423856,
+    "scroll": 66.67094644167278,
     "cursor": {
       "from": {
-        "line": 40,
+        "line": 75,
         "ch": 0
       },
       "to": {
-        "line": 40,
+        "line": 75,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-1-5",
-      "item-2-6",
-      "item-1-13",
-      "item-2-14",
-      "item-3-17",
-      "item-3-22"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 24,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 4,
         "ch": 0
       }
     },
@@ -24951,21 +24936,150 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md": {
-    "scroll": 13.632416868966295,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 201
+        "line": 4,
+        "ch": 28
       },
       "to": {
-        "line": 13,
-        "ch": 201
+        "line": 4,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/为什么要使用 模块化？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 164,
+        "ch": 0
+      },
+      "to": {
+        "line": 164,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-17",
-      "item-1-0",
-      "item-2-19"
+      "item-2-0",
+      "item-1-12"
     ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/Types/Object Types/Array/Array.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/为什么使用 TypeScript？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 6
+      },
+      "to": {
+        "line": 50,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/为什么使用 TypeScript？-未整理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 214,
+        "ch": 0
+      },
+      "to": {
+        "line": 214,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/Frontend Roadmap.md": {
+    "scroll": 29.885896527285613,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 0
+      },
+      "to": {
+        "line": 36,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/Frontend Roadmap-AI总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/Why、What.md": {
+    "scroll": 14.506840985101855,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 14
+      },
+      "to": {
+        "line": 27,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
   }
 }

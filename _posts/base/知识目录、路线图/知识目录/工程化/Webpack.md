@@ -1,33 +1,5 @@
 > 总结 Webpack 的全部的知识点，不要介绍，只要知识点
 
-# DS 的思考
-
-好的，我需要总结 Webpack 的所有知识点，但用户要求不要介绍，只要知识点。首先，我需要回忆 Webpack 的核心概念、配置项、常用 loader、插件、优化手段、开发环境配置、与其他工具的集成等等。
-
-首先，Webpack 的`核心概念`有入口(entry)、输出(output)、loader、插件(plugins)、模式(mode)、模块(module)、依赖图(dependency graph)。这些是基础，必须列出来。
-
-然后是`配置项`，比如 entry 可以配置为字符串、数组、对象，output 中的 path、filename、publicPath，还有模块的 rules 配置 loader，plugins 数组配置插件，还有 resolve、devServer、optimization 等配置。
-
-接下来是`loader`，常用的有 babel-loader 处理 ES6+，css-loader 和 style-loader 处理 CSS，sass-loader 处理 Sass，file-loader 和 url-loader 处理图片和字体，还有 ts-loader、vue-loader 等等。每个 loader 的作用需要简要说明。
-
-`插件方面`，HtmlWebpackPlugin 生成 HTML，CleanWebpackPlugin 清理 dist，MiniCssExtractPlugin 提取 CSS，OptimizeCSSAssetsPlugin 优化 CSS，TerserWebpackPlugin 压缩 JS，还有 HotModuleReplacementPlugin 热更新，DefinePlugin 定义环境变量，CopyWebpackPlugin 复制文件，BundleAnalyzerPlugin 分析包大小等。
-
-`优化部分`，代码分割（Code Splitting）、Tree Shaking、Scope Hoisting、缓存（chunkhash、contenthash）、懒加载（动态 import）、压缩代码、使用 CDN、DLLPlugin 预编译库等。
-
-`开发环境配置`，如 devServer 的配置：contentBase、port、hot、proxy 等，source map 的选择，HMR 的使用。
-
-`与其他工具的集成`，比如 Babel、TypeScript、ESLint、Prettier、React/Vue 等框架的配置。
-
-其他知识点，比如`Webpack的工作流程`（初始化、编译、输出）、Tapable 插件系统、loader 和插件的开发、自定义配置、多页面应用配置、环境变量的使用、性能分析工具等。
-
-需要确保涵盖所有主要方面，但不要展开详细说明，只列知识点。可能会有遗漏，需要再仔细检查一遍常见的 Webpack 功能和配置项。比如，是否提到了模块热替换、devtool 的不同模式、externals 配置排除某些库、shimming 处理全局变量、不同模式的配置差异（development/production）等。
-
-另外，可能还需要包括 Webpack 5 的新特性，比如模块联邦（Module Federation）、持久化缓存、资源模块（asset modules）、Top Level Await 支持等。
-
-最后，整理这些知识点，按逻辑分类，确保结构清晰，每个大类下的小点明确。检查是否有重复或遗漏的重要点，比如是否提到了 Webpack 的 CLI 命令，如 webpack、webpack-dev-server，或者配置文件的不同写法（导出对象、函数、数组）。
-
-可能需要分几个主要部分，比如核心概念、配置项、Loader、插件、优化、开发环境、生产环境、高级特性、工具集成等。确保每个部分下的知识点全面且准确，不涉及具体使用方法，只列出名称或功能关键词。
-
 # Webpack 知识点清单
 
 参考：[[Webpack 目录]]、[[Webpack 学习计划-DS]]
