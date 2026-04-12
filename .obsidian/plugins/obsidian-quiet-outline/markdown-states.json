@@ -20150,15 +20150,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/5.开发效率加倍：typescript运行时比较.md": {
-    "scroll": 0.9115646258503401,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 38
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 11,
-        "ch": 38
+        "line": 0,
+        "ch": 43
       }
     },
     "expandedKeys": []
@@ -20182,11 +20182,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 188
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 188
       }
     },
     "expandedKeys": []
@@ -24863,15 +24863,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 66.67094644167278,
+    "scroll": 44.66236413043478,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 0
+        "line": 55,
+        "ch": 48
       },
       "to": {
-        "line": 75,
-        "ch": 0
+        "line": 55,
+        "ch": 48
       }
     },
     "expandedKeys": []
@@ -25081,5 +25081,140 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/ES Module/ES Module.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 67,
+        "ch": 23
+      },
+      "to": {
+        "line": 67,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/ES Module/ESModule的工作原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/5.模块化（Module）/ES Module/ES Module的工作原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 40
+      },
+      "to": {
+        "line": 2,
+        "ch": 40
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/TypeScript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md": {
+    "scroll": 24.54817755322988,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 0
+      },
+      "to": {
+        "line": 39,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/TypeScript的编译.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/运行时工具.md": {
+    "scroll": 154.5684713375796,
+    "cursor": {
+      "from": {
+        "line": 195,
+        "ch": 14
+      },
+      "to": {
+        "line": 195,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-14"
+    ]
+  },
+  "_posts/typescript/总结/TypeScript 执行器.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 66
+      },
+      "to": {
+        "line": 4,
+        "ch": 66
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }

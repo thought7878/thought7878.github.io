@@ -37,6 +37,8 @@ Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
 ### ts-node
 参考 [[ts-node]]
 
+## TypeScript 执行器
+参考 [[TypeScript 执行器]]
 
 # Typescript Types
 ## Primitive Types 

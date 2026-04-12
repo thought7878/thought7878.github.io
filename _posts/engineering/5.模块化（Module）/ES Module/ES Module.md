@@ -85,13 +85,13 @@ button.addEventListener('click', async () => {
 ---
 
 ### 五、与 CommonJS 的区别
-| 特性                | ES Module                      | CommonJS（Node.js）           |
-|---------------------|--------------------------------|-------------------------------|
-| 加载方式            | 静态（编译时）                | 动态（运行时）                |
-| 导入语法            | `import`                      | `require()`                   |
-| 导出语法            | `export` / `export default`   | `module.exports` / `exports`  |
-| 浏览器支持          | 原生支持                      | 需构建工具转换（如 Webpack）  |
-| 模块顶层的 `this`   | `undefined`                   | 指向 `module.exports`         |
+| 特性           | ES Module                   | CommonJS（Node.js）            |
+| ------------ | --------------------------- | ---------------------------- |
+| 加载方式         | 静态（编译时）                     | 动态（运行时）                      |
+| 导入语法         | `import`                    | `require()`                  |
+| 导出语法         | `export` / `export default` | `module.exports` / `exports` |
+| 浏览器支持        | 原生支持                        | 需构建工具转换（如 Webpack）           |
+| 模块顶层的 `this` | `undefined`                 | 指向 `module.exports`          |
 
 ---
 
