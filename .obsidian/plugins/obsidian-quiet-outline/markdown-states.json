@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 247.68663194444446,
+    "scroll": 245.63107638888889,
     "cursor": {
       "from": {
-        "line": 256,
-        "ch": 0
+        "line": 249,
+        "ch": 70
       },
       "to": {
-        "line": 256,
-        "ch": 0
+        "line": 249,
+        "ch": 70
       }
     },
     "expandedKeys": []
@@ -2086,18 +2086,25 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 0,
+    "scroll": 125.03879465896789,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 2
+        "line": 140,
+        "ch": 21
       },
       "to": {
-        "line": 0,
-        "ch": 31
+        "line": 140,
+        "ch": 21
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-3-5",
+      "item-3-8",
+      "item-2-12"
+    ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
     "scroll": 64.06976744186046,
@@ -3067,14 +3074,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 69.29166666666667,
+    "scroll": 47.854166666666664,
     "cursor": {
       "from": {
-        "line": 74,
+        "line": 64,
         "ch": 0
       },
       "to": {
-        "line": 74,
+        "line": 64,
         "ch": 0
       }
     },
@@ -20304,12 +20311,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 0
+        "line": 9,
+        "ch": 31
       },
       "to": {
-        "line": 2,
-        "ch": 0
+        "line": 9,
+        "ch": 31
       }
     },
     "expandedKeys": []
@@ -24860,14 +24867,14 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 58.828776041666664,
+    "scroll": 50.71084337349397,
     "cursor": {
       "from": {
-        "line": 72,
+        "line": 60,
         "ch": 0
       },
       "to": {
-        "line": 72,
+        "line": 60,
         "ch": 0
       }
     },
@@ -25245,19 +25252,22 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/module.md": {
-    "scroll": 108.12662760416667,
+    "scroll": 26.110207768744353,
     "cursor": {
       "from": {
-        "line": 124,
-        "ch": 24
+        "line": 34,
+        "ch": 0
       },
       "to": {
-        "line": 124,
-        "ch": 24
+        "line": 34,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-7"
+      "item-3-0",
+      "item-3-2",
+      "item-3-7",
+      "item-3-12"
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/Loader & Plugin/未命名.md": {
@@ -25564,5 +25574,97 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/resolve.md": {
+    "scroll": 4.085740346609912,
+    "cursor": {
+      "from": {
+        "line": 85,
+        "ch": 88
+      },
+      "to": {
+        "line": 85,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/externals.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 60
+      },
+      "to": {
+        "line": 0,
+        "ch": 60
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md": {
+    "scroll": 137.50325520833334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devTool.md": {
+    "scroll": 58.9512105649303,
+    "cursor": {
+      "from": {
+        "line": 73,
+        "ch": 26
+      },
+      "to": {
+        "line": 73,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/optimization.md": {
+    "scroll": 101.42447916666667,
+    "cursor": {
+      "from": {
+        "line": 117,
+        "ch": 23
+      },
+      "to": {
+        "line": 117,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-2",
+      "item-3-9"
+    ]
+  },
+  "_posts/server/Docker.md": {
+    "scroll": 4.664935064935065,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
