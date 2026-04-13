@@ -479,14 +479,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 111.13248697916667,
+    "scroll": 114.92415364583333,
     "cursor": {
       "from": {
-        "line": 125,
+        "line": 129,
         "ch": 0
       },
       "to": {
-        "line": 125,
+        "line": 129,
         "ch": 0
       }
     },
@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 225.69580078125,
+    "scroll": 232.2666015625,
     "cursor": {
       "from": {
-        "line": 240,
-        "ch": 0
+        "line": 236,
+        "ch": 203
       },
       "to": {
-        "line": 240,
-        "ch": 0
+        "line": 236,
+        "ch": 203
       }
     },
     "expandedKeys": []
@@ -1584,15 +1584,15 @@
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/配置项、完整配置文件.md": {
-    "scroll": 188.97526041666666,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 196,
-        "ch": 0
+        "line": 0,
+        "ch": 22
       },
       "to": {
-        "line": 196,
-        "ch": 0
+        "line": 0,
+        "ch": 70
       }
     },
     "expandedKeys": [
@@ -2088,22 +2088,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 50.008138020833336,
+    "scroll": 76.32341085271318,
     "cursor": {
       "from": {
-        "line": 67,
+        "line": 87,
         "ch": 0
       },
       "to": {
-        "line": 67,
+        "line": 87,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-1",
-      "item-2-4",
-      "item-2-12"
+      "item-1-0"
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
@@ -20224,15 +20221,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/4.新手配置webpack的两种方案.md": {
-    "scroll": 0.08205128205128205,
+    "scroll": 6.7249483881213274,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 62
+        "line": 0,
+        "ch": 208
       },
       "to": {
-        "line": 73,
-        "ch": 62
+        "line": 0,
+        "ch": 208
       }
     },
     "expandedKeys": []
@@ -20241,12 +20238,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 7
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 7
       }
     },
     "expandedKeys": []
@@ -24819,14 +24816,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-12.md": {
-    "scroll": 1.2211350293542074,
+    "scroll": 26.013671875,
     "cursor": {
       "from": {
-        "line": 37,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 37,
+        "line": 31,
         "ch": 0
       }
     },
@@ -24886,11 +24883,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 95,
+        "line": 92,
         "ch": 0
       },
       "to": {
-        "line": 95,
+        "line": 92,
         "ch": 0
       }
     },
@@ -25336,6 +25333,110 @@
       },
       "to": {
         "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-13.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 90
+      },
+      "to": {
+        "line": 36,
+        "ch": 90
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/打包.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/编译.md": {
+    "scroll": 8.155224650293302,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 49
+      },
+      "to": {
+        "line": 17,
+        "ch": 49
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 59
+      },
+      "to": {
+        "line": 2,
+        "ch": 59
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 原理全面深度解析.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 58
+      },
+      "to": {
+        "line": 2,
+        "ch": 58
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 原理 全面深度解析.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 610,
+        "ch": 37
+      },
+      "to": {
+        "line": 610,
+        "ch": 37
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-24",
+      "item-2-28"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/Vite-DS.md": {
+    "scroll": 26.947596899224806,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
         "ch": 0
       }
     },
