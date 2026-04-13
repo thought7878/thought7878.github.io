@@ -1,6 +1,6 @@
 [【小白debug的作品】Docker是什么？架构怎么样？和k8s是什么关系？](https://www.douyin.com/video/7471545072736046372)
 
-# Docker 与 Kubernetes 核心概念解析
+>Docker 与 Kubernetes 核心概念解析
 
 ## Docker 是什么
 
@@ -29,21 +29,30 @@
 
 ## 容器镜像是什么
 
-`容器镜像`是**执行 docker build 命令后，按照 Dockerfile 构建的 “压缩包”，包含环境和程序**。
+`容器镜像/镜像`是**执行 docker build 命令后，按照 Dockerfile 构建的 “压缩包”，包含环境和程序**。
 **将其传到任意服务器，“解压缩” 后即可运行，*解决跨服务器部署问题***。
 
-
+![[_posts/server/media/a701c782f45d12e6b23a570326056a93_MD5.webp]]
 ## Registry 是什么
 
-Registry 是管理容器镜像推拉的服务，类似 GitHub 代码仓库。通过 docker push 将镜像上传到 Registry（如官方 Docker Hub、清华大学 TUNA 或公司私有仓库），其他服务器用 docker pull 拉取镜像。
+`Registry` 是*管理容器镜像推拉的服务，类似 GitHub 代码仓库*。通过 docker push 将镜像上传到 Registry（如官方 Docker Hub、清华大学 TUNA 或公司私有仓库），其他服务器用 docker pull 拉取镜像。
 
 ## 容器是什么
 
-`容器`是执行 docker run 命令后，“解压缩” 容器镜像得到的独立运行环境和应用程序。多个容器可在同一操作系统上独立、隔离运行。
+`容器`是**执行 docker run 命令后，“解压缩” 容器镜像并运行起来的环境和应用程序**。多个容器可在同一操作系统上**独立、隔离运行**。
+
+![[_posts/server/media/8f376e083c532f07ee7d8a59e24466d0_MD5.webp]]
+
+![[_posts/server/media/396d7b7819db4a933afdfe6656402ea3_MD5.webp]]
 
 ## 容器和虚拟机的关系
 
-容器与传统虚拟机类似但不同：传统虚拟机自带完整操作系统，容器不含完整系统，仅包含核心依赖库和配置文件。容器通过 namespace 实现独立操作系统的假象，通过 cgroup 限制计算资源，本质是自带独立运行环境的特殊进程，共享宿主机内核。
+**容器与传统虚拟机类似但不同**：传统虚拟机自带完整操作系统，容器不含完整系统，仅包含核心依赖库和配置文件。容器通过 namespace 实现独立操作系统的假象，通过 cgroup 限制计算资源，**本质是自带独立运行环境的特殊进程，共享宿主机内核**。
+
+![[_posts/server/media/cb1a796d4f73e52bccf1483fb9105afc_MD5.webp]]
+
+![[_posts/server/media/4f2ae04f2375cb46917024da4ba37a46_MD5.webp]]
+
 
 ## Docker 的架构原理
 
