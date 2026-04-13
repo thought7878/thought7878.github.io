@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 180.85514322916666,
+    "scroll": 52.645833333333336,
     "cursor": {
       "from": {
-        "line": 188,
+        "line": 69,
         "ch": 0
       },
       "to": {
-        "line": 188,
+        "line": 69,
         "ch": 0
       }
     },
@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 232.2666015625,
+    "scroll": 247.68663194444446,
     "cursor": {
       "from": {
-        "line": 236,
-        "ch": 203
+        "line": 256,
+        "ch": 0
       },
       "to": {
-        "line": 236,
-        "ch": 203
+        "line": 256,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1588,16 +1588,14 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 22
+        "ch": 26
       },
       "to": {
         "line": 0,
-        "ch": 70
+        "ch": 26
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/教程/Webpack 5 Optimizing For Production/03. 7 Ways Of Using CSS With Webpack/6. 另一种移除旧包的方法.md": {
     "scroll": 5.350260416666667,
@@ -2088,20 +2086,18 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 76.32341085271318,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 87,
-        "ch": 0
+        "line": 0,
+        "ch": 2
       },
       "to": {
-        "line": 87,
-        "ch": 0
+        "line": 0,
+        "ch": 31
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
     "scroll": 64.06976744186046,
@@ -4333,12 +4329,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 11
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 11
+        "line": 17,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -24864,20 +24860,18 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 63.63389581804842,
+    "scroll": 62.52237710931768,
     "cursor": {
       "from": {
-        "line": 77,
+        "line": 72,
         "ch": 0
       },
       "to": {
-        "line": 77,
+        "line": 72,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-13"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md": {
     "scroll": 0,
@@ -25429,14 +25423,140 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Vite-DS.md": {
-    "scroll": 26.947596899224806,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 2,
+        "ch": 54
+      },
+      "to": {
+        "line": 2,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/vite/Webpack vs Vite.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/Webpack 完整配置项.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/vite/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/Vite.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 22
+      },
+      "to": {
+        "line": 9,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/Vite.md": {
+    "scroll": 121.16083916083916,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 4
+      },
+      "to": {
+        "line": 19,
+        "ch": 77
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/Vite2.md": {
+    "scroll": 121.16083916083916,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 4
+      },
+      "to": {
+        "line": 19,
+        "ch": 77
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/Vite2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
