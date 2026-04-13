@@ -20262,12 +20262,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 43,
+        "ch": 95
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 43,
+        "ch": 95
       }
     },
     "expandedKeys": []
@@ -20276,12 +20276,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 81
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 81
       }
     },
     "expandedKeys": []
@@ -24860,7 +24860,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 62.52237710931768,
+    "scroll": 58.828776041666664,
     "cursor": {
       "from": {
         "line": 72,
@@ -25479,7 +25479,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md": {
-    "scroll": 0,
+    "scroll": 4.4375,
     "cursor": {
       "from": {
         "line": 7,
@@ -25490,7 +25490,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-7",
+      "item-2-2"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/未命名.md": {
     "scroll": 0,

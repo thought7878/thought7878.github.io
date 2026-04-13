@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.实战升级：前端工程化在不同场景的应用与提升/1.情景一：webpack+node.js服务端项目升级.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.实战升级：前端工程化在不同场景的应用与提升/2.情景二：开发体验提升，ts&js运行时升级.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.情景一：webpack+node.js服务端项目升级"
+              "title": "2.情景二：开发体验提升，ts&js运行时升级"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,11 +676,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vite 完整配置项"
+              "title": "前端工程化"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.实战升级：前端工程化在不同场景的应用与提升/2.情景二：开发体验提升，ts&js运行时升级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Vite 完整配置项 的反向链接列表"
+              "title": "2.情景二：开发体验提升，ts&js运行时升级 的反向链接列表"
             }
           },
           {
@@ -847,10 +847,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c371d13f2d1019",
+  "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.实战升级：前端工程化在不同场景的应用与提升/1.情景一：webpack+node.js服务端项目升级.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/历史.md",
     "_posts/读书笔记/男女.md",
@@ -859,7 +860,6 @@
     "_posts/base/知识目录、路线图/知识目录/工程化/Vite.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/Webpack 完整配置项.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md",
     "_posts/engineering/1.打包工具（Module Bundler）/vite/Webpack vs Vite.md",
     "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/核心原理/Webpack 原理 全面深度解析.md",
