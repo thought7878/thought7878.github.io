@@ -18470,18 +18470,20 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/2.安装配置Docker&Docker核心概念.md": {
-    "scroll": 78.21131042870174,
+    "scroll": 60.7710550319246,
     "cursor": {
       "from": {
-        "line": 110,
-        "ch": 16
+        "line": 73,
+        "ch": 0
       },
       "to": {
-        "line": 110,
-        "ch": 16
+        "line": 73,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/3.[扩展]管理Docker工具：Potainer&Lazy.md": {
     "scroll": 0,
@@ -20336,15 +20338,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.实战升级：前端工程化在不同场景的应用与提升/5.情景五：前端Vue项目升级策略&示例.md": {
-    "scroll": 0,
+    "scroll": 21.592868217054264,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 20
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -25677,6 +25679,20 @@
       "to": {
         "line": 31,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/5.情景五：前端Vue项目升级策略&示例.md": {
+    "scroll": 21.593488372093024,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 20
+      },
+      "to": {
+        "line": 28,
+        "ch": 20
       }
     },
     "expandedKeys": []
