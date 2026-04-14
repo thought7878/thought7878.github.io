@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-2.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/5.插件加速两种方法 & 常见插件推荐.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.Jenkins容器里面套docker&操作宿主机-2"
+              "title": "5.插件加速两种方法 & 常见插件推荐"
             }
           },
           {
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-2.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/5.插件加速两种方法 & 常见插件推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "4.Jenkins容器里面套docker&操作宿主机-2 的反向链接列表"
+              "title": "5.插件加速两种方法 & 常见插件推荐 的反向链接列表"
             }
           },
           {
@@ -849,11 +849,12 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-1.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/media/26dedc81efb756b0c1eb685353478fd2_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-2.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-1.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/media/9e826a775d9c75feb7b16ca11d88e0a7_MD5.webp",
     "_posts/methods/常看的.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/5.插件加速两种方法&常见插件推荐.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/5.插件加速两种方法 & 常见插件推荐.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/6.Jenkins权限配置（基于角色的权限控制）.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/media/7ec7c9373a78a6109f33bf1b7f75f654_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/3.Jenkins安装方式二：docker方式安装.md",
