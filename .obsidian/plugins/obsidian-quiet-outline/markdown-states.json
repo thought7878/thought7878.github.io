@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 114.92415364583333,
+    "scroll": 109.29459635416667,
     "cursor": {
       "from": {
-        "line": 129,
-        "ch": 0
+        "line": 116,
+        "ch": 133
       },
       "to": {
-        "line": 129,
-        "ch": 0
+        "line": 116,
+        "ch": 133
       }
     },
     "expandedKeys": []
@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 245.63107638888889,
+    "scroll": 245.88107638888889,
     "cursor": {
       "from": {
-        "line": 258,
-        "ch": 0
+        "line": 259,
+        "ch": 139
       },
       "to": {
-        "line": 258,
-        "ch": 0
+        "line": 259,
+        "ch": 139
       }
     },
     "expandedKeys": []
@@ -20602,15 +20602,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/2.Jenkins安装方式一：直装（Ubuntu演示，修改端.md": {
-    "scroll": 20.61108464348102,
+    "scroll": 24.324357976653697,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 37
+        "line": 35,
+        "ch": 11
       },
       "to": {
-        "line": 36,
-        "ch": 37
+        "line": 35,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -20619,11 +20619,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -25855,5 +25855,47 @@
       "item-2-0",
       "item-2-10"
     ]
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/4.Jenkins容器里面套docker&操作宿主机-1.md": {
+    "scroll": 15.595348837209302,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 0
+      },
+      "to": {
+        "line": 35,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/5.插件加速两种方法&常见插件推荐.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/6.Jenkins权限配置（基于角色的权限控制）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
