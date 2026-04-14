@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/2.安装配置Docker&Docker核心概念.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/3.管理Docker工具：Portainer&LazyDocker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.安装配置Docker&Docker核心概念"
+              "title": "3.管理Docker工具：Portainer&LazyDocker"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,11 +676,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端工程化"
+              "title": "Docker"
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/2.安装配置Docker&Docker核心概念.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "2.安装配置Docker&Docker核心概念 的反向链接列表"
+              "title": "Docker 的反向链接列表"
             }
           },
           {
@@ -847,21 +847,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ee32f8dd5a642b3",
+  "active": "d2c371d13f2d1019",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/3.管理Docker工具：Portainer&LazyDocker.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/5.情景五：前端Vue项目升级策略&示例.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/4.配置Docker国内的加速.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/2.安装配置Docker&Docker核心概念.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Docker.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
+    "_posts/devops/docker/Docker的概念.md",
+    "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md",
+    "_posts/devops/docker/Docker核心概念总结.md",
+    "_posts/architect/System Design/教程/趣学设计模式/03.分层思维：为什么要做代码分层架构？.md",
+    "_posts/engineering/5.模块化（Module）/为什么要使用 模块化？.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/media/7522fdb76132f6af474da0c9acca5592_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/4.[扩展]情景四：生产级项目构建&开发依赖升级-2.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/4.[扩展]情景四：生产级项目构建&开发依赖升级-1.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/6.服务端开发：走向全栈Nodejs与数据库/1.环境选择Java vs Node.js，探究Nest.js/3.常见问题：对比koa&eggjs&express，nes.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/media/8518f9a08e0cdd37b09e529e3fdaeb75_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-14.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-13.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/3.情景三：升级构建工具，webpack&rollup构建时.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/server/Docker.md",
     "_posts/server/media/91d875d1e40e78b8f5c60850902c3dbc_MD5.webp",
     "_posts/server/media/885df55c51e512ad6d970764c96a2828_MD5.webp",
     "_posts/server/media/60219d83a903e2cecc3142b432bd4028_MD5.webp",
@@ -873,20 +882,11 @@
     "_posts/server/media/a701c782f45d12e6b23a570326056a93_MD5.webp",
     "_posts/server/media",
     "_posts/methods/要整理的.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/optimization.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devTool.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/devServer.md",
     "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/externals.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/resolve.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/webpack/配置项/module.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/2.情景二：开发体验提升，ts&js运行时升级.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/1.情景一：webpack+node.js服务端项目升级.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/vite/Vite 完整配置项.md",
-    "_posts/读书笔记/历史.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Vite2.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media",

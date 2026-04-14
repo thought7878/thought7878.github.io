@@ -18470,20 +18470,18 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/2.安装配置Docker&Docker核心概念.md": {
-    "scroll": 60.7710550319246,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 0
+        "line": 38,
+        "ch": 25
       },
       "to": {
-        "line": 73,
-        "ch": 0
+        "line": 38,
+        "ch": 25
       }
     },
-    "expandedKeys": [
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/3.[扩展]管理Docker工具：Potainer&Lazy.md": {
     "scroll": 0,
@@ -18528,7 +18526,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/4.配置Docker国内的加速.md": {
-    "scroll": 10.449612403100776,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 16,
@@ -24358,15 +24356,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md": {
-    "scroll": 2.606660072535443,
+    "scroll": 2.853092176534313,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 23
+        "line": 13,
+        "ch": 0
       },
       "to": {
-        "line": 52,
-        "ch": 23
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -24402,35 +24400,29 @@
     ]
   },
   "_posts/devops/docker/Docker核心概念总结.md": {
-    "scroll": 268.60262270859306,
+    "scroll": 98.46923828125,
     "cursor": {
       "from": {
-        "line": 256,
-        "ch": 361
+        "line": 122,
+        "ch": 58
       },
       "to": {
-        "line": 256,
-        "ch": 361
+        "line": 122,
+        "ch": 58
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-2-11",
-      "item-2-6",
-      "item-2-15",
-      "item-2-21"
-    ]
+    "expandedKeys": []
   },
   "_posts/devops/docker/Docker是什么？容器是什么？k8s跟它有什么关系？(通俗视频).md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 8,
+        "ch": 12
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 8,
+        "ch": 12
       }
     },
     "expandedKeys": []
@@ -24869,14 +24861,14 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化.md": {
-    "scroll": 50.71084337349397,
+    "scroll": 13.694188518781006,
     "cursor": {
       "from": {
-        "line": 60,
+        "line": 28,
         "ch": 0
       },
       "to": {
-        "line": 60,
+        "line": 28,
         "ch": 0
       }
     },
@@ -24967,10 +24959,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-1-12"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript-DS.md": {
     "scroll": 0,
@@ -25654,7 +25643,7 @@
     ]
   },
   "_posts/server/Docker.md": {
-    "scroll": 80.53954142966047,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 88,
@@ -25665,9 +25654,7 @@
         "ch": 25
       }
     },
-    "expandedKeys": [
-      "item-2-7"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-14.md": {
     "scroll": 27.42017663043478,
@@ -25684,7 +25671,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/5.情景五：前端Vue项目升级策略&示例.md": {
-    "scroll": 21.593488372093024,
+    "scroll": 18.8253338145074,
     "cursor": {
       "from": {
         "line": 28,
@@ -25693,6 +25680,62 @@
       "to": {
         "line": 28,
         "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/Docker.md": {
+    "scroll": 102.84294108305542,
+    "cursor": {
+      "from": {
+        "line": 117,
+        "ch": 0
+      },
+      "to": {
+        "line": 117,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/server/Docker的概念.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/docker/Docker的概念.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/3.管理Docker工具：Portainer&LazyDocker.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
