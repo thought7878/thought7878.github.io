@@ -14957,15 +14957,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 356.2611885546588,
+    "scroll": 357.751353302057,
     "cursor": {
       "from": {
-        "line": 368,
-        "ch": 28
+        "line": 367,
+        "ch": 23
       },
       "to": {
-        "line": 368,
-        "ch": 28
+        "line": 367,
+        "ch": 23
       }
     },
     "expandedKeys": [
@@ -20577,12 +20577,12 @@
     "scroll": 44.653643410852716,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 12
+        "line": 60,
+        "ch": 32
       },
       "to": {
-        "line": 61,
-        "ch": 12
+        "line": 60,
+        "ch": 32
       }
     },
     "expandedKeys": []
@@ -20602,15 +20602,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/2.Jenkins安装方式一：直装（Ubuntu演示，修改端.md": {
-    "scroll": 0,
+    "scroll": 20.61108464348102,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 36,
+        "ch": 37
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 36,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -25823,5 +25823,37 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/1.深入浅出前端自动化/3.大厂案例&工具&流程设计.md": {
+    "scroll": 84.255859375,
+    "cursor": {
+      "from": {
+        "line": 96,
+        "ch": 63
+      },
+      "to": {
+        "line": 96,
+        "ch": 63
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/1.CICD界大佬：Jenkins介绍&安装方式&插件.md": {
+    "scroll": 114.49054263565891,
+    "cursor": {
+      "from": {
+        "line": 126,
+        "ch": 11
+      },
+      "to": {
+        "line": 126,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-2-3",
+      "item-2-0",
+      "item-2-10"
+    ]
   }
 }
