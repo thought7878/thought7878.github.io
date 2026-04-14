@@ -21,6 +21,8 @@
 - **版本查看**：`docker version` 查客户端/服务端版本，`docker info` 查系统配置与状态。
 
 ## 三、镜像管理
+参考：[[镜像管理]]
+
 - `docker pull`：从远程仓库下载镜像到本地。
 - `docker images`：列出本地已下载的镜像及大小、创建时间。
 - `docker rmi`：删除本地指定镜像（需先删除依赖它的容器）。
@@ -57,6 +59,8 @@
 - **存储驱动**：overlay2（默认）、aufs、btrfs 等，决定镜像层与容器层的文件系统实现。
 
 ## 七、Dockerfile 与镜像构建
+参考：[[_posts/devops/docker/Dockerfile|Dockerfile]]
+
 - `FROM`：指定基础镜像（构建起点，通常选官方精简版）。
 - `RUN`：在构建阶段执行命令（如安装软件），每层生成新镜像层。
 - `COPY / ADD`：将本地文件复制到镜像中（`ADD` 额外支持自动解压和 URL 下载）。
@@ -68,6 +72,8 @@
 - **构建缓存**：命令顺序决定缓存命中率，频繁变更的指令尽量放在文件末尾。
 
 ## 八、Docker Compose 多容器编排
+参考：[[Docker Compose]]
+
 - **作用**：通过 YAML 文件一键定义、启动和管理多容器应用。
 - `docker-compose.yml`：核心配置文件，包含服务、网络、卷、环境变量定义。
 - `docker compose up`：创建并启动所有服务（加 `-d` 后台运行，`--build` 强制重构建）。

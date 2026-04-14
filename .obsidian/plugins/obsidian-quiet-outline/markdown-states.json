@@ -20546,18 +20546,20 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/1.深入浅出前端自动化/1.概念及目标：什么是自动化？.md": {
-    "scroll": 0,
+    "scroll": 53.03627906976744,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 70,
+        "ch": 7
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 70,
+        "ch": 7
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/1.深入浅出前端自动化/2.常见概念：DevOps&敏捷开发.md": {
     "scroll": 0,
@@ -24356,14 +24358,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/6.Docker容器化技术，理解Docker的核心概念和配置/5.Docker集成管理命令compose.md": {
-    "scroll": 2.853092176534313,
+    "scroll": 2.507936507936508,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 6,
         "ch": 0
       }
     },
@@ -25671,7 +25673,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/5.情景五：前端Vue项目升级策略&示例.md": {
-    "scroll": 18.8253338145074,
+    "scroll": 18.079574160952724,
     "cursor": {
       "from": {
         "line": 28,
@@ -25685,15 +25687,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Docker.md": {
-    "scroll": 102.84294108305542,
+    "scroll": 44.3984496124031,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 0
+        "line": 54,
+        "ch": 25
       },
       "to": {
-        "line": 117,
-        "ch": 0
+        "line": 54,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -25736,6 +25738,62 @@
       "to": {
         "line": 1,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/docker/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/docker/镜像管理.md": {
+    "scroll": 2.4375,
+    "cursor": {
+      "from": {
+        "line": 184,
+        "ch": 58
+      },
+      "to": {
+        "line": 184,
+        "ch": 58
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/docker/Docker Compose.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 80,
+        "ch": 22
+      },
+      "to": {
+        "line": 80,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/docker/Dockerfile.md": {
+    "scroll": 86.01222537207654,
+    "cursor": {
+      "from": {
+        "line": 96,
+        "ch": 14
+      },
+      "to": {
+        "line": 96,
+        "ch": 14
       }
     },
     "expandedKeys": []
