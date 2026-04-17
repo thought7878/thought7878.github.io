@@ -3077,11 +3077,11 @@
     "scroll": 70.27083333333333,
     "cursor": {
       "from": {
-        "line": 82,
+        "line": 79,
         "ch": 0
       },
       "to": {
-        "line": 82,
+        "line": 79,
         "ch": 0
       }
     },
@@ -20953,29 +20953,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/5.集成docker-registry的.md": {
-    "scroll": 0,
+    "scroll": 69.22161989795919,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 3
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 28,
+        "ch": 3
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/6.gitlab集成docker-registry本.md": {
-    "scroll": 0,
+    "scroll": 2.5378621099346543,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 13,
+        "ch": 37
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 13,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -26029,12 +26029,40 @@
     "scroll": 43.137364341085274,
     "cursor": {
       "from": {
-        "line": 53,
-        "ch": 13
+        "line": 48,
+        "ch": 3
       },
       "to": {
-        "line": 53,
+        "line": 48,
         "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/3.gitlab进阶：内置registry发包过程&配合CICD自动化发布.md": {
+    "scroll": 61.14759689922481,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 9
+      },
+      "to": {
+        "line": 70,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/4.gitlab进阶：配置Vue项目CICD任务.md": {
+    "scroll": 41.14294573643411,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 0
+      },
+      "to": {
+        "line": 48,
+        "ch": 0
       }
     },
     "expandedKeys": []
