@@ -26012,15 +26012,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/2.gitlab进阶：gitlab-ci.yml配置文件编.md": {
-    "scroll": 2.6051183715613244,
+    "scroll": 27.238606770833332,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 28
+        "line": 44,
+        "ch": 21
       },
       "to": {
-        "line": 8,
-        "ch": 28
+        "line": 44,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/3.gitlab进阶：内置registry发包过程&配合C.md": {
+    "scroll": 43.137364341085274,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 13
+      },
+      "to": {
+        "line": 53,
+        "ch": 13
       }
     },
     "expandedKeys": []
