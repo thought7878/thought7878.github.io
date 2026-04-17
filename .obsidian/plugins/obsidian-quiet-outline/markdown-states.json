@@ -16005,12 +16005,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 104,
+        "ch": 28
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 104,
+        "ch": 28
       }
     },
     "expandedKeys": []
@@ -16019,26 +16019,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 110,
+        "ch": 46
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 110,
+        "ch": 46
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/21  原型模式：什么场景下需要用到对象拷贝？.md": {
-    "scroll": 0,
+    "scroll": 0.5578231292517006,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 145,
+        "ch": 38
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 145,
+        "ch": 38
       }
     },
     "expandedKeys": []
@@ -16048,11 +16048,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 59
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 59
       }
     },
     "expandedKeys": []
@@ -20543,7 +20543,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/1.深入浅出前端自动化/1.概念及目标：什么是自动化？.md": {
-    "scroll": 45.566080729166664,
+    "scroll": 46.172041105598865,
     "cursor": {
       "from": {
         "line": 61,
@@ -25498,11 +25498,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 58
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 58
       }
     },
     "expandedKeys": []
@@ -26105,12 +26105,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 74
+        "line": 0,
+        "ch": 54
       },
       "to": {
-        "line": 4,
-        "ch": 74
+        "line": 0,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md": {
+    "scroll": 96.75549110760439,
+    "cursor": {
+      "from": {
+        "line": 126,
+        "ch": 10
+      },
+      "to": {
+        "line": 126,
+        "ch": 10
       }
     },
     "expandedKeys": []
