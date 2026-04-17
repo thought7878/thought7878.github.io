@@ -25998,15 +25998,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/1.gitlab进阶：配置CICD的runners环境.md": {
-    "scroll": 3.3590494791666665,
+    "scroll": 26.928059895833332,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 66
+        "line": 43,
+        "ch": 23
       },
       "to": {
-        "line": 13,
-        "ch": 66
+        "line": 43,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/2.gitlab进阶：gitlab-ci.yml配置文件编.md": {
+    "scroll": 2.6051183715613244,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 28
+      },
+      "to": {
+        "line": 8,
+        "ch": 28
       }
     },
     "expandedKeys": []
