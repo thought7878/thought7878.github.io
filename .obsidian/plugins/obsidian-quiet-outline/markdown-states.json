@@ -20799,15 +20799,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/1.镜像仓库本地化方案registry(配置docker-h.md": {
-    "scroll": 0,
+    "scroll": 9.701127521041766,
     "cursor": {
       "from": {
-        "line": 59,
-        "ch": 4
+        "line": 13,
+        "ch": 59
       },
       "to": {
-        "line": 59,
-        "ch": 4
+        "line": 13,
+        "ch": 59
       }
     },
     "expandedKeys": []
@@ -20817,11 +20817,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 57
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 57
       }
     },
     "expandedKeys": []
@@ -25928,15 +25928,57 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-16.md": {
-    "scroll": 0,
+    "scroll": 23.681970203709334,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-17.md": {
+    "scroll": 28.763671875,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/2.企业级镜像仓库方案harbor.md": {
+    "scroll": 2.797680574814068,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 29
+      },
+      "to": {
+        "line": 13,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/3.npm私有化仓库方案-verdaccio.md": {
+    "scroll": 2.8063382379222017,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 15
+      },
+      "to": {
+        "line": 11,
+        "ch": 15
       }
     },
     "expandedKeys": []
