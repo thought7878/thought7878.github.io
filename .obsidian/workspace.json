@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/4.Jenkins CICD进阶：Pipeline流.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/1.gitlab进阶：配置CICD的runners环境.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4.Jenkins CICD进阶：Pipeline流"
+              "title": "1.gitlab进阶：配置CICD的runners环境"
             }
           },
           {
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/4.Jenkins CICD进阶：Pipeline流.md",
+                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/1.gitlab进阶：配置CICD的runners环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "4.Jenkins CICD进阶：Pipeline流 的反向链接列表"
+              "title": "1.gitlab进阶：配置CICD的runners环境 的反向链接列表"
             }
           },
           {
@@ -849,18 +849,24 @@
   },
   "active": "0ee32f8dd5a642b3",
   "lastOpenFiles": [
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/media/cc8974e1145b6fe391541000605e1fe7_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/media/a8474fcca7dc14251baf3a42ce1843f0_MD5.webp",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/5.Gitlab流水线进阶：从CICD到容器集成/media",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/4.Jenkins CICD进阶：Pipeline流.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/1.CICD流程初体验：Jenkins与Gitlab集成.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/3.npm私有化仓库方案-verdaccio.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/2.企业级镜像仓库方案harbor.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/1.镜像仓库本地化方案registry(配置docker-h.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media/c271033e72fb212b64b03fe239fe6145_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media/4377aaf5db68d587e4abb69a3df7a20d_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/3.npm私有化仓库方案-verdaccio.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media/507455db785019728a7d25a28ec12814_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/2.企业级镜像仓库方案harbor.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media/dfa6fcce6f1799c744de4392973a26f5_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/1.镜像仓库本地化方案registry(配置docker-h.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-17.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-16.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/5.[部署方案二]使用docker方案部署项目-2.md",
     "_posts/methods/要整理的.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/4.Jenkins CICD进阶：Pipeline流.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media/8f7b01b36189624fd5f51181c25bcb36_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/4.私有制品库：定制化的仓库与流水线策略/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/media/c0369aa575f80663aa15911588377749_MD5.webp",
@@ -871,11 +877,7 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/4.[部署方案一]使用PublishOverSSH插件部署项.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/media/6c195cfd50b5fad95127368c62c71fad_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/3.[扩展]如何配置Jenkins工作节点（安装JDK环境并.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/media/a5bb806a0c93cb213287f26a6fed3eac_MD5.webp",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/2.Jenkins配置Nodejs构建环境.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/media/a67374794805071437fb389cc475b9e1_MD5.webp",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/1.CICD流程初体验：Jenkins与Gitlab集成.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/3.Jenkins与Gitlab集成：构建与部署的实战/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/6.Jenkins权限配置（基于角色的权限控制）.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-14.md",
@@ -886,7 +888,6 @@
     "_posts/methods/常看的.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/3.Jenkins安装方式二：docker方式安装.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/2.Jenkins安装方式一：直装（Ubuntu演示，修改端.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/1.CICD界大佬：Jenkins介绍&安装方式&插件.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/2.深入Jenkins：从安装到高级配置/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/4.CICD、云构建工具/1.深入浅出前端自动化/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/3.升级实战：前端工程化在不同场景的应用与提升/media",
@@ -894,7 +895,6 @@
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/2.深度解析Webpack：核心概念、配置及AI辅助应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/3.前端工程化：Webpack&Vite构建/1.探索前端工程化：主流技术与工具的对比与应用/media",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/3.Git实战：协同冲突处理与版本管理最佳实践/media",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/3.阶段三：【工程化能力-通识强化】开发提效、代码质量提升/1.深入Git 高效代码管理与团队协作/2.深入探索Git：核心概念和本地、远程仓库管理/media",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
     "_posts/browser/渲染/浏览器的渲染流程.canvas"
