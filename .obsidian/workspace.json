@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.设置和代码库理解"
+              "title": "04-18 汇总"
             }
           }
         ],
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "3.设置和代码库理解 的反向链接列表"
+              "title": "04-18 汇总 的反向链接列表"
             }
           },
           {
@@ -847,14 +847,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "d2c371d13f2d1019",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/bugs/PR案例.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+    "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
     "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/CICD 集成.md",
     "_posts/AI/编程/教程/《Claude Code》教程/1.Claude Code课程介绍.md",
     "_posts/devops/docker/Dockerfile.md",
-    "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
     "_posts/AI/编程/教程/《Claude Code》教程/media/ad9904d9a048ec6221d43ec09c4836be_MD5.webp",
     "_posts/AI/编程/教程/《Claude Code》教程/media/abc6a3b80530c54475008be6ee5397ae_MD5.webp",
     "_posts/AI/编程/教程/《Claude Code》教程/media",
@@ -879,8 +881,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/08  简单原则：如何写出“简单”代码？.md",
     "_posts/architect/System Design/教程/趣学设计模式/09  最少原则：如何实现“最少知识”代码？.md",
     "_posts/architect/System Design/教程/趣学设计模式/10  表达原则：如何让源代码成为一种逻辑线索？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/11  职责原则：如何在代码设计中实现职责分离？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/12  面向对象原则：面向对象编程框架到底长什么样？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/e66916ec8660f16db3ff80a0884deadc_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/5e794c1108569b18ab0af4f6c8b2ef15_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/326e422b210bf51ccdd295be9feae290_MD5.webp",
