@@ -3077,11 +3077,11 @@
     "scroll": 61.53125,
     "cursor": {
       "from": {
-        "line": 77,
+        "line": 74,
         "ch": 0
       },
       "to": {
-        "line": 77,
+        "line": 74,
         "ch": 0
       }
     },
@@ -26217,12 +26217,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 28
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 28
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26231,12 +26231,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 68
+        "line": 11,
+        "ch": 16
       },
       "to": {
-        "line": 8,
-        "ch": 68
+        "line": 11,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 42
+      },
+      "to": {
+        "line": 9,
+        "ch": 42
       }
     },
     "expandedKeys": []

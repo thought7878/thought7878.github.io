@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/教程/《Claude Code》教程/1.Claude Code课程介绍.md",
+                "file": "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.Claude Code课程介绍"
+              "title": "2.什么是claude code"
             }
           }
         ],
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/AI/编程/教程/《Claude Code》教程/1.Claude Code课程介绍.md",
+                "file": "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "1.Claude Code课程介绍 的反向链接列表"
+              "title": "2.什么是claude code 的反向链接列表"
             }
           },
           {
@@ -849,11 +849,12 @@
   },
   "active": "d2c371d13f2d1019",
   "lastOpenFiles": [
-    "_posts/devops/docker/Dockerfile.md",
     "_posts/AI/编程/教程/《Claude Code》教程/1.Claude Code课程介绍.md",
+    "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
+    "_posts/methods/要整理的.md",
+    "_posts/devops/docker/Dockerfile.md",
     "_posts/AI/编程/教程/《Claude Code》教程",
     "_posts/AI/编程/教程",
-    "_posts/methods/要整理的.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/CICD 集成.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-18.md",
@@ -877,7 +878,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/11  职责原则：如何在代码设计中实现职责分离？.md",
     "_posts/architect/System Design/教程/趣学设计模式/12  面向对象原则：面向对象编程框架到底长什么样？.md",
     "_posts/architect/System Design/教程/趣学设计模式/13  反转原则：如何减少代码间的相互影响？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/14  惯例原则：如何提升编程中的沟通效率？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/e66916ec8660f16db3ff80a0884deadc_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/5e794c1108569b18ab0af4f6c8b2ef15_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/326e422b210bf51ccdd295be9feae290_MD5.webp",
