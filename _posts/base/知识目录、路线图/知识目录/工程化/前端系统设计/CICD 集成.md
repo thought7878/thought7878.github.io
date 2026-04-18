@@ -6,7 +6,7 @@
 将 React 单页应用的 **lint → test → build → deploy** 自动化，并实现“质量门禁前置”，核心是**用配置代替人工检查、用流水线代替本地验证**。下面以 **GitHub Actions + Vite + pnpm** 为例，给出可直接落地的方案。
 
 ---
-## 📐 一、流水线架构设计
+## 一、流水线架构设计
 | 阶段                | 职责              | 执行时机                            | 失败策略           |
 | ----------------- | --------------- | ------------------------------- | -------------- |
 | **Lint & Format** | 代码规范与格式化检查      | 每次 push/PR                      | 阻断合并，提示具体行号    |
@@ -18,7 +18,7 @@
 ✅ **设计原则**：检查前置、失败快返、缓存提速、环境隔离。
 
 ---
-## 📜 二、完整 GitHub Actions 配置示例
+## 二、完整 GitHub Actions 配置示例
 创建 `.github/workflows/ci-cd.yml`，粘贴以下内容：
 ```yaml
 name: React CI/CD
@@ -98,30 +98,30 @@ jobs:
 > - 环境变量通过 `secrets` 注入，**绝不硬编码**
 
 ---
-## 🔒 三、质量门禁前置策略（核心）
-| 门禁层级 | 实现方式 | 拦截时机 |
-|----------|----------|----------|
-| **提交前** | `husky` + `lint-staged` 本地 pre-commit hook | 代码未 commit 时拦截，避免污染仓库 |
+## 三、质量门禁前置策略（核心）
+| 门禁层级       | 实现方式                                                        | 拦截时机                   |
+| ---------- | ----------------------------------------------------------- | ---------------------- |
+| **提交前**    | `husky` + `lint-staged` 本地 pre-commit hook                  | 代码未 commit 时拦截，避免污染仓库  |
 | **PR 合并前** | GitHub Branch Protection 规则：`Require status checks to pass` | 未通过 CI 的 PR 无法点击 Merge |
-| **测试覆盖** | `vitest.config.ts` 配置 `coverage.threshold`（如 lines: 80%） | 覆盖率不足则测试失败，流水线阻断 |
-| **构建产物** | `build` 阶段失败自动中止，不触发 `deploy` job | 避免将编译错误的代码推至线上 |
-| **安全扫描** | 集成 `npm audit` / `trivy` / `github/dependabot` | 高危依赖漏洞阻断合并 |
+| **测试覆盖**   | `vitest.config.ts` 配置 `coverage.threshold`（如 lines: 80%）    | 覆盖率不足则测试失败，流水线阻断       |
+| **构建产物**   | `build` 阶段失败自动中止，不触发 `deploy` job                           | 避免将编译错误的代码推至线上         |
+| **安全扫描**   | 集成 `npm audit` / `trivy` / `github/dependabot`              | 高危依赖漏洞阻断合并             |
 
 📌 **配置分支保护路径**：`Settings → Branches → main → Protect matching branches`  
 ✅ 勾选：`Require pull request reviews before merging` + `Require status checks`
 
 ---
-## 🚀 四、部署与回滚机制
-| 场景 | 推荐方案 | 优势 |
-|------|----------|------|
-| **零配置部署** | Vercel / Netlify 绑定 GitHub 仓库 | 自动识别框架、Preview 环境、边缘 CDN |
-| **自建部署** | GitHub Pages / AWS S3 + CloudFront / Nginx | 可控性强，适合企业内网或定制域名 |
-| **环境隔离** | `dev` 分支 → Preview 环境，`main` → 生产环境 | 避免未验证代码影响线上用户 |
-| **快速回滚** | 静态托管天然支持“保留历史构建”，一键切换上一个版本 | 无需重新编译，MTTR < 1 分钟 |
-| **缓存失效** | Vite 自动为文件名添加 Hash（`index.[hash].js`） | 配合长效缓存策略，更新无感知 |
+## 四、部署与回滚机制
+| 场景        | 推荐方案                                       | 优势                       |
+| --------- | ------------------------------------------ | ------------------------ |
+| **零配置部署** | Vercel / Netlify 绑定 GitHub 仓库              | 自动识别框架、Preview 环境、边缘 CDN |
+| **自建部署**  | GitHub Pages / AWS S3 + CloudFront / Nginx | 可控性强，适合企业内网或定制域名         |
+| **环境隔离**  | `dev` 分支 → Preview 环境，`main` → 生产环境        | 避免未验证代码影响线上用户            |
+| **快速回滚**  | 静态托管天然支持“保留历史构建”，一键切换上一个版本                 | 无需重新编译，MTTR < 1 分钟       |
+| **缓存失效**  | Vite 自动为文件名添加 Hash（`index.[hash].js`）      | 配合长效缓存策略，更新无感知           |
 
 ---
-## 📊 五、监控与反馈闭环
+## 五、监控与反馈闭环
 | 环节 | 实践 | 价值 |
 |------|------|------|
 | **流水线通知** | 集成 Slack/钉钉/飞书 Webhook，失败时 @负责人 | 缩短故障响应时间 |
@@ -130,7 +130,7 @@ jobs:
 | **Preview 部署** | Vercel/Netlify 为每个 PR 生成独立预览链接 | 产品/设计可提前验收，减少返工 |
 
 ---
-## 💡 六、初学者避坑指南
+## 六、初学者避坑指南
 | 坑点 | 原因 | 解决 |
 |------|------|------|
 | 流水线每次跑 10+ 分钟 | 未缓存 `node_modules`，重复安装依赖 | 使用 `actions/setup-node@v4` 内置 cache |
