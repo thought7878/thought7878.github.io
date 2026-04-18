@@ -12807,15 +12807,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 291,
+        "ch": 14
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 291,
+        "ch": 8
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36057.md": {
     "scroll": 0,
@@ -26273,16 +26275,33 @@
     "scroll": 29.828450520833332,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 63
+        "line": 35,
+        "ch": 20
       },
       "to": {
-        "line": 34,
-        "ch": 63
+        "line": 35,
+        "ch": 20
       }
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/bugs/36284.md": {
+    "scroll": 111.23402740097667,
+    "cursor": {
+      "from": {
+        "line": 125,
+        "ch": 0
+      },
+      "to": {
+        "line": 125,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-11"
     ]
   }
 }

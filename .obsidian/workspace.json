@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36284.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04-18 汇总"
+              "title": "36284"
             }
           }
         ],
@@ -763,7 +763,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36284.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -773,7 +773,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "04-18 汇总 的反向链接列表"
+              "title": "36284 的反向链接列表"
             }
           },
           {
@@ -847,10 +847,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c371d13f2d1019",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/bugs/PR案例.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/36284.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/PR案例.md",
     "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
     "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md",
@@ -880,7 +881,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md",
     "_posts/architect/System Design/教程/趣学设计模式/08  简单原则：如何写出“简单”代码？.md",
     "_posts/architect/System Design/教程/趣学设计模式/09  最少原则：如何实现“最少知识”代码？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/10  表达原则：如何让源代码成为一种逻辑线索？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/e66916ec8660f16db3ff80a0884deadc_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/5e794c1108569b18ab0af4f6c8b2ef15_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/326e422b210bf51ccdd295be9feae290_MD5.webp",
