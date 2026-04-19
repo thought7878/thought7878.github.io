@@ -12807,12 +12807,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 291,
-        "ch": 14
+        "line": 5,
+        "ch": 15
       },
       "to": {
-        "line": 291,
-        "ch": 8
+        "line": 5,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -26116,15 +26116,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md": {
-    "scroll": 71.65933489385745,
+    "scroll": 13.461475854584915,
     "cursor": {
       "from": {
-        "line": 106,
-        "ch": 41
+        "line": 29,
+        "ch": 71
       },
       "to": {
-        "line": 106,
-        "ch": 41
+        "line": 29,
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -26272,20 +26272,18 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md": {
-    "scroll": 29.828450520833332,
+    "scroll": 88.61067708333333,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 20
+        "line": 101,
+        "ch": 0
       },
       "to": {
-        "line": 35,
-        "ch": 20
+        "line": 101,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36284.md": {
     "scroll": 117.79329427083333,
@@ -26304,15 +26302,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/未命名.md": {
-    "scroll": 304.6875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 321,
-        "ch": 16
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 321,
-        "ch": 16
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -26320,19 +26318,20 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/React 源码系统学习指南.md": {
-    "scroll": 43.650390625,
+    "scroll": 196.28385416666666,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 10
+        "line": 212,
+        "ch": 20
       },
       "to": {
-        "line": 57,
-        "ch": 10
+        "line": 212,
+        "ch": 20
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md": {
@@ -26350,15 +26349,49 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36284-试过，没复现问题.md": {
+    "scroll": 10.322458029775103,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 19
+      },
+      "to": {
+        "line": 25,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/源码/React 水合(Hydration)机制.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 75
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 75
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-1-28"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md": {
+    "scroll": 133.24645641389085,
+    "cursor": {
+      "from": {
+        "line": 149,
+        "ch": 49
+      },
+      "to": {
+        "line": 149,
+        "ch": 49
       }
     },
     "expandedKeys": [
