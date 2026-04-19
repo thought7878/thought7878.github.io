@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-19"
+              "title": "2026-04-20"
             }
           },
           {
@@ -704,7 +704,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -787,7 +787,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
+                "file": "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -797,7 +797,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "36169 的反向链接列表"
+              "title": "SZ项目规划方案-实现 的反向链接列表"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -871,10 +871,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "78f8c6d9805c5474",
   "lastOpenFiles": [
-    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
@@ -894,14 +896,12 @@
     "_posts/react/总结/核心概念、原理、源码/bugs/36284-试过，没复现问题.md",
     "_posts/react/总结/核心概念、原理、源码/源码/React 源码系统学习指南.md",
     "_posts/react/总结/核心概念、原理、源码/源码/React 水合(Hydration)机制.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-18.md",
     "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md",
     "_posts/AI/AI.md",
     "_posts/methods/编程/AI与编程.md",
     "_posts/AI/编程/教程/《Claude Code》教程/2.什么是claude code.md",
     "_posts/AI/编程/教程/《Claude Code》教程/1.Claude Code课程介绍.md",
-    "_posts/devops/docker/Dockerfile.md",
     "_posts/AI/编程/教程/《Claude Code》教程/media/ad9904d9a048ec6221d43ec09c4836be_MD5.webp",
     "_posts/AI/编程/教程/《Claude Code》教程/media/abc6a3b80530c54475008be6ee5397ae_MD5.webp",
     "_posts/AI/编程/教程/《Claude Code》教程/media",

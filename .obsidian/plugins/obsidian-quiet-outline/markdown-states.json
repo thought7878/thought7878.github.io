@@ -26333,15 +26333,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 25.826171875,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26552,15 +26552,33 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36169.md": {
-    "scroll": 170.04720052083334,
+    "scroll": 228.99837239583334,
     "cursor": {
       "from": {
-        "line": 191,
-        "ch": 0
+        "line": 245,
+        "ch": 33
       },
       "to": {
-        "line": 191,
-        "ch": 0
+        "line": 245,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-1-11",
+      "item-2-12",
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 27
+      },
+      "to": {
+        "line": 37,
+        "ch": 27
       }
     },
     "expandedKeys": []
