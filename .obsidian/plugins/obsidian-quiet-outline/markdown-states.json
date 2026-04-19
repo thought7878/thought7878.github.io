@@ -26116,15 +26116,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md": {
-    "scroll": 96.22941101206978,
+    "scroll": 71.65933489385745,
     "cursor": {
       "from": {
-        "line": 112,
-        "ch": 0
+        "line": 106,
+        "ch": 41
       },
       "to": {
-        "line": 112,
-        "ch": 0
+        "line": 106,
+        "ch": 41
       }
     },
     "expandedKeys": []
@@ -26202,15 +26202,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-18.md": {
-    "scroll": 33.917198443579764,
+    "scroll": 27.278872282608695,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26288,15 +26288,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36284.md": {
-    "scroll": 38.998697916666664,
+    "scroll": 117.79329427083333,
     "cursor": {
       "from": {
-        "line": 125,
-        "ch": 0
+        "line": 124,
+        "ch": 32
       },
       "to": {
-        "line": 125,
-        "ch": 0
+        "line": 124,
+        "ch": 32
       }
     },
     "expandedKeys": [
@@ -26329,6 +26329,36 @@
       "to": {
         "line": 57,
         "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 90
+      },
+      "to": {
+        "line": 32,
+        "ch": 90
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/总结/核心概念、原理、源码/bugs/36284-试过，没复现问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
