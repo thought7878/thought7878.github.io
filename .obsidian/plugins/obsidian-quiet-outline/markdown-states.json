@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 107.88713178294573,
+    "scroll": 123.35394965277777,
     "cursor": {
       "from": {
-        "line": 122,
-        "ch": 8
+        "line": 140,
+        "ch": 0
       },
       "to": {
-        "line": 122,
-        "ch": 8
+        "line": 140,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26396,6 +26396,154 @@
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/学习计划/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 12
+      },
+      "to": {
+        "line": 0,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/media/前端架构师学习路径与项目实践计划.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构师学习路径与项目实践计划.md": {
+    "scroll": 199.93940467753367,
+    "cursor": {
+      "from": {
+        "line": 210,
+        "ch": 15
+      },
+      "to": {
+        "line": 210,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-26"
+    ]
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-提示词.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 18
+      },
+      "to": {
+        "line": 3,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-提示.md": {
+    "scroll": 51.69860465116279,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 12
+      },
+      "to": {
+        "line": 70,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-问题.md": {
+    "scroll": 43.42976744186046,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 12
+      },
+      "to": {
+        "line": 70,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-答案.md": {
+    "scroll": 1407.7659505208333,
+    "cursor": {
+      "from": {
+        "line": 1418,
+        "ch": 29
+      },
+      "to": {
+        "line": 1418,
+        "ch": 29
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-20",
+      "item-2-30",
+      "item-2-50",
+      "item-2-62",
+      "item-2-72",
+      "item-2-85",
+      "item-2-91",
+      "item-2-98",
+      "item-2-107",
+      "item-2-113",
+      "item-2-118",
+      "item-3-1",
+      "item-3-23",
+      "item-3-32",
+      "item-3-66"
     ]
   }
 }
