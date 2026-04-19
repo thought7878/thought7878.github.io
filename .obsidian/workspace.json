@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04-18 汇总"
+              "title": "36169"
             }
           }
         ],
@@ -787,7 +787,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -797,7 +797,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "04-18 汇总 的反向链接列表"
+              "title": "36169 的反向链接列表"
             }
           },
           {
@@ -871,11 +871,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2c371d13f2d1019",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
     "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-答案.md",
     "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-问题.md",
@@ -906,7 +907,6 @@
     "_posts/AI/编程/教程/《Claude Code》教程/media",
     "_posts/AI/编程/教程/《Claude Code》教程",
     "_posts/AI/编程/教程",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-17.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计",
     "_posts/architect/System Design/教程/趣学设计模式/media/e66916ec8660f16db3ff80a0884deadc_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/5e794c1108569b18ab0af4f6c8b2ef15_MD5.webp",
