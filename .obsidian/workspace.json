@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/源码/React 水合(Hydration)机制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SZ项目规划方案-实现"
+              "title": "React 水合(Hydration)机制"
             }
           },
           {
@@ -704,7 +704,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -787,7 +787,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -797,7 +797,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "SZ项目规划方案-实现 的反向链接列表"
+              "title": "36169 的反向链接列表"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -871,16 +871,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "78f8c6d9805c5474",
+  "active": "d2c371d13f2d1019",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/源码/React 水合(Hydration)机制.md",
+    "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
+    "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-答案.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-19.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/36169.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-实现.md",
-    "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-答案.md",
     "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-问题.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -895,7 +896,6 @@
     "_posts/AI/编程/教程/《Claude Code》教程/3.设置和代码库理解.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/36284-试过，没复现问题.md",
     "_posts/react/总结/核心概念、原理、源码/源码/React 源码系统学习指南.md",
-    "_posts/react/总结/核心概念、原理、源码/源码/React 水合(Hydration)机制.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-18.md",
     "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md",
     "_posts/AI/AI.md",

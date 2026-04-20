@@ -26366,19 +26366,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 75
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 75
+        "line": 3,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-2-4",
-      "item-1-28"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md": {
     "scroll": 61.74697674418605,
@@ -26510,7 +26506,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/学习计划/前端架构/SZ项目规划方案-答案.md": {
-    "scroll": 659.861328125,
+    "scroll": 589.0252935862692,
     "cursor": {
       "from": {
         "line": 675,
@@ -26541,32 +26537,33 @@
     "scroll": 0.9343434343434344,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 29
+        "line": 17,
+        "ch": 52
       },
       "to": {
-        "line": 11,
-        "ch": 29
+        "line": 17,
+        "ch": 52
       }
     },
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36169.md": {
-    "scroll": 228.99837239583334,
+    "scroll": 320.6119791666667,
     "cursor": {
       "from": {
-        "line": 245,
-        "ch": 33
+        "line": 335,
+        "ch": 0
       },
       "to": {
-        "line": 245,
-        "ch": 33
+        "line": 335,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-11",
       "item-2-12",
-      "item-1-0"
+      "item-1-0",
+      "item-1-20"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md": {
