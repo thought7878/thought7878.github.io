@@ -479,7 +479,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 129.16460503472223,
+    "scroll": 120.19390190972223,
     "cursor": {
       "from": {
         "line": 137,
@@ -26114,15 +26114,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计.md": {
-    "scroll": 35.295572916666664,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 60
+        "line": 5,
+        "ch": 67
       },
       "to": {
-        "line": 45,
-        "ch": 60
+        "line": 5,
+        "ch": 67
       }
     },
     "expandedKeys": []
@@ -26145,15 +26145,19 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 71
+        "line": 4,
+        "ch": 25
       },
       "to": {
-        "line": 1,
-        "ch": 71
+        "line": 4,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-36",
+      "item-2-1",
+      "item-3-32"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/关注点分离.md": {
     "scroll": 0,
@@ -26548,32 +26552,113 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36169.md": {
-    "scroll": 200.0810546875,
+    "scroll": 199.02011217948717,
     "cursor": {
       "from": {
-        "line": 211,
-        "ch": 3
+        "line": 212,
+        "ch": 34
       },
       "to": {
-        "line": 211,
-        "ch": 3
+        "line": 212,
+        "ch": 34
       }
     },
-    "expandedKeys": [
-      "item-1-11",
-      "item-2-12"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-20.md": {
+    "scroll": 22.78686530860444,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/学习计划/前端架构/前端架构师学习路径与项目实践计划.md": {
+    "scroll": 12.870077519379844,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 7
+      },
+      "to": {
+        "line": 28,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-21.md": {
     "scroll": 27.42017663043478,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 27
+        "line": 36,
+        "ch": 90
       },
       "to": {
-        "line": 37,
-        "ch": 27
+        "line": 36,
+        "ch": 90
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端架构知识体系总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 15
+      },
+      "to": {
+        "line": 28,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系框架.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 20
+      },
+      "to": {
+        "line": 0,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系框架（2026版）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 18
+      },
+      "to": {
+        "line": 6,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系学习指南.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 25
+      },
+      "to": {
+        "line": 7,
+        "ch": 25
       }
     },
     "expandedKeys": []
