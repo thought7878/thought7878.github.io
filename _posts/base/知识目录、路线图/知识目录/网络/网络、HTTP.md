@@ -1,5 +1,5 @@
 
-参考资料：[[互联网是如何运作的？]]、[[HTTP]]
+参考资料：[[互联网是如何运作的？]]、[[HTTP]]、[[4.HTTP 协议]]
 
 ---
 
@@ -35,4 +35,43 @@
 
 建议通过理论学习结合实际操作的方式进行掌握，可搭建简单服务器进行HTTP请求测试，使用抓包工具分析实际网站的网络请求过程，从而深化对这些知识点的理解与应用能力。
 
+---
 
+为系统学习Web开发所需的网络及HTTP相关知识，需要详细总结并掌握以下核心知识点体系，包括理论基础、技术规范、实践应用及相关工具使用：
+
+1. 计算机网络基础理论：
+   - OSI七层模型与TCP/IP四层模型的结构及各层功能
+   - 数据链路层、网络层、传输层、应用层的核心协议与工作原理
+   - IP地址、子网掩码、网关、DNS域名解析的概念与工作机制
+   - TCP与UDP协议的区别、特点及适用场景
+   - 三次握手、四次挥手的连接建立与关闭过程
+   - 常见网络故障排查方法与网络安全基础知识
+
+2. HTTP协议核心知识：
+   - HTTP协议的定义、特点、工作原理及发展历程(HTTP/1.0、HTTP/1.1、HTTP/2、HTTP/3)
+   - 请求-响应模型的完整流程与状态码体系(1xx-5xx)及具体含义
+   - HTTP请求方法(GET、POST、PUT、DELETE、PATCH等)的使用场景与区别
+   - 请求头(Header)与响应头的关键字段(Host、User-Agent、Content-Type、Cookie、Session、Cache-Control等)
+   - 请求体(Body)的格式与数据编码方式(FormData、JSON、XML等)
+   - URL的结构组成与URL编码规则
+   - 状态管理机制：Cookie的属性(Secure、HttpOnly、SameSite等)与Session的工作原理
+   - 缓存机制：强缓存与协商缓存的实现原理及相关头字段(Expires、Cache-Control、ETag、Last-Modified)
+   - HTTPS的加密原理、SSL/TLS握手过程及证书验证机制
+   - RESTful API设计规范与最佳实践
+
+3. 相关技术与实践应用：
+   - 跨域资源共享(CORS)的原理、配置方法与限制
+   - 同源策略及其对Web安全的影响
+   - AJAX技术的工作原理与XMLHttpRequest对象
+   - Fetch API与Axios等现代HTTP客户端的使用方法
+   - WebSocket协议的特点、应用场景及与HTTP的区别
+   - 常见网络攻击类型(XSS、CSRF、SQL注入等)及防御措施
+   - API认证与授权机制(Basic Auth、Token认证、OAuth 2.0、JWT等)
+
+4. 开发与调试工具：
+   - 浏览器开发者工具(Network面板)的使用技巧
+   - HTTP抓包工具(Fiddler、Charles、Wireshark)的基本操作
+   - Postman、Insomnia等API测试工具的使用方法
+   - 服务器日志分析与网络性能监控方法
+
+学习过程中需结合实际案例进行实践，通过搭建简单的客户端-服务器模型，观察并分析HTTP请求与响应的详细过程，掌握网络通信的底层原理与调试技巧，为Web开发打下坚实的网络基础。
