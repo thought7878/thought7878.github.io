@@ -24859,11 +24859,11 @@
     "scroll": 13.694188518781006,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 16,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 16,
         "ch": 0
       }
     },
@@ -24873,11 +24873,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 92,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 92,
+        "line": 2,
         "ch": 0
       }
     },
@@ -24929,15 +24929,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md": {
-    "scroll": 0,
+    "scroll": 1.5833333333333335,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 28
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 28
+        "line": 7,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26833,18 +26833,29 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 231.57194010416666,
+    "scroll": 1414.2457682291667,
     "cursor": {
       "from": {
-        "line": 244,
-        "ch": 8
+        "line": 1437,
+        "ch": 1
       },
       "to": {
-        "line": 244,
-        "ch": 8
+        "line": 1437,
+        "ch": 1
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-23",
+      "item-2-20",
+      "item-2-0",
+      "item-3-9",
+      "item-2-30",
+      "item-2-50",
+      "item-2-62",
+      "item-2-72",
+      "item-3-35",
+      "item-3-73"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-实现.md": {
     "scroll": 0,
@@ -27003,15 +27014,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/6.工具链.md": {
-    "scroll": 0,
+    "scroll": 30.9988580998782,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 0
+        "line": 33,
+        "ch": 93
       },
       "to": {
-        "line": 44,
-        "ch": 0
+        "line": 33,
+        "ch": 93
       }
     },
     "expandedKeys": []
@@ -27110,6 +27121,65 @@
       "to": {
         "line": 9,
         "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/_现代前端开发工具链.md": {
+    "scroll": 18.183255813953487,
+    "cursor": {
+      "from": {
+        "line": 269,
+        "ch": 13
+      },
+      "to": {
+        "line": 269,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md": {
+    "scroll": 83.08876683203403,
+    "cursor": {
+      "from": {
+        "line": 77,
+        "ch": 77
+      },
+      "to": {
+        "line": 77,
+        "ch": 77
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
+    "scroll": 44.41236413043478,
+    "cursor": {
+      "from": {
+        "line": 52,
+        "ch": 0
+      },
+      "to": {
+        "line": 52,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-13",
+      "item-1-33"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
+    "scroll": 47.936197916666664,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 24
+      },
+      "to": {
+        "line": 59,
+        "ch": 24
       }
     },
     "expandedKeys": []
