@@ -26145,18 +26145,19 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 25
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 25
+        "line": 17,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-36",
-      "item-2-1",
-      "item-3-32"
+      "item-2-42",
+      "item-2-37",
+      "item-2-23",
+      "item-2-19"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/关注点分离.md": {
@@ -26174,20 +26175,18 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/关注点分离（单页应用）.md": {
-    "scroll": 0,
+    "scroll": 12.850260416666666,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 30,
+        "ch": 69
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 30,
+        "ch": 69
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/CICD 集成.md": {
     "scroll": 0,
@@ -26552,15 +26551,15 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36169.md": {
-    "scroll": 199.02011217948717,
+    "scroll": 197.75618489583334,
     "cursor": {
       "from": {
-        "line": 212,
-        "ch": 34
+        "line": 200,
+        "ch": 0
       },
       "to": {
-        "line": 212,
-        "ch": 34
+        "line": 200,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26622,29 +26621,29 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系框架.md": {
-    "scroll": 0,
+    "scroll": 44.6337890625,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 20
+        "line": 30,
+        "ch": 19
       },
       "to": {
-        "line": 0,
-        "ch": 20
+        "line": 30,
+        "ch": 19
       }
     },
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系框架（2026版）.md": {
-    "scroll": 0,
+    "scroll": 46.663569125734874,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 18
+        "line": 4,
+        "ch": 10
       },
       "to": {
-        "line": 6,
-        "ch": 18
+        "line": 4,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -26653,12 +26652,180 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 25
+        "line": 6,
+        "ch": 23
       },
       "to": {
-        "line": 7,
-        "ch": 25
+        "line": 6,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 19
+      },
+      "to": {
+        "line": 17,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/前端系统设计知识体系清单.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/工程化/前端系统设计/_前端系统设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 19
+      },
+      "to": {
+        "line": 17,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端系统设计知识体系学习指南.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端系统设计知识体系清单.md": {
+    "scroll": 24.089922480620157,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 18
+      },
+      "to": {
+        "line": 29,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构/SZ项目规划方案-实现.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 16
+      },
+      "to": {
+        "line": 9,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构/SZ项目规划方案-问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 10
+      },
+      "to": {
+        "line": 9,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端系统设计知识体系框架.md": {
+    "scroll": 44.6337890625,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 19
+      },
+      "to": {
+        "line": 30,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 15
+      },
+      "to": {
+        "line": 28,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构/前端架构师学习路径与项目实践计划.md": {
+    "scroll": 28.277994791666668,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构/SZ项目规划方案-答案.md": {
+    "scroll": 40.715494791666664,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-答案.md": {
+    "scroll": 74.26308191988451,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 13
+      },
+      "to": {
+        "line": 59,
+        "ch": 13
       }
     },
     "expandedKeys": []
