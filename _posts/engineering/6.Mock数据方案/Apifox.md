@@ -1,4 +1,7 @@
 
+参考：[22分钟学会Apifox！2024年的Apifox有什么全新功能？](https://www.bilibili.com/video/BV1Jc41147xC/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+
 Apifox 是 2020 年后迅速崛起的 **一体化 API 协作平台**，以“API 文档 + Mock + 调试 + 自动化测试 + 代码生成”为核心能力，彻底打破传统工具链（Swagger + Postman + YApi + 自研脚本）割裂的痛点。至 2026 年，它已成为中大型研发团队、政企数字化项目、微服务架构的 **API 基础设施首选**。
 
 以下从产品定位、核心架构、工作流、集成能力到工程实践进行系统拆解。
