@@ -27251,24 +27251,23 @@
     "expandedKeys": []
   },
   "_posts/engineering/6.Mock数据方案/Mock数据方案.md": {
-    "scroll": 617.611328125,
+    "scroll": 741.6936918857449,
     "cursor": {
       "from": {
-        "line": 624,
-        "ch": 31
+        "line": 759,
+        "ch": 8
       },
       "to": {
-        "line": 624,
-        "ch": 31
+        "line": 759,
+        "ch": 8
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
-      "item-3-40",
       "item-2-45",
-      "item-3-14",
-      "item-3-25"
+      "item-2-49",
+      "item-2-54"
     ]
   },
   "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md": {
@@ -27287,5 +27286,33 @@
       "item-1-0",
       "item-3-4"
     ]
+  },
+  "_posts/engineering/6.Mock数据方案/MSW (Mock Service Worker).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/6.Mock数据方案/Apifox.md": {
+    "scroll": 39.75239742178903,
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 0
+      },
+      "to": {
+        "line": 49,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
