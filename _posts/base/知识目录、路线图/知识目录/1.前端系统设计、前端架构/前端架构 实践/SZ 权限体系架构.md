@@ -1,7 +1,7 @@
 
 >京东商智平台权限体系架构与前端实现方案详解
 
-## 一、权限体系架构总览
+## 一、权限体系架构 总览
 
 ### 1.1 权限模型设计
 
@@ -96,7 +96,7 @@ interface Permission {
   id: string;
   code: string;        // 权限码，如 'product:view'
   name: string;        // 权限名称
-  type: 'menu' | 'button' | 'api' | 'data';
+  type: 'menu/page' | 'button/component' | 'api' | 'data';
   resource?: string;   // 资源标识
   action?: string;     // 操作类型：view/create/edit/delete/export
 }
@@ -143,11 +143,11 @@ interface User {
 
 ---
 
-## 二、前端权限体系实现方案
+## 二、前端权限体系 实现方案
 
 ### 2.1 权限数据的获取与存储
 
-#### （1）登录时获取权限数据
+#### （1）登录时 获取权限数据
 
 ```typescript
 // 登录接口响应结构
