@@ -503,7 +503,7 @@ const Sider: React.FC<SiderProps> = ({ collapsed, location }) => {
     },
   ];
 
-  // 根据权限过滤菜单
+  // 根据权限过滤菜单 
   const menuItems = allMenuItems.filter(item =>
     !item.permission || hasPermission(item.permission)
   );
