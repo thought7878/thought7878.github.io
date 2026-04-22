@@ -26833,19 +26833,21 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 0.8484848484848485,
+    "scroll": 98.01283932501835,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 114,
+        "ch": 35
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 114,
+        "ch": 35
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-0",
+      "item-3-17",
+      "item-3-26"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-实现.md": {
@@ -27145,22 +27147,18 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 188.4120930232558,
+    "scroll": 101.73336509448944,
     "cursor": {
       "from": {
-        "line": 204,
+        "line": 119,
         "ch": 0
       },
       "to": {
-        "line": 204,
+        "line": 119,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-13",
-      "item-1-33",
-      "item-1-70"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
     "scroll": 47.936197916666664,
@@ -27207,25 +27205,77 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md": {
-    "scroll": 487.8212890625,
+    "scroll": 5.733953076582559,
     "cursor": {
       "from": {
-        "line": 505,
-        "ch": 14
+        "line": 11,
+        "ch": 22
       },
       "to": {
-        "line": 505,
-        "ch": 14
+        "line": 11,
+        "ch": 22
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-3-2",
-      "item-2-10",
-      "item-2-33",
-      "item-3-11",
-      "item-3-14",
-      "item-3-17"
+      "item-3-17",
+      "item-3-26"
     ]
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/6.Mock数据方案/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/6.Mock数据方案/Mock数据方案.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
