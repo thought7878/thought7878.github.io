@@ -26551,7 +26551,7 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36169.md": {
-    "scroll": 197.75618489583334,
+    "scroll": 197.56868489583334,
     "cursor": {
       "from": {
         "line": 200,
@@ -26593,15 +26593,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-21.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 24.201171875,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26833,28 +26833,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 1414.2457682291667,
+    "scroll": 0.8484848484848485,
     "cursor": {
       "from": {
-        "line": 1437,
-        "ch": 1
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 1437,
-        "ch": 1
+        "line": 6,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-23",
-      "item-2-20",
-      "item-2-0",
-      "item-3-9",
-      "item-2-30",
-      "item-2-50",
-      "item-2-62",
-      "item-2-72",
-      "item-3-35",
-      "item-3-73"
+      "item-2-0"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-实现.md": {
@@ -26903,12 +26894,12 @@
     "scroll": 12.155658914728683,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 8
+        "line": 20,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 8
+        "line": 20,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -27154,20 +27145,21 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 44.41236413043478,
+    "scroll": 188.4120930232558,
     "cursor": {
       "from": {
-        "line": 52,
+        "line": 204,
         "ch": 0
       },
       "to": {
-        "line": 52,
+        "line": 204,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-13",
-      "item-1-33"
+      "item-1-33",
+      "item-1-70"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
@@ -27183,5 +27175,54 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-22.md": {
+    "scroll": 27.42017663043478,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 42
+      },
+      "to": {
+        "line": 35,
+        "ch": 42
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md": {
+    "scroll": 186.9482421875,
+    "cursor": {
+      "from": {
+        "line": 190,
+        "ch": 25
+      },
+      "to": {
+        "line": 190,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-2",
+      "item-2-10",
+      "item-2-33"
+    ]
   }
 }
