@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-22.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-22"
+              "title": "2026-04-23"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/6.Mock数据方案/Apifox.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apifox"
+              "title": "_前端工程化"
             }
           },
           {
@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,11 +700,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SZ 权限体系架构"
+              "title": "_SZ项目规划方案-答案"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -771,7 +771,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 355.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -873,19 +873,22 @@
   },
   "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-23.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-22.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
     "_posts/engineering/6.Mock数据方案/Mock数据方案.md",
     "_posts/engineering/6.Mock数据方案/Apifox.md",
     "_posts/engineering/6.Mock数据方案/MSW (Mock Service Worker).md",
     "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/男女.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
     "_posts/engineering/6.Mock数据方案",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-22.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-21.md",
     "未命名.canvas",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-问题.md",
@@ -898,9 +901,6 @@
     "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/前端工程化的知识点-待整理.md",
     "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/05.对象思维：面向对象编程有哪些优势？.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/1.如何成为现代前端六边形战士.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践",
     "_posts/base/知识目录、路线图/学习计划/media",
     "_posts/base/知识目录、路线图/知识目录/前端系统设计/前端架构",

@@ -6753,12 +6753,12 @@
     "scroll": 6.934635577871013,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 67
+        "line": 13,
+        "ch": 96
       },
       "to": {
-        "line": 16,
-        "ch": 67
+        "line": 13,
+        "ch": 96
       }
     },
     "expandedKeys": []
@@ -26833,21 +26833,26 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 98.01283932501835,
+    "scroll": 518.9878264718902,
     "cursor": {
       "from": {
-        "line": 114,
-        "ch": 35
+        "line": 536,
+        "ch": 25
       },
       "to": {
-        "line": 114,
-        "ch": 35
+        "line": 536,
+        "ch": 25
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-3-17",
-      "item-3-26"
+      "item-3-26",
+      "item-3-9",
+      "item-3-13",
+      "item-2-20",
+      "item-2-30",
+      "item-3-23"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ项目规划方案-实现.md": {
@@ -27147,14 +27152,14 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 101.73336509448944,
+    "scroll": 109.46256510416667,
     "cursor": {
       "from": {
-        "line": 119,
+        "line": 115,
         "ch": 0
       },
       "to": {
-        "line": 119,
+        "line": 115,
         "ch": 0
       }
     },
@@ -27175,15 +27180,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-22.md": {
-    "scroll": 27.42017663043478,
+    "scroll": 27.191915760869566,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 42
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 35,
-        "ch": 42
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -27205,15 +27210,15 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md": {
-    "scroll": 5.733953076582559,
+    "scroll": 19.108723958333332,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 22
+        "line": 36,
+        "ch": 25
       },
       "to": {
-        "line": 11,
-        "ch": 22
+        "line": 36,
+        "ch": 25
       }
     },
     "expandedKeys": [
@@ -27251,7 +27256,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/6.Mock数据方案/Mock数据方案.md": {
-    "scroll": 741.6936918857449,
+    "scroll": 736.4684244791666,
     "cursor": {
       "from": {
         "line": 759,
@@ -27262,13 +27267,7 @@
         "ch": 8
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-2-2",
-      "item-2-45",
-      "item-2-49",
-      "item-2-54"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/_教程/前端工程化精讲/1.开发效率/04 接口调试：Mock 工具如何快速进行接口调试？.md": {
     "scroll": 117.111328125,
@@ -27310,6 +27309,34 @@
       },
       "to": {
         "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-23.md": {
+    "scroll": 32.09431906614786,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
