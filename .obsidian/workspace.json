@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-7面向对象-前端主流的编程思想.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-10面向对象三要素-继承，封装，多态.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2-7面向对象-前端主流的编程思想"
+              "title": "2-10面向对象三要素-继承，封装，多态"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -873,12 +873,15 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/media/30090a50ed4b62c1c8b0345fba65d0ef_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-9面向对象重要概念-类和实例.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/media/cd8954384855332c701e427ddf9be454_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-7面向对象-前端主流的编程思想.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/media/e8cd8095f7c19a02473ff7e74026e0ec_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-3Typescript介绍-前端最热门的编程语言.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-1章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-5Typescript基础类型.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-6Typescript自定义类型和interface.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-7面向对象-前端主流的编程思想.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-9面向对象重要概念-类和实例.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-10面向对象三要素-继承，封装，多态.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-11Vue和React组件也是对象.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-13UML类图-单个类.md",
@@ -904,8 +907,6 @@
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media/15e0473c3d6e0ab1f4e3de689326bbfd_MD5.webp",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media/1b25c7ed966bb8fc3b9a8f41ba69f100_MD5.webp",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media/5826a3a0811751499c7fe2971cae58f5_MD5.webp",
-    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media/57e4680a05e4611b83e69e619e5c7d16_MD5.webp",
-    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media/0da125e8f48c8e5c706e1446f0052033_MD5.webp",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/media",
     "_posts/react/overview.md",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》",
@@ -914,7 +915,6 @@
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/SZ 权限体系架构.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-23.md",
     "_posts/engineering/6.Mock数据方案",
     "未命名.canvas",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践",
