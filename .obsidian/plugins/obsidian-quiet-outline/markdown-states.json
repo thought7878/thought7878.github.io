@@ -14957,7 +14957,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 358.38114453411595,
+    "scroll": 357.0862504511007,
     "cursor": {
       "from": {
         "line": 389,
@@ -15809,12 +15809,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 42
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 42
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26833,15 +26833,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 518.9878264718902,
+    "scroll": 494.0940755208333,
     "cursor": {
       "from": {
-        "line": 536,
-        "ch": 25
+        "line": 507,
+        "ch": 40
       },
       "to": {
-        "line": 536,
-        "ch": 25
+        "line": 507,
+        "ch": 40
       }
     },
     "expandedKeys": [
@@ -27329,6 +27329,276 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/教程/未命名/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 5
+      },
+      "to": {
+        "line": 0,
+        "ch": 5
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/react/教程/未命名/3--【240511】React 状态管理方案全解析-合一.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 5
+      },
+      "to": {
+        "line": 0,
+        "ch": 5
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 99
+      },
+      "to": {
+        "line": 0,
+        "ch": 99
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/1.课程介绍/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2./未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 68
+      },
+      "to": {
+        "line": 0,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2./2-1章介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 107
+      },
+      "to": {
+        "line": 0,
+        "ch": 107
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-1章介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 63,
+        "ch": 136
+      },
+      "to": {
+        "line": 63,
+        "ch": 136
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-15UML类图-关联关系的细化.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-14UML类图-类之间的关系.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-13UML类图-单个类.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-11Vue和React组件也是对象.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-10面向对象三要素-继承，封装，多态.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-9面向对象重要概念-类和实例.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-7面向对象-前端主流的编程思想.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-6Typescript自定义类型和interface.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-5Typescript基础类型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-3Typescript介绍-前端最热门的编程语言.md": {
     "scroll": 0,
     "cursor": {
       "from": {
