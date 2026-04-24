@@ -45,12 +45,14 @@
 ## 依赖倒置原则 
 [03:43](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=223)
     
-- **核心定义**  
-	面向接口（抽象）编程，而非面向具体实现（实体）编程。
+- **定义**  
+	*面向接口（抽象）编程，而非面向具体实现（实体）编程*。
 - **代码体现方式** 
 	- 函数参数类型应声明为接口，而非具体类；
 	- 所有实现该接口的类均可作为实参传入，增强扩展性；
 	- 若依赖具体类，则只能传入该类实例，丧失灵活性。
+
+![[_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/afc4d072d326f780583b9768271b987d_MD5.webp]]
 
 ## Promise代码演示：单一职责与开闭原则落地 
 [04:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=274)

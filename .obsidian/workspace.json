@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-6 Unix-Linux设计哲学-前辈们总结出来的经验.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3-5 SOLID五大设计原则-软件设计和开发的参考标准"
+              "title": "3-6 Unix-Linux设计哲学-前辈们总结出来的经验"
             }
           },
           {
@@ -873,9 +873,12 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/c63d6093ba9d171576ce21606194752c_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-6 Unix-Linux设计哲学-前辈们总结出来的经验.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/afc4d072d326f780583b9768271b987d_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/ab6a358f47c2c4ec8297fe072c9c740f_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-4 设计原则-感性与理性.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-1 章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-16章总结.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/21333a64c12c0ac27ee9c2afe4987b3d_MD5.webp",
@@ -892,8 +895,6 @@
     "_posts/architect/工具/media/b350afb2b291cd243990f98298148992_MD5.png",
     "_posts/architect/工具/media/51c4ce260020f85a9995bae9c5ee556a_MD5.png",
     "_posts/architect/工具/media/5f0b0fcf1c9f96b8792c92b78644c062_MD5.png",
-    "_posts/architect/工具/media/937f0de5315adf56d7c542edc9a4fdf0_MD5.png",
-    "_posts/architect/工具/media/5eba1dce757b53a4e5d63d24fcd2d63e_MD5.png",
     "_posts/architect/工具/media",
     "_posts/architect/工具",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-13UML类图-单个类.md",
@@ -913,7 +914,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-9面向对象重要概念-类和实例.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-7面向对象-前端主流的编程思想.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-3Typescript介绍-前端最热门的编程语言.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-1章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/1.课程介绍",
