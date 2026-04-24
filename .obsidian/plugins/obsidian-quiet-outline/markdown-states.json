@@ -3134,11 +3134,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-1",
-      "item-3-5",
-      "item-3-9"
-    ]
+    "expandedKeys": []
   },
   "_posts/English/单词/Untitled.md": {
     "scroll": 0,
@@ -6750,15 +6746,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 6.934635577871013,
+    "scroll": 11.70450385573259,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 90
+        "line": 19,
+        "ch": 82
       },
       "to": {
-        "line": 15,
-        "ch": 90
+        "line": 19,
+        "ch": 82
       }
     },
     "expandedKeys": []
@@ -27608,15 +27604,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-24.md": {
-    "scroll": 26.826171875,
+    "scroll": 25.284505208333332,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -27638,15 +27634,15 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md": {
-    "scroll": 54.292079963375556,
+    "scroll": 45.36002834868887,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 37
+        "line": 63,
+        "ch": 31
       },
       "to": {
-        "line": 62,
-        "ch": 37
+        "line": 63,
+        "ch": 31
       }
     },
     "expandedKeys": []
@@ -27890,15 +27886,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-9 工厂模式的场景-Vue和React的createEleme.md": {
-    "scroll": 0,
+    "scroll": 57.810739299610894,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 72,
+        "ch": 32
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 72,
+        "ch": 32
       }
     },
     "expandedKeys": []
@@ -27908,11 +27904,11 @@
     "cursor": {
       "from": {
         "line": 37,
-        "ch": 80
+        "ch": 85
       },
       "to": {
         "line": 37,
-        "ch": 80
+        "ch": 85
       }
     },
     "expandedKeys": []
@@ -27969,6 +27965,132 @@
       "to": {
         "line": 21,
         "ch": 180
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-25.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-11 章总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 111
+      },
+      "to": {
+        "line": 0,
+        "ch": 111
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-7单例模式的场景-登录框.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-7 单例模式的场景-登录框.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-5 单例模式的演示-使用Javascript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-4 单例模式的演示-使用Typescript.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-3 什么是单例模式，它解决什么问题.md": {
+    "scroll": 13.993815104166666,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 24
+      },
+      "to": {
+        "line": 32,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-1 章介绍.md": {
+    "scroll": 2.69197867670116,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 30
+      },
+      "to": {
+        "line": 19,
+        "ch": 30
       }
     },
     "expandedKeys": []
