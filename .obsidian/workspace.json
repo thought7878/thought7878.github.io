@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-6 工厂模式代码演示和UML类图-标准版本.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-8 工厂模式的场景-jQuery.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4-6 工厂模式代码演示和UML类图-标准版本"
+              "title": "4-8 工厂模式的场景-jQuery"
             }
           },
           {
@@ -873,23 +873,24 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-6 工厂模式代码演示和UML类图-标准版本.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
+    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-8 介绍23种设计模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-5 工厂模式代码演示和UML类图-简易版本.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-4 什么是工厂模式，它主要解决什么问题.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-1 章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media/7c38939a6ca1a493a23968b38efd9e9c_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-6 工厂模式代码演示和UML类图-标准版本.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-8 工厂模式的场景-jQuery.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-9 工厂模式的场景-Vue和React的createEleme.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-11 章总结.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-10章总结.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/1521726b8c343b90c69301d99944e22a_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-8 介绍23种设计模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/3ebb8061cba11977aafd943f4dd48710_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-6 Unix-Linux设计哲学-前辈们总结出来的经验.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/c63d6093ba9d171576ce21606194752c_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/afc4d072d326f780583b9768271b987d_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/ab6a358f47c2c4ec8297fe072c9c740f_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-4 设计原则-感性与理性.md",
@@ -909,7 +910,6 @@
     "_posts/architect/工具",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-13UML类图-单个类.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/2.面向对象OOP和UML类图-前端开发的必备编程思想/2-10面向对象三要素-继承，封装，多态.md",
-    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
     "_posts/base/知识目录、路线图/知识目录/设计模式",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
     "_posts/architect/System Design/教程/趣学设计模式/06.迭代思维：如何高效编程？.md",
