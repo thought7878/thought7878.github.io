@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-5 观察者模式代码演示和UML类图.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "观察者模式"
+              "title": "6-5 观察者模式代码演示和UML类图"
             }
           },
           {
@@ -873,20 +873,26 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-3 什么是观察者模式，它解决什么问题.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-1 章介绍.md",
+    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-5 观察者模式代码演示和UML类图.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/3e20b16691d48ecc59072cd305138eb4_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-6 观察者模式的场景-Vue组件生命周期.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-7 观察者模式的场景-Vuewatch.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型/单例模式.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型/工厂模式.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式.md",
     "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-1 章介绍.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-1 章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-7 单例模式的场景-登录框.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-8 章总结.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-5 单例模式的演示-使用Javascript.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-3 什么是单例模式，它解决什么问题.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-4 单例模式的演示-使用Typescript.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-1 章介绍.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型",
     "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式",
@@ -903,10 +909,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-8 工厂模式的场景-jQuery.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-6 工厂模式代码演示和UML类图-标准版本.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-5 SOLID五大设计原则-软件设计和开发的参考标准.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/3-8 介绍23种设计模式.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/4-5 工厂模式代码演示和UML类图-简易版本.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media/7c38939a6ca1a493a23968b38efd9e9c_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在",
@@ -916,8 +918,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/afc4d072d326f780583b9768271b987d_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/ab6a358f47c2c4ec8297fe072c9c740f_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/21333a64c12c0ac27ee9c2afe4987b3d_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/3f4d005957439739c3848f27b2f4a8a5_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
