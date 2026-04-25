@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-9 观察者模式的场景-MutationObserver.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-11 观察者模式和发布订阅模式的区别.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6-9 观察者模式的场景-MutationObserver"
+              "title": "6-11 观察者模式和发布订阅模式的区别"
             }
           },
           {
@@ -873,13 +873,17 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/5c121b2310380da318401cd468fab407_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/6af61f63ef8a1284e0f79d3e6f0abab1_MD5.webp",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-9 观察者模式的场景-MutationObserver.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a19ad73fab5c740ce859b97534bb8c40_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/400b149f028c6e3a2f8d37804ec32c7e_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-8 观察者模式的场景-各种异步回调函数.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/195e8f6d81cce3e0443bc8bb2d521df1_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a66e2faf424a62de02260b3389aedfc6_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/bd319ae5b55619991d53e9b4a47bbc70_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/18bd846fedbc6d610ce80eea379dc967_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-9 观察者模式的场景-MutationObserver.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-7 观察者模式的场景-Vue watch.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-6 观察者模式的场景-Vue组件生命周期.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-5 观察者模式代码演示和UML类图.md",
@@ -911,14 +915,10 @@
     "_posts/architect/System Design/设计原则、设计模式/设计模式",
     "_posts/architect/System Design/设计原则、设计模式/设计原则/面向对象设计五大原则（SOLID）.md",
     "_posts/architect/System Design/设计模式/未命名",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/media/ea4631ca37e2b056885b078cb0d71de6_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/media/07dc9d106f1805724c10c940b257db0e_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media/7c38939a6ca1a493a23968b38efd9e9c_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/3.设计原则-设计模式只是套路，设计原则是指导思想/media/1521726b8c343b90c69301d99944e22a_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

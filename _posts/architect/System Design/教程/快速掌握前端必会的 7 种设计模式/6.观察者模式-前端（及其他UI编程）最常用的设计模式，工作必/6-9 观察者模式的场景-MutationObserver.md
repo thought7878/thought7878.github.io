@@ -2,13 +2,16 @@
 
 ![[_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/400b149f028c6e3a2f8d37804ec32c7e_MD5.webp]]
 
-### MutationObserver 概念引入与命名解析 
+## MutationObserver 概念
 [00:03](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=3)
 
 - **核心概念定义**  
     MutationObserver 是用于监控 DOM 变化的内置 API。
 - **命名逻辑说明**  
     `observer` 即“观察者”，与设计模式中的“观察者模式”名称完全契合。
+
+## MutationObserver 案例
+![[_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a19ad73fab5c740ce859b97534bb8c40_MD5.webp]]
 
 ### HTML 示例结构搭建 
 [00:15](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=15)
@@ -69,6 +72,8 @@
 - **控制特性总结**  
     启动、暂停、重启全程可控，符合观察者模式动态管理特征。
 
+![[_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a19ad73fab5c740ce859b97534bb8c40_MD5.webp]]
+
 ### DOM 变更实测演示一：innerHTML 覆盖 
 [07:15](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=435)
 
@@ -81,9 +86,6 @@
 [08:15](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=495)
 
 - **操作方式**
-    
-    ts
-    
     ```ts
     const p1 = document.createElement('p');  
     p1.innerHTML = 'C';  
@@ -93,7 +95,7 @@
 - **监听响应**  
     触发回调，`records.type === 'childList'`，`records.addedNodes` 包含新添加的 `<p>C</p>` 节点。
 
-### 设计模式本质重申 
+## 设计模式本质重申 
 [09:59](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=599)
 
 - **观察者模式验证**
@@ -102,7 +104,7 @@
 - **前端广泛性佐证**
     - DOM 事件（如 `click`）、组件生命周期钩子（Vue `mounted`/`updated`）、`watch`、`Promise.then`、`setTimeout`、Node.js 流（`readline`）、HTTP Server 请求回调等，均属观察者模式变体。
 
-### 后续学习指引 
+## 后续学习指引 
 [10:40](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=f9cedfe7f47d4c2781ece143cbd16a47#?seek_t=640)
 
 - **模式对比预告**  
