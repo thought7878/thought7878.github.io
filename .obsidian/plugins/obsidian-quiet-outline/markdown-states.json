@@ -27637,15 +27637,15 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md": {
-    "scroll": 42.369791666666664,
+    "scroll": 73.97265625,
     "cursor": {
       "from": {
-        "line": 64,
-        "ch": 22
+        "line": 84,
+        "ch": 8
       },
       "to": {
-        "line": 64,
-        "ch": 22
+        "line": 84,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -28032,12 +28032,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 27
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 27
       }
     },
     "expandedKeys": []
@@ -28046,12 +28046,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 8,
+        "ch": 36
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 8,
+        "ch": 36
       }
     },
     "expandedKeys": []
@@ -28071,7 +28071,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-3 什么是单例模式，它解决什么问题.md": {
-    "scroll": 13.993815104166666,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 22,
@@ -28113,18 +28113,20 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式.md": {
-    "scroll": 0.5537190082644629,
+    "scroll": 2.7083333333333335,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 27
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 27
+        "line": 17,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md": {
     "scroll": 0,
@@ -28171,7 +28173,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型/工厂模式.md": {
-    "scroll": 181.65657552083334,
+    "scroll": 7.395833333333333,
     "cursor": {
       "from": {
         "line": 134,
@@ -28182,7 +28184,9 @@
         "ch": 28
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型/未命名.md": {
     "scroll": 0,
@@ -28199,17 +28203,75 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型/单例模式.md": {
-    "scroll": 0,
+    "scroll": 106.83951822916667,
     "cursor": {
       "from": {
-        "line": 93,
-        "ch": 5
+        "line": 107,
+        "ch": 23
       },
       "to": {
-        "line": 93,
-        "ch": 5
+        "line": 107,
+        "ch": 23
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/5-8 章总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-1 章介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md": {
+    "scroll": 62.7060546875,
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 3
+      },
+      "to": {
+        "line": 66,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }
