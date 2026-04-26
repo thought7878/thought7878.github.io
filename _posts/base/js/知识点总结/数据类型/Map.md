@@ -1,4 +1,4 @@
-在JavaScript中，`Map` 对象是一种*键值对*的集合。它*类似于对象*（Object），但有**一个重要的区别：**`Map` 的键可以是任何类型的值（包括函数、对象或原始值），而不仅仅是字符串或symbol。此外，`Map` *保留了键值对插入的顺序*，并且提供了一些方便的方法来操作数据。
+在JavaScript中，`Map` 对象是一种*键值对*的**集合**。它*类似于对象*（Object），但有**一个重要的区别：**`Map` 的键可以是任何类型的值（包括函数、对象或原始值），而不仅仅是字符串或symbol。此外，`Map` *保留了键值对插入的顺序*，并且提供了一些方便的方法来操作数据。
 
 ### 创建 `Map`
 
@@ -56,7 +56,7 @@ console.log(myMap.has('age')); // false
 
 #### 清空 `Map`
 
-使用 `clear()` 方法清空整个 `Map`，移除所有键值对：
+使用 `clear()` 方法*清空整个 `Map`，移除所有键值对：*
 
 ```javascript
 myMap.clear();
@@ -65,7 +65,7 @@ console.log(myMap.size); // 0
 
 #### 获取 `Map` 的大小
 
-使用 `size` 属性来获取 `Map` 中键值对的数量：
+使用 `size` 属性来*获取 `Map` 中键值对的数量：*
 
 ```javascript
 console.log(myMap.size); // 例如：2
