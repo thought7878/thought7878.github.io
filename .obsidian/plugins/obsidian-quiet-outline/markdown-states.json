@@ -28618,11 +28618,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
@@ -28632,12 +28632,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 45,
+        "ch": 4
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 45,
+        "ch": 4
       }
     },
     "expandedKeys": []
