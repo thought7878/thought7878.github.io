@@ -185,6 +185,8 @@ function* fetchUser() {
   const res2 = yield fetch(`/api/posts?uid=${user.id}`);
   return res2.json();
 }
+
+//
 run(fetchUser).then(console.log);
 ```
 
