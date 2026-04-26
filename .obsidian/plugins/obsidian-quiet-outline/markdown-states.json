@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 131.06168619791666,
+    "scroll": 133.97439236111111,
     "cursor": {
       "from": {
-        "line": 138,
-        "ch": 0
+        "line": 148,
+        "ch": 2
       },
       "to": {
-        "line": 138,
-        "ch": 0
+        "line": 148,
+        "ch": 2
       }
     },
     "expandedKeys": []
@@ -565,7 +565,7 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 231.59375,
+    "scroll": 230.59375,
     "cursor": {
       "from": {
         "line": 247,
@@ -28573,21 +28573,21 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md": {
-    "scroll": 0,
+    "scroll": 26.388217054263567,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 125
+        "line": 41,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 125
+        "line": 41,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-11 迭代器模式的场景-迭代器在JS中的实际应用.md": {
-    "scroll": 38.005581395348834,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 39,
@@ -28801,20 +28801,64 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/循环、遍历/迭代协议（Symbol.iterator）.md": {
-    "scroll": 0,
+    "scroll": 0.3939393939393939,
     "cursor": {
       "from": {
-        "line": 215,
-        "ch": 69
+        "line": 4,
+        "ch": 101
       },
       "to": {
-        "line": 215,
-        "ch": 69
+        "line": 4,
+        "ch": 101
       }
     },
     "expandedKeys": [
       "item-2-3",
       "item-2-7"
+    ]
+  },
+  "_posts/base/js/知识点总结/异步编程/Generator.md": {
+    "scroll": 5.75,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/异步编程/Generator-2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 10
+      },
+      "to": {
+        "line": 18,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/异步编程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 14
+      },
+      "to": {
+        "line": 0,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }

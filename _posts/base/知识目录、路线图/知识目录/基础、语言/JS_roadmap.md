@@ -251,7 +251,7 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 参考 [[Class]]
 
 # Iterators and Generators
-参考 [[Generator]]、[[Iterator]]
+参考 [[Generator-2]]、[[Iterator]]
 
 
 # Module

@@ -1,7 +1,8 @@
-本视频讲述了**JavaScript中生成器（Generator）与迭代器（Iterator）的内在关系**，强调生成器本质是返回迭代器对象的特殊函数，通过`function*`语法、`yield`/`yield*`语句及`next()`方法实现惰性求值与可控遍历；并结合数组、字符串、Set等可迭代结构，演示了生成器在自定义迭代器重构中的简洁性与一致性。
+本视频讲述了**JavaScript中生成器（Generator）与迭代器（Iterator）的内在关系**，强调**生成器本质是返回迭代器对象的特殊函数**，*通过`function*`语法、`yield`/`yield*`语句及`next()`方法实现惰性求值与可控遍历*；并结合数组、字符串、Set等可迭代结构，演示了生成器在自定义迭代器重构中的简洁性与一致性。
 
 
-### **生成器与迭代器的关联性阐述 [00:02](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=2)**
+### 生成器与迭代器的关联性
+[00:02](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=2)
 
 - **核心前提** [00:02](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=2)  
     生成器必须与迭代器协同理解，二者不可割裂。
@@ -12,7 +13,8 @@
 - **认知强化逻辑** [00:41](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=41)  
     迭代器掌握后，生成器理解将极为迅速。
 
-### **生成器基本语法与执行机制 [01:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=94)**
+### 生成器基本语法与执行机制 
+[01:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=94)
 
 - **函数声明语法** [01:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=94)  
     `function*`（星号紧贴`function`关键字，空格可选）。
@@ -37,7 +39,8 @@
 - **高阶遍历支持** [03:43](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=223)  
     该迭代器可直接用于 `for...of`、扩展运算符 `...`、`Array.from()` 等。
 
-### **`yield*` 语法详解与有序结构遍历 [05:12](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=312)**
+### `yield*` 语法与有序结构遍历 
+[05:12](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=312)
 
 - **`yield*` 引入** [05:12](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=312)  
     注释原代码后新增 `yield*` 演示区。
@@ -52,8 +55,6 @@
 - **正确实现方式** [07:17](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=437)  
     使用 `for` 循环 + 单个 `yield` 拆解：
     
-    js
-    
     ```js
     for (let i = 0; i < array.length; i++) {  
       yield array[i];  
@@ -65,7 +66,8 @@
 - **返回值类型** [08:28](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=508)  
     `yield*` 表达式本身不产生新值，其作用是**委托遍历**，最终仍返回标准迭代器。
 
-### **生成器重构自定义迭代器实践 [08:44](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=524)**
+### 生成器重构自定义迭代器实践 
+[08:44](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=524)
 
 - **重构动机** [08:51](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=531)  
     利用生成器与 `yield*` 重写上节手写的 `CustomIterator` 类，提升简洁性。
@@ -84,7 +86,8 @@
 - **`yield*` 在类中的意义** [11:28](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=688)  
     委托 `this.data`（数组）的迭代器进行遍历，复用其 `Symbol.iterator` 实现。
 
-### **核心概念整合与认知升华 [12:07](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=727)**
+### 核心概念整合与认知升华 
+[12:07](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=727)
 
 - **生成器本质重申** [12:07](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=a7d94a717c6448d4b2706a9e235c2be4#?seek_t=727)  
     生成器是**自定义迭代器的标准实现方式**。
