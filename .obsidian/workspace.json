@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/数据类型/Map.md",
+                "file": "_posts/base/js/知识点总结/循环、遍历/迭代协议（Symbol.iterator）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Map"
+              "title": "迭代协议（Symbol.iterator）"
             }
           },
           {
@@ -873,7 +873,14 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/base/js/知识点总结/循环、遍历/循环 总结.md",
+    "_posts/base/js/知识点总结/数据类型/Map.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap.md",
+    "_posts/base/js/知识点总结/循环、遍历/迭代协议（Symbol.iterator）.md",
+    "_posts/base/js/知识点总结/数据类型/Map-2.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-11 迭代器模式的场景-迭代器在JS中的实际应用.md",
+    "_posts/base/js/知识点总结/循环、遍历/循环.md",
+    "_posts/base/js/知识点总结/循环、遍历",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-10 迭代器的场景-自定义简易迭代器.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-9 迭代器模式的场景-JS内置迭代器Symbol.iterat.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-8 迭代器模式的场景-JS中的有序结有那些？.md",
@@ -894,17 +901,11 @@
     "DailyNote/Journal/01 Daily/2026/04/2026-04-25.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-15 组件销毁前off自定义事件.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-14 发布订阅模式的场景-postMessage通讯.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-13 发布订阅模式的场景-自定义事件-Vue3推荐使用mitt.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-11 观察者模式和发布订阅模式的区别.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/5c121b2310380da318401cd468fab407_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/6af61f63ef8a1284e0f79d3e6f0abab1_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-9 观察者模式的场景-MutationObserver.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a19ad73fab5c740ce859b97534bb8c40_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/400b149f028c6e3a2f8d37804ec32c7e_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-8 观察者模式的场景-各种异步回调函数.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/195e8f6d81cce3e0443bc8bb2d521df1_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a66e2faf424a62de02260b3389aedfc6_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/bd319ae5b55619991d53e9b4a47bbc70_MD5.webp",
@@ -918,7 +919,6 @@
     "_posts/architect/System Design/设计模式/未命名",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/4工厂模式-封装实例的创建过程，解放VueReact内部都在/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

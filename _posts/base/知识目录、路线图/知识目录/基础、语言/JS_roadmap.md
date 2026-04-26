@@ -63,7 +63,7 @@ Type casting means transferring data from one data type to another by explicitly
 # Data Structures
 ## Keyed Collections
 ### Map
-参考 [[Map]]
+参考 [[Map]]、[[Map-2]]
 ### Weak map
 参考 [[WeakMap]]
 ### Set
@@ -100,6 +100,12 @@ Arrays are objects that store a collection of items and can be assigned to a var
 # Loops and Iterations
 循环和迭代
 [[循环]]
+
+## 循环总结
+[[循环 总结]]
+
+## 迭代协议（Symbol.iterator）
+[[迭代协议（Symbol.iterator）]]
 
 ## for
 
