@@ -27973,15 +27973,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-25.md": {
-    "scroll": 0,
+    "scroll": 26.451171875,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -28465,5 +28465,53 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md": {
+    "scroll": 29.347005208333332,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/发布订阅模式.md": {
+    "scroll": 592.5094401041666,
+    "cursor": {
+      "from": {
+        "line": 601,
+        "ch": 0
+      },
+      "to": {
+        "line": 601,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12"
+    ]
   }
 }
