@@ -1,31 +1,37 @@
->深入详解 `Symbol.iterator` 协议
+参考：[[7-11 迭代器模式的场景-迭代器在JS中的实际应用]]
 
-`Symbol.iterator` 是 ES6 引入的**迭代协议（Iteration Protocol）**的核心。它定义了 JavaScript 中“如何遍历一个对象”的标准契约，是 `for...of`、展开运算符 `...`、`Array.from()`、解构赋值等现代语法的底层基石。
+
+`Symbol.iterator` 是 ES6 引入的`迭代协议（Iteration Protocol）` 的核心。
+**它定义了 JavaScript 中“如何遍历一个对象”的标准契约**，是 *`for...of`、`展开运算符...`、`Array.from()`、`解构赋值`等现代语法的**底层基石***。
 
 ---
 
 ## 一、核心概念：什么是 `Symbol.iterator`？
 
-- `Symbol.iterator` 是一个**内置的 Well-Known Symbol**。
-- 任何对象只要部署了 `[Symbol.iterator]()` 方法，就被称为 **可迭代对象（Iterable）**。
-- 该方法被调用时，必须返回一个 **迭代器（Iterator）**。
-- **作用**：让自定义数据结构能够被 JS 原生遍历语法统一消费，打破“只有数组能遍历”的限制。
+- `Symbol.iterator` 是一个*内置的 Well-Known Symbol*。
+- *任何对象只要部署了 `[Symbol.iterator]()` 方法*，就被称为 `可迭代对象（Iterable）`。
+- *该方法被调用时，必须返回一个 `迭代器（Iterator）`。*
+- ***作用***：**让自定义数据结构能够被 JS 原生遍历语法统一消费，打破“只有数组能遍历”的限制**。
 
 ---
 
 ## 二、协议的两层结构：Iterable vs Iterator
 
-迭代协议实际上由两个角色组成，务必区分清楚：
+`迭代协议`实际上**由两个角色组成**，务必区分清楚：
 
-| 角色 | 定义 | 必须实现的方法 | 职责 |
-|------|------|----------------|------|
-| **Iterable（可迭代对象）** | 数据源容器 | `[Symbol.iterator]()` | 被调用时返回一个 Iterator |
-| **Iterator（迭代器）** | 遍历游标/指针 | `next()` | 每次调用返回 `{ value: any, done: boolean }` |
+| 角色                  | 定义      | 必须实现的方法               | 职责                                     |
+| ------------------- | ------- | --------------------- | -------------------------------------- |
+| **Iterable（可迭代对象）** | 数据源容器   | `[Symbol.iterator]()` | 被调用时返回一个 Iterator                      |
+| **Iterator（迭代器）**   | 遍历游标/指针 | `next()`              | 每次调用返回 `{ value: any, done: boolean }` |
 
 ```js
-// 关系示意
+// `迭代协议`实际上**由两个角色组成**，关系示意：
+
+// Iterable（可迭代对象）
 const iterable = { /* 数据 */ };
 const iterator = iterable[Symbol.iterator](); // 获取迭代器
+
+// Iterator（迭代器）
 iterator.next(); // { value: ..., done: false }
 iterator.next(); // { value: ..., done: false }
 iterator.next(); // { value: undefined, done: true }
@@ -55,10 +61,11 @@ while (!result.done) {                   // 3. 检查是否结束
 
 ---
 
-## 四、如何自定义可迭代对象？
+## 四、如何 自定义可迭代对象？
 
 ### 1. 手动实现（完整协议）
 ```js
+// 定义
 const range = {
   from: 1,
   to: 5,
@@ -80,12 +87,13 @@ const range = {
   }
 };
 
+// 使用
 for (const n of range) console.log(n); // 1 2 3 4 5
 console.log([...range]);               // [1, 2, 3, 4, 5]
 ```
 
 ### 2. 使用 Generator 语法糖（推荐 ✅）
-Generator 函数 (`function*`) 会自动实现完整的迭代协议，代码量锐减：
+`Generator 函数` (`function*`) **会自动实现完整的迭代协议，代码量锐减：**
 ```js
 const range = {
   from: 1,
@@ -102,18 +110,18 @@ const range = {
 
 ---
 
-## 五、哪些内置对象原生支持？
+## 五、哪些内置对象 原生支持？
 
-| 类型 | 是否可迭代 | 遍历内容 |
-|------|------------|----------|
-| `Array` | ✅ | 元素值 |
-| `String` | ✅ | Unicode 字符（正确处理代理对） |
-| `Map` | ✅ | `[key, value]` 数组 |
-| `Set` | ✅ | 值 |
-| `arguments` | ✅ | 参数列表 |
-| `NodeList` / `HTMLCollection` | ✅ | DOM 节点 |
-| `TypedArray` | ✅ | 数值元素 |
-| **普通 `Object`** | ❌ | 默认不可迭代（设计使然） |
+| 类型                            | 是否可迭代 | 遍历内容                |
+| ----------------------------- | ----- | ------------------- |
+| `Array`                       | ✅     | 元素值                 |
+| `String`                      | ✅     | Unicode 字符（正确处理代理对） |
+| `Map`                         | ✅     | `[key, value]` 数组   |
+| `Set`                         | ✅     | 值                   |
+| `arguments`                   | ✅     | 参数列表                |
+| `NodeList` / `HTMLCollection` | ✅     | DOM 节点              |
+| `TypedArray`                  | ✅     | 数值元素                |
+| **普通 `Object`**               | ❌     | 默认不可迭代（设计使然）        |
 
 > 📌 **为什么普通对象默认不可迭代？**  
 > 对象常用于存储配置、方法、原型链属性。若默认迭代，会意外遍历到方法或继承属性，破坏数据边界。需显式使用 `Object.keys/values/entries()` 转换。
@@ -123,7 +131,7 @@ const range = {
 ## 六、核心应用场景
 
 ### 1. 统一数据消费接口
-函数接收 `Iterable` 而非具体数组，提升泛型能力：
+函数接收 `Iterable` 而非具体数组，**提升泛型能力**：
 ```js
 function sum(iterable) {
   let total = 0;
@@ -136,7 +144,7 @@ sum("123");               // 6 (字符串迭代出字符)
 ```
 
 ### 2. 懒加载 / 无限序列
-迭代器是**按需计算**的，适合处理大数据或无限流：
+迭代器是**按需计算**的，*适合处理大数据或无限流：*
 ```js
 function* fibonacci() {
   let [a, b] = [0, 1];
@@ -154,9 +162,9 @@ console.log(fib.next().value); // 1
 ### 3. 配合现代语法无缝转换
 ```js
 const set = new Set([1, 2, 3]);
-const arr1 = [...set];           // 展开运算符依赖 iterator
-const arr2 = Array.from(set);    // Array.from 依赖 iterator
-const [a, b] = set;              // 解构赋值依赖 iterator
+const arr1 = [...set];           // 展开运算符，依赖 iterator
+const arr2 = Array.from(set);    // Array.from，依赖 iterator
+const [a, b] = set;              // 解构赋值，依赖 iterator
 ```
 
 ---
@@ -203,6 +211,6 @@ for (const v of iter) {
 
 ## 九、一句话总结
 
-> `Symbol.iterator` 是 JS 的**遍历标准化契约**：对象提供 `[Symbol.iterator]()` 返回迭代器，迭代器通过 `next()` 按需产出 `{value, done}`。它让自定义数据结构无缝接入 `for...of`、展开运算符等现代语法，是函数式编程、懒计算、流式处理的底层基石。
+> *`Symbol.iterator` 是 JS 的**遍历标准化契约**：对象提供 `[Symbol.iterator]()` 返回迭代器，迭代器通过 `next()` 按需产出 `{value, done}`。* 它**让`自定义数据结构`无缝接入 `for...of`、展开运算符等现代语法，是函数式编程、懒计算、流式处理的底层基石**。
 
-如需了解 `Symbol.asyncIterator` 异步迭代协议、或如何在 TypeScript 中正确声明 Iterable 类型，可随时告知，我将补充对应实战指南。
+扩展了解 `Symbol.asyncIterator` 异步迭代协议、或如何在 TypeScript 中正确声明 Iterable 类型。
