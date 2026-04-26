@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md",
+                "file": "DailyNote/Journal/01 Daily/2026/04/2026-04-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-26"
+              "title": "2026-04-27"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -873,10 +873,15 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/yield.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md",
+    "_posts/English/单词/bus.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-27.md",
+    "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md",
     "_posts/base/js/知识点总结/异步编程/Generator-2.md",
     "_posts/base/js/知识点总结/异步编程/Generator.md",
     "_posts/base/js/知识点总结/序列化/序列化.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md",
     "_posts/base/js/知识点总结/序列化",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/人性.md",
@@ -896,11 +901,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-3 普通for循环不是迭代器.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-2 章介绍.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/迭代器模式.md",
-    "_posts/English/每日记录（复习）.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-13 迭代器模式的场景-使用Generator遍历DOM树.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-15 章总结.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/发布订阅模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/5c121b2310380da318401cd468fab407_MD5.webp",

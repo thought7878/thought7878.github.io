@@ -3126,12 +3126,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 10,
+        "ch": 22
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 10,
+        "ch": 22
       }
     },
     "expandedKeys": []
@@ -28467,15 +28467,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md": {
-    "scroll": 29.347005208333332,
+    "scroll": 25.076171875,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -28576,12 +28576,12 @@
     "scroll": 41.31180079393721,
     "cursor": {
       "from": {
-        "line": 53,
-        "ch": 38
+        "line": 57,
+        "ch": 4
       },
       "to": {
-        "line": 53,
-        "ch": 38
+        "line": 57,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -28885,6 +28885,62 @@
       "to": {
         "line": 39,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-27.md": {
+    "scroll": 31.613932291666668,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 28
+      },
+      "to": {
+        "line": 41,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/English/单词/未命名.md": {
+    "scroll": 160.9140625,
+    "cursor": {
+      "from": {
+        "line": 230,
+        "ch": 32
+      },
+      "to": {
+        "line": 230,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/English/单词/bus.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 213,
+        "ch": 24
+      },
+      "to": {
+        "line": 213,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/English/单词/yield.md": {
+    "scroll": 53.660481770833336,
+    "cursor": {
+      "from": {
+        "line": 230,
+        "ch": 32
+      },
+      "to": {
+        "line": 230,
+        "ch": 32
       }
     },
     "expandedKeys": []
