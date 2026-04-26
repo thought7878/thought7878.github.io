@@ -27,21 +27,22 @@ console.log(g.next('B'));   // { value: 3, done: true }
 console.log(g.next());      // { value: undefined, done: true }
 ```
 
-### 🔑 三大特征
-| 特征 | 说明 |
-|------|------|
-| **惰性执行** | 调用 `gen()` 不执行内部代码，仅返回迭代器对象 |
+### **三大特征**
+
+| 特征       | 说明                                                 |
+| -------- | -------------------------------------------------- |
+| **惰性执行** | 调用 `gen()` 不执行内部代码，仅返回迭代器对象                        |
 | **分段暂停** | 遇到 `yield` 或 `return` 时暂停，保存完整执行上下文（局部变量、作用域、执行位置） |
-| **双向通信** | `yield` 既能向外产出值，又能通过 `next(arg)` 接收外部传入的值 |
+| **双向通信** | `yield` 既能向外产出值，又能通过 `next(arg)` 接收外部传入的值          |
 
 ---
 
 ## 二、底层运行机制：状态机与上下文保存
 
-JS 引擎在编译 Generator 时，会将其转换为一个**隐式状态机**。每次调用 `next()` 时：
-1. 恢复上次暂停的调用栈与词法环境
-2. 执行到下一个 `yield` 或 `return`
-3. 将当前状态序列化保存，挂起执行线程
+JS 引擎在编译 Generator 时，会将其转换为一个**隐式状态机**。**每次调用 `next()` 时：**
+1. *恢复上次暂停的调用栈与词法环境*
+2. *执行到下一个 `yield` 或 `return`*
+3. *将当前状态序列化保存，挂起执行线程*
 4. 返回 `{ value, done }`
 
 ```js
@@ -65,7 +66,7 @@ function gen() {
 
 ---
 
-## 三、核心 API 与双向通信详解
+## 三、核心 API 与双向通信
 
 ### 1. `next(value)`
 - 恢复执行，直到下一个 `yield`/`return`
@@ -117,9 +118,10 @@ g.next();                // { value: 2, done: false }
 
 ---
 
-## 四、Generator 与迭代协议的关系
+## 四、Generator **与迭代协议的关系**
+参考：[[迭代协议（Symbol.iterator）]]
 
-Generator 对象**同时实现了 Iterable 与 Iterator 协议**：
+`Generator 对象`**同时实现了 Iterable 与 Iterator 协议**：
 - 自带 `[Symbol.iterator]()`，返回自身
 - 自带 `next()`，符合迭代器规范
 - 可直接用于 `for...of`、展开运算符、`Array.from()` 等
@@ -162,7 +164,7 @@ function* main() { const res = yield* delegated(); console.log(res); }
 ```
 
 ### 2. 异步流程控制（`async/await` 的前身）
-Generator + Promise 可实现同步写法处理异步逻辑。现代 `async/await` 本质是语法糖+自动执行器。
+Generator + Promise 可*实现同步写法处理异步逻辑*。**现代 `async/await` 本质是语法糖+自动执行器**。
 
 ```js
 // 手动实现简易 co 自动执行器
