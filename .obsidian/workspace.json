@@ -563,12 +563,24 @@
             "id": "3e9eda0e837218d4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/原型/原型.excalidraw.md"
+                "file": "_posts/base/js/知识点总结/对象/对象属性.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "原型.excalidraw"
+              "icon": "lucide-file",
+              "title": "对象属性"
             }
           },
           {
@@ -861,15 +873,17 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
-    "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
+    "_posts/base/js/知识点总结/原型/原型 0.md",
+    "_posts/base/js/知识点总结/对象/对象属性.md",
+    "_posts/base/js/知识点总结/对象",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-5 JS原型的基础知识-prototype和proto.md",
+    "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
     "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/base/js/知识点总结/异步编程/Generator.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型模式/原型模式.md",
+    "_posts/methods/常看的.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/迭代器模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-4 原型模式的介绍和演示.md",
-    "_posts/base/js/知识点总结/原型/原型 0.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-2 章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-7 图解JS原型链.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-9 原型模式的场景-Object.create.md",
@@ -887,7 +901,6 @@
     "_posts/English/单词/yield.md",
     "_posts/English/单词/bus.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-27.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md",
     "_posts/base/js/知识点总结/序列化",
     "_posts/base/js/知识点总结/循环、遍历",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I",
@@ -906,7 +919,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型模式",
     "_posts/architect/System Design/设计原则、设计模式/设计模式",
-    "_posts/architect/System Design/设计模式/未命名",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

@@ -28816,7 +28816,7 @@
     ]
   },
   "_posts/base/js/知识点总结/异步编程/Generator.md": {
-    "scroll": 102.04036458333333,
+    "scroll": 101.69401041666667,
     "cursor": {
       "from": {
         "line": 114,
@@ -29143,18 +29143,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 17,
+        "ch": 20
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 17,
+        "ch": 20
       }
     },
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/原型/原型.md": {
-    "scroll": 0.2760942760942761,
+    "scroll": 0.2222222222222222,
     "cursor": {
       "from": {
         "line": 33,
@@ -29202,15 +29202,45 @@
     ]
   },
   "_posts/base/js/知识点总结/原型/原型 0.md": {
-    "scroll": 14.382718093030956,
+    "scroll": 69.5211115120895,
     "cursor": {
       "from": {
-        "line": 103,
-        "ch": 27
+        "line": 89,
+        "ch": 16
       },
       "to": {
-        "line": 103,
-        "ch": 27
+        "line": 89,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/对象/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 17
+      },
+      "to": {
+        "line": 0,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/base/js/知识点总结/对象/对象属性.md": {
+    "scroll": 226.10727910880513,
+    "cursor": {
+      "from": {
+        "line": 242,
+        "ch": 45
+      },
+      "to": {
+        "line": 242,
+        "ch": 50
       }
     },
     "expandedKeys": []
