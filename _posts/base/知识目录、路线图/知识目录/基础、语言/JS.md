@@ -66,7 +66,7 @@
    - 类（`class`）、继承（`extends`）、静态方法（`static`）
    - 模块化（`import`/`export`）。[[_posts/base/js/知识点总结/模块/模块化|模块化]]
    - `Map`、`Set`、`WeakMap`、`WeakSet`。
-   - `Proxy` 与 `Reflect`。[[Proxy]]、[[Reflect]]
+   - `Proxy` 与 `Reflect`。[[_posts/base/js/知识点总结/ES6+ 新特性/Proxy]]、[[Reflect]]
    - 可选链（`?.`）、空值合并（`??`）。[[可选链（?.）]]、[[空值合并（??）]]
 
 2. **函数进阶**
