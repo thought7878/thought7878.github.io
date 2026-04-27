@@ -142,7 +142,7 @@ for (const v of gen()) console.log(v); // 仅输出 1 2
 ## 五、高级特性
 
 ### 1. `yield*` 委托（Delegation）
-将执行权交给另一个 Iterable 或 Generator，常用于组合、扁平化、复用逻辑。
+*将执行权交给另一个 Iterable 或 Generator，常用于组合、扁平化、复用逻辑*。
 
 ```js
 function* inner() { yield 'a'; yield 'b'; }
@@ -156,7 +156,8 @@ console.log([...outer()]); // [1, 'a', 'b', 2]
 // 等价于手动展开：
 // for (const v of inner()) yield v;
 ```
-`yield*` 的返回值是**被委托迭代器 `return()` 的值**：
+
+`yield*` 的返回值是**被委托迭代器 `return` 的值**：
 ```js
 function* delegated() { yield 1; return 'done'; }
 function* main() { const res = yield* delegated(); console.log(res); }
@@ -194,13 +195,13 @@ run(fetchUser).then(console.log);
 
 ## 六、典型应用场景
 
-| 场景 | 示例/说明 |
-|------|-----------|
-| **惰性求值 / 无限序列** | 斐波那契、ID 生成器、分页懒加载，按需计算不爆内存 |
-| **复杂状态机** | 游戏回合、工作流审批、多步表单，用 `yield` 切分阶段 |
-| **数据管道 / 流式处理** | 配合 `yield*` 组合过滤、映射、批处理逻辑 |
-| **测试 Mock / 可控时序** | 精确控制异步步骤的执行顺序与返回值 |
-| **底层库开发** | Redux-Saga、co、task-runner 等核心调度机制 |
+| 场景                 | 示例/说明                             |
+| ------------------ | --------------------------------- |
+| **惰性求值 / 无限序列**    | 斐波那契、ID 生成器、分页懒加载，按需计算不爆内存        |
+| **复杂状态机**          | 游戏回合、工作流审批、多步表单，用 `yield` 切分阶段    |
+| **数据管道 / 流式处理**    | 配合 `yield*` 组合过滤、映射、批处理逻辑         |
+| **测试 Mock / 可控时序** | 精确控制异步步骤的执行顺序与返回值                 |
+| **底层库开发**          | Redux-Saga、co、task-runner 等核心调度机制 |
 
 ```js
 // 无限 ID 生成器（惰性+状态保持）
@@ -234,11 +235,11 @@ console.log(ids.next().value); // USER-2
 
 ## 八、总结
 
-Generator 是 JavaScript 中**唯一原生支持暂停/恢复执行与双向通信**的函数形态。它通过 `function*` 与 `yield` 将同步代码切片，底层由状态机维护上下文，对外暴露标准迭代器接口。虽然异步场景已被 `async/await` 取代，但 Generator 在**惰性序列、复杂状态机、数据管道、底层任务调度**中依然不可替代。
+Generator 是 JavaScript 中**唯一原生支持暂停/恢复执行与双向通信**的函数形态。它*通过 `function*` 与 `yield` **将同步代码切片**，底层由状态机维护上下文，对外暴露标准迭代器接口。虽然异步场景已被 `async/await` 取代，但 Generator 在**惰性序列、复杂状态机、数据管道、底层任务调度**中依然不可替代*。
 
 掌握 Generator 的关键在于理解：
 1. `yield` 是**表达式**而非语句，兼具产出与接收能力
-2. `next(arg)` 的参数流向是**“赋给上一个 yield”**
+2. `next(arg)` 的参数流向是 **“赋给上一个 yield”**
 3. Generator 对象 = Iterable + Iterator + 状态机上下文
 
 如需深入 `async/await` 编译原理、Redux-Saga 的 effect 调度模型，或 Generator 在 TypeScript 中的类型推导技巧，可提供具体方向，我将补充对应实战指南。

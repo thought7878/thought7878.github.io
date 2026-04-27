@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md",
+                "file": "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/迭代器模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7-12 迭代器模式的场景-Generator生成器"
+              "title": "迭代器模式"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -873,14 +873,27 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-4 原型模式的介绍和演示.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-2 章介绍.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-5 JS原型的基础知识-prototype和proto.md",
+    "_posts/base/js/知识点总结/异步编程/Generator.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-7 图解JS原型链.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-9 原型模式的场景-Object.create.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-11 对象属性描述符-如何获取和设置.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-12 对象属性描述符-value.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-13 对象属性描述符-configurable.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-14 对象属性描述符-writable-对比Object.f.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-15 对象属性描述符-ennumerable.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-16 扩展-如何遍历对象的Symbol属性.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-18 章总结.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对",
+    "_posts/base/js/知识点总结/异步编程/Generator-2.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/yield.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-12 迭代器模式的场景-Generator生成器.md",
     "_posts/English/单词/bus.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-27.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-26.md",
-    "_posts/base/js/知识点总结/异步编程/Generator-2.md",
-    "_posts/base/js/知识点总结/异步编程/Generator.md",
     "_posts/base/js/知识点总结/序列化/序列化.md",
     "_posts/base/js/知识点总结/序列化",
     "_posts/methods/常看的.md",
@@ -888,19 +901,7 @@
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-11 迭代器模式的场景-迭代器在JS中的实际应用.md",
     "_posts/base/js/知识点总结/循环、遍历/迭代协议（Symbol.iterator）.md",
-    "_posts/base/js/知识点总结/循环、遍历/循环 总结.md",
-    "_posts/base/js/知识点总结/数据类型/Map.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap.md",
-    "_posts/base/js/知识点总结/数据类型/Map-2.md",
-    "_posts/base/js/知识点总结/循环、遍历/循环.md",
     "_posts/base/js/知识点总结/循环、遍历",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-10 迭代器的场景-自定义简易迭代器.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-9 迭代器模式的场景-JS内置迭代器Symbol.iterat.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-8 迭代器模式的场景-JS中的有序结有那些？.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-6 迭代器模式-UML类图和代码演示.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-3 普通for循环不是迭代器.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I/7-2 章介绍.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/7.迭代器模式-遍历数据不仅仅是for和forEach，还有I",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/5c121b2310380da318401cd468fab407_MD5.webp",
@@ -918,7 +919,6 @@
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型",
     "_posts/architect/System Design/设计原则、设计模式/设计模式",
     "_posts/architect/System Design/设计模式/未命名",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/5.单例模式-全局只允许有一个实例，多则出错（用TS语法实现更/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
