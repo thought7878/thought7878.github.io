@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-11 装饰器模式的场景-AOP面向切面编程.md",
+                "file": "_posts/typescript/总结/Decorator/装饰器（Decorator）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9-11 装饰器模式的场景-AOP面向切面编程"
+              "title": "装饰器（Decorator）"
             }
           },
           {
@@ -847,7 +847,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -873,12 +873,17 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/装饰器模式.md",
+    "_posts/typescript/总结/Decorator/装饰器（Decorator）.md",
+    "_posts/typescript/总结/Decorator/装饰器（Decorator）-2.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-11 装饰器模式的场景-AOP面向切面编程.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-4 什么是装饰器模式，它解决什么问题.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/面向切面编程.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-2 章介绍.md",
     "_posts/base/js/知识点总结/对象/对象属性.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-11 装饰器模式的场景-AOP面向切面编程.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/装饰器模式.md",
+    "_posts/base/js/知识点总结/对象/Proxy.md",
+    "_posts/base/js/知识点总结/原型/原型 0.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/人性.md",
@@ -889,19 +894,14 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-8 装饰器模式的场景-装饰class.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-9 装饰器模式的场景-装饰class方法.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-10 装饰器模式的场景-Angular和React-redux.md",
-    "_posts/base/js/知识点总结/原型/原型 0.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-5 JS原型的基础知识-prototype和proto.md",
     "_posts/base/js/知识点总结/原型/原型.excalidraw.md",
     "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/base/js/知识点总结/异步编程/Generator.md",
-    "_posts/base/js/知识点总结/对象/Proxy.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器",
     "_posts/base/js/知识点总结/对象",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/创建型模式/原型模式.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/迭代器模式.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-4 原型模式的介绍和演示.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-2 章介绍.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对/8-7 图解JS原型链.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对",
     "_posts/base/js/知识点总结/序列化",
     "_posts/base/js/知识点总结/循环、遍历",

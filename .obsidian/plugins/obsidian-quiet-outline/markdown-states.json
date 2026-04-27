@@ -25132,14 +25132,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md": {
-    "scroll": 24.54817755322988,
+    "scroll": 120.22041105598866,
     "cursor": {
       "from": {
-        "line": 39,
+        "line": 132,
         "ch": 0
       },
       "to": {
-        "line": 39,
+        "line": 132,
         "ch": 0
       }
     },
@@ -29417,12 +29417,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 116
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 116
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -29432,11 +29432,11 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 62
+        "ch": 24
       },
       "to": {
         "line": 4,
-        "ch": 62
+        "ch": 24
       }
     },
     "expandedKeys": []
@@ -29454,5 +29454,49 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/typescript/总结/Decorator/装饰器（Decorator）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/Decorator/装饰器（Decorator）-2.md": {
+    "scroll": 30.201026119402986,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 12
+      },
+      "to": {
+        "line": 40,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/typescript/总结/Decorator/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 13
+      },
+      "to": {
+        "line": 0,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
   }
 }

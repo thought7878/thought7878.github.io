@@ -129,7 +129,7 @@ Webpack/Vite 将 TS 转换后的 JS 打包为浏览器可执行的代码。
 
 
 # Decorators
-参考 [[装饰器（Decorator）]]
+参考 [[装饰器（Decorator）-2]]、[[装饰器（Decorator）]]、[[装饰器模式]]
 
 
 # Utility Types
