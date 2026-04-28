@@ -29587,12 +29587,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 4
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -29602,25 +29602,25 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 136
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 136
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-8 代理模式的场景-DOM事件代理.md": {
-    "scroll": 0,
+    "scroll": 8.750697674418605,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 108
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 108
       }
     },
     "expandedKeys": []
@@ -29629,18 +29629,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-4 什么是代理模式，它解决了什么问题.md": {
-    "scroll": 2.743107769423559,
+    "scroll": 2.9974937343358397,
     "cursor": {
       "from": {
         "line": 10,
@@ -29668,15 +29668,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/代理模式.md": {
-    "scroll": 89.58268229166667,
+    "scroll": 25.75586430891375,
     "cursor": {
       "from": {
-        "line": 116,
-        "ch": 26
+        "line": 92,
+        "ch": 29
       },
       "to": {
-        "line": 116,
-        "ch": 26
+        "line": 92,
+        "ch": 29
       }
     },
     "expandedKeys": [
