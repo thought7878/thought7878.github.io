@@ -6748,15 +6748,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 12.32720877147027,
+    "scroll": 17.73555941123074,
     "cursor": {
       "from": {
         "line": 23,
-        "ch": 81
+        "ch": 101
       },
       "to": {
         "line": 23,
-        "ch": 81
+        "ch": 101
       }
     },
     "expandedKeys": []
@@ -15807,15 +15807,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md": {
-    "scroll": 0,
+    "scroll": 7.623372395833333,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 26,
+        "ch": 12
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 26,
+        "ch": 12
       }
     },
     "expandedKeys": []
@@ -29506,15 +29506,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-28.md": {
-    "scroll": 26.784505208333332,
+    "scroll": 14.122448979591837,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -29858,7 +29858,7 @@
       }
     },
     "expandedKeys": [
-      "item-3-4"
+      "item-3-0"
     ]
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md": {
@@ -29874,24 +29874,51 @@
       }
     },
     "expandedKeys": [
-      "item-3-0",
-      "item-3-14"
+      "item-3-0"
     ]
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md": {
     "scroll": 58.046875,
     "cursor": {
       "from": {
-        "line": 66,
-        "ch": 23
+        "line": 73,
+        "ch": 11
       },
       "to": {
-        "line": 66,
-        "ch": 23
+        "line": 73,
+        "ch": 11
       }
     },
     "expandedKeys": [
       "item-3-0"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md": {
+    "scroll": 26.784505208333332,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-12 关于MVC和MVVM.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
