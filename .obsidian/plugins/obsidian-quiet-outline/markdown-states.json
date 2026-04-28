@@ -565,18 +565,20 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 2.5833333333333335,
+    "scroll": 219.77864583333334,
     "cursor": {
       "from": {
-        "line": 12,
+        "line": 228,
         "ch": 0
       },
       "to": {
-        "line": 12,
+        "line": 228,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-30"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -28481,18 +28483,20 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/未命名.md": {
-    "scroll": 0,
+    "scroll": 308.3947286821705,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 34
+        "line": 311,
+        "ch": 38
       },
       "to": {
-        "line": 0,
-        "ch": 34
+        "line": 311,
+        "ch": 38
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0"
+    ]
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/发布订阅模式.md": {
     "scroll": 198.64778645833334,
@@ -29801,11 +29805,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
@@ -29840,19 +29844,35 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md": {
-    "scroll": 212.82987432675046,
+    "scroll": 0.8097165991902834,
     "cursor": {
       "from": {
-        "line": 224,
-        "ch": 0
+        "line": 9,
+        "ch": 20
       },
       "to": {
-        "line": 224,
-        "ch": 0
+        "line": 9,
+        "ch": 20
       }
     },
     "expandedKeys": [
       "item-3-4"
+    ]
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 209,
+        "ch": 28
+      },
+      "to": {
+        "line": 209,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
     ]
   }
 }
