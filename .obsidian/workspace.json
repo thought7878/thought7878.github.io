@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/元编程/Reflect.md",
+                "file": "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-13 Proxy语法会用于哪些地方？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reflect"
+              "title": "10-13 Proxy语法会用于哪些地方？"
             }
           },
           {
@@ -873,12 +873,12 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/元编程/Proxy.md",
     "_posts/base/js/知识点总结/元编程/Reflect.md",
+    "_posts/base/js/知识点总结/元编程/Proxy.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-12 Proxy语法-模拟明星经纪人示例.md",
     "_posts/base/js/知识点总结/ES6+ 新特性/Proxy.md",
     "_posts/base/js/知识点总结/元编程",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-12 Proxy语法-模拟明星经纪人示例.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-10 代理模式的场景-Nginx反向代理.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-9 代理模式的场景-webpack-dev-server的代.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-8 代理模式的场景-DOM事件代理.md",
