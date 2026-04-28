@@ -6749,12 +6749,12 @@
     "scroll": 12.32720877147027,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 83
+        "line": 23,
+        "ch": 81
       },
       "to": {
-        "line": 22,
-        "ch": 83
+        "line": 23,
+        "ch": 81
       }
     },
     "expandedKeys": []
@@ -29249,15 +29249,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 22
+        "line": 18,
+        "ch": 37
       },
       "to": {
-        "line": 20,
-        "ch": 22
+        "line": 18,
+        "ch": 37
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-4"
+    ]
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/未命名.md": {
     "scroll": 0,
@@ -29587,12 +29589,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 4
+        "line": 4,
+        "ch": 115
       },
       "to": {
-        "line": 5,
-        "ch": 4
+        "line": 4,
+        "ch": 115
       }
     },
     "expandedKeys": []
@@ -29612,7 +29614,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-8 代理模式的场景-DOM事件代理.md": {
-    "scroll": 8.750697674418605,
+    "scroll": 2.8317130912204704,
     "cursor": {
       "from": {
         "line": 0,
@@ -29640,7 +29642,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-4 什么是代理模式，它解决了什么问题.md": {
-    "scroll": 2.9974937343358397,
+    "scroll": 3,
     "cursor": {
       "from": {
         "line": 10,
@@ -29679,8 +29681,66 @@
         "ch": 29
       }
     },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/ES6+ 新特性/Proxy.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 203,
+        "ch": 0
+      },
+      "to": {
+        "line": 203,
+        "ch": 0
+      }
+    },
     "expandedKeys": [
-      "item-3-3"
+      "item-2-4"
     ]
+  },
+  "_posts/base/js/知识点总结/元编程/Proxy.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 19
+      },
+      "to": {
+        "line": 14,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-2-4"
+    ]
+  },
+  "_posts/base/js/知识点总结/元编程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/元编程/Reflect.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 16
+      },
+      "to": {
+        "line": 11,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
   }
 }
