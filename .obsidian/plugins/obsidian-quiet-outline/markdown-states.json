@@ -28484,17 +28484,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 34
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 34
       }
     },
-    "expandedKeys": [
-      "item-3-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/发布订阅模式.md": {
     "scroll": 198.64778645833334,
@@ -29747,14 +29745,114 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 18,
+        "ch": 24
+      },
+      "to": {
+        "line": 18,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-10 章总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-8 适配器模式-灵活转换数据格式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-6 策略模式-避免大量的if-else或switch-cas.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-4 职责链模式-把一个流程分为多个步骤，链式执行.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 56
+      },
+      "to": {
+        "line": 0,
+        "ch": 56
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-2 章介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md": {
+    "scroll": 288.98206141684403,
+    "cursor": {
+      "from": {
+        "line": 312,
+        "ch": 0
+      },
+      "to": {
+        "line": 312,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-4"
+    ]
   }
 }
