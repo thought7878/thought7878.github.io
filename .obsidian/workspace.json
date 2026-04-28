@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
+                "file": "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "策略模式"
+              "title": "适配器模式"
             }
           },
           {
@@ -873,8 +873,9 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-6 策略模式-避免大量的if-else或switch-cas.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
+    "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md",
+    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-6 策略模式-避免大量的if-else或switch-cas.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-4 职责链模式-把一个流程分为多个步骤，链式执行.md",
     "_posts/methods/常看的.md",
@@ -906,7 +907,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/面向切面编程.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器/9-11 装饰器模式的场景-AOP面向切面编程.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-14 Proxy可能会遇到的坑.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/media/76457adee251068df059200b1aa18588_MD5.webp",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/media",
