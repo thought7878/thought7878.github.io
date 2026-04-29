@@ -29883,15 +29883,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md": {
-    "scroll": 26.784505208333332,
+    "scroll": 19.5380859375,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -30096,11 +30096,42 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 6,
+        "ch": 61
+      },
+      "to": {
+        "line": 6,
+        "ch": 61
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md": {
+    "scroll": 154.79524739583334,
+    "cursor": {
+      "from": {
+        "line": 167,
+        "ch": 147
+      },
+      "to": {
+        "line": 167,
+        "ch": 147
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-3"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md": {
+    "scroll": 26.784505208333332,
+    "cursor": {
+      "from": {
+        "line": 37,
         "ch": 27
       },
       "to": {
-        "line": 11,
+        "line": 37,
         "ch": 27
       }
     },
