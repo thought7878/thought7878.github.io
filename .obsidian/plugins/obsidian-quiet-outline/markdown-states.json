@@ -15877,14 +15877,14 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/33  观察者模式：如何发送消息变化的通知？.md": {
-    "scroll": 0,
+    "scroll": 2.8183793410507567,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 5,
         "ch": 0
       }
     },
@@ -28257,18 +28257,20 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md": {
-    "scroll": 181.0099242150848,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 196,
-        "ch": 32
+        "line": 103,
+        "ch": 5
       },
       "to": {
-        "line": 196,
-        "ch": 32
+        "line": 103,
+        "ch": 5
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-7"
+    ]
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-3什么是观察者模式，它解决什么问题.md": {
     "scroll": 0,
@@ -29934,20 +29936,18 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/39  责任链模式：如何解决审核、过滤场景问题？.md": {
-    "scroll": 13.099197383426937,
+    "scroll": 15.756654401480429,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 32
+        "line": 24,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 32
+        "line": 24,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/38  命令模式：如何在一次请求中封装多个参数？.md": {
     "scroll": 0,
@@ -29987,6 +29987,34 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/39.责任链模式：如何解决审核、过滤场景问题？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 55
+      },
+      "to": {
+        "line": 23,
+        "ch": 55
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md": {
+    "scroll": 53.32341085271318,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 33
+      },
+      "to": {
+        "line": 60,
+        "ch": 33
       }
     },
     "expandedKeys": []
