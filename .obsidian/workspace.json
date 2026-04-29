@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
+                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "设计原则"
+              "title": "导读 - 前端技术发展回顾和架构升级之路"
             }
           },
           {
@@ -873,7 +873,13 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/01967427478823641a2ea18f895df61c_MD5.png",
     "_posts/architect/System Design/教程/趣学设计模式/22.适配器模式：如何处理不同 API 接口的兼容性？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/性.md",
     "_posts/读书笔记/健康/资料.md",
@@ -898,11 +904,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/38  命令模式：如何在一次请求中封装多个参数？.md",
     "_posts/architect/System Design/教程/趣学设计模式/结束语  扬帆起航，从心开始.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-12 关于MVC和MVVM.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md",
-    "DailyNote/Journal/01 Daily/2026/04/2026-04-28.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-6 策略模式-避免大量的if-else或switch-cas.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-4 职责链模式-把一个流程分为多个步骤，链式执行.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media/64eb5b1997b3faca7bc188069fa2a8e0_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic",
@@ -918,7 +919,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/9.装饰器模式-Decorator现已是JS的标准语法，装饰器",
     "_posts/base/js/知识点总结/对象",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/8.原型模式-原型和原型链是JS必备的基础知识，还扩展了JS对",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
