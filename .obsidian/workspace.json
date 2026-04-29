@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "导读 - 前端技术发展回顾和架构升级之路"
+              "title": "导读 - 前端技术发展回顾和架构升级之路2"
             }
           },
           {
@@ -873,8 +873,9 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路2.md",
+    "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/01967427478823641a2ea18f895df61c_MD5.png",
@@ -903,7 +904,6 @@
     "_posts/architect/System Design/教程/趣学设计模式/37  解释器模式：如何实现一个自定义配置规则功能？.md",
     "_posts/architect/System Design/教程/趣学设计模式/38  命令模式：如何在一次请求中封装多个参数？.md",
     "_posts/architect/System Design/教程/趣学设计模式/结束语  扬帆起航，从心开始.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-12 关于MVC和MVVM.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media/64eb5b1997b3faca7bc188069fa2a8e0_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic",
