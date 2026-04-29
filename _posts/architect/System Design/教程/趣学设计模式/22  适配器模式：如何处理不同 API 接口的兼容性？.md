@@ -2,23 +2,25 @@
 
 ![[_posts/architect/System Design/教程/趣学设计模式/media/3d6ba7080b380e806e857c38a92aab2e_MD5.webp]]
 
-### **适配器模式概述与定位 [00:01](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=1)**
+## 结构型模式
+[00:01](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=1)
 
-- **主题引入**  
+- 主题引入  
     本讲聚焦结构型设计模式中的适配器模式，用于解决不同API接口的兼容性问题。
 - **设计模式分类对比**  
-    创建型模式关注单个对象内部结构；结构型模式关注多个对象之间的组合方式。
-- **结构型模式全集**  
+    `创建型模式`关注单个对象内部结构；***`结构型模式`关注多个对象之间的组合方式***。
+- 结构型模式全集  
     共7种：适配器模式、桥接模式、组合模式、装饰模式、门面模式、享元模式、代理模式。
-- **本讲重点**  
+- 本讲重点  
     主要讲解最常用到的适配器模式，涉及UML图与代码实现。
 
-### **适配器模式定义与核心原理 [01:07](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=67)**
+## 适配器模式定义与核心原理 
+[01:07](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=67)
 
 - **原始定义**  
-    将类的接口转化为客户期望的另一个接口，使原本不兼容的类可以协同工作。
+    *将类的接口转化为客户期望的另一个接口，使原本不兼容的类可以协同工作*。
 - **关键点提炼**  
-    核心在于“转换”，且必须基于已有接口做好兼容，而非重构。
+    *核心在于“转换”，且必须基于已有接口做好兼容，而非重构*。
 - **UML图三角色** [01:30](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=90)
     - **目标类（Target）**：适配器即将适配的抽象类或接口。
     - **适配器类（Adapter）**：作为中间类，可为类或接口，集成目标类并实现新接口。
@@ -32,7 +34,10 @@
 - **核心原理总结** [02:52](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=172)  
     在原有接口外层封装新适配器，实现对象结构的可扩展性，且该扩展可无限延伸。
 
-### **适配器模式典型使用场景 [03:08](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=188)**
+![[_posts/architect/System Design/教程/趣学设计模式/media/4a8a1f4a623f58705881fb323ef63f13_MD5.webp]]
+
+## 典型使用场景 
+[03:08](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=188)
 
 - **七大具体场景**
     - 原有接口无法修改；
@@ -51,7 +56,8 @@
 - **框架与工程实践** [04:21](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=261)  
     各类库和框架中大量使用适配器模式。
 
-### **代码实例解析：InputStreamReader适配器 [04:32](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=272)**
+## 代码实例解析：InputStreamReader适配器 
+[04:32](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=272)
 
 - **问题背景** [04:32](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=272)  
     命令行输入需用 `BufferedReader` 读取，但 `System.in` 提供的是 `InputStream` 类型，而 `BufferedReader` 构造函数要求 `Reader` 类型。
@@ -62,7 +68,8 @@
 - **构造机制** [05:09](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=309)  
     `InputStreamReader` 构造函数内部将 `InputStream` 封装为可被 `BufferedReader` 读取的 `Reader` 流，完成适配。
 
-### **选用适配器模式的三大原因 [05:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=334)**
+## 选用的三大原因 
+[05:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=334)
 
 - **原因一：接口不可修改但需快速扩展** [05:34](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=334)  
     如已交付系统、跨团队公用接口等，适配器是“打补丁式”扩展首选；但需注意：新旧接口差异不宜过大（例：勿强行适配十年前软盘接口）。
@@ -71,7 +78,8 @@
 - **原因三：多端协议与数据格式转换** [07:04](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=424)  
     如API网关对iOS、安卓、H5客户端的数据与通信协议进行双向适配，网关本身即为适配器。
 
-### **适配器模式五大优点 [07:23](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=443)**
+## 五大优点 
+[07:23](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=443)
 
 - **优点一：解耦目标类与具体适配者** [07:28](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=448)  
     引入适配器后，重用原功能并扩展新功能，无需修改目标类代码。
@@ -84,7 +92,8 @@
 - **优点五：统一多个类或接口** [08:31](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=511)  
     单个适配器可将多个不同适配者（子类或组合）适配至同一目标类；若目标类为新类，则间接实现多接口统一。
 
-### **适配器模式主要缺点 [08:48](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=528)**
+## 主要缺点 
+[08:48](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=528)
 
 - **限制一：单继承语言适配能力受限** [08:48](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=528)  
     Java、C#等不支持多重继承，一次最多适配一个适配者类。
@@ -99,7 +108,8 @@
 - **缺点五：强耦合反演** [10:00](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=600)  
     目标接口依赖过多适配器时，修改目标接口将强制所有适配器同步定制修改，从解耦退化为定制化开发（例：上游商家接口变更致下游全部适配器重写）。
 
-### **使用建议与总结 [10:28](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=628)**
+## 使用建议与总结 
+[10:28](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=628)
 
 - **设计建议** [10:50](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=650)  
     适配器内宜采用私有继承，限定接口功能范围。

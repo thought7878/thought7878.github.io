@@ -6751,12 +6751,12 @@
     "scroll": 17.73555941123074,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 101
+        "line": 24,
+        "ch": 93
       },
       "to": {
-        "line": 23,
-        "ch": 101
+        "line": 24,
+        "ch": 93
       }
     },
     "expandedKeys": []
@@ -16017,15 +16017,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/22  适配器模式：如何处理不同 API 接口的兼容性？.md": {
-    "scroll": 0,
+    "scroll": 36.85311344896218,
     "cursor": {
       "from": {
-        "line": 110,
-        "ch": 46
+        "line": 44,
+        "ch": 13
       },
       "to": {
-        "line": 110,
-        "ch": 46
+        "line": 44,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -29860,7 +29860,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md": {
-    "scroll": 269.859056122449,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 215,
@@ -30016,21 +30016,21 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/状态模式.md": {
-    "scroll": 0,
+    "scroll": 26.41581395348837,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 112
+        "line": 36,
+        "ch": 29
       },
       "to": {
-        "line": 5,
-        "ch": 112
+        "line": 36,
+        "ch": 29
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md": {
-    "scroll": 85.7962437987243,
+    "scroll": 268.93066764490095,
     "cursor": {
       "from": {
         "line": 107,
@@ -30044,15 +30044,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/32.状态模式：如何通过有限状态机监控功能的“状态变化”？.md": {
-    "scroll": 34.03360169007651,
+    "scroll": 85.7962437987243,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 30
+        "line": 105,
+        "ch": 0
       },
       "to": {
-        "line": 42,
-        "ch": 30
+        "line": 105,
+        "ch": 0
       }
     },
     "expandedKeys": []
