@@ -15891,15 +15891,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/32  状态模式：如何通过有限状态机监控功能的“状态变化”？.md": {
-    "scroll": 0.09523809523809523,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 54
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 54
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -29860,14 +29860,14 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md": {
-    "scroll": 0,
+    "scroll": 269.859056122449,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 215,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 215,
         "ch": 0
       }
     },
@@ -30002,7 +30002,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md": {
-    "scroll": 30.760416666666668,
+    "scroll": 26.41550387596899,
     "cursor": {
       "from": {
         "line": 48,
@@ -30020,32 +30020,41 @@
     "cursor": {
       "from": {
         "line": 5,
-        "ch": 88
+        "ch": 112
       },
       "to": {
         "line": 5,
-        "ch": 88
+        "ch": 112
       }
     },
-    "expandedKeys": [
-      "item-3-0",
-      "item-3-9"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md": {
-    "scroll": 45.47770113658577,
+    "scroll": 85.7962437987243,
     "cursor": {
       "from": {
-        "line": 59,
-        "ch": 14
+        "line": 107,
+        "ch": 10
       },
       "to": {
-        "line": 59,
-        "ch": 14
+        "line": 107,
+        "ch": 10
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/32.状态模式：如何通过有限状态机监控功能的“状态变化”？.md": {
+    "scroll": 34.03360169007651,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 30
+      },
+      "to": {
+        "line": 42,
+        "ch": 30
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md",
+                "file": "_posts/architect/System Design/教程/趣学设计模式/32.状态模式：如何通过有限状态机监控功能的“状态变化”？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "31.策略模式：如何解决不同活动策略的营销推荐场景？"
+              "title": "32.状态模式：如何通过有限状态机监控功能的“状态变化”？"
             }
           },
           {
@@ -873,11 +873,13 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/architect/System Design/教程/趣学设计模式/media/1faa8b0d760dc6658f87130a3e16cc20_MD5.webp",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
-    "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/media/c0cf37092a266266af5b064230b9c250_MD5.webp",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/状态模式.md",
+    "_posts/architect/System Design/教程/趣学设计模式/32.状态模式：如何通过有限状态机监控功能的“状态变化”？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md",
+    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/media/1faa8b0d760dc6658f87130a3e16cc20_MD5.webp",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/39.责任链模式：如何解决审核、过滤场景问题？.md",
     "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
@@ -901,7 +903,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-2 章介绍.md",
     "_posts/base/js/知识点总结/元编程/元编程.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-8 适配器模式-灵活转换数据格式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media/c081a3a16fb6d0a8c81e772da7eb1c09_MD5.webp",
     "_posts/base/js/知识点总结/元编程",
@@ -918,7 +919,6 @@
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/b9c16752259777c24674bbcf508cb280_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/5c121b2310380da318401cd468fab407_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/6af61f63ef8a1284e0f79d3e6f0abab1_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/media/a19ad73fab5c740ce859b97534bb8c40_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
