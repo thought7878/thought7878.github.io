@@ -15765,15 +15765,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md": {
-    "scroll": 16.7153488372093,
+    "scroll": 71.42656080837243,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 18
+        "line": 47,
+        "ch": 15
       },
       "to": {
-        "line": 34,
-        "ch": 18
+        "line": 47,
+        "ch": 15
       }
     },
     "expandedKeys": []
@@ -15807,15 +15807,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md": {
-    "scroll": 7.623372395833333,
+    "scroll": 35.370442708333336,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 12
+        "line": 41,
+        "ch": 7
       },
       "to": {
-        "line": 26,
-        "ch": 12
+        "line": 41,
+        "ch": 7
       }
     },
     "expandedKeys": []
@@ -29846,20 +29846,18 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md": {
-    "scroll": 0.8097165991902834,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 20
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 20
+        "line": 6,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md": {
     "scroll": 0,
@@ -29908,6 +29906,78 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-12 关于MVC和MVVM.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/35  中介者模式：如何通过中间层来解决耦合过多的问题？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/39  责任链模式：如何解决审核、过滤场景问题？.md": {
+    "scroll": 13.099197383426937,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 32
+      },
+      "to": {
+        "line": 11,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/38  命令模式：如何在一次请求中封装多个参数？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/37  解释器模式：如何实现一个自定义配置规则功能？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/36  迭代器模式：如何实现遍历数据时的职责分离？.md": {
     "scroll": 0,
     "cursor": {
       "from": {

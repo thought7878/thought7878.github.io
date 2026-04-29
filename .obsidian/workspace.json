@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
+                "file": "_posts/architect/System Design/教程/趣学设计模式/39  责任链模式：如何解决审核、过滤场景问题？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00.开篇词  设计模式：程序员的基本功，你离及格还差多少？"
+              "title": "39  责任链模式：如何解决审核、过滤场景问题？"
             }
           },
           {
@@ -873,11 +873,20 @@
   },
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/architect/System Design/教程/趣学设计模式/media/e038679a1c23e4047d9fa34fb68f4bc5_MD5.webp",
+    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md",
+    "_posts/architect/System Design/教程/趣学设计模式/39  责任链模式：如何解决审核、过滤场景问题？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/35  中介者模式：如何通过中间层来解决耦合过多的问题？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/36  迭代器模式：如何实现遍历数据时的职责分离？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/37  解释器模式：如何实现一个自定义配置规则功能？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/38  命令模式：如何在一次请求中封装多个参数？.md",
+    "_posts/architect/System Design/教程/趣学设计模式/结束语  扬帆起航，从心开始.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-12 关于MVC和MVVM.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-28.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/11-6 策略模式-避免大量的if-else或switch-cas.md",
@@ -894,17 +903,8 @@
     "_posts/base/js/知识点总结/元编程/Reflect.md",
     "_posts/base/js/知识点总结/元编程/Proxy.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media/c081a3a16fb6d0a8c81e772da7eb1c09_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-12 Proxy语法-模拟明星经纪人示例.md",
-    "_posts/base/js/知识点总结/ES6+ 新特性/Proxy.md",
     "_posts/base/js/知识点总结/元编程",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-10 代理模式的场景-Nginx反向代理.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-9 代理模式的场景-webpack-dev-server的代.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-8 代理模式的场景-DOM事件代理.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-6 代理模式的UML类图和代码演示.md",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-4 什么是代理模式，它解决了什么问题.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/代理模式.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media/cba425802b1e7389078a4c1923781682_MD5.webp",
-    "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/10-2 章介绍.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media/6a783e3225ea5443de854160ab2162be_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/10.代理模式-无论开发环境还是线上环境，编程处处有代理icl",
