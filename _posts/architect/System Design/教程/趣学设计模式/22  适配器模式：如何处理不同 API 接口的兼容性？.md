@@ -49,7 +49,7 @@
     - 需进行不同接口协议转换。
 - **两大归类总结** [03:30](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=210)
     - **第一类**：原有接口功能不满足需求，需在兼容老接口前提下扩展；
-    - **第二类**：对多个具有相似性的不同接口进行功能统一。
+    - **第二类**：对多个具有相似性的不同接口进行功能统一。 
 - **现实类比** [03:48](https://b.quark.cn/apps/5AZ7aRopS/routes/mofb35Rkb?debug=0&fid=923886033544463fac18a69af7b551ec#?seek_t=228)
     - Type-C笔记本通过扩展坞转为HDMI/USB接口，连接外设；
     - 电源转换适配器将各国电流标准转换为设备适用标准。
