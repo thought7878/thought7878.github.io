@@ -15863,15 +15863,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/31  策略模式：如何解决不同活动策略的营销推荐场景？.md": {
-    "scroll": 0,
+    "scroll": 2.856016652641835,
     "cursor": {
       "from": {
-        "line": 116,
-        "ch": 41
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 116,
-        "ch": 41
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -28268,9 +28268,7 @@
         "ch": 5
       }
     },
-    "expandedKeys": [
-      "item-2-7"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/6.观察者模式-前端（及其他UI编程）最常用的设计模式，工作必/6-3什么是观察者模式，它解决什么问题.md": {
     "scroll": 0,
@@ -28485,15 +28483,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/未命名.md": {
-    "scroll": 308.3947286821705,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 311,
-        "ch": 38
+        "line": 0,
+        "ch": 20
       },
       "to": {
-        "line": 311,
-        "ch": 38
+        "line": 0,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -29865,17 +29863,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 24
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 19,
-        "ch": 24
+        "line": 3,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/System Design/设计原则、设计模式/设计模式/结构型模式/适配器模式.md": {
     "scroll": 58.046875,
@@ -30006,17 +30002,50 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md": {
-    "scroll": 53.32341085271318,
+    "scroll": 30.760416666666668,
     "cursor": {
       "from": {
-        "line": 60,
-        "ch": 33
+        "line": 48,
+        "ch": 23
       },
       "to": {
-        "line": 60,
-        "ch": 33
+        "line": 48,
+        "ch": 23
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/状态模式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 88
+      },
+      "to": {
+        "line": 5,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-9"
+    ]
+  },
+  "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md": {
+    "scroll": 45.47770113658577,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 14
+      },
+      "to": {
+        "line": 59,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
