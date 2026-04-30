@@ -2773,7 +2773,9 @@
         "ch": 63
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0"
+    ]
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md": {
     "scroll": 139.9611788193348,
@@ -27143,18 +27145,21 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 109.46256510416667,
+    "scroll": 129.33430989583334,
     "cursor": {
       "from": {
-        "line": 115,
+        "line": 143,
         "ch": 0
       },
       "to": {
-        "line": 115,
+        "line": 143,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-40",
+      "item-2-44"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
     "scroll": 47.936197916666664,
@@ -27222,15 +27227,25 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-6",
+      "item-2-21",
+      "item-2-25",
+      "item-2-35",
+      "item-2-42",
+      "item-2-47",
+      "item-2-52",
+      "item-2-55"
+    ]
   },
   "_posts/engineering/6.Mock数据方案/未命名.md": {
     "scroll": 0,
@@ -30107,15 +30122,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md": {
-    "scroll": 154.79524739583334,
+    "scroll": 6.154676830236621,
     "cursor": {
       "from": {
-        "line": 167,
-        "ch": 147
+        "line": 15,
+        "ch": 27
       },
       "to": {
-        "line": 167,
-        "ch": 147
+        "line": 15,
+        "ch": 27
       }
     },
     "expandedKeys": [
@@ -30136,5 +30151,66 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/npx.md": {
+    "scroll": 28.04296875,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 0
+      },
+      "to": {
+        "line": 42,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/未命名.md": {
+    "scroll": 127.20670572916667,
+    "cursor": {
+      "from": {
+        "line": 130,
+        "ch": 3
+      },
+      "to": {
+        "line": 130,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/锁文件.md": {
+    "scroll": 128.49567147613763,
+    "cursor": {
+      "from": {
+        "line": 105,
+        "ch": 32
+      },
+      "to": {
+        "line": 105,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-2-7",
+      "item-2-11"
+    ]
   }
 }

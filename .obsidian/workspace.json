@@ -705,6 +705,36 @@
           }
         ],
         "currentTab": 23
+      },
+      {
+        "id": "518a3e1204eda4da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96d902336d41a830",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "npx"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -771,7 +801,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -871,12 +902,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "96d902336d41a830",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/锁文件.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/01967427478823641a2ea18f895df61c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/4ca5d3870046ae16897f40e769e2bc3a_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/5e7d2ac6172bf7b5fdd38dc873fa6dd7_MD5.png",
@@ -903,13 +939,8 @@
     "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
     "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
     "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/c0cf37092a266266af5b064230b9c250_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/1faa8b0d760dc6658f87130a3e16cc20_MD5.webp",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/观察者模式.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/职责链模式.md",
-    "_posts/architect/System Design/教程/趣学设计模式/35  中介者模式：如何通过中间层来解决耦合过多的问题？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/36  迭代器模式：如何实现遍历数据时的职责分离？.md",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic",
     "_posts/base/js/知识点总结/元编程",
