@@ -27148,11 +27148,11 @@
     "scroll": 119.08626302083333,
     "cursor": {
       "from": {
-        "line": 137,
+        "line": 123,
         "ch": 0
       },
       "to": {
-        "line": 137,
+        "line": 123,
         "ch": 0
       }
     },
@@ -30124,21 +30124,18 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md": {
-    "scroll": 274.91004774305554,
+    "scroll": 265.86328125,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 27
+        "line": 280,
+        "ch": 65
       },
       "to": {
-        "line": 15,
-        "ch": 27
+        "line": 280,
+        "ch": 65
       }
     },
-    "expandedKeys": [
-      "item-3-0",
-      "item-3-3"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md": {
     "scroll": 26.784505208333332,
@@ -30237,6 +30234,50 @@
       "to": {
         "line": 0,
         "ch": 44
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md": {
+    "scroll": 114.09498697916666,
+    "cursor": {
+      "from": {
+        "line": 116,
+        "ch": 148
+      },
+      "to": {
+        "line": 116,
+        "ch": 148
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/03 - CI 环境上的 npm 优化及更多工程化问题解析.md": {
+    "scroll": 223.69323979591837,
+    "cursor": {
+      "from": {
+        "line": 337,
+        "ch": 0
+      },
+      "to": {
+        "line": 337,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 197
+      },
+      "to": {
+        "line": 6,
+        "ch": 197
       }
     },
     "expandedKeys": []

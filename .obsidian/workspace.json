@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
+                "file": "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - npm 安装机制及企业级部署私服原理"
+              "title": "05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程"
+            }
+          },
+          {
+            "id": "96d902336d41a830",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_前端工程化"
             }
           },
           {
@@ -705,36 +729,6 @@
           }
         ],
         "currentTab": 23
-      },
-      {
-        "id": "518a3e1204eda4da",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "96d902336d41a830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_前端工程化"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -801,8 +795,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -902,9 +895,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/9336a66b4ecd1a116402daf234257f88_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/e7a730b79a9d50bc88208024212ddb77_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/00a939e56a552145851ce74e0d6ebc3d_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/cb090cae02139727c34338cc9226f171_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/de8762791bd70bf30eb1223322c41262_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/1bf1f2ba0d1333df302f8c09dea3efa3_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/a9a5c8c64ff122077d4360c7bd41c0a8_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/7099baf7c9ab0835ace7323eb8e30bf6_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/40d21a62a51487b3597d6db6dc707114_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/03 - CI 环境上的 npm 优化及更多工程化问题解析.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/552060277caf1e168ce7d8cd78fa8d9c_MD5.png",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/2222a401962421c6a0b6681a79201b9d_MD5.png",
     "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/engineering/4.包管理工具（Package Manager）/NPM/npmrc文件.md",
     "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
@@ -915,32 +921,19 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-29.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/01967427478823641a2ea18f895df61c_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/4ca5d3870046ae16897f40e769e2bc3a_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/5e7d2ac6172bf7b5fdd38dc873fa6dd7_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/1aec6468945942949c17277c3b56a368_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/210c972921cee7c64cc1acd24e60f6fb_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/cd0d61f8f88c65c49f96668d014d4f73_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路2.md",
     "_posts/architect/System Design/设计原则、设计模式/设计原则/设计原则.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/开篇词 - 像架构师一样思考，突破技术成长瓶颈.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/media/01967427478823641a2ea18f895df61c_MD5.png",
     "_posts/architect/System Design/教程/趣学设计模式/22.适配器模式：如何处理不同 API 接口的兼容性？.md",
     "_posts/architect/System Design/教程/趣学设计模式/07  单一原则：如何跳出错误抽象的误区？.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/性.md",
     "_posts/读书笔记/健康/资料.md",
-    "_posts/architect/System Design/教程/趣学设计模式/media/4a8a1f4a623f58705881fb323ef63f13_MD5.webp",
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/状态模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/32.状态模式：如何通过有限状态机监控功能的“状态变化”？.md",
     "_posts/architect/System Design/教程/趣学设计模式/31.策略模式：如何解决不同活动策略的营销推荐场景？.md",
-    "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
-    "_posts/architect/System Design/教程/趣学设计模式/39.责任链模式：如何解决审核、过滤场景问题？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/media/c0cf37092a266266af5b064230b9c250_MD5.webp",
-    "_posts/architect/System Design/教程/趣学设计模式/media/1faa8b0d760dc6658f87130a3e16cc20_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic",
     "_posts/base/js/知识点总结/元编程",
