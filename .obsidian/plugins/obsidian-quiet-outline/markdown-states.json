@@ -4136,14 +4136,14 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 0,
+    "scroll": 9.396881644223955,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 17,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 17,
         "ch": 0
       }
     },
@@ -27145,21 +27145,18 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 129.33430989583334,
+    "scroll": 128.63447909284196,
     "cursor": {
       "from": {
-        "line": 143,
+        "line": 148,
         "ch": 0
       },
       "to": {
-        "line": 143,
+        "line": 148,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-40",
-      "item-2-44"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
     "scroll": 47.936197916666664,
@@ -30122,7 +30119,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md": {
-    "scroll": 6.154676830236621,
+    "scroll": 274.91004774305554,
     "cursor": {
       "from": {
         "line": 15,
@@ -30153,7 +30150,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/4.包管理工具（Package Manager）/npx.md": {
-    "scroll": 28.04296875,
+    "scroll": 31.501302083333332,
     "cursor": {
       "from": {
         "line": 42,
@@ -30164,9 +30161,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md": {
     "scroll": 0,
@@ -30212,5 +30207,33 @@
       "item-2-7",
       "item-2-11"
     ]
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/NPM/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/4.包管理工具（Package Manager）/NPM/npmrc文件.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 44
+      },
+      "to": {
+        "line": 0,
+        "ch": 44
+      }
+    },
+    "expandedKeys": []
   }
 }

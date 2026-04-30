@@ -716,7 +716,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -731,7 +731,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "npx"
+              "title": "_前端工程化"
             }
           }
         ]
@@ -902,13 +902,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "96d902336d41a830",
+  "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/NPM/npmrc文件.md",
+    "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
+    "_posts/读书笔记/人生.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
     "_posts/engineering/4.包管理工具（Package Manager）/锁文件.md",
     "_posts/engineering/4.包管理工具（Package Manager）/package.json/package.json.md",
-    "_posts/engineering/4.包管理工具（Package Manager）/npx.md",
     "_posts/engineering/4.包管理工具（Package Manager）/包管理工具（Package Manager）.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/00.开篇词/导读 - 前端技术发展回顾和架构升级之路.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md",
@@ -937,8 +939,6 @@
     "_posts/architect/System Design/设计原则、设计模式/设计模式/行为型模式/策略模式.md",
     "_posts/architect/System Design/教程/趣学设计模式/39.责任链模式：如何解决审核、过滤场景问题？.md",
     "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md",
-    "_posts/architect/System Design/教程/趣学设计模式/33.观察者模式：如何发送消息变化的通知？.md",
     "_posts/architect/System Design/教程/趣学设计模式/media/c0cf37092a266266af5b064230b9c250_MD5.webp",
     "_posts/architect/System Design/教程/趣学设计模式/media/1faa8b0d760dc6658f87130a3e16cc20_MD5.webp",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",
