@@ -801,8 +801,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -905,9 +904,12 @@
   "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
     "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md",
-    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md",
+    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/处理图片的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/engineering/2.编译与语言转换工具/TS 编译为 ES、类型检查.md",
     "_posts/engineering/2.编译与语言转换工具/JSX 编译为 JS.md",
     "_posts/engineering/2.编译与语言转换工具/ES6+ 编译为 ES5.md",
@@ -928,7 +930,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/人生.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/9336a66b4ecd1a116402daf234257f88_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/e7a730b79a9d50bc88208024212ddb77_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/00a939e56a552145851ce74e0d6ebc3d_MD5.png",
@@ -938,8 +939,6 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/a9a5c8c64ff122077d4360c7bd41c0a8_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/7099baf7c9ab0835ace7323eb8e30bf6_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/40d21a62a51487b3597d6db6dc707114_MD5.png",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/01 - npm 安装机制及企业级部署私服原理.md",
-    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/03 - CI 环境上的 npm 优化及更多工程化问题解析.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/552060277caf1e168ce7d8cd78fa8d9c_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media",
     "_posts/architect/System Design/教程/快速掌握前端必会的 7 种设计模式/11.其他设计模式-虽然有些模式不常用，但其编程思路很常用ic/media",

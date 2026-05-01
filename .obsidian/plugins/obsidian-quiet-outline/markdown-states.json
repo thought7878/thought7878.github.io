@@ -24885,12 +24885,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 152,
+        "ch": 143
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 152,
+        "ch": 143
       }
     },
     "expandedKeys": []
@@ -27147,18 +27147,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 122.6628760088041,
+    "scroll": 89.02622253720766,
     "cursor": {
       "from": {
-        "line": 131,
+        "line": 96,
         "ch": 0
       },
       "to": {
-        "line": 131,
+        "line": 96,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-34",
       "item-1-33"
     ]
   },
@@ -30440,15 +30441,59 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md": {
-    "scroll": 0.5672514619883041,
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 96
+      },
+      "to": {
+        "line": 2,
+        "ch": 96
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md": {
+    "scroll": 74.84210526315789,
+    "cursor": {
+      "from": {
+        "line": 108,
+        "ch": 43
+      },
+      "to": {
+        "line": 108,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-2-12"
+    ]
+  },
+  "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md": {
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 86
+        "ch": 92
       },
       "to": {
         "line": 0,
-        "ch": 86
+        "ch": 92
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/处理图片的场景、工具.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 100
+      },
+      "to": {
+        "line": 0,
+        "ch": 100
       }
     },
     "expandedKeys": []
