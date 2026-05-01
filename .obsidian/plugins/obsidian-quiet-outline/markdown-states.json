@@ -14955,7 +14955,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md": {
-    "scroll": 357.0862504511007,
+    "scroll": 357.0855286900036,
     "cursor": {
       "from": {
         "line": 389,
@@ -24871,12 +24871,12 @@
     "scroll": 0.010101010101010102,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 24
+        "line": 10,
+        "ch": 19
       },
       "to": {
-        "line": 9,
-        "ch": 24
+        "line": 10,
+        "ch": 29
       }
     },
     "expandedKeys": []
@@ -24927,18 +24927,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md": {
-    "scroll": 1.5833333333333335,
+    "scroll": 8.124734231041815,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 10,
+        "ch": 99
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 10,
+        "ch": 102
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/engineering/5.模块化（Module）/为什么要使用 模块化？.md": {
     "scroll": 0,
@@ -27145,18 +27147,23 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 36.40625,
+    "scroll": 91.83919270833333,
     "cursor": {
       "from": {
-        "line": 52,
+        "line": 104,
         "ch": 0
       },
       "to": {
-        "line": 52,
+        "line": 104,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-35",
+      "item-2-34",
+      "item-1-33",
+      "item-3-37"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
     "scroll": 47.936197916666664,
@@ -30234,7 +30241,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md": {
-    "scroll": 28.091471354166668,
+    "scroll": 12.94287109375,
     "cursor": {
       "from": {
         "line": 38,
