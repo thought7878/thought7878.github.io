@@ -24927,15 +24927,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md": {
-    "scroll": 8.124734231041815,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 99
+        "line": 4,
+        "ch": 8
       },
       "to": {
-        "line": 10,
-        "ch": 102
+        "line": 4,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -27147,22 +27147,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 91.83919270833333,
+    "scroll": 122.6628760088041,
     "cursor": {
       "from": {
-        "line": 104,
+        "line": 131,
         "ch": 0
       },
       "to": {
-        "line": 104,
+        "line": 131,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-35",
-      "item-2-34",
-      "item-1-33",
-      "item-3-37"
+      "item-1-33"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
@@ -30364,6 +30361,94 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/ES6+ -> ES5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/ES6+ -编译为> ES5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/ES6+ 编译为 ES5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 190,
+        "ch": 115
+      },
+      "to": {
+        "line": 190,
+        "ch": 115
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/engineering/2.编译与语言转换工具/TS 编译为 ES、类型检查.md": {
+    "scroll": 71.77736434108527,
+    "cursor": {
+      "from": {
+        "line": 85,
+        "ch": 0
+      },
+      "to": {
+        "line": 85,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "_posts/engineering/2.编译与语言转换工具/JSX 编译为 JS.md": {
+    "scroll": 18.811197916666668,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 43
+      },
+      "to": {
+        "line": 24,
+        "ch": 43
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md": {
+    "scroll": 0.5672514619883041,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 86
+      },
+      "to": {
+        "line": 0,
+        "ch": 86
       }
     },
     "expandedKeys": []
