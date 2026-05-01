@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 14.9375,
+    "scroll": 16.402173913043477,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 36,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 36,
         "ch": 0
       }
     },
@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 132.462890625,
+    "scroll": 131.6259765625,
     "cursor": {
       "from": {
-        "line": 139,
-        "ch": 8
+        "line": 143,
+        "ch": 0
       },
       "to": {
-        "line": 139,
-        "ch": 8
+        "line": 143,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 247.86024305555554,
+    "scroll": 240.59375,
     "cursor": {
       "from": {
-        "line": 267,
-        "ch": 0
+        "line": 243,
+        "ch": 165
       },
       "to": {
-        "line": 267,
-        "ch": 0
+        "line": 243,
+        "ch": 165
       }
     },
     "expandedKeys": []
@@ -4136,15 +4136,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 9.396881644223955,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 0
+        "line": 0,
+        "ch": 131
       },
       "to": {
-        "line": 17,
-        "ch": 0
+        "line": 0,
+        "ch": 131
       }
     },
     "expandedKeys": []
@@ -4153,11 +4153,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 8,
+        "ch": 131
       },
       "to": {
-        "line": 7,
+        "line": 8,
         "ch": 0
       }
     },
@@ -27148,11 +27148,11 @@
     "scroll": 119.08626302083333,
     "cursor": {
       "from": {
-        "line": 123,
+        "line": 14,
         "ch": 0
       },
       "to": {
-        "line": 123,
+        "line": 14,
         "ch": 0
       }
     },
@@ -30138,15 +30138,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md": {
-    "scroll": 26.784505208333332,
+    "scroll": 24.867838541666668,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -30239,15 +30239,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md": {
-    "scroll": 114.09498697916666,
+    "scroll": 106.24848090277777,
     "cursor": {
       "from": {
-        "line": 116,
-        "ch": 148
+        "line": 114,
+        "ch": 171
       },
       "to": {
-        "line": 116,
-        "ch": 148
+        "line": 114,
+        "ch": 171
       }
     },
     "expandedKeys": [
@@ -30269,15 +30269,57 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程.md": {
+    "scroll": 0.8771929824561403,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 76
+      },
+      "to": {
+        "line": 15,
+        "ch": 76
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-01.md": {
+    "scroll": 26.784505208333332,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/未命名.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 197
+        "line": 2,
+        "ch": 67
       },
       "to": {
-        "line": 6,
-        "ch": 197
+        "line": 2,
+        "ch": 67
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 79
+      },
+      "to": {
+        "line": 3,
+        "ch": 79
       }
     },
     "expandedKeys": []

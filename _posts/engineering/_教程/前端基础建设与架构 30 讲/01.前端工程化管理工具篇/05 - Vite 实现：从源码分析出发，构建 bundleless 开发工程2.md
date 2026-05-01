@@ -1,0 +1,11 @@
+视频讲解了Vite从源码角度的设计哲学、运行原理与实现细节，具体如下：
+- **Vite核心定位与设计理念**：由Vue作者尤雨溪开发，基于浏览器原生ES Module，开发环境跳过打包，服务端按需编译，生产环境用Rollup打包，解决热更新慢问题。
+- **Vite开发环境核心流程**：开发环境无打包构建，浏览器以ESM规范发起HTTP请求模块，服务端处理后返回，实现真正按需加载。
+- **Vite服务启动与基础处理**：通过命令创建Vite应用，开发模式用Koa服务器，createServer为核心方法，返回含ESM脚本的HTML页面。
+- **模块路径改写机制**：通过server-plugin-module-rewrite中间件，将npm模块名转为/@module/前缀路径，适配浏览器ESM导入规则。
+- **第三方模块加载处理**：通过server-plugin-module-resolve中间件，解析/@module/请求，从node_modules中读取并返回对应NPM库内容。
+- **Vue单文件组件编译**：通过server-plugin-vue中间件，用parseSFC与compileSFC拆分SFC为script、template、style，分别处理并返回。
+- **样式文件处理**：通过CSS相关中间件，将CSS请求转为可注入浏览器的样式代码，调用updateStyle方法实现样式插入。
+- **Vite中间件核心作用**：处理ESM语法、编译单文件与预编译模块、建立WebSocket连接，支撑HMR与请求处理全流程。
+- **HMR热更新实现原理**：服务端用chokidar监听文件变动，通过WebSocket推送更新，浏览器执行框架层面的render或reload。
+- **Vite设计价值与趋势**：灵感来自Snowpack，源码流程清晰易读，代表Bundleless前端构建新趋势，适合源码学习与工程化实践。
