@@ -5,28 +5,28 @@
 ---
 ## 一、核心认知：现代 CSS 处理的范式转变
 
-| 传统范式（2015~2020） | 现代范式（2024+） |
-|------------------------|-------------------|
-| Sass/Less 重度预处理 + PostCSS 插件链 | **原生 CSS 优先**（嵌套、`:has()`、`@layer`、容器查询、颜色函数）+ 轻量后处理 |
-| 全局作用域 + `!important` 覆盖 + BEM 命名约束 | **作用域隔离默认开启**（CSS Modules / Scoped / `@layer` / 零运行时 CSS-in-JS） |
-| 运行时 CSS-in-JS（styled-components/Emotion） | **编译时提取**（Vanilla Extract / Panda CSS / Linaria），零运行时开销 |
-| 全量打包 CSS，首屏阻塞渲染 | **关键路径内联 + 异步加载 + HTTP/2 多路复用 + DevTools Coverage 审计** |
-| 设计稿与代码脱节，硬编码颜色/间距 | **Design Tokens 驱动**（Figma → Style Dictionary → CSS 变量 → 组件消费） |
+| 传统范式（2015~2020）                          | 现代范式（2024+）                                                     |
+| ---------------------------------------- | --------------------------------------------------------------- |
+| Sass/Less 重度预处理 + PostCSS 插件链            | **原生 CSS 优先**（嵌套、`:has()`、`@layer`、容器查询、颜色函数）+ 轻量后处理            |
+| 全局作用域 + `!important` 覆盖 + BEM 命名约束       | **作用域隔离默认开启**（CSS Modules / Scoped / `@layer` / 零运行时 CSS-in-JS） |
+| 运行时 CSS-in-JS（styled-components/Emotion） | **编译时提取**（Vanilla Extract / Panda CSS / Linaria），零运行时开销         |
+| 全量打包 CSS，首屏阻塞渲染                          | **关键路径内联 + 异步加载 + HTTP/2 多路复用 + DevTools Coverage 审计**          |
+| 设计稿与代码脱节，硬编码颜色/间距                        | **Design Tokens 驱动**（Figma → Style Dictionary → CSS 变量 → 组件消费）  |
 
 > 💡 **现代定位**：CSS 处理不再是“语法转换”，而是**样式架构设计、作用域治理、交付性能优化与设计系统落地的工程基线**。
 
 ---
 ## 二、核心场景与痛点矩阵
 
-| 场景分类 | 核心痛点 | 现代推荐方案 |
-|----------|----------|--------------|
-| **1. 基础样式开发** | 缺乏变量/嵌套/复用，代码冗余 | Dart Sass（过渡） → 原生 CSS 嵌套 + CSS 变量 + `@mixin` 替代方案 |
-| **2. 浏览器兼容** | 前缀遗漏、现代语法不支持、过度降级 | `browserslist` 统一驱动 + Lightning CSS / PostCSS `preset-env` |
-| **3. 作用域隔离** | 全局污染、组件样式泄漏、优先级战争 | CSS Modules / Vue Scoped / `@layer` 分层 / 零运行时 CSS-in-JS |
-| **4. 原子化/设计系统** | 类名爆炸、风格不一致、体积失控 | Tailwind CSS / UnoCSS（JIT 按需） + Design Tokens 管道 |
-| **5. 主题/暗色模式** | 硬编码颜色、切换闪烁、多主题维护难 | CSS 变量 + `prefers-color-scheme` + Token 映射 + `color-mix()` |
-| **6. 交付性能优化** | 渲染阻塞、未使用样式多、CLS/LCP 超标 | Critical CSS 内联 + `media` 异步加载 + Lightning CSS 压缩 + Coverage 审计 |
-| **7. 组件库/跨端共享** | 样式耦合框架、消费方覆盖困难、无类型 | 零运行时 CSS-in-JS + 独立 CSS 输出 + CSS 变量暴露 + `.d.ts` 类型声明 |
+| 场景分类            | 核心痛点                   | 现代推荐方案                                                          |
+| --------------- | ---------------------- | --------------------------------------------------------------- |
+| **1. 基础样式开发**   | 缺乏变量/嵌套/复用，代码冗余        | Dart Sass（过渡） → 原生 CSS 嵌套 + CSS 变量 + `@mixin` 替代方案              |
+| **2. 浏览器兼容**    | 前缀遗漏、现代语法不支持、过度降级      | `browserslist` 统一驱动 + Lightning CSS / PostCSS `preset-env`      |
+| **3. 作用域隔离**    | 全局污染、组件样式泄漏、优先级战争      | CSS Modules / Vue Scoped / `@layer` 分层 / 零运行时 CSS-in-JS         |
+| **4. 原子化/设计系统** | 类名爆炸、风格不一致、体积失控        | Tailwind CSS / UnoCSS（JIT 按需） + Design Tokens 管道                |
+| **5. 主题/暗色模式**  | 硬编码颜色、切换闪烁、多主题维护难      | CSS 变量 + `prefers-color-scheme` + Token 映射 + `color-mix()`      |
+| **6. 交付性能优化**   | 渲染阻塞、未使用样式多、CLS/LCP 超标 | Critical CSS 内联 + `media` 异步加载 + Lightning CSS 压缩 + Coverage 审计 |
+| **7. 组件库/跨端共享** | 样式耦合框架、消费方覆盖困难、无类型     | 零运行时 CSS-in-JS + 独立 CSS 输出 + CSS 变量暴露 + `.d.ts` 类型声明            |
 
 ---
 ## 三、主流工具与方案全景

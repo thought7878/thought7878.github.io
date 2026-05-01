@@ -24868,18 +24868,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md": {
-    "scroll": 0.010101010101010102,
+    "scroll": 9.868151991454296,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 19
+        "line": 71,
+        "ch": 26
       },
       "to": {
-        "line": 10,
-        "ch": 29
+        "line": 71,
+        "ch": 26
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/engineering/2.编译与语言转换工具/未命名.md": {
     "scroll": 0,
@@ -27147,18 +27149,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md": {
-    "scroll": 89.02622253720766,
+    "scroll": 111.90885416666667,
     "cursor": {
       "from": {
-        "line": 96,
+        "line": 149,
         "ch": 0
       },
       "to": {
-        "line": 96,
+        "line": 149,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-46",
       "item-2-34",
       "item-1-33"
     ]
@@ -30441,34 +30444,32 @@
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md": {
-    "scroll": 0,
+    "scroll": 87.03139660772284,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 96
+        "line": 91,
+        "ch": 24
       },
       "to": {
-        "line": 2,
-        "ch": 96
+        "line": 91,
+        "ch": 24
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md": {
-    "scroll": 74.84210526315789,
+    "scroll": 15.5986328125,
     "cursor": {
       "from": {
-        "line": 108,
-        "ch": 43
+        "line": 24,
+        "ch": 40
       },
       "to": {
-        "line": 108,
-        "ch": 43
+        "line": 24,
+        "ch": 40
       }
     },
-    "expandedKeys": [
-      "item-2-12"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md": {
     "scroll": 0,
@@ -30488,12 +30489,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 100
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 100
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/2.编译与语言转换工具/SWC/SWC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 0
+      },
+      "to": {
+        "line": 35,
+        "ch": 0
       }
     },
     "expandedKeys": []
