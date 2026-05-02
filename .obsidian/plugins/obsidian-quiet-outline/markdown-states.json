@@ -2086,24 +2086,20 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 125.03879465896789,
+    "scroll": 84.12260807937633,
     "cursor": {
       "from": {
-        "line": 140,
-        "ch": 21
+        "line": 117,
+        "ch": 0
       },
       "to": {
-        "line": 140,
-        "ch": 21
+        "line": 117,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-1",
-      "item-2-4",
-      "item-3-5",
-      "item-3-8",
-      "item-2-12"
+      "item-2-12",
+      "item-1-0"
     ]
   },
   "_posts/engineering/1.打包工具（Module Bundler）/webpack/应用性能/代码分割（Code Splitting）-DS.md": {
@@ -27147,11 +27143,11 @@
     "scroll": 82.1892274982282,
     "cursor": {
       "from": {
-        "line": 95,
+        "line": 81,
         "ch": 0
       },
       "to": {
-        "line": 95,
+        "line": 81,
         "ch": 0
       }
     },
@@ -30595,15 +30591,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/1.webpack考点梳理.md": {
-    "scroll": 0.9824561403508771,
+    "scroll": 32.93643410852713,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 23
+        "line": 53,
+        "ch": 21
       },
       "to": {
-        "line": 9,
-        "ch": 23
+        "line": 53,
+        "ch": 21
       }
     },
     "expandedKeys": []
@@ -30612,17 +30608,31 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 7,
+        "ch": 34
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 7,
+        "ch": 34
       }
     },
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/3.webpack基本配置串讲（上）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 21
+      },
+      "to": {
+        "line": 8,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/5.webpack基本配置串讲（下）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -30636,7 +30646,7 @@
     },
     "expandedKeys": []
   },
-  "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/5.webpack基本配置串讲（下）.md": {
+  "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/4.webpack基本配置串讲（下）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
