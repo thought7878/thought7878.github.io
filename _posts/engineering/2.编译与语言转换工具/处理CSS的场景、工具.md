@@ -31,15 +31,15 @@
 ---
 ## 三、主流工具与方案全景
 
-| 分类 | 代表工具 | 核心机制 | 适用场景 |
-|------|----------|----------|----------|
-| **预处理** | Dart Sass, Less(维护), Stylus(小众) | 变量/嵌套/Mixin/函数 → 标准 CSS | 老项目过渡、团队习惯延续（逐步被原生替代） |
-| **后处理/兼容** | Lightning CSS, PostCSS(`preset-env`/`autoprefixer`) | AST 转换 + 前缀注入 + 现代语法降级 + 压缩 | Lightning CSS 为现代默认；PostCSS 用于强定制插件链 |
-| **作用域隔离** | CSS Modules, Vue Scoped, `@layer`, Shadow DOM | Hash 类名 / 属性选择器 / 层叠控制 / DOM 隔离 | 应用默认 CSS Modules/Scoped；复杂架构用 `@layer` 治理优先级 |
-| **原子化/JIT** | Tailwind CSS, UnoCSS, Panda CSS | 扫描源码 → JIT 生成 Utility → Purge 未使用 | 实用优先项目、设计系统基线、快速迭代场景 |
-| **零运行时 CSS-in-JS** | Vanilla Extract, Linaria, Compiled, Panda CSS | 构建时 AST 提取 → 静态 CSS + 类型安全类名 | 替代运行时 CSS-in-JS，SSR/首屏性能敏感项目 |
-| **压缩/优化** | Lightning CSS(内置), cssnano, csso | 去重/简写合并/注释移除/选择器优化 | 生产必接；Lightning CSS 已覆盖 90% 场景 |
-| **关键路径/按需** | Critters, `vite-plugin-critical`, PurgeCSS | 提取首屏 CSS 内联，其余异步加载 | LCP 优化、SSR/SSG 项目、内容型网站 |
+| 分类                 | 代表工具                                                | 核心机制                              | 适用场景                                         |
+| ------------------ | --------------------------------------------------- | --------------------------------- | -------------------------------------------- |
+| **预处理**            | Dart Sass, Less(维护), Stylus(小众)                     | 变量/嵌套/Mixin/函数 → 标准 CSS           | 老项目过渡、团队习惯延续（逐步被原生替代）                        |
+| **后处理/兼容**         | Lightning CSS, PostCSS(`preset-env`/`autoprefixer`) | AST 转换 + 前缀注入 + 现代语法降级 + 压缩       | Lightning CSS 为现代默认；PostCSS 用于强定制插件链         |
+| **作用域隔离**          | CSS Modules, Vue Scoped, `@layer`, Shadow DOM       | Hash 类名 / 属性选择器 / 层叠控制 / DOM 隔离   | 应用默认 CSS Modules/Scoped；复杂架构用 `@layer` 治理优先级 |
+| **原子化/JIT**        | Tailwind CSS, UnoCSS, Panda CSS                     | 扫描源码 → JIT 生成 Utility → Purge 未使用 | 实用优先项目、设计系统基线、快速迭代场景                         |
+| **零运行时 CSS-in-JS** | Vanilla Extract, Linaria, Compiled, Panda CSS       | 构建时 AST 提取 → 静态 CSS + 类型安全类名      | 替代运行时 CSS-in-JS，SSR/首屏性能敏感项目                 |
+| **压缩/优化**          | Lightning CSS(内置), cssnano, csso                    | 去重/简写合并/注释移除/选择器优化                | 生产必接；Lightning CSS 已覆盖 90% 场景                |
+| **关键路径/按需**        | Critters, `vite-plugin-critical`, PurgeCSS          | 提取首屏 CSS 内联，其余异步加载                | LCP 优化、SSR/SSG 项目、内容型网站                      |
 
 ---
 ## 四、关键机制与工程实践
@@ -94,14 +94,14 @@ Figma Variables / JSON → Style Dictionary / Theo → CSS 变量 / SCSS 映射 
 ---
 ## 五、构建集成与框架适配
 
-| 框架/工具 | CSS 处理机制 | 配置要点 |
-|-----------|--------------|----------|
-| **Vite** | 原生支持 Sass/Less/PostCSS/CSS Modules；可选 `lightningcss` | `css.transformer: 'lightningcss'`；零配置开箱；生产自动 Hash+压缩 |
-| **Next.js** | 内置 CSS Modules / Sass / 严格全局导入限制 | 全局样式仅允许在 `_app.tsx` 引入；推荐 `@layer` 治理；支持外部 CSS-in-JS |
-| **Nuxt 3** | `@nuxtjs/tailwindcss` / CSS Modules / `@nuxt/image` 联动 | 自动按需加载；支持 UnoCSS 模块；SSR 样式注入顺序优化 |
-| **Webpack** | Loader 链：`sass-loader` → `postcss-loader` → `css-loader` → `mini-css-extract-plugin` | 配置重、构建慢；老项目维护或迁移至 Rspack/Vite |
-| **Rollup** | `@rollup/plugin-postcss` / `rollup-plugin-styles` | 类库首选；注意 `extract: true` 输出独立 CSS + SourceMap |
-| **Monorepo/设计系统** | Style Dictionary + 共享 `postcss.config` + 独立 CSS 产物 | Token 单源发布；消费方按需引入；避免样式版本碎片化 |
+| 框架/工具             | CSS 处理机制                                                                             | 配置要点                                                 |
+| ----------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| **Vite**          | 原生支持 Sass/Less/PostCSS/CSS Modules；可选 `lightningcss`                                 | `css.transformer: 'lightningcss'`；零配置开箱；生产自动 Hash+压缩 |
+| **Next.js**       | 内置 CSS Modules / Sass / 严格全局导入限制                                                     | 全局样式仅允许在 `_app.tsx` 引入；推荐 `@layer` 治理；支持外部 CSS-in-JS |
+| **Nuxt 3**        | `@nuxtjs/tailwindcss` / CSS Modules / `@nuxt/image` 联动                               | 自动按需加载；支持 UnoCSS 模块；SSR 样式注入顺序优化                     |
+| **Webpack**       | Loader 链：`sass-loader` → `postcss-loader` → `css-loader` → `mini-css-extract-plugin` | 配置重、构建慢；老项目维护或迁移至 Rspack/Vite                        |
+| **Rollup**        | `@rollup/plugin-postcss` / `rollup-plugin-styles`                                    | 类库首选；注意 `extract: true` 输出独立 CSS + SourceMap         |
+| **Monorepo/设计系统** | Style Dictionary + 共享 `postcss.config` + 独立 CSS 产物                                   | Token 单源发布；消费方按需引入；避免样式版本碎片化                         |
 
 ---
 ## 六、常见问题与排查指南

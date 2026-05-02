@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-01.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-01"
+              "title": "2026-05-02"
             }
           },
           {
@@ -589,7 +589,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,7 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "处理CSS的场景、工具"
+              "title": "_前端工程化"
             }
           },
           {
@@ -897,19 +897,22 @@
   },
   "active": "96d902336d41a830",
   "lastOpenFiles": [
+    "_posts/engineering/2.编译与语言转换工具/JSX 编译为 JS.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-02.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-01.md",
+    "_posts/engineering/2.编译与语言转换工具/处理HTML的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/TS 编译为 ES、类型检查.md",
+    "_posts/engineering/2.编译与语言转换工具/ES6+ 编译为 ES5.md",
     "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md",
     "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md",
     "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md",
     "_posts/engineering/2.编译与语言转换工具/SWC/SWC.md",
-    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
     "_posts/engineering/2.编译与语言转换工具/处理图片的场景、工具.md",
-    "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md",
-    "_posts/engineering/2.编译与语言转换工具/TS 编译为 ES、类型检查.md",
-    "_posts/engineering/2.编译与语言转换工具/JSX 编译为 JS.md",
-    "_posts/engineering/2.编译与语言转换工具/ES6+ 编译为 ES5.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/_前端系统设计.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
@@ -918,12 +921,9 @@
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量2.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/05 - Vite 实现：从源码分析出发，构建 bundleless 开发工程2.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-01.md",
     "DailyNote/Journal/01 Daily/2026/04/2026-04-30.md",
     "DailyNote/Journal/01 Daily/2026/05",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/健康/资料.md",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/9336a66b4ecd1a116402daf234257f88_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/e7a730b79a9d50bc88208024212ddb77_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/00a939e56a552145851ce74e0d6ebc3d_MD5.png",
