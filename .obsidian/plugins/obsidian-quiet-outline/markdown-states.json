@@ -2086,14 +2086,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md": {
-    "scroll": 84.12260807937633,
+    "scroll": 104.45196390658174,
     "cursor": {
       "from": {
-        "line": 117,
+        "line": 124,
         "ch": 0
       },
       "to": {
-        "line": 117,
+        "line": 124,
         "ch": 0
       }
     },
@@ -27143,16 +27143,16 @@
     "scroll": 82.1892274982282,
     "cursor": {
       "from": {
-        "line": 81,
+        "line": 95,
         "ch": 0
       },
       "to": {
-        "line": 81,
+        "line": 95,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-13"
+      "item-1-33"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/工程化/现代前端开发工具链.md": {
@@ -30622,12 +30622,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 21
+        "line": 7,
+        "ch": 59
       },
       "to": {
-        "line": 8,
-        "ch": 21
+        "line": 7,
+        "ch": 59
       }
     },
     "expandedKeys": []
@@ -30659,5 +30659,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/_教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md": {
+    "scroll": 50.07813229571985,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 14
+      },
+      "to": {
+        "line": 70,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }
