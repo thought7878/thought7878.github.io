@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/读书笔记/男女.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "男女"
             }
           },
           {
@@ -565,7 +565,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -580,7 +580,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "处理JS的场景、工具"
+              "title": "_前端工程化"
             }
           },
           {
@@ -589,7 +589,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/6.webpack如何抽离压缩css文件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -604,7 +604,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10 深入理解图像加载原理与最佳实践"
+              "title": "6.webpack如何抽离压缩css文件"
             }
           },
           {
@@ -728,7 +728,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -795,7 +795,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 306.5
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -895,17 +895,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "96d902336d41a830",
+  "active": "3e9eda0e837218d4",
   "lastOpenFiles": [
-    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/6 如何搭建 React 全栈开发环境？.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
-    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/3.webpack基本配置串讲（上）.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
+    "_posts/engineering/2.编译与语言转换工具/处理HTML的场景、工具.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/6.webpack如何抽离压缩css文件.md",
+    "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
+    "_posts/engineering/2.编译与语言转换工具/处理JS的场景、工具.md",
+    "_posts/engineering/2.编译与语言转换工具/JS编译工具对比-未整理.md",
+    "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/04 - 横向对比主流构建工具，了解构建工具的设计考量.md",
+    "_posts/engineering/2.编译与语言转换工具/SWC/SWC.md",
+    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/10 深入理解图像加载原理与最佳实践.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/3.webpack基本配置串讲（上）.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/3 如何借助 Babel+TS+ESLint 构建现代 JS 工程环境？.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/4 如何借助预处理器、PostCSS 等构建现代 CSS 工程环境？.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/6 如何搭建 React 全栈开发环境？.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/methods/常看的.md",
+    "_posts/engineering/_教程/前端工程化精讲/3.部署效率/18 工具盘点：掌握那些流行的代码部署工具.md",
+    "_posts/engineering/_教程/Webpack5 核心原理与应用实践/12 核心工作流程-构建性能-常用的性能分析工具.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题/1.html、css面试介绍.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/1.webpack考点梳理.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/2.使用webpack5.md",
@@ -919,16 +929,6 @@
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/base/知识目录、路线图/知识目录/面试",
-    "_posts/engineering/2.编译与语言转换工具/JSX 编译为 JS.md",
-    "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-02.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-01.md",
-    "_posts/engineering/2.编译与语言转换工具/处理HTML的场景、工具.md",
-    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
-    "_posts/engineering/2.编译与语言转换工具/处理图标的场景、工具.md",
-    "_posts/engineering/2.编译与语言转换工具/TS 编译为 ES、类型检查.md",
-    "_posts/engineering/2.编译与语言转换工具/ES6+ 编译为 ES5.md",
-    "_posts/engineering/1.打包工具（Module Bundler）/为什么 使用模块打包工具？.md",
     "DailyNote/Journal/01 Daily/2026/05",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/9336a66b4ecd1a116402daf234257f88_MD5.png",
     "_posts/engineering/_教程/前端基础建设与架构 30 讲/01.前端工程化管理工具篇/media/e7a730b79a9d50bc88208024212ddb77_MD5.png",
