@@ -1,3 +1,6 @@
+参考：[[面试题目汇总]]
+
+
 以下是 JavaScript 知识点的系统性总结，涵盖基础到高级内容，方便你按模块复习：
 
 ---
@@ -85,11 +88,24 @@
 4. **浏览器相关**
    - DOM 操作：节点增删改查、事件监听（`addEventListener`）
    - BOM 对象：`window`、`location`、`history`、`navigator`、`screen`
-   - 事件模型：冒泡、捕获、委托
+   - 事件模型：冒泡、捕获、委托 [[事件机制]]
    - AJAX 与 `fetch` API
    - Web Storage：`localStorage`、`sessionStorage`
 
-## 
+## 事件
+[[事件机制]]
+
+### 事件的触发过程
+
+### 事件绑定
+
+### 事件委托/代理
+
+### 事件类型
+
+### 事件对象
+
+
 
 ---
 

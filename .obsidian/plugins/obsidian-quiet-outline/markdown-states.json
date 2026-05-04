@@ -29164,7 +29164,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "_posts/base/js/知识点总结/原型/未命名.md": {
     "scroll": 0,
@@ -30887,33 +30889,31 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/题目汇总.md": {
-    "scroll": 23.969075520833332,
+    "scroll": 25.650487188740527,
     "cursor": {
       "from": {
-        "line": 40,
+        "line": 41,
         "ch": 0
       },
       "to": {
-        "line": 40,
+        "line": 41,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-13",
-      "item-1-3",
       "item-1-15"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 67.70416539981757,
+    "scroll": 82.39290364583333,
     "cursor": {
       "from": {
-        "line": 87,
-        "ch": 11
+        "line": 98,
+        "ch": 0
       },
       "to": {
-        "line": 87,
-        "ch": 11
+        "line": 98,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -30933,5 +30933,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/browser/事件机制/事件机制.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
+    "scroll": 30.8115234375,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 13
+      },
+      "to": {
+        "line": 42,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-15"
+    ]
   }
 }
