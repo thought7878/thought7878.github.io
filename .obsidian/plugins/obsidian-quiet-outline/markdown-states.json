@@ -30935,33 +30935,49 @@
     "expandedKeys": []
   },
   "_posts/browser/事件机制/事件机制.md": {
-    "scroll": 0,
+    "scroll": 36.58955459618827,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 42,
+        "ch": 85
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 42,
+        "ch": 85
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-5"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 30.8115234375,
+    "scroll": 33.447672320461926,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 13
+        "line": 59,
+        "ch": 7
       },
       "to": {
-        "line": 42,
-        "ch": 13
+        "line": 59,
+        "ch": 7
       }
     },
     "expandedKeys": [
       "item-1-15"
     ]
+  },
+  "_posts/browser/事件机制/addEventListener.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 30
+      },
+      "to": {
+        "line": 11,
+        "ch": 30
+      }
+    },
+    "expandedKeys": []
   }
 }
