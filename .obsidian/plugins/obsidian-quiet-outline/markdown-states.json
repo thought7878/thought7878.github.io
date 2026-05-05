@@ -31203,15 +31203,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/XSS 2.md": {
-    "scroll": 0,
+    "scroll": 53.64113339700732,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 71
+        "line": 62,
+        "ch": 41
       },
       "to": {
-        "line": 7,
-        "ch": 71
+        "line": 62,
+        "ch": 41
       }
     },
     "expandedKeys": []
@@ -31261,15 +31261,15 @@
     ]
   },
   "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md": {
-    "scroll": 3.8275862068965516,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 76
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 13,
-        "ch": 76
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -31287,5 +31287,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md": {
+    "scroll": 110.78383255142548,
+    "cursor": {
+      "from": {
+        "line": 120,
+        "ch": 30
+      },
+      "to": {
+        "line": 120,
+        "ch": 30
+      }
+    },
+    "expandedKeys": [
+      "item-2-5"
+    ]
   }
 }

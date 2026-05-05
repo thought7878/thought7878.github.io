@@ -1,4 +1,6 @@
-参考：[前端安全！XSS攻击！](https://www.bilibili.com/video/BV1cYubzdEiH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+参考：[前端安全！XSS攻击！](https://www.bilibili.com/video/BV1cYubzdEiH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[XSS 原理和攻防 - Web 安全常识](https://www.bilibili.com/video/BV1DW411U7XE/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[[33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？]]
+
+【对网站发起 xss 攻击：原理、方法与防护】 https://www.bilibili.com/video/BV1UM411g7pb/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 `XSS`（Cross-Site Scripting，为避免与 CSS 混淆简写为 XSS）是 Web 安全中**历史最久、危害最广、变种最多**的客户端漏洞。尽管*现代框架与浏览器已大幅降低其发生率*，但**只要存在“用户输入 → 页面渲染”的数据流，XSS 风险就始终存在**。
@@ -20,13 +22,13 @@
 
 ## 二、三大分类与攻击链路
 
-| 类型                         | 数据流向                                 | 持久性         | 典型触发场景                                          | 危害等级                 |
-| -------------------------- | ------------------------------------ | ----------- | ----------------------------------------------- | -------------------- |
-| **反射型（Reflected）**         | 用户请求 → 服务端未过滤直接返回 → 浏览器执行            | 非持久（仅当次请求）  | 钓鱼链接、搜索框、错误提示页、URL 参数回显                         | 中（需诱导点击）             |
-| **存储型（Stored/Persistent）** | 用户提交 → 服务端存入 DB/文件 → 其他用户访问时渲染       | 持久（影响所有访问者） | 评论区、个人资料、留言板、CMS 内容、工单系统                        | 高（自动触发，易蠕虫化）         |
-| **DOM 型（DOM-based）**       | 前端 JS 读取不可信数据 → 直接写入 DOM 危险 API → 执行 | 可持久可非持久     | `location.hash`、`postMessage`、URL 参数、第三方 SDK 回调 | 高（不经过服务端，传统 WAF 难拦截） |
+| 类型                     | 数据流向                                        | 持久性         | 典型触发场景                                          | 危害等级                 |
+| ---------------------- | ------------------------------------------- | ----------- | ----------------------------------------------- | -------------------- |
+| 反射型（Reflected）         | 用户请求 → 服务端未过滤直接返回 → 浏览器执行                   | 非持久（仅当次请求）  | *钓鱼链接*、搜索框、错误提示页、URL 参数回显                       | 中（需诱导点击）             |
+| 存储型（Stored/Persistent） | *攻击者*提交恶意JS → 服务端存入 DB/文件 → 其他用户访问时渲染执行恶意JS | 持久（影响所有访问者） | 评论区、个人资料、留言板、CMS 内容、工单系统                        | 高（自动触发，易蠕虫化）         |
+| DOM 型（DOM-based）       | 前端 JS 读取不可信数据 → 直接写入 DOM 危险 API → 执行        | 可持久可非持久     | `location.hash`、`postMessage`、URL 参数、第三方 SDK 回调 | 高（不经过服务端，传统 WAF 难拦截） |
 
-### 🔍 DOM 型 XSS 的 Source → Sink 模型
+### DOM 型 XSS 的 Source → Sink 模型
 ```js
 // Source（不可信数据来源）
 const input = location.hash.slice(1); // #<img src=x onerror=alert(1)>
