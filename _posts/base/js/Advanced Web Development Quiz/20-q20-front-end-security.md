@@ -18,7 +18,7 @@
 ![[_posts/base/js/Advanced Web Development Quiz/media/9fbe398e7ca4a331d713d62015f516d2_MD5.jpeg]]
 
 ## 相关资料
-[[_posts/browser/安全/XSS|XSS]]
+[[XSS 2|XSS 2]]
 [[CSRF]]
 [[UI redressing、UI 伪装攻击]]
 [[中间人攻击]]

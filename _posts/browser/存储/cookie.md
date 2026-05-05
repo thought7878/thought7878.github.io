@@ -64,7 +64,7 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 
 ## Cookie 的安全性
 
-> 参考 [[_posts/browser/安全/XSS|XSS]] 等
+> 参考 [[XSS 2|XSS 2]] 等
 
 前端 Cookie 的安全性可以通过多种方法来保证，以下是一些常见的措施：
 

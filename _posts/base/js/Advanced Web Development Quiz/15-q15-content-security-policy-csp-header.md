@@ -9,4 +9,4 @@
 ![[_posts/base/js/Advanced Web Development Quiz/media/58b77fa8771d40257304e7129162e4f7_MD5.jpeg]]
 
 ## 相关资料
-[[CSP-内容安全策略]]
+[[内容安全策略（CSP）2]]

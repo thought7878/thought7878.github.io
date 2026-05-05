@@ -3062,14 +3062,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 69.875,
+    "scroll": 68.29166666666667,
     "cursor": {
       "from": {
-        "line": 74,
+        "line": 77,
         "ch": 0
       },
       "to": {
-        "line": 74,
+        "line": 77,
         "ch": 0
       }
     },
@@ -30995,18 +30995,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 198.0255608118419,
+    "scroll": 200.40126659545246,
     "cursor": {
       "from": {
-        "line": 213,
-        "ch": 10
+        "line": 221,
+        "ch": 7
       },
       "to": {
-        "line": 213,
-        "ch": 10
+        "line": 221,
+        "ch": 7
       }
     },
     "expandedKeys": [
+      "item-2-33",
       "item-1-32"
     ]
   },
@@ -31060,26 +31061,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/browser/安全/同源策略.md": {
-    "scroll": 101.46608790016278,
+    "scroll": 90.44010416666667,
     "cursor": {
       "from": {
-        "line": 109,
-        "ch": 17
+        "line": 110,
+        "ch": 8
       },
       "to": {
-        "line": 109,
-        "ch": 17
+        "line": 110,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -31090,12 +31091,156 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 10,
+        "ch": 42
+      },
+      "to": {
+        "line": 10,
+        "ch": 42
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/现代浏览器多层安全策略.md": {
+    "scroll": 89.10595322466335,
+    "cursor": {
+      "from": {
+        "line": 110,
+        "ch": 62
+      },
+      "to": {
+        "line": 110,
+        "ch": 62
+      }
+    },
+    "expandedKeys": [
+      "item-2-7"
+    ]
+  },
+  "_posts/browser/安全/CSP-内容安全策略.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 4
+      },
+      "to": {
+        "line": 1,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/内容安全策略（CSP）2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 4
+      },
+      "to": {
+        "line": 1,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/内容安全策略（CSP）.md": {
+    "scroll": 14.109375,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 87
+      },
+      "to": {
+        "line": 24,
+        "ch": 87
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/browser/安全/overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md": {
+    "scroll": 0.37373737373737376,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 47
+      },
+      "to": {
+        "line": 10,
+        "ch": 47
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/XSS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
         "line": 2,
-        "ch": 112
+        "ch": 73
       },
       "to": {
         "line": 2,
-        "ch": 112
+        "ch": 73
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/XSS 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 73
+      },
+      "to": {
+        "line": 2,
+        "ch": 73
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/安全策略/内容安全策略（CSP）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
