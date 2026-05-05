@@ -27081,11 +27081,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -27095,12 +27095,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 20
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 20
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -30949,7 +30949,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 37.295247395833336,
+    "scroll": 33.95579213280404,
     "cursor": {
       "from": {
         "line": 58,
@@ -30968,12 +30968,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 30
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 30
+        "line": 6,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -31234,11 +31234,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
@@ -31289,19 +31289,33 @@
     "expandedKeys": []
   },
   "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md": {
-    "scroll": 110.78383255142548,
+    "scroll": 58.682291666666664,
     "cursor": {
       "from": {
-        "line": 120,
-        "ch": 30
+        "line": 72,
+        "ch": 21
       },
       "to": {
-        "line": 120,
-        "ch": 30
+        "line": 72,
+        "ch": 21
       }
     },
     "expandedKeys": [
-      "item-2-5"
+      "item-2-1"
     ]
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -1,6 +1,9 @@
 
 参考资料：[[互联网是如何运作的？]]、[[HTTP]]、[[4.HTTP 协议]]
 
+【从点击网页到显示需要多少步-DNS、HTTP、CA、TLS、HTTPS】 https://www.bilibili.com/video/BV1Tx421m7Hv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 ---
 
 为系统学习Web开发所需的网络及HTTP相关知识，需系统梳理并掌握以下核心知识点体系：
