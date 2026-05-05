@@ -6731,15 +6731,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 17.73555941123074,
+    "scroll": 1.625,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 93
+        "line": 5,
+        "ch": 54
       },
       "to": {
-        "line": 24,
-        "ch": 93
+        "line": 5,
+        "ch": 54
       }
     },
     "expandedKeys": []
@@ -30995,19 +30995,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 188.2445652173913,
+    "scroll": 198.0255608118419,
     "cursor": {
       "from": {
         "line": 213,
-        "ch": 12
+        "ch": 10
       },
       "to": {
         "line": 213,
-        "ch": 12
+        "ch": 10
       }
     },
     "expandedKeys": [
-      "item-1-29"
+      "item-1-32"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31060,30 +31060,44 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/browser/安全/同源策略.md": {
-    "scroll": 97.41472237294266,
+    "scroll": 101.46608790016278,
     "cursor": {
       "from": {
         "line": 109,
-        "ch": 16
+        "ch": 17
       },
       "to": {
         "line": 109,
-        "ch": 16
+        "ch": 17
       }
     },
     "expandedKeys": [
       "item-2-8"
     ]
+  },
+  "_posts/browser/安全/前端常见攻击与防护.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 112
+      },
+      "to": {
+        "line": 2,
+        "ch": 112
+      }
+    },
+    "expandedKeys": []
   }
 }
