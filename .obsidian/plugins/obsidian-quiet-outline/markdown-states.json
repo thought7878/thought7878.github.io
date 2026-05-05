@@ -30859,15 +30859,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-04.md": {
-    "scroll": 25.534505208333332,
+    "scroll": 23.21495895408939,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -30905,7 +30905,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 82.39290364583333,
+    "scroll": 75.99609375,
     "cursor": {
       "from": {
         "line": 98,
@@ -30935,31 +30935,29 @@
     "expandedKeys": []
   },
   "_posts/browser/事件机制/事件机制.md": {
-    "scroll": 36.58955459618827,
+    "scroll": 35.885091145833336,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 85
+        "line": 43,
+        "ch": 0
       },
       "to": {
-        "line": 42,
-        "ch": 85
+        "line": 43,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-5"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 33.447672320461926,
+    "scroll": 37.295247395833336,
     "cursor": {
       "from": {
-        "line": 59,
-        "ch": 7
+        "line": 58,
+        "ch": 0
       },
       "to": {
-        "line": 59,
-        "ch": 7
+        "line": 58,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -30979,5 +30977,113 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-05.md": {
+    "scroll": 29.659505208333332,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
+    "scroll": 188.2445652173913,
+    "cursor": {
+      "from": {
+        "line": 213,
+        "ch": 12
+      },
+      "to": {
+        "line": 213,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-29"
+    ]
+  },
+  "_posts/security/同源策略.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 8
+      },
+      "to": {
+        "line": 18,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/同源策略（跨域问题）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 0
+      },
+      "to": {
+        "line": 62,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/browser/安全/同源策略（跨域问题）2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 0
+      },
+      "to": {
+        "line": 62,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/browser/安全/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/同源策略.md": {
+    "scroll": 97.41472237294266,
+    "cursor": {
+      "from": {
+        "line": 109,
+        "ch": 16
+      },
+      "to": {
+        "line": 109,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-2-8"
+    ]
   }
 }

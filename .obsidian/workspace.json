@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-04.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-04"
+              "title": "2026-05-05"
             }
           },
           {
@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+                "file": "_posts/browser/安全/同源策略.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "同源策略"
             }
           },
           {
@@ -728,7 +728,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -895,12 +895,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "96d902336d41a830",
+  "active": "65d6c1092e45792e",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/browser/安全/同源策略（跨域问题）2.md",
+    "_posts/browser/安全/同源策略.md",
+    "_posts/security/同源策略.md",
     "_posts/browser/事件机制/事件机制.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
-    "_posts/browser/事件机制/addEventListener.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
+    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-05.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-04.md",
+    "_posts/browser/事件机制/addEventListener.md",
     "_posts/base/js/知识点总结/原型/原型.md",
     "_posts/architect/_教程/高级前端工程师（大前端）- Brian/0./目录.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
@@ -913,7 +920,6 @@
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/6.webpack如何抽离压缩css文件.md",
     "_posts/browser/渲染/优化/Critical CSS 内联 + media 异步加载.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题/1.html、css面试介绍.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-04.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-02.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/人际关系.md",
@@ -922,12 +928,6 @@
     "_posts/base/知识目录、路线图/知识目录/工程化/Webpack.md",
     "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/3.webpack基本配置串讲（上）.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/engineering/2.编译与语言转换工具/处理CSS的场景、工具.md",
-    "_posts/base/知识目录、路线图/性能优化.md",
-    "_posts/performance/教程/Web Performance Fundamentals/4.Improving Performance/4.Performance API Practice.md",
-    "_posts/performance/optimization-methods/按需加载 CSS.md",
-    "_posts/engineering/2.编译与语言转换工具/处理HTML的场景、工具.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题/media/13e65802b7bdca2da91b4b997096c8dd_MD5.webp",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题/media",
