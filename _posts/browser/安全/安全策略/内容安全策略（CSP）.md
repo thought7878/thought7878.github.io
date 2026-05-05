@@ -1,3 +1,4 @@
+参考：[CSP内容安全策略【渡一教育】](https://www.bilibili.com/video/BV1ZzHDz5Ewu/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 `CSP（Content Security Policy，内容安全策略）` 是现代 Web 安全体系中**防御 XSS、数据注入与资源劫持的核心机制**。它*通过白名单模型告诉浏览器*：“**只允许加载/执行我明确声明的资源，其余一律拦截**”。CSP 不替代输入校验与输出转义，而是作为**纵深防御的最后一道运行时屏障**。
 

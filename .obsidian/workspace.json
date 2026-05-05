@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
+                "file": "_posts/browser/安全/安全策略/内容安全策略（CSP）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "XSS（跨站脚本攻击）"
+              "title": "内容安全策略（CSP）"
             }
           },
           {
@@ -897,19 +897,19 @@
   },
   "active": "65d6c1092e45792e",
   "lastOpenFiles": [
-    "_posts/browser/安全/安全策略/内容安全策略（CSP）.md",
     "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
-    "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md",
     "_posts/browser/安全/常见攻击与防护/XSS 2.md",
+    "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/browser/安全/安全策略/同源策略.md",
+    "_posts/browser/安全/安全策略/内容安全策略（CSP）.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/browser/安全/overview.md",
     "_posts/browser/安全/常见攻击与防护",
     "_posts/browser/安全/安全策略",
-    "_posts/browser/安全/安全策略/同源策略.md",
     "_posts/browser/安全/安全策略/内容安全策略（CSP）2.md",
     "_posts/methods/要整理的.md",
     "_posts/browser/安全/安全策略/现代浏览器多层安全策略.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/browser/安全/安全策略/同源策略（跨域问题）2.md",
     "_posts/security/同源策略.md",
     "_posts/browser/事件机制/事件机制.md",

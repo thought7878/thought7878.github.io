@@ -6731,15 +6731,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 1.625,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 5,
-        "ch": 54
+        "ch": 59
       },
       "to": {
         "line": 5,
-        "ch": 54
+        "ch": 59
       }
     },
     "expandedKeys": []
@@ -30995,20 +30995,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 200.40126659545246,
+    "scroll": 190.68489583333334,
     "cursor": {
       "from": {
-        "line": 221,
-        "ch": 7
+        "line": 223,
+        "ch": 0
       },
       "to": {
-        "line": 221,
-        "ch": 7
+        "line": 223,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-33",
-      "item-1-32"
+      "item-1-29"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31176,15 +31175,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md": {
-    "scroll": 0.37373737373737376,
+    "scroll": 12.471097852516294,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 47
+        "line": 11,
+        "ch": 82
       },
       "to": {
-        "line": 10,
-        "ch": 47
+        "line": 11,
+        "ch": 82
       }
     },
     "expandedKeys": []
@@ -31207,12 +31206,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 73
+        "line": 7,
+        "ch": 71
       },
       "to": {
-        "line": 2,
-        "ch": 73
+        "line": 7,
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -31221,11 +31220,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       }
     },
@@ -31240,6 +31239,36 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/安全策略/同源策略.md": {
+    "scroll": 100.89744981009224,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-8"
+    ]
+  },
+  "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md": {
+    "scroll": 75.541015625,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 0
+      },
+      "to": {
+        "line": 32,
         "ch": 0
       }
     },
