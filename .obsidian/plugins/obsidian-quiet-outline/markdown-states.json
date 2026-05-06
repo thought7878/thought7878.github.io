@@ -3062,15 +3062,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 68.29166666666667,
+    "scroll": 61.270833333333336,
     "cursor": {
       "from": {
         "line": 77,
-        "ch": 0
+        "ch": 141
       },
       "to": {
         "line": 77,
-        "ch": 0
+        "ch": 141
       }
     },
     "expandedKeys": []
@@ -30979,15 +30979,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-05.md": {
-    "scroll": 29.659505208333332,
+    "scroll": 17.478868957129826,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -31308,14 +31308,32 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 7,
+        "ch": 62
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 7,
+        "ch": 62
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-06.md": {
+    "scroll": 30.85790219702339,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
