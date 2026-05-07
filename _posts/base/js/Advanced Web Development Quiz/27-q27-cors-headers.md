@@ -15,6 +15,6 @@
 
 ![[_posts/base/js/Advanced Web Development Quiz/media/2a202d6ac93040e4734e7cafdd43fc17_MD5.jpeg]]
 ## 相关资料
-[[CORS-跨域资源共享]]
+[[CORS（跨域资源共享）2]]
 [[同源策略（跨域问题）2]]
 

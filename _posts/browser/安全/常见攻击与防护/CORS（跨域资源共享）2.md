@@ -1,3 +1,5 @@
+参考：[掌握CORS跨域请求](https://www.bilibili.com/video/BV13F411y7fy/?spm_id_from=333.337.search-card.all.click&vd_source=22af953ea4c09540ad1966711a2d53f0)、
+
 跨域资源共享（Cross-Origin Resource Sharing，简称 CORS）是一种*安全机制*，**用于解决浏览器同源策略（Same-origin policy）带来的限制**。CORS 允许一个域上的网页请求另一个域上的资源，从而实现了跨域的数据交换。
 
 ### 同源策略
@@ -104,6 +106,3 @@ fetch('https://api.example.com/data')
 ### 总结
 
 跨域资源共享（CORS）是一种机制，允许服务端指定哪些来源可以访问其资源，从而绕过浏览器的同源策略限制。通过在响应头中设置特定的 CORS 字段，服务端可以控制哪些跨域请求是允许的。CORS 包括简单请求和预检请求两种情况，通过适当配置服务器端的响应头，可以实现安全的跨域数据交换。
-
-## 参考资料
-[掌握CORS跨域请求](https://www.bilibili.com/video/BV13F411y7fy/?spm_id_from=333.337.search-card.all.click&vd_source=22af953ea4c09540ad1966711a2d53f0)

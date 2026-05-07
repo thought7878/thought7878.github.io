@@ -565,18 +565,20 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 151.98786271200063,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 13
+        "line": 227,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 13
+        "line": 227,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-13"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -939,14 +941,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 115.77083333333333,
+    "scroll": 37.718912760416664,
     "cursor": {
       "from": {
-        "line": 141,
+        "line": 48,
         "ch": 0
       },
       "to": {
-        "line": 141,
+        "line": 48,
         "ch": 0
       }
     },
@@ -3065,11 +3067,11 @@
     "scroll": 63.583333333333336,
     "cursor": {
       "from": {
-        "line": 80,
+        "line": 73,
         "ch": 0
       },
       "to": {
-        "line": 80,
+        "line": 73,
         "ch": 0
       }
     },
@@ -27095,12 +27097,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 25
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 25
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -30995,19 +30997,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 208.1256793478261,
+    "scroll": 172.6983695652174,
     "cursor": {
       "from": {
-        "line": 223,
+        "line": 206,
         "ch": 0
       },
       "to": {
-        "line": 223,
+        "line": 206,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-32"
+      "item-1-29"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31175,15 +31177,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md": {
-    "scroll": 7.516927083333333,
+    "scroll": 4.083333333333333,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 188
+        "line": 11,
+        "ch": 82
       },
       "to": {
-        "line": 10,
-        "ch": 188
+        "line": 11,
+        "ch": 82
       }
     },
     "expandedKeys": []
@@ -31245,30 +31247,28 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/安全策略/同源策略.md": {
-    "scroll": 100.89744981009224,
+    "scroll": 69.767578125,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 80,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 80,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-8"
-    ]
+    "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 6,
         "ch": 0
       }
     },
@@ -31289,51 +31289,107 @@
     "expandedKeys": []
   },
   "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？.md": {
-    "scroll": 58.682291666666664,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 21
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 72,
-        "ch": 21
+        "line": 3,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
         "line": 7,
-        "ch": 62
+        "ch": 72
       },
       "to": {
         "line": 7,
-        "ch": 62
+        "ch": 72
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-06.md": {
-    "scroll": 30.85790219702339,
+    "scroll": 26.367838541666668,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-07.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/browser/安全/安全策略/现代浏览器多层安全策略.md": {
+    "scroll": 89.12863217576187,
+    "cursor": {
+      "from": {
+        "line": 105,
+        "ch": 48
+      },
+      "to": {
+        "line": 105,
+        "ch": 48
+      }
+    },
+    "expandedKeys": [
+      "item-2-7"
+    ]
+  },
+  "_posts/browser/安全/常见攻击与防护/CORS-跨域资源共享.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CORS（跨域资源共享）2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 122
+      },
+      "to": {
+        "line": 6,
+        "ch": 122
+      }
+    },
+    "expandedKeys": []
   }
 }
