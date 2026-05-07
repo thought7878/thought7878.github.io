@@ -1,4 +1,4 @@
-参考：[前端安全！XSS攻击！](https://www.bilibili.com/video/BV1cYubzdEiH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[XSS 原理和攻防 - Web 安全常识](https://www.bilibili.com/video/BV1DW411U7XE/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[[33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？]]
+参考：[前端安全！XSS攻击！](https://www.bilibili.com/video/BV1cYubzdEiH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[XSS 原理和攻防 - Web 安全常识](https://www.bilibili.com/video/BV1DW411U7XE/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[[33.跨站脚本攻击（XSS）：为什么Cookie中有HttpOnly属性？]]、[CSRF / XSS：攻击和防御的应用层故事](https://v.douyin.com/2nVDoa661qQ/)
 
 【对网站发起 xss 攻击：原理、方法与防护】 https://www.bilibili.com/video/BV1UM411g7pb/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 

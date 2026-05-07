@@ -30997,19 +30997,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 172.6983695652174,
+    "scroll": 179.84182590233544,
     "cursor": {
       "from": {
-        "line": 206,
-        "ch": 0
+        "line": 181,
+        "ch": 7
       },
       "to": {
-        "line": 206,
-        "ch": 0
+        "line": 181,
+        "ch": 7
       }
     },
     "expandedKeys": [
-      "item-1-29"
+      "item-1-19"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31247,15 +31247,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/安全策略/同源策略.md": {
-    "scroll": 69.767578125,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 80,
-        "ch": 0
+        "line": 2,
+        "ch": 88
       },
       "to": {
-        "line": 80,
-        "ch": 0
+        "line": 2,
+        "ch": 88
       }
     },
     "expandedKeys": []
@@ -31264,12 +31264,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 5,
+        "ch": 141
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 5,
+        "ch": 141
       }
     },
     "expandedKeys": []
@@ -31303,15 +31303,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md": {
-    "scroll": 0,
+    "scroll": 99.2862015503876,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 72
+        "line": 107,
+        "ch": 38
       },
       "to": {
-        "line": 7,
-        "ch": 72
+        "line": 107,
+        "ch": 38
       }
     },
     "expandedKeys": []
@@ -31383,11 +31383,39 @@
     "cursor": {
       "from": {
         "line": 6,
-        "ch": 122
+        "ch": 118
       },
       "to": {
         "line": 6,
-        "ch": 122
+        "ch": 118
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/安全策略/SOP（同源策略）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 133
+      },
+      "to": {
+        "line": 2,
+        "ch": 133
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/安全策略/同源策略（SOP）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 133
+      },
+      "to": {
+        "line": 2,
+        "ch": 133
       }
     },
     "expandedKeys": []
