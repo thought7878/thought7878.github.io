@@ -1,4 +1,4 @@
-[CSRF（跨站请求伪造）攻击与防御](https://www.bilibili.com/video/BV1xF4m1M7kQ/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[CSRF / XSS：攻击和防御的应用层故事](https://v.douyin.com/2nVDoa661qQ/)
+参考：[CSRF / XSS：攻击和防御的应用层故事](https://v.douyin.com/2nVDoa661qQ/)、[CSRF（跨站请求伪造）攻击与防御](https://www.bilibili.com/video/BV1xF4m1M7kQ/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、
 
 
 `CSRF（Cross-Site Request Forgery）`是 Web 安全中**利用浏览器信任机制**的经典攻击。与 XSS 的“代码注入”不同，CSRF 不窃取数据，而是 **“借刀杀人”** ：*诱导已登录用户的浏览器，以用户身份向目标网站发起非自愿的操作请求*。

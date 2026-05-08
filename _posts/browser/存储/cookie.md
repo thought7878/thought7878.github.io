@@ -64,7 +64,7 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 
 ## Cookie 的安全性
 
-> 参考 [[XSS 2|XSS 2]] 等
+> 参考 [[XSS（跨站脚本攻击）（未整理）|XSS 2]] 等
 
 前端 Cookie 的安全性可以通过多种方法来保证，以下是一些常见的措施：
 
@@ -124,7 +124,7 @@ res.cookie("csrfToken", csrfToken);
 
 在前端表单中包含该令牌，提交时一起发送到服务器进行验证。
 
-参考 [[CSRF]]
+参考 [[CSRF（跨站请求伪造）（未整理）]]
 
 ### 定期更新和管理 Cookie
 

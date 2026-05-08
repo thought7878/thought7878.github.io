@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 131.6259765625,
+    "scroll": 98.65767441860466,
     "cursor": {
       "from": {
-        "line": 143,
-        "ch": 0
+        "line": 117,
+        "ch": 17
       },
       "to": {
-        "line": 143,
-        "ch": 0
+        "line": 117,
+        "ch": 17
       }
     },
     "expandedKeys": []
@@ -6737,11 +6737,11 @@
     "cursor": {
       "from": {
         "line": 5,
-        "ch": 59
+        "ch": 83
       },
       "to": {
         "line": 5,
-        "ch": 59
+        "ch": 83
       }
     },
     "expandedKeys": []
@@ -27097,12 +27097,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 20,
+        "ch": 98
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 20,
+        "ch": 98
       }
     },
     "expandedKeys": []
@@ -30907,7 +30907,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 75.99609375,
+    "scroll": 90.30790697674419,
     "cursor": {
       "from": {
         "line": 98,
@@ -30918,9 +30918,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
     "scroll": 0,
@@ -30997,20 +30995,18 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 179.84182590233544,
+    "scroll": 82.53190104166667,
     "cursor": {
       "from": {
-        "line": 181,
-        "ch": 7
+        "line": 64,
+        "ch": 0
       },
       "to": {
-        "line": 181,
-        "ch": 7
+        "line": 64,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-19"
-    ]
+    "expandedKeys": []
   },
   "_posts/security/同源策略.md": {
     "scroll": 0,
@@ -31177,15 +31173,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md": {
-    "scroll": 4.083333333333333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 82
+        "line": 2,
+        "ch": 111
       },
       "to": {
-        "line": 11,
-        "ch": 82
+        "line": 2,
+        "ch": 111
       }
     },
     "expandedKeys": []
@@ -31205,7 +31201,7 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/XSS 2.md": {
-    "scroll": 53.64113339700732,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 62,
@@ -31264,12 +31260,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 141
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 5,
-        "ch": 141
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -31278,11 +31274,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 8,
         "ch": 0
       }
     },
@@ -31303,15 +31299,15 @@
     "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md": {
-    "scroll": 99.2862015503876,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 107,
-        "ch": 38
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 107,
-        "ch": 38
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -31333,14 +31329,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-07.md": {
-    "scroll": 26.701171875,
+    "scroll": 22.70903010033445,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -31416,6 +31412,120 @@
       "to": {
         "line": 2,
         "ch": 133
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-08.md": {
+    "scroll": 11.906066536203522,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 68
+      },
+      "to": {
+        "line": 6,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF （2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 68
+      },
+      "to": {
+        "line": 6,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF （未整理）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）（未整理）.md": {
+    "scroll": 26.061990489130434,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 157
+      },
+      "to": {
+        "line": 8,
+        "ch": 157
+      }
+    },
+    "expandedKeys": [
+      "item-1-5"
+    ]
+  },
+  "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）（未整理）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 0
+      },
+      "to": {
+        "line": 60,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
