@@ -849,7 +849,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -949,10 +950,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "78706e367b0cab99",
+  "active": "65d6c1092e45792e",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
     "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
     "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",

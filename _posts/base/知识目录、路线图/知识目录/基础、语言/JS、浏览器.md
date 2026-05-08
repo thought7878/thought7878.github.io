@@ -27,7 +27,11 @@
 - var
 - let
 - const
+
 要在JavaScript中使用变量，我们首先需要创建它，即声明一个变量。要声明变量，我们使用 `var` ， `let` 或 `const` 关键字之一。
+
+`var`（存在变量提升，函数作用域）、`let`（块级作用域）、`const`（块级作用域，声明常量）。
+
 ## 变量提升（Hoisting）
 ## 命名规则
 ## 作用域（Scopes）
@@ -43,10 +47,13 @@
 7种原始类型、基本类型
 参考：[[基本数据类型、引用数据类型]]
 
+`Number`（数值类型，包含整数和浮点数）、`String`（字符串类型）、`Boolean`（布尔类型，值为 `true` 或 `false`）、`Null`（只有一个值 `null`，表示空对象引用）、`Undefined`（变量声明但未赋值时的默认值）、`Symbol`（ES6 新增，创建独一无二的值）。
+
 ## 引用类型、对象类型（Object）
-对象类型、引用类型：对象、数组、函数
+对象类型、引用类型：对象、数组、函数。`Object`（对象类型，*无序的*数据集合）、`Array`（数组类型，*有序的*数据集合）、`Function`（函数类型，*可执行的代码块*）。
 
 参考：[[基本数据类型、引用数据类型]]
+
 ### 原型（Prototype）
 参考：[[Prototype & Inheritance]]
 
@@ -101,21 +108,66 @@ Arrays are objects that store a collection of items and can be assigned to a var
 ### JSON
 参考：[[JSON]]
 
+# 运算符
+## 算术运算符
+- 加：`+`
+- 减：`-`
+- 乘：`*`
+- 除：`/`
+- 取余：`%`
+- 自增：`++`
+- 自减：`--`
 
-# Equality Comparisons
-相等比较
-## ==
-## ===
-## Object.is
+## 比较运算符
+- 相等：`\==`
+- 严格相等：`\===`（值和类型都相等）
+- 不相等：`!=`
+- 严格不相等：`!==`
+- 大于：`>`
+- 小于：`<`
+- 大于等于：`>=`
+- 小于等于：`<=`
 
-## isLooselyEqual
+## 逻辑运算符
+- 逻辑与：`&&`
+- 逻辑或：`||`
+- 逻辑非：`!`
 
-## isStrictlyEqual
-## Same value zero
-## Same value
+## 赋值运算符
+- 赋值：`\=`
+- 加等于：`+=`
+- 减等于：`-=`
 
-# Loops and Iterations
-循环和迭代
+## 位运算符
+- 按位与：`&`
+- 按位或：`|`
+- 按位异或：`^`
+- 按位取反：`~`
+- 左移：`<<`
+- 右移：`>>`
+- 无符号右移：`>>>`
+
+
+
+# Control Flow
+## Conditional statements
+
+### If Else
+
+### Switch Case
+
+## Exception Handling
+
+### Throw Statement
+
+### Try, Catch, Finally
+
+### Error Object
+
+
+# 循环和迭代
+Loops and Iterations
+
 [[循环]]
 
 ## 循环总结
@@ -124,21 +176,166 @@ Arrays are objects that store a collection of items and can be assigned to a var
 ## 迭代协议（Symbol.iterator）
 [[迭代协议（Symbol.iterator）]]
 
-## for
+## 循环语句
+`for`（普通 for 循环）、`while`（当条件为真时循环）、`do...while`（至少执行一次循环体）、`for...in`（遍历对象的可枚举属性）、`for...of`（ES6 新增，遍历可迭代对象）。
 
-## do…while
+### for
 
-
-## while
-
-
-## for…of
+### do…while
 
 
-## for…in
+### while
 
 
-## break / continue
+### for…of
+
+
+### for…in
+
+
+## 跳转语句
+`break`（跳出循环）、`continue`（跳过本次循环）、`return`（从函数中返回值并终止函数执行）。
+
+### break
+### continue
+### return
+
+
+# Expressions and Operators
+## Conditional operators
+condition ? val_for_true : val_for_false
+
+## Comma operators
+可忽略，极少这么用
+
+## Unary Operators
+参考 [[一元运算符]]
+
+## Assignment Operators
+参考 [[赋值运算符]]
+
+## Comparison Operators
+参考 [[比较运算符]]
+
+## Arithmetic operators
+参考 [[算术运算符]]
+
+## Bitwise operators
+参考 [[位运算符]]
+
+## Logical Operators
+参考 [[逻辑运算符]]
+
+## BigInt Operators
+[[BigInt运算符]]
+
+## String Operators
+参考 [[字符串运算符]]
+
+
+# Function
+Functions exist so we can reuse code. They are blocks of code that execute whenever they are invoked. Each function is typically written to perform a particular task, like an addition function used to find the sum of two or more numbers. When numbers need to be added anywhere within your code, the addition function can be invoked as many times as necessary.  
+
+**函数的存在是为了让我们可以重用代码**。它们是只要被调用就会执行的**代码块**。每个函数通常都是**为了执行特定任务而编写的**，例如用于求两个或多个数字之和的加法函数。当需要在代码中的任何位置添加数字时，可以根据需要多次调用加法函数。
+
+## Function Parameters
+
+### Default Parameters
+
+### Rest Parameters
+
+## Arrow Functions
+
+## IIFE
+
+## Arguments object
+
+## Scope and function stack(Call stack)
+### Scope
+
+A space or environment in which a particular variable or function can be accessed or used. Accessibility of this variable or function depends on where it is defined.  
+可以访问或使用特定变量或功能的空间或环境。此变量或函数的可访问性取决于定义的位置。
+
+JavaScript has the following kinds of scopes:  
+JavaScript具有以下类型的范围：
+
+- **Global scope**: The default scope for all code running in script mode.
+- **Module scope**: The scope for code running in module mode.
+- **Function scope**: The scope created with a function.
+- **Block scope**: The scope created with a pair of curly braces (a block).
+
+### Function Stack (Call stack)
+
+The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.  
+该功能堆栈是解释器如何在调用多个函数的脚本中跟踪其位置，例如当前正在执行哪个函数以及该功能中的哪些函数正在调用。
+
+### Recursion
+
+### Lexical scoping
+
+### Closures
+
+## Built-in functions
+
+## 函数声明、函数表达式
+
+# DOM APIs
+With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.  
+通过 HTML DOM，JavaScript 可以访问和更改 HTML 文档的所有元素（例如其属性、CSS 样式）、删除元素、在页面上添加和创建新元素。 Web API 是指网络应用程序编程接口。所有浏览器都有一组内置的 Web API 来支持复杂的操作并帮助访问数据。例如地理位置 API、网络存储、网络历史记录等。
+
+# Strict Mode
+参考 [[Strict Mode]]
+
+# This Keyword
+
+
+
+# Asynchronous
+## Promise
+参考 [[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
+
+## async / await
+参考 [[async & await]]
+
+## Web APIs
+参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+## Event Loop/Call Stack/(Micro)Task Queue
+参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+
+# remote APIs
+## XMLHttpRequest
+参考 [[XMLHttpRequest]]
+## Fetch
+参考 [[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
+
+# Class
+参考 [[Class]]
+
+# Iterators and Generators
+参考 [[Generator-2]]、[[Iterator]]
+
+
+# Module
+## ES Module
+参考 [[_posts/base/js/知识点总结/模块/ES Module]]
+## CommonJS
+参考 [[CommonJS]]
+
+# Memory Management
+参考：[[内存管理：栈空间、堆空间、代码空间]]
+
+## Memory lifecycle
+
+## Garbage Collection
+参考：[[垃圾回收（Garbage Collection）]]、[[13.垃圾回收：垃圾数据是如何自动回收的？]]
+
+# Chrome Dev Tools
+## Debugging issues
+
+## Debugging Memory Leaks
+
+## Debugging performance
+
 
 
 
