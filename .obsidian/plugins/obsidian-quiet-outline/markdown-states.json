@@ -28728,14 +28728,14 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap.md": {
-    "scroll": 226.552734375,
+    "scroll": 231.74728260869566,
     "cursor": {
       "from": {
-        "line": 237,
+        "line": 242,
         "ch": 0
       },
       "to": {
-        "line": 237,
+        "line": 242,
         "ch": 0
       }
     },
@@ -30907,29 +30907,31 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 90.30790697674419,
+    "scroll": 80.08854166666667,
     "cursor": {
       "from": {
-        "line": 98,
+        "line": 93,
         "ch": 0
       },
       "to": {
-        "line": 98,
+        "line": 93,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 61,
+        "ch": 104
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 61,
+        "ch": 104
       }
     },
     "expandedKeys": []
@@ -30995,18 +30997,21 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 82.53190104166667,
+    "scroll": 43.75875968992248,
     "cursor": {
       "from": {
-        "line": 64,
+        "line": 207,
         "ch": 0
       },
       "to": {
-        "line": 64,
+        "line": 207,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-10",
+      "item-1-1"
+    ]
   },
   "_posts/security/同源策略.md": {
     "scroll": 0,
@@ -31302,11 +31307,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 6,
         "ch": 0
       }
     },
@@ -31525,6 +31530,94 @@
       },
       "to": {
         "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/Web APIs/Fetch/Fetch.md": {
+    "scroll": 92.4372067845543,
+    "cursor": {
+      "from": {
+        "line": 101,
+        "ch": 0
+      },
+      "to": {
+        "line": 101,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/JS-未整理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 186,
+        "ch": 16
+      },
+      "to": {
+        "line": 186,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md": {
+    "scroll": 176.859375,
+    "cursor": {
+      "from": {
+        "line": 207,
+        "ch": 145
+      },
+      "to": {
+        "line": 207,
+        "ch": 145
+      }
+    },
+    "expandedKeys": [
+      "item-1-67"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 326
+      },
+      "to": {
+        "line": 7,
+        "ch": 326
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "JS-未整理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
