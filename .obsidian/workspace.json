@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS、浏览器"
+              "title": "_完整的前端知识总结-QW1"
             }
           },
           {
@@ -750,6 +750,30 @@
               "icon": "lucide-file",
               "title": "_SZ项目规划方案-答案"
             }
+          },
+          {
+            "id": "225502bfd53bdaea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_高级前端开发面试准备指南-DS"
+            }
           }
         ],
         "currentTab": 26
@@ -815,8 +839,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -920,15 +943,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f085a9864c8356d",
+  "active": "78706e367b0cab99",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
+    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW2.md",
+    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
     "JS-未整理.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS-未整理.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
     "_posts/base/js/知识点总结/Web APIs/Fetch/Fetch.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
@@ -940,14 +971,6 @@
     "_posts/base/知识目录、路线图/知识目录/网络/网络、HTTP.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-08.md",
     "_posts/读书笔记/兴趣/军事.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-07.md",
-    "_posts/browser/安全/安全策略/同源策略（SOP）.md",
-    "_posts/browser/安全/常见攻击与防护/CORS（跨域资源共享）2.md",
-    "_posts/browser/事件机制/事件机制.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "_posts/browser/安全/安全策略/现代浏览器多层安全策略.md",
-    "_posts/methods/要整理的.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-06.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/8b1d9ae73997947f3670e2a9adf8eaf6_MD5.png",
