@@ -36,7 +36,7 @@ JSON 数组是由方括号 `[]` 包围的值的有序列表，值之间用逗号
 ]
 ```
 
-### JSON 与 JavaScript 对象的转换
+### JSON 与 JavaScript 对象的转换（序列化、反序列化）
 
 #### `JSON.stringify()`
 

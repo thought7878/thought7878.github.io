@@ -608,36 +608,12 @@
             }
           },
           {
-            "id": "65d6c1092e45792e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CSRF（跨站请求伪造）"
-            }
-          },
-          {
             "id": "78706e367b0cab99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_完整的前端知识总结-QW1"
+              "title": "JS_AI总结"
             }
           },
           {
@@ -776,7 +752,37 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 25
+      },
+      {
+        "id": "eb2bbb46e4affc57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65d6c1092e45792e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JS、浏览器"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -945,32 +951,32 @@
   },
   "active": "78706e367b0cab99",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
+    "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
+    "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
+    "_posts/base/js/知识点总结/数据类型/JSON.md",
+    "_posts/base/js/知识点总结/数据类型/类型转换.md",
+    "_posts/base/js/知识点总结/数据类型/类型判断.md",
+    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
+    "_posts/base/js/知识点总结/Class/Prototype & Inheritance.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW2.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_DS.md",
+    "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）（未整理）.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
+    "_posts/base/知识目录、路线图/知识目录/高级前端工程师的面试题 总结_QW.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
-    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
-    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW2.md",
-    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md",
     "JS-未整理.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS-未整理.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
     "_posts/base/js/知识点总结/Web APIs/Fetch/Fetch.md",
-    "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
-    "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）（未整理）.md",
-    "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）（未整理）.md",
-    "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/网络、HTTP.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-08.md",
-    "_posts/读书笔记/兴趣/军事.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/8b1d9ae73997947f3670e2a9adf8eaf6_MD5.png",

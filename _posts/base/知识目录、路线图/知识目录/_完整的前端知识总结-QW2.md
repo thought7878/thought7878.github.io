@@ -94,3 +94,99 @@
 - WebAssembly
 - 图形渲染与可视化
 - 低代码/无代码架构基础
+
+
+---
+
+# 前端开发核心知识点梳理
+
+## 一、HTML/CSS基础
+- HTML标签与语义化
+- CSS选择器与优先级
+- 盒模型与布局（Flexbox、Grid）
+- 响应式设计与媒体查询
+- CSS动画与过渡
+- 预处理器（Sass、Less）
+
+## 二、JavaScript核心
+- 变量、数据类型与运算符
+- 控制流程与函数
+- 面向对象（原型、类、继承）
+- 异步编程（Promise、async/await）
+- 闭包与作用域
+- 模块化（ES Module、CommonJS）
+- 数组与对象操作方法
+
+## 三、前端框架
+- React（组件、Hooks、虚拟DOM）
+- Vue（响应式系统、组件、指令）
+- Angular（依赖注入、模块、服务）
+- Svelte（编译时优化、响应式声明）
+
+## 四、状态管理
+- Redux（单向数据流、中间件）
+- Vuex/Pinia（状态树、模块化）
+- Zustand/Jotai（轻量化状态管理）
+- Context API（React上下文）
+
+## 五、构建工具
+- Webpack（打包配置、Loader、Plugin）
+- Vite（ESM优先、快速构建）
+- Rollup（库打包）
+- Parcel（零配置打包）
+
+## 六、路由管理
+- React Router（路由配置、嵌套路由）
+- Vue Router（动态路由、导航守卫）
+- 路由懒加载与代码分割
+
+## 七、数据请求
+- Fetch API与XMLHttpRequest
+- Axios（拦截器、请求配置）
+- GraphQL（查询语言、Apollo Client）
+- RESTful API设计规范
+
+## 八、样式处理
+- CSS-in-JS（Styled Components、Emotion）
+- Tailwind CSS（原子化CSS）
+- CSS Modules（局部作用域）
+
+## 九、测试
+- 单元测试（Jest、Vitest）
+- 集成测试（Cypress、Playwright）
+- 组件测试（Testing Library）
+
+## 十、性能优化
+- 代码分割与懒加载
+- 图片优化与WebP
+- 缓存策略（HTTP缓存、Service Worker）
+- 首屏加载优化
+
+## 十一、工程化
+- Git版本控制与协作
+- CI/CD流程
+- ESLint与Prettier（代码规范）
+- TypeScript类型系统
+
+## 十二、设计模式
+- 创建型模式（单例、工厂、建造者、原型）
+- 结构型模式（适配器、装饰器、代理、外观）
+- 行为型模式（观察者、策略、命令、状态）
+
+## 十三、浏览器原理
+- 渲染流程与重排重绘
+- Event Loop与宏任务/微任务
+- DOM与BOM操作
+- 存储方案（LocalStorage、SessionStorage、IndexedDB）
+
+## 十四、网络协议
+- HTTP/HTTPS协议
+- TCP/IP基础
+- WebSocket实时通信
+- CORS跨域处理
+
+## 十五、安全
+- XSS与CSRF防护
+- 内容安全策略（CSP）
+- 数据加密与HTTPS
+- 安全编码实践

@@ -12,6 +12,136 @@
 
 ---
 
+# JavaScript简介
+## JavaScript是什么?
+参考：[[What is JavaScript?]]
+
+## JavaScript的历史
+参考：[[History of JavaScript]]
+## Javascript 的版本
+参考：[[Javascript Versions]]
+## 如何运行JS
+
+# 变量
+## 声明变量
+- var
+- let
+- const
+要在JavaScript中使用变量，我们首先需要创建它，即声明一个变量。要声明变量，我们使用 `var` ， `let` 或 `const` 关键字之一。
+## 变量提升（Hoisting）
+## 命名规则
+## 作用域（Scopes）
+- Global
+- Function
+- Block
+
+
+# 数据类型（Data types）
+参考：[[基本数据类型、引用数据类型]]、[[12.栈空间和堆空间：数据是如何存储的？]]
+
+## 原始类型、基本类型（Primitive Types）
+7种原始类型、基本类型
+参考：[[基本数据类型、引用数据类型]]
+
+## 引用类型、对象类型（Object）
+对象类型、引用类型：对象、数组、函数
+
+参考：[[基本数据类型、引用数据类型]]
+### 原型（Prototype）
+参考：[[Prototype & Inheritance]]
+
+### 原型继承（Prototypal Inheritance）
+参考：[[Prototype & Inheritance]]
+
+## 类型判断
+参考：[[类型判断]]
+
+## 类型转换
+Type Conversion
+
+参考：[[类型转换]]
+
+### 类型转换/强制
+Type Conversion/Coercion  
+
+类型强制是将值从一个数据类型转换为另一种数据类型的自动或隐式转换（例如字符串到数字）。类型转换类似于类型的胁迫，因为它们具有一个关键差异将值从一个数据类型转换为另一种数据类型 - 类型强制是隐式的。相比之下，类型转换可以是隐式的或显式的。
+
+### 隐式类型转换
+Implicit Type Casting  
+
+当编译器或运行时自动转换数据类型时，就会发生隐式类型转换。 JavaScript 是松散类型语言，大多数时候*运算符会自动将值转换为正确的类型*。
+
+### 显式类型转换
+Explicit Type Casting  
+
+类型转换意味着通过显式指定要将给定数据转换为的类型，将数据从一种数据类型传输到另一种数据类型。通常进行显式类型转换以使数据与其他变量兼容。类型转换方法的示例有 `parseInt()` 、 `parseFloat()` 、 `toString()` 。
+
+# 数据结构（Data Structures）
+## 键集合（Keyed Collections）
+### Map
+参考：[[Map]]、[[Map-2]]
+### Weak map
+参考：[[WeakMap]]
+### Set
+参考：[[Set]]
+### WeakSet
+参考：[[WeakSet]]
+
+## 索引集合（Indexed Collections）
+### Typed Array
+In Javascript, a typed array is an array-like buffer of binary data. There is no JavaScript property or object named TypedArray, but properties and methods can be used with typed array objects.  
+在 Javascript 中，类型化数组是类似数组的二进制数据缓冲区。没有名为 TypedArray 的 JavaScript 属性或对象，但属性和方法可以与类型化数组对象一起使用。
+### Array
+参考：[[_posts/base/js/知识点总结/数据类型/Array]]
+
+Arrays are objects that store a collection of items and can be assigned to a variable. They have their methods that can perform operations on the array.  
+数组是存储项目集合并可以分配给变量的对象。他们的方法可以在数组上执行操作。
+
+## Structured data
+### JSON
+参考：[[JSON]]
+
+
+# Equality Comparisons
+相等比较
+## ==
+## ===
+## Object.is
+
+## isLooselyEqual
+
+## isStrictlyEqual
+## Same value zero
+## Same value
+
+# Loops and Iterations
+循环和迭代
+[[循环]]
+
+## 循环总结
+[[循环 总结]]
+
+## 迭代协议（Symbol.iterator）
+[[迭代协议（Symbol.iterator）]]
+
+## for
+
+## do…while
+
+
+## while
+
+
+## for…of
+
+
+## for…in
+
+
+## break / continue
+
+
+
 # 一、JavaScript 基础语法
 
 ## 变量与数据类型
