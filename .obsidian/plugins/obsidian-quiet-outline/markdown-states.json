@@ -479,15 +479,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 98.65767441860466,
+    "scroll": 96.33190408130856,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 17
+        "line": 113,
+        "ch": 0
       },
       "to": {
-        "line": 117,
-        "ch": 17
+        "line": 113,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -27330,11 +27330,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
@@ -30926,15 +30926,15 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
-    "scroll": 1.75,
+    "scroll": 20.812093023255812,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 2
+        "line": 30,
+        "ch": 90
       },
       "to": {
-        "line": 3,
-        "ch": 2
+        "line": 30,
+        "ch": 90
       }
     },
     "expandedKeys": []
@@ -31003,11 +31003,11 @@
     "scroll": 43.75875968992248,
     "cursor": {
       "from": {
-        "line": 207,
+        "line": 54,
         "ch": 0
       },
       "to": {
-        "line": 207,
+        "line": 54,
         "ch": 0
       }
     },
@@ -31425,18 +31425,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-08.md": {
-    "scroll": 11.906066536203522,
+    "scroll": 18.665855883247186,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/browser/安全/常见攻击与防护/CSRF.md": {
     "scroll": 0,
@@ -31567,7 +31569,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md": {
-    "scroll": 104.88606770833333,
+    "scroll": 104.67643229166667,
     "cursor": {
       "from": {
         "line": 126,
@@ -31597,19 +31599,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md": {
-    "scroll": 204.33132530120483,
+    "scroll": 334.0777994791667,
     "cursor": {
       "from": {
-        "line": 209,
+        "line": 348,
         "ch": 0
       },
       "to": {
-        "line": 209,
+        "line": 348,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-58"
+      "item-1-84"
     ]
   },
   "JS-未整理.md": {
@@ -31818,5 +31820,47 @@
     "expandedKeys": [
       "item-3-1"
     ]
+  },
+  "_posts/English/_高效记忆英语单词的方法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-09.md": {
+    "scroll": 12.74559686888454,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

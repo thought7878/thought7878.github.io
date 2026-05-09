@@ -108,62 +108,6 @@ Arrays are objects that store a collection of items and can be assigned to a var
 ### JSON
 参考：[[JSON]]
 
-# 运算符
-## 算术运算符
-- 加：`+`
-- 减：`-`
-- 乘：`*`
-- 除：`/`
-- 取余：`%`
-- 自增：`++`
-- 自减：`--`
-
-## 比较运算符
-- 相等：`\==`
-- 严格相等：`\===`（值和类型都相等）
-- 不相等：`!=`
-- 严格不相等：`!==`
-- 大于：`>`
-- 小于：`<`
-- 大于等于：`>=`
-- 小于等于：`<=`
-
-## 逻辑运算符
-- 逻辑与：`&&`
-- 逻辑或：`||`
-- 逻辑非：`!`
-
-## 赋值运算符
-- 赋值：`\=`
-- 加等于：`+=`
-- 减等于：`-=`
-
-## 位运算符
-- 按位与：`&`
-- 按位或：`|`
-- 按位异或：`^`
-- 按位取反：`~`
-- 左移：`<<`
-- 右移：`>>`
-- 无符号右移：`>>>`
-
-
-
-# Control Flow
-## Conditional statements
-
-### If Else
-
-### Switch Case
-
-## Exception Handling
-
-### Throw Statement
-
-### Try, Catch, Finally
-
-### Error Object
-
 
 # 循环和迭代
 Loops and Iterations
@@ -201,36 +145,92 @@ Loops and Iterations
 ### return
 
 
-# Expressions and Operators
-## Conditional operators
+# 表达式、运算符
+Expressions and Operators
+
+## 条件运算符
+Conditional operators
+
 condition ? val_for_true : val_for_false
 
-## Comma operators
+## 一元运算符
+Unary Operators
+参考：[[一元运算符]]
+
+## 赋值运算符
+Assignment Operators
+
+- 赋值：`\=`
+- 加等于：`+=`
+- 减等于：`-=`
+
+参考：[[赋值运算符]]
+
+
+## 比较运算符
+Comparison Operators
+
+- 相等：`\==`
+- 严格相等：`\===`（值和类型都相等）
+- 不相等：`!=`
+- 严格不相等：`!==`
+- 大于：`>`
+- 小于：`<`
+- 大于等于：`>=`
+- 小于等于：`<=`
+
+参考：[[比较运算符]]
+
+## 算术运算符
+Arithmetic operators
+
+- 加：`+`
+- 减：`-`
+- 乘：`*`
+- 除：`/`
+- 取余：`%`
+- 自增：`++`
+- 自减：`--`
+
+参考：[[算术运算符]]
+
+## 位运算符
+Bitwise operators
+
+- 按位与：`&`
+- 按位或：`|`
+- 按位异或：`^`
+- 按位取反：`~`
+- 左移：`<<`
+- 右移：`>>`
+- 无符号右移：`>>>`
+
+参考：[[位运算符]]
+
+
+## 逻辑运算符
+Logical Operators
+
+- 逻辑与：`&&`
+- 逻辑或：`||`
+- 逻辑非：`!`
+
+参考：[[逻辑运算符]]
+
+## BigInt运算符
+BigInt Operators
+
+参考：[[BigInt运算符]]
+
+## 字符串运算符
+String Operators
+
+参考：[[字符串运算符]]
+
+
+## 逗号运算符
+Comma operators
 可忽略，极少这么用
-
-## Unary Operators
-参考 [[一元运算符]]
-
-## Assignment Operators
-参考 [[赋值运算符]]
-
-## Comparison Operators
-参考 [[比较运算符]]
-
-## Arithmetic operators
-参考 [[算术运算符]]
-
-## Bitwise operators
-参考 [[位运算符]]
-
-## Logical Operators
-参考 [[逻辑运算符]]
-
-## BigInt Operators
-[[BigInt运算符]]
-
-## String Operators
-参考 [[字符串运算符]]
 
 
 # Function
@@ -238,88 +238,121 @@ Functions exist so we can reuse code. They are blocks of code that execute whene
 
 **函数的存在是为了让我们可以重用代码**。它们是只要被调用就会执行的**代码块**。每个函数通常都是**为了执行特定任务而编写的**，例如用于求两个或多个数字之和的加法函数。当需要在代码中的任何位置添加数字时，可以根据需要多次调用加法函数。
 
-## Function Parameters
 
-### Default Parameters
+## 函数定义
+### 函数声明
+使用 `function` 关键字定义函数，如 `function add(a, b) { return a + b; }`。
 
-### Rest Parameters
+### 函数表达式
+将函数赋值给一个变量，如 `const add = function(a, b) { return a + b; }`。
 
-## Arrow Functions
+### 箭头函数
+ES6 新增的简洁语法，如 `const add = (a, b) => a + b;`。
+
+## 函数参数
+Function Parameters
+
+### 形参和实参
+函数定义时的参数为形参，调用时传递的参数为实参。
+
+### 默认参数
+Default Parameters
+
+ES6 允许为函数参数设置默认值，如 `function add(a, b = 0) { return a + b; }`。
+
+### 剩余参数
+Rest Parameters
+
+使用 `...` 语法收集多余的参数，如 `function sum(...numbers) { return numbers.reduce((acc, num) => acc + num, 0); }`。
+
+## 箭头函数
+Arrow Functions
 
 ## IIFE
 
 ## Arguments object
 
-## Scope and function stack(Call stack)
-### Scope
+## 作用域
+Scope
 
-A space or environment in which a particular variable or function can be accessed or used. Accessibility of this variable or function depends on where it is defined.  
+函数内部可以访问外部作用域的变量，但外部作用域无法访问函数内部的变量。
+
 可以访问或使用特定变量或功能的空间或环境。此变量或函数的可访问性取决于定义的位置。
 
-JavaScript has the following kinds of scopes:  
 JavaScript具有以下类型的范围：
-
 - **Global scope**: The default scope for all code running in script mode.
 - **Module scope**: The scope for code running in module mode.
 - **Function scope**: The scope created with a function.
 - **Block scope**: The scope created with a pair of curly braces (a block).
 
-### Function Stack (Call stack)
+## 调用栈
+Function Stack (Call stack)
 
 The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.  
 该功能堆栈是解释器如何在调用多个函数的脚本中跟踪其位置，例如当前正在执行哪个函数以及该功能中的哪些函数正在调用。
 
-### Recursion
+## 递归
+Recursion
 
-### Lexical scoping
+## 词法作用域
+Lexical scoping
 
-### Closures
+## 闭包
+Closures
 
-## Built-in functions
+函数内部返回一个函数，该内部函数可以访问外部函数的变量，即使外部函数已经执行完毕。
 
-## 函数声明、函数表达式
+## 内置函数
+Built-in functions
+
 
 # DOM APIs
 With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.  
 通过 HTML DOM，JavaScript 可以访问和更改 HTML 文档的所有元素（例如其属性、CSS 样式）、删除元素、在页面上添加和创建新元素。 Web API 是指网络应用程序编程接口。所有浏览器都有一组内置的 Web API 来支持复杂的操作并帮助访问数据。例如地理位置 API、网络存储、网络历史记录等。
 
-# Strict Mode
-参考 [[Strict Mode]]
+# 严格模式
+Strict Mode
 
-# This Keyword
+参考：[[Strict Mode]]
+
+# This 关键字
+This Keyword
 
 
 
-# Asynchronous
+# 异步
+Asynchronous
 ## Promise
-参考 [[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
+参考：[[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
 
 ## async / await
-参考 [[async & await]]
+参考：[[async & await]]
 
 ## Web APIs
-参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 ## Event Loop/Call Stack/(Micro)Task Queue
-参考 [[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
 
 # remote APIs
 ## XMLHttpRequest
-参考 [[XMLHttpRequest]]
+参考：[[XMLHttpRequest]]
 ## Fetch
-参考 [[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
+参考：[[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
 
-# Class
-参考 [[Class]]
+# 对象、类
+## 对象创建
+
+参考：[[Class]]
 
 # Iterators and Generators
-参考 [[Generator-2]]、[[Iterator]]
+参考：[[Generator-2]]、[[Iterator]]
 
 
 # Module
 ## ES Module
-参考 [[_posts/base/js/知识点总结/模块/ES Module]]
+参考：[[_posts/base/js/知识点总结/模块/ES Module]]
 ## CommonJS
-参考 [[CommonJS]]
+参考：[[CommonJS]]
 
 # Memory Management
 参考：[[内存管理：栈空间、堆空间、代码空间]]
