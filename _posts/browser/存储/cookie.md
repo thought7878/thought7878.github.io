@@ -1,10 +1,10 @@
 ## Cookie
 
-Cookie 是前端开发中用于在*浏览器和服务器*之间\*存储和传递**\*少量数据**的一种机制。
+Cookie 是前端开发中用于在*浏览器和服务器*之间*存储和传递 少量数据*的一种机制。
 
 ### 基本概念
 
-**Cookie 本质上是一小段文本信息**，_由服务器发送到用户的浏览器，浏览器会将其存储在本地_。之后，_当浏览器向同一服务器发送请求时_，会**自动**将相应的 Cookie 包含在*请求头中*发送给服务器，**从而实现服务器对用户状态的跟踪**等功能。
+**Cookie 本质上是一小段文本信息**，_由服务器发送到用户的浏览器，浏览器会将其存储在本地_。之后，_当浏览器向同一服务器发送请求时，会**自动**将相应的 Cookie 包含在请求头中发送给服务器_，**从而实现服务器对用户状态的跟踪**等功能。
 
 ### 主要用途
 
@@ -17,7 +17,7 @@ Cookie 是前端开发中用于在*浏览器和服务器*之间\*存储和传递
 
 在 JavaScript 中，可以使用 `document.cookie` 属性来操作 Cookie。
 
-- **创建 Cookie**
+#### 创建 Cookie
 
 ```javascript
 document.cookie =
@@ -26,15 +26,15 @@ document.cookie =
 
 上述代码创建了一个名为 `username`，值为 `John Doe` 的 Cookie，并且设置了过期时间为 2025 年 12 月 18 日 12 点，`path=/` 表示该 Cookie _在整个网站根目录下都有效_。
 
-- **读取 Cookie**
+#### 读取 Cookie
 
 ```javascript
 console.log(document.cookie);
 ```
 
-执行上述代码会将当前页面的所有 Cookie 以字符串形式打印出来，格式为 `name1=value1; name2=value2;...`。通常需要进一步解析这个字符串来获取具体的 Cookie 值。
+执行上述代码会将当前页面的所有 Cookie 以字符串形式打印出来，*格式*为 `name1=value1; name2=value2;...`。通常*需要进一步解析这个字符串来获取具体的 Cookie 值*。
 
-- **更新 Cookie**
+#### 更新 Cookie
   要更新一个已存在的 Cookie，只需*重新设置它的值*，例如：
 
 ```javascript
@@ -44,7 +44,7 @@ document.cookie =
 
 这将把 `username` 的值更新为 `Jane Doe`。
 
-- **删除 Cookie**
+#### 删除 Cookie
   通过将 Cookie 的*过期时间设置为过去的时间*，可以达到删除 Cookie 的目的，例如：
 
 ```javascript
@@ -64,16 +64,17 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 
 ## Cookie 的安全性
 
-> 参考 [[XSS（跨站脚本攻击）（未整理）|XSS 2]] 等
+参考：[[XSS（跨站脚本攻击）（未整理）|XSS 2]] 等
 
 前端 Cookie 的安全性可以通过多种方法来保证，以下是一些常见的措施：
 
 ### 合理设置 Cookie 属性
 
 - **设置 HttpOnly 属性**：将 Cookie 标记为 `HttpOnly`，可以*防止通过 JavaScript 脚本访问 Cookie，减少了 XSS*（跨站脚本攻击）获取 Cookie 的风险。例如在设置 Cookie 时，服务器可以通过设置响应头 `Set-Cookie: sessionId=12345; HttpOnly` 来*使该 Cookie 只能通过 HTTP 协议访问*。
-- **设置 Secure 属性**：`Secure` 属性确保 Cookie _仅在使用 HTTPS 协议的连接中发送_，这样可以防止在数据传输过程中被中间人窃取或篡改。比如服务器设置 `Set-Cookie: token=abcdef; Secure`，则*只有在 HTTPS 连接下才会发送这个 Cookie*。
-- **设置 SameSite 属性**：`SameSite` 属性可以*限制 Cookie 在跨站请求中的发送*，有 `Strict`、`Lax` 和 `None` 三个值：
 
+- **设置 Secure 属性**：`Secure` 属性确保 Cookie _仅在使用 HTTPS 协议的连接中发送_，这样可以防止在数据传输过程中被中间人窃取或篡改。比如服务器设置 `Set-Cookie: token=abcdef; Secure`，则*只有在 HTTPS 连接下才会发送这个 Cookie*。
+
+- **设置 SameSite 属性**：`SameSite` 属性可以*限制 Cookie 在跨站请求中的发送*，有 `Strict`、`Lax` 和 `None` 三个值：
   - `Strict` 模式下，Cookie 仅在同站请求时发送；
   - `Lax` 模式相对宽松，允许一些安全的跨站请求发送 Cookie；
   - `None` 则允许在任何情况下发送 Cookie，但需要同时设置 `Secure` 属性。
@@ -100,7 +101,7 @@ const encryptedCookieData = encryptData("sensitive information");
 res.cookie("encryptedData", encryptedCookieData);
 ```
 
-浏览器端获取到加密后的 Cookie 后，只有在服务器端才能使用相应的密钥进行解密，即使攻击者获取了 Cookie，也难以破解其中的内容。
+浏览器端获取到加密后的 Cookie 后，只有在服务器端才能使用相应的密钥进行解密，*即使攻击者获取了 Cookie，也难以破解其中的内容*。
 
 ### 进行输入验证和过滤
 
@@ -124,7 +125,7 @@ res.cookie("csrfToken", csrfToken);
 
 在前端表单中包含该令牌，提交时一起发送到服务器进行验证。
 
-参考 [[CSRF（跨站请求伪造）（未整理）]]
+参考：[[CSRF（跨站请求伪造）（未整理）]]
 
 ### 定期更新和管理 Cookie
 

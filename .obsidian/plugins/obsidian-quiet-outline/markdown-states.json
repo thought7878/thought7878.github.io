@@ -3067,11 +3067,11 @@
     "scroll": 63.583333333333336,
     "cursor": {
       "from": {
-        "line": 73,
+        "line": 66,
         "ch": 0
       },
       "to": {
-        "line": 73,
+        "line": 66,
         "ch": 0
       }
     },
@@ -9965,7 +9965,7 @@
     ]
   },
   "_posts/browser/浏览器的工作流程.md": {
-    "scroll": 0,
+    "scroll": 104.9609375,
     "cursor": {
       "from": {
         "line": 8,
@@ -9976,12 +9976,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-4",
-      "item-2-8",
-      "item-2-13"
-    ]
+    "expandedKeys": []
   },
   "_posts/browser/浏览器的主线程-QW.md": {
     "scroll": 0,
@@ -31000,14 +30995,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 175.42569002123142,
+    "scroll": 173.05953224663358,
     "cursor": {
       "from": {
-        "line": 187,
+        "line": 191,
         "ch": 0
       },
       "to": {
-        "line": 187,
+        "line": 191,
         "ch": 0
       }
     },
@@ -31879,14 +31874,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 9,
+        "ch": 26
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 9,
+        "ch": 26
       }
     },
     "expandedKeys": []
+  },
+  "_posts/browser/存储/cookie.md": {
+    "scroll": 105.40959942259113,
+    "cursor": {
+      "from": {
+        "line": 119,
+        "ch": 0
+      },
+      "to": {
+        "line": 119,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-10"
+    ]
   }
 }
