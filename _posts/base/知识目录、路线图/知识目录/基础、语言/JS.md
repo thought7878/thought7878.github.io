@@ -1,5 +1,4 @@
-参考：[[JS_roadmap-未整理]]、[[_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器|浏览器]]、[[JS_AI总结]]
-
+参考：[[JS_roadmap-未整理]]、[[_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器|浏览器]]
 
 参考：[[面试题目汇总]]
 
@@ -306,6 +305,100 @@ Closures
 Built-in functions
 
 
+# 对象、类
+参考：[[Class]]
+
+## 对象创建
+### 对象字面量
+使用 `{}` 创建对象，如 `const person = { name: 'John', age: 30 };`。
+
+### 构造函数
+使用 `function` 定义构造函数，通过 `new` 关键字创建对象
+
+### ES6 类
+使用 `class` 关键字定义类，通过 `new` 关键字创建对象
+
+## 对象的继承
+### 原型链继承
+通过原型对象实现继承，每个对象都有一个原型对象，原型对象又有自己的原型对象，以此类推。
+
+### 构造函数继承
+在子类构造函数中调用父类构造函数，如 `function Child(name, age) { Parent.call(this, name, age); }`。
+
+### 组合继承
+结合原型链继承和构造函数继承的优点。
+
+### ES6 类继承
+使用 `extends` 关键字实现类的继承，如 `class Child extends Parent { constructor(name, age) { super(name, age); } }`。
+
+
+# 数组
+
+- **数组创建**：使用 `[]` 或 `new Array()` 创建数组，如 `const numbers = [1, 2, 3];` 或 `const numbers = new Array(1, 2, 3);`。
+- **数组方法**
+  - **遍历方法**：`forEach`（遍历数组）、`map`（返回一个新数组，新数组中的元素是原数组元素经过某种处理后的结果）、`filter`（返回一个新数组，新数组中的元素是原数组中满足某种条件的元素）、`reduce`（将数组元素累积为一个值）等。
+  - **添加和删除元素方法**：`push`（在数组末尾添加元素）、`pop`（删除数组末尾的元素）、`unshift`（在数组开头添加元素）、`shift`（删除数组开头的元素）、`splice`（删除、插入或替换数组元素）等。
+  - **其他方法**：`concat`（合并数组）、`join`（将数组元素转换为字符串）、`reverse`（反转数组元素的顺序）、`sort`（对数组元素进行排序）等。
+
+
+
+# 异步
+Asynchronous
+
+## 回调函数
+将一个函数作为参数传递给另一个函数，在另一个函数执行完毕后调用该函数。
+
+## Promise
+ES6 引入的一种异步编程解决方案，用于处理异步操作的结果。`Promise` 有三种状态：`pending`（进行中）、`fulfilled`（已成功）、`rejected`（已失败）。可以使用 `then` 方法处理成功的结果，使用 `catch` 方法处理失败的结果。
+
+参考：[[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
+
+## async / await
+ES8 引入的异步编程语法糖，基于 `Promise` 实现，使异步代码看起来更像同步代码。使用 `async` 关键字定义异步函数，使用 `await` 关键字等待 `Promise` 的结果。
+
+参考：[[async & await]]
+
+## Web APIs
+参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+
+## Event Loop/Call Stack/(Micro)Task Queue
+参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
+
+# remote APIs
+## XMLHttpRequest
+参考：[[XMLHttpRequest]]
+## Fetch
+参考：[[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
+
+
+# 迭代器、生成器
+Iterators and Generators
+
+参考：[[Generator-2]]、[[Iterator]]
+
+
+# Module
+## ES Module
+参考：[[_posts/base/js/知识点总结/模块/ES Module]]
+## CommonJS
+参考：[[CommonJS]]
+
+
+- **ES6 模块**：使用 `import` 和 `export` 关键字实现模块的导入和导出。`export` 可以导出变量、函数、类等，`import` 可以导入其他模块导出的内容。
+- **CommonJS**：服务器端 JavaScript（如 Node.js）使用的模块化规范，使用 `module.exports` 导出模块内容，使用 `require` 导入模块。
+- **AMD 和 CMD**：浏览器端的模块化规范，AMD（异步模块定义）以 RequireJS 为代表，CMD（通用模块定义）以 Sea.js 为代表。
+
+
+
+# Memory Management
+参考：[[内存管理：栈空间、堆空间、代码空间]]
+
+## Memory lifecycle
+
+## Garbage Collection
+参考：[[垃圾回收（Garbage Collection）]]、[[13.垃圾回收：垃圾数据是如何自动回收的？]]
+
+
 # DOM APIs
 With HTML DOM, JavaScript can access and change all the elements of an HTML document such as its attributes, CSS styles, remove elements, add and create new elements on the page. Web API means application programming interface for the web. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data. Like Geo-location API, Web Storage, Web History and others.  
 通过 HTML DOM，JavaScript 可以访问和更改 HTML 文档的所有元素（例如其属性、CSS 样式）、删除元素、在页面上添加和创建新元素。 Web API 是指网络应用程序编程接口。所有浏览器都有一组内置的 Web API 来支持复杂的操作并帮助访问数据。例如地理位置 API、网络存储、网络历史记录等。
@@ -319,49 +412,6 @@ Strict Mode
 This Keyword
 
 
-
-# 异步
-Asynchronous
-## Promise
-参考：[[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
-
-## async / await
-参考：[[async & await]]
-
-## Web APIs
-参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
-## Event Loop/Call Stack/(Micro)Task Queue
-参考：[[_Event Loop, Web APIs, (Micro)task Queue]]、[[Web APIs]]
-
-# remote APIs
-## XMLHttpRequest
-参考：[[XMLHttpRequest]]
-## Fetch
-参考：[[_posts/base/js/知识点总结/Web APIs/Fetch/Fetch]]
-
-# 对象、类
-## 对象创建
-
-参考：[[Class]]
-
-# Iterators and Generators
-参考：[[Generator-2]]、[[Iterator]]
-
-
-# Module
-## ES Module
-参考：[[_posts/base/js/知识点总结/模块/ES Module]]
-## CommonJS
-参考：[[CommonJS]]
-
-# Memory Management
-参考：[[内存管理：栈空间、堆空间、代码空间]]
-
-## Memory lifecycle
-
-## Garbage Collection
-参考：[[垃圾回收（Garbage Collection）]]、[[13.垃圾回收：垃圾数据是如何自动回收的？]]
-
 # Chrome Dev Tools
 ## Debugging issues
 
@@ -369,8 +419,32 @@ Asynchronous
 
 ## Debugging performance
 
+---
+
+# 浏览器对象模型（BOM）
+
+- **window 对象**：浏览器窗口的全局对象，包含了许多属性和方法，如 `alert`（弹出警告框）、`confirm`（弹出确认框）、`prompt`（弹出提示框）、`setTimeout`（设置定时器）、`setInterval`（设置间隔定时器）等。
+- **location 对象**：用于获取和设置当前页面的 URL 信息，如 `location.href`（获取或设置当前页面的 URL）、`location.reload`（重新加载当前页面）等。
+- **history 对象**：用于操作浏览器的历史记录，如 `history.back`（返回上一页）、`history.forward`（前进到下一页）、`history.go`（跳转到指定的历史记录位置）等。
+- **navigator 对象**：用于获取浏览器的相关信息，如 `navigator.userAgent`（获取浏览器的用户代理字符串）等。
+
+# 文档对象模型（DOM）
+
+- **DOM 节点**：HTML 文档中的每个元素、文本、属性等都是一个 DOM 节点。常见的节点类型有元素节点、文本节点、属性节点等。
+- **DOM 操作**
+  - **节点选择**：使用 `document.getElementById`（通过 ID 选择元素）、`document.getElementsByTagName`（通过标签名选择元素）、`document.getElementsByClassName`（通过类名选择元素）、`document.querySelector`（通过 CSS 选择器选择第一个匹配的元素）、`document.querySelectorAll`（通过 CSS 选择器选择所有匹配的元素）等方法选择节点。
+  - **节点创建和插入**：使用 `document.createElement`（创建元素节点）、`document.createTextNode`（创建文本节点）、`appendChild`（在父节点末尾插入子节点）、`insertBefore`（在指定节点之前插入新节点）等方法创建和插入节点。
+  - **节点删除和替换**：使用 `removeChild`（删除子节点）、`replaceChild`（替换子节点）等方法删除和替换节点。
+  - **节点属性和样式操作**：可以通过节点的属性（如 `id`、`className` 等）和 `style` 属性操作节点的属性和样式。
+
+# 其他高级特性
+
+- **正则表达式**：用于匹配和处理字符串的模式，使用 `/pattern/flags` 的语法创建正则表达式对象，如 `/abc/i` 表示不区分大小写匹配字符串中的 `abc`。
+- **JSON**：JavaScript 对象表示法，是一种轻量级的数据交换格式。使用 `JSON.stringify` 将 JavaScript 对象转换为 JSON 字符串，使用 `JSON.parse` 将 JSON 字符串转换为 JavaScript 对象。
+- **元编程**：ES6 引入了 `Proxy` 和 `Reflect` 对象，用于实现元编程。`Proxy` 可以拦截对象的基本操作，如属性访问、属性赋值等；`Reflect` 提供了一系列静态方法，用于操作对象。
 
 
+---
 
 # 一、JavaScript 基础语法
 

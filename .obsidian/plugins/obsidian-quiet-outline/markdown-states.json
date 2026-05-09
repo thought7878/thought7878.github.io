@@ -25122,7 +25122,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/TypeScript.md": {
-    "scroll": 120.22041105598866,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 132,
@@ -25133,7 +25133,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/typescript/总结/TypeScript的编译.md": {
     "scroll": 0,
@@ -30910,31 +30912,29 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 80.08854166666667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 93,
-        "ch": 0
+        "line": 4,
+        "ch": 270
       },
       "to": {
-        "line": 93,
-        "ch": 0
+        "line": 4,
+        "ch": 270
       }
     },
-    "expandedKeys": [
-      "item-1-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
-    "scroll": 20.812093023255812,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 90
+        "line": 21,
+        "ch": 109
       },
       "to": {
-        "line": 30,
-        "ch": 90
+        "line": 21,
+        "ch": 109
       }
     },
     "expandedKeys": []
@@ -30954,15 +30954,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 33.95867917719235,
+    "scroll": 35.52857730263158,
     "cursor": {
       "from": {
-        "line": 58,
-        "ch": 0
+        "line": 63,
+        "ch": 31
       },
       "to": {
-        "line": 58,
-        "ch": 0
+        "line": 63,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -31000,20 +31000,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 43.75875968992248,
+    "scroll": 175.42569002123142,
     "cursor": {
       "from": {
-        "line": 54,
+        "line": 187,
         "ch": 0
       },
       "to": {
-        "line": 54,
+        "line": 187,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-10",
-      "item-1-1"
+      "item-1-29"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31353,7 +31352,7 @@
     ]
   },
   "_posts/browser/安全/安全策略/现代浏览器多层安全策略.md": {
-    "scroll": 89.12863217576187,
+    "scroll": 76.42252604166667,
     "cursor": {
       "from": {
         "line": 105,
@@ -31364,9 +31363,7 @@
         "ch": 48
       }
     },
-    "expandedKeys": [
-      "item-2-7"
-    ]
+    "expandedKeys": []
   },
   "_posts/browser/安全/常见攻击与防护/CORS-跨域资源共享.md": {
     "scroll": 0,
@@ -31569,19 +31566,20 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md": {
-    "scroll": 104.67643229166667,
+    "scroll": 57.508463541666664,
     "cursor": {
       "from": {
-        "line": 126,
-        "ch": 0
+        "line": 68,
+        "ch": 7
       },
       "to": {
-        "line": 277,
-        "ch": 0
+        "line": 68,
+        "ch": 7
       }
     },
     "expandedKeys": [
-      "item-1-39"
+      "item-2-21",
+      "item-1-20"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/未命名.md": {
@@ -31599,19 +31597,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS、浏览器.md": {
-    "scroll": 334.0777994791667,
+    "scroll": 367.5667317708333,
     "cursor": {
       "from": {
-        "line": 348,
+        "line": 381,
         "ch": 0
       },
       "to": {
-        "line": 348,
+        "line": 381,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-84"
+      "item-1-88"
     ]
   },
   "JS-未整理.md": {
@@ -31858,6 +31856,34 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/存储/overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/存储/存储.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
         "ch": 0
       }
     },
