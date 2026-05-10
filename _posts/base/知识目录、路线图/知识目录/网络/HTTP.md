@@ -57,7 +57,9 @@ scheme://host:port/path?query#fragment
 GET /index.html HTTP/1.1
 ```
 
-- **请求头**：包含元信息（如 `Host`、`User-Agent`、`Accept` 等）。参考：[[请求头]]
+- **请求头**：包含元信息（如 `Host`、`User-Agent`、`Accept` 等）。
+
+参考：[[请求头]]
 
 ```http
 Host: www.example.com
@@ -65,7 +67,9 @@ User-Agent: Mozilla/5.0
 Accept: text/html
 ```
 
-- **请求体**（可选）：用于传递数据（如表单数据、JSON）。参考：[[请求体]]
+- **请求体**（可选）：用于传递数据（如表单数据、JSON）。
+
+参考：[[请求体]]
 
 ### 响应
 
@@ -97,7 +101,7 @@ Cache-Control: max-age=3600
 ---
 
 ## 三、HTTP 版本
-参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]
+参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]、[[HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比]]
 
 ### HTTP/1.0、HTTP/1.1、HTTP/2、HTTP/3
 

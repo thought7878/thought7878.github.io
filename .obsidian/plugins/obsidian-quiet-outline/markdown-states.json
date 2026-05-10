@@ -3064,14 +3064,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 63.583333333333336,
+    "scroll": 80,
     "cursor": {
       "from": {
-        "line": 66,
+        "line": 79,
         "ch": 0
       },
       "to": {
-        "line": 66,
+        "line": 79,
         "ch": 0
       }
     },
@@ -27064,31 +27064,28 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 60.231119791666664,
+    "scroll": 1.875,
     "cursor": {
       "from": {
-        "line": 73,
+        "line": 104,
         "ch": 0
       },
       "to": {
-        "line": 73,
+        "line": 104,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-6",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/网络/互联网是如何运作的？.md": {
-    "scroll": 0,
+    "scroll": 81.85842267587017,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 6,
         "ch": 0
       }
     },
@@ -27098,12 +27095,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 98
+        "line": 29,
+        "ch": 14
       },
       "to": {
-        "line": 20,
-        "ch": 98
+        "line": 29,
+        "ch": 14
       }
     },
     "expandedKeys": []
@@ -30998,14 +30995,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 113.23697916666667,
+    "scroll": 145.18684895833334,
     "cursor": {
       "from": {
-        "line": 121,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 121,
+        "line": 8,
         "ch": 0
       }
     },
@@ -31949,6 +31946,37 @@
     },
     "expandedKeys": [
       "item-3-0"
+    ]
+  },
+  "_posts/网络/HTTP/请求方法（HTTP Methods）.md": {
+    "scroll": 158.91849751948973,
+    "cursor": {
+      "from": {
+        "line": 173,
+        "ch": 5
+      },
+      "to": {
+        "line": 173,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/网络/HTTP/HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
     ]
   }
 }
