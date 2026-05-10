@@ -96,12 +96,15 @@ Content-Type: text/html
 Cache-Control: max-age=3600
 ```
 
-- **响应体**：实际返回的数据（如 HTML 文档、JSON 数据）。参考：[[响应体]]
+- **响应体**：*实际返回的数据*（如 HTML 文档、JSON 数据）。参考：[[响应体]]
 
 ---
 
 ## 三、HTTP 版本
 参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]、[[HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比]]
+
+[Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
+[HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
 
 ### HTTP/1.0、HTTP/1.1、HTTP/2、HTTP/3
 
@@ -135,11 +138,6 @@ Cache-Control: max-age=3600
 | 连接建立时间 | 较长（TCP 握手 + TLS 握手） | 较短（0-RTT 握手）    |
 | 丢包恢复能力 | 较弱（依赖 TCP 的重传机制）    | 较强（QUIC 的内置机制）  |
 
-
-
-[Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
-[HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
-
 ---
 
 ## 四、HTTPS
@@ -164,7 +162,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## 五、HTTP 缓存
+## 五、HTTP **缓存**
 [What Is A CDN? How Does It Work?](https://www.youtube.com/watch?v=RI9np1LWzqw "What Is A CDN? How Does It Work?")
 参考：[[缓存]]、[[CDN]]
 
@@ -201,7 +199,7 @@ Cache-Control: max-age=3600
 
 ---
 
-## 七、HTTP 性能优化
+## 七、HTTP **性能优化**
 
 1. **减少请求数量**
 
