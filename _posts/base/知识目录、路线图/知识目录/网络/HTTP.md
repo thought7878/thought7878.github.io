@@ -164,7 +164,7 @@ Cache-Control: max-age=3600
 
 ## 五、HTTP **缓存**
 [What Is A CDN? How Does It Work?](https://www.youtube.com/watch?v=RI9np1LWzqw "What Is A CDN? How Does It Work?")
-参考：[[缓存]]、[[CDN]]
+参考：[[缓存策略]]、[[缓存]]、[[CDN]]
 
 1. **缓存的作用**
 

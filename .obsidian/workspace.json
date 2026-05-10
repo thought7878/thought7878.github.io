@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/缓存/缓存.md",
+                "file": "_posts/网络/HTTP/缓存策略.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "缓存"
+              "title": "缓存策略"
             }
           },
           {
@@ -993,16 +993,17 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/网络/HTTP/响应头.md",
-    "_posts/网络/缓存/缓存.md",
     "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/网络/HTTP/响应头.md",
+    "_posts/网络/HTTP/缓存策略.md",
+    "_posts/网络/缓存/缓存.md",
     "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
     "_posts/网络/HTTP/请求头.md",
     "_posts/网络/缓存/media/02c51ca7a6d1709bb84df24082651a89_MD5.webp",
     "_posts/网络/缓存/media/4272d863540412d6cd8276e7be2db45c_MD5.webp",
     "_posts/网络/缓存/media",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/methods/常看的.md",
     "_posts/网络/HTTP/响应体.md",
@@ -1021,7 +1022,6 @@
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/browser/存储/存储.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-09.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/8b1d9ae73997947f3670e2a9adf8eaf6_MD5.png",
