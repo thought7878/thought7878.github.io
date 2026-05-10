@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP/响应头.md",
+                "file": "_posts/网络/缓存/缓存.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "响应头"
+              "title": "缓存"
             }
           },
           {
@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP/请求头.md",
+                "file": "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "请求头"
+              "title": "ETag 对比 Last-Modified"
             }
           },
           {
@@ -993,10 +993,14 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/网络/HTTP/请求头.md",
     "_posts/网络/HTTP/响应头.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
     "_posts/网络/缓存/缓存.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
+    "_posts/网络/HTTP/请求头.md",
+    "_posts/网络/缓存/media/02c51ca7a6d1709bb84df24082651a89_MD5.webp",
+    "_posts/网络/缓存/media/4272d863540412d6cd8276e7be2db45c_MD5.webp",
+    "_posts/网络/缓存/media",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
@@ -1018,7 +1022,6 @@
     "_posts/browser/存储/存储.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-09.md",
-    "_posts/读书笔记/男女.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/8b1d9ae73997947f3670e2a9adf8eaf6_MD5.png",
@@ -1032,13 +1035,10 @@
     "_posts/browser/安全/安全策略",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/8.【第一阶段】高效准备前端技术一面：JS-Web-API考点",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/5.【第一阶段】高效准备前端技术一面：JS异步进阶",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/media/8f50ae5909c66b97ae4f8d8300d09f20_MD5.webp",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/media/0aee28bb9346f3ea7cff77ae50c394d9_MD5.webp",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/media",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题/media",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/4.【第一阶段】高效准备前端技术一面：CSS面试题",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

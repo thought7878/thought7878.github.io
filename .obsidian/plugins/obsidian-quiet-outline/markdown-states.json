@@ -27064,21 +27064,18 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 49.124657950744904,
+    "scroll": 157.91038759689923,
     "cursor": {
       "from": {
-        "line": 65,
-        "ch": 16
+        "line": 183,
+        "ch": 23
       },
       "to": {
-        "line": 65,
-        "ch": 16
+        "line": 183,
+        "ch": 23
       }
     },
-    "expandedKeys": [
-      "item-3-3",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/网络/互联网是如何运作的？.md": {
     "scroll": 81.85842267587017,
@@ -31999,7 +31996,7 @@
     ]
   },
   "_posts/网络/HTTP/请求头.md": {
-    "scroll": 63.833658854166664,
+    "scroll": 62.500325520833336,
     "cursor": {
       "from": {
         "line": 90,
@@ -32030,19 +32027,19 @@
     "expandedKeys": []
   },
   "_posts/网络/HTTP/响应头.md": {
-    "scroll": 71.2784496124031,
+    "scroll": 36.914471309996394,
     "cursor": {
       "from": {
-        "line": 84,
-        "ch": 0
+        "line": 77,
+        "ch": 31
       },
       "to": {
-        "line": 84,
-        "ch": 0
+        "line": 77,
+        "ch": 31
       }
     },
     "expandedKeys": [
-      "item-3-10",
+      "item-3-5",
       "item-2-1"
     ]
   },
@@ -32061,15 +32058,47 @@
     "expandedKeys": []
   },
   "_posts/网络/缓存/缓存.md": {
-    "scroll": 99.88217054263566,
+    "scroll": 121.62077519379845,
     "cursor": {
       "from": {
-        "line": 115,
-        "ch": 17
+        "line": 125,
+        "ch": 20
       },
       "to": {
-        "line": 115,
-        "ch": 17
+        "line": 125,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-13"
+    ]
+  },
+  "_posts/网络/HTTP/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 24
+      },
+      "to": {
+        "line": 0,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/网络/HTTP/ETag 对比 Last-Modified.md": {
+    "scroll": 154.42717930545712,
+    "cursor": {
+      "from": {
+        "line": 173,
+        "ch": 69
+      },
+      "to": {
+        "line": 173,
+        "ch": 69
       }
     },
     "expandedKeys": []
