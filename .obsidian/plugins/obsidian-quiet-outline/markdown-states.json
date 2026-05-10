@@ -27064,19 +27064,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 74.56380208333333,
+    "scroll": 49.124657950744904,
     "cursor": {
       "from": {
-        "line": 94,
-        "ch": 9
+        "line": 65,
+        "ch": 16
       },
       "to": {
-        "line": 94,
-        "ch": 9
+        "line": 65,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-3-6",
+      "item-3-3",
       "item-2-2"
     ]
   },
@@ -30998,14 +30998,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 186.64192708333334,
+    "scroll": 203.859375,
     "cursor": {
       "from": {
-        "line": 203,
+        "line": 210,
         "ch": 0
       },
       "to": {
-        "line": 203,
+        "line": 210,
         "ch": 0
       }
     },
@@ -31999,18 +31999,21 @@
     ]
   },
   "_posts/网络/HTTP/请求头.md": {
-    "scroll": 141.52219415373511,
+    "scroll": 63.833658854166664,
     "cursor": {
       "from": {
-        "line": 156,
-        "ch": 18
+        "line": 90,
+        "ch": 17
       },
       "to": {
-        "line": 156,
-        "ch": 18
+        "line": 90,
+        "ch": 17
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-8",
+      "item-2-1"
+    ]
   },
   "_posts/网络/HTTP/请求体.md": {
     "scroll": 162.0427906976744,
@@ -32027,15 +32030,15 @@
     "expandedKeys": []
   },
   "_posts/网络/HTTP/响应头.md": {
-    "scroll": 64.91634114583333,
+    "scroll": 71.2784496124031,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 22
+        "line": 84,
+        "ch": 0
       },
       "to": {
-        "line": 83,
-        "ch": 22
+        "line": 84,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -32053,6 +32056,20 @@
       "to": {
         "line": 189,
         "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/网络/缓存/缓存.md": {
+    "scroll": 99.88217054263566,
+    "cursor": {
+      "from": {
+        "line": 115,
+        "ch": 17
+      },
+      "to": {
+        "line": 115,
+        "ch": 17
       }
     },
     "expandedKeys": []
