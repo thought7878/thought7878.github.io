@@ -20,12 +20,12 @@ HTTP 状态码*按首位数字*分为五类：
 ## 二、常见状态码详解
 
 ### 1. 1xx：信息性状态
-- **100 Continue**：
+- 100 Continue：
   - 客户端应继续发送请求。
   - 常用于*分块上传*或*大文件传输*。
 - **101 Switching Protocols**：
   - 服务器同意切换协议（如从 HTTP 切换到 WebSocket）。
-- **102 Processing（WebDAV）**：
+- 102 Processing（WebDAV）：
   - 请求正在处理中，但尚未完成。
 
 ---
@@ -40,8 +40,8 @@ HTTP 状态码*按首位数字*分为五类：
   - 请求已被接受，但*尚未处理完成*。
 - **204 No Content**：
   - 请求成功，但*响应体为空*。
-  - 常用于 `DELETE` 或 `PUT` 请求。
-- **206 Partial Content**：
+  - *常用于 `DELETE` 或 `PUT` 请求*。
+- 206 Partial Content：
   - 返回资源的部分内容（用于范围请求）。
 
 ---
@@ -51,15 +51,15 @@ HTTP 状态码*按首位数字*分为五类：
   - *资源已永久移动到新地址*。
   - 浏览器会*自动跳转*到新地址。
 - **302 Found**：
-  - 资源*临时*移动到新地址。
+  - 资源*临时*移动到新地址，*原URL仍有效*。
   - 浏览器会*自动跳转*到新地址。
-- **303 See Other**：
+- 303 See Other：
   - 指示客户端通过 `GET` 方法访问另一个 URI。
 - **304 Not Modified**：
   - *资源未修改，客户端可以使用缓存*。
-- **307 Temporary Redirect**：
+- 307 Temporary Redirect：
   - 类似于 `302`，但明确要求客户端保持原请求方法。
-- **308 Permanent Redirect**：
+- 308 Permanent Redirect：
   - 类似于 `301`，但明确要求客户端保持原请求方法。
 
 ---
@@ -68,24 +68,24 @@ HTTP 状态码*按首位数字*分为五类：
 - **400 Bad Request**：
   - 请求*语法错误*或*参数无效*。
 - **401 Unauthorized**：
-  - 需要*身份验证*。
+  - *需要身份验证*。
 - **403 Forbidden**：
   - *服务器拒绝访问（权限不足）*。
 - **404 Not Found**：
   - *请求的资源不存在*。
-- **405 Method Not Allowed**：
+- 405 Method Not Allowed：
   - 请求方法不被允许（如对静态资源使用 `POST`）。
-- **408 Request Timeout**：
+- 408 Request Timeout：
   - 请求超时。
-- **409 Conflict**：
+- 409 Conflict：
   - 请求与当前资源状态冲突（如重复创建资源）。
-- **410 Gone**：
+- 410 Gone：
   - 资源已永久删除。
-- **413 Payload Too Large**：
+- 413 Payload Too Large：
   - 请求体过大。
-- **414 URI Too Long**：
+- 414 URI Too Long：
   - URL 过长。
-- **415 Unsupported Media Type**：
+- 415 Unsupported Media Type：
   - 请求的媒体类型不被支持。
 - **429 Too Many Requests**：
   - 客户端请求过于频繁。
@@ -95,15 +95,15 @@ HTTP 状态码*按首位数字*分为五类：
 ### 5. 5xx：服务器错误
 - **500 Internal Server Error**：
   - *服务器内部错误*。
-- **501 Not Implemented**：
+- 501 Not Implemented：
   - 服务器*不支持该功能*。
 - **502 Bad Gateway**：
-  - 代理服务器从上游服务器收到无效响应。
+  - *服务器之间通信异常*，代理服务器从上游服务器收到无效响应。
 - **503 Service Unavailable**：
-  - 服务器暂时不可用（如*过载*或*维护*）。
-- **504 Gateway Timeout**：
+  - 服务器暂时不可用（如*过载*或*维护*），*无法处理请求*。
+- 504 Gateway Timeout：
   - 代理服务器未能及时从上游服务器收到响应。
-- **505 HTTP Version Not Supported**：
+- 505 HTTP Version Not Supported：
   - 不支持的 HTTP 版本。
 
 ---

@@ -6736,12 +6736,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 83
+        "line": 7,
+        "ch": 78
       },
       "to": {
-        "line": 5,
-        "ch": 83
+        "line": 7,
+        "ch": 78
       }
     },
     "expandedKeys": []
@@ -27064,18 +27064,21 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 0,
+    "scroll": 60.231119791666664,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 13
+        "line": 73,
+        "ch": 0
       },
       "to": {
-        "line": 48,
-        "ch": 13
+        "line": 73,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-6",
+      "item-2-2"
+    ]
   },
   "_posts/网络/互联网是如何运作的？.md": {
     "scroll": 0,
@@ -30911,11 +30914,11 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 270
+        "ch": 125
       },
       "to": {
         "line": 4,
-        "ch": 270
+        "ch": 125
       }
     },
     "expandedKeys": []
@@ -30949,19 +30952,19 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 35.52857730263158,
+    "scroll": 52.900065104166664,
     "cursor": {
       "from": {
-        "line": 63,
-        "ch": 31
+        "line": 78,
+        "ch": 0
       },
       "to": {
-        "line": 63,
-        "ch": 31
+        "line": 78,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-15"
+      "item-1-21"
     ]
   },
   "_posts/browser/事件机制/addEventListener.md": {
@@ -30995,14 +30998,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 184.28437278525868,
+    "scroll": 184.04720052083334,
     "cursor": {
       "from": {
-        "line": 138,
+        "line": 203,
         "ch": 0
       },
       "to": {
-        "line": 138,
+        "line": 203,
         "ch": 0
       }
     },
@@ -31829,18 +31832,20 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-09.md": {
-    "scroll": 12.74559686888454,
+    "scroll": 20.113408330799636,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/base/js/知识点总结/表达式、运算符/字符串运算符.md": {
     "scroll": 0,
@@ -31871,15 +31876,15 @@
     "expandedKeys": []
   },
   "_posts/browser/存储/存储.md": {
-    "scroll": 0,
+    "scroll": 24.36686607251862,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 26
+        "line": 20,
+        "ch": 90
       },
       "to": {
-        "line": 9,
-        "ch": 26
+        "line": 20,
+        "ch": 90
       }
     },
     "expandedKeys": []
@@ -31899,5 +31904,35 @@
     "expandedKeys": [
       "item-2-10"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/网络/HTTP/状态码（Status Codes）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 15
+      },
+      "to": {
+        "line": 28,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -70,7 +70,8 @@ Accept: text/html
 ### 响应
 
 #### 状态码（Status Codes）
-参考：[[状态码（Status Codes）]]
+参考：[[状态码（Status Codes）]]、[5分钟详解HTTP状态码](https://www.bilibili.com/video/BV1dmQJBkEnz/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[4分钟看懂HTTP状态码](https://www.bilibili.com/video/BV15B4y1f76w/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 - **1xx**：信息性状态（如 `100 Continue`）。
 - **2xx**：成功（如 `200 OK`、`201 Created`）。
 - **3xx**：重定向（如 `301 Moved Permanently`、`304 Not Modified`）。
