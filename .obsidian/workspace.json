@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-10"
+              "title": "2026-05-12"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP/缓存策略.md",
+                "file": "_posts/react/Restful/TanStack Query/TanStack Query.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "缓存策略"
+              "title": "TanStack Query"
             }
           },
           {
@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
+                "file": "_posts/网络/HTTP/请求头.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ETag 对比 Last-Modified"
+              "title": "请求头"
             }
           },
           {
@@ -993,19 +993,25 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/网络/HTTP/响应头.md",
+    "_posts/react/Restful/TanStack Query/概念/Query.md",
     "_posts/网络/HTTP/缓存策略.md",
-    "_posts/网络/缓存/缓存.md",
-    "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "_posts/网络/HTTP/响应头.md",
     "_posts/网络/HTTP/请求头.md",
+    "_posts/网络/HTTP/ETag 对比 Last-Modified.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-12.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md",
+    "_posts/methods/常看的.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/旅居、旅行.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/网络/缓存/缓存.md",
     "_posts/网络/缓存/media/02c51ca7a6d1709bb84df24082651a89_MD5.webp",
     "_posts/网络/缓存/media/4272d863540412d6cd8276e7be2db45c_MD5.webp",
     "_posts/网络/缓存/media",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/methods/常看的.md",
     "_posts/网络/HTTP/响应体.md",
     "_posts/网络/HTTP/状态码（Status Codes）.md",
     "_posts/网络/HTTP/请求体.md",
@@ -1014,14 +1020,8 @@
     "_posts/网络/HTTP/HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比.md",
     "_posts/base/知识目录、路线图/知识目录/网络/网络、HTTP.md",
     "_posts/网络/互联网是如何运作的？.md",
-    "_posts/methods/要整理的.md",
     "_posts/methods/编程/AI与编程.md",
     "_posts/AI/AI.md",
-    "_posts/base/其他类型的基础知识/2019-05-18.JWT.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
-    "_posts/browser/存储/存储.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-10.md",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/8b1d9ae73997947f3670e2a9adf8eaf6_MD5.png",
