@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -991,7 +991,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
     "_posts/react/Restful/TanStack Query/概念/Query.md",
     "_posts/网络/HTTP/缓存策略.md",
