@@ -1,4 +1,4 @@
-参考：[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]、[2分钟掌握 HTTPS原理和 TLS 握手机制](https://www.bilibili.com/video/BV1Ef4y1R7FW/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+参考：[从点击网页到显示需要多少步-DNS、HTTP、CA、TLS、HTTPS](https://www.bilibili.com/video/BV1Tx421m7Hv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]、[2分钟掌握 HTTPS原理和 TLS 握手机制](https://www.bilibili.com/video/BV1Ef4y1R7FW/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 
 **HTTPS（HyperText Transfer Protocol Secure）** 是一种基于 **HTTP** 的安全通信协议，通过*结合 **SSL/TLS** 加密技术*，确保数据在客户端和服务器之间的传输过程中是*加密的、完整的和可信的*。HTTPS 已成为*现代 Web 的标准协议*，广泛用于*保护用户隐私*和*数据安全*。
