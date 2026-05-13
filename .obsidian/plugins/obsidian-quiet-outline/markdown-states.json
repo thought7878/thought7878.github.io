@@ -27062,7 +27062,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 144.6123046875,
+    "scroll": 155.96558139534883,
     "cursor": {
       "from": {
         "line": 167,
@@ -30993,19 +30993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 203.82259114583334,
+    "scroll": 188.7689581856839,
     "cursor": {
       "from": {
-        "line": 216,
+        "line": 220,
         "ch": 0
       },
       "to": {
-        "line": 216,
+        "line": 220,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-27"
+      "item-1-19"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32097,15 +32097,15 @@
     "expandedKeys": []
   },
   "_posts/网络/HTTP/缓存策略.md": {
-    "scroll": 43.827799479166664,
+    "scroll": 0.0707070707070707,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 28
+        "line": 11,
+        "ch": 12
       },
       "to": {
-        "line": 117,
-        "ch": 28
+        "line": 11,
+        "ch": 12
       }
     },
     "expandedKeys": []
@@ -32197,5 +32197,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/browser/存储/Service Worker.md": {
+    "scroll": 0.7171717171717171,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
