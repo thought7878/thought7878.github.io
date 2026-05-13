@@ -1,3 +1,5 @@
+参考：[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]
+
 **HTTPS（HyperText Transfer Protocol Secure）** 是一种基于 **HTTP** 的安全通信协议，通过*结合 **SSL/TLS** 加密技术*，确保数据在客户端和服务器之间的传输过程中是*加密的、完整的和可信的*。HTTPS 已成为*现代 Web 的标准协议*，广泛用于*保护用户隐私*和*数据安全*。
 
 

@@ -27062,15 +27062,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 155.96558139534883,
+    "scroll": 125.23906976744186,
     "cursor": {
       "from": {
-        "line": 167,
-        "ch": 0
+        "line": 145,
+        "ch": 10
       },
       "to": {
-        "line": 167,
-        "ch": 0
+        "line": 145,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -30993,19 +30993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 188.7689581856839,
+    "scroll": 215.17447916666666,
     "cursor": {
       "from": {
-        "line": 220,
+        "line": 226,
         "ch": 0
       },
       "to": {
-        "line": 220,
+        "line": 226,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-19"
+      "item-1-32"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32097,15 +32097,15 @@
     "expandedKeys": []
   },
   "_posts/网络/HTTP/缓存策略.md": {
-    "scroll": 0.0707070707070707,
+    "scroll": 95.82779947916667,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 12
+        "line": 107,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 12
+        "line": 107,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -32202,11 +32202,67 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 4,
+        "ch": 119
+      },
+      "to": {
+        "line": 4,
+        "ch": 119
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/Web Worker-QW.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 100,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 100,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/存储/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/存储/CDN 与边缘缓存策略.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 95
+      },
+      "to": {
+        "line": 2,
+        "ch": 95
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/网络/HTTP/HTTPS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
         "ch": 0
       }
     },

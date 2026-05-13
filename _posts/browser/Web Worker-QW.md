@@ -1,18 +1,20 @@
+参考：[【前端】WebWorker与ServiceWorker](https://www.bilibili.com/video/BV1j44y1w7v1/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 **Web Workers** 是一种允许在浏览器中运行 JavaScript 的多线程技术。它使得开发者能够在主线程之外的独立线程中执行耗时任务，从而避免阻塞主线程（UI 线程），提升页面性能和用户体验。
 
 ---
 
-## **1. 为什么需要 Web Workers？**
+## 1. 为什么需要 Web Workers？
 
-浏览器的 JavaScript 是单线程的，所有代码都在主线程中运行。如果某个任务耗时过长（如复杂计算、数据处理、文件解析等），会阻塞主线程，导致页面卡顿或掉帧。为了解决这个问题，Web Workers 提供了一种机制，允许将这些耗时任务移到独立的线程中运行。
+*浏览器的 JavaScript 是单线程的，所有代码都在主线程中运行。如果某个任务耗时过长（如复杂计算、数据处理、文件解析等），会阻塞主线程，导致页面卡顿或掉帧*。为了解决这个问题，Web Workers 提供了一种机制，允许**将这些耗时任务移到*独立的线程*中运行**。
 
-### **问题场景**
+### 问题场景
 - **复杂计算**：如加密解密、图像处理、数据分析等。
 - **大数据处理**：如处理大量 JSON 数据或数组操作。
 - **实时通信**：如 WebSocket 数据流处理。
 - **后台任务**：如定时器、轮询等。
 
-通过 Web Workers，可以将这些任务从主线程中分离出来，确保 UI 响应迅速。
+*通过 Web Workers，可以将这些任务从主线程中分离出来，确保 UI 响应迅速*。
 
 ---
 
@@ -86,8 +88,8 @@ self.onconnect = function(event) {
 
 ---
 
-### **(3) Service Worker**
-- 一种特殊的 Worker，主要用于拦截网络请求、缓存资源和实现离线功能。
+### (3) Service Worker
+- 一种特殊的 Worker，主要用于*拦截网络请求、缓存资源、实现离线功能*。
 - 通常用于 PWA（Progressive Web Apps）开发。
 
 #### 示例：
