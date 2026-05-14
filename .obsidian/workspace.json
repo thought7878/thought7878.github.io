@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/命令/tag.md",
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "Git"
             }
           },
           {
@@ -993,7 +993,14 @@
   },
   "active": "dd75509b368086c5",
   "lastOpenFiles": [
+    "_posts/engineering/版本控制与协作/Git/原理/HEAD.md",
+    "_posts/engineering/版本控制与协作/Git/命令/分支/Git 分支操作.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/版本控制与协作/Git/命令/分支",
+    "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md",
+    "_posts/engineering/版本控制与协作/Git/命令/tag.md",
     "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md",
+    "_posts/engineering/版本控制与协作/Git/Git 常考的问题.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.第二章：独自使用Git时的常见场景 (16讲)",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客",
     "_posts/engineering/版本控制与协作/Git/教程",
@@ -1002,10 +1009,6 @@
     "_posts/engineering/版本控制与协作/Git/原理/media/3de93af64f38200c930580c5f8208808_MD5.webp",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/methods/常看的.md",
-    "_posts/engineering/版本控制与协作/Git/命令/tag.md",
-    "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md",
-    "_posts/engineering/版本控制与协作/Git/Git 常考的问题.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/原理/media/96511b0588da6afdbac75611f203cde5_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/原理/media/ff5685bc996960b40a8028c8976655fa_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/原理/media/10d7062322d4f9dfb8ec38af69dc87e9_MD5.webp",
@@ -1032,12 +1035,10 @@
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
     "_posts/网络/HTTP/HTTPS.md",
-    "_posts/AI/短视频/视频制作方法.md",
     "_posts/browser/存储/未命名",
     "_posts/网络/缓存/media",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
     "_posts/browser/安全/常见攻击与防护",
-    "_posts/browser/安全/安全策略",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
