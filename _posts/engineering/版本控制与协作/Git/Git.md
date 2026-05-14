@@ -31,6 +31,8 @@
 
 _是对某个特定提交的标记_，通常用于**标记项目的重要版本**，如发布版本。标签分为`轻量标签`和`附注标签`。
 
+参考：[[_posts/engineering/版本控制与协作/Git/命令/tag|tag]]
+
 ## 远程仓库（Remote Repository）
 
 _存储在服务器上的仓库_，**用于团队成员之间的代码共享和协作**。常见的远程仓库托管平台有 GitHub、GitLab、Bitbucket 等。
@@ -394,6 +396,9 @@ git pull <remote> <branch>
    git branch -d <分支名>  # 删除已合并的分支
    git branch -D <分支名>  # 强制删除未合并的分支
    ```
+
+## 标签（Tag）
+参考：[[_posts/engineering/版本控制与协作/Git/命令/tag|tag]]
 
 
 ## 撤销、版本回退
