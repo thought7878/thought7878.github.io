@@ -211,6 +211,8 @@ git reset HEAD .            # 重置整个暂存区
    git init
    ```
 
+### 查看
+参考：[[log]]
 
 ### 本地仓库 → 暂存区
 场景：**回退最近一次提交（commit）到暂存区（Staging Area）** ，也就是，撤销提交但保留改动内容*以便再次修改或重新提交*
@@ -421,6 +423,9 @@ git pull <remote> <branch>
 ### git config
 参考：[[config]]
 
+#### 如何为不同仓库配不同邮箱？
+#### 团队如何统一换行符？
+
 ### 配置 git 和 github
 参考：[[配置git 和 github]]
 
@@ -454,3 +459,14 @@ git pull <remote> <branch>
    - 大多数集成开发环境（如 Visual Studio Code、WebStorm）都集成了 Git 功能，方便开发者在 IDE 中进行版本控制操作。
 2. **与 CI/CD 工具集成**
    - 可与 Jenkins、GitLab CI/CD、GitHub Actions 等持续集成/持续部署工具集成，实现代码提交后的自动化构建、测试和部署。
+
+# 使用场景
+
+## 重命名
+```
+git mv 
+```
+
+## 配置
+#### 如何为不同仓库配不同邮箱？
+#### 团队如何统一换行符？
