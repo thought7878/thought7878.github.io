@@ -6015,20 +6015,20 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 355.79199149539335,
+    "scroll": 405.8186046511628,
     "cursor": {
       "from": {
-        "line": 367,
-        "ch": 6
+        "line": 429,
+        "ch": 0
       },
       "to": {
-        "line": 367,
-        "ch": 6
+        "line": 429,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-11",
-      "item-2-46"
+      "item-2-54",
+      "item-1-11"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/Untitled.md": {
@@ -6734,12 +6734,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 86
+        "line": 10,
+        "ch": 70
       },
       "to": {
-        "line": 9,
-        "ch": 86
+        "line": 10,
+        "ch": 70
       }
     },
     "expandedKeys": []
@@ -27062,15 +27062,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 122.18391927083333,
+    "scroll": 121.80465116279069,
     "cursor": {
       "from": {
         "line": 145,
-        "ch": 10
+        "ch": 17
       },
       "to": {
         "line": 145,
-        "ch": 10
+        "ch": 17
       }
     },
     "expandedKeys": []
@@ -30993,19 +30993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 123.10026041666667,
+    "scroll": 261.9182942708333,
     "cursor": {
       "from": {
-        "line": 130,
+        "line": 274,
         "ch": 0
       },
       "to": {
-        "line": 130,
+        "line": 274,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-19"
+      "item-1-36"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31994,7 +31994,7 @@
     ]
   },
   "_posts/网络/HTTP/请求头.md": {
-    "scroll": 76.95216836734694,
+    "scroll": 76.94679233809669,
     "cursor": {
       "from": {
         "line": 90,
@@ -32169,15 +32169,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-13.md": {
-    "scroll": 26.701171875,
+    "scroll": 20.813925205229552,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -32258,11 +32258,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 2,
         "ch": 0
       }
     },
@@ -32292,6 +32292,137 @@
       "to": {
         "line": 5,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/git 常考的问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/Git 常考的问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 104
+      },
+      "to": {
+        "line": 7,
+        "ch": 104
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/Git 2.md": {
+    "scroll": 5.516567809838112,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 13
+      },
+      "to": {
+        "line": 14,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-14.md": {
+    "scroll": 32.25624901745009,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/版本控制与协作/Git/overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 28
+      },
+      "to": {
+        "line": 8,
+        "ch": 28
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/配置/配置git 和 github.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0"
+    ]
+  },
+  "_posts/engineering/版本控制与协作/Git/配置/在shell中配置 git 命令的快捷方式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 18
+      },
+      "to": {
+        "line": 9,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/命令/config.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 28
+      },
+      "to": {
+        "line": 17,
+        "ch": 28
       }
     },
     "expandedKeys": []

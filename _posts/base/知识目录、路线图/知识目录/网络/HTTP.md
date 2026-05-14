@@ -141,7 +141,7 @@ Cache-Control: max-age=3600
 ---
 
 ## 四、HTTPS
-参考：[[HTTPS]]、[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]
+参考：[[HTTPS]]、[从点击网页到显示需要多少步-DNS、HTTP、CA、TLS、HTTPS](https://www.bilibili.com/video/BV1Tx421m7Hv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo "SSL, TLS, HTTPS Explained")、[[36.HTTPS：让数据传输更安全]]
 
 1. **什么是 HTTPS？**
 

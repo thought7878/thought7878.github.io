@@ -1,3 +1,5 @@
+参考：[[Git 常考的问题]]
+
 【我的高效Git配置秘籍 😎】 https://www.bilibili.com/video/BV1KSjRzxE3b/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 # 一、Git 概述
@@ -414,6 +416,17 @@ git pull <remote> <branch>
    git revert <提交哈希值>
    ```
    创建一个新的提交来撤销指定提交的更改。
+
+## 配置
+### git config
+参考：[[config]]
+
+### 配置 git 和 github
+参考：[[配置git 和 github]]
+
+### 在shell中配置 git 命令的快捷方式
+参考：[[在shell中配置 git 命令的快捷方式]]
+
 
 # 四、工作流程
 
