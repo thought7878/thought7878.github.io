@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md",
+                "file": "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "总结.git目录"
+              "title": "分离头指针（detached HEAD）"
             }
           },
           {
@@ -993,10 +993,12 @@
   },
   "active": "dd75509b368086c5",
   "lastOpenFiles": [
-    "_posts/engineering/版本控制与协作/Git/原理/media/ff5685bc996960b40a8028c8976655fa_MD5.webp",
+    "_posts/engineering/版本控制与协作/Git/原理/media/96511b0588da6afdbac75611f203cde5_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/命令/tag.md",
     "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md",
+    "_posts/engineering/版本控制与协作/Git/原理/media/ff5685bc996960b40a8028c8976655fa_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/原理/media/10d7062322d4f9dfb8ec38af69dc87e9_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/命令/config.md",
     "_posts/engineering/版本控制与协作/Git/命令/log.md",
@@ -1026,13 +1028,11 @@
     "_posts/网络/HTTP/HTTPS.md",
     "_posts/AI/短视频/视频制作方法.md",
     "_posts/AI/短视频/参考视频.md",
-    "_posts/网络/HTTP/缓存策略.md",
     "_posts/browser/存储/未命名",
     "_posts/网络/缓存/media/02c51ca7a6d1709bb84df24082651a89_MD5.webp",
     "_posts/网络/缓存/media/4272d863540412d6cd8276e7be2db45c_MD5.webp",
     "_posts/网络/缓存/media",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/d2f3465c802d75f0b59f7763b356eaa5_MD5.png",
-    "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media/39db9d57002e25813847f26cccd769ba_MD5.png",
     "_posts/browser/教程/浏览器工作原理与实践/08-浏览器安全 (5讲)/media",
     "_posts/browser/安全/常见攻击与防护",
     "_posts/browser/安全/安全策略",

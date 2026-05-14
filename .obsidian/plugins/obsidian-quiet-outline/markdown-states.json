@@ -6015,19 +6015,21 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 16.32761632523424,
+    "scroll": 465.482928378593,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 482,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 482,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1"
+      "item-2-67",
+      "item-1-65",
+      "item-1-70"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/Untitled.md": {
@@ -32517,18 +32519,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md": {
-    "scroll": 59.52631178789821,
+    "scroll": 47.474240091055165,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 6
+        "line": 54,
+        "ch": 72
       },
       "to": {
-        "line": 55,
-        "ch": 6
+        "line": 54,
+        "ch": 72
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/engineering/版本控制与协作/Git/原理/git cat-file 命令.md": {
     "scroll": 36.41537351136774,
@@ -32547,17 +32551,33 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/命令/tag.md": {
-    "scroll": 63.18384697130712,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 18,
+        "ch": 68
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 18,
+        "ch": 68
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md": {
+    "scroll": 8.56607236497116,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 37
+      },
+      "to": {
+        "line": 17,
+        "ch": 37
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
