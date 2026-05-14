@@ -60,7 +60,9 @@ git cat-file -p <commit-hash>
   ```
 - **关键认知**：Commit 是**单向链表节点**。通过 `parent` 指针回溯历史，通过 `tree` 指针绑定项目快照。
 
-![[_posts/engineering/版本控制与协作/Git/原理/media/0907880243f3f5056609fc65ba17441a_MD5.webp]]
+![[_posts/engineering/版本控制与协作/Git/原理/media/b018ac7c78526fd22cc18948e47aa47c_MD5.webp]]
+![[_posts/engineering/版本控制与协作/Git/原理/media/dd1f45d652386ef75ee763c68694da21_MD5.webp]]
+
 
 ### 4. Tag（标签对象）
 ```bash
