@@ -56,22 +56,22 @@ git restore [<options>] [--] <pathspec>...
 
 ---
 ## 五、底层机制与行为限制
-| 机制 | 说明 |
-|------|------|
-| **操作边界** | 仅修改 `.git/index`（二进制暂存缓存）与磁盘文件。不触碰 `.git/HEAD`、`refs/heads/*`、`reflog`。 |
-| **数据源读取** | 默认从 `HEAD` 对应的 Tree 对象提取 Blob。指定 `--source` 时，从目标 commit/branch 的 Tree 提取。 |
-| **冲突处理限制** | `git restore` **不支持** `--ours` / `--theirs`。合并冲突时仍需用 `git checkout --ours/--theirs <file>` 或手动解决。 |
-| **与 `checkout` 差异** | `checkout` 文件名与分支名同名时优先切分支，易误触；`restore` 强制只认文件路径，语义绝对安全。 |
+| 机制                  | 说明                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------- |
+| **操作边界**            | 仅修改 `.git/index`（二进制暂存缓存）与磁盘文件。不触碰 `.git/HEAD`、`refs/heads/*`、`reflog`。                           |
+| **数据源读取**           | 默认从 `HEAD` 对应的 Tree 对象提取 Blob。指定 `--source` 时，从目标 commit/branch 的 Tree 提取。                        |
+| **冲突处理限制**          | `git restore` **不支持** `--ours` / `--theirs`。合并冲突时仍需用 `git checkout --ours/--theirs <file>` 或手动解决。 |
+| **与 `checkout` 差异** | `checkout` 文件名与分支名同名时优先切分支，易误触；`restore` 强制只认文件路径，语义绝对安全。                                         |
 
 ---
 ## 六、前端工程化与实战场景
-| 场景 | `restore` 的作用 | 实战技巧 |
-|------|------------------|----------|
-| **Husky pre-commit 回滚** | 脚本校验失败时自动取消暂存 | `git restore --staged .` 避免半成品污染暂存区 |
-| **CI/CD 环境清理** | 流水线中临时修改配置后快速还原 | `git restore --source=HEAD .` 确保后续步骤基线一致 |
-| **Monorepo 局部同步** | 仅拉取主分支某个包的配置，不切分支 | `git restore --source=main packages/ui/tsconfig.json` |
-| **脚本安全替代** | 替代 `checkout --` 避免路径解析歧义 | 自动化脚本统一用 `restore -- "$FILE"`，提升鲁棒性 |
-| **Code Review 验证** | 临时提取他人 PR 的单个文件对比 | `git restore --source=origin/feat-xxx src/utils/format.ts` |
+| 场景                      | `restore` 的作用             | 实战技巧                                                       |
+| ----------------------- | ------------------------- | ---------------------------------------------------------- |
+| **Husky pre-commit 回滚** | 脚本校验失败时自动取消暂存             | `git restore --staged .` 避免半成品污染暂存区                        |
+| **CI/CD 环境清理**          | 流水线中临时修改配置后快速还原           | `git restore --source=HEAD .` 确保后续步骤基线一致                   |
+| **Monorepo 局部同步**       | 仅拉取主分支某个包的配置，不切分支         | `git restore --source=main packages/ui/tsconfig.json`      |
+| **脚本安全替代**              | 替代 `checkout --` 避免路径解析歧义 | 自动化脚本统一用 `restore -- "$FILE"`，提升鲁棒性                        |
+| **Code Review 验证**      | 临时提取他人 PR 的单个文件对比         | `git restore --source=origin/feat-xxx src/utils/format.ts` |
 
 ---
 ## 七、**面试**高频考点
