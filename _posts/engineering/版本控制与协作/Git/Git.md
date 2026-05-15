@@ -362,6 +362,17 @@ git pull <remote> <branch>
 ## 分支操作
 参考：[[Git 分支操作]]
 
+
+| 场景 | 现代命令（推荐） | 传统命令 | 说明 |
+|------|----------------|----------|------|
+| 创建并切换 | `git switch -c <name>` | `git checkout -b <name>` | 一步到位，语义清晰 |
+| 切换已有分支 | `git switch <name>` | `git checkout <name>` | 自动处理工作区状态 |
+| 列出分支 | `git branch -vv` | `git branch -v` | `-vv` 显示上游跟踪与 ahead/behind 状态 |
+| 重命名 | `git branch -m <old> <new>` | 同左 | 本地重命名，远程需重新 push |
+| 安全删除 | `git branch -d <name>` | 同左 | 仅允许删除已合并的分支 |
+| 强制删除 | `git branch -D <name>` | 同左 | 丢弃未合并提交（慎用） |
+| 恢复误删 | `git reflog` → `git branch <name> <hash>` | 同左 | 分支指针可删，commit 对象 90 天内仍在 |
+
 ### 查看
    ```bash
    git branch        # 查看本地分支
@@ -481,7 +492,8 @@ git mv
 ### 14 | 怎么删除不需要的分支？
 [[#删除]]
 
-### 15 | 怎么修改最新commit的message？
+### 15 | 怎么修改最新commit的message
+
 
 ### 16 | 怎么修改老旧commit的message？
 

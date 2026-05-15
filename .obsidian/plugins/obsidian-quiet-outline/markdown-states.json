@@ -6015,15 +6015,15 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 361.3786321757619,
+    "scroll": 369.6282040346313,
     "cursor": {
       "from": {
-        "line": 368,
-        "ch": 22
+        "line": 395,
+        "ch": 24
       },
       "to": {
-        "line": 368,
-        "ch": 22
+        "line": 395,
+        "ch": 24
       }
     },
     "expandedKeys": [
@@ -6734,12 +6734,12 @@
     "scroll": 3.5608874837689832,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 71
+        "line": 10,
+        "ch": 94
       },
       "to": {
-        "line": 11,
-        "ch": 71
+        "line": 10,
+        "ch": 94
       }
     },
     "expandedKeys": []
@@ -24434,11 +24434,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       }
     },
@@ -32353,15 +32353,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-14.md": {
-    "scroll": 32.25624901745009,
+    "scroll": 25.784505208333332,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -32578,7 +32578,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/版本控制与协作/Git/原理/HEAD.md": {
-    "scroll": 55.78269021146719,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 77,
@@ -32589,9 +32589,7 @@
         "ch": 99
       }
     },
-    "expandedKeys": [
-      "item-2-9"
-    ]
+    "expandedKeys": []
   },
   "_posts/engineering/版本控制与协作/Git/命令/分支/未命名.md": {
     "scroll": 0,
@@ -32611,12 +32609,56 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 70
+        "line": 80,
+        "ch": 142
       },
       "to": {
-        "line": 0,
-        "ch": 70
+        "line": 80,
+        "ch": 142
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-15.md": {
+    "scroll": 32.618456217575854,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/版本控制与协作/Git/命令/clean、checkout、restore.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 60
+      },
+      "to": {
+        "line": 8,
+        "ch": 60
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/命令/restore.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 16
+      },
+      "to": {
+        "line": 14,
+        "ch": 16
       }
     },
     "expandedKeys": []
