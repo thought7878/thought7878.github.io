@@ -451,6 +451,7 @@ git pull <remote> <branch>
 
 
 # 四、工作流程
+【Git团队协作工作流】 https://www.bilibili.com/video/BV1sM8zzLEog/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 1. **集中式工作流**
    - 所有团队成员直接在主分支上进行开发和提交，适用于小型团队和简单项目。
@@ -501,16 +502,15 @@ git commit --amend
 
 ### 16 | 怎么修改老旧commit的message？
 参考：[[rebase]]
-
 ### 17 | 怎样把连续的多个commit整理成1个？
 参考：[[rebase]]
-
 ### 18 | 怎样把间隔的几个commit整理成1个？
 参考：[[rebase]]
 
 ### 19 | 怎么比较暂存区和HEAD所含文件的差异？
-
+参考：[[diff]]
 ### 20 | 怎么比较工作区和暂存区所含文件的差异？
+参考：[[diff]]
 
 ### 21 | 如何让暂存区恢复成和HEAD的一样？
 

@@ -1,3 +1,6 @@
+参考：[Git Rebase使用技巧和风险防范](https://www.bilibili.com/video/BV1XcewzFENs/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[Git Merge和Rebase区别](https://www.bilibili.com/video/BV12WYszUEUe/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+
 以下是 `git rebase` 的系统化总结。作为 Git 最强大也最易误用的命令之一，它是现代前端团队保持历史整洁、提升 Code Review 效率的核心工具。内容按原理、机制、对比、交互模式、工程实践、面试考点组织，直接对标一线协作标准。
 
 ---
@@ -41,11 +44,16 @@
 | **历史形态**        | 线性，无分叉，无 merge commit      | *保留分叉，生成 merge commit，记录合并点* |
 | **Commit Hash** | **全部改变**（**重写历史**）         | **完全保留**（**追加历史**）           |
 | **冲突解决**        | 逐提交解决，可能多次停顿               | 一次性解决所有差异                    |
-| **安全性**         | ⚠️ 危险，改写已存在提交              | ✅ 安全，仅追加新节点                  |
+| **安全性**         | ⚠️ *危险，改写已存在提交*            | ✅ 安全，仅追加新节点                  |
 | **适用场景**        | ***个人本地分支**整理、同步主干、PR 前压缩* | ***公共分支**合并、保留协作痕迹、发布基线*     |
 | **现代工作流定位**     | 本地“打磨”工具                   | 远程“归档”工具                     |
 
 💡 **团队标准实践**：`本地开发 → rebase origin/main 保持同步 → rebase -i 整理提交 → 推送 → PR → Squash & Merge 到主干`
+
+参考：[Git Rebase使用技巧和风险防范](https://www.bilibili.com/video/BV1XcewzFENs/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[Git Merge和Rebase区别](https://www.bilibili.com/video/BV12WYszUEUe/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+![[_posts/engineering/版本控制与协作/Git/命令/media/bddbd4d401beac1b017e6b1653f68e88_MD5.webp]]
+
 
 ---
 ## 五、**交互式 Rebase (`-i`)** 实战指南
