@@ -493,11 +493,17 @@ git mv
 [[#删除]]
 
 ### 15 | 怎么修改最新commit的message
+参考：[[commit]]
 
+```sh
+git commit --amend
+```
 
 ### 16 | 怎么修改老旧commit的message？
+参考：[[rebase]]
 
 ### 17 | 怎样把连续的多个commit整理成1个？
+
 
 ### 18 | 怎样把间隔的几个commit整理成1个？
 
