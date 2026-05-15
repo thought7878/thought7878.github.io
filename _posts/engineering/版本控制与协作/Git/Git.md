@@ -503,9 +503,10 @@ git commit --amend
 参考：[[rebase]]
 
 ### 17 | 怎样把连续的多个commit整理成1个？
-
+参考：[[rebase]]
 
 ### 18 | 怎样把间隔的几个commit整理成1个？
+参考：[[rebase]]
 
 ### 19 | 怎么比较暂存区和HEAD所含文件的差异？
 
