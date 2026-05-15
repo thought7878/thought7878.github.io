@@ -80,7 +80,7 @@ git rebase -i HEAD~3  # 整理最近 3 次提交
 | 场景                | `rebase` 的作用             | 实战技巧                                          |
 | ----------------- | ------------------------ | --------------------------------------------- |
 | **PR 前*历史整理***    | *将开发期的琐碎 commit 压缩为原子提交* | `rebase -i` 合并 `wip`/`fix typo`，保留清晰 feat/fix |
-| **功能分支同步主干**      | 避免落后 main 过多导致合并地狱       | `git fetch && git rebase origin/main`（本地未推送时） |
+| **功能分支*同步主干***    | 避免落后 main 过多导致合并地狱       | `git fetch && git rebase origin/main`（本地未推送时） |
 | **CI/CD 安全推送**    | rebase 后 hash 改变，需强制同步远程 | 用 `git push --force-with-lease` 替代 `-f`，防覆盖他人 |
 | **Changesets 发版** | 线性历史*使版本工具解析更准确*         | 整理后 `feat:`/`fix:` 边界清晰，*自动生成精准 CHANGELOG*    |
 | **Monorepo 隔离开发** | 多包并行时保持各分支基线一致           | 定期 rebase 主干，减少跨包依赖冲突                         |
