@@ -1,3 +1,5 @@
+参考：[Git回退操作演示](https://www.bilibili.com/video/BV1aEh2z1EGh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 以下是 `git reset` 的系统化总结。作为 Git 的**指针回退与状态重置工具**，它威力巨大但也极易误伤。现代 Git 已将其职责明确拆分：`reset` 专注 commit 级历史回退，文件/暂存区操作交由 `restore`。内容按原理、三模式、边界对比、工程实践、面试考点组织，直接对标一线开发与面试标准。
 
 ---
