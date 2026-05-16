@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md",
+                "file": "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/6.初识GitHub (6讲).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.Git集成使用禁忌 (2讲)"
+              "title": "6.初识GitHub (6讲)"
             }
           },
           {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -991,21 +991,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "dd75509b368086c5",
   "lastOpenFiles": [
-    "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md",
-    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/4.Git多人单分支集成协作时的常见场景 (5讲).md",
+    "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/6.初识GitHub (6讲).md",
+    "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/engineering/版本控制与协作/Git/命令/diff.md",
     "_posts/engineering/版本控制与协作/Git/开源软件的license.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/命令/checkout.md",
     "_posts/engineering/版本控制与协作/Git/命令/restore.md",
     "_posts/engineering/版本控制与协作/Git/命令/revert.md",
     "_posts/engineering/版本控制与协作/Git/命令/reset.md",
     "_posts/engineering/版本控制与协作/Git/Git 提交规范.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/3.Git与GitHub的简单同步 (4讲).md",
-    "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/6.初识GitHub (6讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/7.使用GitHub进行团队协作 (10讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/8.GitLab实践 (6讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.独自使用Git时的常见场景 (16讲).md",
@@ -1027,7 +1028,6 @@
     "_posts/engineering/版本控制与协作/Git/media",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-16.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-15.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/人性.md",
     "_posts/engineering/版本控制与协作/Git/命令/media/bddbd4d401beac1b017e6b1653f68e88_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/命令/media",
