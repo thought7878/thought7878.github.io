@@ -1,3 +1,5 @@
+参考：[Git回退操作演示](https://www.bilibili.com/video/BV1aEh2z1EGh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 以下是 `git checkout` 的系统化总结。作为 Git 历史上最著名、也最“超载”的命令，它在现代 Git 中已进入**职责拆分与渐进淘汰期**。理解它的演进、剩余专属场景与现代替代方案，是体现工程师 CLI 素养与团队协作规范的关键。内容按历史演进、核心功能、现代拆分、冲突专属、工程实践、面试考点组织，直接对标一线开发标准。
 
 ---
