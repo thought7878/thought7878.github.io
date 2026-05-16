@@ -6015,22 +6015,20 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 533.7352941176471,
+    "scroll": 488.7513586956522,
     "cursor": {
       "from": {
-        "line": 548,
+        "line": 496,
         "ch": 0
       },
       "to": {
-        "line": 548,
+        "line": 496,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-66",
-      "item-2-68",
-      "item-2-72",
-      "item-1-89"
+      "item-2-68"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/Untitled.md": {
@@ -32722,15 +32720,171 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/gitignore.md": {
+    "scroll": 8.7674357629785,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 16
+      },
+      "to": {
+        "line": 22,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-2-7"
+    ]
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.第二章：独自使用Git时的常见场景 (16讲)/未命名.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 165,
-        "ch": 13
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 165,
-        "ch": 13
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.独自使用Git时的常见场景 (16讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/3.第三章：Git与GitHub的简单同步 (4讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/3.Git与GitHub的简单同步 (4讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/4.Git多人单分支集成协作时的常见场景 (5讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/6.初识GitHub (6讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/7.使用GitHub进行团队协作 (10讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/8.GitLab实践 (6讲).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 23
+      },
+      "to": {
+        "line": 4,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/版本控制与协作/Git/Git 提交规范.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
