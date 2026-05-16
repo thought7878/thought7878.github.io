@@ -683,12 +683,24 @@
             "id": "dd75509b368086c5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md"
+                "file": "_posts/engineering/版本控制与协作/Git/Git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "命令流程图.excalidraw"
+              "icon": "lucide-file",
+              "title": "Git"
             }
           },
           {
@@ -955,12 +967,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -982,6 +993,18 @@
   },
   "active": "dd75509b368086c5",
   "lastOpenFiles": [
+    "_posts/engineering/版本控制与协作/Git/gitignore.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/engineering/版本控制与协作/Git/命令/stash.md",
+    "_posts/engineering/版本控制与协作/Git/命令/checkout.md",
+    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
+    "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md",
+    "_posts/engineering/版本控制与协作/Git/命令/restore.md",
+    "_posts/engineering/版本控制与协作/Git/命令/revert.md",
+    "_posts/engineering/版本控制与协作/Git/命令/reset.md",
+    "_posts/engineering/版本控制与协作/Git/命令/diff.md",
+    "_posts/engineering/版本控制与协作/Git/命令/commit.md",
+    "_posts/engineering/版本控制与协作/Git/命令/分支/Git 分支操作.md",
     "_posts/engineering/版本控制与协作/Git/media/PixPin_2026-05-16_10-47-16.webp",
     "_posts/engineering/版本控制与协作/Git/media/PixPin_2026-05-16_10-41-03.webp",
     "_posts/engineering/版本控制与协作/Git/media/PixPin_2026-05-16_10-29-57.webp",
@@ -992,38 +1015,26 @@
     "_posts/engineering/版本控制与协作/Git/media/PixPin_2026-05-16_09-22-12.webp",
     "_posts/engineering/版本控制与协作/Git/media/PixPin_2026-05-16_09-07-29.webp",
     "_posts/engineering/版本控制与协作/Git/media",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-16.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-15.md",
-    "_posts/engineering/版本控制与协作/Git/命令/diff.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/人性.md",
-    "_posts/engineering/版本控制与协作/Git/命令/checkout.md",
-    "_posts/engineering/版本控制与协作/Git/命令/restore.md",
     "_posts/读书笔记/男女.md",
-    "_posts/engineering/版本控制与协作/Git/命令/revert.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/engineering/版本控制与协作/Git/命令/reset.md",
-    "_posts/engineering/版本控制与协作/Git/命令/commit.md",
     "_posts/engineering/版本控制与协作/Git/命令/rebase.md",
     "_posts/engineering/版本控制与协作/Git/命令/media/bddbd4d401beac1b017e6b1653f68e88_MD5.webp",
     "_posts/engineering/版本控制与协作/Git/命令/media",
-    "_posts/engineering/版本控制与协作/Git/命令/分支/Git 分支操作.md",
     "_posts/engineering/版本控制与协作/Git/原理/HEAD.md",
     "_posts/engineering/版本控制与协作/Git/命令/clean、checkout、restore.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-14.md",
     "_posts/engineering/版本控制与协作/Git/命令/分支",
     "_posts/engineering/版本控制与协作/Git/原理/分离头指针（detached HEAD）.md",
     "_posts/engineering/版本控制与协作/Git/命令/tag.md",
-    "_posts/engineering/版本控制与协作/Git/原理/总结.git目录.md",
     "_posts/engineering/版本控制与协作/Git/Git 常考的问题.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.第二章：独自使用Git时的常见场景 (16讲)",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客",
     "_posts/engineering/版本控制与协作/Git/教程",
-    "_posts/engineering/版本控制与协作/Git/原理/media/c6e9b13ab511a15a64c47d134bec0c2f_MD5.webp",
     "_posts/methods/常看的.md",
-    "_posts/engineering/版本控制与协作/Git/命令/config.md",
     "_posts/engineering/版本控制与协作/Git/原理/media",
     "_posts/engineering/版本控制与协作/Git/原理",
     "_posts/browser/存储/未命名",

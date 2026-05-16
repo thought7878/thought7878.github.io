@@ -19,25 +19,25 @@
 git restore [<options>] [--] <pathspec>...
 ```
 
-| 参数 | 作用 | 默认行为 / 注意 |
-|------|------|----------------|
-| `--worktree` / `-W` | 恢复工作区文件（丢弃磁盘修改） | 未指定 `--staged` 时默认生效 |
-| `--staged` / `-S` | 恢复暂存区（取消暂存 / unstage） | 仅动 `.git/index`，工作区代码完整保留 |
-| `--source=<tree>` / `-s` | 指定恢复来源 | 默认 `HEAD`。可填 commit hash、分支名、tag |
-| `--overlay`（默认） | 叠加模式：仅覆盖源树存在的文件 | 安全，推荐日常使用 |
-| `--no-overlay` | 严格模式：删除源树不存在的文件 | ⚠️ 危险，可能静默误删未提交文件 |
-| `--` | 分隔参数与路径 | 文件名含 `-` 或与分支同名时必加，防歧义 |
+| 参数                       | 作用                    | 默认行为 / 注意                        |
+| ------------------------ | --------------------- | -------------------------------- |
+| `--worktree` / `-W`      | 恢复工作区文件（丢弃磁盘修改）       | 未指定 `--staged` 时默认生效             |
+| `--staged` / `-S`        | 恢复暂存区（取消暂存 / unstage） | 仅动 `.git/index`，工作区代码完整保留        |
+| `--source=<tree>` / `-s` | 指定恢复来源                | 默认 `HEAD`。可填 commit hash、分支名、tag |
+| `--overlay`（默认）          | 叠加模式：仅覆盖源树存在的文件       | 安全，推荐日常使用                        |
+| `--no-overlay`           | 严格模式：删除源树不存在的文件       | ⚠️ 危险，可能静默误删未提交文件                |
+| `--`                     | 分隔参数与路径               | 文件名含 `-` 或与分支同名时必加，防歧义           |
 
 ---
 ## 三、高频**场景**与命令对照（🔥 实战核心）
-| 场景              | 传统命令（易混淆）                         | `git restore` 现代命令                       | 行为说明                             |
-| --------------- | --------------------------------- | ---------------------------------------- | -------------------------------- |
-| *丢弃工作区修改*       | `git checkout -- <file>`          | `git restore <file>`                     | 恢复到最后一次 `commit` 或 `add` 的状态     |
-| *取消暂存（unstage）* | `git reset HEAD <file>`           | `git restore --staged <file>`            | 仅清空暂存区，工作区代码**完整保留**             |
-| *同时丢弃暂存+工作区*    | `git checkout HEAD -- <file>`     | `git restore --staged --worktree <file>` | 彻底回退到 `HEAD` 快照                  |
-| 从指定分支提取文件       | `git checkout <branch> -- <file>` | `git restore --source=<branch> <file>`   | 精准拉取其他分支的单个文件，不切分支               |
-| 恢复误删的已跟踪文件      | `git checkout HEAD -- <file>`     | `git restore <file>`                     | 文件未 commit 前删除，可一键找回             |
-| 清理未跟踪文件         | `git clean -fd`                   | ❌ `restore` 不处理 untracked                | 需用 `git clean`，`restore` 仅管已跟踪文件 |
+| 场景              | `git restore` 现代命令                       | 传统命令（易混淆）                         | 行为说明                             |
+| --------------- | ---------------------------------------- | --------------------------------- | -------------------------------- |
+| *丢弃工作区修改*       | `git restore <file>`                     | `git checkout -- <file>`          | 恢复到最后一次 `commit` 或 `add` 的状态     |
+| *取消暂存（unstage）* | `git restore --staged <file>`            | `git reset HEAD <file>`           | 仅清空暂存区，工作区代码**完整保留**             |
+| *同时丢弃暂存+工作区*    | `git restore --staged --worktree <file>` | `git checkout HEAD -- <file>`     | 彻底回退到 `HEAD` 快照                  |
+| *从指定分支提取文件*     | `git restore --source=<branch> <file>`   | `git checkout <branch> -- <file>` | 精准拉取其他分支的单个文件，不切分支               |
+| 恢复误删的已跟踪文件      | `git restore <file>`                     | `git checkout HEAD -- <file>`     | 文件未 commit 前删除，可一键找回             |
+| 清理未跟踪文件         | ❌ `restore` 不处理 untracked                | `git clean -fd`                   | 需用 `git clean`，`restore` 仅管已跟踪文件 |
 
 ---
 ## 四、与 **checkout / reset / revert** 的决策边界

@@ -11,16 +11,16 @@
 
 ---
 ## 二、核心功能与参数速查
-| 功能类别       | 命令示例                                  | 作用                       | 现代替代                                     |
-| ---------- | ------------------------------------- | ------------------------ | ---------------------------------------- |
-| 切换分支       | `git checkout main`                   | 切换到已有分支                  | `git switch main`                        |
-| 创建并切换      | `git checkout -b feat/x`              | 新建分支并切换                  | `git switch -c feat/x`                   |
-| 强制覆盖创建     | `git checkout -B feat/x`              | 存在则重置指针，不存在则创建           | `git switch -C feat/x`                   |
-| 恢复工作区文件    | `git checkout -- <file>`              | 丢弃未暂存修改（恢复至暂存区状态）        | `git restore <file>`                     |
-| 恢复至 HEAD   | `git checkout HEAD -- <file>`         | 丢弃暂存+工作区修改（恢复至最近 commit） | `git restore --staged --worktree <file>` |
-| 进入游离状态     | `git checkout v1.0.0` / `<hash>`      | HEAD 直接指向 commit/tag     | `git switch --detach v1.0.0`             |
-| 冲突选边（🔥专属） | `git checkout --ours/--theirs <file>` | 合并/rebase 冲突时快速采用某一方版本   | **无替代，仍用 checkout**                      |
-| 路径分隔符      | `git checkout -- <file>`              | 强制将后续参数解析为文件路径           | 所有文件操作推荐加 `--`                           |
+| 功能类别          | 命令示例                                  | 作用                       | 现代替代                                     |
+| ------------- | ------------------------------------- | ------------------------ | ---------------------------------------- |
+| *查看历史，进入游离状态* | `git checkout v1.0.0` / `<hash>`      | HEAD 直接指向 commit/tag     | `git switch --detach v1.0.0`             |
+| *冲突选边*（🔥专属）  | `git checkout --ours/--theirs <file>` | 合并/rebase 冲突时快速采用某一方版本   | **无替代，仍用 checkout**                      |
+| *路径分隔符*       | `git checkout -- <file>`              | *强制将后续参数解析为文件路径*         | 所有文件操作推荐加 `--`                           |
+| ~~切换分支~~      | `git checkout main`                   | 切换到已有分支                  | `git switch main`                        |
+| ~~创建并切换~~     | `git checkout -b feat/x`              | 新建分支并切换                  | `git switch -c feat/x`                   |
+| ~~强制覆盖创建~~    | `git checkout -B feat/x`              | 存在则重置指针，不存在则创建           | `git switch -C feat/x`                   |
+| ~~恢复工作区文件~~   | `git checkout -- <file>`              | 丢弃未暂存修改（恢复至暂存区状态）        | `git restore <file>`                     |
+| ~~恢复至 HEAD~~  | `git checkout HEAD -- <file>`         | 丢弃暂存+工作区修改（恢复至最近 commit） | `git restore --staged --worktree <file>` |
 
 ---
 ## 三、现代职责拆分对比（🔥 核心认知）
@@ -45,12 +45,12 @@
 
 ---
 ## 五、底层机制与冲突处理专属能力
-| 机制 | 说明 |
-|------|------|
-| **文件恢复原理** | 读取目标 Tree（默认暂存区或 HEAD）→ 提取对应 Blob → 覆盖工作区文件 → 更新 `.git/index`（若指定 HEAD） |
-| **同名歧义处理** | `git checkout xxx` 优先匹配分支名；若需恢复文件，必须加 `--`：`git checkout -- xxx` |
+| 机制         | 说明                                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| **文件恢复原理** | 读取目标 Tree（默认暂存区或 HEAD）→ 提取对应 Blob → 覆盖工作区文件 → 更新 `.git/index`（若指定 HEAD）                                      |
+| **同名歧义处理** | `git checkout xxx` 优先匹配分支名；若需恢复文件，必须加 `--`：`git checkout -- xxx`                                             |
 | **冲突选边机制** | 合并/rebase 产生冲突时，索引中会暂存多版本（stage 1/2/3）。`--ours` 提取 stage 2（当前分支），`--theirs` 提取 stage 3（被合并分支），直接覆盖工作区并标记已解决。 |
-| **静默覆盖风险** | 不加确认直接覆盖磁盘文件。若工作区有未提交重要修改，会永久丢失（除非 reflog 或备份）。 |
+| **静默覆盖风险** | 不加确认直接覆盖磁盘文件。若工作区有未提交重要修改，会永久丢失（除非 reflog 或备份）。                                                              |
 
 ---
 ## 六、前端工程化与实战场景
