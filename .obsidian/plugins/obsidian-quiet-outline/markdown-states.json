@@ -3062,14 +3062,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 61.291666666666664,
+    "scroll": 73.875,
     "cursor": {
       "from": {
-        "line": 64,
+        "line": 84,
         "ch": 0
       },
       "to": {
-        "line": 64,
+        "line": 84,
         "ch": 0
       }
     },
@@ -30993,7 +30993,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 60.520620155038756,
+    "scroll": 55.51931254429483,
     "cursor": {
       "from": {
         "line": 72,
@@ -31005,7 +31005,9 @@
       }
     },
     "expandedKeys": [
-      "item-1-12"
+      "item-1-12",
+      "item-1-19",
+      "item-2-14"
     ]
   },
   "_posts/security/同源策略.md": {
