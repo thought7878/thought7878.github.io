@@ -1,6 +1,10 @@
 参考：[[Git 常考的问题]]
 
+【我想让你对git醍醐灌顶-彻底弄懂git的使用逻辑、核心概念、3个区域和4种状态、基础命令、安装和配置git的最佳实践】 https://www.bilibili.com/video/BV1XsYhzGEcR/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【我的高效Git配置秘籍 😎】 https://www.bilibili.com/video/BV1KSjRzxE3b/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+【Udemy - Git for Beginners: Learn Version Control】 https://www.bilibili.com/video/BV1gL1xBME6x/?p=71&share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+【Git从入门到精通（中文字幕）】 https://www.bilibili.com/video/BV1xg4y1m7ZS/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 # 一、Git 概述
 
@@ -531,6 +535,8 @@ git mv
 ### 怎样选择适合自己团队的工作流？
 ### 如何挑选合适的分支集成策略？
 ### 项目内部怎么实施code review？
+【React - React代码评审，提升你的开发技能！】 https://www.bilibili.com/video/BV1oNZtYxEgt/?share_source=copy_web
+【【教程】Git & GitHub基础入门教学！全网最简单轻松的教学视频！】 https://www.bilibili.com/video/BV1YW4y177ic/?p=26&share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 

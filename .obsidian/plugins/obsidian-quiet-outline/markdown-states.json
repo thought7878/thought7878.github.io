@@ -479,14 +479,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 132.990234375,
+    "scroll": 99.24980149277434,
     "cursor": {
       "from": {
-        "line": 180,
+        "line": 109,
         "ch": 0
       },
       "to": {
-        "line": 180,
+        "line": 109,
         "ch": 0
       }
     },
@@ -6015,20 +6015,21 @@
     ]
   },
   "_posts/engineering/版本控制与协作/Git/Git.md": {
-    "scroll": 515.3987630208334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 534,
-        "ch": 0
+        "line": 6,
+        "ch": 127
       },
       "to": {
-        "line": 534,
-        "ch": 0
+        "line": 6,
+        "ch": 127
       }
     },
     "expandedKeys": [
       "item-2-76",
-      "item-1-66"
+      "item-1-66",
+      "item-2-68"
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/React18底层源码深入剖析/第5章 React18全新底层核心运行机制：任务调度机制的代码实践/Untitled.md": {
@@ -9963,15 +9964,15 @@
     ]
   },
   "_posts/browser/浏览器的工作流程.md": {
-    "scroll": 104.9609375,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 0,
+        "ch": 36
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 0,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -27058,18 +27059,21 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 121.80465116279069,
+    "scroll": 98.584496124031,
     "cursor": {
       "from": {
-        "line": 145,
-        "ch": 17
+        "line": 118,
+        "ch": 15
       },
       "to": {
-        "line": 145,
-        "ch": 17
+        "line": 118,
+        "ch": 15
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-9"
+    ]
   },
   "_posts/网络/互联网是如何运作的？.md": {
     "scroll": 81.85842267587017,
@@ -30989,19 +30993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 261.9182942708333,
+    "scroll": 60.520620155038756,
     "cursor": {
       "from": {
-        "line": 274,
+        "line": 72,
         "ch": 0
       },
       "to": {
-        "line": 274,
+        "line": 72,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-36"
+      "item-1-12"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32254,15 +32258,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 0
+        "line": 47,
+        "ch": 14
       },
       "to": {
-        "line": 2,
-        "ch": 0
+        "line": 47,
+        "ch": 14
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5"
+    ]
   },
   "_posts/AI/短视频/未命名.md": {
     "scroll": 0,
