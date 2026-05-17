@@ -568,12 +568,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 5,
+        "ch": 144
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 5,
+        "ch": 144
       }
     },
     "expandedKeys": []
@@ -3062,15 +3062,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 73.875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 84,
-        "ch": 0
+        "line": 3,
+        "ch": 8
       },
       "to": {
-        "line": 84,
-        "ch": 0
+        "line": 3,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -6735,12 +6735,12 @@
     "scroll": 3.5608874837689832,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 70
+        "line": 11,
+        "ch": 94
       },
       "to": {
-        "line": 13,
-        "ch": 70
+        "line": 11,
+        "ch": 94
       }
     },
     "expandedKeys": []
@@ -30993,21 +30993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 55.51931254429483,
+    "scroll": 62.949457364341086,
     "cursor": {
       "from": {
-        "line": 72,
+        "line": 78,
         "ch": 0
       },
       "to": {
-        "line": 72,
+        "line": 78,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-12",
-      "item-1-19",
-      "item-2-14"
+      "item-1-12"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32291,12 +32289,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 0,
+        "ch": 171
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 0,
+        "ch": 171
       }
     },
     "expandedKeys": []
@@ -32926,6 +32924,39 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/05.渲染流程（上）：HTML、CSS和JavaScript，是如何变成页面的？.md": {
+    "scroll": 229.9501953125,
+    "cursor": {
+      "from": {
+        "line": 243,
+        "ch": 0
+      },
+      "to": {
+        "line": 243,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5"
+    ]
+  },
+  "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md": {
+    "scroll": 192.51817602040816,
+    "cursor": {
+      "from": {
+        "line": 208,
+        "ch": 60
+      },
+      "to": {
+        "line": 208,
+        "ch": 60
+      }
+    },
+    "expandedKeys": [
+      "item-2-5"
     ]
   }
 }
