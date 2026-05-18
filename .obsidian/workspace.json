@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/browser/渲染/浏览器的渲染流水线.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "浏览器的渲染流水线"
+              "title": "浏览器"
             }
           },
           {
@@ -993,9 +993,10 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/浏览器的工作流程.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/男女.md",
@@ -1029,7 +1030,6 @@
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/4.Git多人单分支集成协作时的常见场景 (5讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md",
     "_posts/engineering/版本控制与协作/Git/命令/diff.md",
-    "_posts/engineering/版本控制与协作/Git/开源软件的license.md",
     "_posts/engineering/版本控制与协作/Git/media",
     "_posts/engineering/版本控制与协作/Git/命令/media",
     "_posts/engineering/版本控制与协作/Git/命令/分支",

@@ -30997,19 +30997,23 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 57.95720930232558,
+    "scroll": 178.4052734375,
     "cursor": {
       "from": {
-        "line": 73,
+        "line": 136,
         "ch": 0
       },
       "to": {
-        "line": 73,
+        "line": 136,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-12"
+      "item-1-12",
+      "item-2-14",
+      "item-1-19",
+      "item-1-17",
+      "item-1-33"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32983,12 +32987,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 14,
+        "ch": 42
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 14,
+        "ch": 42
       }
     },
     "expandedKeys": []
@@ -33008,5 +33012,33 @@
     "expandedKeys": [
       "item-3-1"
     ]
+  },
+  "_posts/browser/渲染/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md": {
+    "scroll": 16.02763997165131,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 59
+      },
+      "to": {
+        "line": 30,
+        "ch": 59
+      }
+    },
+    "expandedKeys": []
   }
 }
