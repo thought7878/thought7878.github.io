@@ -568,12 +568,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 144
+        "line": 3,
+        "ch": 142
       },
       "to": {
-        "line": 5,
-        "ch": 144
+        "line": 3,
+        "ch": 142
       }
     },
     "expandedKeys": []
@@ -30993,19 +30993,21 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 62.949457364341086,
+    "scroll": 11.791666666666666,
     "cursor": {
       "from": {
-        "line": 78,
-        "ch": 0
+        "line": 11,
+        "ch": 15
       },
       "to": {
-        "line": 78,
-        "ch": 0
+        "line": 11,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-1-12"
+      "item-1-12",
+      "item-2-2",
+      "item-1-1"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32911,14 +32913,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-17.md": {
-    "scroll": 26.701171875,
+    "scroll": 26.909505208333332,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -32957,6 +32959,22 @@
     },
     "expandedKeys": [
       "item-2-5"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 27
+      },
+      "to": {
+        "line": 37,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
