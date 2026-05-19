@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-18"
+              "title": "2026-05-19"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+                "file": "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "浏览器"
+              "title": "30分钟弄懂浏览器历史与渲染基本流程"
             }
           },
           {
@@ -993,17 +993,19 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/browser/渲染/浏览器的渲染流水线.md",
+    "_posts/engineering/版本控制与协作/Git/Git.md",
+    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md",
     "_posts/browser/渲染/浏览器的渲染流水线-DS.md",
     "_posts/browser/浏览器的工作流程.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/methods/常看的.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-17.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/06.渲染流程（下）：HTML、CSS和JavaScript，是如何变成页面的？.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media/6f12110418723023dd5d0352ba3397b9_MD5.png",
@@ -1022,14 +1024,12 @@
     "_posts/AI/短视频/视频制作方法.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/7.使用GitHub进行团队协作 (10讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/8.GitLab实践 (6讲).md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
     "_posts/网络/HTTP/HTTPS.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/6.初识GitHub (6讲).md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-16.md",
     "_posts/读书笔记/人性.md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/4.Git多人单分支集成协作时的常见场景 (5讲).md",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/5.Git集成使用禁忌 (2讲).md",
-    "_posts/engineering/版本控制与协作/Git/命令/diff.md",
     "_posts/engineering/版本控制与协作/Git/media",
     "_posts/engineering/版本控制与协作/Git/命令/media",
     "_posts/engineering/版本控制与协作/Git/命令/分支",

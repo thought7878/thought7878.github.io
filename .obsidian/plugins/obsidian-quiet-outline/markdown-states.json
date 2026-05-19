@@ -481,15 +481,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 144.15511067708334,
+    "scroll": 100.19183738288073,
     "cursor": {
       "from": {
-        "line": 152,
-        "ch": 0
+        "line": 111,
+        "ch": 16
       },
       "to": {
-        "line": 152,
-        "ch": 0
+        "line": 111,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -27063,15 +27063,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md": {
-    "scroll": 98.584496124031,
+    "scroll": 85.767578125,
     "cursor": {
       "from": {
-        "line": 118,
-        "ch": 15
+        "line": 104,
+        "ch": 0
       },
       "to": {
-        "line": 118,
-        "ch": 15
+        "line": 104,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -30997,23 +30997,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 178.4052734375,
+    "scroll": 63.520182291666664,
     "cursor": {
       "from": {
-        "line": 136,
+        "line": 73,
         "ch": 0
       },
       "to": {
-        "line": 136,
+        "line": 73,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-12",
-      "item-2-14",
-      "item-1-19",
-      "item-1-17",
-      "item-1-33"
+      "item-1-12"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -32968,15 +32964,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md": {
-    "scroll": 26.701171875,
+    "scroll": 27.354959239130434,
     "cursor": {
       "from": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 37,
-        "ch": 27
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -33028,17 +33024,33 @@
     "expandedKeys": []
   },
   "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md": {
-    "scroll": 16.02763997165131,
+    "scroll": 16.401842664776755,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 59
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 59
+        "line": 27,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }

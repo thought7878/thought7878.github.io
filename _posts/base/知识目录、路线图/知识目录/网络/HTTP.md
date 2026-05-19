@@ -101,7 +101,7 @@ Cache-Control: max-age=3600
 ---
 
 ## 三、HTTP 版本
-参考：[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]、[[HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比]]
+参考：[从点击网页到显示需要多少步-DNS、HTTP、CA、TLS、HTTPS](https://www.bilibili.com/video/BV1Tx421m7Hv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)、[[HTTP 1.0]]、[[HTTP 1.1]]、[[HTTP 2]]、[[HTTP 3]]、[[HTTP 1.0、HTTP 1.1、HTTP 2、HTTP 3的对比]]
 
 [Top 8 Most Popular Network Protocols Explained](https://www.youtube.com/watch?v=P6SZLcGE4us "Top 8 Most Popular Network Protocols Explained")
 [HTTP Status Codes Explained In 5 Minutes](https://www.youtube.com/watch?v=qmpUfWN7hh4 "HTTP Status Codes Explained In 5 Minutes")
