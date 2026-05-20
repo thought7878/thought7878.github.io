@@ -33024,34 +33024,65 @@
     "expandedKeys": []
   },
   "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md": {
-    "scroll": 107.04977448453609,
+    "scroll": 124.0971930533118,
     "cursor": {
       "from": {
-        "line": 119,
+        "line": 134,
+        "ch": 12
+      },
+      "to": {
+        "line": 134,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-19",
+      "item-1-5",
+      "item-2-7",
+      "item-3-15",
+      "item-3-20"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md": {
+    "scroll": 26.534505208333332,
+    "cursor": {
+      "from": {
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 119,
+        "line": 31,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-5",
-      "item-2-7",
-      "item-3-15",
-      "item-2-19"
+      "item-1-1"
     ]
   },
-  "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md": {
-    "scroll": 0,
+  "_posts/browser/渲染/_浏览器的渲染流程.md": {
+    "scroll": 18.047283594834028,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 5,
+        "ch": 86
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 5,
+        "ch": 86
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-20.md": {
+    "scroll": 31.447265625,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 31
+      },
+      "to": {
+        "line": 40,
+        "ch": 31
       }
     },
     "expandedKeys": [
