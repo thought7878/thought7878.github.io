@@ -6734,11 +6734,11 @@
     "scroll": 6.592990278599269,
     "cursor": {
       "from": {
-        "line": 15,
+        "line": 16,
         "ch": 90
       },
       "to": {
-        "line": 15,
+        "line": 16,
         "ch": 90
       }
     },
@@ -33425,39 +33425,33 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/异步编程/promise/Promise.md": {
-    "scroll": 112.56868489583333,
+    "scroll": 83.31575520833333,
     "cursor": {
       "from": {
-        "line": 135,
-        "ch": 32
+        "line": 100,
+        "ch": 33
       },
       "to": {
-        "line": 135,
-        "ch": 32
+        "line": 100,
+        "ch": 33
       }
     },
     "expandedKeys": [
-      "item-3-14",
-      "item-3-7",
-      "item-3-3"
+      "item-3-7"
     ]
   },
   "_posts/base/js/知识点总结/异步编程/async & await.md": {
-    "scroll": 216.14322916666666,
+    "scroll": 225.13623046875,
     "cursor": {
       "from": {
-        "line": 230,
-        "ch": 0
+        "line": 243,
+        "ch": 67
       },
       "to": {
-        "line": 230,
-        "ch": 0
+        "line": 243,
+        "ch": 67
       }
     },
-    "expandedKeys": [
-      "item-3-9",
-      "item-3-4",
-      "item-3-1"
-    ]
+    "expandedKeys": []
   }
 }

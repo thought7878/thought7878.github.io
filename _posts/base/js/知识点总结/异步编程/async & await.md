@@ -223,7 +223,7 @@ async function getUser() {
 
 ### 七、 补充：Top-level await (ES2022)
 
-在 ES2022 中，引入了**顶层 await**（Top-level await）。允许在 ES 模块（\<script type="module"\> 或 Node.js 的 ESM）的顶层作用域直接使用 await，而无需包裹在 async 函数中。
+在 ES2022 中，引入了**顶层 await**（Top-level await）。*允许在 ES 模块（\<script type="module"\> 或 Node.js 的 ESM）的顶层作用域直接使用 await，而无需包裹在 async 函数中*。
 
 **应用场景**：
 1. 模块初始化时动态加载资源。
@@ -241,9 +241,9 @@ export { data };
 
 ### 八、 总结
 
-* async/await 并没有改变 JavaScript 单线程和非阻塞的本质，它只是让**代码的书写方式**变成了同步风格。
-* **async** 负责将函数返回值包装为 Promise。
-* **await** 负责暂停 async 函数的执行，等待 Promise 决议，并解包出结果。
+* *async/await 并没有改变 JavaScript 单线程和非阻塞的本质，它只是让**代码的书写方式**变成了同步风格*。
+* **async** 负责*将函数返回值包装为 Promise*。
+* **await** 负责*暂停 async 函数的执行，等待 Promise 决议，并解包出结果*。
 * 掌握 async/await 的关键在于理解其背后的 **Promise 机制**和**微任务执行顺序**，并在实战中注意**串行/并发**的性能差异以及**循环中的正确用法**。
 
 ---

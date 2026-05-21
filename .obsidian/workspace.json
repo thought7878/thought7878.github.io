@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/异步编程/async & await.md",
+                "file": "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "async & await"
+              "title": "Promise"
             }
           },
           {
@@ -1015,10 +1015,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "65d6c1092e45792e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+    "_posts/base/js/知识点总结/异步编程/async & await.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/methods/常看的.md",
@@ -1041,8 +1043,6 @@
     "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
     "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
     "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
-    "_posts/browser/安全/常见攻击与防护/前端常见攻击与防护.md",
-    "_posts/browser/事件机制/addEventListener.md",
     "_posts/browser/渲染/media/e84cf23569a8cae01a90401b2cae6926_MD5.webp",
     "_posts/browser/渲染/media/09d8e709afa8b3f2cf2f6be5131f42a5_MD5.webp",
     "_posts/browser/渲染/media/573b7a0be33449d205da193edf3b1511_MD5.webp",
