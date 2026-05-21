@@ -33425,21 +33425,39 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/异步编程/promise/Promise.md": {
-    "scroll": 130.07421875,
+    "scroll": 112.56868489583333,
     "cursor": {
       "from": {
-        "line": 149,
-        "ch": 36
+        "line": 135,
+        "ch": 32
       },
       "to": {
-        "line": 149,
-        "ch": 36
+        "line": 135,
+        "ch": 32
       }
     },
     "expandedKeys": [
       "item-3-14",
       "item-3-7",
       "item-3-3"
+    ]
+  },
+  "_posts/base/js/知识点总结/异步编程/async & await.md": {
+    "scroll": 216.14322916666666,
+    "cursor": {
+      "from": {
+        "line": 230,
+        "ch": 0
+      },
+      "to": {
+        "line": 230,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-3-4",
+      "item-3-1"
     ]
   }
 }

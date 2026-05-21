@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+                "file": "_posts/base/js/知识点总结/异步编程/async & await.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "async & await"
             }
           },
           {
@@ -1015,10 +1015,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65d6c1092e45792e",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/methods/常看的.md",
