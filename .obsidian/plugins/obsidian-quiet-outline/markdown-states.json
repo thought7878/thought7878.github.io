@@ -4416,7 +4416,7 @@
     "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md": {
-    "scroll": 9.80297661233168,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 19,
@@ -4427,10 +4427,7 @@
         "ch": 17
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-5"
-    ]
+    "expandedKeys": []
   },
   "_posts/English/单词/traverse.md": {
     "scroll": 144.2988322717622,
@@ -30909,19 +30906,22 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 340.7072373540856,
+    "scroll": 340.1330739299611,
     "cursor": {
       "from": {
-        "line": 350,
-        "ch": 9
+        "line": 358,
+        "ch": 0
       },
       "to": {
-        "line": 350,
-        "ch": 9
+        "line": 358,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-0",
+      "item-3-5",
+      "item-3-10",
+      "item-2-0",
+      "item-3-16",
       "item-1-84"
     ]
   },
@@ -30959,12 +30959,12 @@
     "scroll": 24.34603118355776,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 19
+        "line": 33,
+        "ch": 17
       },
       "to": {
-        "line": 41,
-        "ch": 19
+        "line": 33,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -33081,15 +33081,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-20.md": {
-    "scroll": 31.447265625,
+    "scroll": 20.05503192459714,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -33230,8 +33230,72 @@
       }
     },
     "expandedKeys": [
-      "item-1-5",
       "item-3-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/base/js/知识点总结/异步编程/promise/overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/执行顺序、执行机制、执行原理.md": {
+    "scroll": 218.1107903284013,
+    "cursor": {
+      "from": {
+        "line": 237,
+        "ch": 74
+      },
+      "to": {
+        "line": 237,
+        "ch": 74
+      }
+    },
+    "expandedKeys": [
+      "item-3-5",
+      "item-3-10",
+      "item-2-0",
+      "item-3-16",
+      "item-3-27",
+      "item-2-14"
     ]
   }
 }

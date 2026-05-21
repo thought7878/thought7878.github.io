@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-20.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-20"
+              "title": "2026-05-21"
             }
           },
           {
@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS_roadmap-未整理"
+              "title": "设计模式"
             }
           },
           {
@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/执行顺序、执行机制、执行原理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "执行顺序、执行机制、执行原理"
             }
           },
           {
@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+                "file": "_posts/browser/事件机制/HTML文档的生命周期事件、状态变化事件、资源加载相关事件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "HTML文档的生命周期事件、状态变化事件、资源加载相关事件"
             }
           },
           {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -991,11 +991,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a4fdbd1e4139638f",
+  "active": "65d6c1092e45792e",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/执行顺序、执行机制、执行原理.md",
+    "_posts/base/js/知识点总结/异步编程/promise/overview.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
+    "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW2.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/base/知识目录、路线图/知识目录/_完整的前端知识总结-QW1.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_roadmap-未整理.md",
     "_posts/browser/事件机制/HTML文档的生命周期事件、状态变化事件、资源加载相关事件.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-20.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/base/js/知识点总结/Web APIs/Web APIs.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
@@ -1017,18 +1027,8 @@
     "_posts/browser/渲染/media/3a18836c494b31fe3bbedf3f5907caee_MD5.webp",
     "_posts/browser/渲染/media/7812663867402ce9ae4d65b23744edaa_MD5.webp",
     "_posts/browser/渲染/media/fa296b289b6009f576bfe37d760215ae_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-20.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md",
     "_posts/methods/常看的.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "_posts/读书笔记/人生.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/读书笔记/人际关系.md",
-    "_posts/browser/渲染/浏览器的渲染流水线.md",
-    "_posts/base/知识目录、路线图/知识目录/网络/HTTP.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-18.md",
-    "_posts/methods/要整理的.md",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "_posts/engineering/版本控制与协作/Git/media",
     "_posts/engineering/版本控制与协作/Git/命令/media",
