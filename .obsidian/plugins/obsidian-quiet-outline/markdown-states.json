@@ -9947,36 +9947,35 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 12,
+        "ch": 123
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 12,
+        "ch": 123
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-4",
       "item-2-8",
-      "item-2-13"
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-15"
     ]
   },
   "_posts/browser/浏览器的工作流程.md": {
-    "scroll": 95.31473038830373,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 114,
-        "ch": 18
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 114,
-        "ch": 18
+        "line": 3,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-3-7"
-    ]
+    "expandedKeys": []
   },
   "_posts/browser/浏览器的主线程-QW.md": {
     "scroll": 0,
@@ -9995,23 +9994,18 @@
     ]
   },
   "_posts/browser/浏览器的主线程.md": {
-    "scroll": 70.6722480620155,
+    "scroll": 0.8775510204081632,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 19
+        "line": 16,
+        "ch": 14
       },
       "to": {
-        "line": 26,
-        "ch": 19
+        "line": 16,
+        "ch": 14
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-4",
-      "item-2-8",
-      "item-2-13"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/1.理念篇/1.3架构的演进史.md": {
     "scroll": 45.96120534103212,
@@ -26987,7 +26981,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/6.工具链.md": {
     "scroll": 30.9988580998782,
@@ -27094,12 +27090,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 14
+        "line": 20,
+        "ch": 98
       },
       "to": {
-        "line": 29,
-        "ch": 14
+        "line": 20,
+        "ch": 98
       }
     },
     "expandedKeys": []
@@ -30906,22 +30902,18 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 340.1330739299611,
+    "scroll": 338.0801171425583,
     "cursor": {
       "from": {
-        "line": 358,
-        "ch": 0
+        "line": 352,
+        "ch": 18
       },
       "to": {
-        "line": 358,
+        "line": 352,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-5",
-      "item-3-10",
-      "item-2-0",
-      "item-3-16",
       "item-1-84"
     ]
   },
@@ -30968,7 +30960,6 @@
       }
     },
     "expandedKeys": [
-      "item-3-0",
       "item-2-13",
       "item-1-3"
     ]
@@ -31004,21 +30995,20 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 32.75131782945736,
+    "scroll": 75.22200520833333,
     "cursor": {
       "from": {
-        "line": 56,
-        "ch": 27
+        "line": 97,
+        "ch": 0
       },
       "to": {
-        "line": 56,
-        "ch": 27
+        "line": 97,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-10",
-      "item-1-1",
-      "item-2-2"
+      "item-2-14",
+      "item-1-12"
     ]
   },
   "_posts/security/同源策略.md": {
@@ -31197,7 +31187,9 @@
         "ch": 111
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/browser/安全/常见攻击与防护/XSS.md": {
     "scroll": 0,
@@ -31281,7 +31273,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/读书笔记/兴趣/军事.md": {
     "scroll": 0,
@@ -33044,11 +33038,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-5",
-      "item-2-7",
-      "item-2-19"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-19.md": {
     "scroll": 26.534505208333332,
@@ -33278,15 +33268,15 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/JS 执行机制/执行顺序、执行机制、执行原理.md": {
-    "scroll": 218.1107903284013,
+    "scroll": 129.62109375,
     "cursor": {
       "from": {
-        "line": 237,
-        "ch": 74
+        "line": 141,
+        "ch": 7
       },
       "to": {
-        "line": 237,
-        "ch": 74
+        "line": 141,
+        "ch": 18
       }
     },
     "expandedKeys": [
@@ -33297,5 +33287,82 @@
       "item-3-27",
       "item-2-14"
     ]
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md": {
+    "scroll": 202.07384468794663,
+    "cursor": {
+      "from": {
+        "line": 226,
+        "ch": 12
+      },
+      "to": {
+        "line": 226,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-14"
+    ]
+  },
+  "_posts/base/知识目录、路线图/浏览器.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/browser/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/browser/浏览器在“1帧”内执行的任务.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 73
+      },
+      "to": {
+        "line": 39,
+        "ch": 73
+      }
+    },
+    "expandedKeys": [
+      "item-3-0",
+      "item-3-7"
+    ]
+  },
+  "_posts/browser/堆、Heap.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
