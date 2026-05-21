@@ -30902,14 +30902,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 338.0801171425583,
+    "scroll": 358.67629340892984,
     "cursor": {
       "from": {
-        "line": 352,
-        "ch": 18
+        "line": 370,
+        "ch": 0
       },
       "to": {
-        "line": 352,
+        "line": 370,
         "ch": 0
       }
     },
@@ -30998,11 +30998,11 @@
     "scroll": 75.22200520833333,
     "cursor": {
       "from": {
-        "line": 97,
+        "line": 94,
         "ch": 0
       },
       "to": {
-        "line": 97,
+        "line": 94,
         "ch": 0
       }
     },
@@ -33166,11 +33166,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 6,
         "ch": 99
       },
       "to": {
-        "line": 8,
+        "line": 6,
         "ch": 99
       }
     },
@@ -33220,6 +33220,7 @@
       }
     },
     "expandedKeys": [
+      "item-1-5",
       "item-3-0"
     ]
   },
@@ -33289,15 +33290,15 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md": {
-    "scroll": 202.07384468794663,
+    "scroll": 201.43343098958334,
     "cursor": {
       "from": {
-        "line": 226,
-        "ch": 12
+        "line": 217,
+        "ch": 0
       },
       "to": {
-        "line": 226,
-        "ch": 12
+        "line": 217,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -33364,5 +33365,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/异步原理（.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md": {
+    "scroll": 41.9457079970653,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 41
+      },
+      "to": {
+        "line": 57,
+        "ch": 41
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
   }
 }
