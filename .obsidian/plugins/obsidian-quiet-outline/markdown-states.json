@@ -567,15 +567,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0.06060606060606061,
+    "scroll": 124.60172392115226,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 35
+        "line": 129,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 35
+        "line": 129,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -30902,14 +30902,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 344.1221127717391,
+    "scroll": 352.1852213541667,
     "cursor": {
       "from": {
-        "line": 360,
+        "line": 362,
         "ch": 0
       },
       "to": {
-        "line": 360,
+        "line": 362,
         "ch": 0
       }
     },
@@ -33163,15 +33163,15 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md": {
-    "scroll": 0,
+    "scroll": 24.380208333333332,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 99
+        "line": 7,
+        "ch": 93
       },
       "to": {
-        "line": 6,
-        "ch": 99
+        "line": 7,
+        "ch": 93
       }
     },
     "expandedKeys": [
@@ -33401,13 +33401,45 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 3
+        "ch": 2
       },
       "to": {
         "line": 0,
-        "ch": 36
+        "ch": 105
       }
     },
     "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/异步编程/promise/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/异步编程/promise/Promise.md": {
+    "scroll": 130.07421875,
+    "cursor": {
+      "from": {
+        "line": 149,
+        "ch": 36
+      },
+      "to": {
+        "line": 149,
+        "ch": 36
+      }
+    },
+    "expandedKeys": [
+      "item-3-14",
+      "item-3-7",
+      "item-3-3"
+    ]
   }
 }
