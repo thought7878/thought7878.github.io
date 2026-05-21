@@ -231,7 +231,7 @@ With HTML DOM, JavaScript can access and change all the elements of an HTML docu
 
 # Asynchronous
 ## Promise
-参考 [[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
+参考 [[JavaScript 可视化 - Promise 执行（双语字幕）|JavaScript 可视化 - Promise 执行（双语字幕）]]
 
 ## async / await
 参考 [[async & await]]

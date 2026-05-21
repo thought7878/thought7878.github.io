@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "异步原理（Event Loop）"
+              "title": "JS"
             }
           },
           {
@@ -1017,9 +1017,10 @@
   },
   "active": "65d6c1092e45792e",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
-    "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
+    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
@@ -1042,7 +1043,6 @@
     "_posts/browser/事件机制/addEventListener.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/20.【第二阶段】前端框架及项目面试：webpack和babe/6.webpack如何抽离压缩css文件.md",
     "_posts/browser/渲染/优化/Critical CSS 内联 + media 异步加载.md",
-    "_posts/base/js/知识点总结/异步编程/promise/overview.md",
     "_posts/browser/渲染/media/e84cf23569a8cae01a90401b2cae6926_MD5.webp",
     "_posts/browser/渲染/media/09d8e709afa8b3f2cf2f6be5131f42a5_MD5.webp",
     "_posts/browser/渲染/media/573b7a0be33449d205da193edf3b1511_MD5.webp",

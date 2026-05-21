@@ -359,7 +359,7 @@ Asynchronous
 ## Promise
 ES6 引入的一种异步编程解决方案，用于处理异步操作的结果。`Promise` 有三种状态：`pending`（进行中）、`fulfilled`（已成功）、`rejected`（已失败）。可以使用 `then` 方法处理成功的结果，使用 `catch` 方法处理失败的结果。
 
-参考：[[_posts/base/js/知识点总结/异步编程/promise/overview|overview]]
+参考：[[JavaScript 可视化 - Promise 执行（双语字幕）|JavaScript 可视化 - Promise 执行（双语字幕）]]
 
 ## async / await
 ES8 引入的异步编程语法糖，基于 `Promise` 实现，使异步代码看起来更像同步代码。使用 `async` 关键字定义异步函数，使用 `await` 关键字等待 `Promise` 的结果。

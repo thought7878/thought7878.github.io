@@ -30902,14 +30902,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 358.67629340892984,
+    "scroll": 344.1221127717391,
     "cursor": {
       "from": {
-        "line": 370,
+        "line": 360,
         "ch": 0
       },
       "to": {
-        "line": 370,
+        "line": 360,
         "ch": 0
       }
     },
@@ -33245,11 +33245,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 3
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 36
       }
     },
     "expandedKeys": []
@@ -33384,16 +33384,30 @@
     "scroll": 41.9457079970653,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 41
+        "line": 50,
+        "ch": 0
       },
       "to": {
-        "line": 57,
-        "ch": 41
+        "line": 50,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-3-2"
     ]
+  },
+  "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 3
+      },
+      "to": {
+        "line": 0,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
   }
 }
