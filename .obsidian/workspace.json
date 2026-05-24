@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JS"
+              "title": "面试题目汇总"
             }
           },
           {
@@ -1017,17 +1017,22 @@
   },
   "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md",
-    "_posts/base/js/知识点总结/数据类型/深拷贝.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
-    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
+    "_posts/base/js/知识点总结/数据类型/深拷贝.md",
+    "_posts/base/js/知识点总结/数据类型/类型判断.md",
+    "_posts/base/js/知识点总结/数据类型/类型转换.md",
+    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
+    "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/base/js/知识点总结/深拷贝.md",
+    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",
-    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/95a5166b5ec58ab065c8d5f666b1f793_MD5.webp",
@@ -1036,7 +1041,6 @@
     "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-22.md",
     "DailyNote/Journal/01 Daily/2026/05/media",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/methods/常看的.md",
     "_posts/base/js/知识点总结/异步编程/async & await.md",
     "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
@@ -1044,10 +1048,6 @@
     "_posts/browser/事件机制/事件机制.md",
     "_posts/browser/浏览器在“1帧”内执行的任务.md",
     "_posts/browser/浏览器的主线程.md",
-    "_posts/browser/浏览器的工作流程.md",
-    "_posts/browser/堆、Heap.md",
-    "_posts/browser/浏览器如何工作.md",
-    "_posts/browser/渲染/30分钟弄懂浏览器历史与渲染基本流程.md",
     "_posts/browser/渲染/media/e84cf23569a8cae01a90401b2cae6926_MD5.webp",
     "_posts/browser/渲染/media/09d8e709afa8b3f2cf2f6be5131f42a5_MD5.webp",
     "_posts/browser/渲染/media/573b7a0be33449d205da193edf3b1511_MD5.webp",
