@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-21"
+              "title": "2026-05-24"
             }
           },
           {
@@ -637,7 +637,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -652,7 +652,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "面试题目汇总"
             }
           },
           {
@@ -1018,16 +1018,21 @@
   "active": "65d6c1092e45792e",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
+    "_posts/base/js/知识点总结/JS 执行机制/media/95a5166b5ec58ab065c8d5f666b1f793_MD5.webp",
     "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-22.md",
+    "DailyNote/Journal/01 Daily/2026/05/media",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/methods/常看的.md",
     "_posts/base/js/知识点总结/异步编程/async & await.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/methods/常看的.md",
     "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/browser/事件机制/HTML文档的生命周期事件、状态变化事件、资源加载相关事件.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/browser/浏览器在“1帧”内执行的任务.md",
@@ -1039,10 +1044,6 @@
     "_posts/base/js/知识点总结/JS 执行机制/JS运行原理1_JS是如何被运行的？.md",
     "_posts/base/知识目录、路线图/知识目录/设计模式/设计模式.md",
     "_posts/base/知识目录、路线图/知识目录/网络/网络、HTTP.md",
-    "_posts/base/知识目录、路线图/浏览器.md",
-    "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/4.HTTP 协议.md",
-    "_posts/browser/安全/常见攻击与防护/CSRF（跨站请求伪造）.md",
-    "_posts/browser/安全/常见攻击与防护/XSS（跨站脚本攻击）.md",
     "_posts/browser/渲染/media/e84cf23569a8cae01a90401b2cae6926_MD5.webp",
     "_posts/browser/渲染/media/09d8e709afa8b3f2cf2f6be5131f42a5_MD5.webp",
     "_posts/browser/渲染/media/573b7a0be33449d205da193edf3b1511_MD5.webp",
@@ -1052,7 +1053,6 @@
     "_posts/browser/渲染/media/407b61d9d65e48c6f6dfaf194a7f9347_MD5.webp",
     "_posts/browser/渲染/media/3a18836c494b31fe3bbedf3f5907caee_MD5.webp",
     "_posts/browser/渲染/media/7812663867402ce9ae4d65b23744edaa_MD5.webp",
-    "_posts/browser/渲染/media/fa296b289b6009f576bfe37d760215ae_MD5.webp",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "_posts/engineering/版本控制与协作/Git/media",
     "_posts/engineering/版本控制与协作/Git/命令/media",
@@ -1062,7 +1062,6 @@
     "_posts/engineering/版本控制与协作/Git/教程",
     "_posts/engineering/版本控制与协作/Git/原理/media",
     "_posts/engineering/版本控制与协作/Git/原理",
-    "_posts/browser/存储/未命名",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

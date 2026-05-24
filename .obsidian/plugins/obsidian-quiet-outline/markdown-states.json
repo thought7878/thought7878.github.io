@@ -567,15 +567,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 124.60172392115226,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 129,
-        "ch": 0
+        "line": 22,
+        "ch": 140
       },
       "to": {
-        "line": 129,
-        "ch": 0
+        "line": 22,
+        "ch": 140
       }
     },
     "expandedKeys": []
@@ -30902,19 +30902,35 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 352.1852213541667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 362,
+        "line": 371,
         "ch": 0
       },
       "to": {
-        "line": 362,
+        "line": 371,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-84"
+      "item-3-16",
+      "item-2-0",
+      "item-3-10",
+      "item-3-5",
+      "item-1-84",
+      "item-2-74",
+      "item-1-73",
+      "item-1-55",
+      "item-2-56",
+      "item-1-44",
+      "item-2-34",
+      "item-1-31",
+      "item-2-26",
+      "item-1-20",
+      "item-2-16",
+      "item-1-10",
+      "item-1-0"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
@@ -30948,20 +30964,24 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 24.34603118355776,
+    "scroll": 30.194010416666668,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 17
+        "line": 42,
+        "ch": 21
       },
       "to": {
-        "line": 33,
-        "ch": 17
+        "line": 42,
+        "ch": 21
       }
     },
     "expandedKeys": [
+      "item-2-0",
+      "item-1-20",
+      "item-1-0",
       "item-2-13",
-      "item-1-3"
+      "item-1-3",
+      "item-1-15"
     ]
   },
   "_posts/browser/事件机制/addEventListener.md": {
@@ -33225,15 +33245,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-21.md": {
-    "scroll": 26.701171875,
+    "scroll": 27.344089673913043,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -33290,19 +33310,23 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md": {
-    "scroll": 201.43343098958334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 217,
-        "ch": 0
+        "line": 65,
+        "ch": 22
       },
       "to": {
-        "line": 217,
-        "ch": 0
+        "line": 65,
+        "ch": 22
       }
     },
     "expandedKeys": [
-      "item-2-14"
+      "item-3-16",
+      "item-2-0",
+      "item-3-10",
+      "item-3-5",
+      "item-3-1"
     ]
   },
   "_posts/base/知识目录、路线图/浏览器.md": {
@@ -33425,15 +33449,15 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/异步编程/promise/Promise.md": {
-    "scroll": 83.31575520833333,
+    "scroll": 94.18619791666667,
     "cursor": {
       "from": {
-        "line": 100,
-        "ch": 33
+        "line": 101,
+        "ch": 22
       },
       "to": {
-        "line": 100,
-        "ch": 33
+        "line": 101,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -33453,5 +33477,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-22.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md": {
+    "scroll": 15.708333333333334,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 31
+      },
+      "to": {
+        "line": 40,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
