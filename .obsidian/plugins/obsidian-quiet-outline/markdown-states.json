@@ -28712,11 +28712,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -30902,22 +30902,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 353.6910807291667,
+    "scroll": 51.23022959183673,
     "cursor": {
       "from": {
-        "line": 362,
+        "line": 64,
         "ch": 0
       },
       "to": {
-        "line": 362,
+        "line": 64,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-1-20",
-      "item-1-0",
-      "item-1-84"
+      "item-1-10"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
@@ -30951,22 +30948,25 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 32.305634301913535,
+    "scroll": 16.983966149186987,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 10
+        "line": 41,
+        "ch": 2
       },
       "to": {
-        "line": 42,
-        "ch": 10
+        "line": 41,
+        "ch": 13
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-1-20",
+      "item-1-21",
       "item-1-0",
-      "item-1-15"
+      "item-1-15",
+      "item-2-11",
+      "item-1-3",
+      "item-2-9"
     ]
   },
   "_posts/browser/事件机制/addEventListener.md": {
@@ -33168,7 +33168,7 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md": {
-    "scroll": 0,
+    "scroll": 18.527612261195404,
     "cursor": {
       "from": {
         "line": 7,
@@ -33179,7 +33179,9 @@
         "ch": 93
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "_posts/base/js/知识点总结/Web APIs/Web APIs.md": {
     "scroll": 0,
@@ -33304,6 +33306,7 @@
       }
     },
     "expandedKeys": [
+      "item-3-1",
       "item-3-27",
       "item-2-14"
     ]
@@ -33403,19 +33406,15 @@
     "scroll": 0.512396694214876,
     "cursor": {
       "from": {
-        "line": 51,
-        "ch": 2
+        "line": 5,
+        "ch": 175
       },
       "to": {
-        "line": 51,
-        "ch": 2
+        "line": 5,
+        "ch": 175
       }
     },
-    "expandedKeys": [
-      "item-1-1",
-      "item-1-5",
-      "item-2-7"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/js/知识点总结/异步编程/promise/未命名.md": {
     "scroll": 0,
@@ -33506,19 +33505,35 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md": {
-    "scroll": 67.92513020833333,
+    "scroll": 329.22641734159123,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 6
+        "line": 343,
+        "ch": 0
       },
       "to": {
-        "line": 74,
-        "ch": 6
+        "line": 343,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md": {
+    "scroll": 51.0908203125,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 9
+      },
+      "to": {
+        "line": 62,
+        "ch": 9
       }
     },
     "expandedKeys": [
-      "item-3-1"
+      "item-1-10",
+      "item-3-0",
+      "item-3-3"
     ]
   }
 }

@@ -59,6 +59,10 @@
 ### 原型继承（Prototypal Inheritance）
 参考：[[Prototype & Inheritance]]
 
+## 原始类型与引用类型的**区别**
+参考：[[原始类型与引用类型的区别]]
+
+
 ## 类型判断
 参考：[[类型判断]]
 
