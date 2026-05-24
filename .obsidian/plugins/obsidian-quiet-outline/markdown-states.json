@@ -30902,7 +30902,7 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 49.140625,
+    "scroll": 73.88802083333333,
     "cursor": {
       "from": {
         "line": 78,
@@ -30914,7 +30914,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-10"
+      "item-1-10",
+      "item-2-18"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
@@ -30948,27 +30949,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 30.280474840538623,
+    "scroll": 36.531901041666664,
     "cursor": {
       "from": {
-        "line": 50,
+        "line": 55,
         "ch": 0
       },
       "to": {
-        "line": 50,
+        "line": 55,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-15",
-      "item-2-7",
-      "item-1-3",
-      "item-2-4",
-      "item-1-0",
-      "item-2-9",
-      "item-2-11",
-      "item-1-22",
-      "item-1-24"
+      "item-1-15"
     ]
   },
   "_posts/browser/事件机制/addEventListener.md": {
@@ -33539,15 +33532,15 @@
     ]
   },
   "_posts/base/js/知识点总结/数据类型/深拷贝.md": {
-    "scroll": 54.945963541666664,
+    "scroll": 6.808372428726091,
     "cursor": {
       "from": {
-        "line": 85,
-        "ch": 3
+        "line": 21,
+        "ch": 29
       },
       "to": {
-        "line": 85,
-        "ch": 3
+        "line": 21,
+        "ch": 29
       }
     },
     "expandedKeys": []
