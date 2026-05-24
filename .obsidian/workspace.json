@@ -1015,10 +1015,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65d6c1092e45792e",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
+    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/base/js/知识点总结/JS 执行机制/media/95a5166b5ec58ab065c8d5f666b1f793_MD5.webp",
     "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
@@ -1030,9 +1032,7 @@
     "_posts/base/js/知识点总结/异步编程/async & await.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/JS 执行机制/异步原理（Event Loop）.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/browser/事件机制/HTML文档的生命周期事件、状态变化事件、资源加载相关事件.md",
     "_posts/browser/事件机制/事件机制.md",
     "_posts/browser/浏览器在“1帧”内执行的任务.md",

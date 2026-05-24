@@ -30902,35 +30902,24 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 0,
+    "scroll": 338.43426419830564,
     "cursor": {
       "from": {
-        "line": 371,
-        "ch": 0
+        "line": 350,
+        "ch": 15
       },
       "to": {
-        "line": 371,
-        "ch": 0
+        "line": 350,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-3-16",
       "item-2-0",
-      "item-3-10",
-      "item-3-5",
-      "item-1-84",
-      "item-2-74",
-      "item-1-73",
-      "item-1-55",
-      "item-2-56",
-      "item-1-44",
-      "item-2-34",
-      "item-1-31",
-      "item-2-26",
       "item-1-20",
-      "item-2-16",
+      "item-1-0",
+      "item-1-5",
       "item-1-10",
-      "item-1-0"
+      "item-1-84"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS_AI总结.md": {
@@ -30964,23 +30953,24 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md": {
-    "scroll": 30.194010416666668,
+    "scroll": 28.21243798724309,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 21
+        "line": 43,
+        "ch": 11
       },
       "to": {
-        "line": 42,
-        "ch": 21
+        "line": 43,
+        "ch": 11
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-1-20",
       "item-1-0",
-      "item-2-13",
+      "item-2-9",
       "item-1-3",
+      "item-2-13",
       "item-1-15"
     ]
   },
@@ -33183,7 +33173,7 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md": {
-    "scroll": 24.380208333333332,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 7,
@@ -33196,7 +33186,7 @@
     },
     "expandedKeys": [
       "item-2-0",
-      "item-2-2"
+      "item-3-10"
     ]
   },
   "_posts/base/js/知识点总结/Web APIs/Web APIs.md": {
@@ -33310,23 +33300,26 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md": {
-    "scroll": 0,
+    "scroll": 206.06401320616288,
     "cursor": {
       "from": {
-        "line": 65,
-        "ch": 22
+        "line": 240,
+        "ch": 108
       },
       "to": {
-        "line": 65,
-        "ch": 22
+        "line": 240,
+        "ch": 108
       }
     },
     "expandedKeys": [
-      "item-3-16",
       "item-2-0",
-      "item-3-10",
+      "item-3-1",
+      "item-2-14",
       "item-3-5",
-      "item-3-1"
+      "item-3-10",
+      "item-3-16",
+      "item-3-22",
+      "item-3-27"
     ]
   },
   "_posts/base/知识目录、路线图/浏览器.md": {
