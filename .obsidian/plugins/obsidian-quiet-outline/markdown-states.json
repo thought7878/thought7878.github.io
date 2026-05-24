@@ -6731,15 +6731,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 6.592990278599269,
+    "scroll": 13.039159679351332,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 90
+        "line": 17,
+        "ch": 106
       },
       "to": {
-        "line": 16,
-        "ch": 90
+        "line": 17,
+        "ch": 106
       }
     },
     "expandedKeys": []
@@ -28712,12 +28712,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 13
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -30902,18 +30902,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 51.23022959183673,
+    "scroll": 48.73299319727891,
     "cursor": {
       "from": {
-        "line": 64,
+        "line": 63,
         "ch": 0
       },
       "to": {
-        "line": 64,
+        "line": 63,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-12",
       "item-1-10"
     ]
   },
@@ -31765,15 +31766,15 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/数据类型/基本数据类型、引用数据类型.md": {
-    "scroll": 0,
+    "scroll": 55.159830729166664,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 16
+        "line": 17,
+        "ch": 18
       },
       "to": {
-        "line": 83,
-        "ch": 16
+        "line": 17,
+        "ch": 18
       }
     },
     "expandedKeys": []
@@ -33519,21 +33520,35 @@
     "expandedKeys": []
   },
   "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md": {
-    "scroll": 51.0908203125,
+    "scroll": 74.63994864269992,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 9
+        "line": 88,
+        "ch": 43
       },
       "to": {
-        "line": 62,
-        "ch": 9
+        "line": 88,
+        "ch": 43
       }
     },
     "expandedKeys": [
-      "item-1-10",
-      "item-3-0",
       "item-3-3"
+    ]
+  },
+  "_posts/base/js/知识点总结/数据类型/深拷贝.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 15
+      },
+      "to": {
+        "line": 70,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-3-1"
     ]
   }
 }
