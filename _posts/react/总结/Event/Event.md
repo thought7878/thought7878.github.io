@@ -1,4 +1,4 @@
-在 React 中，**事件处理**是*用户与组件交互*的核心机制。React 的事件系统通过**合成事件（SyntheticEvent）** 对原生浏览器事件进行封装，提供了跨浏览器的一致性和优化。
+在 React 中，**事件处理**是*用户与组件交互*的核心机制。React 的事件系统通过`合成事件（SyntheticEvent）` **对原生浏览器事件进行封装，解决了浏览器兼容性问题，提供了跨浏览器的一致性和优化**。
 
 以下是 React 事件处理的详细指南：
 
@@ -46,7 +46,7 @@ function Form() {
 ### 2. 合成事件（SyntheticEvent）
 参考 [[合成事件（SyntheticEvent）]]
 
-React 的 `SyntheticEvent` 是*对原生事件的包装*，具有与原生事件*相同的接口*（如 `e.target`, `e.stopPropagation()`），_但解决了浏览器兼容性问题_。
+React 的 `SyntheticEvent` 是*对原生事件的包装*，具有与原生事件*相同的接口*（如 `e.target`, `e.stopPropagation()`），**但解决了浏览器兼容性问题**。
 
 #### 事件池（Event Pooling）
 
