@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
+                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-25"
+              "title": "2026-05-27"
             }
           },
           {
@@ -848,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -991,7 +991,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1015,15 +1015,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a4fdbd1e4139638f",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
-    "_posts/react/总结/Event/Event.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
     "_posts/methods/常看的.md",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/兴趣/宇宙、物理.md",
+    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/教育.md",
+    "_posts/AI/AI.md",
+    "_posts/methods/编程/AI与编程.md",
+    "_posts/methods/要整理的.md",
+    "未命名.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/react/总结/Event/Event.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/兴趣/计算机.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React-DB.md",
     "_posts/react/总结/Hooks/useState/useState-DS.md",
@@ -1032,17 +1039,10 @@
     "_posts/react/总结/Composition & Inheritance.md",
     "_posts/读书笔记/人性.md",
     "_posts/AI/短视频/视频制作方法.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/js/知识点总结/数据类型/深拷贝.md",
     "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
-    "_posts/base/js/知识点总结/数据类型/类型判断.md",
-    "_posts/base/js/知识点总结/数据类型/类型转换.md",
-    "_posts/interview/教程/前端面试之道/3.JS 基础知识点及常考面试题（一）.md",
-    "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/base/js/知识点总结/深拷贝.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",

@@ -7,3 +7,8 @@
 
 【新年，AI帮我躲过了一刀【何夕夕】】 https://www.bilibili.com/video/BV19srrBrE4d/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+[装了上百个skill，我现在最常用的是这11个](https://v.douyin.com/HEaXXFjHGGg/)
+
+[一句话生成高品质UI，产品感十足！ 自带前端代码，还能MCP接入Curso](https://v.douyin.com/vCb5ozqYGag/)
+[国产AI只能做Demo ? 来看Trae + Seed 2.0 能否完成复杂模块开发](https://v.douyin.com/KbsaE69wE_Q/)
+
