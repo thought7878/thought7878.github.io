@@ -685,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+                "file": "_posts/base/知识目录、路线图/面试题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -700,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "React 面试考点"
+              "title": "面试题"
             }
           },
           {
@@ -847,7 +847,8 @@
               "title": "_高级前端开发面试准备指南-DS"
             }
           }
-        ]
+        ],
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -1014,10 +1015,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "a4fdbd1e4139638f",
   "lastOpenFiles": [
-    "_posts/AI/AI.md",
+    "_posts/base/知识目录、路线图/面试题-overview copy.md",
+    "_posts/base/知识目录、路线图/面试题.md",
+    "_posts/base/知识目录、路线图/面试题-overview.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
+    "_posts/base/知识目录、路线图/知识目录/_面试.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
+    "_posts/AI/AI.md",
     "_posts/AI/短视频/视频制作方法.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
@@ -1025,10 +1034,7 @@
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/教育.md",
     "_posts/methods/编程/AI与编程.md",
-    "_posts/methods/要整理的.md",
     "未命名.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/react/总结/Event/Event.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/兴趣/计算机.md",
@@ -1037,11 +1043,6 @@
     "_posts/react/总结/Components/Component.md",
     "_posts/react/总结/Components/JSX.md",
     "_posts/react/总结/Composition & Inheritance.md",
-    "_posts/读书笔记/人性.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
-    "_posts/base/js/知识点总结/数据类型/深拷贝.md",
-    "_posts/base/知识目录、路线图/知识目录/面试/前端面试全家桶，从求职准备到面试演练/面试题目汇总.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",
