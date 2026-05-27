@@ -847,8 +847,7 @@
               "title": "_高级前端开发面试准备指南-DS"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -991,7 +990,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1015,15 +1014,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
+    "_posts/AI/AI.md",
     "_posts/methods/常看的.md",
+    "_posts/AI/短视频/视频制作方法.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-25.md",
     "_posts/读书笔记/兴趣/宇宙、物理.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/教育.md",
-    "_posts/AI/AI.md",
     "_posts/methods/编程/AI与编程.md",
     "_posts/methods/要整理的.md",
     "未命名.md",
@@ -1038,7 +1038,6 @@
     "_posts/react/总结/Components/JSX.md",
     "_posts/react/总结/Composition & Inheritance.md",
     "_posts/读书笔记/人性.md",
-    "_posts/AI/短视频/视频制作方法.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-24.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/js/知识点总结/数据类型/深拷贝.md",
