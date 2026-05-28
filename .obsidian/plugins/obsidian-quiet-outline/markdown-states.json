@@ -565,18 +565,22 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 253.990234375,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 135
+        "line": 259,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 135
+        "line": 259,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-28",
+      "item-1-14",
+      "item-1-23"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -33172,19 +33176,20 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md": {
-    "scroll": 18.527612261195404,
+    "scroll": 18.406216598071136,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 93
+        "line": 17,
+        "ch": 27
       },
       "to": {
-        "line": 7,
-        "ch": 93
+        "line": 17,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-0",
+      "item-2-2"
     ]
   },
   "_posts/base/js/知识点总结/Web APIs/Web APIs.md": {
@@ -33766,14 +33771,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md": {
-    "scroll": 26.701171875,
+    "scroll": 18.64639708117969,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -33808,14 +33813,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-7",
-      "item-1-0",
-      "item-2-16",
-      "item-1-11",
-      "item-2-19",
-      "item-2-24",
-      "item-1-23",
-      "item-2-31"
+      "item-1-23"
     ]
   },
   "_posts/base/知识目录、路线图/面试题-overview copy.md": {
@@ -33850,14 +33848,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 7,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
