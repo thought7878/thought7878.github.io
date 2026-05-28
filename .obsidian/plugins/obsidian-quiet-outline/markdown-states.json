@@ -6742,15 +6742,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 13.039159679351332,
+    "scroll": 10.939433281322582,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 101
+        "line": 18,
+        "ch": 111
       },
       "to": {
-        "line": 17,
-        "ch": 101
+        "line": 18,
+        "ch": 111
       }
     },
     "expandedKeys": []
@@ -30913,23 +30913,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md": {
-    "scroll": 293.8587239583333,
+    "scroll": 241.095703125,
     "cursor": {
       "from": {
-        "line": 296,
-        "ch": 17
+        "line": 264,
+        "ch": 15
       },
       "to": {
-        "line": 296,
-        "ch": 17
+        "line": 264,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-1-12",
-      "item-1-18",
-      "item-2-18",
-      "item-1-10",
-      "item-1-0",
+      "item-2-58",
       "item-1-57"
     ]
   },
@@ -31010,14 +31006,14 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md": {
-    "scroll": 118.26204427083333,
+    "scroll": 75.22200520833333,
     "cursor": {
       "from": {
-        "line": 133,
+        "line": 94,
         "ch": 0
       },
       "to": {
-        "line": 133,
+        "line": 94,
         "ch": 0
       }
     },
@@ -33181,21 +33177,22 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md": {
-    "scroll": 83.98762667058305,
+    "scroll": 87.91738875018358,
     "cursor": {
       "from": {
-        "line": 138,
-        "ch": 21
+        "line": 105,
+        "ch": 0
       },
       "to": {
-        "line": 138,
-        "ch": 21
+        "line": 105,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-2-10",
-      "item-2-8"
+      "item-2-8",
+      "item-2-2"
     ]
   },
   "_posts/base/js/知识点总结/Web APIs/Web APIs.md": {
@@ -33857,15 +33854,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 16,
+        "ch": 3
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 16,
+        "ch": 3
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md": {
     "scroll": 26.701171875,
@@ -33884,20 +33883,49 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md": {
-    "scroll": 126.96487359218713,
+    "scroll": 90.12467447916667,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 18
+        "line": 109,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 18
+        "line": 109,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-1-0"
+      "item-3-7",
+      "item-2-6"
     ]
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/_Promise.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

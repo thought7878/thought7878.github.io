@@ -243,6 +243,7 @@ Functions exist so we can reuse code. They are blocks of code that execute whene
 
 **函数的存在是为了让我们可以重用代码**。它们是只要被调用就会执行的**代码块**。每个函数通常都是**为了执行特定任务而编写的**，例如用于求两个或多个数字之和的加法函数。当需要在代码中的任何位置添加数字时，可以根据需要多次调用加法函数。
 
+参考：[[_Execution Context，Environment Record]]、[[_闭包、作用域链]]
 
 ## 函数定义
 ### 函数声明
@@ -296,7 +297,7 @@ Function Stack (Call stack)
 The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.  
 该功能堆栈是解释器如何在调用多个函数的脚本中跟踪其位置，例如当前正在执行哪个函数以及该功能中的哪些函数正在调用。
 
-[[_Execution Context，Environment Record]]
+参考：[[_Execution Context，Environment Record]]
 
 ## 递归
 Recursion
@@ -308,6 +309,8 @@ Lexical scoping
 Closures
 
 函数内部返回一个函数，该内部函数可以访问外部函数的变量，即使外部函数已经执行完毕。
+
+参考：[[_闭包、作用域链]]
 
 ## 内置函数
 Built-in functions
@@ -358,7 +361,7 @@ Asynchronous
 如果某一行执行报错，则停止下面代码的执行
 先把同步代码执行完，再执行异步
 
-参考：[[浏览器中执行JS的原理]]
+参考：[[浏览器中执行JS的原理]]、[[_Event Loop, Web APIs, (Micro)task Queue]]
 
 
 ## 回调函数
