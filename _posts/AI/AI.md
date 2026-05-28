@@ -1,3 +1,4 @@
+[中专学历95后小伙打造爆款AI短片 是什么让梦想出圈？](https://www.bilibili.com/video/BV15ZGQ6BEDH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 [【免费课程】AI视频做电影感，基础到进阶，构图光影运镜...](https://www.bilibili.com/video/BV1vx9hB5ELp/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 【AI工程师需要掌握什么技能，如何成为一个合格的AI工程师？】 https://www.bilibili.com/video/BV1VFRRB5Eg3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

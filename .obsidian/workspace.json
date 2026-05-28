@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Promise"
+              "title": "浏览器"
             }
           },
           {
@@ -991,17 +991,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a4fdbd1e4139638f",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
+    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/健康/医保.md",
+    "_posts/AI/AI.md",
+    "_posts/base/知识目录、路线图/面试题.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
-    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/知识目录、路线图/面试题.md",
     "_posts/base/知识目录、路线图/浏览器.md",
     "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md",
     "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
@@ -1009,16 +1013,12 @@
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-27.md",
-    "_posts/methods/常看的.md",
     "_posts/base/知识目录、路线图/面试题-overview copy.md",
     "_posts/base/知识目录、路线图/面试题-overview.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/methods/要整理的.md",
-    "_posts/AI/AI.md",
-    "_posts/AI/短视频/视频制作方法.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",
