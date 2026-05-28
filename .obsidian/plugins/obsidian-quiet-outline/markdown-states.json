@@ -33864,36 +33864,36 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md": {
-    "scroll": 53.89945433851098,
+    "scroll": 0.8484848484848485,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 0
+        "line": 6,
+        "ch": 207
       },
       "to": {
-        "line": 54,
-        "ch": 0
+        "line": 6,
+        "ch": 207
       }
     },
     "expandedKeys": [
-      "item-3-7",
-      "item-2-6",
       "item-2-0"
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md": {
-    "scroll": 0,
+    "scroll": 0.47474747474747475,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 13,
+        "ch": 31
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 13,
+        "ch": 31
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Promise.md": {
     "scroll": 0,
@@ -33924,6 +33924,30 @@
     "expandedKeys": [
       "item-2-3",
       "item-2-7",
+      "item-2-0"
+    ]
+  },
+  "_posts/base/js/知识点总结/JS 执行机制/闭包.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-3",
+      "item-3-7",
+      "item-2-6",
+      "item-3-11",
+      "item-3-19",
+      "item-2-18",
+      "item-3-21",
+      "item-2-15",
       "item-2-0"
     ]
   }
