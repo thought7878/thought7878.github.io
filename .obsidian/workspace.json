@@ -661,7 +661,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +676,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Event Loop, Web APIs, (Micro)task Queue"
+              "title": "JS"
             }
           },
           {
@@ -993,6 +993,12 @@
   },
   "active": "2beadc40c45a9186",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
+    "_posts/base/知识目录、路线图/浏览器.md",
+    "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md",
+    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/知识目录、路线图/面试题.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
@@ -1013,12 +1019,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/教育.md",
     "_posts/methods/编程/AI与编程.md",
-    "未命名.md",
-    "_posts/react/总结/Event/Event.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/兴趣/计算机.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React-DB.md",
-    "_posts/react/总结/Hooks/useState/useState-DS.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",

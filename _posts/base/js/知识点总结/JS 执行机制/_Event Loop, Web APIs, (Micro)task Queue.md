@@ -49,7 +49,7 @@ fetch("https://website.com/api/posts");
 
 ### 是什么
 
-`Web APIs` 是**一组与浏览器功能进行交互的接口**。这包括我们在使用 JavaScript 构建时经常使用的功能，例如`文档对象模型 DOM`、 `fetch` 、 `setTimeout` 等等。
+`Web APIs` 是***一组与浏览器功能进行交互的接口***。这包括我们在使用 JavaScript 构建时经常使用的功能，例如`文档对象模型 DOM`、 `fetch` 、 `setTimeout` 等等。
 `Web APIs`本质上**充当 JavaScript 运行时和浏览器功能之间的桥梁，使我们能够访问信息并使用超出 JavaScript 自身能力的功能**。
 
 浏览器是一个强大的平台，有大量的功能。其中一些是我们构建应 ​​ 用程序所必需的，例如用于显示内容的*渲染引擎*或用于网络请求的*网络进程*。我们甚至可以访问一些较低级别的功能，例如设备的*传感器*、_摄像头_、*地理定位*等。
@@ -91,7 +91,7 @@ fetch("https://website.com/api/posts");
 
 ## Task Queue
 
-上面的`successCallback`被添加到`Task Queue` （因此​​也称为`Callback Queue` ）。 **`Task Queue`保存等待在将来某个时刻执行的 Web API 回调和事件处理程序**。
+上面的successCallback被添加到`Task Queue` （因此​​也称为`Callback Queue`、`Macro Task Queue` ）。 **`Task Queue`保存等待在将来某个时刻执行的 Web API 回调和事件处理程序**。
 
 **如下这些任务会被放入Task Queue ：**
 - setTimeout与setInterval的callback function

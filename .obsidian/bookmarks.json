@@ -232,6 +232,11 @@
           "type": "file",
           "ctime": 1777946536079,
           "path": "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1779934308099,
+          "path": "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md"
         }
       ],
       "title": "防止忘记"
@@ -504,6 +509,11 @@
           "type": "file",
           "ctime": 1779875311991,
           "path": "_posts/base/知识目录、路线图/面试题.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1779934361174,
+          "path": "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md"
         }
       ],
       "title": "面试"

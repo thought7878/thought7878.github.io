@@ -296,6 +296,8 @@ Function Stack (Call stack)
 The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.  
 该功能堆栈是解释器如何在调用多个函数的脚本中跟踪其位置，例如当前正在执行哪个函数以及该功能中的哪些函数正在调用。
 
+[[_Execution Context，Environment Record]]
+
 ## 递归
 Recursion
 
