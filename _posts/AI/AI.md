@@ -1,4 +1,9 @@
+
+# AI视频
+[AI时代的天才式创作：云南县城婚礼摄影师，靠 AI 震撼好莱坞！？](https://www.bilibili.com/video/BV1E45Q62EYx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 [中专学历95后小伙打造爆款AI短片 是什么让梦想出圈？](https://www.bilibili.com/video/BV15ZGQ6BEDH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+[我宣布这是今年最巅的AI真人剧，简直离了个大谱！鬼知道我震惊了几次！！！#《重生猛犬：开局救下女上司》](https://www.bilibili.com/video/BV1pL5S6jEJ9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 [【免费课程】AI视频做电影感，基础到进阶，构图光影运镜...](https://www.bilibili.com/video/BV1vx9hB5ELp/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 【AI工程师需要掌握什么技能，如何成为一个合格的AI工程师？】 https://www.bilibili.com/video/BV1VFRRB5Eg3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

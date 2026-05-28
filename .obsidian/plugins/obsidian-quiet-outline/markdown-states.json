@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 154.7233355978261,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 54
+        "line": 163,
+        "ch": 0
       },
       "to": {
-        "line": 5,
-        "ch": 54
+        "line": 163,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -8764,11 +8764,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
@@ -11030,12 +11030,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-2",
-      "item-1-0",
-      "item-1-8",
-      "item-2-13"
-    ]
+    "expandedKeys": []
   },
   "_posts/interview/教程/Interviewing for Front-End Engineers/2. Application/2.md": {
     "scroll": 0,
@@ -26862,20 +26857,22 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md": {
-    "scroll": 0,
+    "scroll": 39.7294921875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 10
+        "line": 57,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 10
+        "line": 57,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-3-2",
-      "item-2-1"
+      "item-2-1",
+      "item-3-6",
+      "item-3-10"
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/0.现代前端开发必知/0.可能是最全最科学的前端学习路线.md": {
@@ -30909,7 +30906,6 @@
       }
     },
     "expandedKeys": [
-      "item-1-12",
       "item-2-58",
       "item-1-57"
     ]
@@ -33287,7 +33283,7 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md": {
-    "scroll": 240.09027777777777,
+    "scroll": 229.2462015503876,
     "cursor": {
       "from": {
         "line": 240,
@@ -33299,7 +33295,6 @@
       }
     },
     "expandedKeys": [
-      "item-3-1",
       "item-3-27",
       "item-2-14"
     ]
@@ -33510,9 +33505,7 @@
         "ch": 12
       }
     },
-    "expandedKeys": [
-      "item-3-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/base/js/知识点总结/数据类型/原始类型与引用类型的区别.md": {
     "scroll": 74.63994864269992,
@@ -33728,14 +33721,14 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md": {
-    "scroll": 75.33417538794659,
+    "scroll": 67.15608950843728,
     "cursor": {
       "from": {
-        "line": 72,
+        "line": 74,
         "ch": 0
       },
       "to": {
-        "line": 72,
+        "line": 74,
         "ch": 0
       }
     },
@@ -33871,21 +33864,21 @@
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md": {
-    "scroll": 90.12467447916667,
+    "scroll": 53.89945433851098,
     "cursor": {
       "from": {
-        "line": 109,
+        "line": 54,
         "ch": 0
       },
       "to": {
-        "line": 109,
+        "line": 54,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-3-7",
-      "item-2-6"
+      "item-2-6",
+      "item-2-0"
     ]
   },
   "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md": {

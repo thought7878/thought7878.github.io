@@ -536,12 +536,12 @@
             }
           },
           {
-            "id": "ff0dcefab118086b",
+            "id": "0632fda8f553cb40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
+                "file": "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "35983-zh"
+              "title": "3--【240511】React 状态管理方案全解析-合一"
             }
           },
           {
@@ -605,6 +605,30 @@
               },
               "icon": "lucide-file",
               "title": "设计模式"
+            }
+          },
+          {
+            "id": "ff0dcefab118086b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "35983-zh"
             }
           },
           {
@@ -661,7 +685,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -676,7 +700,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Promise"
+              "title": "_Execution Context，Environment Record"
             }
           },
           {
@@ -752,30 +776,6 @@
             }
           },
           {
-            "id": "0632fda8f553cb40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3--【240511】React 状态管理方案全解析-合一"
-            }
-          },
-          {
             "id": "d2c371d13f2d1019",
             "type": "leaf",
             "state": {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -991,34 +991,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c49987bcabeb5cdc",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/methods/要整理的.md",
-    "_posts/base/知识目录、路线图/面试题.md",
-    "_posts/base/知识目录、路线图/面试题-overview copy.md",
-    "_posts/base/知识目录、路线图/面试题-overview.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
-    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/健康/医保.md",
-    "_posts/AI/AI.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
-    "_posts/base/知识目录、路线图/浏览器.md",
     "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md",
     "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
-    "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
+    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
+    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+    "_posts/base/知识目录、路线图/面试题.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/AI.md",
+    "_posts/读书笔记/健康/医保.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/面试题-overview copy.md",
+    "_posts/base/知识目录、路线图/面试题-overview.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
+    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
+    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
+    "_posts/base/知识目录、路线图/浏览器.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",

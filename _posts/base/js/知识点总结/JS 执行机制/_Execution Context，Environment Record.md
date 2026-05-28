@@ -4,7 +4,7 @@
 - [00:00](https://www.bilibili.com/video/BV16w4m197PV/?t=0.108247#t=0.11) 视频简介
 - [00:11](https://www.bilibili.com/video/BV16w4m197PV/?t=11.645425#t=11.65) Execution Context Overview
   - 调用函数，就会创建一个 Execution Context，并将其推送到 call stack（其实是 execution context stack）
-  - **执行上下文是什么？** 执行上下文本质上*定义了代码执行的环境*。包含很多内部组件，*JS 引擎使用这些组件来跟踪代码的执行流程*。_执行上下文使用 environment record 来保存变量、函数，environment records manage the identifier bindings within the context_（如下图）
+  - **`执行上下文 Execution Context` 是什么？** 执行上下文本质上*定义了代码执行的环境*。包含很多内部组件，*JS 引擎使用这些组件来跟踪代码的执行流程*。_执行上下文使用 environment record 来保存变量、函数，environment records manage the identifier bindings within the context_（如下图）
   - **执行上下文的两个阶段**：创建阶段和执行阶段 [00:45](https://www.bilibili.com/video/BV16w4m197PV/?t=45.180927#t=45.18)
     - 创建阶段：为上下文中的变量、函数等设置内存空间
     - 执行阶段：将其推送到 call stack，执行代码
