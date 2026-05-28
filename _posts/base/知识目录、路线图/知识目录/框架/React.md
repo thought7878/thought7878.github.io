@@ -180,6 +180,9 @@ State Management
 
 参考：[[Redux-DS]] 、[[原理-DB]]
 
+【【React前端高频面试】（说一下Redux的核心思想）不能只背出单一数据源、状态只读、使用纯函数。带你从Redux如何通过状态快照序列， 实现完美的状态追溯】 https://www.bilibili.com/video/BV1RK47zxEWV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+【什么是Redux】 https://www.bilibili.com/video/BV1Q9Ge67EPU/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 ## TanStack Query / SWR
 **TanStack Query (React Query) / SWR**：**服务端状态管理**的绝对霸主。用于处理数据请求、缓存、轮询、重试、离线同步，将“服务端状态”与“客户端UI状态”彻底分离。
 
