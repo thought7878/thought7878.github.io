@@ -75,6 +75,7 @@ Hooks 让函数组件拥有了状态和副作用管理能力。**React 19 进一
 在 DOM 变更之后、浏览器绘制之前**同步**执行。用于需要测量 DOM 布局的场景（避免闪烁）。
 
 ## React 19 新增/增强 Hooks
+【react19 进阶学习】 https://www.bilibili.com/video/BV155cizCEEf/?p=2&share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 - `useActionState` (原 `useFormState`)：处理表单提交状态，自动管理 pending 状态和错误返回。
 - **`useFormStatus`**：在嵌套的子组件中获取父级 `<form>` 的提交状态（如 `pending`），无需通过 props 传递。

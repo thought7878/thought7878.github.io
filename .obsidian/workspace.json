@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -991,8 +991,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/面试题.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
@@ -1002,7 +1005,6 @@
     "_posts/methods/常看的.md",
     "_posts/读书笔记/健康/医保.md",
     "_posts/AI/AI.md",
-    "_posts/base/知识目录、路线图/面试题.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
@@ -1017,8 +1019,6 @@
     "_posts/base/知识目录、路线图/面试题-overview.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "_posts/base/知识目录、路线图/知识目录/_面试官的提问.md",
-    "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",
