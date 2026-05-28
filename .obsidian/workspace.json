@@ -709,7 +709,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
+                "file": "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -724,7 +724,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "复杂状态管理与数据流设计"
+              "title": "React 面试考点"
             }
           },
           {
@@ -991,12 +991,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "c49987bcabeb5cdc",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/面试题.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
+    "_posts/methods/要整理的.md",
+    "_posts/base/知识目录、路线图/面试题.md",
     "_posts/base/知识目录、路线图/面试题-overview copy.md",
     "_posts/base/知识目录、路线图/面试题-overview.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
@@ -1005,7 +1006,6 @@
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/methods/要整理的.md",
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
     "_posts/methods/常看的.md",
