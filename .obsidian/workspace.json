@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/猫鼠类/剧本/整体故事方案.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "整体故事方案"
+              "title": "常看的"
+            }
+          },
+          {
+            "id": "ea00c091dd461014",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/短视频/_视频制作方法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_视频制作方法"
             }
           },
           {
@@ -775,7 +799,8 @@
               "title": "_高级前端开发面试准备指南-DS"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -942,19 +967,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/教育.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/短视频/_视频制作方法.md",
+    "_posts/AI/短视频/AI内容创作.md",
+    "_posts/AI/短视频/动物短视频合集.md",
     "_posts/AI/短视频/工具/seedance.md",
     "_posts/AI/短视频/猫鼠类/剧本/整体故事方案.md",
+    "_posts/AI/短视频/国外的视频平台、对比.md",
+    "_posts/AI/短视频/如何寻找有趣的短视频？.md",
+    "_posts/AI/短视频/参考视频.md",
+    "_posts/AI/短视频/电影解说类短视频.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
-    "_posts/AI/短视频/动物短视频合集.md",
-    "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/工具/去水印.md",
     "_posts/AI/短视频/工具",
-    "_posts/methods/常看的.md",
     "_posts/AI/搞钱/AI短视频搬运.md",
-    "_posts/AI/短视频/电影解说类短视频.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/agent.md",
     "_posts/English/单词/harness.md",
@@ -978,13 +1010,6 @@
     "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md",
     "_posts/architect/前端架构/前端架构-QW.md",
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
-    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
-    "_posts/react/Restful/TanStack Query/TanStack Query.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/base/js/知识点总结/数据类型/media",
     "DailyNote/Journal/01 Daily/2026/05/media",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",

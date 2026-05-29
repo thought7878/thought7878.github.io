@@ -1,3 +1,9 @@
+【【北航90后副教授何静Seedance通关秘籍】AI短剧新手小白从入门到精通系列——手把手教你玩转AI视频生成工具即梦Seedance的100个使用技巧！】 https://www.bilibili.com/video/BV1gtc6znE97/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【超现实宠物Ai短片制作全流程：从灵感到角色、分镜，再到成片】 https://www.bilibili.com/video/BV1YiXKBqETg/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【【全网最实用】Image2 + Seedance2.0 连贯Ai长视频工作流分享】 https://www.bilibili.com/video/BV11XLv6mEP2/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【实用性极强！即梦seedance2.0核心使用方法】 https://www.bilibili.com/video/BV1cAG662ESp/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 【人人免费出大片！豆包Seedance 2.0实测对比+解析！】 https://www.bilibili.com/video/BV1MiZvBZENQ/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
