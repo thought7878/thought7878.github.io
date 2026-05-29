@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/搞钱/AI内容创作.md",
+                "file": "_posts/AI/短视频/工具/seedance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI内容创作"
+              "title": "seedance"
             }
           },
           {
@@ -944,9 +944,14 @@
   },
   "active": "148c6846560e64c4",
   "lastOpenFiles": [
-    "_posts/AI/搞钱/电影解说类短视频.md",
-    "_posts/AI/搞钱/AI内容创作.md",
+    "_posts/AI/短视频/动物短视频合集.md",
+    "_posts/AI/短视频/AI内容创作.md",
+    "_posts/AI/短视频/工具/seedance.md",
+    "_posts/AI/短视频/工具/去水印.md",
+    "_posts/AI/短视频/工具",
     "_posts/methods/常看的.md",
+    "_posts/AI/搞钱/AI短视频搬运.md",
+    "_posts/AI/短视频/电影解说类短视频.md",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/agent.md",
     "_posts/English/单词/harness.md",
@@ -978,10 +983,6 @@
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/base/知识目录、路线图/面试题.md",
-    "_posts/base/知识目录、路线图/面试题-overview copy.md",
-    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/数据类型/media",
     "DailyNote/Journal/01 Daily/2026/05/media",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
@@ -989,7 +990,6 @@
     "_posts/engineering/版本控制与协作/Git/命令/media",
     "_posts/engineering/版本控制与协作/Git/命令/分支",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.第二章：独自使用Git时的常见场景 (16讲)",
-    "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
