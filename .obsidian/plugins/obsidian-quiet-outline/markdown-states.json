@@ -3114,12 +3114,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 7
+        "line": 13,
+        "ch": 13
       },
       "to": {
-        "line": 2,
-        "ch": 7
+        "line": 13,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -33995,17 +33995,19 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/Claude Code/CC.md": {
-    "scroll": 2.557545065412673,
+    "scroll": 27.707538109192996,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 28
+        "line": 33,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 28
+        "line": 33,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
