@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/常看的.md",
+                "file": "_posts/AI/搞钱/AI内容创作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常看的"
+              "title": "AI内容创作"
             }
           },
           {
@@ -775,8 +775,7 @@
               "title": "_高级前端开发面试准备指南-DS"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -943,12 +942,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "59ad096364f8e6ff",
+  "active": "148c6846560e64c4",
   "lastOpenFiles": [
+    "_posts/AI/搞钱/电影解说类短视频.md",
+    "_posts/AI/搞钱/AI内容创作.md",
+    "_posts/methods/常看的.md",
+    "_posts/English/查询单词的提示词模版.md",
     "_posts/English/单词/agent.md",
     "_posts/English/单词/harness.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/methods/常看的.md",
     "_posts/读书笔记/男女.md",
     "_posts/AI/编程/Claude Code/CC.md",
     "_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp",
@@ -981,8 +982,6 @@
     "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
-    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/js/知识点总结/数据类型/media",
     "DailyNote/Journal/01 Daily/2026/05/media",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
