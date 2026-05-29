@@ -7,7 +7,7 @@ Claude Code就是这么一整套以大模型为大脑的程序
 ![[_posts/AI/编程/Claude Code/media/4f2d15dc20ecac753582821ac948d46f_MD5.webp]]
 
 
-# 个性化
+# 提示词/个性化（干得更好）
 [29:36]
 
 通过全局 / 项目 / 文件夹三级 cloud.md 设定规则，开启 auto memory *自动记录用户习惯与项目信息*，支持自定义文档构建记忆。
@@ -62,9 +62,23 @@ Claude Code就是这么一整套以大模型为大脑的程序
 ## 总结
 [39:56]
 
-所谓的持久记忆，就是提示词
+各种Agent的所谓的持久记忆，就是提示词
 
-# 
+
+# 高级扩展（干得更多）
+
 让她干更多的事情
 
+Skill MCP CLI SubAgent 其他插件
 
+## Skill
+[40:53]
+简单的把技能理解为给AI的各式各样的子领域的专业说明书和操作手册，是Agent当前非常重要的一个拓展工具。
+
+[手把手彻底学会 Agent Skills！【小白教程】](https://www.bilibili.com/video/BV1G3FNznEiS/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+![[_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp]]
+
+
+[别再乱装Skill了！这4组Skill，才是顶级生产力。](https://v.douyin.com/WsWETJOJA8o/)
+如果Skill没有配置好，那么Agent使用起来的效果就会事倍功半。 我尝试了十几个Agent和几十个Skill，这些Skill是我每天都在用的，而且不依赖特定的Agent。

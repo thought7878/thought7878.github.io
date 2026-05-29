@@ -776,7 +776,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -943,8 +943,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d5ad4ae3eb983b8c",
+  "active": "59ad096364f8e6ff",
   "lastOpenFiles": [
+    "_posts/English/单词/agent.md",
+    "_posts/English/单词/harness.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/AI/编程/Claude Code/CC.md",
+    "_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp",
     "_posts/AI/编程/Claude Code/media/ee9941cd36ee9f50c5ee66e6d25ff526_MD5.webp",
     "_posts/AI/编程/Claude Code/media/89c8a5ad71ff7e99250e6efcdf860377_MD5.webp",
     "_posts/AI/编程/Claude Code/media/d23b80ed0f56682495025abeb7ae4e59_MD5.webp",
@@ -954,12 +961,8 @@
     "_posts/AI/编程/Claude Code/media/70152689ac98012cea856eca6f220e9d_MD5.webp",
     "_posts/AI/编程/Claude Code/media/b08fa5a5a7fd92c92379f7575d93643d_MD5.webp",
     "_posts/AI/编程/Claude Code/media/9d049c8f52760fde7800fcfcca80aa2f_MD5.webp",
-    "_posts/AI/编程/Claude Code/media/f5c900015c8a7fd11eee0fd0ac9e9ad8_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-29.md",
     "_posts/AI/AI.md",
-    "_posts/AI/编程/Claude Code/CC.md",
-    "_posts/English/查询单词的提示词模版.md",
-    "_posts/AI/编程/Claude Code/media/ec45c7023acf3a5c374b696a92268062_MD5.webp",
     "_posts/AI/编程/Claude Code/media",
     "_posts/AI/编程/Claude Code",
     "_posts/methods/编程/AI与编程.md",
@@ -968,7 +971,6 @@
     "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
     "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
     "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
-    "_posts/English/单词/agent.md",
     "_posts/react/Restful/TanStack Query/TanStack Query.md",
     "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
@@ -981,8 +983,6 @@
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
-    "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
-    "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/base/js/知识点总结/数据类型/media",
     "DailyNote/Journal/01 Daily/2026/05/media",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
