@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md",
+                "file": "_posts/AI/编程/Claude Code/CC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,79 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-28"
-            }
-          },
-          {
-            "id": "97262081d19a6189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3.方案了解：引言"
-            }
-          },
-          {
-            "id": "2f57cb6476de3070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "32 - 架构：系统的概要设计"
-            }
-          },
-          {
-            "id": "42ac3390d7b966e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "4. 架构基础：设计构建流"
+              "title": "CC"
             }
           },
           {
@@ -752,6 +680,30 @@
             }
           },
           {
+            "id": "03bd30dc6f951e4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/Restful/TanStack Query/TanStack Query.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TanStack Query"
+            }
+          },
+          {
             "id": "78f8c6d9805c5474",
             "type": "leaf",
             "state": {
@@ -824,7 +776,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -967,7 +919,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -991,34 +943,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2beadc40c45a9186",
+  "active": "59ad096364f8e6ff",
   "lastOpenFiles": [
+    "_posts/AI/编程/Claude Code/CC.md",
+    "_posts/AI/AI.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-29.md",
+    "_posts/AI/编程/Claude Code/media/ec45c7023acf3a5c374b696a92268062_MD5.webp",
+    "_posts/AI/编程/Claude Code/media/4f2d15dc20ecac753582821ac948d46f_MD5.webp",
+    "_posts/AI/编程/Claude Code/media",
+    "_posts/AI/编程/Claude Code",
+    "_posts/methods/编程/AI与编程.md",
+    "DailyNote/Journal/01 Daily/2026/05/2026-05-28.md",
+    "_posts/architect/前端架构/前端架构-QW.md",
+    "_posts/architect/_教程/前端架构：从入门到微前端/思维导图/4. 架构基础：设计构建流.md",
+    "_posts/architect/_教程/许式伟的架构课/docs/2.桌面开发篇 (14讲)/32 - 架构：系统的概要设计.md",
+    "_posts/architect/微前端/教程/深入浅出微前端/3.方案了解：引言.md",
+    "_posts/English/查询单词的提示词模版.md",
+    "_posts/English/单词/agent.md",
+    "_posts/react/Restful/TanStack Query/TanStack Query.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/base/知识目录、路线图/面试题.md",
+    "_posts/base/知识目录、路线图/面试题-overview copy.md",
+    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Event Loop, Web APIs, (Micro)task Queue.md",
     "_posts/base/知识目录、路线图/知识目录/基础、语言/JS.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
-    "_posts/base/js/知识点总结/异步编程/promise/手写 Promise.md",
-    "_posts/base/js/知识点总结/JS 执行机制/浏览器中执行JS的原理.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Promise.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_前端架构师学习路径与项目实践计划.md",
-    "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
-    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
-    "_posts/base/知识目录、路线图/面试题.md",
-    "_posts/methods/常看的.md",
-    "_posts/AI/AI.md",
-    "_posts/读书笔记/健康/医保.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/methods/要整理的.md",
-    "_posts/base/知识目录、路线图/面试题-overview copy.md",
-    "_posts/base/知识目录、路线图/面试题-overview.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/CICD 集成.md",
-    "_posts/base/js/知识点总结/异步编程/promise/JavaScript 可视化 - Promise 执行（双语字幕）.md",
-    "_posts/base/js/知识点总结/异步编程/promise/Promise.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/base/js/知识点总结/数据类型/media/d421425afaa74741f09dd0deda754425_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media/6b2d25100c3f8df6e06b9f40867019e6_MD5.webp",
     "_posts/base/js/知识点总结/数据类型/media",
@@ -1029,16 +984,12 @@
     "_posts/browser/渲染/media/573b7a0be33449d205da193edf3b1511_MD5.webp",
     "_posts/browser/渲染/media/427286e23912fea12a47f914e8144248_MD5.webp",
     "_posts/browser/渲染/media/0367b23d398f1a26c09e07894297cf22_MD5.webp",
-    "_posts/browser/渲染/media/f37a1988ac532d8c3850c54907e6aa87_MD5.webp",
-    "_posts/browser/渲染/media/407b61d9d65e48c6f6dfaf194a7f9347_MD5.webp",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
     "_posts/engineering/版本控制与协作/Git/media",
     "_posts/engineering/版本控制与协作/Git/命令/media",
     "_posts/engineering/版本控制与协作/Git/命令/分支",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客/2.第二章：独自使用Git时的常见场景 (16讲)",
     "_posts/engineering/版本控制与协作/Git/教程/玩转 Git 三剑客",
-    "_posts/engineering/版本控制与协作/Git/教程",
-    "_posts/engineering/版本控制与协作/Git/原理/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
