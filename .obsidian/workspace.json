@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -991,10 +991,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
+    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/English/每日记录（复习）.md",

@@ -80,5 +80,7 @@ Skill MCP CLI SubAgent 其他插件
 ![[_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp]]
 
 
+【手把手教你在TRAE中创建和使用Skills，小白一看就懂！】 https://www.bilibili.com/video/BV1ZTzpBWEhF/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 [别再乱装Skill了！这4组Skill，才是顶级生产力。](https://v.douyin.com/WsWETJOJA8o/)
 如果Skill没有配置好，那么Agent使用起来的效果就会事倍功半。 我尝试了十几个Agent和几十个Skill，这些Skill是我每天都在用的，而且不依赖特定的Agent。
