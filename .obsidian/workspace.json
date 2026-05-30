@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/Claude Code/CC.md",
+                "file": "_posts/AI/编程/Trae/Trae.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,11 +820,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CC"
+              "title": "Trae"
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -991,8 +991,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
+    "_posts/AI/AI.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/AI/短视频/_视频制作方法.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/编程/Trae/Trae.md",
+    "_posts/AI/编程/Claude Code/CC.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
@@ -1004,21 +1011,14 @@
     "_posts/react/总结/核心概念、原理、源码/源码/教程/2.自顶向下学 React 源码/5.实现篇之状态更新/5.4 深入理解优先级.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
     "_posts/methods/学习方法/_SQ3R阅读法.md",
-    "_posts/AI/编程/Claude Code/CC.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
-    "_posts/AI/短视频/_视频制作方法.md",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/教育.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/动物短视频合集.md",
     "_posts/AI/短视频/工具/seedance.md",
     "_posts/AI/短视频/猫鼠类/剧本/整体故事方案.md",
     "_posts/AI/短视频/国外的视频平台、对比.md",
     "_posts/AI/短视频/如何寻找有趣的短视频？.md",
-    "_posts/AI/短视频/参考视频.md",
-    "_posts/AI/短视频/电影解说类短视频.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
     "_posts/AI/短视频/工具",

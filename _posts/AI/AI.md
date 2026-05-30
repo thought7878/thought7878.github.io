@@ -1,4 +1,12 @@
 
+# 科普知识
+[Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！](https://www.bilibili.com/video/BV1YRG46eE1n/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+# 工具
+## 翻译
+【开口即同传！Qwen3.5-LiveTranslate 正式发布】 https://www.bilibili.com/video/BV1VuL16ZEda/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 # AI视频
 [AI时代的天才式创作：云南县城婚礼摄影师，靠 AI 震撼好莱坞！？](https://www.bilibili.com/video/BV1E45Q62EYx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 

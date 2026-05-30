@@ -479,7 +479,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 108.39082102588534,
+    "scroll": 99.43671589645864,
     "cursor": {
       "from": {
         "line": 115,
@@ -8764,15 +8764,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 3,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
     "scroll": 13.728260869565217,
@@ -33983,7 +33985,7 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/Claude Code/CC.md": {
-    "scroll": 58.86454299558271,
+    "scroll": 69.5546875,
     "cursor": {
       "from": {
         "line": 72,
@@ -33995,9 +33997,6 @@
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-2-2",
-      "item-2-4",
       "item-1-9"
     ]
   },
@@ -34301,5 +34300,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/AI/编程/Trae/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/Trae/Trae.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
