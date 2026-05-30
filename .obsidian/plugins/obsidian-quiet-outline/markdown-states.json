@@ -8764,15 +8764,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 36,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 36,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
     "scroll": 13.728260869565217,
@@ -34331,11 +34333,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 6,
         "ch": 0
       }
     },

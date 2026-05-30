@@ -6,7 +6,6 @@
 ## 翻译
 【开口即同传！Qwen3.5-LiveTranslate 正式发布】 https://www.bilibili.com/video/BV1VuL16ZEda/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
-
 # AI视频
 [AI时代的天才式创作：云南县城婚礼摄影师，靠 AI 震撼好莱坞！？](https://www.bilibili.com/video/BV1E45Q62EYx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
@@ -35,3 +34,6 @@
 [“你不是这个专业的” – 这句话该过时了！](https://www.bilibili.com/video/BV1uQdhB5Erv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 
+
+# 淘汰焦虑
+[老梁聊AI失业](https://youtu.be/12lOgDC6mGE?si=IOSb072K14Sk4Z9x)
