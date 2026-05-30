@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/AI/AI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "AI"
             }
           },
           {
@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/Trae/Trae.md",
+                "file": "_posts/AI/编程/Trae/官方文档.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,11 +820,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trae"
+              "title": "官方文档"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -991,15 +991,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/AI/编程/Trae/Trae的基础.md",
+    "_posts/AI/编程/Trae/Trae.md",
+    "_posts/AI/编程/Trae/官方文档.md",
     "_posts/AI/AI.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/AI/编程/Claude Code/CC.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/methods/常看的.md",
-    "_posts/AI/编程/Trae/Trae.md",
-    "_posts/AI/编程/Claude Code/CC.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
@@ -1016,9 +1019,6 @@
     "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/动物短视频合集.md",
     "_posts/AI/短视频/工具/seedance.md",
-    "_posts/AI/短视频/猫鼠类/剧本/整体故事方案.md",
-    "_posts/AI/短视频/国外的视频平台、对比.md",
-    "_posts/AI/短视频/如何寻找有趣的短视频？.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
     "_posts/AI/短视频/工具",

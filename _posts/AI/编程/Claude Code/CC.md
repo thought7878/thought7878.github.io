@@ -76,6 +76,7 @@ Skill MCP CLI SubAgent 其他插件
 简单的把技能理解为给AI的各式各样的子领域的专业说明书和操作手册，是Agent当前非常重要的一个拓展工具。
 
 [手把手彻底学会 Agent Skills！【小白教程】](https://www.bilibili.com/video/BV1G3FNznEiS/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+[Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！](https://www.bilibili.com/video/BV1YRG46eE1n/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 ![[_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp]]
 

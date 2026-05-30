@@ -28,3 +28,10 @@
 [一句话生成高品质UI，产品感十足！ 自带前端代码，还能MCP接入Curso](https://v.douyin.com/vCb5ozqYGag/)
 [国产AI只能做Demo ? 来看Trae + Seed 2.0 能否完成复杂模块开发](https://v.douyin.com/KbsaE69wE_Q/)
 
+
+# 别人的经验
+[退休不是退场，看60后大叔在AI时代“重新生长”](https://www.bilibili.com/video/BV1qMdzB1EZK/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+[“你不是这个专业的” – 这句话该过时了！](https://www.bilibili.com/video/BV1uQdhB5Erv/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+

@@ -939,15 +939,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 97.1875,
+    "scroll": 95.40217391304348,
     "cursor": {
       "from": {
-        "line": 114,
-        "ch": 0
+        "line": 112,
+        "ch": 161
       },
       "to": {
-        "line": 114,
-        "ch": 0
+        "line": 112,
+        "ch": 161
       }
     },
     "expandedKeys": []
@@ -8772,9 +8772,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-1"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
     "scroll": 13.728260869565217,
@@ -33985,14 +33983,14 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/Claude Code/CC.md": {
-    "scroll": 69.5546875,
+    "scroll": 73.75549255846917,
     "cursor": {
       "from": {
-        "line": 72,
+        "line": 76,
         "ch": 0
       },
       "to": {
-        "line": 72,
+        "line": 76,
         "ch": 0
       }
     },
@@ -34319,11 +34317,39 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/Trae/Trae的基础.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
         "line": 2,
         "ch": 0
       },
       "to": {
         "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/Trae/官方文档.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
