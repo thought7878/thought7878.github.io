@@ -613,7 +613,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
+                "file": "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -628,7 +628,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_Execution Context，Environment Record"
+              "title": "_闭包、作用域链"
             }
           },
           {
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -991,10 +991,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
+    "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
     "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/English/每日记录（复习）.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-30.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-29.md",
@@ -1019,9 +1021,7 @@
     "_posts/AI/短视频/电影解说类短视频.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
-    "_posts/AI/短视频/工具/去水印.md",
     "_posts/AI/短视频/工具",
-    "_posts/AI/搞钱/AI短视频搬运.md",
     "_posts/AI/编程/Claude Code/media/aeb5011216fad698b63e4259cd246820_MD5.webp",
     "_posts/AI/编程/Claude Code/media/ee9941cd36ee9f50c5ee66e6d25ff526_MD5.webp",
     "_posts/AI/编程/Claude Code/media/89c8a5ad71ff7e99250e6efcdf860377_MD5.webp",
