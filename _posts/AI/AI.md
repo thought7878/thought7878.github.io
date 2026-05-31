@@ -1,6 +1,6 @@
 
-# 科普知识
-[Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！](https://www.bilibili.com/video/BV1YRG46eE1n/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+# AI 概念
+Token、上下文、MCP、函数调用、Agent、Skill等。参考：[[AI 概念]]
 
 # 工具
 ## 翻译
