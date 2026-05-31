@@ -34286,15 +34286,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-30.md": {
-    "scroll": 26.701171875,
+    "scroll": 24.951171875,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -34356,5 +34356,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/05/2026-05-31.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
