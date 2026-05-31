@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/Trae/Trae的基础.md",
+                "file": "_posts/AI/原理、概念/AI 概念.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trae的基础"
+              "title": "AI 概念"
             }
           }
         ],
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -993,15 +993,20 @@
   },
   "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
-    "_posts/AI/编程/Trae/官方文档.md",
+    "_posts/AI/原理、概念/media/ad2d5caccf13c52bbde4093bec4ee3d0_MD5.webp",
+    "_posts/AI/原理、概念/media/0ec9a1faedc2f0dd12d7137dd4959bfc_MD5.webp",
+    "_posts/AI/原理、概念/media",
     "_posts/AI/AI.md",
+    "_posts/AI/原理、概念/AI 概念.md",
+    "_posts/AI/编程/Trae/官方文档.md",
     "_posts/AI/编程/Trae/Trae的基础.md",
+    "_posts/AI/编程/Trae/Trae.md",
+    "_posts/AI/编程/Claude Code/CC.md",
+    "_posts/AI/原理、概念",
     "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-31.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-30.md",
-    "_posts/AI/编程/Trae/Trae.md",
     "_posts/读书笔记/人性.md",
-    "_posts/AI/编程/Claude Code/CC.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/短视频/_视频制作方法.md",
@@ -1017,8 +1022,6 @@
     "_posts/AI/「动力飞轮」APP/灵感.md",
     "_posts/methods/学习方法/_SQ3R阅读法.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
-    "_posts/读书笔记/教育.md",
-    "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
     "_posts/AI/短视频/工具",
@@ -1031,14 +1034,11 @@
     "_posts/AI/编程/Claude Code/media/6b37f19206ed2cb88d82663754166a6d_MD5.webp",
     "_posts/AI/编程/Claude Code/media/70152689ac98012cea856eca6f220e9d_MD5.webp",
     "_posts/AI/编程/Claude Code/media/b08fa5a5a7fd92c92379f7575d93643d_MD5.webp",
-    "_posts/AI/编程/Claude Code/media/9d049c8f52760fde7800fcfcca80aa2f_MD5.webp",
     "_posts/AI/编程/Claude Code/media",
     "_posts/AI/编程/Claude Code",
     "_posts/base/js/知识点总结/数据类型/media",
     "DailyNote/Journal/01 Daily/2026/05/media",
     "_posts/browser/教程/浏览器工作原理与实践/02-宏观视角下的浏览器 (6讲)/media",
-    "_posts/engineering/版本控制与协作/Git/media",
-    "_posts/engineering/版本控制与协作/Git/命令/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
