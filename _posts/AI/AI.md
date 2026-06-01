@@ -1,6 +1,8 @@
 
 # AI 概念
-Token、上下文、MCP、函数调用、Agent、Skill等。参考：[[AI 概念]]
+Token、上下文、MCP、函数调用、Agent、Skill等。
+
+参考：[[AI 概念]]
 
 # 工具
 ## 翻译

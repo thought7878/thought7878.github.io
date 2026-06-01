@@ -565,7 +565,7 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 12.416666666666666,
     "cursor": {
       "from": {
         "line": 3,
@@ -8764,11 +8764,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       }
     },
@@ -32106,14 +32106,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/旅居、旅行.md": {
-    "scroll": 22.456521739130434,
+    "scroll": 0.5289256198347108,
     "cursor": {
       "from": {
-        "line": 38,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 38,
+        "line": 8,
         "ch": 0
       }
     },
@@ -34356,14 +34356,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-31.md": {
-    "scroll": 26.701171875,
+    "scroll": 25.222005208333332,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -34386,19 +34386,77 @@
     "expandedKeys": []
   },
   "_posts/AI/原理、概念/AI 概念.md": {
-    "scroll": 85.73871146956839,
+    "scroll": 85.85083047567962,
     "cursor": {
       "from": {
-        "line": 90,
-        "ch": 141
+        "line": 100,
+        "ch": 70
       },
       "to": {
-        "line": 90,
-        "ch": 141
+        "line": 100,
+        "ch": 70
       }
     },
     "expandedKeys": [
       "item-1-11"
+    ]
+  },
+  "_posts/methods/大脑/大脑.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 156
+      },
+      "to": {
+        "line": 9,
+        "ch": 156
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/社会 & 资本主义.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/健康/医保、户籍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-01.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
