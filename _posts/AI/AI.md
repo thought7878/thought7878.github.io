@@ -1,4 +1,6 @@
 # 未整理
+深度体验Claude code+DeepSeekV4 一个好的Agent框架配上一款性价比极高的大模型，你就能得到一个新的世界，个人开发者的福音# DeepSeek https://v.douyin.com/80KA51xeDRE/
+
 codex➕seedance 复刻制作各种视频 https://v.douyin.com/CuNjLV5t508/
 
 5.84 K@W.Zz dNj:/ 09/16 :8pm AI编程官方时代来了，三个巨头同一周集体出手 Anthropic做插件市场、微软做技能库和教程、CodeGraph四天四次霸榜涨粉3600+，这周开源社区变天了🔥 六条主线带你看完：官方生态（Claude Plugins一键装插件）、代码理解双雄（CodeGraph省70%工具调用 vs Understand-Anything交互式图谱）、Agent技能组（Superpowers/Multica/dotnet三选一）、AI教育三件套（435节课+Karpathy+微软全免费）、跨界利器（OpenHuman打118+服务/RuView九块钱穿墙检测/开源彭博终端/离线语音合成）。十五个项目全是干货，看视频了解全部！ # ai编程 # 开源项目 # AIAgent # 科技趋势 https://v.douyin.com/_3kTqffD0y4/ 复制此链接，打开Dou音搜索，直接观看视频！
@@ -30,6 +32,7 @@ CLI+Skill 浏览器AI自动化框架 ，告别一切重复任务 这套流程可
 
 GitHub 69k星开源工具ui-ux-pro-max，57种UI风格+96套配色，用AI agent trae，自然语言就能生成专业APP/小程序界面，手把手实操演示，小白必看。
 [让AI做APP 不用写代码、不用懂设计！](https://v.douyin.com/0BTk5x9kTic/)
+
 
 
 # 知识库
