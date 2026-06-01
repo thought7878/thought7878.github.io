@@ -26,6 +26,11 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 # 机会
 [[FDE 工程师（前沿部署工程师）]]
 
+# 博主
+- [数字游牧人](https://space.bilibili.com/4848323?spm_id_from=333.1387.favlist.content.click)
+- [Xuan_酱](https://space.bilibili.com/14848367?spm_id_from=333.1387.favlist.content.click)
+- 
+
 # 编程
 CLI+Skill 浏览器AI自动化框架 ，告别一切重复任务 这套流程可以让AI自动操作浏览器，代替你完成一切机械重复性工作。 而且特别省Token，很多工作流甚至全程不用AI参与，0 Token 就能把自动化任务跑起来
 [](https://v.douyin.com/5_zpWSeCz40/)
@@ -37,6 +42,16 @@ GitHub 69k星开源工具ui-ux-pro-max，57种UI风格+96套配色，用AI agent
 
 # 知识库
 1.23 gOX:/ :7pm G@V.Lj 08/26 手把手教会你搭建Karpathy同款AI知识库（保姆级教程） # Karpathy # AI知识库 # Obsidian # 个人知识管理 # 最近迷上了新东西 https://v.douyin.com/blr6elCbMKg/
+
+怎么用AI杠杆把学习效率和研究深度拉满，并且还能逼你思考怎么把理论直接作用到实践？我用 Claude Code + Obsidian 搭了一个交互式学习系统，视频拿学习《反脆弱》这本书做实验。
+[用AI搭了一个交互式学习系统，学习效率快10倍](https://v.douyin.com/1K33v7yq7yk/)
+
+【📔你学的太慢了！油管大神Dankoe拆解如何利用AI进行10倍速学习！（附笔记）】 https://www.bilibili.com/video/BV1m4gzzeEp8/?p=2&share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+https://x.com/dontbesilent/status/2024876251828392433
+[100个AI技巧1：如何利用AI提高10倍学习效率](https://v.douyin.com/jniEtU3Md2o/)
+
+【我用CC交互式学习法一周读了五本书】 https://www.bilibili.com/video/BV17BoDBUEsY/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 从聊天到 Agent，普通人的 AI 进化路线怎么走？ 大多数人用AI只停留在网页聊天：问一句，答一句，新开对话一切归零，没有积累。 这期视频讲三件事： 网页聊天 vs Agent，差距到底在哪？ AI 使用的三个阶段：网页聊天 → Agent → 常驻 Agent，你现在在哪一级？ 三个真实场景演示：如何用 Kimi Claw（龙虾）+ Obsidian 让 AI 真正替你干活，包括： * 一键把高质量对话存进 Obsidian * 自动化日常任务 * 【彩蛋】国内用户如何无障碍实现 Obsidian + AI 无缝协作 本期最小行动：今天就打开 Agent，进行一次问答，把结论存进 Obsidian。 从"用完即走"到"长期积累"，就从这一步开始。 https://v.douyin.com/OC0e0YZxdBA/ 
 
