@@ -1,6 +1,7 @@
 # 未整理
 codex➕seedance 复刻制作各种视频 https://v.douyin.com/CuNjLV5t508/
 
+5.84 K@W.Zz dNj:/ 09/16 :8pm AI编程官方时代来了，三个巨头同一周集体出手 Anthropic做插件市场、微软做技能库和教程、CodeGraph四天四次霸榜涨粉3600+，这周开源社区变天了🔥 六条主线带你看完：官方生态（Claude Plugins一键装插件）、代码理解双雄（CodeGraph省70%工具调用 vs Understand-Anything交互式图谱）、Agent技能组（Superpowers/Multica/dotnet三选一）、AI教育三件套（435节课+Karpathy+微软全免费）、跨界利器（OpenHuman打118+服务/RuView九块钱穿墙检测/开源彭博终端/离线语音合成）。十五个项目全是干货，看视频了解全部！ # ai编程 # 开源项目 # AIAgent # 科技趋势 https://v.douyin.com/_3kTqffD0y4/ 复制此链接，打开Dou音搜索，直接观看视频！
 
 Hermes能力移植 用惯了龙虾OpenClaw，又想要Hermes的反思进化能力？这套方法，所有智能体都能轻松适配。拆解Hermes核心学习闭环，手把手教你把自我反思进化能力，移植到任意AI智能体上。保姆级教程。 https://v.douyin.com/wloOW18WFzQ/
 
@@ -34,6 +35,8 @@ GitHub 69k星开源工具ui-ux-pro-max，57种UI风格+96套配色，用AI agent
 # 知识库
 1.23 gOX:/ :7pm G@V.Lj 08/26 手把手教会你搭建Karpathy同款AI知识库（保姆级教程） # Karpathy # AI知识库 # Obsidian # 个人知识管理 # 最近迷上了新东西 https://v.douyin.com/blr6elCbMKg/
 
+从聊天到 Agent，普通人的 AI 进化路线怎么走？ 大多数人用AI只停留在网页聊天：问一句，答一句，新开对话一切归零，没有积累。 这期视频讲三件事： 网页聊天 vs Agent，差距到底在哪？ AI 使用的三个阶段：网页聊天 → Agent → 常驻 Agent，你现在在哪一级？ 三个真实场景演示：如何用 Kimi Claw（龙虾）+ Obsidian 让 AI 真正替你干活，包括： * 一键把高质量对话存进 Obsidian * 自动化日常任务 * 【彩蛋】国内用户如何无障碍实现 Obsidian + AI 无缝协作 本期最小行动：今天就打开 Agent，进行一次问答，把结论存进 Obsidian。 从"用完即走"到"长期积累"，就从这一步开始。 https://v.douyin.com/OC0e0YZxdBA/ 
+
 Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 搭建可以“自生长”的知识库 帮你把信息的利用效率 直接拉高到next level 它能定时抓取热点 能自动整理信息、定期复盘 能让知识体系自动迭代生长 还能直接输出文档、PPT、视频等成果 # AI新星计划 # 知识库 # codex https://v.douyin.com/fKbs_oOvHtg/ 复制此链接，打开Dou音搜索，直接观看视频！
 
 
@@ -43,12 +46,14 @@ Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 
 ## 翻译
 【开口即同传！Qwen3.5-LiveTranslate 正式发布】 https://www.bilibili.com/video/BV1VuL16ZEda/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
-# AI视频
+# 视频制作
 [AI时代的天才式创作：云南县城婚礼摄影师，靠 AI 震撼好莱坞！？](https://www.bilibili.com/video/BV1E45Q62EYx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
 [中专学历95后小伙打造爆款AI短片 是什么让梦想出圈？](https://www.bilibili.com/video/BV15ZGQ6BEDH/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 [我宣布这是今年最巅的AI真人剧，简直离了个大谱！鬼知道我震惊了几次！！！#《重生猛犬：开局救下女上司》](https://www.bilibili.com/video/BV1pL5S6jEJ9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 [【免费课程】AI视频做电影感，基础到进阶，构图光影运镜...](https://www.bilibili.com/video/BV1vx9hB5ELp/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
+codex跑ai漫剧一天三集！ai全自动实现漫剧制作自自由 个人自制ai漫剧有福了！虽然框架还不完善，后续添加人物音色参考，补镜头人工剪辑还是可以上剧的。大大增加效率# Ai https://v.douyin.com/AqeYA69zEqs/
 
 【AI工程师需要掌握什么技能，如何成为一个合格的AI工程师？】 https://www.bilibili.com/video/BV1VFRRB5Eg3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 【10分钟详解LangChain（组件拆解 + 构建你的第一个AI聊天机器人）,AI agent开发】 https://www.bilibili.com/video/BV1YoRJB7Ezb/?share_source=copy_web
@@ -74,3 +79,10 @@ Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 
 
 # 淘汰焦虑
 [老梁聊AI失业](https://youtu.be/12lOgDC6mGE?si=IOSb072K14Sk4Z9x)
+
+# 行业观察
+[一条视频带你拆解Token商业链](https://v.douyin.com/UWbEFAQGLZQ/)
+
+[万物皆可skill：我们到底在蒸馏什么？](https://v.douyin.com/oy_-n_OMpQg/)
+
+
