@@ -1,3 +1,8 @@
+# 未整理
+7.97 g@o.QX 01/16 XZz:/ :7pm AI时代普通人怎么赚钱？硅谷创业者讲了真话 # AI # 人工智能 # 一人公司 # AI工具 # 搞钱 # 赚钱 # AI赚钱 # AI创业 # 硅谷 https://v.douyin.com/_h4dRFqPLvk/
+
+
+---
 
 # AI 概念
 Token、上下文、MCP、函数调用、Agent、Skill等。
