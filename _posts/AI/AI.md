@@ -4,7 +4,19 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 
 参考：[[AI 概念]]
 
+# 机会
+[[FDE 工程师（前沿部署工程师）]]
+
+# 编程
+CLI+Skill 浏览器AI自动化框架 ，告别一切重复任务 这套流程可以让AI自动操作浏览器，代替你完成一切机械重复性工作。 而且特别省Token，很多工作流甚至全程不用AI参与，0 Token 就能把自动化任务跑起来
+[](https://v.douyin.com/5_zpWSeCz40/)
+
+# 知识库
+1.25 :5pm 06/10 Hvf:/ M@W.mD Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 搭建可以“自生长”的知识库 帮你把信息的利用效率 直接拉高到next level 它能定时抓取热点 能自动整理信息、定期复盘 能让知识体系自动迭代生长 还能直接输出文档、PPT、视频等成果 # AI新星计划 # 知识库 # codex https://v.douyin.com/fKbs_oOvHtg/ 复制此链接，打开Dou音搜索，直接观看视频！
+
 # 工具
+2.87 :2pm f@B.tE 09/05 HIV:/ 2026年我常用的AI产品清单 # ai # ai工具 # ai产品 # 工作提效 # 姜学长 https://v.douyin.com/SzroloMcNOE/ 复制此链接，打开Dou音搜索，直接观看视频！
+
 ## 翻译
 【开口即同传！Qwen3.5-LiveTranslate 正式发布】 https://www.bilibili.com/video/BV1VuL16ZEda/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 

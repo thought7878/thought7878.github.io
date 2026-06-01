@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/原理、概念/AI 概念.md",
+                "file": "_posts/methods/大脑/大脑.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 概念"
+              "title": "大脑"
             }
           }
         ],
@@ -991,21 +991,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/methods/要整理的.md",
     "_posts/AI/AI.md",
+    "_posts/AI/FDE 工程师（前沿部署工程师）.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/未命名",
+    "_posts/methods/大脑/大脑.md",
+    "_posts/读书笔记/教育.md",
+    "_posts/读书笔记/健康/资料.md",
+    "_posts/AI/原理、概念/AI 概念.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-01.md",
     "DailyNote/Journal/01 Daily/2026/05/2026-05-31.md",
     "DailyNote/Journal/01 Daily/2026/06",
-    "_posts/AI/原理、概念/AI 概念.md",
-    "_posts/methods/大脑/大脑.md",
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/读书笔记/健康/医保、户籍.md",
     "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/动物短视频合集.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/历史.md",
     "_posts/读书笔记/人性.md",
     "_posts/AI/编程/Trae/官方文档.md",
@@ -1029,16 +1033,12 @@
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/base/js/知识点总结/JS 执行机制/_闭包、作用域链.md",
-    "_posts/base/js/知识点总结/JS 执行机制/闭包.md",
-    "_posts/base/js/知识点总结/JS 执行机制/_Execution Context，Environment Record.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
     "_posts/AI/短视频/工具",
     "_posts/AI/编程/Claude Code/media",
     "_posts/AI/编程/Claude Code",
     "_posts/base/js/知识点总结/数据类型/media",
-    "DailyNote/Journal/01 Daily/2026/05/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

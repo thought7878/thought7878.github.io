@@ -565,14 +565,14 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 12.416666666666666,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 15,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 15,
         "ch": 0
       }
     },
@@ -2930,12 +2930,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 159
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 159
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4139,12 +4139,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 131
+        "line": 6,
+        "ch": 27
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 6,
+        "ch": 27
       }
     },
     "expandedKeys": []
@@ -8761,18 +8761,20 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 0,
+    "scroll": 12.604166666666666,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 17,
+        "ch": 127
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 17,
+        "ch": 127
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-4"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
     "scroll": 13.728260869565217,
@@ -33958,11 +33960,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -34389,12 +34391,12 @@
     "scroll": 85.85083047567962,
     "cursor": {
       "from": {
-        "line": 100,
-        "ch": 70
+        "line": 90,
+        "ch": 143
       },
       "to": {
-        "line": 100,
-        "ch": 70
+        "line": 90,
+        "ch": 143
       }
     },
     "expandedKeys": [
@@ -34406,11 +34408,11 @@
     "cursor": {
       "from": {
         "line": 9,
-        "ch": 156
+        "ch": 111
       },
       "to": {
         "line": 9,
-        "ch": 156
+        "ch": 111
       }
     },
     "expandedKeys": []
@@ -34458,5 +34460,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/AI/FDE 工程师（前沿部署工程师）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 67
+      },
+      "to": {
+        "line": 48,
+        "ch": 67
+      }
+    },
+    "expandedKeys": []
   }
 }
