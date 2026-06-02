@@ -1,4 +1,6 @@
 # 未整理
+【从夯到拉，锐评 32 个 AI 编程工具！】 https://www.bilibili.com/video/BV1cq5q6CEu3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 深度体验Claude code+DeepSeekV4 一个好的Agent框架配上一款性价比极高的大模型，你就能得到一个新的世界，个人开发者的福音# DeepSeek https://v.douyin.com/80KA51xeDRE/
 
 codex➕seedance 复刻制作各种视频 https://v.douyin.com/CuNjLV5t508/
@@ -48,8 +50,10 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 
 # 博主
 - [和AI抢工作，这三类人最吃香](https://v.douyin.com/es8z4e7pd50/)
-- [数字游牧人](https://space.bilibili.com/4848323?spm_id_from=333.1387.favlist.content.click)
+- [隔壁的程序员老王](https://space.bilibili.com/16433002?spm_id_from=333.788.upinfo.detail.click)
+- 
 - [Xuan_酱](https://space.bilibili.com/14848367?spm_id_from=333.1387.favlist.content.click)
+- [数字游牧人](https://space.bilibili.com/4848323?spm_id_from=333.1387.favlist.content.click)
 
 
 # 编程
