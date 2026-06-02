@@ -12754,11 +12754,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 7
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 7
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -26332,18 +26332,22 @@
     "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md": {
-    "scroll": 61.74697674418605,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 130,
-        "ch": 0
+        "line": 2,
+        "ch": 13
       },
       "to": {
-        "line": 130,
-        "ch": 0
+        "line": 2,
+        "ch": 13
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-6",
+      "item-2-1"
+    ]
   },
   "_posts/base/知识目录、路线图/学习计划/未命名.md": {
     "scroll": 0,
@@ -34530,6 +34534,29 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md": {
+    "scroll": 28.13736434108527,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 32
+      },
+      "to": {
+        "line": 42,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-1-33",
+      "item-2-26",
+      "item-1-0",
+      "item-2-3",
+      "item-3-4",
+      "item-3-8",
+      "item-3-20",
+      "item-3-17"
     ]
   }
 }

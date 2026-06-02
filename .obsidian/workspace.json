@@ -541,7 +541,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -556,7 +556,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "35983-zh"
+              "title": "06-02 汇总"
             }
           },
           {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -991,11 +991,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "ff0dcefab118086b",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
+    "_posts/AI/AI.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
-    "_posts/AI/AI.md",
     "_posts/读书笔记/健康/糖尿病/记录/2025/6月.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-01.md",
@@ -1018,9 +1021,6 @@
     "_posts/AI/短视频/AI内容创作.md",
     "_posts/AI/短视频/动物短视频合集.md",
     "_posts/读书笔记/历史.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/AI/编程/Trae/官方文档.md",
-    "_posts/AI/编程/Trae/Trae的基础.md",
     "_posts/AI/原理、概念/media/30679e0d8e8093dfe9db592bc91ce3e5_MD5.webp",
     "_posts/AI/原理、概念/media/b00531508b20315bedd391a3932016ae_MD5.webp",
     "_posts/AI/原理、概念/media/4703f592338b1febe09a65e91443080d_MD5.webp",
