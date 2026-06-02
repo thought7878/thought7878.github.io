@@ -58,6 +58,7 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 [AI编程代码越改越烂？5招拿捏](https://v.douyin.com/95U30qpCmHQ/)
 
 ---
+3.35 :9pm 10/20 x@f.bn eOK:/ 面了个5年前端，问他怎么审AI代码， 他说：浏览器里能点就行# 前端 # 前端开发 # 前端面试 # 前端面试题 # 前端开发工程师 https://v.douyin.com/RcCLtZjGO0o/
 
 [](https://v.douyin.com/5_zpWSeCz40/)
 CLI+Skill 浏览器AI自动化框架 ，告别一切重复任务 这套流程可以让AI自动操作浏览器，代替你完成一切机械重复性工作。 而且特别省Token，很多工作流甚至全程不用AI参与，0 Token 就能把自动化任务跑起来

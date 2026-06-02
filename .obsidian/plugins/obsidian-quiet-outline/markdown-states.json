@@ -8757,15 +8757,15 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 22.217391304347824,
+    "scroll": 48.32608695652174,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 4
+        "line": 63,
+        "ch": 79
       },
       "to": {
-        "line": 48,
-        "ch": 4
+        "line": 63,
+        "ch": 79
       }
     },
     "expandedKeys": []
@@ -26345,7 +26345,8 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-6",
+      "item-3-4",
+      "item-3-8",
       "item-2-1"
     ]
   },
@@ -34433,15 +34434,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 12
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 12
+        "line": 1,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-3-8"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-01.md": {
     "scroll": 26.222005208333332,
@@ -34537,28 +34541,24 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md": {
-    "scroll": 93.91034327009936,
+    "scroll": 75.15692032686415,
     "cursor": {
       "from": {
-        "line": 103,
-        "ch": 20
+        "line": 91,
+        "ch": 21
       },
       "to": {
-        "line": 103,
-        "ch": 20
+        "line": 91,
+        "ch": 21
       }
     },
     "expandedKeys": [
-      "item-1-33",
-      "item-2-26",
       "item-1-0",
-      "item-2-3",
-      "item-3-4",
       "item-3-8",
+      "item-2-26",
       "item-3-20",
-      "item-3-17",
-      "item-3-11",
-      "item-3-14"
+      "item-2-3",
+      "item-3-17"
     ]
   }
 }
