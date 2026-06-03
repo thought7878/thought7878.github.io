@@ -34622,20 +34622,21 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/教程/VibeCoding就该这么做！.md": {
-    "scroll": 70.36555989583333,
+    "scroll": 113.84090169270833,
     "cursor": {
       "from": {
-        "line": 63,
+        "line": 117,
         "ch": 0
       },
       "to": {
-        "line": 63,
+        "line": 117,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-8",
       "item-2-4",
-      "item-2-8"
+      "item-2-11"
     ]
   },
   "_posts/AI/编程/项目实践/sz/未命名.md": {
@@ -34750,12 +34751,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 26
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -34784,6 +34785,57 @@
       "to": {
         "line": 9,
         "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/详细设计文档.md": {
+    "scroll": 1541.4798177083333,
+    "cursor": {
+      "from": {
+        "line": 1553,
+        "ch": 41
+      },
+      "to": {
+        "line": 1553,
+        "ch": 41
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-129",
+      "item-2-70",
+      "item-3-75",
+      "item-3-71",
+      "item-2-59",
+      "item-3-60",
+      "item-3-66"
+    ]
+  },
+  "_posts/AI/编程/项目实践/sz/3 划分任务.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 14
+      },
+      "to": {
+        "line": 5,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/4 实现.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 0
+      },
+      "to": {
+        "line": 20,
+        "ch": 0
       }
     },
     "expandedKeys": []
