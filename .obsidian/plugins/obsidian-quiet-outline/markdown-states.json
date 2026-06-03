@@ -34622,19 +34622,20 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/教程/VibeCoding就该这么做！.md": {
-    "scroll": 20.962890625,
+    "scroll": 70.36555989583333,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 4
+        "line": 63,
+        "ch": 0
       },
       "to": {
-        "line": 25,
-        "ch": 8
+        "line": 63,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-4"
+      "item-2-4",
+      "item-2-8"
     ]
   },
   "_posts/AI/编程/项目实践/sz/未命名.md": {
@@ -34655,12 +34656,12 @@
     "scroll": 0.32323232323232326,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 7,
+        "ch": 13
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 7,
+        "ch": 13
       }
     },
     "expandedKeys": []
@@ -34728,30 +34729,63 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/项目实践/sz/概要设计文档.md": {
-    "scroll": 1414.037562012757,
+    "scroll": 1662.4783597565054,
     "cursor": {
       "from": {
-        "line": 1114,
-        "ch": 32
+        "line": 1676,
+        "ch": 0
       },
       "to": {
-        "line": 1114,
-        "ch": 32
+        "line": 1676,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
       "item-1-0",
-      "item-2-4",
-      "item-2-7",
-      "item-3-9",
-      "item-3-22",
-      "item-2-21",
-      "item-2-29",
-      "item-2-44",
-      "item-2-64",
-      "item-2-68",
-      "item-2-71"
+      "item-2-9",
+      "item-2-21"
     ]
+  },
+  "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/1. 第一步：确定需求.md": {
+    "scroll": 0.32323232323232326,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 13
+      },
+      "to": {
+        "line": 7,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/2.1 第二步：概要设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 3
+      },
+      "to": {
+        "line": 9,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
   }
 }

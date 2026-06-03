@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/项目实践/sz/概要设计文档.md",
+                "file": "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "概要设计文档"
+              "title": "VibeCoding就该这么做！"
             }
           }
         ],
@@ -991,14 +991,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
-    "_posts/AI/编程/项目实践/sz/2.1.第二步：概要设计.md",
+    "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
     "_posts/AI/编程/项目实践/sz/概要设计文档.md",
-    "_posts/AI/AI.md",
-    "_posts/AI/编程/项目实践/sz/需求文档.md",
     "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
-    "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md",
+    "_posts/AI/编程/项目实践/sz/2.1 第二步：概要设计.md",
+    "_posts/AI/编程/项目实践/sz/1. 第一步：确定需求.md",
+    "_posts/AI/编程/项目实践/sz/需求文档.md",
+    "_posts/AI/AI.md",
     "_posts/AI/编程/项目实践/sz",
     "_posts/读书笔记/男女.md",
     "_posts/AI/编程/项目实践",
@@ -1031,7 +1032,6 @@
     "_posts/读书笔记/健康/资料.md",
     "_posts/AI/FDE 工程师（前沿部署工程师）.md",
     "_posts/methods/大脑/大脑.md",
-    "_posts/读书笔记/教育.md",
     "_posts/AI/未命名",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/AI/原理、概念/media",
