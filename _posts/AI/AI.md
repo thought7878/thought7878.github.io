@@ -1,6 +1,8 @@
 # 未整理
 【从夯到拉，锐评 32 个 AI 编程工具！】 https://www.bilibili.com/video/BV1cq5q6CEu3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+装了这3个神级Skill，我零基础的朋友一晚上写一个项目 我有个朋友，零编程基础,白天上班，晚上用 Claude Code 三个 skill，一天就能实现一个项目。别装一堆 skill 了，三个就够。这期拆解 superpowers、frontend-design、chrome-devtools 怎么配合，覆盖一个项目的完整生命周期。  https://v.douyin.com/mgLsOgwJ9V8/
+
 深度体验Claude code+DeepSeekV4 一个好的Agent框架配上一款性价比极高的大模型，你就能得到一个新的世界，个人开发者的福音# DeepSeek https://v.douyin.com/80KA51xeDRE/
 
 codex➕seedance 复刻制作各种视频 https://v.douyin.com/CuNjLV5t508/
@@ -57,6 +59,8 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 
 
 # 编程
+[[AI 编程]]
+
 [如何不让AI瞎写代码？一个.md文件霸榜Github](https://v.douyin.com/naoNsrhmqmc/)
 [《Vibe Coding入门课程》2 | 工作流&避坑指南](https://v.douyin.com/nbI_n5Mkqtc/)
 [AI编程代码越改越烂？5招拿捏](https://v.douyin.com/95U30qpCmHQ/)
@@ -95,6 +99,9 @@ Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 
 2026年我常用的AI产品清单 https://v.douyin.com/SzroloMcNOE/
 
 [国内普通用户用这三个工具组合，让你使用claudecode的效率翻倍](https://v.douyin.com/sNHprt9X9ds/)
+
+## Claude Code
+[[CC]]
 
 ## 翻译
 【开口即同传！Qwen3.5-LiveTranslate 正式发布】 https://www.bilibili.com/video/BV1VuL16ZEda/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

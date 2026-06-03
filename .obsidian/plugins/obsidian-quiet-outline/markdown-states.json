@@ -8757,18 +8757,20 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 35.958333333333336,
+    "scroll": 16.625,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 0
+        "line": 20,
+        "ch": 71
       },
       "to": {
-        "line": 57,
-        "ch": 0
+        "line": 20,
+        "ch": 71
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-6"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
     "scroll": 13.728260869565217,
@@ -33983,7 +33985,7 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/Claude Code/CC.md": {
-    "scroll": 72.01009114583333,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 75,
@@ -33995,6 +33997,7 @@
       }
     },
     "expandedKeys": [
+      "item-1-1",
       "item-1-9"
     ]
   },
@@ -34524,7 +34527,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md": {
-    "scroll": 26.701171875,
+    "scroll": 27.778872282608695,
     "cursor": {
       "from": {
         "line": 31,
@@ -34578,14 +34581,60 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md": {
+    "scroll": 32.880050306555574,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 31
+      },
+      "to": {
+        "line": 40,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/编程/教程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 129
+      },
+      "to": {
+        "line": 0,
+        "ch": 129
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/教程/VibeCoding就该这么做！.md": {
+    "scroll": 1.3333333333333333,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-3"
+    ]
   }
 }

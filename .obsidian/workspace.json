@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-02"
+              "title": "2026-06-03"
             }
           },
           {
@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/AI.md",
+                "file": "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI"
+              "title": "VibeCoding就该这么做！"
             }
           }
         ],
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -994,6 +994,10 @@
   "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
     "_posts/AI/编程/AI 编程.md",
+    "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
+    "_posts/AI/编程/Claude Code/CC.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
     "_posts/AI/AI.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/京东\"商智\"项目开发计划.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
@@ -1004,7 +1008,6 @@
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
     "_posts/读书笔记/健康/糖尿病/记录/2025/6月.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-01.md",
     "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
     "_posts/读书笔记/健康/资料.md",
@@ -1018,9 +1021,6 @@
     "DailyNote/Journal/01 Daily/2026/05/2026-05-31.md",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/读书笔记/旅居、旅行.md",
-    "_posts/读书笔记/社会 & 资本主义.md",
-    "_posts/AI/短视频/AI内容创作.md",
-    "_posts/AI/短视频/动物短视频合集.md",
     "_posts/AI/原理、概念/media/30679e0d8e8093dfe9db592bc91ce3e5_MD5.webp",
     "_posts/AI/原理、概念/media/b00531508b20315bedd391a3932016ae_MD5.webp",
     "_posts/AI/原理、概念/media/4703f592338b1febe09a65e91443080d_MD5.webp",
