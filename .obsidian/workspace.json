@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
+                "file": "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "VibeCoding就该这么做！"
+              "title": "1.第一步：确定需求"
             }
           }
         ],
@@ -993,6 +993,11 @@
   },
   "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
+    "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
+    "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md",
+    "_posts/AI/编程/项目实践/sz",
+    "_posts/读书笔记/男女.md",
+    "_posts/AI/编程/项目实践",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
     "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
     "_posts/AI/编程/教程/media/50ba125d832a976328c32cd97ce47e10_MD5.webp",
@@ -1000,12 +1005,9 @@
     "_posts/AI/编程/教程/media/b901cb4f65932b391b32d903a05211ac_MD5.webp",
     "_posts/AI/编程/教程/media/6c60ee4166123e9cafb85fe398cb4ea3_MD5.webp",
     "_posts/AI/编程/教程/media/43dff1b8de916d88d40c3ac0c190b56c_MD5.webp",
-    "_posts/读书笔记/男女.md",
-    "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
     "_posts/AI/编程/教程/media/d2f2030ab0a3f8e23961c359e1f86c44_MD5.webp",
     "_posts/AI/编程/教程/media/e7e82038062381f397cafcccdbaedcc7_MD5.webp",
     "_posts/AI/编程/教程/media/573fec597803686a45239df4567e2bb6_MD5.webp",
-    "_posts/AI/编程/教程/media/8409bd2e20c73feb26d641a09f79103c_MD5.webp",
     "_posts/AI/编程/教程/media",
     "_posts/AI/编程/AI 编程.md",
     "_posts/AI/编程/Claude Code/CC.md",
@@ -1037,8 +1039,6 @@
     "_posts/AI/短视频/猫鼠类/剧本",
     "_posts/AI/短视频/猫鼠类",
     "_posts/AI/短视频/工具",
-    "_posts/AI/编程/Claude Code/media",
-    "_posts/AI/编程/Claude Code",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
