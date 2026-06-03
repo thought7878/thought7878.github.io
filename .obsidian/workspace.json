@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md",
+                "file": "_posts/AI/编程/项目实践/sz/概要设计文档.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.第一步：确定需求"
+              "title": "概要设计文档"
             }
           }
         ],
@@ -991,8 +991,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "_posts/AI/编程/项目实践/sz/2.1.第二步：概要设计.md",
+    "_posts/AI/编程/项目实践/sz/概要设计文档.md",
+    "_posts/AI/AI.md",
+    "_posts/AI/编程/项目实践/sz/需求文档.md",
     "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
     "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md",
     "_posts/AI/编程/项目实践/sz",
@@ -1013,7 +1017,6 @@
     "_posts/AI/编程/Claude Code/CC.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
-    "_posts/AI/AI.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/京东\"商智\"项目开发计划.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
@@ -1029,10 +1032,7 @@
     "_posts/AI/FDE 工程师（前沿部署工程师）.md",
     "_posts/methods/大脑/大脑.md",
     "_posts/读书笔记/教育.md",
-    "_posts/methods/要整理的.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/未命名",
-    "_posts/AI/原理、概念/AI 概念.md",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/AI/原理、概念/media",
     "_posts/AI/原理、概念",

@@ -8757,15 +8757,15 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 16.625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 71
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 20,
-        "ch": 71
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -34622,19 +34622,18 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/教程/VibeCoding就该这么做！.md": {
-    "scroll": 18.217195330216413,
+    "scroll": 20.962890625,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 0
+        "line": 25,
+        "ch": 4
       },
       "to": {
-        "line": 20,
-        "ch": 0
+        "line": 25,
+        "ch": 8
       }
     },
     "expandedKeys": [
-      "item-2-2",
       "item-2-4"
     ]
   },
@@ -34653,7 +34652,7 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/项目实践/sz/1.第一步：确定需求.md": {
-    "scroll": 0,
+    "scroll": 0.32323232323232326,
     "cursor": {
       "from": {
         "line": 13,
@@ -34665,5 +34664,94 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/需求文档.md": {
+    "scroll": 62.244031007751936,
+    "cursor": {
+      "from": {
+        "line": 78,
+        "ch": 9
+      },
+      "to": {
+        "line": 78,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-9",
+      "item-3-10",
+      "item-3-14",
+      "item-3-18"
+    ]
+  },
+  "_posts/AI/编程/项目实践/sz/2..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 10
+      },
+      "to": {
+        "line": 12,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/2.概要设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/2.1.第二步：概要设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 3
+      },
+      "to": {
+        "line": 9,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/编程/项目实践/sz/概要设计文档.md": {
+    "scroll": 1414.037562012757,
+    "cursor": {
+      "from": {
+        "line": 1114,
+        "ch": 32
+      },
+      "to": {
+        "line": 1114,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-4",
+      "item-2-7",
+      "item-3-9",
+      "item-3-22",
+      "item-2-21",
+      "item-2-29",
+      "item-2-44",
+      "item-2-64",
+      "item-2-68",
+      "item-2-71"
+    ]
   }
 }

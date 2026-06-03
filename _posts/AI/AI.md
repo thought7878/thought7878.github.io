@@ -1,4 +1,6 @@
 # 未整理
+【今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。】 https://www.bilibili.com/video/BV1xuVC6AEbg/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【从夯到拉，锐评 32 个 AI 编程工具！】 https://www.bilibili.com/video/BV1cq5q6CEu3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 装了这3个神级Skill，我零基础的朋友一晚上写一个项目 我有个朋友，零编程基础,白天上班，晚上用 Claude Code 三个 skill，一天就能实现一个项目。别装一堆 skill 了，三个就够。这期拆解 superpowers、frontend-design、chrome-devtools 怎么配合，覆盖一个项目的完整生命周期。  https://v.douyin.com/mgLsOgwJ9V8/
