@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
+                "file": "_posts/AI/编程/项目实践/sz/4 实现.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.2 第二步：详细设计"
+              "title": "4 实现"
             }
           }
         ],
@@ -991,13 +991,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/读书笔记/移民.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "_posts/AI/编程/项目实践/sz/3 划分任务.md",
+    "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
     "_posts/AI/编程/项目实践/sz/2.1 第二步：概要设计.md",
     "_posts/AI/编程/项目实践/sz/1. 第一步：确定需求.md",
-    "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
-    "_posts/AI/编程/项目实践/sz/3 划分任务.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/AI/编程/项目实践/sz/提示词.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-04.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md",
@@ -1031,7 +1032,6 @@
     "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
     "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/engineering/版本控制与协作/Git/命令流程图.excalidraw.md",
-    "_posts/读书笔记/健康/糖尿病/记录/2025/6月.md",
     "_posts/AI/未命名",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/AI/原理、概念/media",
