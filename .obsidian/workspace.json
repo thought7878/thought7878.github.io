@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-04.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-04"
+              "title": "2026-06-05"
             }
           },
           {
@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/项目实践/sz/4 实现.md",
+                "file": "_posts/AI/编程/项目实践/sz/前端/需求文档.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4 实现"
+              "title": "需求文档"
             }
           }
         ],
@@ -967,7 +967,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -991,24 +991,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
-    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/AI/编程/项目实践/sz/前端/概要设计文档.md",
     "_posts/AI/编程/项目实践/sz/4 实现.md",
-    "_posts/读书笔记/移民.md",
     "_posts/AI/编程/项目实践/sz/3 划分任务.md",
-    "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
-    "_posts/AI/编程/项目实践/sz/2.1 第二步：概要设计.md",
-    "_posts/AI/编程/项目实践/sz/1. 第一步：确定需求.md",
-    "_posts/AI/编程/项目实践/sz/提示词.md",
+    "_posts/AI/编程/项目实践/sz/全栈/概要设计文档.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M7交易分析.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M0认证与权限.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M6流量分析.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M8商品分析.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M1布局与导航.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/总体进度.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M9用户画像.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M12数据导出中心.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M2主题与国际化.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M5实时数据看板.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M4首页仪表盘.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M10行业与竞品分析.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M3通知与消息.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks/M11营销分析.md",
+    "_posts/AI/编程/项目实践/sz/前端/tasks",
+    "_posts/AI/编程/项目实践/sz/前端/需求文档.md",
+    "_posts/AI/编程/项目实践/sz/前端/详细设计文档.md",
+    "_posts/AI/编程/项目实践/sz/前端/提示词.md",
+    "_posts/AI/编程/项目实践/sz/前端",
+    "_posts/AI/编程/项目实践/sz/全栈",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-04.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-03.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/AI/编程/教程/VibeCoding就该这么做！.md",
-    "_posts/AI/编程/项目实践/sz/详细设计文档.md",
-    "_posts/AI/编程/项目实践/sz/概要设计文档.md",
-    "_posts/AI/编程/项目实践/sz/需求文档.md",
-    "_posts/AI/AI.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/移民.md",
+    "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md",
     "_posts/AI/编程/项目实践/sz",
     "_posts/AI/编程/项目实践",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
@@ -1022,23 +1035,10 @@
     "_posts/AI/编程/教程/media/e7e82038062381f397cafcccdbaedcc7_MD5.webp",
     "_posts/AI/编程/教程/media/573fec597803686a45239df4567e2bb6_MD5.webp",
     "_posts/AI/编程/教程/media",
-    "_posts/AI/编程/AI 编程.md",
-    "_posts/AI/编程/Claude Code/CC.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-02.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/京东\"商智\"项目开发计划.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
-    "_posts/读书笔记/健康/医保、户籍.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/04-19 汇总.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/35983-zh.md",
-    "_posts/engineering/版本控制与协作/Git/Git.md",
     "_posts/AI/未命名",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/AI/原理、概念/media",
     "_posts/AI/原理、概念",
-    "_posts/AI/短视频/猫鼠类/剧本",
-    "_posts/AI/短视频/猫鼠类",
-    "_posts/AI/短视频/工具",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

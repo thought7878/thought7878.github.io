@@ -34732,21 +34732,23 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/项目实践/sz/概要设计文档.md": {
-    "scroll": 1662.4783597565054,
+    "scroll": 111.13406540281088,
     "cursor": {
       "from": {
-        "line": 1676,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 1676,
+        "line": 20,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-9",
-      "item-2-21"
+      "item-2-21",
+      "item-2-1",
+      "item-2-4"
     ]
   },
   "_posts/AI/编程/项目实践/sz/2.2 第二步：详细设计.md": {
@@ -34829,29 +34831,29 @@
     "expandedKeys": []
   },
   "_posts/AI/编程/项目实践/sz/4 实现.md": {
-    "scroll": 24.064778645833332,
+    "scroll": 1.8051027639971653,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 28
+        "line": 17,
+        "ch": 20
       },
       "to": {
-        "line": 39,
-        "ch": 28
+        "line": 17,
+        "ch": 20
       }
     },
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-04.md": {
-    "scroll": 26.826171875,
+    "scroll": 29.909505208333332,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 32,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -34876,6 +34878,88 @@
       "item-2-6",
       "item-3-13",
       "item-2-12"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 28
+      },
+      "to": {
+        "line": 37,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/编程/项目实践/sz/全栈/概要设计文档.md": {
+    "scroll": 111.13406540281088,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 0
+      },
+      "to": {
+        "line": 20,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-9",
+      "item-2-21",
+      "item-2-1",
+      "item-2-4"
+    ]
+  },
+  "_posts/AI/编程/项目实践/sz/前端/概要设计文档.md": {
+    "scroll": 25.04319828280118,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "_posts/AI/编程/项目实践/sz/前端/需求文档.md": {
+    "scroll": 615.7541085271317,
+    "cursor": {
+      "from": {
+        "line": 587,
+        "ch": 17
+      },
+      "to": {
+        "line": 587,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-6",
+      "item-3-8",
+      "item-3-12",
+      "item-3-16",
+      "item-3-20",
+      "item-3-24",
+      "item-3-28",
+      "item-2-48",
+      "item-2-53",
+      "item-3-55",
+      "item-2-65"
     ]
   }
 }
