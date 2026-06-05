@@ -142,6 +142,10 @@ Advanced Features
 
 
 # Routers
+
+## 为什么使用路由？
+参考：[[为什么使用路由？]]
+
 ## React Router
 现代  React Router v6/v7 已经深度吸收了 Remix 的“数据路由”理念：
 
@@ -163,6 +167,9 @@ Advanced Features
 
 # 状态管理
 State Management
+
+## 为什么使用状态管理库？
+参考：[[为什么使用状态管理库？]]
 
 ## 复杂状态管理与数据流设计
 参考：[[复杂状态管理与数据流设计]]
