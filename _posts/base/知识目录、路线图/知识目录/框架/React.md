@@ -244,7 +244,7 @@ API，用于应用程序编程接口的缩写，*是软件对软件的接口*。
 
 ## Restful
 ### TanStack Query
-参考：[[TanStack Query]]
+参考：[[_posts/react/Restful/TanStack Query/TanStack Query]]
 ### Axios
 
 ### SWR

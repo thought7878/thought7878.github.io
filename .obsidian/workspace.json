@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/状态管理库/Zustand/Zustand.md",
+                "file": "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Zustand"
+              "title": "TanStack Query"
             }
           }
         ],
@@ -993,8 +993,15 @@
   },
   "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
-    "_posts/react/状态管理库/Zustand/Zustand-豆包.md",
+    "_posts/react/Restful/TanStack Query/TanStack Query.md",
+    "_posts/react/Restful/TanStack Query/为什么需要 TanStack Query？.md",
+    "_posts/react/Restful/TanStack Query/与状态管理库的关系.md",
+    "_posts/react/Restful/TanStack Query/服务端状态 & 客户端状态.md",
+    "_posts/react/状态管理库/TanStack Query/TanStack Query与Zustand的集成.md",
+    "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/react/状态管理库/TanStack Query",
+    "_posts/react/状态管理库/Zustand/Zustand-豆包.md",
     "_posts/react/状态管理库/Zustand/Zustand.md",
     "_posts/AI/编程/项目实践/sz/前端/详细设计文档.md",
     "_posts/react/状态管理库/为什么使用状态管理库？.md",
@@ -1013,12 +1020,6 @@
     "_posts/AI/编程/项目实践/sz/前端/tasks/M7交易分析.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/M0认证与权限.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/M6流量分析.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M8商品分析.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M1布局与导航.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/总体进度.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M9用户画像.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M12数据导出中心.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M2主题与国际化.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
     "_posts/AI/编程/项目实践/sz/全栈",
@@ -1038,7 +1039,6 @@
     "_posts/AI/未命名",
     "DailyNote/Journal/01 Daily/2026/06",
     "_posts/AI/原理、概念/media",
-    "_posts/AI/原理、概念",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

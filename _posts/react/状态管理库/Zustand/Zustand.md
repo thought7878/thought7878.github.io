@@ -119,7 +119,7 @@ set({ bears: 10 }, true)
 
 ## 四、 灵魂所在：中间件系统 (Middlewares)
 
-Zustand 的强大在于其洋葱模型中间件系统，可以像搭积木一样为 Store 扩展能力。
+Zustand 的强大在于其*洋葱模型中间件系统*，可以像搭积木一样为 Store 扩展能力。
 
 ### 1. `devtools`：接入 Redux DevTools
 让你的 Zustand store 可以在浏览器的 Redux DevTools 插件中进行时间旅行和状态审查。
@@ -211,7 +211,7 @@ const { bears, fish } = useStore(
 
 ---
 
-## 六、 架构设计：Store 的拆分与组合
+## 六、 **架构设计**：Store 的拆分与组合
 
 在大型应用中，**千万不要创建一个包含所有状态的“上帝 Store (God Store)”**。这会导致代码难以维护，且增加不必要的依赖。
 

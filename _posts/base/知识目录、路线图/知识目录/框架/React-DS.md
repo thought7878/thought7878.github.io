@@ -198,7 +198,7 @@
 #### Axios/Fetch
 
 #### TanStack Query
-参考 [[TanStack Query]]
+参考 [[_posts/react/Restful/TanStack Query/TanStack Query]]
 
 - `useQuery`
 - `useMutation`
