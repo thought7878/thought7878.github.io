@@ -2989,22 +2989,21 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React.md": {
-    "scroll": 189.85026041666666,
+    "scroll": 187.0576171875,
     "cursor": {
       "from": {
-        "line": 196,
-        "ch": 17
+        "line": 201,
+        "ch": 0
       },
       "to": {
-        "line": 196,
-        "ch": 3
+        "line": 201,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-3-1",
-      "item-2-1",
       "item-1-47",
-      "item-1-56"
+      "item-2-55"
     ]
   },
   "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
@@ -32156,18 +32155,20 @@
     "expandedKeys": []
   },
   "_posts/react/Restful/TanStack Query/TanStack Query.md": {
-    "scroll": 0,
+    "scroll": 11.962565104166666,
     "cursor": {
       "from": {
         "line": 24,
-        "ch": 17
+        "ch": 0
       },
       "to": {
         "line": 24,
-        "ch": 17
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/05/2026-05-13.md": {
     "scroll": 20.813925205229552,
@@ -35144,19 +35145,20 @@
     "expandedKeys": []
   },
   "_posts/react/状态管理库/TanStack Query/TanStack Query.md": {
-    "scroll": 11.813244402096236,
+    "scroll": 2.8125,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 33
+        "line": 17,
+        "ch": 27
       },
       "to": {
-        "line": 31,
-        "ch": 33
+        "line": 17,
+        "ch": 27
       }
     },
     "expandedKeys": [
-      "item-3-1"
+      "item-2-7",
+      "item-2-1"
     ]
   },
   "_posts/react/状态管理库/TanStack Query/TanStack Query与Zustand的集成.md": {
@@ -35197,6 +35199,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 69,
+        "ch": 19
+      },
+      "to": {
+        "line": 69,
+        "ch": 19
       }
     },
     "expandedKeys": []
