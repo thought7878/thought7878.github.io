@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-05"
+              "title": "2026-06-06"
             }
           },
           {
@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/编程/项目实践/sz/前端/详细设计文档.md",
+                "file": "_posts/react/状态管理库/Zustand/Zustand.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "详细设计文档"
+              "title": "Zustand"
             }
           }
         ],
@@ -993,16 +993,20 @@
   },
   "active": "65b2c57ff6c2a863",
   "lastOpenFiles": [
-    "_posts/react/状态管理库/为什么使用状态管理库？.md",
     "_posts/AI/编程/项目实践/sz/前端/详细设计文档.md",
+    "_posts/react/状态管理库/Zustand/Zustand.md",
+    "_posts/AI/编程/项目实践/sz/前端/概要设计文档.md",
+    "_posts/AI/编程/项目实践/sz/前端/需求文档.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "_posts/react/状态管理库/为什么使用状态管理库？.md",
+    "_posts/AI/编程/项目实践/sz/前端/提示词.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md",
     "_posts/react/教程/React Hooks 核心原理与实战/总结/状态管理库.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/react/Routers/为什么使用路由？.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-    "_posts/AI/编程/项目实践/sz/前端/概要设计文档.md",
-    "_posts/AI/编程/项目实践/sz/前端/需求文档.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/AI/编程/项目实践/sz/3 划分任务.md",
     "_posts/AI/编程/项目实践/sz/全栈/概要设计文档.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/M7交易分析.md",
@@ -1015,10 +1019,6 @@
     "_posts/AI/编程/项目实践/sz/前端/tasks/M12数据导出中心.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/M2主题与国际化.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/M5实时数据看板.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M4首页仪表盘.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M10行业与竞品分析.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M3通知与消息.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M11营销分析.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
     "_posts/AI/编程/项目实践/sz/全栈",
