@@ -2989,19 +2989,20 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React.md": {
-    "scroll": 137.8507225663014,
+    "scroll": 165.6396484375,
     "cursor": {
       "from": {
-        "line": 169,
+        "line": 178,
         "ch": 0
       },
       "to": {
-        "line": 169,
+        "line": 178,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-43"
+      "item-3-1",
+      "item-1-47"
     ]
   },
   "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
@@ -34928,9 +34929,10 @@
       }
     },
     "expandedKeys": [
-      "item-2-28",
+      "item-2-1",
       "item-1-0",
-      "item-3-30"
+      "item-3-30",
+      "item-2-28"
     ]
   },
   "_posts/AI/编程/项目实践/sz/前端/需求文档.md": {
@@ -34963,9 +34965,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-3-30",
-      "item-2-1"
+      "item-2-1",
+      "item-1-0"
     ]
   },
   "_posts/react/教程/React Hooks 核心原理与实战/总结/状态管理库.md": {
@@ -34997,21 +34998,21 @@
     "expandedKeys": []
   },
   "_posts/react/状态管理库/为什么使用状态管理库？.md": {
-    "scroll": 12.808354591836736,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 81,
-        "ch": 29
+        "line": 17,
+        "ch": 69
       },
       "to": {
-        "line": 81,
-        "ch": 29
+        "line": 17,
+        "ch": 69
       }
     },
     "expandedKeys": [
-      "item-2-9",
-      "item-2-4",
-      "item-2-0"
+      "item-2-10",
+      "item-2-5",
+      "item-2-1"
     ]
   },
   "_posts/react/Routers/未命名.md": {
@@ -35091,5 +35092,41 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/react/状态管理库/Zustand/Zustand.md": {
+    "scroll": 238.29524739583334,
+    "cursor": {
+      "from": {
+        "line": 223,
+        "ch": 21
+      },
+      "to": {
+        "line": 223,
+        "ch": 21
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-2-1",
+      "item-2-4",
+      "item-2-8"
+    ]
+  },
+  "_posts/react/状态管理库/Zustand/Zustand-豆包.md": {
+    "scroll": 14.264973958333334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-3-7"
+    ]
   }
 }

@@ -177,7 +177,7 @@ State Management
 ## Zustand
 目前**最流行**的轻量级状态库，基于 Hooks，无 Provider 嵌套，API 极简。
 
-参考：[[Zustand-DeepSeek]]、[[Zustand-豆包]]
+参考：[[Zustand]]、[[Zustand-DeepSeek]]、[[Zustand-豆包]]
 
 ## Jotai / Recoil
 原子化（Atomic）状态管理，适合细粒度更新，避免全局状态改变导致的全局重渲染。
