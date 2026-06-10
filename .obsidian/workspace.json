@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/读书笔记/男女.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "男女"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-06"
+              "title": "2026-06-10"
             }
           },
           {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -991,10 +991,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
-    "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md",
+    "_posts/methods/要整理的.md",
+    "_posts/AI/AI.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-10.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
+    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
+    "_posts/AI/编程/AI 编程.md",
     "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/react/Restful/TanStack Query/TanStack Query.md",
     "_posts/react/Restful/TanStack Query/为什么需要 TanStack Query？.md",
@@ -1010,16 +1017,9 @@
     "_posts/AI/编程/项目实践/sz/前端/需求文档.md",
     "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/AI/编程/项目实践/sz/前端/提示词.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-05.md",
     "_posts/react/教程/React Hooks 核心原理与实战/总结/状态管理库.md",
     "_posts/react/Routers/为什么使用路由？.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-    "_posts/AI/编程/项目实践/sz/3 划分任务.md",
-    "_posts/AI/编程/项目实践/sz/全栈/概要设计文档.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M7交易分析.md",
-    "_posts/AI/编程/项目实践/sz/前端/tasks/M0认证与权限.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
     "_posts/AI/编程/项目实践/sz/全栈",

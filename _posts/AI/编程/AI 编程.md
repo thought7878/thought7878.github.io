@@ -1,5 +1,10 @@
 
 
+# 方法
+[superpowers 探究](https://v.douyin.com/2GEfuB_Mb5A/)
+
+
+
 # 案例
 [[VibeCoding就该这么做！]]
 

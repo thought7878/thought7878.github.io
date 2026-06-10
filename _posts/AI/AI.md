@@ -1,4 +1,8 @@
 # 未整理
+https://youtu.be/fwdzsY9KWKk?si=-HJhZ-ioOfek1uI6
+
+[superpowers 探究](https://v.douyin.com/2GEfuB_Mb5A/)
+
 【今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。】 https://www.bilibili.com/video/BV1xuVC6AEbg/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 【从夯到拉，锐评 32 个 AI 编程工具！】 https://www.bilibili.com/video/BV1cq5q6CEu3/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
