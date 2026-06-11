@@ -157,7 +157,7 @@ Advanced Features
     - `action`：处理表单提交和数据变更。
     - `useFetcher`：在不改变当前 URL 的情况下与后端交互。
 
-参考：[[React Router-DeepSeek]]
+参考：[[React Router-DeepSeek]]、[[React Router]]
 
 
 ## TanStack Router
@@ -174,19 +174,20 @@ State Management
 ## 复杂状态管理与数据流设计
 参考：[[复杂状态管理与数据流设计]]
 
-## Zustand
+## 客户端状态
+### Zustand
 目前**最流行**的轻量级状态库，基于 Hooks，无 Provider 嵌套，API 极简。
 
 参考：[[Zustand]]、[[Zustand-DeepSeek]]、[[Zustand-豆包]]
 
-## Jotai / Recoil
+### Jotai / Recoil
 原子化（Atomic）状态管理，适合细粒度更新，避免全局状态改变导致的全局重渲染。
 
-## MobX
+### MobX
 
-## Context API
+### Context API
 
-## Redux Toolkit (RTK)
+### Redux Toolkit (RTK)
 适合超大型、业务逻辑极度复杂的企业级应用，严谨且配套完善（RTK Query）。
 
 参考：[[Redux-DS]] 、[[原理-DB]]
@@ -194,10 +195,12 @@ State Management
 【【React前端高频面试】（说一下Redux的核心思想）不能只背出单一数据源、状态只读、使用纯函数。带你从Redux如何通过状态快照序列， 实现完美的状态追溯】 https://www.bilibili.com/video/BV1RK47zxEWV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 【什么是Redux】 https://www.bilibili.com/video/BV1Q9Ge67EPU/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
-## TanStack Query / SWR
+## 服务端状态
+
+### TanStack Query / SWR
 参考：[[_posts/react/状态管理库/TanStack Query/TanStack Query|TanStack Query]]
 
-### 为什么需要 TanStack Query？
+#### 为什么需要 TanStack Query？
 参考：[[_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？|为什么需要 TanStack Query？]]
 
 

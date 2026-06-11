@@ -69,7 +69,7 @@ npm i @tanstack/react-query
 ```tsx
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-// 创建 client，可以在这里设置全局默认配置
+// 创建 client，可以在这里 设置全局默认配置
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -147,7 +147,7 @@ function AddTodo() {
 
 1. **`staleTime` (新鲜度时间)**：
    - 决定数据**何时算作“过期”**。
-   - 在 `staleTime` 内，组件挂载或窗口聚焦**不会**触发后台重新请求（直接用缓存）。
+   - *在 `staleTime` 内，组件挂载或窗口聚焦**不会**触发后台重新请求（直接用缓存）*。
    - 默认值为 `0`（即数据一拿到手就立刻算作 stale，但依然可以使用缓存，并在后台静默更新）。
 2. **`gcTime` (垃圾回收时间，v5 之前叫 `cacheTime`)**：
    - 决定数据**在内存中保留多久**。
@@ -158,7 +158,7 @@ function AddTodo() {
 
 ## 六、 高级特性
 
-TanStack Query 的强大之处在于它提供了大量应对复杂业务场景的 API：
+TanStack Query 的强大之处在于*它提供了大量应对复杂业务场景的 API：*
 
 ### 1. 依赖查询 (Dependent Queries)
 当 Query B 的执行依赖于 Query A 的结果时，使用 `enabled` 选项：
