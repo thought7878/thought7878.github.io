@@ -40,7 +40,7 @@ Query Key 是一个数组（如 `['todos']` 或 `['todo', 5]`），它是 TanSta
 - 当 Query Key 发生变化时，Query 会自动重新执行（例如从 `['todo', 1]` 切换到 `['todo', 2]`）。
 
 ### 4. Query Invalidation（查询失效）
-当你执行了一个 Mutation（比如新增了一条 Todo），本地的缓存就“脏”了。此时你需要告诉 TanStack Query 让相关的 Query Key 失效。失效后，TanStack Query 会自动在后台重新拉取最新数据并无缝更新 UI。
+当你执行了一个 Mutation（比如新增了一条 Todo），本地的缓存就“脏”了。*此时你需要告诉 TanStack Query 让相关的 Query Key 失效*。失效后，TanStack Query 会*自动在后台重新拉取最新数据并无缝更新 UI*。
 
 ---
 

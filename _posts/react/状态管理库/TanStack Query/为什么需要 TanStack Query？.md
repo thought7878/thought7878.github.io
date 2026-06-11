@@ -6,7 +6,7 @@
 
 ---
 
-## 痛点一：全局状态管理（Redux/Zustand）的严重臃肿
+## 痛点一：全局状态管理（Redux/Zustand）的**严重臃肿**
 
 **过去（没有 TanStack Query）：**
 我们习惯性地把**所有**数据都塞进全局 Store（如 Redux）。为了获取一个“用户列表”，你需要写：
@@ -19,7 +19,7 @@
 **现在（有了 TanStack Query）：**
 **Server State 和 Client State 彻底分家。**
 *Redux/Zustand 只负责存真正的客户端状态*（主题色、当前激活的 Tab）。而*服务端数据直接通过 `useQuery` 在组件内就近获取*。
-*   **架构收益**：消灭了 80% 的 Redux 样板代码（Boilerplate），状态树变得极度清爽，心智负担大幅降低。
+*   ***架构收益***：消灭了 80% 的 Redux 样板代码（Boilerplate），状态树变得极度清爽，心智负担大幅降低。
 
 ---
 
@@ -35,11 +35,11 @@
 ```typescript
 const { data, isLoading, error } = useQuery({ queryKey: ['user'], queryFn: fetchUser })
 ```
-*   **架构收益**：TanStack Query 底层自动接管了 `AbortController`，自动处理组件卸载时的请求取消，**内置防竞态机制**（只采纳最新 `queryKey` 的响应）。开发者只需关注“数据拿到了做什么”，彻底告别 `useEffect` 里的 `try/catch` 和 `isMounted` 标记。
+*   ***架构收益***：TanStack Query 底层自动接管了 `AbortController`，自动处理组件卸载时的请求取消，**内置防竞态机制**（只采纳最新 `queryKey` 的响应）。开发者只需关注“数据拿到了做什么”，彻底告别 `useEffect` 里的 `try/catch` 和 `isMounted` 标记。
 
 ---
 
-## 痛点三：糟糕的用户体验（白屏闪烁与重复请求）
+## 痛点三：糟糕的用户体验（**白屏闪烁与重复请求**）
 
 **过去（没有 TanStack Query）：**
 1.  **Loading 闪烁**：每次进入页面或切换路由，哪怕数据 1 分钟前刚请求过，依然会先展示一个全屏的 `Loading...` 骨架屏，等接口回来再渲染。体验割裂。
@@ -48,14 +48,14 @@ const { data, isLoading, error } = useQuery({ queryKey: ['user'], queryFn: fetch
 **现在（有了 TanStack Query）：**
 1.  **SWR（Stale-while-revalidate）策略**：只要缓存里有数据，**瞬间渲染旧数据（0 毫秒 Loading）**，然后在后台静默发请求，数据更新后无缝替换 UI。
 2.  **自动去重（Deduplication）**：无论页面上有多少个组件同时订阅了 `['user']`，TanStack Query **只会向服务端发出 1 次真实的网络请求**，并将结果多播（Multicast）给所有订阅者。
-*   **架构收益**：*应用从“动辄白屏”变成了“丝滑秒开”，同时大幅降低了服务端的 QPS 压力*。
+*   ***架构收益***：*应用从“动辄白屏”变成了“丝滑秒开”，同时大幅降低了服务端的 QPS 压力*。
 
 ---
 
-## 痛点四：真实世界网络的复杂性（同步、重试与离线）
+## 痛点四：真实世界网络的复杂性（**同步、重试与离线**）
 
 **过去（没有 TanStack Query）：**
-现代 Web 应用需要应对复杂的网络环境，但自己封装这些逻辑成本极高：
+现代 Web 应用需要*应对复杂的网络环境*，但*自己封装这些逻辑成本极高：*
 *   **窗口聚焦刷新**：用户切到微信聊了 5 分钟，切回浏览器，页面数据其实已经过期了。
 *   **断网重试**：进电梯断网了，出电梯后需要自动重新发起失败的请求。
 *   **轮询（Polling）**：需要每隔 5 秒刷新一次大屏数据。
@@ -76,13 +76,13 @@ useQuery({
 // 删除成功后，一行代码让所有相关列表自动重新拉取
 queryClient.invalidateQueries({ queryKey: ['todos'] })
 ```
-*   **架构收益**：将复杂的网络容错和同步逻辑**下沉到基础设施层**，业务代码保持极简，应用的健壮性（Robustness）得到质的飞跃。
+*   ***架构收益***：将复杂的网络容错和同步逻辑**下沉到基础设施层**，业务代码保持极简，应用的健壮性（Robustness）得到质的飞跃。
 
 ---
 
 ## 总结：范式转移（Paradigm Shift）
 
-作为架构师，我通常这样向团队总结为什么我们需要 TanStack Query：
+作为架构师，我通常这样向团队总结*为什么我们需要 TanStack Query：*
 
 > **“在没有 TanStack Query 之前，前端是在开‘手动挡’汽车。我们要自己踩离合（管理 loading）、自己换挡（处理 success/error）、自己看后视镜防碰撞（处理竞态和内存泄漏）。**
 > 
