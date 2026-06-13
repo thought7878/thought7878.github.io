@@ -409,18 +409,20 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 0,
+    "scroll": 22.833333333333332,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 34,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 34,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-3"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
     "scroll": 0,
@@ -568,15 +570,19 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 15,
+        "line": 295,
         "ch": 0
       },
       "to": {
-        "line": 15,
+        "line": 295,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-28",
+      "item-1-23",
+      "item-1-14"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -942,11 +948,11 @@
     "scroll": 45.80224609375,
     "cursor": {
       "from": {
-        "line": 64,
+        "line": 50,
         "ch": 0
       },
       "to": {
-        "line": 64,
+        "line": 50,
         "ch": 0
       }
     },
@@ -3065,12 +3071,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 17
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 17
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -4122,14 +4128,14 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 1.5,
+    "scroll": 4.173611111111111,
     "cursor": {
       "from": {
-        "line": 19,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 19,
+        "line": 20,
         "ch": 0
       }
     },
@@ -34823,12 +34829,12 @@
     "scroll": 47.55937984496124,
     "cursor": {
       "from": {
-        "line": 71,
-        "ch": 0
+        "line": 62,
+        "ch": 12
       },
       "to": {
-        "line": 56,
-        "ch": 0
+        "line": 62,
+        "ch": 12
       }
     },
     "expandedKeys": []
@@ -35282,14 +35288,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md": {
-    "scroll": 12.936399217221135,
+    "scroll": 20.48312557008209,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -35312,6 +35318,22 @@
     "expandedKeys": [
       "item-2-1",
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md": {
+    "scroll": 26.701171875,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

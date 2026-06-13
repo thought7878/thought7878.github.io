@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/世界趋势/趋势.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "趋势"
+              "title": "要整理的"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-12"
+              "title": "2026-06-13"
             }
           },
           {
@@ -824,7 +824,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -991,34 +991,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65b2c57ff6c2a863",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/AI/短视频/_视频制作方法.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/人生.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "_posts/读书笔记/男女.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md",
+    "DailyNote/Journal/01 Daily/2026-06-13.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/总体进度.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
     "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
     "_posts/react/Restful/TanStack Query/TanStack Query.md",
     "_posts/react/Routers/为什么使用路由？.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-11.md",
     "_posts/react/Routers/React-Router/React Router-DeepSeek.md",
     "_posts/react/Routers/React-Router/React Router.md",
     "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
-    "_posts/读书笔记/人生.md",
     "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-10.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/methods/要整理的.md",
-    "_posts/读书笔记/男女.md",
     "_posts/AI/AI.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-06.md",
-    "_posts/AI/编程/AI 编程.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/react/Restful/TanStack Query/为什么需要 TanStack Query？.md",
-    "_posts/react/Restful/TanStack Query/与状态管理库的关系.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
