@@ -570,11 +570,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 295,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 295,
+        "line": 2,
         "ch": 0
       }
     },
@@ -3071,12 +3071,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 141
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 5,
-        "ch": 141
+        "line": 7,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -13202,11 +13202,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 7,
         "ch": 0
       }
     },
@@ -33911,12 +33911,12 @@
     "scroll": 17.26239224137931,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 28,
+        "ch": 91
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 28,
+        "ch": 91
       }
     },
     "expandedKeys": [

@@ -823,8 +823,7 @@
               "title": "4 实现"
             }
           }
-        ],
-        "currentTab": 28
+        ]
       }
     ],
     "direction": "vertical"
@@ -967,7 +966,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -991,12 +990,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/methods/要整理的.md",
+    "_posts/读书笔记/经济、金融/知识点.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
+    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-14.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -1018,7 +1018,6 @@
     "_posts/react/Routers/React-Router/React Router.md",
     "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
     "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-10.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
