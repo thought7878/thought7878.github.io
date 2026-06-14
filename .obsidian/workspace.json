@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-13"
+              "title": "2026-06-14"
             }
           },
           {
@@ -991,16 +991,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-14.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
+    "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/人生.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md",
     "DailyNote/Journal/01 Daily/2026-06-13.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
@@ -1017,8 +1019,6 @@
     "_posts/react/状态管理库/TanStack Query/TanStack Query.md",
     "_posts/react/状态管理库/TanStack Query/为什么需要 TanStack Query？.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-10.md",
-    "_posts/methods/要整理的.md",
-    "_posts/AI/AI.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
