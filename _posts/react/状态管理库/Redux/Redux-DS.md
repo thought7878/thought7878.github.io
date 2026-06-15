@@ -134,7 +134,7 @@ function Counter() {
 
 ### 五、Redux 中间件与异步处理
 #### 1. Redux Thunk（处理异步逻辑）
-- 允许 action 是函数（而非普通对象），支持延迟派发。
+- *允许 action 是函数*（而非普通对象），支持延迟派发。
 - **Redux Toolkit 已默认集成 Thunk**，无需额外配置。
 
 #### 2. 异步 Action 示例
