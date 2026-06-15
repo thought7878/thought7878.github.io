@@ -190,7 +190,7 @@ State Management
 ### Redux Toolkit (RTK)
 适合超大型、业务逻辑极度复杂的企业级应用，严谨且配套完善（RTK Query）。
 
-参考：[[Redux-DS]] 、[[原理-DB]]
+参考：[[Redux Toolkit (RTK)]]、[[Redux-DS]] 、[[原理-DB]]
 
 【【React前端高频面试】（说一下Redux的核心思想）不能只背出单一数据源、状态只读、使用纯函数。带你从Redux如何通过状态快照序列， 实现完美的状态追溯】 https://www.bilibili.com/video/BV1RK47zxEWV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 【什么是Redux】 https://www.bilibili.com/video/BV1Q9Ge67EPU/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

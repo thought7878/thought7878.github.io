@@ -656,30 +656,6 @@
             }
           },
           {
-            "id": "c49987bcabeb5cdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/react/状态管理库/Redux/Redux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Redux"
-            }
-          },
-          {
             "id": "03bd30dc6f951e4b",
             "type": "leaf",
             "state": {
@@ -822,9 +798,33 @@
               "icon": "lucide-file",
               "title": "4 实现"
             }
+          },
+          {
+            "id": "c49987bcabeb5cdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "React"
+            }
           }
         ],
-        "currentTab": 27
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -993,13 +993,18 @@
   },
   "active": "c49987bcabeb5cdc",
   "lastOpenFiles": [
-    "_posts/react/状态管理库/Redux/Redux-DS.md",
+    "_posts/react/状态管理库/Zustand/Zustand.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "_posts/react/状态管理库/Redux/Redux-DS.md",
+    "_posts/react/状态管理库/Redux/Redux-1.md",
+    "_posts/react/状态管理库/Redux/Redux Toolkit (RTK).md",
+    "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
+    "_posts/读书笔记/人性.md",
     "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
     "_posts/react/状态管理库/为什么使用状态管理库？.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-15.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-14.md",
     "_posts/methods/要整理的.md",
@@ -1008,17 +1013,12 @@
     "DailyNote/Journal/01 Daily/2026/06/2026-06-13.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/短视频/_视频制作方法.md",
-    "_posts/读书笔记/人性.md",
     "_posts/读书笔记/人生.md",
     "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-12.md",
     "DailyNote/Journal/01 Daily/2026-06-13.md",
     "_posts/AI/编程/项目实践/sz/前端/tasks/总体进度.md",
     "_posts/base/知识目录、路线图/知识目录/_高级前端开发面试准备指南-DS.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
-    "_posts/react/Restful/TanStack Query/TanStack Query.md",
-    "_posts/react/Routers/为什么使用路由？.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-11.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
