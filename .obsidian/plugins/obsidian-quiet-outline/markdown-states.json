@@ -2993,20 +2993,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React.md": {
-    "scroll": 156.68318637883854,
+    "scroll": 143.5186820652174,
     "cursor": {
       "from": {
-        "line": 190,
-        "ch": 12
+        "line": 161,
+        "ch": 0
       },
       "to": {
-        "line": 190,
-        "ch": 12
+        "line": 161,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-1-47"
+      "item-1-43"
     ]
   },
   "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
@@ -3072,11 +3071,11 @@
     "cursor": {
       "from": {
         "line": 7,
-        "ch": 0
+        "ch": 71
       },
       "to": {
         "line": 7,
-        "ch": 0
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -33720,7 +33719,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md": {
-    "scroll": 45.009354365370505,
+    "scroll": 52.80128910548656,
     "cursor": {
       "from": {
         "line": 80,
@@ -33908,15 +33907,15 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md": {
-    "scroll": 17.26239224137931,
+    "scroll": 2.0833333333333335,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 91
+        "line": 15,
+        "ch": 35
       },
       "to": {
-        "line": 28,
-        "ch": 91
+        "line": 15,
+        "ch": 35
       }
     },
     "expandedKeys": [
@@ -34831,12 +34830,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 55,
-        "ch": 0
+        "line": 13,
+        "ch": 3
       },
       "to": {
-        "line": 55,
-        "ch": 0
+        "line": 13,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -34995,21 +34994,21 @@
     "expandedKeys": []
   },
   "_posts/react/状态管理库/为什么使用状态管理库？.md": {
-    "scroll": 0,
+    "scroll": 89.69720056697378,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 69
+        "line": 66,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 69
+        "line": 66,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-10",
+      "item-2-1",
       "item-2-5",
-      "item-2-1"
+      "item-2-10"
     ]
   },
   "_posts/react/Routers/未命名.md": {
@@ -35339,6 +35338,22 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-14.md": {
+    "scroll": 25.409505208333332,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-15.md": {
     "scroll": 26.701171875,
     "cursor": {
       "from": {
@@ -35350,6 +35365,8 @@
         "ch": 6
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
