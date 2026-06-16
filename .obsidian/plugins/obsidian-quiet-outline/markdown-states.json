@@ -481,15 +481,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 103.63728759726854,
+    "scroll": 106.04160711449897,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 1
+        "line": 125,
+        "ch": 0
       },
       "to": {
-        "line": 117,
-        "ch": 1
+        "line": 125,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -570,18 +570,19 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-28",
       "item-1-23",
-      "item-1-14"
+      "item-1-14",
+      "item-1-6"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
@@ -2993,21 +2994,19 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/框架/React.md": {
-    "scroll": 168.9833984375,
+    "scroll": 40.520198440822114,
     "cursor": {
       "from": {
-        "line": 183,
-        "ch": 20
+        "line": 124,
+        "ch": 30
       },
       "to": {
-        "line": 183,
-        "ch": 20
+        "line": 124,
+        "ch": 30
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-2-50",
-      "item-1-47"
+      "item-1-17"
     ]
   },
   "_posts/architect/前端架构/前端架构师的核心知识、职责-QW.md": {
@@ -34516,12 +34515,12 @@
     "scroll": 1.9166666666666665,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 21
+        "line": 21,
+        "ch": 37
       },
       "to": {
-        "line": 20,
-        "ch": 21
+        "line": 21,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -35104,8 +35103,6 @@
       }
     },
     "expandedKeys": [
-      "item-2-8",
-      "item-2-4",
       "item-2-1"
     ]
   },
@@ -35355,15 +35352,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-15.md": {
-    "scroll": 26.701171875,
+    "scroll": 23.993311036789297,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -35432,6 +35429,64 @@
     ]
   },
   "_posts/react/状态管理库/Redux/Redux-1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md": {
+    "scroll": 34.694435998783824,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 88
+      },
+      "to": {
+        "line": 38,
+        "ch": 88
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/methods/构建系统/《游戏改变世界》/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 128
+      },
+      "to": {
+        "line": 11,
+        "ch": 128
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读2.md": {
     "scroll": 0,
     "cursor": {
       "from": {
