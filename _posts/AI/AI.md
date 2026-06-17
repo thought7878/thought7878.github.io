@@ -80,6 +80,10 @@ CLI+Skill 浏览器AI自动化框架 ，告别一切重复任务 这套流程可
 [让AI做APP 不用写代码、不用懂设计！](https://v.douyin.com/0BTk5x9kTic/)
 GitHub 69k星开源工具ui-ux-pro-max，57种UI风格+96套配色，用AI agent trae，自然语言就能生成专业APP/小程序界面，手把手实操演示，小白必看。
 
+## AI+App
+
+【【HDC 2026】谷歌刚发“Ask Maps”，华为就掏出更强的AI地图？花瓣地图深度体验】 https://www.bilibili.com/video/BV1Anj36jECg/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 
 # 知识库
 1.23 gOX:/ :7pm G@V.Lj 08/26 手把手教会你搭建Karpathy同款AI知识库（保姆级教程） # Karpathy # AI知识库 # Obsidian # 个人知识管理 # 最近迷上了新东西 https://v.douyin.com/blr6elCbMKg/
