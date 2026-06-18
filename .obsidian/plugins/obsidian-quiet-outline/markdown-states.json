@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 22.833333333333332,
+    "scroll": 225.08868217054263,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 241,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 241,
         "ch": 0
       }
     },
@@ -570,20 +570,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 20
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 20
+        "line": 4,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-28",
-      "item-1-23",
-      "item-1-14",
-      "item-1-6"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -946,14 +941,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 45.80224609375,
+    "scroll": 44.66321331521739,
     "cursor": {
       "from": {
-        "line": 54,
+        "line": 62,
         "ch": 0
       },
       "to": {
-        "line": 54,
+        "line": 62,
         "ch": 0
       }
     },
@@ -3068,18 +3063,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 177.29166666666666,
+    "scroll": 180.91666666666666,
     "cursor": {
       "from": {
-        "line": 202,
-        "ch": 2
+        "line": 201,
+        "ch": 0
       },
       "to": {
-        "line": 202,
-        "ch": 2
+        "line": 201,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
     "scroll": 0,
@@ -5480,6 +5477,7 @@
       }
     },
     "expandedKeys": [
+      "item-1-0",
       "item-2-0"
     ]
   },
@@ -8763,14 +8761,14 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 62.34170542635659,
+    "scroll": 34.1875,
     "cursor": {
       "from": {
-        "line": 81,
+        "line": 59,
         "ch": 0
       },
       "to": {
-        "line": 81,
+        "line": 59,
         "ch": 0
       }
     },
@@ -26244,7 +26242,10 @@
         "ch": 24
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/36284.md": {
     "scroll": 117.79329427083333,
@@ -27374,11 +27375,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 153
+        "ch": 277
       },
       "to": {
         "line": 0,
-        "ch": 153
+        "ch": 277
       }
     },
     "expandedKeys": []
@@ -34544,15 +34545,15 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md": {
-    "scroll": 75.15692032686415,
+    "scroll": 52.06945736434108,
     "cursor": {
       "from": {
-        "line": 91,
-        "ch": 21
+        "line": 64,
+        "ch": 34
       },
       "to": {
-        "line": 91,
-        "ch": 21
+        "line": 64,
+        "ch": 34
       }
     },
     "expandedKeys": [
@@ -34561,7 +34562,10 @@
       "item-2-26",
       "item-3-20",
       "item-2-3",
-      "item-3-17"
+      "item-3-17",
+      "item-3-14",
+      "item-3-11",
+      "item-3-4"
     ]
   },
   "_posts/AI/编程/未命名.md": {
@@ -34833,12 +34837,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 3
+        "line": 8,
+        "ch": 15
       },
       "to": {
-        "line": 13,
-        "ch": 3
+        "line": 8,
+        "ch": 15
       }
     },
     "expandedKeys": []
@@ -35445,15 +35449,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md": {
-    "scroll": 34.694435998783824,
+    "scroll": 15.9375,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 88
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -35478,12 +35482,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 61
+        "line": 4,
+        "ch": 25
       },
       "to": {
-        "line": 8,
-        "ch": 61
+        "line": 4,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -35503,15 +35507,15 @@
     "expandedKeys": []
   },
   "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》-QWen.md": {
-    "scroll": 0,
+    "scroll": 0.8245614035087719,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 12,
+        "ch": 34
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 12,
+        "ch": 34
       }
     },
     "expandedKeys": []
@@ -35576,16 +35580,46 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 31,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-17.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-18.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 0
+      },
+      "to": {
+        "line": 36,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

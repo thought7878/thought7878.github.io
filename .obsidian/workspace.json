@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/鸿蒙/鸿蒙.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "鸿蒙"
+              "title": "要整理的"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-16"
+              "title": "2026-06-18"
             }
           },
           {
@@ -822,8 +822,33 @@
               "icon": "lucide-file",
               "title": "《游戏改变世界》-QWen"
             }
+          },
+          {
+            "id": "d44c0aca635a2109",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "06-02 汇总"
+            }
           }
-        ]
+        ],
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -990,36 +1015,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "d44c0aca635a2109",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》-QWen.md",
-    "_posts/methods/构建系统/《游戏改变世界》/相关的app.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1.md",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/methods/构建系统/《游戏改变世界》/中国的app.md",
-    "_posts/鸿蒙/鸿蒙.md",
-    "_posts/methods/要整理的.md",
-    "_posts/鸿蒙",
-    "_posts/AI/AI.md",
+    "_posts/AI/编程/项目实践/sz/4 实现.md",
+    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-18.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-17.md",
     "_posts/methods/常看的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/AI/AI.md",
+    "_posts/methods/要整理的.md",
+    "_posts/鸿蒙/鸿蒙.md",
+    "_posts/methods/构建系统/《游戏改变世界》/相关的app.md",
+    "_posts/methods/构建系统/《游戏改变世界》/中国的app.md",
+    "_posts/鸿蒙",
     "_posts/读书笔记/健康/糖尿病/糖尿病.md",
     "_posts/读书笔记/经济、金融/知识点.md",
     "_posts/读书笔记/兴趣/舞蹈.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读2.md",
     "_posts/methods/构建系统/《游戏改变世界》",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-15.md",
     "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
     "_posts/react/状态管理库/Zustand/Zustand.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
-    "_posts/react/状态管理库/Redux/Redux-DS.md",
-    "_posts/react/状态管理库/Redux/Redux-1.md",
-    "_posts/react/状态管理库/Redux/Redux Toolkit (RTK).md",
-    "_posts/读书笔记/人性.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/复杂状态管理与数据流设计.md",
-    "_posts/react/状态管理库/为什么使用状态管理库？.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React 面试考点.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",

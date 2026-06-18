@@ -56,6 +56,8 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 
 [[FDE 工程师（前沿部署工程师）]]
 
+【在AI里抛硬币，概率是50%吗？】 https://www.bilibili.com/video/BV1Wzjg65EM6/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 # 博主
 - [和AI抢工作，这三类人最吃香](https://v.douyin.com/es8z4e7pd50/)
 - [隔壁的程序员老王](https://space.bilibili.com/16433002?spm_id_from=333.788.upinfo.detail.click)
