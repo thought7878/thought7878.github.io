@@ -5476,10 +5476,7 @@
         "ch": 32
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-2-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/react/总结/核心概念、原理、源码/React 的原理1.md": {
     "scroll": 0,
@@ -34545,7 +34542,7 @@
     ]
   },
   "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md": {
-    "scroll": 52.06945736434108,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 64,
@@ -34556,17 +34553,7 @@
         "ch": 34
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-3-8",
-      "item-2-26",
-      "item-3-20",
-      "item-2-3",
-      "item-3-17",
-      "item-3-14",
-      "item-3-11",
-      "item-3-4"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/编程/未命名.md": {
     "scroll": 0,
@@ -35621,5 +35608,182 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/libraries/shadcn/issues 记录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/libraries/shadcn/issues/未命名.md": {
+    "scroll": 39.17051307779785,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/总结（2025年12月18日 — 2026年6月18日）.md": {
+    "scroll": 9.412760416666666,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 38
+      },
+      "to": {
+        "line": 25,
+        "ch": 38
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/未命名 1.md": {
+    "scroll": 37.05492558469171,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/issue #10933.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/筛选的issue.md": {
+    "scroll": 5.541666666666667,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 35
+      },
+      "to": {
+        "line": 21,
+        "ch": 35
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/源码检查的issue.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 22
+      },
+      "to": {
+        "line": 0,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/源码检查的issue1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 148
+      },
+      "to": {
+        "line": 0,
+        "ch": 148
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/未命名 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 18
+      },
+      "to": {
+        "line": 6,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/源码检查的issue 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 148
+      },
+      "to": {
+        "line": 0,
+        "ch": 148
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/源码检查的issue 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 148
+      },
+      "to": {
+        "line": 0,
+        "ch": 148
+      }
+    },
+    "expandedKeys": []
   }
 }

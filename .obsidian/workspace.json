@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
+                "file": "_posts/libraries/shadcn/issues/源码检查的issue 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06-02 汇总"
+              "title": "源码检查的issue 2"
             }
           }
         ],
@@ -1017,7 +1017,17 @@
   },
   "active": "d44c0aca635a2109",
   "lastOpenFiles": [
+    "_posts/libraries/shadcn/issues/源码检查的issue 1.md",
+    "_posts/libraries/shadcn/issues/源码检查的issue 2.md",
+    "_posts/libraries/shadcn/issues/未命名 1.md",
+    "_posts/libraries/shadcn/issues/筛选的issue.md",
+    "_posts/libraries/shadcn/issues/未命名.md",
+    "_posts/libraries/shadcn/issues/issue #10933.md",
+    "_posts/libraries/shadcn/issues/总结（2025年12月18日 — 2026年6月18日）.md",
+    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
+    "_posts/libraries/shadcn/issues/issues 记录.md",
+    "_posts/libraries/shadcn/issues",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》-QWen.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1.md",
@@ -1034,17 +1044,8 @@
     "_posts/methods/要整理的.md",
     "_posts/鸿蒙/鸿蒙.md",
     "_posts/methods/构建系统/《游戏改变世界》/相关的app.md",
-    "_posts/methods/构建系统/《游戏改变世界》/中国的app.md",
     "_posts/鸿蒙",
-    "_posts/读书笔记/健康/糖尿病/糖尿病.md",
-    "_posts/读书笔记/经济、金融/知识点.md",
-    "_posts/读书笔记/兴趣/舞蹈.md",
-    "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读2.md",
     "_posts/methods/构建系统/《游戏改变世界》",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-15.md",
-    "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
-    "_posts/react/状态管理库/Zustand/Zustand.md",
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
@@ -1062,7 +1063,6 @@
     "_posts/AI/编程/教程/media/e7e82038062381f397cafcccdbaedcc7_MD5.webp",
     "_posts/AI/编程/教程/media/573fec597803686a45239df4567e2bb6_MD5.webp",
     "_posts/AI/编程/教程/media",
-    "_posts/AI/未命名",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
