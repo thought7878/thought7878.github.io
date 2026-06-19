@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 225.08868217054263,
+    "scroll": 52.770833333333336,
     "cursor": {
       "from": {
-        "line": 241,
+        "line": 76,
         "ch": 0
       },
       "to": {
-        "line": 241,
+        "line": 76,
         "ch": 0
       }
     },
@@ -567,15 +567,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0,
+    "scroll": 35.854166666666664,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 38,
+        "ch": 92
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 38,
+        "ch": 92
       }
     },
     "expandedKeys": []
@@ -30060,11 +30060,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 11,
         "ch": 0
       }
     },
@@ -34275,11 +34275,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 9,
         "ch": 0
       }
     },
@@ -34515,12 +34515,12 @@
     "scroll": 1.9166666666666665,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 37
+        "line": 22,
+        "ch": 26
       },
       "to": {
-        "line": 21,
-        "ch": 37
+        "line": 22,
+        "ch": 26
       }
     },
     "expandedKeys": []
@@ -35594,14 +35594,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-18.md": {
-    "scroll": 0,
+    "scroll": 23.098206141684404,
     "cursor": {
       "from": {
-        "line": 36,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 36,
+        "line": 31,
         "ch": 0
       }
     },
@@ -35640,15 +35640,15 @@
     ]
   },
   "_posts/libraries/shadcn/issues/总结（2025年12月18日 — 2026年6月18日）.md": {
-    "scroll": 94.92503629404777,
+    "scroll": 33.369140625,
     "cursor": {
       "from": {
-        "line": 102,
-        "ch": 3
+        "line": 51,
+        "ch": 27
       },
       "to": {
-        "line": 102,
-        "ch": 0
+        "line": 51,
+        "ch": 27
       }
     },
     "expandedKeys": [
@@ -35789,6 +35789,22 @@
       "item-2-2",
       "item-2-8",
       "item-2-16"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md": {
+    "scroll": 11.778864970645792,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
