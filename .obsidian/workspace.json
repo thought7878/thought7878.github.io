@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md",
+                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-19"
+              "title": "2026-06-22"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
+                "file": "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-19（pr）"
+              "title": "2026-06-19（bug）"
             }
           }
         ],
@@ -991,7 +991,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1015,37 +1015,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "d44c0aca635a2109",
   "lastOpenFiles": [
+    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
+    "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
     "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
     "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-22.md",
+    "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/AI/AI.md",
+    "_posts/methods/常看的.md",
+    "_posts/鸿蒙/鸿蒙.md",
     "_posts/libraries/MUI_BaseUI/issues/2026-06-19（高质量）.md",
     "_posts/libraries/MUI_BaseUI/issues/2026-06-19（全部）.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-18.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/读书笔记/健康/性.md",
-    "_posts/读书笔记/男女.md",
     "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
     "_posts/libraries/shadcn/issues/未命名.md",
     "_posts/libraries/shadcn/issues/issue #10933.md",
     "_posts/libraries/shadcn/issues/源码检查的issue 1.md",
     "_posts/libraries/shadcn/issues/源码检查的issue 2.md",
     "_posts/libraries/shadcn/issues/筛选的issue.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
-    "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
     "_posts/libraries/shadcn/issues/issues 记录.md",
     "_posts/libraries/shadcn/issues",
     "_posts/react/总结/核心概念、原理、源码/bugs/04-18 汇总.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》-QWen.md",
-    "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1.md",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/AI/编程/项目实践/sz/4 实现.md",
-    "_posts/react/教程/妙码学院《2025大前端架构师训练营》/3--【240511】React 状态管理方案全解析-合一.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-16.md",
     "_posts/鸿蒙",
     "_posts/methods/构建系统/《游戏改变世界》",
     "_posts/react/状态管理库/TanStack Query",
