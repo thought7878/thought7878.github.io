@@ -120,6 +120,7 @@ Advanced Features
 ## Suspense & Lazy
 - `React.lazy` 实现组件级别的代码分割（按需加载）。
 - `Suspense` 提供 `fallback` UI，等待异步操作（懒加载组件、数据请求）完成。
+参考：、[[Suspense 2]]、[[11、深入理解 Suspense 和 ErrorBoundary]]、[[41.v18特性篇-Suspense]]
 
 ## flushSync
 参考：[[flushSync]]
