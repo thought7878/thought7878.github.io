@@ -121,6 +121,10 @@ Advanced Features
 - `React.lazy` 实现组件级别的代码分割（按需加载）。
 - `Suspense` 提供 `fallback` UI，等待异步操作（懒加载组件、数据请求）完成。
 
+## flushSync
+参考：[[flushSync]]
+
+
 # 性能优化
 随着 React 19 的发布，性能优化理念发生了**范式转移**：
 
