@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/MUI_BaseUI/组件/NavigationMenu.md",
+                "file": "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NavigationMenu"
+              "title": "issue 5103"
             }
           }
         ],
@@ -1017,8 +1017,10 @@
   },
   "active": "d44c0aca635a2109",
   "lastOpenFiles": [
-    "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
     "_posts/libraries/MUI_BaseUI/组件/NavigationMenu.md",
+    "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
+    "_posts/methods/要整理的.md",
+    "_posts/methods/常看的.md",
     "_posts/libraries/MUI_BaseUI/issues/2026-06-19（全部）.md",
     "_posts/libraries/MUI_BaseUI/BaseUI 介绍文档.md",
     "_posts/libraries/MUI_BaseUI/源码的技术概览.md",
@@ -1033,7 +1035,6 @@
     "_posts/English/单词/suspense.md",
     "_posts/react/教程/React 进阶实践指南/41.v18特性篇-Suspense.md",
     "_posts/react/教程/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
-    "_posts/methods/常看的.md",
     "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-22.md",
     "_posts/libraries/shadcn/issues/issue #9228.md",
@@ -1043,7 +1044,6 @@
     "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md",
-    "_posts/methods/要整理的.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
     "_posts/libraries/shadcn/issues",

@@ -98,7 +98,7 @@ if (isHover) {
 
 **核心思路**：在 hover 路径中移除 `flushSync`，改用常规批处理更新。React 18 的自动批处理会在事件处理器结束后统一渲染，避免在 `flushSync` 内触发 Suspense。
 
-`flushSync` 在此处的目的是确保 DOM 同步更新，但 hover 触发时不需要立即读取更新后的 DOM（`getBoundingClientRect()` 读取的是已存在的 trigger 元素，位置未变），因此移除 `flushSync` 不会影响功能。
+**`flushSync` 在此处的目的是确保 DOM 同步更新**，但 hover 触发时不需要立即读取更新后的 DOM（`getBoundingClientRect()` 读取的是已存在的 trigger 元素，位置未变），因此移除 `flushSync` 不会影响功能。
 
 ## Bug 分析与修复报告
 
