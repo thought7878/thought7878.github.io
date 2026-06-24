@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/测试.md",
+                "file": "_posts/libraries/MUI_BaseUI/源码的技术概览.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "测试"
+              "title": "源码的技术概览"
             }
           }
         ],
@@ -1017,15 +1017,18 @@
   },
   "active": "d44c0aca635a2109",
   "lastOpenFiles": [
-    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/NavigationMenu.md",
     "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/测试.md",
-    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
+    "_posts/libraries/MUI_BaseUI/源码的技术概览.md",
     "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/源码概述.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/NavigationMenu.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/初始化流程.md",
+    "_posts/读书笔记/人生.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
     "_posts/libraries/MUI_BaseUI/issues/2026-06-19（全部）.md",
     "_posts/libraries/MUI_BaseUI/BaseUI 介绍文档.md",
-    "_posts/libraries/MUI_BaseUI/源码的技术概览.md",
     "_posts/libraries/MUI_BaseUI/组件",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-24.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-23.md",
@@ -1042,9 +1045,6 @@
     "_posts/libraries/shadcn/issues/issue #9228.md",
     "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/pnpm-QW.md",
     "_posts/engineering/4.包管理工具（Package Manager）/pnpm & monorepo/pnpm/安装pnpm有哪些方式？.md",
-    "Pnpm2.md",
-    "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
-    "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
     "_posts/libraries/shadcn/issues",
