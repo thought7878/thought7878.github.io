@@ -45,7 +45,7 @@ handleMouseMove (hover 触发)
 
 多个 `NavigationMenu.Item` 时，CompositeList 需要协调多个列表项的位置和索引，每次注册都会触发 `dispatchSetState` 更新整个列表。单个 item 时没有这种协调开销，不会形成循环。
 
-## 临时解决方案
+## **临时解决方案**
 
 在 `NavigationMenu.Content` 内部再加一层 `<Suspense>` 边界，让 suspend 在内部消化，不影响外层：
 
