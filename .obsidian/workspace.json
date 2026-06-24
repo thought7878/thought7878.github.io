@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/MUI_BaseUI/组件/NavigationMenu.md",
+                "file": "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/测试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NavigationMenu"
+              "title": "测试"
             }
           }
         ],
@@ -1015,10 +1015,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "d44c0aca635a2109",
   "lastOpenFiles": [
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/NavigationMenu.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu/测试.md",
+    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
     "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
-    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu.md",
     "_posts/methods/要整理的.md",
     "_posts/methods/常看的.md",
     "_posts/libraries/MUI_BaseUI/issues/2026-06-19（全部）.md",
@@ -1043,7 +1045,6 @@
     "Pnpm2.md",
     "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
     "_posts/react/总结/核心概念、原理、源码/bugs/06-02 汇总.md",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-19.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
     "_posts/libraries/shadcn/issues",
@@ -1052,7 +1053,6 @@
     "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/项目实践/sz/前端/tasks",
     "_posts/AI/编程/项目实践/sz/前端",
-    "_posts/AI/编程/项目实践/sz/全栈",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
     "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
     "_posts/AI/编程/教程/media/50ba125d832a976328c32cd97ce47e10_MD5.webp",

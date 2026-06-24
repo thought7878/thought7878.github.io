@@ -628,7 +628,7 @@ ESLint 代码检查。
 ---
 
 ## test
-参考：[[测试]]
+参考：[[_posts/libraries/shadcn/component/react-day-picker/源码解析/package.json/测试]]
 
 ```json
 "test": "jest --selectProjects examples --selectProjects src",
