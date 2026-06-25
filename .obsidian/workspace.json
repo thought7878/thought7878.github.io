@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
+                "file": "_posts/libraries/shadcn/issues/重要的issue/10979.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-19（pr）"
+              "title": "10979"
             }
           }
         ],
@@ -1017,11 +1017,13 @@
   },
   "active": "d44c0aca635a2109",
   "lastOpenFiles": [
-    "_posts/读书笔记/人性.md",
-    "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
-    "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
-    "_posts/libraries/shadcn/shadcn ui 剖析.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md",
+    "_posts/libraries/shadcn/issues/重要的issue/10979.md",
+    "_posts/libraries/shadcn/shadcn ui 剖析.md",
+    "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
+    "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/libraries/shadcn/issues/重要的issue",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
     "_posts/base/知识目录、路线图/知识目录/未命名",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
@@ -1050,13 +1052,11 @@
     "DailyNote/Journal/01 Daily/2026/06/2026-06-23.md",
     "_posts/react/总结/核心概念、原理、源码/React 的原理.md",
     "_posts/react/总结/APIs/flushSync.md",
-    "_posts/react/总结/Components/Suspense 2.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
     "_posts/libraries/shadcn/issues",
     "_posts/鸿蒙",
     "_posts/methods/构建系统/《游戏改变世界》",
-    "_posts/react/状态管理库/TanStack Query",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
     "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
     "_posts/AI/编程/教程/media/50ba125d832a976328c32cd97ce47e10_MD5.webp",

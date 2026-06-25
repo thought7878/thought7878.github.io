@@ -943,7 +943,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 145.99305555555554,
+    "scroll": 153.42708333333334,
     "cursor": {
       "from": {
         "line": 153,
@@ -35891,7 +35891,7 @@
     "expandedKeys": []
   },
   "_posts/libraries/shadcn/issues/2026-06-19（pr）.md": {
-    "scroll": 388.36539155539515,
+    "scroll": 388.6425478166727,
     "cursor": {
       "from": {
         "line": 410,
@@ -35903,10 +35903,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-1-0",
-      "item-2-34",
-      "item-2-30"
+      "item-2-30",
+      "item-1-0"
     ]
   },
   "_posts/libraries/shadcn/issues/2026-06-19（bug）.md": {
@@ -35923,16 +35921,7 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-3",
-      "item-3-32",
-      "item-2-31",
-      "item-3-20",
-      "item-2-19",
-      "item-3-17",
-      "item-2-2",
-      "item-3-11",
-      "item-3-3",
-      "item-2-0"
+      "item-2-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-22.md": {
@@ -36405,8 +36394,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-5",
-      "item-1-0"
+      "item-1-0",
+      "item-2-5"
     ]
   },
   "_posts/libraries/shadcn/shadcn ui 剖析.md": {
@@ -36423,6 +36412,42 @@
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "_posts/libraries/shadcn/issues/重要的issue/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/libraries/shadcn/issues/重要的issue/10979.md": {
+    "scroll": 352.0843098958333,
+    "cursor": {
+      "from": {
+        "line": 360,
+        "ch": 0
+      },
+      "to": {
+        "line": 360,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-1-7",
+      "item-2-11",
+      "item-2-8",
+      "item-1-18",
+      "item-2-22"
     ]
   }
 }
