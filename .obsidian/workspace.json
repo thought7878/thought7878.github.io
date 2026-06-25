@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md",
+                "file": "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端架构师"
+              "title": "2026-06-19（pr）"
             }
           }
         ],
@@ -1017,8 +1017,10 @@
   },
   "active": "d44c0aca635a2109",
   "lastOpenFiles": [
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
+    "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
+    "_posts/libraries/shadcn/shadcn ui 剖析.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md",
+    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
     "_posts/base/知识目录、路线图/知识目录/未命名",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "_posts/architect/前端架构/前端架构师的职责-QW.md",
@@ -1049,8 +1051,6 @@
     "_posts/react/总结/Components/Suspense 2.md",
     "_posts/react/总结/Components/Suspense.md",
     "_posts/English/单词/suspense.md",
-    "_posts/react/教程/React 进阶实践指南/41.v18特性篇-Suspense.md",
-    "_posts/react/教程/react 通关秘籍/11、深入理解 Suspense 和 ErrorBoundary.md",
     "_posts/libraries/MUI_BaseUI/issues",
     "_posts/libraries/MUI_BaseUI",
     "_posts/libraries/shadcn/issues",

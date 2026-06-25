@@ -35891,7 +35891,7 @@
     "expandedKeys": []
   },
   "_posts/libraries/shadcn/issues/2026-06-19（pr）.md": {
-    "scroll": 406.2638335546702,
+    "scroll": 388.97618188379647,
     "cursor": {
       "from": {
         "line": 403,
@@ -35909,7 +35909,7 @@
     ]
   },
   "_posts/libraries/shadcn/issues/2026-06-19（bug）.md": {
-    "scroll": 220.366511627907,
+    "scroll": 2.5556343019135364,
     "cursor": {
       "from": {
         "line": 260,
@@ -35926,7 +35926,12 @@
       "item-3-32",
       "item-2-31",
       "item-3-20",
-      "item-2-19"
+      "item-2-19",
+      "item-3-17",
+      "item-2-2",
+      "item-3-11",
+      "item-3-3",
+      "item-2-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-22.md": {
@@ -36387,26 +36392,36 @@
     ]
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md": {
-    "scroll": 133.96744791666666,
+    "scroll": 14.37829457364341,
     "cursor": {
       "from": {
-        "line": 153,
-        "ch": 15
+        "line": 33,
+        "ch": 23
       },
       "to": {
-        "line": 153,
-        "ch": 15
+        "line": 33,
+        "ch": 23
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-1-0",
       "item-2-5",
-      "item-2-9",
-      "item-2-12",
-      "item-2-16",
-      "item-1-26",
-      "item-2-27"
+      "item-1-0"
+    ]
+  },
+  "_posts/libraries/shadcn/shadcn ui 剖析.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
