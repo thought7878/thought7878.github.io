@@ -26723,7 +26723,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md": {
-    "scroll": 35.53984496124031,
+    "scroll": 12.279411764705882,
     "cursor": {
       "from": {
         "line": 52,
@@ -31602,15 +31602,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 6
+        "line": 1,
+        "ch": 15
       },
       "to": {
-        "line": 0,
-        "ch": 6
+        "line": 1,
+        "ch": 15
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5"
+    ]
   },
   "_posts/base/知识目录、路线图/知识目录/核心知识点.md": {
     "scroll": 0,
@@ -36005,25 +36008,21 @@
     ]
   },
   "_posts/libraries/MUI_BaseUI/issues/issue 5103.md": {
-    "scroll": 319.6544568464078,
+    "scroll": 314.6647135416667,
     "cursor": {
       "from": {
-        "line": 332,
+        "line": 314,
         "ch": 0
       },
       "to": {
-        "line": 332,
+        "line": 314,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-1-7",
-      "item-2-8",
-      "item-3-14",
-      "item-2-12",
-      "item-1-24",
-      "item-2-25"
+      "item-2-24",
+      "item-2-25",
+      "item-1-24"
     ]
   },
   "_posts/libraries/MUI_BaseUI/Base UI 介绍文档.md": {
@@ -36338,7 +36337,7 @@
     ]
   },
   "_posts/libraries/MUI_BaseUI/源码的技术概览 2.md": {
-    "scroll": 119.92252604166667,
+    "scroll": 118.9326171875,
     "cursor": {
       "from": {
         "line": 136,
@@ -36353,6 +36352,61 @@
       "item-2-1",
       "item-2-5",
       "item-2-24"
+    ]
+  },
+  "_posts/architect/前端架构/前端架构师的职责-QW.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/前端架构师.md": {
+    "scroll": 0.31313131313131315,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5",
+      "item-2-1"
+    ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md": {
+    "scroll": 133.96744791666666,
+    "cursor": {
+      "from": {
+        "line": 153,
+        "ch": 15
+      },
+      "to": {
+        "line": 153,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12",
+      "item-2-16",
+      "item-1-26",
+      "item-2-27"
     ]
   }
 }
