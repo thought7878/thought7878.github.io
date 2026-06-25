@@ -3113,12 +3113,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 24
+        "line": 15,
+        "ch": 16
       },
       "to": {
-        "line": 10,
-        "ch": 24
+        "line": 15,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -36429,14 +36429,14 @@
     "expandedKeys": []
   },
   "_posts/libraries/shadcn/issues/重要的issue/10979.md": {
-    "scroll": 352.0843098958333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 360,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 360,
+        "line": 6,
         "ch": 0
       }
     },
