@@ -296,3 +296,44 @@ pnpm test:jsdom NavigationMenu --no-watch
 
 **向后兼容性**：
 此修改不影响任何公开 API，完全向后兼容。用户无需修改现有代码即可享受修复效果。
+
+
+# 
+
+## 修复总结
+
+### 问题
+GitHub Issue #5103: `[NavigationMenu] Maximum update depth exceeded for NavigationMenu.Content with suspending child`
+
+当 `NavigationMenu.Content` 包含一个会 suspend 的子组件(如 `React.lazy`),且 `Suspense` 边界在 `NavigationMenu` 上方时,首次 hover 打开 popup 会触发 "Maximum update depth exceeded" 错误。
+
+### 根本原因
+当子组件 suspend 时,React 会卸载并重新挂载子树。在卸载过程中,`disappearLayoutEffects` 会执行 ref cleanup,这些 cleanup 调用 `setState(null)` 来清除元素引用。同步的状态更新触发了重新渲染,重新渲染又导致子组件再次 suspend,形成无限循环。
+
+### 修复方案
+参考 PR #3700 的模式,在 ref callback 中添加 `if (element !== null)` 守卫,避免在 ref cleanup 时调用 `setState(null)`。由于组件卸载后状态会被丢弃,跳过 null 更新是安全的。
+
+### 修改的文件
+
+1. **[NavigationMenuRoot.tsx](file:///Users/ll/Desktop/资料/编程/仓库/react/base-ui/packages/react/src/navigation-menu/root/NavigationMenuRoot.tsx)** - 为 4 个元素 state setter(`setPositionerElement`、`setPopupElement`、`setViewportElement`、`setViewportTargetElement`)添加 null 守卫
+
+2. **[NavigationMenuRootContext.ts](file:///Users/ll/Desktop/资料/编程/仓库/react/base-ui/packages/react/src/navigation-menu/root/NavigationMenuRootContext.ts)** - 更新 setter 类型从 `React.Dispatch<React.SetStateAction<...>>` 为 `React.RefCallback<HTMLElement>`
+
+3. **[NavigationMenuTrigger.tsx](file:///Users/ll/Desktop/资料/编程/仓库/react/base-ui/packages/react/src/navigation-menu/trigger/NavigationMenuTrigger.tsx)** - 为 `handleTriggerElement` ref callback 添加 null 守卫
+
+4. **[NavigationMenuTrigger.test.tsx](file:///Users/ll/Desktop/资料/编程/仓库/react/base-ui/packages/react/src/navigation-menu/trigger/NavigationMenuTrigger.test.tsx)** - 添加测试 "does not trigger infinite update loop when Content suspends with outer Suspense boundary"
+
+![[_posts/libraries/MUI_BaseUI/issues/media/83684933b4524d324a11fbd208bd6f76_MD5.webp]]
+
+![[_posts/libraries/MUI_BaseUI/issues/media/c08f8fc778a70f20450ed321457fedf7_MD5.webp]]
+
+useFloating：
+![[_posts/libraries/MUI_BaseUI/issues/media/557781eb7071f3d632f97fdcfe04d3ee_MD5.webp]]
+![[_posts/libraries/MUI_BaseUI/issues/media/f61234c230e0e7bf82436e39e235ad54_MD5.webp]]
+
+### 测试结果
+- 所有 6621 个 jsdom 测试通过(953 skipped,0 failed)
+- TypeScript 类型检查通过
+- ESLint 检查通过(源文件无错误)
+- Prettier 格式检查通过
+
