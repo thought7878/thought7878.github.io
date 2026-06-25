@@ -943,15 +943,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 40.80224609375,
+    "scroll": 145.99305555555554,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 0
+        "line": 153,
+        "ch": 130
       },
       "to": {
-        "line": 57,
-        "ch": 0
+        "line": 153,
+        "ch": 130
       }
     },
     "expandedKeys": []
@@ -35891,21 +35891,22 @@
     "expandedKeys": []
   },
   "_posts/libraries/shadcn/issues/2026-06-19（pr）.md": {
-    "scroll": 388.97618188379647,
+    "scroll": 388.36539155539515,
     "cursor": {
       "from": {
-        "line": 401,
-        "ch": 0
+        "line": 410,
+        "ch": 25
       },
       "to": {
-        "line": 401,
-        "ch": 0
+        "line": 410,
+        "ch": 25
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-1-0",
-      "item-2-34"
+      "item-2-34",
+      "item-2-30"
     ]
   },
   "_posts/libraries/shadcn/issues/2026-06-19（bug）.md": {
