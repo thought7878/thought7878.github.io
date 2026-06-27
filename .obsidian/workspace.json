@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/libraries/radix-ui/概览.md",
+                "file": "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "概览"
+              "title": "issue 5131"
             }
           }
         ],
@@ -1015,13 +1015,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "d44c0aca635a2109",
   "lastOpenFiles": [
+    "_posts/libraries/radix-ui/概览.md",
+    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
+    "_posts/libraries/radix-ui/组件/Dialog/源码 整体分析.md",
+    "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-27.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-26.md",
-    "_posts/libraries/radix-ui/概览.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/libraries/radix-ui/组件/Dialog/源码 整体分析.md",
     "_posts/libraries/clsx、classnames、tailwind-merge/tailwind-merge.md",
     "_posts/libraries/radix-ui/组件/Dialog/Dialog 使用.md",
     "_posts/libraries/radix-ui/issues/重要的issue/3461、3142（类10979）.md",
@@ -1054,7 +1055,6 @@
     "_posts/libraries/MUI_BaseUI/issues/media/c08f8fc778a70f20450ed321457fedf7_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/83684933b4524d324a11fbd208bd6f76_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media",
-    "_posts/libraries/MUI_BaseUI/源码的技术概览 1.md",
     "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
     "_posts/libraries/MUI_BaseUI/组件",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
