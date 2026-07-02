@@ -846,9 +846,33 @@
               "icon": "lucide-file",
               "title": "issue 5131"
             }
+          },
+          {
+            "id": "1c40a6db2ecda714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "介绍"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -1015,13 +1039,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "1c40a6db2ecda714",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/media/b8d60aaadb75c8956f259cccecd8095d_MD5.webp",
+    "_posts/architect/_教程/Advanced Frontend Course/media/8c7c4be64adfa14df68d44c8aa4821c0_MD5.webp",
+    "_posts/architect/_教程/Advanced Frontend Course/media",
+    "_posts/architect/_教程/前端架构初识.md",
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course",
+    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
+    "_posts/methods/要整理的.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-02.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-27.md",
     "DailyNote/Journal/01 Daily/2026/07",
     "_posts/methods/常看的.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/男女.md",
@@ -1029,7 +1060,6 @@
     "_posts/methods/media/2731b1dda1aaf2cf325a53ea4ed25029_MD5.webp",
     "_posts/methods/media/4eb891436b94475eb1e93a716f3b4a20_MD5.webp",
     "_posts/methods/media/331aa737ec5e9d4989f03a0c62a51ec4_MD5.webp",
-    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
     "_posts/AI/短视频/AI内容创作.md",
     "_posts/libraries/radix-ui/概览.md",
     "_posts/libraries/radix-ui/组件/Dialog/源码 整体分析.md",
@@ -1049,20 +1079,14 @@
     "DailyNote/Journal/01 Daily/2026/06/2026-06-24.md",
     "_posts/libraries/radix-ui",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md",
-    "_posts/libraries/shadcn/shadcn ui 剖析.md",
-    "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
     "_posts/libraries/shadcn/issues/重要的issue",
     "_posts/base/知识目录、路线图/知识目录/未命名",
     "_posts/libraries/MUI_BaseUI/issues/media/f61234c230e0e7bf82436e39e235ad54_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/557781eb7071f3d632f97fdcfe04d3ee_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/c08f8fc778a70f20450ed321457fedf7_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/83684933b4524d324a11fbd208bd6f76_MD5.webp",
-    "_posts/libraries/MUI_BaseUI/issues/media",
-    "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
     "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
-    "_posts/AI/编程/教程/media/50ba125d832a976328c32cd97ce47e10_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
