@@ -36838,15 +36838,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 138.20084372707262,
+    "scroll": 84.48274739583333,
     "cursor": {
       "from": {
-        "line": 153,
-        "ch": 17
+        "line": 99,
+        "ch": 14
       },
       "to": {
-        "line": 153,
-        "ch": 17
+        "line": 99,
+        "ch": 5
       }
     },
     "expandedKeys": [
@@ -36861,6 +36861,36 @@
       "item-3-38",
       "item-3-42",
       "item-3-49"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 70
+      },
+      "to": {
+        "line": 6,
+        "ch": 70
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }

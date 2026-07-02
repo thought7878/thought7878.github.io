@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "1.引言与架构基础"
             }
           }
         ],
@@ -1039,13 +1039,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "1c40a6db2ecda714",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理",
     "_posts/architect/_教程/Advanced Frontend Course/media/b8d60aaadb75c8956f259cccecd8095d_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/media/8c7c4be64adfa14df68d44c8aa4821c0_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/media",
     "_posts/architect/_教程/前端架构初识.md",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Advanced Frontend Course",
     "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
     "_posts/methods/要整理的.md",
@@ -1080,13 +1082,11 @@
     "_posts/libraries/radix-ui",
     "_posts/English/查询单词的提示词模版.md",
     "_posts/libraries/shadcn/issues/重要的issue",
-    "_posts/base/知识目录、路线图/知识目录/未命名",
     "_posts/libraries/MUI_BaseUI/issues/media/f61234c230e0e7bf82436e39e235ad54_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/557781eb7071f3d632f97fdcfe04d3ee_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/c08f8fc778a70f20450ed321457fedf7_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/83684933b4524d324a11fbd208bd6f76_MD5.webp",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
-    "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
