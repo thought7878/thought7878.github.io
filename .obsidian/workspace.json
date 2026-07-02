@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/06/2026-06-27.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-06-27"
+              "title": "2026-07-02"
             }
           },
           {
@@ -848,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1015,13 +1015,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d44c0aca635a2109",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
-    "_posts/libraries/radix-ui/概览.md",
-    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
-    "_posts/libraries/radix-ui/组件/Dialog/源码 整体分析.md",
-    "_posts/读书笔记/人性.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-02.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-27.md",
+    "DailyNote/Journal/01 Daily/2026/07",
+    "_posts/methods/常看的.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/健康/资料.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/AI/短视频/_视频制作方法.md",
+    "_posts/methods/media/2731b1dda1aaf2cf325a53ea4ed25029_MD5.webp",
+    "_posts/methods/media/4eb891436b94475eb1e93a716f3b4a20_MD5.webp",
+    "_posts/methods/media/331aa737ec5e9d4989f03a0c62a51ec4_MD5.webp",
+    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
+    "_posts/AI/短视频/AI内容创作.md",
+    "_posts/libraries/radix-ui/概览.md",
+    "_posts/libraries/radix-ui/组件/Dialog/源码 整体分析.md",
     "DailyNote/Journal/01 Daily/2026/06/2026-06-26.md",
     "_posts/libraries/clsx、classnames、tailwind-merge/tailwind-merge.md",
     "_posts/libraries/radix-ui/组件/Dialog/Dialog 使用.md",
@@ -1041,28 +1052,17 @@
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构师.md",
     "_posts/libraries/shadcn/shadcn ui 剖析.md",
     "_posts/libraries/shadcn/issues/2026-06-19（bug）.md",
-    "_posts/libraries/shadcn/issues/2026-06-19（pr）.md",
     "_posts/libraries/shadcn/issues/重要的issue",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
     "_posts/base/知识目录、路线图/知识目录/未命名",
-    "_posts/base/知识目录、路线图/知识目录/框架/React.md",
-    "_posts/architect/前端架构/前端架构师的职责-QW.md",
-    "_posts/libraries/MUI_BaseUI/issues/issue 5103.md",
-    "_posts/libraries/MUI_BaseUI/源码的技术概览 2.md",
     "_posts/libraries/MUI_BaseUI/issues/media/f61234c230e0e7bf82436e39e235ad54_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/557781eb7071f3d632f97fdcfe04d3ee_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/06/2026-06-25.md",
     "_posts/libraries/MUI_BaseUI/issues/media/c08f8fc778a70f20450ed321457fedf7_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media/83684933b4524d324a11fbd208bd6f76_MD5.webp",
     "_posts/libraries/MUI_BaseUI/issues/media",
     "_posts/libraries/MUI_BaseUI/组件/NavigationMenu",
-    "_posts/libraries/MUI_BaseUI/组件",
     "_posts/AI/编程/教程/media/541cf48be4abeff60fd0387a19bf25a7_MD5.webp",
     "_posts/AI/编程/教程/media/c083fb97a9cd5615874297d3e0640366_MD5.webp",
     "_posts/AI/编程/教程/media/50ba125d832a976328c32cd97ce47e10_MD5.webp",
-    "_posts/AI/编程/教程/media/94795aa672fd0f995ac30d6832cd0c0e_MD5.webp",
-    "_posts/AI/编程/教程/media/b901cb4f65932b391b32d903a05211ac_MD5.webp",
-    "_posts/AI/编程/教程/media/6c60ee4166123e9cafb85fe398cb4ea3_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
