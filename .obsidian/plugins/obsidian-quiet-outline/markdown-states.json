@@ -36808,14 +36808,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-02.md": {
-    "scroll": 27.37669836956522,
+    "scroll": 22.51444207965947,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -36887,17 +36887,35 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.构建基础并测试其效果.md": {
-    "scroll": 58.93872658340767,
+    "scroll": 20.453329279416234,
     "cursor": {
       "from": {
-        "line": 70,
+        "line": 33,
         "ch": 0
       },
       "to": {
-        "line": 70,
+        "line": 33,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-03.md": {
+    "scroll": 34.365447470817124,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 31
+      },
+      "to": {
+        "line": 40,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
