@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.构建基础并测试其效果.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.构建基础并测试其效果"
+              "title": "介绍"
             }
           }
         ],
@@ -1041,13 +1041,15 @@
   },
   "active": "1c40a6db2ecda714",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.完整的用例说明与设计模式.md",
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
     "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
-    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.构建基础并测试其效果.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/1029d32c6125881f8ec572c72aac525e_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/2381a8e895cfb9a92d4a2d0b8149b6fe_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-03.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-02.md",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/8556691c9f6fba09680b82ef547adfc0_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/8fc17c2742e6811d54cd35f7cf9fa973_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/fcf698114e754bec89188069e0b47a4e_MD5.png",
@@ -1055,7 +1057,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/9a2077918848fad3bd6446bd712a76c5_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/bc0df823645b022e607ee8460ef4cfd0_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/6ead8e0106e659134e7fb1ce1b14b41e_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/methods/media/2731b1dda1aaf2cf325a53ea4ed25029_MD5.webp",
     "_posts/methods/常看的.md",

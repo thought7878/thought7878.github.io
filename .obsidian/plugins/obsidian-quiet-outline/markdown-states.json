@@ -36838,14 +36838,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 90.87621797185132,
+    "scroll": 90.68765788523999,
     "cursor": {
       "from": {
-        "line": 106,
+        "line": 107,
         "ch": 0
       },
       "to": {
-        "line": 106,
+        "line": 107,
         "ch": 0
       }
     },
@@ -36882,24 +36882,24 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-2"
+      "item-1-0"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.构建基础并测试其效果.md": {
-    "scroll": 20.453329279416234,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 0
+        "line": 7,
+        "ch": 56
       },
       "to": {
-        "line": 33,
-        "ch": 0
+        "line": 7,
+        "ch": 56
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-03.md": {
@@ -36917,5 +36917,36 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 56
+      },
+      "to": {
+        "line": 7,
+        "ch": 56
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-4"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/完整的用例说明与设计模式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
