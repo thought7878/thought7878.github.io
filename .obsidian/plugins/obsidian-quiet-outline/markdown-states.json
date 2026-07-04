@@ -36872,7 +36872,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md": {
-    "scroll": 28.233762108940766,
+    "scroll": 27.91565891472868,
     "cursor": {
       "from": {
         "line": 85,
@@ -36922,15 +36922,15 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
-    "scroll": 88.4475356824264,
+    "scroll": 88.85160199226881,
     "cursor": {
       "from": {
-        "line": 95,
-        "ch": 34
+        "line": 92,
+        "ch": 19
       },
       "to": {
-        "line": 95,
-        "ch": 34
+        "line": 92,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -37027,6 +37027,53 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/architect/前端四层分层架构模型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 12
+      },
+      "to": {
+        "line": 0,
+        "ch": 87
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 77
+      },
+      "to": {
+        "line": 4,
+        "ch": 77
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5"
     ]
   }
 }
