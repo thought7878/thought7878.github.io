@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/现代前端五层架构模型.md",
+                "file": "_posts/architect/五层架构模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "现代前端五层架构模型"
+              "title": "五层架构模型"
             }
           }
         ],
@@ -1039,11 +1039,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c40a6db2ecda714",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "_posts/architect/四层架构模型.md",
+    "_posts/architect/五层架构模型.md",
     "_posts/architect/领域（Domain）.md",
-    "_posts/architect/现代前端五层架构模型.md",
-    "_posts/architect/前端四层分层架构模型.md",
     "_posts/architect/前端架构.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
