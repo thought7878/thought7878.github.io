@@ -565,15 +565,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 97.66666666666667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 101,
-        "ch": 51
+        "line": 6,
+        "ch": 58
       },
       "to": {
-        "line": 101,
-        "ch": 51
+        "line": 6,
+        "ch": 58
       }
     },
     "expandedKeys": [
@@ -3059,15 +3059,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 0,
+    "scroll": 83.35416666666667,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 120
+        "line": 91,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 120
+        "line": 91,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -36872,7 +36872,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md": {
-    "scroll": 0,
+    "scroll": 28.233762108940766,
     "cursor": {
       "from": {
         "line": 85,
@@ -36884,7 +36884,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.构建基础并测试其效果.md": {
@@ -36905,15 +36906,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-03.md": {
-    "scroll": 34.365447470817124,
+    "scroll": 27.050611413043477,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -36921,14 +36922,14 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
-    "scroll": 68.65494791666667,
+    "scroll": 88.4475356824264,
     "cursor": {
       "from": {
-        "line": 75,
+        "line": 106,
         "ch": 0
       },
       "to": {
-        "line": 75,
+        "line": 106,
         "ch": 0
       }
     },
@@ -36966,15 +36967,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md": {
-    "scroll": 94.55148561546926,
+    "scroll": 83.02604651162791,
     "cursor": {
       "from": {
-        "line": 100,
-        "ch": 61
+        "line": 89,
+        "ch": 0
       },
       "to": {
-        "line": 100,
-        "ch": 61
+        "line": 89,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37011,5 +37012,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-04.md": {
+    "scroll": 27.37669836956522,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 25
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
