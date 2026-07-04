@@ -37033,47 +37033,72 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端四层分层架构模型.md": {
+    "scroll": 16.38064236111111,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 31
+      },
+      "to": {
+        "line": 25,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构.md": {
+    "scroll": 21.569636334762585,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 63
+      },
+      "to": {
+        "line": 19,
+        "ch": 61
       }
     },
     "expandedKeys": [
       "item-2-0"
     ]
   },
-  "_posts/architect/前端四层分层架构模型.md": {
+  "_posts/architect/现代前端五层架构模型.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 12
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 87
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
-  "_posts/architect/前端架构.md": {
+  "_posts/architect/领域（Domain）.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 77
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 77
+        "line": 0,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-5"
-    ]
+    "expandedKeys": []
   }
 }
