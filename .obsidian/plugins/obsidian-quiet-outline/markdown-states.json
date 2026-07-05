@@ -36922,7 +36922,7 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
-    "scroll": 88.85160199226881,
+    "scroll": 71.46281222123105,
     "cursor": {
       "from": {
         "line": 92,
@@ -36934,7 +36934,6 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
       "item-1-4"
     ]
   },
@@ -37143,19 +37142,24 @@
     ]
   },
   "_posts/architect/五层架构模型/五层架构模型.md": {
-    "scroll": 0,
+    "scroll": 515.05859375,
     "cursor": {
       "from": {
-        "line": 69,
-        "ch": 42
+        "line": 534,
+        "ch": 22
       },
       "to": {
-        "line": 69,
-        "ch": 42
+        "line": 534,
+        "ch": 22
       }
     },
     "expandedKeys": [
-      "item-2-2"
+      "item-2-2",
+      "item-1-0",
+      "item-1-14",
+      "item-2-17",
+      "item-2-21",
+      "item-2-24"
     ]
   },
   "_posts/architect/五层架构模型/未命名.md": {
@@ -37175,21 +37179,18 @@
     ]
   },
   "_posts/architect/五层架构模型/L1. 基础设施层 (Infrastructure Layer).md": {
-    "scroll": 4.25,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 183,
+        "ch": 71
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 183,
+        "ch": 71
       }
     },
-    "expandedKeys": [
-      "item-2-6",
-      "item-2-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/五层架构模型/网络通信引擎.md": {
     "scroll": 0,
@@ -37224,19 +37225,33 @@
     ]
   },
   "_posts/architect/五层架构模型/网络通信引擎（基于Axios）.md": {
-    "scroll": 0,
+    "scroll": 321.2096354166667,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 339,
+        "ch": 22
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 339,
+        "ch": 22
       }
     },
     "expandedKeys": [
       "item-2-2"
     ]
+  },
+  "_posts/architect/四层架构模型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 31
+      },
+      "to": {
+        "line": 25,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
   }
 }
