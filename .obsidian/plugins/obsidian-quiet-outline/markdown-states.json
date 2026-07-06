@@ -36836,14 +36836,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 99.1628760088041,
+    "scroll": 104.59244314013206,
     "cursor": {
       "from": {
-        "line": 111,
+        "line": 121,
         "ch": 0
       },
       "to": {
-        "line": 111,
+        "line": 121,
         "ch": 0
       }
     },
@@ -36963,20 +36963,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md": {
-    "scroll": 163.61767441860465,
+    "scroll": 180.43912760416666,
     "cursor": {
       "from": {
-        "line": 170,
-        "ch": 67
+        "line": 174,
+        "ch": 68
       },
       "to": {
-        "line": 170,
-        "ch": 67
+        "line": 174,
+        "ch": 68
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-1-5"
+      "item-1-5",
+      "item-2-11"
     ]
   },
   "_posts/English/单词/coordinate.md": {
@@ -37268,5 +37269,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.mp4.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md": {
+    "scroll": 5.137972048765983,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 135
+      },
+      "to": {
+        "line": 8,
+        "ch": 135
+      }
+    },
+    "expandedKeys": []
   }
 }
