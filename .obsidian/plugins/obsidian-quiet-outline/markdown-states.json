@@ -36836,15 +36836,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 99.6628760088041,
+    "scroll": 103.77669270833333,
     "cursor": {
       "from": {
-        "line": 118,
-        "ch": 0
+        "line": 120,
+        "ch": 19
       },
       "to": {
-        "line": 118,
-        "ch": 0
+        "line": 120,
+        "ch": 5
       }
     },
     "expandedKeys": [
@@ -37285,15 +37285,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md": {
-    "scroll": 53.55153247578212,
+    "scroll": 69.7462283627124,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 0
+        "line": 58,
+        "ch": 15
       },
       "to": {
-        "line": 52,
-        "ch": 0
+        "line": 58,
+        "ch": 15
       }
     },
     "expandedKeys": []
@@ -37313,5 +37313,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/5.状态管理策略.md": {
+    "scroll": 4.034732272069465,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 65
+      },
+      "to": {
+        "line": 11,
+        "ch": 65
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md": {
+    "scroll": 29.639607493309544,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 149
+      },
+      "to": {
+        "line": 33,
+        "ch": 149
+      }
+    },
+    "expandedKeys": []
   }
 }
