@@ -565,14 +565,14 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 23.09722222222222,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 169,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 169,
+        "line": 3,
         "ch": 0
       }
     },
@@ -36836,27 +36836,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 229.1875,
+    "scroll": 99.6628760088041,
     "cursor": {
       "from": {
-        "line": 232,
+        "line": 118,
         "ch": 0
       },
       "to": {
-        "line": 232,
+        "line": 118,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-3-12",
       "item-2-11",
-      "item-1-0",
-      "item-3-26",
-      "item-3-30",
-      "item-3-33",
-      "item-3-38",
-      "item-3-42",
-      "item-3-22"
+      "item-1-0"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37151,12 +37145,12 @@
     "scroll": 65.43815104166667,
     "cursor": {
       "from": {
-        "line": 79,
-        "ch": 34
+        "line": 76,
+        "ch": 13
       },
       "to": {
-        "line": 79,
-        "ch": 34
+        "line": 76,
+        "ch": 13
       }
     },
     "expandedKeys": [
@@ -37261,15 +37255,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-06.md": {
-    "scroll": 27.37669836956522,
+    "scroll": 28.055338541666668,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37291,17 +37285,33 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md": {
-    "scroll": 73.83198348419883,
+    "scroll": 53.55153247578212,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 51
+        "line": 52,
+        "ch": 0
       },
       "to": {
-        "line": 77,
-        "ch": 51
+        "line": 52,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md": {
+    "scroll": 27.37669836956522,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 31
+      },
+      "to": {
+        "line": 40,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }

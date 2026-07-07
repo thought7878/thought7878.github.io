@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-06.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-06"
+              "title": "2026-07-07"
             }
           },
           {
@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "4.现代的数据获取与避障技术——避免过度设计"
             }
           },
           {
@@ -1065,10 +1065,13 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md",
     "_posts/architect/五层架构模型/五层架构模型.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-06.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识",
     "_posts/architect/_教程/Advanced Frontend Course/7.前端应用的测试策略",
     "_posts/architect/_教程/Advanced Frontend Course/6.分页处理与数据加载模式",
@@ -1076,7 +1079,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架",
-    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/af99f809c16c720b6926f030478ede4d_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/b9196e9f371f8a03df0defe7c094ef29_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/014eb2e6a9cf034e55564f0fc6d30e54_MD5.png",
@@ -1088,7 +1090,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/918fed3a42a68f0c21a393a634000b68_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/edf7842f75cc31ab36ca526f48d91e17_MD5.png",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-06.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-05.md",
     "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/AI/短视频/_视频制作方法.md",
@@ -1108,7 +1109,6 @@
     "DailyNote/Journal/01 Daily/2026/07/2026-07-03.md",
     "_posts/methods/要整理的.md",
     "_posts/English/查询单词的提示词模版.md",
-    "_posts/English/单词/ordinate.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理",
     "未命名.canvas",
