@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-07"
+              "title": "2026-07-08"
             }
           },
           {
@@ -1039,7 +1039,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1065,8 +1065,10 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
-    "_posts/architect/_教程/Frontend System Design/1./1..md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-08.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
     "_posts/architect/_教程/Frontend System Design/介绍.md",
+    "_posts/architect/_教程/Frontend System Design/1./1..md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Frontend System Design/1.",
     "_posts/architect/_教程/Frontend System Design",
@@ -1084,7 +1086,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/5.状态管理策略.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代的数据获取与避障技术——避免过度设计.md",
     "_posts/architect/五层架构模型/五层架构模型.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-06.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -1110,7 +1111,6 @@
     "_posts/读书笔记/人性.md",
     "_posts/architect/领域（Domain）.md",
     "_posts/architect/五层架构模型",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-04.md",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

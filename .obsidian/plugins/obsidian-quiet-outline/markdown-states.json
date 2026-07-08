@@ -37300,15 +37300,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md": {
-    "scroll": 27.37669836956522,
+    "scroll": 27.8984375,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 31
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37386,19 +37386,35 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Frontend System Design/介绍.md": {
-    "scroll": 7.975194897236003,
+    "scroll": 90.693359375,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 1
+        "line": 103,
+        "ch": 0
       },
       "to": {
-        "line": 22,
-        "ch": 1
+        "line": 103,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-08.md": {
+    "scroll": 27.37669836956522,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 28
+      },
+      "to": {
+        "line": 37,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
