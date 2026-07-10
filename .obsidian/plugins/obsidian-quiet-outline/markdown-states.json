@@ -37327,14 +37327,14 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md": {
-    "scroll": 195.1318359375,
+    "scroll": 43.39987295537558,
     "cursor": {
       "from": {
-        "line": 222,
+        "line": 57,
         "ch": 0
       },
       "to": {
-        "line": 222,
+        "line": 57,
         "ch": 0
       }
     },
@@ -37495,17 +37495,20 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
-    "scroll": 6.415105560511448,
+    "scroll": 16.886783998022157,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 28,
+        "ch": 107
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 28,
+        "ch": 107
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
   }
 }
