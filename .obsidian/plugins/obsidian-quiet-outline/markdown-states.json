@@ -36836,14 +36836,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 113.3740234375,
+    "scroll": 121.13606770833333,
     "cursor": {
       "from": {
-        "line": 129,
+        "line": 133,
         "ch": 0
       },
       "to": {
-        "line": 129,
+        "line": 133,
         "ch": 0
       }
     },
@@ -37463,19 +37463,49 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.介绍与应用程序演示.md": {
-    "scroll": 17.412760416666668,
+    "scroll": 13.692239072256914,
     "cursor": {
       "from": {
-        "line": 30,
+        "line": 18,
         "ch": 0
       },
       "to": {
-        "line": 30,
+        "line": 18,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1"
+      "item-1-0"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.应用程序演示.md": {
+    "scroll": 2.7291666666666665,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
+    "scroll": 6.415105560511448,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
