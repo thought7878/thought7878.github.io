@@ -37447,15 +37447,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-10.md": {
-    "scroll": 27.37669836956522,
+    "scroll": 27.62669836956522,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 90
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37495,21 +37495,37 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
-    "scroll": 62.68382384906317,
+    "scroll": 66.91569010416667,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 0
+        "line": 75,
+        "ch": 76
       },
       "to": {
-        "line": 73,
-        "ch": 0
+        "line": 75,
+        "ch": 76
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-1",
       "item-2-4"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md": {
+    "scroll": 24.701171875,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
