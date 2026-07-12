@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-11"
+              "title": "2026-07-12"
             }
           },
           {
@@ -1075,8 +1075,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
+    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/1.Web 框架比较——如何选择合适的框架.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/c47bfe19b4aeef8ed72c3f11cf756ac7_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/a4ca91b0a63e21277cfd52914cef9cab_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/4cc6be9c5c61f5d125a1af44f7119791_MD5.png",
@@ -1087,15 +1090,12 @@
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/35f4b81789f5106a89df6591cf6c4055_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/02fb3eedecef63484768518c355e1dc9_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/2f21c4e1632246d0b6b9a965906178c8_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/314086a85bf728de9e5f3629e69e3f91_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/1.Web 框架比较——如何选择合适的框架.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-10.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.应用程序演示.md",
