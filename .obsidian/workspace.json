@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-12"
+              "title": "2026-07-13"
             }
           },
           {
@@ -1075,11 +1075,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-13.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/1.Web 框架比较——如何选择合适的框架.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/c47bfe19b4aeef8ed72c3f11cf756ac7_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/a4ca91b0a63e21277cfd52914cef9cab_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/4cc6be9c5c61f5d125a1af44f7119791_MD5.png",
@@ -1122,7 +1123,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-05.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
