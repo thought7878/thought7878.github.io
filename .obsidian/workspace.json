@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-13.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-16.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-13"
+              "title": "2026-07-16"
             }
           },
           {
@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/2.React Hooks 与 Vue 组合式组件——代码组织模式.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/3.如何将逻辑分解为不同的“钩子”和“可组合组件”.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.React Hooks 与 Vue 组合式组件——代码组织模式"
+              "title": "3.如何将逻辑分解为不同的“钩子”和“可组合组件”"
             }
           },
           {
@@ -1077,29 +1077,31 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/3.如何将逻辑分解为不同的“钩子”和“可组合组件”.md",
+    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/2.React Hooks 与 Vue 组合式组件——代码组织模式.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-16.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-13.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-14.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/10107cb642814d16fff6bc0d7c3a5080_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/a00a70402f1b0cf744c0daccd1ccacf4_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/d6a35630235e5712def7bb220ab646d7_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/521f731a0d33cdb270226873aa1681ac_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/271d8470fd19fb4964733479c1ca5a48_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/2.React Hooks 与 Vue 组合式组件——代码组织模式.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/1.Web 框架比较——如何选择合适的框架.md",
     "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/6da90e6a9c7cd5c7019b7846d9358cd8_MD5.png",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-13.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/c47bfe19b4aeef8ed72c3f11cf756ac7_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/a4ca91b0a63e21277cfd52914cef9cab_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/4cc6be9c5c61f5d125a1af44f7119791_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/b6299dff901964059ccb56309d13a92e_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media/15707aef08b1ca1d93a442d3867f14b2_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-10.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.应用程序演示.md",
@@ -1112,10 +1114,8 @@
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md",
     "_posts/architect/_教程/Frontend System Design/1./1..md",
     "_posts/architect/_教程/Frontend System Design/介绍.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-07.md",
     "_posts/architect/_教程/Frontend System Design/1.",
     "_posts/architect/_教程/Frontend System Design",
-    "_posts/architect/五层架构模型/五层架构模型.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识",
     "_posts/architect/_教程/Advanced Frontend Course/7.前端应用的测试策略",
     "_posts/architect/_教程/Advanced Frontend Course/6.分页处理与数据加载模式",
