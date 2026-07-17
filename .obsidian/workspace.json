@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.从本地状态到 Context API——渐进式的方法"
+              "title": "介绍"
             }
           },
           {
@@ -1075,11 +1075,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/1.状态管理基础——超越 Redux.md",
-    "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/media/d71d7c19b0effa2b3c49621beae69a66_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/media/28033e539f49849c0363571b38fd49b7_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/media/3d3ed0b9a08d96153c6356977c2d5e1f_MD5.png",

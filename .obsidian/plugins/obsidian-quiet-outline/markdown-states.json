@@ -36836,21 +36836,26 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 156.7050623624358,
+    "scroll": 163.92252604166666,
     "cursor": {
       "from": {
-        "line": 176,
+        "line": 179,
         "ch": 0
       },
       "to": {
-        "line": 176,
+        "line": 179,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-3-26",
-      "item-2-11"
+      "item-2-11",
+      "item-3-30",
+      "item-3-33",
+      "item-3-38",
+      "item-3-42",
+      "item-3-49"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37694,19 +37699,21 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md": {
-    "scroll": 112.74139534883722,
+    "scroll": 211.6705220713073,
     "cursor": {
       "from": {
-        "line": 125,
-        "ch": 0
+        "line": 216,
+        "ch": 38
       },
       "to": {
-        "line": 125,
-        "ch": 0
+        "line": 216,
+        "ch": 38
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-3",
+      "item-1-6"
     ]
   }
 }
