@@ -36836,22 +36836,24 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 155.07291666666666,
+    "scroll": 156.08290535583274,
     "cursor": {
       "from": {
-        "line": 170,
-        "ch": 15
+        "line": 172,
+        "ch": 0
       },
       "to": {
-        "line": 170,
-        "ch": 15
+        "line": 172,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-22",
+      "item-3-26",
       "item-2-11",
       "item-1-0",
-      "item-3-26"
+      "item-3-30",
+      "item-3-49",
+      "item-3-22"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37679,15 +37681,31 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/1.状态管理基础——超越 Redux.md": {
-    "scroll": 67.91525607638889,
+    "scroll": 69.58925792303339,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 38
+        "line": 80,
+        "ch": 24
       },
       "to": {
-        "line": 74,
-        "ch": 38
+        "line": 80,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md": {
+    "scroll": 8.270833333333334,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 29
+      },
+      "to": {
+        "line": 32,
+        "ch": 29
       }
     },
     "expandedKeys": []
