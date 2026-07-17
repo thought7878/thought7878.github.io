@@ -36836,21 +36836,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 142.08984375,
+    "scroll": 155.07291666666666,
     "cursor": {
       "from": {
-        "line": 150,
-        "ch": 0
+        "line": 170,
+        "ch": 15
       },
       "to": {
-        "line": 150,
-        "ch": 0
+        "line": 170,
+        "ch": 15
       }
     },
     "expandedKeys": [
       "item-3-22",
       "item-2-11",
-      "item-1-0"
+      "item-1-0",
+      "item-3-26"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37637,12 +37638,12 @@
     "scroll": 62.34027777777778,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 112
+        "line": 78,
+        "ch": 0
       },
       "to": {
-        "line": 74,
-        "ch": 112
+        "line": 78,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -37662,5 +37663,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/1.状态管理基础——超越 Redux.md": {
+    "scroll": 67.91525607638889,
+    "cursor": {
+      "from": {
+        "line": 74,
+        "ch": 38
+      },
+      "to": {
+        "line": 74,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
   }
 }
