@@ -568,12 +568,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 11
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 11
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -36836,21 +36836,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 163.91048177083334,
+    "scroll": 171.07259114583334,
     "cursor": {
       "from": {
-        "line": 179,
+        "line": 193,
         "ch": 0
       },
       "to": {
-        "line": 179,
+        "line": 193,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-3-26",
-      "item-2-11"
+      "item-3-30",
+      "item-2-11",
+      "item-1-0"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37726,14 +37726,42 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/3.Redux 工具包与 Zustand——选择合适的工具.md": {
-    "scroll": 110.7102581521739,
+    "scroll": 112.84733072916667,
     "cursor": {
       "from": {
-        "line": 122,
+        "line": 121,
+        "ch": 112
+      },
+      "to": {
+        "line": 121,
+        "ch": 112
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 122,
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/1.REST API 的挑战——过滤问题、过度获取数据以及数据获取不足的问题.md": {
+    "scroll": 84.09053126768534,
+    "cursor": {
+      "from": {
+        "line": 64,
+        "ch": 0
+      },
+      "to": {
+        "line": 64,
         "ch": 0
       }
     },
