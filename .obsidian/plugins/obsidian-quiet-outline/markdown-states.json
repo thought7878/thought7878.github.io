@@ -36836,15 +36836,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 171.07259114583334,
+    "scroll": 178.57682291666666,
     "cursor": {
       "from": {
-        "line": 193,
-        "ch": 0
+        "line": 195,
+        "ch": 55
       },
       "to": {
-        "line": 193,
-        "ch": 0
+        "line": 195,
+        "ch": 55
       }
     },
     "expandedKeys": [
@@ -37754,20 +37754,33 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/1.REST API 的挑战——过滤问题、过度获取数据以及数据获取不足的问题.md": {
-    "scroll": 363.2725311262026,
+    "scroll": 363.57687818336166,
     "cursor": {
       "from": {
-        "line": 378,
-        "ch": 0
+        "line": 376,
+        "ch": 48
       },
       "to": {
-        "line": 378,
-        "ch": 0
+        "line": 376,
+        "ch": 48
       }
     },
     "expandedKeys": [
-      "item-1-2",
       "item-1-7"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/2.GraphQL——用新的权衡方式解决 REST 问题.md": {
+    "scroll": 149.8877519379845,
+    "cursor": {
+      "from": {
+        "line": 157,
+        "ch": 0
+      },
+      "to": {
+        "line": 157,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
