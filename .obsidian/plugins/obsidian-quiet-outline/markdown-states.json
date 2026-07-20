@@ -479,14 +479,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 104.95283468318247,
+    "scroll": 159.84847005208334,
     "cursor": {
       "from": {
-        "line": 117,
+        "line": 169,
         "ch": 0
       },
       "to": {
-        "line": 117,
+        "line": 169,
         "ch": 0
       }
     },
@@ -939,14 +939,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 91.22916666666667,
+    "scroll": 25.859615690011115,
     "cursor": {
       "from": {
-        "line": 110,
+        "line": 45,
         "ch": 0
       },
       "to": {
-        "line": 110,
+        "line": 45,
         "ch": 0
       }
     },
@@ -36836,7 +36836,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 163.92252604166666,
+    "scroll": 163.91048177083334,
     "cursor": {
       "from": {
         "line": 179,
@@ -36850,12 +36850,7 @@
     "expandedKeys": [
       "item-1-0",
       "item-3-26",
-      "item-2-11",
-      "item-3-30",
-      "item-3-33",
-      "item-3-38",
-      "item-3-42",
-      "item-3-49"
+      "item-2-11"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37653,15 +37648,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-17.md": {
-    "scroll": 27.028872282608695,
+    "scroll": 27.007133152173914,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37699,21 +37694,49 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md": {
-    "scroll": 211.6705220713073,
+    "scroll": 26.151041666666668,
     "cursor": {
       "from": {
-        "line": 216,
-        "ch": 38
+        "line": 32,
+        "ch": 70
       },
       "to": {
-        "line": 216,
-        "ch": 38
+        "line": 32,
+        "ch": 70
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-1-3",
-      "item-1-6"
+      "item-1-0"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-20.md": {
+    "scroll": 25.222005208333332,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/3.Redux 工具包与 Zustand——选择合适的工具.md": {
+    "scroll": 110.7102581521739,
+    "cursor": {
+      "from": {
+        "line": 122,
+        "ch": 0
+      },
+      "to": {
+        "line": 122,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
