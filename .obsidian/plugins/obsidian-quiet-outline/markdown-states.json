@@ -36836,15 +36836,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 265.72468818782096,
+    "scroll": 267.8151041666667,
     "cursor": {
       "from": {
-        "line": 278,
-        "ch": 57
+        "line": 283,
+        "ch": 0
       },
       "to": {
-        "line": 278,
-        "ch": 57
+        "line": 283,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -37857,5 +37857,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/2.CI 工具与分支策略 - Jenkins 到 GitHub Actions.md": {
+    "scroll": 100.35677083333333,
+    "cursor": {
+      "from": {
+        "line": 114,
+        "ch": 90
+      },
+      "to": {
+        "line": 114,
+        "ch": 90
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
