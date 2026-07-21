@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-20.md",
+                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-20"
+              "title": "2026-07-21"
             }
           },
           {
@@ -1075,8 +1075,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-21.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-20.md",
+    "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/2.GraphQL——用新的权衡方式解决 REST 问题.md",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/ce80d6a4b474b29a1f2d2953188d28a4_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/25698f2380663c53c900ba34d0c92a3c_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/3e4dbf7a683329f718b681a26c200a79_MD5.png",
@@ -1087,15 +1090,12 @@
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/889cb694a5c1b5e7a335ff015b60fbef_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/118e5b90cac8d4a3318969e23d637b07_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/764e5dd201e36224763c221467066aea_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media/374c615d3396269e517f84de7463a563_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/2.GraphQL——用新的权衡方式解决 REST 问题.md",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/1.REST API 的挑战——过滤问题、过度获取数据以及数据获取不足的问题.md",
     "_posts/architect/_教程/Advanced Frontend Course/4.数据访问层/media",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/3.Redux 工具包与 Zustand——选择合适的工具.md",
     "_posts/methods/常看的.md",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/2.从本地状态到 Context API——渐进式的方法.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-20.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-17.md",
     "_posts/读书笔记/人性.md",
     "_posts/读书笔记/世界趋势/趋势.md",
