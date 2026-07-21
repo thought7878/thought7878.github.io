@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/2.CI 工具与分支策略 - Jenkins 到 GitHub Actions.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/3.部署选项第一部分 - VPS、PM2、Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.CI 工具与分支策略 - Jenkins 到 GitHub Actions"
+              "title": "3.部署选项第一部分 - VPS、PM2、Docker"
             }
           },
           {
@@ -1077,20 +1077,21 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/64c49f7ac9710e77a67f923490366174_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/e8ae36e7cf4c4bb2b886de1939407b9a_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/d542665a1e23d74105326b95b1d17755_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/d340090a0f9284948fcbc0360e9b6086_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/3.部署选项第一部分 - VPS、PM2、Docker.md",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/2.CI 工具与分支策略 - Jenkins 到 GitHub Actions.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/688d382f072267309f01c8ec86702561_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/6f9881059365a935c9eb77462fedb802_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/bbaf5d0aab04f77938e215f045a1d9d9_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/e39e498902c70eac0fd86eea71654d0b_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/2.CI 工具与分支策略 - Jenkins 到 GitHub Actions.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/1.CICD 简介 - 从 FTP 到现代管道.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/3acfad504b2ff6dcdc2554fae286fb4e_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/03c98b574e6ec8d3e6eac00433d717db_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/9b0acb9953cc58665dcd90c836ebf16f_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/2530b9fb970dc8abe2c33d581593b962_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/7b01b9127f60180c82a7a83513dbd74e_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/16c89e21586e5a5f88a7a0417ed3915b_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/bffb98102ba3a59b3c20d6412a66c3fd_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media",
     "_posts/architect/_教程/Advanced Frontend Course/5.实时通信模式/1.实时通信简介.md",
     "_posts/architect/_教程/Advanced Frontend Course/5.实时通信模式/media",
@@ -1116,7 +1117,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/1.Web 框架比较——如何选择合适的框架.md",
     "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-12.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media",
     "_posts/architect/_教程/Frontend System Design/1.",
     "_posts/architect/_教程/Frontend System Design",

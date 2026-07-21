@@ -36836,18 +36836,19 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 267.8151041666667,
+    "scroll": 268.623046875,
     "cursor": {
       "from": {
-        "line": 283,
+        "line": 287,
         "ch": 0
       },
       "to": {
-        "line": 283,
+        "line": 287,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-1",
       "item-3-49",
       "item-2-11",
       "item-1-0"
@@ -37859,19 +37860,35 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/2.CI 工具与分支策略 - Jenkins 到 GitHub Actions.md": {
-    "scroll": 100.35677083333333,
+    "scroll": 98.29046406338426,
     "cursor": {
       "from": {
-        "line": 114,
-        "ch": 90
+        "line": 115,
+        "ch": 0
       },
       "to": {
-        "line": 114,
-        "ch": 90
+        "line": 115,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/3.部署选项第一部分 - VPS、PM2、Docker.md": {
+    "scroll": 92.49888582342955,
+    "cursor": {
+      "from": {
+        "line": 112,
+        "ch": 32
+      },
+      "to": {
+        "line": 112,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
