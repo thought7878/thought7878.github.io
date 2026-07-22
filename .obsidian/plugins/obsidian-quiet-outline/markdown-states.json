@@ -939,14 +939,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 25.859615690011115,
+    "scroll": 58.687825520833336,
     "cursor": {
       "from": {
-        "line": 45,
+        "line": 80,
         "ch": 0
       },
       "to": {
-        "line": 45,
+        "line": 80,
         "ch": 0
       }
     },
@@ -34253,15 +34253,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/_视频制作方法.md": {
-    "scroll": 8.125,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 155
+        "line": 2,
+        "ch": 29
       },
       "to": {
-        "line": 16,
-        "ch": 155
+        "line": 2,
+        "ch": 29
       }
     },
     "expandedKeys": []
@@ -36836,19 +36836,18 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 268.623046875,
+    "scroll": 272.96484375,
     "cursor": {
       "from": {
-        "line": 287,
+        "line": 291,
         "ch": 0
       },
       "to": {
-        "line": 287,
+        "line": 291,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1",
       "item-3-49",
       "item-2-11",
       "item-1-0"
@@ -37139,15 +37138,15 @@
     ]
   },
   "_posts/architect/五层架构模型/五层架构模型.md": {
-    "scroll": 65.43815104166667,
+    "scroll": 66.31315104166667,
     "cursor": {
       "from": {
-        "line": 76,
-        "ch": 13
+        "line": 75,
+        "ch": 25
       },
       "to": {
-        "line": 76,
-        "ch": 13
+        "line": 75,
+        "ch": 25
       }
     },
     "expandedKeys": [
@@ -37788,14 +37787,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-21.md": {
-    "scroll": 24.680338541666668,
+    "scroll": 21.717447916666668,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -37876,19 +37875,47 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/3.部署选项第一部分 - VPS、PM2、Docker.md": {
-    "scroll": 92.49888582342955,
+    "scroll": 81.93131510416667,
     "cursor": {
       "from": {
         "line": 112,
-        "ch": 32
+        "ch": 27
       },
       "to": {
         "line": 112,
-        "ch": 32
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-22.md": {
+    "scroll": 23.70142900577683,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 49
+      },
+      "to": {
+        "line": 32,
+        "ch": 49
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/4.部署选项第二部分 - Kubernetes、托管服务、无服务器、PaaS.md": {
+    "scroll": 58.02043703820154,
+    "cursor": {
+      "from": {
+        "line": 87,
+        "ch": 19
+      },
+      "to": {
+        "line": 87,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
   }
 }
