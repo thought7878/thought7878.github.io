@@ -36836,14 +36836,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 272.96484375,
+    "scroll": 272.96875,
     "cursor": {
       "from": {
-        "line": 291,
+        "line": 296,
         "ch": 0
       },
       "to": {
-        "line": 291,
+        "line": 296,
         "ch": 0
       }
     },
@@ -37905,7 +37905,7 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/4.部署选项第二部分 - Kubernetes、托管服务、无服务器、PaaS.md": {
-    "scroll": 58.02043703820154,
+    "scroll": 56.97406068228266,
     "cursor": {
       "from": {
         "line": 87,
@@ -37917,5 +37917,25 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式.md": {
+    "scroll": 155.61984496124032,
+    "cursor": {
+      "from": {
+        "line": 162,
+        "ch": 0
+      },
+      "to": {
+        "line": 162,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-1-5",
+      "item-2-6"
+    ]
   }
 }
