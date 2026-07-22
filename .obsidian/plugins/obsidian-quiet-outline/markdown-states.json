@@ -36836,21 +36836,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 272.96875,
+    "scroll": 272.5390625,
     "cursor": {
       "from": {
-        "line": 296,
+        "line": 299,
         "ch": 0
       },
       "to": {
-        "line": 296,
+        "line": 299,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-0",
       "item-3-49",
-      "item-2-11",
-      "item-1-0"
+      "item-2-11"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37919,15 +37919,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式.md": {
-    "scroll": 314.53390503414323,
+    "scroll": 351.5865429963842,
     "cursor": {
       "from": {
-        "line": 324,
-        "ch": 0
+        "line": 363,
+        "ch": 39
       },
       "to": {
-        "line": 324,
-        "ch": 0
+        "line": 363,
+        "ch": 39
       }
     },
     "expandedKeys": [
@@ -37941,6 +37941,22 @@
       "item-2-12",
       "item-1-14",
       "item-2-15"
+    ]
+  },
+  "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/6.监控与回退策略.md": {
+    "scroll": 138.3631007751938,
+    "cursor": {
+      "from": {
+        "line": 148,
+        "ch": 34
+      },
+      "to": {
+        "line": 148,
+        "ch": 34
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }

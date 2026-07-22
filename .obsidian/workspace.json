@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/6.监控与回退策略.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式"
+              "title": "6.监控与回退策略"
             }
           },
           {
@@ -1075,21 +1075,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/6.监控与回退策略.md",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/1caa584e3ce484a630e32612395acae1_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/692fa5641846a98d557dedcba40c228b_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/8134d792b6afa9aa90d02c8a331583b7_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/94f9e9bc2fd1e86ee87ab30eb714ea8c_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/3aac0ca2daa153e4cd8d86179e396ba0_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/3540daee1c9a7dd42481e436f5c185d5_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/7a3bf13e7be48ccb07ee3049e79c6ab8_MD5.png",
+    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式.md",
     "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/227bdb6cb640827ae07b54d1f078c791_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/5.部署策略——重新创建、逐步推进、蓝绿混合、金丝雀模式.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/243b8a69c1ac9a4a888d2a03229428b2_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/ebc92fafdc11968499664c77726f105c_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/e905a83531e35e09009b71aa6e0ca8aa_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/71e1a7c160ed23be602d5f5b58aa546d_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/034279ca66211957124f749e2be4231a_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/89e23a7f7bddf4f577189f4907852aa9_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/0c9559f5e2e75cc600452d6ac8722102_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/26e857990f11640960aadcc08a36cafc_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/b3bafb2b3e1402edb4b7c38417922e1f_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/4.部署选项第二部分 - Kubernetes、托管服务、无服务器、PaaS.md",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/3.部署选项第一部分 - VPS、PM2、Docker.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-22.md",
@@ -1115,8 +1116,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/1.状态管理基础——超越 Redux.md",
     "_posts/architect/_教程/Advanced Frontend Course/3.状态管理/media",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/3.如何将逻辑分解为不同的“钩子”和“可组合组件”.md",
-    "DailyNote/Journal/01 Daily/2026/07/2026-07-16.md",
-    "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/2.React Hooks 与 Vue 组合式组件——代码组织模式.md",
     "_posts/architect/_教程/Advanced Frontend Course/2.现代前端框架/media",
     "_posts/architect/_教程/Frontend System Design/1.",
     "_posts/architect/_教程/Frontend System Design",
