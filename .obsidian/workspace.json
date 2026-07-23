@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Programming Foundations Application Architecture/介绍.md",
+                "file": "_posts/architect/_教程/编程基础：应用架构/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -1051,11 +1051,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1075,17 +1076,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
     "_posts/methods/常看的.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》.md",
     "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1.md",
     "_posts/methods/构建系统/《游戏改变世界》/media/119104a7807b5f472f310aa7625aaaba_MD5.webp",
     "_posts/methods/构建系统/《游戏改变世界》/media",
-    "_posts/architect/_教程/Programming Foundations Application Architecture/介绍.md",
+    "_posts/architect/_教程/编程基础：应用架构/介绍.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/Programming Foundations Application Architecture",
+    "_posts/architect/_教程/编程基础：应用架构",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-23.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-22.md",
     "_posts/要整理的.md",
