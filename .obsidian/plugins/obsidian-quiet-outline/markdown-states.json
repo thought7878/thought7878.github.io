@@ -38034,15 +38034,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-23.md": {
-    "scroll": 27.354959239130434,
+    "scroll": 24.472005208333332,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 94
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 34,
-        "ch": 94
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -38111,12 +38111,12 @@
     "scroll": 45.10382707299787,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 14
+        "line": 62,
+        "ch": 67
       },
       "to": {
-        "line": 61,
-        "ch": 0
+        "line": 62,
+        "ch": 67
       }
     },
     "expandedKeys": [
@@ -38180,17 +38180,33 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/01 - 什么是软件应用架构.md": {
-    "scroll": 16.6318359375,
+    "scroll": 33.12100074404762,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 0
+        "line": 35,
+        "ch": 231
       },
       "to": {
-        "line": 26,
-        "ch": 0
+        "line": 35,
+        "ch": 231
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-24.md": {
+    "scroll": 24.680338541666668,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
