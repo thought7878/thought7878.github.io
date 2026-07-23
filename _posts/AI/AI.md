@@ -1,7 +1,12 @@
-【如来《Money Back My Home》MV首发激情献唱！】 https://www.bilibili.com/video/BV1rBCsB1E42/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
-
 
 # 未整理
+【李飞飞访谈：未来10年或将只剩两种工（中文语音）】 https://www.bilibili.com/video/BV1dy7W63E5Q/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【【基德】视频行业已被颠覆！干脆公开我的skill，一键写知识视频的时代来了】 https://www.bilibili.com/video/BV12hE16WEw9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【一口气看完2026上半年AI变局：别焦虑，看这一篇就够了！】 https://www.bilibili.com/video/BV17kj669EX9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+【AI越强大，工作越多？西二旗某大厂裁员，据说是AI冲击？普通打工人怎么应对？】 https://www.bilibili.com/video/BV1PqJJ6EEXV/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 https://youtu.be/fwdzsY9KWKk?si=-HJhZ-ioOfek1uI6
 
 [superpowers 探究](https://v.douyin.com/2GEfuB_Mb5A/)
@@ -16,7 +21,7 @@ https://youtu.be/fwdzsY9KWKk?si=-HJhZ-ioOfek1uI6
 
 codex➕seedance 复刻制作各种视频 https://v.douyin.com/CuNjLV5t508/
 
-
+【如来《Money Back My Home》MV首发激情献唱！】 https://www.bilibili.com/video/BV1rBCsB1E42/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 5.84 K@W.Zz dNj:/ 09/16 :8pm AI编程官方时代来了，三个巨头同一周集体出手 Anthropic做插件市场、微软做技能库和教程、CodeGraph四天四次霸榜涨粉3600+，这周开源社区变天了🔥 六条主线带你看完：官方生态（Claude Plugins一键装插件）、代码理解双雄（CodeGraph省70%工具调用 vs Understand-Anything交互式图谱）、Agent技能组（Superpowers/Multica/dotnet三选一）、AI教育三件套（435节课+Karpathy+微软全免费）、跨界利器（OpenHuman打118+服务/RuView九块钱穿墙检测/开源彭博终端/离线语音合成）。十五个项目全是干货，看视频了解全部！ # ai编程 # 开源项目 # AIAgent # 科技趋势 https://v.douyin.com/_3kTqffD0y4/ 复制此链接，打开Dou音搜索，直接观看视频！
 
