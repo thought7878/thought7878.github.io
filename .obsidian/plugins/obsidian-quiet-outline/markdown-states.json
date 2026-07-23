@@ -565,20 +565,18 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 335.7895109851169,
+    "scroll": 0.2601626016260163,
     "cursor": {
       "from": {
-        "line": 349,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 349,
+        "line": 7,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-32"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -35456,11 +35454,11 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 25
+        "ch": 16
       },
       "to": {
         "line": 4,
-        "ch": 25
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -38066,20 +38064,47 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Programming Foundations Application Architecture/介绍.md": {
-    "scroll": 111.3091948546927,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 131,
-        "ch": 72
+        "line": 11,
+        "ch": 25
       },
       "to": {
-        "line": 131,
-        "ch": 72
+        "line": 11,
+        "ch": 25
       }
     },
     "expandedKeys": [
-      "item-1-5",
-      "item-2-12"
+      "item-1-5"
     ]
+  },
+  "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》解读1 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 16
+      },
+      "to": {
+        "line": 4,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/methods/构建系统/《游戏改变世界》/《游戏改变世界》.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 125
+      },
+      "to": {
+        "line": 11,
+        "ch": 125
+      }
+    },
+    "expandedKeys": []
   }
 }
