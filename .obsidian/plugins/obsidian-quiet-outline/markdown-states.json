@@ -38108,14 +38108,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 48.83928855010323,
+    "scroll": 68.67122395833333,
     "cursor": {
       "from": {
-        "line": 66,
-        "ch": 17
+        "line": 80,
+        "ch": 16
       },
       "to": {
-        "line": 66,
+        "line": 80,
         "ch": 0
       }
     },
@@ -38210,7 +38210,7 @@
     ]
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/02 - 应用程序中的不同构建模块.md": {
-    "scroll": 49.9638671875,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 66,
@@ -38219,6 +38219,48 @@
       "to": {
         "line": 66,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/03 - 前端与后端开发的区别.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/01 - 简单脚本应用程序的组件.md": {
+    "scroll": 14.083333333333334,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 85
+      },
+      "to": {
+        "line": 17,
+        "ch": 85
       }
     },
     "expandedKeys": []
