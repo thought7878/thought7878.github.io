@@ -38108,15 +38108,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 45.10382707299787,
+    "scroll": 48.83928855010323,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 67
+        "line": 66,
+        "ch": 17
       },
       "to": {
-        "line": 62,
-        "ch": 67
+        "line": 66,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -38180,15 +38180,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/01 - 什么是软件应用架构.md": {
-    "scroll": 33.12100074404762,
+    "scroll": 34.263671875,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 231
+        "line": 43,
+        "ch": 80
       },
       "to": {
-        "line": 35,
-        "ch": 231
+        "line": 43,
+        "ch": 80
       }
     },
     "expandedKeys": []
@@ -38208,5 +38208,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/02 - 应用程序中的不同构建模块.md": {
+    "scroll": 31.557235054347824,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 11
+      },
+      "to": {
+        "line": 39,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
   }
 }
