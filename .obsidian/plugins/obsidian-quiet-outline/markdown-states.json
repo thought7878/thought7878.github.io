@@ -38108,14 +38108,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 68.67122395833333,
+    "scroll": 78.13834635416667,
     "cursor": {
       "from": {
-        "line": 80,
-        "ch": 16
+        "line": 92,
+        "ch": 0
       },
       "to": {
-        "line": 80,
+        "line": 92,
         "ch": 0
       }
     },
@@ -38252,15 +38252,43 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/01 - 简单脚本应用程序的组件.md": {
-    "scroll": 14.083333333333334,
+    "scroll": 14.291666666666666,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 85
+        "line": 26,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 85
+        "line": 26,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/02 - 玩“猜数字”游戏.md": {
+    "scroll": 9.666666666666666,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 0
+      },
+      "to": {
+        "line": 16,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/03 - 代码走查（流程攻略）：Python“猜数字”游戏脚本.md": {
+    "scroll": 16.666666666666668,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 126
+      },
+      "to": {
+        "line": 24,
+        "ch": 126
       }
     },
     "expandedKeys": []
