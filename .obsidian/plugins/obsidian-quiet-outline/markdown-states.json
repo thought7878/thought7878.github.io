@@ -38030,7 +38030,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-3-3"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-23.md": {
@@ -38108,14 +38109,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 117.1884765625,
+    "scroll": 132.20803557249485,
     "cursor": {
       "from": {
-        "line": 134,
+        "line": 143,
         "ch": 0
       },
       "to": {
-        "line": 134,
+        "line": 143,
         "ch": 0
       }
     },
@@ -38428,25 +38429,39 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 5
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 5
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/5 云端应用/01 - 云应用程序的组件.md": {
-    "scroll": 2.375,
+    "scroll": 24.65972222222222,
     "cursor": {
       "from": {
-        "line": 20,
+        "line": 34,
+        "ch": 138
+      },
+      "to": {
+        "line": 34,
+        "ch": 138
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/5 云端应用/02 - 使用基于云的食谱应用程序.md": {
+    "scroll": 29.583333333333332,
+    "cursor": {
+      "from": {
+        "line": 34,
         "ch": 0
       },
       "to": {
-        "line": 20,
+        "line": 34,
         "ch": 0
       }
     },
