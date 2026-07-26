@@ -38111,14 +38111,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 193.59602864583334,
+    "scroll": 147.12672701286326,
     "cursor": {
       "from": {
-        "line": 148,
-        "ch": 0
+        "line": 160,
+        "ch": 12
       },
       "to": {
-        "line": 148,
+        "line": 160,
         "ch": 0
       }
     },
@@ -38431,11 +38431,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       }
     },
@@ -38470,7 +38470,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/5 云端应用/03 - 代码走查（流程攻略）：基于云的食谱应用程序.md": {
-    "scroll": 59.294162326388886,
+    "scroll": 56.5908203125,
     "cursor": {
       "from": {
         "line": 69,
@@ -38498,5 +38498,61 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/编程基础：应用架构/5 云端应用/04 - 添加分析与监控以提升应用的可见性.md": {
+    "scroll": 23.510204081632654,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 206
+      },
+      "to": {
+        "line": 27,
+        "ch": 206
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/5 云端应用/05 - 云应用程序的局限性.md": {
+    "scroll": 17.875,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/01 - API 的定义.md": {
+    "scroll": 20.8125,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
