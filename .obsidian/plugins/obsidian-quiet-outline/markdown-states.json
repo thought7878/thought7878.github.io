@@ -567,14 +567,14 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 0.2601626016260163,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 3,
         "ch": 0
       }
     },
@@ -38111,14 +38111,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 147.12672701286326,
+    "scroll": 149.826171875,
     "cursor": {
       "from": {
-        "line": 160,
-        "ch": 12
+        "line": 167,
+        "ch": 0
       },
       "to": {
-        "line": 160,
+        "line": 167,
         "ch": 0
       }
     },
@@ -38542,15 +38542,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/01 - API 的定义.md": {
-    "scroll": 20.8125,
+    "scroll": 26.304347826086957,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 0
+        "line": 34,
+        "ch": 450
       },
       "to": {
-        "line": 28,
-        "ch": 0
+        "line": 34,
+        "ch": 450
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/02 - 理解身份验证与授权.md": {
+    "scroll": 25.956521739130434,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 57
+      },
+      "to": {
+        "line": 33,
+        "ch": 75
       }
     },
     "expandedKeys": []

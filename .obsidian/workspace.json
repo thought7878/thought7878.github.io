@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/01 - API 的定义.md",
+                "file": "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/02 - 理解身份验证与授权.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - API 的定义"
+              "title": "02 - 理解身份验证与授权"
             }
           },
           {
@@ -1078,7 +1078,9 @@
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
     "_posts/architect/_教程/编程基础：应用架构/介绍.md",
+    "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/02 - 理解身份验证与授权.md",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/01 - API 的定义.md",
+    "_posts/methods/常看的.md",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/05 - 云应用程序的局限性.md",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/04 - 添加分析与监控以提升应用的可见性.md",
@@ -1093,7 +1095,6 @@
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/media/7de6fbe27d4b3a08b8e95ebfc1d97279_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/media",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/01 - 云应用程序的组件.md",
-    "_posts/methods/常看的.md",
     "_posts/要整理的.md",
     "_posts/methods/学习方法/编程/编程.md",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用",
@@ -1112,7 +1113,6 @@
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/02 - 玩“猜数字”游戏.md",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/01 - 简单脚本应用程序的组件.md",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用",
-    "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/03 - 前端与后端开发的区别.md",
     "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)",
     "_posts/architect/_教程/编程基础：应用架构/1 简介 (Introduction)",
     "_posts/methods/构建系统/《游戏改变世界》/media/119104a7807b5f472f310aa7625aaaba_MD5.webp",
