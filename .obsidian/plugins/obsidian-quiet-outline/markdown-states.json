@@ -941,15 +941,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 156.97927517361111,
+    "scroll": 158.2610394021739,
     "cursor": {
       "from": {
-        "line": 169,
-        "ch": 140
+        "line": 176,
+        "ch": 26
       },
       "to": {
-        "line": 169,
-        "ch": 140
+        "line": 176,
+        "ch": 26
       }
     },
     "expandedKeys": []
@@ -38111,14 +38111,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 170.76725260416666,
+    "scroll": 171.21168810544702,
     "cursor": {
       "from": {
-        "line": 191,
+        "line": 196,
         "ch": 0
       },
       "to": {
-        "line": 191,
+        "line": 196,
         "ch": 0
       }
     },
@@ -38612,15 +38612,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/01 - 质量保证的定义.md": {
-    "scroll": 16.66304347826087,
+    "scroll": 21.611979166666668,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 0
+        "line": 25,
+        "ch": 56
       },
       "to": {
-        "line": 23,
-        "ch": 0
+        "line": 25,
+        "ch": 56
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/02 - 对代码进行版本控制.md": {
+    "scroll": 31.038411458333332,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 130
+      },
+      "to": {
+        "line": 37,
+        "ch": 130
       }
     },
     "expandedKeys": []

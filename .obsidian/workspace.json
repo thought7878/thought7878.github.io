@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/01 - 质量保证的定义.md",
+                "file": "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/02 - 对代码进行版本控制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - 质量保证的定义"
+              "title": "02 - 对代码进行版本控制"
             }
           },
           {
@@ -1078,11 +1078,14 @@
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
     "_posts/architect/_教程/编程基础：应用架构/介绍.md",
+    "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/02 - 对代码进行版本控制.md",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/01 - 质量保证的定义.md",
+    "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
+    "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media",
+    "_posts/读书笔记/人性.md",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/04 - 使用 API 为你的应用增加 AI 功能.md",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/03 - 代码走查（流程攻略）：应用程序与天气 API 的集成.md",
-    "_posts/读书笔记/人性.md",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/02 - 理解身份验证与授权.md",
     "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/01 - API 的定义.md",
     "_posts/methods/常看的.md",
@@ -1112,17 +1115,14 @@
     "_posts/architect/_教程/编程基础：应用架构/4 本地全栈应用",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/04 - 简单脚本应用程序的局限性.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/03 - 代码走查（流程攻略）：Python“猜数字”游戏脚本.md",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用",
     "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)",
     "_posts/architect/_教程/编程基础：应用架构/1 简介 (Introduction)",
     "_posts/methods/构建系统/《游戏改变世界》/media/119104a7807b5f472f310aa7625aaaba_MD5.webp",
-    "_posts/methods/构建系统/《游戏改变世界》/media",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/ceea3b1b2b99fe29fa899c0b1d59ce9b_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/7be2219325a8acfe3b6012997cd98f4a_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/70b1488425e9fae89646a11b128c5b2a_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/1caa584e3ce484a630e32612395acae1_MD5.png",
-    "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/692fa5641846a98d557dedcba40c228b_MD5.png",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
