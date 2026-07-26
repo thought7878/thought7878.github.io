@@ -941,14 +941,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 164.42708333333334,
+    "scroll": 156.97927517361111,
     "cursor": {
       "from": {
-        "line": 164,
+        "line": 169,
         "ch": 140
       },
       "to": {
-        "line": 164,
+        "line": 169,
         "ch": 140
       }
     },
@@ -38111,14 +38111,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 149.27994791666666,
+    "scroll": 170.76725260416666,
     "cursor": {
       "from": {
-        "line": 170,
-        "ch": 31
+        "line": 191,
+        "ch": 0
       },
       "to": {
-        "line": 170,
+        "line": 191,
         "ch": 0
       }
     },
@@ -38570,15 +38570,57 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/03 - 代码走查（流程攻略）：应用程序与天气 API 的集成.md": {
-    "scroll": 17.625,
+    "scroll": 39.041666666666664,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 125
+        "line": 48,
+        "ch": 0
       },
       "to": {
-        "line": 29,
-        "ch": 125
+        "line": 48,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/6 API 与集成/04 - 使用 API 为你的应用增加 AI 功能.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 44,
+        "ch": 139
+      },
+      "to": {
+        "line": 44,
+        "ch": 139
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/01 - 质量保证的定义.md": {
+    "scroll": 16.66304347826087,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
       }
     },
     "expandedKeys": []

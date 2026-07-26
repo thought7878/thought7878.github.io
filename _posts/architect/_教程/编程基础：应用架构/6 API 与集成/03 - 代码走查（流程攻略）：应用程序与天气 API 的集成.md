@@ -31,11 +31,23 @@ Here we have a weather web application that tells us the weather of�
 
 This application consists of a simple HTML form where users can enter a city name and get the current weather conditions. This form sends a post request to our server when submitted, passing the city name as a parameter. If the weather is available, it shows the weather details for the specified city, including the temperature and description. If there's an error like an invalid city name, it displays the error message instead. 
 
+此应用程序包含一个简单的HTML表单，用户可以在其中输入城市名称并获取当前的天气状况。此表单在提交时会向我们的服务器发送post请求，并将城市名称作为参数传递。如果天气可用，它会显示指定城市的天气详细信息，包括温度和描述。如果出现错误，如城市名称无效，它会显示错误消息。
+
 This is using Jenga 2 template syntax to conditionally render content based on the server's response. For the styling of our application, we use a simple CSS file. Now, the real magic happens in the app dot py file. 
+
+这是使用Jenga 2模板语法，根据服务器的响应有条件地呈现内容。对于我们应用程序的样式，我们使用一个简单的CSS文件。现在，真正的魔力发生在应用程序的.py文件中。
 
 This is our backend. In previous videos, we've used node JS for our backend, but both Python and Nodejs can effectively manage server side processing. Python is often chosen for its ease of use and strong support for data manipulation and scientific computing, while Nodejs is favored for its non blocking architecture and scalability. In this case, we use Python to show an alternative to Node JS for back-end coded. 
 
+这是我们的后端。在之前的视频中，我们曾使用Node.js作为后端，但*Python和Node.js都能高效地处理服务器端逻辑。Python通常因其易用性以及对数据处理和科学计算的强大支持而备受青睐，而Node.js则因其非阻塞的架构和良好的可扩展性而广受推崇*。在这种情况下，我们使用Python作为Node.js的后端替代方案。
+
 Here we use the Flask web framework to simplify handling Http requests and routing. Think of Flasks like Express for Node JS. With this code, we set up the home route and allow get and post requests on it. When we render the main page of the application, we're making a get request. So we just render the HTML page with no weather or error data. When we fill out the form with the city and press submit, we make a post request to this same route. 
 
+在这里，我们使用Flask Web框架来简化HTTP请求的处理与路由。可以把Flask看作是Node.js的Express。使用此代码，我们设置了主路由并允许在其上获取和发布请求。当我们渲染应用程序的主页面时，我们正在发出get请求。因此，我们只是渲染不含天气或错误数据的HTML页面。当我们填写城市信息并提交表单时，会向该路由发起一个POST请求。
+
 In the code. We retrieves the city and then call the Open Weather API using the request module. Once we get the response, we check it was successful and then set up the weather object with the appropriate city temperature and description. Then we render the HTML page. With this application, it's easy to see how Apis can enhance it by making it easier to access and integrate external information.
+
+在代码中。我们先获取城市信息，然后使用request模块调用OpenWeather API。收到响应后，我们先检查请求是否成功，然后使用相应的城市气温和天气描述来初始化天气对象。然后我们渲染HTML页面。
+
+*借助这款应用程序，不难看出Apis如何通过简化对外部信息的访问与集成来实现其价值提升*。
 
