@@ -38114,14 +38114,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 184.60123697916666,
+    "scroll": 203.63899739583334,
     "cursor": {
       "from": {
-        "line": 205,
-        "ch": 0
+        "line": 221,
+        "ch": 20
       },
       "to": {
-        "line": 205,
+        "line": 221,
         "ch": 0
       }
     },
@@ -38687,15 +38687,57 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/01 - 什么是技术栈.md": {
-    "scroll": 52.235514322916664,
+    "scroll": 50.76123450413223,
     "cursor": {
       "from": {
-        "line": 61,
+        "line": 55,
         "ch": 0
       },
       "to": {
-        "line": 61,
+        "line": 55,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/02 - 开发 iPhone 应用与 Web 应用的考量因素.md": {
+    "scroll": 35.93333333333333,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 0
+      },
+      "to": {
+        "line": 47,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/9 总结/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/9 总结/01 - 如何处理软件设计中的权衡与取舍.md": {
+    "scroll": 27.258333333333333,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 2
+      },
+      "to": {
+        "line": 33,
+        "ch": 28
       }
     },
     "expandedKeys": []
