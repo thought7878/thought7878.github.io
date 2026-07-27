@@ -1,5 +1,7 @@
 
 # 未整理
+【达利欧最新闭门演讲：全球经济的“大周期”已经走到哪了？】 https://www.bilibili.com/video/BV1A7Kp6QEp1/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【李飞飞访谈：未来10年或将只剩两种工（中文语音）】 https://www.bilibili.com/video/BV1dy7W63E5Q/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 【【基德】视频行业已被颠覆！干脆公开我的skill，一键写知识视频的时代来了】 https://www.bilibili.com/video/BV12hE16WEw9/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862

@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/编程基础：应用架构/9 总结/01 - 如何处理软件设计中的权衡与取舍.md",
+                "file": "_posts/architect/_教程/编程基础：应用架构/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - 如何处理软件设计中的权衡与取舍"
+              "title": "介绍"
             }
           },
           {
@@ -1077,10 +1077,12 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "_posts/AI/AI.md",
+    "_posts/architect/_教程/编程基础：应用架构/介绍.md",
+    "_posts/architect/_教程/编程基础：应用架构/9 总结/01 - 如何处理软件设计中的权衡与取舍.md",
     "_posts/读书笔记/男女.md",
     "_posts/读书笔记/人性.md",
-    "_posts/architect/_教程/编程基础：应用架构/9 总结/01 - 如何处理软件设计中的权衡与取舍.md",
-    "_posts/architect/_教程/编程基础：应用架构/介绍.md",
     "_posts/architect/_教程/编程基础：应用架构/9 总结",
     "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/02 - 开发 iPhone 应用与 Web 应用的考量因素.md",
     "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/01 - 什么是技术栈.md",
@@ -1088,7 +1090,6 @@
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/03 - 向客户部署新代码.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-27.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-26.md",
-    "_posts/methods/常看的.md",
     "_posts/要整理的.md",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/02 - 对代码进行版本控制.md",
     "_posts/读书笔记/移民.md",
@@ -1114,7 +1115,6 @@
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/01 - 云应用程序的组件.md",
     "_posts/methods/学习方法/编程/编程.md",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用",
-    "_posts/architect/_教程/编程基础：应用架构/4 本地全栈应用/01 - 全栈应用程序的组件.md",
     "_posts/读书笔记/健康/性",
     "_posts/architect/_教程/编程基础：应用架构/4 本地全栈应用",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用",
