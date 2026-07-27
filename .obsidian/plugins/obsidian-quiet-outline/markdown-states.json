@@ -944,15 +944,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 158.2610394021739,
+    "scroll": 141.6044921875,
     "cursor": {
       "from": {
-        "line": 176,
-        "ch": 26
+        "line": 148,
+        "ch": 0
       },
       "to": {
-        "line": 176,
-        "ch": 26
+        "line": 148,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -38114,14 +38114,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 177.6884765625,
+    "scroll": 184.60123697916666,
     "cursor": {
       "from": {
-        "line": 194,
-        "ch": 13
+        "line": 205,
+        "ch": 0
       },
       "to": {
-        "line": 194,
+        "line": 205,
         "ch": 0
       }
     },
@@ -38659,15 +38659,43 @@
     ]
   },
   "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/03 - 向客户部署新代码.md": {
-    "scroll": 39.347005208333336,
+    "scroll": 39.388671875,
     "cursor": {
       "from": {
-        "line": 50,
-        "ch": 132
+        "line": 46,
+        "ch": 361
       },
       "to": {
-        "line": 50,
-        "ch": 132
+        "line": 46,
+        "ch": 361
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量/01 - 什么是技术栈.md": {
+    "scroll": 52.235514322916664,
+    "cursor": {
+      "from": {
+        "line": 61,
+        "ch": 0
+      },
+      "to": {
+        "line": 61,
+        "ch": 0
       }
     },
     "expandedKeys": []
