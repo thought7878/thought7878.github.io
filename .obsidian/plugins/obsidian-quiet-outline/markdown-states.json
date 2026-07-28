@@ -14144,20 +14144,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 19
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 19
       }
     },
-    "expandedKeys": [
-      "item-2-1",
-      "item-2-9",
-      "item-3-4",
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/_教程/未命名.md": {
     "scroll": 0,
@@ -15713,18 +15708,20 @@
     "expandedKeys": []
   },
   "_posts/architect/前端架构/前端架构-QW.md": {
-    "scroll": 0,
+    "scroll": 63.1718278545339,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 73,
+        "ch": 42
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 73,
+        "ch": 42
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "_posts/methods/学习方法/_SQ3R阅读法.md": {
     "scroll": 32.928992248062016,
@@ -38146,12 +38143,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 533
+        "line": 7,
+        "ch": 144
       },
       "to": {
-        "line": 4,
-        "ch": 533
+        "line": 7,
+        "ch": 144
       }
     },
     "expandedKeys": []
@@ -38758,7 +38755,7 @@
     ]
   },
   "_posts/architect/前端架构/前端架构-DS.md": {
-    "scroll": 22.531364141654755,
+    "scroll": 0.40404040404040403,
     "cursor": {
       "from": {
         "line": 34,
@@ -38790,14 +38787,16 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 2
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/architect/前端架构/为什么要学习软件架构？-DS.md": {
     "scroll": 0,
@@ -38814,15 +38813,43 @@
     "expandedKeys": []
   },
   "_posts/architect/前端架构/为什么要学习软件架构？- DS.md": {
-    "scroll": 32.62890625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 80
+        "line": 54,
+        "ch": 25
       },
       "to": {
-        "line": 45,
-        "ch": 80
+        "line": 54,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构/为什么要学习软件架构？- QW.md": {
+    "scroll": 47.920978029766125,
+    "cursor": {
+      "from": {
+        "line": 71,
+        "ch": 11
+      },
+      "to": {
+        "line": 71,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/前端架构/前端架构-QW3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 21
+      },
+      "to": {
+        "line": 9,
+        "ch": 21
       }
     },
     "expandedKeys": []
