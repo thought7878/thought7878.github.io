@@ -36869,7 +36869,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.引言与架构基础.md": {
-    "scroll": 88.96419270833333,
+    "scroll": 70.96744186046512,
     "cursor": {
       "from": {
         "line": 71,
@@ -36919,15 +36919,15 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
-    "scroll": 15.117564655172414,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 15,
-        "ch": 114
+        "ch": 127
       },
       "to": {
         "line": 15,
-        "ch": 114
+        "ch": 127
       }
     },
     "expandedKeys": [
@@ -38184,7 +38184,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/01 - 什么是软件应用架构.md": {
-    "scroll": 35.94508744855967,
+    "scroll": 35.91628086419753,
     "cursor": {
       "from": {
         "line": 49,
@@ -38214,7 +38214,7 @@
     ]
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/02 - 应用程序中的不同构建模块.md": {
-    "scroll": 52.336100260416664,
+    "scroll": 45.9486083984375,
     "cursor": {
       "from": {
         "line": 66,
@@ -38228,7 +38228,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/03 - 前端与后端开发的区别.md": {
-    "scroll": 17.3759765625,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 26,
@@ -38813,32 +38813,34 @@
     "expandedKeys": []
   },
   "_posts/architect/前端架构/为什么要学习软件架构？- DS.md": {
-    "scroll": 75.52755280292203,
+    "scroll": 32.50390625,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 0
+        "line": 47,
+        "ch": 41
       },
       "to": {
-        "line": 83,
+        "line": 41,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/前端架构/为什么要学习软件架构？- QW.md": {
-    "scroll": 0,
+    "scroll": 71.31575520833333,
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 88,
         "ch": 0
       },
       "to": {
-        "line": 11,
+        "line": 78,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-8"
+    ]
   },
   "_posts/architect/前端架构/前端架构-QW3.md": {
     "scroll": 0,
@@ -38855,14 +38857,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-29.md": {
-    "scroll": 24.680338541666668,
+    "scroll": 24.117838541666668,
     "cursor": {
       "from": {
-        "line": 30,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 30,
+        "line": 31,
         "ch": 0
       }
     },
@@ -38885,17 +38887,33 @@
     "expandedKeys": []
   },
   "_posts/architect/前端架构/为什么要学习软件架构？.md": {
-    "scroll": 0,
+    "scroll": 6.625,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 27,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/07/2026-07-30.md": {
+    "scroll": 26.722005208333332,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
