@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/07/2026-07-31.md",
+                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-31"
+              "title": "2026-08-01"
             }
           },
           {
@@ -1078,6 +1078,12 @@
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-01.md",
+    "DailyNote/Journal/01 Daily/2026/07/2026-07-31.md",
+    "DailyNote/Journal/01 Daily/2026/08",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/读书笔记/兴趣/军事.md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/前端架构/前端架构-DS.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.介绍与架构基础.md",
@@ -1098,11 +1104,6 @@
     "_posts/architect/前端架构/为什么要学习软件架构？- DS.md",
     "_posts/architect/前端架构/为什么要学习软件架构？.md",
     "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构.md",
-    "_posts/architect/前端架构/前端架构-目录.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/_前端系统设计.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端系统设计知识体系框架.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构知识体系总结.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端系统设计知识体系学习指南.md",
     "_posts/architect/_教程/编程基础：应用架构/9 总结",
     "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
@@ -1117,7 +1118,6 @@
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用",
     "_posts/读书笔记/健康/性",
     "_posts/architect/_教程/编程基础：应用架构/4 本地全栈应用",
-    "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用",
     "_posts/methods/构建系统/《游戏改变世界》/media/119104a7807b5f472f310aa7625aaaba_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/ceea3b1b2b99fe29fa899c0b1d59ce9b_MD5.png",
     "_posts/architect/_教程/Advanced Frontend Course/8.面向前端开发者的 CICD 基础知识/media/7be2219325a8acfe3b6012997cd98f4a_MD5.png",
