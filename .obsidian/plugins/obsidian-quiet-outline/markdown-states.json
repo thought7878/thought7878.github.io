@@ -4455,11 +4455,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 3,
         "ch": 0
       }
     },
@@ -36844,22 +36844,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 111.63802083333333,
+    "scroll": 113.4892578125,
     "cursor": {
       "from": {
-        "line": 124,
+        "line": 132,
         "ch": 0
       },
       "to": {
-        "line": 124,
+        "line": 132,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
       "item-3-12",
       "item-2-11",
-      "item-2-1"
+      "item-1-0"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -36927,7 +36926,7 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md": {
-    "scroll": 180.87070246179965,
+    "scroll": 163.9779110073571,
     "cursor": {
       "from": {
         "line": 189,
@@ -36938,9 +36937,7 @@
         "ch": 35
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/完整的用例说明与设计模式.md": {
     "scroll": 0,
@@ -36971,21 +36968,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md": {
-    "scroll": 455.0999348958333,
+    "scroll": 441.97062093060185,
     "cursor": {
       "from": {
-        "line": 462,
-        "ch": 2
+        "line": 473,
+        "ch": 0
       },
       "to": {
-        "line": 462,
-        "ch": 12
+        "line": 473,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-5",
       "item-2-11",
-      "item-2-9"
+      "item-1-0",
+      "item-1-5"
     ]
   },
   "_posts/English/单词/coordinate.md": {
@@ -37445,15 +37442,15 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代数据获取与避免过度设计.md": {
-    "scroll": 149.2255859375,
+    "scroll": 51.05447038272193,
     "cursor": {
       "from": {
-        "line": 165,
-        "ch": 33
+        "line": 57,
+        "ch": 0
       },
       "to": {
-        "line": 165,
-        "ch": 33
+        "line": 57,
+        "ch": 0
       }
     },
     "expandedKeys": []

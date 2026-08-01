@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md",
+                "file": "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代数据获取与避免过度设计.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.系统架构的案例"
+              "title": "4.现代数据获取与避免过度设计"
             }
           },
           {
@@ -1075,17 +1075,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
-    "_posts/读书笔记/健康/资料.md",
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/4.现代数据获取与避免过度设计.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/3.系统架构的案例.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/2.分层架构、三种配置方式、优势.md",
+    "_posts/读书笔记/世界趋势/美国.md",
+    "_posts/读书笔记/健康/资料.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-01.md",
     "DailyNote/Journal/01 Daily/2026/07/2026-07-31.md",
     "DailyNote/Journal/01 Daily/2026/08",
     "_posts/读书笔记/兴趣/军事.md",
-    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
     "_posts/architect/前端架构/前端架构-DS.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/1.介绍与架构基础.md",
     "_posts/architect/_教程/编程基础：应用架构/2 架构基础 (Architecture Basics)/02 - 应用程序中的不同构建模块.md",
@@ -1102,8 +1104,6 @@
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/03 - 代码走查（流程攻略）：Python“猜数字”游戏脚本.md",
     "_posts/architect/_教程/编程基础：应用架构/3 简单脚本应用/04 - 简单脚本应用程序的局限性.md",
     "_posts/architect/前端架构/为什么要学习软件架构？- QW.md",
-    "_posts/architect/前端架构/为什么要学习软件架构？- DS.md",
-    "_posts/architect/前端架构/为什么要学习软件架构？.md",
     "_posts/architect/_教程/编程基础：应用架构/9 总结",
     "_posts/architect/_教程/编程基础：应用架构/8 技术栈与平台考量",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
