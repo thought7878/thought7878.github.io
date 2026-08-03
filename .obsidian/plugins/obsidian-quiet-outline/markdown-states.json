@@ -567,19 +567,20 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 308.3255208333333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 327,
-        "ch": 0
+        "line": 0,
+        "ch": 132
       },
       "to": {
-        "line": 327,
-        "ch": 0
+        "line": 0,
+        "ch": 132
       }
     },
     "expandedKeys": [
-      "item-1-24"
+      "item-1-24",
+      "item-1-15"
     ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
@@ -36844,14 +36845,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 128.91243489583334,
+    "scroll": 135.47102864583334,
     "cursor": {
       "from": {
-        "line": 140,
+        "line": 153,
         "ch": 0
       },
       "to": {
-        "line": 140,
+        "line": 153,
         "ch": 0
       }
     },
@@ -37337,7 +37338,7 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md": {
-    "scroll": 281.79322916666666,
+    "scroll": 285.6118489583333,
     "cursor": {
       "from": {
         "line": 288,
@@ -37489,14 +37490,14 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.应用程序演示.md": {
-    "scroll": 17.005208333333332,
+    "scroll": 35.334201388888886,
     "cursor": {
       "from": {
-        "line": 19,
+        "line": 28,
         "ch": 0
       },
       "to": {
-        "line": 19,
+        "line": 28,
         "ch": 0
       }
     },
@@ -37505,20 +37506,21 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
-    "scroll": 6.810413129598189,
+    "scroll": 13.909815733522324,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 167
+        "line": 17,
+        "ch": 126
       },
       "to": {
-        "line": 14,
-        "ch": 167
+        "line": 17,
+        "ch": 126
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1"
+      "item-2-1",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md": {
