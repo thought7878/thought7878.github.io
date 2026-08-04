@@ -409,18 +409,20 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 239.6875,
+    "scroll": 56.1875,
     "cursor": {
       "from": {
-        "line": 265,
-        "ch": 0
+        "line": 74,
+        "ch": 124
       },
       "to": {
-        "line": 265,
-        "ch": 0
+        "line": 74,
+        "ch": 124
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-3"
+    ]
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
     "scroll": 0,
@@ -944,14 +946,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 121.31282552083333,
+    "scroll": 197.78141276041666,
     "cursor": {
       "from": {
-        "line": 129,
+        "line": 214,
         "ch": 0
       },
       "to": {
-        "line": 129,
+        "line": 214,
         "ch": 0
       }
     },
@@ -4306,11 +4308,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 20,
         "ch": 0
       }
     },
@@ -32101,7 +32103,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/旅居、旅行.md": {
-    "scroll": 0.5289256198347108,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 8,
@@ -36845,7 +36847,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 135.47102864583334,
+    "scroll": 138.55436197916666,
     "cursor": {
       "from": {
         "line": 153,
@@ -36857,9 +36859,15 @@
       }
     },
     "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
       "item-3-12",
       "item-2-11",
-      "item-1-0"
+      "item-3-22",
+      "item-3-26",
+      "item-3-30",
+      "item-3-33",
+      "item-3-38"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -37506,21 +37514,22 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
-    "scroll": 13.909815733522324,
+    "scroll": 33.84603118355776,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 126
+        "line": 45,
+        "ch": 57
       },
       "to": {
-        "line": 17,
-        "ch": 126
+        "line": 45,
+        "ch": 57
       }
     },
     "expandedKeys": [
-      "item-1-0",
       "item-2-1",
-      "item-2-4"
+      "item-1-0",
+      "item-2-5",
+      "item-2-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/07/2026-07-11.md": {
@@ -39030,14 +39039,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-03.md": {
-    "scroll": 24.680338541666668,
+    "scroll": 26.909505208333332,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -39072,5 +39081,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-04.md": {
+    "scroll": 10.53228962818004,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 62
+      },
+      "to": {
+        "line": 34,
+        "ch": 62
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
