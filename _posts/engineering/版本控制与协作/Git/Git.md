@@ -483,6 +483,10 @@ git pull <remote> <branch>
 3. **变基（Rebase）**
    - 将一个分支的修改应用到另一个分支上，使提交历史更加线性。但在多人协作时需谨慎使用，避免丢失提交记录。
 
+## Worktree
+【Git Worktree是什么？为什么它能让AI编程效率直接翻倍】 https://www.bilibili.com/video/BV1w6KY62Evo/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 # 六、与其他工具集成
 
 1. **与 IDE 集成**
