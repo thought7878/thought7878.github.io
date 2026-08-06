@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/1.欢迎/2.会见专家.md",
+                "file": "_posts/architect/_教程/0.软件工程入门/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.会见专家"
+              "title": "介绍"
             }
           },
           {
@@ -1077,7 +1077,9 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/1.什么是软件工程？.md",
     "_posts/architect/_教程/0.软件工程入门/介绍.md",
+    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/1.欢迎/2.会见专家.md",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/1.欢迎/1.课程介绍.md",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/1.欢迎",
@@ -1106,7 +1108,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/6.垂直切片架构与团队扩展性.md",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/7.应用程序演示.md",
     "_posts/methods/常看的.md",
-    "_posts/architect/架构原则/架构原则.md",
     "_posts/architect/架构原则",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/bc8676a390f1a8b098560e3ac59d4bf4_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/08",
@@ -1115,7 +1116,6 @@
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署",
-    "_posts/architect/_教程/编程基础：应用架构/6 API 与集成",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/media/a168b8a2397b3cc3cecf4c8169d8e639_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/media/6cac46cd212a514866aff428d6695183_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/5 云端应用/media/45997811203e61f9f61caab12a90e359_MD5.webp",
