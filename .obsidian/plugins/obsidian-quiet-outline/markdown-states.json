@@ -409,15 +409,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 56.1875,
+    "scroll": 53.583333333333336,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 124
+        "line": 77,
+        "ch": 0
       },
       "to": {
-        "line": 74,
-        "ch": 124
+        "line": 77,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -946,14 +946,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 192.58365885416666,
+    "scroll": 89.98930027173913,
     "cursor": {
       "from": {
-        "line": 214,
+        "line": 110,
         "ch": 0
       },
       "to": {
-        "line": 214,
+        "line": 110,
         "ch": 0
       }
     },
@@ -2933,11 +2933,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -37074,18 +37074,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 43
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 41,
-        "ch": 43
+        "line": 1,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-5"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/现代前端五层架构模型.md": {
     "scroll": 153.225194897236,
@@ -37514,7 +37511,7 @@
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/8.功能结构深度解析.md": {
-    "scroll": 67.57649739583333,
+    "scroll": 66.75305989583333,
     "cursor": {
       "from": {
         "line": 68,
@@ -39098,19 +39095,63 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-05.md": {
-    "scroll": 24.680338541666668,
+    "scroll": 25.138671875,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-06.md": {
+    "scroll": 24.680338541666668,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程入门/介绍.md": {
+    "scroll": 24.447441860465116,
+    "cursor": {
+      "from": {
+        "line": 44,
+        "ch": 0
+      },
+      "to": {
+        "line": 44,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
