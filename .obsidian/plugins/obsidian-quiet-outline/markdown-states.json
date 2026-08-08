@@ -39144,12 +39144,12 @@
     "scroll": 71.85384337784194,
     "cursor": {
       "from": {
-        "line": 87,
-        "ch": 0
+        "line": 89,
+        "ch": 16
       },
       "to": {
-        "line": 87,
-        "ch": 0
+        "line": 89,
+        "ch": 4
       }
     },
     "expandedKeys": [
@@ -39279,15 +39279,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-07.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 23.934934630586806,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 39,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -39309,15 +39309,45 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/3.软件开发生命周期（SDLC）简介.md": {
-    "scroll": 36.055338541666664,
+    "scroll": 39.180338541666664,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 13
+        "line": 55,
+        "ch": 0
       },
       "to": {
-        "line": 41,
-        "ch": 13
+        "line": 55,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-08.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/4.SDLC 的各个阶段.md": {
+    "scroll": 8.00853737113402,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
       }
     },
     "expandedKeys": []
