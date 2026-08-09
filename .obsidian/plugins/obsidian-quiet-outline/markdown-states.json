@@ -1988,12 +1988,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 129
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 129
       }
     },
     "expandedKeys": []
@@ -4111,15 +4111,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 0,
+    "scroll": 14.164713541666666,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 126
+        "line": 29,
+        "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 126
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -39141,7 +39141,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/介绍.md": {
-    "scroll": 72.65299479166667,
+    "scroll": 75.24202693125443,
     "cursor": {
       "from": {
         "line": 99,
@@ -39154,9 +39154,7 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-4",
-      "item-2-11",
-      "item-1-18"
+      "item-2-4"
     ]
   },
   "_posts/读书笔记/健康/老爹/病/心源性哮喘/4种药，该分别服用多少剂量？.md": {
@@ -39267,18 +39265,20 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/1.什么是软件工程？.md": {
-    "scroll": 51.90012428977273,
+    "scroll": 35.13979447200567,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 39
+        "line": 51,
+        "ch": 0
       },
       "to": {
-        "line": 57,
-        "ch": 39
+        "line": 51,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-07.md": {
     "scroll": 23.934934630586806,
@@ -39297,7 +39297,7 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/2.业内人士的观点：什么是软件工程？.md": {
-    "scroll": 45.868381076388886,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 55,
@@ -39311,20 +39311,71 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/3.软件开发生命周期（SDLC）简介.md": {
-    "scroll": 39.180338541666664,
+    "scroll": 33.87968992248062,
     "cursor": {
       "from": {
-        "line": 55,
+        "line": 41,
+        "ch": 16
+      },
+      "to": {
+        "line": 41,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-08.md": {
+    "scroll": 24.617838541666668,
+    "cursor": {
+      "from": {
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 55,
+        "line": 31,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
-  "DailyNote/Journal/01 Daily/2026/08/2026-08-08.md": {
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/4.SDLC 的各个阶段.md": {
+    "scroll": 46.3701171875,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 11
+      },
+      "to": {
+        "line": 62,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/5.打造优质软件.md": {
+    "scroll": 20.609700520833332,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 23
+      },
+      "to": {
+        "line": 33,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-09.md": {
     "scroll": 22.76740650653694,
     "cursor": {
       "from": {
@@ -39334,38 +39385,6 @@
       "to": {
         "line": 30,
         "ch": 6
-      }
-    },
-    "expandedKeys": [
-      "item-1-1"
-    ]
-  },
-  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/4.SDLC 的各个阶段.md": {
-    "scroll": 44.98874742798354,
-    "cursor": {
-      "from": {
-        "line": 47,
-        "ch": 388
-      },
-      "to": {
-        "line": 47,
-        "ch": 388
-      }
-    },
-    "expandedKeys": [
-      "item-1-0"
-    ]
-  },
-  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/5.打造优质软件.md": {
-    "scroll": 31.49798449612403,
-    "cursor": {
-      "from": {
-        "line": 45,
-        "ch": 25
-      },
-      "to": {
-        "line": 45,
-        "ch": 25
       }
     },
     "expandedKeys": [
