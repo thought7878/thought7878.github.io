@@ -39141,20 +39141,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/介绍.md": {
-    "scroll": 75.24202693125443,
+    "scroll": 97.5122699386503,
     "cursor": {
       "from": {
-        "line": 99,
+        "line": 110,
         "ch": 0
       },
       "to": {
-        "line": 99,
+        "line": 110,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-11",
       "item-1-0",
-      "item-2-4"
+      "item-1-18",
+      "item-2-19",
+      "item-2-27",
+      "item-1-32",
+      "item-2-33",
+      "item-2-39",
+      "item-1-43",
+      "item-2-44",
+      "item-2-49"
     ]
   },
   "_posts/读书笔记/健康/老爹/病/心源性哮喘/4种药，该分别服用多少剂量？.md": {
@@ -39360,15 +39369,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/5.打造优质软件.md": {
-    "scroll": 20.609700520833332,
+    "scroll": 59.697916666666664,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 23
+        "line": 73,
+        "ch": 0
       },
       "to": {
-        "line": 33,
-        "ch": 23
+        "line": 73,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -39389,6 +39398,85 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/6.需求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/6.需求（Requirements）.md": {
+    "scroll": 15.283720930232558,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 0
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 11
+      },
+      "to": {
+        "line": 0,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论.md": {
+    "scroll": 17.035481770833332,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 0
+      },
+      "to": {
+        "line": 40,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
