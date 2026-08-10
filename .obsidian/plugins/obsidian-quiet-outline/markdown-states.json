@@ -35559,19 +35559,20 @@
     "expandedKeys": []
   },
   "_posts/鸿蒙/鸿蒙.md": {
-    "scroll": 0,
+    "scroll": 17.234375,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 37,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 37,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-6"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/06/2026-06-17.md": {
@@ -39410,23 +39411,21 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/6.需求（Requirements）.md": {
-    "scroll": 9.384786406225187,
+    "scroll": 121.71627604166666,
     "cursor": {
       "from": {
-        "line": 27,
+        "line": 133,
         "ch": 0
       },
       "to": {
-        "line": 27,
+        "line": 133,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-3-11",
       "item-2-10",
-      "item-1-7",
-      "item-1-0",
-      "item-2-2"
+      "item-1-7"
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/未命名.md": {
@@ -39460,19 +39459,20 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论.md": {
-    "scroll": 17.035481770833332,
+    "scroll": 125.435546875,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 19
+        "line": 133,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 19
+        "line": 133,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-7"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-10.md": {
@@ -39490,5 +39490,35 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/2.软件版本.md": {
+    "scroll": 13.705729166666666,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/3.软件测试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
