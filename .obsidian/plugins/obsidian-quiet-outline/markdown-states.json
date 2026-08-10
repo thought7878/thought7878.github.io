@@ -949,11 +949,11 @@
     "scroll": 41.076171875,
     "cursor": {
       "from": {
-        "line": 52,
+        "line": 60,
         "ch": 0
       },
       "to": {
-        "line": 52,
+        "line": 60,
         "ch": 0
       }
     },
@@ -34264,14 +34264,14 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/_视频制作方法.md": {
-    "scroll": 11.291666666666666,
+    "scroll": 10.152173913043478,
     "cursor": {
       "from": {
-        "line": 20,
+        "line": 21,
         "ch": 0
       },
       "to": {
-        "line": 20,
+        "line": 21,
         "ch": 0
       }
     },
@@ -39378,15 +39378,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-09.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 24.867838541666668,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -39410,22 +39410,22 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述/6.需求（Requirements）.md": {
-    "scroll": 73.34324048913044,
+    "scroll": 65.90787760416667,
     "cursor": {
       "from": {
-        "line": 81,
-        "ch": 234
+        "line": 77,
+        "ch": 179
       },
       "to": {
-        "line": 81,
-        "ch": 234
+        "line": 77,
+        "ch": 179
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-2",
+      "item-3-11",
+      "item-2-10",
       "item-1-7",
-      "item-2-9"
+      "item-1-0"
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/未命名.md": {
@@ -39472,6 +39472,22 @@
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-10.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
