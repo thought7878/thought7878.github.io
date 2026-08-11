@@ -1,4 +1,15 @@
 
+# 内置模块
+
+## path
+[[path]]
+
+## \_\_dirname、\_\_filename
+[[__dirname、__filename]]
+
+## os
+[[os]]
+
 
 
 
