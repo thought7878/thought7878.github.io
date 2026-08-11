@@ -4111,15 +4111,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 14.164713541666666,
+    "scroll": 14.154296875,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 0
+        "line": 27,
+        "ch": 6
       },
       "to": {
-        "line": 29,
-        "ch": 0
+        "line": 27,
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -39540,7 +39540,7 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论（软件开发生命周期方法）.md": {
-    "scroll": 123.94205729166667,
+    "scroll": 120.65308779761905,
     "cursor": {
       "from": {
         "line": 128,
@@ -39552,8 +39552,35 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
       "item-1-7"
     ]
+  },
+  "_posts/base/知识目录、路线图/知识目录/服务端/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/base/知识目录、路线图/知识目录/服务端/Node.js.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
