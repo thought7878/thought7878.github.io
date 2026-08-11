@@ -39142,21 +39142,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程入门/介绍.md": {
-    "scroll": 85.74070732587514,
+    "scroll": 96.54915364583333,
     "cursor": {
       "from": {
-        "line": 110,
+        "line": 106,
         "ch": 0
       },
       "to": {
-        "line": 110,
+        "line": 106,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-2-4",
-      "item-1-0"
+      "item-1-0",
+      "item-3-11",
+      "item-2-11"
     ]
   },
   "_posts/读书笔记/健康/老爹/病/心源性哮喘/4种药，该分别服用多少剂量？.md": {
@@ -39423,7 +39423,9 @@
       }
     },
     "expandedKeys": [
+      "item-1-0",
       "item-3-11",
+      "item-2-11",
       "item-2-10",
       "item-1-7"
     ]
@@ -39459,15 +39461,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论.md": {
-    "scroll": 125.435546875,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 133,
-        "ch": 0
+        "line": 0,
+        "ch": 8
       },
       "to": {
-        "line": 133,
-        "ch": 0
+        "line": 0,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -39476,15 +39478,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-10.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 30.925939050318924,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -39520,5 +39522,38 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-11.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论（软件开发生命周期方法）.md": {
+    "scroll": 123.94205729166667,
+    "cursor": {
+      "from": {
+        "line": 128,
+        "ch": 0
+      },
+      "to": {
+        "line": 128,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-7"
+    ]
   }
 }
