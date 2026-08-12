@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-12.md",
+                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-12"
+              "title": "2026-08-13"
             }
           },
           {
@@ -1089,12 +1089,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "4f38250de12a7eed",
   "lastOpenFiles": [
     "_posts/AI/原理、概念/Agent.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-13.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-12.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/methods/要整理的.md",
     "_posts/要整理的.md",
-    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/AI 学习资料.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
     "_posts/AI/课程",
@@ -1114,13 +1116,11 @@
     "_posts/AI/原理、概念/Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！.md",
     "_posts/AI/原理、概念/一小时从函数到 Transformer.md",
     "_posts/AI/原理、概念/如何给我姥姥讲明白 AI 的底层逻辑？.md",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-12.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-11.md",
     "_posts/读书笔记/男女.md",
     "_posts/AI/AI开发",
     "_posts/base/知识目录、路线图/知识目录/服务端/Node.js.md",
     "_posts/后端/Node.js/内置模块/fs.md",
-    "_posts/后端/Node.js/内置模块/os.md",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
     "_posts/后端",
