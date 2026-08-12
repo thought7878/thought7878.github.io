@@ -6,7 +6,12 @@
 
 【DeepSeek AI 实战指南: 25个项目带你从入门到精通】 https://www.bilibili.com/video/BV1dsN7e7EZ4/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+# 课程
+[[_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍|介绍]]
 
+
+# 学习方法
+【我是如何用AI高速学习陌生代码的】 https://www.bilibili.com/video/BV1BWur6gECq/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 # 资料

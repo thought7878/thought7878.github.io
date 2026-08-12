@@ -877,7 +877,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/AI 学习资料.md",
+                "file": "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,19 +892,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 学习资料"
-            }
-          },
-          {
-            "id": "d9d1fd5bb35c9ed0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-09 16.51.40.excalidraw"
+              "title": "介绍"
             }
           },
           {
@@ -932,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -1077,7 +1065,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1101,14 +1089,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "4f38250de12a7eed",
   "lastOpenFiles": [
     "_posts/AI/AI 学习资料.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
+    "_posts/AI/课程",
+    "_posts/architect/五层架构模型/五层架构模型.md",
+    "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
     "_posts/AI/原理、概念/Agent.md",
+    "_posts/读书笔记/人性.md",
     "_posts/AI/生成式UI/生成式UI.md",
     "_posts/AI/生成式UI",
     "_posts/methods/常看的.md",
-    "_posts/读书笔记/人性.md",
     "_posts/AI/搞钱/搞钱总览.md",
     "_posts/AI/搞钱/方法.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -1131,14 +1124,9 @@
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
     "_posts/后端",
-    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色/1.软件开发方法论（软件开发生命周期方法）.md",
-    "_posts/读书笔记/人生.md",
     "_posts/base/知识目录、路线图/知识目录/服务端",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-10.md",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述",
-    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/1.欢迎",
-    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/a8a966603a4ec637ee02b81dc59500b7_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/bc8676a390f1a8b098560e3ac59d4bf4_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
