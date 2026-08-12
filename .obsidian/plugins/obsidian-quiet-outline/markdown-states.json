@@ -482,14 +482,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 150.29166666666666,
+    "scroll": 151.47471788194446,
     "cursor": {
       "from": {
-        "line": 169,
+        "line": 172,
         "ch": 0
       },
       "to": {
-        "line": 169,
+        "line": 172,
         "ch": 0
       }
     },
@@ -573,18 +573,15 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 11,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-24",
-      "item-1-15"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/6. pop().md": {
     "scroll": 12.520833333333334,
@@ -947,15 +944,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 41.076171875,
+    "scroll": 58.1044921875,
     "cursor": {
       "from": {
-        "line": 60,
-        "ch": 0
+        "line": 81,
+        "ch": 140
       },
       "to": {
-        "line": 60,
-        "ch": 0
+        "line": 81,
+        "ch": 140
       }
     },
     "expandedKeys": []
@@ -39859,6 +39856,36 @@
       },
       "to": {
         "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/搞钱/搞钱总览.md": {
+    "scroll": 21.67087693973295,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/AI/搞钱/方法.md": {
+    "scroll": 28.072591145833332,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 0
+      },
+      "to": {
+        "line": 46,
         "ch": 0
       }
     },
