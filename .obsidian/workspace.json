@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "ea00c091dd461014",
+            "id": "62e8e30cf5238f23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/要整理的.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,12 +56,12 @@
             }
           },
           {
-            "id": "62e8e30cf5238f23",
+            "id": "ea00c091dd461014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -1089,15 +1089,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f38250de12a7eed",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/AI/AI 学习资料.md",
+    "_posts/AI/原理、概念/Agent.md",
+    "_posts/methods/要整理的.md",
+    "_posts/要整理的.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/AI/AI 学习资料.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
     "_posts/AI/课程",
     "_posts/architect/五层架构模型/五层架构模型.md",
     "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
-    "_posts/AI/原理、概念/Agent.md",
     "_posts/读书笔记/人性.md",
     "_posts/AI/生成式UI/生成式UI.md",
     "_posts/AI/生成式UI",
@@ -1119,8 +1121,6 @@
     "_posts/base/知识目录、路线图/知识目录/服务端/Node.js.md",
     "_posts/后端/Node.js/内置模块/fs.md",
     "_posts/后端/Node.js/内置模块/os.md",
-    "_posts/后端/Node.js/内置模块/__dirname、__filename.md",
-    "_posts/后端/Node.js/内置模块/path.md",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
     "_posts/后端",
