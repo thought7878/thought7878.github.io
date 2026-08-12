@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/生成式UI/生成式UI.md",
+                "file": "_posts/AI/原理、概念/Agent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "生成式UI"
+              "title": "Agent"
+            }
+          },
+          {
+            "id": "4f38250de12a7eed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/AI 学习资料.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI 学习资料"
             }
           },
           {
@@ -1053,7 +1077,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1079,6 +1103,7 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/AI/AI 学习资料.md",
     "_posts/AI/原理、概念/Agent.md",
     "_posts/AI/生成式UI/生成式UI.md",
     "_posts/AI/生成式UI",
@@ -1089,7 +1114,6 @@
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/AI/AI.md",
     "_posts/AI/编程/AI 编程.md",
-    "_posts/AI/AI 学习资料.md",
     "_posts/后端/Node.js/内置模块/http.md",
     "_posts/AI/原理、概念/Harness.md",
     "_posts/AI/原理、概念/Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！.md",

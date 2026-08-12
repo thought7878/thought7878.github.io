@@ -29,7 +29,8 @@ https://github.com/bojieli/ai-agent-book
 
 
 
-
+## 案例
+【前端搞AI应用,怎么学？】 https://www.bilibili.com/video/BV1zWXMBWE8Q/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 ## 实战
