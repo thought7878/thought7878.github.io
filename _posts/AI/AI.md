@@ -43,7 +43,7 @@ AI速成短视频 验证AI自动化生成商用视频可行性，以苹果笔记
 # AI 概念
 Token、上下文、MCP、函数调用、Agent、Skill等。
 
-参考：[[AI 概念]]
+参考：[[Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！]]
 
 # 趋势、行业观察
 
