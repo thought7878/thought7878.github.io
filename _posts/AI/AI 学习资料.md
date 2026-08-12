@@ -1,3 +1,12 @@
+[从小白到大师，用 AI 的四层境界，学习路线！](https://v.douyin.com/dQEV5ajZqXM/)
+
+
+## [【大白话搞懂DeepSeek】从函数到神经网络](https://b23.tv/simn9R2)
+
+
+【DeepSeek AI 实战指南: 25个项目带你从入门到精通】 https://www.bilibili.com/video/BV1dsN7e7EZ4/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 
 
 # 资料
