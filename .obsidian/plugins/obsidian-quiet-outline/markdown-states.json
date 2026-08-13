@@ -39819,20 +39819,18 @@
     ]
   },
   "_posts/AI/AI 学习资料.md": {
-    "scroll": 16.128396739130434,
+    "scroll": 3.306165839829908,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 12,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-3"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/原理、概念/agent.md": {
     "scroll": 0,
@@ -39852,11 +39850,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 9,
         "ch": 0
       }
     },
@@ -39938,20 +39936,36 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 11,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-5",
-      "item-1-0"
+      "item-1-0",
+      "item-2-5"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-13.md": {
+    "scroll": 22.88415931894193,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-14.md": {
     "scroll": 22.76740650653694,
     "cursor": {
       "from": {
@@ -39965,6 +39979,58 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/课程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 11
+      },
+      "to": {
+        "line": 3,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/课程/2026 年推荐的前 6 门课程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 13
+      },
+      "to": {
+        "line": 3,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/课程/2026 年推荐的 6 门课程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-13",
+      "item-2-8",
+      "item-2-5"
     ]
   }
 }
