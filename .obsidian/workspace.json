@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/原理、概念/Agent.md",
+                "file": "_posts/AI/AI 学习资料.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agent"
+              "title": "AI 学习资料"
             }
           },
           {
@@ -920,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 36
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -1089,11 +1089,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f38250de12a7eed",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
-    "_posts/methods/要整理的.md",
-    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/原理、概念/Agent.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/methods/要整理的.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-13.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-12.md",
     "_posts/要整理的.md",

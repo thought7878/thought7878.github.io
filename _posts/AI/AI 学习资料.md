@@ -32,6 +32,7 @@ https://github.com/bojieli/ai-agent-book
 
 【10 分钟讲透 AI Agent 8 种主流架构】 https://www.bilibili.com/video/BV1CrKA6YETu/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+【如何成为AI Agent工程师，一个视频讲清楚！】 https://www.bilibili.com/video/BV1qAPrzTEb8/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 ## 案例
