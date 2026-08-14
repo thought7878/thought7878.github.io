@@ -920,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 36
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -1065,7 +1065,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1089,11 +1089,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f38250de12a7eed",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
-    "_posts/AI/AI开发中的新职位.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/libraries/MUI_BaseUI/issues/issue 5131.md",
     "_posts/AI/原理、概念/Agent.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/AI开发中的新职位.md",
     "_posts/tools/资源.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media/72734f524aa66dbad10a072dd338459d_MD5.webp",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
@@ -1115,13 +1117,11 @@
     "_posts/读书笔记/人性.md",
     "_posts/AI/生成式UI/生成式UI.md",
     "_posts/AI/生成式UI",
-    "_posts/methods/常看的.md",
     "_posts/AI/搞钱/搞钱总览.md",
     "_posts/AI/搞钱/方法.md",
     "_posts/AI/AI.md",
     "_posts/AI/编程/AI 编程.md",
     "_posts/AI/原理、概念/Harness.md",
-    "_posts/AI/原理、概念/Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！.md",
     "_posts/AI/AI开发",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
