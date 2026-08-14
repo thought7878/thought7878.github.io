@@ -2,6 +2,8 @@
 
 [【闪客】你管这破玩意叫智能体？](https://www.bilibili.com/video/BV1PRvhBSEwx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
 
+【我拆了所有Agent，发现最后只剩下了这个。。。】 https://www.bilibili.com/video/BV19puG6EEkP/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【agent开发对应的系统设计知识】 https://www.bilibili.com/video/BV1SgMz67ESb/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
