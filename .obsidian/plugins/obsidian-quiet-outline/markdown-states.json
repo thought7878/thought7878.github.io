@@ -33955,12 +33955,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 17
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 17
       }
     },
     "expandedKeys": []
@@ -39933,19 +39933,18 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md": {
-    "scroll": 65.75599420883506,
+    "scroll": 65.31078074790777,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 0
+        "line": 73,
+        "ch": 14
       },
       "to": {
-        "line": 74,
-        "ch": 0
+        "line": 73,
+        "ch": 14
       }
     },
     "expandedKeys": [
-      "item-2-6",
       "item-1-0"
     ]
   },
@@ -40040,6 +40039,20 @@
       "to": {
         "line": 33,
         "ch": 37
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/AI开发中的新职位.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
       }
     },
     "expandedKeys": []

@@ -877,7 +877,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/tools/资源.md",
+                "file": "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,7 +892,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "资源"
+              "title": "介绍"
             }
           },
           {
@@ -1091,10 +1091,12 @@
   },
   "active": "4f38250de12a7eed",
   "lastOpenFiles": [
+    "_posts/AI/AI开发中的新职位.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/AI/原理、概念/Agent.md",
+    "_posts/tools/资源.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media/72734f524aa66dbad10a072dd338459d_MD5.webp",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
-    "_posts/AI/原理、概念/Agent.md",
     "_posts/AI/AI 学习资料.md",
     "_posts/AI/AI 工具.md",
     "_posts/后端/Node.js/内置模块/http.md",
@@ -1120,7 +1122,6 @@
     "_posts/AI/编程/AI 编程.md",
     "_posts/AI/原理、概念/Harness.md",
     "_posts/AI/原理、概念/Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！.md",
-    "_posts/AI/原理、概念/一小时从函数到 Transformer.md",
     "_posts/AI/AI开发",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
