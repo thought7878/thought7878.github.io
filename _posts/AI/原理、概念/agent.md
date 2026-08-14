@@ -18,3 +18,5 @@
 
 【DeepSeek Harness 重磅发布！一切皆插件！万物皆可DIY ！！】 https://www.bilibili.com/video/BV17fgn6SEYh/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+## 案例
+【Claude Code泄露源码分析，10分钟速通核心架构！】 https://www.bilibili.com/video/BV1q997BmEyo/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
