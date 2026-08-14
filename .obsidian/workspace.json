@@ -920,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -1089,12 +1089,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "4f38250de12a7eed",
   "lastOpenFiles": [
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media/72734f524aa66dbad10a072dd338459d_MD5.webp",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
+    "_posts/AI/原理、概念/Agent.md",
     "_posts/AI/AI 学习资料.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/AI 工具.md",
-    "_posts/AI/原理、概念/Agent.md",
     "_posts/后端/Node.js/内置模块/http.md",
     "_posts/AI/课程/2026 年推荐的 6 门课程.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-14.md",
@@ -1119,14 +1121,12 @@
     "_posts/AI/原理、概念/Harness.md",
     "_posts/AI/原理、概念/Agent、Skill、Harness啥意思？一次性讲明白AI技术名词！.md",
     "_posts/AI/原理、概念/一小时从函数到 Transformer.md",
-    "_posts/AI/原理、概念/如何给我姥姥讲明白 AI 的底层逻辑？.md",
     "_posts/AI/AI开发",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
     "_posts/后端",
     "_posts/base/知识目录、路线图/知识目录/服务端",
     "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/3.软件构建过程及相关角色",
-    "_posts/architect/_教程/0.软件工程入门/1.软件开发生命周期/2.软件工程概述",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/a8a966603a4ec637ee02b81dc59500b7_MD5.webp",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/bc8676a390f1a8b098560e3ac59d4bf4_MD5.webp",
     "_posts/architect/_教程/编程基础：应用架构/7 质量保证与部署/media/59c24b9f147da6cd03ddf33f9124359b_MD5.webp",
