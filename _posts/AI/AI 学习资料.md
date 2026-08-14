@@ -6,10 +6,16 @@
 
 【DeepSeek AI 实战指南: 25个项目带你从入门到精通】 https://www.bilibili.com/video/BV1dsN7e7EZ4/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+# 趋势
+【从“信息交互”进入了“任务执行”的时代---腾讯阿里字节集体转向：Chat时代终结，办公Agent大战爆发【暗中观察463】IC实验室】 https://www.bilibili.com/video/BV128g56LEdP/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+
 # 课程
 [[_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍|介绍]]
 
 [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+
+【Udemy - The AI Engineer Course 2026: Complete AI Engineer Bootcamp part1】 https://www.bilibili.com/video/BV1dedKBUENt/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 
 # 学习方法
