@@ -1,3 +1,8 @@
+
+# 原理
+
+[从词向量到Transformer，AI大模型背后的原理，一个动画急速入门](https://www.bilibili.com/video/BV1nogs6qEZn/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
+
 [从小白到大师，用 AI 的四层境界，学习路线！](https://v.douyin.com/dQEV5ajZqXM/)
 
 
@@ -6,9 +11,18 @@
 
 【DeepSeek AI 实战指南: 25个项目带你从入门到精通】 https://www.bilibili.com/video/BV1dsN7e7EZ4/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+# 博主
+- [轩辕的编程宇宙](https://space.bilibili.com/668097429?spm_id_from=333.788.upinfo.detail.click)
+- [飞天闪客](https://space.bilibili.com/325864133?spm_id_from=333.788.upinfo.detail.click)
+- 
+
+
+
 # 趋势
 【从“信息交互”进入了“任务执行”的时代---腾讯阿里字节集体转向：Chat时代终结，办公Agent大战爆发【暗中观察463】IC实验室】 https://www.bilibili.com/video/BV128g56LEdP/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+# 路线图
+[ai-engineer roadmap](https://roadmap.sh/ai-engineer)
 
 # 课程
 [[_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍|介绍]]
