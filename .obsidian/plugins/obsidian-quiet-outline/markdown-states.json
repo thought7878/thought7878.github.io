@@ -39850,12 +39850,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 135
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 33,
-        "ch": 135
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -40116,6 +40116,36 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
+    "scroll": 349.97554925584694,
+    "cursor": {
+      "from": {
+        "line": 352,
+        "ch": 71
+      },
+      "to": {
+        "line": 352,
+        "ch": 71
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
     ]
   }
 }
