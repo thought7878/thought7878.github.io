@@ -2931,12 +2931,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 140
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 140
       }
     },
     "expandedKeys": []
@@ -3062,14 +3062,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 204.64583333333334,
+    "scroll": 210.74840538625088,
     "cursor": {
       "from": {
-        "line": 237,
+        "line": 219,
         "ch": 0
       },
       "to": {
-        "line": 237,
+        "line": 219,
         "ch": 0
       }
     },
@@ -39847,7 +39847,7 @@
     "expandedKeys": []
   },
   "_posts/AI/原理、概念/Agent.md": {
-    "scroll": 14.958333333333334,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 33,
@@ -40059,14 +40059,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-15.md": {
-    "scroll": 11.906066536203522,
+    "scroll": 23.1176649437519,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -40101,5 +40101,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-18.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }

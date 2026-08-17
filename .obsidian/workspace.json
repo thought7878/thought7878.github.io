@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-15.md",
+                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-18.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-15"
+              "title": "2026-08-18"
             }
           },
           {
@@ -920,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1068,7 +1068,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1092,14 +1092,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddae962e27192a67",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
-    "_posts/AI/「动力飞轮」APP/方法.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/人性.md",
-    "_posts/methods/要整理的.md",
-    "_posts/AI/原理、概念/Agent.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-15.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-18.md",
+    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/教育.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/原理、概念/Agent.md",
+    "_posts/AI/「动力飞轮」APP/方法.md",
+    "_posts/读书笔记/人性.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-14.md",
     "_posts/AI/AI 学习资料.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
@@ -1122,9 +1125,6 @@
     "_posts/architect/_教程/Advanced Frontend Course/Drawing 2026-07-09 16.51.40.excalidraw.md",
     "_posts/AI/生成式UI/生成式UI.md",
     "_posts/AI/生成式UI",
-    "_posts/AI/搞钱/搞钱总览.md",
-    "_posts/AI/搞钱/方法.md",
-    "_posts/AI/AI.md",
     "_posts/AI/AI开发",
     "_posts/后端/Node.js/内置模块",
     "_posts/后端/Node.js",
