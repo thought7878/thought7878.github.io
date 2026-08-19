@@ -482,14 +482,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 171.30013020833334,
+    "scroll": 166.95833333333334,
     "cursor": {
       "from": {
-        "line": 183,
+        "line": 182,
         "ch": 0
       },
       "to": {
-        "line": 183,
+        "line": 182,
         "ch": 0
       }
     },
@@ -3062,19 +3062,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 210.74840538625088,
+    "scroll": 233.32552083333334,
     "cursor": {
       "from": {
-        "line": 219,
-        "ch": 0
+        "line": 250,
+        "ch": 152
       },
       "to": {
-        "line": 219,
-        "ch": 0
+        "line": 250,
+        "ch": 152
       }
     },
     "expandedKeys": [
-      "item-1-2"
+      "item-1-2",
+      "item-2-6"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -4111,15 +4112,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 14.154296875,
+    "scroll": 1.1666666666666667,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 6
+        "line": 15,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 6
+        "line": 15,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -40103,7 +40104,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-18.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 24.992838541666668,
     "cursor": {
       "from": {
         "line": 31,
@@ -40133,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 80.55627906976744,
+    "scroll": 81.60248062015503,
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 0
+        "line": 102,
+        "ch": 41
       },
       "to": {
-        "line": 99,
-        "ch": 0
+        "line": 102,
+        "ch": 41
       }
     },
     "expandedKeys": [
@@ -40294,31 +40295,61 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/9.LLM工作原理：令牌、记忆与推理详解.md": {
-    "scroll": 31.159505208333332,
+    "scroll": 45.529459635416664,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 231
+        "line": 61,
+        "ch": 23
       },
       "to": {
-        "line": 44,
-        "ch": 231
+        "line": 61,
+        "ch": 23
       }
     },
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/10.工具、循环与AI代理的定义.md": {
-    "scroll": 93.69118572475324,
+    "scroll": 0.441621096940982,
     "cursor": {
       "from": {
-        "line": 115,
-        "ch": 15
+        "line": 18,
+        "ch": 6
       },
       "to": {
-        "line": 115,
-        "ch": 15
+        "line": 18,
+        "ch": 6
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md": {
+    "scroll": 22.784505208333332,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 164
+      },
+      "to": {
+        "line": 30,
+        "ch": 164
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-19.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
