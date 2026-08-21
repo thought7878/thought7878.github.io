@@ -3062,20 +3062,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 250.42350260416666,
+    "scroll": 277.9111328125,
     "cursor": {
       "from": {
-        "line": 260,
+        "line": 290,
         "ch": 0
       },
       "to": {
-        "line": 260,
+        "line": 290,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-2",
-      "item-2-6"
+      "item-2-7"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -34267,14 +34267,14 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/_视频制作方法.md": {
-    "scroll": 10.152173913043478,
+    "scroll": 13.270833333333334,
     "cursor": {
       "from": {
-        "line": 21,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 21,
+        "line": 31,
         "ch": 0
       }
     },
@@ -40134,14 +40134,14 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 84.71131782945736,
+    "scroll": 82.76171875,
     "cursor": {
       "from": {
-        "line": 103,
+        "line": 104,
         "ch": 0
       },
       "to": {
-        "line": 103,
+        "line": 104,
         "ch": 0
       }
     },
@@ -40328,14 +40328,14 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md": {
-    "scroll": 181.13273111979166,
+    "scroll": 150.11764705882354,
     "cursor": {
       "from": {
-        "line": 186,
+        "line": 155,
         "ch": 0
       },
       "to": {
-        "line": 186,
+        "line": 155,
         "ch": 0
       }
     },
@@ -40412,15 +40412,45 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-20.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 26.638671875,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md": {
+    "scroll": 1.2608695652173914,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 29
+      },
+      "to": {
+        "line": 12,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md": {
+    "scroll": 22.76740650653694,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
       }
     },
     "expandedKeys": [
