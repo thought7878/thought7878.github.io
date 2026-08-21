@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/设计/Figma/Figma.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "Figma"
             }
           },
           {
@@ -1092,10 +1092,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
+    "_posts/设计/Figma/Figma零基础完全入门教程",
+    "_posts/设计/Figma",
     "_posts/methods/要整理的.md",
+    "_posts/设计/Figma/Figma.md",
+    "_posts/设计",
+    "_posts/methods/常看的.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-20.md",
@@ -1130,15 +1134,11 @@
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/原理、概念/Agent.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-15.md",
-    "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/24. Binary Heaps/2.堆的简介.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media/72734f524aa66dbad10a072dd338459d_MD5.webp",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
     "_posts/AI/课程",
     "_posts/AI/生成式UI",
-    "_posts/AI/AI开发",
-    "_posts/后端/Node.js/内置模块",
     "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/media/a8a966603a4ec637ee02b81dc59500b7_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
