@@ -1,7 +1,12 @@
 
 
 # 教程
+
+## 视频
 【2026最新Figma零基础完全入门教程 | 零基础学会Figma | Ul设计入门教程】 https://www.bilibili.com/video/BV1LDUWBjEPD/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+## 文档
+[[Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南]]
 
 
 # 目录
