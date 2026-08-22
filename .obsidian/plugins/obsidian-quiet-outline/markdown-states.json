@@ -4108,15 +4108,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 30.721354166666668,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 141
+        "line": 18,
+        "ch": 149
       },
       "to": {
-        "line": 47,
-        "ch": 141
+        "line": 18,
+        "ch": 149
       }
     },
     "expandedKeys": []
@@ -40131,15 +40131,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 102.30108527131783,
+    "scroll": 106.41364341085271,
     "cursor": {
       "from": {
-        "line": 120,
-        "ch": 24
+        "line": 122,
+        "ch": 0
       },
       "to": {
-        "line": 120,
-        "ch": 24
+        "line": 122,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -40604,14 +40604,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
+        "line": 22,
         "ch": 0
       },
       "to": {
-        "line": 1,
+        "line": 22,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/16.探索agents.md文件与Cursor设置用于氛围编程.md": {
+    "scroll": 1.1666666666666667,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 72
+      },
+      "to": {
+        "line": 15,
+        "ch": 72
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
