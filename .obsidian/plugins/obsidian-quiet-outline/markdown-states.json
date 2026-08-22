@@ -3062,20 +3062,19 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 218.32942708333334,
+    "scroll": 203.08333333333334,
     "cursor": {
       "from": {
-        "line": 232,
+        "line": 217,
         "ch": 0
       },
       "to": {
-        "line": 232,
+        "line": 217,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-2-9"
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -39831,7 +39830,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/AI/原理、概念/agent.md": {
     "scroll": 0,
@@ -39934,7 +39935,7 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md": {
-    "scroll": 53.919704861111114,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 38,
@@ -39946,8 +39947,7 @@
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-6"
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-13.md": {
@@ -40134,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 82.76171875,
+    "scroll": 82.96321614583333,
     "cursor": {
       "from": {
-        "line": 104,
-        "ch": 0
+        "line": 106,
+        "ch": 21
       },
       "to": {
-        "line": 104,
-        "ch": 0
+        "line": 106,
+        "ch": 21
       }
     },
     "expandedKeys": [
@@ -40328,7 +40328,7 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md": {
-    "scroll": 150.11764705882354,
+    "scroll": 98.02018229166667,
     "cursor": {
       "from": {
         "line": 155,
@@ -40428,29 +40428,31 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md": {
-    "scroll": 1.2608695652173914,
+    "scroll": 27.077799479166668,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 67
+        "line": 30,
+        "ch": 263
       },
       "to": {
-        "line": 15,
-        "ch": 67
+        "line": 30,
+        "ch": 263
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md": {
-    "scroll": 22.76740650653694,
+    "scroll": 27.681046195652176,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -40498,6 +40500,7 @@
       }
     },
     "expandedKeys": [
+      "item-2-7",
       "item-1-3",
       "item-1-0"
     ]
@@ -40519,33 +40522,38 @@
     ]
   },
   "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md": {
-    "scroll": 292.2059319034473,
+    "scroll": 1368.3736979166667,
     "cursor": {
       "from": {
-        "line": 294,
-        "ch": 66
+        "line": 1392,
+        "ch": 0
       },
       "to": {
-        "line": 294,
-        "ch": 66
+        "line": 1392,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-4",
-      "item-2-93",
-      "item-2-91",
-      "item-2-83",
-      "item-2-80",
-      "item-2-76",
-      "item-2-72",
-      "item-2-56",
-      "item-2-51",
       "item-2-7",
-      "item-2-4",
-      "item-2-2",
-      "item-2-10",
-      "item-2-12",
-      "item-2-19"
+      "item-2-24",
+      "item-2-91",
+      "item-2-51"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-22.md": {
+    "scroll": 23.779264214046822,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

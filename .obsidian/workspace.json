@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南"
+              "title": "要整理的"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md",
+                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-21"
+              "title": "2026-08-22"
             }
           },
           {
@@ -848,30 +848,6 @@
             }
           },
           {
-            "id": "ddae962e27192a67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12.掌握agents.md：编码代理的上下文窗口策略"
-            }
-          },
-          {
             "id": "4f38250de12a7eed",
             "type": "leaf",
             "state": {
@@ -918,9 +894,57 @@
               "icon": "lucide-file",
               "title": "五层架构模型"
             }
+          },
+          {
+            "id": "477809129c38539f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南"
+            }
+          },
+          {
+            "id": "ddae962e27192a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "12.掌握agents.md：编码代理的上下文窗口策略"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 38
       }
     ],
     "direction": "vertical"
@@ -1092,8 +1116,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md",
+    "_posts/AI/短视频/_视频制作方法.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/AI/AI 学习资料.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-22.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md",
+    "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
+    "_posts/设计/Figma/Figma.md",
+    "_posts/architect/五层架构模型/五层架构模型.md",
+    "_posts/methods/要整理的.md",
     "_posts/设计/Figma/media/1e297a1168194e3333fa4e7d4b6def44_MD5.webp",
     "_posts/设计/Figma/media/a8a5bcb20c963c48c0092f379d962b3e_MD5.webp",
     "_posts/设计/Figma/media/277c7d87cfeb6b85a6eab0c707427c62_MD5.webp",
@@ -1104,22 +1140,13 @@
     "_posts/设计/Figma/media/075ed50f57b3814cbdbf0f0a2cd13a3b_MD5.webp",
     "_posts/设计/Figma/media/31b646e8fa4ef48f57ff1cb6b58b8680_MD5.webp",
     "_posts/设计/Figma/media/732bee38467e3fe95b3ab84c65521120_MD5.webp",
-    "_posts/设计/Figma/media/d50bc4cc9c08d18016f5a563842cd44b_MD5.webp",
     "_posts/设计/Figma/media",
-    "_posts/设计/Figma/Figma.md",
-    "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
     "_posts/设计/Figma/Figma零基础完全入门教程",
     "_posts/设计/Figma",
-    "_posts/methods/要整理的.md",
     "_posts/设计",
     "_posts/methods/常看的.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/12.掌握agents.md：编码代理的上下文窗口策略.md",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-21.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-20.md",
     "DailyNote/Journal/01 Daily/2026-08-21.md",
-    "_posts/AI/短视频/_视频制作方法.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md",
     "_posts/读书笔记/经济、金融/知识点.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-19.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/10.工具、循环、AI代理.md",
@@ -1133,10 +1160,7 @@
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/media",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/4.认识你的讲师与课程路线图.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/media",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/2.使用Cursor AI Agent构建第一人称射击游戏.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/1.课程欢迎：使用Cursor AI构建3D游戏.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程",
-    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
