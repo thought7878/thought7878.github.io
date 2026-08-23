@@ -3062,15 +3062,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 230.81006378454995,
+    "scroll": 237.02604166666666,
     "cursor": {
       "from": {
-        "line": 248,
-        "ch": 0
+        "line": 249,
+        "ch": 148
       },
       "to": {
-        "line": 248,
-        "ch": 0
+        "line": 249,
+        "ch": 148
       }
     },
     "expandedKeys": [
@@ -40134,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 116.25271317829457,
+    "scroll": 135.36062015503876,
     "cursor": {
       "from": {
-        "line": 136,
-        "ch": 31
+        "line": 152,
+        "ch": 0
       },
       "to": {
-        "line": 136,
-        "ch": 31
+        "line": 152,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -40519,20 +40519,21 @@
     "expandedKeys": []
   },
   "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md": {
-    "scroll": 430.7828776041667,
+    "scroll": 472.6940104166667,
     "cursor": {
       "from": {
-        "line": 446,
-        "ch": 25
+        "line": 488,
+        "ch": 58
       },
       "to": {
-        "line": 446,
-        "ch": 25
+        "line": 488,
+        "ch": 58
       }
     },
     "expandedKeys": [
       "item-2-12",
-      "item-2-24"
+      "item-2-24",
+      "item-2-31"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-22.md": {
@@ -40676,15 +40677,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/19.OpenAI Codex VS Code扩展：零样本看板应用构建.md": {
-    "scroll": 0,
+    "scroll": 5.868044998479781,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 20
+        "line": 28,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 20
+        "line": 28,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -40715,6 +40716,34 @@
       "to": {
         "line": 2,
         "ch": 69
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/20.使用Antigravity IDE和Gemini 3 Pro构建看板应用.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 37
+      },
+      "to": {
+        "line": 15,
+        "ch": 37
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/21.Cursor vs Copilot vs Codex vs Antigravity：最终结论.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 24
+      },
+      "to": {
+        "line": 19,
+        "ch": 24
       }
     },
     "expandedKeys": []
