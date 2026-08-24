@@ -925,7 +925,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/24.负责任的YOLO编码：为AI项目设置OpenRouter.md",
+                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/25.YOLO模式：在Cursor中使用GPT Codex构建Next.js网站.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -940,7 +940,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "24.负责任的YOLO编码：为AI项目设置OpenRouter"
+              "title": "25.YOLO模式：在Cursor中使用GPT Codex构建Next.js网站"
             }
           }
         ],
@@ -1116,17 +1116,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "ddae962e27192a67",
   "lastOpenFiles": [
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/24.负责任的YOLO编码：为AI项目设置OpenRouter.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/25.YOLO模式：在Cursor中使用GPT Codex构建Next.js网站.md",
+    "_posts/AI/AI.md",
+    "_posts/AI/工具/AI模型聚合与路由平台.md",
+    "_posts/AI/工具",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/methods/常看的.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/23.成功氛围编程的五项原则：掌控全局.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/22.YOLO模式：为IDE中的Agentic编码选择合适的LLM.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-24.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-23.md",
-    "_posts/methods/常看的.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/21.Cursor vs Copilot vs Codex vs Antigravity：最终结论.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/25..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/26..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/27..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/28..md",
@@ -1134,16 +1139,12 @@
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/30..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/20.使用Antigravity IDE和Gemini 3 Pro构建看板应用.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/19.OpenAI Codex VS Code扩展：零样本看板应用构建.md",
-    "_posts/methods/要整理的.md",
     "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
     "_posts/设计/Figma/Figma.md",
     "_posts/设计/Figma/Figma：给前端工程师.md",
     "_posts/设计/Figma/Group 对比 Frame.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/读书笔记/男女.md",
-    "_posts/architect/五层架构模型/五层架构模型.md",
-    "_posts/读书笔记/兴趣/宇宙、物理.md",
-    "_posts/读书笔记/兴趣/未命名.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/media/32369c38bc003f64dc0a27aa963ae83f_MD5.webp",
     "_posts/设计/Figma/media/1e297a1168194e3333fa4e7d4b6def44_MD5.webp",
     "_posts/设计/Figma/media/a8a5bcb20c963c48c0092f379d962b3e_MD5.webp",
@@ -1163,7 +1164,6 @@
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/media",
-    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
