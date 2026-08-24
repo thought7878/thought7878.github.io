@@ -3062,19 +3062,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 223.7421875,
+    "scroll": 208.23958333333334,
     "cursor": {
       "from": {
-        "line": 231,
-        "ch": 144
+        "line": 225,
+        "ch": 0
       },
       "to": {
-        "line": 231,
-        "ch": 144
+        "line": 225,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2"
+      "item-1-2",
+      "item-2-10"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -40134,15 +40135,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 144.07421875,
+    "scroll": 149.94263565891472,
     "cursor": {
       "from": {
-        "line": 163,
-        "ch": 7
+        "line": 166,
+        "ch": 30
       },
       "to": {
-        "line": 163,
-        "ch": 7
+        "line": 166,
+        "ch": 30
       }
     },
     "expandedKeys": [
@@ -40961,15 +40962,43 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/25.YOLO模式：在Cursor中使用GPT Codex构建Next.js网站.md": {
+    "scroll": 10.266666666666667,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 19
+      },
+      "to": {
+        "line": 26,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/26.通过OpenRouter和氛围编程添加AI数字孪生聊天.md": {
+    "scroll": 4.25,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 21
+      },
+      "to": {
+        "line": 11,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/27.教程、使用Opus的代码审查以及跨模型协作.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 46
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 46
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
