@@ -943,14 +943,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 55.687825520833336,
+    "scroll": 66.05164930555556,
     "cursor": {
       "from": {
-        "line": 67,
+        "line": 87,
         "ch": 0
       },
       "to": {
-        "line": 67,
+        "line": 87,
         "ch": 0
       }
     },
@@ -3061,18 +3061,19 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 184.52083333333334,
+    "scroll": 291.7877604166667,
     "cursor": {
       "from": {
-        "line": 214,
+        "line": 312,
         "ch": 0
       },
       "to": {
-        "line": 214,
+        "line": 312,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-10",
       "item-1-2"
     ]
   },
@@ -34265,7 +34266,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/_视频制作方法.md": {
-    "scroll": 3.6666666666666665,
+    "scroll": 4.65625,
     "cursor": {
       "from": {
         "line": 17,
@@ -40133,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 170.95344640923855,
+    "scroll": 170.03536629375677,
     "cursor": {
       "from": {
-        "line": 188,
-        "ch": 47
+        "line": 192,
+        "ch": 46
       },
       "to": {
-        "line": 188,
-        "ch": 53
+        "line": 192,
+        "ch": 46
       }
     },
     "expandedKeys": [
@@ -41149,11 +41150,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 2,
         "ch": 0
       }
     },
@@ -41188,15 +41189,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/30.使用GitHub Copilot和FastAPI设置全栈项目.md": {
-    "scroll": 83.1015625,
+    "scroll": 183.134765625,
     "cursor": {
       "from": {
-        "line": 106,
-        "ch": 41
+        "line": 199,
+        "ch": 0
       },
       "to": {
-        "line": 106,
-        "ch": 41
+        "line": 199,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -41207,11 +41208,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 26,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 26,
         "ch": 0
       }
     },
@@ -41233,6 +41234,36 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/32.使用GitHub Copilot、Docker和FastAPI构建看板应用.md": {
+    "scroll": 0.9173553719008265,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 19
+      },
+      "to": {
+        "line": 19,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/33.使用GitHub Copilot构建看板应用：调试拖放功能.md": {
+    "scroll": 11.202338766832034,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
