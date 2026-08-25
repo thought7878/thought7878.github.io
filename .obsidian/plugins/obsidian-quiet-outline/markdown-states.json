@@ -40949,12 +40949,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 106
+        "line": 6,
+        "ch": 30
       },
       "to": {
-        "line": 8,
-        "ch": 106
+        "line": 6,
+        "ch": 30
       }
     },
     "expandedKeys": []
@@ -41188,18 +41188,20 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/30.使用GitHub Copilot和FastAPI设置全栈项目.md": {
-    "scroll": 15.314453125,
+    "scroll": 81.52994791666667,
     "cursor": {
       "from": {
-        "line": 26,
+        "line": 100,
         "ch": 30
       },
       "to": {
-        "line": 26,
+        "line": 100,
         "ch": 30
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/31.与AI Copilot逐步构建：规划与脚手架.md": {
     "scroll": 0,
