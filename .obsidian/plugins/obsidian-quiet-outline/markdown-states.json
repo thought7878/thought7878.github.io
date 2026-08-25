@@ -3061,15 +3061,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 291.7877604166667,
+    "scroll": 248.28190104166666,
     "cursor": {
       "from": {
-        "line": 312,
-        "ch": 0
+        "line": 261,
+        "ch": 159
       },
       "to": {
-        "line": 312,
-        "ch": 0
+        "line": 261,
+        "ch": 159
       }
     },
     "expandedKeys": [
@@ -40134,20 +40134,20 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 171.0400390625,
+    "scroll": 198.18587239583334,
     "cursor": {
       "from": {
-        "line": 199,
-        "ch": 0
+        "line": 210,
+        "ch": 31
       },
       "to": {
-        "line": 199,
-        "ch": 0
+        "line": 210,
+        "ch": 31
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-1-1"
+      "item-1-1",
+      "item-2-2"
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/未命名.md": {
@@ -41189,15 +41189,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/30.使用GitHub Copilot和FastAPI设置全栈项目.md": {
-    "scroll": 204.32080078125,
+    "scroll": 204.38330078125,
     "cursor": {
       "from": {
-        "line": 221,
-        "ch": 0
+        "line": 228,
+        "ch": 70
       },
       "to": {
-        "line": 221,
-        "ch": 0
+        "line": 228,
+        "ch": 70
       }
     },
     "expandedKeys": [
@@ -41267,14 +41267,266 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/34.AI助手看板应用完成：Copilot、OpenRouter与第1周总结.md": {
-    "scroll": 1.5416666666666665,
+    "scroll": 0.3347107438016529,
     "cursor": {
       "from": {
-        "line": 26,
+        "line": 25,
+        "ch": 39
+      },
+      "to": {
+        "line": 25,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/34.AI助手看板应用完成：Copilot、OpenRouter与第1周总结.md": {
+    "scroll": 0.3347107438016529,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 39
+      },
+      "to": {
+        "line": 25,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/35..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 26,
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/1. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/2. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/3. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/4. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/5. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/6. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/7. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/8. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/8..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/7..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/6..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/5..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/3..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/2..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/1..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
