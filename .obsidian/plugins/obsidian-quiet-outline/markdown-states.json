@@ -40134,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 170.03536629375677,
+    "scroll": 171.0400390625,
     "cursor": {
       "from": {
-        "line": 192,
-        "ch": 46
+        "line": 199,
+        "ch": 0
       },
       "to": {
-        "line": 192,
-        "ch": 46
+        "line": 199,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -41136,11 +41136,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 6,
         "ch": 0
       }
     },
@@ -41189,14 +41189,14 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/30.使用GitHub Copilot和FastAPI设置全栈项目.md": {
-    "scroll": 183.134765625,
+    "scroll": 204.32080078125,
     "cursor": {
       "from": {
-        "line": 199,
+        "line": 221,
         "ch": 0
       },
       "to": {
-        "line": 199,
+        "line": 221,
         "ch": 0
       }
     },
@@ -41205,15 +41205,15 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/31.与AI Copilot逐步构建：规划与脚手架.md": {
-    "scroll": 0,
+    "scroll": 3.4082211197732106,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 0
+        "line": 3,
+        "ch": 5
       },
       "to": {
-        "line": 26,
-        "ch": 0
+        "line": 3,
+        "ch": 9
       }
     },
     "expandedKeys": [
@@ -41251,19 +41251,33 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/33.使用GitHub Copilot构建看板应用：调试拖放功能.md": {
-    "scroll": 11.202338766832034,
+    "scroll": 9.699224806201551,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 0
+        "line": 28,
+        "ch": 54
       },
       "to": {
-        "line": 31,
-        "ch": 0
+        "line": 28,
+        "ch": 54
       }
     },
     "expandedKeys": [
       "item-1-0"
     ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/第一周 - 为了乐趣和收益而进行氛围编程/34.AI助手看板应用完成：Copilot、OpenRouter与第1周总结.md": {
+    "scroll": 1.5416666666666665,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 0
+      },
+      "to": {
+        "line": 26,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
