@@ -40134,14 +40134,14 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 198.7685546875,
+    "scroll": 204.5863565891473,
     "cursor": {
       "from": {
-        "line": 214,
+        "line": 222,
         "ch": 0
       },
       "to": {
-        "line": 214,
+        "line": 222,
         "ch": 0
       }
     },
@@ -41579,11 +41579,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       }
     },
@@ -41593,12 +41593,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 27,
+        "ch": 75
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 27,
+        "ch": 75
       }
     },
     "expandedKeys": []
@@ -41706,21 +41706,23 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/37.Claude Code CLI入门：初始化、上下文与测试.md": {
-    "scroll": 0,
+    "scroll": 11.57312252964427,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 22,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 22,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉与重构代码.md": {
-    "scroll": 0.640495867768595,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -41750,5 +41752,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/36.Claude Code的崛起：历史、在VS Code中的设置、安装.md": {
+    "scroll": 6.642528188026044,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
