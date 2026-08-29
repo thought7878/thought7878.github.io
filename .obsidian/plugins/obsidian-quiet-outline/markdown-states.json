@@ -40134,15 +40134,15 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 200.19790928419562,
+    "scroll": 210.16861979166666,
     "cursor": {
       "from": {
-        "line": 216,
-        "ch": 49
+        "line": 226,
+        "ch": 0
       },
       "to": {
-        "line": 216,
-        "ch": 49
+        "line": 226,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -41579,12 +41579,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 50
+        "line": 1,
+        "ch": 87
       },
       "to": {
-        "line": 32,
-        "ch": 50
+        "line": 1,
+        "ch": 87
       }
     },
     "expandedKeys": []
@@ -41593,12 +41593,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 75
+        "line": 5,
+        "ch": 33
       },
       "to": {
-        "line": 27,
-        "ch": 75
+        "line": 5,
+        "ch": 33
       }
     },
     "expandedKeys": []
@@ -41784,15 +41784,45 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉、重构代码、代码审查与修复.md": {
-    "scroll": 35.693333333333335,
+    "scroll": 35.85209302325581,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 85
+        "line": 54,
+        "ch": 0
       },
       "to": {
-        "line": 47,
-        "ch": 85
+        "line": 54,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/39.OpenCode：使用GLM 4.7等免费模型作为Claude Code的替代方案.md": {
+    "scroll": 8.144724840377014,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 30
+      },
+      "to": {
+        "line": 27,
+        "ch": 30
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/40.结合OpenRouter和Ollama的AMP Code、OpenCode与Claude Code.md": {
+    "scroll": 2.3125,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 20
+      },
+      "to": {
+        "line": 10,
+        "ch": 20
       }
     },
     "expandedKeys": [
