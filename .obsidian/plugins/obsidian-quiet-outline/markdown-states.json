@@ -3061,15 +3061,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 299.60069444444446,
+    "scroll": 360.5911458333333,
     "cursor": {
       "from": {
-        "line": 307,
-        "ch": 0
+        "line": 372,
+        "ch": 124
       },
       "to": {
-        "line": 307,
-        "ch": 0
+        "line": 372,
+        "ch": 124
       }
     },
     "expandedKeys": [
@@ -40134,7 +40134,7 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md": {
-    "scroll": 204.5863565891473,
+    "scroll": 205.6722480620155,
     "cursor": {
       "from": {
         "line": 222,
@@ -41579,12 +41579,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 32,
+        "ch": 50
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 32,
+        "ch": 50
       }
     },
     "expandedKeys": []
@@ -41722,15 +41722,15 @@
     ]
   },
   "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉与重构代码.md": {
-    "scroll": 0,
+    "scroll": 10.457589285714286,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 85
+        "line": 5,
+        "ch": 11
       },
       "to": {
-        "line": 6,
-        "ch": 85
+        "line": 5,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -41766,5 +41766,37 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉、重构代码.md": {
+    "scroll": 8.9794921875,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 20
+      },
+      "to": {
+        "line": 19,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉、重构代码、代码审查与修复.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 24
+      },
+      "to": {
+        "line": 13,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
