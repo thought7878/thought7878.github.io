@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-25.md",
+                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-25"
+              "title": "2026-08-29"
             }
           },
           {
@@ -925,7 +925,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/35.从氛围编程到氛围工程.md",
+                "file": "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -940,7 +940,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "35.从氛围编程到氛围工程"
+              "title": "介绍"
             }
           }
         ],
@@ -1118,13 +1118,21 @@
   },
   "active": "ddae962e27192a67",
   "lastOpenFiles": [
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/7.AI编码的8个阶段.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/35.从氛围编程到氛围工程.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/36.Claude Code的崛起：历史、在VS Code中的设置与安装.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/37.Claude Code CLI入门：初始化、上下文与测试.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/35.从氛围编程到氛围工程.md",
+    "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-29.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-25.md",
+    "_posts/读书笔记/人生.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/methods/要整理的.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉与重构代码.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/7.AI编码的8个阶段.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/11.上下文工程：系统提示词、上下文窗口与agents.md.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/36..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/37..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/39..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/40..md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/41..md",
@@ -1133,18 +1141,10 @@
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/34.AI助手看板应用完成：Copilot、OpenRouter与第1周总结.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/30.使用GitHub Copilot和FastAPI设置全栈项目.md",
-    "_posts/methods/要整理的.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/33.使用GitHub Copilot构建看板应用：调试拖放功能.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/31.与AI Copilot逐步构建：规划与脚手架.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/32.使用GitHub Copilot、Docker和FastAPI构建看板应用.md",
-    "_posts/读书笔记/人性.md",
     "_posts/AI/短视频/_视频制作方法.md",
-    "_posts/AI/工具/AI模型聚合与路由平台.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/29.Web应用基础：前端、后端、API与Docker设置.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/28.氛围编程及构建商业MVP的规则.md",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-25.md",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-24.md",
-    "_posts/读书笔记/男女.md",
     "_posts/AI/工具",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/media/32369c38bc003f64dc0a27aa963ae83f_MD5.webp",
     "_posts/设计/Figma/media/1e297a1168194e3333fa4e7d4b6def44_MD5.webp",
