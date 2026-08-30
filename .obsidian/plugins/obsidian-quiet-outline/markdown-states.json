@@ -42046,24 +42046,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 370.2893880208333,
+    "scroll": 265.9447852760736,
     "cursor": {
       "from": {
-        "line": 385,
+        "line": 279,
         "ch": 0
       },
       "to": {
-        "line": 385,
+        "line": 279,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-1-247",
-      "item-1-252",
-      "item-1-281",
       "item-2-34",
-      "item-2-46"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42081,5 +42077,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/2.Node, V8, Libuv and C++.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 23
+      },
+      "to": {
+        "line": 4,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
   }
 }
