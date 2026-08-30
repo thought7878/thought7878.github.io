@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/4.Node.js 的事件循环.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "4.Node.js 的事件循环"
             }
           }
         ],
@@ -1142,8 +1142,12 @@
   },
   "active": "1427a62f29f6281d",
   "lastOpenFiles": [
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/3.进程、线程和线程池.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media/7c5ae9927a6bb8eae8834abc59a66a2b_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/4.Node.js 的事件循环.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/3.进程、线程和线程池.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media/b7907af598f68e6f448409006ce9bad1_MD5.webp",
+    "_posts/AI/AI.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/2.Node, V8, Libuv and C++.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media/f5c22122bafde4ba046fb82aec518f16_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media",
@@ -1170,9 +1174,6 @@
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/39.OpenCode：使用GLM 4.7等免费模型作为Claude Code的替代方案.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/35.从氛围编程到氛围工程.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/38.Claude Code审查：修复幻觉、重构代码、代码审查与修复.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/37.Claude Code CLI入门：初始化、上下文与测试.md",
-    "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-25.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程",
     "_posts/AI/工具",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/1.第一周 - 为了乐趣和收益而进行氛围编程/media/32369c38bc003f64dc0a27aa963ae83f_MD5.webp",
@@ -1183,7 +1184,6 @@
     "_posts/设计/Figma/media/9b5134dbb69ce88d175e91cdee03b89f_MD5.webp",
     "_posts/设计/Figma/media/9de6713caa45634685921d8756c0ab94_MD5.webp",
     "_posts/设计/Figma/media/83f5bfc6b50cfb758a7f7ea4913afb60_MD5.webp",
-    "_posts/设计/Figma/media/075ed50f57b3814cbdbf0f0a2cd13a3b_MD5.webp",
     "_posts/设计/Figma/media",
     "_posts/设计/Figma/Figma零基础完全入门教程",
     "_posts/设计/Figma",

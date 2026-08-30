@@ -171,3 +171,6 @@ codex跑ai漫剧一天三集！ai全自动实现漫剧制作自自由 个人自�
 [DeepseekV4 vsGPT5.5 vsOpus4.7](https://v.douyin.com/IbP9ae9RKI8/)
 新发布的Deepseek V4 Pro 硬刚 GPT 5.5 和 Claude Opus 4.7 ！ 最新Deepseek旗舰到底做到了什么程度？ 从写代码做独立站，到全套后端APP开发，再到自媒体爆款文案撰写，真实硬核测评结果出炉！ 看完你就知道Deepseek v4 pro真正的性能了！ 
 
+
+# 机器人
+【一口西安方言的机器狗，和香港游客的搞笑对话】 https://www.bilibili.com/video/BV16W4X6DEGC/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
