@@ -3061,14 +3061,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 374.7415364583333,
+    "scroll": 316.4108072916667,
     "cursor": {
       "from": {
-        "line": 386,
+        "line": 328,
         "ch": 0
       },
       "to": {
-        "line": 386,
+        "line": 328,
         "ch": 0
       }
     },
@@ -42046,21 +42046,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 420.1598307291667,
+    "scroll": 426.3130638758571,
     "cursor": {
       "from": {
-        "line": 432,
-        "ch": 0
+        "line": 431,
+        "ch": 140
       },
       "to": {
-        "line": 432,
-        "ch": 0
+        "line": 431,
+        "ch": 140
       }
     },
     "expandedKeys": [
-      "item-2-34",
-      "item-1-2",
-      "item-2-54"
+      "item-2-54",
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42134,5 +42133,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/API 和 RESTful 设计.md": {
+    "scroll": 17.188555111364934,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
