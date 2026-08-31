@@ -481,14 +481,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 171.498046875,
+    "scroll": 160.21875,
     "cursor": {
       "from": {
-        "line": 181,
+        "line": 172,
         "ch": 0
       },
       "to": {
-        "line": 181,
+        "line": 172,
         "ch": 0
       }
     },
@@ -3061,7 +3061,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 322.1116536458333,
+    "scroll": 318.5403645833333,
     "cursor": {
       "from": {
         "line": 336,
@@ -3074,11 +3074,7 @@
     },
     "expandedKeys": [
       "item-2-13",
-      "item-1-2",
-      "item-2-27",
-      "item-2-19",
-      "item-2-9",
-      "item-2-7"
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42046,34 +42042,32 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 530.6388481291269,
+    "scroll": 545.626953125,
     "cursor": {
       "from": {
-        "line": 549,
-        "ch": 78
-      },
-      "to": {
-        "line": 549,
-        "ch": 78
-      }
-    },
-    "expandedKeys": [
-      "item-2-54",
-      "item-1-2",
-      "item-3-67",
-      "item-3-72",
-      "item-3-75"
-    ]
-  },
-  "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
-    "scroll": 23.759805411979325,
-    "cursor": {
-      "from": {
-        "line": 29,
+        "line": 559,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 559,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-3",
+      "item-2-54",
+      "item-1-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
+    "scroll": 25.430338541666668,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
         "ch": 0
       }
     },
@@ -42141,11 +42135,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
@@ -42210,5 +42204,141 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/4.环境变量.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/后端/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/Express 知识目录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/MongoDB 知识目录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/Node.js 知识目录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/设计/Figma/Figma 知识目录.md": {
+    "scroll": 49.75990462215701,
+    "cursor": {
+      "from": {
+        "line": 51,
+        "ch": 0
+      },
+      "to": {
+        "line": 51,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-12",
+      "item-1-3"
+    ]
+  },
+  "_posts/后端/Node.js/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/Node.js/env文件.md": {
+    "scroll": 449.3134765625,
+    "cursor": {
+      "from": {
+        "line": 467,
+        "ch": 1
+      },
+      "to": {
+        "line": 467,
+        "ch": 1
+      }
+    },
+    "expandedKeys": [
+      "item-1-1",
+      "item-1-24",
+      "item-1-30",
+      "item-1-33"
+    ]
   }
 }

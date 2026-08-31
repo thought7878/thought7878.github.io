@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-31"
+              "title": "2026-09-01"
             }
           },
           {
@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+                "file": "_posts/后端/Node.js/env文件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "env文件"
             }
           }
         ],
@@ -1140,10 +1140,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "1427a62f29f6281d",
   "lastOpenFiles": [
-    "_posts/methods/要整理的.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/Node.js/env文件.md",
+    "_posts/设计/Figma/Figma 知识目录.md",
+    "_posts/后端/Node.js 知识目录.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/后端/Mongoose 知识目录.md",
+    "_posts/后端/Express 知识目录.md",
+    "_posts/后端/MongoDB 知识目录.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md",
+    "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md",
+    "DailyNote/Journal/01 Daily/2026/09",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/4.环境变量.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/1abb00e8533ad587c9f1eb27da38cc54_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/3.创建自己的中间件.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/8e93806a1c6b699ec62ed388b3b84182_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/2.中间件、请求-响应循环.md",
@@ -1160,13 +1172,11 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/2f598e5a05e5ce2008dac069ff7c139c_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/4.Node.js 的事件循环.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media/36def3fa009f76484b021aefb9c8acb4_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/3.进程、线程和线程池.md",
     "_posts/AI/AI.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/2.Node, V8, Libuv and C++.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理",
-    "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-29.md",
     "_posts/要整理的.md",
     "_posts/methods/常看的.md",
@@ -1176,17 +1186,8 @@
     "DailyNote/Journal/01 Daily/2026-08-30.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/44..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/40.结合OpenRouter和Ollama的AMP Code、OpenCode与Claude Code.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/45..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/46..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/47..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/48..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/49..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/50..md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/36.Claude Code的崛起：历史、在VS Code中的设置、安装.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程",
     "_posts/AI/工具",
-    "_posts/设计/Figma/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
