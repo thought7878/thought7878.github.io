@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.什么是 Mongoose？"
+              "title": "介绍"
             }
           }
         ],
@@ -1142,11 +1142,13 @@
   },
   "active": "1427a62f29f6281d",
   "lastOpenFiles": [
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/MongoDB 知识目录.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/afa32656e3f45afd12bb9307629d89dc_MD5.webp",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/methods/要整理的.md",
@@ -1174,7 +1176,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/1.API 和 RESTful 设计.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/d5e4495ec4aa2f91f2d7d7d436cf8733_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/PixPin_2026-08-31_10-10-17.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/7b1356a1b89e0d0ec37939aa6cca260b_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media",
@@ -1186,8 +1187,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-29.md",
     "_posts/要整理的.md",
-    "_posts/methods/常看的.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
