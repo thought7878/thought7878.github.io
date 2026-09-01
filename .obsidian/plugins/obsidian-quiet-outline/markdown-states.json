@@ -42043,18 +42043,19 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 683.3673763984121,
+    "scroll": 700.3595011005136,
     "cursor": {
       "from": {
-        "line": 697,
-        "ch": 83
+        "line": 715,
+        "ch": 0
       },
       "to": {
-        "line": 697,
-        "ch": 83
+        "line": 715,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-104",
       "item-2-97",
       "item-1-2"
     ]
@@ -42275,9 +42276,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-1"
-    ]
+    "expandedKeys": []
   },
   "_posts/后端/Node.js 知识目录.md": {
     "scroll": 0,
@@ -42391,11 +42390,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 16,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 16,
         "ch": 0
       }
     },
@@ -42416,14 +42415,28 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md": {
-    "scroll": 9.75,
+    "scroll": 7.75,
     "cursor": {
       "from": {
-        "line": 23,
+        "line": 21,
         "ch": 0
       },
       "to": {
-        "line": 23,
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/2.后端架构入门.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
