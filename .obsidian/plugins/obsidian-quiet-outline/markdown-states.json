@@ -3061,20 +3061,21 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 318.5403645833333,
+    "scroll": 251.72526041666666,
     "cursor": {
       "from": {
-        "line": 336,
+        "line": 264,
         "ch": 0
       },
       "to": {
-        "line": 336,
+        "line": 264,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-13",
-      "item-1-2"
+      "item-1-2",
+      "item-2-9"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42042,20 +42043,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 569.6927083333334,
+    "scroll": 646.0403645833334,
     "cursor": {
       "from": {
-        "line": 584,
-        "ch": 142
+        "line": 663,
+        "ch": 8
       },
       "to": {
-        "line": 584,
-        "ch": 142
+        "line": 663,
+        "ch": 8
       }
     },
     "expandedKeys": [
       "item-2-81",
-      "item-1-2"
+      "item-1-2",
+      "item-2-97",
+      "item-3-95"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42266,12 +42269,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 3
+        "line": 22,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 3
+        "line": 22,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42373,14 +42376,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md": {
-    "scroll": 5.486399164531763,
+    "scroll": 17.083658854166668,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 30,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 30,
         "ch": 0
       }
     },

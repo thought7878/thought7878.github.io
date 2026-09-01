@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.什么是 MongoDB？"
+              "title": "介绍"
             }
           }
         ],
@@ -1140,22 +1140,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1427a62f29f6281d",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/70a00c4b466788d218aff813085033d1_MD5.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/81a56ab716338ea945e139a38cc9adf1_MD5.webp",
+    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
+    "_posts/methods/要整理的.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/70a00c4b466788d218aff813085033d1_MD5.webp",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/81a56ab716338ea945e139a38cc9adf1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/8a2121ccdb8bf7cf88be69259e02b50b_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介",
-    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/Node.js 知识目录.md",
     "_posts/后端/Node.js/环境变量.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/4.环境变量.md",
     "_posts/后端/Node.js/env文件.md",
     "_posts/设计/Figma/Figma 知识目录.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/Express 知识目录.md",
@@ -1172,7 +1172,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/d5e4495ec4aa2f91f2d7d7d436cf8733_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/PixPin_2026-08-31_10-10-17.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/7b1356a1b89e0d0ec37939aa6cca260b_MD5.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/23c87b72e16297afea4efe3f989cf715_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media",
