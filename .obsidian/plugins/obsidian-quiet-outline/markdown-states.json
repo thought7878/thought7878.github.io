@@ -42043,7 +42043,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 700.3595011005136,
+    "scroll": 705.6360677083334,
     "cursor": {
       "from": {
         "line": 715,
@@ -42055,9 +42055,10 @@
       }
     },
     "expandedKeys": [
-      "item-3-104",
+      "item-3-101",
       "item-2-97",
-      "item-1-2"
+      "item-1-2",
+      "item-3-104"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42390,15 +42391,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
+        "line": 3,
         "ch": 0
       },
       "to": {
-        "line": 16,
+        "line": 3,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
     "scroll": 0,
@@ -42415,15 +42418,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md": {
-    "scroll": 7.75,
+    "scroll": 4.895833333333333,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 0
+        "line": 19,
+        "ch": 12
       },
       "to": {
-        "line": 21,
-        "ch": 0
+        "line": 19,
+        "ch": 19
       }
     },
     "expandedKeys": []
@@ -42432,12 +42435,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 15,
+        "ch": 43
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 15,
+        "ch": 43
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose、schema、model？.md": {
+    "scroll": 12.63014047447269,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 12
+      },
+      "to": {
+        "line": 19,
+        "ch": 19
       }
     },
     "expandedKeys": []
