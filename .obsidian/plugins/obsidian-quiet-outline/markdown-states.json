@@ -42043,21 +42043,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 669.5305989583334,
+    "scroll": 676.4342447916666,
     "cursor": {
       "from": {
-        "line": 688,
-        "ch": 76
+        "line": 691,
+        "ch": 0
       },
       "to": {
-        "line": 688,
-        "ch": 76
+        "line": 691,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-81",
-      "item-1-2",
-      "item-2-97"
+      "item-2-97",
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42384,6 +42383,48 @@
       "to": {
         "line": 30,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/Mongoose 知识目录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 21
+      },
+      "to": {
+        "line": 4,
+        "ch": 21
       }
     },
     "expandedKeys": []

@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "1.什么是 Mongoose？"
             }
           }
         ],
@@ -1142,8 +1142,11 @@
   },
   "active": "1427a62f29f6281d",
   "lastOpenFiles": [
-    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose？.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术",
+    "_posts/后端/Mongoose 知识目录.md",
+    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
     "_posts/AI/短视频/_视频制作方法.md",
     "_posts/methods/要整理的.md",
@@ -1158,7 +1161,6 @@
     "_posts/后端/Node.js/env文件.md",
     "_posts/设计/Figma/Figma 知识目录.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/Express 知识目录.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md",
@@ -1186,8 +1188,6 @@
     "_posts/要整理的.md",
     "_posts/methods/常看的.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp",
-    "_posts/后端/课程",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/41.Claude Code命令、快捷键与配置深度剖析.md",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
