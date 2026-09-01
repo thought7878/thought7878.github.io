@@ -3061,21 +3061,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 251.72526041666666,
+    "scroll": 339.8802083333333,
     "cursor": {
       "from": {
-        "line": 264,
-        "ch": 0
+        "line": 346,
+        "ch": 31
       },
       "to": {
-        "line": 264,
-        "ch": 0
+        "line": 346,
+        "ch": 31
       }
     },
     "expandedKeys": [
       "item-2-13",
       "item-1-2",
-      "item-2-9"
+      "item-2-9",
+      "item-2-20"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42043,22 +42044,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 705.6360677083334,
+    "scroll": 718.671875,
     "cursor": {
       "from": {
-        "line": 715,
+        "line": 730,
         "ch": 0
       },
       "to": {
-        "line": 715,
+        "line": 730,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-101",
+      "item-3-104",
       "item-2-97",
       "item-1-2",
-      "item-3-104"
+      "item-3-106"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42432,15 +42433,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/2.后端架构入门.md": {
-    "scroll": 6.142857142857143,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 70
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 70
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
