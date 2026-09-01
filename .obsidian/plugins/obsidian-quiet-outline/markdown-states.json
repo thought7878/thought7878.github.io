@@ -42042,19 +42042,19 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 552.1653645833334,
+    "scroll": 569.6927083333334,
     "cursor": {
       "from": {
-        "line": 568,
-        "ch": 0
+        "line": 584,
+        "ch": 142
       },
       "to": {
-        "line": 568,
-        "ch": 0
+        "line": 584,
+        "ch": 142
       }
     },
     "expandedKeys": [
-      "item-2-54",
+      "item-2-81",
       "item-1-2"
     ]
   },
@@ -42266,25 +42266,27 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 3
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 3
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/后端/Node.js 知识目录.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 8,
         "ch": 0
       }
     },
@@ -42352,6 +42354,34 @@
       "to": {
         "line": 257,
         "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md": {
+    "scroll": 5.486399164531763,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": []

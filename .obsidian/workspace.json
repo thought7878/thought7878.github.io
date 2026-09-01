@@ -949,7 +949,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -964,7 +964,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "1.什么是 MongoDB？"
             }
           }
         ],
@@ -1142,17 +1142,23 @@
   },
   "active": "1427a62f29f6281d",
   "lastOpenFiles": [
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/70a00c4b466788d218aff813085033d1_MD5.webp",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/81a56ab716338ea945e139a38cc9adf1_MD5.webp",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/8a2121ccdb8bf7cf88be69259e02b50b_MD5.webp",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介",
+    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/Node.js 知识目录.md",
     "_posts/后端/Node.js/环境变量.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/4.环境变量.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/Node.js/env文件.md",
     "_posts/设计/Figma/Figma 知识目录.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/Express 知识目录.md",
-    "_posts/后端/MongoDB 知识目录.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md",
     "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md",
     "DailyNote/Journal/01 Daily/2026/09",
@@ -1169,8 +1175,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/23c87b72e16297afea4efe3f989cf715_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/6f67a54cb505b5c465f612d17141e345_MD5.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/2f598e5a05e5ce2008dac069ff7c139c_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/4.Node.js 的事件循环.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/3.进程、线程和线程池.md",
@@ -1184,10 +1188,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp",
     "_posts/后端/课程",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/41.Claude Code命令、快捷键与配置深度剖析.md",
-    "DailyNote/Journal/01 Daily/2026-08-30.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/介绍.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程",
-    "_posts/AI/工具",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
