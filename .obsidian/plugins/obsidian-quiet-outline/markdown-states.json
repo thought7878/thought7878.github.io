@@ -3061,15 +3061,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 339.8802083333333,
+    "scroll": 394.5846917080085,
     "cursor": {
       "from": {
-        "line": 346,
-        "ch": 31
+        "line": 405,
+        "ch": 0
       },
       "to": {
-        "line": 346,
-        "ch": 31
+        "line": 405,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42044,14 +42044,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 718.671875,
+    "scroll": 745.147468818782,
     "cursor": {
       "from": {
-        "line": 730,
+        "line": 758,
         "ch": 0
       },
       "to": {
-        "line": 730,
+        "line": 758,
         "ch": 0
       }
     },
@@ -42059,7 +42059,9 @@
       "item-3-104",
       "item-2-97",
       "item-1-2",
-      "item-3-106"
+      "item-3-106",
+      "item-3-95",
+      "item-2-81"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42223,15 +42225,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 29.430338541666668,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42459,5 +42461,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-02.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
