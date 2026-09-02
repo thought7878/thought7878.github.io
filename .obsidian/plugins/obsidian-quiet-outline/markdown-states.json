@@ -3061,22 +3061,23 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 335.296875,
+    "scroll": 384.4485677083333,
     "cursor": {
       "from": {
-        "line": 347,
-        "ch": 0
+        "line": 397,
+        "ch": 13
       },
       "to": {
-        "line": 347,
-        "ch": 0
+        "line": 397,
+        "ch": 13
       }
     },
     "expandedKeys": [
       "item-2-13",
       "item-1-2",
       "item-2-9",
-      "item-2-20"
+      "item-2-20",
+      "item-2-29"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -36847,14 +36848,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 138.55436197916666,
+    "scroll": 234.83584005869406,
     "cursor": {
       "from": {
-        "line": 153,
+        "line": 313,
         "ch": 0
       },
       "to": {
-        "line": 153,
+        "line": 313,
         "ch": 0
       }
     },
@@ -36867,7 +36868,9 @@
       "item-3-26",
       "item-3-30",
       "item-3-33",
-      "item-3-38"
+      "item-3-38",
+      "item-3-42",
+      "item-3-49"
     ]
   },
   "_posts/architect/_教程/Advanced Frontend Course/1.前端架构基础原理/未命名.md": {
@@ -38126,15 +38129,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/编程基础：应用架构/介绍.md": {
-    "scroll": 48.11148165793235,
+    "scroll": 96.5504208353184,
     "cursor": {
       "from": {
-        "line": 71,
-        "ch": 13
+        "line": 171,
+        "ch": 88
       },
       "to": {
-        "line": 71,
-        "ch": 13
+        "line": 171,
+        "ch": 88
       }
     },
     "expandedKeys": [
@@ -42044,15 +42047,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 675.3699025622519,
+    "scroll": 675.3605196679899,
     "cursor": {
       "from": {
-        "line": 685,
-        "ch": 4
+        "line": 688,
+        "ch": 32
       },
       "to": {
-        "line": 685,
-        "ch": 4
+        "line": 688,
+        "ch": 32
       }
     },
     "expandedKeys": [
@@ -42445,7 +42448,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose、schema、model？.md": {
-    "scroll": 12.680388745066418,
+    "scroll": 12.875949581971735,
     "cursor": {
       "from": {
         "line": 26,
@@ -42473,5 +42476,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/架构师的 36 项修炼/第01讲：大型架构的演进之路.md": {
+    "scroll": 146.79925295704504,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 57
+      },
+      "to": {
+        "line": 40,
+        "ch": 57
+      }
+    },
+    "expandedKeys": []
   }
 }
