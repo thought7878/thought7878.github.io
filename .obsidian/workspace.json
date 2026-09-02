@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "介绍"
             }
           },
           {
@@ -1140,10 +1140,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/architect/_教程/编程基础：应用架构/介绍.md",
     "_posts/architect/_教程/架构师的 36 项修炼/第01讲：大型架构的演进之路.md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
@@ -1182,12 +1184,10 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/2.中间件、请求-响应循环.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/06d50c4e710a47159dffa163280e8b0c_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/2197d060bbd81f4d5519bdb5b59e1703_MD5.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/1.API 和 RESTful 设计.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理/media",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/4.Node.js 的工作原理",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
