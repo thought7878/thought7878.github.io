@@ -569,15 +569,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 223.74086357947434,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 226,
-        "ch": 4
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 226,
-        "ch": 4
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -3061,15 +3061,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 402.7412109375,
+    "scroll": 224.32942708333334,
     "cursor": {
       "from": {
-        "line": 414,
-        "ch": 130
+        "line": 234,
+        "ch": 0
       },
       "to": {
-        "line": 414,
-        "ch": 130
+        "line": 234,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -4115,14 +4115,14 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 0.9141414141414141,
+    "scroll": 11.239583333333334,
     "cursor": {
       "from": {
-        "line": 12,
+        "line": 26,
         "ch": 0
       },
       "to": {
-        "line": 12,
+        "line": 24,
         "ch": 0
       }
     },
@@ -42048,20 +42048,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 675.3605196679899,
+    "scroll": 764.1529947916666,
     "cursor": {
       "from": {
-        "line": 687,
-        "ch": 145
+        "line": 778,
+        "ch": 0
       },
       "to": {
-        "line": 687,
-        "ch": 145
+        "line": 778,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-1-2",
       "item-2-97",
-      "item-1-2"
+      "item-3-106",
+      "item-3-111"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42543,25 +42545,20 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 243.9729339588596,
+    "scroll": 249.09635416666666,
     "cursor": {
       "from": {
-        "line": 258,
-        "ch": 0
+        "line": 260,
+        "ch": 19
       },
       "to": {
-        "line": 258,
-        "ch": 0
+        "line": 260,
+        "ch": 19
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-2-2",
-      "item-2-4",
-      "item-2-11",
-      "item-2-128",
-      "item-2-26",
-      "item-2-40"
+      "item-2-40",
+      "item-1-1"
     ]
   }
 }
