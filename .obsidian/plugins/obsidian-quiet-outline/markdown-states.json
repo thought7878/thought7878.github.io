@@ -3061,7 +3061,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 224.32942708333334,
+    "scroll": 226.30859375,
     "cursor": {
       "from": {
         "line": 234,
@@ -3073,12 +3073,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-13",
-      "item-1-2",
-      "item-2-9",
-      "item-2-20",
-      "item-2-30",
-      "item-2-22"
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -4115,14 +4110,14 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 11.239583333333334,
+    "scroll": 26.4921875,
     "cursor": {
       "from": {
-        "line": 26,
+        "line": 45,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 45,
         "ch": 0
       }
     },
@@ -42048,22 +42043,21 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 764.1529947916666,
+    "scroll": 756.8548177083334,
     "cursor": {
       "from": {
-        "line": 778,
+        "line": 771,
         "ch": 0
       },
       "to": {
-        "line": 778,
+        "line": 771,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-2",
-      "item-2-97",
-      "item-3-106",
-      "item-3-111"
+      "item-3-111",
+      "item-2-97"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42393,19 +42387,20 @@
     "expandedKeys": []
   },
   "_posts/后端/Mongoose 知识目录.md": {
-    "scroll": 0,
+    "scroll": 7.104166666666667,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 27,
+        "ch": 13
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 27,
+        "ch": 13
       }
     },
     "expandedKeys": [
-      "item-1-2"
+      "item-1-2",
+      "item-1-6"
     ]
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
@@ -42545,15 +42540,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 249.09635416666666,
+    "scroll": 249.650390625,
     "cursor": {
       "from": {
-        "line": 260,
-        "ch": 19
+        "line": 267,
+        "ch": 30
       },
       "to": {
-        "line": 260,
-        "ch": 19
+        "line": 267,
+        "ch": 30
       }
     },
     "expandedKeys": [
