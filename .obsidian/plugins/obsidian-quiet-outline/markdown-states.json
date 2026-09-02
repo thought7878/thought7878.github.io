@@ -42387,20 +42387,21 @@
     "expandedKeys": []
   },
   "_posts/后端/Mongoose 知识目录.md": {
-    "scroll": 7.104166666666667,
+    "scroll": 13.856277056277056,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 13
+        "line": 29,
+        "ch": 30
       },
       "to": {
-        "line": 27,
-        "ch": 13
+        "line": 29,
+        "ch": 30
       }
     },
     "expandedKeys": [
       "item-1-2",
-      "item-1-6"
+      "item-1-6",
+      "item-2-8"
     ]
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
@@ -42540,20 +42541,78 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 249.650390625,
+    "scroll": 37.17358354384699,
     "cursor": {
       "from": {
-        "line": 267,
-        "ch": 30
+        "line": 54,
+        "ch": 0
       },
       "to": {
-        "line": 267,
-        "ch": 30
+        "line": 54,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-40",
+      "item-2-4",
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/欢迎来到本课程！.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 358
+      },
+      "to": {
+        "line": 23,
+        "ch": 358
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md": {
+    "scroll": 26.73332713235978,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 64
+      },
+      "to": {
+        "line": 35,
+        "ch": 64
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
