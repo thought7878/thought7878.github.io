@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-02.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-02"
+              "title": "2026-09-03"
             }
           },
           {
@@ -709,7 +709,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/Mongoose 知识目录.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -724,7 +724,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mongoose 知识目录"
+              "title": "介绍"
             }
           },
           {
@@ -733,7 +733,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md",
+                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -748,11 +748,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.为什么学习软件工程、开发技术？"
+              "title": "介绍"
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -924,16 +924,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9dfae33b6e7b5d5d",
+  "active": "1427a62f29f6281d",
   "lastOpenFiles": [
+    "_posts/后端/Mongoose 知识目录.md",
+    "_posts/后端/MongoDB 知识目录.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/欢迎来到本课程！.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/3.典型的软件开发生命周期.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-03.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-02.md",
+    "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/4..md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/5..md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/欢迎来到本课程！.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/1.软件生命周期介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言",
-    "_posts/后端/Mongoose 知识目录.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/人生.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/architect/_教程/编程基础：应用架构/介绍.md",
@@ -944,12 +950,10 @@
     "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md",
     "_posts/architect/_教程/编程基础：应用架构/1 简介 (Introduction)/01 - 为什么要学习软件架构.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/1.什么是 Mongoose、schema、model？.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-02.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-01.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/2.后端架构入门.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/a254fc34382df601964f45b762224ae1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/1ea138acc3207bb17b7c70bc8447047a_MD5.webp",
-    "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/afa32656e3f45afd12bb9307629d89dc_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术",
@@ -961,10 +965,6 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介",
     "_posts/后端/Node.js 知识目录.md",
-    "_posts/后端/Node.js/环境变量.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/4.环境变量.md",
-    "_posts/后端/Node.js/env文件.md",
-    "_posts/设计/Figma/Figma 知识目录.md",
     "DailyNote/Journal/01 Daily/2026/09",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/1abb00e8533ad587c9f1eb27da38cc54_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/8e93806a1c6b699ec62ed388b3b84182_MD5.webp",

@@ -42043,21 +42043,21 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 756.8548177083334,
+    "scroll": 742.6087239583334,
     "cursor": {
       "from": {
-        "line": 771,
+        "line": 752,
         "ch": 0
       },
       "to": {
-        "line": 771,
+        "line": 752,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
       "item-3-111",
-      "item-2-97"
+      "item-2-97",
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42276,7 +42276,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/后端/Node.js 知识目录.md": {
     "scroll": 0,
@@ -42390,18 +42392,17 @@
     "scroll": 13.856277056277056,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 30
+        "line": 32,
+        "ch": 0
       },
       "to": {
-        "line": 29,
-        "ch": 30
+        "line": 32,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-1-6",
-      "item-2-8"
+      "item-2-8",
+      "item-1-6"
     ]
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
@@ -42461,15 +42462,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-02.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.097005208333332,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42541,15 +42542,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 37.17358354384699,
+    "scroll": 37.5662215806568,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 0
+        "line": 51,
+        "ch": 22
       },
       "to": {
-        "line": 54,
-        "ch": 0
+        "line": 51,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -42600,19 +42601,79 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md": {
-    "scroll": 26.73332713235978,
+    "scroll": 24.926432291666668,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 64
+        "line": 17,
+        "ch": 18
       },
       "to": {
-        "line": 35,
-        "ch": 64
+        "line": 17,
+        "ch": 18
       }
     },
     "expandedKeys": [
       "item-2-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/3.典型的软件开发生命周期.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/4..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 5
+      },
+      "to": {
+        "line": 5,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/4. 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-03.md": {
+    "scroll": 30.24557051736357,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 24
+      },
+      "to": {
+        "line": 38,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
