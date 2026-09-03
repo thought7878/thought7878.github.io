@@ -3061,14 +3061,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 226.30859375,
+    "scroll": 412.8616536458333,
     "cursor": {
       "from": {
-        "line": 234,
+        "line": 427,
         "ch": 0
       },
       "to": {
-        "line": 234,
+        "line": 427,
         "ch": 0
       }
     },
@@ -42043,23 +42043,21 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 815.8014322916666,
+    "scroll": 818.7102864583334,
     "cursor": {
       "from": {
-        "line": 820,
-        "ch": 4
+        "line": 836,
+        "ch": 0
       },
       "to": {
-        "line": 820,
-        "ch": 8
+        "line": 836,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-121",
       "item-2-97",
-      "item-1-2",
-      "item-4-114",
-      "item-3-111",
-      "item-3-121"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42267,22 +42265,19 @@
     "expandedKeys": []
   },
   "_posts/后端/MongoDB 知识目录.md": {
-    "scroll": 13.426647767540752,
+    "scroll": 8.372076541459958,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 1
+        "line": 24,
+        "ch": 118
       },
       "to": {
-        "line": 33,
-        "ch": 1
+        "line": 24,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-1-4",
-      "item-1-9",
-      "item-1-12"
+      "item-1-4"
     ]
   },
   "_posts/后端/Node.js 知识目录.md": {
@@ -42679,6 +42674,89 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/后端/MongoDB/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/后端/MongoDB/聚合管道.md": {
+    "scroll": 51.690104166666664,
+    "cursor": {
+      "from": {
+        "line": 65,
+        "ch": 19
+      },
+      "to": {
+        "line": 65,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-21",
+      "item-1-46"
+    ]
+  },
+  "_posts/后端/MongoDB/聚合管道/聚合管道.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/后端/MongoDB/聚合管道/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/MongoDB/聚合管道/为什么使用聚合管道？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-20",
+      "item-1-15",
+      "item-1-8",
+      "item-1-2"
     ]
   }
 }
