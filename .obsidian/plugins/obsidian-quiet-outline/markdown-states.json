@@ -42043,20 +42043,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 830.9181951577402,
+    "scroll": 859.6569010416666,
     "cursor": {
       "from": {
-        "line": 843,
-        "ch": 0
+        "line": 874,
+        "ch": 87
       },
       "to": {
-        "line": 843,
-        "ch": 0
+        "line": 874,
+        "ch": 87
       }
     },
     "expandedKeys": [
       "item-1-2",
-      "item-2-97"
+      "item-3-125",
+      "item-2-97",
+      "item-3-129"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42401,7 +42403,6 @@
     },
     "expandedKeys": [
       "item-1-2",
-      "item-2-10",
       "item-1-8"
     ]
   },
@@ -42774,21 +42775,19 @@
     "expandedKeys": []
   },
   "_posts/后端/Mongoose/Middleware.md": {
-    "scroll": 505.3033854166667,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 518,
-        "ch": 17
+        "line": 18,
+        "ch": 0
       },
       "to": {
-        "line": 518,
-        "ch": 17
+        "line": 18,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-1-4",
-      "item-1-9"
+      "item-1-2"
     ]
   }
 }

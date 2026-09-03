@@ -709,7 +709,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/Mongoose/Middleware.md",
+                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -724,7 +724,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Middleware"
+              "title": "介绍"
             }
           },
           {
@@ -924,12 +924,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1427a62f29f6281d",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/Mongoose/Middleware.md",
     "_posts/后端/Mongoose",
-    "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/MongoDB/聚合管道/聚合管道.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/methods/常看的.md",
