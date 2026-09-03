@@ -42043,23 +42043,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 844.9404547094912,
+    "scroll": 830.9181951577402,
     "cursor": {
       "from": {
-        "line": 850,
-        "ch": 32
+        "line": 843,
+        "ch": 0
       },
       "to": {
-        "line": 850,
-        "ch": 32
+        "line": 843,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-3",
       "item-1-2",
-      "item-3-121",
-      "item-2-97",
-      "item-3-125"
+      "item-2-97"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42391,22 +42388,21 @@
     "expandedKeys": []
   },
   "_posts/后端/Mongoose 知识目录.md": {
-    "scroll": 0.9090909090909091,
+    "scroll": 32.905924479166664,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 52,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 52,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-3",
+      "item-1-2",
       "item-2-10",
-      "item-1-8",
-      "item-1-2"
+      "item-1-8"
     ]
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/未命名.md": {
@@ -42715,7 +42711,7 @@
     ]
   },
   "_posts/后端/MongoDB/聚合管道/聚合管道.md": {
-    "scroll": 141.64973958333334,
+    "scroll": 141.31119791666666,
     "cursor": {
       "from": {
         "line": 163,
@@ -42727,8 +42723,7 @@
       }
     },
     "expandedKeys": [
-      "item-1-7",
-      "item-1-21"
+      "item-1-7"
     ]
   },
   "_posts/后端/MongoDB/聚合管道/未命名.md": {
@@ -42762,6 +42757,38 @@
       "item-1-8",
       "item-1-15",
       "item-1-20"
+    ]
+  },
+  "_posts/后端/Mongoose/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 14
+      },
+      "to": {
+        "line": 11,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/Mongoose/Middleware.md": {
+    "scroll": 505.3033854166667,
+    "cursor": {
+      "from": {
+        "line": 518,
+        "ch": 17
+      },
+      "to": {
+        "line": 518,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-1-4",
+      "item-1-9"
     ]
   }
 }

@@ -709,7 +709,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+                "file": "_posts/后端/Mongoose/Middleware.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -724,7 +724,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "Middleware"
             }
           },
           {
@@ -926,11 +926,13 @@
   },
   "active": "1427a62f29f6281d",
   "lastOpenFiles": [
-    "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/Mongoose/Middleware.md",
+    "_posts/后端/Mongoose",
+    "_posts/后端/Mongoose 知识目录.md",
+    "_posts/后端/MongoDB/聚合管道/聚合管道.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/methods/常看的.md",
-    "_posts/后端/MongoDB/聚合管道/聚合管道.md",
     "_posts/后端/MongoDB/聚合管道/为什么使用聚合管道？.md",
     "_posts/后端/MongoDB 知识目录.md",
     "_posts/后端/MongoDB/聚合管道",
@@ -961,13 +963,11 @@
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/afa32656e3f45afd12bb9307629d89dc_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/1.什么是 MongoDB？.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/70a00c4b466788d218aff813085033d1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/81a56ab716338ea945e139a38cc9adf1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/8a2121ccdb8bf7cf88be69259e02b50b_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介",
-    "DailyNote/Journal/01 Daily/2026/09",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/1abb00e8533ad587c9f1eb27da38cc54_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/8e93806a1c6b699ec62ed388b3b84182_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/6.Express/media/06d50c4e710a47159dffa163280e8b0c_MD5.webp",
