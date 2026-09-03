@@ -42043,26 +42043,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 872.4462890625,
+    "scroll": 906.6098030821918,
     "cursor": {
       "from": {
-        "line": 886,
+        "line": 923,
         "ch": 0
       },
       "to": {
-        "line": 886,
+        "line": 923,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-3-125",
-      "item-2-97",
-      "item-3-129",
-      "item-4-114",
       "item-2-132",
-      "item-2-256",
-      "item-2-3"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42666,15 +42660,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-03.md": {
-    "scroll": 30.24557051736357,
+    "scroll": 29.138671875,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 24
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 24
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42793,5 +42787,49 @@
     "expandedKeys": [
       "item-1-2"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-04.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理/错误处理概述.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
