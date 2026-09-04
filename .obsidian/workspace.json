@@ -733,7 +733,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/The complete React 19 course, incl. Next JS & Express/介绍.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -748,7 +748,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "课程介绍"
             }
           },
           {
@@ -776,7 +776,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -948,16 +948,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1cf2470dd2c1762f",
+  "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
     "_posts/后端/课程/The complete React 19 course, incl. Next JS & Express/介绍.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/methods/要整理的.md",
+    "_posts/tools/资源.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理/错误处理概述.md",
     "_posts/后端/课程/The complete React 19 course, incl. Next JS & Express",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/0c9ee85ef39a412c3c1d35094a10c59d_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/media/706da5b9e04d03c253b32c59796634d2_MD5.webp",
-    "_posts/methods/要整理的.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理/media/88b7d9b37d920d589a4b06c2ee87a0fd_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/9.错误处理",
@@ -986,12 +989,9 @@
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目",
     "_posts/architect/_教程/架构师的 36 项修炼/第01讲：大型架构的演进之路.md",
     "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
-    "_posts/architect/_教程/许式伟的架构课/docs/许式伟的架构课.md",
-    "_posts/architect/_教程/编程基础：应用架构/1 简介 (Introduction)/01 - 为什么要学习软件架构.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/a254fc34382df601964f45b762224ae1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/1ea138acc3207bb17b7c70bc8447047a_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media/afa32656e3f45afd12bb9307629d89dc_MD5.webp",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/8.使用 MongoDB 和 Mongoose 技术/media",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/70a00c4b466788d218aff813085033d1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/81a56ab716338ea945e139a38cc9adf1_MD5.webp",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/7.MongoDB 简介/media/8a2121ccdb8bf7cf88be69259e02b50b_MD5.webp",
