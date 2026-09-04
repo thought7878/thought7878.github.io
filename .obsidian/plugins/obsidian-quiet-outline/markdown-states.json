@@ -3477,11 +3477,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 6,
         "ch": 0
       }
     },
@@ -42043,14 +42043,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 1003.07666015625,
+    "scroll": 1013.0035807291666,
     "cursor": {
       "from": {
-        "line": 1018,
+        "line": 1029,
         "ch": 0
       },
       "to": {
-        "line": 1018,
+        "line": 1029,
         "ch": 0
       }
     },
@@ -42542,15 +42542,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 68.7568359375,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 0
+        "line": 7,
+        "ch": 15
       },
       "to": {
-        "line": 3,
-        "ch": 0
+        "line": 7,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -42790,14 +42790,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-04.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.222005208333332,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -42848,7 +42848,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/The complete React 19 course, incl. Next JS & Express/介绍.md": {
-    "scroll": 579.6310221354166,
+    "scroll": 587.8548177083334,
     "cursor": {
       "from": {
         "line": 588,
@@ -42861,7 +42861,6 @@
     },
     "expandedKeys": [
       "item-1-2",
-      "item-2-3",
       "item-2-116"
     ]
   },
@@ -42880,20 +42879,35 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1140.02490234375,
+    "scroll": 3221.7007751937986,
     "cursor": {
       "from": {
-        "line": 1154,
-        "ch": 57
+        "line": 3236,
+        "ch": 41
       },
       "to": {
-        "line": 1154,
-        "ch": 57
+        "line": 3236,
+        "ch": 41
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-2-200"
+      "item-1-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
