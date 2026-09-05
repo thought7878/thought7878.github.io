@@ -42046,11 +42046,11 @@
     "scroll": 1031.9173646907216,
     "cursor": {
       "from": {
-        "line": 1047,
+        "line": 1046,
         "ch": 0
       },
       "to": {
-        "line": 1047,
+        "line": 1046,
         "ch": 0
       }
     },
@@ -42928,20 +42928,22 @@
     ]
   },
   "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md": {
-    "scroll": 123.51559177888022,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 139,
-        "ch": 3
+        "line": 3,
+        "ch": 40
       },
       "to": {
-        "line": 139,
-        "ch": 3
+        "line": 3,
+        "ch": 94
       }
     },
     "expandedKeys": [
       "item-2-8",
-      "item-1-0"
+      "item-1-0",
+      "item-2-5",
+      "item-2-2"
     ]
   }
 }
