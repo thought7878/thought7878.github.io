@@ -42879,15 +42879,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 3223.0062015503877,
+    "scroll": 3209.0621744791665,
     "cursor": {
       "from": {
-        "line": 3236,
-        "ch": 0
+        "line": 3223,
+        "ch": 4
       },
       "to": {
-        "line": 3236,
-        "ch": 0
+        "line": 3223,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -42939,6 +42939,47 @@
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
+    "scroll": 96.52652994791667,
+    "cursor": {
+      "from": {
+        "line": 103,
+        "ch": 595
+      },
+      "to": {
+        "line": 103,
+        "ch": 595
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-2-3",
+      "item-2-6",
+      "item-2-16",
+      "item-2-26",
+      "item-2-33",
+      "item-1-102",
+      "item-2-43",
+      "item-2-54",
+      "item-2-62",
+      "item-2-74",
+      "item-2-81"
     ]
   }
 }
