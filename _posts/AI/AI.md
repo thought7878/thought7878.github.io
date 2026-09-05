@@ -47,6 +47,8 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 
 # 趋势、行业观察
 
+【AI赛道要怎么选：未来每家公司都会拥有自己模型，软件公司99%会消失】 https://www.bilibili.com/video/BV1UxgA6EEqy/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 [看懂未来十年赚钱逻辑｜红杉2026 AI闭门会](https://v.douyin.com/D7Qy3UENaDQ/)
 
 [黄仁勋最新演讲：谈普通人未来机遇‼️下一个10年在哪 ](https://v.douyin.com/iSnmsQ3JbhE/)
