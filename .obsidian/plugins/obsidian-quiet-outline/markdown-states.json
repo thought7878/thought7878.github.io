@@ -1982,15 +1982,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/移民.md": {
-    "scroll": 0,
+    "scroll": 16.229166666666668,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 129
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 129
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -8747,19 +8747,19 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 160.234375,
+    "scroll": 135.78736413043478,
     "cursor": {
       "from": {
-        "line": 176,
+        "line": 157,
         "ch": 0
       },
       "to": {
-        "line": 176,
+        "line": 157,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-4"
+      "item-1-11"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
@@ -42908,6 +42908,42 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/教程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md": {
+    "scroll": 123.10878809355067,
+    "cursor": {
+      "from": {
+        "line": 139,
+        "ch": 3
+      },
+      "to": {
+        "line": 139,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-2-5",
+      "item-1-0",
+      "item-2-2",
+      "item-2-8"
     ]
   }
 }
