@@ -3061,19 +3061,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 408.21039335979793,
+    "scroll": 258.4583333333333,
     "cursor": {
       "from": {
-        "line": 428,
-        "ch": 131
+        "line": 270,
+        "ch": 15
       },
       "to": {
-        "line": 428,
-        "ch": 131
+        "line": 270,
+        "ch": 15
       }
     },
     "expandedKeys": [
-      "item-1-2"
+      "item-1-2",
+      "item-2-10"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -14164,11 +14165,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 0,
         "ch": 0
       }
     },
@@ -42962,20 +42963,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 52.341796875,
+    "scroll": 430.1165364583333,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 167
+        "line": 435,
+        "ch": 5
       },
       "to": {
-        "line": 61,
-        "ch": 167
+        "line": 435,
+        "ch": 5
       }
     },
     "expandedKeys": [
-      "item-2-6",
-      "item-1-2"
+      "item-1-2",
+      "item-2-3",
+      "item-2-6"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43056,14 +43058,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 38,
+        "ch": 30
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 38,
+        "ch": 30
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/互联网架构就这？1个故事讲清楚.md": {
+    "scroll": 83.71451822916667,
+    "cursor": {
+      "from": {
+        "line": 89,
+        "ch": 0
+      },
+      "to": {
+        "line": 89,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
