@@ -42043,14 +42043,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 1031.9173646907216,
+    "scroll": 1034.9456380208333,
     "cursor": {
       "from": {
-        "line": 1046,
+        "line": 1043,
         "ch": 0
       },
       "to": {
-        "line": 1046,
+        "line": 1043,
         "ch": 0
       }
     },
@@ -42542,18 +42542,20 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 0,
+    "scroll": 68.17350260416667,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 15
+        "line": 80,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 15
+        "line": 80,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-2",
+      "item-1-2",
       "item-2-4",
       "item-1-1"
     ]
@@ -42860,8 +42862,9 @@
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-2-116"
+      "item-2-2",
+      "item-2-116",
+      "item-1-2"
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/未命名.md": {
@@ -42879,29 +42882,33 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 3209.0621744791665,
+    "scroll": 3185.9749086866764,
     "cursor": {
       "from": {
-        "line": 3223,
-        "ch": 4
+        "line": 3240,
+        "ch": 81
       },
       "to": {
-        "line": 3223,
-        "ch": 4
+        "line": 3240,
+        "ch": 81
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-116",
+      "item-1-2"
+    ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 29.763671875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42956,30 +42963,66 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 96.52652994791667,
+    "scroll": 38.74702273547456,
     "cursor": {
       "from": {
-        "line": 103,
-        "ch": 595
+        "line": 42,
+        "ch": 433
       },
       "to": {
-        "line": 103,
-        "ch": 595
+        "line": 42,
+        "ch": 433
       }
     },
     "expandedKeys": [
-      "item-1-2",
       "item-2-3",
-      "item-2-6",
-      "item-2-16",
-      "item-2-26",
-      "item-2-33",
-      "item-1-102",
-      "item-2-43",
-      "item-2-54",
-      "item-2-62",
-      "item-2-74",
-      "item-2-81"
+      "item-1-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍/1.软件架构介绍.md": {
+    "scroll": 0.8484848484848485,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 20
+      },
+      "to": {
+        "line": 8,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
