@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-06"
+              "title": "2026-09-07"
             }
           },
           {
@@ -800,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -972,21 +972,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1cf2470dd2c1762f",
+  "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
+    "_posts/architect/_教程/media/ebeca415d87d681078c352aa67be38d5_MD5.webp",
+    "_posts/architect/_教程/media/b1133e92562af06dd0a3a0c812ba54d3_MD5.webp",
+    "_posts/architect/_教程/media/ecfe48162fd0039964e32fb64a05b7c2_MD5.webp",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-07.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md",
     "_posts/architect/_教程/互联网架构就这？1个故事讲清楚.md",
+    "_posts/architect/_教程/Advanced Frontend Course/介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/methods/要整理的.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
     "_posts/architect/_教程/media/0bd86bcfb67266df4abd4527eafc5e75_MD5.webp",
     "_posts/architect/_教程/media/3949557ae4de93e5a3967de74f008e41_MD5.webp",
     "_posts/architect/_教程/media/674f872cd4c29d33da1aca923d33378b_MD5.webp",
     "_posts/architect/_教程/media/bcdb2e4edc5d7d152ef5bda55dbd7b54_MD5.webp",
     "_posts/architect/_教程/media/1a11ffb651fe276d938b5f80379960a6_MD5.webp",
     "_posts/architect/_教程/media/54a0e03c3ffc932350ecc746081d0ad9_MD5.webp",
-    "_posts/methods/要整理的.md",
     "_posts/architect/_教程/media/5097b2896be1d451137f59b19a201731_MD5.webp",
     "_posts/architect/_教程/media/974357d6b52e2cb211469fea24b7a936_MD5.webp",
-    "_posts/architect/_教程/media/3f187ab4717098f77071cdcd907bdf72_MD5.webp",
-    "_posts/architect/_教程/media/7e7fda4dc8d674df18c20ab578ee9e8a_MD5.webp",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/tools/资源.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/2.功能需求——逐步实施的过程.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.系统设计与架构驱动因素简介.md",
@@ -995,11 +1002,7 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍/1.软件架构介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
-    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
-    "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
     "_posts/后端/课程/The complete React 19 course, incl. Next JS & Express/介绍.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md",
     "_posts/AI/AI.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计",
@@ -1016,8 +1019,6 @@
     "_posts/后端/Mongoose 知识目录.md",
     "_posts/后端/Mongoose/Middleware.md",
     "_posts/后端/Mongoose",
-    "_posts/后端/MongoDB/聚合管道/聚合管道.md",
-    "_posts/methods/常看的.md",
     "_posts/后端/MongoDB/聚合管道",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
