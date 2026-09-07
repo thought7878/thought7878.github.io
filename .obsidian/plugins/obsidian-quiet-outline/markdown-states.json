@@ -42964,7 +42964,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 51.572916666666664,
+    "scroll": 52.822916666666664,
     "cursor": {
       "from": {
         "line": 60,
@@ -42977,10 +42977,9 @@
     },
     "expandedKeys": [
       "item-1-2",
-      "item-3-2",
-      "item-2-3",
-      "item-2-6",
-      "item-3-7"
+      "item-2-2",
+      "item-3-7",
+      "item-2-6"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43058,18 +43057,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.系统设计与架构驱动因素简介.md": {
-    "scroll": 0.6161616161616161,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 55
+        "line": 2,
+        "ch": 11
       },
       "to": {
-        "line": 8,
-        "ch": 55
+        "line": 2,
+        "ch": 34
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2",
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/互联网架构就这？1个故事讲清楚.md": {
     "scroll": 217.46751815352698,
@@ -43102,6 +43104,23 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.架构设计的第一步：收集、分类、分析需求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 0
+      },
+      "to": {
+        "line": 41,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-2-2"
     ]
   }
 }
