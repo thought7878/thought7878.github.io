@@ -42964,21 +42964,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 76.27083333333333,
+    "scroll": 95.92168892096716,
     "cursor": {
       "from": {
-        "line": 85,
-        "ch": 0
+        "line": 109,
+        "ch": 19
       },
       "to": {
-        "line": 85,
-        "ch": 0
+        "line": 109,
+        "ch": 19
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-3-11",
-      "item-2-6"
+      "item-3-13",
+      "item-2-6",
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43042,18 +43042,20 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/未命名.md": {
-    "scroll": 0,
+    "scroll": 174.42397791192207,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 180,
+        "ch": 396
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.系统设计与架构驱动因素简介.md": {
     "scroll": 0,
@@ -43137,15 +43139,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/3.非功能需求.md": {
-    "scroll": 8.17487597448618,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 33,
-        "ch": 30
+        "line": 34,
+        "ch": 0
       },
       "to": {
-        "line": 33,
-        "ch": 30
+        "line": 34,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -43167,6 +43169,56 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/4.系统约束条件.md": {
+    "scroll": 20.20031007751938,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 28
+      },
+      "to": {
+        "line": 32,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/5.成为软件架构师的补充资源.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 18
+      },
+      "to": {
+        "line": 6,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/软件架构师到底做什么？.md": {
+    "scroll": 14.208333333333334,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 35
+      },
+      "to": {
+        "line": 40,
+        "ch": 35
+      }
+    },
+    "expandedKeys": [
+      "item-1-5",
+      "item-1-0",
+      "item-2-7",
+      "item-2-11"
     ]
   }
 }
