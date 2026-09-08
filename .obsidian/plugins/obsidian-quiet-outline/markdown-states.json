@@ -569,15 +569,15 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 1.0833333333333333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 129
+        "line": 3,
+        "ch": 20
       },
       "to": {
-        "line": 12,
-        "ch": 129
+        "line": 3,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -3061,21 +3061,23 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 336.4095052083333,
+    "scroll": 17.895833333333332,
     "cursor": {
       "from": {
-        "line": 345,
+        "line": 30,
         "ch": 0
       },
       "to": {
-        "line": 345,
+        "line": 30,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-2",
       "item-2-10",
-      "item-2-14"
+      "item-2-14",
+      "item-2-29",
+      "item-2-23"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42884,7 +42886,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 3184.951007751938,
+    "scroll": 3167.4471970779737,
     "cursor": {
       "from": {
         "line": 3240,
@@ -42896,7 +42898,6 @@
       }
     },
     "expandedKeys": [
-      "item-2-3",
       "item-1-2"
     ]
   },
@@ -42964,23 +42965,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 104.6951577402788,
+    "scroll": 165.8671875,
     "cursor": {
       "from": {
-        "line": 121,
-        "ch": 445
+        "line": 170,
+        "ch": 25
       },
       "to": {
-        "line": 121,
-        "ch": 445
+        "line": 170,
+        "ch": 4
       }
     },
     "expandedKeys": [
-      "item-3-13",
-      "item-2-6",
+      "item-3-24",
+      "item-2-16",
       "item-1-2",
-      "item-3-17",
-      "item-2-16"
+      "item-3-27",
+      "item-2-26"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43242,5 +43243,143 @@
       "item-1-0",
       "item-3-11"
     ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/1.性能.md": {
+    "scroll": 7.3089862771137675,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 20
+      },
+      "to": {
+        "line": 34,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 29
+      },
+      "to": {
+        "line": 5,
+        "ch": 29
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.SLA, SLO, SLI.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/3.可用性 - 简介 & 测量.md": {
+    "scroll": 24.722981770833332,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 155
+      },
+      "to": {
+        "line": 39,
+        "ch": 155
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md": {
+    "scroll": 118.5310357271743,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 0
+      },
+      "to": {
+        "line": 38,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6",
+      "item-2-1",
+      "item-3-8"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/5.SLA, SLO, SLI.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 140
+      },
+      "to": {
+        "line": 53,
+        "ch": 140
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.面向软件架构师的 API 设计指南简介.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
