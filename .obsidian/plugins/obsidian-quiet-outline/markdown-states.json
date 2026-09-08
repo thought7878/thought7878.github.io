@@ -42964,22 +42964,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 65.54842259721204,
+    "scroll": 76.27083333333333,
     "cursor": {
       "from": {
-        "line": 74,
-        "ch": 115
+        "line": 85,
+        "ch": 0
       },
       "to": {
-        "line": 74,
-        "ch": 115
+        "line": 85,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-7",
-      "item-2-6",
       "item-1-2",
-      "item-3-9"
+      "item-3-11",
+      "item-2-6"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43091,6 +43090,70 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-07.md": {
+    "scroll": 27.300611413043477,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.架构设计的第一步：收集、分类、分析需求.md": {
+    "scroll": 14.787286821705427,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 6
+      },
+      "to": {
+        "line": 27,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-2-2"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/2.功能需求——逐步实施的过程.md": {
+    "scroll": 21.513993689120593,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 62
+      },
+      "to": {
+        "line": 16,
+        "ch": 62
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/3.非功能需求.md": {
+    "scroll": 8.17487597448618,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 30
+      },
+      "to": {
+        "line": 33,
+        "ch": 30
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-2-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-08.md": {
     "scroll": 23.759805411979325,
     "cursor": {
       "from": {
@@ -43105,33 +43168,5 @@
     "expandedKeys": [
       "item-1-1"
     ]
-  },
-  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.架构设计的第一步：收集、分类、分析需求.md": {
-    "scroll": 0,
-    "cursor": {
-      "from": {
-        "line": 6,
-        "ch": 74
-      },
-      "to": {
-        "line": 6,
-        "ch": 74
-      }
-    },
-    "expandedKeys": []
-  },
-  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/2.功能需求——逐步实施的过程.md": {
-    "scroll": 21.826793798875016,
-    "cursor": {
-      "from": {
-        "line": 38,
-        "ch": 34
-      },
-      "to": {
-        "line": 38,
-        "ch": 34
-      }
-    },
-    "expandedKeys": []
   }
 }
