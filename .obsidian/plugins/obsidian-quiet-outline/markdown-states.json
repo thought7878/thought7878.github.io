@@ -3061,14 +3061,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 17.895833333333332,
+    "scroll": 210.23958333333334,
     "cursor": {
       "from": {
-        "line": 30,
+        "line": 220,
         "ch": 0
       },
       "to": {
-        "line": 30,
+        "line": 220,
         "ch": 0
       }
     },
@@ -36848,15 +36848,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Advanced Frontend Course/介绍.md": {
-    "scroll": 147.59574468085106,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 183,
-        "ch": 17
+        "line": 5,
+        "ch": 20
       },
       "to": {
-        "line": 183,
-        "ch": 17
+        "line": 5,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -37404,7 +37404,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/Frontend System Design/介绍.md": {
-    "scroll": 3.875,
+    "scroll": 27.801432291666668,
     "cursor": {
       "from": {
         "line": 14,
@@ -42965,23 +42965,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 165.8671875,
+    "scroll": 110.75455729166667,
     "cursor": {
       "from": {
-        "line": 170,
-        "ch": 25
+        "line": 121,
+        "ch": 551
       },
       "to": {
-        "line": 170,
-        "ch": 4
+        "line": 121,
+        "ch": 551
       }
     },
     "expandedKeys": [
-      "item-3-24",
+      "item-3-11",
+      "item-3-17",
       "item-2-16",
       "item-1-2",
-      "item-3-27",
-      "item-2-26"
+      "item-3-19"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43145,14 +43145,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/3.非功能需求.md": {
-    "scroll": 0,
+    "scroll": 0.8783783783783784,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 7,
         "ch": 0
       }
     },
@@ -43178,19 +43178,18 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/4.系统约束条件.md": {
-    "scroll": 20.20031007751938,
+    "scroll": 22.155539516420063,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 28
+        "line": 36,
+        "ch": 74
       },
       "to": {
-        "line": 32,
-        "ch": 28
+        "line": 36,
+        "ch": 74
       }
     },
     "expandedKeys": [
-      "item-2-1",
       "item-2-5"
     ]
   },
@@ -43209,15 +43208,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/软件架构师到底做什么？.md": {
-    "scroll": 19.155038759689923,
+    "scroll": 11.541666666666666,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 22
+        "line": 21,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 22
+        "line": 21,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -43239,8 +43238,6 @@
       }
     },
     "expandedKeys": [
-      "item-1-5",
-      "item-1-0",
       "item-3-11"
     ]
   },
@@ -43259,19 +43256,18 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/1.性能.md": {
-    "scroll": 7.3089862771137675,
+    "scroll": 16.956010798793077,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 20
+        "line": 28,
+        "ch": 16
       },
       "to": {
-        "line": 34,
-        "ch": 20
+        "line": 28,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-2-3"
     ]
   },
@@ -43372,14 +43368,48 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 7,
+        "ch": 10
+      },
+      "to": {
+        "line": 7,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-1-2"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.面向软件架构师的 API 设计简介.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-2"
+    ]
   }
 }
