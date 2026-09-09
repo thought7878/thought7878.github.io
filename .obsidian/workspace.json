@@ -799,7 +799,8 @@
               "title": "2.可扩展性"
             }
           }
-        ]
+        ],
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -971,10 +972,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md",
+    "_posts/methods/常看的.md",
+    "_posts/鸿蒙/鸿蒙.md",
+    "_posts/读书笔记/移民.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/读书笔记/历史.md",
     "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-09.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-08.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
@@ -993,16 +999,11 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/3.可用性 - 简介 & 测量.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
-    "_posts/methods/常看的.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/2.功能需求——逐步实施的过程.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-07.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/1.架构设计的第一步：收集、分类、分析需求.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍/1.软件架构介绍.md",
-    "_posts/architect/_教程/互联网架构就这？1个故事讲清楚.md",
     "_posts/architect/_教程/media/ebeca415d87d681078c352aa67be38d5_MD5.webp",
     "_posts/architect/_教程/media/b1133e92562af06dd0a3a0c812ba54d3_MD5.webp",
     "_posts/architect/_教程/media/ecfe48162fd0039964e32fb64a05b7c2_MD5.webp",
