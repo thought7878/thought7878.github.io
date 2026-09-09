@@ -757,7 +757,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -772,7 +772,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 配音 全流程实战指南"
+              "title": "课程介绍"
             }
           },
           {
@@ -800,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -972,10 +972,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c5a95e97747b0a1",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/5.SLA, SLO, SLI.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/3.可用性 - 简介 & 测量.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md",
@@ -995,13 +1000,8 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/4.系统约束条件.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/5.成为软件架构师的补充资源.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/3.非功能需求.md",
-    "_posts/tools/资源.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/2.功能需求——逐步实施的过程.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media",
     "_posts/architect/_教程/media/ebeca415d87d681078c352aa67be38d5_MD5.webp",
