@@ -3063,23 +3063,23 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 489.2454427083333,
+    "scroll": 233.244140625,
     "cursor": {
       "from": {
-        "line": 501,
-        "ch": 0
+        "line": 246,
+        "ch": 129
       },
       "to": {
-        "line": 501,
-        "ch": 0
+        "line": 246,
+        "ch": 129
       }
     },
     "expandedKeys": [
       "item-1-2",
       "item-2-10",
-      "item-2-14",
-      "item-2-29",
-      "item-2-23",
+      "item-2-15",
+      "item-2-30",
+      "item-2-24",
       "item-2-8"
     ]
   },
@@ -42970,24 +42970,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 124.078125,
+    "scroll": 126.6129860601614,
     "cursor": {
       "from": {
-        "line": 135,
-        "ch": 0
+        "line": 133,
+        "ch": 692
       },
       "to": {
-        "line": 135,
-        "ch": 0
+        "line": 133,
+        "ch": 692
       }
     },
     "expandedKeys": [
-      "item-2-3",
-      "item-2-6",
-      "item-1-2",
-      "item-3-17",
+      "item-3-19",
       "item-2-16",
-      "item-3-19"
+      "item-1-2",
+      "item-3-17"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43279,15 +43277,15 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md": {
-    "scroll": 17.973953488372093,
+    "scroll": 19.72031007751938,
     "cursor": {
       "from": {
         "line": 38,
-        "ch": 25
+        "ch": 71
       },
       "to": {
         "line": 38,
-        "ch": 25
+        "ch": 71
       }
     },
     "expandedKeys": [
