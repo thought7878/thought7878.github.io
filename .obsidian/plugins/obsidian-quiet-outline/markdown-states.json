@@ -42970,21 +42970,27 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 146.33968098958334,
+    "scroll": 202.55282465150404,
     "cursor": {
       "from": {
-        "line": 158,
+        "line": 214,
         "ch": 76
       },
       "to": {
-        "line": 158,
+        "line": 214,
         "ch": 76
       }
     },
     "expandedKeys": [
       "item-2-6",
+      "item-3-7",
+      "item-3-24",
       "item-2-16",
-      "item-1-2"
+      "item-1-2",
+      "item-2-26",
+      "item-3-27",
+      "item-2-33",
+      "item-3-34"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43322,21 +43328,22 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md": {
-    "scroll": 67.13802083333333,
+    "scroll": 90.79339588596174,
     "cursor": {
       "from": {
-        "line": 83,
-        "ch": 0
+        "line": 113,
+        "ch": 11
       },
       "to": {
-        "line": 83,
-        "ch": 0
+        "line": 113,
+        "ch": 11
       }
     },
     "expandedKeys": [
       "item-2-6",
       "item-2-1",
-      "item-3-8"
+      "item-3-7",
+      "item-4-8"
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/5.SLA, SLO, SLI.md": {
