@@ -800,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -972,21 +972,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c5a95e97747b0a1",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
+    "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/methods/常看的.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/5.可扩展的非结构化数据存储.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/4.Brewer’s 定理（CAP 定理）.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性和可扩展性的技术.md",
