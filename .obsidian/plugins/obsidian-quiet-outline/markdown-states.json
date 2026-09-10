@@ -42973,21 +42973,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 212.02604166666666,
+    "scroll": 235.48111979166666,
     "cursor": {
       "from": {
-        "line": 201,
-        "ch": 447
+        "line": 238,
+        "ch": 187
       },
       "to": {
-        "line": 201,
-        "ch": 447
+        "line": 238,
+        "ch": 187
       }
     },
     "expandedKeys": [
+      "item-3-38",
       "item-2-33",
-      "item-1-2",
-      "item-3-34"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43405,22 +43405,24 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md": {
-    "scroll": 0,
+    "scroll": 85.51822916666667,
     "cursor": {
       "from": {
-        "line": 200,
-        "ch": 0
+        "line": 104,
+        "ch": 71
       },
       "to": {
-        "line": 200,
-        "ch": 0
+        "line": 104,
+        "ch": 71
       }
     },
     "expandedKeys": [
-      "item-2-17",
-      "item-1-21",
+      "item-3-2",
+      "item-2-2",
+      "item-2-6",
       "item-2-10",
-      "item-2-6"
+      "item-2-17",
+      "item-1-21"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-09.md": {
@@ -43550,5 +43552,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md": {
+    "scroll": 26.353025250119103,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 31
+      },
+      "to": {
+        "line": 36,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 192
+      },
+      "to": {
+        "line": 54,
+        "ch": 192
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
   }
 }
