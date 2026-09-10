@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
+                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.API 设计简介"
+              "title": "2.RPC"
             }
           }
         ],
@@ -974,14 +974,19 @@
   },
   "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/世界趋势/趋势.md",
+    "_posts/methods/常看的.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/5.可扩展的非结构化数据存储.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/4.Brewer’s 定理（CAP 定理）.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性和可扩展性的技术.md",
@@ -991,17 +996,12 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/5.SLA, SLO, SLI.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
     "_posts/读书笔记/男女.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-10.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-09.md",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/41.Claude Code命令、快捷键与配置深度剖析.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
-    "_posts/设计/Figma/Group 对比 Frame.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/3.可用性 - 简介 & 测量.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/2.可扩展性.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
