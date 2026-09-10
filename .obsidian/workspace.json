@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-10.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-10"
+              "title": "2026-09-11"
             }
           },
           {
@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
+                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3.REST API"
+              "title": "2.RPC"
             }
           }
         ],
@@ -972,15 +972,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-10.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
     "_posts/methods/要整理的.md",
     "_posts/tools/资源.md",
     "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构/课程介绍.md",
     "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
@@ -1001,8 +1003,6 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
     "_posts/AI/短视频/教程/AI 配音 全流程实战指南.md",
     "_posts/读书笔记/男女.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-10.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-09.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
