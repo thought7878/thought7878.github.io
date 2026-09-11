@@ -685,6 +685,32 @@
         }
       ],
       "title": "AI"
+    },
+    {
+      "type": "group",
+      "ctime": 1789111725290,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1789111756044,
+          "path": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+          "title": "终极 React 课程 2025：React、Next.js、Redux 等技术的学习"
+        }
+      ],
+      "title": "前端"
+    },
+    {
+      "type": "group",
+      "ctime": 1789111864989,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1789111884592,
+          "path": "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
+          "title": "GitLab CI/CD：面向初学者的管道构建、持续集成/持续部署及 DevOps 相关知识"
+        }
+      ],
+      "title": "DevOps"
     }
   ]
 }

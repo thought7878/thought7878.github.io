@@ -800,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -868,7 +868,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -972,17 +973,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c5a95e97747b0a1",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
+    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/读书笔记/男女.md",
+    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识",
+    "_posts/devops/课程",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/methods/要整理的.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/tools/资源.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
@@ -1001,8 +1006,6 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/1.关系型数据库与 ACID 事务处理.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/5.SLA, SLO, SLI.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性/4.容错性 & 高可用性.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
@@ -1018,8 +1021,6 @@
     "_posts/architect/_教程/media/54a0e03c3ffc932350ecc746081d0ad9_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/1.介绍",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计",
-    "_posts/AI/短视频/教程",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
