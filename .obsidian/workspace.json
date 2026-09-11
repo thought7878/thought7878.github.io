@@ -757,7 +757,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -772,7 +772,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1.服务器端渲染概述"
+              "title": "课程介绍"
             }
           },
           {
@@ -974,8 +974,12 @@
   },
   "active": "6e78155bf502c055",
   "lastOpenFiles": [
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/475dc01c226be43c36a7a16995c77755_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/12a1e38585986b3f5278c467886c3095_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/24345abc26bbe68e5cccc8ed68f7870a_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/未命名",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
@@ -1004,22 +1008,17 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/5.可扩展的非结构化数据存储.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/4.Brewer’s 定理（CAP 定理）.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性和可扩展性的技术.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/3.大规模系统中最重要的 质量属性",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media/a1b40a8775ba927d110148c1d59e5647_MD5.webp",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/2.系统需求与架构驱动因素/media",
     "_posts/architect/_教程/media/ebeca415d87d681078c352aa67be38d5_MD5.webp",
     "_posts/architect/_教程/media/b1133e92562af06dd0a3a0c812ba54d3_MD5.webp",
     "_posts/architect/_教程/media/ecfe48162fd0039964e32fb64a05b7c2_MD5.webp",
     "_posts/architect/_教程/media/0bd86bcfb67266df4abd4527eafc5e75_MD5.webp",
     "_posts/architect/_教程/media/3949557ae4de93e5a3967de74f008e41_MD5.webp",
     "_posts/architect/_教程/media/674f872cd4c29d33da1aca923d33378b_MD5.webp",
-    "_posts/architect/_教程/media/bcdb2e4edc5d7d152ef5bda55dbd7b54_MD5.webp",
-    "_posts/architect/_教程/media/1a11ffb651fe276d938b5f80379960a6_MD5.webp",
-    "_posts/architect/_教程/media/54a0e03c3ffc932350ecc746081d0ad9_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
