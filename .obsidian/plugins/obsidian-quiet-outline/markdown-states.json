@@ -42977,26 +42977,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 184.86979166666666,
+    "scroll": 209.1875,
     "cursor": {
       "from": {
-        "line": 194,
-        "ch": 222
+        "line": 222,
+        "ch": 248
       },
       "to": {
-        "line": 194,
-        "ch": 222
+        "line": 222,
+        "ch": 248
       }
     },
     "expandedKeys": [
-      "item-2-19",
-      "item-3-27",
-      "item-2-26",
+      "item-2-2",
+      "item-3-36",
+      "item-2-33",
       "item-1-2",
-      "item-3-29",
-      "item-2-16",
-      "item-3-21",
-      "item-3-24"
+      "item-3-34"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43464,7 +43461,7 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md": {
-    "scroll": 192.31901041666666,
+    "scroll": 193.56171057380007,
     "cursor": {
       "from": {
         "line": 206,
@@ -43477,11 +43474,9 @@
     },
     "expandedKeys": [
       "item-2-1",
-      "item-2-23",
-      "item-2-19",
-      "item-2-10",
       "item-2-6",
-      "item-2-14"
+      "item-2-10",
+      "item-2-19"
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/未命名.md": {
@@ -43513,39 +43508,38 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md": {
-    "scroll": 19.40305444887118,
+    "scroll": 15.888346354166666,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 12
+        "line": 28,
+        "ch": 9
       },
       "to": {
-        "line": 26,
-        "ch": 12
+        "line": 28,
+        "ch": 9
       }
     },
     "expandedKeys": [
-      "item-2-1",
       "item-2-6",
-      "item-2-10",
-      "item-2-16",
-      "item-2-21",
-      "item-2-26"
+      "item-2-26",
+      "item-2-1"
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md": {
-    "scroll": 0,
+    "scroll": 37.458333333333336,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 93
+        "line": 51,
+        "ch": 25
       },
       "to": {
-        "line": 54,
-        "ch": 93
+        "line": 51,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md": {
     "scroll": 0,
