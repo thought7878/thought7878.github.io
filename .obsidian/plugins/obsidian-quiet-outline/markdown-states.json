@@ -42056,12 +42056,12 @@
     "scroll": 1726.1243489583333,
     "cursor": {
       "from": {
-        "line": 1741,
-        "ch": 15
+        "line": 1738,
+        "ch": 0
       },
       "to": {
-        "line": 1741,
-        "ch": 15
+        "line": 1738,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42552,22 +42552,24 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 0,
+    "scroll": 241.2265625,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 15
+        "line": 256,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 15
+        "line": 256,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2",
       "item-1-2",
       "item-2-4",
-      "item-1-1"
+      "item-1-1",
+      "item-2-94",
+      "item-2-102"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
@@ -42978,7 +42980,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 188.01692708333334,
+    "scroll": 184.86979166666666,
     "cursor": {
       "from": {
         "line": 194,
@@ -42991,10 +42993,13 @@
     },
     "expandedKeys": [
       "item-2-19",
-      "item-3-31",
+      "item-3-27",
       "item-2-26",
       "item-1-2",
-      "item-3-29"
+      "item-3-29",
+      "item-2-16",
+      "item-3-21",
+      "item-3-24"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43462,20 +43467,24 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/2.RPC.md": {
-    "scroll": 200.67545572916666,
+    "scroll": 192.31901041666666,
     "cursor": {
       "from": {
-        "line": 213,
-        "ch": 0
+        "line": 206,
+        "ch": 7
       },
       "to": {
-        "line": 213,
-        "ch": 0
+        "line": 206,
+        "ch": 7
       }
     },
     "expandedKeys": [
       "item-2-1",
-      "item-2-23"
+      "item-2-23",
+      "item-2-19",
+      "item-2-10",
+      "item-2-6",
+      "item-2-14"
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/未命名.md": {
@@ -43507,15 +43516,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/3.REST API.md": {
-    "scroll": 30.34639220894201,
+    "scroll": 43.859700520833336,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 3
+        "line": 62,
+        "ch": 14
       },
       "to": {
-        "line": 44,
-        "ch": 3
+        "line": 62,
+        "ch": 14
       }
     },
     "expandedKeys": [
