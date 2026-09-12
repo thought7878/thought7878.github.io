@@ -27,14 +27,20 @@
         1.  从父 SC 传递给该 CC 的**序列化 Props**。
         2.  包含该 CC 实际代码的**脚本 URL**（由框架的打包工具生成）。
 
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/88636717e7d69a0c30e19614d6113ab7_MD5.webp]]
+
 #### 中间产物：生成 RSC Payload
-- 第一步完成后，会生成一个混合了“已渲染的 SC”和“未渲染的 CC 占位符”的树，这被称为 **RSC Payload**。
-- RSC Payload 会被转换为一种类似 JSON 但支持**流式传输 (Streaming)** 的自定义数据格式，从服务端发送到客户端。
+- **第一步完成后，会生成一个混合了 *“已渲染的 SC”* 和 *“未渲染的 CC 占位符”* 的*树***，这被称为 `RSC Payload`。
+- **RSC Payload 会被转换为一种*类似 JSON* 但支持 *流式传输 (Streaming)* 的*自定义数据格式*，从服务端发送到客户端**。
+
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/4d7e6ae8c7163eff3272f65975f44e47_MD5.webp]]
 
 ### 第二步：在客户端渲染 Client Components
-- 客户端接收到 RSC Payload 后，根据占位符中的 URL 下载 CC 的 JS 代码。
-- 结合传入的 Props，在客户端执行 CC，生成完整的 React Elements。
-- 至此，客户端拥有了**完整的虚拟 DOM**，随后将其 Commit 到真实 DOM 中，完成页面渲染。
+- 客户端接收到 RSC Payload 后，*根据占位符中的 URL 下载 CC 的 JS 代码*。
+- *结合传入的 Props，在客户端执行 CC，生成完整的 React Elements*。
+- *至此，客户端拥有了完整的虚拟 DOM，随后将其 Commit 到真实 DOM 中，完成页面渲染*。
+
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/a116b3945ca0a8031aa5d51079001c56_MD5.webp]]
 
 ---
 
