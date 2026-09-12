@@ -2,12 +2,14 @@
 
 以下是内容的结构化总结：
 
-## 1. 为什么需要 React Server Components？（背景与痛点）
-- `纯客户端渲染 (CSR) 的痛点`：*传统的 React 应用*（UI = 状态(state)的函数）**交互性极强**，但*缺点*是**需要下载大量 JS 代码**（影响性能），且容易产生**客户端-服务器数据请求瀑布流**（组件间依赖数据*导致串行请求，拖慢速度*）。
+## 为什么需要 React Server Components？（背景与痛点）
+- `纯客户端渲染 (CSR) 的痛点`：*传统的 React 应用*（UI = 状态(state)的函数）**交互性极强**，但*缺点*是**需要下载大量 JS 代码**（影响性能），且容易产生*客户端-服务器数据请求瀑布流*（组件间依赖数据**导致串行请求，拖慢速度**）。
 - `纯服务端渲染 (SSR) 的痛点`：*传统的 SSR*（如早期的 PHP，UI = 数据(data)的函数）获取数据快、无需 JS、首屏加载快，但**完全没有交互性**，也没有组件化开发的优势。
 - `RSC 的解决方案`：**结合两者的优点**，让 UI 同时成为状态 (state) 和数据 (data) 的函数。*在服务端和客户端同时使用 React 组件，兼顾高性能与高交互性*。
 
-## 2. 核心概念：Server Components vs Client Components
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/c257cb3393aa4e9304c940f5c10348b5_MD5.webp]]
+
+## Server Components vs Client Components
 - `React Server Components (RSC)`：指代这种**全新的全栈架构范式**。
 - Server Components (服务器组件)：
     - **默认组件**（在 Next.js App Router 中）。
@@ -20,7 +22,9 @@
     - 负责处理**交互性、状态 (state) 和 Hooks**。
     - 需要通过在文件顶部*添加 'use client' 指令*来显式声明（Opt-in）。
 
-## 3. 关键规则与工作机制
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/bae941ab5e2dd5ea5fa18d26f8872669_MD5.webp]]
+
+### 关键规则与工作机制
 - **客户端-服务端边界 (Client-Server Boundary)**：
     - 使用 'use client' 会创建一个边界，该组件及其所有子组件都会在客户端执行。子组件不需要再次声明 'use client'。
 - **数据获取 (Data Fetching)**：
@@ -36,11 +40,17 @@
     - **Client 组件**：当自身或父组件的 state 改变时重新渲染。
     - **Server 组件**：当 **URL 改变（路由导航）** 时重新执行并重新渲染。
 
-## 4. 心理模型 (Mental Model)
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
+
+
+## 心理模型 (Mental Model)
 - **传统 React**：用户交互 -> 改变 State -> 重新渲染组件 -> 更新视图。
 - **RSC 架构**：在 Client 组件之上增加了 Server 组件。Server 组件负责获取数据并渲染视图，或将数据作为 props 传给 Client 组件。两者共同构建同一个视图，只是触发更新的机制不同（Server 靠 URL 变化，Client 靠 State 变化）。
 
-## 5. RSC 架构的优缺点
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
+
+
+## RSC 架构的优缺点
 **优点 (Pros)：**
 1.  **全栈 React**：前后端都可以用 React 组件编写，实现单一代码库，开发体验极其自然。
 2.  **无需 API 层**：Server 组件可以直接访问数据库等数据源，无需为 Web 端单独编写 API 接口。
