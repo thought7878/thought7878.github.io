@@ -43,14 +43,14 @@
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
 
 
-## 心理模型 (Mental Model)
+### 心理模型 (Mental Model)
 - **传统 React**：用户交互 -> 改变 State -> 重新渲染组件 -> 更新视图。
 - **RSC 架构**：在 Client 组件之上增加了 Server 组件。Server 组件负责获取数据并渲染视图，或将数据作为 props 传给 Client 组件。两者共同构建同一个视图，只是触发更新的机制不同（Server 靠 URL 变化，Client 靠 State 变化）。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
-
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/28984190607d487ead08ce2855ac95a6_MD5.webp]]
 
 ## RSC 架构的优缺点
+[25:50]
 **优点 (Pros)：**
 1.  **全栈 React**：前后端都可以用 React 组件编写，实现单一代码库，开发体验极其自然。
 2.  **无需 API 层**：Server 组件可以直接访问数据库等数据源，无需为 Web 端单独编写 API 接口。
@@ -62,6 +62,8 @@
 2.  **API 限制**：Server 组件不能使用 Hooks（如 Context API），也不能传递不可序列化的 props。
 3.  **移动端限制**：如果同时需要开发移动端 App，可能仍然需要编写传统的 API 接口。
 4.  **强依赖框架**：RSC 无法在纯 Vite 等纯前端工具中直接使用，**必须依赖 Next.js 或 Remix 等全栈框架**来实现。
+
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/f603e108530ec0a1aa6b1a229822891d_MD5.webp]]
 
 ## 总结
 讲师认为，尽管 RSC 增加了 React 的学习成本和复杂性，但其带来的性能提升、开发体验优化以及全栈组件化的优势**绝对大于缺点**，是 React 未来发展的正确方向。接下来的课程将结合 Next.js 代码进行实战演示。
