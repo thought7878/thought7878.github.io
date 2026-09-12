@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-12"
+              "title": "2026-09-13"
             }
           },
           {
@@ -757,7 +757,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -772,7 +772,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）"
+              "title": "课程介绍"
             }
           },
           {
@@ -972,14 +972,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e78155bf502c055",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-13.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/methods/要整理的.md",
     "_posts/读书笔记/人性.md",
     "_posts/methods/常看的.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/ac5a32de644f79212f1690e005305c24_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC——第二部分）.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d6df801f8238d96980e18d04822cdca1_MD5.webp",
@@ -994,7 +997,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/28984190607d487ead08ce2855ac95a6_MD5.webp",
     "_posts/读书笔记/历史.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/media",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media",
@@ -1015,7 +1017,6 @@
     "DailyNote/Journal/01 Daily/2026/09/2026-09-10.md",
     "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构/课程介绍.md",
     "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计/1.API 设计简介.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/4.API 设计",

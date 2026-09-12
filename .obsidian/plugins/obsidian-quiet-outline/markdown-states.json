@@ -6719,12 +6719,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 49
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 49
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -42887,22 +42887,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2708.59765625,
+    "scroll": 2729.154296875,
     "cursor": {
       "from": {
-        "line": 2718,
-        "ch": 0
+        "line": 2746,
+        "ch": 14
       },
       "to": {
-        "line": 2718,
-        "ch": 0
+        "line": 2746,
+        "ch": 14
       }
     },
     "expandedKeys": [
-      "item-3-451",
+      "item-3-470",
       "item-2-448",
       "item-1-5",
-      "item-1-0"
+      "item-3-483"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43685,14 +43685,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 30.925939050318924,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -43751,14 +43751,30 @@
     "scroll": 1.7836871391442375,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 48
+        "line": 11,
+        "ch": 96
       },
       "to": {
-        "line": 10,
-        "ch": 48
+        "line": 11,
+        "ch": 96
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-13.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
