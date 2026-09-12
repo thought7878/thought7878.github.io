@@ -757,7 +757,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -772,7 +772,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程介绍"
+              "title": "什么是 React 服务器组件？"
             }
           },
           {
@@ -972,15 +972,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/media/398885606f0ff337bed480287e6f3c36_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/media",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
     "_posts/methods/常看的.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/475dc01c226be43c36a7a16995c77755_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/12a1e38585986b3f5278c467886c3095_MD5.webp",
@@ -1019,7 +1020,6 @@
     "_posts/architect/_教程/media/ecfe48162fd0039964e32fb64a05b7c2_MD5.webp",
     "_posts/architect/_教程/media/0bd86bcfb67266df4abd4527eafc5e75_MD5.webp",
     "_posts/architect/_教程/media/3949557ae4de93e5a3967de74f008e41_MD5.webp",
-    "_posts/architect/_教程/media/674f872cd4c29d33da1aca923d33378b_MD5.webp",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
