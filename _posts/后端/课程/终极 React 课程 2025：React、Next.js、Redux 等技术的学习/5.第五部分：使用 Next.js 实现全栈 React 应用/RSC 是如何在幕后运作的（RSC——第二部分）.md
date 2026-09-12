@@ -44,11 +44,11 @@
 
 ---
 
-## 3. 核心疑问：为什么不直接发送 HTML？
-既然在服务端渲染了，为什么不直接生成 HTML 发给浏览器，而要搞出复杂的 RSC Payload？
-- **React 的核心哲学**：React 始终希望将 UI 描述为**数据（虚拟DOM/Fiber）**，而不是最终的 HTML 字符串。
-- **保留 UI 状态 (State Preservation)**：当 Server Component 重新渲染（例如路由切换）时，会生成新的 RSC Payload 发给客户端。客户端 React 可以将新树与现有树进行 **Reconciliation（协调/对比）**。
-- **避免体验割裂**：如果直接发送 HTML，整个页面 UI 会被强制替换，导致客户端所有的 UI 状态（如输入框的文字、展开的菜单）全部丢失。使用 RSC Payload 可以让 React 无缝合并更新，**完美保留客户端状态**。
+## 3. 核心疑问：**为什么不直接发送 HTML？**
+既然在服务端渲染了，*为什么不直接生成 HTML 发给浏览器，而要搞出复杂的 RSC Payload？*
+- `React 的核心哲学`：React 始终*希望用数据（虚拟DOM/Fiber Tree）描述 UI，而不是最终的 HTML 字符串*。
+- `保留 UI 状态 (State Preservation)`：当 Server Component 重新渲染（例如路由切换）时，会生成新的 RSC Payload 发给客户端。客户端 React 可以将新树与现有树进行 **Reconciliation（协调/对比）**。
+- `避免体验割裂`：*如果直接发送 HTML，整个页面 UI 会被强制替换，导致客户端所有的 UI 状态全部丢失*（如输入框的文字、展开的菜单）。*使用 RSC Payload 可以让 React 无缝合并更新，完美保留客户端状态*。
 
 ---
 
@@ -56,6 +56,8 @@
 - **传统 React**：组件树 ➔ 虚拟DOM ➔ 真实DOM（一步到位，全在客户端）。
 - **RSC 架构**：组件树 ➔ *(服务端)* 渲染 SC + 生成 CC 占位符 ➔ **RSC Payload** ➔ *(客户端)* 渲染 CC ➔ 完整虚拟DOM ➔ 真实DOM（分两步，跨环境，RSC Payload 是连接两端的桥梁）。
 - **结论**：RSC 并不神秘，它本质上就是传统渲染过程在服务端和客户端的拆分。
+
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d6df801f8238d96980e18d04822cdca1_MD5.webp]]
 
 ---
 
@@ -67,3 +69,4 @@
     - **第一步（服务端）**：UI 是 **Data（数据）** 的函数。
     - **第二步（客户端）**：第一步返回的结果，再作为 **State（状态）** 的函数进行渲染。
     *(讲师表示这只是一个极客视角的严谨性修正，不影响实际开发，但有助于更深刻地理解 RSC 的本质。)*
+
