@@ -333,6 +333,7 @@ Vitest + React Testing Library (强调以用户行为而非组件内部状态进
 - **Streaming (流式渲染)**：配合 `Suspense`，服务端分块发送 HTML，实现首屏秒开。
 
 # Suspense
+[[什么是 React Suspense？]]
 
 # Portals
 
