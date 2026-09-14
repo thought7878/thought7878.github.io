@@ -3062,21 +3062,21 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 309.654296875,
+    "scroll": 404.18549260194874,
     "cursor": {
       "from": {
-        "line": 325,
-        "ch": 140
+        "line": 419,
+        "ch": 36
       },
       "to": {
-        "line": 325,
-        "ch": 140
+        "line": 419,
+        "ch": 36
       }
     },
     "expandedKeys": [
       "item-2-17",
       "item-1-2",
-      "item-2-43",
+      "item-2-44",
       "item-2-10"
     ]
   },
@@ -42890,23 +42890,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2909.1878255208335,
+    "scroll": 2894.2838541666665,
     "cursor": {
       "from": {
-        "line": 2922,
-        "ch": 0
+        "line": 2918,
+        "ch": 4
       },
       "to": {
-        "line": 2922,
-        "ch": 0
+        "line": 2918,
+        "ch": 4
       }
     },
     "expandedKeys": [
-      "item-4-492",
+      "item-4-495",
       "item-3-483",
       "item-2-448",
-      "item-1-5",
-      "item-4-495"
+      "item-1-5"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43812,14 +43811,28 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/不同类型的 SSR：静态与动态渲染.md": {
-    "scroll": 22.27734375,
+    "scroll": 11.164068036853296,
     "cursor": {
       "from": {
-        "line": 43,
+        "line": 15,
         "ch": 0
       },
       "to": {
-        "line": 43,
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/部分预渲染（PPR）.md": {
+    "scroll": 13.654622395833334,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 0
+      },
+      "to": {
+        "line": 22,
         "ch": 0
       }
     },
