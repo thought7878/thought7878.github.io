@@ -848,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -996,7 +996,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1020,11 +1020,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
+    "_posts/methods/常看的.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
     "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/Next.js/渲染方式1.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
@@ -1048,7 +1049,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/ee214d95b9c98a60ac42660a399c7271_MD5.webp",
     "_posts/base/知识目录、路线图/知识目录/框架/React.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-13.md",
-    "_posts/methods/常看的.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）.md",
@@ -1056,7 +1056,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/ac5a32de644f79212f1690e005305c24_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC——第二部分）.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d6df801f8238d96980e18d04822cdca1_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/a116b3945ca0a8031aa5d51079001c56_MD5.webp",
     "_posts/读书笔记/历史.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/media",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-11.md",
