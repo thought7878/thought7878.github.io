@@ -22,6 +22,8 @@
     - 负责处理**交互性、状态 (state) 和 Hooks**。
     - 需要通过在文件顶部*添加 'use client' 指令*来显式声明（Opt-in）。
 
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp]]
+
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/bae941ab5e2dd5ea5fa18d26f8872669_MD5.webp]]
 
 ### 关键规则与工作机制
