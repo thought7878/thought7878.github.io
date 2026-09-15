@@ -3062,21 +3062,21 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 310.4127604166667,
+    "scroll": 309.6604817708333,
     "cursor": {
       "from": {
-        "line": 322,
+        "line": 314,
         "ch": 0
       },
       "to": {
-        "line": 322,
+        "line": 314,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-10",
+      "item-2-2",
       "item-1-2",
-      "item-2-17"
+      "item-2-10"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42551,14 +42551,14 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 239.14322916666666,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 256,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 256,
+        "line": 2,
         "ch": 0
       }
     },
@@ -42894,22 +42894,24 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2678.837890625,
+    "scroll": 2588.9313151041665,
     "cursor": {
       "from": {
-        "line": 2685,
-        "ch": 0
+        "line": 2612,
+        "ch": 5
       },
       "to": {
-        "line": 2685,
-        "ch": 0
+        "line": 2612,
+        "ch": 5
       }
     },
     "expandedKeys": [
+      "item-2-6",
+      "item-4-454",
       "item-3-451",
       "item-2-448",
       "item-1-5",
-      "item-4-454"
+      "item-4-456"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43675,15 +43677,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md": {
-    "scroll": 79.55937984496124,
+    "scroll": 71.96341085271318,
     "cursor": {
       "from": {
-        "line": 94,
-        "ch": 19
+        "line": 82,
+        "ch": 20
       },
       "to": {
-        "line": 94,
-        "ch": 19
+        "line": 82,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -43843,7 +43845,7 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-15.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 27.82235054347826,
     "cursor": {
       "from": {
         "line": 31,
@@ -43889,7 +43891,7 @@
     "expandedKeys": []
   },
   "_posts/后端/Next.js/渲染方式.md": {
-    "scroll": 14.30793792407203,
+    "scroll": 1.5,
     "cursor": {
       "from": {
         "line": 24,
@@ -43918,6 +43920,22 @@
     },
     "expandedKeys": [
       "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-16.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 25
+      },
+      "to": {
+        "line": 40,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
