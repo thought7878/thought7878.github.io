@@ -12,29 +12,29 @@ GitLab CI/CD 是 GitLab 内置的持续集成、持续交付和持续部署工�
 这是 GitLab CI/CD 的“大脑”，*存放在项目根目录*。它使用 YAML 语法**定义了整个流水线的结构、阶段、任务、触发条件等**。
 
 ### 2. Pipeline（流水线）
-流水线是 CI/CD 过程的完整实例。当代码被推送或触发合并请求（MR）时，GitLab 会创建一个 Pipeline。**它包含了构建、测试和部署代码所需的所有操作**。
+`流水线`是 *CI/CD 过程的完整实例*。*当代码被推送或触发合并请求（MR）时*，GitLab 会创建一个 Pipeline。**它包含了构建、测试和部署代码所需的所有操作**。
 
 ### 3. Stage（阶段）
 `Stage` 是 *Pipeline 的逻辑分组*（例如：`build`, `test`, `deploy`）。
-* **执行顺序**：同一个 Pipeline 中的 Stage 是**按顺序串行**执行的。
-* **状态传递**：只有当上一个 Stage 中的所有 Job 都成功时，下一个 Stage 才会开始。
+* 执行顺序：同一个 Pipeline 中的 Stage 是**按顺序串行**执行的。
+* 状态传递：只有当上一个 Stage 中的所有 Job 都成功时，下一个 Stage 才会开始。
 
 ### 4. Job（作业）
-Job 是 Stage 中的具体执行单元（例如：`compile_code`, `run_unit_tests`）。
-* **执行方式**：同一个 Stage 中的 Job 是**并行**执行的。
-* **执行者**：Job 本身不执行代码，而是由 **Runner** 来执行。
+`Job` 是 *Stage 中的具体执行单元*（例如：`compile_code`, `run_unit_tests`）。
+* 执行方式：同一个 Stage 中的 Job 是**并行**执行的。
+* 执行者：Job 本身不执行代码，而是由 **Runner** 来执行。
 
 ### 5. Runner（运行器）
-Runner 是实际执行 Job 的代理程序（Agent）。它轮询 GitLab 服务器，获取待执行的 Job 并运行。
-* **Runner 类型**：
-  * **Shared Runners**：GitLab 官方或管理员提供，所有项目共享。
-  * **Group/Instance Runners**：在组或实例级别配置，供其下的所有项目使用。
-  * **Specific Runners**：专门分配给特定项目的 Runner。
-* **Executor（执行器）**：Runner 执行 Job 的环境，支持 `shell`, `docker`, `docker+machine`, `kubernetes` 等。推荐使用 `docker` 以保证环境隔离和一致性。
+`Runner` 是*实际执行 Job 的代理程序*（Agent）。它*轮询 GitLab 服务器，获取待执行的 Job 并运行*。
+* Runner 类型：
+  * Shared Runners：GitLab 官方或管理员提供，所有项目共享。
+  * Group/Instance Runners：在组或实例级别配置，供其下的所有项目使用。
+  * Specific Runners：专门分配给特定项目的 Runner。
+* `Executor（执行器）`：*Runner 执行 Job 的环境*，支持 `shell`, `docker`, `docker+machine`, `kubernetes` 等。推荐使用 `docker` 以*保证环境隔离和一致性*。
 
 ### 6. Artifacts（制品）与 Cache（缓存）
-* **Artifacts**：用于在 Job 之间**传递构建结果**（如编译后的 jar 包、测试报告）。它们会被上传到 GitLab 服务器，可以在 UI 中下载，并传递给下游 Job。
-* **Cache**：用于**加速构建过程**（如 `node_modules`, `.m2` 依赖）。它不保证跨 Job 传递，主要用于避免重复下载依赖。
+* `Artifacts`：用于在 Job 之间**传递构建结果**（如编译后的 jar 包、测试报告）。它们*会被上传到 GitLab 服务器，可以在 UI 中下载，并传递给下游 Job*。
+* `Cache`：用于**加速构建过程**（如 `node_modules`, `.m2` 依赖）。它*不保证跨 Job 传递*，主要用于*避免重复下载依赖*。
 
 ---
 
@@ -42,7 +42,7 @@ Runner 是实际执行 Job 的代理程序（Agent）。它轮询 GitLab 服务�
 
 1. **触发**：开发者 Push 代码或创建/更新 Merge Request。
 2. **解析**：GitLab Server 检测到 `.gitlab-ci.yml`，解析并验证配置。
-3. **创建 Pipeline**：生成一个 Pipeline 实例，将其拆分为多个 Stages 和 Jobs。
+3. **创建 Pipeline**：*生成一个 Pipeline 实例，将其拆分为多个 Stages 和 Jobs*。
 4. **调度**：GitLab 将处于 `pending` 状态的 Job 分配给带有匹配 `tags` 且空闲的 Runner。
 5. **执行**：Runner 拉取代码，配置环境（如拉取 Docker 镜像），执行 `script` 中的命令。
 6. **反馈**：Runner 将执行日志和状态实时反馈给 GitLab Server。
@@ -53,7 +53,7 @@ Runner 是实际执行 Job 的代理程序（Agent）。它轮询 GitLab 服务�
 
 ## 三、 关键配置语法与特性
 
-在 `.gitlab-ci.yml` 中，有几个非常关键的关键字：
+在 `.gitlab-ci.yml` 中，*有几个非常关键的关键字：*
 
 ### 1. 控制 Job 的执行时机 (`rules`)
 官方推荐使用 `rules`（替代了已废弃的 `only/except`）来精确控制 Job 何时运行：
