@@ -6721,12 +6721,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 0
+        "line": 7,
+        "ch": 44
       },
       "to": {
-        "line": 2,
-        "ch": 0
+        "line": 7,
+        "ch": 44
       }
     },
     "expandedKeys": []
@@ -42894,22 +42894,23 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2630.3502604166665,
+    "scroll": 2637.3309487951806,
     "cursor": {
       "from": {
-        "line": 2638,
-        "ch": 0
+        "line": 2649,
+        "ch": 94
       },
       "to": {
-        "line": 2636,
-        "ch": 0
+        "line": 2649,
+        "ch": 94
       }
     },
     "expandedKeys": [
-      "item-4-456",
       "item-3-451",
       "item-2-448",
-      "item-1-5"
+      "item-1-5",
+      "item-4-456",
+      "item-4-454"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43940,15 +43941,15 @@
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Hydration 原理.md": {
-    "scroll": 11.996744791666666,
+    "scroll": 14.985426356589148,
     "cursor": {
       "from": {
-        "line": 28,
-        "ch": 0
+        "line": 21,
+        "ch": 58
       },
       "to": {
-        "line": 28,
-        "ch": 0
+        "line": 21,
+        "ch": 58
       }
     },
     "expandedKeys": []
