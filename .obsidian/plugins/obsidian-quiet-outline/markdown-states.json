@@ -6721,12 +6721,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 44
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 44
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -42894,15 +42894,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2638.841796875,
+    "scroll": 2675.8032327586207,
     "cursor": {
       "from": {
-        "line": 2650,
-        "ch": 0
+        "line": 2668,
+        "ch": 24
       },
       "to": {
-        "line": 2650,
-        "ch": 0
+        "line": 2668,
+        "ch": 24
       }
     },
     "expandedKeys": [
@@ -43648,21 +43648,23 @@
     "expandedKeys": []
   },
   "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md": {
-    "scroll": 222.54947916666666,
+    "scroll": 73.88020833333333,
     "cursor": {
       "from": {
-        "line": 229,
-        "ch": 0
+        "line": 86,
+        "ch": 3
       },
       "to": {
-        "line": 229,
-        "ch": 0
+        "line": 86,
+        "ch": 43
       }
     },
     "expandedKeys": [
       "item-1-2",
       "item-1-186",
-      "item-2-3"
+      "item-2-3",
+      "item-3-8",
+      "item-3-13"
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/未命名.md": {
@@ -43680,19 +43682,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md": {
-    "scroll": 69.53717069649946,
+    "scroll": 91.17813679866538,
     "cursor": {
       "from": {
-        "line": 82,
-        "ch": 20
+        "line": 100,
+        "ch": 18
       },
       "to": {
-        "line": 82,
-        "ch": 20
+        "line": 100,
+        "ch": 18
       }
     },
     "expandedKeys": [
-      "item-2-6"
+      "item-2-6",
+      "item-2-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-12.md": {
@@ -43712,15 +43715,15 @@
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md": {
-    "scroll": 26.83967438773015,
+    "scroll": 26.057523669776053,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 53
+        "line": 17,
+        "ch": 22
       },
       "to": {
-        "line": 39,
-        "ch": 53
+        "line": 17,
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -43925,15 +43928,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-16.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 23.21495895408939,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -43969,15 +43972,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Next.js 是什么？.md": {
-    "scroll": 43.04052509496756,
+    "scroll": 43.34926211046492,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 33
+        "line": 13,
+        "ch": 7
       },
       "to": {
-        "line": 48,
-        "ch": 33
+        "line": 13,
+        "ch": 7
       }
     },
     "expandedKeys": [
@@ -44043,5 +44046,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-17.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
