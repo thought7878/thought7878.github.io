@@ -3,26 +3,30 @@
 以下是内容的结构化总结：
 
 ## 为什么需要 React Server Components？（背景与痛点）
+[00:00]
 - `纯客户端渲染 (CSR) 的痛点`：*传统的 React 应用*（UI = 状态(state)的函数），**优点**是*交互性极强*；但**缺点**是需要*下载大量 JS 代码*（影响性能），且容易产生客户端-服务器数据**请求瀑布流**（组件间依赖数据**导致串行请求**，拖慢速度）。
 - `纯服务端渲染 (SSR) 的痛点`：*传统的 SSR*（如早期的 PHP，UI = 数据(data)的函数），**优点**是*获取数据快、无需 JS、首屏加载快*；但**缺点**是*完全没有交互性，也没有组件化开发的优势*。
 - `RSC 的解决方案`：**结合两者的优点**，让 UI 同时成为状态 (state) 和数据 (data) 的函数。**在服务端和客户端同时使用 React 组件，兼顾高性能与高交互性**。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/c257cb3393aa4e9304c940f5c10348b5_MD5.webp]]
 
-## Server Components vs Client Components
+## RSC/SC/CC是什么？三者的对比
+[05:55]
 - `React Server Components (RSC)`：指代这种**全新的全栈架构范式**。
-- Server Components (服务器组件)：
-    - **默认组件**（在 Next.js App Router 中）。
+- `Server Components (SC/服务器组件)`：
     - **仅在服务端渲染**，永远不会在客户端渲染。
     - **无交互性、无状态、不能使用任何 Hooks**（包括 Context）。
-    - **零 JS 体积**：不向浏览器发送任何 JS 代码。
-    - *主要用于在服务端直接获取数据*。
-- Client Components (客户端组件)：
+    - **不会被打包，零 JS 体积**：不向浏览器发送任何 JS 代码。
+    - **主要用于在服务端直接获取数据**。
+    - 默认组件（在 Next.js App Router 中 ）。
+- `Client Components (CC/客户端组件)`：
     - 即我们熟悉的*传统 React 组件*。
-    - 负责处理**交互性、状态 (state) 和 Hooks**。
+    - **负责处理前端的交互性，包括事件处理、状态 (state) 、Hooks**。
     - 需要通过在文件顶部*添加 'use client' 指令*来显式声明（Opt-in）。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp]]
+
+### Server - Client 的边界
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/bae941ab5e2dd5ea5fa18d26f8872669_MD5.webp]]
 
