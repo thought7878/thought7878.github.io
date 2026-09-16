@@ -26,30 +26,38 @@
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp]]
 
-### Server - Client 的边界
+### 客户端-服务端的边界（如何拆分SC/CC）
+[11:12]
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/bae941ab5e2dd5ea5fa18d26f8872669_MD5.webp]]
 
-### 关键规则与工作机制
+**Component树里有了后端代码、前端代码，混在一起，全由React掌控。Client Component通常在树的末端，即最后子节点**。
+
+`边界`是RSC里**极重要的概念**，RSC的核心就是边界，**它标记服务端与客户端代码的分割点**。**使用 'use client' 会创建一个边界，该组件及其所有子组件都会在客户端执行**。子组件不需要再次声明 'use client'。
+
+
+### SC对比CC（关键规则与工作机制）
+[16:08]
 - **客户端-服务端边界 (Client-Server Boundary)**：
-    - 使用 'use client' 会创建一个边界，该组件及其所有子组件都会在客户端执行。子组件不需要再次声明 'use client'。
+    - *使用 'use client' 会创建一个边界，该组件及其所有子组件都会在客户端执行*。子组件不需要再次声明 'use client'。
 - **数据获取 (Data Fetching)**：
-    - **首选在 Server Components 中获取**，可以直接使用原生的 async/await，避免请求瀑布流。
-    - Client Components 依然可以使用 useEffect 或第三方库（如 React Query）获取数据。
+    - **首选在 Server Components 中获取**，可以直接使用原生的 async/await，*避免请求瀑布流*。
+    - Client Components *依然可以使用 useEffect 或第三方库（如 React Query）获取数据*。
 - **Props 传递**：
-    - Server 组件可以通过 props 将数据传递给 Client 组件。
-    - **注意**：传递给 Client 组件的 props 必须是**可序列化的 (Serializable)**，不能传递函数 (functions) 或类实例 (classes)。
+    - Server 组件*可以通过 props 将数据传递给 Client 组件*。
+    - **注意**：传递给 Client 组件的 props 必须是**可序列化的 (Serializable)**，*不能传递函数或类*。
 - **导入与渲染 (Import vs Render)**：
     - Server 组件可以导入和渲染 Server/Client 组件。
     - Client 组件**不能导入** Server 组件，但**可以渲染** Server 组件（前提是该 Server 组件作为 children 等 props 传递进来）。
 - **重新渲染 (Re-rendering)**：
-    - **Client 组件**：当自身或父组件的 state 改变时重新渲染。
-    - **Server 组件**：当 **URL 改变（路由导航）** 时重新执行并重新渲染。
+    - Client 组件：当自身或父组件的 *state 改变时*重新渲染。
+    - Server 组件：当 **URL 改变（路由导航）** 时重新执行并重新渲染。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
 
 
 ### 心理模型 (Mental Model)
+[21:56]
 - **传统 React**：用户交互 -> 改变 State -> 重新渲染组件 -> 更新视图。
 - **RSC 架构**：在 Client 组件之上增加了 Server 组件。Server 组件负责获取数据并渲染视图，或将数据作为 props 传给 Client 组件。两者共同构建同一个视图，只是触发更新的机制不同（Server 靠 URL 变化，Client 靠 State 变化）。
 
