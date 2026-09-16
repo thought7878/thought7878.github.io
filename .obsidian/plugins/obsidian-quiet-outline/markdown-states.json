@@ -569,7 +569,7 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 197.84733072916666,
+    "scroll": 196.84928385416666,
     "cursor": {
       "from": {
         "line": 208,
@@ -3062,21 +3062,21 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 318.1443522194154,
+    "scroll": 364.587890625,
     "cursor": {
       "from": {
-        "line": 327,
+        "line": 385,
         "ch": 0
       },
       "to": {
-        "line": 327,
+        "line": 385,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-2",
       "item-1-2",
-      "item-2-10"
+      "item-3-8",
+      "item-2-18"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -38015,7 +38015,7 @@
     ]
   },
   "_posts/要整理的.md": {
-    "scroll": 183.74381510416666,
+    "scroll": 189.60403100775193,
     "cursor": {
       "from": {
         "line": 220,
@@ -43648,22 +43648,20 @@
     "expandedKeys": []
   },
   "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md": {
-    "scroll": 128.41796875,
+    "scroll": 148.583984375,
     "cursor": {
       "from": {
-        "line": 144,
-        "ch": 0
+        "line": 158,
+        "ch": 72
       },
       "to": {
-        "line": 144,
-        "ch": 0
+        "line": 158,
+        "ch": 72
       }
     },
     "expandedKeys": [
-      "item-3-8",
-      "item-1-186",
-      "item-1-2",
-      "item-2-3"
+      "item-2-3",
+      "item-1-2"
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/未命名.md": {
@@ -43984,5 +43982,64 @@
     "expandedKeys": [
       "item-2-2"
     ]
+  },
+  "_posts/devops/GitLab CICD/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/GitLab CICD/Gitlab的CICD.md": {
+    "scroll": 3.125,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-8",
+      "item-2-0"
+    ]
+  },
+  "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念/GitLab CICD 架构.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 72
+      },
+      "to": {
+        "line": 6,
+        "ch": 72
+      }
+    },
+    "expandedKeys": []
   }
 }

@@ -713,6 +713,11 @@
           "ctime": 1789111884592,
           "path": "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
           "title": "GitLab CI/CD：面向初学者的管道构建、持续集成/持续部署及 DevOps 相关知识"
+        },
+        {
+          "type": "file",
+          "ctime": 1789543287121,
+          "path": "_posts/devops/GitLab CICD/Gitlab的CICD.md"
         }
       ],
       "title": "DevOps"
