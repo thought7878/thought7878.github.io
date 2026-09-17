@@ -22,12 +22,12 @@
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/262b3940aca600ad7cd75cc4406ca67b_MD5.webp]]
 
-### 客户端的渲染：水合 (Hydration) 与 RSC Payload
+### 客户端的渲染：Hydration、RSC Payload
 [08:00]
 **HTML 发送给浏览器后，还需要让页面具备交互性**，这就涉及水合（Hydration）：
 - `发送的内容`：*除了 **HTML**，服务器还会发送 **React库本身、组件代码** (chunks)、**RSC Payload***。
 - `RSC Payload 的作用`：包含已渲染的 SC 数据（React Element）、传递给 CC 的 Props、CC 代码的 URL。**它让 React 在客户端拥有完整的组件树**视图，**以便后续更新时能保留 UI 状态**。
-- `关键区别`（只有 Client 组件被水合）：因为 Server Components 没有状态和交互性，所以**只有 Client Components 会被水合（Hydrated）**，从而让 HTML 变成可交互的 React 应用。
+- `关键区别`（只有 Client 组件被水合）：因为 Server Components 没有状态和交互性，所以**只有 Client Components 会被水合（Hydrated）**，从而让 HTML 变成**可交互**的 React 应用。
 
 ### 初始渲染后的运行机制
 `SSR` ***仅仅影响初始渲染（首屏）*。一旦页面在浏览器中完成水合，应用就变成了一个常规的交互式 React 应用：**

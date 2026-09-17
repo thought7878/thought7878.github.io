@@ -481,19 +481,20 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 216.09537760416666,
+    "scroll": 170.63501063075833,
     "cursor": {
       "from": {
-        "line": 232,
+        "line": 176,
         "ch": 0
       },
       "to": {
-        "line": 232,
+        "line": 176,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-9"
+      "item-1-9",
+      "item-1-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2025/11/2025-11-28.md": {
@@ -569,7 +570,7 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 196.84928385416666,
+    "scroll": 197.84928385416666,
     "cursor": {
       "from": {
         "line": 208,
@@ -42895,22 +42896,35 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2719.1858723958335,
+    "scroll": 3.4583333333333335,
     "cursor": {
       "from": {
-        "line": 2737,
-        "ch": 0
+        "line": 18,
+        "ch": 14
       },
       "to": {
-        "line": 2737,
-        "ch": 0
+        "line": 18,
+        "ch": 14
       }
     },
     "expandedKeys": [
-      "item-3-451",
       "item-2-448",
       "item-1-5",
-      "item-3-483"
+      "item-1-0",
+      "item-3-451",
+      "item-3-483",
+      "item-4-487",
+      "item-2-12",
+      "item-2-6",
+      "item-3-107",
+      "item-3-193",
+      "item-2-117",
+      "item-3-285",
+      "item-2-204",
+      "item-3-443",
+      "item-2-305",
+      "item-3-543",
+      "item-3-41"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43747,15 +43761,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC——第二部分）.md": {
-    "scroll": 37.05272524251518,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 22
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 75,
-        "ch": 22
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -44094,5 +44108,38 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC 2）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-1"
+    ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR、首屏渲染与后续渲染（RSC 3）.md": {
+    "scroll": 36.25573741168053,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
