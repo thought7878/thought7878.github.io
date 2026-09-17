@@ -56,10 +56,11 @@
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/66f591e5fbcea815c1551ba71aa55366_MD5.webp]]
 
 
-### 心理模型 (Mental Model)
+### 流程/心理模型
+(Mental Model)
 [21:56]
 - **传统 React**：用户交互 -> 改变 State -> 重新渲染组件 -> 更新视图。
-- **RSC 架构**：在 Client 组件之上增加了 Server 组件。Server 组件负责获取数据并渲染视图，或将数据作为 props 传给 Client 组件。两者共同构建同一个视图，只是触发更新的机制不同（Server 靠 URL 变化，Client 靠 State 变化）。
+- **RSC 架构**：在 Client 组件之上增加了 Server 组件。Server 组件负责*获取数据并渲染视图*，或*将数据作为 props 传给 Client 组件*。*两者共同构建同一个视图，只是触发更新的机制不同*（Server 靠 URL 变化，Client 靠 State 变化）。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/28984190607d487ead08ce2855ac95a6_MD5.webp]]
 
@@ -80,4 +81,4 @@
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/f603e108530ec0a1aa6b1a229822891d_MD5.webp]]
 
 ## 总结
-讲师认为，尽管 RSC 增加了 React 的学习成本和复杂性，但其带来的性能提升、开发体验优化以及全栈组件化的优势**绝对大于缺点**，是 React 未来发展的正确方向。接下来的课程将结合 Next.js 代码进行实战演示。
+讲师认为，尽管 RSC 增加了 React 的学习成本和复杂性，但其带来的*性能提升、开发体验优化以及全栈组件化*的优势**绝对大于缺点**，是 React 未来发展的正确方向。接下来的课程将结合 Next.js 代码进行实战演示。

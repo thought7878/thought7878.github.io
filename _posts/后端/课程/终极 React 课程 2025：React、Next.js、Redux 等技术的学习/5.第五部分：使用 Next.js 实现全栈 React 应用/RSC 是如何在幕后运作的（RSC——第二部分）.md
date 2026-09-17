@@ -3,6 +3,7 @@
 以下是内容的结构化总结：
 
 ## 1. 回顾：传统 React 的渲染过程
+[00:00]
 在了解 RSC 之前，先回顾*传统 React（纯客户端渲染）的机制：*
 - `组件树 (Component Tree)`：将编写的组件组合在一起*形成树状结构*。
 - `渲染 (Rendering)`：*调用每个组件函数*。
@@ -14,10 +15,11 @@
 ---
 
 ## 2. **RSC 架构下的两步渲染流程**
+[02:56]
 在 RSC 架构中，`组件树`包含 **Server Components (SC)** 和 **Client Components (CC)**。渲染过程被拆分为两步，跨越服务端和客户端：
 
 ### 第一步：在服务端渲染 Server Components
-- **执行 SC**：服务端执行 Server Components，生成对应的 React Elements（只包含 DOM 结构信息）。
+- **执行 SC**：服务端执行 Server Components，*生成对应的 React Elements（只包含 DOM 结构信息）*。
 - **代码“消失”**：SC 的源代码在服务端执行完毕后就被丢弃了，不会发送到客户端。
 - **为什么 SC 不能用 Hooks (如 useState)？**
     - 因为 Hooks 是函数，而函数**无法被序列化**发送到客户端。
@@ -36,9 +38,9 @@
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/4d7e6ae8c7163eff3272f65975f44e47_MD5.webp]]
 
 ### 第二步：在客户端渲染 Client Components
-- 客户端接收到 RSC Payload 后，*根据占位符中的 URL 下载 CC 的 JS 代码*。
-- *结合传入的 Props，在客户端执行 CC，生成完整的 React Elements*。
-- *至此，客户端拥有了完整的虚拟 DOM，随后将其 Commit 到真实 DOM 中，完成页面渲染*。
+- 客户端接收到 RSC Payload 后，**根据占位符中的 URL 下载 CC 的 JS 代码**。
+- **结合传入的 Props，在客户端执行 CC，生成完整的 React Elements**。
+- **至此，客户端拥有了完整的虚拟 DOM，随后将其 Commit 到真实 DOM 中，完成页面渲染**。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/a116b3945ca0a8031aa5d51079001c56_MD5.webp]]
 
