@@ -943,15 +943,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 48.802083333333336,
+    "scroll": 57.590657552083336,
     "cursor": {
       "from": {
-        "line": 63,
-        "ch": 0
+        "line": 70,
+        "ch": 138
       },
       "to": {
-        "line": 63,
-        "ch": 0
+        "line": 70,
+        "ch": 138
       }
     },
     "expandedKeys": []
@@ -3065,11 +3065,11 @@
     "scroll": 375.7093098958333,
     "cursor": {
       "from": {
-        "line": 390,
+        "line": 385,
         "ch": 0
       },
       "to": {
-        "line": 390,
+        "line": 385,
         "ch": 0
       }
     },
@@ -42895,22 +42895,24 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2703.5130208333335,
+    "scroll": 2703.5358072916665,
     "cursor": {
       "from": {
-        "line": 2722,
-        "ch": 0
+        "line": 2718,
+        "ch": 151
       },
       "to": {
-        "line": 2722,
-        "ch": 0
+        "line": 2718,
+        "ch": 151
       }
     },
     "expandedKeys": [
-      "item-3-470",
       "item-2-448",
       "item-1-5",
-      "item-3-451"
+      "item-2-12",
+      "item-3-41",
+      "item-3-451",
+      "item-4-57"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -43747,20 +43749,20 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC——第二部分）.md": {
-    "scroll": 37.70706260032103,
+    "scroll": 55.910663523538794,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 49
+        "line": 63,
+        "ch": 16
       },
       "to": {
-        "line": 41,
-        "ch": 49
+        "line": 63,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-3-2"
+      "item-3-2",
+      "item-2-1"
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR：它们有什么关系呢？（RSC——第三部分）.md": {

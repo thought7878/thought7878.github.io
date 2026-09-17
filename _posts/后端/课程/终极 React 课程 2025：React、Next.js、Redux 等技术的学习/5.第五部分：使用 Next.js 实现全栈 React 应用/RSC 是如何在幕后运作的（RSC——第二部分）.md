@@ -16,16 +16,16 @@
 
 ## 2. **RSC 架构下的两步渲染流程**
 [02:56]
-在 RSC 架构中，`组件树`包含 **Server Components (SC)** 和 **Client Components (CC)**。渲染过程被拆分为两步，跨越服务端和客户端：
+在 RSC 架构中，`组件树`包含 `Server Components (SC)` 和 `Client Components (CC)`。*渲染过程被拆分为两步，跨越服务端和客户端：*
 
 ### 第一步：在服务端渲染 Server Components
-- **执行 SC**：服务端执行 Server Components，*生成对应的 React Elements（只包含 DOM 结构信息）*。
-- **代码“消失”**：SC 的源代码在服务端执行完毕后就被丢弃了，不会发送到客户端。
-- **为什么 SC 不能用 Hooks (如 useState)？**
-    - 因为 Hooks 是函数，而函数**无法被序列化**发送到客户端。
-    - 服务端没有 Fiber 树来跟踪状态，即使有也无法传给客户端。
-- **处理 Client Components (CC)**：CC 不会在服务端渲染。在 SC 生成的树中，CC 的位置会留下一个 **“占位符 (Placeholder/Hole)”**。
-    - 占位符包含两部分关键信息：
+- `执行 SC`：服务端执行 Server Components，*生成对应的 React Elements（只包含 DOM 结构信息）*。
+	- *代码“消失”*：*SC 的源代码*在服务端执行完毕后就*被丢弃*了，不会发送到客户端。
+	- *为什么 SC 不能用 Hooks (如 useState)？*
+	    - 因为 Hooks 是函数，而函数**无法被序列化**发送到客户端。
+	    - 服务端没有 Fiber 树来跟踪状态，即使有也无法传给客户端。
+- `处理 CC`：*CC 不会在服务端渲染*。在 SC 生成的树中，*CC 的位置*会留下一个 **“占位符 (Placeholder/Hole)”**。
+    - *占位符包含两部分关键信息：*
         1.  从父 SC 传递给该 CC 的**序列化 Props**。
         2.  包含该 CC 实际代码的**脚本 URL**（由框架的打包工具生成）。
 
@@ -47,17 +47,21 @@
 ---
 
 ## 3. 核心疑问：**为什么不直接发送 HTML？**
+[10:30]
 既然在服务端渲染了，*为什么不直接生成 HTML 发给浏览器，而要搞出复杂的 RSC Payload？*
 - `React 的核心哲学`：React 始终*希望用数据（虚拟DOM/Fiber Tree）描述 UI，而不是最终的 HTML 字符串*。
 - `保留 UI 状态 (State Preservation)`：当 Server Component 重新渲染（例如路由切换）时，会生成新的 RSC Payload 发给客户端。客户端 React 可以将新树与现有树进行 **Reconciliation（协调/对比）**。
 - `避免体验割裂`：*如果直接发送 HTML，整个页面 UI 会被强制替换，导致客户端所有的 UI 状态全部丢失*（如输入框的文字、展开的菜单）。*使用 RSC Payload 可以让 React 无缝合并更新，完美保留客户端状态*。
 
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/659de766accbd5884fbd894f79ff6d9e_MD5.webp]]
+
 ---
 
-## 4. 传统 React vs RSC 渲染对比总结
-- **传统 React**：组件树 ➔ 虚拟DOM ➔ 真实DOM（一步到位，全在客户端）。
-- **RSC 架构**：组件树 ➔ *(服务端)* 渲染 SC + 生成 CC 占位符 ➔ **RSC Payload** ➔ *(客户端)* 渲染 CC ➔ 完整虚拟DOM ➔ 真实DOM（分两步，跨环境，RSC Payload 是连接两端的桥梁）。
-- **结论**：RSC 并不神秘，它本质上就是传统渲染过程在服务端和客户端的拆分。
+## 4. 传统 React vs RSC 渲染 对比
+[13:00]
+- **传统 React**：组件树 ➔ 虚拟DOM ➔ 真实DOM（一步到位，*全在客户端*）。
+- **RSC 架构**：组件树 ➔ *(服务端)* 渲染 SC + 生成 CC 占位符 ➔ **RSC Payload** ➔ *(客户端)* 渲染 CC ➔ 完整虚拟DOM ➔ 真实DOM（*分两步，跨环境，RSC Payload 是连接两端的桥梁*）。
+- **结论**：RSC 并不神秘，*它本质上就是传统渲染过程在服务端和客户端的拆分*。
 
 ![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d6df801f8238d96980e18d04822cdca1_MD5.webp]]
 
