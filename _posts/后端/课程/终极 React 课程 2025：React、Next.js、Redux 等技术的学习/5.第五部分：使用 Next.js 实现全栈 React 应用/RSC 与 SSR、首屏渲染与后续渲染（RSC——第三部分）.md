@@ -32,7 +32,10 @@
 ### 初始渲染后的运行机制
 `SSR` ***仅仅影响初始渲染（首屏）*。一旦页面在浏览器中完成水合，应用就变成了一个常规的交互式 React 应用：**
 - 此时，"React Server" 就是真正的 Web 服务器，"React Client" 就是用户的浏览器。
-- 当用户导航导致 Server Component 重新渲染时，服务器会生成新的 RSC Payload 发送给浏览器，与现有的虚拟 DOM 树无缝合并，从而**完美保留客户端的 UI 状态**。
+- **当用户导航导致 Server Component 重新渲染时，服务器会生成新的 RSC Payload 发送给浏览器，与现有的虚拟 DOM 树无缝合并**，从而**完美保留客户端的 UI 状态**。
+
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d03fcda32159a6631326ce2931361eef_MD5.webp]]
+
 
 ---
 
