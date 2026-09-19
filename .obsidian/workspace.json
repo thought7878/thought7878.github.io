@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程介绍"
+              "title": "3.API 网关"
             }
           }
         ],
@@ -1046,8 +1046,13 @@
   },
   "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/1.关系型数据库与 ACID 事务处理.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
     "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
@@ -1070,20 +1075,15 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Next.js 是什么？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-16.md",
-    "_posts/devops/GitLab CICD/Gitlab的CICD.md",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media/244151e2b36761bc7523f0da0c77c0eb_MD5.webp",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media",
-    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念/GitLab CICD 架构.md",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念",
     "_posts/devops/GitLab CICD",
-    "_posts/要整理的.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/2adf1215746033f6cba85362a2cae3d2_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/PixPin_2026-09-16_10-53-58.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/223ae179daecc2a0b379e5a9de70c0a8_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/ce21b5aed9267ebb718844c746b60578_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Hydration 原理.md",
     "DailyNote/Journal/01 Daily/2026/09/media",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-15.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp",
     "_posts/后端/Next.js",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/3094bef46c7ce77be403c1abb9314f83_MD5.webp",

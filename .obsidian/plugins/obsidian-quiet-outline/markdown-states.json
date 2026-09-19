@@ -42989,22 +42989,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 227.72330729166666,
+    "scroll": 238.86263020833334,
     "cursor": {
       "from": {
-        "line": 225,
+        "line": 251,
         "ch": 0
       },
       "to": {
-        "line": 225,
+        "line": 251,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2",
+      "item-3-38",
+      "item-2-33",
       "item-1-2",
-      "item-3-36",
-      "item-2-33"
+      "item-3-40"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43557,26 +43558,28 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 68
+        "line": 15,
+        "ch": 47
       },
       "to": {
-        "line": 5,
-        "ch": 68
+        "line": 15,
+        "ch": 47
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md": {
-    "scroll": 26.353025250119103,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 31
+        "line": 6,
+        "ch": 30
       },
       "to": {
-        "line": 36,
-        "ch": 31
+        "line": 6,
+        "ch": 30
       }
     },
     "expandedKeys": []
@@ -43593,10 +43596,7 @@
         "ch": 192
       }
     },
-    "expandedKeys": [
-      "item-3-2",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构/未命名.md": {
     "scroll": 0,
@@ -44150,5 +44150,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/1.关系型数据库与 ACID 事务处理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
