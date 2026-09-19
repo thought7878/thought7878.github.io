@@ -42989,23 +42989,24 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 238.86263020833334,
+    "scroll": 269.3616023096355,
     "cursor": {
       "from": {
-        "line": 251,
-        "ch": 0
+        "line": 282,
+        "ch": 12
       },
       "to": {
-        "line": 251,
-        "ch": 0
+        "line": 282,
+        "ch": 12
       }
     },
     "expandedKeys": [
       "item-2-2",
-      "item-3-38",
-      "item-2-33",
       "item-1-2",
-      "item-3-40"
+      "item-3-40",
+      "item-2-33",
+      "item-2-43",
+      "item-2-54"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43571,32 +43572,37 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md": {
-    "scroll": 0,
+    "scroll": 27.003255208333332,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 30
+        "line": 26,
+        "ch": 86
       },
       "to": {
-        "line": 6,
-        "ch": 30
+        "line": 26,
+        "ch": 86
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 192
+        "line": 7,
+        "ch": 22
       },
       "to": {
-        "line": 54,
-        "ch": 192
+        "line": 7,
+        "ch": 22
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-2"
+    ]
   },
   "_posts/后端/课程/使用 Node.js 和 React 实现微服务架构/未命名.md": {
     "scroll": 0,
