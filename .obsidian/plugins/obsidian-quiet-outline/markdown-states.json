@@ -3066,11 +3066,11 @@
     "scroll": 375.7093098958333,
     "cursor": {
       "from": {
-        "line": 385,
+        "line": 387,
         "ch": 0
       },
       "to": {
-        "line": 385,
+        "line": 387,
         "ch": 0
       }
     },
@@ -42054,7 +42054,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 1726.1243489583333,
+    "scroll": 1725.9216889209672,
     "cursor": {
       "from": {
         "line": 1738,
@@ -42068,7 +42068,8 @@
     "expandedKeys": [
       "item-1-2",
       "item-2-257",
-      "item-2-148"
+      "item-2-148",
+      "item-2-246"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42556,11 +42557,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 12,
         "ch": 0
       }
     },
@@ -42896,15 +42897,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 486.5895182291667,
+    "scroll": 2387.2249348958335,
     "cursor": {
       "from": {
-        "line": 499,
-        "ch": 25
+        "line": 2397,
+        "ch": 0
       },
       "to": {
-        "line": 499,
-        "ch": 25
+        "line": 2397,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -42915,11 +42916,8 @@
       "item-3-483",
       "item-4-487",
       "item-2-12",
-      "item-2-6",
       "item-2-117",
-      "item-3-285",
       "item-2-204",
-      "item-3-443",
       "item-2-305",
       "item-3-543",
       "item-4-57",
@@ -42991,27 +42989,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 205.4887462797619,
+    "scroll": 227.72330729166666,
     "cursor": {
       "from": {
-        "line": 216,
+        "line": 225,
         "ch": 0
       },
       "to": {
-        "line": 216,
+        "line": 225,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2",
-      "item-3-36",
-      "item-2-33",
       "item-1-2",
-      "item-3-34",
-      "item-2-54",
-      "item-2-74",
-      "item-3-75",
-      "item-3-79"
+      "item-3-36",
+      "item-2-33"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -43544,19 +43537,20 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md": {
-    "scroll": 37.458333333333336,
+    "scroll": 33.685891472868214,
     "cursor": {
       "from": {
-        "line": 51,
-        "ch": 25
+        "line": 44,
+        "ch": 79
       },
       "to": {
-        "line": 51,
-        "ch": 25
+        "line": 44,
+        "ch": 79
       }
     },
     "expandedKeys": [
-      "item-2-2"
+      "item-2-2",
+      "item-1-2"
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md": {
@@ -43666,12 +43660,12 @@
     "scroll": 73.88020833333333,
     "cursor": {
       "from": {
-        "line": 86,
-        "ch": 3
+        "line": 84,
+        "ch": 0
       },
       "to": {
-        "line": 86,
-        "ch": 43
+        "line": 84,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -43913,15 +43907,15 @@
     "expandedKeys": []
   },
   "_posts/后端/Next.js/渲染方式.md": {
-    "scroll": 1.5,
+    "scroll": 0.24390243902439024,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 0
+        "line": 11,
+        "ch": 105
       },
       "to": {
-        "line": 24,
-        "ch": 0
+        "line": 11,
+        "ch": 105
       }
     },
     "expandedKeys": [
@@ -44065,14 +44059,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-17.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.638671875,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -44139,6 +44133,22 @@
     },
     "expandedKeys": [
       "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-20.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

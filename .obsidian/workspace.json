@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-17.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-17"
+              "title": "2026-09-20"
             }
           },
           {
@@ -872,7 +872,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -1044,10 +1044,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR、首屏渲染与后续渲染（RSC 3）.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-20.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-17.md",
+    "_posts/methods/要整理的.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 与 SSR、首屏渲染与后续渲染（RSC 3）.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/RSC 是如何在幕后运作的（RSC 2）.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/世界趋势/趋势.md",
@@ -1055,16 +1065,11 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d03fcda32159a6631326ce2931361eef_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/262b3940aca600ad7cd75cc4406ca67b_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/659de766accbd5884fbd894f79ff6d9e_MD5.webp",
-    "_posts/后端/Next.js/渲染方式.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/人性.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Next.js 是什么？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
-    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-17.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-16.md",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/devops/GitLab CICD/Gitlab的CICD.md",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media/244151e2b36761bc7523f0da0c77c0eb_MD5.webp",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media",
@@ -1077,14 +1082,9 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/223ae179daecc2a0b379e5a9de70c0a8_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/ce21b5aed9267ebb718844c746b60578_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Hydration 原理.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "DailyNote/Journal/01 Daily/2026/09/media",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-15.md",
-    "_posts/base/知识目录、路线图/知识目录/工程化/_前端工程化.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/03adb1294aae72d787d38ea6e9c3f321_MD5.webp",
-    "_posts/后端/Next.js/渲染方式1.md",
-    "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/部分预渲染（PPR）.md",
     "_posts/后端/Next.js",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/3094bef46c7ce77be403c1abb9314f83_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/media",
