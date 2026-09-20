@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md",
+                "file": "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性、可扩展性的技术.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.非关系型数据库"
+              "title": "3.提升数据库性能、可用性、可扩展性的技术"
             }
           }
         ],
@@ -1047,11 +1047,12 @@
   "active": "4c5a95e97747b0a1",
   "lastOpenFiles": [
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性、可扩展性的技术.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/1.关系型数据库与 ACID 事务处理.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
     "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
@@ -1074,7 +1075,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/什么是 React 服务器组件？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/Next.js 是什么？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/1.服务器端渲染概述.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-16.md",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media/244151e2b36761bc7523f0da0c77c0eb_MD5.webp",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念",

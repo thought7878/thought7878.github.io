@@ -42989,22 +42989,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 281.7387462797619,
+    "scroll": 294.9642163212435,
     "cursor": {
       "from": {
-        "line": 297,
-        "ch": 0
+        "line": 302,
+        "ch": 18
       },
       "to": {
-        "line": 297,
-        "ch": 0
+        "line": 302,
+        "ch": 18
       }
     },
     "expandedKeys": [
-      "item-3-46",
+      "item-3-48",
       "item-2-43",
-      "item-1-2",
-      "item-3-48"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44170,17 +44169,47 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/2.非关系型数据库.md": {
-    "scroll": 15.735648476257973,
+    "scroll": 20.47179133632081,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 57
+        "line": 32,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 57
+        "line": 32,
+        "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性和可扩展性的技术.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性、可扩展性的技术.md": {
+    "scroll": 3.202168367346939,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
