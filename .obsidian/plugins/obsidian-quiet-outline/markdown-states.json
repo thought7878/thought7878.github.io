@@ -3063,14 +3063,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 375.7093098958333,
+    "scroll": 273.1276041666667,
     "cursor": {
       "from": {
-        "line": 387,
+        "line": 283,
         "ch": 0
       },
       "to": {
-        "line": 387,
+        "line": 283,
         "ch": 0
       }
     },
@@ -3078,7 +3078,8 @@
       "item-1-2",
       "item-3-8",
       "item-2-19",
-      "item-2-8"
+      "item-2-8",
+      "item-2-11"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -6723,12 +6724,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 97
+        "line": 9,
+        "ch": 20
       },
       "to": {
-        "line": 8,
-        "ch": 97
+        "line": 9,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -42989,26 +42990,21 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 357.0705295138889,
+    "scroll": 347.685546875,
     "cursor": {
       "from": {
-        "line": 364,
-        "ch": 0
+        "line": 355,
+        "ch": 5
       },
       "to": {
-        "line": 364,
-        "ch": 0
+        "line": 355,
+        "ch": 5
       }
     },
     "expandedKeys": [
       "item-3-56",
       "item-2-54",
-      "item-1-2",
-      "item-3-58",
-      "item-3-60",
-      "item-2-62",
-      "item-2-70",
-      "item-2-74"
+      "item-1-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44260,29 +44256,29 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/1.软件架构模式与风格介绍.md": {
-    "scroll": 5.530829199149539,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 86
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 86
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/2.多层架构.md": {
-    "scroll": 10.426432291666666,
+    "scroll": 0.33220338983050846,
     "cursor": {
       "from": {
-        "line": 21,
-        "ch": 32
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 21,
-        "ch": 32
+        "line": 14,
+        "ch": 0
       }
     },
     "expandedKeys": []
