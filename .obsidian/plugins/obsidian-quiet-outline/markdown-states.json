@@ -3066,11 +3066,11 @@
     "scroll": 309.1178385416667,
     "cursor": {
       "from": {
-        "line": 314,
+        "line": 315,
         "ch": 0
       },
       "to": {
-        "line": 314,
+        "line": 315,
         "ch": 0
       }
     },
@@ -44149,14 +44149,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-20.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 22.33931286105199,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -44308,6 +44308,22 @@
     },
     "expandedKeys": [
       "item-2-3"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-21.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
