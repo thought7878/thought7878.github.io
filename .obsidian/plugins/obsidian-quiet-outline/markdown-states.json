@@ -3063,23 +3063,23 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 273.1276041666667,
+    "scroll": 309.1178385416667,
     "cursor": {
       "from": {
-        "line": 283,
+        "line": 314,
         "ch": 0
       },
       "to": {
-        "line": 283,
+        "line": 314,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-2",
-      "item-3-8",
-      "item-2-19",
-      "item-2-8",
-      "item-2-11"
+      "item-3-9",
+      "item-2-20",
+      "item-2-9",
+      "item-2-12"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42990,21 +42990,30 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 347.685546875,
+    "scroll": 366.7080476362324,
     "cursor": {
       "from": {
-        "line": 355,
-        "ch": 5
+        "line": 375,
+        "ch": 0
       },
       "to": {
-        "line": 355,
-        "ch": 5
+        "line": 375,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-2-3",
       "item-3-56",
       "item-2-54",
-      "item-1-2"
+      "item-1-2",
+      "item-3-58",
+      "item-3-60",
+      "item-2-70",
+      "item-2-74",
+      "item-2-62",
+      "item-2-26",
+      "item-2-16",
+      "item-2-33"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44270,14 +44279,14 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/2.多层架构.md": {
-    "scroll": 51.68248062015504,
+    "scroll": 30.946931103537928,
     "cursor": {
       "from": {
-        "line": 57,
+        "line": 36,
         "ch": 0
       },
       "to": {
-        "line": 57,
+        "line": 36,
         "ch": 0
       }
     },
@@ -44286,17 +44295,19 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/3.微服务架构.md": {
-    "scroll": 0,
+    "scroll": 3.9544270833333335,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 20,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3"
+    ]
   }
 }
