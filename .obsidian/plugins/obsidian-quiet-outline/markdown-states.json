@@ -42989,22 +42989,24 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 327.5175027066041,
+    "scroll": 336.7850330154072,
     "cursor": {
       "from": {
-        "line": 332,
-        "ch": 38
+        "line": 352,
+        "ch": 0
       },
       "to": {
-        "line": 332,
-        "ch": 38
+        "line": 352,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-58",
       "item-2-54",
       "item-1-2",
-      "item-3-52",
-      "item-2-43"
+      "item-3-60",
+      "item-2-62",
+      "item-3-56"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44228,15 +44230,43 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/5.可扩展的非结构化数据存储.md": {
-    "scroll": 17.15733656415448,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 254
+        "line": 23,
+        "ch": 0
       },
       "to": {
-        "line": 22,
-        "ch": 254
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/1.软件架构模式与风格介绍.md": {
+    "scroll": 0.488135593220339,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 25
+      },
+      "to": {
+        "line": 8,
+        "ch": 25
       }
     },
     "expandedKeys": []
