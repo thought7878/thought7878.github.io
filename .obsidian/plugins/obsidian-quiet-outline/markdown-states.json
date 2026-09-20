@@ -42989,21 +42989,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 312.560546875,
+    "scroll": 327.5175027066041,
     "cursor": {
       "from": {
-        "line": 320,
-        "ch": 109
+        "line": 332,
+        "ch": 38
       },
       "to": {
-        "line": 320,
-        "ch": 128
+        "line": 332,
+        "ch": 38
       }
     },
     "expandedKeys": [
-      "item-3-50",
-      "item-2-43",
-      "item-1-2"
+      "item-2-54",
+      "item-1-2",
+      "item-3-52",
+      "item-2-43"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44213,15 +44214,29 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/4.Brewer’s 定理（CAP 定理）.md": {
-    "scroll": 0,
+    "scroll": 5.7462792345854,
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 20,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/5.可扩展的非结构化数据存储.md": {
+    "scroll": 17.15733656415448,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 254
+      },
+      "to": {
+        "line": 22,
+        "ch": 254
       }
     },
     "expandedKeys": []
