@@ -4129,14 +4129,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/健康/资料.md": {
-    "scroll": 0,
+    "scroll": 13.979166666666666,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 28,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 28,
         "ch": 0
       }
     },
@@ -42989,19 +42989,19 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 294.9642163212435,
+    "scroll": 312.560546875,
     "cursor": {
       "from": {
-        "line": 302,
-        "ch": 18
+        "line": 320,
+        "ch": 109
       },
       "to": {
-        "line": 302,
-        "ch": 18
+        "line": 320,
+        "ch": 128
       }
     },
     "expandedKeys": [
-      "item-3-48",
+      "item-3-50",
       "item-2-43",
       "item-1-2"
     ]
@@ -44197,19 +44197,33 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/3.提升数据库性能、可用性、可扩展性的技术.md": {
-    "scroll": 3.202168367346939,
+    "scroll": 15.367917719234933,
     "cursor": {
       "from": {
-        "line": 14,
+        "line": 27,
         "ch": 0
       },
       "to": {
-        "line": 14,
+        "line": 27,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-1"
     ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/4.Brewer’s 定理（CAP 定理）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
