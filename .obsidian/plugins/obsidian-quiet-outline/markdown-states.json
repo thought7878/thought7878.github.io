@@ -42989,24 +42989,26 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 336.7850330154072,
+    "scroll": 357.0705295138889,
     "cursor": {
       "from": {
-        "line": 352,
+        "line": 364,
         "ch": 0
       },
       "to": {
-        "line": 352,
+        "line": 364,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-58",
+      "item-3-56",
       "item-2-54",
       "item-1-2",
+      "item-3-58",
       "item-3-60",
       "item-2-62",
-      "item-3-56"
+      "item-2-70",
+      "item-2-74"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44258,15 +44260,43 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/1.软件架构模式与风格介绍.md": {
-    "scroll": 0.488135593220339,
+    "scroll": 5.530829199149539,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 25
+        "line": 14,
+        "ch": 86
       },
       "to": {
-        "line": 8,
-        "ch": 25
+        "line": 14,
+        "ch": 86
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/2.多层架构.md": {
+    "scroll": 10.426432291666666,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 32
+      },
+      "to": {
+        "line": 21,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/3.微服务架构.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
