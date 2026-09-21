@@ -733,7 +733,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/3.典型的软件开发生命周期.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -748,7 +748,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "介绍"
+              "title": "3.典型的软件开发生命周期"
             }
           },
           {
@@ -1046,8 +1046,10 @@
   },
   "active": "9dfae33b6e7b5d5d",
   "lastOpenFiles": [
-    "_posts/methods/要整理的.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/1.软件生命周期介绍.md",
+    "_posts/methods/要整理的.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/读书笔记/社保.md",
     "_posts/读书笔记/人生.md",
@@ -1082,8 +1084,6 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/4.内容分发网络 - CDN.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/3.API 网关.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/2.消息代理器.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/5.大规模系统的架构构建模块/1.DNS、负载均衡、GSLB.md",
-    "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/5.第五部分：使用 Next.js 实现全栈 React 应用/media/d03fcda32159a6631326ce2931361eef_MD5.webp",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念",
