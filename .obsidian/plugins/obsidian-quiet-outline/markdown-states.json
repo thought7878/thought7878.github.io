@@ -3063,23 +3063,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 273.298828125,
+    "scroll": 283.4104817708333,
     "cursor": {
       "from": {
-        "line": 291,
-        "ch": 135
+        "line": 287,
+        "ch": 0
       },
       "to": {
-        "line": 291,
-        "ch": 135
+        "line": 287,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2",
-      "item-3-9",
-      "item-2-20",
-      "item-2-9",
-      "item-2-12"
+      "item-2-12",
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42555,15 +42552,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 0,
+    "scroll": 356.05186631944446,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 0
+        "line": 361,
+        "ch": 4
       },
       "to": {
-        "line": 12,
-        "ch": 0
+        "line": 361,
+        "ch": 4
       }
     },
     "expandedKeys": [
@@ -42573,7 +42570,9 @@
       "item-1-1",
       "item-2-94",
       "item-2-102",
-      "item-2-26"
+      "item-2-59",
+      "item-2-26",
+      "item-2-40"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
@@ -42993,12 +42992,12 @@
     "scroll": 366.7080476362324,
     "cursor": {
       "from": {
-        "line": 371,
-        "ch": 128
+        "line": 370,
+        "ch": 274
       },
       "to": {
-        "line": 371,
-        "ch": 149
+        "line": 370,
+        "ch": 274
       }
     },
     "expandedKeys": [
@@ -44325,5 +44324,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/读书笔记/父母.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/社保.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
