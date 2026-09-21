@@ -409,14 +409,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 342.7916666666667,
+    "scroll": 145.60416666666666,
     "cursor": {
       "from": {
-        "line": 370,
+        "line": 162,
         "ch": 0
       },
       "to": {
-        "line": 370,
+        "line": 162,
         "ch": 0
       }
     },
@@ -3063,21 +3063,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 513.7738715277778,
+    "scroll": 594.7389322916666,
     "cursor": {
       "from": {
-        "line": 529,
+        "line": 603,
         "ch": 0
       },
       "to": {
-        "line": 529,
+        "line": 603,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-9",
       "item-2-37",
-      "item-1-2"
+      "item-1-2",
+      "item-2-48"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42552,15 +42553,15 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 89.85481770833333,
+    "scroll": 96.88411458333333,
     "cursor": {
       "from": {
-        "line": 102,
-        "ch": 6
+        "line": 119,
+        "ch": 0
       },
       "to": {
-        "line": 102,
-        "ch": 6
+        "line": 119,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -44414,12 +44415,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 11
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 11
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -44453,14 +44454,28 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求与规格说明.md": {
-    "scroll": 22.721941537351135,
+    "scroll": 19.05383515959981,
     "cursor": {
       "from": {
-        "line": 41,
+        "line": 42,
+        "ch": 36
+      },
+      "to": {
+        "line": 42,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 41,
+        "line": 0,
         "ch": 0
       }
     },
