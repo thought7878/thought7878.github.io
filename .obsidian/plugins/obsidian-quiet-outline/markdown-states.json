@@ -3063,20 +3063,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 332.4798177083333,
+    "scroll": 523.7203776041666,
     "cursor": {
       "from": {
-        "line": 340,
+        "line": 529,
         "ch": 0
       },
       "to": {
-        "line": 340,
+        "line": 529,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-12",
-      "item-1-2"
+      "item-1-2",
+      "item-2-37",
+      "item-2-40"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42066,8 +42068,7 @@
     "expandedKeys": [
       "item-1-2",
       "item-2-257",
-      "item-2-148",
-      "item-2-246"
+      "item-2-148"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42894,14 +42895,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 2387.2249348958335,
+    "scroll": 485.17333984375,
     "cursor": {
       "from": {
-        "line": 2397,
+        "line": 498,
         "ch": 0
       },
       "to": {
-        "line": 2397,
+        "line": 498,
         "ch": 0
       }
     },
@@ -42918,6 +42919,7 @@
       "item-2-305",
       "item-3-543",
       "item-4-57",
+      "item-3-41",
       "item-3-67"
     ]
   },
@@ -42986,7 +42988,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 381.4420572916667,
+    "scroll": 375.9038884812913,
     "cursor": {
       "from": {
         "line": 384,
@@ -43908,15 +43910,15 @@
     "expandedKeys": []
   },
   "_posts/后端/Next.js/渲染方式.md": {
-    "scroll": 0.24390243902439024,
+    "scroll": 1.5,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 105
+        "line": 24,
+        "ch": 0
       },
       "to": {
-        "line": 11,
-        "ch": 105
+        "line": 24,
+        "ch": 0
       }
     },
     "expandedKeys": [
