@@ -3063,14 +3063,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 283.4104817708333,
+    "scroll": 332.4798177083333,
     "cursor": {
       "from": {
-        "line": 287,
+        "line": 340,
         "ch": 0
       },
       "to": {
-        "line": 287,
+        "line": 340,
         "ch": 0
       }
     },
@@ -42552,21 +42552,22 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 41.723307291666664,
+    "scroll": 84.21419270833333,
     "cursor": {
       "from": {
-        "line": 58,
+        "line": 99,
         "ch": 0
       },
       "to": {
-        "line": 58,
+        "line": 99,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
       "item-1-1",
-      "item-2-4"
+      "item-2-1",
+      "item-2-4",
+      "item-2-11"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
@@ -42632,16 +42633,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 16,
+        "ch": 75
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 16,
+        "ch": 75
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-1-1",
+      "item-2-1"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/4..md": {
@@ -44361,5 +44363,36 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/5..md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/5.软件开发生命周期注意事项.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 69
+      },
+      "to": {
+        "line": 22,
+        "ch": 69
+      }
+    },
+    "expandedKeys": [
+      "item-2-5",
+      "item-2-0"
+    ]
   }
 }
