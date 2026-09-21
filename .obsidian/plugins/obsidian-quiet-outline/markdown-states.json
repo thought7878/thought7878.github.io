@@ -42986,22 +42986,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md": {
-    "scroll": 370.64312065972223,
+    "scroll": 381.4420572916667,
     "cursor": {
       "from": {
-        "line": 370,
-        "ch": 440
+        "line": 384,
+        "ch": 213
       },
       "to": {
-        "line": 370,
-        "ch": 440
+        "line": 384,
+        "ch": 213
       }
     },
     "expandedKeys": [
-      "item-2-3",
+      "item-2-62",
+      "item-1-2",
       "item-3-60",
-      "item-2-54",
-      "item-1-2"
+      "item-2-54"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-06.md": {
@@ -44283,20 +44283,18 @@
     ]
   },
   "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/3.微服务架构.md": {
-    "scroll": 19.699681077250176,
+    "scroll": 5.236002834868887,
     "cursor": {
       "from": {
-        "line": 36,
-        "ch": 20
+        "line": 18,
+        "ch": 0
       },
       "to": {
-        "line": 36,
-        "ch": 20
+        "line": 18,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-3"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-21.md": {
     "scroll": 23.759805411979325,
@@ -44386,5 +44384,19 @@
       "item-2-5",
       "item-2-0"
     ]
+  },
+  "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/4.事件驱动架构.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 43,
+        "ch": 137
+      },
+      "to": {
+        "line": 43,
+        "ch": 137
+      }
+    },
+    "expandedKeys": []
   }
 }
