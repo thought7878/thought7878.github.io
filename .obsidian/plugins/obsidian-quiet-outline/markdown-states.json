@@ -3063,22 +3063,24 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 594.7389322916666,
+    "scroll": 235.32552083333334,
     "cursor": {
       "from": {
-        "line": 603,
+        "line": 230,
         "ch": 0
       },
       "to": {
-        "line": 603,
+        "line": 230,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-9",
-      "item-2-37",
+      "item-1-11",
+      "item-2-39",
       "item-1-2",
-      "item-2-48"
+      "item-2-51",
+      "item-2-42",
+      "item-2-4"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42553,7 +42555,7 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 96.88411458333333,
+    "scroll": 95.23828125,
     "cursor": {
       "from": {
         "line": 119,
@@ -44471,14 +44473,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 15,
+        "ch": 17
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 15,
+        "ch": 17
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3"
+    ]
   }
 }
