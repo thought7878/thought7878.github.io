@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-22.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-22"
+              "title": "2026-09-23"
             }
           },
           {
@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md",
+                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,11 +868,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "需求示例"
+              "title": "介绍"
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -1044,9 +1044,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9dfae33b6e7b5d5d",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-23.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-22.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
+    "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
+    "_posts/后端/Next.js/渲染方式.md",
+    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
+    "DailyNote/Journal/01 Daily/media",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 模型.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/media/9e216e893a57a5b3d6eece3827fdcf9d_MD5.webp",
@@ -1065,17 +1074,9 @@
     "_posts/methods/要整理的.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 模型介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求说明.md",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求与规格说明.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求定义.md",
-    "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/2.为什么学习软件工程、开发技术？.md",
-    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/2.软件生命周期/5.软件开发生命周期注意事项.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-22.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-21.md",
-    "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/74b47bb9a1000d2c1279ea27244f3444_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/PixPin_2026-09-20_20-39-33.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/74c278fd422bc2af5b18656d4316ce0f_MD5.webp",
@@ -1091,7 +1092,6 @@
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念",
     "_posts/devops/GitLab CICD",
     "DailyNote/Journal/01 Daily/2026/09/media",
-    "_posts/后端/Next.js",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

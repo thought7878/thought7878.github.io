@@ -6722,11 +6722,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 11,
         "ch": 89
       },
       "to": {
-        "line": 10,
+        "line": 11,
         "ch": 89
       }
     },
@@ -42053,7 +42053,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md": {
-    "scroll": 1725.9216889209672,
+    "scroll": 1725.367376398412,
     "cursor": {
       "from": {
         "line": 1738,
@@ -42067,7 +42067,8 @@
     "expandedKeys": [
       "item-1-2",
       "item-2-257",
-      "item-2-148"
+      "item-2-148",
+      "item-2-246"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/08/2026-08-31.md": {
@@ -42552,23 +42553,21 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 179.75130208333334,
+    "scroll": 175.39127604166666,
     "cursor": {
       "from": {
-        "line": 191,
-        "ch": 4
+        "line": 198,
+        "ch": 8
       },
       "to": {
-        "line": 191,
-        "ch": 8
+        "line": 198,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-3-1",
-      "item-3-25",
       "item-2-11",
       "item-1-1",
-      "item-2-27"
+      "item-3-25"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
@@ -42895,28 +42894,30 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 520.320432868672,
+    "scroll": 551.3994140625,
     "cursor": {
       "from": {
-        "line": 525,
-        "ch": 94
+        "line": 565,
+        "ch": 0
       },
       "to": {
-        "line": 525,
-        "ch": 94
+        "line": 565,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-448",
+      "item-2-450",
       "item-1-5",
       "item-1-0",
-      "item-3-451",
-      "item-3-483",
-      "item-4-487",
+      "item-3-453",
+      "item-3-485",
+      "item-4-489",
       "item-2-12",
-      "item-3-543",
+      "item-3-545",
       "item-4-57",
-      "item-3-67"
+      "item-3-67",
+      "item-4-71",
+      "item-4-78"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44398,14 +44399,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-22.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.409505208333332,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -44473,15 +44474,15 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md": {
-    "scroll": 0,
+    "scroll": 37.620442708333336,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 17
+        "line": 36,
+        "ch": 79
       },
       "to": {
-        "line": 15,
-        "ch": 17
+        "line": 36,
+        "ch": 79
       }
     },
     "expandedKeys": [
@@ -44624,19 +44625,35 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md": {
-    "scroll": 7.871013465627215,
+    "scroll": 10.687825520833334,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 33
+        "line": 28,
+        "ch": 43
       },
       "to": {
-        "line": 13,
-        "ch": 33
+        "line": 28,
+        "ch": 43
       }
     },
     "expandedKeys": [
       "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-23.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 25
+      },
+      "to": {
+        "line": 38,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
