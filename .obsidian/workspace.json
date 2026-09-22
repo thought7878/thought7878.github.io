@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM-规格说明示例.md",
+                "file": "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WRSPM-规格说明示例"
+              "title": "需求示例"
             }
           }
         ],
@@ -1047,10 +1047,14 @@
   "active": "9dfae33b6e7b5d5d",
   "lastOpenFiles": [
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 模型.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/media/9e216e893a57a5b3d6eece3827fdcf9d_MD5.webp",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/人性.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM-规格说明示例.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM-需求示例.md",
     "_posts/读书笔记/健康/资料.md",
-    "_posts/methods/常看的.md",
     "_posts/methods/思考、认知/思考方法.md",
     "_posts/读书笔记/男女.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 例子.md",
@@ -1072,9 +1076,6 @@
     "DailyNote/Journal/01 Daily/2026/09/2026-09-21.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
-    "_posts/后端/Next.js/渲染方式.md",
-    "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/74b47bb9a1000d2c1279ea27244f3444_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/PixPin_2026-09-20_20-39-33.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/74c278fd422bc2af5b18656d4316ce0f_MD5.webp",
@@ -1085,7 +1086,6 @@
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media/c8ad5b4b8488f417e79e3ac3b7d41b5a_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格/media",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/7.软件架构模式与风格",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/media/cc4eb1c8ddbf0a33430a46fcbbe31f43_MD5.webp",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/6.全球范围内的数据存储/media",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/media",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/1.GitLab CICD 简介、CICD 的基本概念、 DevOps 理念",

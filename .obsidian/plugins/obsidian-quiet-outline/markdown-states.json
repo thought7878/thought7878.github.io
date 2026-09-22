@@ -944,15 +944,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 57.590657552083336,
+    "scroll": 183.27945963541666,
     "cursor": {
       "from": {
-        "line": 70,
-        "ch": 138
+        "line": 192,
+        "ch": 0
       },
       "to": {
-        "line": 70,
-        "ch": 138
+        "line": 192,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -42552,21 +42552,23 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 167.08072916666666,
+    "scroll": 179.75130208333334,
     "cursor": {
       "from": {
-        "line": 182,
-        "ch": 0
+        "line": 191,
+        "ch": 4
       },
       "to": {
-        "line": 182,
-        "ch": 0
+        "line": 191,
+        "ch": 8
       }
     },
     "expandedKeys": [
-      "item-3-17",
+      "item-3-1",
+      "item-3-25",
       "item-2-11",
-      "item-1-1"
+      "item-1-1",
+      "item-2-27"
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/1.引言/未命名.md": {
@@ -44415,15 +44417,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-1",
+      "item-1-1"
+    ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求定义.md": {
     "scroll": 11.82966438108986,
@@ -44591,17 +44596,47 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM-规格说明示例.md": {
+    "scroll": 4.207867195958138,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 81
+      },
+      "to": {
+        "line": 22,
+        "ch": 81
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 模型.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
+        "line": 19,
         "ch": 0
       },
       "to": {
-        "line": 11,
+        "line": 19,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/需求示例.md": {
+    "scroll": 7.871013465627215,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 33
+      },
+      "to": {
+        "line": 13,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
   }
 }
