@@ -42552,18 +42552,19 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 115.9755859375,
+    "scroll": 135.21744791666666,
     "cursor": {
       "from": {
-        "line": 134,
+        "line": 153,
         "ch": 0
       },
       "to": {
-        "line": 134,
+        "line": 153,
         "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-17",
       "item-2-11",
       "item-1-1"
     ]
@@ -44502,19 +44503,47 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 模型介绍.md": {
-    "scroll": 12.384566326530612,
+    "scroll": 21.200364852538765,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 0
+        "line": 22,
+        "ch": 35
       },
       "to": {
-        "line": 35,
-        "ch": 0
+        "line": 22,
+        "ch": 35
       }
     },
     "expandedKeys": [
       "item-2-0"
     ]
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 视觉模型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 可视化图.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 22
+      },
+      "to": {
+        "line": 9,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
   }
 }
