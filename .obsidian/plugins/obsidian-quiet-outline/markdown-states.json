@@ -409,20 +409,18 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/男女.md": {
-    "scroll": 145.60416666666666,
+    "scroll": 93.59635416666667,
     "cursor": {
       "from": {
-        "line": 162,
+        "line": 110,
         "ch": 0
       },
       "to": {
-        "line": 162,
+        "line": 110,
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-17"
-    ]
+    "expandedKeys": []
   },
   "_posts/algorithm & 数据结构/教程/JavaScript Algorithms and Data Structures Masterclass/20. Doubly Linked Lists/3..md": {
     "scroll": 0,
@@ -3063,21 +3061,21 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 219.123046875,
+    "scroll": 287.81879340277777,
     "cursor": {
       "from": {
-        "line": 235,
-        "ch": 0
+        "line": 299,
+        "ch": 162
       },
       "to": {
-        "line": 235,
-        "ch": 0
+        "line": 299,
+        "ch": 162
       }
     },
     "expandedKeys": [
+      "item-2-4",
       "item-1-2",
-      "item-2-43",
-      "item-2-4"
+      "item-2-12"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -4128,14 +4126,14 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/健康/资料.md": {
-    "scroll": 18.166666666666668,
+    "scroll": 10.583333333333334,
     "cursor": {
       "from": {
-        "line": 36,
+        "line": 25,
         "ch": 0
       },
       "to": {
-        "line": 36,
+        "line": 25,
         "ch": 0
       }
     },
@@ -42552,14 +42550,14 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 135.21744791666666,
+    "scroll": 149.27604166666666,
     "cursor": {
       "from": {
-        "line": 153,
+        "line": 163,
         "ch": 0
       },
       "to": {
-        "line": 153,
+        "line": 163,
         "ch": 0
       }
     },
@@ -44533,7 +44531,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 可视化图.md": {
-    "scroll": 0,
+    "scroll": 14.263565891472869,
     "cursor": {
       "from": {
         "line": 9,
@@ -44545,5 +44543,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 变量.md": {
+    "scroll": 1.4166666666666667,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 33
+      },
+      "to": {
+        "line": 41,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }
