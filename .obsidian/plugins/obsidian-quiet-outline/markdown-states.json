@@ -42550,14 +42550,14 @@
     ]
   },
   "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md": {
-    "scroll": 149.27604166666666,
+    "scroll": 151.296875,
     "cursor": {
       "from": {
-        "line": 163,
+        "line": 168,
         "ch": 0
       },
       "to": {
-        "line": 163,
+        "line": 168,
         "ch": 0
       }
     },
@@ -44559,5 +44559,33 @@
     "expandedKeys": [
       "item-2-0"
     ]
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM 例子.md": {
+    "scroll": 0.6138211382113821,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 59
+      },
+      "to": {
+        "line": 14,
+        "ch": 59
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/WRSPM-需求示例.md": {
+    "scroll": 1.7083333333333335,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 50
+      },
+      "to": {
+        "line": 8,
+        "ch": 50
+      }
+    },
+    "expandedKeys": []
   }
 }
