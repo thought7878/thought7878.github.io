@@ -42896,27 +42896,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 999.4856770833334,
+    "scroll": 1021.3328313253012,
     "cursor": {
       "from": {
-        "line": 1007,
-        "ch": 4
+        "line": 1034,
+        "ch": 0
       },
       "to": {
-        "line": 1007,
-        "ch": 4
+        "line": 1034,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-4-150",
+      "item-3-145",
       "item-2-124",
-      "item-1-8",
-      "item-3-125",
-      "item-4-130",
-      "item-1-0",
-      "item-2-2",
-      "item-4-134",
-      "item-4-138",
-      "item-3-145"
+      "item-1-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44669,6 +44664,36 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md": {
+    "scroll": 6.662760416666667,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 0
+      },
+      "to": {
+        "line": 20,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
     ]
   }
 }
