@@ -77,6 +77,11 @@ Token、上下文、MCP、函数调用、Agent、Skill等。
 - [Xuan_酱](https://space.bilibili.com/14848367?spm_id_from=333.1387.favlist.content.click)
 - [数字游牧人](https://space.bilibili.com/4848323?spm_id_from=333.1387.favlist.content.click)
 
+# 热点
+## Jev模型
+【火热的Jev决策小模型-核心价值究竟在哪里，补足了大模型什么短板？】 https://www.bilibili.com/video/BV1sjhs64ETU/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+【【闪客】你管这破玩意叫 Jev？】 https://www.bilibili.com/video/BV1oqhB6JExo/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 
 # 编程
 [[AI 编程]]
