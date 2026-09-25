@@ -13,7 +13,8 @@
 * `定义`：**我们编写的、用于*描述部分用户界面*的常规 JavaScript *函数*（通常使用 JSX 语法）**。
 * `本质`：它只是一个***蓝图 (Blueprint)*** 或***模板 (Template)***，是**对 UI 的描述，在被调用前，它本身不包含任何状态**。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/c9e201e91418eed4d6a2302544408b73_MD5.webp]]
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/789452c516a85452de262fb5e001d5e6_MD5.webp]]
+
 
 ### 2. 组件实例 (Component Instance)
 * `定义`：当我们在代码中**使用（组件函数的调用）** 某个组件时，React 会***根据该蓝图（组件）创建一个或多个“实例”***。
@@ -24,20 +25,23 @@
 	* **拥有自己的生命周期**（诞生、存活、最终销毁），就像一个生命体。
 * 注：在日常开发或文档中，人们*常将“组件”和“组件实例”混用*（例如说“组件生命周期”），但*从技术严谨性来说，指的是“实例”*。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/a10cc470e12f7e54aca426ed633a621e_MD5.webp]]
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/5ebb4ab8be2a09755da4ea9a91ed7125_MD5.webp]]
+
 
 ### 3. React 元素 (React Element)｜虚拟DOM
 * `定义`：***组件实例执行后返回的结果***。底层的 JSX **会被转换为 `React.createElement` 函数调用，其返回值就是 React 元素**。
 * `本质`：它是一个**保存在*内存中的*、不可变的 (immutable) 大型 *JavaScript 对象***。
 * `作用`：它**包含了为当前组件实例*创建真实 DOM 元素所需的所有描述信息***。*它本身与真实 DOM 毫无关系，只存在于 React 应用内部*。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/5e25cc43d63628ad6a796acaa6ef42fe_MD5.webp]]
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/b6740258b1abd0d652d5a09a71d7d028_MD5.webp]]
+
 
 ### 4. DOM 元素 (DOM Element)
 * `定义`：组件实例在浏览器中**最终的、可视化的真实呈现**。
 * `本质`：真实的 HTML 节点，由浏览器负责绘制到屏幕上。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/a87c1c88cf5e1dc54fbb82ed80efa02e_MD5.webp]]
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/1fcd514043b914a5a59dbbacfa39cec0_MD5.webp]]
+
 
 ---
 
@@ -48,7 +52,8 @@
 3. `React Element (React 元素)`：**实例执行后，生成的不可变 JS 对象描述树**。
 4. `DOM Element (DOM 元素)`：React 最终*将 React 元素转换为真实的 HTML 节点*，交由浏览器渲染到屏幕上。
 
-![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/a87c1c88cf5e1dc54fbb82ed80efa02e_MD5.webp]]
+![[_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/1fcd514043b914a5a59dbbacfa39cec0_MD5.webp]]
+
 
 
 ## 总结
