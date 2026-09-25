@@ -6723,11 +6723,11 @@
     "cursor": {
       "from": {
         "line": 13,
-        "ch": 105
+        "ch": 89
       },
       "to": {
         "line": 13,
-        "ch": 105
+        "ch": 89
       }
     },
     "expandedKeys": []
@@ -42896,24 +42896,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1020.6434336023477,
+    "scroll": 1003.8717447916666,
     "cursor": {
       "from": {
-        "line": 1034,
+        "line": 1020,
         "ch": 0
       },
       "to": {
-        "line": 1034,
+        "line": 1020,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-4-150",
+      "item-4-148",
       "item-3-145",
       "item-2-124",
-      "item-1-8",
-      "item-4-156",
-      "item-4-154"
+      "item-1-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44653,14 +44651,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-24.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 20.07449072666464,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -44683,7 +44681,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md": {
-    "scroll": 10.175579896907216,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 19,
@@ -44692,6 +44690,54 @@
       "to": {
         "line": 19,
         "ch": 40
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-25.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md": {
+    "scroll": 8.850260416666666,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/React组件、组件实例、React元素.md": {
+    "scroll": 50.44917492334143,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 73
+      },
+      "to": {
+        "line": 48,
+        "ch": 73
       }
     },
     "expandedKeys": [
