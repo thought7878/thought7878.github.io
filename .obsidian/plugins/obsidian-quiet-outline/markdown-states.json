@@ -3063,21 +3063,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 346.798828125,
+    "scroll": 421.7135416666667,
     "cursor": {
       "from": {
-        "line": 364,
-        "ch": 128
+        "line": 433,
+        "ch": 143
       },
       "to": {
-        "line": 364,
-        "ch": 128
+        "line": 433,
+        "ch": 143
       }
     },
     "expandedKeys": [
       "item-1-4",
       "item-2-15",
-      "item-1-2"
+      "item-1-2",
+      "item-2-23"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42896,23 +42897,25 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1043.5208333333333,
+    "scroll": 1077.80859375,
     "cursor": {
       "from": {
-        "line": 1055,
-        "ch": 0
+        "line": 1090,
+        "ch": 13
       },
       "to": {
-        "line": 1055,
-        "ch": 0
+        "line": 1090,
+        "ch": 13
       }
     },
     "expandedKeys": [
+      "item-2-2",
+      "item-5-154",
       "item-4-150",
       "item-3-145",
       "item-2-124",
       "item-1-8",
-      "item-5-154"
+      "item-4-156"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44775,15 +44778,15 @@
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/Diffing的工作原理.md": {
-    "scroll": 28.94137996975123,
+    "scroll": 28.928028788484607,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 0
+        "line": 36,
+        "ch": 16
       },
       "to": {
-        "line": 38,
-        "ch": 0
+        "line": 36,
+        "ch": 16
       }
     },
     "expandedKeys": [
