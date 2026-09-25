@@ -6723,12 +6723,12 @@
     "scroll": 3.4347826086956523,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 97
+        "line": 13,
+        "ch": 113
       },
       "to": {
-        "line": 14,
-        "ch": 97
+        "line": 13,
+        "ch": 113
       }
     },
     "expandedKeys": []
@@ -42897,25 +42897,37 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1077.80859375,
+    "scroll": 3082.7314453125,
     "cursor": {
       "from": {
-        "line": 1090,
-        "ch": 13
+        "line": 3086,
+        "ch": 0
       },
       "to": {
-        "line": 1090,
-        "ch": 13
+        "line": 3086,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2",
       "item-5-154",
       "item-4-150",
-      "item-3-145",
       "item-2-124",
       "item-1-8",
-      "item-4-156"
+      "item-4-156",
+      "item-3-145",
+      "item-4-160",
+      "item-3-185",
+      "item-2-313",
+      "item-3-316",
+      "item-3-329",
+      "item-3-349",
+      "item-3-364",
+      "item-3-376",
+      "item-3-386",
+      "item-3-403",
+      "item-3-417",
+      "item-2-456"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44702,15 +44714,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-25.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.326171875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -44791,6 +44803,22 @@
     },
     "expandedKeys": [
       "item-2-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-26.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
