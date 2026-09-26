@@ -34,12 +34,12 @@ Using AI to write software every single day for months has taught me a lot. It's
 Here's two things I've learned:  
 我学到了两件事：
 
-1. AI can be both overhyped *and* powerful. It's extraordinarily useful, when handled correctly.  
+1. AI can be both overhyped and powerful. It's extraordinarily useful, when handled correctly.  
 	人工智能既可能被过度宣传，也可能拥有强大的能力。只要运用得当，它确实是非常有用的工具。
 2. AI is a call for devs like us to deepen & upgrade our fundamental skillset: **engineering**.  
-	AI 是对我们这类开发者深化和提升基础技能集的呼唤：工程能力。
+	AI 是对我们这类开发者*深化和提升基础技能集*的呼唤：**工程能力**。
 
-AI coding can help devs like you produce code faster, better, more useful than before…and code that's potentially *much* more dangerous, too. Technical debt. Wasted time, energy, and effort.  
+AI coding can help devs like you produce code faster, better, more useful than before…and code that's potentially much more dangerous, too. Technical debt. Wasted time, energy, and effort.  
 AI 编码可以帮助像你这样的开发者更快、更好、更有用地编写代码，但也可能产生潜在危险得多的代码。技术债务。浪费的时间、精力和努力。
 
 **A tool like Claude Code can be your best friend, or the worst teammate you've ever had.  

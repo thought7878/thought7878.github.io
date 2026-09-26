@@ -570,14 +570,14 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 205.57649739583334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 227,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 227,
+        "line": 0,
         "ch": 0
       }
     },
@@ -4113,14 +4113,14 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 16.237630208333332,
+    "scroll": 0.9141414141414141,
     "cursor": {
       "from": {
-        "line": 34,
+        "line": 23,
         "ch": 0
       },
       "to": {
-        "line": 34,
+        "line": 23,
         "ch": 0
       }
     },
@@ -42557,11 +42557,11 @@
     "scroll": 175.39127604166666,
     "cursor": {
       "from": {
-        "line": 198,
-        "ch": 8
+        "line": 190,
+        "ch": 0
       },
       "to": {
-        "line": 198,
+        "line": 190,
         "ch": 0
       }
     },
@@ -42895,35 +42895,23 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 3082.7314453125,
+    "scroll": 1015.8522135416666,
     "cursor": {
       "from": {
-        "line": 3086,
-        "ch": 0
+        "line": 1054,
+        "ch": 98
       },
       "to": {
-        "line": 3086,
-        "ch": 0
+        "line": 1054,
+        "ch": 98
       }
     },
     "expandedKeys": [
       "item-2-2",
-      "item-5-154",
       "item-4-150",
-      "item-2-124",
-      "item-1-8",
-      "item-4-156",
       "item-3-145",
-      "item-4-160",
-      "item-3-316",
-      "item-3-329",
-      "item-3-349",
-      "item-3-364",
-      "item-3-376",
-      "item-3-386",
-      "item-3-403",
-      "item-3-417",
-      "item-2-456"
+      "item-2-124",
+      "item-1-8"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -44726,18 +44714,20 @@
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md": {
-    "scroll": 19.901912751677852,
+    "scroll": 16.23476257973069,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 92
+        "line": 37,
+        "ch": 25
       },
       "to": {
-        "line": 12,
-        "ch": 92
+        "line": 37,
+        "ch": 25
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/React组件、组件实例、React元素.md": {
     "scroll": 27.496537789657566,
@@ -44770,7 +44760,7 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md": {
-    "scroll": 45.82833095124663,
+    "scroll": 45.35064316341115,
     "cursor": {
       "from": {
         "line": 54,
@@ -44786,15 +44776,15 @@
     ]
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/Diffing的工作原理.md": {
-    "scroll": 28.928028788484607,
+    "scroll": 10.9296875,
     "cursor": {
       "from": {
         "line": 36,
-        "ch": 16
+        "ch": 17
       },
       "to": {
         "line": 36,
-        "ch": 16
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -44846,29 +44836,17 @@
     "expandedKeys": []
   },
   "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程 介绍.md": {
-    "scroll": 673.2141826055575,
+    "scroll": 68.66341145833333,
     "cursor": {
       "from": {
-        "line": 655,
-        "ch": 1
+        "line": 72,
+        "ch": 0
       },
       "to": {
-        "line": 655,
-        "ch": 1
+        "line": 72,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-19",
-      "item-2-20",
-      "item-2-29",
-      "item-2-37",
-      "item-2-48",
-      "item-2-55",
-      "item-2-63",
-      "item-2-71",
-      "item-2-81",
-      "item-1-12",
-      "item-1-4"
-    ]
+    "expandedKeys": []
   }
 }

@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程介绍"
+              "title": "概述"
             }
           },
           {
@@ -872,7 +872,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -1044,10 +1044,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
-    "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程 介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/Diffing的工作原理.md",
+    "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程 介绍.md",
+    "_posts/读书笔记/人生.md",
+    "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/methods/常看的.md",
     "_posts/AI/课程/面向真实工程师的AI编程",
     "_posts/methods/要整理的.md",
     "_posts/tools/资源.md",
@@ -1055,28 +1062,23 @@
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-26.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-25.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/Diffing的工作原理.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/39eb1f95af19f7655e6dc63982500639_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/e24060114082837a96088cfabd4a4f0e_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/c93808f42599e8b1de52867d9b2a49be_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/6236000d54a54c3e973dd51fe8ecbcd2_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/4b46219a20f05a2c735523231dc3dc99_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md",
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/679e3ffde6ba7f75152d55568574cdcb_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/79da7432ef2302ac0ce83952c7859b37_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/5aa0cab35012098321a5f34f00aeae87_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/7b0d3136246a4e56873d333e3194d3d9_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/20fa415054399b6d9a1846c2a2673c90_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/React组件、组件实例、React元素.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media/a87c1c88cf5e1dc54fbb82ed80efa02e_MD5.webp.md",
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-24.md",
-    "_posts/methods/常看的.md",
     "_posts/读书笔记/旅居、旅行.md",
     "_posts/读书笔记/人性.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理",
@@ -1084,8 +1086,6 @@
     "_posts/读书笔记/男女.md",
     "_posts/AI/AI.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-23.md",
-    "_posts/读书笔记/人生.md",
-    "_posts/后端/Next.js/渲染方式.md",
     "DailyNote/Journal/01 Daily/media",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/media",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范",
