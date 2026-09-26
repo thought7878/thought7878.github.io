@@ -66,7 +66,7 @@ In my experience, there are two main errors that most devs make with AI coding t
 当开发者首次出现错误时，他们会感到兴奋不已。** Seduced by the idea "code is cheap." They build and build and ship and ship, and before they know it, they're drowning in spaghetti code that they don't understand, so twisted up that even AGI couldn't fix it.他们被“代码成本很低”这种想法所迷惑，于是不断编写代码、不断发布产品。不知不觉中，他们就被那些他们根本无法理解的复杂代码所淹没，这些代码乱七八糟，甚至人工智能都无法修复。
 
 **When devs make the second error, they're worried.  
-当开发者犯第二次错误时，他们会感到担忧。** They know how easy it is to get swamped by technical debt. They don't trust Claude Code, and they don't trust their 他们明白，技术债务很容易导致工作陷入混乱。他们不信任克劳德·代码，也不信任自己的团队。 *process 处理* for developing with it. So they try to hold everything in their head, and before they know it, they're overwhelmed and burnt out.为了用它进行开发。所以他们会试图将所有事情都记在脑中，而不知不觉中，他们就会感到不堪重负和筋疲力尽。
+当开发者犯第二次错误时，他们会感到担忧。** They know how easy it is to get swamped by technical debt. They don't trust Claude Code, and they don't trust their 他们明白，技术债务很容易导致工作陷入混乱。他们不信任Claude Code，也不信任自己的团队。 *process 处理* for developing with it. So they try to hold everything in their head, and before they know it, they're overwhelmed and burnt out.为了用它进行开发。所以他们会试图将所有事情都记在脑中，而不知不觉中，他们就会感到不堪重负和筋疲力尽。
 
 Both of these approaches are *reactive*, and you don't need decades of experience to know what happens when dev teams operate in reactive mode.  
 这两种方法都是被动的，你不需要几十年的经验就能知道当开发团队在被动的模式下运作时会发生什么。
@@ -203,7 +203,7 @@ And if you do use these skills today, writing code by hand, now's the time to le
 Now: Learn to use AI coding like a real engineer
 
 When *you* practice real engineering, *you* unlock the power of Claude Code.  
-当你从事真正的工程设计工作时，你就能解锁克劳德代码的力量。
+当你从事真正的工程设计工作时，你就能解锁Claude Code的力量。
 
 For example, I've always dreamed about building the perfect course creator, designed specifically for *my* personal course development process.  
 例如，我一直梦想着能够打造出一个完美的课程创建工具，这个工具能够完全适应我的个人课程开发流程。
@@ -317,7 +317,7 @@ My newest 2-week async cohort course offers you my best AI coding material to da
 我的最新 2 周异步队列课程为您提供迄今为止最佳的 AI 编程材料，基于真实世界的生产经验。而且，所有内容都是为了帮助您应用到您的实际项目中。
 
 Pre-course: Getting to Know Claude Code  
-课程前准备：了解克劳德·科德
+课程前准备：了解Claude·科德
 
 Fundamentals of LLMs and the Explore/Build/Clear Loop  
 大语言模型的基础原理以及探索/构建/明确循环机制
@@ -347,7 +347,7 @@ Each Monday, you'll get full access to that week's lessons, letting you pick you
 Here's what's you can look forward to, in detail:  
 以下是您可以详细了解的内容：
 
-## 课程前准备：初步了解克劳德·科德
+## 课程前准备：初步了解Claude·科德
 Pre-course: Getting to Know Claude Code
 
 To help you hit the ground running on Day 1, once you enroll you'll get immediate access to a collection of "Getting to Know Claude Code" lessons that I designed specifically for this course.  
@@ -364,7 +364,7 @@ Week 1: Fundamentals, Steering & Planning
 本周，我们将为您构建一套用于与人工智能编程助手协作的工程工具集。*
 
 **We'll start by making sure you understand the real constraints of LLMs, and how to manage them, all while using Claude Code to successfully build a new feature in a production-grade codebase.  
-我们将从了解大语言模型的实际限制开始，以及如何有效管理它们。同时，我们会使用 Claude 代码来在成熟的代码库中添加新功能。**
+我们将从了解大语言模型的实际限制开始，以及如何有效管理它们。同时，我们会使用 Claude Code来在成熟的代码库中添加新功能。**
 
 You'll learn how context windows work, why managing them carefully matters, and how subagents can help you keep your context window clean. We'll practice exploring large codebases and using the Plan/Execute/Clear loop.  
 你将了解到上下文窗口的工作原理，为什么仔细管理它们非常重要，以及子代理如何帮助你保持上下文窗口的整洁。我们还将练习如何浏览庞大的代码库，并运用计划/执行/清除循环来操作代码。
@@ -488,11 +488,11 @@ Enrollment opens May 17, 2026 at 12:01 AM PDT
 # 常见问题解答
 Frequently Asked Questions
 
-## 我需要哪个克劳德计划呢？
+## 我需要哪个Claude计划呢？
 Which Claude plan do I need?
 
 **Claude Pro** (\\0/month) works - it includes Claude Code and all models including Opus. For the best experience, especially for longer autonomous sessions, **Max 5x** (\\00/month) gives you 5x the usage limits and priority access.  
-Claude Pro 每月费用为\\0，它包含了 Claude 代码以及所有模型，包括 Opus。为了获得最佳体验，尤其是进行长时间的自助会话时，Max 5x 每月费用为\\00，它能提供五倍的使用限制和优先访问权限。
+Claude Pro 每月费用为\\0，它包含了 Claude Code以及所有模型，包括 Opus。为了获得最佳体验，尤其是进行长时间的自助会话时，Max 5x 每月费用为\\00，它能提供五倍的使用限制和优先访问权限。
 
 ## 我可以使用其他的人工智能编程工具吗？
 Can I use a different AI coding tool?
@@ -528,7 +528,8 @@ For pricing, PPP, team seats, invoices, gifting, and platform questions, see [ai
 # 目录
 Contents
 
-    
+68节课程：8+7+10+6+7+7+9+14
+
 ## 01 在开始之前
 Before We Start  
 
@@ -563,219 +564,223 @@ Office Hours  
 Appendix: Cohort 003 → Cohort 004 Changelog  
 	
     
-## 02 Getting To Know Claude Code  
-    初步了解克洛德·科德
+## 02 初步了解Claude Code
+Getting To Know Claude Code  
+
+Available from May 18, 2026  
+自 2026 年 5 月 18 日起可供使用
+
+### 1. 简介
+Intro  
+	
+### 2. 管理您的 Claude Code会话
+Managing Your Claude Code Session  
+	
+	
+### 3. 在终端中执行命令
+Prompting In The Terminal  
+	
+	
+### 4. Claude与你的集成开发环境
+Claude And Your IDE  
+	
+### 5. 穿越时空
+Going Forwards And Backwards In Time  
+	
+	
+### 6. 运行 Bash 命令
+Running Bash Commands  
+	
+### 7. 权限
+Permissions
     
-    Available from May 18, 2026  
-    自 2026 年 5 月 18 日起可供使用
     
-    1. Intro  引言
-        
-    2. Managing Your Claude Code Session  
-        管理您的 Claude 代码会话
-        
-    3. Prompting In The Terminal  
-        在终端中执行命令
-        
-    4. Claude And Your IDE  克劳德与你的集成开发环境
-        
-    5. Going Forwards And Backwards In Time  
-        穿越时空
-        
-    6. Running Bash Commands  运行 Bash 命令
-        
-    7. Permissions  权限
-        
     
-3. ## 
+## 03 第1天：基础知识
+Day 1 Fundamentals  
     
-    03
+Available from June 1, 2026  
+自 2026 年 6 月 1 日起可供使用
+
+### 1. 大语言模型的限制条件
+The Constraints Of LLMs  
+	
+### 2. 什么是子代理？
+What Are Subagents  
+	
+### 3. 代码库探索
+Codebase Exploration  
+	
+### 4. 构建功能
+Build A Feature  
+	
+### 5. 非决定论
+Non Determinism  
+	
+### 6. 在状态行中显示上下文信息
+Showing Context In The Status Line  
+	
+	
+### 7. 为什么计划模式这么糟糕呢
+Why Plan Mode Sucks  
+	
+### 8. Grill 执行清晰循环
+The Grill Execute Clear Loop  
+	
+### 9. 压实
+Compaction  
+	
+### 10. Handing Off  交接责任
     
-    ## Day 1 Fundamentals  第一天：基础知识
     
-    Available from June 1, 2026  
-    自 2026 年 6 月 1 日起可供使用
+## 04 第2天：指导阶段
+Day 2 Steering  
     
-    1. The Constraints Of LLMs  大语言模型的限制条件
-        
-    2. What Are Subagents  什么是代理代理人？
-        
-    3. Codebase Exploration  代码库探索
-        
-    4. Build A Feature  构建功能
-        
-    5. Non Determinism  非决定论
-        
-    6. Showing Context In The Status Line  
-        在状态行中显示上下文信息
-        
-    7. Why Plan Mode Sucks  为什么计划模式这么糟糕呢
-        
-    8. The Grill Execute Clear Loop  
-        Grill 执行清晰循环
-        
-    9. Compaction  压实
-        
-    10. Handing Off  交接责任
-        
-    
-4. ## 
-    
-    04
-    
-    ## Day 2 Steering  第二天：指导阶段
-    
-    Available from June 1, 2026  
-    自 2026 年 6 月 1 日起可供使用
-    
-    1. What Is An Agents MD File  
-        什么是 Agents MD 文件？
-        
-    2. Steering An Agent With The Agents MD File  
-        使用 Agents MD 文件来操控代理角色
-        
-    3. Progressive Disclosure  逐步披露
-        
-    4. What Are Agent Skills  什么是代理技能？
-        
-    5. Using Skills For Steering  
-        运用技能来操控
-        
-    6. Automatic Memory  自动记忆
-        
-    
-3. ## 
-    
-    05
-    
-    ## Day 3 Planning  第三天：规划
-    
-    Available from June 1, 2026  
-    自 2026 年 6 月 1 日起可供使用
-    
-    1. How To Tackle Massive Tasks  
-        如何处理大型任务
-        
-    2. Write Great PRDs With This Skill  
-        使用这项技能，写出优秀的感谢词吧。
-        
-    3. Split Features Across Multiple Context Windows With Multi Phase Plans  
-        通过多阶段计划将功能分散到多个上下文窗口中
-        
-    4. What Are Tracer Bullets  什么是追踪子弹？
-        
-    5. Use Tracer Bullets In Our Multi Phase Plan  
-        在我们的多阶段计划中采用追踪性子弹技术。
-        
-    6. Executing Our Multi Phase Plan  
-        实施我们的多阶段计划
-        
-    7. Ask User Question  提出用户问题
+Available from June 1, 2026  
+自 2026 年 6 月 1 日起可供使用
+
+### 1. 什么是 Agents MD 文件？
+What Is An Agents MD File  
+	
+	
+### 2. 使用 Agents MD 文件来操控代理角色
+Steering An Agent With The Agents MD File  
+	
+	
+### 3. Progressive Disclosure  逐步披露
+	
+### 4. What Are Agent Skills  什么是代理技能？
+	
+### 5. 运用技能来操控
+Using Skills For Steering  
+	
+	
+### 6. Automatic Memory  自动记忆
         
     
-4. ## 
     
-    06
-    
-    ## Day 4 Feedback Loops  第 4 天 反馈循环
-    
-    Available from June 8, 2026  
-    自 2026 年 6 月 8 日起可用
-    
-    1. Is Code Cheap  代码很便宜
-        
-    2. Steering Agents To Use Feedback Loops With Skills  
-        指导代理使用与技能相关的反馈循环机制
-        
-    3. Building A Do Work Skill  
-        培养一项实用技能
-        
-    4. Using Our Do Work Skill  
-        运用我们的实际工作技能
-        
-    5. Fixing Agents Broken Formatting With Pre Commit  
-        通过预先规划来修复格式错误
-        
-    6. What Is Red Green Refactor  
-        什么是红绿重构？
-        
-    7. Red Green Refactor  红绿重构
+## 05 第3天：规划
+Day 3 Planning  
+
+Available from June 1, 2026  
+自 2026 年 6 月 1 日起可供使用
+
+### 1. How To Tackle Massive Tasks  
+	如何处理大型任务
+	
+### 2. Write Great PRDs With This Skill  
+	使用这项技能，写出优秀的感谢词吧。
+	
+### 3. Split Features Across Multiple Context Windows With Multi Phase Plans  
+	通过多阶段计划将功能分散到多个上下文窗口中
+	
+### 4. What Are Tracer Bullets  什么是追踪子弹？
+	
+### 5. Use Tracer Bullets In Our Multi Phase Plan  
+	在我们的多阶段计划中采用追踪性子弹技术。
+	
+### 6. Executing Our Multi Phase Plan  
+	实施我们的多阶段计划
+	
+### 7. Ask User Question  提出用户问题
         
     
-5. ## 
     
-    07
-    
-    ## Day 5 AFK Agents  第 5 天：离线状态的代理角色
-    
-    Available from June 8, 2026  
-    自 2026 年 6 月 8 日起可用
-    
-    1. What Is An AFK Agent  
-        什么是“AFK 代理”？
-        
-    2. Sandcastle  沙堡
-        
-    3. Trying HITL Agents  尝试与 HITL 特工合作
-        
-    4. Sandboxing  沙箱处理
-        
-    5. Setting Up And Trying AFK Agents  
-        配置并测试 AFK 代理服务器
-        
-    6. Using Backlogs To Queue Tasks For AFK Agents  
-        利用待办事项列表来为离线代理分配任务
-        
-    7. Setting Up Our Repo For GitHub Issues  
-        为 GitHub 问题设置我们的存储库
-        
-    8. Hooking Up Agents To Your Backlog  
-        将代理任务添加到你的待办事项列表中
-        
-    9. Updating Our PRD And Plan Skill To Use GitHub  
-        正在更新我们的产品文档以及适用于 GitHub 的技能计划。
+## 06 第4天 反馈循环
+Day 4 Feedback Loops  
+
+Available from June 8, 2026  
+自 2026 年 6 月 8 日起可用
+
+### 1. Is Code Cheap  代码很便宜
+	
+### 2. Steering Agents To Use Feedback Loops With Skills  
+	指导代理使用与技能相关的反馈循环机制
+	
+### 3. Building A Do Work Skill  
+	培养一项实用技能
+	
+### 4. Using Our Do Work Skill  
+	运用我们的实际工作技能
+	
+### 5. Fixing Agents Broken Formatting With Pre Commit  
+	通过预先规划来修复格式错误
+	
+### 6. What Is Red Green Refactor  
+	什么是红绿重构？
+	
+### 7. Red Green Refactor  红绿重构
         
     
-6. ## 
     
-    08
+## 07 第5天：离线状态的代理角色
+Day 5 AFK Agents  
     
-    ## Day 6 Human In The Loop Patterns  
-    第 6 天 人类参与循环模式
+Available from June 8, 2026  
+自 2026 年 6 月 8 日起可用
+
+### 1. What Is An AFK Agent  
+	什么是“AFK 代理”？
+	
+### 2. Sandcastle  沙堡
+	
+### 3. Trying HITL Agents  尝试与 HITL 特工合作
+	
+### 4. Sandboxing  沙箱处理
+	
+### 5. Setting Up And Trying AFK Agents  
+	配置并测试 AFK 代理服务器
+	
+### 6. Using Backlogs To Queue Tasks For AFK Agents  
+	利用待办事项列表来为离线代理分配任务
+	
+### 7. Setting Up Our Repo For GitHub Issues  
+	为 GitHub 问题设置我们的存储库
+	
+### 8. Hooking Up Agents To Your Backlog  
+	将代理任务添加到你的待办事项列表中
+	
+### 9. Updating Our PRD And Plan Skill To Use GitHub  
+	正在更新我们的产品文档以及适用于 GitHub 的技能计划。
+        
     
-    Available from June 8, 2026  
-    自 2026 年 6 月 8 日起可用
+## 08 第6天 人类参与循环模式
+Day 6 Human In The Loop Patterns  
     
-    1. HITL And AFK Tasks  仇恨与任务逃避
-        
-    2. Dont Plan Kanban  不要制定计划。
-        
-    3. Using The Kanban Skill  运用看板技能
-        
-    4. Research  研究
-        
-    5. Trying Out Research  尝试研究
-        
-    6. Prototyping  原型设计
-        
-    7. Trying Out UI Prototyping  
-        正在测试用户界面原型设计
-        
-    8. The Prototype Skill  原型技能
-        
-    9. Designing Codebases Ai Loves  
-        设计代码基础——人工智能如此喜爱这一点
-        
-    10. The Improve Codebase Architecture Skill  
-        改进代码库架构技能
-        
-    11. Adding Module Awareness To Our Planprd Skill  
-        在我们的 Planprd 技能中加入模块意识功能
-        
-    12. The Final Workflow  最终工作流程
-        
-    13. Appendix: Greenfield Projects  
-        附录：绿地项目
-        
-    14. Appendix: /grill-with-docs  
+    
+Available from June 8, 2026  
+自 2026 年 6 月 8 日起可用
+
+### 1. HITL And AFK Tasks  仇恨与任务逃避
+	
+### 2. Dont Plan Kanban  不要制定计划。
+	
+### 3. Using The Kanban Skill  运用看板技能
+	
+### 4. Research  研究
+	
+### 5. Trying Out Research  尝试研究
+	
+### 6. Prototyping  原型设计
+	
+### 7. Trying Out UI Prototyping  
+	正在测试用户界面原型设计
+	
+### 8. The Prototype Skill  原型技能
+	
+### 9. Designing Codebases Ai Loves  
+	设计代码基础——人工智能如此喜爱这一点
+	
+### 10. The Improve Codebase Architecture Skill  
+	改进代码库架构技能
+	
+### 11. Adding Module Awareness To Our Planprd Skill  
+	在我们的 Planprd 技能中加入模块意识功能
+	
+### 12. The Final Workflow  最终工作流程
+	
+### 13. Appendix: Greenfield Projects  
+	附录：绿地项目
+	
+### 14. Appendix: /grill-with-docs  
         附录：/带有文档的烤盘
