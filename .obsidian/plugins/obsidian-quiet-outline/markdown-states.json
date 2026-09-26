@@ -3063,22 +3063,20 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 419.6076388888889,
+    "scroll": 417.1793619791667,
     "cursor": {
       "from": {
-        "line": 432,
-        "ch": 21
+        "line": 427,
+        "ch": 25
       },
       "to": {
-        "line": 432,
-        "ch": 21
+        "line": 427,
+        "ch": 25
       }
     },
     "expandedKeys": [
-      "item-1-4",
-      "item-2-15",
-      "item-1-2",
-      "item-2-23"
+      "item-2-23",
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -44817,6 +44815,51 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/课程/面向真实工程师的AI 编程/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程 介绍.md": {
+    "scroll": 559.8531901041666,
+    "cursor": {
+      "from": {
+        "line": 534,
+        "ch": 4
+      },
+      "to": {
+        "line": 534,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-19",
+      "item-2-20"
     ]
   }
 }
