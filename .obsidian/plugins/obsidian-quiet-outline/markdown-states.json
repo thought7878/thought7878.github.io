@@ -481,19 +481,19 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/世界趋势/趋势.md": {
-    "scroll": 228.4384496124031,
+    "scroll": 211.7451167222487,
     "cursor": {
       "from": {
-        "line": 240,
+        "line": 236,
         "ch": 0
       },
       "to": {
-        "line": 240,
+        "line": 236,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-4",
+      "item-2-9",
       "item-1-9"
     ]
   },
@@ -3063,21 +3063,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 205.80208333333334,
+    "scroll": 321.2239583333333,
     "cursor": {
       "from": {
-        "line": 211,
+        "line": 333,
         "ch": 0
       },
       "to": {
-        "line": 211,
+        "line": 333,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-24",
       "item-1-2",
-      "item-2-3"
+      "item-2-3",
+      "item-2-16"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -44840,12 +44841,12 @@
     "scroll": 68.66341145833333,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 0
+        "line": 70,
+        "ch": 53
       },
       "to": {
-        "line": 72,
-        "ch": 0
+        "line": 70,
+        "ch": 53
       }
     },
     "expandedKeys": []
@@ -44909,20 +44910,52 @@
     "expandedKeys": []
   },
   "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md": {
-    "scroll": 34.418982316853125,
+    "scroll": 5.337890625,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 15
+        "line": 24,
+        "ch": 0
       },
       "to": {
-        "line": 61,
-        "ch": 15
+        "line": 24,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-9",
-      "item-1-1"
+      "item-1-1",
+      "item-2-2",
+      "item-2-229"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质主义者/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件本质主义者/软件本质主义者 介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 143,
+        "ch": 9
+      },
+      "to": {
+        "line": 143,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
