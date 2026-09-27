@@ -44987,25 +44987,51 @@
     ]
   },
   "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md": {
-    "scroll": 657.4156901041666,
+    "scroll": 661.617527173913,
     "cursor": {
       "from": {
-        "line": 673,
-        "ch": 9
+        "line": 671,
+        "ch": 6
       },
       "to": {
-        "line": 673,
-        "ch": 9
+        "line": 671,
+        "ch": 42
       }
     },
     "expandedKeys": [
-      "item-1-29",
-      "item-2-37",
-      "item-2-30",
-      "item-2-20",
-      "item-1-6",
-      "item-2-12",
-      "item-1-0"
+      "item-2-0",
+      "item-1-29"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件本质论/1. 课程概述.md": {
+    "scroll": 53.42873891324294,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 0
+      },
+      "to": {
+        "line": 57,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-1"
     ]
   }
 }
