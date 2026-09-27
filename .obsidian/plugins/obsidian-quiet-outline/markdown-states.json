@@ -3482,11 +3482,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 9,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 9,
         "ch": 0
       }
     },
@@ -44852,15 +44852,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-27.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 18.49072666463971,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -44910,15 +44910,15 @@
     "expandedKeys": []
   },
   "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md": {
-    "scroll": 5.337890625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 0
+        "line": 8,
+        "ch": 20
       },
       "to": {
-        "line": 24,
-        "ch": 0
+        "line": 8,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -44987,25 +44987,23 @@
     ]
   },
   "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md": {
-    "scroll": 699.6937928545651,
+    "scroll": 712.5575604474918,
     "cursor": {
       "from": {
-        "line": 718,
-        "ch": 9
+        "line": 728,
+        "ch": 0
       },
       "to": {
-        "line": 718,
-        "ch": 9
+        "line": 728,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0",
-      "item-2-38",
-      "item-1-29",
-      "item-2-7",
-      "item-1-6",
       "item-1-0",
-      "item-2-31"
+      "item-2-31",
+      "item-1-29",
+      "item-2-40"
     ]
   },
   "_posts/architect/_教程/0.软件本质论/未命名.md": {
@@ -45023,21 +45021,38 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件本质论/1. 课程概述.md": {
-    "scroll": 7.060546875,
+    "scroll": 134.93215445687477,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 6
+        "line": 139,
+        "ch": 0
       },
       "to": {
-        "line": 23,
-        "ch": 10
+        "line": 139,
+        "ch": 0
       }
     },
     "expandedKeys": [
+      "item-3-1",
       "item-2-0",
       "item-3-5",
-      "item-3-1"
+      "item-1-14"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 25
+      },
+      "to": {
+        "line": 38,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

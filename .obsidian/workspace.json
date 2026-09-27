@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-27.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-27"
+              "title": "2026-09-28"
             }
           },
           {
@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md",
+                "file": "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "软件本质论 介绍"
+              "title": "1. 课程概述"
             }
           }
         ],
@@ -1044,9 +1044,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36f8666f248893eb",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-27.md",
     "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
+    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
+    "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
+    "_posts/tools/资源.md",
     "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md",
     "_posts/architect/_教程/0.软件本质论/media/efb7079d0d7ea1a7706ef9c06e054b73_MD5.webp",
     "_posts/architect/_教程/0.软件本质论/media/8403741fd43058ba5dffc7c81f5d28a3_MD5.webp",
@@ -1066,21 +1071,17 @@
     "_posts/methods/常看的.md",
     "_posts/architect/_教程/0.软件本质论",
     "_posts/methods/要整理的.md",
-    "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/tools/资源.md",
     "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/typescript/教程/TypeScript Pro 基础知识",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-27.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-26.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/Diffing的工作原理.md",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/AI/课程/面向真实工程师的AI编程",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-25.md",

@@ -1,4 +1,8 @@
 
+[课程地址](https://www.totaltypescript.com/)
+
+
+
 # 重点内容
 - TypeScript 与 JavaScript 的关系
 - 构建流程中的 JavaScript 与 TypeScript
