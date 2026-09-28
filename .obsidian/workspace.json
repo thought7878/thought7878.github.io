@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
+                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-28"
+              "title": "2026-09-29"
             }
           },
           {
@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/useEffect 依赖数组.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程介绍"
+              "title": "useEffect 依赖数组"
             }
           },
           {
@@ -1044,11 +1044,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/0e2d292d8746b42795f9819f3867fa09_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/075c660f4b7575371f0c61e89a893dcc_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/81bdffefef42d2d1cf92d65752b6729a_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/fe7e60e588905006f6d3e68f8a773820_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/useEffect 依赖数组.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/未命名",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-29.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
     "_posts/methods/常看的.md",
     "_posts/读书笔记/男女.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
     "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/获取清晰度的两大强力策略.md",
@@ -1063,7 +1073,6 @@
     "_posts/architect/_教程/0.软件本质论/0_1. 欢迎/2.欢迎来到 The Software Essentialist！.md",
     "_posts/architect/_教程/0.软件本质论/0_1. 欢迎/1.快速总结：The Software Essentialist 流程.md",
     "_posts/architect/_教程/0.软件本质论/0_1. 欢迎",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-27.md",
     "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
     "_posts/tools/资源.md",
@@ -1074,24 +1083,15 @@
     "_posts/architect/_教程/0.软件本质论/media/db7707ffe7ad3bfd3aad4fb590c259e2_MD5.webp",
     "_posts/architect/_教程/0.软件本质论/media/8617198ee83ffb35eb7ef839870e9d75_MD5.webp",
     "_posts/architect/_教程/0.软件本质论/media/9dcda37592cae94494dd012b56e585d8_MD5.webp",
-    "_posts/architect/_教程/0.软件本质论/media/a3071aabcdd573cbd4aae370ac7751f1_MD5.webp",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/人生.md",
-    "_posts/architect/_教程/0.软件本质论/media/0204f95a43325d2a616c841b2672b7ab_MD5.webp",
-    "_posts/architect/_教程/0.软件本质论/media/24cd4bc848f726720d7e7d3171f99bf1_MD5.webp",
     "_posts/architect/_教程/0.软件本质论/media",
     "_posts/AI/课程/面向真实工程师的AI编程/面向真实工程师的AI编程 介绍.md",
     "_posts/architect/_教程/0.软件本质论",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/typescript/总结/TypeScript的编译.md",
     "_posts/typescript/教程/TypeScript Pro 基础知识",
     "_posts/AI/课程/面向真实工程师的AI编程",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React",
-    "DailyNote/Journal/01 Daily/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",

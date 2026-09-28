@@ -42901,15 +42901,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1178.373046875,
+    "scroll": 1184.6178385416667,
     "cursor": {
       "from": {
-        "line": 1196,
-        "ch": 0
+        "line": 1194,
+        "ch": 21
       },
       "to": {
-        "line": 1196,
-        "ch": 0
+        "line": 1194,
+        "ch": 7
       }
     },
     "expandedKeys": [
@@ -45047,15 +45047,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 27.181046195652176,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45185,5 +45185,49 @@
       "item-1-0",
       "item-3-4"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/09/2026-09-29.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 25
+      },
+      "to": {
+        "line": 40,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/useEffect 依赖数组.md": {
+    "scroll": 37.01206923932031,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 85
+      },
+      "to": {
+        "line": 38,
+        "ch": 85
+      }
+    },
+    "expandedKeys": []
   }
 }
