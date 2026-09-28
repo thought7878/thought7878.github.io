@@ -45024,29 +45024,22 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件本质论/1. 课程概述.md": {
-    "scroll": 235.22303741746148,
+    "scroll": 176.44919295671312,
     "cursor": {
       "from": {
-        "line": 293,
-        "ch": 21
+        "line": 187,
+        "ch": 31
       },
       "to": {
-        "line": 293,
-        "ch": 21
+        "line": 187,
+        "ch": 31
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-1-0",
-      "item-2-15",
-      "item-1-14",
-      "item-2-24",
-      "item-3-26",
       "item-3-20",
       "item-2-18",
-      "item-3-32",
-      "item-3-46",
-      "item-3-49"
+      "item-1-14"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md": {
@@ -45110,6 +45103,83 @@
     "expandedKeys": [
       "item-1-0",
       "item-2-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/The Software Essentialist 的 4 个关键心智模式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/通往精通的两大障碍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 7
+      },
+      "to": {
+        "line": 3,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/2 个强力澄清策略.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/获取清晰度的两大强力策略.md": {
+    "scroll": 15.13960934998399,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 46
+      },
+      "to": {
+        "line": 10,
+        "ch": 46
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-3-4"
     ]
   }
 }
