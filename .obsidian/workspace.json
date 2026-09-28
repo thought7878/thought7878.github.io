@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "概述"
+              "title": "提交阶段"
             }
           },
           {
@@ -872,7 +872,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -1044,11 +1044,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a8ba95e7fd7e65a6",
+  "active": "6e78155bf502c055",
   "lastOpenFiles": [
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
+    "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/获取清晰度的两大强力策略.md",
     "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
     "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/通往精通的两大障碍.md",
-    "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/获取清晰度的两大强力策略.md",
     "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式",
     "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md",
     "_posts/architect/_教程/0.软件本质论/0_1. 欢迎/2.欢迎来到 The Software Essentialist！.md",
@@ -1083,9 +1086,6 @@
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/介绍.md",
     "_posts/architect/_教程/0.软件工程基础：更好地规划与实施软件项目/3.需求与规范/功能性需求与非功能性需求.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-26.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/提交阶段.md",
     "_posts/AI/课程/面向真实工程师的AI编程",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/media",
