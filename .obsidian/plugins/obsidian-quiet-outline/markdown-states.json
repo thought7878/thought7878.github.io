@@ -44987,7 +44987,7 @@
     ]
   },
   "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md": {
-    "scroll": 712.5575604474918,
+    "scroll": 634.1891927083333,
     "cursor": {
       "from": {
         "line": 728,
@@ -45003,7 +45003,10 @@
       "item-1-0",
       "item-2-31",
       "item-1-29",
-      "item-2-40"
+      "item-2-40",
+      "item-2-38",
+      "item-2-20",
+      "item-1-6"
     ]
   },
   "_posts/architect/_教程/0.软件本质论/未命名.md": {
@@ -45021,37 +45024,23 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件本质论/1. 课程概述.md": {
-    "scroll": 9.873697916666666,
+    "scroll": 140.31324431613137,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 0
+        "line": 152,
+        "ch": 4
       },
       "to": {
-        "line": 23,
-        "ch": 0
+        "line": 152,
+        "ch": 4
       }
     },
     "expandedKeys": [
-      "item-3-1",
       "item-2-0",
-      "item-3-5",
-      "item-1-14",
-      "item-2-18",
+      "item-1-0",
       "item-2-15",
-      "item-3-19",
-      "item-2-22",
-      "item-3-24",
-      "item-2-33",
-      "item-2-36",
-      "item-2-41",
-      "item-2-62",
-      "item-2-65",
-      "item-2-69",
-      "item-2-73",
-      "item-2-77",
-      "item-2-92",
-      "item-2-100"
+      "item-1-14",
+      "item-2-18"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md": {
@@ -45068,6 +45057,53 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/00_1. Welcome/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/architect/_教程/0.软件本质论/00_1. Welcome/1.快速总结：The Software Essentialist 流程.md": {
+    "scroll": 29.229156741305385,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 0
+      },
+      "to": {
+        "line": 42,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/architect/_教程/0.软件本质论/00_1. Welcome/2.欢迎来到 The Software Essentialist！.md": {
+    "scroll": 15.889209671598701,
+    "cursor": {
+      "from": {
+        "line": 32,
+        "ch": 0
+      },
+      "to": {
+        "line": 32,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-0"
     ]
   }
 }
