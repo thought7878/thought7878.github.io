@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/React Hooks 及其使用规则.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "React Hooks 及其使用规则"
+              "title": "课程介绍"
             }
           },
           {
@@ -1046,14 +1046,15 @@
   },
   "active": "6e78155bf502c055",
   "lastOpenFiles": [
+    "_posts/methods/要整理的.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/Hooks 使用规则、原理.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/c84ded7e74b27362eaa9f76cfbebb313_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/7eff7a8b72af9847e05b1517ec806a5f_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/b51e5828a81a5ec4ab0080e32b21ac07_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/8de1b81b4b5d527dfa15c58aa7331c92_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/d2d11bc89f98b62c3b7e84b55fd642db_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/React Hooks 及其使用规则.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/useEffect 依赖数组.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/0e2d292d8746b42795f9819f3867fa09_MD5.webp",
@@ -1085,7 +1086,6 @@
     "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
     "_posts/tools/资源.md",
     "_posts/architect/_教程/0.软件本质论/media/efb7079d0d7ea1a7706ef9c06e054b73_MD5.webp",
-    "_posts/architect/_教程/0.软件本质论/media/8403741fd43058ba5dffc7c81f5d28a3_MD5.webp",
     "_posts/读书笔记/健康/资料.md",
     "_posts/读书笔记/移民.md",
     "_posts/读书笔记/人生.md",

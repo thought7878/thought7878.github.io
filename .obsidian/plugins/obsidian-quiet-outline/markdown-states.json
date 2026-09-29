@@ -3063,14 +3063,14 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 321.2239583333333,
+    "scroll": 646.064453125,
     "cursor": {
       "from": {
-        "line": 333,
+        "line": 649,
         "ch": 0
       },
       "to": {
-        "line": 333,
+        "line": 649,
         "ch": 0
       }
     },
@@ -3078,7 +3078,8 @@
       "item-2-24",
       "item-1-2",
       "item-2-3",
-      "item-2-16"
+      "item-2-16",
+      "item-2-53"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -42901,21 +42902,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1274.331829664381,
+    "scroll": 1291.5576171875,
     "cursor": {
       "from": {
-        "line": 1290,
-        "ch": 0
+        "line": 1305,
+        "ch": 159
       },
       "to": {
-        "line": 1290,
-        "ch": 0
+        "line": 1305,
+        "ch": 159
       }
     },
     "expandedKeys": [
       "item-3-186",
       "item-2-125",
-      "item-1-9"
+      "item-1-9",
+      "item-4-188"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -45241,15 +45243,29 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/React Hooks 及其使用规则.md": {
-    "scroll": 47.29133400577847,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 49,
-        "ch": 143
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 49,
-        "ch": 143
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/Hooks 使用规则、原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
