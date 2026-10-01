@@ -42901,25 +42901,22 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1740.82391782832,
+    "scroll": 1755.8509114583333,
     "cursor": {
       "from": {
-        "line": 1752,
-        "ch": 67
+        "line": 1769,
+        "ch": 37
       },
       "to": {
-        "line": 1752,
-        "ch": 67
+        "line": 1769,
+        "ch": 37
       }
     },
     "expandedKeys": [
+      "item-3-256",
       "item-2-215",
       "item-1-9",
-      "item-4-243",
-      "item-4-247",
-      "item-4-250",
-      "item-3-256",
-      "item-4-253"
+      "item-4-260"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/09/2026-09-05.md": {
@@ -45389,5 +45386,33 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/为什么？什么是 Context API？.md": {
+    "scroll": 17.50070038910506,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 65
+      },
+      "to": {
+        "line": 27,
+        "ch": 65
+      }
+    },
+    "expandedKeys": []
   }
 }
