@@ -1020,7 +1020,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1044,14 +1044,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e78155bf502c055",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/人性.md",
+    "_posts/methods/常看的.md",
+    "_posts/读书笔记/动物.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/路由与单页应用程序.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media/19bd6696f7040e3867fd18623e6b5e56_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media/8ce4a304ee288ff06214e4a7ad808bd6_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media/5f5cc707cc27db53a49d126bd137a7c5_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-01.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-30.md",
@@ -1065,10 +1069,7 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-29.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
-    "_posts/methods/常看的.md",
-    "_posts/读书笔记/动物.md",
     "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
-    "_posts/methods/要整理的.md",
     "_posts/读书笔记/健康/资料.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/Hooks 使用规则、原理.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置/media/c84ded7e74b27362eaa9f76cfbebb313_MD5.webp",
