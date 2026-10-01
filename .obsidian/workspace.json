@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/09/2026-09-30.md",
+                "file": "DailyNote/Journal/01 Daily/2026/10/2026-10-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-09-30"
+              "title": "2026-10-01"
             }
           },
           {
@@ -781,7 +781,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+                "file": "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/路由与单页应用程序.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -796,7 +796,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "课程介绍"
+              "title": "路由与单页应用程序"
             }
           },
           {
@@ -1046,15 +1046,22 @@
   },
   "active": "6e78155bf502c055",
   "lastOpenFiles": [
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/为什么使用useReducer？.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media/8ce4a304ee288ff06214e4a7ad808bd6_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media/5f5cc707cc27db53a49d126bd137a7c5_MD5.webp",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/路由与单页应用程序.md",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router",
+    "DailyNote/Journal/01 Daily/2026/10/2026-10-01.md",
+    "DailyNote/Journal/01 Daily/2026/09/2026-09-30.md",
+    "DailyNote/Journal/01 Daily/2026/10",
+    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/为什么使用useReducer？.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/media/611763769d383ce72b7bf82a8064c790_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/media/a6fa5ebd4d7cca8ada1c1f9015b406a4_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/media/464fa0d84d27accf8a20309ec1304514_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React",
-    "DailyNote/Journal/01 Daily/2026/09/2026-09-30.md",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-29.md",
     "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
     "_posts/methods/常看的.md",
@@ -1072,10 +1079,8 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/自定义钩子、反射机制、其他状态设置",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/useEffect 依赖数组.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/0e2d292d8746b42795f9819f3867fa09_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media/075c660f4b7575371f0c61e89a893dcc_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取/未命名",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/副作用与数据获取",
     "DailyNote/Journal/01 Daily/2026/09/2026-09-28.md",
     "_posts/读书笔记/男女.md",
     "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
@@ -1086,11 +1091,7 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/渲染阶段.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/2.第二部分：中级 React/React 原理/概述.md",
     "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式/通往精通的两大障碍.md",
-    "_posts/architect/_教程/0.软件本质论/0_2.The Software Essentialist 的心智模式",
     "_posts/architect/_教程/0.软件本质论/软件本质论 介绍.md",
-    "_posts/architect/_教程/0.软件本质论/0_1. 欢迎/2.欢迎来到 The Software Essentialist！.md",
-    "_posts/architect/_教程/0.软件本质论/0_1. 欢迎/1.快速总结：The Software Essentialist 流程.md",
-    "_posts/architect/_教程/0.软件本质论/0_1. 欢迎",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
