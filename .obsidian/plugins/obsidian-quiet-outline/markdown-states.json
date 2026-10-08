@@ -944,15 +944,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/人性.md": {
-    "scroll": 76.9794921875,
+    "scroll": 29.396158854166668,
     "cursor": {
       "from": {
-        "line": 94,
-        "ch": 149
+        "line": 40,
+        "ch": 0
       },
       "to": {
-        "line": 94,
-        "ch": 149
+        "line": 40,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -3063,21 +3063,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 393.3733723958333,
+    "scroll": 207.61458333333334,
     "cursor": {
       "from": {
-        "line": 408,
+        "line": 225,
         "ch": 0
       },
       "to": {
-        "line": 408,
+        "line": 225,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-13",
       "item-2-22",
-      "item-1-2"
+      "item-1-2",
+      "item-2-3"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -4114,15 +4115,15 @@
     ]
   },
   "_posts/读书笔记/人生.md": {
-    "scroll": 6.145833333333333,
+    "scroll": 32.08646350106308,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 0
+        "line": 47,
+        "ch": 131
       },
       "to": {
-        "line": 16,
-        "ch": 0
+        "line": 47,
+        "ch": 131
       }
     },
     "expandedKeys": []
@@ -42899,14 +42900,14 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1901.5022786458333,
+    "scroll": 1926.1956380208333,
     "cursor": {
       "from": {
-        "line": 1919,
+        "line": 1937,
         "ch": 0
       },
       "to": {
-        "line": 1919,
+        "line": 1937,
         "ch": 0
       }
     },
@@ -45461,15 +45462,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-07.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 24.763671875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45491,17 +45492,47 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/性能优化与浪费渲染.md": {
-    "scroll": 44.88962998253137,
+    "scroll": 25.919108072916668,
     "cursor": {
       "from": {
-        "line": 47,
+        "line": 28,
+        "ch": 21
+      },
+      "to": {
+        "line": 28,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/读书笔记/兴趣/电影.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 47,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-08.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
