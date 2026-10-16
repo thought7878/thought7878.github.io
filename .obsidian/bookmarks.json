@@ -754,6 +754,18 @@
         }
       ],
       "title": "软件工程"
+    },
+    {
+      "type": "group",
+      "ctime": 1792192781714,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1792192789782,
+          "path": "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md"
+        }
+      ],
+      "title": "设计模式"
     }
   ]
 }

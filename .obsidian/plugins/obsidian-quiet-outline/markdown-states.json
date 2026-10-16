@@ -3067,20 +3067,22 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 223.025390625,
+    "scroll": 346.8095703125,
     "cursor": {
       "from": {
-        "line": 225,
-        "ch": 0
+        "line": 359,
+        "ch": 126
       },
       "to": {
-        "line": 225,
-        "ch": 0
+        "line": 359,
+        "ch": 126
       }
     },
     "expandedKeys": [
       "item-2-5",
-      "item-1-2"
+      "item-1-2",
+      "item-2-16",
+      "item-2-44"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -6722,14 +6724,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 6.502563507713722,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
+        "line": 17,
         "ch": 2
       },
       "to": {
-        "line": 16,
+        "line": 17,
         "ch": 2
       }
     },
@@ -15708,15 +15710,15 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/教程/趣学设计模式/01.学习思维：怎样才能学好 Java 设计模式？.md": {
-    "scroll": 71.42656080837243,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 15
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 47,
-        "ch": 15
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -15754,7 +15756,7 @@
     ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/00.开篇词  设计模式：程序员的基本功，你离及格还差多少？.md": {
-    "scroll": 35.370442708333336,
+    "scroll": 11.693684895833334,
     "cursor": {
       "from": {
         "line": 41,
@@ -16234,15 +16236,15 @@
     ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/04.工程思维：如何用软件工程方法解决开发难题？.md": {
-    "scroll": 66.80611313868613,
+    "scroll": 5.213216145833333,
     "cursor": {
       "from": {
-        "line": 64,
-        "ch": 0
+        "line": 10,
+        "ch": 15
       },
       "to": {
-        "line": 64,
-        "ch": 0
+        "line": 10,
+        "ch": 15
       }
     },
     "expandedKeys": []
@@ -16251,18 +16253,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 107,
-        "ch": 37
+        "line": 60,
+        "ch": 11
       },
       "to": {
-        "line": 107,
-        "ch": 37
+        "line": 60,
+        "ch": 11
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-5",
-      "item-2-1"
+      "item-2-0",
+      "item-2-4",
+      "item-2-7"
     ]
   },
   "_posts/architect/System Design/教程/趣学设计模式/05.对象思维：面向对象编程有哪些优势？.md": {
@@ -45632,29 +45634,29 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md": {
-    "scroll": 65.13118007939372,
+    "scroll": 67.94406351497655,
     "cursor": {
       "from": {
-        "line": 81,
-        "ch": 26
+        "line": 42,
+        "ch": 10
       },
       "to": {
-        "line": 81,
-        "ch": 26
+        "line": 42,
+        "ch": 10
       }
     },
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-16.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.930338541666668,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 4
+        "line": 53,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45750,7 +45752,7 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/03-学习攻略 | 怎样学好软件工程？.md": {
-    "scroll": 91.81494140625,
+    "scroll": 91.81949869791667,
     "cursor": {
       "from": {
         "line": 116,
@@ -45764,15 +45766,45 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md": {
-    "scroll": 78.06688485487248,
+    "scroll": 74.78955078125,
     "cursor": {
       "from": {
-        "line": 97,
+        "line": 99,
+        "ch": 15
+      },
+      "to": {
+        "line": 99,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-17.md": {
+    "scroll": 26.013671875,
+    "cursor": {
+      "from": {
+        "line": 29,
         "ch": 0
       },
       "to": {
-        "line": 97,
+        "line": 29,
         "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/02丨工程思维：把每件事都当作一个项目来推进.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 64
+      },
+      "to": {
+        "line": 6,
+        "ch": 64
       }
     },
     "expandedKeys": []
