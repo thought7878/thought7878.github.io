@@ -669,11 +669,6 @@
           "ctime": 1790547328493,
           "path": "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
           "title": "软件本质论"
-        },
-        {
-          "type": "file",
-          "ctime": 1792135718297,
-          "path": "_posts/engineering/_教程/软件工程之美/总结/01.为什么应该学好软件工程？.md"
         }
       ],
       "title": "架构"
@@ -737,6 +732,23 @@
         }
       ],
       "title": "DevOps"
+    },
+    {
+      "type": "group",
+      "ctime": 1792138767210,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1792138697698,
+          "path": "_posts/engineering/_教程/软件工程之美/总结/软件项目里的各种角色：项目经理、产品经理、架构师、程序员、测试工程师、运维工程师.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1792135718297,
+          "path": "_posts/engineering/_教程/软件工程之美/总结/01.为什么应该学好软件工程？.md"
+        }
+      ],
+      "title": "软件工程"
     }
   ]
 }
