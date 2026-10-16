@@ -877,7 +877,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/02-从软件工程的角度解读任正非的新年公开信.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,7 +892,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-为什么应该学好软件工程？"
+              "title": "02-从软件工程的角度解读任正非的新年公开信"
             }
           }
         ],
@@ -1068,9 +1068,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "8b21395554b9d86f",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/media/ebe77cdad1ca391be781e216a3935fd0_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/原文/media/246cba5c554081f304cac93736bf2f45_MD5.png",
+    "_posts/engineering/_教程/软件工程之美/总结/02.从软件工程的角度解读任正非的新年公开信.md",
+    "_posts/engineering/_教程/软件工程之美/原文/02-从软件工程的角度解读任正非的新年公开信.md",
     "_posts/engineering/_教程/软件工程之美/总结/01.为什么应该学好软件工程？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/总结/软件项目里的各种角色：项目经理、产品经理、架构师、程序员、测试工程师、运维工程师.md",
     "_posts/engineering/_教程/软件工程之美/原文/介绍.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/0dc6f5c09edb1603aa8e771fdbdd3afe_MD5.jpg",
@@ -1081,7 +1087,6 @@
     "DailyNote/Journal/01 Daily/2026/10/2026-10-16.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-11.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/_检查心源性哮喘-QW.md",
     "_posts/读书笔记/健康/老爹/病/心源性哮喘/_心源性哮喘-QW2.md",
@@ -1100,14 +1105,10 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/media/cd3d6b49b5d2d9c8e636a746ec421d8a_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化",
-    "_posts/architect/_教程/0.现代大型系统的软件架构与设计/课程介绍.md",
-    "DailyNote/Journal/01 Daily/2026/10/2026-10-04.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/1635377a68952b38f2f7f0f7cb4cf62e_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/20a883b9dd22b1e9778b8345ab00363c_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/51c2228ae547775a963894d289f53a8e_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/PixPin_2026-10-03_09-53-32 1.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/5eeab612847eba60295ab1aa53fb7591_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/b49ccf503e1f51c745e5dd74e95ce4a6_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media",
