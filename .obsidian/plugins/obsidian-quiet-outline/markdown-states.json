@@ -574,14 +574,14 @@
     "expandedKeys": []
   },
   "_posts/methods/常看的.md": {
-    "scroll": 12.020833333333334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 195,
+        "line": 2,
         "ch": 0
       },
       "to": {
-        "line": 195,
+        "line": 2,
         "ch": 0
       }
     },
@@ -3067,15 +3067,15 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 346.8095703125,
+    "scroll": 215.72721354166666,
     "cursor": {
       "from": {
-        "line": 359,
-        "ch": 126
+        "line": 227,
+        "ch": 0
       },
       "to": {
-        "line": 359,
-        "ch": 126
+        "line": 227,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45900,19 +45900,98 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md": {
-    "scroll": 146.27788628472223,
+    "scroll": 131.06673177083334,
     "cursor": {
       "from": {
-        "line": 159,
-        "ch": 19
+        "line": 141,
+        "ch": 0
       },
       "to": {
-        "line": 159,
-        "ch": 19
+        "line": 141,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-3"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/做影视排行视频.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/影视排名视频.md": {
+    "scroll": 2.9791666666666665,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 11
+      },
+      "to": {
+        "line": 7,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-1",
+      "item-2-8",
+      "item-3-11",
+      "item-2-2"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md": {
+    "scroll": 5.029296875,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md": {
+    "scroll": 28.558035714285715,
+    "cursor": {
+      "from": {
+        "line": 48,
+        "ch": 17
+      },
+      "to": {
+        "line": 48,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }

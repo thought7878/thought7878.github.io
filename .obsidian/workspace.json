@@ -877,7 +877,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,7 +892,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05丨敏捷开发到底是想解决什么问题？"
+              "title": "06丨大厂都在用哪些敏捷方法？（上）"
             }
           }
         ],
@@ -1068,8 +1068,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "8b21395554b9d86f",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/短视频/影视解说类/影视排名视频.md",
+    "_posts/AI/「动力飞轮」APP/方法.md",
+    "_posts/methods/要整理的.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
@@ -1089,19 +1095,13 @@
     "DailyNote/Journal/01 Daily/2026/10/2026-10-17.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-16.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
-    "_posts/methods/要整理的.md",
     "_posts/engineering/_教程/软件工程之美/原文/02-从软件工程的角度解读任正非的新年公开信.md",
-    "_posts/engineering/_教程/软件工程之美/总结/02.从软件工程的角度解读任正非的新年公开信.md",
     "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/ebe77cdad1ca391be781e216a3935fd0_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/246cba5c554081f304cac93736bf2f45_MD5.png",
-    "_posts/engineering/_教程/软件工程之美/原文/01-为什么应该学好软件工程？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/介绍.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/media/0dc6f5c09edb1603aa8e771fdbdd3afe_MD5.jpg",
     "_posts/engineering/_教程/软件工程之美/media/7960b5b3277289e576a7267f8395ee17_MD5.webp",
     "_posts/engineering/_教程/软件工程之美/media",
-    "_posts/读书笔记/兴趣/电影.md",
-    "DailyNote/Journal/01 Daily/2026/10/2026-10-11.md",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/media/cef7b831256a51f6484509f4c42ac989_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/media/cd3d6b49b5d2d9c8e636a746ec421d8a_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化/media",
