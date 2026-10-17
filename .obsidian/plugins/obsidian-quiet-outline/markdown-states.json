@@ -45824,19 +45824,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md": {
-    "scroll": 82.92854817708333,
+    "scroll": 159.21815229159148,
     "cursor": {
       "from": {
-        "line": 97,
-        "ch": 113
+        "line": 177,
+        "ch": 76
       },
       "to": {
-        "line": 97,
-        "ch": 113
+        "line": 177,
+        "ch": 76
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-1",
+      "item-2-8"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md": {
@@ -45848,6 +45849,37 @@
       },
       "to": {
         "line": 77,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md": {
+    "scroll": 70.82389322916667,
+    "cursor": {
+      "from": {
+        "line": 75,
+        "ch": 0
+      },
+      "to": {
+        "line": 75,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 8
+      },
+      "to": {
+        "line": 47,
         "ch": 8
       }
     },
