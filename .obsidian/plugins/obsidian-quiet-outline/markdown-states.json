@@ -6724,15 +6724,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026_学习、复习记录.md": {
-    "scroll": 4.871356630550893,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 87
+        "line": 10,
+        "ch": 0
       },
       "to": {
-        "line": 17,
-        "ch": 87
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -45780,14 +45780,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-17.md": {
-    "scroll": 26.013671875,
+    "scroll": 24.784505208333332,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -45886,34 +45886,32 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md": {
-    "scroll": 80.4659504572494,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 101,
-        "ch": 0
+        "line": 11,
+        "ch": 15
       },
       "to": {
-        "line": 101,
-        "ch": 0
+        "line": 11,
+        "ch": 15
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md": {
-    "scroll": 131.06673177083334,
+    "scroll": 146.8603515625,
     "cursor": {
       "from": {
-        "line": 141,
-        "ch": 0
+        "line": 173,
+        "ch": 158
       },
       "to": {
-        "line": 141,
-        "ch": 0
+        "line": 173,
+        "ch": 158
       }
     },
-    "expandedKeys": [
-      "item-2-3"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/未命名.md": {
     "scroll": 0,
@@ -45963,15 +45961,15 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md": {
-    "scroll": 5.029296875,
+    "scroll": 69.13922480620155,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 79,
+        "ch": 10
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 79,
+        "ch": 10
       }
     },
     "expandedKeys": [
@@ -45979,7 +45977,7 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md": {
-    "scroll": 138.34602864583334,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 152,
@@ -45990,11 +45988,25 @@
         "ch": 15
       }
     },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md": {
+    "scroll": 1.0208333333333333,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 40
+      },
+      "to": {
+        "line": 14,
+        "ch": 40
+      }
+    },
     "expandedKeys": [
       "item-2-0"
     ]
   },
-  "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/07丨大厂都在用哪些敏捷方法？（下）.md": {
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/09丨可行性研究：一个从一开始就注定失败的跨平台项目.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -46006,8 +46018,54 @@
         "ch": 0
       }
     },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/10丨如果你想技术转管理，先来试试管好一个项目.md": {
+    "scroll": 36.99574769666903,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 0
+      },
+      "to": {
+        "line": 47,
+        "ch": 0
+      }
+    },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/11丨项目计划：代码未动，计划先行.md": {
+    "scroll": 135.36214192708334,
+    "cursor": {
+      "from": {
+        "line": 145,
+        "ch": 104
+      },
+      "to": {
+        "line": 145,
+        "ch": 104
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-18.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
