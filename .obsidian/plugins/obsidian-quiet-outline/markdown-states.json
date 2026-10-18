@@ -3067,7 +3067,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 215.72721354166666,
+    "scroll": 219.25846354166666,
     "cursor": {
       "from": {
         "line": 227,
@@ -3080,9 +3080,7 @@
     },
     "expandedKeys": [
       "item-2-5",
-      "item-1-2",
-      "item-2-16",
-      "item-2-44"
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -45514,12 +45512,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 6,
+        "ch": 8
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 6,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -46004,14 +46002,14 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/09丨可行性研究：一个从一开始就注定失败的跨平台项目.md": {
-    "scroll": 0,
+    "scroll": 133.7553153791637,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 120,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 120,
         "ch": 0
       }
     },
@@ -46178,19 +46176,19 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/08丨怎样平衡软件质量与时间成本范围的关系？.md": {
-    "scroll": 1.875,
+    "scroll": 73.92730416853728,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 0
+        "line": 101,
+        "ch": 16
       },
       "to": {
-        "line": 14,
-        "ch": 0
+        "line": 101,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-5"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/介绍_总结.md": {
@@ -46238,17 +46236,33 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/09丨可行性研究：一个从一开始就注定失败的跨平台项目_总结.md": {
-    "scroll": 24.079944497811933,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 16
+        "line": 42,
+        "ch": 60
       },
       "to": {
-        "line": 32,
-        "ch": 16
+        "line": 42,
+        "ch": 60
       }
     },
     "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/10丨如果你想技术转管理，先来试试管好一个项目_总结.md": {
+    "scroll": 1.294826364280652,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 23
+      },
+      "to": {
+        "line": 31,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
   }
 }
