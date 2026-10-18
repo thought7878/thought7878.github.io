@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/影视排名视频 1.0.md",
+                "file": "_posts/methods/常看的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "影视排名视频 1.0"
+              "title": "常看的"
             }
           },
           {
@@ -877,7 +877,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+                "file": "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -892,10 +892,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05丨敏捷开发到底是想解决什么问题？"
+              "title": "06丨大厂都在用哪些敏捷方法？（上）"
             }
           }
-        ]
+        ],
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -1067,17 +1068,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "148c6846560e64c4",
+  "active": "8b21395554b9d86f",
   "lastOpenFiles": [
-    "_posts/methods/常看的.md",
-    "_posts/AI/短视频/影视解说类/平台.md",
-    "_posts/AI/短视频/影视解说类/获取数据.md",
-    "_posts/AI/短视频/影视解说类/影视排名视频 0.0.md",
-    "_posts/AI/短视频/影视解说类/影视排名视频 1.0.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
     "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md",
+    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/短视频/影视解说类/影视排名 1.0.md",
+    "_posts/AI/短视频/影视解说类/影视排名 0.0.md",
+    "_posts/AI/短视频/影视解说类/平台.md",
+    "_posts/AI/短视频/影视解说类/获取数据.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-18.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-17.md",
     "DailyNote/Journal/01 Daily/2026_学习、复习记录.md",
@@ -1088,7 +1090,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/01丨到底应该怎样理解软件工程？.md",
     "_posts/AI/「动力飞轮」APP/方法.md",
     "_posts/methods/要整理的.md",
-    "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/04丨瀑布模型之外，还有哪些开发模型？.md",
     "_posts/engineering/_教程/软件工程之美/原文/04-基础理论 (9讲)/03丨瀑布模型：像工厂流水线一样把软件开发分层化.md",
     "_posts/engineering/_教程/软件工程之美/总结/软件项目里的各种角色：项目经理、产品经理、架构师、程序员、测试工程师、运维工程师.md",
