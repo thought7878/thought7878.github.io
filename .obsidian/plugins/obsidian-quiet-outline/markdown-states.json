@@ -577,11 +577,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
@@ -45886,15 +45886,15 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/05丨敏捷开发到底是想解决什么问题？.md": {
-    "scroll": 0,
+    "scroll": 26.4599609375,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 15
+        "line": 38,
+        "ch": 37
       },
       "to": {
-        "line": 11,
-        "ch": 15
+        "line": 38,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -45918,11 +45918,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 198
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 198
       }
     },
     "expandedKeys": []
@@ -45942,34 +45942,32 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/影视排名视频.md": {
-    "scroll": 2.9791666666666665,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 11
+        "line": 6,
+        "ch": 73
       },
       "to": {
-        "line": 7,
-        "ch": 11
+        "line": 6,
+        "ch": 73
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-2-8",
-      "item-3-11",
-      "item-2-2"
+      "item-2-2",
+      "item-1-1"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/总结/04-基础理论 (9讲)/06丨大厂都在用哪些敏捷方法？（上）.md": {
-    "scroll": 69.13922480620155,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 79,
-        "ch": 10
+        "line": 25,
+        "ch": 17
       },
       "to": {
-        "line": 79,
-        "ch": 10
+        "line": 25,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -46067,5 +46065,82 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/AI/短视频/影视解说类/平台.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/获取数据.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 22
+      },
+      "to": {
+        "line": 9,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/影视排名视频 0.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 198
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/影视排名视频 1.0.md": {
+    "scroll": 73.0751953125,
+    "cursor": {
+      "from": {
+        "line": 84,
+        "ch": 0
+      },
+      "to": {
+        "line": 84,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-23",
+      "item-2-19",
+      "item-2-14",
+      "item-2-9",
+      "item-2-5"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/影视排名视频 0.0.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 198
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
