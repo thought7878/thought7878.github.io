@@ -3067,7 +3067,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 159.20833333333334,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 227,
@@ -3078,11 +3078,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-5",
-      "item-1-2",
-      "item-2-3"
-    ]
+    "expandedKeys": []
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
     "scroll": 0,
@@ -45513,12 +45509,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 8
+        "line": 9,
+        "ch": 2
       },
       "to": {
-        "line": 6,
-        "ch": 8
+        "line": 9,
+        "ch": 2
       }
     },
     "expandedKeys": []
@@ -46265,14 +46261,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-19.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.326171875,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -46401,34 +46397,116 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划_总结.md": {
-    "scroll": 4.961729270021261,
+    "scroll": 36.47100775193798,
     "cursor": {
       "from": {
-        "line": 16,
+        "line": 56,
+        "ch": 12
+      },
+      "to": {
+        "line": 56,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-2-3"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划.md": {
+    "scroll": 156.28678385416666,
+    "cursor": {
+      "from": {
+        "line": 179,
+        "ch": 68
+      },
+      "to": {
+        "line": 179,
+        "ch": 68
+      }
+    },
+    "expandedKeys": [
+      "item-3-4",
+      "item-2-2"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md": {
+    "scroll": 157.021484375,
+    "cursor": {
+      "from": {
+        "line": 171,
+        "ch": 90
+      },
+      "to": {
+        "line": 171,
+        "ch": 90
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md": {
+    "scroll": 23.99397590361446,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 13
+      },
+      "to": {
+        "line": 10,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-20.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/16丨为什么你不爱写项目文档？_总结.md": {
+    "scroll": 0.98989898989899,
+    "cursor": {
+      "from": {
+        "line": 29,
         "ch": 14
       },
       "to": {
-        "line": 16,
+        "line": 29,
         "ch": 14
       }
     },
     "expandedKeys": []
   },
-  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划.md": {
-    "scroll": 113.82270946353225,
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/16丨为什么你不爱写项目文档？.md": {
+    "scroll": 53.017903645833336,
     "cursor": {
       "from": {
-        "line": 128,
-        "ch": 114
+        "line": 69,
+        "ch": 64
       },
       "to": {
-        "line": 128,
-        "ch": 114
+        "line": 69,
+        "ch": 64
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-3-4"
+      "item-2-0",
+      "item-2-4",
+      "item-3-8"
     ]
   }
 }
