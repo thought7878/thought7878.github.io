@@ -3067,7 +3067,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 219.25846354166666,
+    "scroll": 222.1689453125,
     "cursor": {
       "from": {
         "line": 227,
@@ -42902,15 +42902,15 @@
     "expandedKeys": []
   },
   "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/课程介绍.md": {
-    "scroll": 1955.5646158854167,
+    "scroll": 1951.3375651041667,
     "cursor": {
       "from": {
-        "line": 1969,
-        "ch": 62
+        "line": 1963,
+        "ch": 0
       },
       "to": {
-        "line": 1969,
-        "ch": 62
+        "line": 1963,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -46016,19 +46016,22 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/10丨如果你想技术转管理，先来试试管好一个项目.md": {
-    "scroll": 36.99574769666903,
+    "scroll": 143.69303385416666,
     "cursor": {
       "from": {
-        "line": 47,
-        "ch": 0
+        "line": 151,
+        "ch": 61
       },
       "to": {
-        "line": 47,
-        "ch": 0
+        "line": 151,
+        "ch": 61
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-1",
+      "item-3-2",
+      "item-3-5",
+      "item-2-9"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/11丨项目计划：代码未动，计划先行.md": {
@@ -46048,15 +46051,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-18.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.326171875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -46250,19 +46253,35 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/10丨如果你想技术转管理，先来试试管好一个项目_总结.md": {
-    "scroll": 1.294826364280652,
+    "scroll": 15.459635416666666,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 23
+        "line": 32,
+        "ch": 0
       },
       "to": {
-        "line": 31,
-        "ch": 23
+        "line": 32,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-19.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
