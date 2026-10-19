@@ -577,11 +577,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
@@ -3067,7 +3067,7 @@
     "expandedKeys": []
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 222.1689453125,
+    "scroll": 159.20833333333334,
     "cursor": {
       "from": {
         "line": 227,
@@ -3080,7 +3080,8 @@
     },
     "expandedKeys": [
       "item-2-5",
-      "item-1-2"
+      "item-1-2",
+      "item-2-3"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -45916,11 +45917,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 198
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 198
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -46370,19 +46371,64 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/14丨项目管理工具：一切管理问题，都应思考能否通过工具解决.md": {
-    "scroll": 59.7275390625,
+    "scroll": 148.40467753366406,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 23
+        "line": 100,
+        "ch": 0
       },
       "to": {
-        "line": 75,
-        "ch": 23
+        "line": 100,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/问题、需求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划_总结.md": {
+    "scroll": 4.961729270021261,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 14
+      },
+      "to": {
+        "line": 16,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/15丨风险管理：不能盲目乐观，凡事都应该有B计划.md": {
+    "scroll": 113.82270946353225,
+    "cursor": {
+      "from": {
+        "line": 128,
+        "ch": 114
+      },
+      "to": {
+        "line": 128,
+        "ch": 114
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-3-4"
     ]
   }
 }
