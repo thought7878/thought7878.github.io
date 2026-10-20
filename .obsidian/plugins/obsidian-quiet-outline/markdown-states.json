@@ -45508,12 +45508,12 @@
     "scroll": 1.3478260869565217,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 12
+        "line": 18,
+        "ch": 0
       },
       "to": {
-        "line": 14,
-        "ch": 12
+        "line": 18,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -46436,21 +46436,19 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md": {
-    "scroll": 97.62847956912424,
+    "scroll": 47.722981770833336,
     "cursor": {
       "from": {
-        "line": 119,
+        "line": 57,
         "ch": 0
       },
       "to": {
-        "line": 119,
+        "line": 57,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-5",
-      "item-2-1",
-      "item-3-7"
+      "item-2-1"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md": {
@@ -46548,15 +46546,43 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？_总结.md": {
-    "scroll": 15.830276597330947,
+    "scroll": 8.657380723663145,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 72
+        "line": 34,
+        "ch": 13
       },
       "to": {
-        "line": 30,
-        "ch": 72
+        "line": 34,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 12
+      },
+      "to": {
+        "line": 0,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/原型设计工具.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
