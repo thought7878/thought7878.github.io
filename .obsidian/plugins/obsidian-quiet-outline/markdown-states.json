@@ -45505,7 +45505,7 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/兴趣/电影.md": {
-    "scroll": 1.3478260869565217,
+    "scroll": 6.0561240310077515,
     "cursor": {
       "from": {
         "line": 18,
@@ -46436,19 +46436,20 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md": {
-    "scroll": 47.722981770833336,
+    "scroll": 43.45308085922925,
     "cursor": {
       "from": {
-        "line": 57,
+        "line": 61,
         "ch": 0
       },
       "to": {
-        "line": 57,
+        "line": 61,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1"
+      "item-2-1",
+      "item-2-5"
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md": {
@@ -46468,14 +46469,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-20.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.138671875,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -46516,15 +46517,15 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？_总结.md": {
-    "scroll": 18.894579885186012,
+    "scroll": 16.950197569522107,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 0
+        "line": 30,
+        "ch": 27
       },
       "to": {
-        "line": 15,
-        "ch": 0
+        "line": 30,
+        "ch": 27
       }
     },
     "expandedKeys": []
@@ -46586,5 +46587,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-21.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
