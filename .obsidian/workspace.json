@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/兴趣/电影.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "电影"
+              "title": "要整理的"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/10/2026-10-21.md",
+                "file": "DailyNote/Journal/01 Daily/2026/10/2026-10-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-10-21"
+              "title": "2026-10-22"
             }
           },
           {
@@ -973,21 +973,24 @@
   "lastOpenFiles": [
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？.md",
+    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17 流程决策图.excalidraw.md",
+    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/Untitled Diagram.svg",
+    "DailyNote/Journal/01 Daily/2026/10/2026-10-22.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-21.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/兴趣/电影.md",
+    "_posts/读书笔记/人生.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/base/知识目录、路线图/知识目录/浏览器原理与性能优化/浏览器.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
     "_posts/architect/前端架构/_前端架构师的职责、知识点.md",
     "_posts/architect/前端架构/前端架构-QW.md",
-    "_posts/读书笔记/兴趣/电影.md",
     "_posts/读书笔记/兴趣/media",
-    "_posts/methods/要整理的.md",
     "_posts/要整理的.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-20.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/原型设计工具.md",
-    "_posts/读书笔记/人生.md",
     "_posts/methods/常看的.md",
     "_posts/AI/短视频/影视解说类/影视排名 1.0.md",
     "_posts/AI/短视频/影视解说类/平台.md",
@@ -995,9 +998,6 @@
     "_posts/AI/短视频/影视解说类/问题、需求.md",
     "_posts/AI/短视频/影视解说类/影视排名 0.0.md",
     "_posts/读书笔记/世界趋势/趋势.md",
-    "_posts/读书笔记/男女.md",
-    "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
-    "_posts/engineering/_教程/软件工程之美/原文/05-项目规划篇 (8讲)/14丨项目管理工具：一切管理问题，都应思考能否通过工具解决_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/ebe77cdad1ca391be781e216a3935fd0_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/246cba5c554081f304cac93736bf2f45_MD5.png",
@@ -1010,7 +1010,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/性能优化",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/1635377a68952b38f2f7f0f7cb4cf62e_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/20a883b9dd22b1e9778b8345ab00363c_MD5.webp",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media/51c2228ae547775a963894d289f53a8e_MD5.webp",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/Context API",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media",
