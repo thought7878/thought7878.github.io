@@ -45508,12 +45508,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 4,
         "ch": 2
       },
       "to": {
-        "line": 5,
-        "ch": 8
+        "line": 4,
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -46453,15 +46453,15 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md": {
-    "scroll": 29.243303571428573,
+    "scroll": 31.407335223245926,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 0
+        "line": 44,
+        "ch": 20
       },
       "to": {
-        "line": 52,
-        "ch": 0
+        "line": 44,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -46718,21 +46718,62 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md": {
-    "scroll": 94.10305998855333,
+    "scroll": 145.3263649142536,
     "cursor": {
       "from": {
-        "line": 96,
-        "ch": 25
+        "line": 161,
+        "ch": 0
       },
       "to": {
-        "line": 96,
-        "ch": 25
+        "line": 161,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-2-4",
       "item-4-7"
     ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？_总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 64
+      },
+      "to": {
+        "line": 3,
+        "ch": 64
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员_总结.md": {
+    "scroll": 11.109596224436288,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 64
+      },
+      "to": {
+        "line": 31,
+        "ch": 64
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？_总结.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
