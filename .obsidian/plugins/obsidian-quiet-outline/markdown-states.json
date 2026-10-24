@@ -46453,20 +46453,18 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md": {
-    "scroll": 23.99397590361446,
+    "scroll": 19.392885501032236,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 13
+        "line": 35,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 13
+        "line": 35,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-20.md": {
     "scroll": 26.138671875,
@@ -46625,14 +46623,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-23.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 23.46792338096686,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -46688,20 +46686,51 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/20丨如何应对让人头疼的需求变更问题？.md": {
-    "scroll": 55.65627214741318,
+    "scroll": 123.23014322916667,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 58
+        "line": 134,
+        "ch": 121
       },
       "to": {
-        "line": 73,
-        "ch": 58
+        "line": 134,
+        "ch": 121
       }
     },
     "expandedKeys": [
-      "item-2-0",
       "item-2-3"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-24.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md": {
+    "scroll": 43.226888020833336,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 154
+      },
+      "to": {
+        "line": 56,
+        "ch": 154
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
