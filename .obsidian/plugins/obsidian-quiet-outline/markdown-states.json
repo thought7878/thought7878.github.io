@@ -45505,15 +45505,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/兴趣/电影.md": {
-    "scroll": 0,
+    "scroll": 12.334883720930232,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 2
+        "line": 29,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 6
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -46702,15 +46702,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-24.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 27.365828804347824,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -46718,43 +46718,46 @@
     ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md": {
-    "scroll": 160.19216579861111,
+    "scroll": 128.99354064176006,
     "cursor": {
       "from": {
-        "line": 181,
-        "ch": 15
+        "line": 142,
+        "ch": 0
       },
       "to": {
-        "line": 181,
-        "ch": 15
+        "line": 142,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-4-7",
+      "item-2-4"
+    ]
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？_总结.md": {
-    "scroll": 0,
+    "scroll": 15.109375,
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 107
+        "line": 26,
+        "ch": 14
       },
       "to": {
-        "line": 23,
-        "ch": 107
+        "line": 26,
+        "ch": 14
       }
     },
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员_总结.md": {
-    "scroll": 11.109596224436288,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 31,
-        "ch": 64
+        "ch": 68
       },
       "to": {
         "line": 31,
-        "ch": 64
+        "ch": 68
       }
     },
     "expandedKeys": []
@@ -46788,20 +46791,52 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？.md": {
-    "scroll": 80.9455141694725,
+    "scroll": 80.63350519079685,
     "cursor": {
       "from": {
-        "line": 95,
+        "line": 115,
         "ch": 0
       },
       "to": {
-        "line": 95,
+        "line": 115,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-0",
       "item-2-5"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-25.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员.md": {
+    "scroll": 21.671223958333332,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 0
+      },
+      "to": {
+        "line": 35,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
