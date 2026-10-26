@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/影视排名 1.0.md",
+                "file": "_posts/AI/短视频/影视解说类/工具/hongguo-web（sunnysky123）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "影视排名 1.0"
+              "title": "hongguo-web（sunnysky123）"
             }
           }
         ],
@@ -970,7 +970,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -993,8 +993,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcdb747f0d7ac8de",
+  "active": "c56cd344cda4ca88",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/影视排名 1.0.md",
+    "_posts/AI/短视频/影视解说类/工具",
+    "_posts/AI/短视频/影视解说类/工具/hongguo-web（sunnysky123）.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
     "_posts/AI/「动力飞轮」APP/灵感.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-26.md",
@@ -1018,9 +1021,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/19丨作为程序员，你应该有产品意识.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/19丨作为程序员，你应该有产品意识_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/原型设计工具.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？_总结.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/Untitled Diagram.svg",
     "_posts/读书笔记/兴趣/media",
     "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
@@ -1040,7 +1040,6 @@
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router/media",
     "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/React Router",
     "DailyNote/Journal/01 Daily/2026/10",
-    "_posts/后端/课程/终极 React 课程 2025：React、Next.js、Redux 等技术的学习/3.第三部分：高级 React/useReducer/media",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
