@@ -3063,7 +3063,9 @@
         "ch": 123
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/methods/要整理的.md": {
     "scroll": 0,
@@ -45508,12 +45510,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 7,
+        "ch": 8
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 7,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -46128,7 +46130,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/影视排名 1.0.md": {
-    "scroll": 142.4686140459913,
+    "scroll": 136.89176626826028,
     "cursor": {
       "from": {
         "line": 143,
@@ -46808,7 +46810,7 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-25.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 27.344089673913043,
     "cursor": {
       "from": {
         "line": 31,
@@ -46838,20 +46840,35 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md": {
-    "scroll": 169.32356770833334,
+    "scroll": 161.1842147054153,
     "cursor": {
       "from": {
-        "line": 182,
-        "ch": 15
+        "line": 177,
+        "ch": 0
       },
       "to": {
-        "line": 182,
-        "ch": 15
+        "line": 177,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-4"
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-26.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }

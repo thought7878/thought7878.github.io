@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/10/2026-10-25.md",
+                "file": "DailyNote/Journal/01 Daily/2026/10/2026-10-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-10-25"
+              "title": "2026-10-26"
             }
           },
           {
@@ -798,9 +798,33 @@
               "icon": "lucide-file",
               "title": "24丨技术债务：是继续修修补补凑合着用，还是推翻重来？"
             }
+          },
+          {
+            "id": "c56cd344cda4ca88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/短视频/影视解说类/影视排名 1.0.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "影视排名 1.0"
+            }
           }
         ],
-        "currentTab": 32
+        "currentTab": 33
       }
     ],
     "direction": "vertical"
@@ -946,7 +970,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -969,18 +993,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8b21395554b9d86f",
+  "active": "fcdb747f0d7ac8de",
   "lastOpenFiles": [
+    "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md",
+    "_posts/AI/「动力飞轮」APP/灵感.md",
+    "DailyNote/Journal/01 Daily/2026/10/2026-10-26.md",
+    "DailyNote/Journal/01 Daily/2026/10/2026-10-25.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/兴趣/电影.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员.md",
     "_posts/methods/构建系统/如何建立系统？.md",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/兴趣/电影.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/23丨架构师：不想当架构师的程序员不是好程序员_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/22丨如何为项目做好技术选型？.md",
-    "DailyNote/Journal/01 Daily/2026/10/2026-10-25.md",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-24.md",
     "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/21丨架构设计：普通程序员也能实现复杂系统？_总结.md",
     "_posts/methods/常看的.md",
@@ -994,9 +1021,6 @@
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/原型设计工具.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/18丨原型设计：如何用最小的代价完成产品特性？_总结.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？_总结.md",
-    "DailyNote/Journal/01 Daily/2026/10/2026-10-22.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17丨需求分析到底要分析什么？怎么分析？.md",
-    "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/17 流程决策图.excalidraw.md",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/Untitled Diagram.svg",
     "_posts/读书笔记/兴趣/media",
     "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
