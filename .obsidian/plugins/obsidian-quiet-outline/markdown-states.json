@@ -45510,12 +45510,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 5,
+        "ch": 11
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 5,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -46130,20 +46130,19 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/影视排名 1.0.md": {
-    "scroll": 131.44402096236303,
+    "scroll": 130.95906976744186,
     "cursor": {
       "from": {
-        "line": 143,
-        "ch": 37
+        "line": 145,
+        "ch": 22
       },
       "to": {
-        "line": 143,
-        "ch": 37
+        "line": 145,
+        "ch": 22
       }
     },
     "expandedKeys": [
       "item-2-5",
-      "item-2-1",
       "item-1-0"
     ]
   },
@@ -46783,12 +46782,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 3
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 3
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -46841,19 +46840,20 @@
     "expandedKeys": []
   },
   "_posts/engineering/_教程/软件工程之美/原文/07-系统设计篇 (4讲)/24丨技术债务：是继续修修补补凑合着用，还是推翻重来？.md": {
-    "scroll": 161.1842147054153,
+    "scroll": 135.39908854166666,
     "cursor": {
       "from": {
-        "line": 177,
+        "line": 157,
         "ch": 0
       },
       "to": {
-        "line": 177,
+        "line": 157,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-4"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-26.md": {
@@ -47030,15 +47030,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-28.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 23.681970203709334,
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 27,
-        "ch": 4
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -47069,6 +47069,92 @@
       "to": {
         "line": 106,
         "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/红果/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/红果/红果短剧榜单说明.md": {
+    "scroll": 10.483522324592487,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 133
+      },
+      "to": {
+        "line": 20,
+        "ch": 133
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-29.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/25丨有哪些方法可以提高开发效率？_总结.md": {
+    "scroll": 10.009440104166666,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 27
+      },
+      "to": {
+        "line": 26,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/获取数据/影视平台.md": {
+    "scroll": 0.7878787878787878,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 36
+      },
+      "to": {
+        "line": 11,
+        "ch": 36
       }
     },
     "expandedKeys": []
