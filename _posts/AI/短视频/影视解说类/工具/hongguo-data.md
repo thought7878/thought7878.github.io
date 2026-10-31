@@ -65,16 +65,16 @@
 
 ## 目录结构与模块职责
 
-| 路径 | 行数 | 职责 |
-|---|---|---|
-| `.github/workflows/build-all-shards.yml` | 255 | 负责编排：cron `0 19 * * *`（北京时间 03:00）、周日自动转全量审计、矩阵 `shard × part` = 28×4 = **112 个 job**、`concurrency: build-full-catalog` 串行防止自相覆盖、merge 用 `!cancelled()`（依赖失败仍合并，被取消即中止）、发布 Release |
-| `lib/catalog_util.js` | 239 | 纯函数库：sitemap 与卡片解析、封面域名归一化（`p*-novel.byteimg.com` → `p3`）、雪花 ID → 日期回退、`canonicalCatalog` 规范化排序（`new_at` 降序 + `id` 升序）、`sha256`、`diffCatalogs` / `applyDeltaToCatalog`、manifest 校验 |
-| `lib/http.mjs` | 107 | 统一容错层。**反转白名单**：404/410 = 终态不重试，2xx 交给语义校验，**其余一切**（444、403 挑战、429、5xx、超时、连接重置）一律指数退避重试——反爬 WAF 换状态码也不影响行为 |
-| `scripts/plan_run.mjs` | 180 | 规划器，产出 `plan.json` + 分片任务文件；索引拉不到就 **fail-fast**，绝不回退写死分片数 |
-| `scripts/build_shard.mjs` | 234 | 单分片单 part 抓取器，产出 `shard_X.partY.json` + `_report.json`（含 `goneIds` / `invalidIds` / 缺口统计） |
-| `scripts/merge_catalog.mjs` | 255 | 合并 + Delta 生成 + Level-9 gzip + 全局阈值把关 |
-| `scripts/test_incremental_e2e.mjs` | 360 | 本地 Mock 上游 + Mock Release 的端到端测试，11 项断言（规划精确到 50 条、零冗余请求、Delta 增删改精准、Delta 损坏降级全量、网络全挂时**零坏账**） |
-| `README.md` / `AGENTS.md` | 42/40 | 前者面向数据使用者，后者是给 AI 编码代理看的架构说明 |
+| 路径                                       | 行数    | 职责                                                                                                                                                                                 |
+| ---------------------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `.github/workflows/build-all-shards.yml` | 255   | 负责编排：cron `0 19 * * *`（北京时间 03:00）、周日自动转全量审计、矩阵 `shard × part` = 28×4 = **112 个 job**、`concurrency: build-full-catalog` 串行防止自相覆盖、merge 用 `!cancelled()`（依赖失败仍合并，被取消即中止）、发布 Release |
+| `lib/catalog_util.js`                    | 239   | 纯函数库：sitemap 与卡片解析、封面域名归一化（`p*-novel.byteimg.com` → `p3`）、雪花 ID → 日期回退、`canonicalCatalog` 规范化排序（`new_at` 降序 + `id` 升序）、`sha256`、`diffCatalogs` / `applyDeltaToCatalog`、manifest 校验 |
+| `lib/http.mjs`                           | 107   | 统一容错层。**反转白名单**：404/410 = 终态不重试，2xx 交给语义校验，**其余一切**（444、403 挑战、429、5xx、超时、连接重置）一律指数退避重试——反爬 WAF 换状态码也不影响行为                                                                         |
+| `scripts/plan_run.mjs`                   | 180   | 规划器，产出 `plan.json` + 分片任务文件；索引拉不到就 **fail-fast**，绝不回退写死分片数                                                                                                                         |
+| `scripts/build_shard.mjs`                | 234   | 单分片单 part 抓取器，产出 `shard_X.partY.json` + `_report.json`（含 `goneIds` / `invalidIds` / 缺口统计）                                                                                          |
+| `scripts/merge_catalog.mjs`              | 255   | 合并 + Delta 生成 + Level-9 gzip + 全局阈值把关                                                                                                                                              |
+| `scripts/test_incremental_e2e.mjs`       | 360   | 本地 Mock 上游 + Mock Release 的端到端测试，11 项断言（规划精确到 50 条、零冗余请求、Delta 增删改精准、Delta 损坏降级全量、网络全挂时**零坏账**）                                                                                    |
+| `README.md` / `AGENTS.md`                | 42/40 | 前者面向数据使用者，后者是给 AI 编码代理看的架构说明                                                                                                                                                       |
 
 ## 数据来源与处理流程
 
