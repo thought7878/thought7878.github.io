@@ -46897,11 +46897,11 @@
     "cursor": {
       "from": {
         "line": 123,
-        "ch": 33
+        "ch": 22
       },
       "to": {
         "line": 123,
-        "ch": 33
+        "ch": 22
       }
     },
     "expandedKeys": [
@@ -47277,6 +47277,57 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/10/2026-10-30.md": {
+    "scroll": 29.055338541666668,
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 0
+      },
+      "to": {
+        "line": 31,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/工具/hongguo-drama/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 16
+      },
+      "to": {
+        "line": 0,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/工具/hongguo-drama/外部数据源的接口.md": {
+    "scroll": 156.88398115729188,
+    "cursor": {
+      "from": {
+        "line": 163,
+        "ch": 51
+      },
+      "to": {
+        "line": 163,
+        "ch": 51
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-4",
+      "item-2-69",
+      "item-2-5",
+      "item-2-8",
+      "item-2-12"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/10/2026-10-31.md": {
     "scroll": 23.759805411979325,
     "cursor": {
       "from": {
