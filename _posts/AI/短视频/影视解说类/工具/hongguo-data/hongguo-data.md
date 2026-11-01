@@ -1,3 +1,132 @@
+# 1
+>请全面介绍这个项目，包括其整体目标与用途、核心功能模块、技术架构与所用技术栈、目录结构与关键文件说明、主要业务流程、配置与运行方式，以及依赖关系和可扩展点，并指出需要注意的限制或潜在问题。
+
+
+## 一句话结论
+
+`hongguo-data` 是一个零依赖的 Node.js 数据管道：*从红果短剧官网 Sitemap 动态发现全部分片，只抓取有变动的剧集，合并成一份带 SHA256 校验的全量索引 + 增量补丁，通过 GitHub Releases 每天凌晨自动发布，供下游（`hongguo-web` 的 SQLite 同步脚本）消费*。
+
+---
+
+## 1. 整体目标与用途
+
+- **目标**：把 hongguoduanju.com 的全站短剧元数据（约 57.5 万部）维护成一份**可增量更新、可校验、可分发**的公共数据集。
+- **用途**：作为下游 Web 服务/App 的离线索引底座。下游不直接爬官网，只吃 Releases 里的 `catalog.delta.json.gz`（1–3 MB）或 `catalog.json.gz`（~35 MB gz / ~80 MB 明文）。
+- **核心取舍**：不追求"每次全量重抓"，而是用 `lastmod` 做精确差分 —— 正常日更只抓几十到几百条，周日做一次全量审计修正偏差。
+
+## 2. 技术栈与架构
+
+| 维度 | 选型 |
+|---|---|
+| 运行时 | Node.js ≥ 18（用原生 `fetch`、`AbortSignal.timeout`），CI 固定 Node 20 |
+| 模块体系 | 纯 ESM（`"type": "module"`） |
+| 第三方依赖 | **零**。只用 `node:fs / path / zlib / crypto / stream / http / child_process` |
+| 压缩 | `zlib` Level-9 Gzip，流式 `pipeline` 写盘 |
+| 校验 | SHA256（`catalog_hash` 内容哈希 + `source_hash` 状态哈希） |
+| CI/CD | GitHub Actions：`cron 0 19 * * *`（UTC）= 北京时间 03:00 |
+| 分发 | GitHub Releases（`full-YYYYMMDD` tag，`--latest`） |
+| 并行模型 | GHA matrix（分片 × part）+ 进程内 worker pool + 游标抢占 |
+
+**流水线**：
+
+```
+Sitemap 总索引 index.xml ──动态发现──> [28 个分片] index1..indexN.xml
+        │
+   plan_run.mjs ── 比对 baseline source_manifest 的 (id,lastmod,status)
+        │            ├─ unchanged=true → 直接终止，0 抓取
+        │            └─ 否则生成 plan.json + 112 个 plan_<shard>_<part>.json
+        ▼
+   build_shard.mjs × 112 (matrix) ── 只抓 plan 内 ID，走 SSR loader 接口
+        │            产物：shard_S.partP.json + _report.json（含 goneIds/invalidIds）
+        ▼
+   merge_catalog.mjs ── 基线复用 + 严格归因 + Delta 差集 + 全局缺口阈值
+        ▼
+   catalog.json.gz / catalog.delta.json.gz / source_manifest.json.gz / summary.json
+        ▼
+   gh release create（同日重复则先 delete --cleanup-tag）
+```
+
+## 3. 目录与关键文件
+
+| 文件 | 行数 | 职责 |
+|---|---|---|
+| `lib/catalog_util.js` | 239 | **数据契约中心**。`CATALOG_SCHEMA=2`；卡片规范化 `normalizeCard`（intro 截 50 字、tags 截 6 个）；封面 CDN 域名归一（`pN-novel` → `p3-novel`）；雪花 ID 反解日期 `idToDate`；Sitemap 解析；FNV-1a 稳定分桶 `partForId`；规范化 + SHA256（`catalogHash`/`sourceHash`）；`diffCatalogs` / `applyDeltaToCatalog`（对 delta 做严格重复/非法校验） |
+| `lib/http.mjs` | 107 | **容错层**。反转白名单分类：404/410 → `gone` 终态；2xx → ok；**其余一切可重试**（444/403/429/5xx/超时/DNS）；指数退避 + 抖动、`retry-after` 尊重；全局熔断器 `createBreaker`（滑动窗口失败率 ≥50% → 全体冷却 15s 起，翻倍至 120s） |
+| `scripts/plan_run.mjs` | 180 | 规划器。读总索引拿分片列表（拉不到就 fail-fast，**绝不回退写死分片数**）；拉全部 sitemap；跨分片重复 ID 取最大 `lastmod`；输出 plan + 每 part 子计划 + `unchanged` 短路标志 |
+| `scripts/build_shard.mjs` | 234 | 抓取器。并发 ≤10、默认 6；`--delay 80ms`；`--max-runtime 40` 自管 deadline（到点落盘交差，不赌 CI 超时）；断点恢复（只认本 plan 内的 ID）；语义级可重试分类 `bad_payload / loader_fail / no_seriesDetail`；失败项集中重试 2 轮（并发降到 2）；每 200 条或 30s 落盘 |
+| `scripts/merge_catalog.mjs` | 255 | 合并器。以**当前 sitemap 为唯一真相**组装全量；四类归因：新抓 / 基线复用 / 失败暂留旧卡 / 下架删除；全局缺口 >0.5% 直接拒绝发布；产出全量、Delta、Source Manifest、Summary |
+| `scripts/test_incremental_e2e.mjs` | 360 | 端到端测试（1000 条基线 → 删10/改20/增30；Mock 上游 + Mock Release；含"delta 损坏回退全量""网络全挂零坏账"两组容错断言） |
+| `.github/workflows/build-all-shards.yml` | 256 | `plan → shard(matrix) → merge → release` 四段式编排 |
+
+## 4. 主要业务流程的关键设计
+
+- **Sitemap 是唯一真相源**：分片数、条目存在性都来自上游索引。找不到就报错，不猜。
+- **`source_manifest` 是状态真相表**：每个 ID 记 `[id, lastmod, status]`，`status ∈ {ok, gone, invalid}`。`invalid` 是"下一轮必须重抓"的标记，这是增量正确性的锚点。
+- **三层容错分工**（这块设计是精心想过的）：
+  - `build_shard`：局部缺口只告警，只有"一条都没抓到且非超时"才 exit 1；
+  - `merge`：单分片产物缺失降级为 `invalid`，不阻断其余 100+ 分片；
+  - 全局：`gapCount / sitemapTotal > 0.5%` 才拒绝发布。注释里明确写了教训——局部 8% 阈值曾把 19.7% 缺口的分片判死，导致 99 个成功分片全部无法发布。
+- **确定性**：`canonicalCatalog` 统一排序（`new_at` 降序 → `id`），`normalizeCard` 固定键序，保证同样数据 → 同样字节 → 同样 hash。这是 Delta 和下游校验的前提。
+- **CI 状态机细节**：`if: ${{ !cancelled() && needs.plan.result == 'success' && unchanged != 'true' }}` —— 用 `!cancelled()` 而非 `always()`，堵住"手动取消后 merge 照样发布残缺包"的漏洞。这条在 commit 里是修过的。
+
+## 5. 配置与运行
+
+```bash
+# 1) 规划（本地可用 --sitemap-dir 走离线 XML）
+node scripts/plan_run.mjs --out-dir ./plan \
+  --baseline-manifest ./baseline/source_manifest.json.gz --parts 4 --mode incremental
+
+# 2) 抓取单个 (shard, part)
+node scripts/build_shard.mjs --shard 1 --part 0 \
+  --plan-file ./plan/plan_1_0.json --out-dir ./shards \
+  --concurrency 6 --delay 80 --max-runtime 40
+
+# 3) 合并发布包
+node scripts/merge_catalog.mjs --plan-file ./plan/plan.json \
+  --in-dir ./shards --out-dir ./dist --baseline-catalog ./baseline/catalog.json.gz
+```
+
+GHA 手动触发参数：`mode`(incremental/full)、`concurrency`、`limit`（实验用，限每 part 抓 N 条）、`publish`。`mode=full` 或**每周日**自动升格为全量审计，但仍携带 baseline 以保证产出 Delta（否则下游退化为 80 MB 全量下载）。
+
+## 6. 可扩展点
+
+1. **加字段**：`normalizeCard` + `parseCard` 两处同改，`CATALOG_SCHEMA` 升版即可（下游按 schema 判兼容）。
+2. **加数据源**：`plan_run` 的 `loadSitemaps` 与 `build_shard` 的 `parseCard` 是仅有的两处站点耦合，加个 adapter 层就能接第二个站。
+3. **改分片粒度**：`--parts` 与 workflow matrix 的 `part: [0,1,2,3]` 目前需人工同步，可改成由 plan 输出 `parts` 再 `fromJSON`。
+4. **多版本增量链**：`diffCatalogs` 已具备能力，可改为按 `from_tag → to_tag` 生成链式补丁，避免下游落后两版只能下全量。
+5. **指标输出**：`summary.json` 里加 `gone_count`、`retained_stale_count`、`breaker_trips`，就能接监控告警。
+
+## 7. 需要注意的限制与潜在问题
+
+**高风险（建议尽快处理）**
+
+1. **`gone` 没有比例守卫。** `merge_catalog.mjs` 只对 `invalid` 缺口设了 0.5% 阈值，对 `gone`（404/410 直接删卡）零限制。若上游 WAF 或 CDN 抖动对全站返回 404，`lib/http.mjs` 会把它判成"内容确实不存在"的终态，**整库被清空仍能通过阈值正常发布**。这是我最担心的一条。
+2. **Sitemap 缩水无校验。** 若某个分片临时只返回部分条目，这些 ID 会从 `sitemap_entries` 消失 → 直接不进最终 catalog → 静默发布。缺少"总量环比骤降"熔断。
+3. **`README.md` 的命令与代码不符。** 里面写的 `--baseline`、`--parts`、`--full`（`build_shard`）和 `--from-tag`（`merge_catalog`）在代码里都不存在，照抄会直接报错。`AGENTS.md` 的命令是对的，README 是旧的。
+
+**中风险**
+
+4. **端到端测试在本机跑不起来。** `test_incremental_e2e.mjs` 硬编码 `/mnt/data/code/namehere/hongguo-data/scripts/...` 和 `/mnt/data/code/namehere/hongguo-web/lib/catalog_db.js`（另一台开发机的路径）。我实测直接 `MODULE_NOT_FOUND`。且它依赖 `hongguo-web` 的 `build_sqlite_catalog.mjs`，跨仓库耦合，而当前 `hongguo-web` 里已没有该文件。
+5. **`invalid` 的旧卡会长期陈旧。** 变更项抓取失败时保留基线旧卡，若某条持续失败，catalog 里会长期挂过期元数据，且没有任何出口指标。
+6. **`lastmod` 失真即漏更。** 站点若不改 `lastmod` 而改内容，增量永远抓不到 —— 这正是周日全量审计存在的原因，属已知补偿，但要确保审计不被跳过。另外 `unchanged=true` 当天完全不出 Release，下游这天拿不到"无变化"的信号。
+7. **`parts=4` 双份硬编码**（plan 的 `--parts` 与 workflow matrix），改一处忘另一处会造成产物与归因错位。
+8. **资源边界。** plan job 串行拉 28 个 sitemap + 三次全量排序 57.5 万条（`normalizeManifestEntries` 在 `plan_run` 里被调了 3 次，可优化为 1 次），20 分钟超时不算宽裕；merge 全量驻留内存，实测需 ≥1 GB。112 个 matrix job 也会受 GitHub 免费额度并发（20）限制排队。
+9. **合规风险。** UA 伪装成 Chrome、112 job × 6 并发对单站施压、无 `robots.txt` 校验。这是数据获取链路上最需要哥哥自己拍板的部分。
+
+**低风险**
+
+10. `ch` 字段恒为 `''`，是遗留占位；`intro` 截 50 字、`tags` 截 6 个都是有损压缩，下游无法还原。
+11. 落盘用 `writeFileSync` 直覆盖，非原子写；断电可能留下半截文件（好在 merge 有 hash 自检兜底）。
+12. 仓库无 lint / 无类型 / 无单测框架，只有脚本式 e2e（且已失效）。`keepalive.yml` 被有意移除、依赖外部 `agentscope-keepalive` 中央守望 —— 若那套挂了，60 天无活动 GitHub 会停掉定时任务。
+13. README 体积描述自相矛盾：规格段写 gz `~35 MB`，下载段写 `~80 MB`。
+
+---
+
+哥哥要是要，我可以先把第 1、2、3 条修掉（gone 比例守卫 + sitemap 总量熔断 + README 对齐代码），改动都很小，风险可控。
+
+
+# 2
+
 >请详细介绍 GitHub 项目 github.com/wmefanit/hongguo-data ，包括项目的主要用途和目标、核心功能与技术架构、目录结构及关键模块的职责、数据来源与处理流程、依赖项和运行方式，以及适用场景与使用注意事项。
 
 ## 一句话定位
