@@ -27,7 +27,21 @@
 | 分发 | GitHub Releases（`full-YYYYMMDD` tag，`--latest`） |
 | 并行模型 | GHA matrix（分片 × part）+ 进程内 worker pool + 游标抢占 |
 
-**流水线**：
+## 3. 目录与关键文件
+
+| 文件                                       | 行数  | 职责                                                                                                                                                                                                                                                                             |
+| ---------------------------------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `lib/catalog_util.js`                    | 239 | **数据契约中心**。`CATALOG_SCHEMA=2`；卡片规范化 `normalizeCard`（intro 截 50 字、tags 截 6 个）；封面 CDN 域名归一（`pN-novel` → `p3-novel`）；雪花 ID 反解日期 `idToDate`；Sitemap 解析；FNV-1a 稳定分桶 `partForId`；规范化 + SHA256（`catalogHash`/`sourceHash`）；`diffCatalogs` / `applyDeltaToCatalog`（对 delta 做严格重复/非法校验） |
+| `lib/http.mjs`                           | 107 | **容错层**。反转白名单分类：404/410 → `gone` 终态；2xx → ok；**其余一切可重试**（444/403/429/5xx/超时/DNS）；指数退避 + 抖动、`retry-after` 尊重；全局熔断器 `createBreaker`（滑动窗口失败率 ≥50% → 全体冷却 15s 起，翻倍至 120s）                                                                                                          |
+| `scripts/plan_run.mjs`                   | 180 | 规划器。读总索引拿分片列表（拉不到就 fail-fast，**绝不回退写死分片数**）；拉全部 sitemap；跨分片重复 ID 取最大 `lastmod`；输出 plan + 每 part 子计划 + `unchanged` 短路标志                                                                                                                                                         |
+| `scripts/build_shard.mjs`                | 234 | 抓取器。并发 ≤10、默认 6；`--delay 80ms`；`--max-runtime 40` 自管 deadline（到点落盘交差，不赌 CI 超时）；断点恢复（只认本 plan 内的 ID）；语义级可重试分类 `bad_payload / loader_fail / no_seriesDetail`；失败项集中重试 2 轮（并发降到 2）；每 200 条或 30s 落盘                                                                                 |
+| `scripts/merge_catalog.mjs`              | 255 | 合并器。以**当前 sitemap 为唯一真相**组装全量；四类归因：新抓 / 基线复用 / 失败暂留旧卡 / 下架删除；全局缺口 >0.5% 直接拒绝发布；产出全量、Delta、Source Manifest、Summary                                                                                                                                                              |
+| `scripts/test_incremental_e2e.mjs`       | 360 | 端到端测试（1000 条基线 → 删10/改20/增30；Mock 上游 + Mock Release；含"delta 损坏回退全量""网络全挂零坏账"两组容错断言）                                                                                                                                                                                            |
+| `.github/workflows/build-all-shards.yml` | 256 | `plan → shard(matrix) → merge → release` 四段式编排                                                                                                                                                                                                                                 |
+
+## 4. 主要业务流程的关键设计
+
+**流程**：
 
 ```
 Sitemap 总索引 index.xml ──动态发现──> [28 个分片] index1..indexN.xml
@@ -45,20 +59,6 @@ Sitemap 总索引 index.xml ──动态发现──> [28 个分片] index1..ind
         ▼
    gh release create（同日重复则先 delete --cleanup-tag）
 ```
-
-## 3. 目录与关键文件
-
-| 文件 | 行数 | 职责 |
-|---|---|---|
-| `lib/catalog_util.js` | 239 | **数据契约中心**。`CATALOG_SCHEMA=2`；卡片规范化 `normalizeCard`（intro 截 50 字、tags 截 6 个）；封面 CDN 域名归一（`pN-novel` → `p3-novel`）；雪花 ID 反解日期 `idToDate`；Sitemap 解析；FNV-1a 稳定分桶 `partForId`；规范化 + SHA256（`catalogHash`/`sourceHash`）；`diffCatalogs` / `applyDeltaToCatalog`（对 delta 做严格重复/非法校验） |
-| `lib/http.mjs` | 107 | **容错层**。反转白名单分类：404/410 → `gone` 终态；2xx → ok；**其余一切可重试**（444/403/429/5xx/超时/DNS）；指数退避 + 抖动、`retry-after` 尊重；全局熔断器 `createBreaker`（滑动窗口失败率 ≥50% → 全体冷却 15s 起，翻倍至 120s） |
-| `scripts/plan_run.mjs` | 180 | 规划器。读总索引拿分片列表（拉不到就 fail-fast，**绝不回退写死分片数**）；拉全部 sitemap；跨分片重复 ID 取最大 `lastmod`；输出 plan + 每 part 子计划 + `unchanged` 短路标志 |
-| `scripts/build_shard.mjs` | 234 | 抓取器。并发 ≤10、默认 6；`--delay 80ms`；`--max-runtime 40` 自管 deadline（到点落盘交差，不赌 CI 超时）；断点恢复（只认本 plan 内的 ID）；语义级可重试分类 `bad_payload / loader_fail / no_seriesDetail`；失败项集中重试 2 轮（并发降到 2）；每 200 条或 30s 落盘 |
-| `scripts/merge_catalog.mjs` | 255 | 合并器。以**当前 sitemap 为唯一真相**组装全量；四类归因：新抓 / 基线复用 / 失败暂留旧卡 / 下架删除；全局缺口 >0.5% 直接拒绝发布；产出全量、Delta、Source Manifest、Summary |
-| `scripts/test_incremental_e2e.mjs` | 360 | 端到端测试（1000 条基线 → 删10/改20/增30；Mock 上游 + Mock Release；含"delta 损坏回退全量""网络全挂零坏账"两组容错断言） |
-| `.github/workflows/build-all-shards.yml` | 256 | `plan → shard(matrix) → merge → release` 四段式编排 |
-
-## 4. 主要业务流程的关键设计
 
 - **Sitemap 是唯一真相源**：分片数、条目存在性都来自上游索引。找不到就报错，不猜。
 - **`source_manifest` 是状态真相表**：每个 ID 记 `[id, lastmod, status]`，`status ∈ {ok, gone, invalid}`。`invalid` 是"下一轮必须重抓"的标记，这是增量正确性的锚点。
