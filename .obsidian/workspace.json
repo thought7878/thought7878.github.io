@@ -825,6 +825,36 @@
           }
         ],
         "currentTab": 33
+      },
+      {
+        "id": "4c5d368322265bae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b968bddf151a78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/短视频/影视解说类/红果/字段解析.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "字段解析"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -896,7 +926,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.61053466796875
+    "width": 257.61053466796875,
+    "collapsed": true
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -970,11 +1001,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -993,10 +1025,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "3b968bddf151a78b",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/红果/字段解析.md",
     "_posts/AI/短视频/影视解说类/工具/我的/构建.md",
+    "_posts/AI/短视频/影视解说类/红果/字段解析.md",
     "_posts/AI/短视频/影视解说类/工具/我的",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/流程.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/hongguo-data 1.md",
