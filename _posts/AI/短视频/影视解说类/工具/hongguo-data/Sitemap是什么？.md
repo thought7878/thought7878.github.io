@@ -56,13 +56,17 @@
 
 ## 三层含义
 
-1. **只有索引，没有内容。** Sitemap 只告诉你“有个 `/player/7601...` 这个页面”，剧名、封面、集数一概没有。所以*这个项目必须分两步走：*
-	1. 先从 sitemap 拿 ID 全表，
-	2. 再逐个去请求 `/player/<id>` 并带上 `__ssrDirect=true`，才能拿到`seriesDetail` 字段。
+### 只有索引，没有内容
+Sitemap 只告诉你“有个 `/player/7601...` 这个页面”，剧名、封面、集数一概没有。所以**这个项目必须分两步走：**
+1. 先从 sitemap 拿 ID 全表，
+2. 再逐个去请求 `/player/<id>` 并带上 `__ssrDirect=true`，才能拿到`seriesDetail` 字段。
 
-2. **为什么要分片。** 协议给单个 sitemap 的上限是 5 万条 URL / 50 MB（未压缩），57.5 万部必须拆分。拆完后入口变成「sitemap index」，也就是总索引：它只列 `<loc>`，指向 `index1.xml`、`index2.xml`…，最多再带个 `lastmod`。这就是 `parseSitemapIndex()` 读取的那个文件。
+### 为什么要分片
+协议给*单个 sitemap 的上限是 5 万条 URL* / 50 MB（未压缩），57.5 万部必须拆分。*拆完后入口变成「sitemap index」，也就是总索引：它只列 `<loc>`，指向* `index1.xml`、`index2.xml`…，最多再带个 `lastmod`。这就是 `parseSitemapIndex()` 读取的那个文件。
 
-3. **`lastmod` 才是这个项目的核心。** 整条增量链路完全建立在它上面：
+
+### `lastmod` 才是这个项目的核心
+整条增量链路完全建立在它上面：
    - `plan_run.mjs` 把今天的 `(id, lastmod)` 全表与上一版 `source_manifest` 逐条比对；
    - `lastmod` 没变 → 复用基线，`fetch_count` 不增加；
    - 变了 / 新出现 / 上次状态是 `invalid` → 才进抓取队列；
