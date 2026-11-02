@@ -116,7 +116,7 @@
 ---
 
 ## 三、系统架构与数据流
-
+ 
 ```
 浏览器 (web/index.html + app.js + styles.css)
         │  ① GET /api-key        自动签发本地密钥
