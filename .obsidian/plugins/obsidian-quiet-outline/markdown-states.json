@@ -3068,20 +3068,21 @@
     ]
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 492.7897135416667,
+    "scroll": 653.869140625,
     "cursor": {
       "from": {
-        "line": 515,
-        "ch": 9
+        "line": 664,
+        "ch": 0
       },
       "to": {
-        "line": 515,
-        "ch": 9
+        "line": 664,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-24",
-      "item-1-2"
+      "item-1-2",
+      "item-2-54"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -38025,14 +38026,14 @@
     ]
   },
   "_posts/要整理的.md": {
-    "scroll": 0,
+    "scroll": 67.40447832301096,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 74,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 74,
         "ch": 0
       }
     },
@@ -45510,15 +45511,15 @@
     "expandedKeys": []
   },
   "_posts/读书笔记/兴趣/电影.md": {
-    "scroll": 0,
+    "scroll": 25.110677083333332,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 9
+        "line": 43,
+        "ch": 20
       },
       "to": {
-        "line": 8,
-        "ch": 9
+        "line": 43,
+        "ch": 20
       }
     },
     "expandedKeys": []
@@ -47377,28 +47378,28 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/红果/字段解析.md": {
-    "scroll": 224.35096605902515,
+    "scroll": 169.91845488841716,
     "cursor": {
       "from": {
-        "line": 200,
-        "ch": 18
+        "line": 174,
+        "ch": 30
       },
       "to": {
-        "line": 200,
-        "ch": 18
+        "line": 174,
+        "ch": 30
       }
     },
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-01.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 25.388671875,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -47498,15 +47499,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/工具/我的/构建.md": {
-    "scroll": 156.56017671653493,
+    "scroll": 155.3785306670503,
     "cursor": {
       "from": {
-        "line": 167,
-        "ch": 38
+        "line": 166,
+        "ch": 86
       },
       "to": {
-        "line": 167,
-        "ch": 38
+        "line": 166,
+        "ch": 86
       }
     },
     "expandedKeys": [
@@ -47514,5 +47515,49 @@
       "item-1-7",
       "item-2-9"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-02.md": {
+    "scroll": 22.825782912739434,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现工具/未命名.md": {
+    "scroll": 169.91845488841716,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md": {
+    "scroll": 0.8373983739837398,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 2
+      },
+      "to": {
+        "line": 6,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
   }
 }

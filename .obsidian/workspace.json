@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/要整理的.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-01.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-01"
+              "title": "2026-11-02"
             }
           },
           {
@@ -822,21 +822,14 @@
               "icon": "lucide-file",
               "title": "构建"
             }
-          }
-        ],
-        "currentTab": 33
-      },
-      {
-        "id": "4c5d368322265bae",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "3b968bddf151a78b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/红果/字段解析.md",
+                "file": "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -851,10 +844,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "字段解析"
+              "title": "AI 配音怎么做"
             }
           }
-        ]
+        ],
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -926,8 +920,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.61053466796875,
-    "collapsed": true
+    "width": 257.61053466796875
   },
   "right": {
     "id": "c697cfd0554083df",
@@ -1001,12 +994,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1027,24 +1019,29 @@
   },
   "active": "3b968bddf151a78b",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/工具/我的/构建.md",
+    "_posts/AI/短视频/影视解说类/实现工具/media/64d0c275c721368c44fb2bb2c4024b62_MD5.webp",
+    "_posts/AI/短视频/影视解说类/实现工具/media",
     "_posts/AI/短视频/影视解说类/红果/字段解析.md",
+    "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
+    "_posts/AI/短视频/影视解说类/视频制作",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-02.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-01.md",
+    "_posts/methods/要整理的.md",
+    "_posts/要整理的.md",
+    "_posts/读书笔记/兴趣/电影.md",
+    "_posts/AI/短视频/影视解说类/工具/我的/构建.md",
     "_posts/AI/短视频/影视解说类/工具/我的",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/流程.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/hongguo-data 1.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/hongguo-data.md",
     "DailyNote/Journal/01 Daily/2026/11/media",
     "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-01.md",
     "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/Sitemap是什么？.md",
     "_posts/AI/短视频/影视解说类/实现工具",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data",
     "DailyNote/Journal/01 Daily/2026/10/2026-10-31.md",
     "DailyNote/Journal/01 Daily/2026/11",
-    "_posts/methods/要整理的.md",
-    "_posts/读书笔记/兴趣/电影.md",
-    "_posts/要整理的.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-drama/外部数据源接口 详解.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-drama/外部数据源的接口.md",
     "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v3.0.md",
@@ -1056,13 +1053,8 @@
     "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v1.0.md",
     "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v0.0.md",
     "_posts/AI/短视频/影视解说类/需求分析/热度榜 实现方案 v1.0.md",
-    "_posts/methods/常看的.md",
-    "_posts/AI/短视频/影视解说类/红果/红果短剧榜单说明.md",
-    "_posts/AI/短视频/影视解说类/获取数据/影视平台.md",
     "_posts/AI/短视频/影视解说类/需求分析",
     "_posts/AI/短视频/影视解说类/红果",
-    "_posts/AI/短视频/影视解说类/获取数据",
-    "_posts/AI/短视频/影视解说类/工具",
     "_posts/engineering/_教程/软件工程之美/原文/06-需求分析篇 (5讲)/Untitled Diagram.svg",
     "_posts/engineering/_教程/软件工程之美/原文/media/a61a95b8ef5be7029b89b69dcf4c9a55_MD5.png",
     "_posts/engineering/_教程/软件工程之美/原文/media/ebe77cdad1ca391be781e216a3935fd0_MD5.png",
