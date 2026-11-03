@@ -47524,14 +47524,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-02.md": {
-    "scroll": 22.825782912739434,
+    "scroll": 27.789741847826086,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -47554,17 +47554,35 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md": {
-    "scroll": 0.8373983739837398,
+    "scroll": 19.478515625,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 12
+        "line": 33,
+        "ch": 11
       },
       "to": {
-        "line": 4,
-        "ch": 12
+        "line": 33,
+        "ch": 11
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-03.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
