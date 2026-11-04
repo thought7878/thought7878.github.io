@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
+                "file": "_posts/AI/短视频/影视解说类/工具/视频素材处理/裁剪.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 配音怎么做"
+              "title": "裁剪"
             }
           }
         ],
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1017,15 +1017,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
+    "_posts/AI/短视频/影视解说类/工具/视频素材处理/裁剪.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音/Seed Audio 1.0/定音色.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音/读法规则.md",
+    "_posts/AI/短视频/影视解说类/工具/视频素材处理",
     "_posts/AI/短视频/影视解说类/工具/我的/构建.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-04.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-03.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音/Seed Audio 1.0",
-    "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音",
     "_posts/AI/短视频/影视解说类/实现工具/media/07fa968c412d18d754d05cc375346ce8_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现工具/media/c9a497b832eac5aeb974c07df23ba118_MD5.webp",
@@ -1063,8 +1065,6 @@
     "DailyNote/Journal/01 Daily/2026/11",
     "_posts/AI/短视频/影视解说类/工具/hongguo-drama/外部数据源接口 详解.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-drama/外部数据源的接口.md",
-    "DailyNote/Journal/01 Daily/2026/10/2026-10-30.md",
-    "_posts/AI/短视频/影视解说类/工具/hongguo-drama",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
