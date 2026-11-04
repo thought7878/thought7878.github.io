@@ -47217,12 +47217,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 34
+        "line": 11,
+        "ch": 28
       },
       "to": {
-        "line": 3,
-        "ch": 34
+        "line": 11,
+        "ch": 28
       }
     },
     "expandedKeys": [
@@ -47555,15 +47555,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md": {
-    "scroll": 38.86311961371554,
+    "scroll": 19.395182291666668,
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 7
+        "line": 28,
+        "ch": 0
       },
       "to": {
-        "line": 45,
-        "ch": 7
+        "line": 28,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -47694,6 +47694,20 @@
       "to": {
         "line": 40,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现工具/AI 视频、配音、字幕.md": {
+    "scroll": 19.395182291666668,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 11
+      },
+      "to": {
+        "line": 25,
+        "ch": 11
       }
     },
     "expandedKeys": []
