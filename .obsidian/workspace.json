@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/工具/视频素材处理/裁剪.md",
+                "file": "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v2.0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "裁剪"
+              "title": "影视推荐博主-整体落地方案 v2.0"
             }
           }
         ],
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1017,10 +1017,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "3b968bddf151a78b",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
+    "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v3.0.md",
     "_posts/AI/短视频/影视解说类/工具/视频素材处理/裁剪.md",
+    "_posts/AI/短视频/影视解说类/实现工具/AI 配音怎么做.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音/Seed Audio 1.0/定音色.md",
     "_posts/AI/短视频/影视解说类/工具/文字转语音/读法规则.md",
     "_posts/AI/短视频/影视解说类/工具/视频素材处理",
@@ -1046,7 +1047,6 @@
     "_posts/AI/短视频/影视解说类/红果/字段解析.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/hongguo-data 1.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-data/流程.md",
-    "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v3.0.md",
     "_posts/AI/短视频/影视解说类/实现工具/media/64d0c275c721368c44fb2bb2c4024b62_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现工具/media",
     "_posts/AI/短视频/影视解说类/视频制作",
