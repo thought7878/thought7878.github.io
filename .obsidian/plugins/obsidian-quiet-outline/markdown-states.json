@@ -45917,12 +45917,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 58
+        "line": 0,
+        "ch": 37
       },
       "to": {
-        "line": 1,
-        "ch": 58
+        "line": 0,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -47217,12 +47217,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 28
+        "line": 3,
+        "ch": 67
       },
       "to": {
-        "line": 11,
-        "ch": 28
+        "line": 3,
+        "ch": 1
       }
     },
     "expandedKeys": [
@@ -47279,12 +47279,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 66
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 66
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -47655,14 +47655,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-04.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.076171875,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -47699,7 +47699,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现工具/AI 视频、配音、字幕.md": {
-    "scroll": 19.395182291666668,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 25,
@@ -47708,6 +47708,66 @@
       "to": {
         "line": 25,
         "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/账号名、.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 85
+      },
+      "to": {
+        "line": 0,
+        "ch": 85
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/账号名、账号简介、.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 161
+      },
+      "to": {
+        "line": 0,
+        "ch": 161
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/账号名、账号简介、视频开场介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 18
+      },
+      "to": {
+        "line": 19,
+        "ch": 18
       }
     },
     "expandedKeys": []
