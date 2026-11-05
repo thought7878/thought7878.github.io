@@ -45918,11 +45918,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 37
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 37
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -47225,16 +47225,7 @@
         "ch": 1
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-1-6",
-      "item-2-8",
-      "item-2-13",
-      "item-2-18",
-      "item-2-21",
-      "item-2-26",
-      "item-2-30"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v1.0.md": {
     "scroll": 197.33919270833334,
@@ -47699,19 +47690,21 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现工具/AI 视频、配音、字幕.md": {
-    "scroll": 0,
+    "scroll": 58.08645341688811,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 11
+        "line": 49,
+        "ch": 0
       },
       "to": {
-        "line": 25,
-        "ch": 11
+        "line": 49,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-1-6",
+      "item-2-7"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md": {
@@ -47759,15 +47752,43 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/账号名、账号简介、视频开场介绍.md": {
-    "scroll": 0,
+    "scroll": 0.25146198830409355,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 18
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 19,
-        "ch": 18
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实践 1.0.md": {
+    "scroll": 0.010101010101010102,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 157
+      },
+      "to": {
+        "line": 7,
+        "ch": 157
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md": {
+    "scroll": 0.010101010101010102,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 68
+      },
+      "to": {
+        "line": 5,
+        "ch": 68
       }
     },
     "expandedKeys": []
