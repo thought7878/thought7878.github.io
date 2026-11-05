@@ -1,6 +1,6 @@
 让AI写代码做动画
 
-![[_posts/AI/短视频/影视解说类/工具/动画/media/f303cc86f7aa548da9cbc3d1a169f81f_MD5.webp]]
+![[f303cc86f7aa548da9cbc3d1a169f81f_MD5.webp]]
 
 # 为什么用代码来画
 
