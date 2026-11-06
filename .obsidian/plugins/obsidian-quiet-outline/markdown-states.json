@@ -47707,15 +47707,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.742838541666668,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -47863,18 +47863,21 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/合并音频、视频、字幕.md": {
-    "scroll": 0.7777777777777778,
+    "scroll": 12.815266927083334,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 29,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 29,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除音轨.md": {
     "scroll": 0.3939393939393939,
@@ -47889,5 +47892,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 61
+      },
+      "to": {
+        "line": 12,
+        "ch": 61
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-06.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
