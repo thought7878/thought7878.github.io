@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 视频、配音、字幕"
+              "title": "1.开场介绍 制作"
             }
           }
         ],
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1017,8 +1017,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md",
     "_posts/AI/短视频/影视解说类/实现流程/合并音频、视频、字幕.md",
     "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/logo.md",
@@ -1036,7 +1037,6 @@
     "_posts/AI/短视频/影视解说类/实现流程/media/ca1e0924cecc88df1894b28be35e2d1b_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/未命名",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md",
-    "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除音轨.md",
     "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
     "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md",
