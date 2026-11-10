@@ -48056,7 +48056,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md": {
-    "scroll": 58.28588362068965,
+    "scroll": 104.06462812299388,
     "cursor": {
       "from": {
         "line": 58,
@@ -48067,7 +48067,10 @@
         "ch": 136
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3",
+      "item-1-2"
+    ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/logo.md": {
     "scroll": 0,
@@ -48113,6 +48116,22 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
+    "scroll": 3,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 11
+      },
+      "to": {
+        "line": 20,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
