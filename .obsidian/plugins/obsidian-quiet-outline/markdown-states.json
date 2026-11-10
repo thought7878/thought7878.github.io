@@ -576,12 +576,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 90
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 3,
+        "ch": 90
       }
     },
     "expandedKeys": []
@@ -47134,11 +47134,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 4,
         "ch": 0
       }
     },
@@ -48056,21 +48056,18 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md": {
-    "scroll": 24.956521739130434,
+    "scroll": 58.28588362068965,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 101
+        "line": 30,
+        "ch": 26
       },
       "to": {
-        "line": 44,
-        "ch": 101
+        "line": 30,
+        "ch": 26
       }
     },
-    "expandedKeys": [
-      "item-1-2",
-      "item-2-3"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/logo.md": {
     "scroll": 0,
@@ -48087,15 +48084,31 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 27.23539402173913,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-10.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
       }
     },
     "expandedKeys": [

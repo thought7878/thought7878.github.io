@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-09"
+              "title": "2026-11-10"
             }
           },
           {
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1017,13 +1017,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "3b968bddf151a78b",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-10.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md",
+    "_posts/methods/常看的.md",
+    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
+    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
     "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md",
     "_posts/AI/短视频/影视解说类/实现流程/合并音频、视频、字幕.md",
-    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/logo.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-08.md",
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
@@ -1049,9 +1052,7 @@
     "_posts/AI/短视频/影视解说类/未命名",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-04.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/裁剪.md",
-    "_posts/AI/短视频/影视解说类/实现流程/文字转语音/读法规则.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-03.md",
     "_posts/AI/短视频/影视解说类/实现流程/文字转语音/Seed Audio 1.0",
     "_posts/AI/短视频/影视解说类/实现流程/文字转语音",
     "_posts/AI/短视频/影视解说类/实现流程/media/07fa968c412d18d754d05cc375346ce8_MD5.webp",
@@ -1062,7 +1063,6 @@
     "_posts/AI/短视频/影视解说类/实现流程/media/900152b28368656ce8720b9540906f08_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/media/57f11d7e291ede427279c9c0f52bc22a_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/media/cf1deac5bedf36564ee695210b2e5346_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-02.md",
     "_posts/AI/短视频/影视解说类/实现流程/media",
     "_posts/AI/短视频/影视解说类/视频制作",
     "未命名.canvas",
