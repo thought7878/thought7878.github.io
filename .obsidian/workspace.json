@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1017,9 +1017,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除字幕.md",
+    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
+    "_posts/AI/短视频/影视解说类/需求分析/media/ef6b71f16409cc0fc1cfebbadcca9856_MD5.webp",
+    "_posts/AI/短视频/影视解说类/需求分析/media",
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除音轨.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/裁剪.md",
@@ -1031,7 +1034,6 @@
     "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v3.0.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md",
     "_posts/methods/常看的.md",
-    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
     "_posts/AI/短视频/影视解说类/实现流程/logo.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-08.md",
     "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
@@ -1046,7 +1048,6 @@
     "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md",
     "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
     "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md",
-    "_posts/AI/短视频/影视解说类/类似账号.md",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media/f303cc86f7aa548da9cbc3d1a169f81f_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画",
@@ -1062,9 +1063,7 @@
     "_posts/AI/短视频/影视解说类/实现流程/media/665d5cea610e7ae0b30353fba6ac4397_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/media/900152b28368656ce8720b9540906f08_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/media/57f11d7e291ede427279c9c0f52bc22a_MD5.webp",
-    "_posts/AI/短视频/影视解说类/实现流程/media/cf1deac5bedf36564ee695210b2e5346_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/media",
-    "_posts/AI/短视频/影视解说类/视频制作",
     "未命名.canvas",
     "_posts/react/总结/核心概念、原理、源码/源码/教程/从0实现React18/Untitled.canvas",
     "_posts/engineering/未命名.canvas",
