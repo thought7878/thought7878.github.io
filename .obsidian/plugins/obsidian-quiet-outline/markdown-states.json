@@ -47866,35 +47866,36 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 21,
+        "line": 70,
         "ch": 0
       },
       "to": {
-        "line": 21,
+        "line": 70,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-2"
+      "item-2-2",
+      "item-1-8"
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除音轨.md": {
-    "scroll": 0.3939393939393939,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 227
+        "line": 13,
+        "ch": 22
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 13,
+        "ch": 22
       }
     },
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md": {
-    "scroll": 28.429036458333332,
+    "scroll": 85.8125,
     "cursor": {
       "from": {
         "line": 33,
@@ -47906,7 +47907,10 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-7",
+      "item-1-6",
+      "item-2-13"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-06.md": {
@@ -48119,20 +48123,18 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 119.50998263888889,
+    "scroll": 128.15266927083334,
     "cursor": {
       "from": {
-        "line": 132,
-        "ch": 34
+        "line": 138,
+        "ch": 175
       },
       "to": {
-        "line": 132,
-        "ch": 0
+        "line": 138,
+        "ch": 175
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-2",
       "item-1-8"
     ]
   },
@@ -48150,6 +48152,50 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/删除字幕.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/裁剪.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除字幕.md": {
+    "scroll": 3.9166666666666665,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 24
+      },
+      "to": {
+        "line": 29,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
     ]
   }
 }
