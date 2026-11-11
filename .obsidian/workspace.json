@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/methods/要整理的.md",
+                "file": "_posts/读书笔记/兴趣/电影.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "要整理的"
+              "title": "电影"
             }
           },
           {
@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-12.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-11"
+              "title": "2026-11-12"
             }
           },
           {
@@ -848,7 +848,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1017,12 +1017,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "62e8e30cf5238f23",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
-    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
-    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/methods/要整理的.md",
+    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-12.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md",
+    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
+    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除字幕.md",
     "_posts/AI/短视频/影视解说类/需求分析/media/ef6b71f16409cc0fc1cfebbadcca9856_MD5.webp",
     "_posts/AI/短视频/影视解说类/需求分析/media",
@@ -1030,7 +1032,6 @@
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/裁剪.md",
     "_posts/AI/短视频/影视解说类/实现流程/合并音频、视频、字幕.md",
     "_posts/AI/短视频/影视解说类/实现流程/AI 视频、配音、字幕.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-10.md",
     "_posts/AI/短视频/影视解说类/影视推荐博主-整体落地方案 v3.0.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-09.md",
@@ -1048,7 +1049,6 @@
     "_posts/AI/短视频/影视解说类/实现流程/未命名",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md",
     "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
-    "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media/f303cc86f7aa548da9cbc3d1a169f81f_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画",
