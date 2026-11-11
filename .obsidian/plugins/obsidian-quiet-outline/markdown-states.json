@@ -48103,15 +48103,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-10.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 23.604134995439342,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -48119,20 +48119,36 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 12.625,
+    "scroll": 7.782608695652174,
     "cursor": {
       "from": {
-        "line": 34,
-        "ch": 0
+        "line": 18,
+        "ch": 20
       },
       "to": {
-        "line": 34,
-        "ch": 0
+        "line": 18,
+        "ch": 24
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1"
+      "item-2-2"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
+    "scroll": 16.311340833079964,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
