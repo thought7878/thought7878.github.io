@@ -3068,7 +3068,7 @@
     ]
   },
   "_posts/methods/要整理的.md": {
-    "scroll": 641.580078125,
+    "scroll": 641.5833333333334,
     "cursor": {
       "from": {
         "line": 664,
@@ -3080,9 +3080,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-24",
-      "item-1-2",
-      "item-2-54"
+      "item-2-54",
+      "item-1-2"
     ]
   },
   "_posts/architect/如何学习软件设计与架构、全栈软件设计与架构图谱/设计模式（Design Patterns）.md": {
@@ -48060,21 +48059,18 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md": {
-    "scroll": 15.771739130434783,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 0
+        "line": 2,
+        "ch": 6
       },
       "to": {
-        "line": 30,
-        "ch": 32
+        "line": 2,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-2",
-      "item-2-2"
-    ]
+    "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/logo.md": {
     "scroll": 0,
@@ -48123,22 +48119,18 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 171.36197916666666,
+    "scroll": 210.58138020833334,
     "cursor": {
       "from": {
-        "line": 173,
-        "ch": 0
+        "line": 234,
+        "ch": 67
       },
       "to": {
-        "line": 173,
-        "ch": 0
+        "line": 234,
+        "ch": 67
       }
     },
-    "expandedKeys": [
-      "item-1-0",
-      "item-1-9",
-      "item-2-10"
-    ]
+    "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
     "scroll": 26.992838541666668,
@@ -48215,5 +48207,19 @@
     "expandedKeys": [
       "item-1-1"
     ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/3.结尾.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 39
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

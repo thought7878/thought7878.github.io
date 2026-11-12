@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/兴趣/电影.md",
+                "file": "_posts/methods/要整理的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "电影"
+              "title": "要整理的"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/3.结尾.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,11 +844,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.分集 制作"
+              "title": "3.结尾"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1017,14 +1017,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62e8e30cf5238f23",
+  "active": "3b968bddf151a78b",
   "lastOpenFiles": [
-    "_posts/methods/要整理的.md",
+    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
+    "_posts/AI/短视频/影视解说类/实现流程/3.结尾.md",
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
+    "_posts/methods/要整理的.md",
+    "_posts/读书笔记/兴趣/电影.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-12.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md",
-    "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
-    "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/删除字幕.md",
     "_posts/AI/短视频/影视解说类/需求分析/media/ef6b71f16409cc0fc1cfebbadcca9856_MD5.webp",
     "_posts/AI/短视频/影视解说类/需求分析/media",
@@ -1047,8 +1049,6 @@
     "_posts/读书笔记/健康/糖尿病/记录/2026/血糖记录.md",
     "_posts/AI/短视频/影视解说类/实现流程/media/ca1e0924cecc88df1894b28be35e2d1b_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/未命名",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-05.md",
-    "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media/f303cc86f7aa548da9cbc3d1a169f81f_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画",
