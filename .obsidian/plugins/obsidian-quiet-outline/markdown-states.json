@@ -45513,12 +45513,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 11
+        "line": 10,
+        "ch": 9
       },
       "to": {
-        "line": 6,
-        "ch": 11
+        "line": 10,
+        "ch": 9
       }
     },
     "expandedKeys": []
@@ -47130,14 +47130,14 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md": {
-    "scroll": 5.207328145265889,
+    "scroll": 5.977237354085603,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       },
       "to": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       }
     },
@@ -47782,11 +47782,11 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 130
+        "ch": 84
       },
       "to": {
         "line": 4,
-        "ch": 130
+        "ch": 84
       }
     },
     "expandedKeys": []
@@ -48059,15 +48059,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md": {
-    "scroll": 29.79376328844791,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 32,
-        "ch": 12
+        "line": 4,
+        "ch": 19
       },
       "to": {
-        "line": 32,
-        "ch": 15
+        "line": 4,
+        "ch": 29
       }
     },
     "expandedKeys": [
@@ -48123,19 +48123,24 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 329.4192708333333,
+    "scroll": 365.9518229166667,
     "cursor": {
       "from": {
-        "line": 337,
-        "ch": 84
+        "line": 375,
+        "ch": 0
       },
       "to": {
-        "line": 337,
-        "ch": 84
+        "line": 375,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-2"
+      "item-1-2",
+      "item-1-9",
+      "item-2-10",
+      "item-1-0",
+      "item-2-2",
+      "item-1-16"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
@@ -48199,14 +48204,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-12.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 30.20021261516655,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -48244,5 +48249,63 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/0.标题、封面.md": {
+    "scroll": 29.6357421875,
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 25
+      },
+      "to": {
+        "line": 50,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/短视频平台/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/短视频平台/国内主流的短视频平台.md": {
+    "scroll": 38.240152994791664,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 37
+      },
+      "to": {
+        "line": 53,
+        "ch": 37
+      }
+    },
+    "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-14.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
