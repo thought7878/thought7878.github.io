@@ -48119,19 +48119,21 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 147.24408637152777,
+    "scroll": 120.03131782945736,
     "cursor": {
       "from": {
-        "line": 160,
-        "ch": 4
+        "line": 135,
+        "ch": 0
       },
       "to": {
-        "line": 160,
-        "ch": 4
+        "line": 135,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-9"
+      "item-1-9",
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
@@ -48316,14 +48318,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-15.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 25.347005208333332,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -48349,14 +48351,30 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 5,
+        "ch": 3
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 5,
+        "ch": 3
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-16.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
