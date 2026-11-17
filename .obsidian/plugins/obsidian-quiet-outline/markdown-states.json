@@ -48357,15 +48357,15 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-16.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.451171875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -48401,20 +48401,21 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容.md": {
-    "scroll": 2.8958333333333335,
+    "scroll": 11.167330677290837,
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 0
+        "line": 30,
+        "ch": 21
       },
       "to": {
-        "line": 18,
-        "ch": 0
+        "line": 30,
+        "ch": 21
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1"
+      "item-2-1",
+      "item-3-4"
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/未命名.md": {
@@ -48446,19 +48447,21 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容-豆包.md": {
-    "scroll": 75.8955078125,
+    "scroll": 98.5576171875,
     "cursor": {
       "from": {
-        "line": 88,
-        "ch": 11
+        "line": 109,
+        "ch": 76
       },
       "to": {
-        "line": 88,
-        "ch": 11
+        "line": 109,
+        "ch": 76
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-1",
+      "item-1-12"
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容-豆包 1.md": {
@@ -48475,6 +48478,22 @@
     },
     "expandedKeys": [
       "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-17.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
