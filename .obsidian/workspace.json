@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md",
+                "file": "_posts/AI/短视频/影视解说类/AI 做视频.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操"
+              "title": "AI 做视频"
             }
           }
         ],
@@ -1017,22 +1017,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3b968bddf151a78b",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/media/811ac0e0ecd0fa72b8693e8cab380a41_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/03da2939e5676ba17b3f46fb97cf7e76_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/b01b966a0fd5ed5f83fc887a6b18d944_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/18304791a1cba20fb830bc036e9888b0_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/603f3aeac9803f1c4cdaed14d26d414e_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/3a7e0853c6e5bcff1801fc5deb322576_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/50fabd66a6b9578695cd949fd41a223e_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/991f832f2724cc035598743bb92777d7_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/9e4d15f0c2655e98e8f78acd1a2fe3b5_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/2c35731da1c50017ae66290b089c667c_MD5.webp",
-    "_posts/AI/短视频/影视解说类/media/5689f555fc196e3db03d67f5462f5f35_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/9821679f543f05d5c5e6dd68f96e0a63_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/6429302fbc71645ee38d348973d933e7_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/b9e3068bd61c63e61070fff86f63bf21_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/e504b9790ad3e621966e897c648c69e9_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/c919aca1b219fb8262124cae050ab1a8_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/ee2a4b71b70803ee67c8acdf0d769d84_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/52cbd4afea1f85bbb7e01b72694f9b63_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/6134780ddf7e9853fa3f53a7bb747344_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/894dca988e3485b4f227e4c66295b2ce_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/90b3fc1fd0b5b66a637aca4446884cbc_MD5.webp",
+    "_posts/AI/短视频/影视解说类/media/fef4f095d2ccfe548f9687a6c0bf7e5d_MD5.webp",
+    "_posts/AI/短视频/影视解说类/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md",
+    "_posts/AI/短视频/影视解说类/AI 做视频.md",
     "_posts/AI/短视频/影视解说类/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md",
-    "_posts/AI/短视频/影视解说类/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容_.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/设计动态字卡、排版动画.md",
@@ -1057,7 +1058,6 @@
     "_posts/AI/短视频/影视解说类/短视频平台/国内主流的短视频平台.md",
     "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
     "_posts/AI/短视频/影视解说类/短视频平台",
-    "_posts/AI/短视频/国外的视频平台、对比.md",
     "_posts/AI/短视频/影视解说类/需求分析/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画",
