@@ -46893,7 +46893,7 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/工具/hongguo-web（sunnysky123）.md": {
-    "scroll": 100.71937984496124,
+    "scroll": 115.873046875,
     "cursor": {
       "from": {
         "line": 118,
@@ -47130,14 +47130,14 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md": {
-    "scroll": 0,
+    "scroll": 0.24350564156389398,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 82
+        "line": 9,
+        "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 9,
         "ch": 0
       }
     },
@@ -48002,12 +48002,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 92
+        "line": 6,
+        "ch": 0
       },
       "to": {
-        "line": 5,
-        "ch": 92
+        "line": 6,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -48055,7 +48055,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md": {
-    "scroll": 89.55519701086956,
+    "scroll": 58.51497844827586,
     "cursor": {
       "from": {
         "line": 99,
@@ -48066,7 +48066,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-3",
+      "item-1-2"
+    ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/logo.md": {
     "scroll": 0,
@@ -48401,19 +48404,18 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容.md": {
-    "scroll": 21.547526041666668,
+    "scroll": 4.666666666666667,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 0
+        "line": 16,
+        "ch": 8
       },
       "to": {
-        "line": 38,
-        "ch": 0
+        "line": 16,
+        "ch": 8
       }
     },
     "expandedKeys": [
-      "item-3-4",
       "item-2-1",
       "item-1-0"
     ]
@@ -48481,14 +48483,14 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-17.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 28.492838541666668,
     "cursor": {
       "from": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 31,
         "ch": 0
       }
     },
@@ -48549,19 +48551,21 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md": {
-    "scroll": 319.2174844470342,
+    "scroll": 154.88280861711425,
     "cursor": {
       "from": {
-        "line": 329,
-        "ch": 13
+        "line": 168,
+        "ch": 0
       },
       "to": {
-        "line": 329,
-        "ch": 13
+        "line": 168,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-8"
+      "item-1-0",
+      "item-2-8",
+      "item-2-0"
     ]
   },
   "_posts/AI/短视频/影视解说类/AI 做视频.md": {
@@ -48585,21 +48589,36 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/AI 做视频插件该选哪一个？.md": {
-    "scroll": 0,
+    "scroll": 155.37880935506732,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 162,
+        "ch": 19
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 162,
+        "ch": 19
       }
     },
     "expandedKeys": [
       "item-2-5",
-      "item-2-9",
-      "item-2-14"
+      "item-2-9"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-18.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 28
+      },
+      "to": {
+        "line": 37,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
