@@ -48115,20 +48115,20 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 23.270697674418603,
+    "scroll": 315.5816243489583,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 0
+        "line": 338,
+        "ch": 74
       },
       "to": {
-        "line": 48,
-        "ch": 0
+        "line": 338,
+        "ch": 74
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-2"
+      "item-1-9"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
@@ -48225,7 +48225,7 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md": {
-    "scroll": 2.791286978581947,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -48401,15 +48401,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容.md": {
-    "scroll": 11.167330677290837,
+    "scroll": 21.547526041666668,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 21
+        "line": 42,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 21
+        "line": 38,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -48447,15 +48447,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容-豆包.md": {
-    "scroll": 98.5576171875,
+    "scroll": 94.76985677083333,
     "cursor": {
       "from": {
-        "line": 109,
-        "ch": 76
+        "line": 104,
+        "ch": 0
       },
       "to": {
-        "line": 109,
-        "ch": 76
+        "line": 104,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -48494,6 +48494,58 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容_提示词.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-3-4"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容_.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 11
+      },
+      "to": {
+        "line": 24,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-3-4"
     ]
   }
 }
