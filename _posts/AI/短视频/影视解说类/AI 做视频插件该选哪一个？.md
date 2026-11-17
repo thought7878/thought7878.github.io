@@ -16,9 +16,9 @@ tags:
 
 它们到底有什么区别？我让同一个 DeepSeek 用这两个插件，各做了同一段科普。做出来的样子完全不一样，用的时间也差了一大截。
 
-先说结论： **两个插件干的是同一件事——让 AI 写一个网页，再一帧一帧拍成视频。区别在写法。** Remotion 像写公式，每一帧都是算出来的，准、稳，适合讲数据、讲原理；HyperFrames 像排时间轴，写的就是网页，上手快、现成的效果多，适合片头、宣传片和动态文字。
+先说结论： **两个插件干的是同一件事——让 AI 写一个网页，再一帧一帧拍成视频。区别在写法。** `Remotion` 像写公式，每一帧都是算出来的，准、稳，适合讲数据、讲原理；`HyperFrames` 像排时间轴，写的就是网页，上手快、现成的效果多，适合片头、宣传片和动态文字。
 
-![开头那面作品墙：左边是 Remotion 做的，右边是 HyperFrames 做的](https://yari.lol/wp-content/uploads/2026/11/019-wall.webp)
+![[_posts/AI/短视频/影视解说类/media/9a1a59712813d0cca85c362c79e5b0e2_MD5.webp]]
 
 开头那面作品墙：左边是 Remotion 做的，右边是 HyperFrames 做的
 
@@ -52,7 +52,7 @@ Remotion 的 React 项目、HyperFrames 的网页项目，对照着看两种写�
 
 现在的 AI 视频模型能生成很美的画面，可一到科普，要画精确的图表、准确的数字，它就不太擅长了：字和数字很容易出错。
 
-![同一个视频模型画的增长曲线，纵轴是 76、145、10、28、152……乱的](https://yari.lol/wp-content/uploads/2026/11/019-seedance.webp)
+![[_posts/AI/短视频/影视解说类/media/70f18c28584a4ac2712aa2116db85ab6_MD5.webp]]
 
 同一个视频模型画的增长曲线，纵轴是 76、145、10、28、152……乱的
 
@@ -60,7 +60,7 @@ Remotion 的 React 项目、HyperFrames 的网页项目，对照着看两种写�
 
 这样的插件不止一个，但用的人最多的就是这两个。光是 2026 年 10 月，Remotion 在 npm 上被下载了 957 万次，HyperFrames 367 万次，排在后面的同类工具（Revideo）只有 12 万。两个都出了官方 skill，装上以后跟 AI 说一句话，它就知道怎么用。
 
-![10 月 npm 下载量](https://yari.lol/wp-content/uploads/2026/11/019-npm.webp)
+![[_posts/AI/短视频/影视解说类/media/69c390d1a6df5293b264404aa52f8b55_MD5.webp]]
 
 10 月 npm 下载量
 
@@ -70,11 +70,11 @@ Remotion 的 React 项目、HyperFrames 的网页项目，对照着看两种写�
 - **2026 年 1 月，Remotion 出了官方 skill** ：大家发现跟 Claude Code 说一句话就能做出一段动画，它才真正火起来。到 10 月，它一个月的下载量差不多是去年同期的 19 倍。
 - **2026 年 4 月，HeyGen 开源了 HyperFrames** ：HeyGen 自己也说是受了 Remotion 的启发。不一样的是换了一种写法：直接写普通网页，而且从一开始就是做给 AI 用的。
 - **半年以后** ：HyperFrames 在 GitHub 上的星数追过了 Remotion；不过论实际用的人，Remotion 的下载量还是它的两倍多（最近一周 360 万对 152 万）。
-![两条星数曲线，10 月中旬交叉](https://yari.lol/wp-content/uploads/2026/11/019-history.webp)
+![[_posts/AI/短视频/影视解说类/media/ec1c437e153bd0888663eec9f209cf10_MD5.webp]]
 
 两条星数曲线，10 月中旬交叉
 
-## 动画是怎么画出来的
+## 动画是**怎么画出来的**
 
 你让 AI 写出来的，其实是一个 **网页** ：标题怎么飞进来、数字怎么往上涨，都是网页里的动画。
 
@@ -82,7 +82,7 @@ Remotion 的 React 项目、HyperFrames 的网页项目，对照着看两种写�
 
 两个插件做的就是这件事：在后台开一个你看不见的浏览器（ **无头浏览器** ），先把网页停在某一刻拍一张，再停到下一刻再拍一张；120 张拍完，交给 **FFmpeg** 拼成一个 MP4。
 
-![2 秒 × 60 帧 = 120 张](https://yari.lol/wp-content/uploads/2026/11/019-frames.webp)
+![[_posts/AI/短视频/影视解说类/media/5d7b412a2c5793921d64cbd7c162de7d_MD5.webp]]
 
 2 秒 × 60 帧 = 120 张
 
@@ -90,7 +90,7 @@ Remotion 的 React 项目、HyperFrames 的网页项目，对照着看两种写�
 
 就跟拍定格动画一样：摆好一个动作拍一张，再摆下一个。慢是慢一点，但一帧都不会少。
 
-## 两种写法：写公式，还是排时间轴
+## 两种写法：**写公式**，还是**排时间轴**
 
 既然干的是同一件事，区别在哪？区别在于： **你怎么告诉它，每一帧应该是什么样子。**
 
@@ -110,13 +110,13 @@ HyperFrames · 排时间轴：第 0.5 秒开始，动 1 秒
 tl.to(n, { v: 77, duration: 1, ease: "power2.out" }, 0.5);
 ```
 
-![Remotion 第 45 帧、HyperFrames 0.75 秒，都是 45%](https://yari.lol/wp-content/uploads/2026/11/019-formula.webp)
+![[_posts/AI/短视频/影视解说类/media/0cdbd38ec24db7004d232d12d40acee2_MD5.webp]]
 
 Remotion 第 45 帧、HyperFrames 0.75 秒，都是 45%
 
 两种写法画出来的东西一模一样，差别在后面：Remotion 每一帧都是算出来的，所以准、也稳；HyperFrames 写的就是普通网页，网页上现成的东西都能拿来用，所以上手快、花样也多。
 
-## 各自擅长什么
+## 各自**擅长什么**
 
 ### HyperFrames 的三个优点
 
@@ -126,7 +126,7 @@ Remotion 第 45 帧、HyperFrames 0.75 秒，都是 45%
 
 **缺点** ：还很新，版本号没到 1.0，几乎天天更新（3 月到现在发了 500 多个版本），规矩也多。我故意少写了一句代码，它会提醒写错了，但默认还是照样渲完，出来的视频什么都没有。
 
-![左边 Remotion 用 CSS 动画渲出来乱跳、没有报错；右边 HyperFrames 组件目录](https://yari.lol/wp-content/uploads/2026/11/019-06.webp)
+![[_posts/AI/短视频/影视解说类/media/66d7aec8fc20fd8bd8a246d761b55175_MD5.webp]]
 
 左边 Remotion 用 CSS 动画渲出来乱跳、没有报错；右边 HyperFrames 组件目录
 
@@ -140,32 +140,31 @@ Remotion 第 45 帧、HyperFrames 0.75 秒，都是 45%
 
 一句话： **HyperFrames 像一个设计师，上手快、花样多；Remotion 像一个工程师，算得准、更稳当。**
 
-![两列总结](https://yari.lol/wp-content/uploads/2026/11/019-06-sum.webp)
+![[_posts/AI/短视频/影视解说类/media/a5d8830d8dda79c4f1ea37e55744b679_MD5.webp]]
 
-两列总结
+			两列总结
 
-## 该用哪一个
+## 该**用哪一个**
 
 看你要做什么：
 
-- **用 HyperFrames** ：想快点做出好看的片头、宣传片、动态文字，或者手里已经有网页、设计稿。HeyGen 自己的发布片就是这么做的；B 站也有人开源了 100 多个 HyperFrames 的动画模板。
+- **用 HyperFrames** ：想快点做出好看的*片头、宣传片、动态文字*，或者*手里已经有网页、设计稿*。HeyGen 自己的发布片就是这么做的；B 站也有人开源了 100 多个 HyperFrames 的动画模板。
 - **用 Remotion** ：要讲数据、讲原理，每一帧都要准，或者想用一个模板批量做很多条。X 上一条 20 多万播放的《3 分钟 AI 简史》就是用 Remotion 做的；Remotion 团队每年给 GitHub 用户每人做一段年度回顾视频，也是用它批量做出来的。
 
 我的建议： **刚开始、想最快做出好看的效果，先用 HyperFrames；要做讲数据、讲原理的科普，用 Remotion。**
 
-## 实操：同一个任务，交给两个插件
-
+## **实操**：同一个任务，交给两个插件
+[07:35]
 同一个任务、同样的要求，交给同一个模型 **DeepSeek V4.1 Flash** ，思考强度拉满，在 OpenCode 里跑。一次让它用 Remotion，一次用 HyperFrames，每边只装自己那一家的官方 skill（Remotion 13 个，HyperFrames 4 个）。
 
 任务是做一段 40 秒的科普： **Token 是什么** 。拆成四个场景，正好对应前面说的几个不一样：
-
 1. 开场动态标题：看现成的效果；
 2. 把 DeepSeek 官方文档里讲 token 怎么算的那一页放进视频：看网页上的东西能不能直接用；
 3. 演示一句话怎么被切成一块块 token：看谁讲得更清楚；
 4. 中文和英文的柱状图：看数字准不准。
-![OpenCode 里的提示词，四个场景各看什么](https://yari.lol/wp-content/uploads/2026/11/019-08-prompt.webp)
+![[_posts/AI/短视频/影视解说类/media/c8e9a808623960266a9056b631e52f63_MD5.webp]]
 
-OpenCode 里的提示词，四个场景各看什么
+				OpenCode 里的提示词，四个场景各看什么
 
 发给两边的提示词只差两处：一是第一行的工具名；二是【规格】的最后一条，HyperFrames 那份让它初始化时跳过安装 skill，Remotion 那份让它把项目建在当前文件夹。两份全文都在下面，可以直接复制。想自己跑一遍的话，先在工作文件夹里建一个「素材」文件夹，放进资料包里的 data.json，和 MiSans 字体（到 MiSans 官网下载，放在 素材/fonts 里）。
 
@@ -226,7 +225,7 @@ OpenCode 里的提示词，四个场景各看什么
 - 两边都是先读 skill，再动手。HyperFrames 先用它自带的抓网页命令（ `hyperframes capture` ）把那一页整个抓了下来；Remotion 先建了一个 React 项目，装依赖不到一分钟。
 - **写出第一版，两边都很快** ：Remotion 用了 9 分钟，HyperFrames 12 分钟。剩下的时间几乎全花在自己检查、自己改上：HyperFrames 截图看了 5 轮、跑了 9 次检查；Remotion 挑关键的几帧截下来，还写了程序去量荧光框有没有对准。
 - **最后，HyperFrames 一共 47 分钟，Remotion 84 分钟。**
-![两边的时间都花在哪](https://yari.lol/wp-content/uploads/2026/11/019-08-time.webp)
+![[_posts/AI/短视频/影视解说类/media/efabcce01e8eccbb56f560ea686d54e0_MD5.webp]]
 
 两边的时间都花在哪
 
@@ -236,7 +235,7 @@ OpenCode 里的提示词，四个场景各看什么
 - **真网页** ：两边都用了真网页，都推近、标出了那两句话。HyperFrames 是用自带的命令抓的整页；Remotion 是自己写脚本截图，放进一个浏览器窗口里。不过两边推近以后，右边的字都被切掉了一截。
 - **切 token** ：两边做得差不多，先整句出现、再一块块分开编号、最后告诉你一共 4 个。Remotion 给每一块配了不同的颜色；HyperFrames 把那个 4 放得很大。
 - **柱状图** ：两边的数字我对了一遍：3.6 和 7.5、3.6 和 6、6 和 13.5，全对，柱子的高低也对得上。
-![四个场景左右并排](https://yari.lol/wp-content/uploads/2026/11/019-08-scenes.webp)
+![[_posts/AI/短视频/影视解说类/media/4b57152e69095174ff0121bb071d16cf_MD5.webp]]
 
 四个场景左右并排
 
@@ -256,7 +255,7 @@ OpenCode 里的提示词，四个场景各看什么
 
 - **HyperFrames 用了 37 分钟** ，三条都改到了：横条从上到下是 13.5、7.5、6，浅色底换成了深色，过渡页也加上了。
 - **Remotion 三条最后也都改对了，可过程曲折得多** ：代码改完以后，它一直在反复试转场，擦除、滑入、推开，换来换去。一个多小时以后，对话太长撞到了上限，它就停了，没交出成片。我又跟它说了一句「继续」，它才把改好的版本渲了出来。前后加起来两个多小时。
-![Remotion 那边停下来的地方，和补的那一句「继续」](https://yari.lol/wp-content/uploads/2026/11/019-08-rev.webp)
+![[_posts/AI/短视频/影视解说类/media/af87952866e7aa58a34d6997895ffee8_MD5.webp]]
 
 Remotion 那边停下来的地方，和补的那一句「继续」
 
@@ -272,11 +271,11 @@ Remotion 那边停下来的地方，和补的那一句「继续」
 1. **把数据单独放进一个文件，让它只用里面的数。** 这次两边柱子上的数字一个都没错。
 2. **提示词里写清楚分辨率、帧率，还有成片放在哪。** Remotion 默认是不渲染的，HyperFrames 默认只有 30 帧。
 3. **让它渲染之前，先自己截几张图检查。** 这次两边都是自己发现问题、自己改好的：HyperFrames 发现开头第一帧是空的，Remotion 把网页截图从 2 倍换成了 3 倍，推近以后字更清楚。
-![总结表和三条经验](https://yari.lol/wp-content/uploads/2026/11/019-09.webp)
+![[_posts/AI/短视频/影视解说类/media/566678ea01f1b01dfccc262ce311b154_MD5.webp]]
 
 总结表和三条经验
 
-![铅笔亚里](https://yari.lol/wp-content/uploads/2026/11/yari-wink.webp)
+![[_posts/AI/短视频/影视解说类/media/811ac0e0ecd0fa72b8693e8cab380a41_MD5.webp]]
 
 亚里说
 
