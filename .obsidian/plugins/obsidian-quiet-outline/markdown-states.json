@@ -45916,15 +45916,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 28,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 28,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8"
+    ]
   },
   "_posts/AI/短视频/影视解说类/做影视排行视频.md": {
     "scroll": 0,
@@ -48225,14 +48228,14 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md": {
-    "scroll": 19.861263599161592,
+    "scroll": 34.64211524635553,
     "cursor": {
       "from": {
-        "line": 30,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 30,
+        "line": 4,
         "ch": 0
       }
     },
@@ -48548,6 +48551,23 @@
       "item-1-0",
       "item-2-1",
       "item-3-4"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md": {
+    "scroll": 303.6974283854167,
+    "cursor": {
+      "from": {
+        "line": 311,
+        "ch": 19
+      },
+      "to": {
+        "line": 311,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8"
     ]
   }
 }
