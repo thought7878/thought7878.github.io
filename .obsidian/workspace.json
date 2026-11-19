@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/AI 做视频.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/视频要求.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 做视频"
+              "title": "视频要求"
             }
           }
         ],
@@ -994,7 +994,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1017,10 +1017,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "0bfef57d47b6d287",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/实现流程/视频要求.md",
     "_posts/AI/短视频/影视解说类/AI 做视频.md",
+    "_posts/AI/短视频/影视解说类/实现流程/视频要求.md",
     "_posts/AI/短视频/影视解说类/收益.md",
     "_posts/AI/短视频/影视解说类/AI 做视频插件该选哪一个？.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/设计动态字卡、排版动画.md",
