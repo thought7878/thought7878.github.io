@@ -369,7 +369,7 @@ Qwen3-ASR 的 GitHub 页面
 
 ![[_posts/AI/短视频/影视解说类/media/b01b966a0fd5ed5f83fc887a6b18d944_MD5.webp]]
 
-DeepSeek 做出来的成片
+				DeepSeek 做出来的成片
 
 可以看到，画面确实是跟着声音在变化的。再优化一下，还能做得更好看；不过这期是配音的教学，画面就先不纠结了。大家感兴趣的话，后面我再教怎么用 DeepSeek 做出好看的画面。
 
