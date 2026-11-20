@@ -138,7 +138,14 @@ Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 
 ## 费用
 [AI模型收费类型眼花缭乱？ 一张图帮你讲清楚！](https://v.douyin.com/7-K3HrukMGs/)
 
+## 视频
+【发布MotionHarness：完全免费的全流程AI动效套件】 https://www.bilibili.com/video/BV1uUW36kEpC/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+【开源仓颉.Skill 3.0，你现在可以蒸馏任何视频（包含画面）！】 https://www.bilibili.com/video/BV115s66HEvq/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【受够了配音软件收费，我自己写了一个！免费、本地运行】 https://www.bilibili.com/video/BV1Yoxo6DEm8/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
+【发布MotionHarness：完全免费的全流程AI动效套件】 https://www.bilibili.com/video/BV1uUW36kEpC/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 # 视频制作
 [AI时代的天才式创作：云南县城婚礼摄影师，靠 AI 震撼好莱坞！？](https://www.bilibili.com/video/BV1E45Q62EYx/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862)
