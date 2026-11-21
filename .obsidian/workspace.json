@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-22.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-21"
+              "title": "2026-11-22"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0.抓数据"
+              "title": "2.分集 制作"
             }
           }
         ],
@@ -985,7 +985,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -1004,7 +1004,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1032,12 +1032,15 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "0bfef57d47b6d287",
   "lastOpenFiles": [
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-22.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
+    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+    "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/短剧详情页与动画视频_使用文档.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/动画视频 技能.md",
     "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
-    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "未命名.base",
     "_posts/读书笔记/兴趣/未命名.canvas",
     "_posts/读书笔记/兴趣/未命名 1.canvas",
@@ -1045,7 +1048,6 @@
     "_posts/AI/短视频/影视解说类/教程/media/17362f3e234c46cb67564edd28d6a4d6_MD5.webp",
     "_posts/AI/短视频/影视解说类/教程/media/f134e80ca8585feed082eb59b85d4527_MD5.webp",
     "_posts/AI/短视频/影视解说类/教程/media/8fafe105fb1d3803e62a4dd62bad309e_MD5.webp",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
     "_posts/AI/AI.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-20.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频要求.md",
@@ -1071,10 +1073,8 @@
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容-豆包.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容_.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容/一部剧的内容.md",
-    "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
     "_posts/AI/短视频/影视解说类/实现流程/1.开场介绍 制作.md",
     "_posts/AI/短视频/影视解说类/工具/hongguo-web（sunnysky123）.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-17.md",
     "_posts/AI/短视频/影视解说类/media",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容",
     "_posts/AI/短视频/影视解说类/短视频平台",
