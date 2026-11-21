@@ -47850,11 +47850,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
@@ -48720,6 +48720,52 @@
     },
     "expandedKeys": [
       "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/动画视频.md": {
+    "scroll": 15.162760416666666,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 62
+      },
+      "to": {
+        "line": 33,
+        "ch": 62
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频内容/动画视频 技能.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 11
+      },
+      "to": {
+        "line": 7,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/视频内容/短剧详情页与动画视频_使用文档.md": {
+    "scroll": 178.0435296810621,
+    "cursor": {
+      "from": {
+        "line": 194,
+        "ch": 42
+      },
+      "to": {
+        "line": 194,
+        "ch": 42
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-10"
     ]
   }
 }
