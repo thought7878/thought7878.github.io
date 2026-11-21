@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-20.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-20"
+              "title": "2026-11-21"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/AI.md",
+                "file": "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI"
+              "title": "全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程"
             }
           }
         ],
@@ -1002,6 +1002,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "document-comments:Toggle document comments": false,
+      "document-comments:Open comments sidebar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -1019,8 +1021,11 @@
   },
   "active": "0bfef57d47b6d287",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/教程/media/8fafe105fb1d3803e62a4dd62bad309e_MD5.webp",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
     "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
     "_posts/AI/AI.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-20.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频要求.md",
     "_posts/AI/短视频/影视解说类/教程/media/995fd9000262945dd5d1ca208ed07b23_MD5.jpg",
     "_posts/AI/短视频/影视解说类/教程/media/5fd24ff5a0cc3df9be6932698b443731_MD5.jpg",
@@ -1035,7 +1040,6 @@
     "_posts/AI/短视频/影视解说类/教程/media",
     "_posts/AI/短视频/影视解说类/教程",
     "_posts/AI/短视频/影视解说类/教程/AI 做视频.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-20.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-19.md",
     "_posts/AI/短视频/影视解说类/收益.md",
     "_posts/AI/短视频/影视解说类/教程/AI 做视频插件该选哪一个？.md",
@@ -1056,9 +1060,7 @@
     "_posts/AI/短视频/影视解说类/实现流程/动画/AI 动画.md",
     "_posts/AI/短视频/影视解说类/media",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-16.md",
-    "_posts/AI/短视频/影视解说类/实现流程/视频内容/整个视频的内容.md",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容",
-    "_posts/读书笔记/兴趣/电影.md",
     "_posts/AI/短视频/影视解说类/短视频平台",
     "_posts/AI/短视频/影视解说类/需求分析/media",
     "_posts/AI/短视频/影视解说类/实现流程/动画/media",

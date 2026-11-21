@@ -8755,20 +8755,19 @@
     "expandedKeys": []
   },
   "_posts/AI/AI.md": {
-    "scroll": 129.875,
+    "scroll": 132.41276041666666,
     "cursor": {
       "from": {
-        "line": 142,
+        "line": 145,
         "ch": 0
       },
       "to": {
-        "line": 142,
+        "line": 145,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-9",
-      "item-1-14"
+      "item-1-9"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/01/2026-01-19.md": {
@@ -48675,33 +48674,53 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-20.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 24.388671875,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 25
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 38,
-        "ch": 25
-      }
-    },
-    "expandedKeys": []
-  },
-  "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md": {
-    "scroll": 346.48333333333335,
-    "cursor": {
-      "from": {
-        "line": 362,
-        "ch": 83
-      },
-      "to": {
-        "line": 362,
-        "ch": 83
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-5"
+      "item-1-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md": {
+    "scroll": 439.27319907735983,
+    "cursor": {
+      "from": {
+        "line": 443,
+        "ch": 67
+      },
+      "to": {
+        "line": 443,
+        "ch": 67
+      }
+    },
+    "expandedKeys": [
+      "item-2-5",
+      "item-2-1",
+      "item-3-9"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 0
+      },
+      "to": {
+        "line": 29,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
     ]
   }
 }
