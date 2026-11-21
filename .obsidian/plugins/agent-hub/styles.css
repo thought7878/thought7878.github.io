@@ -1,0 +1,195 @@
+.ah-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px;
+  gap: 8px;
+}
+
+.ah-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.ah-agent-select { max-width: 130px; }
+.ah-model-select { max-width: 170px; flex: 1; }
+.ah-icon-btn { padding: 4px 8px; }
+.ah-perm-btn { padding: 4px 8px; font-size: 12px; }
+.ah-perm-btn.ah-perm-full {
+  background: var(--background-modifier-error);
+  color: var(--text-on-accent);
+}
+
+.ah-status {
+  font-size: 12px;
+  color: var(--text-muted);
+  min-height: 16px;
+  word-break: break-all;
+}
+
+.ah-messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  user-select: text;
+  -webkit-user-select: text;
+}
+.ah-msg .ah-content,
+.ah-tool-summary,
+.ah-tool-result {
+  user-select: text;
+  -webkit-user-select: text;
+  cursor: text;
+}
+.ah-empty {
+  color: var(--text-muted);
+  font-size: 13px;
+  white-space: pre-wrap;
+  padding: 16px;
+}
+
+.ah-msg { padding: 8px 10px; border-radius: 8px; }
+.ah-msg .ah-role {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.ah-user { background: var(--background-secondary); align-self: flex-end; max-width: 92%; }
+.ah-user .ah-content { white-space: pre-wrap; }
+.ah-assistant { background: var(--background-primary-alt); max-width: 100%; }
+.ah-assistant .ah-content { font-size: 14px; }
+.ah-error { background: var(--background-modifier-error-hover); }
+.ah-error .ah-content { white-space: pre-wrap; color: var(--text-error); font-size: 13px; }
+
+.ah-tool {
+  border: 1px solid var(--background-modifier-border);
+  border-left: 3px solid var(--text-muted);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+.ah-tool.ah-tier-write { border-left-color: var(--color-orange); }
+.ah-tool.ah-tier-danger { border-left-color: var(--color-red); }
+.ah-tool-head { display: flex; gap: 8px; align-items: center; }
+.ah-tool-name { font-weight: 600; font-family: var(--font-monospace); }
+.ah-tool-tier {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: var(--background-modifier-border);
+}
+.ah-tier-danger .ah-tool-tier { background: var(--color-red); color: var(--text-on-accent); }
+.ah-tool-status { margin-left: auto; color: var(--text-muted); }
+.ah-tool-status.ah-err { color: var(--text-error); }
+.ah-tool-summary {
+  white-space: pre-wrap;
+  color: var(--text-muted);
+  margin-top: 4px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+.ah-tool-result {
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px dashed var(--background-modifier-border);
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.ah-tool details summary { cursor: pointer; color: var(--text-muted); }
+.ah-tool pre {
+  max-height: 160px;
+  overflow: auto;
+  background: var(--background-secondary);
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.ah-input { display: flex; gap: 6px; align-items: flex-end; }
+.ah-textarea { flex: 1; resize: vertical; min-height: 60px; }
+.ah-send-btn { min-width: 64px; }
+.ah-send-btn.ah-stop { background: var(--background-modifier-error); color: var(--text-on-accent); }
+
+.ah-confirm-modal .ah-confirm-hint { color: var(--text-muted); font-size: 13px; }
+.ah-confirm-modal.ah-danger .modal { border: 2px solid var(--color-red); }
+.ah-confirm-summary {
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 240px;
+  overflow-y: auto;
+  background: var(--background-secondary);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.ah-confirm-args {
+  max-height: 200px;
+  overflow: auto;
+  font-size: 12px;
+  background: var(--background-secondary);
+  padding: 8px;
+  border-radius: 6px;
+}
+.ah-confirm-timer { font-size: 12px; color: var(--text-muted); }
+.ah-confirm-buttons { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
+.ah-btn-warn { font-size: 12px; }
+
+.ah-setting-desc { color: var(--text-muted); font-size: 13px; }
+.ah-setting-status { font-size: 12px; word-break: break-all; }
+.ah-setting-status.ah-ok { color: var(--text-success); }
+.ah-setting-status.ah-missing { color: var(--text-warning); }
+.ah-setting-hint { color: var(--text-muted); font-size: 12px; }
+
+/* 消息操作（复制/重发） */
+.ah-msg { position: relative; }
+.ah-msg-actions {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  display: none;
+  gap: 4px;
+}
+.ah-msg:hover .ah-msg-actions { display: flex; }
+.ah-mini-btn {
+  font-size: 11px;
+  padding: 1px 8px;
+  opacity: 0.85;
+}
+
+/* 历史会话 */
+.ah-login-btn { padding: 4px 8px; font-size: 12px; background: var(--background-modifier-error); color: var(--text-on-accent); }
+.ah-history-list { display: flex; flex-direction: column; gap: 8px; max-height: 60vh; overflow-y: auto; }
+.ah-history-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+}
+.ah-history-main { flex: 1; min-width: 0; }
+.ah-history-title { font-weight: 600; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ah-history-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+.ah-history-btns { display: flex; gap: 6px; flex-shrink: 0; }
+
+/* 登录授权弹窗 */
+.ah-login-status { font-size: 13px; font-weight: 600; }
+.ah-login-pat { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--background-modifier-border); }
+.ah-login-pat-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.ah-login-pat-row input { flex: 1; min-width: 180px; }
+.ah-login-log {
+  max-height: 160px;
+  overflow-y: auto;
+  background: var(--background-secondary);
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

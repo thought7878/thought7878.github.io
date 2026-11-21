@@ -985,12 +985,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/5.服务端渲染原理、Linux、Docker/1.深入理解服务端渲染：SSR原理及与CSR、SSG的比较/1.服务端渲染SSR对比CSR、SSG.md",
+                "file": "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1.服务端渲染SSR对比CSR、SSG 的出链列表"
+              "title": "出链"
+            }
+          },
+          {
+            "id": "2e4dd4dee4502ac8",
+            "type": "leaf",
+            "state": {
+              "type": "agent-hub-chat",
+              "state": {},
+              "icon": "bot",
+              "title": "DuoAI-Agent-hub"
             }
           }
         ],
@@ -1016,11 +1026,16 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "callout-manager:Insert Callout": false,
       "pomodoro-timer:Toggle timer panel": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "realclaudian:Open Claudian": false,
+      "workbuddian:Workbuddian Chat": false,
+      "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "0bfef57d47b6d287",
+  "active": "f5dde97a78656ae2",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/教程/media/17362f3e234c46cb67564edd28d6a4d6_MD5.webp",
+    "_posts/AI/短视频/影视解说类/教程/media/f134e80ca8585feed082eb59b85d4527_MD5.webp",
     "_posts/AI/短视频/影视解说类/教程/media/8fafe105fb1d3803e62a4dd62bad309e_MD5.webp",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
     "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
@@ -1035,8 +1050,6 @@
     "_posts/AI/短视频/影视解说类/教程/media/3daf5a3456c42464e635558689393a98_MD5.jpg",
     "_posts/AI/短视频/影视解说类/教程/media/182cf75b52c7802ac48e0883906d3363_MD5.jpg",
     "_posts/AI/短视频/影视解说类/教程/media/fe40a5213176de54668354d88c28ae4a_MD5.jpg",
-    "_posts/AI/短视频/影视解说类/教程/media/458a5dedb1ebb7d991395c36cff23404_MD5.jpg",
-    "_posts/AI/短视频/影视解说类/教程/media/9b73ef35a48f3dd98166ab766dce21f4_MD5.jpg",
     "_posts/AI/短视频/影视解说类/教程/media",
     "_posts/AI/短视频/影视解说类/教程",
     "_posts/AI/短视频/影视解说类/教程/AI 做视频.md",

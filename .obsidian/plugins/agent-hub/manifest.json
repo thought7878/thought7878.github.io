@@ -1,0 +1,10 @@
+{
+  "id": "agent-hub",
+  "name": "DuoAI-Agent-hub",
+  "version": "0.2.8",
+  "minAppVersion": "1.13.2",
+  "description": "Run QwenWork, Qoder CN, WorkBuddy, Claude Code, Codex and Doubao agents on your vault with built-in protocols, one-click browser sign-in, vault-only tools and three-tier permission confirmations.",
+  "author": "sxpwx",
+  "authorUrl": "https://github.com/sxpwx",
+  "isDesktopOnly": true
+}

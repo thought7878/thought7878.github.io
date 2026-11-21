@@ -1,0 +1,10 @@
+{
+  "permissionMode": "confirm",
+  "networkTools": true,
+  "language": "auto",
+  "confirmTimeoutSec": 180,
+  "selectedAgent": "doubao",
+  "selectedModels": {},
+  "cliPaths": {},
+  "credentials": {}
+}
