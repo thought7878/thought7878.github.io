@@ -142,6 +142,8 @@ Codex联动Obsidian，搭建超强知识库，手把手教程 用Codex+Obsidian 
 【1000 粉丝大回馈？一个月 27 条 AI 视频，我把最新的工作流做成了开源 skill“剧组”｜从改文案到出片】 https://www.bilibili.com/video/BV1iXsD6KEgT/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 【Claude Opus 5.5 做视频：从口播稿到成片，全流程跑通】 https://www.bilibili.com/video/BV1vEH16VEkK/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
+【【skill 的真实测评 02】实际操作：如何使用「rea-video」让 AI 帮你拆解爆款视频】 https://www.bilibili.com/video/BV1sdsK6xEMu/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
+
 【用AI做短视频，个人经验全公开！】 https://www.bilibili.com/video/BV1oMsU6tEnJ/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
 
 【发布MotionHarness：完全免费的全流程AI动效套件】 https://www.bilibili.com/video/BV1uUW36kEpC/?share_source=copy_web&vd_source=9c1e19a73fa7bd23bb37aa8d7467d862
