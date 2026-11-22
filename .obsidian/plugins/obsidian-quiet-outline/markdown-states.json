@@ -47777,7 +47777,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md": {
-    "scroll": 0,
+    "scroll": 30.0625,
     "cursor": {
       "from": {
         "line": 4,
@@ -48117,14 +48117,14 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 67.810546875,
+    "scroll": 56.947916666666664,
     "cursor": {
       "from": {
-        "line": 81,
+        "line": 68,
         "ch": 0
       },
       "to": {
-        "line": 81,
+        "line": 68,
         "ch": 0
       }
     },
@@ -48689,19 +48689,22 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md": {
-    "scroll": 711.6687225307023,
+    "scroll": 389.33581782666806,
     "cursor": {
       "from": {
-        "line": 753,
+        "line": 400,
         "ch": 0
       },
       "to": {
-        "line": 753,
+        "line": 400,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-21"
+      "item-2-21",
+      "item-2-19",
+      "item-2-5",
+      "item-3-9"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md": {
@@ -48797,5 +48800,47 @@
     "expandedKeys": [
       "item-2-23"
     ]
+  },
+  "_posts/AI/短视频/影视解说类/视频制作/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/视频制作/视频制作知识.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/视频制作知识/视频制作知识.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
