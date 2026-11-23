@@ -47850,12 +47850,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 6,
+        "ch": 16
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 6,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -48117,22 +48117,19 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 190.8546269612552,
+    "scroll": 251.85872395833334,
     "cursor": {
       "from": {
-        "line": 208,
-        "ch": 18
+        "line": 272,
+        "ch": 31
       },
       "to": {
-        "line": 208,
-        "ch": 18
+        "line": 272,
+        "ch": 40
       }
     },
     "expandedKeys": [
-      "item-2-2",
-      "item-1-0",
-      "item-1-11",
-      "item-2-13"
+      "item-1-0"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
@@ -48893,18 +48890,58 @@
     "scroll": 56.90056738908009,
     "cursor": {
       "from": {
-        "line": 133,
-        "ch": 0
+        "line": 65,
+        "ch": 48
       },
       "to": {
-        "line": 133,
-        "ch": 0
+        "line": 65,
+        "ch": 48
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-8",
-      "item-2-2"
+      "item-1-0"
     ]
+  },
+  "file:/Users/ll/Desktop/资料/次数.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/生成配音稿.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 16
+      },
+      "to": {
+        "line": 6,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/技能/生成配音稿.md": {
+    "scroll": 23.505116279069767,
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 125
+      },
+      "to": {
+        "line": 49,
+        "ch": 125
+      }
+    },
+    "expandedKeys": []
   }
 }
