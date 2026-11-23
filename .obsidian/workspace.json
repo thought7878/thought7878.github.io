@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-23.md",
+                "file": "DailyNote/Journal/01 Daily/2026/11/2026-11-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-11-23"
+              "title": "2026-11-24"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/动画/参考的动画.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.分集 制作"
+              "title": "参考的动画"
             }
           },
           {
@@ -1038,7 +1038,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1065,15 +1065,19 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "0bfef57d47b6d287",
+  "active": "1aa82f94554ba53a",
   "lastOpenFiles": [
+    "_posts/tools/资源.md",
+    "file:/Users/ll/Library/Application Support/Doubao/Default/.doubao/agent_mode/workspace/.sessions/38454802592424706/.plans/38454802592424706_1795416937963_plan.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-24.md",
+    "DailyNote/Journal/01 Daily/2026/11/2026-11-23.md",
+    "_posts/AI/短视频/影视解说类/实现流程/动画/参考的动画.md",
+    "_posts/读书笔记/健康/资料.md",
     "_posts/AI/短视频/影视解说类/实现流程/技能/生成配音稿.md",
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
-    "file:/Users/ll/Library/Application Support/Doubao/Default/.doubao/agent_mode/workspace/.sessions/38454802592424706/.plans/38454802592424706_1795416937963_plan.md",
     "_posts/AI/短视频/影视解说类/实现流程/技能",
     "file:/Users/ll/Desktop/资料/次数.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/脚本.md",
-    "DailyNote/Journal/01 Daily/2026/11/2026-11-23.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/视频制作知识.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-22.md",
     "_posts/methods/要整理的.md",
@@ -1106,9 +1110,6 @@
     "_posts/AI/短视频/影视解说类/教程",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-19.md",
     "_posts/AI/短视频/影视解说类/收益.md",
-    "_posts/AI/短视频/影视解说类/教程/AI 做视频插件该选哪一个？.md",
-    "_posts/AI/短视频/影视解说类/实现流程/视频素材处理/设计动态字卡、排版动画.md",
-    "_posts/AI/短视频/影视解说类/教程/AI 配音怎么选：原理、四种做法，和一次从配音到画面的完整实操.md",
     "_posts/AI/短视频/影视解说类/media",
     "_posts/AI/短视频/影视解说类/实现流程/视频内容",
     "_posts/AI/短视频/影视解说类/短视频平台",

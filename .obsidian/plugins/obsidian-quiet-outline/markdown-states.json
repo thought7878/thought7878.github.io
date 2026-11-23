@@ -3485,12 +3485,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 0
+        "line": 7,
+        "ch": 25
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 7,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -48117,15 +48117,15 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 251.85872395833334,
+    "scroll": 143.17345854004253,
     "cursor": {
       "from": {
-        "line": 272,
-        "ch": 31
+        "line": 165,
+        "ch": 26
       },
       "to": {
-        "line": 272,
-        "ch": 40
+        "line": 165,
+        "ch": 28
       }
     },
     "expandedKeys": [
@@ -48843,14 +48843,14 @@
     "expandedKeys": []
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-23.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.867838541666668,
     "cursor": {
       "from": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       },
       "to": {
-        "line": 29,
+        "line": 31,
         "ch": 0
       }
     },
@@ -48943,5 +48943,70 @@
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/动画/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/动画/借鉴的动画.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-6",
+      "item-2-1"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/动画/参考的动画.md": {
+    "scroll": 6.583333333333333,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 48
+      },
+      "to": {
+        "line": 21,
+        "ch": 48
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-24.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
