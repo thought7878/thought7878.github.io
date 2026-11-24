@@ -46892,7 +46892,7 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/工具/hongguo-web（sunnysky123）.md": {
-    "scroll": 115.873046875,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 118,
@@ -48117,7 +48117,7 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 143.17345854004253,
+    "scroll": 132.4011434016198,
     "cursor": {
       "from": {
         "line": 165,
@@ -48129,7 +48129,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-11.md": {
@@ -48994,15 +48995,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-24.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 25.763671875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -49071,14 +49072,14 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md": {
-    "scroll": 0,
+    "scroll": 6.6145181765724175,
     "cursor": {
       "from": {
-        "line": 17,
+        "line": 13,
         "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 13,
         "ch": 0
       }
     },
@@ -49097,5 +49098,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-25.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
