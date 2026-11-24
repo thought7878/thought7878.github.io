@@ -22,7 +22,7 @@
 ## 各自擅长什么
 [04:28]
 
-![[_posts/AI/短视频/影视解说类/实现流程/动画/media/e6998dfc104fc53f9fca5bb728282d21_MD5.webp]]
+![[e6998dfc104fc53f9fca5bb728282d21_MD5.webp]]
 
 # 该用哪一个
 [06:51]
@@ -30,13 +30,13 @@
 # 实操
 [07:33]
 
-![[_posts/AI/短视频/影视解说类/实现流程/动画/media/693f36c97cd40802b3684e779e565595_MD5.webp]]
+![[693f36c97cd40802b3684e779e565595_MD5.webp]]
 
-![[_posts/AI/短视频/影视解说类/实现流程/动画/media/9cb8ef8530c7ae07ab1b8a48ca62f030_MD5.webp]]
+![[9cb8ef8530c7ae07ab1b8a48ca62f030_MD5.webp]]
 
 
 # 总结
 [11:03]
 
-![[_posts/AI/短视频/影视解说类/实现流程/动画/media/d0229aad39e357f9a5b975a163d014c2_MD5.webp]]
+![[d0229aad39e357f9a5b975a163d014c2_MD5.webp]]
 
