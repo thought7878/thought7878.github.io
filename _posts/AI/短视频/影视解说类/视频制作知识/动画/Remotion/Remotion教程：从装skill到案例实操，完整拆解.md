@@ -15,6 +15,11 @@
 
 # 动画制作前的准备
 
-
+```
+帮我安装Remotion官方的Agent Skills:
+https://github.com/remotion-dev/skills
+请按照官方推荐的方法安装全部Skills,完成后检查是否安装成
+功,并告诉我有哪些Skills可用。
+```
 
 # 动画制作过程拆解
