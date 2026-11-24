@@ -23,3 +23,11 @@ https://github.com/remotion-dev/skills
 ```
 
 # 动画制作过程拆解
+
+![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/821f88a51818f82624780ff7dca91c87_MD5.webp]]
+
+![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/4beb6a0157ebb34a1cd276f9313cb27c_MD5.webp]]
+
+![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/0e0fefc817eac0359e329e3ab92cbfc9_MD5.webp]]
+
+## 用Studio来调整控制参数
