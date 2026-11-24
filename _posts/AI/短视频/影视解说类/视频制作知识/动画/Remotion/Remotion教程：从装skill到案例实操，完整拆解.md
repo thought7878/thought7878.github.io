@@ -31,3 +31,8 @@ https://github.com/remotion-dev/skills
 ![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/0e0fefc817eac0359e329e3ab92cbfc9_MD5.webp]]
 
 ## 用Studio来调整控制参数
+
+## 手绘风格的动画
+
+![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/db222d152586670ee74fc196fa566f4c_MD5.webp]]
+
