@@ -9,6 +9,8 @@
 
 # 不同模型、Agent的能力与局限
 
+![[_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/98c1b17553245bf5a7becfca49689f7c_MD5.webp]]
+
 
 
 # 动画制作前的准备
