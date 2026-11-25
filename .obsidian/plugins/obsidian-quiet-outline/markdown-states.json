@@ -48119,20 +48119,18 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 325.1455078125,
+    "scroll": 312.5849609375,
     "cursor": {
       "from": {
-        "line": 342,
-        "ch": 42
+        "line": 334,
+        "ch": 0
       },
       "to": {
-        "line": 342,
-        "ch": 42
+        "line": 334,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-2-2",
       "item-1-11"
     ]
   },
@@ -48351,12 +48349,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 132
+        "line": 8,
+        "ch": 130
       },
       "to": {
-        "line": 4,
-        "ch": 132
+        "line": 8,
+        "ch": 130
       }
     },
     "expandedKeys": []
@@ -48891,7 +48889,7 @@
     "expandedKeys": []
   },
   "file:/Users/ll/Library/Application Support/Doubao/Default/.doubao/agent_mode/workspace/.sessions/38454802592424706/.plans/38454802592424706_1795416937963_plan.md": {
-    "scroll": 56.90056738908009,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 65,
@@ -48903,7 +48901,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "file:/Users/ll/Desktop/资料/次数.md": {
@@ -49089,14 +49088,14 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md": {
-    "scroll": 0,
+    "scroll": 45.45678867419529,
     "cursor": {
       "from": {
-        "line": 68,
+        "line": 50,
         "ch": 0
       },
       "to": {
-        "line": 68,
+        "line": 50,
         "ch": 0
       }
     },
@@ -49105,15 +49104,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-25.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 26.701171875,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -49178,6 +49177,38 @@
     },
     "expandedKeys": [
       "item-2-0"
+    ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-26.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 8
+      },
+      "to": {
+        "line": 39,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "file:/Users/ll/.qoder-cn/plans/kindled-narrows-marten.md": {
+    "scroll": 84.29963842163181,
+    "cursor": {
+      "from": {
+        "line": 73,
+        "ch": 38
+      },
+      "to": {
+        "line": 73,
+        "ch": 38
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
     ]
   }
 }
