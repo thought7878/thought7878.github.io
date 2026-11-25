@@ -47850,15 +47850,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 16
+        "line": 1,
+        "ch": 17
       },
       "to": {
-        "line": 6,
-        "ch": 16
+        "line": 1,
+        "ch": 17
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/合并音频、视频、字幕.md": {
     "scroll": 0,
@@ -49130,5 +49132,55 @@
       }
     },
     "expandedKeys": []
+  },
+  "file:/Users/ll/.qoder-cn/plans/bold-ridge-linnet.md": {
+    "scroll": 53.43735408560311,
+    "cursor": {
+      "from": {
+        "line": 64,
+        "ch": 0
+      },
+      "to": {
+        "line": 164,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-2-11"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/不配音文字.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 16
+      },
+      "to": {
+        "line": 1,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/实现流程/标注规范（不配音文字）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
   }
 }

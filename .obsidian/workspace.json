@@ -848,6 +848,30 @@
             }
           },
           {
+            "id": "c27d360a21473522",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/AI/短视频/影视解说类/实现流程/标注规范（不配音文字）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "标注规范（不配音文字）"
+            }
+          },
+          {
             "id": "7ea1c27ebb456332",
             "type": "leaf",
             "state": {
@@ -872,7 +896,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -1065,13 +1089,15 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "f5dde97a78656ae2",
+  "active": "c27d360a21473522",
   "lastOpenFiles": [
+    "file:/Users/ll/.qoder-cn/plans/bold-ridge-linnet.md",
+    "_posts/AI/短视频/影视解说类/实现流程/标注规范（不配音文字）.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/10f77f92047e7454dbb42304e5a551ac_MD5.webp",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/3a8a6512c507c7990cedcae56a4a2e6e_MD5.webp",
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
-    "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
     "_posts/AI/短视频/影视解说类/收益、数据.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/4ae6ef4f535b6c5bb09ed0421a0c3aa4_MD5.webp",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/8c208cbf0a3b48b575a0889e5b706924_MD5.webp",
@@ -1086,7 +1112,6 @@
     "_posts/AI/短视频/影视解说类/需求分析/问题、需求.md",
     "_posts/AI/AI.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/0e0fefc817eac0359e329e3ab92cbfc9_MD5.webp",
-    "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/4beb6a0157ebb34a1cd276f9313cb27c_MD5.webp",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/参考的动画.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion",
@@ -1106,7 +1131,6 @@
     "_posts/AI/短视频/影视解说类/视频制作/测试 1.0/稿子 1.md",
     "_posts/AI/短视频/影视解说类/教程/AI 做视频.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-21.md",
-    "_posts/AI/短视频/影视解说类/实现流程/0.抓数据.md",
     "未命名.base",
     "_posts/读书笔记/兴趣/未命名.canvas",
     "_posts/读书笔记/兴趣/未命名 1.canvas",
