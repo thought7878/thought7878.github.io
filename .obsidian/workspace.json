@@ -805,7 +805,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/收益、数据.md",
+                "file": "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -820,7 +820,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "收益、数据"
+              "title": "2.分集 制作"
             }
           },
           {
@@ -829,7 +829,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
+                "file": "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -844,7 +844,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.视频制作全流程：脚本、配音、素材、skill、成片"
+              "title": "1.Remotion教程：从装skill到案例实操，完整拆解"
             }
           },
           {
@@ -872,7 +872,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -1038,7 +1038,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1065,12 +1065,12 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "c56cd344cda4ca88",
+  "active": "0bfef57d47b6d287",
   "lastOpenFiles": [
     "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
-    "_posts/AI/短视频/影视解说类/收益、数据.md",
-    "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
+    "_posts/AI/短视频/影视解说类/收益、数据.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/4ae6ef4f535b6c5bb09ed0421a0c3aa4_MD5.webp",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/8c208cbf0a3b48b575a0889e5b706924_MD5.webp",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/Remotion/media/a98eb45a88f2eca1a9c70550643a499d_MD5.webp",
