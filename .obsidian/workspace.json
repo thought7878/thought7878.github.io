@@ -824,6 +824,30 @@
             }
           },
           {
+            "id": "f93673df6fe2099f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ll/.workbuddy/plans/electric-cascade-turing-jJTTcJQ4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "electric-cascade-turing-jJTTcJQ4"
+            }
+          },
+          {
             "id": "0bfef57d47b6d287",
             "type": "leaf",
             "state": {
@@ -872,7 +896,7 @@
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -1067,9 +1091,9 @@
   },
   "active": "b3f2d3953c35f9d1",
   "lastOpenFiles": [
+    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
     "_posts/AI/短视频/影视解说类/实现流程/标注规范（不配音文字）.md",
-    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "_posts/AI/短视频/工具/视频工具.md",
     "file:/Users/ll/.qoder-cn/plans/kindled-narrows-marten.md",
     "file:/Users/ll/Library/Application Support/Doubao/Default/.doubao/agent_mode/workspace/.sessions/38454802592424706/.plans/38454802592424706_1795416937963_plan.md",
