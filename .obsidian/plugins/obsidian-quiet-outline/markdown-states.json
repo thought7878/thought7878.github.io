@@ -49349,11 +49349,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 19
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 19
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -49419,20 +49419,45 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 调研报告.md": {
-    "scroll": 458.10273473108475,
+    "scroll": 551.7333984375,
     "cursor": {
       "from": {
-        "line": 463,
+        "line": 573,
         "ch": 0
       },
       "to": {
-        "line": 463,
+        "line": 573,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-12",
-      "item-2-29"
+      "item-2-29",
+      "item-2-38"
+    ]
+  },
+  "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/使用指南（初次使用者版）.md": {
+    "scroll": 288.814453125,
+    "cursor": {
+      "from": {
+        "line": 308,
+        "ch": 81
+      },
+      "to": {
+        "line": 308,
+        "ch": 81
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-9",
+      "item-2-62",
+      "item-2-16",
+      "item-2-23",
+      "item-3-31",
+      "item-3-35",
+      "item-2-40"
     ]
   }
 }
