@@ -853,7 +853,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft.md",
+                "file": "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 上手指南.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -868,7 +868,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "video-talkcraft"
+              "title": "video-talkcraft 上手指南"
+            }
+          },
+          {
+            "id": "d1197f96817c9a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/Users/ll/.workbuddy/plans/electric-cascade-turing-Y_sYfKK8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "electric-cascade-turing-Y_sYfKK8"
             }
           },
           {
@@ -896,7 +920,7 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 36
       }
     ],
     "direction": "vertical"
@@ -1062,7 +1086,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1089,10 +1113,11 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "b3f2d3953c35f9d1",
+  "active": "d1197f96817c9a14",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 上手指南.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-27.md",
@@ -1130,7 +1155,6 @@
     "_posts/tools/资源.md",
     "DailyNote/Journal/01 Daily/2026/11/2026-11-23.md",
     "_posts/读书笔记/健康/资料.md",
-    "_posts/AI/短视频/影视解说类/实现流程/技能/生成配音稿.md",
     "_posts/AI/短视频/影视解说类/实现流程/技能",
     "未命名 1.base",
     "未命名.base",
