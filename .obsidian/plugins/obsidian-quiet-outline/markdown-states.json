@@ -49197,15 +49197,15 @@
     ]
   },
   "file:/Users/ll/.qoder-cn/plans/kindled-narrows-marten.md": {
-    "scroll": 17.825520833333332,
+    "scroll": 11.162760416666666,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 25,
+        "ch": 40
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 25,
+        "ch": 40
       }
     },
     "expandedKeys": [
@@ -49350,15 +49350,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/上手指南.md": {
     "scroll": 0,
@@ -49419,15 +49421,15 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 调研报告.md": {
-    "scroll": 553.1181640625,
+    "scroll": 655.0345052083334,
     "cursor": {
       "from": {
-        "line": 566,
-        "ch": 8
+        "line": 655,
+        "ch": 11
       },
       "to": {
-        "line": 566,
-        "ch": 18
+        "line": 655,
+        "ch": 11
       }
     },
     "expandedKeys": [
@@ -49441,21 +49443,19 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/使用指南（初次使用者版）.md": {
-    "scroll": 76.04124031007751,
+    "scroll": 196.875,
     "cursor": {
       "from": {
-        "line": 86,
-        "ch": 99
+        "line": 208,
+        "ch": 17
       },
       "to": {
-        "line": 86,
-        "ch": 64
+        "line": 208,
+        "ch": 17
       }
     },
     "expandedKeys": [
-      "item-2-16",
-      "item-2-9",
-      "item-2-4"
+      "item-2-16"
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-28.md": {
@@ -49492,14 +49492,38 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 51
+        "line": 2,
+        "ch": 37
       },
       "to": {
-        "line": 0,
-        "ch": 51
+        "line": 2,
+        "ch": 37
       }
     },
     "expandedKeys": []
+  },
+  "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/口播稿要求详解.md": {
+    "scroll": 474.2099609375,
+    "cursor": {
+      "from": {
+        "line": 469,
+        "ch": 23
+      },
+      "to": {
+        "line": 469,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-13",
+      "item-2-19",
+      "item-2-25",
+      "item-2-32",
+      "item-2-38",
+      "item-2-44"
+    ]
   }
 }
