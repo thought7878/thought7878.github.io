@@ -7,7 +7,7 @@
 
 ## 0. 一句话结论
 
-video-talkcraft **不是一个视频编辑器，也不是模板站**，而是一个 **Claude Code / Codex 的 "Agent Skill"（技能包）**——一套写给 AI 编程助手的操作手册 + 可执行脚本 + 108 张可复制的动效配方卡。
+video-talkcraft 不是一个视频编辑器，也不是模板站，而是一个 Claude Code / Codex 的 "Agent Skill"（**技能包**）——**一套写给 AI 编程助手的操作手册 + 可执行脚本 + 108 张可复制的动效配方卡**。
 你把「口播稿 + 一条成品配音」交给 AI，它替你算字级时间戳、写分镜、生成 Remotion 视频工程、渲染成 MP4。
 **必须有 AI 编程助手（Claude Code / Codex 等）+ 会写中文稿子 + 有耐心盯流程**，纯手工点鼠标用它会非常痛苦。
 
@@ -15,19 +15,19 @@ video-talkcraft **不是一个视频编辑器，也不是模板站**，而是一
 
 ## 1. 项目身份与元数据
 
-| 项 | 值 | 来源 |
-| --- | --- | --- |
-| 仓库 | https://github.com/Vincentwei1021/video-talkcraft | — |
-| Star / Fork | **2553 / 253** | [GitHub API, 2026-11-27] |
-| 创建 / 最后推送 | 2026-08-22 / **2026-11-25** | [GitHub API] |
-| 默认分支 | `main` | [GitHub API] |
-| 主语言 | HTML（GitHub 统计口径；实际是 TSX + Python 混合） | [GitHub API] |
-| 仓库体积 | 33,413 KB ≈ 33 MB（不含 node_modules） | [GitHub API] |
-| Open issues | 4 | [GitHub API] |
-| License | **PolyForm Noncommercial 1.0.0**（GitHub 识别为 "Other / NOASSERTION"） | [LICENSE 源码] |
-| 在线画廊 | https://vincentwei1021.github.io/video-talkcraft/ | [README] |
-| 姊妹项目 | https://github.com/Vincentwei1021/video-shotcraft（宣传片向，**22.8k star，Apache-2.0**） | [该仓库页面] |
-| 多语言 README | README.md(中) / README_EN.md / README_JA.md | [目录树] |
+| 项           | 值                                                                                 | 来源                       |
+| ----------- | --------------------------------------------------------------------------------- | ------------------------ |
+| 仓库          | https://github.com/Vincentwei1021/video-talkcraft                                 | —                        |
+| Star / Fork | **2553 / 253**                                                                    | [GitHub API, 2026-11-27] |
+| 创建 / 最后推送   | 2026-08-22 / **2026-11-25**                                                       | [GitHub API]             |
+| 默认分支        | `main`                                                                            | [GitHub API]             |
+| 主语言         | HTML（GitHub 统计口径；实际是 TSX + Python 混合）                                             | [GitHub API]             |
+| 仓库体积        | 33,413 KB ≈ 33 MB（不含 node_modules）                                                | [GitHub API]             |
+| Open issues | 4                                                                                 | [GitHub API]             |
+| License     | **PolyForm Noncommercial 1.0.0**（GitHub 识别为 "Other / NOASSERTION"）                | [LICENSE 源码]             |
+| 在线画廊        | https://vincentwei1021.github.io/video-talkcraft/                                 | [README]                 |
+| 姊妹项目        | https://github.com/Vincentwei1021/video-shotcraft（宣传片向，**22.8k star，Apache-2.0**） | [该仓库页面]                  |
+| 多语言 README  | README.md(中) / README_EN.md / README_JA.md                                        | [目录树]                    |
 
 
 **⚠️ 卡数量口径三套并存（重要，别被绕晕）：**
@@ -246,7 +246,7 @@ ln -s "$(pwd)" ~/.codex/skills/video-talkcraft    # Codex
 ### 5.2 开工体检（⭐ 每支新片第一步）
 
 ```bash
-bash <skill根>/runtime/check-runtime.sh --upgrade
+bash ~/.workbuddy/skills/video-talkcraft/runtime/check-runtime.sh --upgrade
 ```
 
 做 5 件事 [check-runtime.sh 源码]：① `npm ci` 装 runtime/node_modules ② `npx remotion browser ensure` 下共享无头浏览器 ③ 把 `workbench/node_modules` 软链到 runtime ④ 检查 Remotion 版本一致性（有新版就全家升级 + 冒烟渲 1 帧，不过自动回滚）⑤ 冒烟渲 `/tmp/talkcraft-smoke.png`
@@ -255,7 +255,7 @@ bash <skill根>/runtime/check-runtime.sh --upgrade
 ### 5.3 接新工程（依赖软链）
 
 ```bash
-bash <skill根>/runtime/link-runtime.sh <工程根>
+bash ~/.workbuddy/skills/video-talkcraft/runtime/link-runtime.sh <工程根>
 ```
 
 → 把 `<工程>/remotion/node_modules` 软链到 `runtime/node_modules`，并把 package.json 依赖版本对齐 runtime。
@@ -310,19 +310,19 @@ python3 scripts/beat_gap_check.py remotion/beats.json remotion/shots.json
 cd remotion && python3 ../scripts/freeze_probe.py --shots shots.json
 
 # ⑥-1 静帧抽样（一次 bundle 批量渲，比逐张 npx remotion still 快一个量级）
-node <skill根>/scripts/render_stills.mjs --times 2.0,7.2,...
+node ~/.workbuddy/skills/video-talkcraft/scripts/render_stills.mjs --times 2.0,7.2,...
 
 # ⑤-1 样板镜有声预览（只渲这一镜）
 cd remotion
-node <skill根>/scripts/render_shots.mjs --shots shots.json --only s01 --seg-audio --preview-dir out/preview
+node ~/.workbuddy/skills/video-talkcraft/scripts/render_shots.mjs --shots shots.json --only s01 --seg-audio --preview-dir out/preview
 open out/preview/s01.mp4
 
 # ⑥-2 首渲整片：K 段并行 + 拼装 + 整条音轨 + 混音
-node <skill根>/scripts/render_shots.mjs --shots shots.json --all --parallel 4 \
+node ~/.workbuddy/skills/video-talkcraft/scripts/render_shots.mjs --shots shots.json --all --parallel 4 \
      --concat out/assembled.mp4 --audio out/full-mix.wav --mux out/vN.mp4
 
 # 改一个镜头 → 只重渲该段±邻段
-node <skill根>/scripts/render_shots.mjs --shots shots.json --changed s14 \
+node ~/.workbuddy/skills/video-talkcraft/scripts/render_shots.mjs --shots shots.json --changed s14 \
      --concat out/assembled.mp4 --audio out/full-mix.wav --mux out/vN+1.mp4
 ```
 
@@ -354,8 +354,8 @@ python3 scripts/workbench_contract_lint.py <工程根>   # 工作台拆解契约
 ### 5.8 工作台（可选，后期微调）
 
 ```bash
-bash <skill根>/runtime/check-runtime.sh
-cd <skill根>/workbench
+bash ~/.workbuddy/skills/video-talkcraft/runtime/check-runtime.sh
+cd ~/.workbuddy/skills/video-talkcraft/workbench
 bash scripts/link-project.sh /path/to/<本片工程>   # 末行必须打印「拆解契约 OK」
 npm run dev &                                       # http://localhost:5199
 sleep 4 && curl -s http://localhost:5199 | grep -q '动效工作台' && echo "工作台 OK"
@@ -556,7 +556,7 @@ node --test workbench/tests/regressions.test.cjs scripts/render_shots.test.mjs
     或直接对 AI 说："帮我安装这个 skill：https://github.com/Vincentwei1021/video-talkcraft"
 
 [1] 依赖体检
-    bash <skill根>/runtime/check-runtime.sh --upgrade      # 末行 [runtime] OK
+    bash ~/.workbuddy/skills/video-talkcraft/runtime/check-runtime.sh --upgrade      # 末行 [runtime] OK
 
 [2] 写稿（JSON，一句一条，数字写汉字）
     script.json  →  {"sentences": ["第一句钩子。", "第二句。", "第三句结论。"]}
@@ -584,29 +584,29 @@ node --test workbench/tests/regressions.test.cjs scripts/render_shots.test.mjs
 
 [8] 建 Remotion 工程 + 接共享依赖
     mkdir -p remotion/src/scenes remotion/public
-    bash <skill根>/runtime/link-runtime.sh <工程根>
+    bash ~/.workbuddy/skills/video-talkcraft/runtime/link-runtime.sh <工程根>
     # 工程文件：src/index.ts（注册 Composition）· src/Root.tsx（1920×1080@30，数字字面量）
     #           src/Main.tsx（幕底→配音→镜头→字幕 四层顺序）
     #           src/theme.ts · src/shots.ts · src/timing.json（从第4步来）· src/scenes/S1..S3.tsx
     #           remotion/public/narration.wav（★ 名字必须是这个）
 
 [9] 样板镜预览（先只做 s01，渲一条有声单镜给自己看）
-    cd remotion && node <skill根>/scripts/render_shots.mjs --shots shots.json --only s01 --seg-audio --preview-dir out/preview
+    cd remotion && node ~/.workbuddy/skills/video-talkcraft/scripts/render_shots.mjs --shots shots.json --only s01 --seg-audio --preview-dir out/preview
     open out/preview/s01.mp4
     # 看：字号够大吗？字幕压到人了吗？卡片位置对吗？→ 改到满意再往下
 
 [10] 静帧抽查（比整渲便宜）
-    node <skill根>/scripts/render_stills.mjs --times 2.0,7.2,...
+    node ~/.workbuddy/skills/video-talkcraft/scripts/render_stills.mjs --times 2.0,7.2,...
 
 [11] 整片渲染
-    node <skill根>/scripts/render_shots.mjs --shots shots.json --all --parallel 4 \
+    node ~/.workbuddy/skills/video-talkcraft/scripts/render_shots.mjs --shots shots.json --all --parallel 4 \
          --concat out/assembled.mp4 --audio out/full-mix.wav --mux out/final.mp4
 
 [12] 三重验收
     python3 scripts/motion_check.py / sfx_check.py / beat_lint.py --shots shots.json
 
 [13] 交付 + 可选工作台微调
-    cd <skill根>/workbench && bash scripts/link-project.sh <工程根> && npm run dev
+    cd ~/.workbuddy/skills/video-talkcraft/workbench && bash scripts/link-project.sh <工程根> && npm run dev
     open 'http://localhost:5199/?tracks'
 ```
 

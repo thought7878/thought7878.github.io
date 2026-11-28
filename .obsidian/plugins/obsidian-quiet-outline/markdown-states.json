@@ -3036,7 +3036,7 @@
     "expandedKeys": []
   },
   "_posts/architect/System Design/frontendlead.com/Frontend Interview Handbook.md": {
-    "scroll": 596.8522135416666,
+    "scroll": 596.123046875,
     "cursor": {
       "from": {
         "line": 624,
@@ -16349,7 +16349,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "_posts/architect/_教程/高级前端工程师（大前端）- Brian/2.阶段二：【全栈开发能力-通识强化】PC端最小闭环打造全栈思维和实战/1.需求分析能力：与产品、后端沟通，设计工具/1.夯实基础，助力工作与效率/未命名.md": {
     "scroll": 0,
@@ -26800,7 +26802,7 @@
     "expandedKeys": []
   },
   "_posts/base/知识目录、路线图/知识目录/1.前端系统设计、前端架构/前端架构 实践/_SZ项目规划方案-答案.md": {
-    "scroll": 438.3815104166667,
+    "scroll": 480.76228906823184,
     "cursor": {
       "from": {
         "line": 509,
@@ -37171,7 +37173,7 @@
     ]
   },
   "_posts/architect/五层架构模型/五层架构模型.md": {
-    "scroll": 67.5164363982849,
+    "scroll": 67.70954422740988,
     "cursor": {
       "from": {
         "line": 75,
@@ -40538,7 +40540,7 @@
     "expandedKeys": []
   },
   "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md": {
-    "scroll": 471.40234375,
+    "scroll": 470.5823567708333,
     "cursor": {
       "from": {
         "line": 488,
@@ -45025,7 +45027,7 @@
     "expandedKeys": []
   },
   "_posts/architect/_教程/0.软件本质论/1. 课程概述.md": {
-    "scroll": 156.7060465116279,
+    "scroll": 155.85271317829458,
     "cursor": {
       "from": {
         "line": 173,
@@ -48119,7 +48121,7 @@
     ]
   },
   "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md": {
-    "scroll": 324.0949435763889,
+    "scroll": 311.0885416666667,
     "cursor": {
       "from": {
         "line": 328,
@@ -49195,15 +49197,15 @@
     ]
   },
   "file:/Users/ll/.qoder-cn/plans/kindled-narrows-marten.md": {
-    "scroll": 0,
+    "scroll": 17.825520833333332,
     "cursor": {
       "from": {
-        "line": 73,
-        "ch": 38
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 73,
-        "ch": 38
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -49271,15 +49273,15 @@
     ]
   },
   "DailyNote/Journal/01 Daily/2026/11/2026-11-27.md": {
-    "scroll": 23.759805411979325,
+    "scroll": 29.930338541666668,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 6
+        "line": 31,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -49373,7 +49375,7 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 上手指南.md": {
-    "scroll": 117.05351170568562,
+    "scroll": 70.59627906976745,
     "cursor": {
       "from": {
         "line": 85,
@@ -49384,9 +49386,7 @@
         "ch": 27
       }
     },
-    "expandedKeys": [
-      "item-2-5"
-    ]
+    "expandedKeys": []
   },
   "file:/Users/ll/.workbuddy/plans/electric-cascade-turing-Y_sYfKK8.md": {
     "scroll": 369.4202473958333,
@@ -49419,45 +49419,69 @@
     "expandedKeys": []
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 调研报告.md": {
-    "scroll": 551.7333984375,
+    "scroll": 224.51236979166666,
     "cursor": {
       "from": {
-        "line": 573,
-        "ch": 0
+        "line": 234,
+        "ch": 45
       },
       "to": {
-        "line": 573,
+        "line": 234,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-2-12",
-      "item-2-29",
+      "item-2-22",
       "item-2-38"
     ]
   },
   "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/使用指南（初次使用者版）.md": {
-    "scroll": 288.814453125,
+    "scroll": 76.04124031007751,
     "cursor": {
       "from": {
-        "line": 308,
-        "ch": 81
+        "line": 86,
+        "ch": 99
       },
       "to": {
-        "line": 308,
-        "ch": 81
+        "line": 86,
+        "ch": 64
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-2-4",
-      "item-2-9",
-      "item-2-62",
       "item-2-16",
-      "item-2-23",
-      "item-3-31",
-      "item-3-35",
-      "item-2-40"
+      "item-2-9",
+      "item-2-4"
     ]
+  },
+  "DailyNote/Journal/01 Daily/2026/11/2026-11-28.md": {
+    "scroll": 23.759805411979325,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 6
+      },
+      "to": {
+        "line": 30,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "_posts/methods/学习方法/_马斯克的2条学习法则.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
