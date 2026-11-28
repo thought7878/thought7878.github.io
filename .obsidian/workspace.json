@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/AI/短视频/影视解说类/视频制作知识/动画/案例/动画案例.md",
+                "file": "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "动画案例"
+              "title": "全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程"
             }
           },
           {
@@ -392,7 +392,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -585,10 +585,15 @@
       "agent-hub:DuoAI-Agent-hub": false
     }
   },
-  "active": "0bfef57d47b6d287",
+  "active": "f93673df6fe2099f",
   "lastOpenFiles": [
-    "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/使用指南（初次使用者版）.md",
+    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/1.Remotion教程：从装skill到案例实操，完整拆解.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/2.视频制作全流程：脚本、配音、素材、skill、成片.md",
+    "_posts/AI/短视频/影视解说类/教程/全网 150 万播放的 AI 动画，怎么做的？分享我的制作全流程.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/口播稿要求详解.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/动画/案例/动画案例.md",
+    "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/使用指南（初次使用者版）.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft 调研报告.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft/video-talkcraft.md",
     "file:/Users/ll/.qoder-cn/plans/kindled-narrows-marten.md",
@@ -602,7 +607,6 @@
     "_posts/methods/构建系统/如何建立系统？.md",
     "_posts/methods/学习方法/_马斯克的2条学习法则.md",
     "_posts/base/知识目录、路线图/知识目录/_面试.md",
-    "_posts/AI/短视频/影视解说类/实现流程/2.分集 制作.md",
     "_posts/engineering/_教程/软件工程之美/原文/08-开发编码篇 (7讲)/25丨有哪些方法可以提高开发效率？_总结.md",
     "_posts/architect/_教程/0.软件本质论/1. 课程概述.md",
     "_posts/typescript/教程/TypeScript Pro 基础知识/TypeScript基础知识 介绍.md",
@@ -610,10 +614,6 @@
     "_posts/devops/课程/GitLab CICD：面向初学者的管道构建、持续集成、持续部署及 DevOps 相关知识/课程介绍.md",
     "_posts/后端/Next.js/渲染方式.md",
     "_posts/后端/课程/Node.js、Express、MongoDB & More：The Complete Bootcamp/介绍.md",
-    "_posts/AI/课程/AI Coder：Complete Claude Code & Coding Agents Course/2.第二周 - 作为专业人士的氛围工程/41.Claude Code命令、快捷键与配置深度剖析.md",
-    "_posts/设计/Figma/Figma 从入门到精通：一篇写给设计师和前端开发者的完整指南.md",
-    "_posts/architect/五层架构模型/五层架构模型.md",
-    "_posts/AI/课程/AI工程师智能体方向：智能体与MCP完整课程/介绍.md",
     "_posts/AI/短视频/影视解说类/视频制作知识/video-talkcraft",
     "_posts/AI/短视频/影视解说类/视频制作知识/动画/案例",
     "_posts/AI/短视频/影视解说类/视频制作知识/Remotion/media/10f77f92047e7454dbb42304e5a551ac_MD5.webp",
